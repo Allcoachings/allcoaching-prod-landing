@@ -1,0 +1,67 @@
+{
+  "name": "AllCoaching — Educator Marketplace & Coaching Platform",
+  "short_name": "AllCoaching",
+  "description": "Launch and grow your coaching business with AllCoaching — India's educator-first marketplace and platform.",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2563EB",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["education", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/assets/fevicon.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/fevicon.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/fevicon.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/fevicon.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Educator Login",
+      "short_name": "Login",
+      "description": "Sign in to your educator dashboard",
+      "url": "https://educator.allcoaching.in/"
+    },
+    {
+      "name": "Pricing",
+      "short_name": "Pricing",
+      "url": "/#pricing"
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=org.student.allcoaching",
+      "id": "org.student.allcoaching"
+    }
+  ],
+  "prefer_related_applications": false
+}

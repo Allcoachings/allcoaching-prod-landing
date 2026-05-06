@@ -1,0 +1,182 @@
+# =====================================================================
+# AllCoaching — Apache .htaccess (production)
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# Default charset
+# ---------------------------------------------------------------------
+AddDefaultCharset UTF-8
+
+# ---------------------------------------------------------------------
+# Follow symlinks (required for mod_rewrite)
+# ---------------------------------------------------------------------
+Options -Indexes +FollowSymLinks
+
+# ---------------------------------------------------------------------
+# Custom error pages (real HTTP status codes — no soft 404s)
+# ---------------------------------------------------------------------
+ErrorDocument 404 /404.html
+ErrorDocument 403 /404.html
+ErrorDocument 500 /404.html
+
+# ---------------------------------------------------------------------
+# Force HTTPS + canonical host (non-www → bare allcoaching.in)
+# ---------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # HTTPS + canonical host (non-www → bare allcoaching.in)
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://allcoaching.in%{REQUEST_URI} [R=301,L,NE]
+
+  # Lowercase URL enforcement (prevents duplicate content from mixed-case URLs)
+  RewriteMap lc int:tolower
+  RewriteCond %{REQUEST_URI} [A-Z]
+  RewriteRule ^ ${lc:%{REQUEST_URI}} [R=301,L,NE]
+
+  # 301 — old slugs → new blog slugs
+  RewriteRule ^app-fatigue-allcoaching/?$ /blog/edtech-marketplace-india-app-fatigue [R=301,L,NE]
+  RewriteRule ^classplus-vs-graphy-vs-allcoaching/?$ /blog/classplus-vs-graphy-vs-allcoaching [R=301,L,NE]
+
+  # Strip trailing .html — pretty URLs (/about → /about.html internally)
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+  RewriteRule ^ /%1 [R=301,L,NE]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^(.+?)/?$ $1.html [L]
+</IfModule>
+
+# ---------------------------------------------------------------------
+# Correct MIME types
+# ---------------------------------------------------------------------
+<IfModule mod_mime.c>
+  AddType image/svg+xml                   .svg svgz
+  AddType image/webp                      .webp
+  AddType image/avif                      .avif
+  AddType image/x-icon                    .ico
+  AddType application/manifest+json       .webmanifest
+  AddType application/json                .json
+  AddType application/javascript          .js
+  AddType text/css                        .css
+  AddType font/woff                       .woff
+  AddType font/woff2                      .woff2
+  AddType font/ttf                        .ttf
+  AddType font/otf                        .otf
+  AddCharset UTF-8                        .html .css .js .json .xml .webmanifest .svg .txt
+</IfModule>
+
+# ---------------------------------------------------------------------
+# Compression (Brotli preferred, gzip fallback)
+# ---------------------------------------------------------------------
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/css text/xml text/javascript
+  AddOutputFilterByType BROTLI_COMPRESS application/javascript application/json application/xml
+  AddOutputFilterByType BROTLI_COMPRESS application/manifest+json application/rss+xml
+  AddOutputFilterByType BROTLI_COMPRESS image/svg+xml font/ttf font/otf
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml text/javascript
+  AddOutputFilterByType DEFLATE application/javascript application/json application/xml
+  AddOutputFilterByType DEFLATE application/manifest+json application/rss+xml
+  AddOutputFilterByType DEFLATE image/svg+xml font/ttf font/otf
+</IfModule>
+
+# ---------------------------------------------------------------------
+# Browser caching (Cache-Control + Expires)
+# ---------------------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault                              "access plus 1 month"
+
+  # HTML — short cache so updates roll out fast
+  ExpiresByType text/html                     "access plus 0 seconds"
+
+  # Data
+  ExpiresByType application/json              "access plus 0 seconds"
+  ExpiresByType application/manifest+json     "access plus 1 week"
+  ExpiresByType application/xml               "access plus 1 hour"
+  ExpiresByType text/xml                      "access plus 1 hour"
+
+  # CSS / JS — long cache; bust via filename or query string
+  ExpiresByType text/css                      "access plus 1 year"
+  ExpiresByType application/javascript        "access plus 1 year"
+
+  # Images
+  ExpiresByType image/png                     "access plus 1 year"
+  ExpiresByType image/jpeg                    "access plus 1 year"
+  ExpiresByType image/webp                    "access plus 1 year"
+  ExpiresByType image/avif                    "access plus 1 year"
+  ExpiresByType image/svg+xml                 "access plus 1 year"
+  ExpiresByType image/x-icon                  "access plus 1 year"
+  ExpiresByType image/gif                     "access plus 1 year"
+
+  # Fonts
+  ExpiresByType font/woff                     "access plus 1 year"
+  ExpiresByType font/woff2                    "access plus 1 year"
+  ExpiresByType font/ttf                      "access plus 1 year"
+  ExpiresByType font/otf                      "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+  # HTML — never cache aggressively (must-revalidate)
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  # Static assets — long, immutable
+  <FilesMatch "\.(css|js|woff2?|ttf|otf|svg|png|jpe?g|webp|avif|gif|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # Service worker MUST NOT be cached (otherwise updates won't ship)
+  <FilesMatch "sw\.js$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+    Header set Service-Worker-Allowed "/"
+  </FilesMatch>
+
+  # Manifest — short cache
+  <FilesMatch "\.webmanifest$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+
+  # ---- Security headers ----
+  Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+  Header always set X-Content-Type-Options    "nosniff"
+  Header always set X-Frame-Options           "SAMEORIGIN"
+  Header always set Referrer-Policy           "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy        "geolocation=(), microphone=(), camera=(), payment=(), usb=(), interest-cohort=()"
+  Header always set Cross-Origin-Opener-Policy "same-origin-allow-popups"
+  Header always set X-XSS-Protection          "1; mode=block"
+
+  # CORS for fonts/SVG (so they load on subdomains/CDN)
+  <FilesMatch "\.(woff2?|ttf|otf|eot|svg)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+
+  # Strip ETag in favor of Cache-Control + Last-Modified
+  Header unset ETag
+</IfModule>
+FileETag None
+
+# ---------------------------------------------------------------------
+# Block hidden / sensitive files
+# ---------------------------------------------------------------------
+<FilesMatch "^\.(?!well-known)">
+  Require all denied
+</FilesMatch>
+
+<FilesMatch "(^#.*#|\.(bak|conf|dist|fla|in[ci]|log|orig|psd|sh|sql|sw[op])|~)$">
+  Require all denied
+</FilesMatch>
+
+# ---------------------------------------------------------------------
+# Cleaner default behaviour
+# ---------------------------------------------------------------------
+ServerSignature Off

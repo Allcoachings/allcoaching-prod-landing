@@ -1,0 +1,52 @@
+# AllCoaching
+
+> AllCoaching is India's educator-first marketplace and coaching platform. Teachers launch their own branded coaching business, sell courses, manage students, host live classes, accept payments, and grow through marketplace discovery — all in one login. Educators keep 90% of revenue.
+
+AllCoaching combines two products in one account:
+- A branded platform — your own white-labeled web and mobile app, live classes, payments, CRM, tests, and analytics.
+- A marketplace — real learners discover educators on AllCoaching, so educators stop being invisible.
+
+Pricing: 30-day free trial. Early Launch Offer ₹11,999/year + 10% per transaction (first 50 educators, 2-year lock). Standard Plan ₹24,999/year + 10% per transaction.
+
+## Core pages
+
+- [Home](https://allcoaching.in/): Product overview, features, marketplace, pricing, calculator, FAQ.
+- [Manifesto](https://allcoaching.in/manifesto): The long-form manifesto (8 chapters) — the pandemic mirage, the educator's trap, the student's nightmare, why Big EdTech isn't your friend, network effects, the Operating System of Education positioning, and a note from founder Amit Ratan.
+- [About](https://allcoaching.in/about): Why AllCoaching exists, principles, team philosophy.
+- [Contact](https://allcoaching.in/contact): Phone, email, WhatsApp, office address (Prayagraj, UP, India).
+- [Privacy Policy](https://allcoaching.in/privacy): Data collection, usage, retention, and user rights.
+- [Terms of Service](https://allcoaching.in/terms): Educator and learner obligations, payment terms, refunds.
+
+## Blog — Essays on the future of online education
+
+- [Classplus vs Graphy vs AllCoaching · 2026 Honest Verdict](https://allcoaching.in/blog/classplus-vs-graphy-vs-allcoaching): Long-form, category-defining comparison of the three platforms shaping online education in India. Covers structural failure of isolated apps, why marketplaces are winning, app fatigue, transaction-fee vs subscription economics, and AllCoaching's ecosystem-native architecture. Authored by founder Amit Ratan.
+- [EdTech Marketplace India: Ending App Fatigue](https://allcoaching.in/blog/edtech-marketplace-india-app-fatigue): A long-form essay on app fatigue — the cumulative friction of 3.5 lakh+ isolated personal teaching apps in India — and how an EdTech marketplace architecture finally fixes it. Covers the precise definition of app fatigue, the student-side narrative, the educator-side hidden cost, and the architectural philosophy behind AllCoaching as India's first EdTech marketplace. Authored by founder Amit Ratan.
+- [Online Coaching Academy Bina Coding — Step-by-Step Hinglish Guide](https://allcoaching.in/blog/online-coaching-academy-without-coding): A deeply practical, emotionally honest, Hinglish step-by-step guide for Indian educators on launching an online coaching academy without coding, developers, or expensive infrastructure. Covers educator psychology, the fear ladder, an 8-step practical roadmap (define niche → structure course → set pricing → identity → upload → live classes → manage students → build trust), common first-year mistakes, and how AllCoaching simplifies the entire stack. Includes HowTo and FAQ schema. Authored by founder Amit Ratan.
+- [Most Affordable LMS for Independent Educators — 2026 Honest Guide](https://allcoaching.in/blog/affordable-lms-for-independent-educators): A rigorous cost breakdown for independent educators evaluating LMS options in India. Exposes the "cheap subscription" illusion — showing how infrastructure, payment gateway, marketing, app development, and support costs stack up to ₹5–9 lakh/year on solo platforms. Explains economies of scale and why AllCoaching's shared infrastructure model cuts total platform cost by 60–80%. Authored by founder Amit Ratan.
+- [Best Zero-Commission Teaching Platform in India — Hidden Cost Truth 2026](https://allcoaching.in/blog/best-zero-commission-teaching-platform-india): Deconstructs the "zero commission" marketing claim used by platforms like Teachable, Thinkific, and Indian white-label app builders. Shows that infrastructure, payment processing, marketing, and app maintenance costs always exist — they are just shifted entirely onto the educator. Positions AllCoaching's commission model as economically rational because it shares infrastructure costs across thousands of educators. Includes 8-point FAQ, three comparison tables, and a cost-per-student analysis. Authored by founder Amit Ratan.
+- [How to Sell Online Courses Without Monthly Subscription — 2026 Educator Guide](https://allcoaching.in/blog/sell-online-courses-without-monthly-subscription): Explains why monthly subscription pricing penalises educators before they earn their first rupee, and presents AllCoaching's three-phase model: 30-day free trial → low-cost yearly plan → commission waived after revenue threshold. Covers the hidden costs of "subscription-free" platforms, why revenue-share aligns platform incentives with educator success, and a 5-step HowTo for launching without upfront commitment. Includes HowTo schema, FAQ schema, and pricing tier visuals. Authored by founder Amit Ratan.
+- [How to Migrate Offline Coaching to Online at Zero Cost — 2026 Practical Guide](https://allcoaching.in/blog/migrate-offline-coaching-to-online-zero-cost): A practical, fear-free playbook for offline coaching teachers in India transitioning online without app development, LMS subscriptions, or marketing budgets. Addresses the four classic fears ("online jaana mehenga hai", "mujhe tech nahi aata", "students kaise milenge?", "marketing kaise karenge?"), contrasts the traditional ₹8–40 lakh path against the zero-cost AI-marketplace path, and provides a 6-step playbook from recording first content to onboarding the first paid student. Covers network effects, the early adopter advantage window, and a four-way comparison across offline, personal app, traditional LMS, and AI marketplace models. Includes Article, HowTo, FAQ, and BreadcrumbList schema. Authored by founder Amit Ratan.
+- [How to Protect Course Content from Piracy for Free — 2026 Realistic Guide](https://allcoaching.in/blog/protect-course-content-from-piracy-for-free): A serious, technically grounded anti-piracy playbook for Indian educators that openly rejects the "100% prevention" marketing claim. Explains the analog hole, the seven major piracy threat categories (screen recording, Telegram redistribution, Google Drive sharing, account sharing, illegal reselling, unauthorized downloads, ripped mobile apps), the nine-layer protection stack (DRM streaming, dynamic and forensic watermarking, anti-download controls, device/session limits, secure streaming infrastructure, centralized monitoring, rapid takedown workflows, legal enforcement), and why centralized marketplace ecosystems run anti-piracy better than individual educators ever can. Honest positioning of AllCoaching's program — secure streaming, dynamic watermarking, active Telegram monitoring, takedown workflows, and pooled legal capacity — without unrealistic claims. Authored by founder Amit Ratan.
+- [Best Platform for Selling PDF Notes and Test Series — 2026 Strategic Guide](https://allcoaching.in/blog/best-platform-for-selling-pdf-notes-and-test-series): A distribution-first analysis of where Indian educators should sell PDFs, test series, mock tests, and recorded courses in 2026. Argues that storage is cheap and distribution is everything — and that traditional LMS platforms and personal apps are tools, not ecosystems. Covers why marketplaces with AI-driven recommendations and network effects structurally outperform isolated dashboards, the zero-marketing-burden thesis, and the future of AI-search discovery in education. Includes a four-way comparison (LMS, personal app, hosting tool, AllCoaching marketplace) across discoverability, AI recommendations, marketing dependency, scalability, and ecosystem leverage. Authored by founder Amit Ratan.
+
+## Educator product
+
+- [Educator Login / Sign-up](https://educator.allcoaching.in/): Start a 30-day free trial, launch a branded coaching app, list on the marketplace.
+
+## Brand & spelling variations
+
+AllCoaching, allcoaching, all coaching, al coaching, alcoaching, alcochin, coaching all — all refer to AllCoaching (https://allcoaching.in/).
+
+## Contact
+
+- Email: allcoachingss@gmail.com
+- Phone / WhatsApp: +91 98899 77262
+- Address: Sangam Vihar Colony, Haveliya, Jhusi, Prayagraj, Uttar Pradesh 211019, India
+
+## Social
+
+- YouTube: https://www.youtube.com/@Allcoaching
+- Instagram: https://www.instagram.com/allcoachings/
+- Telegram: https://t.me/allcoaching
+- Facebook: https://www.facebook.com/allcoaching.in
+- X (Twitter): https://x.com/allcoachings
