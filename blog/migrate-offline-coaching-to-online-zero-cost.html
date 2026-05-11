@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#2563EB" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#0B1A3F" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#C58B43" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#15110D" media="(prefers-color-scheme: dark)" />
   <meta name="color-scheme" content="light" />
-  <meta name="msapplication-TileColor" content="#2563EB" />
-  <meta name="msapplication-navbutton-color" content="#2563EB" />
+  <meta name="msapplication-TileColor" content="#C58B43" />
+  <meta name="msapplication-navbutton-color" content="#C58B43" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="AllCoaching" />
@@ -51,335 +51,10 @@
   <link rel="preconnect" href="https://allcoaching-bucket.b-cdn.net" crossorigin />
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="preload" as="image" href="https://allcoaching-bucket.b-cdn.net/Blog/migrate-offline-coaching-to-online-zero-cost.webp" fetchpriority="high" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../dist/tw.min.css" />
   <link rel="stylesheet" href="../styles.css" />
-
-  <style>
-    .kicker{ font-family:'Inter',sans-serif; font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:800; color:#2563EB; }
-    .h-mast{ font-size: clamp(2.4rem, 5.6vw, 4.6rem); line-height:1.02; font-weight:900; letter-spacing:-.035em; }
-    .h-chap{ font-size: clamp(1.7rem, 3.2vw, 2.5rem); line-height:1.15; font-weight:800; letter-spacing:-.022em; }
-    .h-mani{ font-size: clamp(1.9rem, 3.6vw, 2.8rem); line-height:1.1; font-weight:900; letter-spacing:-.025em; }
-
-    .article-body p{ font-size:17px; line-height:1.85; color:#334155; font-weight:400; }
-    .article-body p + p{ margin-top:1.25rem; }
-    .article-body strong{ color:#0F172A; font-weight:700; }
-    .article-body em{ font-style: italic; color: #0F172A; }
-    .article-body ul, .article-body ol{ margin: 1.1rem 0 1.4rem 1.25rem; }
-    .article-body ul li, .article-body ol li{ margin: .55rem 0; line-height: 1.75; color:#334155; font-size: 16.5px; }
-    .article-body a{ color:#1D4ED8; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
-    .article-body a:hover{ color:#2563EB; }
-
-    .mast-dark{
-      background:
-        radial-gradient(60% 45% at 15% 0%, rgba(37,99,235,0.10), transparent 60%),
-        radial-gradient(50% 35% at 85% 0%, rgba(46,158,74,0.08), transparent 60%),
-        radial-gradient(35% 35% at 50% 100%, rgba(244,184,26,0.06), transparent 60%),
-        #fff;
-      color:#0F172A; position:relative; overflow:hidden;
-    }
-    .mast-dark::before{ content:""; position:absolute; top:-30%; right:-10%; width:560px; height:560px; border-radius:999px; border:1px solid rgba(37,99,235,.12); pointer-events:none; }
-    .mast-dark::after{ content:""; position:absolute; top:-10%; right:5%; width:280px; height:280px; border-radius:999px; border:1px solid rgba(46,158,74,.12); pointer-events:none; }
-
-    .brand-pill{ font-family:'Inter'; font-size:11px; letter-spacing:.18em; text-transform:uppercase; font-weight:800; color:#1D4ED8; padding:6px 12px; border-radius:6px; border:1px solid rgba(37,99,235,.2); }
-
-    .drop-cap::first-letter{
-      font-family:'Plus Jakarta Sans', Inter, sans-serif;
-      font-size: 4.5rem; font-weight:900; line-height:.9;
-      float:left; padding: .15rem .55rem 0 0;
-      color:#2563EB; letter-spacing:-.04em;
-    }
-
-    .pull{
-      position:relative; padding: 1.9rem 2rem 1.9rem 2.4rem;
-      background: linear-gradient(160deg, #F5F3FF 0%, #FDFCFF 65%, #FFFFFF 100%);
-      border-left: 4px solid #8B5CF6;
-      border-radius: 0 14px 14px 0;
-      margin: 2.4rem 0;
-      box-shadow: 0 2px 8px rgba(139,92,246,.06), 0 16px 36px -16px rgba(139,92,246,.1);
-    }
-    .pull p{
-      font-family:'Plus Jakarta Sans'; font-size: clamp(1.15rem, 2vw, 1.45rem); line-height:1.5;
-      font-weight:700; color:#0F172A; letter-spacing:-.012em;
-    }
-
-    .pull-red{
-      position:relative; padding: 1.9rem 2rem 1.9rem 2.4rem;
-      background: linear-gradient(160deg, #FFF5F5 0%, #FFFAFA 65%, #FFFFFF 100%);
-      border-left: 4px solid #EF4444;
-      border-radius: 0 14px 14px 0;
-      margin: 2.4rem 0;
-      box-shadow: 0 2px 8px rgba(239,68,68,.06), 0 16px 36px -16px rgba(239,68,68,.1);
-    }
-    .pull-red p{
-      font-family:'Plus Jakarta Sans'; font-size: clamp(1.15rem, 2vw, 1.45rem); line-height:1.5;
-      font-weight:700; color:#0F172A; letter-spacing:-.012em;
-    }
-
-    .epi{
-      background: linear-gradient(135deg, #F5F3FF 0%, #EDE9FE 100%);
-      color:#2E1065; text-align:center; padding: 3rem 1.5rem;
-      border-top: 1px solid rgba(139,92,246,.12);
-      border-bottom: 1px solid rgba(139,92,246,.12);
-    }
-    .epi p{
-      font-family:'Plus Jakarta Sans';
-      font-size: clamp(1.15rem, 2.4vw, 1.6rem); line-height:1.5; font-weight:600; max-width:780px; margin:0 auto;
-    }
-    .epi cite{ display:block; margin-top:1rem; font-style:normal; font-size:11px; letter-spacing:.18em; text-transform:uppercase; opacity:.55; font-family:'Inter'; font-weight:700; }
-
-    .stat-row{
-      display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
-      gap:1px; background:#E2E8F0; border:1px solid #E2E8F0; border-radius:14px; overflow:hidden;
-      box-shadow: 0 30px 60px -40px rgba(15,23,42,.18);
-    }
-    .stat-cell{ background:#fff; padding:1.6rem 1.25rem; text-align:center; }
-    .stat-num{ font-family:'Plus Jakarta Sans'; font-weight:900; font-size: clamp(1.9rem, 3.4vw, 2.6rem); color:#2563EB; line-height:1; letter-spacing:-.025em; }
-    .stat-num-red{ font-family:'Plus Jakarta Sans'; font-weight:900; font-size: clamp(1.9rem, 3.4vw, 2.6rem); color:#DC2626; line-height:1; letter-spacing:-.025em; }
-    .stat-num-green{ font-family:'Plus Jakarta Sans'; font-weight:900; font-size: clamp(1.9rem, 3.4vw, 2.6rem); color:#16A34A; line-height:1; letter-spacing:-.025em; }
-    .stat-lab{ font-size:13px; color:#64748B; line-height:1.5; margin-top:.55rem; }
-
-    .pcard{ border:1px solid #E2E8F0; border-radius:16px; padding:1.5rem; background:#fff; transition:border-color .25s, transform .25s, box-shadow .25s; }
-    .pcard:hover{ border-color:#2563EB; transform:translateY(-3px); box-shadow:0 28px 50px -28px rgba(37,99,235,.25); }
-    .pcard .pin{ font-family:'Inter'; font-size:11px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:#2563EB; }
-    .pcard .role{ font-family:'Inter'; font-size: 11.5px; font-weight: 600; color:#475569; margin-top:.3rem; }
-    .pcard h3{ font-family:'Plus Jakarta Sans'; font-size:1.1rem; font-weight:800; color:#0F172A; line-height:1.3; margin-top:.5rem; }
-    .pcard p{ font-size:14.5px; color:#475569; line-height:1.7; margin-top:.65rem; }
-    .pcard p + p{ margin-top: .65rem; }
-
-    .cost-card{
-      border:1px solid #FEE2E2; border-radius:16px; padding:1.5rem 1.75rem;
-      background: linear-gradient(180deg,#FFF5F5,#FFFFFF); margin: 1.25rem 0;
-    }
-    .cost-card .cc-l{ font-family:'Inter'; font-size:10px; font-weight:800; letter-spacing:.22em; text-transform:uppercase; color:#DC2626; }
-    .cost-card h3{ font-family:'Plus Jakarta Sans'; font-size:1.05rem; font-weight:800; color:#0F172A; margin:.35rem 0 .5rem; }
-    .cost-card p{ font-size:15px; color:#475569; line-height:1.75; margin:0; }
-    .cost-card strong{ color:#0F172A; }
-
-    .gain-card{
-      border:1px solid #DCFCE7; border-radius:16px; padding:1.5rem 1.75rem;
-      background: linear-gradient(180deg,#F0FDF4,#FFFFFF); margin: 1.25rem 0;
-    }
-    .gain-card .gc-l{ font-family:'Inter'; font-size:10px; font-weight:800; letter-spacing:.22em; text-transform:uppercase; color:#16A34A; }
-    .gain-card h3{ font-family:'Plus Jakarta Sans'; font-size:1.05rem; font-weight:800; color:#0F172A; margin:.35rem 0 .5rem; }
-    .gain-card p{ font-size:15px; color:#475569; line-height:1.75; margin:0; }
-    .gain-card strong{ color:#0F172A; }
-
-    .step-card{
-      display:grid; grid-template-columns: 56px 1fr; gap:1.1rem; align-items:flex-start;
-      border:1px solid #E2E8F0; border-radius:16px; padding:1.4rem 1.6rem;
-      background: linear-gradient(180deg,#FFFFFF,#F8FAFC);
-      margin: 1.1rem 0;
-      box-shadow: 0 18px 40px -32px rgba(15,23,42,.18);
-    }
-    .step-num{
-      width:48px; height:48px; border-radius:14px;
-      background: linear-gradient(135deg,#1D4ED8,#2E9E4A);
-      color:#fff; display:flex; align-items:center; justify-content:center;
-      font-family:'Plus Jakarta Sans'; font-weight:900; font-size:1.15rem; letter-spacing:-.02em;
-      box-shadow: 0 14px 32px -12px rgba(37,99,235,.45);
-    }
-    .step-card h3{ font-family:'Plus Jakarta Sans'; font-size:1.08rem; font-weight:800; color:#0F172A; line-height:1.3; }
-    .step-card .step-l{ font-family:'Inter'; font-size:10px; font-weight:800; letter-spacing:.22em; text-transform:uppercase; color:#2563EB; }
-    .step-card p{ font-size:15px; color:#475569; line-height:1.75; margin: .45rem 0 0; }
-    .step-card strong{ color:#0F172A; }
-
-    .myth-card{
-      border:1px solid #E2E8F0; border-radius:16px; overflow:hidden; margin: 1.25rem 0;
-    }
-    .myth-row{ display:grid; grid-template-columns:1fr 1fr; }
-    .myth-half{ padding:1.5rem 1.5rem; }
-    .myth-half:first-child{ background:#FFF5F5; border-right:1px solid #FEE2E2; }
-    .myth-half:last-child{ background:#F0FDF4; }
-    .myth-l{ font-family:'Inter'; font-size:10px; font-weight:800; letter-spacing:.2em; text-transform:uppercase; margin-bottom:.6rem; }
-    .myth-half:first-child .myth-l{ color:#DC2626; }
-    .myth-half:last-child .myth-l{ color:#16A34A; }
-    .myth-half p{ font-size:14.5px; color:#334155; line-height:1.7; margin:0; }
-
-    .cmp{ border:1px solid #E2E8F0; border-radius:14px; overflow:hidden; box-shadow:0 30px 60px -40px rgba(15,23,42,.18); background:#fff; }
-    .cmp-h5, .cmp-r5{ display:grid; grid-template-columns:2fr 1fr 1fr 1fr 1fr; align-items:center; }
-    .cmp-h5{ background:#0F172A; color:#fff; padding:.85rem 1.2rem; }
-    .cmp-h5 span{ font-size:11px; letter-spacing:.14em; text-transform:uppercase; font-weight:700; color:rgba(255,255,255,.85); }
-    .cmp-h5 span:first-child{ color:rgba(255,255,255,.55); }
-    .cmp-r5{ padding:.95rem 1.2rem; border-top:1px solid #E2E8F0; }
-    .cmp-r5:nth-child(even){ background:#F8FAFC; }
-    .cmp-r5 span{ font-size:13.5px; color:#334155; line-height:1.5; }
-    .cmp-r5 span:first-child{ color:#0F172A; font-weight:600; }
-
-    .cmp-h4, .cmp-r4{ display:grid; grid-template-columns:2fr 1fr 1fr 1fr; align-items:center; }
-    .cmp-h4{ background:#0F172A; color:#fff; padding:.85rem 1.2rem; }
-    .cmp-h4 span{ font-size:11px; letter-spacing:.14em; text-transform:uppercase; font-weight:700; color:rgba(255,255,255,.85); }
-    .cmp-h4 span:first-child{ color:rgba(255,255,255,.55); }
-    .cmp-r4{ padding:.95rem 1.2rem; border-top:1px solid #E2E8F0; }
-    .cmp-r4:nth-child(even){ background:#F8FAFC; }
-    .cmp-r4 span{ font-size:13.5px; color:#334155; line-height:1.5; }
-    .cmp-r4 span:first-child{ color:#0F172A; font-weight:600; }
-
-    .ic-y{ color:#16A34A; font-weight:900; }
-    .ic-n{ color:#E63935; font-weight:900; }
-    .ic-p{ color:#F4B81A; font-weight:900; }
-
-    .cmp-scroll{ overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 2rem -.25rem; }
-    .cmp-scroll .cmp{ min-width: 720px; margin: 0; }
-
-    .hband{ background:linear-gradient(180deg,#FEF9C3,#FFFEF0); border:1px solid #FDE68A; border-radius:14px; padding:1.5rem 1.75rem; margin: 2.25rem 0; }
-    .hband p{ font-size:15.5px; color:#334155; line-height:1.75; margin:0; }
-    .hband strong{ color:#0F172A; font-weight:700; }
-
-    .def{
-      margin: 2.25rem 0; padding: 1.5rem 1.75rem;
-      background: #F8FAFC; border:1px solid #E2E8F0; border-radius:14px;
-    }
-    .def-l{ font-family:'Inter'; font-size:10px; font-weight:800; letter-spacing:.22em; text-transform:uppercase; color:#64748B; }
-    .def h3{ margin: .35rem 0 .55rem; font-family:'Plus Jakarta Sans'; font-size: 1.15rem; font-weight: 800; color: #0F172A; }
-    .def p{ font-size: 16px; color: #334155; line-height: 1.75; margin: 0; }
-
-    .toc{ background:#F8FAFC; border:1px solid #E2E8F0; border-radius:16px; padding: 1.75rem 1.75rem 1.4rem; margin: 3rem 0; }
-    .toc-l{ font-family:'Inter'; font-size:10px; letter-spacing:.22em; text-transform:uppercase; font-weight:800; color:#64748B; }
-    .toc ol{ counter-reset: tocn; list-style:none; margin-top:1rem; padding: 0; }
-    .toc ol li{ counter-increment:tocn; font-size:14.5px; line-height:1.6; padding:.45rem 0; color:#334155; display:flex; gap:.85rem; align-items:baseline; border-top:1px dashed #E2E8F0; }
-    .toc ol li:first-child{ border-top:0; }
-    .toc ol li::before{ content: counter(tocn,decimal-leading-zero); font-family:'Inter'; font-size:11px; font-weight:800; letter-spacing:.1em; color:#2563EB; min-width:30px; }
-    .toc a{ color:#334155; text-decoration:none; transition:color .15s; }
-    .toc a:hover{ color:#2563EB; }
-
-    .orn{ text-align:center; color:#94A3B8; letter-spacing:.5em; font-size:12px; margin: 2.5rem 0; }
-
-    .founder{
-      display:grid; grid-template-columns: 200px 1fr; gap:2rem; align-items:center;
-      background: linear-gradient(180deg,#FFFFFF, #F8FAFC);
-      border:1px solid #E2E8F0; border-radius:22px; padding: 2rem;
-      box-shadow: 0 36px 64px -36px rgba(15,23,42,.22);
-      position:relative; overflow:hidden;
-    }
-    .founder::before{
-      content:""; position:absolute; inset:auto -40% -40% auto; width:380px; height:380px;
-      background: radial-gradient(circle at 50% 50%, rgba(37,99,235,.10), transparent 60%);
-      pointer-events:none;
-    }
-    .photo-wrap{
-      width: 180px; height: 220px; border-radius:18px; overflow:hidden; position:relative;
-      background: linear-gradient(135deg,#1D4ED8,#2E9E4A);
-      box-shadow: 0 24px 50px -24px rgba(15,23,42,.35);
-    }
-    .photo-wrap img{ width:100%; height:100%; object-fit:cover; display:block; }
-    .photo-wrap::after{
-      content:""; position:absolute; inset:0; border-radius:inherit; pointer-events:none;
-      box-shadow: 0 1px 0 rgba(255,255,255,.4) inset, 0 0 0 4px rgba(255,255,255,.7) inset;
-    }
-    .founder-eyebrow{ font-family:'Inter'; font-size:10px; font-weight:800; letter-spacing:.22em; text-transform:uppercase; color:#2563EB; }
-    .founder-name{ font-family:'Plus Jakarta Sans'; font-weight:900; font-size: clamp(1.4rem, 2.6vw, 1.8rem); color:#0F172A; letter-spacing:-.02em; line-height:1.05; margin-top:.4rem; }
-    .founder-role{ font-family:'Plus Jakarta Sans'; font-weight:700; color:#475569; font-size:.9rem; margin-top:.15rem; }
-    .founder-quote{
-      margin-top:1.1rem; padding-top:1.1rem; border-top:1px dashed #CBD5E1;
-      font-family:'Plus Jakarta Sans'; font-size:1.02rem; line-height:1.55; color:#0F172A; font-weight:600;
-      font-style:italic;
-    }
-    .founder-bio{ margin-top:.85rem; font-size:14.5px; color:#475569; line-height:1.7; }
-
-    .author-strip{
-      display:flex; align-items:center; gap: 1rem; margin-top: 2rem;
-      padding-top: 1.5rem; border-top: 1px solid rgba(15,23,42,.1);
-    }
-    .author-strip-img{
-      width: 56px; height: 56px; border-radius: 999px; flex-shrink:0; overflow:hidden;
-      box-shadow: 0 0 0 2px #E2E8F0;
-      background: #fff;
-    }
-    .author-strip-img img{ width:100%; height:100%; object-fit:cover; display:block; }
-    .author-strip-name{ font-family:'Plus Jakarta Sans'; font-weight:800; color:#0F172A; font-size:.95rem; line-height:1.2; }
-    .author-strip-role{ font-size: 12px; color: #475569; margin-top: 2px; }
-    .author-strip-meta{ font-size: 12px; color: #64748B; margin-top: 4px; letter-spacing:.04em; }
-
-    .fig{ margin: 3rem 0; }
-    .fig-frame{
-      border-radius: 22px; overflow:hidden; border:1px solid #E2E8F0;
-      box-shadow: 0 40px 80px -40px rgba(15,23,42,.30);
-      background: #0B1220;
-    }
-    .fig-cap{ font-size: 13px; color:#64748B; margin-top: .85rem; text-align:center; font-style:italic; line-height:1.55; }
-
-    .cover-shell{ max-width: 56rem; margin: 0 auto; padding: 3rem 1.25rem 0; }
-    .cover-figure{
-      margin: 0; border-radius: 24px; overflow:hidden;
-      border:1px solid #E2E8F0;
-      box-shadow: 0 50px 100px -40px rgba(15,23,42,.35), 0 0 0 1px rgba(15,23,42,.04);
-      background: linear-gradient(135deg, #0B1A3F, #1E293B);
-      aspect-ratio: 16 / 9; position:relative;
-    }
-    .cover-figure img{ width:100%; height:100%; display:block; object-fit: cover; }
-    .cover-figure::after{
-      content:""; position:absolute; inset:0; pointer-events:none;
-      background: linear-gradient(180deg, transparent 70%, rgba(0,0,0,.18));
-    }
-
-    .verdict{
-      background: linear-gradient(135deg,#0B1A3F 0%, #1D4ED8 60%, #2E9E4A 130%);
-      color:#fff; border-radius: 22px; padding: 2rem 2.2rem; position:relative; overflow:hidden;
-      box-shadow: 0 40px 80px -36px rgba(37,99,235,.55);
-      margin: 2.25rem 0;
-    }
-    .verdict::before{ content:""; position:absolute; inset:auto -30% -30% auto; width: 360px; height:360px;
-      background: radial-gradient(circle, rgba(255,255,255,.12), transparent 60%); pointer-events:none; }
-    .verdict .v-l{ font-family:'Inter'; font-size: 11px; font-weight:800; letter-spacing:.24em; text-transform:uppercase; color:#BFDBFE; }
-    .verdict .v-h{ font-family:'Plus Jakarta Sans'; font-weight:800; font-size: clamp(1.18rem,2vw,1.5rem); line-height:1.35; margin-top:.6rem; color:#fff; letter-spacing:-.012em; position: relative; z-index: 1; }
-    .verdict .v-p{ font-size: 15.5px; line-height: 1.75; color: rgba(255,255,255,.85); margin-top: .85rem; max-width: 60ch; position: relative; z-index: 1; }
-
-    .faq details{
-      border-top: 1px solid #E2E8F0; padding: 1.1rem 0;
-    }
-    .faq details:last-of-type{ border-bottom: 1px solid #E2E8F0; }
-    .faq summary{
-      font-family:'Plus Jakarta Sans'; font-weight: 800; font-size: 1.05rem;
-      color:#0F172A; cursor:pointer; list-style:none; display:flex; justify-content:space-between; gap:1rem; line-height:1.35;
-    }
-    .faq summary::after{ content:"+"; color:#94A3B8; font-weight:600; flex-shrink:0; }
-    .faq details[open] summary::after{ content:"−"; }
-    .faq details p{ margin-top: .8rem; font-size: 16px; line-height: 1.8; color:#334155; }
-
-    .cost-table{ width:100%; border-collapse:collapse; }
-    .cost-table th{ background:#0F172A; color:#fff; font-family:'Inter'; font-size:11px; letter-spacing:.14em; text-transform:uppercase; font-weight:700; padding:.85rem 1.1rem; text-align:left; }
-    .cost-table th:first-child{ border-radius:12px 0 0 0; }
-    .cost-table th:last-child{ border-radius:0 12px 0 0; }
-    .cost-table td{ font-size:14px; padding:.85rem 1.1rem; border-bottom:1px solid #E2E8F0; color:#334155; line-height:1.5; }
-    .cost-table tr:last-child td{ border-bottom:0; }
-    .cost-table tr:nth-child(even) td{ background:#F8FAFC; }
-    .cost-table td:first-child{ font-weight:600; color:#0F172A; }
-    .cost-table tfoot td{ background:#0F172A; color:#fff; font-weight:700; font-family:'Plus Jakarta Sans'; font-size:15px; }
-
-    .scale-box{
-      background: linear-gradient(135deg, #EFF6FF, #DBEAFE);
-      border:1px solid #BFDBFE; border-radius:16px; padding: 1.75rem;
-      margin: 2.25rem 0;
-    }
-    .scale-box-l{ font-family:'Inter'; font-size:10px; font-weight:800; letter-spacing:.22em; text-transform:uppercase; color:#1D4ED8; }
-    .scale-box h3{ font-family:'Plus Jakarta Sans'; font-size:1.1rem; font-weight:800; color:#0F172A; margin:.35rem 0 .65rem; }
-    .scale-box p{ font-size:15px; color:#1E3A8A; line-height:1.75; margin:0; }
-
-    @media (max-width: 720px){
-      .founder{ grid-template-columns: 1fr; text-align:left; padding: 1.6rem; }
-      .photo-wrap{ width: 150px; height: 180px; }
-      .pull, .pull-red{ padding: 1.5rem 1.4rem; margin: 2rem 0; }
-      .cmp-h5, .cmp-r5{ grid-template-columns: 1.6fr repeat(4, 1fr); }
-      .cmp-h4, .cmp-r4{ grid-template-columns: 1.6fr repeat(3, 1fr); }
-      .article-body p{ font-size: 16.5px; line-height: 1.78; }
-      .article-body ul li, .article-body ol li{ font-size: 16.5px; }
-      .verdict{ padding: 1.6rem 1.5rem; }
-      .epi{ padding: 2.5rem 1.25rem; }
-      .toc{ padding: 1.4rem 1.25rem 1.1rem; margin: 2rem 0; }
-      .stat-row{ grid-template-columns: repeat(2, 1fr); }
-      .myth-row{ grid-template-columns: 1fr; }
-      .myth-half:first-child{ border-right:none; border-bottom:1px solid #FEE2E2; }
-      .cover-shell{ padding: 2rem 1rem 0; }
-      .cover-figure{ border-radius: 16px; }
-      .step-card{ grid-template-columns: 44px 1fr; gap:.85rem; padding: 1.2rem 1.25rem; }
-      .step-num{ width:42px; height:42px; font-size:1rem; }
-    }
-    @media (max-width: 420px){
-      .h-mast{ font-size: 2rem; line-height: 1.08; }
-      .h-chap{ font-size: 1.45rem; }
-    }
-  </style>
+  <link rel="stylesheet" href="../brand.css" />
 
   <!-- Schema: Article -->
   <script type="application/ld+json">
@@ -452,7 +127,7 @@
   </script>
 </head>
 
-<body class="bg-mesh text-slate-900 antialiased">
+<body class="bg-mesh text-[#15110D] antialiased">
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -470,7 +145,7 @@
   <div class="max-w-7xl mx-auto px-4 md:px-5 mt-4">
     <nav class="nav-shell flex items-center justify-between px-4 py-2.5">
       <span class="nav-shell-halo" aria-hidden="true"></span>
-      <a href="../index.html" aria-label="AllCoaching home" class="flex items-center">
+      <a href="/" aria-label="AllCoaching home" class="flex items-center">
         <img src="../assets/AllCoaching-logo.webp" alt="AllCoaching" class="nav-logo h-9 md:h-10 w-auto" decoding="async" width="200" height="50" />
       </a>
       <div class="flex items-center gap-2">
@@ -488,15 +163,15 @@
   <div class="max-w-3xl mx-auto px-5 md:px-6 relative z-10">
     <div class="flex items-center gap-3 mb-10">
       <span class="brand-pill">2026 Edition</span>
-      <span class="text-[12px] tracking-[.12em] uppercase text-slate-500">Editorial · Growth Strategy</span>
+      <span class="text-[12px] tracking-[.12em] uppercase text-[#8C8378]">Editorial · Growth Strategy</span>
     </div>
-    <p class="kicker" style="color:#2563EB;">Offline → Online · Zero Cost · India</p>
+    <p class="kicker">Offline → Online · Zero Cost · India</p>
     <h1 class="h-mast font-display mt-5">
       How to Migrate<br/>
       Offline Coaching to<br/>
       Online at <span class="grad-text">Zero Cost</span>
     </h1>
-    <p class="mt-6 text-[1.08rem] md:text-[1.18rem] leading-[1.7] text-slate-600 max-w-2xl">
+    <p class="mt-6 text-[1.08rem] md:text-[1.18rem] leading-[1.7] text-[#4F4840] max-w-2xl">
       Most offline coaching teachers think going online requires money, tech skills, and a big team — but that belief is outdated. In 2026, AI-driven marketplace platforms have collapsed the cost of going online to zero. This is the practical, fear-free playbook for Indian coaching teachers ready to move beyond classroom walls.
     </p>
 
@@ -608,7 +283,7 @@
 
     <p>Most offline teachers who attempt to go online fail not because they teach badly — they fail because they choose the <strong>wrong path</strong> to go online. They model their transition on what was true a decade ago: build an app, hire a developer, run ads, hope for the best. This was the only available path in 2018. In 2026, it is the most expensive and slowest path possible. Let us compare the two approaches honestly.</p>
 
-    <h3 class="font-display font-bold text-xl text-slate-900 mt-10 mb-4">The Traditional Way — Outdated and Expensive</h3>
+    <h3 class="font-display text-xl text-[#15110D] mt-10 mb-4">The Traditional Way — Outdated and Expensive</h3>
     <div class="cmp-scroll">
       <div class="cmp">
         <table class="cost-table" style="min-width:580px">
@@ -636,13 +311,13 @@
         </table>
       </div>
     </div>
-    <p style="font-size:13px;color:#64748B;margin-top:.6rem;">After spending all of this, the educator still has to find their own students. Capital invested ≠ students enrolled.</p>
+    <p style="font-size:13px;color:#8C8378;margin-top:.6rem;">After spending all of this, the educator still has to find their own students. Capital invested ≠ students enrolled.</p>
 
     <div class="pull-red">
       <p>An offline educator who spends ₹10–20 lakh building a personal teaching app in 2026 is solving a problem the marketplace already solved at zero cost. This is not optimization. It is reinventing the wheel — using a hammer.</p>
     </div>
 
-    <h3 class="font-display font-bold text-xl text-slate-900 mt-12 mb-4">The Smart Way — Zero-Cost Marketplace Path</h3>
+    <h3 class="font-display text-xl text-[#15110D] mt-12 mb-4">The Smart Way — Zero-Cost Marketplace Path</h3>
     <div class="cmp-scroll">
       <div class="cmp">
         <table class="cost-table" style="min-width:580px">
@@ -1015,7 +690,7 @@
     <h2 class="h-chap mb-6">Full Comparison: Offline · Personal App · Traditional LMS · AI Marketplace</h2>
     <p>Here is the side-by-side comparison every offline educator needs to see before choosing their path online. The goal is not to declare a single winner — different educators are in different situations. The goal is to make the structural trade-offs visible, so the choice becomes informed instead of intuitive.</p>
 
-    <h3 class="font-display font-bold text-xl text-slate-900 mt-10 mb-4">Table 1: Cost &amp; Reach Comparison</h3>
+    <h3 class="font-display text-xl text-[#15110D] mt-10 mb-4">Table 1: Cost &amp; Reach Comparison</h3>
     <div class="cmp-scroll">
       <div class="cmp">
         <div class="cmp-h5">
@@ -1098,7 +773,7 @@
       </div>
     </div>
 
-    <h3 class="font-display font-bold text-xl text-slate-900 mt-12 mb-4">Table 2: Year 1 Total Cost (Educator Targeting ₹10L Annual Revenue)</h3>
+    <h3 class="font-display text-xl text-[#15110D] mt-12 mb-4">Table 2: Year 1 Total Cost (Educator Targeting ₹10L Annual Revenue)</h3>
     <div class="cmp-scroll">
       <div class="cmp">
         <div class="cmp-h4">
@@ -1137,15 +812,15 @@
           <span>₹48K–1.8L/year</span>
           <span>Included</span>
         </div>
-        <div class="cmp-r4" style="background:#F0FDF4;">
-          <span style="color:#16A34A;font-weight:800;">Total Estimated Year 1 Cost</span>
-          <span style="color:#DC2626;font-weight:700;">₹15–40L</span>
-          <span style="color:#DC2626;font-weight:700;">₹9–28L</span>
-          <span style="color:#16A34A;font-weight:700;">₹0 upfront · share when you earn</span>
+        <div class="cmp-r4" style="background:#EAF5EC;">
+          <span style="color:#2F8F4E;font-weight:800;">Total Estimated Year 1 Cost</span>
+          <span style="color:#C44232;font-weight:700;">₹15–40L</span>
+          <span style="color:#C44232;font-weight:700;">₹9–28L</span>
+          <span style="color:#2F8F4E;font-weight:700;">₹0 upfront · share when you earn</span>
         </div>
       </div>
     </div>
-    <p style="font-size:13px;color:#64748B;margin-top:.65rem;">Estimates vary based on educator scale, content volume, and marketing approach. AllCoaching commission rate varies by plan — consult current pricing for exact figures. Marketplace effect reduces marketing dependency; it does not eliminate optional growth investments.</p>
+    <p style="font-size:13px;color:#8C8378;margin-top:.65rem;">Estimates vary based on educator scale, content volume, and marketing approach. AllCoaching commission rate varies by plan — consult current pricing for exact figures. Marketplace effect reduces marketing dependency; it does not eliminate optional growth investments.</p>
 
     <p>The conclusion is unmistakable. <strong>For 99% of Indian offline educators going online, the AI-driven marketplace path is dramatically superior on cost, speed, and growth potential to every other option available in 2026.</strong> The exception — educators who already have 50,000+ engaged followers and proven personal brand — is rare enough that it is the exception that proves the rule.</p>
   </div>
@@ -1203,11 +878,11 @@
     <p class="v-h">Ready to migrate your coaching online?</p>
     <p class="v-p">Stop waiting for the right time, the right budget, or the right team. The time is now. The budget is zero. The team is just you and your students. AllCoaching gives you a complete teaching platform — live classes, recorded courses, payment systems, student management, and AI-driven student discovery — with zero upfront cost. Sign up free, upload your first course in 60 minutes, and welcome your first online student within two weeks.</p>
     <div class="mt-6 flex flex-wrap gap-3">
-      <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-blue-700 font-bold text-sm hover:bg-blue-50 transition-colors" style="font-family:'Plus Jakarta Sans';">
+      <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-[#15110D] font-bold text-sm hover:bg-[#F5E8D2] transition-colors" >
         Start Teaching for Free
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
       </a>
-      <a href="https://allcoaching.in/contact.html" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/30 text-white font-semibold text-sm hover:bg-white/10 transition-colors" style="font-family:'Plus Jakarta Sans';">
+      <a href="https://allcoaching.in/contact" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/30 text-white font-semibold text-sm hover:bg-white/10 transition-colors" >
         Book a Demo
       </a>
     </div>
@@ -1286,7 +961,7 @@
     <p class="kicker">More from AllCoaching Blog</p>
     <h2 class="h-chap font-display mt-3">Continue <span class="grad-text">reading</span></h2>
     <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <a href="./best-zero-commission-teaching-platform-india.html" class="blog-card" aria-label="Read: Best Zero-Commission Teaching Platform in India">
+      <a href="/blog/best-zero-commission-teaching-platform-india" class="blog-card" aria-label="Read: Best Zero-Commission Teaching Platform in India">
         <div class="blog-card-img">
           <img src="https://allcoaching-bucket.b-cdn.net/Blog/best-zero-commission-teaching-platform-india.webp" alt="Best Zero-Commission Teaching Platform in India — 2026 hidden cost analysis" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
@@ -1298,7 +973,7 @@
           <div class="blog-card-cta">Read essay</div>
         </div>
       </a>
-      <a href="./affordable-lms-for-independent-educators.html" class="blog-card" aria-label="Read: Most Affordable LMS for Independent Educators">
+      <a href="/blog/affordable-lms-for-independent-educators" class="blog-card" aria-label="Read: Most Affordable LMS for Independent Educators">
         <div class="blog-card-img">
           <img src="https://allcoaching-bucket.b-cdn.net/Blog/most-affordable-lms-for-independent-educators.webp" alt="Most Affordable LMS for Independent Educators — 2026 Honest Guide" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
@@ -1310,7 +985,7 @@
           <div class="blog-card-cta">Read guide</div>
         </div>
       </a>
-      <a href="./online-coaching-academy-without-coding.html" class="blog-card" aria-label="Read: Build an Online Coaching Academy Without Coding">
+      <a href="/blog/online-coaching-academy-without-coding" class="blog-card" aria-label="Read: Build an Online Coaching Academy Without Coding">
         <div class="blog-card-img">
           <img src="https://allcoaching-bucket.b-cdn.net/Blog/online-coaching-academy-without-coding.webp" alt="Build an online coaching academy without coding — 2026 educator guide" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
@@ -1328,27 +1003,27 @@
 
 <!-- ================= CTA ================= -->
 <section id="cta" class="py-24 md:py-28 relative overflow-hidden bg-white">
-  <div class="absolute inset-0 -z-0" aria-hidden="true" style="background:radial-gradient(50% 40% at 25% 50%, rgba(37,99,235,.10), transparent 70%), radial-gradient(40% 35% at 75% 60%, rgba(46,158,74,.10), transparent 70%);"></div>
+  <div class="absolute inset-0 -z-0" aria-hidden="true" style="background:radial-gradient(50% 40% at 25% 50%, rgba(197,139,67,.10), transparent 70%), radial-gradient(40% 35% at 75% 60%, rgba(47,143,78,.10), transparent 70%);"></div>
   <div class="max-w-3xl mx-auto px-5 text-center relative">
-    <div class="inline-block mb-6 float-y"><img src="../assets/fevicon.webp" alt="AllCoaching" class="w-16 h-16 rounded-full shadow-lg ring-1 ring-slate-200 bg-white" decoding="async" loading="lazy" width="512" height="512" /></div>
+    <div class="inline-block mb-6 float-y"><img src="../assets/fevicon.webp" alt="AllCoaching" class="w-16 h-16 rounded-full shadow-lg ring-1 ring-[#E5DDD0] bg-white" decoding="async" loading="lazy" width="512" height="512" /></div>
     <h2 class="h-mani font-display">Stop waiting for the right time.<br/><span class="grad-text">The right time is now — and it costs nothing.</span></h2>
-    <p class="mt-6 max-w-2xl mx-auto" style="font-size:1.05rem; line-height:1.7; color:#475569;">AllCoaching is India's AI-driven educator marketplace, built specifically for offline coaching teachers ready to go online. Built-in discovery. Transparent pricing. Daily payouts. 90% revenue to educators. No upfront cost, no tech burden, no marketing dependency. Just teaching.</p>
+    <p class="mt-6 max-w-2xl mx-auto" style="font-size:1.05rem; line-height:1.7; color:#4F4840;">AllCoaching is India's AI-driven educator marketplace, built specifically for offline coaching teachers ready to go online. Built-in discovery. Transparent pricing. Daily payouts. 90% revenue to educators. No upfront cost, no tech burden, no marketing dependency. Just teaching.</p>
     <div class="mt-9 flex flex-wrap justify-center gap-3">
       <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Start as an educator <svg class="w-4 h-4"><use href="#i-arrow"/></svg></a>
-      <a href="../manifesto.html" class="btn btn-secondary btn-lg">Read the manifesto</a>
+      <a href="/manifesto" class="btn btn-secondary btn-lg">Read the manifesto</a>
     </div>
-    <div class="mt-6 text-xs text-slate-500">Free to start · 90% revenue to educator · No lock-in · Daily payouts</div>
+    <div class="mt-6 text-xs text-[#8C8378]">Free to start · 90% revenue to educator · No lock-in · Daily payouts</div>
   </div>
 </section>
 
 <!-- ================= FOOTER ================= -->
-<footer class="bg-slate-50 border-t border-slate-200 pt-16 pb-8">
+<footer class="bg-[#F6F2EA] border-t border-[#E5DDD0] pt-16 pb-8">
   <div class="max-w-7xl mx-auto px-5 grid md:grid-cols-12 gap-10">
     <div class="md:col-span-4">
-      <a href="../index.html" class="inline-block"><img src="../assets/AllCoaching-logo.webp" alt="AllCoaching" class="h-11 w-auto" decoding="async" width="200" height="50" /></a>
-      <p class="mt-5 text-slate-600 text-sm max-w-xs leading-relaxed">The educator-first marketplace + platform. Teach, get discovered, and keep 90% of your earnings — all in one login.</p>
+      <a href="/" class="inline-block"><img src="../assets/AllCoaching-logo.webp" alt="AllCoaching" class="h-11 w-auto" decoding="async" width="200" height="50" /></a>
+      <p class="mt-5 text-[#4F4840] text-sm max-w-xs leading-relaxed">The educator-first marketplace + platform. Teach, get discovered, and keep 90% of your earnings — all in one login.</p>
       <div class="mt-6">
-        <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-3">Follow us</div>
+        <div class="text-xs font-semibold text-[#8C8378] uppercase tracking-wider mb-3">Follow us</div>
         <div class="flex flex-wrap gap-2">
           <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" aria-label="WhatsApp" class="soc soc-whatsapp"><svg class="w-5 h-5"><use href="#i-whatsapp"/></svg></a>
           <a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener" aria-label="YouTube" class="soc soc-youtube"><svg class="w-5 h-5"><use href="#i-youtube"/></svg></a>
@@ -1359,12 +1034,12 @@
         </div>
       </div>
     </div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-slate-900">Product</div><ul class="space-y-2 text-sm text-slate-600"><li><a href="../index.html#features" class="hover:text-slate-900">Features</a></li><li><a href="../index.html#marketplace" class="hover:text-slate-900">Marketplace</a></li><li><a href="../index.html#calculator" class="hover:text-slate-900">Calculator</a></li><li><a href="../index.html#pricing" class="hover:text-slate-900">Pricing</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-slate-900">Company</div><ul class="space-y-2 text-sm text-slate-600"><li><a href="../manifesto.html" class="hover:text-slate-900">Manifesto</a></li><li><a href="../about.html" class="hover:text-slate-900">About</a></li><li><a href="../contact.html" class="hover:text-slate-900">Contact</a></li><li><a href="../privacy.html" class="hover:text-slate-900">Privacy</a></li><li><a href="../terms.html" class="hover:text-slate-900">Terms</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-slate-900">Educators</div><ul class="space-y-2 text-sm text-slate-600"><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-slate-900">Login</a></li><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-slate-900">Join Now</a></li><li><a href="../index.html#faq" class="hover:text-slate-900">FAQ</a></li><li><a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="hover:text-slate-900">WhatsApp</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-slate-900">Students</div><ul class="space-y-2 text-sm text-slate-600"><li><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching" target="_blank" rel="noopener" class="hover:text-slate-900">Android App</a></li><li><a href="../index.html#marketplace" class="hover:text-slate-900">Find Educators</a></li><li><a href="https://t.me/allcoaching" target="_blank" rel="noopener" class="hover:text-slate-900">Telegram</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Product</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="/#features" class="hover:text-[#15110D]">Features</a></li><li><a href="/#marketplace" class="hover:text-[#15110D]">Marketplace</a></li><li><a href="/#calculator" class="hover:text-[#15110D]">Calculator</a></li><li><a href="/#pricing" class="hover:text-[#15110D]">Pricing</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Company</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="/manifesto" class="hover:text-[#15110D]">Manifesto</a></li><li><a href="/about" class="hover:text-[#15110D]">About</a></li><li><a href="/contact" class="hover:text-[#15110D]">Contact</a></li><li><a href="/privacy" class="hover:text-[#15110D]">Privacy</a></li><li><a href="/terms" class="hover:text-[#15110D]">Terms</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Educators</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-[#15110D]">Login</a></li><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-[#15110D]">Join Now</a></li><li><a href="/#faq" class="hover:text-[#15110D]">FAQ</a></li><li><a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="hover:text-[#15110D]">WhatsApp</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Students</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching" target="_blank" rel="noopener" class="hover:text-[#15110D]">Android App</a></li><li><a href="/#marketplace" class="hover:text-[#15110D]">Find Educators</a></li><li><a href="https://t.me/allcoaching" target="_blank" rel="noopener" class="hover:text-[#15110D]">Telegram</a></li></ul></div>
   </div>
-  <div class="max-w-7xl mx-auto px-5 mt-12 pt-6 border-t border-slate-200 text-xs text-slate-500 flex flex-wrap justify-between gap-3">
+  <div class="max-w-7xl mx-auto px-5 mt-12 pt-6 border-t border-[#E5DDD0] text-xs text-[#8C8378] flex flex-wrap justify-between gap-3">
     <div>© 2026 AllCoaching Technologies Pvt. Ltd. · Made in India 🇮🇳</div>
     <div>The Operating System of Education · One educator at a time.</div>
   </div>

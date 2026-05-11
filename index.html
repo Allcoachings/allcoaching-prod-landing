@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Brand theme — adapts to OS light/dark + iOS/Android/Windows surfaces -->
-  <meta name="theme-color" content="#2563EB" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#0B1A3F" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#C58B43" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#15110D" media="(prefers-color-scheme: dark)" />
   <meta name="color-scheme" content="light" />
-  <meta name="msapplication-TileColor" content="#2563EB" />
-  <meta name="msapplication-navbutton-color" content="#2563EB" />
+  <meta name="msapplication-TileColor" content="#C58B43" />
+  <meta name="msapplication-navbutton-color" content="#C58B43" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="AllCoaching" />
@@ -69,9 +69,10 @@
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="dns-prefetch" href="https://www.youtube.com" />
   <link rel="dns-prefetch" href="https://educator.allcoaching.in" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./dist/tw.min.css" />
   <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./brand.css" />
 
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in","logo":"https://allcoaching.in/assets/AllCoaching-logo.webp","description":"India's educator-first marketplace and platform for running live classes, managing students, and getting discovered by learners.","email":"allcoachingss@gmail.com","telephone":"+91-9889977262","address":{"@type":"PostalAddress","streetAddress":"Sangam Vihar Colony, Haveliya, Jhusi","addressLocality":"Prayagraj","addressRegion":"Uttar Pradesh","postalCode":"211019","addressCountry":"IN"},"sameAs":["https://www.youtube.com/@Allcoaching","https://t.me/allcoaching","https://www.facebook.com/allcoaching.in","https://www.instagram.com/allcoachings/","https://x.com/allcoachings"]}
@@ -96,7 +97,7 @@
   </script>
 </head>
 
-<body class="bg-white text-slate-900 antialiased">
+<body class="bg-white text-[#15110D] antialiased">
 <!-- Google Tag Manager (noscript) -->
 <noscript>
 <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G"
@@ -137,16 +138,16 @@ style="display:none;visibility:hidden">
   <div class="max-w-7xl mx-auto px-4 md:px-5 mt-4">
     <nav class="nav-shell flex items-center justify-between px-4 py-2.5">
       <span class="nav-shell-halo" aria-hidden="true"></span>
-      <a href="./index.html" aria-label="AllCoaching home" class="flex items-center">
+      <a href="/" aria-label="AllCoaching home" class="flex items-center">
         <img src="./assets/AllCoaching-logo.webp" alt="AllCoaching — Democratizing Education" class="nav-logo h-9 md:h-10 w-auto" decoding="async"  width="200"  height="50" />
       </a>
-      <ul class="hidden md:flex items-center gap-8 text-[14.5px] text-slate-600 font-medium">
-        <li><a href="#problem" class="hover:text-slate-900 transition-colors">Problem</a></li>
-        <li><a href="#features" class="hover:text-slate-900 transition-colors">Platform</a></li>
-        <li><a href="#calculator" class="hover:text-slate-900 transition-colors">Calculator</a></li>
-        <li><a href="#marketplace" class="hover:text-slate-900 transition-colors">Marketplace</a></li>
-        <li><a href="#pricing" class="hover:text-slate-900 transition-colors">Pricing</a></li>
-        <li><a href="./manifesto.html" class="hover:text-slate-900 transition-colors">Manifesto</a></li>
+      <ul class="hidden md:flex items-center gap-8 text-[14.5px] text-[#4F4840] font-medium">
+        <li><a href="#problem" class="hover:text-[#15110D] transition-colors">Problem</a></li>
+        <li><a href="#features" class="hover:text-[#15110D] transition-colors">Platform</a></li>
+        <li><a href="#calculator" class="hover:text-[#15110D] transition-colors">Calculator</a></li>
+        <li><a href="#marketplace" class="hover:text-[#15110D] transition-colors">Marketplace</a></li>
+        <li><a href="#pricing" class="hover:text-[#15110D] transition-colors">Pricing</a></li>
+        <li><a href="/manifesto" class="hover:text-[#15110D] transition-colors">Manifesto</a></li>
       </ul>
       <div class="flex items-center gap-2">
         <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-ghost hidden md:inline-flex">Login</a>
@@ -163,20 +164,20 @@ style="display:none;visibility:hidden">
 <!-- ================= HERO ================= -->
 <section class="bg-mesh pt-36 pb-24 relative overflow-hidden">
   <div aria-hidden="true" class="absolute inset-0 -z-0 pointer-events-none">
-    <div class="absolute -top-24 -left-24 w-[520px] h-[520px] rounded-full opacity-40 float-y" style="background:radial-gradient(circle at 30% 30%, rgba(37,99,235,.45), transparent 60%); filter:blur(40px);"></div>
-    <div class="absolute -top-10 right-[-8%] w-[520px] h-[520px] rounded-full opacity-35 float-y" style="background:radial-gradient(circle at 70% 30%, rgba(46,158,74,.4), transparent 60%); filter:blur(40px); animation-delay:-2s"></div>
-    <div class="absolute bottom-[-10%] left-1/3 w-[420px] h-[420px] rounded-full opacity-25 float-y" style="background:radial-gradient(circle at 50% 50%, rgba(244,184,26,.35), transparent 60%); filter:blur(40px); animation-delay:-4s"></div>
+    <div class="absolute -top-24 -left-24 w-[520px] h-[520px] rounded-full opacity-40 float-y" style="background:radial-gradient(circle at 30% 30%, rgba(197,139,67,.45), transparent 60%); filter:blur(40px);"></div>
+    <div class="absolute -top-10 right-[-8%] w-[520px] h-[520px] rounded-full opacity-35 float-y" style="background:radial-gradient(circle at 70% 30%, rgba(224,169,92,.40), transparent 60%); filter:blur(40px); animation-delay:-2s"></div>
+    <div class="absolute bottom-[-10%] left-1/3 w-[420px] h-[420px] rounded-full opacity-25 float-y" style="background:radial-gradient(circle at 50% 50%, rgba(244,184,26,.32), transparent 60%); filter:blur(40px); animation-delay:-4s"></div>
   </div>
 
   <div class="max-w-7xl mx-auto px-5 grid lg:grid-cols-12 gap-12 items-center relative">
     <div class="lg:col-span-6 reveal">
-      <span class="chip"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500 pulse-dot"></span> India's educator-first OS</span>
+      <span class="chip"><span class="w-1.5 h-1.5 rounded-full bg-[#2F8F4E] pulse-dot"></span> India's educator-first OS</span>
       <h1 class="h-display font-display mt-6">
         The ultimate platform<br/>
         built for <span class="grad-text">educators.</span>
       </h1>
       <p class="lede mt-6 max-w-xl">
-        Personal apps give you control — but leave you invisible. AllCoaching gives you both: <span class="text-slate-900 font-semibold">your own branded platform</span> and a <span class="text-slate-900 font-semibold">marketplace</span> where real learners come to find you.
+        Personal apps give you control — but leave you invisible. AllCoaching gives you both: <span class="text-[#15110D] font-semibold">your own branded platform</span> and a <span class="text-[#15110D] font-semibold">marketplace</span> where real learners come to find you.
       </p>
       <div class="mt-9 flex flex-wrap gap-3">
         <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
@@ -184,71 +185,290 @@ style="display:none;visibility:hidden">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
         </a>
         <a href="https://www.youtube.com/watch?v=vO35KP1ySwQ" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
-          <svg class="w-5 h-5 text-red-600"><use href="#i-youtube"/></svg>
+          <svg class="w-5 h-5 text-[#C44232]"><use href="#i-youtube"/></svg>
           Watch a Demo
         </a>
       </div>
 
-      <div class="mt-10 flex items-center gap-5 text-sm text-slate-500 flex-wrap">
+      <div class="mt-10 flex items-center gap-5 text-sm text-[#8C8378] flex-wrap">
         <div class="flex -space-x-2">
           <img src="./assets/ed1.png" alt="Educator Rahul Mehta" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="lazy" decoding="async"  width="80"  height="80" />
           <img src="./assets/wed7.png" alt="Educator Pooja Verma" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="lazy" decoding="async"  width="80"  height="80" />
           <img src="./assets/ed2.png" alt="Educator Vikram Singh" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="lazy" decoding="async"  width="80"  height="80" />
           <img src="./assets/wed8.png" alt="Educator Anjali Nair" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="lazy" decoding="async"  width="80"  height="80" />
         </div>
-        <div><strong class="text-slate-900">2,400+ educators</strong> · <strong class="text-slate-900">1.2L+ students</strong> · ⭐ 4.9/5</div>
+        <div><strong class="text-[#15110D]">2,400+ educators</strong> · <strong class="text-[#15110D]">1.2L+ students</strong> · ⭐ 4.9/5</div>
       </div>
     </div>
 
-    <!-- Product UI preview -->
+    <!-- Product UI preview — Editorial Studio Dashboard -->
     <div class="lg:col-span-6 reveal">
       <div class="relative">
-        <div class="absolute -inset-10 bg-gradient-to-tr from-primary-100/70 via-emerald-100/40 to-amber-100/40 blur-3xl rounded-[3rem]"></div>
-        <div class="relative bg-white rounded-3xl p-4 shadow-[0_40px_80px_-30px_rgba(15,23,42,0.25)] border border-slate-200">
-          <div class="flex items-center gap-1.5 px-2 pb-3">
-            <span class="w-2.5 h-2.5 rounded-full bg-rose-300"></span>
-            <span class="w-2.5 h-2.5 rounded-full bg-amber-300"></span>
-            <span class="w-2.5 h-2.5 rounded-full bg-emerald-300"></span>
-            <span class="ml-3 text-xs text-slate-400">educator.allcoaching.in/live</span>
-          </div>
-          <div class="grid grid-cols-12 gap-3">
-            <div class="col-span-3 bg-slate-50 rounded-xl p-3 space-y-1.5 border border-slate-100">
-              <div class="flex items-center gap-2 px-2 py-1.5 rounded-lg text-slate-600 text-[11px] font-medium"><svg class="w-4 h-4"><use href="#i-home"/></svg>Dashboard</div>
-              <div class="flex items-center gap-2 px-2 py-1.5 rounded-lg bg-primary-600 text-white text-[11px] font-semibold"><svg class="w-4 h-4"><use href="#i-video"/></svg>Live Classes</div>
-              <div class="flex items-center gap-2 px-2 py-1.5 rounded-lg text-slate-600 text-[11px] font-medium"><svg class="w-4 h-4"><use href="#i-users"/></svg>Students</div>
-              <div class="flex items-center gap-2 px-2 py-1.5 rounded-lg text-slate-600 text-[11px] font-medium"><svg class="w-4 h-4"><use href="#i-cash"/></svg>Payments</div>
-              <div class="flex items-center gap-2 px-2 py-1.5 rounded-lg text-slate-600 text-[11px] font-medium"><svg class="w-4 h-4"><use href="#i-chart"/></svg>Analytics</div>
+        <!-- Soft ambient glow -->
+        <div class="absolute -inset-12 bg-gradient-to-tr from-[#F5E8D2]/60 via-[#F4EAD0]/30 to-[#FBF1DD]/50 blur-3xl rounded-[3rem]" aria-hidden="true"></div>
+        <div class="absolute -inset-1 bg-gradient-to-br from-white/40 to-transparent rounded-[28px] blur-2xl" aria-hidden="true"></div>
+
+        <!-- Main dashboard frame -->
+        <div class="relative bg-[#FAF8F4] rounded-[24px] p-3 shadow-[0_50px_100px_-30px_rgba(38,28,14,0.28),0_8px_18px_-8px_rgba(38,28,14,0.12)] border border-[#E5DDD0]/80 overflow-hidden">
+          <!-- Subtle dot texture -->
+          <div aria-hidden="true" class="absolute inset-0 pointer-events-none opacity-[0.35]" style="background-image:radial-gradient(rgba(20,17,13,.06) 1px, transparent 1px); background-size:14px 14px;"></div>
+
+          <!-- Browser chrome -->
+          <div class="relative flex items-center gap-2 px-3 py-2 border-b border-[rgba(20,17,13,0.07)]">
+            <div class="flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-[#E5DDD0]" aria-hidden="true"></span>
+              <span class="w-2 h-2 rounded-full bg-[#E5DDD0]" aria-hidden="true"></span>
+              <span class="w-2 h-2 rounded-full bg-[#C58B43]" aria-hidden="true"></span>
             </div>
-            <div class="col-span-9 space-y-3">
-              <div class="grid grid-cols-3 gap-3">
-                <div class="bg-white rounded-xl p-3 border border-slate-100"><div class="text-[10px] text-slate-500">Students</div><div class="text-xl font-bold text-slate-900">1,284</div><div class="text-[10px] text-emerald-600 font-semibold">↑ 12% this week</div></div>
-                <div class="bg-white rounded-xl p-3 border border-slate-100"><div class="text-[10px] text-slate-500">Revenue</div><div class="text-xl font-bold text-slate-900">₹3.4L</div><div class="text-[10px] text-emerald-600 font-semibold">↑ 28%</div></div>
-                <div class="rounded-xl p-3 bg-gradient-to-br from-primary-600 to-primary-700 text-white"><div class="text-[10px] opacity-80">Live now</div><div class="text-xl font-bold flex items-center gap-1.5">342 <span class="w-2 h-2 rounded-full bg-red-400 pulse-dot"></span></div><div class="text-[10px] opacity-80">watching</div></div>
-              </div>
-              <div class="relative rounded-xl overflow-hidden aspect-video bg-gradient-to-br from-slate-900 via-slate-800 to-primary-800 p-4">
-                <div class="absolute top-3 left-3 flex items-center gap-1.5 text-[10px] bg-red-600 px-2 py-1 rounded-full font-bold text-white"><span class="w-1.5 h-1.5 bg-white rounded-full pulse-dot"></span> LIVE · 342 watching</div>
-                <div class="absolute top-3 right-3 flex items-center gap-1.5 text-[10px] bg-white/15 backdrop-blur px-2 py-1 rounded-full text-white font-medium"><svg class="w-3 h-3"><use href="#i-chat"/></svg> 128</div>
-                <img src="./assets/wed7.png" alt="Live educator" class="absolute top-12 right-3 w-16 h-20 rounded-lg object-cover border-2 border-white/30 shadow-lg bg-white" decoding="async" loading="lazy"  width="80"  height="80" />
-                <div class="absolute left-4 top-14 space-y-1.5 opacity-80">
-                  <div class="text-white/90 text-[11px] font-semibold">Rotational Motion · Part 3</div>
-                  <div class="flex gap-1"><span class="h-1 w-16 bg-white/40 rounded"></span><span class="h-1 w-10 bg-amber-300 rounded"></span></div>
-                  <div class="flex gap-1"><span class="h-1 w-20 bg-white/30 rounded"></span></div>
-                  <div class="flex gap-1"><span class="h-1 w-8 bg-emerald-300 rounded"></span><span class="h-1 w-14 bg-white/40 rounded"></span></div>
+            <div class="flex-1 flex items-center justify-center gap-1.5">
+              <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#2F8F4E" stroke-width="3"><path d="M12 1a4 4 0 0 0-4 4v6h8V5a4 4 0 0 0-4-4zM5 11h14v10H5z"/></svg>
+              <span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.08em; color:#8C8378;">educator.allcoaching.in</span>
+              <span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.08em; color:#C58B43;">/studio</span>
+            </div>
+            <span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-md bg-[#F5E8D2] border border-[#E8CFA3]"><span class="w-1.5 h-1.5 rounded-full bg-[#C44232] pulse-dot"></span><span style="font-family:'JetBrains Mono',monospace; font-size:9px; letter-spacing:.1em; color:#8E5F22; font-weight:700;">LIVE</span></span>
+          </div>
+
+          <!-- Mode strip: Studio / Discover (marketplace) / Insights -->
+          <div class="relative flex items-center gap-1 px-3 py-2 border-b border-[rgba(20,17,13,0.05)]">
+            <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-[#15110D] text-[#F5D8AE]" style="font-family:'JetBrains Mono',monospace; font-size:8.5px; letter-spacing:.16em; font-weight:700;"><span class="w-1 h-1 rounded-full bg-[#C58B43]"></span>STUDIO</span>
+            <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[#8C8378]" style="font-family:'JetBrains Mono',monospace; font-size:8.5px; letter-spacing:.16em; font-weight:600;">DISCOVER</span>
+            <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[#8C8378]" style="font-family:'JetBrains Mono',monospace; font-size:8.5px; letter-spacing:.16em; font-weight:600;">INSIGHTS</span>
+            <span class="ml-auto inline-flex items-center gap-1 px-1.5 py-0.5 rounded-md bg-[#F5E8D2] border border-[#E8CFA3]" style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:.14em; font-weight:700; color:#8E5F22;">
+              <svg width="8" height="8" viewBox="0 0 24 24" fill="#C58B43"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+              4.9 · 1.2k LEARNERS
+            </span>
+          </div>
+
+          <div class="relative grid grid-cols-12 gap-3 pt-3">
+
+            <!-- Sidebar -->
+            <div class="col-span-3 bg-[#15110D] rounded-2xl p-3 text-[#FAF8F4] relative overflow-hidden">
+              <div class="absolute inset-0 pointer-events-none" style="background:radial-gradient(60% 40% at 50% 0%, rgba(197,139,67,.18), transparent 70%), radial-gradient(80% 60% at 50% 110%, rgba(197,139,67,.10), transparent 70%);" aria-hidden="true"></div>
+              <div class="relative">
+                <!-- Brand mark -->
+                <div class="flex items-center gap-1.5 mb-4">
+                  <span class="w-5 h-5 rounded-md bg-gradient-to-br from-[#E0A95C] to-[#8E5F22] grid place-items-center shadow-[0_4px_8px_rgba(197,139,67,.4),inset_0_1px_0_rgba(255,255,255,.18)]"><span class="text-[8px] font-bold text-[#2A1B07]">A</span></span>
+                  <span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:13px; color:#F5D8AE; line-height:1;">Studio<sup style="font-family:'JetBrains Mono',monospace; font-size:6px; letter-spacing:.14em; color:#C58B43; margin-left:2px; font-style:normal;">v3</sup></span>
                 </div>
+                <!-- Nav -->
+                <div class="space-y-0.5">
+                  <div class="flex items-center gap-2 px-2 py-1.5 rounded-lg text-[10px] text-[#FAF8F4]/55"><svg class="w-3 h-3"><use href="#i-home"/></svg>Overview</div>
+                  <div class="flex items-center gap-2 px-2 py-1.5 rounded-lg bg-gradient-to-r from-[#C58B43] to-[#8E5F22] text-white text-[10px] font-semibold shadow-[0_4px_10px_-2px_rgba(197,139,67,.42),inset_0_1px_0_rgba(255,255,255,.22)]"><svg class="w-3 h-3"><use href="#i-video"/></svg>Live Classes<span class="ml-auto w-1 h-1 rounded-full bg-white/80 pulse-dot"></span></div>
+                  <div class="flex items-center gap-2 px-2 py-1.5 rounded-lg text-[10px] text-[#FAF8F4]/55"><svg class="w-3 h-3"><use href="#i-users"/></svg>Students<span class="ml-auto text-[8px] text-[#C58B43] font-bold">1.2k</span></div>
+                  <div class="flex items-center gap-2 px-2 py-1.5 rounded-lg text-[10px] text-[#FAF8F4]/55"><svg class="w-3 h-3"><use href="#i-cash"/></svg>Earnings</div>
+                  <div class="flex items-center gap-2 px-2 py-1.5 rounded-lg text-[10px] text-[#FAF8F4]/55"><svg class="w-3 h-3"><use href="#i-search"/></svg>Marketplace<span class="ml-auto inline-block px-1 rounded text-[7px] font-bold bg-[#C58B43]/20 text-[#E0A95C]">NEW</span></div>
+                </div>
+                <!-- Featured chip -->
+                <div class="mt-3 px-2 py-1.5 rounded-lg bg-gradient-to-r from-[#C58B43]/15 to-transparent border border-[#C58B43]/20 flex items-center gap-1.5">
+                  <svg width="9" height="9" viewBox="0 0 24 24" fill="#E0A95C"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+                  <span style="font-family:'JetBrains Mono',monospace; font-size:7.5px; letter-spacing:.14em; color:#E0A95C; font-weight:700;">FEATURED #2</span>
+                </div>
+                <!-- Profile pin -->
+                <div class="mt-3 pt-3 border-t border-white/10 flex items-center gap-1.5">
+                  <span class="relative w-6 h-6 rounded-full bg-gradient-to-br from-[#E0A95C] to-[#C58B43] grid place-items-center text-[8.5px] font-bold text-[#2A1B07] ring-1 ring-white/15">AM<span class="absolute -bottom-0.5 -right-0.5 w-2 h-2 rounded-full bg-[#2F8F4E] ring-2 ring-[#15110D]"></span></span>
+                  <div class="min-w-0 flex-1">
+                    <div class="text-[10px] text-[#F5D8AE] truncate" style="font-family:'Instrument Serif',serif; font-style:italic;">Anika Mehta</div>
+                    <div class="flex items-center gap-0.5 mt-0.5" style="font-family:'JetBrains Mono',monospace; letter-spacing:.06em;">
+                      <span class="text-[7px] text-[#E0A95C] font-bold">★ 4.9</span>
+                      <span class="text-[7px] text-[#FAF8F4]/35">·</span>
+                      <span class="text-[7px] text-[#FAF8F4]/45 font-semibold">1,284</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Main canvas -->
+            <div class="col-span-9 space-y-2.5">
+
+              <!-- Hero earnings card -->
+              <div class="relative bg-white rounded-2xl p-3.5 border border-[rgba(20,17,13,0.07)] shadow-[0_2px_4px_rgba(38,28,14,.04)] overflow-hidden">
+                <div aria-hidden="true" class="absolute -top-12 -right-12 w-40 h-40 rounded-full opacity-60" style="background:radial-gradient(circle, rgba(197,139,67,.14), transparent 60%);"></div>
+                <div aria-hidden="true" class="absolute -bottom-16 -left-8 w-32 h-32 rounded-full opacity-50" style="background:radial-gradient(circle, rgba(224,169,92,.10), transparent 60%);"></div>
+                <div class="relative flex items-baseline justify-between">
+                  <span style="font-family:'JetBrains Mono',monospace; font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:#8C8378; font-weight:700;">↳ Today · 11 May 2026</span>
+                  <span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-md bg-[#DCF1DE] text-[#2F8F4E]" style="font-family:'JetBrains Mono',monospace; font-size:8.5px; letter-spacing:.06em; font-weight:700;"><svg width="7" height="7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4"><path d="M5 12l7-7 7 7"/></svg>21.9%</span>
+                </div>
+                <div class="relative mt-1.5 flex items-baseline gap-1.5">
+                  <span style="font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:36px; line-height:.92; background:linear-gradient(135deg,#15110D 0%,#3A2710 50%,#8E5F22 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent; letter-spacing:-.022em;">₹3,13,650</span>
+                  <span class="text-[10px] text-[#8C8378]" style="font-family:'JetBrains Mono',monospace; letter-spacing:.04em;">earnings · today</span>
+                </div>
+                <div class="relative mt-1 flex items-center gap-2 text-[9px]" style="font-family:'JetBrains Mono',monospace; letter-spacing:.06em; color:#B6AEA1;">
+                  <span>vs ₹2,57,320 prev day</span>
+                  <span class="h-px w-3 bg-[#E5DDD0]"></span>
+                  <span class="text-[#2F8F4E] font-bold">+₹56,330</span>
+                </div>
+                <!-- Sparkline -->
+                <svg viewBox="0 0 200 38" class="relative w-full mt-2 h-10" preserveAspectRatio="none" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="sparkFill" x1="0" x2="0" y1="0" y2="1">
+                      <stop offset="0%" stop-color="#C58B43" stop-opacity=".42"/>
+                      <stop offset="100%" stop-color="#C58B43" stop-opacity="0"/>
+                    </linearGradient>
+                    <linearGradient id="sparkLine" x1="0" x2="1" y1="0" y2="0">
+                      <stop offset="0%" stop-color="#E0A95C"/>
+                      <stop offset="60%" stop-color="#C58B43"/>
+                      <stop offset="100%" stop-color="#8E5F22"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M0,28 L14,24 L28,26 L42,18 L56,20 L70,14 L84,17 L98,9 L112,12 L126,7 L140,11 L154,5 L168,8 L182,3 L196,5 L200,4 L200,38 L0,38 Z" fill="url(#sparkFill)"/>
+                  <path d="M0,28 L14,24 L28,26 L42,18 L56,20 L70,14 L84,17 L98,9 L112,12 L126,7 L140,11 L154,5 L168,8 L182,3 L196,5 L200,4" fill="none" stroke="url(#sparkLine)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="196" cy="5" r="7" fill="none" stroke="#C58B43" stroke-opacity=".15" stroke-width="1"/>
+                  <circle cx="196" cy="5" r="3.2" fill="#C58B43"/>
+                  <circle cx="196" cy="5" r="1.3" fill="#FAF8F4"/>
+                </svg>
+              </div>
+
+              <!-- KPI strip -->
+              <div class="grid grid-cols-3 gap-2.5">
+                <div class="relative bg-white rounded-xl p-2.5 border border-[rgba(20,17,13,0.07)] overflow-hidden">
+                  <div class="absolute bottom-0 left-0 right-0 h-8 opacity-50">
+                    <svg viewBox="0 0 100 24" preserveAspectRatio="none" class="w-full h-full"><path d="M0,18 L12,16 L24,14 L36,15 L48,11 L60,9 L72,10 L84,6 L100,4 L100,24 L0,24 Z" fill="rgba(197,139,67,.10)"/><path d="M0,18 L12,16 L24,14 L36,15 L48,11 L60,9 L72,10 L84,6 L100,4" fill="none" stroke="#C58B43" stroke-width="1" stroke-opacity=".4"/></svg>
+                  </div>
+                  <div class="relative" style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:#8C8378; font-weight:700;">Students</div>
+                  <div class="relative mt-0.5 flex items-baseline gap-1">
+                    <span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:22px; line-height:1; color:#15110D; letter-spacing:-.01em;">1,284</span>
+                    <span class="text-[9px] text-[#2F8F4E] font-bold" style="font-family:'JetBrains Mono',monospace;">↑12%</span>
+                  </div>
+                </div>
+                <div class="relative bg-white rounded-xl p-2.5 border border-[rgba(20,17,13,0.07)] overflow-hidden">
+                  <div class="absolute bottom-0 left-0 right-0 h-8 opacity-50">
+                    <svg viewBox="0 0 100 24" preserveAspectRatio="none" class="w-full h-full"><path d="M0,20 L12,18 L24,12 L36,14 L48,9 L60,11 L72,7 L84,8 L100,3 L100,24 L0,24 Z" fill="rgba(197,139,67,.10)"/><path d="M0,20 L12,18 L24,12 L36,14 L48,9 L60,11 L72,7 L84,8 L100,3" fill="none" stroke="#C58B43" stroke-width="1" stroke-opacity=".4"/></svg>
+                  </div>
+                  <div class="relative" style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:#8C8378; font-weight:700;">Revenue · 30d</div>
+                  <div class="relative mt-0.5 flex items-baseline gap-1">
+                    <span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:22px; line-height:1; color:#15110D; letter-spacing:-.01em;">₹3.4L</span>
+                    <span class="text-[9px] text-[#2F8F4E] font-bold" style="font-family:'JetBrains Mono',monospace;">↑28%</span>
+                  </div>
+                </div>
+                <div class="rounded-xl p-2.5 bg-gradient-to-br from-[#E0A95C] via-[#C58B43] to-[#8E5F22] text-white shadow-[inset_0_1px_0_rgba(255,255,255,.22),0_6px_14px_-4px_rgba(142,95,34,.4)] relative overflow-hidden">
+                  <div class="absolute -top-4 -right-4 w-14 h-14 rounded-full bg-white/15 blur-xl" aria-hidden="true"></div>
+                  <div class="absolute -bottom-6 -left-2 w-12 h-12 rounded-full bg-[#FAF8F4]/10 blur-lg" aria-hidden="true"></div>
+                  <div class="relative flex items-center gap-1" style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; opacity:.92;"><span class="w-1.5 h-1.5 rounded-full bg-white pulse-dot shadow-[0_0_8px_rgba(255,255,255,.6)]"></span>Live now</div>
+                  <div class="relative mt-0.5 flex items-baseline gap-1">
+                    <span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:22px; line-height:1; letter-spacing:-.01em; text-shadow:0 1px 0 rgba(0,0,0,.12);">342</span>
+                    <span class="text-[9px] opacity-85" style="font-family:'JetBrains Mono',monospace; letter-spacing:.06em;">watching</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Live class preview -->
+              <div class="relative rounded-2xl overflow-hidden aspect-video bg-gradient-to-br from-[#15110D] via-[#3A2710] to-[#8E5F22]">
+                <!-- Texture overlay -->
+                <div class="absolute inset-0 opacity-35" style="background:radial-gradient(80% 60% at 20% 20%, rgba(255,255,255,.12), transparent 60%), radial-gradient(60% 50% at 100% 100%, rgba(197,139,67,.22), transparent 60%);" aria-hidden="true"></div>
+
+                <!-- Top bar -->
+                <div class="absolute top-3 left-3 right-3 flex items-center justify-between gap-2">
+                  <div class="flex items-center gap-1.5">
+                    <div class="inline-flex items-center gap-1.5 px-2 py-1 rounded-md bg-[#C44232] text-white shadow-[0_4px_10px_-2px_rgba(196,66,50,.4)]" style="font-family:'JetBrains Mono',monospace; font-size:8.5px; letter-spacing:.16em; font-weight:700;">
+                      <span class="w-1.5 h-1.5 bg-white rounded-full pulse-dot"></span>LIVE · 342
+                    </div>
+                    <div class="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-[#C58B43]/85 backdrop-blur text-white" style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:.14em; font-weight:700;">
+                      <svg width="8" height="8" viewBox="0 0 24 24" fill="#FAF8F4"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>TRENDING #2 · JEE
+                    </div>
+                  </div>
+                  <div class="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-white/15 backdrop-blur text-white" style="font-family:'JetBrains Mono',monospace; font-size:8.5px; letter-spacing:.08em; font-weight:600;">
+                    <svg class="w-2.5 h-2.5"><use href="#i-chat"/></svg>128
+                  </div>
+                </div>
+
+                <!-- Educator card (right) -->
+                <div class="absolute top-12 right-3 w-14 h-[4.5rem] rounded-lg overflow-hidden shadow-[0_8px_18px_rgba(0,0,0,.35)] ring-1 ring-white/30">
+                  <img src="./assets/wed7.png" alt="Live educator Anika Mehta" class="w-full h-full object-cover bg-white" decoding="async" loading="lazy" width="80" height="80" />
+                  <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/75 to-transparent px-1 py-1">
+                    <div class="text-[7px] text-white font-bold leading-none tracking-wider">ANIKA</div>
+                  </div>
+                  <span class="absolute top-1 left-1 w-1.5 h-1.5 rounded-full bg-[#C44232] ring-2 ring-white pulse-dot" aria-hidden="true"></span>
+                  <span class="absolute top-1 right-1 w-3 h-3 rounded-full bg-[#E0A95C] grid place-items-center ring-2 ring-white shadow-[0_0_8px_rgba(224,169,92,.6)]" aria-hidden="true">
+                    <svg width="6" height="6" viewBox="0 0 24 24" fill="#2A1B07"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+                  </span>
+                </div>
+
+                <!-- Lesson title + waveform -->
+                <div class="absolute left-3 top-12 right-20 space-y-1">
+                  <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:15px; color:white; letter-spacing:-.012em; line-height:1.1;">Rotational Motion · Part 3</div>
+                  <div style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:rgba(245,216,174,.7); font-weight:600;">Chapter 8 · 14:32 / 45:00 · ₹2,499</div>
+                  <!-- Waveform -->
+                  <div class="flex items-end gap-[2px] h-5 pt-1">
+                    <span class="w-[2px] bg-[#E0A95C]/60 rounded-sm" style="height:30%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C]/70 rounded-sm" style="height:50%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C] rounded-sm" style="height:80%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C] rounded-sm" style="height:60%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C]/80 rounded-sm" style="height:90%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C]/60 rounded-sm" style="height:40%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C]/70 rounded-sm" style="height:75%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C] rounded-sm" style="height:55%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C]/85 rounded-sm" style="height:95%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C]/55 rounded-sm" style="height:35%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C]/70 rounded-sm" style="height:65%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C] rounded-sm" style="height:85%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C]/60 rounded-sm" style="height:45%;"></span>
+                    <span class="w-[2px] bg-[#E0A95C]/80 rounded-sm" style="height:70%;"></span>
+                    <span class="w-[2px] bg-white/30 rounded-sm" style="height:25%;"></span>
+                    <span class="w-[2px] bg-white/25 rounded-sm" style="height:30%;"></span>
+                    <span class="w-[2px] bg-white/20 rounded-sm" style="height:20%;"></span>
+                  </div>
+                </div>
+
+                <!-- Bottom control bar -->
                 <div class="absolute bottom-3 left-3 right-3 flex justify-between items-end">
-                  <div class="text-[10px] text-white/70">Dr. Priya Sharma · JEE Physics</div>
+                  <div>
+                    <div class="flex items-center gap-1">
+                      <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:12px; color:white; line-height:1;">Anika Mehta</div>
+                      <svg width="9" height="9" viewBox="0 0 24 24" fill="#2F8F4E"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                    </div>
+                    <div style="font-family:'JetBrains Mono',monospace; font-size:7.5px; letter-spacing:.14em; text-transform:uppercase; color:rgba(245,216,174,.6); margin-top:2px;">JEE Physics · Batch 24</div>
+                  </div>
                   <div class="flex gap-1.5">
-                    <span class="w-7 h-7 rounded-lg bg-white/15 backdrop-blur grid place-items-center text-white"><svg class="w-3.5 h-3.5"><use href="#i-mic"/></svg></span>
-                    <span class="w-7 h-7 rounded-lg bg-white/15 backdrop-blur grid place-items-center text-white"><svg class="w-3.5 h-3.5"><use href="#i-cam"/></svg></span>
-                    <span class="w-7 h-7 rounded-lg bg-white/15 backdrop-blur grid place-items-center text-white"><svg class="w-3.5 h-3.5"><use href="#i-hand"/></svg></span>
-                    <span class="px-2.5 h-7 rounded-lg bg-red-600 grid place-items-center text-[10px] font-bold text-white">END</span>
+                    <span class="w-6 h-6 rounded-lg bg-white/15 backdrop-blur grid place-items-center text-white"><svg class="w-3 h-3"><use href="#i-mic"/></svg></span>
+                    <span class="w-6 h-6 rounded-lg bg-white/15 backdrop-blur grid place-items-center text-white"><svg class="w-3 h-3"><use href="#i-cam"/></svg></span>
+                    <span class="w-6 h-6 rounded-lg bg-white/15 backdrop-blur grid place-items-center text-white"><svg class="w-3 h-3"><use href="#i-hand"/></svg></span>
+                    <span class="px-2 h-6 rounded-lg bg-[#C44232] grid place-items-center text-white shadow-[0_4px_8px_rgba(196,66,50,.4)]" style="font-family:'JetBrains Mono',monospace; font-size:8.5px; letter-spacing:.14em; font-weight:800;">END</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="absolute -left-4 top-14 bg-white rounded-xl px-3 py-2 text-[12px] float-y shadow-lg border border-slate-200 hidden sm:flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-emerald-500 pulse-dot"></span><span class="text-slate-700 font-medium">New student enrolled · ₹2,499</span></div>
-          <div class="absolute -right-4 bottom-10 bg-white rounded-xl px-3 py-2 text-[12px] float-y shadow-lg border border-slate-200 hidden sm:flex items-center gap-2" style="animation-delay:1.5s">🔍 <span class="text-slate-700 font-medium">Found via marketplace search</span></div>
+
+          <!-- Floating: Marketplace inbound (left) -->
+          <div class="absolute -left-7 top-32 bg-white rounded-2xl px-3 py-2.5 float-y shadow-[0_24px_48px_-14px_rgba(38,28,14,.3),0_0_0_1px_rgba(20,17,13,.04)] border border-[#E5DDD0] hidden sm:block max-w-[230px] z-10">
+            <div class="flex items-center gap-2">
+              <span class="relative w-8 h-8 rounded-full bg-gradient-to-br from-[#DCF1DE] to-[#B6E5C2] grid place-items-center flex-shrink-0 ring-2 ring-white">
+                <svg class="w-3.5 h-3.5 text-[#2F8F4E]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+                <span class="absolute -top-0.5 -right-0.5 w-2 h-2 rounded-full bg-[#2F8F4E] ring-2 ring-white pulse-dot"></span>
+              </span>
+              <div class="min-w-0 flex-1">
+                <div style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:#8C8378; font-weight:700;">New enrollment</div>
+                <div class="flex items-baseline gap-1.5 mt-0.5">
+                  <span style="font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:18px; color:#15110D; line-height:1; letter-spacing:-.012em;">+₹2,499</span>
+                  <span class="text-[8.5px] text-[#8C8378]" style="font-family:'JetBrains Mono',monospace; letter-spacing:.06em;">2s ago</span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-2 pt-2 border-t border-[#E5DDD0] flex items-center gap-1.5">
+              <svg class="w-2.5 h-2.5 text-[#8E5F22]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+              <span class="text-[9.5px] text-[#3A2710] leading-tight">via Marketplace search</span>
+            </div>
+          </div>
+
+          <!-- Floating: Discovery card (right) -->
+          <div class="absolute -right-7 bottom-20 bg-white rounded-2xl px-3 py-2.5 float-y shadow-[0_24px_48px_-14px_rgba(38,28,14,.3),0_0_0_1px_rgba(20,17,13,.04)] border border-[#E5DDD0] hidden sm:block max-w-[245px] z-10" style="animation-delay:1.5s">
+            <div class="flex items-center gap-2">
+              <span class="w-8 h-8 rounded-full bg-gradient-to-br from-[#F5E8D2] to-[#E8CFA3] grid place-items-center flex-shrink-0 ring-2 ring-white">
+                <svg class="w-3.5 h-3.5 text-[#8E5F22]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+              </span>
+              <div class="min-w-0 flex-1">
+                <div style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:#8C8378; font-weight:700;">Marketplace search</div>
+                <div class="text-[11px] text-[#3A2710] leading-tight mt-0.5"><em style="font-family:'Instrument Serif',serif; color:#8E5F22; font-style:italic;">"Rotational motion JEE"</em></div>
+              </div>
+            </div>
+            <div class="mt-2 pt-2 border-t border-[#E5DDD0] flex items-center justify-between">
+              <span class="text-[8.5px]" style="font-family:'JetBrains Mono',monospace; letter-spacing:.08em; color:#8C8378;">142 LEARNERS · TODAY</span>
+              <span class="inline-flex items-center gap-0.5 px-1 py-0.5 rounded bg-[#F5E8D2]" style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:.08em; color:#8E5F22; font-weight:700;">
+                <svg width="6" height="6" viewBox="0 0 24 24" fill="#C58B43"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>+38%
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -258,40 +478,40 @@ style="display:none;visibility:hidden">
 <!-- Problem -->
 <section id="problem" class="py-24 bg-soft">
   <div class="max-w-6xl mx-auto px-5 text-center reveal">
-    <span class="eyebrow" style="color:#E63935">The Real Problem</span>
+    <span class="eyebrow" style="color:#C44232">The Real Problem</span>
     <h2 class="h1 font-display mt-4">Great teaching means nothing<br/>if <span class="accent-red">no one finds you.</span></h2>
     <p class="lede mt-5 max-w-2xl mx-auto">Today's educators are split across three broken systems. Each solves one problem and creates two more.</p>
   </div>
   <div class="max-w-6xl mx-auto px-5 mt-14 grid md:grid-cols-3 gap-5">
     <div class="card p-7 reveal">
       <div class="flex items-center gap-3">
-        <div class="w-11 h-11 rounded-xl bg-red-50 text-[#FF0000] grid place-items-center"><svg class="w-7 h-7"><use href="#i-youtube"/></svg></div>
-        <div class="text-sm font-semibold text-red-600">YouTube</div>
+        <div class="w-11 h-11 rounded-xl bg-[#F9E8E2] text-[#FF0000] grid place-items-center"><svg class="w-7 h-7"><use href="#i-youtube"/></svg></div>
+        <div class="text-sm font-semibold text-[#C44232]">YouTube</div>
       </div>
       <h3 class="h2 font-display mt-4">Built for entertainment, not learning.</h3>
-      <p class="text-slate-600 mt-2 text-[15px] leading-relaxed">The algorithm rewards viral content. Serious educators drown. You get views — not outcomes, not income, not ownership.</p>
+      <p class="text-[#4F4840] mt-2 text-[15px] leading-relaxed">The algorithm rewards viral content. Serious educators drown. You get views — not outcomes, not income, not ownership.</p>
     </div>
     <div class="card p-7 reveal">
       <div class="flex items-center gap-3">
-        <div class="w-11 h-11 rounded-xl bg-sky-50 text-[#229ED9] grid place-items-center"><svg class="w-7 h-7"><use href="#i-telegram"/></svg></div>
-        <div class="text-sm font-semibold text-sky-600">Telegram</div>
+        <div class="w-11 h-11 rounded-xl bg-[#F5E8D2] text-[#229ED9] grid place-items-center"><svg class="w-7 h-7"><use href="#i-telegram"/></svg></div>
+        <div class="text-sm font-semibold text-[#8E5F22]">Telegram</div>
       </div>
       <h3 class="h2 font-display mt-4">A messaging app pretending to be a school.</h3>
-      <p class="text-slate-600 mt-2 text-[15px] leading-relaxed">Lessons buried in chats. Manual payment screenshots. Zero access control. The moment your group grows, it collapses.</p>
+      <p class="text-[#4F4840] mt-2 text-[15px] leading-relaxed">Lessons buried in chats. Manual payment screenshots. Zero access control. The moment your group grows, it collapses.</p>
     </div>
     <div class="card p-7 reveal">
       <div class="flex items-center gap-3">
-        <div class="w-11 h-11 rounded-xl bg-amber-50 grid place-items-center"><img src="./assets/google-play-store-icon.svg" alt="" class="w-6 h-6" decoding="async" loading="lazy" /></div>
-        <div class="text-sm font-semibold text-amber-600">Personal App</div>
+        <div class="w-11 h-11 rounded-xl bg-[#F4EAD0] grid place-items-center"><img src="./assets/google-play-store-icon.svg" alt="" class="w-6 h-6" decoding="async" loading="lazy" /></div>
+        <div class="text-sm font-semibold text-[#B08518]">Personal App</div>
       </div>
       <h3 class="h2 font-display mt-4">Control — but total invisibility.</h3>
-      <p class="text-slate-600 mt-2 text-[15px] leading-relaxed">Nobody downloads an app they've never heard of. You burn lakhs on ads, fight uninstalls, and depend on developers — just to stay discoverable.</p>
+      <p class="text-[#4F4840] mt-2 text-[15px] leading-relaxed">Nobody downloads an app they've never heard of. You burn lakhs on ads, fight uninstalls, and depend on developers — just to stay discoverable.</p>
     </div>
   </div>
   <div class="max-w-3xl mx-auto mt-14 px-5 reveal">
-    <div class="bg-white rounded-2xl p-8 border-l-4 border-red-500 shadow-[0_20px_40px_-20px_rgba(15,23,42,0.15)] text-center">
-      <p class="text-xl md:text-2xl font-display font-bold text-slate-900 leading-snug">"A personal app doesn't grow your coaching.<br/><span class="accent-red">It hides it.</span>"</p>
-      <p class="text-slate-500 text-sm mt-3">Discovery is the real problem educators face today — not technology.</p>
+    <div class="bg-white rounded-2xl p-8 border-l-4 border-[#C44232] shadow-[0_20px_40px_-20px_rgba(38,28,14,0.15)] text-center">
+      <p class="text-xl md:text-2xl font-display text-[#15110D] leading-snug">"A personal app doesn't grow your coaching.<br/><span class="accent-red">It hides it.</span>"</p>
+      <p class="text-[#8C8378] text-sm mt-3">Discovery is the real problem educators face today — not technology.</p>
     </div>
   </div>
 </section>
@@ -300,25 +520,25 @@ style="display:none;visibility:hidden">
 <section class="py-24 bg-white">
   <div class="max-w-6xl mx-auto px-5">
     <div class="text-center reveal">
-      <span class="eyebrow" style="color:#2E9E4A">The AllCoaching Solution</span>
+      <span class="eyebrow" style="color:#2F8F4E">The AllCoaching Solution</span>
       <h2 class="h1 font-display mt-4">A <span class="accent-blue">platform</span> you own.<br/>A <span class="accent-green">marketplace</span> that brings students to you.</h2>
       <p class="lede mt-5 max-w-2xl mx-auto">Stop choosing between control and discovery. AllCoaching gives you both — one login, zero compromise.</p>
     </div>
     <div class="mt-14 grid lg:grid-cols-2 gap-5 reveal">
       <div class="card p-8">
-        <div class="flex items-center gap-3"><div class="w-12 h-12 rounded-xl bg-primary-50 text-primary-600 grid place-items-center text-xl">🛠️</div><h3 class="h2 font-display">Your branded platform</h3></div>
-        <p class="text-slate-600 mt-3 text-[15px] leading-relaxed">Your logo. Your colors. Your domain. Your students. Live classes, payments, tests, and CRM — all under your brand.</p>
-        <ul class="mt-6 space-y-2.5 text-[15px] text-slate-700">
+        <div class="flex items-center gap-3"><div class="w-12 h-12 rounded-xl bg-[#F5E8D2] text-[#C58B43] grid place-items-center text-xl">🛠️</div><h3 class="h2 font-display">Your branded platform</h3></div>
+        <p class="text-[#4F4840] mt-3 text-[15px] leading-relaxed">Your logo. Your colors. Your domain. Your students. Live classes, payments, tests, and CRM — all under your brand.</p>
+        <ul class="mt-6 space-y-2.5 text-[15px] text-[#3A2710]">
           <li class="flex gap-3"><span class="accent-green">✓</span> White-labeled Android + iOS app</li>
           <li class="flex gap-3"><span class="accent-green">✓</span> Built-in live classes (no Zoom needed)</li>
           <li class="flex gap-3"><span class="accent-green">✓</span> Automatic payments + access control</li>
           <li class="flex gap-3"><span class="accent-green">✓</span> Full student data ownership</li>
         </ul>
       </div>
-      <div class="card p-8 relative border-primary-200 bg-gradient-to-br from-primary-50/50 via-white to-emerald-50/50">
-        <div class="flex items-center gap-3"><div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 grid place-items-center text-xl">🎯</div><h3 class="h2 font-display">Built-in marketplace</h3><span class="ml-auto text-[10px] font-bold bg-slate-900 text-white px-2 py-1 rounded-full">THE DIFFERENCE</span></div>
-        <p class="text-slate-700 mt-3 text-[15px] leading-relaxed">Real students come to AllCoaching to <em>find educators</em>. Your coaching gets discovered — without burning lakhs on ads.</p>
-        <ul class="mt-6 space-y-2.5 text-[15px] text-slate-800">
+      <div class="card p-8 relative border-[#E8CFA3] bg-gradient-to-br from-[#F5E8D2]/50 via-white to-[#F4EAD0]/50">
+        <div class="flex items-center gap-3"><div class="w-12 h-12 rounded-xl bg-[#DCF1DE] text-[#2F8F4E] grid place-items-center text-xl">🎯</div><h3 class="h2 font-display">Built-in marketplace</h3><span class="ml-auto text-[10px] font-bold bg-[#15110D] text-white px-2 py-1 rounded-full">THE DIFFERENCE</span></div>
+        <p class="text-[#3A2710] mt-3 text-[15px] leading-relaxed">Real students come to AllCoaching to <em>find educators</em>. Your coaching gets discovered — without burning lakhs on ads.</p>
+        <ul class="mt-6 space-y-2.5 text-[15px] text-[#15110D]">
           <li class="flex gap-3"><span class="accent-blue">✓</span> Students search by subject, exam, language</li>
           <li class="flex gap-3"><span class="accent-blue">✓</span> Featured placements for quality educators</li>
           <li class="flex gap-3"><span class="accent-blue">✓</span> Reviews & ratings build your reputation</li>
@@ -342,61 +562,61 @@ style="display:none;visibility:hidden">
       <div class="lg:col-span-3 card p-6 md:p-8">
         <div>
           <div class="flex justify-between items-end">
-            <label for="calc-students" class="text-sm font-semibold text-slate-700">Number of students</label>
-            <div class="font-display font-extrabold text-2xl text-slate-900"><span id="calc-students-val">200</span></div>
+            <label for="calc-students" class="text-sm font-semibold text-[#3A2710]">Number of students</label>
+            <div class="font-display text-2xl text-[#15110D]"><span id="calc-students-val">200</span></div>
           </div>
           <div class="relative mt-3">
             <div class="absolute top-1/2 -translate-y-1/2 left-0 h-1.5 rounded-full slider-fill" id="calc-students-fill" style="width:0%"></div>
             <input id="calc-students" class="slider relative z-10 bg-transparent" type="range" min="10" max="5000" step="10" value="200" />
           </div>
-          <div class="flex justify-between text-xs text-slate-400 mt-2"><span>10</span><span>5,000</span></div>
+          <div class="flex justify-between text-xs text-[#B6AEA1] mt-2"><span>10</span><span>5,000</span></div>
         </div>
 
         <div class="mt-8">
           <div class="flex justify-between items-end">
-            <label for="calc-price" class="text-sm font-semibold text-slate-700">Course / batch price</label>
-            <div class="font-display font-extrabold text-2xl text-slate-900">₹<span id="calc-price-val">2,999</span></div>
+            <label for="calc-price" class="text-sm font-semibold text-[#3A2710]">Course / batch price</label>
+            <div class="font-display text-2xl text-[#15110D]">₹<span id="calc-price-val">2,999</span></div>
           </div>
           <div class="relative mt-3">
             <div class="absolute top-1/2 -translate-y-1/2 left-0 h-1.5 rounded-full slider-fill" id="calc-price-fill" style="width:0%"></div>
             <input id="calc-price" class="slider relative z-10 bg-transparent" type="range" min="500" max="50000" step="100" value="2999" />
           </div>
-          <div class="flex justify-between text-xs text-slate-400 mt-2"><span>₹500</span><span>₹50,000</span></div>
+          <div class="flex justify-between text-xs text-[#B6AEA1] mt-2"><span>₹500</span><span>₹50,000</span></div>
         </div>
 
         <div class="mt-6 flex flex-wrap gap-2">
-          <button class="chip hover:bg-primary-100 cursor-pointer" data-preset="50,1499">Starter · 50 × ₹1,499</button>
-          <button class="chip hover:bg-primary-100 cursor-pointer" data-preset="300,2999">Growing · 300 × ₹2,999</button>
-          <button class="chip hover:bg-primary-100 cursor-pointer" data-preset="1200,4999">Established · 1,200 × ₹4,999</button>
+          <button class="chip hover:bg-[#F5E8D2] cursor-pointer" data-preset="50,1499">Starter · 50 × ₹1,499</button>
+          <button class="chip hover:bg-[#F5E8D2] cursor-pointer" data-preset="300,2999">Growing · 300 × ₹2,999</button>
+          <button class="chip hover:bg-[#F5E8D2] cursor-pointer" data-preset="1200,4999">Established · 1,200 × ₹4,999</button>
         </div>
 
         <div class="mt-8">
-          <div class="h-3 bg-slate-100 rounded-full overflow-hidden flex">
-            <div class="h-full bg-gradient-to-r from-primary-500 to-emerald-500" style="width:90%"></div>
-            <div class="h-full bg-amber-400" style="width:10%"></div>
+          <div class="h-3 bg-[#F6F2EA] rounded-full overflow-hidden flex">
+            <div class="h-full bg-gradient-to-r from-[#C58B43] to-[#8E5F22]" style="width:90%"></div>
+            <div class="h-full bg-[#C58B43]" style="width:10%"></div>
           </div>
-          <div class="flex justify-between text-xs mt-2"><span class="accent-green font-semibold">90% to you</span><span class="text-amber-600 font-semibold">10% platform</span></div>
+          <div class="flex justify-between text-xs mt-2"><span class="accent-green font-semibold">90% to you</span><span class="text-[#B08518] font-semibold">10% platform</span></div>
         </div>
       </div>
 
-      <div class="lg:col-span-2 card p-6 md:p-8 bg-gradient-to-br from-primary-50 via-white to-emerald-50 border-primary-200 relative overflow-hidden">
-        <div class="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-primary-200/50 blur-3xl"></div>
+      <div class="lg:col-span-2 card p-6 md:p-8 bg-gradient-to-br from-[#F5E8D2] via-white to-[#F4EAD0] border-[#E8CFA3] relative overflow-hidden">
+        <div class="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-[#E8CFA3]/50 blur-3xl"></div>
         <div class="relative">
-          <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider">You earn</div>
-          <div class="mt-1 font-display font-extrabold text-5xl md:text-6xl earn-num accent-green" id="calc-educator">₹5.4L</div>
-          <div class="text-slate-500 text-sm mt-1">per cohort, after platform fee</div>
+          <div class="text-xs font-semibold text-[#8C8378] uppercase tracking-wider">You earn</div>
+          <div class="mt-1 font-display text-5xl md:text-6xl earn-num accent-green" id="calc-educator">₹5.4L</div>
+          <div class="text-[#8C8378] text-sm mt-1">per cohort, after platform fee</div>
 
-          <div class="mt-6 pt-6 border-t border-slate-200 space-y-3 text-sm">
-            <div class="flex justify-between"><span class="text-slate-500">Gross revenue</span><span class="font-semibold text-slate-900 earn-num" id="calc-total">₹6.0L</span></div>
-            <div class="flex justify-between"><span class="text-slate-500">Platform fee (10%)</span><span class="font-semibold text-amber-600 earn-num" id="calc-fee">₹60,000</span></div>
-            <div class="flex justify-between text-[15px] pt-2 border-t border-slate-200"><span class="font-semibold text-slate-700">Your take-home</span><span class="font-bold accent-green earn-num" id="calc-net">₹5,39,820</span></div>
+          <div class="mt-6 pt-6 border-t border-[#E5DDD0] space-y-3 text-sm">
+            <div class="flex justify-between"><span class="text-[#8C8378]">Gross revenue</span><span class="font-semibold text-[#15110D] earn-num" id="calc-total">₹6.0L</span></div>
+            <div class="flex justify-between"><span class="text-[#8C8378]">Platform fee (10%)</span><span class="font-semibold text-[#B08518] earn-num" id="calc-fee">₹60,000</span></div>
+            <div class="flex justify-between text-[15px] pt-2 border-t border-[#E5DDD0]"><span class="font-semibold text-[#3A2710]">Your take-home</span><span class="font-bold accent-green earn-num" id="calc-net">₹5,39,820</span></div>
           </div>
 
           <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-primary w-full mt-7">
             <svg class="w-4 h-4"><use href="#i-calendar"/></svg>
             Join Now
           </a>
-          <p class="text-[11px] text-slate-400 text-center mt-3">Estimates only. Actual earnings vary by engagement & retention.</p>
+          <p class="text-[11px] text-[#B6AEA1] text-center mt-3">Estimates only. Actual earnings vary by engagement & retention.</p>
         </div>
       </div>
     </div>
@@ -412,12 +632,12 @@ style="display:none;visibility:hidden">
       <p class="lede mt-4 max-w-2xl mx-auto">Stop juggling Zoom, WhatsApp, Excel, Paytm, and an app developer. Run your entire coaching business from a single dashboard.</p>
     </div>
     <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 grid place-items-center"><svg class="w-6 h-6"><use href="#i-video"/></svg></div><h3 class="font-display font-bold text-xl mt-5">Live Interactive Classes</h3><p class="text-slate-600 mt-2 text-[15px]">HD video, whiteboard, polls, hand-raise, and auto-recording. No Zoom license required.</p></article>
-      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-primary-50 text-primary-600 grid place-items-center text-xl">📱</div><h3 class="font-display font-bold text-xl mt-5">Your Own Branded App</h3><p class="text-slate-600 mt-2 text-[15px]">White-labeled Android + iOS apps with your logo, colors, and domain. Publish in days, not months.</p></article>
-      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 grid place-items-center"><svg class="w-6 h-6"><use href="#i-search"/></svg></div><h3 class="font-display font-bold text-xl mt-5">Marketplace Discovery</h3><p class="text-slate-600 mt-2 text-[15px]">Get found by real learners searching for educators. Built-in distribution — no ad spend required.</p></article>
-      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 grid place-items-center"><svg class="w-6 h-6"><use href="#i-cash"/></svg></div><h3 class="font-display font-bold text-xl mt-5">Secure Payments & Payouts</h3><p class="text-slate-600 mt-2 text-[15px]">UPI, cards, EMI, auto-invoicing, and daily settlements directly to your bank. No manual collection.</p></article>
-      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-600 grid place-items-center"><svg class="w-6 h-6"><use href="#i-users"/></svg></div><h3 class="font-display font-bold text-xl mt-5">Student CRM</h3><p class="text-slate-600 mt-2 text-[15px]">Batches, attendance, parents, leads, and progress tracking — one unified dashboard.</p></article>
-      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-violet-50 text-violet-600 grid place-items-center"><svg class="w-6 h-6"><use href="#i-chart"/></svg></div><h3 class="font-display font-bold text-xl mt-5">Analytics & Outcomes</h3><p class="text-slate-600 mt-2 text-[15px]">Revenue, retention, watch-time, and batch performance — clear metrics that actually help you grow.</p></article>
+      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-[#F9E8E2] text-[#C44232] grid place-items-center"><svg class="w-6 h-6"><use href="#i-video"/></svg></div><h3 class="font-display text-xl mt-5">Live Interactive Classes</h3><p class="text-[#4F4840] mt-2 text-[15px]">HD video, whiteboard, polls, hand-raise, and auto-recording. No Zoom license required.</p></article>
+      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-[#F5E8D2] text-[#C58B43] grid place-items-center text-xl">📱</div><h3 class="font-display text-xl mt-5">Your Own Branded App</h3><p class="text-[#4F4840] mt-2 text-[15px]">White-labeled Android + iOS apps with your logo, colors, and domain. Publish in days, not months.</p></article>
+      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-[#DCF1DE] text-[#2F8F4E] grid place-items-center"><svg class="w-6 h-6"><use href="#i-search"/></svg></div><h3 class="font-display text-xl mt-5">Marketplace Discovery</h3><p class="text-[#4F4840] mt-2 text-[15px]">Get found by real learners searching for educators. Built-in distribution — no ad spend required.</p></article>
+      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-[#F4EAD0] text-[#B08518] grid place-items-center"><svg class="w-6 h-6"><use href="#i-cash"/></svg></div><h3 class="font-display text-xl mt-5">Secure Payments & Payouts</h3><p class="text-[#4F4840] mt-2 text-[15px]">UPI, cards, EMI, auto-invoicing, and daily settlements directly to your bank. No manual collection.</p></article>
+      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-[#F5E8D2] text-[#8E5F22] grid place-items-center"><svg class="w-6 h-6"><use href="#i-users"/></svg></div><h3 class="font-display text-xl mt-5">Student CRM</h3><p class="text-[#4F4840] mt-2 text-[15px]">Batches, attendance, parents, leads, and progress tracking — one unified dashboard.</p></article>
+      <article class="card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-[#F5E8D2] text-[#8E5F22] grid place-items-center"><svg class="w-6 h-6"><use href="#i-chart"/></svg></div><h3 class="font-display text-xl mt-5">Analytics & Outcomes</h3><p class="text-[#4F4840] mt-2 text-[15px]">Revenue, retention, watch-time, and batch performance — clear metrics that actually help you grow.</p></article>
     </div>
   </div>
 </section>
@@ -427,10 +647,49 @@ style="display:none;visibility:hidden">
   <div class="max-w-6xl mx-auto px-5">
     <div class="text-center reveal"><span class="eyebrow">How it works</span><h2 class="h1 font-display mt-4">From setup to scale in <span class="accent-blue">3 steps.</span></h2></div>
     <div class="mt-14 grid md:grid-cols-3 gap-6 relative">
-      <div class="hidden md:block absolute top-10 left-[16%] right-[16%] h-px bg-gradient-to-r from-primary-200 via-emerald-200 to-amber-200"></div>
-      <div class="relative card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-primary-600 text-white grid place-items-center font-display text-xl font-bold shadow-lg">1</div><h3 class="font-display font-bold text-xl mt-5">Create your coaching</h3><p class="text-slate-600 mt-2 text-[15px]">Sign up, add your logo, pick colors, and publish your branded app and marketplace profile in minutes.</p></div>
-      <div class="relative card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-primary-600 text-white grid place-items-center font-display text-xl font-bold shadow-lg">2</div><h3 class="font-display font-bold text-xl mt-5">Get discovered</h3><p class="text-slate-600 mt-2 text-[15px]">Real learners find you through search and category pages — while existing students onboard via your link.</p></div>
-      <div class="relative card p-7 reveal"><div class="w-12 h-12 rounded-xl bg-primary-600 text-white grid place-items-center font-display text-xl font-bold shadow-lg">3</div><h3 class="font-display font-bold text-xl mt-5">Teach & earn</h3><p class="text-slate-600 mt-2 text-[15px]">Run live classes, collect payments automatically, and keep 90% of every rupee — paid directly to your bank.</p></div>
+      <div class="hidden md:block absolute top-[3.25rem] left-[18%] right-[18%] h-px" style="background:linear-gradient(90deg, transparent 0%, #E8CFA3 22%, #C58B43 50%, #E8CFA3 78%, transparent 100%);" aria-hidden="true"></div>
+
+      <article class="relative card p-7 reveal overflow-hidden">
+        <span aria-hidden="true" style="position:absolute; top:-30px; right:-6px; font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:180px; line-height:1; color:transparent; -webkit-text-stroke:1.5px rgba(197,139,67,.22); pointer-events:none; user-select:none;">1</span>
+        <div class="relative flex items-center gap-2.5">
+          <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-md bg-[#F5E8D2] border border-[#E8CFA3]" style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; color:#8E5F22; font-weight:700;"><span class="w-1 h-1 rounded-full bg-[#C58B43]"></span>STEP 01</span>
+          <span class="flex-1 h-px bg-gradient-to-r from-[#E8CFA3] to-transparent"></span>
+        </div>
+        <div class="relative mt-5 flex items-baseline gap-2">
+          <span style="font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:64px; line-height:.82; color:#8E5F22; letter-spacing:-.03em;">1</span>
+          <span class="text-[#B6AEA1]" style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.08em;">/ 03</span>
+        </div>
+        <h3 class="relative font-display text-xl mt-4">Create your coaching</h3>
+        <p class="relative text-[#4F4840] mt-2 text-[15px]">Sign up, add your logo, pick colors, and publish your branded app and marketplace profile in minutes.</p>
+      </article>
+
+      <article class="relative card p-7 reveal overflow-hidden">
+        <span aria-hidden="true" style="position:absolute; top:-30px; right:-6px; font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:180px; line-height:1; color:transparent; -webkit-text-stroke:1.5px rgba(197,139,67,.22); pointer-events:none; user-select:none;">2</span>
+        <div class="relative flex items-center gap-2.5">
+          <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-md bg-[#F5E8D2] border border-[#E8CFA3]" style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; color:#8E5F22; font-weight:700;"><span class="w-1 h-1 rounded-full bg-[#C58B43]"></span>STEP 02</span>
+          <span class="flex-1 h-px bg-gradient-to-r from-[#E8CFA3] to-transparent"></span>
+        </div>
+        <div class="relative mt-5 flex items-baseline gap-2">
+          <span style="font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:64px; line-height:.82; color:#8E5F22; letter-spacing:-.03em;">2</span>
+          <span class="text-[#B6AEA1]" style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.08em;">/ 03</span>
+        </div>
+        <h3 class="relative font-display text-xl mt-4">Get discovered</h3>
+        <p class="relative text-[#4F4840] mt-2 text-[15px]">Real learners find you through search and category pages — while existing students onboard via your link.</p>
+      </article>
+
+      <article class="relative card p-7 reveal overflow-hidden">
+        <span aria-hidden="true" style="position:absolute; top:-30px; right:-6px; font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:180px; line-height:1; color:transparent; -webkit-text-stroke:1.5px rgba(197,139,67,.22); pointer-events:none; user-select:none;">3</span>
+        <div class="relative flex items-center gap-2.5">
+          <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded-md bg-[#F5E8D2] border border-[#E8CFA3]" style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; color:#8E5F22; font-weight:700;"><span class="w-1 h-1 rounded-full bg-[#C58B43]"></span>STEP 03</span>
+          <span class="flex-1 h-px bg-gradient-to-r from-[#E8CFA3] to-transparent"></span>
+        </div>
+        <div class="relative mt-5 flex items-baseline gap-2">
+          <span style="font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:64px; line-height:.82; color:#8E5F22; letter-spacing:-.03em;">3</span>
+          <span class="text-[#B6AEA1]" style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.08em;">/ 03</span>
+        </div>
+        <h3 class="relative font-display text-xl mt-4">Teach &amp; earn</h3>
+        <p class="relative text-[#4F4840] mt-2 text-[15px]">Run live classes, collect payments automatically, and keep 90% of every rupee — paid directly to your bank.</p>
+      </article>
     </div>
   </div>
 </section>
@@ -438,10 +697,10 @@ style="display:none;visibility:hidden">
 <!-- Stats -->
 <section class="py-16 bg-white">
   <div class="max-w-6xl mx-auto px-5 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-    <div class="card p-7 text-center reveal"><div class="font-display font-extrabold text-4xl accent-blue">2,400+</div><div class="text-slate-500 text-sm mt-2">Educators onboarded</div></div>
-    <div class="card p-7 text-center reveal"><div class="font-display font-extrabold text-4xl accent-blue">1.2L+</div><div class="text-slate-500 text-sm mt-2">Students learning</div></div>
-    <div class="card p-7 text-center reveal"><div class="font-display font-extrabold text-4xl accent-green">₹18Cr+</div><div class="text-slate-500 text-sm mt-2">Paid to educators</div></div>
-    <div class="card p-7 text-center reveal"><div class="font-display font-extrabold text-4xl accent-green">90%</div><div class="text-slate-500 text-sm mt-2">Revenue share to you</div></div>
+    <div class="card p-7 text-center reveal"><div class="font-display text-4xl accent-blue">2,400+</div><div class="text-[#8C8378] text-sm mt-2">Educators onboarded</div></div>
+    <div class="card p-7 text-center reveal"><div class="font-display text-4xl accent-blue">1.2L+</div><div class="text-[#8C8378] text-sm mt-2">Students learning</div></div>
+    <div class="card p-7 text-center reveal"><div class="font-display text-4xl accent-green">₹18Cr+</div><div class="text-[#8C8378] text-sm mt-2">Paid to educators</div></div>
+    <div class="card p-7 text-center reveal"><div class="font-display text-4xl accent-green">90%</div><div class="text-[#8C8378] text-sm mt-2">Revenue share to you</div></div>
   </div>
 </section>
 
@@ -452,7 +711,7 @@ style="display:none;visibility:hidden">
       <span class="eyebrow">Ratings & Reviews</span>
       <h2 class="h1 font-display mt-4">Real educators. <span class="accent-green">Real discovery. Real growth.</span></h2>
       <p class="lede mt-4 max-w-xl mx-auto">The strongest proof of AllCoaching is the educators who teach, get found, and scale — with full ownership.</p>
-      <p class="mt-3 text-xs text-slate-400">Tip · Click anywhere on the strip to pause / resume</p>
+      <p class="mt-3 text-xs text-[#B6AEA1]">Tip · Click anywhere on the strip to pause / resume</p>
     </div>
   </div>
 
@@ -468,7 +727,7 @@ style="display:none;visibility:hidden">
       <span class="eyebrow">Product Showcase</span>
       <h2 class="h1 font-display mt-4">Your students find you — <span class="accent-blue">we built the bridge.</span></h2>
       <p class="lede mt-4 max-w-2xl mx-auto">The core student experience inside AllCoaching — Discover, Learn, Test, and Chat.</p>
-      <p class="mt-3 text-xs text-slate-400">Tip · Click anywhere on the strip to pause / resume</p>
+      <p class="mt-3 text-xs text-[#B6AEA1]">Tip · Click anywhere on the strip to pause / resume</p>
     </div>
   </div>
 
@@ -479,19 +738,19 @@ style="display:none;visibility:hidden">
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <div class="flex justify-center">
             <div class="phone">
-              <div class="screen bg-gradient-to-b from-primary-50 via-white to-white">
+              <div class="screen bg-gradient-to-b from-[#F5E8D2] via-white to-white">
                 <div class="notch"></div>
                 <div class="p-4 pt-10">
-                  <div class="text-[10px] text-slate-500">Discover on</div>
-                  <div class="font-display font-bold text-lg flex items-center gap-1.5 text-slate-900"><img src="./assets/fevicon.webp" class="w-5 h-5 rounded-full" alt="" decoding="async" loading="lazy"  width="512"  height="512" />AllCoaching</div>
-                  <div class="mt-3 flex items-center gap-2 bg-slate-100 rounded-xl px-3 py-2 border border-slate-200"><svg class="w-3.5 h-3.5 text-slate-400"><use href="#i-search"/></svg><span class="text-xs text-slate-500">Search JEE, NEET, SSC...</span></div>
-                  <div class="mt-4 text-[11px] text-slate-500 uppercase tracking-wider font-semibold">Top educators near you</div>
+                  <div class="text-[10px] text-[#8C8378]">Discover on</div>
+                  <div class="font-display text-lg flex items-center gap-1.5 text-[#15110D]"><img src="./assets/fevicon.webp" class="w-5 h-5 rounded-full" alt="" decoding="async" loading="lazy"  width="512"  height="512" />AllCoaching</div>
+                  <div class="mt-3 flex items-center gap-2 bg-[#F6F2EA] rounded-xl px-3 py-2 border border-[#E5DDD0]"><svg class="w-3.5 h-3.5 text-[#B6AEA1]"><use href="#i-search"/></svg><span class="text-xs text-[#8C8378]">Search JEE, NEET, SSC...</span></div>
+                  <div class="mt-4 text-[11px] text-[#8C8378] uppercase tracking-wider font-semibold">Top educators near you</div>
                   <div class="mt-2 space-y-2">
-                    <div class="rounded-xl bg-white p-3 flex gap-3 items-center border border-slate-200 shadow-sm"><img src="./assets/wed8.png" class="w-10 h-10 rounded-lg object-cover bg-slate-100" alt="Dr. Priya Sharma" loading="lazy" decoding="async"  width="80"  height="80" /><div class="flex-1"><div class="text-sm font-semibold text-slate-900">Dr. Priya Sharma</div><div class="text-[10px] text-slate-500">JEE Physics · ⭐ 4.9</div></div><span class="text-[9px] px-2 py-0.5 bg-emerald-100 text-emerald-700 rounded-full font-bold">LIVE</span></div>
-                    <div class="rounded-xl bg-white p-3 flex gap-3 items-center border border-slate-200 shadow-sm"><img src="./assets/wed7.png" class="w-10 h-10 rounded-lg object-cover bg-slate-100" alt="Pooja Verma" loading="lazy" decoding="async"  width="80"  height="80" /><div class="flex-1"><div class="text-sm font-semibold text-slate-900">Pooja Verma</div><div class="text-[10px] text-slate-500">Mathematics · ⭐ 4.8</div></div></div>
-                    <div class="rounded-xl bg-white p-3 flex gap-3 items-center border border-slate-200 shadow-sm"><img src="./assets/ed2.png" class="w-10 h-10 rounded-lg object-cover bg-slate-100" alt="Vikram Singh" loading="lazy" decoding="async"  width="80"  height="80" /><div class="flex-1"><div class="text-sm font-semibold text-slate-900">Vikram Singh</div><div class="text-[10px] text-slate-500">SSC · ⭐ 4.9</div></div></div>
+                    <div class="rounded-xl bg-white p-3 flex gap-3 items-center border border-[#E5DDD0] shadow-sm"><img src="./assets/wed8.png" class="w-10 h-10 rounded-lg object-cover bg-[#F6F2EA]" alt="Dr. Priya Sharma" loading="lazy" decoding="async"  width="80"  height="80" /><div class="flex-1"><div class="text-sm font-semibold text-[#15110D]">Dr. Priya Sharma</div><div class="text-[10px] text-[#8C8378]">JEE Physics · ⭐ 4.9</div></div><span class="text-[9px] px-2 py-0.5 bg-[#DCF1DE] text-[#2F8F4E] rounded-full font-bold">LIVE</span></div>
+                    <div class="rounded-xl bg-white p-3 flex gap-3 items-center border border-[#E5DDD0] shadow-sm"><img src="./assets/wed7.png" class="w-10 h-10 rounded-lg object-cover bg-[#F6F2EA]" alt="Pooja Verma" loading="lazy" decoding="async"  width="80"  height="80" /><div class="flex-1"><div class="text-sm font-semibold text-[#15110D]">Pooja Verma</div><div class="text-[10px] text-[#8C8378]">Mathematics · ⭐ 4.8</div></div></div>
+                    <div class="rounded-xl bg-white p-3 flex gap-3 items-center border border-[#E5DDD0] shadow-sm"><img src="./assets/ed2.png" class="w-10 h-10 rounded-lg object-cover bg-[#F6F2EA]" alt="Vikram Singh" loading="lazy" decoding="async"  width="80"  height="80" /><div class="flex-1"><div class="text-sm font-semibold text-[#15110D]">Vikram Singh</div><div class="text-[10px] text-[#8C8378]">SSC · ⭐ 4.9</div></div></div>
                   </div>
-                  <button class="mt-4 w-full py-2.5 rounded-xl bg-primary-600 text-white text-xs font-semibold">Explore all educators</button>
+                  <button class="mt-4 w-full py-2.5 rounded-xl bg-[#C58B43] text-white text-xs font-semibold">Explore all educators</button>
                 </div>
               </div>
             </div>
@@ -500,7 +759,7 @@ style="display:none;visibility:hidden">
             <div class="chip mb-3">🔍 Discover Educators</div>
             <h3 class="h1 font-display">Discovery that actually finds you.</h3>
             <p class="lede mt-4">Students search by subject, exam, and language — your profile surfaces to real, intent-rich learners. No ad spend required.</p>
-            <ul class="mt-6 space-y-3 text-slate-700 text-[15.5px]">
+            <ul class="mt-6 space-y-3 text-[#3A2710] text-[15.5px]">
               <li class="flex gap-3"><span class="accent-green">✓</span> SEO-indexed educator profile pages</li>
               <li class="flex gap-3"><span class="accent-green">✓</span> Verified badges & ratings</li>
               <li class="flex gap-3"><span class="accent-green">✓</span> Featured slots for top educators</li>
@@ -517,17 +776,17 @@ style="display:none;visibility:hidden">
               <div class="screen bg-white">
                 <div class="notch"></div>
                 <div class="p-4 pt-10">
-                  <div class="text-sm font-display font-bold text-slate-900">JEE Physics Masterclass</div>
-                  <div class="text-[10px] text-slate-500">24 videos · 18h 40m</div>
-                  <div class="mt-3 rounded-xl overflow-hidden aspect-video bg-gradient-to-br from-slate-900 to-primary-800 relative">
-                    <div class="absolute inset-0 grid place-items-center"><div class="w-12 h-12 rounded-full bg-white/90 grid place-items-center"><svg class="w-5 h-5 text-primary-600"><use href="#i-play"/></svg></div></div>
-                    <div class="absolute bottom-0 inset-x-0 p-2"><div class="h-1 bg-white/20 rounded-full overflow-hidden"><div class="h-full bg-primary-500" style="width:42%"></div></div></div>
+                  <div class="text-sm font-display text-[#15110D]">JEE Physics Masterclass</div>
+                  <div class="text-[10px] text-[#8C8378]">24 videos · 18h 40m</div>
+                  <div class="mt-3 rounded-xl overflow-hidden aspect-video bg-gradient-to-br from-[#15110D] to-[#8E5F22] relative">
+                    <div class="absolute inset-0 grid place-items-center"><div class="w-12 h-12 rounded-full bg-white/90 grid place-items-center"><svg class="w-5 h-5 text-[#C58B43]"><use href="#i-play"/></svg></div></div>
+                    <div class="absolute bottom-0 inset-x-0 p-2"><div class="h-1 bg-white/20 rounded-full overflow-hidden"><div class="h-full bg-[#C58B43]" style="width:42%"></div></div></div>
                   </div>
-                  <div class="mt-3 text-[11px] font-semibold text-slate-500 uppercase tracking-wider">Up next</div>
+                  <div class="mt-3 text-[11px] font-semibold text-[#8C8378] uppercase tracking-wider">Up next</div>
                   <div class="mt-2 space-y-2">
-                    <div class="flex gap-2 items-center rounded-lg p-2 bg-primary-50 border border-primary-100"><div class="w-14 h-10 rounded bg-gradient-to-br from-primary-500 to-primary-700 grid place-items-center text-white text-[9px] font-bold">4:32</div><div class="flex-1 min-w-0"><div class="text-[11px] font-semibold text-slate-900 truncate">Rotational Motion · Part 3</div><div class="text-[9px] text-slate-500">Lesson 8 of 24</div></div><svg class="w-4 h-4 text-primary-600"><use href="#i-play"/></svg></div>
-                    <div class="flex gap-2 items-center rounded-lg p-2"><div class="w-14 h-10 rounded bg-slate-200 grid place-items-center text-slate-600 text-[9px] font-bold">6:18</div><div class="flex-1 min-w-0"><div class="text-[11px] font-semibold text-slate-900 truncate">Torque & Angular Mom.</div><div class="text-[9px] text-slate-500">Lesson 9</div></div><svg class="w-4 h-4 text-slate-400"><use href="#i-doc"/></svg></div>
-                    <div class="flex gap-2 items-center rounded-lg p-2"><div class="w-14 h-10 rounded bg-slate-200 grid place-items-center text-slate-600 text-[9px] font-bold">8:02</div><div class="flex-1 min-w-0"><div class="text-[11px] font-semibold text-slate-900 truncate">Moment of Inertia</div><div class="text-[9px] text-slate-500">Lesson 10</div></div><svg class="w-4 h-4 text-slate-400"><use href="#i-doc"/></svg></div>
+                    <div class="flex gap-2 items-center rounded-lg p-2 bg-[#F5E8D2] border border-[#F5E8D2]"><div class="w-14 h-10 rounded bg-gradient-to-br from-[#C58B43] to-[#8E5F22] grid place-items-center text-white text-[9px] font-bold">4:32</div><div class="flex-1 min-w-0"><div class="text-[11px] font-semibold text-[#15110D] truncate">Rotational Motion · Part 3</div><div class="text-[9px] text-[#8C8378]">Lesson 8 of 24</div></div><svg class="w-4 h-4 text-[#C58B43]"><use href="#i-play"/></svg></div>
+                    <div class="flex gap-2 items-center rounded-lg p-2"><div class="w-14 h-10 rounded bg-[#E5DDD0] grid place-items-center text-[#4F4840] text-[9px] font-bold">6:18</div><div class="flex-1 min-w-0"><div class="text-[11px] font-semibold text-[#15110D] truncate">Torque & Angular Mom.</div><div class="text-[9px] text-[#8C8378]">Lesson 9</div></div><svg class="w-4 h-4 text-[#B6AEA1]"><use href="#i-doc"/></svg></div>
+                    <div class="flex gap-2 items-center rounded-lg p-2"><div class="w-14 h-10 rounded bg-[#E5DDD0] grid place-items-center text-[#4F4840] text-[9px] font-bold">8:02</div><div class="flex-1 min-w-0"><div class="text-[11px] font-semibold text-[#15110D] truncate">Moment of Inertia</div><div class="text-[9px] text-[#8C8378]">Lesson 10</div></div><svg class="w-4 h-4 text-[#B6AEA1]"><use href="#i-doc"/></svg></div>
                   </div>
                 </div>
               </div>
@@ -537,7 +796,7 @@ style="display:none;visibility:hidden">
             <div class="chip mb-3">🎬 Video Playlists</div>
             <h3 class="h1 font-display">Structured video playlists.</h3>
             <p class="lede mt-4">Organise lectures into courses and chapters. Auto-resume, offline downloads, and progress tracking built in.</p>
-            <ul class="mt-6 space-y-3 text-slate-700 text-[15.5px]">
+            <ul class="mt-6 space-y-3 text-[#3A2710] text-[15.5px]">
               <li class="flex gap-3"><span class="accent-green">✓</span> Drag-and-drop chapter builder</li>
               <li class="flex gap-3"><span class="accent-green">✓</span> DRM-protected offline downloads</li>
               <li class="flex gap-3"><span class="accent-green">✓</span> Watch-time & completion analytics</li>
@@ -555,20 +814,20 @@ style="display:none;visibility:hidden">
                 <div class="notch"></div>
                 <div class="p-4 pt-10">
                   <div class="flex items-center justify-between">
-                    <div class="text-[10px] font-semibold text-slate-500">Q 7 / 30</div>
-                    <div class="flex items-center gap-1 text-[10px] font-bold text-red-600"><span class="w-1.5 h-1.5 rounded-full bg-red-600 pulse-dot"></span>18:42</div>
+                    <div class="text-[10px] font-semibold text-[#8C8378]">Q 7 / 30</div>
+                    <div class="flex items-center gap-1 text-[10px] font-bold text-[#C44232]"><span class="w-1.5 h-1.5 rounded-full bg-[#C44232] pulse-dot"></span>18:42</div>
                   </div>
-                  <div class="mt-3 h-1 bg-slate-100 rounded-full overflow-hidden"><div class="h-full bg-primary-600" style="width:23%"></div></div>
-                  <div class="mt-4 text-[13px] font-semibold text-slate-900 leading-snug">A body of mass 2kg moves in a circular path of radius 3m at 4 m/s. Find the centripetal force.</div>
+                  <div class="mt-3 h-1 bg-[#F6F2EA] rounded-full overflow-hidden"><div class="h-full bg-[#C58B43]" style="width:23%"></div></div>
+                  <div class="mt-4 text-[13px] font-semibold text-[#15110D] leading-snug">A body of mass 2kg moves in a circular path of radius 3m at 4 m/s. Find the centripetal force.</div>
                   <div class="mt-3 space-y-2">
-                    <div class="rounded-lg p-2.5 border border-slate-200 flex gap-2 items-center"><span class="w-5 h-5 rounded-full border-2 border-slate-300 text-[10px] grid place-items-center font-bold text-slate-500">A</span><span class="text-[12px] text-slate-700">8 N</span></div>
-                    <div class="rounded-lg p-2.5 border-2 border-emerald-500 bg-emerald-50 flex gap-2 items-center"><span class="w-5 h-5 rounded-full bg-emerald-500 text-white text-[10px] grid place-items-center"><svg class="w-3 h-3"><use href="#i-check"/></svg></span><span class="text-[12px] font-semibold text-emerald-800">10.67 N</span></div>
-                    <div class="rounded-lg p-2.5 border border-slate-200 flex gap-2 items-center"><span class="w-5 h-5 rounded-full border-2 border-slate-300 text-[10px] grid place-items-center font-bold text-slate-500">C</span><span class="text-[12px] text-slate-700">12 N</span></div>
-                    <div class="rounded-lg p-2.5 border border-slate-200 flex gap-2 items-center"><span class="w-5 h-5 rounded-full border-2 border-slate-300 text-[10px] grid place-items-center font-bold text-slate-500">D</span><span class="text-[12px] text-slate-700">24 N</span></div>
+                    <div class="rounded-lg p-2.5 border border-[#E5DDD0] flex gap-2 items-center"><span class="w-5 h-5 rounded-full border-2 border-[rgba(20,17,13,0.12)] text-[10px] grid place-items-center font-bold text-[#8C8378]">A</span><span class="text-[12px] text-[#3A2710]">8 N</span></div>
+                    <div class="rounded-lg p-2.5 border-2 border-[#2F8F4E] bg-[#DCF1DE] flex gap-2 items-center"><span class="w-5 h-5 rounded-full bg-[#2F8F4E] text-white text-[10px] grid place-items-center"><svg class="w-3 h-3"><use href="#i-check"/></svg></span><span class="text-[12px] font-semibold text-[#2F8F4E]">10.67 N</span></div>
+                    <div class="rounded-lg p-2.5 border border-[#E5DDD0] flex gap-2 items-center"><span class="w-5 h-5 rounded-full border-2 border-[rgba(20,17,13,0.12)] text-[10px] grid place-items-center font-bold text-[#8C8378]">C</span><span class="text-[12px] text-[#3A2710]">12 N</span></div>
+                    <div class="rounded-lg p-2.5 border border-[#E5DDD0] flex gap-2 items-center"><span class="w-5 h-5 rounded-full border-2 border-[rgba(20,17,13,0.12)] text-[10px] grid place-items-center font-bold text-[#8C8378]">D</span><span class="text-[12px] text-[#3A2710]">24 N</span></div>
                   </div>
                   <div class="mt-4 grid grid-cols-2 gap-2">
-                    <button class="py-2 rounded-lg border border-slate-200 text-[11px] font-semibold text-slate-700">Previous</button>
-                    <button class="py-2 rounded-lg bg-primary-600 text-white text-[11px] font-semibold">Next →</button>
+                    <button class="py-2 rounded-lg border border-[#E5DDD0] text-[11px] font-semibold text-[#3A2710]">Previous</button>
+                    <button class="py-2 rounded-lg bg-[#C58B43] text-white text-[11px] font-semibold">Next →</button>
                   </div>
                 </div>
               </div>
@@ -578,7 +837,7 @@ style="display:none;visibility:hidden">
             <div class="chip mb-3">📝 MCQ Test Series</div>
             <h3 class="h1 font-display">Tests that grade themselves.</h3>
             <p class="lede mt-4">Create MCQ tests, mock exams, and DPPs. Auto-grading, ranks, and detailed analytics — without spreadsheets.</p>
-            <ul class="mt-6 space-y-3 text-slate-700 text-[15.5px]">
+            <ul class="mt-6 space-y-3 text-[#3A2710] text-[15.5px]">
               <li class="flex gap-3"><span class="accent-green">✓</span> MCQ, subjective, and image-based questions</li>
               <li class="flex gap-3"><span class="accent-green">✓</span> Instant leaderboard & percentile</li>
               <li class="flex gap-3"><span class="accent-green">✓</span> Topic-wise weakness reports</li>
@@ -592,21 +851,21 @@ style="display:none;visibility:hidden">
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <div class="flex justify-center">
             <div class="phone">
-              <div class="screen bg-slate-50 flex flex-col">
+              <div class="screen bg-[#F6F2EA] flex flex-col">
                 <div class="notch"></div>
                 <div class="pt-10"></div>
-                <div class="px-4 pb-3 border-b border-slate-200 bg-white flex items-center gap-2">
-                  <img src="./assets/wed8.png" class="w-8 h-8 rounded-full object-cover bg-slate-100" alt="Dr. Priya" loading="lazy" decoding="async"  width="80"  height="80" />
-                  <div><div class="text-[12px] font-semibold text-slate-900">JEE Physics · Batch 2026</div><div class="text-[9px] text-emerald-600 font-semibold">● 342 online</div></div>
+                <div class="px-4 pb-3 border-b border-[#E5DDD0] bg-white flex items-center gap-2">
+                  <img src="./assets/wed8.png" class="w-8 h-8 rounded-full object-cover bg-[#F6F2EA]" alt="Dr. Priya" loading="lazy" decoding="async"  width="80"  height="80" />
+                  <div><div class="text-[12px] font-semibold text-[#15110D]">JEE Physics · Batch 2026</div><div class="text-[9px] text-[#2F8F4E] font-semibold">● 342 online</div></div>
                 </div>
                 <div class="flex-1 overflow-y-auto p-3 space-y-3">
-                  <div class="flex gap-2"><img src="./assets/ed5.png" class="w-7 h-7 rounded-full object-cover bg-slate-100" alt="Aarav" loading="lazy" decoding="async"  width="80"  height="80" /><div><div class="text-[9px] text-slate-500">Aarav · 2m</div><div class="mt-1 bg-white rounded-2xl rounded-tl-sm p-2.5 border border-slate-200 text-[11px] text-slate-800 max-w-[180px]">Ma'am, doubt in Q7 — how is centripetal force 10.67N?</div></div></div>
-                  <div class="flex gap-2 justify-end"><div><div class="text-[9px] text-slate-500 text-right">Dr. Priya · 1m</div><div class="mt-1 bg-primary-600 rounded-2xl rounded-tr-sm p-2.5 text-white text-[11px] max-w-[180px]">F = mv²/r = 2·16/3 = 10.67 N ✓</div></div><img src="./assets/wed8.png" class="w-7 h-7 rounded-full object-cover bg-slate-100" alt="Dr. Priya" loading="lazy" decoding="async"  width="80"  height="80" /></div>
-                  <div class="flex gap-2"><img src="./assets/wed9.png" class="w-7 h-7 rounded-full object-cover bg-slate-100" alt="Meera" loading="lazy" decoding="async"  width="80"  height="80" /><div><div class="text-[9px] text-slate-500">Meera · just now</div><div class="mt-1 bg-white rounded-2xl rounded-tl-sm p-2.5 border border-slate-200 text-[11px] text-slate-800 max-w-[180px]">Got it! Thanks Ma'am 🙏</div></div></div>
+                  <div class="flex gap-2"><img src="./assets/ed5.png" class="w-7 h-7 rounded-full object-cover bg-[#F6F2EA]" alt="Aarav" loading="lazy" decoding="async"  width="80"  height="80" /><div><div class="text-[9px] text-[#8C8378]">Aarav · 2m</div><div class="mt-1 bg-white rounded-2xl rounded-tl-sm p-2.5 border border-[#E5DDD0] text-[11px] text-[#15110D] max-w-[180px]">Ma'am, doubt in Q7 — how is centripetal force 10.67N?</div></div></div>
+                  <div class="flex gap-2 justify-end"><div><div class="text-[9px] text-[#8C8378] text-right">Dr. Priya · 1m</div><div class="mt-1 bg-[#C58B43] rounded-2xl rounded-tr-sm p-2.5 text-white text-[11px] max-w-[180px]">F = mv²/r = 2·16/3 = 10.67 N ✓</div></div><img src="./assets/wed8.png" class="w-7 h-7 rounded-full object-cover bg-[#F6F2EA]" alt="Dr. Priya" loading="lazy" decoding="async"  width="80"  height="80" /></div>
+                  <div class="flex gap-2"><img src="./assets/wed9.png" class="w-7 h-7 rounded-full object-cover bg-[#F6F2EA]" alt="Meera" loading="lazy" decoding="async"  width="80"  height="80" /><div><div class="text-[9px] text-[#8C8378]">Meera · just now</div><div class="mt-1 bg-white rounded-2xl rounded-tl-sm p-2.5 border border-[#E5DDD0] text-[11px] text-[#15110D] max-w-[180px]">Got it! Thanks Ma'am 🙏</div></div></div>
                 </div>
-                <div class="p-2 bg-white border-t border-slate-200 flex items-center gap-2">
-                  <div class="flex-1 bg-slate-100 rounded-full px-3 py-1.5 text-[10px] text-slate-500">Type a message...</div>
-                  <button class="w-8 h-8 rounded-full bg-primary-600 grid place-items-center text-white text-[10px]">➤</button>
+                <div class="p-2 bg-white border-t border-[#E5DDD0] flex items-center gap-2">
+                  <div class="flex-1 bg-[#F6F2EA] rounded-full px-3 py-1.5 text-[10px] text-[#8C8378]">Type a message...</div>
+                  <button class="w-8 h-8 rounded-full bg-[#C58B43] grid place-items-center text-white text-[10px]">➤</button>
                 </div>
               </div>
             </div>
@@ -615,7 +874,7 @@ style="display:none;visibility:hidden">
             <div class="chip mb-3">💬 Community Chat</div>
             <h3 class="h1 font-display">Batch chat, built in.</h3>
             <p class="lede mt-4">A private community for each batch. Students ask doubts, you answer — without spilling into random WhatsApp groups.</p>
-            <ul class="mt-6 space-y-3 text-slate-700 text-[15.5px]">
+            <ul class="mt-6 space-y-3 text-[#3A2710] text-[15.5px]">
               <li class="flex gap-3"><span class="accent-green">✓</span> Per-batch private chat rooms</li>
               <li class="flex gap-3"><span class="accent-green">✓</span> Pinned announcements & polls</li>
               <li class="flex gap-3"><span class="accent-green">✓</span> Moderator tools & muting</li>
@@ -644,19 +903,19 @@ style="display:none;visibility:hidden">
     <div class="text-center reveal"><span class="eyebrow">The Transformation</span><h2 class="h1 font-display mt-4">Before AllCoaching vs After.</h2></div>
     <div class="mt-12 grid md:grid-cols-2 gap-5">
       <div class="card p-8 reveal bg-white">
-        <div class="eyebrow" style="color:#E63935">Before</div>
-        <ul class="mt-5 space-y-3 text-slate-700 text-[15.5px]">
-          <li class="flex gap-3"><span class="text-red-500">✗</span> YouTube in the morning, Telegram in the afternoon</li>
-          <li class="flex gap-3"><span class="text-red-500">✗</span> Manual payment screenshots & Excel attendance</li>
-          <li class="flex gap-3"><span class="text-red-500">✗</span> Personal app nobody can find</li>
-          <li class="flex gap-3"><span class="text-red-500">✗</span> ₹50k+/month burnt on ads for discovery</li>
-          <li class="flex gap-3"><span class="text-red-500">✗</span> 80% time on tech, 20% on teaching</li>
-          <li class="flex gap-3"><span class="text-red-500">✗</span> Unpredictable income</li>
+        <div class="eyebrow" style="color:#C44232">Before</div>
+        <ul class="mt-5 space-y-3 text-[#3A2710] text-[15.5px]">
+          <li class="flex gap-3"><span class="text-[#C44232]">✗</span> YouTube in the morning, Telegram in the afternoon</li>
+          <li class="flex gap-3"><span class="text-[#C44232]">✗</span> Manual payment screenshots & Excel attendance</li>
+          <li class="flex gap-3"><span class="text-[#C44232]">✗</span> Personal app nobody can find</li>
+          <li class="flex gap-3"><span class="text-[#C44232]">✗</span> ₹50k+/month burnt on ads for discovery</li>
+          <li class="flex gap-3"><span class="text-[#C44232]">✗</span> 80% time on tech, 20% on teaching</li>
+          <li class="flex gap-3"><span class="text-[#C44232]">✗</span> Unpredictable income</li>
         </ul>
       </div>
-      <div class="card p-8 reveal border-primary-200 bg-gradient-to-br from-primary-50/40 via-white to-emerald-50/40">
-        <div class="eyebrow" style="color:#2E9E4A">After AllCoaching</div>
-        <ul class="mt-5 space-y-3 text-slate-800 text-[15.5px]">
+      <div class="card p-8 reveal border-[#E8CFA3] bg-gradient-to-br from-[#F5E8D2]/40 via-white to-[#F4EAD0]/40">
+        <div class="eyebrow" style="color:#2F8F4E">After AllCoaching</div>
+        <ul class="mt-5 space-y-3 text-[#15110D] text-[15.5px]">
           <li class="flex gap-3"><span class="accent-green">✓</span> One dashboard for everything</li>
           <li class="flex gap-3"><span class="accent-green">✓</span> Automatic payments, access control, invoices</li>
           <li class="flex gap-3"><span class="accent-green">✓</span> Branded app + marketplace discovery</li>
@@ -675,10 +934,10 @@ style="display:none;visibility:hidden">
     <div class="text-center reveal"><span class="eyebrow">Pricing</span><h2 class="h1 font-display mt-4">Honest pricing. <span class="accent-blue">No hidden cuts.</span></h2><p class="lede mt-4 max-w-xl mx-auto">Start with a 30-day free trial. Upgrade when you're earning. You always keep 90% of what you make.</p></div>
     <div class="mt-14 grid md:grid-cols-3 gap-5">
       <div class="card p-8 reveal">
-        <div class="text-sm font-semibold text-slate-500">Starter</div>
-        <div class="mt-3 font-display font-extrabold text-4xl md:text-5xl text-slate-900">30 Days<span class="text-base text-slate-400 font-medium"> Free Trial</span></div>
-        <p class="text-slate-500 text-sm mt-2">Explore the full platform — no card required.</p>
-        <ul class="mt-6 space-y-2.5 text-sm text-slate-700">
+        <div class="text-sm font-semibold text-[#8C8378]">Starter</div>
+        <div class="mt-3 font-display text-4xl md:text-5xl text-[#15110D]">30 Days<span class="text-base text-[#B6AEA1] font-medium"> Free Trial</span></div>
+        <p class="text-[#8C8378] text-sm mt-2">Explore the full platform — no card required.</p>
+        <ul class="mt-6 space-y-2.5 text-sm text-[#3A2710]">
           <li class="flex gap-2"><span class="accent-green">✓</span> Full platform access</li>
           <li class="flex gap-2"><span class="accent-green">✓</span> Live classes & recordings</li>
           <li class="flex gap-2"><span class="accent-green">✓</span> Payments (UPI + cards)</li>
@@ -687,12 +946,12 @@ style="display:none;visibility:hidden">
         <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-secondary w-full mt-7">Start 30-Day Free Trial</a>
       </div>
 
-      <div class="card p-8 reveal relative border-primary-300 bg-white ring-2 ring-primary-100 shadow-[0_40px_80px_-40px_rgba(37,99,235,0.45)]">
-        <div class="absolute -top-3 left-1/2 -translate-x-1/2 text-[10px] font-bold bg-slate-900 text-white px-3 py-1 rounded-full tracking-wider">FIRST 50 EDUCATORS</div>
+      <div class="card p-8 reveal relative border-[#E0A95C] bg-white ring-2 ring-[#F5E8D2] shadow-[0_40px_80px_-40px_rgba(197,139,67,0.45)]">
+        <div class="absolute -top-3 left-1/2 -translate-x-1/2 text-[10px] font-bold bg-[#15110D] text-white px-3 py-1 rounded-full tracking-wider">FIRST 50 EDUCATORS</div>
         <div class="text-sm font-semibold accent-blue">Early Launch Offer</div>
-        <div class="mt-3 font-display font-extrabold text-4xl md:text-5xl text-slate-900">₹11,999<span class="text-base text-slate-400 font-medium"> /year</span></div>
-        <p class="text-slate-600 text-sm mt-2">2-year lock. 10% per transaction. Limited slots.</p>
-        <ul class="mt-6 space-y-2.5 text-sm text-slate-800">
+        <div class="mt-3 font-display text-4xl md:text-5xl text-[#15110D]">₹11,999<span class="text-base text-[#B6AEA1] font-medium"> /year</span></div>
+        <p class="text-[#4F4840] text-sm mt-2">2-year lock. 10% per transaction. Limited slots.</p>
+        <ul class="mt-6 space-y-2.5 text-sm text-[#15110D]">
           <li class="flex gap-2"><span class="accent-green">✓</span> Unlimited students</li>
           <li class="flex gap-2"><span class="accent-green">✓</span> Branded Android + iOS app</li>
           <li class="flex gap-2"><span class="accent-green">✓</span> Full CRM + Tests + DPPs</li>
@@ -706,15 +965,15 @@ style="display:none;visibility:hidden">
       </div>
 
       <div class="card p-8 reveal">
-        <div class="text-sm font-semibold text-slate-500">Standard Plan</div>
-        <div class="mt-3 font-display font-extrabold text-4xl md:text-5xl text-slate-900">₹24,999<span class="text-base text-slate-400 font-medium"> /year</span></div>
-        <div class="mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-amber-700 bg-amber-50 border border-amber-200 rounded-full px-2.5 py-1 tip">
+        <div class="text-sm font-semibold text-[#8C8378]">Standard Plan</div>
+        <div class="mt-3 font-display text-4xl md:text-5xl text-[#15110D]">₹24,999<span class="text-base text-[#B6AEA1] font-medium"> /year</span></div>
+        <div class="mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-[#B08518] bg-[#F4EAD0] border border-[rgba(176,133,24,0.22)] rounded-full px-2.5 py-1 tip">
           <svg class="w-3.5 h-3.5"><use href="#i-info"/></svg>
           + 10% per transaction
           <span class="tip-body">A 10% fee applies on every successful payment collected through the platform.</span>
         </div>
-        <p class="text-slate-500 text-sm mt-3">Full platform + marketplace for growing institutes.</p>
-        <ul class="mt-6 space-y-2.5 text-sm text-slate-700">
+        <p class="text-[#8C8378] text-sm mt-3">Full platform + marketplace for growing institutes.</p>
+        <ul class="mt-6 space-y-2.5 text-sm text-[#3A2710]">
           <li class="flex gap-2"><span class="accent-green">✓</span> Everything in Early Launch</li>
           <li class="flex gap-2"><span class="accent-green">✓</span> Multi-teacher institutes</li>
           <li class="flex gap-2"><span class="accent-green">✓</span> Advanced analytics & exports</li>
@@ -731,12 +990,12 @@ style="display:none;visibility:hidden">
   <div class="max-w-3xl mx-auto px-5">
     <div class="text-center reveal"><span class="eyebrow">FAQ</span><h2 class="h1 font-display mt-3">Questions, answered.</h2></div>
     <div class="mt-10 space-y-3">
-      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-slate-900">What makes AllCoaching different from a personal app? <span class="chev text-slate-400">⌄</span></summary><p class="mt-3 text-slate-600 text-[15px] leading-relaxed">Personal apps give you control but leave you invisible. AllCoaching combines your branded platform with a marketplace where real learners come to find educators.</p></details>
-      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-slate-900">Do I keep my branding? <span class="chev text-slate-400">⌄</span></summary><p class="mt-3 text-slate-600 text-[15px] leading-relaxed">Yes. You get a white-labeled app and website with your own logo, colors, and domain — plus built-in distribution through our marketplace.</p></details>
-      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-slate-900">How much do educators earn? <span class="chev text-slate-400">⌄</span></summary><p class="mt-3 text-slate-600 text-[15px] leading-relaxed">Educators keep 90% of revenue. AllCoaching retains 10% to reinvest in technology, security, discovery, and support.</p></details>
-      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-slate-900">Can AllCoaching replace Zoom, Telegram, and payment gateways? <span class="chev text-slate-400">⌄</span></summary><p class="mt-3 text-slate-600 text-[15px] leading-relaxed">Yes. Live classes, chat, payments, CRM, tests, and analytics are all built-in. One login replaces your entire tool stack.</p></details>
-      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-slate-900">Who owns the student data? <span class="chev text-slate-400">⌄</span></summary><p class="mt-3 text-slate-600 text-[15px] leading-relaxed">You do. Your student list, contacts, and analytics are fully yours — exportable anytime.</p></details>
-      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-slate-900">How fast can I go live? <span class="chev text-slate-400">⌄</span></summary><p class="mt-3 text-slate-600 text-[15px] leading-relaxed">Most educators launch their first paid batch within 48 hours. Our onboarding team helps with setup, branding, and your marketplace profile.</p></details>
+      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-[#15110D]">What makes AllCoaching different from a personal app? <span class="chev text-[#B6AEA1]">⌄</span></summary><p class="mt-3 text-[#4F4840] text-[15px] leading-relaxed">Personal apps give you control but leave you invisible. AllCoaching combines your branded platform with a marketplace where real learners come to find educators.</p></details>
+      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-[#15110D]">Do I keep my branding? <span class="chev text-[#B6AEA1]">⌄</span></summary><p class="mt-3 text-[#4F4840] text-[15px] leading-relaxed">Yes. You get a white-labeled app and website with your own logo, colors, and domain — plus built-in distribution through our marketplace.</p></details>
+      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-[#15110D]">How much do educators earn? <span class="chev text-[#B6AEA1]">⌄</span></summary><p class="mt-3 text-[#4F4840] text-[15px] leading-relaxed">Educators keep 90% of revenue. AllCoaching retains 10% to reinvest in technology, security, discovery, and support.</p></details>
+      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-[#15110D]">Can AllCoaching replace Zoom, Telegram, and payment gateways? <span class="chev text-[#B6AEA1]">⌄</span></summary><p class="mt-3 text-[#4F4840] text-[15px] leading-relaxed">Yes. Live classes, chat, payments, CRM, tests, and analytics are all built-in. One login replaces your entire tool stack.</p></details>
+      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-[#15110D]">Who owns the student data? <span class="chev text-[#B6AEA1]">⌄</span></summary><p class="mt-3 text-[#4F4840] text-[15px] leading-relaxed">You do. Your student list, contacts, and analytics are fully yours — exportable anytime.</p></details>
+      <details class="card p-5 reveal"><summary class="flex justify-between items-center cursor-pointer font-semibold text-[#15110D]">How fast can I go live? <span class="chev text-[#B6AEA1]">⌄</span></summary><p class="mt-3 text-[#4F4840] text-[15px] leading-relaxed">Most educators launch their first paid batch within 48 hours. Our onboarding team helps with setup, branding, and your marketplace profile.</p></details>
     </div>
   </div>
 </section>
@@ -744,8 +1003,8 @@ style="display:none;visibility:hidden">
 <!-- ============== INSIGHTS · LATEST ESSAYS ============== -->
 <section id="insights" class="py-24 bg-white relative overflow-hidden">
   <div aria-hidden="true" class="absolute inset-0 -z-0 pointer-events-none">
-    <div class="absolute -top-32 -right-32 w-[480px] h-[480px] rounded-full opacity-30" style="background:radial-gradient(circle at 50% 50%, rgba(37,99,235,.18), transparent 60%); filter:blur(40px);"></div>
-    <div class="absolute -bottom-40 -left-40 w-[420px] h-[420px] rounded-full opacity-25" style="background:radial-gradient(circle at 50% 50%, rgba(46,158,74,.18), transparent 60%); filter:blur(40px);"></div>
+    <div class="absolute -top-32 -right-32 w-[480px] h-[480px] rounded-full opacity-30" style="background:radial-gradient(circle at 50% 50%, rgba(197,139,67,.18), transparent 60%); filter:blur(40px);"></div>
+    <div class="absolute -bottom-40 -left-40 w-[420px] h-[420px] rounded-full opacity-25" style="background:radial-gradient(circle at 50% 50%, rgba(224,169,92,.18), transparent 60%); filter:blur(40px);"></div>
   </div>
 
   <div class="max-w-7xl mx-auto px-5 relative">
@@ -808,16 +1067,16 @@ style="display:none;visibility:hidden">
     </div>
 
     <div class="text-center mt-12 reveal">
-      <a href="./manifesto.html" class="btn btn-secondary btn-lg">Read the AllCoaching manifesto</a>
+      <a href="/manifesto" class="btn btn-secondary btn-lg">Read the AllCoaching manifesto</a>
     </div>
   </div>
 </section>
 
 <!-- Final CTA -->
 <section id="cta" class="py-28 relative overflow-hidden bg-white">
-  <div class="absolute inset-0 -z-0" style="background:radial-gradient(50% 40% at 25% 50%, rgba(37,99,235,.10), transparent 70%), radial-gradient(40% 35% at 75% 60%, rgba(46,158,74,.10), transparent 70%);"></div>
+  <div class="absolute inset-0 -z-0" style="background:radial-gradient(50% 40% at 25% 50%, rgba(197,139,67,.12), transparent 70%), radial-gradient(40% 35% at 75% 60%, rgba(224,169,92,.10), transparent 70%);"></div>
   <div class="max-w-4xl mx-auto px-5 text-center relative reveal">
-    <div class="inline-block mb-6 float-y"><img src="./assets/fevicon.webp" alt="AllCoaching" class="w-16 h-16 rounded-full shadow-lg ring-1 ring-slate-200 bg-white" decoding="async" loading="lazy"  width="512"  height="512" /></div>
+    <div class="inline-block mb-6 float-y"><img src="./assets/fevicon.webp" alt="AllCoaching" class="w-16 h-16 rounded-full shadow-lg ring-1 ring-[#E5DDD0] bg-white" decoding="async" loading="lazy"  width="512"  height="512" /></div>
     <h2 class="h-display font-display">Be among the <span class="accent-blue">first 50 educators.</span><br/>Launch faster. Earn more.</h2>
     <p class="lede mt-5 max-w-xl mx-auto">Join 2,400+ educators who stopped being invisible on personal apps — and started growing on the marketplace built for them.</p>
     <div class="mt-8 flex flex-wrap justify-center gap-3">
@@ -827,20 +1086,20 @@ style="display:none;visibility:hidden">
       </a>
       <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">Educator Login →</a>
     </div>
-    <div class="mt-6 text-xs text-slate-500">30-day free trial · Then ₹11,999/year + 10% per transaction · Limited to 50 educators</div>
+    <div class="mt-6 text-xs text-[#8C8378]">30-day free trial · Then ₹11,999/year + 10% per transaction · Limited to 50 educators</div>
   </div>
 </section>
 
 </main><!-- /#main-content -->
 
 <!-- Footer -->
-<footer class="bg-slate-50 border-t border-slate-200 pt-16 pb-8">
+<footer class="bg-[#F6F2EA] border-t border-[#E5DDD0] pt-16 pb-8">
   <div class="max-w-7xl mx-auto px-5 grid md:grid-cols-12 gap-10">
     <div class="md:col-span-4">
-      <a href="./index.html" class="inline-block"><img src="./assets/AllCoaching-logo.webp" alt="AllCoaching" class="h-11 w-auto" decoding="async"  width="200"  height="50" /></a>
-      <p class="mt-5 text-slate-600 text-sm max-w-xs leading-relaxed">The educator-first marketplace + platform. Teach, get discovered, and keep 90% of your earnings — all in one login.</p>
+      <a href="/" class="inline-block"><img src="./assets/AllCoaching-logo.webp" alt="AllCoaching" class="h-11 w-auto" decoding="async"  width="200"  height="50" /></a>
+      <p class="mt-5 text-[#4F4840] text-sm max-w-xs leading-relaxed">The educator-first marketplace + platform. Teach, get discovered, and keep 90% of your earnings — all in one login.</p>
       <div class="mt-6">
-        <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-3">Follow us</div>
+        <div class="text-xs font-semibold text-[#8C8378] uppercase tracking-wider mb-3">Follow us</div>
         <div class="flex flex-wrap gap-2">
           <a href="https://api.whatsapp.com/send/?phone=919889977262&text&type=phone_number&app_absent=0" target="_blank" rel="noopener" aria-label="WhatsApp" class="soc soc-whatsapp"><svg class="w-5 h-5"><use href="#i-whatsapp"/></svg></a>
           <a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener" aria-label="YouTube" class="soc soc-youtube"><svg class="w-5 h-5"><use href="#i-youtube"/></svg></a>
@@ -861,12 +1120,12 @@ style="display:none;visibility:hidden">
         </a>
       </div>
     </div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-slate-900">Product</div><ul class="space-y-2 text-sm text-slate-600"><li><a href="./index.html#features" class="hover:text-slate-900">Features</a></li><li><a href="./index.html#marketplace" class="hover:text-slate-900">Marketplace</a></li><li><a href="./index.html#calculator" class="hover:text-slate-900">Calculator</a></li><li><a href="./index.html#pricing" class="hover:text-slate-900">Pricing</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-slate-900">Company</div><ul class="space-y-2 text-sm text-slate-600"><li><a href="./about.html" class="hover:text-slate-900">About</a></li><li><a href="./contact.html" class="hover:text-slate-900">Contact</a></li><li><a href="./privacy.html" class="hover:text-slate-900">Privacy</a></li><li><a href="./terms.html" class="hover:text-slate-900">Terms</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-slate-900">Educators</div><ul class="space-y-2 text-sm text-slate-600"><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-slate-900">Login</a></li><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-slate-900">Join Now</a></li><li><a href="./index.html#faq" class="hover:text-slate-900">FAQ</a></li><li><a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="hover:text-slate-900">WhatsApp</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-slate-900">Students</div><ul class="space-y-2 text-sm text-slate-600"><li><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching" target="_blank" rel="noopener" class="hover:text-slate-900">Android App</a></li><li><a href="./index.html#marketplace" class="hover:text-slate-900">Find Educators</a></li><li><a href="https://t.me/allcoaching" target="_blank" rel="noopener" class="hover:text-slate-900">Telegram</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Product</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="/#features" class="hover:text-[#15110D]">Features</a></li><li><a href="/#marketplace" class="hover:text-[#15110D]">Marketplace</a></li><li><a href="/#calculator" class="hover:text-[#15110D]">Calculator</a></li><li><a href="/#pricing" class="hover:text-[#15110D]">Pricing</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Company</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="/about" class="hover:text-[#15110D]">About</a></li><li><a href="/contact" class="hover:text-[#15110D]">Contact</a></li><li><a href="/privacy" class="hover:text-[#15110D]">Privacy</a></li><li><a href="/terms" class="hover:text-[#15110D]">Terms</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Educators</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-[#15110D]">Login</a></li><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-[#15110D]">Join Now</a></li><li><a href="/#faq" class="hover:text-[#15110D]">FAQ</a></li><li><a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="hover:text-[#15110D]">WhatsApp</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Students</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching" target="_blank" rel="noopener" class="hover:text-[#15110D]">Android App</a></li><li><a href="/#marketplace" class="hover:text-[#15110D]">Find Educators</a></li><li><a href="https://t.me/allcoaching" target="_blank" rel="noopener" class="hover:text-[#15110D]">Telegram</a></li></ul></div>
   </div>
-  <div class="max-w-7xl mx-auto px-5 mt-12 pt-6 border-t border-slate-200 text-xs text-slate-500 flex flex-wrap justify-between gap-3">
+  <div class="max-w-7xl mx-auto px-5 mt-12 pt-6 border-t border-[#E5DDD0] text-xs text-[#8C8378] flex flex-wrap justify-between gap-3">
     <div>© 2026 AllCoaching Technologies Pvt. Ltd. · Made in India 🇮🇳</div>
     <div>Democratizing Education · One educator at a time.</div>
   </div>
@@ -905,11 +1164,11 @@ style="display:none;visibility:hidden">
     const cardHTML = (t) => `
       <figure class="t-card">
         <div class="accent-blue text-lg">★★★★★</div>
-        <blockquote class="mt-3 text-slate-700 text-[14.5px] leading-relaxed">"${t.quote}"</blockquote>
+        <blockquote class="mt-3 text-[#3A2710] text-[14.5px] leading-relaxed">"${t.quote}"</blockquote>
         <div class="mt-4 chip">${t.chip}</div>
         <figcaption class="mt-5 flex items-center gap-3">
           <div class="avatar-ring"><img src="${t.img}" alt="${t.name}" class="w-10 h-10 object-cover bg-white" loading="lazy" decoding="async" /></div>
-          <div><div class="font-semibold text-sm text-slate-900">${t.name}</div><div class="text-slate-500 text-xs">${t.sub}</div></div>
+          <div><div class="font-semibold text-sm text-[#15110D]">${t.name}</div><div class="text-[#8C8378] text-xs">${t.sub}</div></div>
         </figcaption>
       </figure>`;
     // Duplicate for seamless -50% keyframe
