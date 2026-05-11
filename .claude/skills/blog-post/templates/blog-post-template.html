@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#C58B43" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#15110D" media="(prefers-color-scheme: dark)" />
+  <meta name="color-scheme" content="light" />
+  <meta name="msapplication-TileColor" content="#C58B43" />
+  <meta name="msapplication-navbutton-color" content="#C58B43" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="AllCoaching" />
+  <meta name="application-name" content="AllCoaching" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T3KFKD3G');</script>
+
+  <title>{{FULL_TITLE — 60-80 chars, includes year/positioning}}</title>
+  <meta name="description" content="{{~160 char summary leading with the distribution/strategic angle}}" />
+  <meta name="keywords" content="{{12-20 long-tail Indian-context keywords, comma separated}}" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <meta name="author" content="Amit Ratan, Founder &amp; CEO, AllCoaching" />
+  <link rel="canonical" href="https://allcoaching.in/blog/{{SLUG}}" />
+
+  <link rel="icon" type="image/webp" href="../assets/fevicon.webp" />
+  <link rel="apple-touch-icon" href="../assets/fevicon.webp" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+  <meta property="og:title" content="{{OG TITLE — can be punchier than full title}}" />
+  <meta property="og:description" content="{{OG description — 1-2 sentence hook}}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://allcoaching.in/blog/{{SLUG}}" />
+  <meta property="og:image" content="https://allcoaching-bucket.b-cdn.net/Blog/{{SLUG}}.webp" />
+  <meta property="og:image:alt" content="{{visual description of cover image}}" />
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="900" />
+  <meta property="article:author" content="Amit Ratan" />
+  <meta property="article:published_time" content="{{YYYY-MM-DD}}" />
+  <meta property="article:section" content="EdTech Growth Strategy" />
+  <meta property="og:site_name" content="AllCoaching" />
+  <meta property="og:locale" content="en_IN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{Twitter title}}" />
+  <meta name="twitter:description" content="{{Twitter description}}" />
+  <meta name="twitter:image" content="https://allcoaching-bucket.b-cdn.net/Blog/{{SLUG}}.webp" />
+  <meta name="twitter:image:alt" content="{{cover image alt}}" />
+  <meta name="twitter:site" content="@allcoachings" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://allcoaching-bucket.b-cdn.net" crossorigin />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  <link rel="preload" as="image" href="https://allcoaching-bucket.b-cdn.net/Blog/{{SLUG}}.webp" fetchpriority="high" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../dist/tw.min.css" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../brand.css" />
+
+  <!-- Schema: Article -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"{{Article headline — match <title>}}",
+    "description":"{{Same description as meta description}}",
+    "image":{"@type":"ImageObject","url":"https://allcoaching-bucket.b-cdn.net/Blog/{{SLUG}}.webp","width":1600,"height":900},
+    "author":{"@type":"Person","name":"Amit Ratan","jobTitle":"Founder & CEO","worksFor":{"@type":"Organization","name":"AllCoaching"}},
+    "publisher":{"@type":"Organization","name":"AllCoaching","logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/AllCoaching-logo.webp"}},
+    "datePublished":"{{YYYY-MM-DD}}",
+    "dateModified":"{{YYYY-MM-DD}}",
+    "mainEntityOfPage":{"@type":"WebPage","@id":"https://allcoaching.in/blog/{{SLUG}}"},
+    "articleSection":"EdTech Growth Strategy",
+    "about":[
+      {"@type":"Thing","name":"{{Topic 1}}"},
+      {"@type":"Thing","name":"{{Topic 2}}"},
+      {"@type":"Thing","name":"{{Topic 3}}"},
+      {"@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in"}
+    ]
+  }
+  </script>
+  <!-- Schema: FAQ — must mirror the FAQ section content exactly -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"{{FAQ Q1}}","acceptedAnswer":{"@type":"Answer","text":"{{FAQ A1 plain text — strip <strong> tags}}"}},
+    {"@type":"Question","name":"{{FAQ Q2}}","acceptedAnswer":{"@type":"Answer","text":"{{FAQ A2}}"}}
+  ]}
+  </script>
+  <!-- Schema: BreadcrumbList -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://allcoaching.in/"},
+    {"@type":"ListItem","position":2,"name":"Blog","item":"https://allcoaching.in/blog/"},
+    {"@type":"ListItem","position":3,"name":"{{Short breadcrumb name for this post}}","item":"https://allcoaching.in/blog/{{SLUG}}"}
+  ]}
+  </script>
+</head>
+
+<body class="bg-mesh text-[#15110D] antialiased">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- SVG icon symbols — copy from any existing blog post in /blog/ -->
+
+<!-- ================= MINIMAL HEADER ================= -->
+<header class="fixed top-0 inset-x-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 md:px-5 mt-4">
+    <nav class="nav-shell flex items-center justify-between px-4 py-2.5">
+      <span class="nav-shell-halo" aria-hidden="true"></span>
+      <a href="../index.html" aria-label="AllCoaching home" class="flex items-center">
+        <img src="../assets/AllCoaching-logo.webp" alt="AllCoaching" class="nav-logo h-9 md:h-10 w-auto" decoding="async" width="200" height="50" />
+      </a>
+      <div class="flex items-center gap-2">
+        <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-ghost hidden md:inline-flex">Login</a>
+        <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" aria-label="Join Now" class="btn btn-accent btn-cta-mobile">
+          <span class="btn-label">Join Now</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= MASTHEAD ================= -->
+<header class="mast-dark pt-32 md:pt-36 pb-12 md:pb-16">
+  <div class="max-w-3xl mx-auto px-5 md:px-6 relative z-10">
+    <div class="flex items-center gap-3 mb-10">
+      <span class="brand-pill">2026 Edition</span>
+      <span style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:#8C8378;">{{Editorial Category}}</span>
+    </div>
+    <p class="kicker">{{Topic Tag 1 · Topic Tag 2 · Topic Tag 3}}</p>
+    <h1 class="h-mast font-display mt-5">
+      {{Headline Line 1}}<br/>
+      {{Headline Line 2}}<br/>
+      <em>{{Headline Line 3}}</em>
+    </h1>
+    <p class="mt-6 lede" style="font-size:1.18rem; line-height:1.65; max-width:38rem;">
+      {{1-2 sentence lede that compresses the thesis. State the strategic shift the reader needs to make.}}
+    </p>
+
+    <div class="author-strip">
+      <div class="author-strip-img">
+        <img src="../assets/Amit-Ratan.webp" alt="Amit Ratan" width="56" height="56" decoding="async" />
+      </div>
+      <div>
+        <div class="author-strip-name">Amit Ratan</div>
+        <div class="author-strip-role">Founder &amp; CEO, AllCoaching</div>
+        <div class="author-strip-meta">{{Month DD, YYYY}} &nbsp;·&nbsp; {{NN}} min read &nbsp;·&nbsp; {{Article Section}}</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= COVER IMAGE ================= -->
+<div class="cover-shell">
+  <figure class="cover-figure" aria-label="{{cover image aria-label}}">
+    <img src="https://allcoaching-bucket.b-cdn.net/Blog/{{SLUG}}.webp" alt="{{descriptive editorial alt — split-frame visual metaphor matching the thesis}}" width="1600" height="900" decoding="async" fetchpriority="high" />
+  </figure>
+  <p class="fig-cap" style="max-width:56rem;margin:0.85rem auto 0;padding:0 1.25rem;">
+    {{One sentence framing what the article is really about.}}
+  </p>
+</div>
+
+<!-- ================= ARTICLE ================= -->
+<main>
+<article class="max-w-3xl mx-auto px-5 md:px-6 pb-24 mt-14">
+
+  <!-- TABLE OF CONTENTS -->
+  <nav class="toc" aria-label="Article contents">
+    <p class="toc-l">In This Article</p>
+    <ol>
+      <li><a href="#real-problem">{{Section 1 title}}</a></li>
+      <li><a href="#section-2">{{Section 2 title}}</a></li>
+      <!-- 10–14 entries total -->
+      <li><a href="#conclusion">The Strategic Conclusion</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </nav>
+
+  <!-- INTRO — opens by reframing the reader's question -->
+  <div class="article-body" id="real-problem">
+    <p class="drop-cap">{{Paragraph 1 — refuse the surface framing the reader walked in with. Open with the reader's assumed question and immediately reframe it as the wrong question.}}</p>
+
+    <p>{{Paragraph 2 — name what the actual bottleneck is (almost always: discoverability/distribution, not infrastructure/storage).}}</p>
+
+    <p>{{Paragraph 3 — set up the article's promise. "What follows is a strategic, distribution-first analysis of [X]."}}</p>
+  </div>
+
+  <!-- OPENING EPIGRAPH -->
+  <div class="epi" style="margin: 3rem -1.5rem;">
+    <p>"{{Thesis statement as a quotable line.}}"</p>
+    <cite>— {{The strategic principle behind / Amit Ratan / etc.}}</cite>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div class="article-body" id="section-2">
+    <h2 class="h-chap mt-14 mb-6">{{Section 2 heading}}</h2>
+
+    <p>{{Diagnostic paragraph — what's actually broken at the architecture level.}}</p>
+
+    <div class="def">
+      <p class="def-l">Strategic Definition</p>
+      <h3>{{Term being defined}}</h3>
+      <p>{{Crisp 2-3 sentence definition that grounds the rest of the article.}}</p>
+    </div>
+
+    <p>{{Continued argument paragraph.}}</p>
+
+    <ul>
+      <li><strong>{{Bold consequence}}.</strong> {{Explanation.}}</li>
+      <li><strong>{{Bold consequence}}.</strong> {{Explanation.}}</li>
+      <li><strong>{{Bold consequence}}.</strong> {{Explanation.}}</li>
+    </ul>
+
+    <div class="pull-red">
+      <p>"{{A hard-truth pull quote.}}"</p>
+    </div>
+
+    <p>{{Closing paragraph for this section — concede something, then sharpen the point.}}</p>
+  </div>
+
+  <div class="orn">· · ·</div>
+
+  <!-- More sections follow same patterns. Mix in: scale-box, hband, pull, gain-card, cost-card, step-card, myth-card, stat-row, cmp tables, verdict block. -->
+
+  <!-- STRATEGIC CONCLUSION -->
+  <div class="article-body" id="conclusion">
+    <h2 class="h-chap mb-6">The Strategic Conclusion</h2>
+
+    <p>{{Paragraph 1 — return to the opening question and answer it precisely now.}}</p>
+
+    <p>{{Paragraph 2 — the answer is not [surface thing]. It is [structural thing].}}</p>
+
+    <p>The educators we see thriving in {{year}} share a clear pattern. They have:</p>
+
+    <ul>
+      <li><strong>{{Stopped doing X}}</strong> and {{started doing Y}}</li>
+    </ul>
+
+    <p>{{Closing paragraph that re-states the thesis in the language of the reader's outcomes.}}</p>
+  </div>
+
+  <!-- CLOSING EPIGRAPH -->
+  <div class="epi" style="margin: 3rem -1.5rem;">
+    <p>"{{Founder-voice closing line.}}"</p>
+    <cite>— Amit Ratan, Founder &amp; CEO, AllCoaching</cite>
+  </div>
+
+  <!-- FOUNDER SECTION -->
+  <div class="founder mt-16" id="about-founder">
+    <div class="photo-wrap">
+      <img src="../assets/Amit-Ratan.webp" alt="Amit Ratan — Founder and CEO, AllCoaching" width="180" height="220" decoding="async" />
+    </div>
+    <div>
+      <p class="founder-eyebrow">About the Author</p>
+      <p class="founder-name">Amit Ratan</p>
+      <p class="founder-role">Founder &amp; CEO, AllCoaching</p>
+      <p class="founder-quote">"{{Signature quote — usually a 2-sentence restatement of the founder's central conviction.}}"</p>
+      <p class="founder-bio">Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator growth marketplace. {{1-2 sentence bio specific to this article's theme.}}</p>
+    </div>
+  </div>
+
+  <!-- GET STARTED CTA -->
+  <div class="verdict mt-16">
+    <p class="v-l">Get Started</p>
+    <p class="v-h">{{CTA headline matching the article's thesis}}</p>
+    <p class="v-p">{{2-3 sentence CTA paragraph that names the platform's distribution-driven offer.}}</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-accent">
+        Start Selling for Free
+      </a>
+      <a href="https://allcoaching.in/contact.html" target="_blank" rel="noopener" class="btn btn-ghost" style="border:1px solid rgba(245,216,174,.3); color:#F5D8AE;">
+        Book a Demo
+      </a>
+    </div>
+  </div>
+
+  <!-- FAQ — must mirror FAQPage JSON-LD in <head> -->
+  <div class="article-body mt-16" id="faq">
+    <h2 class="h-chap mb-8">Frequently Asked Questions</h2>
+    <div class="faq">
+      <details>
+        <summary>{{FAQ Q1}}</summary>
+        <p>{{FAQ A1 — 2-4 sentences with <strong>load-bearing claim</strong> bolded.}}</p>
+      </details>
+      <!-- 8–10 FAQs total. The first 1–2 should answer the headline keyword directly. -->
+    </div>
+  </div>
+
+</article>
+</main>
+
+<!-- ================= RELATED ARTICLES — replace with 3 actual existing posts from /blog/ ================= -->
+<section class="py-24 bg-white relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-5">
+    <p class="kicker">More from AllCoaching Blog</p>
+    <h2 class="h-chap font-display mt-3">Continue <em>reading</em></h2>
+    <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- 3 blog-card links — copy structure from any existing post in /blog/ -->
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA — copy verbatim from any existing post in /blog/ ================= -->
+
+<!-- ================= FOOTER — copy verbatim from any existing post in /blog/ ================= -->
+
+<a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="fab-wa" aria-label="Chat on WhatsApp">
+  <span class="pulse-ring"></span>
+  <svg class="w-6 h-6 relative"><use href="#i-whatsapp"/></svg>
+  <span class="label relative">Chat on WhatsApp</span>
+</a>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(function () {});
+    });
+  }
+</script>
+
+</body>
+</html>
