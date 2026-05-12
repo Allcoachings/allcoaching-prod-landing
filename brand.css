@@ -609,7 +609,7 @@ a{ color:var(--accent-deep); }
 .author-strip-img{
   width:56px; height:56px; border-radius:999px;
   flex-shrink:0; overflow:hidden;
-  box-shadow:0 0 0 2px var(--line-2);
+  box-shadow:0 0 0 1.5px #FAF8F4, 0 0 0 3px var(--accent-line), 0 6px 14px -4px rgba(197,139,67,.32);
   background:var(--surface);
 }
 .author-strip-img img{ width:100%; height:100%; object-fit:cover; display:block; }

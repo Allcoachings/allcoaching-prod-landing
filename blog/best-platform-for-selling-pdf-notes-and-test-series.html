@@ -710,9 +710,7 @@
 
   <!-- FOUNDER SECTION -->
   <div class="founder mt-16" id="about-founder">
-    <div class="photo-wrap">
-      <img src="../assets/Amit-Ratan.webp" alt="Amit Ratan — Founder and CEO, AllCoaching" width="180" height="220" decoding="async" />
-    </div>
+    <div class="photo-wrap" style="width:180px; height:180px; border-radius:50%; box-shadow:0 0 0 4px #FAF8F4,0 0 0 7px #E0A95C,0 0 0 8px rgba(197,139,67,.35),0 0 0 14px rgba(224,169,92,.16),0 22px 50px -10px rgba(197,139,67,.45);"><img src="../assets/Amit-Ratan.webp" alt="Amit Ratan — Founder and CEO, AllCoaching" width="180" height="180" decoding="async" style="object-position:center 20%;" /></div>
     <div>
       <p class="founder-eyebrow">About the Author</p>
       <p class="founder-name">Amit Ratan</p>
@@ -727,14 +725,33 @@
     <p class="v-l">Get Started</p>
     <p class="v-h">Ready to sell your PDF notes and test series the right way?</p>
     <p class="v-p">Stop fighting for discovery on isolated dashboards. Stop pouring lakhs into marketing just to be found. AllCoaching gives you secure content hosting, AI-driven student discovery, marketplace exposure, smooth payments, and ecosystem-scaled growth — all in one educator-first platform. You focus on your content. The marketplace brings you students.</p>
-    <div class="mt-6 flex flex-wrap gap-3">
-      <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-[#15110D] font-bold text-sm hover:bg-[#F5E8D2] transition-colors" >
-        Start Selling for Free
-        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+    <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener"
+         class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline"
+         style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;"
+         onmouseover="this.style.transform='translateY(-2px)';"
+         onmouseout="this.style.transform='translateY(0)';">
+        <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
+        <span class="relative">Start Selling for Free</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" class="relative transition-transform group-hover:translate-x-1"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
       </a>
-      <a href="https://allcoaching.in/contact" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/30 text-white font-semibold text-sm hover:bg-white/10 transition-colors" >
+      <a href="https://allcoaching.in/contact" target="_blank" rel="noopener"
+         class="group relative inline-flex items-center justify-center gap-2 no-underline"
+         style="height:54px; padding:0 24px; border-radius:14px; color:#F5D8AE; font-family:'Inter Tight',sans-serif; font-weight:600; font-size:14.5px; letter-spacing:.005em; text-decoration:none; background:rgba(245,216,174,.04); border:1px solid rgba(245,216,174,.22); box-shadow:0 1px 0 rgba(255,255,255,.05) inset; transition:all .18s ease;"
+         onmouseover="this.style.background='rgba(245,216,174,.10)';this.style.borderColor='rgba(224,169,92,.65)';this.style.color='#FBE2B8';this.style.transform='translateY(-2px)';"
+         onmouseout="this.style.background='rgba(245,216,174,.04)';this.style.borderColor='rgba(245,216,174,.22)';this.style.color='#F5D8AE';this.style.transform='translateY(0)';">
         Book a Demo
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:translate-x-1"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
       </a>
+    </div>
+    <div class="mt-7 inline-flex flex-wrap items-center justify-center gap-x-5 gap-y-2" style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; color:rgba(245,216,174,.5); font-weight:700; text-transform:uppercase;">
+      <span>Free to start</span>
+      <span style="opacity:.4;">·</span>
+      <span>90% revenue</span>
+      <span style="opacity:.4;">·</span>
+      <span>No lock-in</span>
+      <span style="opacity:.4;">·</span>
+      <span>Daily payouts</span>
     </div>
   </div>
 
