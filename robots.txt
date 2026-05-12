@@ -1,18 +1,38 @@
+# =====================================================================
 # AllCoaching — robots.txt
 # https://allcoaching.in/
+# Updated: 2026-05-12
+# Standard: REP (https://datatracker.ietf.org/doc/rfc9309/) + Google extensions
+# =====================================================================
 
+# ---------------------------------------------------------------------
+# Default rule — open to all well-behaved crawlers
+# ---------------------------------------------------------------------
 User-agent: *
 Allow: /
 Disallow: /sw.js
 Disallow: /.htaccess
+Disallow: /.claude/
 Disallow: /assets/*.json$
 
+# ---------------------------------------------------------------------
 # Major search engines — explicit allow
+# ---------------------------------------------------------------------
 User-agent: Googlebot
 Allow: /
 
 User-agent: Googlebot-Image
 Allow: /assets/
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /blog/
+
+User-agent: Storebot-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
 
 User-agent: Bingbot
 Allow: /
@@ -20,7 +40,19 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-# AI / LLM crawlers — allowed for brand discovery
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# ---------------------------------------------------------------------
+# AI search engines & LLM crawlers — allowed for brand discovery + citation
+# (these are 2026's primary discovery surfaces alongside classic search)
+# ---------------------------------------------------------------------
 User-agent: GPTBot
 Allow: /
 
@@ -33,7 +65,16 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Perplexity-User
+Allow: /
+
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
 Allow: /
 
 User-agent: anthropic-ai
@@ -42,13 +83,58 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-User-agent: Applebot
-Allow: /
-
 User-agent: Applebot-Extended
 Allow: /
 
-# Block aggressive scrapers
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+User-agent: Mistral-AI-User
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# ---------------------------------------------------------------------
+# SEO research / data-mining crawlers — blocked
+# (These do not produce traffic; they ingest content for paid resale.)
+# ---------------------------------------------------------------------
 User-agent: SemrushBot
 Disallow: /
 
@@ -61,8 +147,36 @@ Disallow: /
 User-agent: DotBot
 Disallow: /
 
-# Sitemaps
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: SerpstatBot
+Disallow: /
+
+User-agent: barkrowler
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+# ---------------------------------------------------------------------
+# Sitemap location (Google + Bing pick this up automatically)
+# ---------------------------------------------------------------------
 Sitemap: https://allcoaching.in/sitemap.xml
 
-# Host (canonical)
-Host: https://allcoaching.in
+# ---------------------------------------------------------------------
+# Canonical host (Yandex extension — harmless for others)
+# ---------------------------------------------------------------------
+Host: allcoaching.in

@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <!-- ============================================================ -->
-  <!-- Core pages                                                    -->
+  <!--  AllCoaching — sitemap.xml                                   -->
+  <!--  Format: XML 0.9 + image:image extension                     -->
+  <!--  Updated: 2026-05-12                                          -->
+  <!--  Submitted to: Google Search Console + Bing Webmaster Tools  -->
   <!-- ============================================================ -->
+
+  <!-- ============ Home / canonical surface ============ -->
   <url>
     <loc>https://allcoaching.in/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-12T10:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://allcoaching.in/" />
@@ -16,212 +25,230 @@
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/Online-teaching.webp</image:loc>
       <image:title>AllCoaching — India's Educator Marketplace</image:title>
+      <image:caption>AllCoaching is India's educator-first marketplace and coaching platform — launch a branded app, sell courses, and grow through AI-driven student discovery.</image:caption>
     </image:image>
   </url>
+
+  <!-- ============ Manifesto + Core company pages ============ -->
   <url>
     <loc>https://allcoaching.in/manifesto</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-04-28T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/Online-teaching.webp</image:loc>
-      <image:title>The AllCoaching Manifesto — Operating System of Education</image:title>
+      <image:title>The AllCoaching Manifesto — The Operating System of Education</image:title>
+      <image:caption>An 8-chapter editorial manifesto on why India needs an educator-first operating system rather than another LMS or personal app.</image:caption>
     </image:image>
   </url>
+
   <url>
     <loc>https://allcoaching.in/about</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-04-28T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://allcoaching.in/contact</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-04-28T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- ============================================================ -->
-  <!-- Blog posts — newest first                                     -->
-  <!-- ============================================================ -->
+  <!-- ============ Blog posts — newest first ============ -->
 
   <url>
     <loc>https://allcoaching.in/blog/how-to-get-first-500-students-for-coaching-app</loc>
-    <lastmod>2026-05-12</lastmod>
+    <lastmod>2026-05-12T11:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/how-to-get-first-500-students-for-coaching-app.webp</image:loc>
       <image:title>How to Get First 500 Students for Your Coaching App — AllCoaching 7-Day Marketplace Playbook</image:title>
+      <image:caption>The founder's 7-day playbook for reaching 500 organic students on AllCoaching marketplace — 10 posts + 10 video classes, zero ad spend.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/seo-strategies-for-online-course-creators</loc>
-    <lastmod>2026-05-12</lastmod>
+    <lastmod>2026-05-12T10:30:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/seo-strategies-for-online-course-creators.webp</image:loc>
       <image:title>SEO Strategies for Online Course Creators — Distribution-First 2026 Guide for Indian Educators</image:title>
+      <image:caption>Why personal-app educators in India lose 30–40% of revenue to vendor-run SEO — and how an AI marketplace replaces the entire SEO layer.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/best-free-tools-for-teachers-to-record-lectures</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-11T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/best-free-tools-for-teachers-to-record-lectures.webp</image:loc>
       <image:title>Best Free Tools for Teachers to Record Lectures — 2026 Guide for Indian Educators</image:title>
+      <image:caption>A practical, fear-free guide to the best free tools Indian teachers can use to record professional online lectures from any laptop or phone.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/how-to-start-online-academy-in-5-steps</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-11T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/how-to-start-online-academy-in-5-steps.webp</image:loc>
       <image:title>How to Start an Online Academy in 5 Steps — One Login. One Educator OS. Zero Code.</image:title>
+      <image:caption>A five-step playbook for launching a complete online academy in 2026 — no coding, no developers, no expensive infrastructure.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/online-coaching-business-plan-2026</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-11T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/online-coaching-business-plan-2026.webp</image:loc>
       <image:title>Online Coaching Business Plan 2026 — AI-First Marketplace Playbook for Indian Educators</image:title>
+      <image:caption>The 2026 strategic blueprint for online coaching businesses — AI-driven discovery, marketplace economics, and the architecture that compounds.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/automate-student-onboarding-for-coaching-app</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-11T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/automate-student-onboarding-for-coaching-app.webp</image:loc>
       <image:title>How to Automate Student Onboarding for a Coaching App — 2026 Operational Playbook</image:title>
+      <image:caption>The end-to-end operational playbook for automating student onboarding — from payment to first lesson in under 90 seconds.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/best-platform-for-selling-pdf-notes-and-test-series</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-06T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/best-platform-for-selling-pdf-notes-and-test-series.webp</image:loc>
       <image:title>Best Platform for Selling PDF Notes and Test Series — 2026 Strategic Guide</image:title>
+      <image:caption>A distribution-first analysis of where Indian educators should sell PDFs and test series in 2026 — and why marketplaces are pulling ahead of LMS tools.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/migrate-offline-coaching-to-online-zero-cost</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-06T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/migrate-offline-coaching-to-online-zero-cost.webp</image:loc>
       <image:title>How to Migrate Offline Coaching to Online at Zero Cost — 2026 Practical Guide</image:title>
+      <image:caption>The fear-free playbook for offline coaching teachers in India transitioning online without app costs, LMS fees, or marketing spend.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/protect-course-content-from-piracy-for-free</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-06T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/protect-course-content-from-piracy-for-free.webp</image:loc>
       <image:title>How to Protect Course Content from Piracy for Free — 2026 Realistic Guide</image:title>
+      <image:caption>A serious, technically grounded anti-piracy playbook for Indian educators — secure streaming, watermarking, monitoring, and enforcement.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/best-zero-commission-teaching-platform-india</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-05-04T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/best-zero-commission-teaching-platform-india.webp</image:loc>
       <image:title>Best Zero-Commission Teaching Platform in India — Hidden Cost Truth 2026</image:title>
+      <image:caption>The honest math behind "zero commission" platforms in India — and why total educator cost matters more than headline commission rates.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/sell-online-courses-without-monthly-subscription</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-05-04T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/sell-online-courses-without-monthly-subscription.webp</image:loc>
       <image:title>How to Sell Online Courses Without Monthly Subscription — 2026 Educator Guide</image:title>
+      <image:caption>Why monthly subscription pricing penalises educators before they earn — and the three-phase model that aligns platform incentives with educator success.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/affordable-lms-for-independent-educators</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-04-30T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/most-affordable-lms-for-independent-educators.webp</image:loc>
       <image:title>Most Affordable LMS for Independent Educators — 2026 Honest Guide</image:title>
+      <image:caption>A rigorous cost breakdown for independent educators evaluating LMS options in India — exposing the "cheap subscription" illusion.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/classplus-vs-graphy-vs-allcoaching</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-25T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/classplus-vs-graphy-vs-allcoaching.webp</image:loc>
       <image:title>Classplus vs Graphy vs AllCoaching — 2026 Honest Verdict</image:title>
+      <image:caption>A category-defining 2026 comparison of the three platforms shaping online education in India — covering economics, architecture, and the marketplace shift.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/edtech-marketplace-india-app-fatigue</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-25T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/edtech-marketplace-india-app-fatigue.webp</image:loc>
       <image:title>EdTech Marketplace India: Ending App Fatigue</image:title>
+      <image:caption>How the cumulative friction of 3.5 lakh+ isolated personal teaching apps in India produced app fatigue — and how an EdTech marketplace architecture fixes it.</image:caption>
     </image:image>
   </url>
 
   <url>
     <loc>https://allcoaching.in/blog/online-coaching-academy-without-coding</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-25T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/online-coaching-academy-without-coding.webp</image:loc>
-      <image:title>Online Coaching Academy Bina Coding — Hinglish Guide</image:title>
+      <image:title>Online Coaching Academy Bina Coding — Hinglish Step-by-Step Guide</image:title>
+      <image:caption>A practical, emotionally honest Hinglish guide for Indian educators on launching an online coaching academy without coding, developers, or expensive infrastructure.</image:caption>
     </image:image>
   </url>
 
-  <!-- ============================================================ -->
-  <!-- Legal pages                                                   -->
-  <!-- ============================================================ -->
+  <!-- ============ Legal — long-cache pages ============ -->
   <url>
     <loc>https://allcoaching.in/privacy</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-04-28T10:00:00+05:30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
+
   <url>
     <loc>https://allcoaching.in/terms</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-04-28T10:00:00+05:30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
