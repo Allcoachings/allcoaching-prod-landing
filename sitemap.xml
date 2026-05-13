@@ -10,14 +10,14 @@
   <!-- ============================================================ -->
   <!--  AllCoaching — sitemap.xml                                   -->
   <!--  Format: XML 0.9 + image:image extension                     -->
-  <!--  Updated: 2026-05-12                                          -->
+  <!--  Updated: 2026-05-14                                          -->
   <!--  Submitted to: Google Search Console + Bing Webmaster Tools  -->
   <!-- ============================================================ -->
 
   <!-- ============ Home / canonical surface ============ -->
   <url>
     <loc>https://allcoaching.in/</loc>
-    <lastmod>2026-05-12T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-14T10:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://allcoaching.in/" />
@@ -59,7 +59,7 @@
   <!-- ============ Blog hub (index of all essays) ============ -->
   <url>
     <loc>https://allcoaching.in/blog/</loc>
-    <lastmod>2026-05-13T17:00:00+05:30</lastmod>
+    <lastmod>2026-05-14T10:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -70,6 +70,18 @@
   </url>
 
   <!-- ============ Blog posts — newest first ============ -->
+
+  <url>
+    <loc>https://allcoaching.in/blog/monetize-youtube-teaching-channel-via-personal-app</loc>
+    <lastmod>2026-05-14T10:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/monetize-youtube-teaching-channel-via-personal-app.webp</image:loc>
+      <image:title>Monetize YouTube Teaching Channel via Personal App — AllCoaching 2026 Founder's Guide</image:title>
+      <image:caption>The three honest ways to monetize a YouTube teaching channel via a personal app in India — building from scratch (₹13–40L Year 1), white-label (₹12L Year 1), or marketplace participation (₹0 capital). Conversion math, ₹ economics, and the hybrid YouTube + AllCoaching playbook winning Indian teaching creators in 2026.</image:caption>
+    </image:image>
+  </url>
 
   <url>
     <loc>https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps</loc>
