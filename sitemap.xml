@@ -56,7 +56,44 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- ============ Blog hub (index of all essays) ============ -->
+  <url>
+    <loc>https://allcoaching.in/blog/</loc>
+    <lastmod>2026-05-13T17:00:00+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/Online-teaching.webp</image:loc>
+      <image:title>AllCoaching Blog — Essays on the Future of Online Education in India</image:title>
+      <image:caption>The complete index of long-form essays on educator infrastructure, marketplace economics, AI workflows, EdTech compliance, and the future of online teaching in India — by founder Amit Ratan.</image:caption>
+    </image:image>
+  </url>
+
   <!-- ============ Blog posts — newest first ============ -->
+
+  <url>
+    <loc>https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps</loc>
+    <lastmod>2026-05-13T16:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/how-to-conduct-live-classes-on-mobile-apps.webp</image:loc>
+      <image:title>How to Conduct Live Classes on Mobile Apps — AllCoaching 2026 Comparison Guide</image:title>
+      <image:caption>Three paths Indian educators use to run live classes on mobile in 2026 — consumer apps (YouTube, Meet, Zoom), custom-built apps, or the AllCoaching Educator app with 5-minute go-live. Real costs, setup time, and a side-by-side comparison.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://allcoaching.in/blog/budget-home-studio-setup-for-online-teaching</loc>
+    <lastmod>2026-05-13T15:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/budget-home-studio-setup-for-online-teaching.webp</image:loc>
+      <image:title>Budget Home Studio Setup for Online Teaching — ₹15,000 Complete Setup for Indian Teachers (2026)</image:title>
+      <image:caption>The exact ₹15,000 home studio Indian teachers need to start online — mic, camera, lighting, pen tablet, software — with three upgrade tiers and the five mistakes that drain the budget.</image:caption>
+    </image:image>
+  </url>
 
   <url>
     <loc>https://allcoaching.in/blog/using-chatgpt-for-course-curriculum-design</loc>
