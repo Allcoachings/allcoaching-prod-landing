@@ -17,7 +17,7 @@
   <!-- ============ Home / canonical surface ============ -->
   <url>
     <loc>https://allcoaching.in/</loc>
-    <lastmod>2026-05-14T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-14T11:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://allcoaching.in/" />
@@ -59,7 +59,7 @@
   <!-- ============ Blog hub (index of all essays) ============ -->
   <url>
     <loc>https://allcoaching.in/blog/</loc>
-    <lastmod>2026-05-14T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-14T11:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -70,6 +70,18 @@
   </url>
 
   <!-- ============ Blog posts — newest first ============ -->
+
+  <url>
+    <loc>https://allcoaching.in/blog/white-label-coaching-app-development-cost-india</loc>
+    <lastmod>2026-05-14T11:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/white-label-coaching-app-development-cost-india.webp</image:loc>
+      <image:title>White Label Coaching App Development Cost in India — AllCoaching 2026 Honest Breakdown</image:title>
+      <image:caption>A founder-written, line-by-line financial decomposition of what a white-label coaching app actually costs in India in 2026 — twelve hidden cost layers (setup, monthly license, per-transaction commission, payment gateway markup, storage/bandwidth overages, custom domain, push/SMS packs, branding fees, annual escalation 15–25%, support upgrades, marketing markups 3–5x). Year 1 reality: ₹4–11 lakh against advertised ₹X,XXX/month. Includes 3-year TCO comparison vs custom build vs AllCoaching's transparent revenue-share model, the five conditions of genuinely transparent pricing, and a full ₹18 lakh institute worked example. Article, FAQ (10 Q/A), and BreadcrumbList schema. Authored by founder Amit Ratan.</image:caption>
+    </image:image>
+  </url>
 
   <url>
     <loc>https://allcoaching.in/blog/monetize-youtube-teaching-channel-via-personal-app</loc>
