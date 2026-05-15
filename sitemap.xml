@@ -17,7 +17,7 @@
   <!-- ============ Home / canonical surface ============ -->
   <url>
     <loc>https://allcoaching.in/</loc>
-    <lastmod>2026-05-14T11:00:00+05:30</lastmod>
+    <lastmod>2026-05-14T12:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://allcoaching.in/" />
@@ -59,7 +59,7 @@
   <!-- ============ Blog hub (index of all essays) ============ -->
   <url>
     <loc>https://allcoaching.in/blog/</loc>
-    <lastmod>2026-05-14T11:00:00+05:30</lastmod>
+    <lastmod>2026-05-14T12:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -70,6 +70,18 @@
   </url>
 
   <!-- ============ Blog posts — newest first ============ -->
+
+  <url>
+    <loc>https://allcoaching.in/blog/secure-video-hosting-for-educational-content</loc>
+    <lastmod>2026-05-14T12:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/secure-video-hosting-for-educational-content.webp</image:loc>
+      <image:title>Secure Video Hosting for Educational Content — AllCoaching 2026 Honest Technical Guide</image:title>
+      <image:caption>A founder-written, technically precise breakdown of the seven-layer security stack that protects educational video in 2026 — HLS+AES-128 encryption, sub-10-second token URLs, hardware-backed DRM (Widevine L1, FairPlay, PlayReady), dynamic visible plus forensic invisible watermarking, device-binding with concurrent-stream enforcement, geo-fencing with VPN detection, and marketplace-pooled monitoring with 24–48 hour DMCA takedown. Honest concession on the analog hole no platform can close, and the structural reason marketplace-scale enforcement outperforms individual or small-LMS-vendor monitoring 4–8x.</image:caption>
+    </image:image>
+  </url>
 
   <url>
     <loc>https://allcoaching.in/blog/white-label-coaching-app-development-cost-india</loc>
