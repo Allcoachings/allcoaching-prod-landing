@@ -17,7 +17,7 @@
   <!-- ============ Home / canonical surface ============ -->
   <url>
     <loc>https://allcoaching.in/</loc>
-    <lastmod>2026-05-15T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-16T14:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://allcoaching.in/" />
@@ -32,7 +32,7 @@
   <!-- ============ Manifesto + Core company pages ============ -->
   <url>
     <loc>https://allcoaching.in/manifesto</loc>
-    <lastmod>2026-04-28T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-16T14:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -44,14 +44,26 @@
 
   <url>
     <loc>https://allcoaching.in/about</loc>
-    <lastmod>2026-04-28T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-16T14:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
+    <loc>https://allcoaching.in/author/amit-ratan</loc>
+    <lastmod>2026-05-16T14:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://allcoaching.in/assets/Amit-Ratan.webp</image:loc>
+      <image:title>Amit Ratan — Founder &amp; CEO, AllCoaching</image:title>
+      <image:caption>Official profile of Amit Ratan, founder of AllCoaching — India's first educator-first marketplace. Includes founding story (Prayagraj 2016 → 2018 v1 → 2026 launch), areas of expertise, published essays, and verified social profiles.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://allcoaching.in/contact</loc>
-    <lastmod>2026-04-28T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-16T14:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -59,7 +71,7 @@
   <!-- ============ Blog hub (index of all essays) ============ -->
   <url>
     <loc>https://allcoaching.in/blog/</loc>
-    <lastmod>2026-05-15T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-16T14:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -350,14 +362,14 @@
   <!-- ============ Legal — long-cache pages ============ -->
   <url>
     <loc>https://allcoaching.in/privacy</loc>
-    <lastmod>2026-04-28T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-16T14:00:00+05:30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
     <loc>https://allcoaching.in/terms</loc>
-    <lastmod>2026-04-28T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-16T14:00:00+05:30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>

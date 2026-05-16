@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en-IN" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,6 +31,7 @@
   <title>The AllCoaching Manifesto — The Operating System of Education</title>
   <meta name="description" content="The AllCoaching Manifesto: why personal apps fail, the educator's trap, Big EdTech's dark side, and the operating system India's 3.5 lakh educators deserve." />
   <meta name="keywords" content="AllCoaching manifesto, operating system of education, Amit Ratan founder, educator marketplace India, why personal apps fail, EdTech network effects" />
+  <meta name="author" content="Amit Ratan, Founder &amp; CEO, AllCoaching" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <link rel="canonical" href="https://allcoaching.in/manifesto" />
 
@@ -48,6 +49,12 @@
   <meta property="og:image:height" content="900" />
   <meta property="og:site_name" content="AllCoaching" />
   <meta property="og:locale" content="en_IN" />
+  <meta property="article:author" content="Amit Ratan" />
+  <meta property="article:published_time" content="2026-04-25" />
+  <meta property="article:modified_time" content="2026-05-16" />
+  <meta property="article:section" content="Manifesto" />
+  <meta property="og:updated_time" content="2026-05-16T11:00:00+05:30" />
+  <meta name="article:modified_time" content="2026-05-16" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="The AllCoaching Manifesto — Operating System of Education" />
   <meta name="twitter:description" content="3.5 lakh Indian educators deserve better than being alone online. Read why personal apps fail and what the operating system of education looks like." />
@@ -250,19 +257,87 @@
     }
   </style>
 
+  <!-- Schema 1/4: Article (extended) — the manifesto itself -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
-    "@type":"Article",
+    "@type":["Article","OpinionNewsArticle"],
+    "@id":"https://allcoaching.in/manifesto#article",
     "headline":"The AllCoaching Manifesto — The Operating System of Education",
-    "description":"The long-form manifesto explaining why AllCoaching exists.",
-    "author":{"@type":"Person","name":"Amit Ratan","jobTitle":"Founder & CEO","worksFor":{"@type":"Organization","name":"AllCoaching"}},
-    "publisher":{"@type":"Organization","name":"AllCoaching","logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/AllCoaching-logo.webp"}},
-    "image":"https://allcoaching.in/assets/Amit-Ratan.webp",
+    "alternativeHeadline":"Why personal apps fail, the educator's trap, and the OS India's 3.5 lakh teachers deserve",
+    "description":"The long-form manifesto by founder Amit Ratan explaining why AllCoaching exists — 8 chapters covering the pandemic mirage, the educator's trap, the student's nightmare, why Big EdTech isn't your friend, network effects, the Operating System of Education positioning, and the architectural answer India's online education has been waiting for.",
+    "image":{"@type":"ImageObject","url":"https://allcoaching-bucket.b-cdn.net/Blog/Online-teaching.webp","width":1600,"height":900,"creator":{"@type":"Organization","name":"AllCoaching"}},
+    "author":{"@id":"https://allcoaching.in/author/amit-ratan#person"},
+    "publisher":{"@id":"https://allcoaching.in/#organization"},
     "datePublished":"2026-04-25",
-    "dateModified":"2026-04-25",
-    "mainEntityOfPage":{"@type":"WebPage","@id":"https://allcoaching.in/manifesto"}
+    "dateModified":"2026-05-16",
+    "mainEntityOfPage":{"@id":"https://allcoaching.in/manifesto#webpage"},
+    "articleSection":"Manifesto",
+    "wordCount":8500,
+    "inLanguage":"en-IN",
+    "about":[
+      {"@type":"Thing","name":"Online Marketplace","sameAs":"https://en.wikipedia.org/wiki/Online_marketplace"},
+      {"@type":"Thing","name":"Network Effect","sameAs":"https://en.wikipedia.org/wiki/Network_effect"},
+      {"@type":"Thing","name":"Educational Technology","sameAs":"https://en.wikipedia.org/wiki/Educational_technology"},
+      {"@type":"Organization","name":"AllCoaching","@id":"https://allcoaching.in/#organization"}
+    ],
+    "mentions":[
+      {"@type":"Thing","name":"App Fatigue","sameAs":"https://en.wikipedia.org/wiki/Subscription_fatigue"},
+      {"@type":"Thing","name":"Indian Online Education","sameAs":"https://en.wikipedia.org/wiki/Education_in_India"},
+      {"@type":"Thing","name":"COVID-19 pandemic in India","sameAs":"https://en.wikipedia.org/wiki/COVID-19_pandemic_in_India"}
+    ],
+    "isPartOf":{"@type":"WebSite","@id":"https://allcoaching.in/#website","name":"AllCoaching","url":"https://allcoaching.in/"},
+    "speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","h2","blockquote"]},
+    "keywords":"AllCoaching manifesto, operating system of education, Amit Ratan founder, educator marketplace India, why personal apps fail, EdTech network effects"
   }
+  </script>
+
+  <!-- Schema 2/4: AboutPage — the manifesto as a brand-defining page -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"AboutPage",
+    "@id":"https://allcoaching.in/manifesto#webpage",
+    "name":"The AllCoaching Manifesto",
+    "url":"https://allcoaching.in/manifesto",
+    "inLanguage":"en-IN",
+    "isPartOf":{"@type":"WebSite","@id":"https://allcoaching.in/#website","name":"AllCoaching","url":"https://allcoaching.in/"},
+    "mainEntity":{"@id":"https://allcoaching.in/manifesto#article"},
+    "about":{"@id":"https://allcoaching.in/#organization"},
+    "primaryImageOfPage":{"@type":"ImageObject","url":"https://allcoaching-bucket.b-cdn.net/Blog/Online-teaching.webp"},
+    "datePublished":"2026-04-25",
+    "dateModified":"2026-05-16"
+  }
+  </script>
+
+  <!-- Schema 3/4: Person — Amit Ratan (canonical IRI) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "@id":"https://allcoaching.in/author/amit-ratan#person",
+    "name":"Amit Ratan",
+    "jobTitle":"Founder & CEO",
+    "worksFor":{"@id":"https://allcoaching.in/#organization"},
+    "url":"https://allcoaching.in/about",
+    "image":"https://allcoaching.in/assets/Amit-Ratan.webp",
+    "knowsAbout":["Indian EdTech","Educator Marketplace Architecture","Online Coaching","Marketplace Economics","Network Effects"],
+    "sameAs":[
+      "https://www.linkedin.com/in/allamitk/",
+      "https://x.com/allcoachings",
+      "https://www.youtube.com/@Allcoaching",
+      "https://www.instagram.com/allcoachings/",
+      "https://allcoaching.in/about"
+    ]
+  }
+  </script>
+
+  <!-- Schema 4/4: BreadcrumbList -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://allcoaching.in/"},
+    {"@type":"ListItem","position":2,"name":"Manifesto","item":"https://allcoaching.in/manifesto"}
+  ]}
   </script>
 </head>
 

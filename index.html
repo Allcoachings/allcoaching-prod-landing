@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en-IN" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -55,6 +55,8 @@
   <meta property="og:image:height" content="900" />
   <meta property="og:site_name" content="AllCoaching" />
   <meta property="og:locale" content="en_IN" />
+  <meta property="og:updated_time" content="2026-05-16T11:00:00+05:30" />
+  <meta name="article:modified_time" content="2026-05-16" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -69,31 +71,142 @@
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="dns-prefetch" href="https://www.youtube.com" />
   <link rel="dns-prefetch" href="https://educator.allcoaching.in" />
+  <!-- Critical asset preload — LCP optimisation -->
+  <link rel="preload" as="image" href="./assets/AllCoaching-logo.webp" fetchpriority="high" />
+  <link rel="preload" as="image" href="https://allcoaching-bucket.b-cdn.net/Blog/Online-teaching.webp" fetchpriority="high" />
+  <link rel="preload" as="style" href="./dist/tw.min.css" />
+  <link rel="preload" as="style" href="./brand.css" />
+  <link rel="preload" as="font" href="https://fonts.gstatic.com/s/instrumentserif/v3/91cdvLjYV5wRcS8oXCBSCWZdwfvJ.woff2" type="font/woff2" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./dist/tw.min.css" />
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="./brand.css" />
 
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in","logo":"https://allcoaching.in/assets/AllCoaching-logo.webp","description":"India's educator-first marketplace and platform for running live classes, managing students, and getting discovered by learners.","email":"allcoachingss@gmail.com","telephone":"+91-9889977262","address":{"@type":"PostalAddress","streetAddress":"Sangam Vihar Colony, Haveliya, Jhusi","addressLocality":"Prayagraj","addressRegion":"Uttar Pradesh","postalCode":"211019","addressCountry":"IN"},"sameAs":["https://www.youtube.com/@Allcoaching","https://t.me/allcoaching","https://www.facebook.com/allcoaching.in","https://www.instagram.com/allcoachings/","https://x.com/allcoachings"]}
-  </script>
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebSite","name":"AllCoaching","url":"https://allcoaching.in","potentialAction":{"@type":"SearchAction","target":"https://allcoaching.in/search?q={search_term_string}","query-input":"required name=search_term_string"}}
-  </script>
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"AllCoaching","operatingSystem":"Web, Android","applicationCategory":"EducationalApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"2400"}}
-  </script>
+  <!-- Schema 1/5: Organization (canonical IRI, referenced site-wide) -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "AllCoaching",
-    "url": "https://allcoaching.in/",
-    "logo": "https://allcoaching.in/logo.png",
-    "sameAs": [
-      "https://www.instagram.com/allcoaching_in/"
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "@id":"https://allcoaching.in/#organization",
+    "name":"AllCoaching",
+    "legalName":"AllCoaching Technologies Pvt. Ltd.",
+    "alternateName":["All Coaching","AllCoachings","Allcoaching"],
+    "url":"https://allcoaching.in",
+    "logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/AllCoaching-logo.webp","width":200,"height":50},
+    "image":"https://allcoaching-bucket.b-cdn.net/Blog/Online-teaching.webp",
+    "description":"India's educator-first marketplace and platform — teachers launch their branded coaching business, sell courses, host live classes, manage students, and grow through AI-driven marketplace discovery, keeping 90% of revenue.",
+    "foundingDate":"2018",
+    "founder":{"@id":"https://allcoaching.in/author/amit-ratan#person"},
+    "email":"allcoachingss@gmail.com",
+    "telephone":"+91-9889977262",
+    "address":{"@type":"PostalAddress","streetAddress":"Sangam Vihar Colony, Haveliya, Jhusi","addressLocality":"Prayagraj","addressRegion":"Uttar Pradesh","postalCode":"211019","addressCountry":"IN"},
+    "geo":{"@type":"GeoCoordinates","latitude":25.4358,"longitude":81.8463},
+    "areaServed":{"@type":"Country","name":"India"},
+    "knowsAbout":[
+      {"@type":"Thing","name":"Educational Technology","sameAs":"https://en.wikipedia.org/wiki/Educational_technology"},
+      {"@type":"Thing","name":"Online Marketplace","sameAs":"https://en.wikipedia.org/wiki/Online_marketplace"},
+      {"@type":"Thing","name":"Network Effect","sameAs":"https://en.wikipedia.org/wiki/Network_effect"},
+      {"@type":"Thing","name":"Education in India","sameAs":"https://en.wikipedia.org/wiki/Education_in_India"}
+    ],
+    "contactPoint":[
+      {"@type":"ContactPoint","telephone":"+91-9889977262","contactType":"customer support","areaServed":"IN","availableLanguage":["English","Hindi"]},
+      {"@type":"ContactPoint","telephone":"+91-7408305929","contactType":"sales","areaServed":"IN","availableLanguage":["English","Hindi"]}
+    ],
+    "sameAs":[
+      "https://www.youtube.com/@Allcoaching",
+      "https://www.instagram.com/allcoachings/",
+      "https://x.com/allcoachings",
+      "https://t.me/allcoaching",
+      "https://www.facebook.com/allcoaching.in",
+      "https://play.google.com/store/apps/details?id=org.student.allcoaching",
+      "https://play.google.com/store/apps/details?id=in.allcoaching.educator",
+      "https://apps.apple.com/app/allcoaching/id6746884376"
     ]
   }
+  </script>
+
+  <!-- Schema 2/5: WebSite (canonical IRI, SearchAction) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "@id":"https://allcoaching.in/#website",
+    "name":"AllCoaching",
+    "alternateName":"India's Educator Marketplace",
+    "url":"https://allcoaching.in/",
+    "description":"India's educator-first marketplace where teachers launch branded coaching, sell courses, host live classes, and grow through AI-driven student discovery.",
+    "publisher":{"@id":"https://allcoaching.in/#organization"},
+    "inLanguage":"en-IN",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":{"@type":"EntryPoint","urlTemplate":"https://allcoaching.in/blog/?q={search_term_string}"},
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Schema 3/5: SoftwareApplication (with rating, offer, features) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"SoftwareApplication",
+    "@id":"https://allcoaching.in/#software",
+    "name":"AllCoaching — Educator Marketplace Platform",
+    "operatingSystem":"Web, Android, iOS",
+    "applicationCategory":"EducationalApplication",
+    "applicationSubCategory":"EducatorMarketplace",
+    "description":"AllCoaching's branded coaching platform plus marketplace discovery — for Indian educators teaching online. Launch a branded app, sell courses, host live classes, manage students, accept payments, and reach students through AI-driven discovery.",
+    "url":"https://allcoaching.in",
+    "image":"https://allcoaching.in/assets/AllCoaching-logo.webp",
+    "downloadUrl":"https://play.google.com/store/apps/details?id=org.student.allcoaching",
+    "offers":[
+      {"@type":"Offer","name":"30-Day Free Trial","price":"0","priceCurrency":"INR","description":"Full platform access for 30 days, no card required.","availability":"https://schema.org/InStock","areaServed":{"@type":"Country","name":"India"}},
+      {"@type":"Offer","name":"Early Launch Offer","price":"11999","priceCurrency":"INR","description":"₹11,999/year + 10% per transaction. 2-year lock. First 50 educators only.","availability":"https://schema.org/LimitedAvailability","areaServed":{"@type":"Country","name":"India"}},
+      {"@type":"Offer","name":"Standard Plan","price":"24999","priceCurrency":"INR","description":"₹24,999/year + 10% per transaction. For growing institutes.","availability":"https://schema.org/InStock","areaServed":{"@type":"Country","name":"India"}}
+    ],
+    "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"2400","bestRating":"5","worstRating":"1"},
+    "featureList":[
+      "Branded coaching app (Android + iOS + Web)",
+      "Live class infrastructure with attendance + recording",
+      "Marketplace discovery via AI recommendation",
+      "Payments (UPI, cards, EMI, net-banking)",
+      "GST-compliant invoicing under SAC 999293",
+      "DPDP Act 2023-compliant data handling",
+      "Anti-piracy + DRM video streaming (HLS+AES-128)",
+      "Daily payouts at 90% revenue share",
+      "Test series, mock tests, MCQ banks, PDFs",
+      "Student CRM + engagement analytics"
+    ],
+    "provider":{"@id":"https://allcoaching.in/#organization"},
+    "audience":{"@type":"Audience","audienceType":"Indian online educators, coaching institute owners, individual teachers, content creators"},
+    "countriesSupported":"IN",
+    "inLanguage":["en-IN","hi-IN"]
+  }
+  </script>
+
+  <!-- Schema 4/5: WebPage with Speakable -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "@id":"https://allcoaching.in/#webpage",
+    "name":"AllCoaching — India's Educator Marketplace for Online Teachers",
+    "url":"https://allcoaching.in/",
+    "inLanguage":"en-IN",
+    "isPartOf":{"@id":"https://allcoaching.in/#website"},
+    "about":{"@id":"https://allcoaching.in/#organization"},
+    "primaryImageOfPage":{"@type":"ImageObject","url":"https://allcoaching-bucket.b-cdn.net/Blog/Online-teaching.webp","width":1600,"height":900},
+    "datePublished":"2024-01-01",
+    "dateModified":"2026-05-16",
+    "speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".lede","#pricing h2","#faq summary","#faq details > p"]}
+  }
+  </script>
+
+  <!-- Schema 5/5: BreadcrumbList -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://allcoaching.in/"}
+  ]}
   </script>
 </head>
 
@@ -139,7 +252,7 @@ style="display:none;visibility:hidden">
     <nav class="nav-shell flex items-center justify-between px-4 py-2.5">
       <span class="nav-shell-halo" aria-hidden="true"></span>
       <a href="/" aria-label="AllCoaching home" class="flex items-center">
-        <img src="./assets/AllCoaching-logo.webp" alt="AllCoaching — Democratizing Education" class="nav-logo h-9 md:h-10 w-auto" decoding="async"  width="200"  height="50" />
+        <img src="./assets/AllCoaching-logo.webp" alt="AllCoaching — Democratizing Education" class="nav-logo h-9 md:h-10 w-auto" decoding="async" loading="eager" fetchpriority="high" width="200" height="50" />
       </a>
       <ul class="hidden md:flex items-center gap-8 text-[14.5px] text-[#4F4840] font-medium">
         <li><a href="#problem" class="hover:text-[#15110D] transition-colors">Problem</a></li>
@@ -192,10 +305,10 @@ style="display:none;visibility:hidden">
 
       <div class="mt-10 flex items-center gap-5 text-sm text-[#8C8378] flex-wrap">
         <div class="flex -space-x-2">
-          <img src="./assets/ed1.png" alt="Educator Rahul Mehta" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="lazy" decoding="async"  width="80"  height="80" />
-          <img src="./assets/wed7.png" alt="Educator Pooja Verma" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="lazy" decoding="async"  width="80"  height="80" />
-          <img src="./assets/ed2.png" alt="Educator Vikram Singh" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="lazy" decoding="async"  width="80"  height="80" />
-          <img src="./assets/wed8.png" alt="Educator Anjali Nair" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="lazy" decoding="async"  width="80"  height="80" />
+          <img src="./assets/ed1.png" alt="Educator Rahul Mehta" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="eager" fetchpriority="high" decoding="async" width="80" height="80" />
+          <img src="./assets/wed7.png" alt="Educator Pooja Verma" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="eager" fetchpriority="high" decoding="async" width="80" height="80" />
+          <img src="./assets/ed2.png" alt="Educator Vikram Singh" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="eager" fetchpriority="high" decoding="async" width="80" height="80" />
+          <img src="./assets/wed8.png" alt="Educator Anjali Nair" class="w-8 h-8 rounded-full ring-2 ring-white object-cover bg-white" loading="eager" fetchpriority="high" decoding="async" width="80" height="80" />
         </div>
         <div><strong class="text-[#15110D]">2,400+ educators</strong> · <strong class="text-[#15110D]">1.2L+ students</strong> · ⭐ 4.9/5</div>
       </div>
