@@ -7,6 +7,129 @@ description: Write or edit AllCoaching long-form editorial blog posts in the est
 
 Use this skill when the user asks you to **write a new blog post** for `/blog/` or **edit/review an existing one** to match the house style. All posts are standalone HTML files in `blog/` — no CMS, no shared layout. Each post is self-contained.
 
+## ⚡ Quickstart intake protocol — keyword + context → full blog
+
+This is the **default path** when the user says any of:
+- `"write blog on <keyword>"`
+- `"new blog: <topic>"`
+- `"blog likho on <keyword>"` (Hinglish)
+- `<keyword> + 1-2 lines of context`
+
+The user provides the **minimum** (keyword + 1–3 lines of intent / angle / anchor data). You infer everything else from the rest of this SKILL and the reference posts. Do not over-question — the user is delegating execution.
+
+### What the user provides (minimum)
+
+1. **Primary keyword** — the long-tail target query (e.g., `"how to handle GST refunds for coaching institutes India"`)
+2. **Context** (1–3 lines) — who's asking, what angle the user wants, any specific ₹ figure / stat / anecdote / AllCoaching feature to anchor
+
+### What you infer automatically (do not ask)
+
+| Inferred field | Rule |
+|---|---|
+| **Slug** | kebab-case of primary keyword, prepend with intent verb if helpful (`how-to-`, `best-`), append `-india` or `-2026` only if it disambiguates |
+| **File path** | `blog/<slug>.html` |
+| **Title** (60–80 chars) | Primary keyword + year/positioning + emotional hook (e.g., "Honest Guide", "Founder's Breakdown", "2026 Edition") |
+| **Description** (160–280 chars) | Lede sentence + 2 secondary keywords + the load-bearing claim, plain prose |
+| **Cover image URL** | `https://allcoaching-bucket.b-cdn.net/Blog/<slug>.webp` (1600×900). Reference the URL even if file doesn't exist yet — it will be uploaded post-write |
+| **Publish/modify dates** | Today's date in ISO format |
+| **Author** | Canonical Person `@id: https://allcoaching.in/author/amit-ratan#person` |
+| **Organization** | Canonical Org `@id: https://allcoaching.in/#organization` |
+| **6 JSON-LD schemas** | Article (extended) + FAQPage + BreadcrumbList + HowTo + SoftwareApplication + DefinedTermSet — full pattern from `blog/automated-fee-management-software-for-teachers.html` |
+| **TL;DR bullets** (6) | Anchored to specific numbers/figures pulled from context or inferred from keyword's typical answer set |
+| **Glossary terms** (6–10) | Topic-specific defined terms with `<dfn>` IDs matching schema `@id` |
+| **Inline Q&A** (≥2) | Implementation-level questions that aren't covered in the bottom FAQ |
+| **First-person Experience lines** (≥2) | "From the field, 2026…" or "Across the AllCoaching educator base…" |
+| **Internal links** (5–10) | Auto-pick from existing `blog/*.html` based on topic adjacency (use the `.claude/scripts/bulk_internal_links.py` POST_CATEGORIES mapping) |
+| **Wikipedia anchors** in `about[]` / `mentions[]` | Pick 4–6 relevant entities (GST, DPDP, Wikipedia for any regulation/technology named) |
+| **Speakable selectors** | `["#tldr","#tldr ul","#faq summary","#faq details > p","#glossary .def h3"]` (canonical) |
+| **Sitemap insertion** | Top of blog posts section with priority 0.85–0.95 and `<image:image>` annotation |
+| **llms.txt entry** | Top of "Blog — Essays" section, dense ~400-word entry naming every entity + ₹ figure + key claim |
+| **blog/index.html** | New card at top of grid + `Blog.blogPost[]` entry + `ItemList` entry (bump `numberOfItems` by 1) + `BlogPosting[]` entry |
+| **Word count target** | 3,500–5,500 words (16–20 min read) |
+
+### When to ASK before drafting (only if unclear)
+
+Limit clarification to **max 3 short questions** total. Ask only if context doesn't already cover:
+
+1. **Target reader segment** — individual educator? institute owner with X teachers? exam category? Hindi-medium? regional?
+2. **Primary financial figure / stat to anchor** — e.g., "What ₹ figure should anchor the cost section?" (range is fine; do not fabricate a specific number if user can give a real one)
+3. **Specific AllCoaching feature/module** to position against the problem (if the topic doesn't obviously map to an existing AllCoaching capability)
+4. **Real anecdote or Experience line** — "Any specific educator story you want included?"
+
+If the user's context already covers these, **skip the questions and proceed directly to draft**.
+
+### Default execution sequence
+
+After receiving keyword + context (and answering clarifying questions if any):
+
+1. **Pre-flight checks**:
+   - Verify `blog/<slug>.html` doesn't already exist (if yes, ask before overwriting)
+   - Pick 5–10 cross-link target posts from existing `blog/*.html` based on topic adjacency
+   - Pick Wikipedia anchors (`about[]` + `mentions[]`) — 4–6 entities
+
+2. **Draft the file**: full 17-element skeleton with 6-schema baseline. Use `templates/blog-post-template.html` as the scaffold if it exists, then enrich to match the canonical references.
+
+3. **Run validation**:
+   - All 6+ JSON-LD schemas parse cleanly via:
+     `python -c "import json,re; [json.loads(s) for s in re.findall(r'<script type=\"application/ld\\+json\">\\s*(.+?)\\s*</script>', open('blog/<slug>.html','r',encoding='utf-8').read(), re.DOTALL)]"`
+   - TL;DR has 6 bullets each anchored with `<strong>` containing a specific number/entity
+   - Glossary has 6–10 `<dfn>` terms matching `DefinedTermSet` IDs exactly
+   - FAQ visible DOM matches FAQPage JSON-LD `mainEntity[]` text verbatim
+   - Inline Q&A blocks: ≥2 in body sections
+   - Experience lines: ≥2 with first-person voice
+   - Internal links: 5–10 contextual links in body (excluding nav/footer/related)
+   - `lang="en-IN"` on `<html>`
+   - All performance hints (preconnect, preload hero image, fetchpriority high)
+
+4. **Register the post**:
+   - Add to `sitemap.xml` (top of blog section, priority 0.85–0.95, full `<image:image>` block)
+   - Add to `llms.txt` (top of blog list, dense entity-rich ~400-word entry)
+   - Update `blog/index.html` (new card, `Blog.blogPost[]` entry, `ItemList` entry, count bump)
+
+5. **Run post-write helpers** (idempotent):
+   - `python .claude/scripts/bulk_internal_links.py` — adds strategic cross-refs block if not already present
+   - `python .claude/scripts/build_llms_full.py` — rebuilds `/llms-full.txt` to include new post
+   - `python .claude/scripts/build_feed_xml.py` — rebuilds RSS feed with new post
+
+6. **Report to user**:
+   - File path, word count, schema count, internal link count
+   - Confirm with user before committing — show commit message draft
+
+7. **Commit + push** (when user approves):
+   - Commit message: post slug + word count + schemas count + key claims/figures + cross-references added
+   - After push: ping IndexNow with the new URL + sitemap URL via the PowerShell pattern (see `.claude/scripts/build_feed_xml.py` adjacent docs)
+
+### Example flow
+
+**User input:**
+```
+write blog: how do Indian coaching institutes reduce student drop-off
+
+Context: most institutes lose 30-40% of paid students by week 3.
+AllCoaching has engagement analytics + drop-off detection.
+Target reader is institute owners with 100-500 students.
+```
+
+**Your response (after pre-flight):**
+- Slug: `reduce-student-drop-off-coaching-india`
+- Title: `How Indian Coaching Institutes Reduce Student Drop-off — A 2026 Operational Playbook`
+- 1 clarifying question: `"What specific drop-off detection feature should I anchor — early-warning signals at Day 7? Inactive-student auto-nudge? Both?"`
+- Then proceed to full draft.
+
+### Idempotency note
+
+The post-write helper scripts (`build_llms_full.py`, `bulk_internal_links.py`, `bulk_author_retrofit.py`, `build_feed_xml.py`) are all idempotent — safe to re-run after any new blog post. Always run them post-write to keep the AI-SEO infrastructure synchronized.
+
+### Anti-patterns — do NOT do any of these
+
+- Do **not** invent a specific ₹ figure or statistic if the user did not provide it. Use a range, or ask.
+- Do **not** ask more than 3 clarifying questions. The user is delegating; over-questioning defeats the purpose.
+- Do **not** create the post without the strategic-cross-refs block — `bulk_internal_links.py` adds it but verify the marker is in the final file.
+- Do **not** skip the FAQPage / DefinedTermSet schemas to "save time" — they are the highest AI-citation surface.
+- Do **not** use `<span class="grad-text">` in headings — use `<em>` (ochre via brand.css).
+
+---
+
 ## Reference posts
 
 The canonical, most up-to-date patterns are in:
