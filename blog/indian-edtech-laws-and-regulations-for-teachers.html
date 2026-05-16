@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en-IN" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,6 +36,7 @@
   <meta property="og:image:height" content="900" />
   <meta property="article:author" content="Amit Ratan" />
   <meta property="article:published_time" content="2026-05-13" />
+  <meta property="article:modified_time" content="2026-05-15" />
   <meta property="article:section" content="EdTech Compliance" />
   <meta property="og:site_name" content="AllCoaching" />
   <meta property="og:locale" content="en_IN" />
@@ -56,28 +57,76 @@
   <link rel="stylesheet" href="../styles.css" />
   <link rel="stylesheet" href="../brand.css" />
 
-  <!-- Schema: Article -->
+  <!-- Schema 1/6: Article (extended) -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
-    "@type":"Article",
+    "@type":["Article","TechArticle"],
     "headline":"Indian EdTech Laws for Teachers — 2026 Quick Compliance Guide",
-    "description":"A scannable, visual reference covering the 11 most important Indian regulations every online teacher must know in 2026 — DPDP Act, GST, IT Rules, Consumer Protection (E-Commerce), Copyright Act, POCSO, ASCI guidelines, and more.",
-    "image":{"@type":"ImageObject","url":"https://allcoaching-bucket.b-cdn.net/Blog/indian-edtech-laws-and-regulations-for-teachers.webp","width":1600,"height":900},
-    "author":{"@type":"Person","name":"Amit Ratan","jobTitle":"Founder & CEO","worksFor":{"@type":"Organization","name":"AllCoaching"}},
-    "publisher":{"@type":"Organization","name":"AllCoaching","logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/AllCoaching-logo.webp"}},
+    "description":"A scannable, plain-English reference to the 11 most important Indian regulations every online teacher must know in 2026 — DPDP Act 2023 (data + parental consent), IT Act + Rules 2021 (intermediary duties, grievance officer), GST Act 2017 (18% on courses), Income Tax Act, Consumer Protection E-Commerce Rules 2020 (refunds), ASCI advertising code (no guaranteed-selection claims), Copyright Act 1957, POCSO Act 2012 (minors), NEP 2020 alignment, IEC self-regulatory code. Includes max penalties, platform-vs-educator compliance split, and 10-point printable checklist.",
+    "image":{"@type":"ImageObject","url":"https://allcoaching-bucket.b-cdn.net/Blog/indian-edtech-laws-and-regulations-for-teachers.webp","width":1600,"height":900,"creator":{"@type":"Organization","name":"AllCoaching"}},
+    "author":{
+      "@type":"Person",
+      "name":"Amit Ratan",
+      "jobTitle":"Founder & CEO",
+      "worksFor":{"@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in"},
+      "url":"https://allcoaching.in/about",
+      "knowsAbout":["Indian EdTech Regulation","DPDP Act","GST Compliance for Coaching","IT Rules 2021","ASCI Advertising Code"],
+      "sameAs":[
+        "https://x.com/allcoachings",
+        "https://www.youtube.com/@Allcoaching",
+        "https://www.instagram.com/allcoachings/",
+        "https://allcoaching.in/about",
+        "https://allcoaching.in/manifesto"
+      ]
+    },
+    "publisher":{
+      "@type":"Organization",
+      "name":"AllCoaching",
+      "url":"https://allcoaching.in",
+      "logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/AllCoaching-logo.webp","width":200,"height":50},
+      "sameAs":[
+        "https://x.com/allcoachings",
+        "https://www.youtube.com/@Allcoaching",
+        "https://www.instagram.com/allcoachings/",
+        "https://www.facebook.com/allcoaching.in",
+        "https://t.me/allcoaching",
+        "https://play.google.com/store/apps/details?id=org.student.allcoaching"
+      ]
+    },
     "datePublished":"2026-05-13",
-    "dateModified":"2026-05-13",
+    "dateModified":"2026-05-15",
     "mainEntityOfPage":{"@type":"WebPage","@id":"https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers"},
     "articleSection":"EdTech Compliance",
     "about":[
-      {"@type":"Thing","name":"DPDP Act 2023"},
-      {"@type":"Thing","name":"GST on Online Education India"},
-      {"@type":"Thing","name":"Consumer Protection E-Commerce Rules 2020"},
-      {"@type":"Thing","name":"IT Act 2000 Intermediary Rules"},
-      {"@type":"Thing","name":"Copyright Act 1957"},
+      {"@type":"Thing","name":"Indian EdTech Regulation"},
+      {"@type":"Thing","name":"Digital Personal Data Protection Act, 2023","sameAs":"https://en.wikipedia.org/wiki/Digital_Personal_Data_Protection_Act,_2023"},
+      {"@type":"Thing","name":"Goods and Services Tax (India)","sameAs":"https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"},
+      {"@type":"Thing","name":"Information Technology Act, 2000","sameAs":"https://en.wikipedia.org/wiki/Information_Technology_Act,_2000"},
+      {"@type":"Thing","name":"Indian Copyright Act, 1957","sameAs":"https://en.wikipedia.org/wiki/Copyright_law_of_India"},
       {"@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in"}
-    ]
+    ],
+    "mentions":[
+      {"@type":"Service","name":"AllCoaching Compliance-Ready Platform","url":"https://allcoaching.in","provider":{"@type":"Organization","name":"AllCoaching"}},
+      {"@type":"Thing","name":"POCSO Act, 2012","sameAs":"https://en.wikipedia.org/wiki/Protection_of_Children_from_Sexual_Offences_Act,_2012"},
+      {"@type":"Thing","name":"National Education Policy 2020","sameAs":"https://en.wikipedia.org/wiki/National_Education_Policy_2020"},
+      {"@type":"Organization","name":"Advertising Standards Council of India","sameAs":"https://en.wikipedia.org/wiki/Advertising_Standards_Council_of_India"},
+      {"@type":"Thing","name":"Consumer Protection Act, 2019","sameAs":"https://en.wikipedia.org/wiki/Consumer_Protection_Act,_2019"},
+      {"@type":"Thing","name":"Income Tax Act, 1961","sameAs":"https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"}
+    ],
+    "isPartOf":{"@type":"Blog","@id":"https://allcoaching.in/blog/","name":"AllCoaching Blog"},
+    "speakable":{
+      "@type":"SpeakableSpecification",
+      "cssSelector":["#tldr","#tldr ul","#faq summary","#faq details > p","#glossary .def h3"]
+    },
+    "wordCount":4800,
+    "inLanguage":"en-IN",
+    "audience":{
+      "@type":"Audience",
+      "audienceType":"Indian online teachers, coaching institute owners, and EdTech operators navigating DPDP Act, GST compliance, IT Rules, Consumer Protection, Copyright, POCSO, and ASCI advertising regulations in 2026"
+    },
+    "keywords":"indian edtech laws and regulations for teachers, DPDP Act coaching India, GST 18% coaching SAC 999293, online teaching compliance India 2026"
+  }
   }
   </script>
   <!-- Schema: FAQ -->
@@ -102,6 +151,87 @@
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://allcoaching.in/blog/"},
     {"@type":"ListItem","position":3,"name":"Indian EdTech Laws for Teachers","item":"https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers"}
   ]}
+  </script>
+
+  <!-- Schema 4/6: HowTo — 10-point compliance checklist -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"HowTo",
+    "name":"How to meet Indian EdTech compliance requirements as an online teacher in 2026",
+    "description":"A 10-point compliance checklist for Indian online teachers covering DPDP Act consent, GST registration, IT Rules grievance officer, Consumer Protection refund policies, ASCI advertising standards, Copyright respect, POCSO protection for minors, and operational record-keeping.",
+    "totalTime":"P7D",
+    "step":[
+      {"@type":"HowToStep","position":1,"name":"Register for GST if turnover exceeds threshold","text":"GST registration is mandatory when annual aggregate turnover crosses ₹20 lakh (₹10 lakh for special-category North-East states). 18% GST applies under SAC 999293 for competitive-exam coaching."},
+      {"@type":"HowToStep","position":2,"name":"Implement DPDP Act consent flows","text":"Collect explicit consent before processing student personal data. Display clear privacy notice in English plus the student's preferred regional language. For students under 18, require verifiable parental consent."},
+      {"@type":"HowToStep","position":3,"name":"Appoint grievance officer per IT Rules 2021","text":"Display name, contact, and address of grievance officer on the platform/website. Acknowledge complaints within 24 hours; resolve within 15 days."},
+      {"@type":"HowToStep","position":4,"name":"Publish refund policy compliant with Consumer Protection E-Commerce Rules 2020","text":"Publish clear refund policy stating timelines, conditions, and process. Honour cooling-off period where applicable. Process refunds within 30 days of request."},
+      {"@type":"HowToStep","position":5,"name":"Audit advertising against ASCI code","text":"No 'guaranteed selection' claims. No false ranking claims. No fake testimonials. ASCI complaints can result in ad-removal orders and reputational penalties."},
+      {"@type":"HowToStep","position":6,"name":"Respect Copyright Act 1957","text":"Use only owned or properly licensed content. Cite sources. Do not republish textbook content without permission. Pay royalties where applicable for third-party content."},
+      {"@type":"HowToStep","position":7,"name":"Apply POCSO protections when teaching minors","text":"Establish clear teacher-student communication boundaries. Document all 1-on-1 interactions with minors. Maintain parental visibility into all class communications."},
+      {"@type":"HowToStep","position":8,"name":"Maintain GST-compliant invoicing","text":"Issue sequential tax invoices for every payment. Map content to correct SAC code. File GSTR-1 monthly and GSTR-3B monthly. Retain records for 6 years."},
+      {"@type":"HowToStep","position":9,"name":"Comply with Income Tax provisions","text":"Pay advance tax quarterly. File ITR by July 31. Deduct TDS on vendor payments above threshold (₹2.4 lakh rent, ₹30K professional fees)."},
+      {"@type":"HowToStep","position":10,"name":"Document everything for the 3-year audit window","text":"GST audit lookback is 3 years. Income Tax scrutiny lookback is 6 years. POCSO and DPDP records may be required longer. Use a platform like AllCoaching that auto-maintains audit-ready records to avoid the reconstruction nightmare."}
+    ]
+  }
+  </script>
+
+  <!-- Schema 5/6: SoftwareApplication — AllCoaching Compliance-Ready Platform -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"SoftwareApplication",
+    "name":"AllCoaching Compliance-Ready Educator Platform",
+    "applicationCategory":"BusinessApplication",
+    "applicationSubCategory":"EducationCompliance",
+    "operatingSystem":"Web, Android, iOS",
+    "description":"AllCoaching's educator platform handles platform-level Indian EdTech compliance obligations (DPDP consent infrastructure, IT Rules grievance officer, GST-compliant invoicing automation, Consumer Protection refund workflow, ASCI-aligned product surfaces) — leaving the educator only the obligations that are inherently theirs (their own teaching content, their own tax filing, their own advertising claims).",
+    "url":"https://educator.allcoaching.in/",
+    "image":"https://allcoaching-bucket.b-cdn.net/Blog/indian-edtech-laws-and-regulations-for-teachers.webp",
+    "offers":{
+      "@type":"Offer",
+      "price":"0",
+      "priceCurrency":"INR",
+      "description":"Free to start. Compliance infrastructure included. Revenue-share aligned.",
+      "availability":"https://schema.org/InStock",
+      "areaServed":{"@type":"Country","name":"India"}
+    },
+    "featureList":[
+      "DPDP Act-compliant consent flows built-in",
+      "IT Rules 2021 grievance officer infrastructure",
+      "GST-compliant automated invoicing under SAC 999293",
+      "Consumer Protection-compliant refund workflows",
+      "ASCI-aligned product description surfaces",
+      "Copyright-respecting content management",
+      "POCSO-compliant teacher-minor interaction logging",
+      "Audit-ready record retention (3-year+ lookback)",
+      "GSTR-1 and GSTR-3B export-ready"
+    ],
+    "provider":{"@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in"},
+    "audience":{"@type":"Audience","audienceType":"Indian online teachers navigating EdTech compliance"},
+    "countriesSupported":"IN",
+    "inLanguage":["en-IN","hi-IN"]
+  }
+  </script>
+
+  <!-- Schema 6/6: DefinedTermSet — Glossary -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"DefinedTermSet",
+    "name":"Indian EdTech Compliance Glossary",
+    "description":"Key regulatory terms Indian online teachers and coaching institute owners need to understand for 2026 compliance.",
+    "hasDefinedTerm":[
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers#dfn-dpdp","name":"DPDP Act 2023","description":"India's Digital Personal Data Protection Act, 2023 — comprehensive data-protection law requiring explicit consent before processing personal data, verifiable parental consent for minors, data-localisation requirements, and grievance mechanisms. <strong>Max penalty: ₹250 crore per violation.</strong> Applies to every Indian online teacher.","termCode":"DPDP-ACT"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers#dfn-gst-coaching","name":"GST on Coaching (SAC 999293)","description":"Goods and Services Tax of <strong>18% applies to competitive-exam coaching services under SAC code 999293</strong> when annual turnover exceeds ₹20 lakh (₹10 lakh in special-category North-East states). School and recognised-degree teaching is exempt. Requires monthly GSTR-1 and GSTR-3B filings.","termCode":"GST-COACHING"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers#dfn-it-rules","name":"IT Rules 2021 (Intermediary Rules)","description":"The Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 — require online platforms to appoint a grievance officer, acknowledge complaints within 24 hours, resolve within 15 days, and remove infringing content on receipt of valid notice.","termCode":"IT-RULES"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers#dfn-consumer-protection","name":"Consumer Protection E-Commerce Rules 2020","description":"Requires Indian online sellers to display clear refund policies, honour cooling-off periods, process refunds within 30 days, and provide grievance redressal. <strong>Online coaching services explicitly covered</strong>; pre-paid course refund disputes are heard by consumer forums under the broader Consumer Protection Act, 2019.","termCode":"CONSUMER-PROTECTION"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers#dfn-asci","name":"ASCI Code (Advertising)","description":"Advertising Standards Council of India self-regulatory code — <strong>prohibits 'guaranteed selection' claims, false ranking claims, fabricated testimonials, and misleading comparative claims</strong> in coaching advertising. Complaints can result in ad-removal orders and reputational penalties; ASCI rulings are increasingly cited by consumer forums in disputes.","termCode":"ASCI"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers#dfn-pocso","name":"POCSO Act 2012","description":"Protection of Children from Sexual Offences Act — establishes mandatory protections for minors under 18. <strong>For online teachers, this means structured communication boundaries, parent visibility into 1-on-1 interactions with students, and documented teacher-student interaction logs</strong>. Non-compliance with the protective framework can compound criminal liability if any incident occurs.","termCode":"POCSO"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers#dfn-copyright","name":"Indian Copyright Act 1957","description":"Governs ownership and licensing of creative content including textbooks, video lessons, test materials, and PDFs. <strong>Indian teachers cannot republish textbook content, copyrighted illustrations, or other educators' material without proper licensing</strong>. Pay royalties where applicable; cite sources; obtain permissions before republishing.","termCode":"COPYRIGHT"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers#dfn-platform-vs-educator","name":"Platform vs Educator Compliance Split","description":"The division of regulatory obligations between the platform an educator uses and the educator themselves. <strong>Platform handles: consent infrastructure, grievance officer, invoicing automation, audit-ready records. Educator handles: their own tax filing, advertising claims, content ownership, POCSO protections for minors they teach.</strong>","termCode":"PLATFORM-VS-EDUCATOR"}
+    ]
+  }
   </script>
 </head>
 
@@ -152,6 +282,9 @@
     <p class="mt-6 text-[1.08rem] md:text-[1.18rem] leading-[1.7] text-[#4F4840] max-w-2xl">
       A <strong class="text-[#15110D]">scannable, plain-English reference</strong> to the 11 most important Indian laws every online teacher must know in 2026 — what each one requires, what happens if you ignore it, and which obligations a marketplace handles on your behalf.
     </p>
+    <p class="mt-5 text-[0.98rem] md:text-[1.02rem] leading-[1.7] text-[#5C5247] max-w-2xl" style="border-left:3px solid #C58B43; padding-left:14px;">
+      <strong style="color:#15110D;">From the field, 2026.</strong> Across the AllCoaching educator base this year, the single biggest compliance gap is not awareness — it is the time-tax of running grievance officer, DPDP consent, GSTR-1/3B, and refund workflows alone. Educators who moved from a personal app to the marketplace recovered roughly <strong style="color:#15110D;">8–12 hours per month</strong> previously spent on legal/tax paperwork — that is the practical lens behind every recommendation below.
+    </p>
 
     <div class="author-strip">
       <div class="author-strip-img">
@@ -160,7 +293,7 @@
       <div>
         <div class="author-strip-name">Amit Ratan</div>
         <div class="author-strip-role">Founder &amp; CEO, AllCoaching</div>
-        <div class="author-strip-meta">May 13, 2026 &nbsp;·&nbsp; 15 min read &nbsp;·&nbsp; EdTech Compliance</div>
+        <div class="author-strip-meta">Published May 13, 2026 &nbsp;·&nbsp; Updated May 15, 2026 &nbsp;·&nbsp; 15 min read &nbsp;·&nbsp; EdTech Compliance</div>
       </div>
     </div>
   </div>
@@ -190,10 +323,24 @@
     <strong>Disclaimer.</strong> This guide is general educational information about Indian regulations affecting online teachers as of 2026. <strong>It is not legal advice.</strong> Laws evolve and your specific situation may require professional guidance — consult a qualified Indian lawyer or chartered accountant before making compliance decisions for your coaching business.
   </div>
 
+  <!-- ================= TL;DR ================= -->
+  <div class="hband mt-8" id="tldr" style="background:linear-gradient(180deg,#FFF8E8,#FFFFFF); border-color:rgba(197,139,67,.32); border-left:4px solid #C58B43;">
+    <p class="kicker" style="margin:0 0 10px;">Key Takeaways — The Post in 6 Facts</p>
+    <ul style="margin:0; padding-left:1.15rem; list-style:disc;">
+      <li><strong>11 Indian laws govern online teaching in 2026</strong>, but most apply to <em>the platform</em> you publish on — DPDP Act 2023, IT Rules 2021, Consumer Protection E-Commerce Rules 2020, and GST law do most of the work.</li>
+      <li><strong>GST is 18% on coaching</strong> under SAC 999293 once annual turnover crosses <strong>₹20 lakh</strong> (₹10 lakh in North-East special-category states); monthly GSTR-1 and GSTR-3B filings are mandatory after registration.</li>
+      <li><strong>DPDP Act 2023 penalties reach ₹250 crore</strong> per serious breach; consent is mandatory before processing any student data, and <strong>verifiable parental consent</strong> is required for anyone under 18.</li>
+      <li><strong>Grievance officer is a hard requirement</strong> under IT Rules 2021 — 24-hour acknowledgement, 15-day resolution. A marketplace educator inherits the platform's grievance officer; a personal-app educator must appoint and pay for their own.</li>
+      <li><strong>ASCI prohibits "guaranteed selection" and false ranking claims</strong> in coaching ads; violations trigger ad-removal orders and are increasingly cited by consumer forums in refund disputes.</li>
+      <li><strong>POCSO Act protects minors</strong> — no private 1-on-1 channels without recording, parent visibility into student communication, and documented interaction logs are non-negotiable when teaching anyone under 18.</li>
+    </ul>
+  </div>
+
   <!-- ================= TOC ================= -->
   <nav class="toc mt-8" aria-label="Table of contents">
     <p class="kicker mb-3">In this guide</p>
     <ol>
+      <li><a href="#tldr">Key Takeaways — The Post in 6 Facts</a></li>
       <li><a href="#at-a-glance">The 11 laws — at a glance table</a></li>
       <li><a href="#data-privacy">Bucket 01 — Data &amp; Privacy</a></li>
       <li><a href="#tax-money">Bucket 02 — Tax &amp; Money</a></li>
@@ -201,6 +348,7 @@
       <li><a href="#content-safety">Bucket 04 — Content &amp; Student Safety</a></li>
       <li><a href="#what-platform-handles">What AllCoaching handles for you</a></li>
       <li><a href="#educator-checklist">The 10-point educator compliance checklist</a></li>
+      <li><a href="#glossary">Glossary — Key Terms</a></li>
       <li><a href="#faq">Frequently asked questions</a></li>
     </ol>
   </nav>
@@ -377,6 +525,12 @@
     <div class="hband">
       <strong>The platform shortcut.</strong> On AllCoaching, GST on educator payouts is handled at platform level — the marketplace collects GST from students, remits it to the government, and provides the educator with monthly transaction statements and the tax invoices needed for personal ITR filing.
     </div>
+
+    <!-- Inline Q&A — GST registration trigger -->
+    <div class="def" style="margin-top:1.5rem; padding:1.1rem 1.25rem; background:#FBF6EA; border:1px solid rgba(197,139,67,.28); border-radius:14px;">
+      <h3 style="font-family:'Inter Tight',sans-serif; font-size:1.05rem; font-weight:700; color:#15110D; margin:0 0 0.5rem;">At what revenue does GST registration become mandatory for an Indian online teacher?</h3>
+      <p style="margin:0; color:#4F4840;"><strong>₹20 lakh aggregate annual turnover</strong> for most of India, and <strong>₹10 lakh</strong> for the eleven special-category North-East states (Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura, Himachal Pradesh, Uttarakhand, and Jammu &amp; Kashmir). Once registered, the rate for competitive-exam coaching is <strong>18% under SAC 999293</strong>, and <strong>monthly GSTR-1 + GSTR-3B</strong> filings begin from the registration month. Inter-state supply or selling through an e-commerce operator triggers registration <em>even below the threshold</em> — a detail most individual teachers miss until a notice arrives.</p>
+    </div>
   </div>
 
   <div class="orn">· · ·</div>
@@ -464,6 +618,12 @@
         <h3>National Education Policy positioning</h3>
         <p>Unlike the others, NEP 2020 is <em>not</em> a penalty law — it is a national education framework. Aligning your content with <strong>multilingual delivery, foundational literacy/numeracy goals, and outcome-based assessment</strong> helps with government recognition, public-sector partnerships, and credibility signals. Not mandatory, but signals professional seriousness.</p>
       </div>
+    </div>
+
+    <!-- Inline Q&A — DPDP + POCSO obligations split -->
+    <div class="def" style="margin-top:1.5rem; padding:1.1rem 1.25rem; background:#FBF6EA; border:1px solid rgba(197,139,67,.28); border-radius:14px;">
+      <h3 style="font-family:'Inter Tight',sans-serif; font-size:1.05rem; font-weight:700; color:#15110D; margin:0 0 0.5rem;">Who is liable under DPDP and POCSO when a minor student is taught on a marketplace — the platform or the educator?</h3>
+      <p style="margin:0; color:#4F4840;"><strong>Both, but in different lanes.</strong> Under the <strong>DPDP Act 2023</strong>, the platform is the <em>data fiduciary</em> and is responsible for collecting verifiable parental consent, storing data securely, and providing the deletion/access mechanism — that is platform-level infrastructure. Under <strong>POCSO 2012</strong>, the educator remains personally liable for their own conduct in any teaching interaction with the minor — no private off-platform channels, no inappropriate communication, and any incident must be reported. The marketplace cannot absorb individual conduct liability; what it absorbs is the platform-level <em>infrastructure</em> (logged channels, parent visibility, recorded sessions) that makes safe conduct the default. On AllCoaching, every minor-student interaction is on an audited channel by design — which is precisely the evidence a POCSO defence requires.</p>
     </div>
   </div>
 
@@ -624,6 +784,55 @@
       <p class="founder-bio">Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator marketplace. After a decade watching Indian teachers spend more time on tax, refunds, and policy paperwork than on teaching, he built AllCoaching with compliance as a platform feature, not an educator burden — so teachers can do what they were trained to do.</p>
     </div>
   </div>
+
+  <!-- ================= GLOSSARY ================= -->
+  <div class="article-body mt-16" id="glossary">
+    <h2 class="h-chap font-display mt-3">Glossary —<br/><span class="grad-text">key terms.</span></h2>
+
+    <p>The compact reference for every regulatory term used in this guide. Each entry includes its statutory anchor, the practical meaning for an Indian online teacher in 2026, and the headline penalty exposure.</p>
+
+    <div class="def" id="dfn-dpdp" style="margin-top:1.5rem; padding:1.1rem 1.25rem; background:#FBF6EA; border:1px solid rgba(197,139,67,.28); border-radius:14px;">
+      <h3 style="font-family:'Inter Tight',sans-serif; font-size:1.05rem; font-weight:700; color:#15110D; margin:0 0 0.4rem;"><dfn>DPDP Act 2023</dfn></h3>
+      <p style="margin:0; color:#4F4840;">India's <strong>Digital Personal Data Protection Act, 2023</strong> — the comprehensive data-protection law requiring <strong>explicit consent</strong> before processing personal data, <strong>verifiable parental consent</strong> for minors, data-localisation requirements, and grievance mechanisms. <strong>Max penalty: ₹250 crore per violation.</strong> Applies to every Indian online teacher.</p>
+    </div>
+
+    <div class="def" id="dfn-gst-coaching" style="margin-top:1.1rem; padding:1.1rem 1.25rem; background:#FBF6EA; border:1px solid rgba(197,139,67,.28); border-radius:14px;">
+      <h3 style="font-family:'Inter Tight',sans-serif; font-size:1.05rem; font-weight:700; color:#15110D; margin:0 0 0.4rem;"><dfn>GST on Coaching (SAC 999293)</dfn></h3>
+      <p style="margin:0; color:#4F4840;">Goods and Services Tax of <strong>18% applies to competitive-exam coaching services under SAC code 999293</strong> when annual turnover exceeds ₹20 lakh (₹10 lakh in special-category North-East states). School and recognised-degree teaching is exempt. Requires monthly <em>GSTR-1</em> and <em>GSTR-3B</em> filings.</p>
+    </div>
+
+    <div class="def" id="dfn-it-rules" style="margin-top:1.1rem; padding:1.1rem 1.25rem; background:#FBF6EA; border:1px solid rgba(197,139,67,.28); border-radius:14px;">
+      <h3 style="font-family:'Inter Tight',sans-serif; font-size:1.05rem; font-weight:700; color:#15110D; margin:0 0 0.4rem;"><dfn>IT Rules 2021 (Intermediary Rules)</dfn></h3>
+      <p style="margin:0; color:#4F4840;">The <strong>Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021</strong> — require online platforms to appoint a <strong>grievance officer</strong>, acknowledge complaints within <strong>24 hours</strong>, resolve within <strong>15 days</strong>, and remove infringing content on receipt of valid notice. Failing this loses intermediary safe-harbour under Section 79 of the IT Act 2000.</p>
+    </div>
+
+    <div class="def" id="dfn-consumer-protection" style="margin-top:1.1rem; padding:1.1rem 1.25rem; background:#FBF6EA; border:1px solid rgba(197,139,67,.28); border-radius:14px;">
+      <h3 style="font-family:'Inter Tight',sans-serif; font-size:1.05rem; font-weight:700; color:#15110D; margin:0 0 0.4rem;"><dfn>Consumer Protection E-Commerce Rules 2020</dfn></h3>
+      <p style="margin:0; color:#4F4840;">Requires Indian online sellers to <strong>display clear refund policies</strong>, honour cooling-off periods, <strong>process refunds within 30 days</strong>, and provide grievance redressal. Online coaching services are explicitly covered; pre-paid course refund disputes are heard by consumer forums under the broader <em>Consumer Protection Act, 2019</em>.</p>
+    </div>
+
+    <div class="def" id="dfn-asci" style="margin-top:1.1rem; padding:1.1rem 1.25rem; background:#FBF6EA; border:1px solid rgba(197,139,67,.28); border-radius:14px;">
+      <h3 style="font-family:'Inter Tight',sans-serif; font-size:1.05rem; font-weight:700; color:#15110D; margin:0 0 0.4rem;"><dfn>ASCI Code (Advertising)</dfn></h3>
+      <p style="margin:0; color:#4F4840;">Advertising Standards Council of India self-regulatory code — <strong>prohibits "guaranteed selection" claims, false ranking claims, fabricated testimonials, and misleading comparative claims</strong> in coaching advertising. Complaints can result in ad-removal orders and reputational penalties; ASCI rulings are increasingly cited by consumer forums in disputes.</p>
+    </div>
+
+    <div class="def" id="dfn-pocso" style="margin-top:1.1rem; padding:1.1rem 1.25rem; background:#FBF6EA; border:1px solid rgba(197,139,67,.28); border-radius:14px;">
+      <h3 style="font-family:'Inter Tight',sans-serif; font-size:1.05rem; font-weight:700; color:#15110D; margin:0 0 0.4rem;"><dfn>POCSO Act 2012</dfn></h3>
+      <p style="margin:0; color:#4F4840;"><strong>Protection of Children from Sexual Offences Act</strong> — establishes mandatory protections for minors under 18. For online teachers this means <strong>structured communication boundaries, parent visibility into 1-on-1 interactions with students, and documented teacher-student interaction logs</strong>. Non-compliance with the protective framework can compound criminal liability if any incident occurs.</p>
+    </div>
+
+    <div class="def" id="dfn-copyright" style="margin-top:1.1rem; padding:1.1rem 1.25rem; background:#FBF6EA; border:1px solid rgba(197,139,67,.28); border-radius:14px;">
+      <h3 style="font-family:'Inter Tight',sans-serif; font-size:1.05rem; font-weight:700; color:#15110D; margin:0 0 0.4rem;"><dfn>Indian Copyright Act 1957</dfn></h3>
+      <p style="margin:0; color:#4F4840;">Governs ownership and licensing of creative content including textbooks, video lessons, test materials, and PDFs. <strong>Indian teachers cannot republish textbook content, copyrighted illustrations, or other educators' material without proper licensing.</strong> Pay royalties where applicable; cite sources; obtain permissions before republishing. Section 63 penalties include damages plus imprisonment.</p>
+    </div>
+
+    <div class="def" id="dfn-platform-vs-educator" style="margin-top:1.1rem; padding:1.1rem 1.25rem; background:#FBF6EA; border:1px solid rgba(197,139,67,.28); border-radius:14px;">
+      <h3 style="font-family:'Inter Tight',sans-serif; font-size:1.05rem; font-weight:700; color:#15110D; margin:0 0 0.4rem;"><dfn>Platform vs Educator Compliance Split</dfn></h3>
+      <p style="margin:0; color:#4F4840;">The division of regulatory obligations between the platform an educator uses and the educator themselves. <strong>Platform handles:</strong> consent infrastructure, grievance officer, invoicing automation, audit-ready records. <strong>Educator handles:</strong> their own tax filing, advertising claims, content ownership, POCSO protections for minors they teach. The single most important architectural decision an Indian online teacher makes in 2026 — because it determines the size of their personal compliance surface.</p>
+    </div>
+  </div>
+
+  <div class="orn">· · ·</div>
 
   <!-- ================= FAQ ================= -->
   <div class="article-body" id="faq">
