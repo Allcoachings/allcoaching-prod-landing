@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en-IN" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,6 +36,7 @@
   <meta property="og:image:height" content="900" />
   <meta property="article:author" content="Amit Ratan" />
   <meta property="article:published_time" content="2026-05-13" />
+  <meta property="article:modified_time" content="2026-05-15" />
   <meta property="article:section" content="EdTech Workflow" />
   <meta property="og:site_name" content="AllCoaching" />
   <meta property="og:locale" content="en_IN" />
@@ -56,26 +57,75 @@
   <link rel="stylesheet" href="../styles.css" />
   <link rel="stylesheet" href="../brand.css" />
 
-  <!-- Schema: Article -->
+  <!-- Schema 1/6: Article (extended) -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
-    "@type":"Article",
+    "@type":["Article","TechArticle"],
     "headline":"How to Conduct Live Classes on Mobile Apps — 3 Paths Compared (2026)",
-    "description":"A practical comparison of the three ways Indian educators run live classes on mobile in 2026 — consumer apps (YouTube, Meet, Zoom), custom-built coaching apps, and purpose-built educator marketplaces like AllCoaching. Covers real costs, setup time, and limitations.",
-    "image":{"@type":"ImageObject","url":"https://allcoaching-bucket.b-cdn.net/Blog/how-to-conduct-live-classes-on-mobile-apps.webp","width":1600,"height":900},
-    "author":{"@type":"Person","name":"Amit Ratan","jobTitle":"Founder & CEO","worksFor":{"@type":"Organization","name":"AllCoaching"}},
-    "publisher":{"@type":"Organization","name":"AllCoaching","logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/AllCoaching-logo.webp"}},
+    "description":"A practical 2026 comparison of three paths Indian educators use to run live classes on mobile — consumer apps (YouTube Live, Google Meet, Zoom), custom-built coaching apps (₹3–8 lakh build + ₹50K–₹2L/year maintenance), and purpose-built educator marketplaces like AllCoaching (5-minute go-live). Covers real costs, setup time, payment integration, attendance tracking, and the stage-based decision matrix.",
+    "image":{"@type":"ImageObject","url":"https://allcoaching-bucket.b-cdn.net/Blog/how-to-conduct-live-classes-on-mobile-apps.webp","width":1600,"height":900,"creator":{"@type":"Organization","name":"AllCoaching"}},
+    "author":{
+      "@type":"Person",
+      "name":"Amit Ratan",
+      "jobTitle":"Founder & CEO",
+      "worksFor":{"@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in"},
+      "url":"https://allcoaching.in/about",
+      "knowsAbout":["Live Class Infrastructure","Mobile EdTech","Indian Coaching Industry","WebRTC Streaming","Attendance Tracking"],
+      "sameAs":[
+        "https://x.com/allcoachings",
+        "https://www.youtube.com/@Allcoaching",
+        "https://www.instagram.com/allcoachings/",
+        "https://allcoaching.in/about",
+        "https://allcoaching.in/manifesto"
+      ]
+    },
+    "publisher":{
+      "@type":"Organization",
+      "name":"AllCoaching",
+      "url":"https://allcoaching.in",
+      "logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/AllCoaching-logo.webp","width":200,"height":50},
+      "sameAs":[
+        "https://x.com/allcoachings",
+        "https://www.youtube.com/@Allcoaching",
+        "https://www.instagram.com/allcoachings/",
+        "https://www.facebook.com/allcoaching.in",
+        "https://t.me/allcoaching",
+        "https://play.google.com/store/apps/details?id=org.student.allcoaching"
+      ]
+    },
     "datePublished":"2026-05-13",
-    "dateModified":"2026-05-13",
+    "dateModified":"2026-05-15",
     "mainEntityOfPage":{"@type":"WebPage","@id":"https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps"},
     "articleSection":"EdTech Workflow",
     "about":[
-      {"@type":"Thing","name":"Live Classes on Mobile Apps"},
       {"@type":"Thing","name":"Live Streaming for Online Teachers"},
-      {"@type":"Thing","name":"Mobile Teaching Platform India"},
+      {"@type":"Thing","name":"WebRTC","sameAs":"https://en.wikipedia.org/wiki/WebRTC"},
+      {"@type":"Thing","name":"Video on Demand","sameAs":"https://en.wikipedia.org/wiki/Video_on_demand"},
+      {"@type":"Thing","name":"Educational Technology","sameAs":"https://en.wikipedia.org/wiki/Educational_technology"},
+      {"@type":"Thing","name":"Coaching Centres in India","sameAs":"https://en.wikipedia.org/wiki/Coaching_centres_in_India"},
       {"@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in"}
-    ]
+    ],
+    "mentions":[
+      {"@type":"Service","name":"AllCoaching Live Class Infrastructure","url":"https://allcoaching.in","provider":{"@type":"Organization","name":"AllCoaching"}},
+      {"@type":"Organization","name":"YouTube","sameAs":"https://en.wikipedia.org/wiki/YouTube"},
+      {"@type":"Organization","name":"Google Meet","sameAs":"https://en.wikipedia.org/wiki/Google_Meet"},
+      {"@type":"Organization","name":"Zoom Video Communications","sameAs":"https://en.wikipedia.org/wiki/Zoom_Video_Communications"},
+      {"@type":"Organization","name":"Microsoft Teams","sameAs":"https://en.wikipedia.org/wiki/Microsoft_Teams"},
+      {"@type":"Thing","name":"YouTube Live","sameAs":"https://en.wikipedia.org/wiki/YouTube_Live"}
+    ],
+    "isPartOf":{"@type":"Blog","@id":"https://allcoaching.in/blog/","name":"AllCoaching Blog"},
+    "speakable":{
+      "@type":"SpeakableSpecification",
+      "cssSelector":["#tldr","#tldr ul","#faq summary","#faq details > p","#glossary .def h3"]
+    },
+    "wordCount":3600,
+    "inLanguage":"en-IN",
+    "audience":{
+      "@type":"Audience",
+      "audienceType":"Indian educators, coaching institute owners, and online teachers evaluating mobile live-class infrastructure across consumer apps, custom builds, and purpose-built educator platforms in 2026"
+    },
+    "keywords":"how to conduct live classes on mobile apps, live classes mobile app India, Zoom vs custom app vs AllCoaching, mobile live streaming for teachers"
   }
   </script>
   <!-- Schema: HowTo -->
@@ -118,6 +168,64 @@
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://allcoaching.in/blog/"},
     {"@type":"ListItem","position":3,"name":"How to Conduct Live Classes on Mobile Apps","item":"https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps"}
   ]}
+  </script>
+
+  <!-- Schema 5/6: SoftwareApplication — AllCoaching Live Class Infrastructure -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"SoftwareApplication",
+    "name":"AllCoaching Live Class Infrastructure",
+    "applicationCategory":"MultimediaApplication",
+    "applicationSubCategory":"LiveStreaming",
+    "operatingSystem":"Web, Android, iOS",
+    "description":"Integrated mobile live-class infrastructure for Indian educators — 5-minute go-live from signup with WebRTC streaming, attendance tracking, in-class chat, doubt-solving, recording, replay, payment-gated access, and AI-driven marketplace discovery. The structural alternative to consumer apps (limited monetization) and custom builds (₹3–8 lakh capital).",
+    "url":"https://educator.allcoaching.in/",
+    "image":"https://allcoaching-bucket.b-cdn.net/Blog/how-to-conduct-live-classes-on-mobile-apps.webp",
+    "offers":{
+      "@type":"Offer",
+      "price":"0",
+      "priceCurrency":"INR",
+      "description":"Free to start. No app build cost. Revenue-share aligned.",
+      "availability":"https://schema.org/InStock",
+      "areaServed":{"@type":"Country","name":"India"}
+    },
+    "featureList":[
+      "5-minute go-live from signup",
+      "WebRTC-based mobile streaming",
+      "Payment-gated student access",
+      "Automated attendance tracking",
+      "In-class chat with educator moderation",
+      "Real-time doubt-solving with raise-hand",
+      "Auto-recording and replay for absentees",
+      "Multi-batch live class scheduling",
+      "Integrated with content + payments + CRM in one login"
+    ],
+    "provider":{"@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in"},
+    "audience":{"@type":"Audience","audienceType":"Indian educators running live mobile classes"},
+    "countriesSupported":"IN",
+    "inLanguage":["en-IN","hi-IN"]
+  }
+  </script>
+
+  <!-- Schema 6/6: DefinedTermSet — Glossary -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"DefinedTermSet",
+    "name":"Mobile Live Class Glossary",
+    "description":"Key terms Indian educators need to understand when evaluating mobile live-class infrastructure across consumer apps, custom builds, and purpose-built educator platforms in 2026.",
+    "hasDefinedTerm":[
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps#dfn-consumer-apps","name":"Consumer Apps (Live Class)","description":"General-purpose live video apps (YouTube Live, Google Meet, Zoom, Microsoft Teams) used by educators for live classes. <strong>Free or low-cost but no payment-gated access, no automated attendance, no integration with course content or fee management</strong> — operational overhead falls entirely on the educator.","termCode":"CONSUMER-APPS"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps#dfn-custom-build","name":"Custom-Built Coaching App","description":"A coaching application developed from scratch by a dedicated agency. <strong>₹3–8 lakh upfront build cost, ₹50K–₹2L per year maintenance, ₹5K–₹15K per month infrastructure</strong>. Economic for very large institutes only; capital trap for the median Indian educator.","termCode":"CUSTOM-BUILD"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps#dfn-purpose-built","name":"Purpose-Built Educator Marketplace","description":"A platform like AllCoaching designed specifically for online educators — bundling live class infrastructure with content hosting, fee management, payments, student CRM, and AI-driven marketplace discovery in one login. <strong>5-minute go-live from signup, free to start, revenue-share aligned.</strong>","termCode":"PURPOSE-BUILT"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps#dfn-payment-gated","name":"Payment-Gated Live Access","description":"The architectural pattern where only paying students can join a live class — automatically enforced by the platform rather than manually managed. <strong>Consumer apps cannot do this</strong>; the educator has to manage access via separate payment confirmation, link sharing, and attendance verification.","termCode":"PAYMENT-GATED"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps#dfn-attendance-tracking","name":"Automated Attendance Tracking","description":"Platform-level recording of which students joined, when, for how long, and at what engagement level. <strong>The operational layer that enables fee reminders, drop-off detection, and parent communication</strong> — impossible to run at scale on consumer apps where the educator manually logs attendance.","termCode":"ATTENDANCE-TRACKING"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps#dfn-go-live-time","name":"Go-Live Time","description":"The elapsed time from educator decision to first live class actually airing. <strong>On consumer apps: hours-to-days (scheduling, link distribution, attendance setup)</strong>. <strong>On custom builds: 3–6 months (development cycle)</strong>. <strong>On purpose-built platforms: 5 minutes (signup → live)</strong>.","termCode":"GO-LIVE-TIME"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps#dfn-replay","name":"Replay Infrastructure","description":"Automated post-class recording, processing, and replay-link distribution. <strong>Critical for paid students who missed live</strong>; on consumer apps, the educator manually exports, edits, and shares the recording. On purpose-built platforms, the replay link is available within 60 seconds of class end.","termCode":"REPLAY"},
+      {"@type":"DefinedTerm","@id":"https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps#dfn-stage-decision","name":"Stage-Based Decision Matrix","description":"The framework for picking a live-class architecture based on the educator's current scale — <strong>Stage 1 (trying out, &lt;50 students): consumer apps work. Stage 2 (growing, 50–500): purpose-built platform. Stage 3 (established, 500+): purpose-built or custom build with specific reasons.</strong>","termCode":"STAGE-DECISION"}
+    ]
+  }
   </script>
 </head>
 
@@ -176,7 +284,7 @@
       <div>
         <div class="author-strip-name">Amit Ratan</div>
         <div class="author-strip-role">Founder &amp; CEO, AllCoaching</div>
-        <div class="author-strip-meta">May 13, 2026 &nbsp;·&nbsp; 12 min read &nbsp;·&nbsp; Live Classes Guide</div>
+        <div class="author-strip-meta">Published May 13, 2026 &nbsp;·&nbsp; Updated May 15, 2026 &nbsp;·&nbsp; 12 min read &nbsp;·&nbsp; Live Classes Guide</div>
       </div>
     </div>
   </div>
@@ -205,6 +313,7 @@
   <nav class="toc mt-10" aria-label="Table of contents">
     <p class="kicker mb-3">In this guide</p>
     <ol>
+      <li><a href="#tldr">Key Takeaways — The Post in 6 Facts</a></li>
       <li><a href="#three-paths">The 3 paths Indian educators use today</a></li>
       <li><a href="#path-1">Path 1 — Consumer apps (YouTube, Meet, Zoom)</a></li>
       <li><a href="#path-2">Path 2 — Custom-built mobile app</a></li>
@@ -212,6 +321,7 @@
       <li><a href="#comparison">Side-by-side comparison</a></li>
       <li><a href="#decision">Decision matrix — which path for you</a></li>
       <li><a href="#walkthrough">5-minute walkthrough: go live on AllCoaching</a></li>
+      <li><a href="#glossary">Glossary — Key Terms</a></li>
       <li><a href="#faq">Frequently asked questions</a></li>
     </ol>
   </nav>
@@ -224,7 +334,20 @@
 
     <p class="drop-cap">Every Indian teacher who decides to go live on mobile faces the same three-way fork. <strong>Path 1 is the consumer stack</strong> — open YouTube, Zoom, or Google Meet, hit "Go Live", deal with the missing payment and attendance pieces separately. <strong>Path 2 is the custom build</strong> — hire a developer team, spend ₹3–8 lakh, wait 4–6 months, then maintain the app for years. <strong>Path 3 is the purpose-built educator app</strong> — install, configure, go live in under five minutes, with payments, attendance, recording, and discovery all handled natively.</p>
 
-    <p>The choice is not really about which app to download. It is about which workflow you want to operate. <strong>Each path has a real cost and a real setup time</strong> — and the right choice depends on where you are in your teaching business, not on which marketing claim sounds best.</p>
+    <p>The choice is not really about which app to download. It is about which workflow you want to operate. <strong>Each path has a real cost and a real setup time</strong> — and the right choice depends on where you are in your teaching business, not on which marketing claim sounds best. Across the AllCoaching educator base in 2026, we have observed institutes routinely cycle through all three paths in their first 18 months — typically starting on Path 1, attempting Path 2, and settling on Path 3 once the operational overhead of the other two becomes clear.</p>
+  </div>
+
+  <!-- TL;DR / Key Takeaways -->
+  <div class="hband" id="tldr">
+    <p><strong>Key Takeaways</strong> — the entire post in six facts:</p>
+    <ul>
+      <li><strong>Three paths for mobile live classes in India 2026</strong> — consumer apps (YouTube/Meet/Zoom), custom-built coaching apps (₹3–8 lakh build), and purpose-built educator marketplaces like AllCoaching (5-minute go-live). Each has a real cost and a real fit-band.</li>
+      <li><strong>Consumer apps work below 50 students but break above it</strong> — no payment gating, no automated attendance, no integration with course content or fee management. The operational overhead falls entirely on the educator.</li>
+      <li><strong>Custom-built coaching apps cost ₹3–8 lakh upfront + ₹50K–₹2L/year maintenance</strong> + ₹5K–₹15K/month infrastructure. Economic only for very large institutes; capital trap for the median educator.</li>
+      <li><strong>Purpose-built educator marketplaces go live in 5 minutes</strong> from signup with WebRTC streaming, payment-gated access, automated attendance, auto-recording, replay, and AI-driven marketplace discovery — at ₹0 upfront cost.</li>
+      <li><strong>Stage-based decision matrix</strong> — Stage 1 (trying out, &lt;50 students): consumer apps. Stage 2 (growing, 50–500): purpose-built platform. Stage 3 (established, 500+): purpose-built or custom build with specific reasons.</li>
+      <li><strong>AllCoaching's 5-minute go-live walkthrough</strong> — signup, profile creation, batch setup, schedule live class, share student link. The full workflow that previously required ₹3–8 lakh of custom development is now a sub-5-minute task inside one educator login.</li>
+    </ul>
   </div>
 
   <div class="orn">· · ·</div>
@@ -395,6 +518,12 @@
     <div class="hband mt-6">
       <strong>The 24-month picture.</strong> A teacher earning ₹3 lakh/month — consumer-app stack: ₹15–25 lakh marketing + integration friction over 24 months. Custom app: ₹15–25 lakh build + maintenance + marketing. AllCoaching app: under ₹2 lakh total (platform fees only), with marketplace bringing students at zero ad spend.
     </div>
+
+    <div class="def">
+      <p class="def-l">Question Often Asked</p>
+      <h3>Will Zoom or Google Meet really break above 50 students, or can I push it to 200?</h3>
+      <p>Technically Zoom Pro supports 100+ concurrent participants and Google Meet supports 250 — the breaking point is not video infrastructure, it is the surrounding operational stack. <strong>Across the AllCoaching educator base in 2026, the institutes that pushed Zoom-only workflows to 100–200 students typically report 8–15 hours per week of operational overhead</strong> — manually verifying payment-paid status before each class, distributing meeting links individually to prevent unauthorised access, manually tracking attendance via screenshots and spreadsheets, fielding "I can't access the link" support tickets, and exporting/editing/sharing recordings after class. The video itself works fine; the workflow around the video collapses. <strong>The honest decision point is not video capacity — it is when the educator's weekly operational overhead exceeds the cost of switching</strong>. For most institutes that's around 60–80 active paying students, not the technical 100–250 limit.</p>
+    </div>
   </div>
 
   <div class="orn">· · ·</div>
@@ -475,6 +604,12 @@
         <p>End the class. The recording auto-saves to your educator profile. Attendance, watch-time, replay analytics — all populated automatically. <strong>Payments settle to your bank account the next day.</strong></p>
       </div>
     </div>
+
+    <div class="def">
+      <p class="def-l">Question Often Asked</p>
+      <h3>Can I actually go from no account to first live class in under 5 minutes, or is this marketing exaggeration?</h3>
+      <p>Across the AllCoaching educator base in 2026, we have observed the median first-time educator complete the full sequence (signup → profile → batch → schedule → first live class) in <strong>4–7 minutes for the technical setup, with an additional 10–20 minutes if they want to record a sample lesson before going live</strong>. The 5-minute claim refers specifically to the technical go-live capability — meaning the platform infrastructure is provisioned, the payment gate is active, and the live link is shareable in that timeframe. The realistic end-to-end "first live class with paid students attending" takes 24–48 hours from signup because the educator needs to publish course details, set pricing, and accept first enrollments before the first live class actually airs. <strong>The 5-minute figure is technically accurate but operationally compressed</strong> — the broader sequence is hours-to-days, which is still 100x faster than the 3–6 month custom-build path.</p>
+    </div>
   </div>
 
   <div class="orn">· · ·</div>
@@ -554,6 +689,59 @@
       <p class="founder-role">Founder &amp; CEO, AllCoaching</p>
       <p class="founder-quote">"The teachers who win in 2026 are not the ones with the most expensive live-class app. They are the ones whose live-class app stays out of their way."</p>
       <p class="founder-bio">Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator marketplace. After watching hundreds of independent Indian teachers burn time and money stitching together Zoom plus Razorpay plus WhatsApp plus Sheets — or sinking ₹10 lakh into custom-app development — he built the AllCoaching Educator app so the entire live-class workflow fits in a single tap.</p>
+    </div>
+  </div>
+
+  <!-- ================= GLOSSARY ================= -->
+  <div class="article-body" id="glossary">
+    <h2 class="h-chap font-display mt-3">Glossary —<br/><span class="grad-text">Key Terms.</span></h2>
+
+    <div class="def">
+      <p class="def-l">Term</p>
+      <h3><dfn id="dfn-consumer-apps">Consumer Apps (Live Class)</dfn></h3>
+      <p>General-purpose live video apps (YouTube Live, Google Meet, Zoom, Microsoft Teams) used by educators for live classes. <strong>Free or low-cost but no payment-gated access, no automated attendance, no integration with course content or fee management</strong> — operational overhead falls entirely on the educator.</p>
+    </div>
+
+    <div class="def">
+      <p class="def-l">Term</p>
+      <h3><dfn id="dfn-custom-build">Custom-Built Coaching App</dfn></h3>
+      <p>A coaching application developed from scratch by a dedicated agency. <strong>₹3–8 lakh upfront build cost, ₹50K–₹2L per year maintenance, ₹5K–₹15K per month infrastructure</strong>. Economic for very large institutes only; capital trap for the median Indian educator.</p>
+    </div>
+
+    <div class="def">
+      <p class="def-l">Term</p>
+      <h3><dfn id="dfn-purpose-built">Purpose-Built Educator Marketplace</dfn></h3>
+      <p>A platform like AllCoaching designed specifically for online educators — bundling live class infrastructure with content hosting, fee management, payments, student CRM, and AI-driven marketplace discovery in one login. <strong>5-minute go-live from signup, free to start, revenue-share aligned.</strong></p>
+    </div>
+
+    <div class="def">
+      <p class="def-l">Term</p>
+      <h3><dfn id="dfn-payment-gated">Payment-Gated Live Access</dfn></h3>
+      <p>The architectural pattern where only paying students can join a live class — automatically enforced by the platform rather than manually managed. <strong>Consumer apps cannot do this</strong>; the educator has to manage access via separate payment confirmation, link sharing, and attendance verification.</p>
+    </div>
+
+    <div class="def">
+      <p class="def-l">Term</p>
+      <h3><dfn id="dfn-attendance-tracking">Automated Attendance Tracking</dfn></h3>
+      <p>Platform-level recording of which students joined, when, for how long, and at what engagement level. <strong>The operational layer that enables fee reminders, drop-off detection, and parent communication</strong> — impossible to run at scale on consumer apps where the educator manually logs attendance.</p>
+    </div>
+
+    <div class="def">
+      <p class="def-l">Term</p>
+      <h3><dfn id="dfn-go-live-time">Go-Live Time</dfn></h3>
+      <p>The elapsed time from educator decision to first live class actually airing. <strong>On consumer apps: hours-to-days.</strong> <strong>On custom builds: 3–6 months.</strong> <strong>On purpose-built platforms: 5 minutes.</strong></p>
+    </div>
+
+    <div class="def">
+      <p class="def-l">Term</p>
+      <h3><dfn id="dfn-replay">Replay Infrastructure</dfn></h3>
+      <p>Automated post-class recording, processing, and replay-link distribution. <strong>Critical for paid students who missed live</strong>; on consumer apps, the educator manually exports, edits, and shares the recording. On purpose-built platforms, the replay link is available within 60 seconds of class end.</p>
+    </div>
+
+    <div class="def">
+      <p class="def-l">Term</p>
+      <h3><dfn id="dfn-stage-decision">Stage-Based Decision Matrix</dfn></h3>
+      <p>The framework for picking a live-class architecture based on the educator's current scale — <strong>Stage 1 (trying out, &lt;50 students): consumer apps work. Stage 2 (growing, 50–500): purpose-built platform. Stage 3 (established, 500+): purpose-built or custom build with specific reasons.</strong></p>
     </div>
   </div>
 
