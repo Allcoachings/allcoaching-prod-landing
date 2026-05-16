@@ -68,6 +68,18 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://allcoaching.in/pricing</loc>
+    <lastmod>2026-05-16T16:00:00+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/Online-teaching.webp</image:loc>
+      <image:title>AllCoaching Pricing — India's Educator Marketplace 2026 Tiers</image:title>
+      <image:caption>Standalone pricing page for AllCoaching's educator marketplace platform. Three tiers (Free 30-day, ₹11,999 Early Launch, ₹24,999 Standard), all-inclusive cost decomposition, real ₹10 lakh educator Year-1 math, comparison vs Classplus + Graphy + Teachmint, and 10-Q pricing FAQ. Six JSON-LD schemas including Product with 3 Offers + AggregateRating + 3 Reviews, FAQPage, BreadcrumbList, WebPage with Speakable.</image:caption>
+    </image:image>
+  </url>
+
   <!-- ============ Blog hub (index of all essays) ============ -->
   <url>
     <loc>https://allcoaching.in/blog/</loc>
