@@ -23,6 +23,7 @@ MARKER = '<!-- AUTO: strategic-cross-refs -->'
 
 # Post titles + anchor keywords (anchor text = primary keyword phrase)
 POSTS = {
+    'best-upi-payment-gateway-for-online-courses': 'best UPI payment gateway for online courses in India',
     'automated-fee-management-software-for-teachers': 'automated fee management software for teachers',
     'secure-video-hosting-for-educational-content': 'secure video hosting for educational content',
     'white-label-coaching-app-development-cost-india': 'white label coaching app development cost in India',
@@ -51,8 +52,8 @@ POSTS = {
 # Topic categories → posts (used to pick contextually-related cross-refs)
 CATEGORIES = {
     'architecture': ['edtech-marketplace-india-app-fatigue', 'classplus-vs-graphy-vs-allcoaching', 'online-coaching-business-plan-2026'],
-    'economics': ['white-label-coaching-app-development-cost-india', 'best-zero-commission-teaching-platform-india', 'affordable-lms-for-independent-educators', 'sell-online-courses-without-monthly-subscription'],
-    'operations': ['automated-fee-management-software-for-teachers', 'automate-student-onboarding-for-coaching-app', 'migrate-offline-coaching-to-online-zero-cost', 'how-to-start-online-academy-in-5-steps', 'how-to-get-first-500-students-for-coaching-app'],
+    'economics': ['white-label-coaching-app-development-cost-india', 'best-zero-commission-teaching-platform-india', 'affordable-lms-for-independent-educators', 'sell-online-courses-without-monthly-subscription', 'best-upi-payment-gateway-for-online-courses'],
+    'operations': ['automated-fee-management-software-for-teachers', 'automate-student-onboarding-for-coaching-app', 'migrate-offline-coaching-to-online-zero-cost', 'how-to-start-online-academy-in-5-steps', 'how-to-get-first-500-students-for-coaching-app', 'best-upi-payment-gateway-for-online-courses'],
     'infrastructure': ['secure-video-hosting-for-educational-content', 'protect-course-content-from-piracy-for-free', 'how-to-conduct-live-classes-on-mobile-apps', 'best-free-tools-for-teachers-to-record-lectures', 'budget-home-studio-setup-for-online-teaching'],
     'growth': ['monetize-youtube-teaching-channel-via-personal-app', 'best-platform-for-selling-pdf-notes-and-test-series', 'seo-strategies-for-online-course-creators', 'using-chatgpt-for-course-curriculum-design'],
     'compliance': ['indian-edtech-laws-and-regulations-for-teachers', 'online-coaching-academy-without-coding'],
@@ -60,6 +61,7 @@ CATEGORIES = {
 
 # Map each post → its primary + adjacent categories
 POST_CATEGORIES = {
+    'best-upi-payment-gateway-for-online-courses': ['economics', 'operations'],
     'automated-fee-management-software-for-teachers': ['operations', 'economics'],
     'secure-video-hosting-for-educational-content': ['infrastructure', 'compliance'],
     'white-label-coaching-app-development-cost-india': ['economics', 'architecture'],

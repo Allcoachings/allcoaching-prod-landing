@@ -141,6 +141,18 @@
   <!-- ============ Blog posts — newest first ============ -->
 
   <url>
+    <loc>https://allcoaching.in/blog/best-upi-payment-gateway-for-online-courses</loc>
+    <lastmod>2026-05-16T21:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.92</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/best-upi-payment-gateway-for-online-courses.webp</image:loc>
+      <image:title>Best UPI Payment Gateway for Online Courses in India — AllCoaching 2026 Honest Guide</image:title>
+      <image:caption>A founder-written, technically precise comparison of UPI payment gateways for Indian online course sellers in 2026 — NPCI zero-MDR mandate, seven stacked costs on top of supposedly free UPI, Razorpay vs Cashfree vs PhonePe Business vs Paytm vs Instamojo vs Stripe India head-to-head, real ₹10 lakh educator stack math (₹73K–₹1.88L all-in standalone vs ₹1L AllCoaching integrated), 10 evaluation criteria, 7-day switch playbook, and the structural reason an integrated marketplace ends the gateway stack for 90%+ of Indian course sellers below ₹2 Cr revenue. Six JSON-LD schemas including Article+TechArticle, FAQPage (10 Q/A), HowTo (7-day playbook), SoftwareApplication (AllCoaching Integrated UPI), DefinedTermSet (10 terms), BreadcrumbList. Speakable specification for voice assistant readout.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://allcoaching.in/blog/automated-fee-management-software-for-teachers</loc>
     <lastmod>2026-05-15T10:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
