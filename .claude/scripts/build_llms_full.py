@@ -149,6 +149,7 @@ def main():
     # Add core pages
     core_pages = [
         ('pricing.html', 'https://allcoaching.in/pricing'),
+        ('faq.html', 'https://allcoaching.in/faq'),
         ('about.html', 'https://allcoaching.in/about'),
         ('manifesto.html', 'https://allcoaching.in/manifesto'),
         ('author/amit-ratan.html', 'https://allcoaching.in/author/amit-ratan'),

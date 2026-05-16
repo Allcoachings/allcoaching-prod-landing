@@ -69,6 +69,18 @@
   </url>
 
   <url>
+    <loc>https://allcoaching.in/faq</loc>
+    <lastmod>2026-05-16T18:00:00+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/Online-teaching.webp</image:loc>
+      <image:title>AllCoaching FAQ — 40 Questions Answered for Indian Educators 2026</image:title>
+      <image:caption>The canonical FAQ hub for AllCoaching: 40 questions across 9 categories (Pricing, Platform, Onboarding, Compliance, Marketplace, Payouts, Security, Comparisons, Account) — written by founder Amit Ratan. Six JSON-LD schemas including FAQPage with full 40 Q/A pairs mirroring visible DOM. Live filter, category quick-nav, cross-links to 8 in-depth blog posts.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://allcoaching.in/pricing</loc>
     <lastmod>2026-05-16T16:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
