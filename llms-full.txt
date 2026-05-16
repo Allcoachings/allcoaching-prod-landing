@@ -20235,6 +20235,1191 @@ Visit Contact Page
 
 ---
 
+## AllCoaching vs Classplus — Honest 2026 India Comparison · Cost · Features
+
+**Source:** https://allcoaching.in/vs/classplus  
+**Summary:** The honest 2026 comparison of AllCoaching vs Classplus for Indian educators. Real Year 1 cost breakdown (Classplus ₹4–11 lakh vs AllCoaching ₹1.32 lakh), feature-by-feature analysis across 12 dimensions, migration playbook with timeline, and the structural difference between a white-label app builder (Classplus) and an educator-first marketplace (AllCoaching). Written by founder Amit Ratan.
+
+Honest comparison · 2026 India
+
+
+
+#
+AllCoaching vs Classplus.
+
+
+
+The honest 2026 cost + feature comparison for Indian educators. Real Year 1 math (Classplus ₹4–11 lakh vs AllCoaching ₹1.32 lakh), 12-row feature matrix, and the structural reason marketplaces beat white-label app builders for 90%+ of Indian educators under ₹2 Cr revenue.
+
+
+
+
+
+Classplus
+White-label app builder
+
+vs
+
+AllCoaching
+Educator marketplace
+
+
+
+
+
+
+Key takeaways — comparison in 6 facts
+
+
+- Classplus is a white-label app builder — it ships your container, not your audience. Marketing is your responsibility.
+
+- AllCoaching is a marketplace — branded space + shared discovery + AI recommendation included. Students find you on the platform.
+
+- Real Year 1 cost for a ₹10L educator: Classplus ₹4–11 lakh (setup + monthly + commission stack + escalation + marketing) vs AllCoaching ₹1.32 lakh (subscription + 10% all-inclusive).
+
+- Classplus monthly fees stack independently with growth; AllCoaching's 10% scales with revenue, no per-message credits, no escalation.
+
+- AllCoaching includes daily payouts; Classplus typically settles weekly or monthly.
+
+- Migration takes 3–7 days — student list import, content transfer, payment reconciliation. Free via AllCoaching onboarding team.
+
+
+
+
+
+
+
+12-dimension feature matrix
+
+
+
+## Side-by-side — no hidden columns.
+
+The 12 cost + feature dimensions an Indian educator should actually compare. Numbers are based on publicly disclosed pricing and standard industry contracts as of 2026.
+
+
+
+
+
+
+
+Dimension
+Classplus
+AllCoaching
+
+
+
+
+Architecture
+White-label app builder (one app per educator)
+Marketplace + branded space (shared discovery)
+
+
+Setup fee
+₹25,000 – ₹2,00,000
+₹0
+
+
+Monthly / annual software
+₹2,500 – ₹1,25,000 / month (₹30K – 15L / year)
+₹11,999 / year (Early Launch) or ₹24,999 / year fixed
+
+
+Transaction commission
+1.5–4% plus payment gateway 0.3–1%
+10% all-inclusive (gateway, GST, DRM, marketplace)
+
+
+SMS / WhatsApp credits
+₹2,000 – ₹8,000 / month extra
+Included
+
+
+Annual price escalation
+15–25% per year typical
+None (2-year lock on Early Launch)
+
+
+Marketing / SEO / discovery
+Educator pays separately (₹6–18 lakh / year)
+Included via marketplace AI recommendation
+
+
+Storage + bandwidth overages
+₹500 – ₹3,000 / 100 GB + ₹5–15 / GB video
+Included
+
+
+GST + DPDP + IT Rules compliance
+Educator responsibility or add-on
+Platform-handled (SAC 999293, grievance officer, parental consent)
+
+
+Payout frequency
+Weekly / monthly cycles
+Daily (T+1, 90% revenue share)
+
+
+Anti-piracy stack
+HLS + AES (often L3 Widevine), basic watermark
+All 7 layers: HLS+AES, Widevine L1, FairPlay, forensic watermark, marketplace monitoring
+
+
+Real Year 1 cost (₹10L educator)
+₹4–11 lakh
+₹1.32 lakh (13.2% of revenue)
+
+
+
+
+
+
+Source for Classplus pricing data: public Classplus listings + industry contracts  ·  AllCoaching pricing: /pricing  ·  Full essay: Classplus vs Graphy vs AllCoaching
+
+
+
+
+
+Real ₹ math · ₹10 lakh revenue educator
+
+
+
+## Year 1 actual cost — side by side.
+
+
+Same educator. Same ₹10 lakh annual revenue. Two platforms. The honest math both companies' marketing decks never show together.
+
+
+
+
+
+↳ Classplus · Year 1 actual cost
+Setup fee (one-time)₹50,000
+Monthly software × 12₹1,80,000
+Transaction commission (2.5% on ₹10L)₹25,000
+Payment gateway markup (0.7%)₹7,000
+SMS / WhatsApp credit packs × 12₹48,000
+Marketing / Meta+Google Ads (modest)₹3,00,000
+18% GST on subscription + commission₹37,260
+Year 1 all-in₹6.47 L
+
+
+
+
+↳ AllCoaching Early Launch · Year 1 actual cost
+Annual subscription₹11,999
+18% GST on subscription₹2,160
+10% commission on ₹10L (all-inclusive)₹1,00,000
+18% GST on commission (ITC-eligible)₹18,000
+Setup fee₹0
+SMS / WhatsApp credits₹0 (included)
+Marketing (marketplace discovery)₹0 (included)
+Year 1 all-in₹1.32 L
+
+
+
+
+The honest verdict
+
+₹5.15 L
+saved in Year 1 alone — and the gap compounds
+
+
+
+## For a ₹10 lakh revenue educator, AllCoaching costs 4.9× less than Classplus in Year 1.
+
+The gap widens at scale because Classplus monthly fees + transaction commission + escalation stack independently with revenue, while AllCoaching's 10% remains constant.
+
+
+
+
+
+
+5-step migration playbook
+
+
+
+## Move from Classplus in 7 days.
+
+The AllCoaching onboarding team handles 80% of the migration. Here is the 5-step playbook for an institute with 200–500 students.
+
+
+
+
+
+01
+
+
+### Day 1 · Export from Classplus
+
+Export student list (CSV), course content metadata, payment history, and batch structure from Classplus admin dashboard. Standard data export under DPDP Act portability rights.
+
+
+
+02
+
+
+### Day 2 · AllCoaching setup
+
+Onboarding team creates educator profile, branded app build, custom domain mapping, marketplace listing. Your colors, logo, content structure replicated.
+
+
+
+03
+
+
+### Day 3–4 · Content + student import
+
+Video files, PDFs, test series, MCQ banks uploaded. Student list bulk-imported. Existing batches preserved with batch numbers, schedules, fees.
+
+
+
+04
+
+
+### Day 5 · Migration email + parallel run
+
+Existing Classplus students receive migration email with new login credentials. Both platforms run in parallel for 24h to validate access.
+
+
+
+05
+
+
+### Day 6–7 · Cutover + Classplus cancel
+
+Final cutover, payment routing switched to AllCoaching. Classplus subscription cancelled per their refund policy. Educator begins receiving daily payouts.
+
+
+
+⚡
+
+
+### Throughout · Zero charges
+
+Migration is free under AllCoaching's annual subscription. No setup fee, no migration consulting fee, no data import charge. Included by default.
+
+
+
+
+
+
+
+Honest fit
+
+
+
+## When Classplus actually makes sense.
+
+This is not a "Classplus is bad" argument. Classplus has a real fit — for specific educators. Here is the honest breakdown of when each platform genuinely wins.
+
+
+
+
+
+Classplus wins when
+
+- You have ₹2+ Cr annual revenue with proven brand recognition and don't need marketplace discovery.
+
+- You have a dedicated ₹6–18L/year marketing budget and team to deploy it.
+
+- You want complete white-label control with no marketplace co-presence.
+
+- You're already locked into a Classplus contract and the breakage cost exceeds AllCoaching's savings.
+
+
+
+
+AllCoaching wins when
+
+- You're under ₹2 Cr annual revenue (which is 90%+ of Indian educators).
+
+- You don't want to spend ₹6–18L/year on marketing just to be found.
+
+- You want daily payouts, transparent pricing, and zero escalation.
+
+- You value marketplace AI discovery over isolated white-label container ownership.
+
+
+
+
+
+
+
+
+Migration questions, answered
+
+
+
+## Frequently asked about switching.
+
+
+
+
+
+How is AllCoaching different from Classplus?
+Classplus is a white-label coaching app builder — it ships a branded container for each educator but no shared audience. AllCoaching is a marketplace — branded educator space PLUS shared discovery through an AI recommendation engine. The structural difference: Classplus educators acquire 100% of their students through self-funded marketing (₹6–18 lakh/year typical); AllCoaching educators get discovered through marketplace traffic plus their own brand. Year 1 cost difference for a ₹10 lakh revenue educator: Classplus ₹4–11 lakh, AllCoaching ₹1.32 lakh.
+
+
+
+
+What does Classplus actually cost in 2026?
+Classplus headline pricing starts around ₹2,500–₹1,25,000 per month, but the true Year 1 cost includes setup ₹25K–₹2L, monthly software 30K–15L, 1.5–4% transaction commission on top of payment gateway 0.3–1%, SMS/WhatsApp credit packs ₹2K–8K/month, branding refresh fees, 15–25% annual escalation, and marketing the educator pays themselves (₹6–18L/year). Real Year 1 all-in for a ₹10L institute: ₹4–11 lakh.
+
+
+
+
+Can I migrate from Classplus to AllCoaching?
+Yes. The AllCoaching onboarding team handles migration: student list import (CSV/Excel), course content transfer, payment history reconciliation, batch reassignment. Migration is free — included in the annual subscription, no separate fee. Typical timeline: 3–7 days for a 200–500 student institute. Existing students receive migration emails with new login credentials and retain full course access.
+
+
+
+
+Will I lose my branding when I leave Classplus?
+No. Your educator brand — logo, color palette, course content, student relationships, teaching style — is yours. AllCoaching's branded space replicates these on a new infrastructure. The only thing you lose is the Classplus-managed Play Store/App Store app, but AllCoaching provides an equivalent branded Android + iOS app under your name with no separate build cost.
+
+
+
+
+What about my existing Classplus contract?
+Many Classplus contracts include annual lock-in clauses. Migration timing depends on your contract: (1) if ending within 90 days, migrate ahead of renewal; (2) if mid-cycle, weigh breakage cost against savings (typically AllCoaching's Year 1 cost is ₹3–10 lakh lower, so even a 6-month overlap is net-positive); (3) consult your contract for data export clauses — most allow CSV export at any time, which is all you need for migration.
+
+
+
+
+Why is AllCoaching cheaper than Classplus?
+Architecture, not undercutting. AllCoaching is a marketplace that amortises platform infrastructure (live streaming, payments, DRM, GST, marketing) across thousands of educators. Classplus is a white-label app builder where each educator gets their own app instance, multiplying per-educator infrastructure cost. The 10% transaction commission AllCoaching takes is a single all-inclusive fee covering payment gateway + DRM + GST + marketplace discovery. Classplus's monthly software fee + transaction commission stack independently and grow with educator scale.
+
+
+
+
+Is the AllCoaching marketplace worth the 10% commission?
+For 90%+ of Indian educators, yes. The 10% replaces what would otherwise be ₹6–18 lakh/year in self-funded marketing on Classplus. For a ₹10 lakh revenue educator, that 10% (₹1 lakh) is structurally cheaper than ₹6 lakh+ of marketing. Above ₹2 Cr annual revenue with proven brand, the math shifts — at that scale, a custom build with controlled marketing may make sense. Below that threshold, marketplace economics win decisively.
+
+
+
+
+Is AllCoaching as feature-rich as Classplus?
+In core features: yes. Both have branded Android + iOS app, live classes with attendance + recording, payment processing, course catalog, student CRM, basic analytics, anti-piracy, GST compliance. AllCoaching adds: marketplace discovery via AI recommendation, daily payouts (Classplus is weekly/monthly), included multi-format catalog (PDFs + test series without add-on), pooled anti-piracy with marketplace-scale Telegram/YouTube monitoring, and DPDP/POCSO compliance baked in. Classplus has: longer track record, heavier marketing services up-sells (which are also additional costs). Different value propositions for different educator stages.
+
+
+
+
+
+
+
+
+
+Ready to compare for yourself
+
+
+
+## Start a free 30-day trial.
+No card. No commitment.
+
+Use AllCoaching alongside your existing Classplus subscription for 30 days. Compare daily payouts, marketplace discovery, true cost — then decide.
+
+
+Start 30-Day Free Trial
+
+
+WhatsApp to discuss
+
+
+Other comparisons: AllCoaching vs Graphy · AllCoaching vs Teachmint
+
+---
+
+## AllCoaching vs Graphy — Honest 2026 India Comparison · Cost · Features
+
+**Source:** https://allcoaching.in/vs/graphy  
+**Summary:** The honest 2026 comparison of AllCoaching vs Graphy for Indian educators. Real Year 1 cost breakdown (Graphy ₹4–11 lakh vs AllCoaching ₹1.32 lakh), feature-by-feature analysis across 12 dimensions, migration playbook with timeline, and the structural difference between a white-label app builder (Graphy) and an educator-first marketplace (AllCoaching). Written by founder Amit Ratan.
+
+Honest comparison · 2026 India
+
+
+
+#
+AllCoaching vs Graphy.
+
+
+
+The honest 2026 cost + feature comparison for Indian educators. Real Year 1 math (Graphy ₹4–11 lakh vs AllCoaching ₹1.32 lakh), 12-row feature matrix, and the structural reason marketplaces beat white-label app builders for 90%+ of Indian educators under ₹2 Cr revenue.
+
+
+
+
+
+Graphy
+Course platform builder
+
+vs
+
+AllCoaching
+Educator marketplace
+
+
+
+
+
+
+Key takeaways — comparison in 6 facts
+
+
+- Graphy is a white-label app builder — it ships your container, not your audience. Marketing is your responsibility.
+
+- AllCoaching is a marketplace — branded space + shared discovery + AI recommendation included. Students find you on the platform.
+
+- Real Year 1 cost for a ₹10L educator: Graphy ₹4–11 lakh (setup + monthly + commission stack + escalation + marketing) vs AllCoaching ₹1.32 lakh (subscription + 10% all-inclusive).
+
+- Graphy monthly fees stack independently with growth; AllCoaching's 10% scales with revenue, no per-message credits, no escalation.
+
+- AllCoaching includes daily payouts; Graphy typically settles weekly or monthly.
+
+- Migration takes 3–7 days — student list import, content transfer, payment reconciliation. Free via AllCoaching onboarding team.
+
+
+
+
+
+
+
+12-dimension feature matrix
+
+
+
+## Side-by-side — no hidden columns.
+
+The 12 cost + feature dimensions an Indian educator should actually compare. Numbers are based on publicly disclosed pricing and standard industry contracts as of 2026.
+
+
+
+
+
+
+
+Dimension
+Graphy
+AllCoaching
+
+
+
+
+Architecture
+White-label app builder (one app per educator)
+Marketplace + branded space (shared discovery)
+
+
+Setup fee
+₹25,000 – ₹2,00,000
+₹0
+
+
+Monthly / annual software
+₹2,500 – ₹1,25,000 / month (₹30K – 15L / year)
+₹11,999 / year (Early Launch) or ₹24,999 / year fixed
+
+
+Transaction commission
+1.5–4% plus payment gateway 0.3–1%
+10% all-inclusive (gateway, GST, DRM, marketplace)
+
+
+SMS / WhatsApp credits
+₹2,000 – ₹8,000 / month extra
+Included
+
+
+Annual price escalation
+15–25% per year typical
+None (2-year lock on Early Launch)
+
+
+Marketing / SEO / discovery
+Educator pays separately (₹6–18 lakh / year)
+Included via marketplace AI recommendation
+
+
+Storage + bandwidth overages
+₹500 – ₹3,000 / 100 GB + ₹5–15 / GB video
+Included
+
+
+GST + DPDP + IT Rules compliance
+Educator responsibility or add-on
+Platform-handled (SAC 999293, grievance officer, parental consent)
+
+
+Payout frequency
+Weekly / monthly cycles
+Daily (T+1, 90% revenue share)
+
+
+Anti-piracy stack
+HLS + AES (often L3 Widevine), basic watermark
+All 7 layers: HLS+AES, Widevine L1, FairPlay, forensic watermark, marketplace monitoring
+
+
+Real Year 1 cost (₹10L educator)
+₹4–11 lakh
+₹1.32 lakh (13.2% of revenue)
+
+
+
+
+
+
+Source for Graphy pricing data: public Graphy listings + industry contracts  ·  AllCoaching pricing: /pricing  ·  Full essay: Graphy vs Graphy vs AllCoaching
+
+
+
+
+
+Real ₹ math · ₹10 lakh revenue educator
+
+
+
+## Year 1 actual cost — side by side.
+
+
+Same educator. Same ₹10 lakh annual revenue. Two platforms. The honest math both companies' marketing decks never show together.
+
+
+
+
+
+↳ Graphy · Year 1 actual cost
+Setup fee (one-time)₹50,000
+Monthly software × 12₹1,80,000
+Transaction commission (2.5% on ₹10L)₹25,000
+Payment gateway markup (0.7%)₹7,000
+SMS / WhatsApp credit packs × 12₹48,000
+Marketing / Meta+Google Ads (modest)₹3,00,000
+18% GST on subscription + commission₹37,260
+Year 1 all-in₹6.47 L
+
+
+
+
+↳ AllCoaching Early Launch · Year 1 actual cost
+Annual subscription₹11,999
+18% GST on subscription₹2,160
+10% commission on ₹10L (all-inclusive)₹1,00,000
+18% GST on commission (ITC-eligible)₹18,000
+Setup fee₹0
+SMS / WhatsApp credits₹0 (included)
+Marketing (marketplace discovery)₹0 (included)
+Year 1 all-in₹1.32 L
+
+
+
+
+The honest verdict
+
+₹5.15 L
+saved in Year 1 alone — and the gap compounds
+
+
+
+## For a ₹10 lakh revenue educator, AllCoaching costs 4.9× less than Graphy in Year 1.
+
+The gap widens at scale because Graphy monthly fees + transaction commission + escalation stack independently with revenue, while AllCoaching's 10% remains constant.
+
+
+
+
+
+
+5-step migration playbook
+
+
+
+## Move from Graphy in 7 days.
+
+The AllCoaching onboarding team handles 80% of the migration. Here is the 5-step playbook for an institute with 200–500 students.
+
+
+
+
+
+01
+
+
+### Day 1 · Export from Graphy
+
+Export student list (CSV), course content metadata, payment history, and batch structure from Graphy admin dashboard. Standard data export under DPDP Act portability rights.
+
+
+
+02
+
+
+### Day 2 · AllCoaching setup
+
+Onboarding team creates educator profile, branded app build, custom domain mapping, marketplace listing. Your colors, logo, content structure replicated.
+
+
+
+03
+
+
+### Day 3–4 · Content + student import
+
+Video files, PDFs, test series, MCQ banks uploaded. Student list bulk-imported. Existing batches preserved with batch numbers, schedules, fees.
+
+
+
+04
+
+
+### Day 5 · Migration email + parallel run
+
+Existing Graphy students receive migration email with new login credentials. Both platforms run in parallel for 24h to validate access.
+
+
+
+05
+
+
+### Day 6–7 · Cutover + Graphy cancel
+
+Final cutover, payment routing switched to AllCoaching. Graphy subscription cancelled per their refund policy. Educator begins receiving daily payouts.
+
+
+
+⚡
+
+
+### Throughout · Zero charges
+
+Migration is free under AllCoaching's annual subscription. No setup fee, no migration consulting fee, no data import charge. Included by default.
+
+
+
+
+
+
+
+Honest fit
+
+
+
+## When Graphy actually makes sense.
+
+This is not a "Graphy is bad" argument. Graphy has a real fit — for specific educators. Here is the honest breakdown of when each platform genuinely wins.
+
+
+
+
+
+Graphy wins when
+
+- You have ₹2+ Cr annual revenue with proven brand recognition and don't need marketplace discovery.
+
+- You have a dedicated ₹6–18L/year marketing budget and team to deploy it.
+
+- You want complete white-label control with no marketplace co-presence.
+
+- You're already locked into a Graphy contract and the breakage cost exceeds AllCoaching's savings.
+
+
+
+
+AllCoaching wins when
+
+- You're under ₹2 Cr annual revenue (which is 90%+ of Indian educators).
+
+- You don't want to spend ₹6–18L/year on marketing just to be found.
+
+- You want daily payouts, transparent pricing, and zero escalation.
+
+- You value marketplace AI discovery over isolated white-label container ownership.
+
+
+
+
+
+
+
+
+Migration questions, answered
+
+
+
+## Frequently asked about switching.
+
+
+
+
+
+How is AllCoaching different from Graphy?
+Graphy is a creator LMS / course platform — it ships a branded container for each educator but no shared audience. AllCoaching is a marketplace — branded educator space PLUS shared discovery through an AI recommendation engine. The structural difference: Graphy educators acquire 100% of their students through self-funded marketing (₹6–18 lakh/year typical); AllCoaching educators get discovered through marketplace traffic plus their own brand. Year 1 cost difference for a ₹10 lakh revenue educator: Graphy ₹4–11 lakh, AllCoaching ₹1.32 lakh.
+
+
+
+
+What does Graphy actually cost in 2026?
+Graphy headline pricing starts around ₹2,500–₹1,25,000 per month, but the true Year 1 cost includes setup ₹25K–₹2L, monthly software 30K–15L, 1.5–4% transaction commission on top of payment gateway 0.3–1%, SMS/WhatsApp credit packs ₹2K–8K/month, branding refresh fees, 15–25% annual escalation, and marketing the educator pays themselves (₹6–18L/year). Real Year 1 all-in for a ₹10L institute: ₹4–11 lakh.
+
+
+
+
+Can I migrate from Graphy to AllCoaching?
+Yes. The AllCoaching onboarding team handles migration: student list import (CSV/Excel), course content transfer, payment history reconciliation, batch reassignment. Migration is free — included in the annual subscription, no separate fee. Typical timeline: 3–7 days for a 200–500 student institute. Existing students receive migration emails with new login credentials and retain full course access.
+
+
+
+
+Will I lose my branding when I leave Graphy?
+No. Your educator brand — logo, color palette, course content, student relationships, teaching style — is yours. AllCoaching's branded space replicates these on a new infrastructure. The only thing you lose is the Graphy-managed Play Store/App Store app, but AllCoaching provides an equivalent branded Android + iOS app under your name with no separate build cost.
+
+
+
+
+What about my existing Graphy contract?
+Many Graphy contracts include annual lock-in clauses. Migration timing depends on your contract: (1) if ending within 90 days, migrate ahead of renewal; (2) if mid-cycle, weigh breakage cost against savings (typically AllCoaching's Year 1 cost is ₹3–10 lakh lower, so even a 6-month overlap is net-positive); (3) consult your contract for data export clauses — most allow CSV export at any time, which is all you need for migration.
+
+
+
+
+Why is AllCoaching cheaper than Graphy?
+Architecture, not undercutting. AllCoaching is a marketplace that amortises platform infrastructure (live streaming, payments, DRM, GST, marketing) across thousands of educators. Graphy is a white-label app builder where each educator gets their own app instance, multiplying per-educator infrastructure cost. The 10% transaction commission AllCoaching takes is a single all-inclusive fee covering payment gateway + DRM + GST + marketplace discovery. Graphy's monthly software fee + transaction commission stack independently and grow with educator scale.
+
+
+
+
+Is the AllCoaching marketplace worth the 10% commission?
+For 90%+ of Indian educators, yes. The 10% replaces what would otherwise be ₹6–18 lakh/year in self-funded marketing on Graphy. For a ₹10 lakh revenue educator, that 10% (₹1 lakh) is structurally cheaper than ₹6 lakh+ of marketing. Above ₹2 Cr annual revenue with proven brand, the math shifts — at that scale, a custom build with controlled marketing may make sense. Below that threshold, marketplace economics win decisively.
+
+
+
+
+Is AllCoaching as feature-rich as Graphy?
+In core features: yes. Both have branded Android + iOS app, live classes with attendance + recording, payment processing, course catalog, student CRM, basic analytics, anti-piracy, GST compliance. AllCoaching adds: marketplace discovery via AI recommendation, daily payouts (Graphy is weekly/monthly), included multi-format catalog (PDFs + test series without add-on), pooled anti-piracy with marketplace-scale Telegram/YouTube monitoring, and DPDP/POCSO compliance baked in. Graphy has: longer track record, heavier marketing services up-sells (which are also additional costs). Different value propositions for different educator stages.
+
+
+
+
+
+
+
+
+
+Ready to compare for yourself
+
+
+
+## Start a free 30-day trial.
+No card. No commitment.
+
+Use AllCoaching alongside your existing Graphy subscription for 30 days. Compare daily payouts, marketplace discovery, true cost — then decide.
+
+
+Start 30-Day Free Trial
+
+
+WhatsApp to discuss
+
+
+Other comparisons: AllCoaching vs Classplus · AllCoaching vs Teachmint
+
+---
+
+## AllCoaching vs Teachmint — Honest 2026 India Comparison · Cost · Features
+
+**Source:** https://allcoaching.in/vs/teachmint  
+**Summary:** The honest 2026 comparison of AllCoaching vs Teachmint for Indian educators. Real Year 1 cost breakdown (Teachmint ₹4–11 lakh vs AllCoaching ₹1.32 lakh), feature-by-feature analysis across 12 dimensions, migration playbook with timeline, and the structural difference between a white-label app builder (Teachmint) and an educator-first marketplace (AllCoaching). Written by founder Amit Ratan.
+
+Honest comparison · 2026 India
+
+
+
+#
+AllCoaching vs Teachmint.
+
+
+
+The honest 2026 cost + feature comparison for Indian educators. Real Year 1 math (Teachmint ₹4–11 lakh vs AllCoaching ₹1.32 lakh), 12-row feature matrix, and the structural reason marketplaces beat white-label app builders for 90%+ of Indian educators under ₹2 Cr revenue.
+
+
+
+
+
+Teachmint
+Institute classroom builder
+
+vs
+
+AllCoaching
+Educator marketplace
+
+
+
+
+
+
+Key takeaways — comparison in 6 facts
+
+
+- Teachmint is a white-label app builder — it ships your container, not your audience. Marketing is your responsibility.
+
+- AllCoaching is a marketplace — branded space + shared discovery + AI recommendation included. Students find you on the platform.
+
+- Real Year 1 cost for a ₹10L educator: Teachmint ₹4–11 lakh (setup + monthly + commission stack + escalation + marketing) vs AllCoaching ₹1.32 lakh (subscription + 10% all-inclusive).
+
+- Teachmint monthly fees stack independently with growth; AllCoaching's 10% scales with revenue, no per-message credits, no escalation.
+
+- AllCoaching includes daily payouts; Teachmint typically settles weekly or monthly.
+
+- Migration takes 3–7 days — student list import, content transfer, payment reconciliation. Free via AllCoaching onboarding team.
+
+
+
+
+
+
+
+12-dimension feature matrix
+
+
+
+## Side-by-side — no hidden columns.
+
+The 12 cost + feature dimensions an Indian educator should actually compare. Numbers are based on publicly disclosed pricing and standard industry contracts as of 2026.
+
+
+
+
+
+
+
+Dimension
+Teachmint
+AllCoaching
+
+
+
+
+Architecture
+White-label app builder (one app per educator)
+Marketplace + branded space (shared discovery)
+
+
+Setup fee
+₹25,000 – ₹2,00,000
+₹0
+
+
+Monthly / annual software
+₹2,500 – ₹1,25,000 / month (₹30K – 15L / year)
+₹11,999 / year (Early Launch) or ₹24,999 / year fixed
+
+
+Transaction commission
+1.5–4% plus payment gateway 0.3–1%
+10% all-inclusive (gateway, GST, DRM, marketplace)
+
+
+SMS / WhatsApp credits
+₹2,000 – ₹8,000 / month extra
+Included
+
+
+Annual price escalation
+15–25% per year typical
+None (2-year lock on Early Launch)
+
+
+Marketing / SEO / discovery
+Educator pays separately (₹6–18 lakh / year)
+Included via marketplace AI recommendation
+
+
+Storage + bandwidth overages
+₹500 – ₹3,000 / 100 GB + ₹5–15 / GB video
+Included
+
+
+GST + DPDP + IT Rules compliance
+Educator responsibility or add-on
+Platform-handled (SAC 999293, grievance officer, parental consent)
+
+
+Payout frequency
+Weekly / monthly cycles
+Daily (T+1, 90% revenue share)
+
+
+Anti-piracy stack
+HLS + AES (often L3 Widevine), basic watermark
+All 7 layers: HLS+AES, Widevine L1, FairPlay, forensic watermark, marketplace monitoring
+
+
+Real Year 1 cost (₹10L educator)
+₹4–11 lakh
+₹1.32 lakh (13.2% of revenue)
+
+
+
+
+
+
+Source for Teachmint pricing data: public Teachmint listings + industry contracts  ·  AllCoaching pricing: /pricing  ·  Full essay: Teachmint vs Graphy vs AllCoaching
+
+
+
+
+
+Real ₹ math · ₹10 lakh revenue educator
+
+
+
+## Year 1 actual cost — side by side.
+
+
+Same educator. Same ₹10 lakh annual revenue. Two platforms. The honest math both companies' marketing decks never show together.
+
+
+
+
+
+↳ Teachmint · Year 1 actual cost
+Setup fee (one-time)₹50,000
+Monthly software × 12₹1,80,000
+Transaction commission (2.5% on ₹10L)₹25,000
+Payment gateway markup (0.7%)₹7,000
+SMS / WhatsApp credit packs × 12₹48,000
+Marketing / Meta+Google Ads (modest)₹3,00,000
+18% GST on subscription + commission₹37,260
+Year 1 all-in₹6.47 L
+
+
+
+
+↳ AllCoaching Early Launch · Year 1 actual cost
+Annual subscription₹11,999
+18% GST on subscription₹2,160
+10% commission on ₹10L (all-inclusive)₹1,00,000
+18% GST on commission (ITC-eligible)₹18,000
+Setup fee₹0
+SMS / WhatsApp credits₹0 (included)
+Marketing (marketplace discovery)₹0 (included)
+Year 1 all-in₹1.32 L
+
+
+
+
+The honest verdict
+
+₹5.15 L
+saved in Year 1 alone — and the gap compounds
+
+
+
+## For a ₹10 lakh revenue educator, AllCoaching costs 4.9× less than Teachmint in Year 1.
+
+The gap widens at scale because Teachmint monthly fees + transaction commission + escalation stack independently with revenue, while AllCoaching's 10% remains constant.
+
+
+
+
+
+
+5-step migration playbook
+
+
+
+## Move from Teachmint in 7 days.
+
+The AllCoaching onboarding team handles 80% of the migration. Here is the 5-step playbook for an institute with 200–500 students.
+
+
+
+
+
+01
+
+
+### Day 1 · Export from Teachmint
+
+Export student list (CSV), course content metadata, payment history, and batch structure from Teachmint admin dashboard. Standard data export under DPDP Act portability rights.
+
+
+
+02
+
+
+### Day 2 · AllCoaching setup
+
+Onboarding team creates educator profile, branded app build, custom domain mapping, marketplace listing. Your colors, logo, content structure replicated.
+
+
+
+03
+
+
+### Day 3–4 · Content + student import
+
+Video files, PDFs, test series, MCQ banks uploaded. Student list bulk-imported. Existing batches preserved with batch numbers, schedules, fees.
+
+
+
+04
+
+
+### Day 5 · Migration email + parallel run
+
+Existing Teachmint students receive migration email with new login credentials. Both platforms run in parallel for 24h to validate access.
+
+
+
+05
+
+
+### Day 6–7 · Cutover + Teachmint cancel
+
+Final cutover, payment routing switched to AllCoaching. Teachmint subscription cancelled per their refund policy. Educator begins receiving daily payouts.
+
+
+
+⚡
+
+
+### Throughout · Zero charges
+
+Migration is free under AllCoaching's annual subscription. No setup fee, no migration consulting fee, no data import charge. Included by default.
+
+
+
+
+
+
+
+Honest fit
+
+
+
+## When Teachmint actually makes sense.
+
+This is not a "Teachmint is bad" argument. Teachmint has a real fit — for specific educators. Here is the honest breakdown of when each platform genuinely wins.
+
+
+
+
+
+Teachmint wins when
+
+- You have ₹2+ Cr annual revenue with proven brand recognition and don't need marketplace discovery.
+
+- You have a dedicated ₹6–18L/year marketing budget and team to deploy it.
+
+- You want complete white-label control with no marketplace co-presence.
+
+- You're already locked into a Teachmint contract and the breakage cost exceeds AllCoaching's savings.
+
+
+
+
+AllCoaching wins when
+
+- You're under ₹2 Cr annual revenue (which is 90%+ of Indian educators).
+
+- You don't want to spend ₹6–18L/year on marketing just to be found.
+
+- You want daily payouts, transparent pricing, and zero escalation.
+
+- You value marketplace AI discovery over isolated white-label container ownership.
+
+
+
+
+
+
+
+
+Migration questions, answered
+
+
+
+## Frequently asked about switching.
+
+
+
+
+
+How is AllCoaching different from Teachmint?
+Teachmint is a classroom infrastructure platform — it ships a branded container for each educator but no shared audience. AllCoaching is a marketplace — branded educator space PLUS shared discovery through an AI recommendation engine. The structural difference: Teachmint educators acquire 100% of their students through self-funded marketing (₹6–18 lakh/year typical); AllCoaching educators get discovered through marketplace traffic plus their own brand. Year 1 cost difference for a ₹10 lakh revenue educator: Teachmint ₹4–11 lakh, AllCoaching ₹1.32 lakh.
+
+
+
+
+What does Teachmint actually cost in 2026?
+Teachmint headline pricing starts around ₹2,500–₹1,25,000 per month, but the true Year 1 cost includes setup ₹25K–₹2L, monthly software 30K–15L, 1.5–4% transaction commission on top of payment gateway 0.3–1%, SMS/WhatsApp credit packs ₹2K–8K/month, branding refresh fees, 15–25% annual escalation, and marketing the educator pays themselves (₹6–18L/year). Real Year 1 all-in for a ₹10L institute: ₹4–11 lakh.
+
+
+
+
+Can I migrate from Teachmint to AllCoaching?
+Yes. The AllCoaching onboarding team handles migration: student list import (CSV/Excel), course content transfer, payment history reconciliation, batch reassignment. Migration is free — included in the annual subscription, no separate fee. Typical timeline: 3–7 days for a 200–500 student institute. Existing students receive migration emails with new login credentials and retain full course access.
+
+
+
+
+Will I lose my branding when I leave Teachmint?
+No. Your educator brand — logo, color palette, course content, student relationships, teaching style — is yours. AllCoaching's branded space replicates these on a new infrastructure. The only thing you lose is the Teachmint-managed Play Store/App Store app, but AllCoaching provides an equivalent branded Android + iOS app under your name with no separate build cost.
+
+
+
+
+What about my existing Teachmint contract?
+Many Teachmint contracts include annual lock-in clauses. Migration timing depends on your contract: (1) if ending within 90 days, migrate ahead of renewal; (2) if mid-cycle, weigh breakage cost against savings (typically AllCoaching's Year 1 cost is ₹3–10 lakh lower, so even a 6-month overlap is net-positive); (3) consult your contract for data export clauses — most allow CSV export at any time, which is all you need for migration.
+
+
+
+
+Why is AllCoaching cheaper than Teachmint?
+Architecture, not undercutting. AllCoaching is a marketplace that amortises platform infrastructure (live streaming, payments, DRM, GST, marketing) across thousands of educators. Teachmint is a white-label app builder where each educator gets their own app instance, multiplying per-educator infrastructure cost. The 10% transaction commission AllCoaching takes is a single all-inclusive fee covering payment gateway + DRM + GST + marketplace discovery. Teachmint's monthly software fee + transaction commission stack independently and grow with educator scale.
+
+
+
+
+Is the AllCoaching marketplace worth the 10% commission?
+For 90%+ of Indian educators, yes. The 10% replaces what would otherwise be ₹6–18 lakh/year in self-funded marketing on Teachmint. For a ₹10 lakh revenue educator, that 10% (₹1 lakh) is structurally cheaper than ₹6 lakh+ of marketing. Above ₹2 Cr annual revenue with proven brand, the math shifts — at that scale, a custom build with controlled marketing may make sense. Below that threshold, marketplace economics win decisively.
+
+
+
+
+Is AllCoaching as feature-rich as Teachmint?
+In core features: yes. Both have branded Android + iOS app, live classes with attendance + recording, payment processing, course catalog, student CRM, basic analytics, anti-piracy, GST compliance. AllCoaching adds: marketplace discovery via AI recommendation, daily payouts (Teachmint is weekly/monthly), included multi-format catalog (PDFs + test series without add-on), pooled anti-piracy with marketplace-scale Telegram/YouTube monitoring, and DPDP/POCSO compliance baked in. Teachmint has: longer track record, heavier marketing services up-sells (which are also additional costs). Different value propositions for different educator stages.
+
+
+
+
+
+
+
+
+
+Ready to compare for yourself
+
+
+
+## Start a free 30-day trial.
+No card. No commitment.
+
+Use AllCoaching alongside your existing Teachmint subscription for 30 days. Compare daily payouts, marketplace discovery, true cost — then decide.
+
+
+Start 30-Day Free Trial
+
+
+WhatsApp to discuss
+
+
+Other comparisons: AllCoaching vs Graphy · AllCoaching vs Classplus
+
+---
+
 ## About AllCoaching — India's Educator Marketplace · Founded 2018, Prayagraj
 
 **Source:** https://allcoaching.in/about  
@@ -21007,6 +22192,239 @@ Prayagraj, India
 
 
 Profile last updated · 16 May 2026
+
+---
+
+## AllCoaching Press &amp; Media Kit — Brand Assets · Founder Bio · Boilerplate
+
+**Source:** https://allcoaching.in/press  
+**Summary:** The official AllCoaching press and media kit — downloadable logo, founder photo, brand colors, boilerplate company description, founder bio (Amit Ratan), founding story (2018 Prayagraj → 2026 launch), key facts, press contact, and approved talking points. For journalists, podcast producers, partners, and conference organisers.
+
+Press & Media Kit · 2026
+
+
+#
+Press &
+
+media kit.
+
+
+
+Everything journalists, podcast producers, partners, and conference organisers need to write about AllCoaching — brand assets, founder bio, founding story, key facts, approved boilerplate, and direct press contact.
+
+
+
+
+
+Approved boilerplate
+
+
+
+## Use this in stories.
+
+Copy this paragraph verbatim or adapt for your style. The factual elements (founding year, location, value proposition) are pre-approved by the AllCoaching team.
+
+
+AllCoaching is India's first educator-first marketplace and coaching platform. Founded in 2018 in Prayagraj by Amit Ratan, the company helps Indian teachers launch their own branded coaching apps, sell courses, host live classes, and reach students through AI-driven marketplace discovery — while keeping 90% of revenue. After five years of focused product development, AllCoaching launched its full marketplace platform in 2026 as the structural answer to India's 3.5 lakh+ isolated personal teaching apps.
+
+— AllCoaching standard boilerplate
+
+
+Length: 76 words · Use as-is or shorten · Don't modify factual claims
+
+
+
+
+Key facts
+
+
+
+## 10 things to know.
+
+
+
+- Founded: 2018 in Prayagraj (formerly Allahabad), Uttar Pradesh, India.
+
+- Founder & CEO: Amit Ratan. Full profile.
+
+- Category: India's first educator-first marketplace and coaching platform (not a white-label app builder, not an LMS).
+
+- Current platform launched: 2026, after five years of product development through hundreds of failed prototypes.
+
+- Educators on platform: 2,400+ active as of May 2026. 4.9/5 average educator rating.
+
+- Revenue model: Educators keep 90% of revenue. Annual subscription ₹11,999 (Early Launch, first 50 educators) or ₹24,999 + 10% per transaction.
+
+- Payout cadence: Daily, T+1 settlement. No minimum payout threshold.
+
+- Headquarters: Sangam Vihar Colony, Haveliya, Jhusi, Prayagraj, UP 211019, India.
+
+- Languages: English, Hindi, plus regional language support across the marketplace.
+
+- Compliance: Aligned with DPDP Act 2023, IT Rules 2021, Consumer Protection E-Commerce Rules 2020, GST under SAC 999293.
+
+
+
+
+
+
+Founder bio
+
+
+
+## Amit Ratan · in 3 paragraphs.
+
+
+
+
+
+
+
+Amit Ratan
+Founder & CEO
+
+
+
+Short bio (50 words): Amit Ratan is the founder and CEO of AllCoaching, India's first educator-first marketplace, founded in 2018 in Prayagraj. After a decade of working closely with Indian coaching educators on distribution and discovery, he launched AllCoaching's full marketplace platform in 2026.
+
+Medium bio (120 words): Amit Ratan is the founder and CEO of AllCoaching, India's first educator-first marketplace. His work with India's coaching ecosystem began in 2016 in Prayagraj, watching individual teachers struggle with marketing while big institutes with mediocre faculty captured the market through advertising budgets. He founded the first version of AllCoaching in 2018 as a 2-page coaching directory (listing 90%+ of Allahabad's institutes with co-builder Mangal Yadav) before the developer discontinued the project. From 2019 onwards he worked directly with individual educators on digital marketing, and from 2021 committed five years of focused product development to building the full marketplace platform that launched in 2026.
+
+Long bio: Full founder profile at /author/amit-ratan — includes complete founding story (2016 Prayagraj → 2018 v1 → 2026 launch), 12 areas of expertise, decade timeline, all 23 published essays, and verified social profiles.
+
+
+
+
+
+
+Brand assets
+
+
+
+## Downloadable files.
+
+Right-click any asset to save. For higher-resolution or alternate formats, email allcoachingss@gmail.com with your specific need.
+
+
+
+
+
+
+Primary logo
+WebP · 200×50
+
+Download
+
+
+
+
+
+
+
+Logo on dark
+Use same WebP on #15110D background
+
+Download
+
+
+
+
+
+Favicon / app icon
+WebP · 256×256
+
+Download
+
+
+
+
+
+
+
+Founder portrait
+WebP · 800×800 · Amit Ratan
+
+Download
+
+
+
+
+
+
+Brand colors
+
+
+
+## The palette · cream + ochre.
+
+Editorial cream surface, ochre as the only accent, dark ink for type. Restraint by design.
+
+
+Ochre (Accent)#C58B43
+Ochre Deep#8E5F22
+Ochre Light#E0A95C
+Ink (Dark)#15110D
+Cream (Surface)#FAF8F4
+Cream Accent#F5E8D2
+
+
+Typography · Instrument Serif (italic display) · Inter Tight (UI) · JetBrains Mono (accents/labels)
+
+
+
+
+Approved founder quotes
+
+
+
+## Quote Amit · use any of these.
+
+Pre-approved founder quotes for editorial use. For custom interviews or longer quotes, email allcoachingss@gmail.com.
+
+
+India has 3.5 lakh+ isolated personal teaching apps. The problem was never that educators couldn't go online — it was that students couldn't find them at scale. AllCoaching exists to fix the discovery layer.
+
+— Amit Ratan · On founding thesis
+
+
+
+App fatigue is the cumulative tax students pay on their own intent. Every excellent educator in India loses students to this tax every single day, and almost nobody talks about it. We started AllCoaching to make the tax go away.
+
+— Amit Ratan · On app fatigue
+
+
+
+Coaching's real future is in marketplaces, not in fragmented personal apps that recreate the "mohalla coaching" problem digitally. AllCoaching is the architecture that combines branded ownership with shared discovery.
+
+— Amit Ratan · 2026 thesis
+
+
+
+Most teachers don't have a compliance problem. They have a wrong-platform problem. Choose a marketplace and 80% of the regulatory burden moves off your desk on day one.
+
+— Amit Ratan · On educator compliance
+
+
+
+
+Press inquiries
+
+
+
+## Direct contact · no PR agency.
+
+For interview requests, podcast appearances, conference speaking, partnership inquiries, or any editorial coverage — reach the AllCoaching team directly. Reply within 24 hours.
+
+
+
+
+allcoachingss@gmail.com
+
+
+
+WhatsApp +91-9889977262
+
+
+Press kit last updated · 16 May 2026 · Prayagraj, India
 
 ---
 

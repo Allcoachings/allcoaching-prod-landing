@@ -69,6 +69,39 @@
   </url>
 
   <url>
+    <loc>https://allcoaching.in/vs/classplus</loc>
+    <lastmod>2026-05-16T20:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/classplus-vs-graphy-vs-allcoaching.webp</image:loc>
+      <image:title>AllCoaching vs Classplus — 2026 Honest Comparison</image:title>
+      <image:caption>Founder-written cost + feature comparison. Real Year 1 math: Classplus ₹4–11 lakh vs AllCoaching ₹1.32 lakh for a ₹10L educator. 12-row feature matrix, 5-step migration playbook, 8-Q FAQ.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://allcoaching.in/vs/graphy</loc>
+    <lastmod>2026-05-16T20:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://allcoaching.in/vs/teachmint</loc>
+    <lastmod>2026-05-16T20:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://allcoaching.in/press</loc>
+    <lastmod>2026-05-16T20:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://allcoaching.in/faq</loc>
     <lastmod>2026-05-16T18:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>

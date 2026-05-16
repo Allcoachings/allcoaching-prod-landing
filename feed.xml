@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/">
+  <channel>
+    <title>AllCoaching Blog — Essays on the Future of Online Education in India</title>
+    <link>https://allcoaching.in/blog/</link>
+    <atom:link href="https://allcoaching.in/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Long-form, founder-written essays on educator infrastructure, marketplace economics, AI workflows, EdTech compliance, and the architecture of online teaching in India. By Amit Ratan, Founder &amp; CEO of AllCoaching — India's first educator-first marketplace, founded 2018 in Prayagraj.</description>
+    <language>en-IN</language>
+    <copyright>© 2026 AllCoaching Technologies Pvt. Ltd.</copyright>
+    <managingEditor>allcoachingss@gmail.com (Amit Ratan)</managingEditor>
+    <webMaster>allcoachingss@gmail.com (Amit Ratan)</webMaster>
+    <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 16 May 2026 13:44:06 +0000</lastBuildDate>
+    <category>Education</category>
+    <category>EdTech</category>
+    <category>India</category>
+    <generator>AllCoaching feed builder · build_feed_xml.py</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>1440</ttl>
+    <image>
+      <url>https://allcoaching.in/assets/AllCoaching-logo.webp</url>
+      <title>AllCoaching</title>
+      <link>https://allcoaching.in/</link>
+      <width>200</width>
+      <height>50</height>
+    </image>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+
+    <item>
+      <title>Automated Fee Management Software for Teachers — 2026 India Founder's Guide</title>
+      <link>https://allcoaching.in/blog/automated-fee-management-software-for-teachers</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/automated-fee-management-software-for-teachers</guid>
+      <description>Manual fee tracking costs Indian coaching institutes ₹1.8–4.8 lakh per year in wasted hours, late collections, and reconciliation errors. The honest 2026 founder's guide to automated fee management software — capabilities, real ₹ costs, GST compliance, and the integrated marketplace alternative.</description>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/automated-fee-management-software-for-teachers.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Monetize YouTube Teaching Channel via Personal App — 2026 Founder's Guide</title>
+      <link>https://allcoaching.in/blog/monetize-youtube-teaching-channel-via-personal-app</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/monetize-youtube-teaching-channel-via-personal-app</guid>
+      <description>Three honest ways to monetize a YouTube teaching channel via a personal app — build from scratch, white-label, or marketplace. Real ₹ economics, conversion math, and the path most Indian educators actually win with in 2026.</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/monetize-youtube-teaching-channel-via-personal-app.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Secure Video Hosting for Educational Content — Honest 2026 Technical Guide</title>
+      <link>https://allcoaching.in/blog/secure-video-hosting-for-educational-content</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/secure-video-hosting-for-educational-content</guid>
+      <description>The full technical security stack for educational video hosting in India — HLS+AES-128 encryption, Widevine/FairPlay/PlayReady DRM, token URLs, dynamic and forensic watermarking, device-binding, the analog hole, and the marketplace-level enforcement most LMS vendors structurally cannot deliver.</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/secure-video-hosting-for-educational-content.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>White Label Coaching App Development Cost in India — Honest 2026 Breakdown</title>
+      <link>https://allcoaching.in/blog/white-label-coaching-app-development-cost-india</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/white-label-coaching-app-development-cost-india</guid>
+      <description>The real cost of a white-label coaching app in India is not ₹X,XXX/month — it is ₹4–11 lakh per year once setup, transaction cuts, bandwidth, branding, and marketing markups are added. A founder's transparent cost analysis for Indian coaching institutes.</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/white-label-coaching-app-development-cost-india.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Budget Home Studio Setup for Online Teaching — ₹15,000 Kit (2026)</title>
+      <link>https://allcoaching.in/blog/budget-home-studio-setup-for-online-teaching</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/budget-home-studio-setup-for-online-teaching</guid>
+      <description>₹15,000 complete home studio setup for Indian teachers — mic, camera, lighting, pen tablet, backdrop, software. Real prices, 3-tier upgrade path inside.</description>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/budget-home-studio-setup-for-online-teaching.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>How to Conduct Live Classes on Mobile Apps — 3 Paths Compared (2026)</title>
+      <link>https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps</guid>
+      <description>YouTube, Zoom, custom app, or AllCoaching — the 3 ways Indian educators run live classes on mobile in 2026. Real costs, setup time, and the 5-minute go-live option.</description>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/how-to-conduct-live-classes-on-mobile-apps.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Indian EdTech Laws for Teachers — 2026 Quick Compliance Guide</title>
+      <link>https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers</guid>
+      <description>DPDP Act, GST, refunds, content liability — 11 Indian edtech laws every online teacher must know in 2026. Visual checklist with penalties.</description>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/indian-edtech-laws-and-regulations-for-teachers.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Using ChatGPT for Course Curriculum Design — 2026 Guide for Educators</title>
+      <link>https://allcoaching.in/blog/using-chatgpt-for-course-curriculum-design</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/using-chatgpt-for-course-curriculum-design</guid>
+      <description>How educators use ChatGPT and other AI tools to design course curriculum in 2026 — practical workflows + what to verify before publishing.</description>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/using-chatgpt-for-course-curriculum-design.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>How to Get First 500 Students for Your Coaching App — A 2026 Shortcut</title>
+      <link>https://allcoaching.in/blog/how-to-get-first-500-students-for-coaching-app</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/how-to-get-first-500-students-for-coaching-app</guid>
+      <description>Most educators chase 500 students through paid ads. The 2026 shortcut: launch on a marketplace where students are already searching for you. 7-day playbook inside.</description>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/how-to-get-first-500-students-for-coaching-app.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>SEO Strategies for Online Course Creators — 2026 Founder's Playbook</title>
+      <link>https://allcoaching.in/blog/seo-strategies-for-online-course-creators</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/seo-strategies-for-online-course-creators</guid>
+      <description>Online course creators lose 30–40% of revenue to platforms running their SEO and marketing. The smarter 2026 move: skip SEO entirely with an AI marketplace.</description>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/seo-strategies-for-online-course-creators.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>How to Automate Student Onboarding for a Coaching App — 2026 Operational Playbook</title>
+      <link>https://allcoaching.in/blog/automate-student-onboarding-for-coaching-app</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/automate-student-onboarding-for-coaching-app</guid>
+      <description>Automating student onboarding is no longer optional for coaching apps — it is the difference between paid signups becoming engaged learners and silent drop-offs in 72 hours. The 2026 operational playbook for Indian educators.</description>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/automate-student-onboarding-for-coaching-app.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Best Free Tools for Teachers to Record Lectures — 2026 Guide for Indian Educators</title>
+      <link>https://allcoaching.in/blog/best-free-tools-for-teachers-to-record-lectures</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/best-free-tools-for-teachers-to-record-lectures</guid>
+      <description>The best free tools for teachers to record lectures in 2026 — OBS Studio, Loom, ScreenPal, OpenBoard, DaVinci Resolve, CapCut, Descript and more — with honest pros and cons. Plus the bigger question every teacher must answer: where do those lectures actually live so students can find, pay for, and learn from them?</description>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/best-free-tools-for-teachers-to-record-lectures.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>How to Start an Online Academy in 5 Steps — One Login. One Educator OS. Zero Code.</title>
+      <link>https://allcoaching.in/blog/how-to-start-online-academy-in-5-steps</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/how-to-start-online-academy-in-5-steps</guid>
+      <description>Most online academy guides require 17 steps and 9 different SaaS tools. The real playbook is 5 steps on a single educator OS login. Here is how Indian educators launch online academies in 2026 — without juggling tools, paying for development, or fighting integrations.</description>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/how-to-start-online-academy-in-5-steps.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Online Coaching Business Plan 2026 — AI-First Marketplace Playbook for Indian Educators</title>
+      <link>https://allcoaching.in/blog/online-coaching-business-plan-2026</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/online-coaching-business-plan-2026</guid>
+      <description>The 2026 online coaching business plan is structurally different from the 2022 version — it begins with distribution, runs on AI, and uses marketplaces instead of isolated apps. The complete strategic playbook for Indian educators.</description>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/online-coaching-business-plan-2026.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Best Platform for Selling PDF Notes and Test Series — A Strategic 2026 Guide for Indian Educators</title>
+      <link>https://allcoaching.in/blog/best-platform-for-selling-pdf-notes-and-test-series</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/best-platform-for-selling-pdf-notes-and-test-series</guid>
+      <description>The best platform for selling PDF notes and test series is not the one with the most tools — it is the one with the strongest distribution. A modern, AI-marketplace-driven analysis for Indian educators in 2026.</description>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/best-platform-for-selling-pdf-notes-and-test-series.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>How to Migrate Offline Coaching to Online at Zero Cost — A Practical 2026 Guide for Indian Educators</title>
+      <link>https://allcoaching.in/blog/migrate-offline-coaching-to-online-zero-cost</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/migrate-offline-coaching-to-online-zero-cost</guid>
+      <description>Move your offline coaching online without spending a rupee on apps, LMS, or marketing. A step-by-step zero-cost transition playbook for Indian coaching teachers using AI-driven marketplace platforms.</description>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/migrate-offline-coaching-to-online-zero-cost.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>How to Protect Course Content from Piracy for Free — A Realistic 2026 Guide for Indian Educators</title>
+      <link>https://allcoaching.in/blog/protect-course-content-from-piracy-for-free</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/protect-course-content-from-piracy-for-free</guid>
+      <description>Even Netflix and Udemy face piracy. Learn what actually protects course content — secure streaming, watermarking, centralized monitoring, takedown enforcement, and legal compliance. A serious, modern playbook for Indian educators.</description>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/protect-course-content-from-piracy-for-free.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Best Zero-Commission Teaching Platform in India — The Truth About Hidden Costs (2026)</title>
+      <link>https://allcoaching.in/blog/best-zero-commission-teaching-platform-india</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/best-zero-commission-teaching-platform-india</guid>
+      <description>Is a zero-commission teaching platform in India truly free? Discover the hidden operational, infrastructure, and marketing costs behind running your own platform — and why AllCoaching's ecosystem model saves educators more money long-term.</description>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/best-zero-commission-teaching-platform-india.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>How to Sell Online Courses Without Monthly Subscription — The 2026 Educator's Guide</title>
+      <link>https://allcoaching.in/blog/sell-online-courses-without-monthly-subscription</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/sell-online-courses-without-monthly-subscription</guid>
+      <description>Learn how to sell online courses without paying monthly subscription fees. Discover smarter, low-risk monetization models, hidden cost traps, and why AllCoaching's 30-day free + growth-aligned model is built for independent educators in India.</description>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/sell-online-courses-without-monthly-subscription.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Most Affordable LMS for Independent Educators — 2026 Honest Guide</title>
+      <link>https://allcoaching.in/blog/affordable-lms-for-independent-educators</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/affordable-lms-for-independent-educators</guid>
+      <description>Searching for the most affordable LMS for independent educators? Discover the hidden costs of traditional LMS platforms and why AllCoaching's AI-driven marketplace is the smarter, cheaper growth engine in 2026.</description>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/most-affordable-lms-for-independent-educators.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Classplus vs Graphy vs AllCoaching — 2026 Honest Verdict</title>
+      <link>https://allcoaching.in/blog/classplus-vs-graphy-vs-allcoaching</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/classplus-vs-graphy-vs-allcoaching</guid>
+      <description>Classplus vs Graphy vs AllCoaching — honest 2026 comparison. Which platform wins on discovery, growth and fees for Indian educators? The verdict is clear.</description>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/classplus-vs-graphy-vs-allcoaching.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>EdTech Marketplace India: Ending App Fatigue | 2026</title>
+      <link>https://allcoaching.in/blog/edtech-marketplace-india-app-fatigue</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/edtech-marketplace-india-app-fatigue</guid>
+      <description>India's first EdTech marketplace is ending app fatigue. How AllCoaching solves the fragmented online education problem for 3.5 lakh+ isolated Indian educators.</description>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/edtech-marketplace-india-app-fatigue.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Online Coaching Academy Bina Coding Shuru Karein 2026</title>
+      <link>https://allcoaching.in/blog/online-coaching-academy-without-coding</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/online-coaching-academy-without-coding</guid>
+      <description>Bina coding ke apni online coaching academy kaise shuru karein? Practical 8-step Hinglish guide for Indian educators — niche selection to first paid student.</description>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-bucket.b-cdn.net/Blog/online-coaching-academy-without-coding.webp" type="image/webp" />
+    </item>
+  </channel>
+</rss>

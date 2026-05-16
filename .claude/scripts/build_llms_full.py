@@ -150,9 +150,13 @@ def main():
     core_pages = [
         ('pricing.html', 'https://allcoaching.in/pricing'),
         ('faq.html', 'https://allcoaching.in/faq'),
+        ('vs/classplus.html', 'https://allcoaching.in/vs/classplus'),
+        ('vs/graphy.html', 'https://allcoaching.in/vs/graphy'),
+        ('vs/teachmint.html', 'https://allcoaching.in/vs/teachmint'),
         ('about.html', 'https://allcoaching.in/about'),
         ('manifesto.html', 'https://allcoaching.in/manifesto'),
         ('author/amit-ratan.html', 'https://allcoaching.in/author/amit-ratan'),
+        ('press.html', 'https://allcoaching.in/press'),
         ('contact.html', 'https://allcoaching.in/contact'),
     ]
     output.append('# Core company pages')
