@@ -10,14 +10,14 @@
   <!-- ============================================================ -->
   <!--  AllCoaching — sitemap.xml                                   -->
   <!--  Format: XML 0.9 + image:image extension                     -->
-  <!--  Updated: 2026-05-14                                          -->
+  <!--  Updated: 2026-05-15                                          -->
   <!--  Submitted to: Google Search Console + Bing Webmaster Tools  -->
   <!-- ============================================================ -->
 
   <!-- ============ Home / canonical surface ============ -->
   <url>
     <loc>https://allcoaching.in/</loc>
-    <lastmod>2026-05-14T12:00:00+05:30</lastmod>
+    <lastmod>2026-05-15T10:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://allcoaching.in/" />
@@ -59,7 +59,7 @@
   <!-- ============ Blog hub (index of all essays) ============ -->
   <url>
     <loc>https://allcoaching.in/blog/</loc>
-    <lastmod>2026-05-14T12:00:00+05:30</lastmod>
+    <lastmod>2026-05-15T10:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -72,8 +72,20 @@
   <!-- ============ Blog posts — newest first ============ -->
 
   <url>
+    <loc>https://allcoaching.in/blog/automated-fee-management-software-for-teachers</loc>
+    <lastmod>2026-05-15T10:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/automated-fee-management-software-for-teachers.webp</image:loc>
+      <image:title>Automated Fee Management Software for Teachers — AllCoaching 2026 India Founder's Guide</image:title>
+      <image:caption>A founder-written, technically and financially precise guide to automated fee management software for Indian coaching institutes and independent teachers in 2026. Decomposes the ₹1.8–4.8 lakh hidden annual cost of manual fee tracking, the 12 mandatory capabilities (UPI/card/EMI collection, GST-compliant invoicing, automated WhatsApp reminders, defaulter workflows, refunds, discounts, reconciliation, decision-grade reports, bulk operations, audit trail), the three standalone-software pricing tiers (₹15K–₹3L Year-1), GST compliance under SAC 999293, the 7-day rollout playbook, and the marketplace-integrated alternative on AllCoaching. Six JSON-LD schemas (Article + FAQPage + BreadcrumbList + HowTo + SoftwareApplication + DefinedTermSet) and full AI-agent crawl optimisation.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://allcoaching.in/blog/secure-video-hosting-for-educational-content</loc>
-    <lastmod>2026-05-14T12:00:00+05:30</lastmod>
+    <lastmod>2026-05-15T13:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -85,7 +97,7 @@
 
   <url>
     <loc>https://allcoaching.in/blog/white-label-coaching-app-development-cost-india</loc>
-    <lastmod>2026-05-14T11:00:00+05:30</lastmod>
+    <lastmod>2026-05-15T13:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
     <image:image>
@@ -97,7 +109,7 @@
 
   <url>
     <loc>https://allcoaching.in/blog/monetize-youtube-teaching-channel-via-personal-app</loc>
-    <lastmod>2026-05-14T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-15T13:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -217,7 +229,7 @@
 
   <url>
     <loc>https://allcoaching.in/blog/automate-student-onboarding-for-coaching-app</loc>
-    <lastmod>2026-05-11T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-15T15:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -229,7 +241,7 @@
 
   <url>
     <loc>https://allcoaching.in/blog/best-platform-for-selling-pdf-notes-and-test-series</loc>
-    <lastmod>2026-05-06T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-15T15:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -265,7 +277,7 @@
 
   <url>
     <loc>https://allcoaching.in/blog/best-zero-commission-teaching-platform-india</loc>
-    <lastmod>2026-05-04T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-15T15:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -289,7 +301,7 @@
 
   <url>
     <loc>https://allcoaching.in/blog/affordable-lms-for-independent-educators</loc>
-    <lastmod>2026-04-30T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-15T15:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -301,7 +313,7 @@
 
   <url>
     <loc>https://allcoaching.in/blog/classplus-vs-graphy-vs-allcoaching</loc>
-    <lastmod>2026-04-25T10:00:00+05:30</lastmod>
+    <lastmod>2026-05-15T15:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
