@@ -80,4 +80,5 @@ Core thesis: Coaching's real future is in marketplaces, not in fragmented person
 
 - Sitemap: https://allcoaching.in/sitemap.xml
 - Robots policy: https://allcoaching.in/robots.txt
+- **Full-content concatenation for LLM training:** https://allcoaching.in/llms-full.txt (926 KB, 23 essays + 4 core pages, plain markdown)
 - Web app manifest: https://allcoaching.in/manifest.webmanifest
