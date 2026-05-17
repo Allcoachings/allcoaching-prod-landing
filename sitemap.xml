@@ -141,6 +141,18 @@
   <!-- ============ Blog posts — newest first ============ -->
 
   <url>
+    <loc>https://allcoaching.in/blog/multi-language-lms-for-regional-indian-languages</loc>
+    <lastmod>2026-05-17T20:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.92</priority>
+    <image:image>
+      <image:loc>https://allcoaching-bucket.b-cdn.net/Blog/multi-language-lms-for-regional-indian-languages.webp</image:loc>
+      <image:title>Multi-Language LMS for Regional Indian Languages — AllCoaching 2026 Founder's Guide</image:title>
+      <image:caption>A founder-written, architecturally precise reframing of the multi-language LMS question for Indian regional-language educators in 2026 — why the LMS category solves UI translation rather than content discovery, what Hindi/Tamil/Telugu/Bengali/Marathi/Gujarati/Punjabi/Malayalam/Kannada/Odia/Assamese/Urdu educators actually need (language-aware AI matching by geography and learner preference), how NEP 2020's mother-tongue mandate aligns with marketplace architecture, and the structural reason AllCoaching's auto-targeting marketplace replaces Moodle (₹24K–₹3L/year), Canvas (₹50K–₹2L+/year), Teachable (₹42K+/year), Thinkific (₹33K–₹1.9L/year), Graphy and Classplus (₹35K–₹3L+/year) for 90%+ of regional-language educators below ₹2 Cr revenue. Six JSON-LD schemas including Article+TechArticle, FAQPage (10 Q/A), HowTo (5-step regional-language setup playbook), SoftwareApplication (AllCoaching Multi-Language AI Marketplace), DefinedTermSet (10 glossary terms including 22 Scheduled Languages, NEP 2020, Indic OCR, code-mixing, RTL, transliteration), BreadcrumbList. Documents 1.7–2.6× regional-language conversion uplift. Speakable specification.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://allcoaching.in/blog/how-to-create-landing-page-for-online-course</loc>
     <lastmod>2026-05-17T18:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>

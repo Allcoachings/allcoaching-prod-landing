@@ -343,6 +343,7 @@
       <li><a href="#conversion-math">Real conversion math — auto vs hand-built</a></li>
       <li><a href="#conclusion">Strategic conclusion — ship the page, teach the course</a></li>
       <li><a href="#glossary">Glossary — Key Terms</a></li>
+      <li><a href="#references">References &amp; Sources</a></li>
       <li><a href="#faq">Frequently asked questions</a></li>
     </ol>
   </nav>
@@ -492,7 +493,7 @@
       <div>
         <p class="step-l">Component 11 — Refund policy + compliance</p>
         <h3>Consumer Protection (E-Commerce) Rules 2020 text</h3>
-        <p>Plain-English refund policy with timeline (typically 7–30 days). Link to the platform's terms. Required for compliance with Consumer Protection Rules 2020 for online sellers. Also reduces buyer hesitation by removing "what if it's terrible" risk.</p>
+        <p>Plain-English refund policy with timeline (typically 7–30 days). Link to the platform's terms. Required for compliance with the <strong>Consumer Protection (E-Commerce) Rules 2020</strong><sup><a href="#ref-4">[4]</a></sup> for online sellers. Also reduces buyer hesitation by removing "what if it's terrible" risk.</p>
       </div>
     </div>
 
@@ -565,11 +566,11 @@
 
     <p><strong>Surface 3 — Canonical URL.</strong> The HTML &lt;link rel="canonical"&gt; tag. Points to the single authoritative version of the page. Prevents duplicate content penalties when the same page is accessible through multiple URLs (e.g., with/without trailing slash, with/without query parameters). AllCoaching auto-generates this from the course slug.</p>
 
-    <p><strong>Surface 4 — Open Graph + Twitter card tags.</strong> The og:title, og:description, og:image, og:url, og:type tags plus twitter:card, twitter:title, twitter:description, twitter:image tags. Controls how the URL appears when shared on WhatsApp, LinkedIn, Facebook, Slack, Discord, X. The og:image must be 1200×630 pixels minimum for clean rendering across platforms. Without OG tags, WhatsApp shares get unstyled previews that visibly hurt social conversion. AllCoaching auto-generates OG tags with a 1200×630 social image rendered from the course record.</p>
+    <p><strong>Surface 4 — Open Graph + Twitter card tags.</strong> The og:title, og:description, og:image, og:url, og:type tags plus twitter:card, twitter:title, twitter:description, twitter:image tags. Controls how the URL appears when shared on WhatsApp, LinkedIn, Facebook, Slack, Discord, X. The og:image must be <strong>1200×630 pixels minimum</strong><sup><a href="#ref-1">[1]</a></sup> for clean rendering across platforms. Without OG tags, WhatsApp shares get unstyled previews that visibly hurt social conversion. AllCoaching auto-generates OG tags with a 1200×630 social image rendered from the course record.</p>
 
-    <p><strong>Surface 5 — Structured data (JSON-LD).</strong> At minimum, Course schema with provider, instructor, name, description, courseMode, educationalLevel, inLanguage, and offers (price, priceCurrency). Plus BreadcrumbList (Home → Courses → This Course). Plus FAQPage when the page has a FAQ section. Structured data is what makes the page eligible for Google's Course rich results, AI Overview citation, and Perplexity-class agent extraction. AllCoaching auto-generates all three schemas from the course record fields — educators don't write JSON-LD.</p>
+    <p><strong>Surface 5 — Structured data (JSON-LD).</strong> At minimum, <a href="https://schema.org/Course" target="_blank" rel="noopener nofollow">Course schema</a> with provider, instructor, name, description, courseMode, educationalLevel, inLanguage, and offers (price, priceCurrency)<sup><a href="#ref-2">[2]</a></sup>. Plus BreadcrumbList (Home → Courses → This Course). Plus FAQPage when the page has a FAQ section. Structured data is what makes the page eligible for Google's Course rich results, AI Overview citation, and Perplexity-class agent extraction. AllCoaching auto-generates all three schemas from the course record fields — educators don't write JSON-LD.</p>
 
-    <p><strong>Surface 6 — Core Web Vitals.</strong> Google's user-experience metrics that became a ranking factor in 2021. Largest Contentful Paint (LCP) under 2.5 seconds. Interaction to Next Paint (INP) under 200 milliseconds. Cumulative Layout Shift (CLS) under 0.1. Pages failing Core Web Vitals lose 8–22% organic ranking position vs equivalent-content pages that pass. Most WordPress + Elementor pages run 3.5–6 second LCP without optimisation; AllCoaching auto-generated pages typically run under 2 seconds because the template, image compression, and asset bundling are platform-controlled.</p>
+    <p><strong>Surface 6 — Core Web Vitals.</strong> Google's user-experience metrics that became a ranking factor in 2021. <strong>Largest Contentful Paint (LCP) under 2.5 seconds. Interaction to Next Paint (INP) under 200 milliseconds. Cumulative Layout Shift (CLS) under 0.1.</strong><sup><a href="#ref-3">[3]</a></sup> Pages failing Core Web Vitals lose 8–22% organic ranking position vs equivalent-content pages that pass. Most WordPress + Elementor pages run 3.5–6 second LCP without optimisation; AllCoaching auto-generated pages typically run under 2 seconds because the template, image compression, and asset bundling are platform-controlled.</p>
 
     <p>The honest realisation: <strong>five of the six SEO surfaces don't require any educator design judgment</strong>. The title tag is the course name. The canonical URL is the slug. The OG tags are auto-generated. The structured data is auto-generated. The Core Web Vitals are template-enforced. Only the meta description benefits from educator-written language. Yet most DIY page-builder workflows ask the educator to configure all six manually — which is why 60–75% of educator-built course pages ship with at least one SEO surface missing or broken.</p>
 
@@ -948,9 +949,21 @@
     </div>
   </div>
 
+  <!-- REFERENCES -->
+  <div class="article-body mt-16" id="references">
+    <h2 class="h-chap mb-6">References &amp; Sources</h2>
+    <ol style="font-family:var(--ui); font-size:14px; color:var(--ink-2); line-height:1.75; padding-left:1.5rem;">
+      <li id="ref-1">The Open Graph protocol — official specification (Facebook, 2010). Image guidance for clean rendering across WhatsApp, LinkedIn, Facebook, X. <a href="https://ogp.me/" target="_blank" rel="noopener nofollow">ogp.me</a> &middot; Facebook sharing image best practices: <a href="https://developers.facebook.com/docs/sharing/webmasters/images/" target="_blank" rel="noopener nofollow">developers.facebook.com/docs/sharing/webmasters/images</a>.</li>
+      <li id="ref-2">Schema.org — Course type definition with provider, instructor, courseMode, educationalLevel, inLanguage, offers properties. <a href="https://schema.org/Course" target="_blank" rel="noopener nofollow">schema.org/Course</a>. Google Search Central — Course rich result eligibility: <a href="https://developers.google.com/search/docs/appearance/structured-data/course" target="_blank" rel="noopener nofollow">developers.google.com/search/docs/appearance/structured-data/course</a>.</li>
+      <li id="ref-3">Google Web.dev — Core Web Vitals thresholds (LCP under 2.5s, INP under 200ms, CLS under 0.1). <a href="https://web.dev/articles/vitals" target="_blank" rel="noopener nofollow">web.dev/articles/vitals</a>. Google Search Central — page experience as a ranking factor: <a href="https://developers.google.com/search/docs/appearance/page-experience" target="_blank" rel="noopener nofollow">developers.google.com/search/docs/appearance/page-experience</a>.</li>
+      <li id="ref-4">Consumer Protection (E-Commerce) Rules, 2020 — Ministry of Consumer Affairs, Food &amp; Public Distribution, Government of India. Notification dated 23 July 2020. <a href="https://consumeraffairs.nic.in/" target="_blank" rel="noopener nofollow">consumeraffairs.nic.in</a> &middot; Gazette notification: <a href="https://egazette.gov.in/" target="_blank" rel="noopener nofollow">egazette.gov.in</a>.</li>
+      <li id="ref-5">National Payments Corporation of India (NPCI) — UPI Person-to-Merchant (P2M) zero-MDR circular for transactions up to ₹2,000. <a href="https://www.npci.org.in/what-we-do/upi/product-overview" target="_blank" rel="noopener nofollow">npci.org.in/what-we-do/upi/product-overview</a>.</li>
+    </ol>
+  </div>
+
   <!-- FAQ -->
   <div class="article-body mt-16" id="faq">
-    <h2 class="h-chap font-display mt-3">Frequently asked<br/><span class="grad-text">questions.</span></h2>
+    <h2 class="h-chap font-display mt-3">Frequently asked<br/><em>questions.</em></h2>
 
     <div class="faq">
 
@@ -1031,7 +1044,7 @@
 <section class="py-24 bg-white relative overflow-hidden">
   <div class="max-w-7xl mx-auto px-5">
     <p class="kicker">More from AllCoaching Blog</p>
-    <h2 class="h-chap font-display mt-3">Continue <span class="grad-text">reading</span></h2>
+    <h2 class="h-chap font-display mt-3">Continue <em>reading.</em></h2>
     <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       <a href="/blog/best-upi-payment-gateway-for-online-courses" class="blog-card" aria-label="Read: Best UPI Payment Gateway for Online Courses in India">
         <div class="blog-card-img">
@@ -1078,7 +1091,7 @@
   <div class="absolute inset-0 -z-0" aria-hidden="true" style="background:radial-gradient(50% 40% at 25% 50%, rgba(197,139,67,.10), transparent 70%), radial-gradient(40% 35% at 75% 60%, rgba(47,143,78,.10), transparent 70%);"></div>
   <div class="max-w-3xl mx-auto px-5 text-center relative">
     <div class="inline-block mb-6 float-y"><img src="../assets/fevicon.webp" alt="AllCoaching" class="w-16 h-16 rounded-full shadow-lg ring-1 ring-[#E5DDD0] bg-white" decoding="async" loading="lazy" width="512" height="512" /></div>
-    <h2 class="h-mani font-display">Stop assembling landing pages.<br/><span class="grad-text">Start shipping courses with auto-generated SEO.</span></h2>
+    <h2 class="h-mani font-display">Stop assembling landing pages.<br/><em>Start shipping courses with auto-generated SEO.</em></h2>
     <p class="mt-6 max-w-2xl mx-auto" style="font-size:1.05rem; line-height:1.7; color:#4F4840;">AllCoaching is India's AI-driven educator marketplace with auto-generated course landing pages — full SEO, Open Graph tags, Course schema, BreadcrumbList, FAQPage, UPI checkout, mobile responsive, Core Web Vitals passing. <strong>One course-create flow, one meta-description sentence, one live URL.</strong> Unlimited pages. 90% revenue to educator.</p>
     <div class="mt-9 flex flex-wrap justify-center gap-3">
       <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Start as an educator <svg class="w-4 h-4"><use href="#i-arrow"/></svg></a>
