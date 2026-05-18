@@ -30,7 +30,7 @@ The user provides the **minimum** (keyword + 1–3 lines of intent / angle / anc
 | **File path** | `blog/<slug>.html` |
 | **Title** (60–80 chars) | Primary keyword + year/positioning + emotional hook (e.g., "Honest Guide", "Founder's Breakdown", "2026 Edition") |
 | **Description** (160–280 chars) | Lede sentence + 2 secondary keywords + the load-bearing claim, plain prose |
-| **Cover image URL** | `https://allcoaching-bucket.b-cdn.net/Blog/<slug>.webp` (1600×900). Reference the URL even if file doesn't exist yet — it will be uploaded post-write |
+| **Cover image URL** | `https://allcoaching-store.b-cdn.net/blog-images/<slug>.webp` (1600×900). Reference the URL even if file doesn't exist yet — it will be uploaded post-write |
 | **Publish/modify dates** | Today's date in ISO format |
 | **Author** | Canonical Person `@id: https://allcoaching.in/author/amit-ratan#person` |
 | **Organization** | Canonical Org `@id: https://allcoaching.in/#organization` |
@@ -178,7 +178,7 @@ Every post must have, in order:
    - `<meta name="keywords">` (12–20 long-tail keywords, India-focused)
    - `<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">`
    - Canonical URL: `https://allcoaching.in/blog/<slug>`
-   - Open Graph + Twitter cards (image at `https://allcoaching-bucket.b-cdn.net/Blog/<slug>.webp`, 1600×900)
+   - Open Graph + Twitter cards (image at `https://allcoaching-store.b-cdn.net/blog-images/<slug>.webp`, 1600×900)
    - Author: Amit Ratan, Founder & CEO, AllCoaching
    - GTM script: `GTM-T3KFKD3G`
    - Fonts: `Instrument Serif` (ital@0;1), `Inter Tight` (400–700), `JetBrains Mono` (400/500/700)
@@ -672,7 +672,7 @@ These constants are sacred across every post and every retrofit. Never alter the
 - **Domain**: `allcoaching.in`
 - **Primary color** / accent: `#C58B43` (ochre), with brand gradient `#E0A95C → #C58B43 → #8E5F22`
 - **Fonts**: Instrument Serif (display + italic), Inter Tight (UI), JetBrains Mono (mono)
-- **CDN base for images**: `https://allcoaching-bucket.b-cdn.net/Blog/<slug>.webp`
+- **CDN base for images**: `https://allcoaching-store.b-cdn.net/blog-images/<slug>.webp`
 - **GTM ID**: `GTM-T3KFKD3G`
 - **Author**: Amit Ratan, Founder & CEO, AllCoaching
 - **Educator sign-up URL**: `https://educator.allcoaching.in/`

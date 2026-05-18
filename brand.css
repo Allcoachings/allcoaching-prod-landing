@@ -6,13 +6,14 @@
    ============================================================================ */
 
 /* ───── Fonts ───────────────────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
 /* ───── Design tokens ───────────────────────────────────────────────────── */
 :root{
   /* Font families */
   --ui:'Inter Tight','Inter',-apple-system,system-ui,sans-serif;
   --display:'Instrument Serif','Times New Roman',serif;
+  --reading:'Newsreader','Source Serif Pro',Georgia,'Times New Roman',serif;
   --mono:'JetBrains Mono',ui-monospace,monospace;
 
   /* Surfaces */
@@ -178,6 +179,8 @@ a{ color:var(--accent-deep); }
 }
 
 /* ───── Article body — readable, editorial ─────────────────────────────── */
+/* Catch-all fallback for any <p> / <li> nested deep inside .article-body
+   that isn't already styled by a component selector (.def p, .hband p, etc.). */
 .article-body p{
   font-family:var(--ui);
   font-size:17px; line-height:1.85; color:var(--ink-2); font-weight:400;
@@ -198,11 +201,57 @@ a{ color:var(--accent-deep); }
 }
 .article-body a:hover{ color:var(--accent); text-decoration-color:var(--accent); }
 
+/* Reading body — direct paragraph/list children of .article-body get the
+   Newsreader serif. Source order is important: this block sits AFTER the
+   catch-all above so equal-specificity selectors resolve in our favour. */
+.article-body > p{
+  font-family:var(--reading);
+  font-size:19px; line-height:1.78; color:#2A241D; font-weight:400;
+  letter-spacing:-0.003em;
+  font-feature-settings:"kern","liga","onum";
+}
+.article-body > p + p{ margin-top:1.15rem; }
+.article-body > p strong,
+.article-body > ul > li strong,
+.article-body > ol > li strong{ color:var(--ink-1); font-weight:600; }
+.article-body > p em,
+.article-body > ul > li em{ font-style:italic; color:#1E1812; }
+.article-body > ul, .article-body > ol{ margin:1.25rem 0 1.5rem 1.25rem; }
+.article-body > ul > li, .article-body > ol > li{
+  font-family:var(--reading);
+  margin:.7rem 0; line-height:1.78; color:#2A241D; font-size:18px;
+  letter-spacing:-0.003em;
+  font-feature-settings:"kern","liga","onum";
+  padding-left:.15rem;
+}
+/* Section heading breathing room — scan anchors */
+.article-body .h-chap{ margin-bottom:1.25rem; line-height:1.12; }
+
 .drop-cap::first-letter{
   font-family:var(--display); font-style:italic;
-  font-size:4.8rem; font-weight:400; line-height:.85;
-  float:left; padding:.2rem .55rem 0 0;
-  color:var(--accent-deep); letter-spacing:-.03em;
+  font-size:4.4rem; font-weight:400; line-height:.85;
+  float:left; padding:.08em .12em 0 0;
+  color:var(--accent); letter-spacing:-.03em;
+}
+
+/* Cover figure caption — match reading face */
+.fig-cap{
+  font-family:var(--reading);
+  font-size:16.5px; line-height:1.7; font-style:italic; color:var(--ink-2);
+}
+
+/* Masthead lede — reading face for the editorial top */
+header.mast-dark p[class*="leading-"]{
+  font-family:var(--reading);
+  letter-spacing:-.005em;
+}
+
+/* Tighter optimal measure on desktop — ~70 chars per line */
+@media (min-width: 768px){
+  article.max-w-3xl{ max-width:44rem; }
+  .article-body > p,
+  .article-body > ul > li,
+  .article-body > ol > li{ font-size:19.5px; line-height:1.82; }
 }
 
 /* ───── Pull quotes ─────────────────────────────────────────────────────── */
