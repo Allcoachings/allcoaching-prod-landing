@@ -1,55 +1,57 @@
 /* ============================================================================
-   AllCoaching Brand · v1.0 (May 2026)
-   Editorial cream canvas · Ochre spotlight · Italic display
+   AllCoaching Brand · v1.1 (May 2026)
+   Warmer paper canvas · Ochre spotlight · Fraunces display · Field-manual components
    This file is the single source of truth for every brand surface.
    Load AFTER tw.min.css. Pages can override locally if absolutely needed.
    ============================================================================ */
 
 /* ───── Fonts ───────────────────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
 /* ───── Design tokens ───────────────────────────────────────────────────── */
 :root{
   /* Font families */
   --ui:'Inter Tight','Inter',-apple-system,system-ui,sans-serif;
-  --display:'Instrument Serif','Times New Roman',serif;
+  --display:'Fraunces','Instrument Serif','Times New Roman',serif;
   --reading:'Newsreader','Source Serif Pro',Georgia,'Times New Roman',serif;
   --mono:'JetBrains Mono',ui-monospace,monospace;
 
-  /* Surfaces */
-  --bg:#FAF8F4;
-  --bg-tint:#F6F2EA;
+  /* Surfaces — warmer paper canvas (v1.1) */
+  --bg:#F5F0E8;
+  --bg-tint:#EEE7DA;
   --surface:#FFFFFF;
-  --surface-2:#F5F2EC;
-  --surface-3:#EFEBE2;
+  --surface-2:#EEE7DA;
+  --surface-3:#E3D9C7;
   --sidebar:#15110D;
+  --paper-2:#EEE7DA;        /* alias for callouts/cards */
+  --grain:rgba(21,17,13,.035);  /* dotted texture overlay */
 
   /* Ink */
   --ink-1:#15110D;
   --ink-2:#4F4840;
   --ink-3:#8C8378;
   --ink-4:#B6AEA1;
-  --on-dark-1:#FAF8F4;
-  --on-dark-2:rgba(250,248,244,.72);
-  --on-dark-3:rgba(250,248,244,.42);
+  --on-dark-1:#F5F0E8;
+  --on-dark-2:rgba(245,240,232,.72);
+  --on-dark-3:rgba(245,240,232,.42);
 
   /* Lines */
   --line:rgba(20,17,13,.07);
   --line-2:rgba(20,17,13,.12);
   --line-strong:rgba(20,17,13,.22);
 
-  /* Accent — ochre */
+  /* Accent — ochre (slightly warmer deep tone in v1.1) */
   --accent:#C58B43;
-  --accent-deep:#8E5F22;
+  --accent-deep:#9C6A2E;
   --accent-soft:#F5E8D2;
   --accent-line:#E8CFA3;
   --accent-light:#E0A95C;
-  --accent-grad:linear-gradient(135deg,#E0A95C 0%,#C58B43 55%,#8E5F22 100%);
+  --accent-grad:linear-gradient(135deg,#E0A95C 0%,#C58B43 55%,#9C6A2E 100%);
 
   /* Semantic */
   --positive:#2F8F4E; --positive-soft:#DCF1DE;
   --negative:#C44232; --negative-soft:#F4DCD6;
-  --info:#8E5F22;     --info-soft:#F4EAD0;
+  --info:#9C6A2E;     --info-soft:#F4EAD0;
   --warning:#B08518;  --warning-soft:#F4EAD0;
 
   /* Shadows */
@@ -61,7 +63,7 @@
 
   /* Legacy aliases — for compatibility with existing styles.css references */
   --primary:#C58B43;
-  --primary-700:#8E5F22;
+  --primary-700:#9C6A2E;
   --primary-50:#F5E8D2;
   --ink:#15110D;
   --muted:#8C8378;
@@ -76,7 +78,9 @@ body{
   background:var(--bg);
   background-image:
     radial-gradient(1200px 600px at 100% -10%, rgba(197,139,67,.08), transparent 60%),
-    radial-gradient(900px 500px at -10% 110%, rgba(197,139,67,.05), transparent 60%);
+    radial-gradient(900px 500px at -10% 110%, rgba(197,139,67,.05), transparent 60%),
+    radial-gradient(circle at 1px 1px, var(--grain) 1px, transparent 0);
+  background-size: auto, auto, 4px 4px;
   background-attachment:fixed;
   color:var(--ink-1);
   font-size:14px; line-height:1.55;
@@ -94,7 +98,9 @@ a{ color:var(--accent-deep); }
   background:var(--bg);
   background-image:
     radial-gradient(1200px 600px at 100% -10%, rgba(197,139,67,.08), transparent 60%),
-    radial-gradient(900px 500px at -10% 110%, rgba(197,139,67,.05), transparent 60%);
+    radial-gradient(900px 500px at -10% 110%, rgba(197,139,67,.05), transparent 60%),
+    radial-gradient(circle at 1px 1px, var(--grain) 1px, transparent 0);
+  background-size: auto, auto, 4px 4px;
 }
 
 /* ───── Typography helpers ──────────────────────────────────────────────── */
@@ -983,4 +989,278 @@ header.mast-dark p[class*="leading-"]{
 @media (max-width: 420px){
   .h-mast{ font-size:2.2rem; line-height:1.05; }
   .h-chap{ font-size:1.6rem; }
+}
+
+/* ============================================================================
+   FIELD-MANUAL COMPONENTS (v1.1)
+   Bold editorial vocabulary for playbooks, founder essays, manifesto pages,
+   and longform strategic docs. Opt-in: use these classes on pages that need
+   the heavier treatment. Existing pages remain unchanged.
+   ============================================================================ */
+
+/* ───── Eyebrow — flanked variant (centered with both-side lines) ───────── */
+.eyebrow-flanked{
+  font-family:var(--mono); font-weight:700;
+  font-size:11px; letter-spacing:.18em; text-transform:uppercase;
+  color:var(--accent-deep);
+  display:flex; align-items:center; gap:12px;
+}
+.eyebrow-flanked::before, .eyebrow-flanked::after{
+  content:''; height:1px; background:var(--accent-deep);
+  flex:1; max-width:60px;
+}
+
+/* ───── Math block — dark stat card with corner label ──────────────────── */
+.math-block{
+  margin:80px 0;
+  padding:48px;
+  background:var(--ink-1); color:var(--on-dark-1);
+  border-radius:2px;
+  position:relative;
+}
+.math-block::before{
+  content:attr(data-label);
+  position:absolute; top:-12px; left:32px;
+  background:var(--accent); color:var(--ink-1);
+  padding:4px 16px;
+  font-family:var(--mono); font-size:11px; font-weight:700;
+  letter-spacing:.15em; text-transform:uppercase;
+}
+.math-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+  gap:32px;
+  margin-top:24px;
+}
+.math-item .num{
+  font-family:var(--display); font-weight:700;
+  font-size:56px; line-height:1; letter-spacing:-.02em;
+  color:var(--accent);
+  margin-bottom:8px;
+}
+.math-item .label{
+  font-family:var(--mono); font-size:11px; font-weight:500;
+  letter-spacing:.1em; text-transform:uppercase;
+  color:var(--on-dark-2); line-height:1.4;
+}
+.math-equation{
+  margin-top:40px; padding-top:32px;
+  border-top:1px solid rgba(245,240,232,.2);
+  font-family:var(--display); font-style:italic; font-weight:400;
+  font-size:22px; text-align:center;
+  color:var(--on-dark-1);
+}
+.math-equation strong{
+  color:var(--accent); font-style:normal; font-weight:700;
+}
+
+/* ───── Phase — large numbered section with sticky meta ────────────────── */
+.phase{
+  display:grid;
+  grid-template-columns:1fr 2.2fr;
+  gap:64px;
+  padding:64px 0;
+  border-top:1px solid var(--line-2);
+  align-items:start;
+}
+.phase-left{ position:sticky; top:32px; }
+.phase-number{
+  font-family:var(--display); font-weight:900;
+  font-size:120px; line-height:.85; letter-spacing:-.05em;
+  color:var(--ink-1);
+  position:relative; display:inline-block;
+}
+.phase-number::after{
+  content:'';
+  position:absolute; bottom:8px; right:-16px;
+  width:12px; height:12px;
+  background:var(--accent); border-radius:50%;
+}
+.phase-meta{
+  margin-top:20px;
+  font-family:var(--mono); font-size:11px; font-weight:500;
+  letter-spacing:.12em; text-transform:uppercase;
+  display:flex; flex-direction:column; gap:8px;
+}
+.phase-meta span{ display:flex; align-items:center; gap:8px; color:var(--ink-2); }
+.phase-meta strong{ color:var(--accent-deep); font-weight:600; }
+.phase-right h3{
+  font-family:var(--display); font-weight:700;
+  font-size:42px; line-height:1; letter-spacing:-.02em;
+  margin-bottom:8px;
+  color:var(--ink-1);
+}
+.phase-right h3 em{
+  font-style:italic; font-weight:400; color:var(--accent);
+}
+.phase-target{
+  font-family:var(--mono); font-size:12px; font-weight:600;
+  letter-spacing:.1em; text-transform:uppercase;
+  color:var(--accent-deep);
+  margin-bottom:24px; padding-bottom:16px;
+  border-bottom:1px dashed var(--line-2);
+}
+.phase-desc{
+  font-family:var(--display); font-weight:400;
+  font-size:19px; line-height:1.55;
+  margin-bottom:32px; color:var(--ink-1);
+}
+
+/* ───── FM-steps — enumerated steps (distinct from existing .step-num) ─── */
+.fm-steps{ display:flex; flex-direction:column; }
+.fm-step{
+  display:grid;
+  grid-template-columns:32px 1fr;
+  gap:20px;
+  padding:20px 0;
+  border-bottom:1px solid var(--line);
+}
+.fm-step:last-child{ border-bottom:none; }
+.fm-step-n{
+  font-family:var(--mono); font-size:13px; font-weight:700;
+  color:var(--accent); padding-top:4px;
+}
+.fm-step-title{
+  font-family:var(--ui); font-size:17px; font-weight:600;
+  margin-bottom:6px; color:var(--ink-1);
+}
+.fm-step-detail{
+  font-family:var(--ui); font-size:14px; line-height:1.55;
+  color:var(--ink-2);
+}
+.fm-step-detail strong{ color:var(--ink-1); font-weight:600; }
+
+/* ───── Callout — paper-2 with gold left border + small label ──────────── */
+.callout{
+  margin:32px 0; padding:24px 28px;
+  background:var(--paper-2);
+  border-left:3px solid var(--accent);
+  font-family:var(--display); font-style:italic; font-weight:400;
+  font-size:17px; line-height:1.5;
+  color:var(--ink-1);
+}
+.callout-label{
+  font-family:var(--mono); font-size:10px; font-weight:700;
+  letter-spacing:.15em; text-transform:uppercase;
+  color:var(--accent-deep);
+  font-style:normal;
+  margin-bottom:8px;
+  display:block;
+}
+
+/* ───── Outcome — dark band with huge gold stat ────────────────────────── */
+.outcome{
+  margin-top:28px; padding:20px 24px;
+  background:var(--ink-1); color:var(--on-dark-1);
+  display:grid;
+  grid-template-columns:auto 1fr;
+  gap:20px; align-items:center;
+}
+.outcome-num{
+  font-family:var(--display); font-weight:700;
+  font-size:56px; line-height:1;
+  color:var(--accent);
+}
+.outcome-label{
+  font-family:var(--mono); font-size:11px; font-weight:600;
+  letter-spacing:.12em; text-transform:uppercase;
+  color:var(--on-dark-2);
+  margin-bottom:4px;
+}
+.outcome-text{
+  font-family:var(--display); font-weight:400;
+  font-size:18px; line-height:1.4;
+  color:var(--on-dark-1);
+}
+
+/* ───── Routine — dark full-width band with time-stamped cards ─────────── */
+.routine-section{
+  margin:120px 0 80px;
+  padding:64px 48px;
+  background:var(--ink-1); color:var(--on-dark-1);
+}
+.routine-section h2{
+  font-family:var(--display); font-weight:700;
+  font-size:48px; letter-spacing:-.02em;
+  margin-bottom:8px;
+  color:var(--on-dark-1);
+}
+.routine-section h2 em{
+  font-style:italic; font-weight:400; color:var(--accent);
+}
+.routine-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+  gap:24px;
+  margin-top:40px;
+}
+.routine-card{
+  padding:24px;
+  background:rgba(245,240,232,.04);
+  border:1px solid rgba(245,240,232,.1);
+  border-radius:2px;
+}
+.routine-time{
+  font-family:var(--mono); font-size:13px; font-weight:700;
+  color:var(--accent); letter-spacing:.1em;
+  margin-bottom:12px;
+}
+.routine-card h4{
+  font-family:var(--display); font-weight:600;
+  font-size:22px; line-height:1.2;
+  margin-bottom:8px;
+  color:var(--on-dark-1);
+}
+.routine-card p{
+  font-size:14px; line-height:1.5;
+  color:var(--on-dark-2);
+}
+
+/* ───── Commandments — do/don't grid (semantic red/green) ──────────────── */
+.commandment-list{
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap:24px;
+}
+.cmd{
+  padding:24px;
+  border-radius:2px;
+  display:grid;
+  grid-template-columns:40px 1fr;
+  gap:16px;
+}
+.cmd.dont{
+  background:rgba(196,66,50,.06);
+  border-left:3px solid var(--negative);
+}
+.cmd.do{
+  background:rgba(47,143,78,.06);
+  border-left:3px solid var(--positive);
+}
+.cmd-icon{
+  font-family:var(--display); font-weight:900;
+  font-size:28px; line-height:1; padding-top:2px;
+}
+.cmd.dont .cmd-icon{ color:var(--negative); }
+.cmd.do .cmd-icon{ color:var(--positive); }
+.cmd-text{
+  font-family:var(--ui); font-size:15px; line-height:1.5;
+}
+.cmd-text strong{
+  font-family:var(--display); font-weight:700;
+  font-size:17px;
+  display:block; margin-bottom:4px;
+}
+
+/* ───── Responsive — field-manual components ───────────────────────────── */
+@media (max-width: 768px){
+  .phase{ grid-template-columns:1fr; gap:24px; }
+  .phase-left{ position:static; }
+  .phase-number{ font-size:80px; }
+  .phase-right h3{ font-size:30px; }
+  .math-block{ padding:32px 24px; }
+  .math-item .num{ font-size:42px; }
+  .routine-section{ padding:40px 24px; }
+  .commandment-list{ grid-template-columns:1fr; }
+  .outcome{ grid-template-columns:1fr; }
 }

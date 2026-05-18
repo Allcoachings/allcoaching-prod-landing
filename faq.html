@@ -56,7 +56,7 @@
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="preload" as="image" href="./assets/AllCoaching-logo.webp" fetchpriority="high" />
   <link rel="preload" as="style" href="./brand.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./dist/tw.min.css" />
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="./brand.css" />
@@ -221,14 +221,14 @@
     .cat-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:.65rem; margin-top:2rem; }
     .cat-pill{ display:flex; align-items:center; gap:.65rem; padding:14px 16px; background:#FFFFFF; border:1px solid rgba(20,17,13,.08); border-radius:12px; text-decoration:none; transition:all .22s cubic-bezier(.22,.85,.25,1); }
     .cat-pill:hover{ border-color:#C58B43; transform:translateY(-2px); box-shadow:0 10px 24px -10px rgba(197,139,67,.3); }
-    .cat-pill .cat-n{ flex-shrink:0; width:34px; height:34px; border-radius:50%; background:linear-gradient(135deg,#FBF6EA,#F5E8D2); display:flex; align-items:center; justify-content:center; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:800; color:#8E5F22; border:1px solid rgba(197,139,67,.3); }
+    .cat-pill .cat-n{ flex-shrink:0; width:34px; height:34px; border-radius:50%; background:linear-gradient(135deg,#FBF6EA,#F5E8D2); display:flex; align-items:center; justify-content:center; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:800; color:#9C6A2E; border:1px solid rgba(197,139,67,.3); }
     .cat-pill .cat-l{ flex:1; min-width:0; }
     .cat-pill .cat-name{ font-weight:700; font-size:14px; color:#15110D; line-height:1.3; }
     .cat-pill .cat-count{ font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.12em; font-weight:700; color:#8C8378; text-transform:uppercase; margin-top:2px; }
 
     /* Category headers */
     .cat-h{ display:flex; align-items:baseline; gap:.85rem; margin:3.5rem 0 1.25rem; padding-bottom:.85rem; border-bottom:2px solid rgba(197,139,67,.2); }
-    .cat-num{ font-family:'Instrument Serif',serif; font-style:italic; font-size:clamp(1.6rem, 2.8vw, 2.2rem); line-height:1; background:linear-gradient(135deg,#E0A95C,#C58B43,#8E5F22); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.04em; }
+    .cat-num{ font-family:'Fraunces','Fraunces','Instrument Serif',serif; font-style:italic; font-size:clamp(1.6rem, 2.8vw, 2.2rem); line-height:1; background:linear-gradient(135deg,#E0A95C,#C58B43,#9C6A2E); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.04em; }
 
     /* FAQ items */
     .faq-item{ background:#FFFFFF; border:1px solid rgba(20,17,13,.08); border-radius:12px; margin-bottom:.65rem; overflow:hidden; transition:border-color .2s ease; }
@@ -241,8 +241,8 @@
     .faq-item summary:hover{ color:#5F3D11; }
     .faq-item p{ margin:0; padding:0 1.4rem 1.25rem; font-size:14.5px; line-height:1.7; color:#4F4840; }
     .faq-item p strong{ color:#15110D; }
-    .faq-item .related-link{ margin:0 1.4rem 1.25rem; font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.12em; font-weight:700; color:#8E5F22; text-transform:uppercase; }
-    .faq-item .related-link a{ color:#8E5F22; text-decoration:underline; }
+    .faq-item .related-link{ margin:0 1.4rem 1.25rem; font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.12em; font-weight:700; color:#9C6A2E; text-transform:uppercase; }
+    .faq-item .related-link a{ color:#9C6A2E; text-decoration:underline; }
 
     /* Filter / search box */
     .filter-shell{ position:sticky; top:90px; z-index:30; background:rgba(250,248,244,.92); backdrop-filter:saturate(180%) blur(12px); -webkit-backdrop-filter:saturate(180%) blur(12px); border:1px solid rgba(20,17,13,.08); border-radius:14px; padding:.75rem; margin:1.5rem 0 2rem; box-shadow:0 6px 18px -12px rgba(38,28,14,.18); }
@@ -253,7 +253,7 @@
     .stat-strip{ display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:0; margin-top:2.5rem; border-top:1px solid rgba(20,17,13,.08); border-bottom:1px solid rgba(20,17,13,.08); padding:1.25rem 0; }
     .stat-cell{ text-align:center; padding:0 .85rem; position:relative; }
     .stat-cell + .stat-cell::before{ content:''; position:absolute; left:0; top:20%; bottom:20%; width:1px; background:rgba(20,17,13,.08); }
-    .stat-num{ font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:clamp(1.6rem, 3vw, 2.3rem); line-height:1; background:linear-gradient(135deg,#15110D 0%,#3A2710 50%,#8E5F22 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.025em; }
+    .stat-num{ font-family:'Fraunces','Fraunces','Instrument Serif',serif; font-style:italic; font-weight:400; font-size:clamp(1.6rem, 3vw, 2.3rem); line-height:1; background:linear-gradient(135deg,#15110D 0%,#3A2710 50%,#9C6A2E 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.025em; }
     .stat-lab{ font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:.16em; font-weight:700; color:#8C8378; text-transform:uppercase; margin-top:6px; }
 
     /* Scroll-reveal */
@@ -262,7 +262,7 @@
     @media (prefers-reduced-motion: reduce){ .reveal{ opacity:1; transform:none; transition:none; } }
 
     .hidden-item{ display:none !important; }
-    .bg-tint{ background:#F6F2EA; }
+    .bg-tint{ background:#EEE7DA; }
     a:focus-visible, button:focus-visible{ outline:2px solid #C58B43; outline-offset:3px; border-radius:6px; }
   </style>
 </head>
@@ -322,7 +322,7 @@
       <span class="grad-text">questions.</span>
     </h1>
     <p class="lede mt-6 max-w-2xl mx-auto" style="font-size:1.15rem; line-height:1.7; color:#4F4840;">
-      40 of the most-asked questions about AllCoaching answered by founder <a href="/author/amit-ratan" style="color:#8E5F22; text-decoration:underline; font-weight:700;">Amit Ratan</a>. Pricing, platform, GST, marketplace, payouts, security, comparisons, data — all in one canonical page. Type to filter, or jump to a category below.
+      40 of the most-asked questions about AllCoaching answered by founder <a href="/author/amit-ratan" style="color:#9C6A2E; text-decoration:underline; font-weight:700;">Amit Ratan</a>. Pricing, platform, GST, marketplace, payouts, security, comparisons, data — all in one canonical page. Type to filter, or jump to a category below.
     </p>
 
     <!-- Stats -->
@@ -343,7 +343,7 @@
       <div class="flex items-center gap-2 px-3">
         <svg class="w-5 h-5" style="color:#8C8378;"><use href="#i-search"/></svg>
         <input type="search" id="faq-filter" placeholder="Filter questions… (e.g. 'GST', 'payout', 'refund')" aria-label="Filter FAQ" autocomplete="off" />
-        <span id="faq-counter" style="font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:800; color:#8E5F22; letter-spacing:.12em; white-space:nowrap;">40 / 40</span>
+        <span id="faq-counter" style="font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:800; color:#9C6A2E; letter-spacing:.12em; white-space:nowrap;">40 / 40</span>
       </div>
     </div>
 
@@ -619,7 +619,7 @@
 </main>
 
 <!-- FOOTER -->
-<footer class="bg-[#F6F2EA] border-t border-[#E5DDD0] pt-16 pb-8">
+<footer class="bg-[#EEE7DA] border-t border-[#E5DDD0] pt-16 pb-8">
   <div class="max-w-7xl mx-auto px-5 grid md:grid-cols-12 gap-10">
     <div class="md:col-span-4">
       <a href="/" class="inline-block"><img src="./assets/AllCoaching-logo.webp" alt="AllCoaching" class="h-11 w-auto" decoding="async" width="200" height="50" /></a>
