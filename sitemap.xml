@@ -179,6 +179,34 @@
   <!-- ============ Blog posts — newest first ============ -->
 
   <url>
+    <loc>https://allcoaching.in/hinglish/blog/teachers-ke-liye-best-coaching-app-2026</loc>
+    <lastmod>2026-05-19T12:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.92</priority>
+    <xhtml:link rel="alternate" hreflang="hi-latn-in" href="https://allcoaching.in/hinglish/blog/teachers-ke-liye-best-coaching-app-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allcoaching.in/hinglish/blog/teachers-ke-liye-best-coaching-app-2026" />
+    <image:image>
+      <image:loc>https://allcoaching-store.b-cdn.net/blog-images/teachers-ke-liye-best-coaching-app-2026.webp</image:loc>
+      <image:title>Teachers Ke Liye Best Coaching App 2026 — Top 5 Apps Ka Honest Verdict (Hinglish)</image:title>
+      <image:caption>A founder-written Hinglish architectural comparison of the top 5 coaching apps for Indian teachers in 2026 — Classplus (white-label SaaS, Year-1 ₹4–11L), Teachmint (classroom infra + white-label, ₹3–9L), Graphy (Unacademy-owned creator LMS, ₹40K–₹2L/year), Unacademy Educator (Big EdTech creator side, 50–60% rev split with structural absorption), and AllCoaching (educator marketplace, ₹0 upfront + 10% rev-share with 90% to educator). Reframes feature-checklist comparison as architecture comparison across 10 dimensions — upfront cost, Year-1 real total, distribution/discovery, revenue split, student ownership, Hindi + regional language support, live class + DRM maturity, GST automation, lock-in. Decision matrix for 6 teacher profiles (solo, small batch, tuition centre, multi-branch chain, English creator, celebrity educator). Three first-person Experience signals from "Across the AllCoaching educator base in 2026..." and "From the field, 2026..." patterns. Manifesto-anchored thesis — "Having an app and having an audience are two completely different things." Seven JSON-LD schemas including ItemList (5 apps compared), SoftwareApplication (AllCoaching Educator Marketplace) with 12-item featureList, HowTo (5-step app selection framework), FAQPage (10 Q/A), DefinedTermSet (8 glossary terms). Speakable specification.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://allcoaching.in/hinglish/blog/apna-coaching-app-kaise-banaye-free</loc>
+    <lastmod>2026-05-19T11:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="hi-latn-in" href="https://allcoaching.in/hinglish/blog/apna-coaching-app-kaise-banaye-free" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allcoaching.in/hinglish/blog/apna-coaching-app-kaise-banaye-free" />
+    <image:image>
+      <image:loc>https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp</image:loc>
+      <image:title>Apna Coaching App Kaise Banaye Free — A 2026 Founder's Mega Guide (Hinglish)</image:title>
+      <image:caption>A founder-written Hinglish mega guide for Indian educators on launching a complete coaching app in 2026 for ₹0 upfront. Three real paths compared — DIY (Flutter/hire developer = ₹3–15L), white-label SaaS (₹4–11L Year-1 trap), and the AllCoaching educator marketplace (₹0 upfront + 10% revenue-share, daily payouts). Seven-layer infrastructure breakdown (live class server, video DRM, payment gateway, student CRM, fee management, marketing/discovery, GST invoicing), AllCoaching's 60-second six-step educator onboarding (mobile OTP → name → subject → brand → plan → launch), and real ₹ economics for a ₹10L revenue educator. Six JSON-LD schemas including HowTo (60-second onboarding workflow) and SoftwareApplication (AllCoaching Educator Studio free coaching app). Speakable specification.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://allcoaching.in/blog/how-to-create-interactive-mock-tests-online</loc>
     <lastmod>2026-05-18T17:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -192,7 +220,7 @@
 
   <url>
     <loc>https://allcoaching.in/blog/student-progress-tracking-analytics-tools-coaching-india</loc>
-    <lastmod>2026-05-18T17:00:00+05:30</lastmod>
+    <lastmod>2026-05-19T11:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.92</priority>
     <image:image>
@@ -204,7 +232,7 @@
 
   <url>
     <loc>https://allcoaching.in/blog/multi-language-lms-for-regional-indian-languages</loc>
-    <lastmod>2026-05-17T20:00:00+05:30</lastmod>
+    <lastmod>2026-05-19T11:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.92</priority>
     <image:image>
@@ -216,7 +244,7 @@
 
   <url>
     <loc>https://allcoaching.in/blog/how-to-create-landing-page-for-online-course</loc>
-    <lastmod>2026-05-17T18:00:00+05:30</lastmod>
+    <lastmod>2026-05-19T11:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.92</priority>
     <image:image>

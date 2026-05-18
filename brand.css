@@ -558,6 +558,9 @@ header.mast-dark p[class*="leading-"]{
 .cmp-r4 span{ font-family:var(--ui); font-size:13.5px; color:var(--ink-2); line-height:1.5; }
 .cmp-r4 span:first-child{ color:var(--ink-1); font-weight:600; }
 
+.cmp-acc{ color:var(--accent-deep); font-weight:700; border-left:3px solid var(--accent); padding-left:10px; }
+.cmp-acc-strong{ font-weight:800; }
+
 .ic-y{ color:var(--positive); font-weight:900; }
 .ic-n{ color:var(--negative); font-weight:900; }
 .ic-p{ color:var(--warning); font-weight:900; }
