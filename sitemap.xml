@@ -57,7 +57,7 @@
     <image:image>
       <image:loc>https://allcoaching.in/assets/Amit-Ratan.webp</image:loc>
       <image:title>Amit Ratan — Founder &amp; CEO, AllCoaching</image:title>
-      <image:caption>Official profile of Amit Ratan, founder of AllCoaching — India's first educator-first marketplace. Includes founding story (Prayagraj 2016 → 2018 v1 → 2026 launch), areas of expertise, published essays, and verified social profiles.</image:caption>
+      <image:caption>Official profile of Amit Ratan, founder of AllCoaching — India's first educator-first marketplace. Includes founding story (Prayagraj 2016 → 2018 v1 → 2026 launch), areas of expertise, published guides, and verified social profiles.</image:caption>
     </image:image>
   </url>
 
@@ -125,16 +125,54 @@
     </image:image>
   </url>
 
-  <!-- ============ Blog hub (index of all essays) ============ -->
+  <!-- ============ Blog hub — trilingual (EN canonical) ============ -->
   <url>
     <loc>https://allcoaching.in/blog/</loc>
-    <lastmod>2026-05-16T14:00:00+05:30</lastmod>
+    <lastmod>2026-05-19T11:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-in" href="https://allcoaching.in/blog/" />
+    <xhtml:link rel="alternate" hreflang="hi-in" href="https://allcoaching.in/hi/blog/" />
+    <xhtml:link rel="alternate" hreflang="hi-latn-in" href="https://allcoaching.in/hinglish/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allcoaching.in/blog/" />
     <image:image>
       <image:loc>https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp</image:loc>
-      <image:title>AllCoaching Blog — Essays on the Future of Online Education in India</image:title>
-      <image:caption>The complete index of long-form essays on educator infrastructure, marketplace economics, AI workflows, EdTech compliance, and the future of online teaching in India — by founder Amit Ratan.</image:caption>
+      <image:title>AllCoaching Blog — Guides on the Future of Online Education in India</image:title>
+      <image:caption>The complete index of long-form guides on educator infrastructure, marketplace economics, AI workflows, EdTech compliance, and the future of online teaching in India — by founder Amit Ratan.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============ Blog hub — Hindi edition ============ -->
+  <url>
+    <loc>https://allcoaching.in/hi/blog/</loc>
+    <lastmod>2026-05-19T11:00:00+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en-in" href="https://allcoaching.in/blog/" />
+    <xhtml:link rel="alternate" hreflang="hi-in" href="https://allcoaching.in/hi/blog/" />
+    <xhtml:link rel="alternate" hreflang="hi-latn-in" href="https://allcoaching.in/hinglish/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allcoaching.in/blog/" />
+    <image:image>
+      <image:loc>https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp</image:loc>
+      <image:title>AllCoaching हिंदी ब्लॉग — इंडियन टीचर्स के लिए ऑनलाइन टीचिंग पर गाइड्स</image:title>
+      <image:caption>इंडियन टीचर्स के लिए लॉन्ग-फॉर्म हिंदी गाइड्स — टीचर इन्फ्रास्ट्रक्चर, मार्केटप्लेस इकॉनॉमिक्स, AI वर्कफ्लोज़ और EdTech कम्प्लायंस पर। फाउंडर अमित रतन ने खुद लिखे।</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============ Blog hub — Hinglish edition ============ -->
+  <url>
+    <loc>https://allcoaching.in/hinglish/blog/</loc>
+    <lastmod>2026-05-19T11:00:00+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en-in" href="https://allcoaching.in/blog/" />
+    <xhtml:link rel="alternate" hreflang="hi-in" href="https://allcoaching.in/hi/blog/" />
+    <xhtml:link rel="alternate" hreflang="hi-latn-in" href="https://allcoaching.in/hinglish/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allcoaching.in/blog/" />
+    <image:image>
+      <image:loc>https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp</image:loc>
+      <image:title>AllCoaching Hinglish Blog — Indian Teachers ke liye Long-form Guides</image:title>
+      <image:caption>Founder ne khud likhi long-form Hinglish guides — teacher infrastructure, marketplace economics, AI workflows aur EdTech compliance pe. Apni bhasha mein, apne hisaab se.</image:caption>
     </image:image>
   </url>
 
@@ -469,6 +507,8 @@
     <lastmod>2026-05-15T16:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="hi-latn-in" href="https://allcoaching.in/blog/online-coaching-academy-without-coding" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allcoaching.in/blog/online-coaching-academy-without-coding" />
     <image:image>
       <image:loc>https://allcoaching-store.b-cdn.net/blog-images/online-coaching-academy-without-coding.webp</image:loc>
       <image:title>Online Coaching Academy Bina Coding — Hinglish Step-by-Step Guide</image:title>
