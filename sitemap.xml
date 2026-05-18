@@ -141,6 +141,30 @@
   <!-- ============ Blog posts — newest first ============ -->
 
   <url>
+    <loc>https://allcoaching.in/blog/how-to-create-interactive-mock-tests-online</loc>
+    <lastmod>2026-05-18T17:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.92</priority>
+    <image:image>
+      <image:loc>https://allcoaching-store.b-cdn.net/blog-images/how-to-create-interactive-mock-tests-online.webp</image:loc>
+      <image:title>How to Create Interactive Mock Tests Online — AllCoaching 2026 Engagement Playbook</image:title>
+      <image:caption>The 2026 playbook for building interactive online mock tests for Indian coaching institutes — auto-grading, AI question generation, real-time leaderboards, topic analytics, mobile-first attempt UX, and the integrated test portal architecture that converts testing from a static chore into a compounding engagement loop. Six JSON-LD schemas including HowTo (7-stage authoring-to-analytics workflow) and SoftwareApplication (AllCoaching Test Portal) with 10-item featureList. Speakable specification.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://allcoaching.in/blog/student-progress-tracking-analytics-tools-coaching-india</loc>
+    <lastmod>2026-05-18T17:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.92</priority>
+    <image:image>
+      <image:loc>https://allcoaching-store.b-cdn.net/blog-images/student-progress-tracking-analytics-tools-coaching-india.webp</image:loc>
+      <image:title>Student Progress Tracking &amp; Analytics Tools — AllCoaching 2026 India Manager's Guide</image:title>
+      <image:caption>A founder-written operational guide for Indian coaching managers on student progress tracking and analytics — what to track (engagement, mastery, drop-off risk), which signals predict exam outcomes, and the integrated analytics architecture that converts mock-test attempt data and content engagement into a longitudinal retention signal. Six JSON-LD schemas with Speakable specification.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://allcoaching.in/blog/multi-language-lms-for-regional-indian-languages</loc>
     <lastmod>2026-05-17T20:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -310,7 +334,7 @@
 
   <url>
     <loc>https://allcoaching.in/blog/how-to-start-online-academy-in-5-steps</loc>
-    <lastmod>2026-05-15T17:00:00+05:30</lastmod>
+    <lastmod>2026-05-18T17:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>

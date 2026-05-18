@@ -13,8 +13,8 @@
     <copyright>© 2026 AllCoaching Technologies Pvt. Ltd.</copyright>
     <managingEditor>allcoachingss@gmail.com (Amit Ratan)</managingEditor>
     <webMaster>allcoachingss@gmail.com (Amit Ratan)</webMaster>
-    <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    <lastBuildDate>Sun, 17 May 2026 04:12:24 +0000</lastBuildDate>
+    <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 18 May 2026 13:29:45 +0000</lastBuildDate>
     <category>Education</category>
     <category>EdTech</category>
     <category>India</category>
@@ -32,6 +32,32 @@
     <sy:updateFrequency>1</sy:updateFrequency>
 
     <item>
+      <title>How to Create Interactive Mock Tests Online — The 2026 Engagement Playbook for Educators</title>
+      <link>https://allcoaching.in/blog/how-to-create-interactive-mock-tests-online</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/how-to-create-interactive-mock-tests-online</guid>
+      <description>Static PDF mock tests are quietly killing engagement. The 2026 playbook for Indian educators: build interactive online mock tests with live analytics, AI-generated questions, auto-grading, and an integrated test portal that turns testing from a chore into a habit.</description>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/how-to-create-interactive-mock-tests-online.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Student Progress Tracking &amp;amp; Analytics Tools — The 2026 India Manager's Operational Guide</title>
+      <link>https://allcoaching.in/blog/student-progress-tracking-analytics-tools-coaching-india</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/student-progress-tracking-analytics-tools-coaching-india</guid>
+      <description>Indian coaching institute managers searching for student progress tracking and analytics tools are usually solving the wrong problem. The real bottleneck for NEET, JEE, UPSC, SSC, banking, CAT, and state-board institutes running 200–2,000 paid students is not attendance capture — it is the six-layer operational architecture: individual proficiency mapping, batch health scoring, Faculty Effectiveness Index, content performance heatmaps, cohort retention curves, and predictive drop-off risk. Excel, Google Sheets, Power BI, Looker Studio, Tableau, and most standalone student-tracking modules treat analytics as a reporting problem solved by stacking charts. The 2026 architectural answer is the integrated AllCoaching Analytics Studio — where the same login that publishes content, collects fees, and onboards students also surfaces the seven Monday-morning decisions a coaching manager actually makes. This is the honest 2026 guide to student progress tracking — six layers, Faculty Effectiveness Index, drop-off risk recovery of 18–32% of paid students, Learner Lifetime Value math at 1.8–3.4× initial fee, and the seven-day adoption playbook.</description>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/student-progress-tracking-analytics-tools-coaching-india.webp" type="image/webp" />
+    </item>
+    <item>
       <title>How to Create a Landing Page for an Online Course — The 2026 Indian Educator's Honest Guide</title>
       <link>https://allcoaching.in/blog/how-to-create-landing-page-for-online-course</link>
       <guid isPermaLink="true">https://allcoaching.in/blog/how-to-create-landing-page-for-online-course</guid>
@@ -43,6 +69,19 @@
       <category>Indian Online Education</category>
       <category>Educator Marketplace</category>
       <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/how-to-create-landing-page-for-online-course.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Multi-Language LMS for Regional Indian Languages — The 2026 Educator's Honest Guide</title>
+      <link>https://allcoaching.in/blog/multi-language-lms-for-regional-indian-languages</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/multi-language-lms-for-regional-indian-languages</guid>
+      <description>Indian educators searching for a multi-language LMS are usually solving the wrong problem. The real bottleneck for Hindi, Tamil, Telugu, Kannada, Malayalam, Bengali, Marathi, Gujarati, Punjabi, Odia, Assamese, and Urdu teachers is not LMS UI translation — it is content discovery in the learner's language. Moodle, Canvas, Teachable, Thinkific, and most Indian alternatives treat multi-language as a UI problem solved by translating menus. The 2026 architectural answer is AI marketplace matching by language + geography — where the educator posts in their native language and the platform AI auto-targets students whose declared and inferred language preferences match. This is the honest 2026 guide to multi-language LMS economics, NEP 2020 alignment, and the marketplace alternative.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/multi-language-lms-for-regional-indian-languages.webp" type="image/webp" />
     </item>
     <item>
       <title>Best UPI Payment Gateway for Online Courses in India — 2026 Educator's Honest Guide</title>
