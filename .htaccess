@@ -39,6 +39,17 @@ ErrorDocument 500 /404.html
   RewriteRule ^app-fatigue-allcoaching/?$ /blog/edtech-marketplace-india-app-fatigue [R=301,L,NE]
   RewriteRule ^classplus-vs-graphy-vs-allcoaching/?$ /blog/classplus-vs-graphy-vs-allcoaching [R=301,L,NE]
 
+  # BEGIN-AUTO-REDIRECTS — managed by scripts/build_redirects.py (do not edit between markers)
+  # Hinglish post moved under /blogs/ unified hub
+  RewriteRule ^hinglish/blog/apna\-coaching\-app\-kaise\-banaye\-free/?$ /blogs/hinglish/apna-coaching-app-kaise-banaye-free [R=301,L,NE]
+  # Hinglish post moved under /blogs/ unified hub
+  RewriteRule ^hinglish/blog/teachers\-ke\-liye\-best\-coaching\-app\-2026/?$ /blogs/hinglish/teachers-ke-liye-best-coaching-app-2026 [R=301,L,NE]
+  # Hinglish blog index → /blogs/hinglish/ filter view
+  RewriteRule ^hinglish/blog/?$ /blogs/hinglish/ [R=301,L,NE]
+  # Hindi blog index (was empty) → /blogs/hi/ filter view (empty state)
+  RewriteRule ^hi/blog/?$ /blogs/hi/ [R=301,L,NE]
+  # END-AUTO-REDIRECTS
+
   # Strip trailing .html — pretty URLs (/about → /about.html internally)
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
