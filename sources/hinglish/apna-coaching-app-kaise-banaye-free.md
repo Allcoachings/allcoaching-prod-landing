@@ -198,7 +198,7 @@ schema_extra:
 <h3>"Free Coaching App" — Asli Definition</h3>
 <p>A coaching app jaha educator ka <strong>upfront cash outlay ₹0</strong> ho — no signup fee, no monthly subscription, no developer hire, no infrastructure purchase. Platform tabhi kamata hai jab educator kamata hai (revenue-share model). AllCoaching iss definition ko fit karta hai; white-label SaaS aur DIY routes nahi fit karte, kyunki dono me significant upfront ya recurring cash outlay hota hai — chahe woh paisa ho ya 6 mahine ka time.</p>
 </div>
-<p>Across the <a href="/blog/edtech-marketplace-india-app-fatigue">AllCoaching educator base in 2026</a>, we have observed a consistent pattern — <strong>educators jo DIY route ya white-label route lete hain woh Phase 2 me ruk jaate hain</strong>. App ban gayi, lekin students aaye nahi. Kyunki "app banana" sirf 30% problem hai. Baki 70% problem — students kahaan se aayenge — har route me alag tarah se solve hota hai. Aur sirf marketplace route iss problem ko architecture me hi solve karta hai. Yeh structural difference hi pehle 100 educators ka result alag banata hai.</p>
+<p>Across the <a style="text-decoration:none" href="/blog/edtech-marketplace-india-app-fatigue">AllCoaching educator base in 2026</a>, we have observed a consistent pattern — <strong>educators jo DIY route ya white-label route lete hain woh Phase 2 me ruk jaate hain</strong>. App ban gayi, lekin students aaye nahi. Kyunki "app banana" sirf 30% problem hai. Baki 70% problem — students kahaan se aayenge — har route me alag tarah se solve hota hai. Aur sirf marketplace route iss problem ko architecture me hi solve karta hai. Yeh structural difference hi pehle 100 educators ka result alag banata hai.</p>
 <div class="pull"><p>Aapko app banani nahi hai. Aapko ek <em>system</em> banana hai — teaching + payments + discovery — jo automatically chalein. App us system ka ek surface hai, problem nahi.</p></div>
 </section>
 <div class="orn">· · ·</div>
@@ -219,7 +219,7 @@ schema_extra:
 <h3>Kya Flutter seekhke main khud apni coaching app bana sakta hu — bina developer hire kiye?</h3>
 <p>Theoretically yes — agar aapke pass 6-12 months full-time hain aur software engineering background hai. Practically no — aap educator hain, developer nahi. Flutter seekhna chhota nahi hai (40-60 hours just basics), aur production-grade coaching app ke liye state management, video streaming, push notifications, in-app payments, analytics — yeh sab ek-ek karke crack karne me 12+ months chahiye. <strong>Yeh 12 mahine teaching ke nahi hain.</strong> Educator ka opportunity cost — student ko teach karne ke 12 mahine + sambandhit ₹4-12 lakh missed revenue — iss route ka asli hidden cost hai jo kabhi calculate nahi hota.</p>
 </div>
-<p>DIY ke liye sirf ek scenario justified hai — aap large coaching institute hain (5,000+ students), aapke pass dedicated tech team hai, aur aapko absolute customization chahiye. Solo educator ya 50-500 student institutes ke liye yeh route economic suicide hai. <a href="/blog/white-label-coaching-app-development-cost-india">White-label coaching app development cost India</a> guide me iss math ka line-by-line breakdown hai.</p>
+<p>DIY ke liye sirf ek scenario justified hai — aap large coaching institute hain (5,000+ students), aapke pass dedicated tech team hai, aur aapko absolute customization chahiye. Solo educator ya 50-500 student institutes ke liye yeh route economic suicide hai. <a style="text-decoration:none" href="/blog/white-label-coaching-app-development-cost-india">White-label coaching app development cost India</a> guide me iss math ka line-by-line breakdown hai.</p>
 <div class="pull-red"><p>"Mai khud app banwa lunga" wala thought 99% educators ka phase-1 dream hota hai. Aur 99% educators ka phase-1 grave bhi yahi hota hai.</p></div>
 </section>
 <div class="orn">· · ·</div>
@@ -251,7 +251,7 @@ schema_extra:
 <p class="math-equation">Advertised price × 12 = <strong>~₹40K-1.5L.</strong> Real Year-1 = <strong>₹4-11 lakh.</strong></p>
 </div>
 <p>Yeh 7 hidden layers kya hain? Pehla — <strong>setup &amp; migration fee</strong> (₹15-50K one-time). Doosra — <strong>custom domain + SSL</strong> (₹3-8K/year + ek-time setup). Teesra — <strong>payment gateway commission</strong> (Razorpay 2% standard, par white-label wallah aksar 1% additional layer charge karta hai). Chautha — <strong>video CDN + DRM</strong> (premium tier me extra ₹15-40K/year). Paanchwa — <strong>custom Play Store app build fee</strong> (₹50K-1.5L one-time). Chhata — <strong>marketing campaigns</strong> (Meta/Google ads jo platform run karta hai aapke behalf par — ₹1.5-5L/year). Saatva — <strong>annual subscription lock-in</strong> (cancel karne par penalty ya credit forfeit).</p>
-<p>Across the AllCoaching educator base, hum dekhte hain ki <strong>educators jo white-label se migrate karke aate hain</strong> woh average ₹6.8 lakh Year-1 cost report karte hain — advertised number ka 8-12x. Yeh number sirf isliye nahi sun-ne ko milta kyunki sales team trial conversion par bonus paati hai, sticker shock par nahi. <a href="/blog/best-zero-commission-teaching-platform-india">Best zero-commission teaching platform India</a> me iss hidden cost analysis ka detailed financial decomposition diya gaya hai.</p>
+<p>Across the AllCoaching educator base, hum dekhte hain ki <strong>educators jo white-label se migrate karke aate hain</strong> woh average ₹6.8 lakh Year-1 cost report karte hain — advertised number ka 8-12x. Yeh number sirf isliye nahi sun-ne ko milta kyunki sales team trial conversion par bonus paati hai, sticker shock par nahi. <a style="text-decoration:none" href="/blog/best-zero-commission-teaching-platform-india">Best zero-commission teaching platform India</a> me iss hidden cost analysis ka detailed financial decomposition diya gaya hai.</p>
 <div class="hband"><p><strong>The honest pattern.</strong> White-label SaaS ki advertised price ₹X,XXX/month sirf landing page ka SEO hook hai. Year-1 real total ₹4-11 lakh ke beech aata hai. Yeh structural feature hai — aksar deliberate misdirection nahi, lekin economically educator ke against jaata hai.</p></div>
 </section>
 <div class="orn">· · ·</div>
@@ -271,7 +271,7 @@ schema_extra:
 <h3>Educator Marketplace</h3>
 <p>Multi-educator platform jaha har educator ka apna branded studio hota hai aur saare studios ek shared discovery surface (AI-matched recommendations) par list hote hain. <strong>AllCoaching India ki first AI-driven educator marketplace hai</strong> — combining the branding advantages of white-label apps with the discovery advantages of platform marketplaces. Zero upfront, revenue-share on paid earnings, no lock-in. (Full glossary entry: see <a href="#dfn-educator-marketplace">below</a>.)</p>
 </div>
-<p>Yeh model 2026 me dominate isliye kar raha hai kyunki Indian educator market mature ho gaya hai — 3.5 lakh+ isolated personal apps ban gaye hain (each fighting for the same student), aur students "app fatigue" face kar rahe hain. Ek shared marketplace jaha sab educators discoverable hain, student ke liye comparison-friendly hai, aur educator ke liye distribution-free hai. <a href="/blog/edtech-marketplace-india-app-fatigue">EdTech marketplace India app fatigue</a> me iss thesis ka full architectural analysis hai.</p>
+<p>Yeh model 2026 me dominate isliye kar raha hai kyunki Indian educator market mature ho gaya hai — 3.5 lakh+ isolated personal apps ban gaye hain (each fighting for the same student), aur students "app fatigue" face kar rahe hain. Ek shared marketplace jaha sab educators discoverable hain, student ke liye comparison-friendly hai, aur educator ke liye distribution-free hai. <a style="text-decoration:none" href="/blog/edtech-marketplace-india-app-fatigue">EdTech marketplace India app fatigue</a> me iss thesis ka full architectural analysis hai.</p>
 </section>
 <div class="orn">· · ·</div>
 <!-- ============ SECTION 05 — 7 infrastructure layers ============ -->
@@ -318,7 +318,7 @@ schema_extra:
 <li><strong>Video DRM &amp; CDN.</strong> HLS+AES encrypted streaming, forensic watermarking, screen-record blocking. Without DRM aapki recorded lectures Telegram pe leak ho jaayengi 30 din me. Premium video CDN + DRM ₹20-60K/year standalone. AllCoaching me included.</li>
 <li><strong>Payment gateway.</strong> UPI/card/net-banking/EMI accept karne ka infrastructure. Razorpay standalone account free me available hai but onboarding 5-7 din, KYC complete karna pad ta hai, GST registration zaruri hai. AllCoaching me pre-integrated — student pay karta hai, agle business day educator ke bank account me 90% land hota hai.</li>
 <li><strong>Student CRM.</strong> Attendance, fee payment status, course progress, communication history. 20+ students par WhatsApp + Excel khatm ho jaate hain — Excel formulas tut-te hain, WhatsApp groups overflowing ho jaate hain. Standalone CRM ₹30-90K/year. AllCoaching free tier me built-in.</li>
-<li><strong>Fee management.</strong> Installment tracking, automatic reminders, GST-compliant invoicing, refund processing. <a href="/blog/automated-fee-management-software-for-teachers">Automated fee management software for teachers</a> guide me detail hai. Manual tracking 100+ students par cripple hota hai — 8-12 hours/week wasted on fee chase. AllCoaching me auto-reminders + invoicing included.</li>
+<li><strong>Fee management.</strong> Installment tracking, automatic reminders, GST-compliant invoicing, refund processing. <a style="text-decoration:none" href="/blog/automated-fee-management-software-for-teachers">Automated fee management software for teachers</a> guide me detail hai. Manual tracking 100+ students par cripple hota hai — 8-12 hours/week wasted on fee chase. AllCoaching me auto-reminders + invoicing included.</li>
 <li><strong>Marketing &amp; discovery.</strong> Yahi sabse expensive layer hai — aur most underestimated. DIY/white-label me aapko Meta + Google ads chalane padte hain, content marketing, SEO, influencer tie-ups — annual ₹1.5-5L typical. <strong>AllCoaching me yeh layer hi nahi hai</strong> — kyunki marketplace AI students ko aapke profile tak organically pahunchata hai. Yeh structural advantage hai, monetary nahi sirf.</li>
 <li><strong>GST + invoicing.</strong> India me coaching services par 18% GST applicable hai (specific exemptions ke alawa). Manual invoicing chartered accountant ko outsource ya in-house karna ₹15-40K/year. AllCoaching me automatic GST-compliant invoices per transaction generate hote hain.</li>
 </ol>
@@ -536,7 +536,7 @@ schema_extra:
 </div>
 </div>
 </div>
-<p class="mt-8">Yeh number scenario specific hain, lekin pattern consistent rehta hai. <strong>₹10 lakh annual revenue scenario me</strong> AllCoaching educator ₹9 lakh take-home retain karta hai. DIY route me ₹0 (saara revenue cost recover karne me chala jaata hai). White-label route me aksar net loss hota hai pehle Year me. Yeh sirf ek-time difference nahi hai — Year-2, Year-3 me yeh gap widen hoti hai, kyunki AllCoaching ki marketing/discovery layer organic compounding deti hai. <a href="/blog/affordable-lms-for-independent-educators">Affordable LMS for independent educators</a> guide me iss compounding ki long-run math hai.</p>
+<p class="mt-8">Yeh number scenario specific hain, lekin pattern consistent rehta hai. <strong>₹10 lakh annual revenue scenario me</strong> AllCoaching educator ₹9 lakh take-home retain karta hai. DIY route me ₹0 (saara revenue cost recover karne me chala jaata hai). White-label route me aksar net loss hota hai pehle Year me. Yeh sirf ek-time difference nahi hai — Year-2, Year-3 me yeh gap widen hoti hai, kyunki AllCoaching ki marketing/discovery layer organic compounding deti hai. <a style="text-decoration:none" href="/blog/affordable-lms-for-independent-educators">Affordable LMS for independent educators</a> guide me iss compounding ki long-run math hai.</p>
 <div class="pull"><p>"Free coaching app" ek result hai — sahi architecture choose karne ka. AllCoaching ka rev-share model iss result ko default banata hai, exception nahi.</p></div>
 </section>
 <div class="orn">· · ·</div>
@@ -752,7 +752,7 @@ schema_extra:
     <p class="kicker">More from AllCoaching Blog</p>
     <h2 class="h-chap font-display mt-3">Continue <em>reading</em></h2>
     <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <a href="/blog/white-label-coaching-app-development-cost-india" class="blog-card" aria-label="Read: White-Label Coaching App Development Cost in India">
+      <a style="text-decoration:none" href="/blog/white-label-coaching-app-development-cost-india" class="blog-card" aria-label="Read: White-Label Coaching App Development Cost in India">
         <div class="blog-card-img">
           <img src="https://allcoaching-store.b-cdn.net/blog-images/white-label-coaching-app-development-cost-india.webp" alt="White-label coaching app development cost in India — AllCoaching 2026 honest cost breakdown" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
@@ -766,7 +766,7 @@ schema_extra:
           <div class="blog-card-cta">Read guide</div>
         </div>
       </a>
-      <a href="/blog/online-coaching-academy-without-coding" class="blog-card" aria-label="Read: Bina Coding ke Online Coaching Academy">
+      <a style="text-decoration:none" href="/blog/online-coaching-academy-without-coding" class="blog-card" aria-label="Read: Bina Coding ke Online Coaching Academy">
         <div class="blog-card-img">
           <img src="https://allcoaching-store.b-cdn.net/blog-images/online-coaching-academy-without-coding.webp" alt="Bina coding online coaching academy kaise shuru karein — Hinglish step-by-step guide for educators" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
@@ -780,7 +780,7 @@ schema_extra:
           <div class="blog-card-cta">Read guide</div>
         </div>
       </a>
-      <a href="/blog/edtech-marketplace-india-app-fatigue" class="blog-card" aria-label="Read: EdTech Marketplace India and App Fatigue">
+      <a style="text-decoration:none" href="/blog/edtech-marketplace-india-app-fatigue" class="blog-card" aria-label="Read: EdTech Marketplace India and App Fatigue">
         <div class="blog-card-img">
           <img src="https://allcoaching-store.b-cdn.net/blog-images/edtech-marketplace-india-app-fatigue.webp" alt="EdTech Marketplace India and App Fatigue — How AllCoaching is solving fragmented online education" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
