@@ -1,0 +1,952 @@
+generated_at: '2026-05-19T12:54:34'
+generator: scripts/extract_legacy.py
+note: 'Auto-generated metadata for legacy HTML posts. The HTML files themselves are NOT modified — they remain canonical. Edit the LEGACY_MAPPING dict in extract_legacy.py to change category/tags for a legacy post, then re-run the script. [2026-05-19: 2 hinglish posts migrated to content/hinglish/blog/*.md and removed from manifest.]'
+total_posts: 28
+posts:
+- slug: affordable-lms-for-independent-educators
+  file: blog/affordable-lms-for-independent-educators.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: platforms-tools
+  subcategory: lms-platforms
+  tags:
+  - aud-individual-tutor
+  - format-analysis
+  translation_group: tg-affordable-lms
+  title: Most Affordable LMS for Independent Educators — 2026 Honest Guide
+  description: Searching for the most affordable LMS for independent educators? Discover the hidden costs of traditional LMS platforms and why AllCoaching's AI-driven marketplace is the smarter, cheaper growth engine in 2026.
+  keywords:
+  - most affordable LMS for independent educators
+  - affordable LMS India
+  - best LMS for online coaching
+  - cheap LMS for educators
+  - LMS for NEET teachers
+  - LMS for JEE coaching
+  - online teaching platform India
+  - educator LMS comparison
+  - AllCoaching vs LMS
+  - independent educator platform
+  - low cost LMS India
+  - LMS hidden costs
+  - LMS alternative educators
+  canonical: https://allcoaching.in/blog/affordable-lms-for-independent-educators
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/most-affordable-lms-for-independent-educators.webp
+  published: '2026-04-30'
+  modified: '2026-05-15'
+  word_count: 5300
+- slug: automate-student-onboarding-for-coaching-app
+  file: blog/automate-student-onboarding-for-coaching-app.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: operations
+  subcategory: onboarding
+  tags:
+  - aud-institute-owner
+  - format-howto
+  translation_group: tg-automate-onboarding
+  title: How to Automate Student Onboarding for a Coaching App — 2026 Operational Playbook
+  description: Automating student onboarding is no longer optional for coaching apps — it is the difference between paid signups becoming engaged learners and silent drop-offs in 72 hours. The 2026 operational playbook for Indian educators.
+  keywords:
+  - how to automate student onboarding for coaching app
+  - student onboarding automation
+  - coaching app onboarding flow
+  - automated student enrollment India
+  - coaching institute automation 2026
+  - student lifecycle automation
+  - edtech onboarding funnel
+  - AI student onboarding
+  - coaching business automation
+  - AllCoaching educator platform
+  - student registration automation
+  - coaching app workflow
+  - onboarding drop-off prevention
+  - scalable coaching operations
+  - coaching app activation
+  - automated batch assignment
+  canonical: https://allcoaching.in/blog/automate-student-onboarding-for-coaching-app
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/automate-student-onboarding-for-coaching-app.webp
+  published: '2026-05-11'
+  modified: '2026-05-15'
+  word_count: 5200
+- slug: automated-fee-management-software-for-teachers
+  file: blog/automated-fee-management-software-for-teachers.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: operations
+  subcategory: fee-management
+  tags:
+  - reg-gst
+  - tech-upi
+  - aud-institute-owner
+  - format-analysis
+  translation_group: tg-fee-management
+  title: Automated Fee Management Software for Teachers — 2026 India Founder's Guide
+  description: Manual fee tracking costs Indian coaching institutes ₹1.8–4.8 lakh per year in wasted hours, late collections, and reconciliation errors. The honest 2026 founder's guide to automated fee management software — capabilities, real ₹ costs, GST compliance, and the integrated marketplace alternative.
+  keywords:
+  - automated fee management software for teachers
+  - fee management software india
+  - coaching institute fee software
+  - online fee collection india
+  - automated fee reminders
+  - GST invoicing for coaching
+  - fee management UPI india
+  - recurring fee payment software
+  - batch fee tracking india
+  - coaching ERP fees
+  - AllCoaching fee management
+  - education fee management 2026
+  - fee defaulter tracking
+  - installment fee software india
+  - parent fee app
+  - coaching dashboard india
+  canonical: https://allcoaching.in/blog/automated-fee-management-software-for-teachers
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/automated-fee-management-software-for-teachers.webp
+  published: '2026-05-15'
+  modified: '2026-05-15'
+  word_count: 5400
+- slug: best-free-tools-for-teachers-to-record-lectures
+  file: blog/best-free-tools-for-teachers-to-record-lectures.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: teaching-content
+  subcategory: video-creation
+  tags:
+  - aud-individual-tutor
+  - format-howto
+  translation_group: tg-record-lectures-tools
+  title: Best Free Tools for Teachers to Record Lectures — 2026 Guide for Indian Educators
+  description: 'The best free tools for teachers to record lectures in 2026 — OBS Studio, Loom, ScreenPal, OpenBoard, DaVinci Resolve, CapCut, Descript and more — with honest pros and cons. Plus the bigger question every teacher must answer: where do those lectures actually live so students can find, pay for, and learn from them?'
+  keywords:
+  - best free tools for teachers to record lectures
+  - free screen recording for teachers
+  - OBS Studio for teachers
+  - free whiteboard tools for teachers
+  - free video editor for teachers
+  - record online lectures free
+  - free teaching tools india 2026
+  - lecture recording software free
+  - AllCoaching host lectures
+  - sell recorded lectures india
+  - online lecture platform india
+  - AI lecture editing tools
+  - screen recorder for teachers free
+  - mobile screen recorder for teachers
+  - where to host recorded lectures
+  canonical: https://allcoaching.in/blog/best-free-tools-for-teachers-to-record-lectures
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/best-free-tools-for-teachers-to-record-lectures.webp
+  published: '2026-05-11'
+  modified: '2026-05-15'
+  word_count: 5200
+- slug: best-platform-for-selling-pdf-notes-and-test-series
+  file: blog/best-platform-for-selling-pdf-notes-and-test-series.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: business-monetization
+  subcategory: revenue-streams
+  tags:
+  - aud-individual-tutor
+  - format-comparison
+  translation_group: tg-pdf-notes-test-series
+  title: Best Platform for Selling PDF Notes and Test Series — A Strategic 2026 Guide for Indian Educators
+  description: The best platform for selling PDF notes and test series is not the one with the most tools — it is the one with the strongest distribution. A modern, AI-marketplace-driven analysis for Indian educators in 2026.
+  keywords:
+  - best platform for selling PDF notes and test series
+  - sell PDF notes online India
+  - sell test series online
+  - online platform for educators India
+  - PDF notes selling app
+  - mock test platform for teachers
+  - edtech marketplace India 2026
+  - AI-powered student discovery
+  - AllCoaching educator platform
+  - sell mock tests online
+  - distribution-led edtech
+  - network effects edtech
+  - scalable educator marketplace
+  - no-marketing teaching platform
+  canonical: https://allcoaching.in/blog/best-platform-for-selling-pdf-notes-and-test-series
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/best-platform-for-selling-pdf-notes-and-test-series.webp
+  published: '2026-05-06'
+  modified: '2026-05-15'
+  word_count: 5500
+- slug: best-upi-payment-gateway-for-online-courses
+  file: blog/best-upi-payment-gateway-for-online-courses.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: operations
+  subcategory: payments
+  tags:
+  - tech-upi
+  - reg-gst
+  - format-comparison
+  translation_group: tg-upi-gateway
+  title: Best UPI Payment Gateway for Online Courses in India — 2026 Educator's Honest Guide
+  description: UPI is technically zero-MDR for merchant payments, but Indian course sellers still pay 1.5–2% on most gateway plans plus stacked GST invoicing, settlement, refund, and reconciliation costs. The honest 2026 comparison of UPI gateways for online courses — Razorpay, Cashfree, PhonePe Business, Paytm, Instamojo, Stripe — and the integrated marketplace alternative that ends the stack.
+  keywords:
+  - best upi payment gateway for online courses
+  - upi gateway india 2026
+  - razorpay vs cashfree vs phonepe
+  - upi payment for coaching institute
+  - accept upi payments online courses india
+  - upi autopay subscription education
+  - upi mdr education sector
+  - npci payment gateway india
+  - payment gateway for educators india
+  - allcoaching upi integration
+  - free upi gateway india
+  - online course payment processing india
+  - upi recurring payment education
+  - t+1 settlement upi india
+  - gst invoicing payment gateway india
+  canonical: https://allcoaching.in/blog/best-upi-payment-gateway-for-online-courses
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/best-upi-payment-gateway-for-online-courses.webp
+  published: '2026-05-16'
+  modified: '2026-05-16'
+  word_count: 4800
+- slug: best-zero-commission-teaching-platform-india
+  file: blog/best-zero-commission-teaching-platform-india.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: platforms-tools
+  subcategory: lms-platforms
+  tags:
+  - aud-individual-tutor
+  - format-comparison
+  translation_group: tg-zero-commission
+  title: Best Zero-Commission Teaching Platform in India — The Truth About Hidden Costs (2026)
+  description: Is a zero-commission teaching platform in India truly free? Discover the hidden operational, infrastructure, and marketing costs behind running your own platform — and why AllCoaching's ecosystem model saves educators more money long-term.
+  keywords:
+  - best zero commission teaching platform India
+  - zero commission online teaching platform
+  - free teaching platform India
+  - no commission edtech platform
+  - best platform for online educators India
+  - online teaching platform India 2026
+  - AllCoaching vs zero commission platform
+  - independent educator platform India
+  - online coaching platform commission
+  - edtech marketplace India
+  - best LMS India 2026
+  canonical: https://allcoaching.in/blog/best-zero-commission-teaching-platform-india
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/best-zero-commission-teaching-platform-india.webp
+  published: '2026-05-04'
+  modified: '2026-05-15'
+  word_count: 5400
+- slug: budget-home-studio-setup-for-online-teaching
+  file: blog/budget-home-studio-setup-for-online-teaching.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: teaching-content
+  subcategory: studio-setup
+  tags:
+  - aud-individual-tutor
+  - format-howto
+  translation_group: tg-home-studio
+  title: Budget Home Studio Setup for Online Teaching — ₹15,000 Kit (2026)
+  description: ₹15,000 complete home studio setup for Indian teachers — mic, camera, lighting, pen tablet, backdrop, software. Real prices, 3-tier upgrade path inside.
+  keywords:
+  - budget home studio setup for online teaching
+  - home studio for online teaching India
+  - cheap online teaching setup
+  - online teaching equipment list India
+  - mic for online teaching
+  - camera for online classes India
+  - lighting for online teachers
+  - pen tablet for online teaching
+  - home recording studio for teachers
+  - OBS setup for teachers
+  - online teaching gear budget 2026
+  canonical: https://allcoaching.in/blog/budget-home-studio-setup-for-online-teaching
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/budget-home-studio-setup-for-online-teaching.webp
+  published: '2026-05-13'
+  modified: '2026-05-15'
+  word_count: 3500
+- slug: classplus-vs-graphy-vs-allcoaching
+  file: blog/classplus-vs-graphy-vs-allcoaching.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: platforms-tools
+  subcategory: lms-platforms
+  tags:
+  - format-comparison
+  - aud-institute-owner
+  translation_group: tg-classplus-graphy
+  title: Classplus vs Graphy vs AllCoaching — 2026 Honest Verdict
+  description: Classplus vs Graphy vs AllCoaching — honest 2026 comparison. Which platform wins on discovery, growth and fees for Indian educators? The verdict is clear.
+  keywords:
+  - Classplus vs AllCoaching
+  - Graphy vs AllCoaching
+  - Classplus alternative
+  - best coaching app India
+  - educator marketplace India
+  - online teaching platform India
+  - app fatigue education
+  - future of online education
+  - educator discovery platform
+  canonical: https://allcoaching.in/blog/classplus-vs-graphy-vs-allcoaching
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/classplus-vs-graphy-vs-allcoaching.webp
+  published: '2026-04-25'
+  modified: '2026-05-15'
+  word_count: 5400
+- slug: edtech-marketplace-india-app-fatigue
+  file: blog/edtech-marketplace-india-app-fatigue.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: business-monetization
+  subcategory: industry-trends
+  tags:
+  - format-analysis
+  - aud-institute-owner
+  translation_group: tg-app-fatigue
+  title: 'EdTech Marketplace India: Ending App Fatigue | 2026'
+  description: India's first EdTech marketplace is ending app fatigue. How AllCoaching solves the fragmented online education problem for 3.5 lakh+ isolated Indian educators.
+  keywords:
+  - edtech marketplace india app fatigue
+  - edtech marketplace india
+  - app fatigue india
+  - india edtech marketplace
+  - AllCoaching
+  - India's First EdTech Marketplace
+  - educator marketplace India
+  - educator discovery
+  - alternative to personal teaching apps
+  - fragmented online learning
+  canonical: https://allcoaching.in/blog/edtech-marketplace-india-app-fatigue
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/edtech-marketplace-india-app-fatigue.webp
+  published: '2026-04-25'
+  modified: '2026-05-15'
+  word_count: 4200
+- slug: how-to-conduct-live-classes-on-mobile-apps
+  file: blog/how-to-conduct-live-classes-on-mobile-apps.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: teaching-content
+  subcategory: live-classes
+  tags:
+  - tech-webrtc
+  - format-howto
+  translation_group: tg-live-classes-mobile
+  title: How to Conduct Live Classes on Mobile Apps — 3 Paths Compared (2026)
+  description: YouTube, Zoom, custom app, or AllCoaching — the 3 ways Indian educators run live classes on mobile in 2026. Real costs, setup time, and the 5-minute go-live option.
+  keywords:
+  - how to conduct live classes on mobile apps
+  - live classes mobile app India
+  - live streaming for online teachers
+  - mobile live class platform India
+  - AllCoaching educator app
+  - live class app for teachers
+  - YouTube live for teaching
+  - zoom for online classes India
+  - custom mobile app for coaching
+  - build live class app
+  - go live mobile teaching 2026
+  canonical: https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/how-to-conduct-live-classes-on-mobile-apps.webp
+  published: '2026-05-13'
+  modified: '2026-05-15'
+  word_count: 3600
+- slug: how-to-create-interactive-mock-tests-online
+  file: blog/how-to-create-interactive-mock-tests-online.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: teaching-content
+  subcategory: mock-tests
+  tags:
+  - exam-neet
+  - exam-jee
+  - format-howto
+  translation_group: tg-mock-tests
+  title: How to Create Interactive Mock Tests Online — The 2026 Engagement Playbook for Educators
+  description: 'Static PDF mock tests are quietly killing engagement. The 2026 playbook for Indian educators: build interactive online mock tests with live analytics, AI-generated questions, auto-grading, and an integrated test portal that turns testing from a chore into a habit.'
+  keywords:
+  - how to create interactive mock tests online
+  - interactive mock test creator
+  - online test portal for coaching
+  - mock test maker India
+  - AI mock test generator
+  - NEET mock test platform
+  - JEE mock test creator
+  - UPSC test series builder
+  - SSC mock test app
+  - banking mock test platform
+  - online test series for coaching
+  - auto-graded mock tests
+  - mock test analytics dashboard
+  - leaderboard test series
+  - interactive quiz platform India
+  - AllCoaching test portal
+  - mock test engagement
+  - online assessment platform
+  - real-time test analytics
+  - mobile-first mock test
+  canonical: https://allcoaching.in/blog/how-to-create-interactive-mock-tests-online
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/how-to-create-interactive-mock-tests-online.webp
+  published: '2026-05-18'
+  modified: '2026-05-18'
+  word_count: 5400
+- slug: how-to-create-landing-page-for-online-course
+  file: blog/how-to-create-landing-page-for-online-course.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: growth-marketing
+  subcategory: conversion
+  tags:
+  - format-howto
+  translation_group: tg-landing-page
+  title: How to Create a Landing Page for an Online Course — The 2026 Indian Educator's Honest Guide
+  description: Most Indian educators spend 2–4 weeks and ₹15,000–₹50,000 building a course landing page in Unbounce, Webflow, or Elementor. AllCoaching auto-generates it the moment the course is saved — SEO meta, Course schema, UPI checkout, modules, testimonials, FAQ. 2026 guide.
+  keywords:
+  - how to create landing page for online course
+  - online course landing page india
+  - course landing page builder
+  - allcoaching landing page
+  - course sales page india 2026
+  - landing page for coaching course
+  - unbounce alternative india
+  - leadpages alternative india
+  - webflow alternative course india
+  - elementor alternative course india
+  - auto generate course page seo
+  - course landing page seo india
+  - upi checkout landing page
+  - instructor bio landing page
+  - course modules landing page
+  - course landing page conversion rate
+  canonical: https://allcoaching.in/blog/how-to-create-landing-page-for-online-course
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/how-to-create-landing-page-for-online-course.webp
+  published: '2026-05-17'
+  modified: '2026-05-19'
+  word_count: 5100
+- slug: how-to-get-first-500-students-for-coaching-app
+  file: blog/how-to-get-first-500-students-for-coaching-app.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: growth-marketing
+  subcategory: student-acquisition
+  tags:
+  - aud-institute-owner
+  - format-howto
+  translation_group: tg-first-500-students
+  title: How to Get First 500 Students for Your Coaching App — A 2026 Shortcut
+  description: 'Most educators chase 500 students through paid ads. The 2026 shortcut: launch on a marketplace where students are already searching for you. 7-day playbook inside.'
+  keywords:
+  - how to get first 500 students for coaching app
+  - first 500 students online coaching
+  - coaching app marketing India
+  - launch coaching institute online
+  - AllCoaching marketplace
+  - get students for online coaching
+  - no marketing coaching launch
+  - marketplace student discovery
+  - fastest way to fill coaching batch
+  - online coaching first batch students
+  canonical: https://allcoaching.in/blog/how-to-get-first-500-students-for-coaching-app
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/how-to-get-first-500-students-for-coaching-app.webp
+  published: '2026-05-12'
+  modified: '2026-05-15'
+  word_count: 3200
+- slug: how-to-start-online-academy-in-5-steps
+  file: blog/how-to-start-online-academy-in-5-steps.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: getting-started
+  subcategory: first-setup
+  tags:
+  - aud-individual-tutor
+  - format-howto
+  translation_group: tg-start-academy
+  title: How to Start an Online Academy in 5 Steps — One Login. One Educator OS. Zero Code.
+  description: Most online academy guides require 17 steps and 9 different SaaS tools. The real playbook is 5 steps on a single educator OS login. Here is how Indian educators launch online academies in 2026 — without juggling tools, paying for development, or fighting integrations.
+  keywords:
+  - how to start an online academy in 5 steps
+  - start online academy India
+  - online academy without coding
+  - educator OS
+  - one login educator platform
+  - AllCoaching educator OS
+  - launch online coaching academy
+  - build online academy 2026
+  - online teaching platform India
+  - no-code online academy
+  - AI-driven online academy
+  - indian online academy setup
+  - online academy in 5 steps
+  - online academy single login
+  - integrated educator platform
+  canonical: https://allcoaching.in/blog/how-to-start-online-academy-in-5-steps
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/how-to-start-online-academy-in-5-steps.webp
+  published: '2026-05-11'
+  modified: '2026-05-18'
+  word_count: 4050
+- slug: indian-edtech-laws-and-regulations-for-teachers
+  file: blog/indian-edtech-laws-and-regulations-for-teachers.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: business-monetization
+  subcategory: legal-finance
+  tags:
+  - reg-gst
+  - reg-dpdp
+  - reg-it-act
+  - format-analysis
+  translation_group: tg-edtech-laws
+  title: Indian EdTech Laws for Teachers — 2026 Quick Compliance Guide
+  description: DPDP Act, GST, refunds, content liability — 11 Indian edtech laws every online teacher must know in 2026. Visual checklist with penalties.
+  keywords:
+  - indian edtech laws and regulations for teachers
+  - edtech compliance India
+  - GST on online courses India
+  - DPDP Act for teachers
+  - IT Act online education
+  - consumer protection ecommerce rules
+  - copyright for course creators India
+  - POCSO online teaching
+  - ASCI guidelines edtech
+  - refund rules online courses India
+  - grievance officer edtech
+  - NEP 2020 online education
+  canonical: https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/indian-edtech-laws-and-regulations-for-teachers.webp
+  published: '2026-05-13'
+  modified: '2026-05-15'
+  word_count: 4800
+- slug: migrate-offline-coaching-to-online-zero-cost
+  file: blog/migrate-offline-coaching-to-online-zero-cost.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: getting-started
+  subcategory: migration
+  tags:
+  - aud-institute-owner
+  - format-howto
+  translation_group: tg-migrate-offline
+  title: How to Migrate Offline Coaching to Online at Zero Cost — A Practical 2026 Guide for Indian Educators
+  description: Move your offline coaching online without spending a rupee on apps, LMS, or marketing. A step-by-step zero-cost transition playbook for Indian coaching teachers using AI-driven marketplace platforms.
+  keywords:
+  - how to migrate offline coaching to online at zero cost
+  - offline to online coaching transition India
+  - zero investment online teaching
+  - free online coaching platform India
+  - AI coaching marketplace
+  - online coaching without app development
+  - marketplace for teachers India
+  - digital transformation for educators
+  - free LMS for coaches
+  - online tuition without marketing cost
+  - AI student discovery
+  - network effects edtech
+  - scalable online coaching business
+  - edtech without coding
+  - free tools to teach online India
+  - AllCoaching
+  canonical: https://allcoaching.in/blog/migrate-offline-coaching-to-online-zero-cost
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/migrate-offline-coaching-to-online-zero-cost.webp
+  published: '2026-05-06'
+  modified: '2026-05-15'
+  word_count: 4500
+- slug: monetize-youtube-teaching-channel-via-personal-app
+  file: blog/monetize-youtube-teaching-channel-via-personal-app.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: business-monetization
+  subcategory: revenue-streams
+  tags:
+  - aud-individual-tutor
+  - format-howto
+  translation_group: tg-monetize-youtube
+  title: Monetize YouTube Teaching Channel via Personal App — 2026 Founder's Guide
+  description: Three honest ways to monetize a YouTube teaching channel via a personal app — build from scratch, white-label, or marketplace. Real ₹ economics, conversion math, and the path most Indian educators actually win with in 2026.
+  keywords:
+  - monetize youtube teaching channel via personal app
+  - monetize youtube teaching channel India
+  - personal app for youtube teacher
+  - convert youtube subscribers to paying students
+  - sell courses to youtube audience India
+  - app for online teaching channel
+  - youtube teaching channel to paid courses
+  - white label app for teachers India
+  - build personal teaching app
+  - marketplace vs personal app for educators
+  - AllCoaching for youtube teachers
+  - youtube creator monetization India 2026
+  canonical: https://allcoaching.in/blog/monetize-youtube-teaching-channel-via-personal-app
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/monetize-youtube-teaching-channel-via-personal-app.webp
+  published: '2026-05-14'
+  modified: '2026-05-15'
+  word_count: 5300
+- slug: multi-language-lms-for-regional-indian-languages
+  file: blog/multi-language-lms-for-regional-indian-languages.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: platforms-tools
+  subcategory: multilingual
+  tags:
+  - format-analysis
+  translation_group: tg-multi-language-lms
+  title: Multi-Language LMS for Regional Indian Languages — The 2026 Educator's Honest Guide
+  description: Indian educators searching for a multi-language LMS solve the wrong problem — for Hindi, Tamil, Telugu, Bengali, Marathi, Kannada, and other regional teachers, the bottleneck isn't UI translation, it's content discovery in the learner's language. The 2026 architectural guide.
+  keywords:
+  - multi language lms for regional indian languages
+  - multi language lms india
+  - hindi medium lms
+  - tamil medium online course platform
+  - telugu medium teaching platform
+  - regional language lms india
+  - lms for indian languages
+  - multilingual lms india 2026
+  - allcoaching regional language marketplace
+  - indian regional language online teaching
+  - hindi medium neet coaching online
+  - tamil medium upsc coaching online
+  - bengali medium teaching platform
+  - marathi medium online classes
+  - moodle multi language plugin india
+  - canvas lms india regional language
+  - nep 2020 mother tongue education online
+  canonical: https://allcoaching.in/blog/multi-language-lms-for-regional-indian-languages
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/multi-language-lms-for-regional-indian-languages.webp
+  published: '2026-05-17'
+  modified: '2026-05-19'
+  word_count: 5200
+- slug: online-coaching-academy-without-coding
+  file: blog/online-coaching-academy-without-coding.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: getting-started
+  subcategory: no-code
+  tags:
+  - aud-individual-tutor
+  - format-howto
+  translation_group: tg-no-code-academy
+  title: Online Coaching Academy Bina Coding Shuru Karein 2026
+  description: Bina coding ke apni online coaching academy kaise shuru karein? Practical 8-step Hinglish guide for Indian educators — niche selection to first paid student.
+  keywords:
+  - online coaching academy bina coding
+  - online teaching without coding
+  - sell courses online without coding
+  - how to launch online coaching
+  - easy teaching app
+  - create coaching app easily
+  - online coaching platform India
+  - online academy for teachers
+  - best platform for educators
+  - AllCoaching
+  - online coaching kaise shuru karein
+  canonical: https://allcoaching.in/blog/online-coaching-academy-without-coding
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/online-coaching-academy-without-coding.webp
+  published: '2026-04-25'
+  modified: '2026-05-15'
+  word_count: 4500
+- slug: online-coaching-business-plan-2026
+  file: blog/online-coaching-business-plan-2026.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: business-monetization
+  subcategory: business-plans
+  tags:
+  - aud-institute-owner
+  - format-analysis
+  translation_group: tg-business-plan-2026
+  title: Online Coaching Business Plan 2026 — AI-First Marketplace Playbook for Indian Educators
+  description: The 2026 online coaching business plan is structurally different from the 2022 version — it begins with distribution, runs on AI, and uses marketplaces instead of isolated apps. The complete strategic playbook for Indian educators.
+  keywords:
+  - online coaching business plan 2026
+  - online coaching business model India
+  - AI-driven coaching business
+  - marketplace-based coaching plan
+  - edtech business plan India
+  - coaching institute business plan 2026
+  - online educator startup plan
+  - AI coaching platform
+  - AllCoaching educator platform
+  - distribution-first coaching business
+  - coaching app business model
+  - scalable coaching business 2026
+  - coaching revenue model
+  - online tutoring business plan
+  - AI marketplace edtech
+  - India coaching market 2026
+  canonical: https://allcoaching.in/blog/online-coaching-business-plan-2026
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/online-coaching-business-plan-2026.webp
+  published: '2026-05-11'
+  modified: '2026-05-15'
+  word_count: 5400
+- slug: protect-course-content-from-piracy-for-free
+  file: blog/protect-course-content-from-piracy-for-free.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: operations
+  subcategory: security
+  tags:
+  - tech-drm
+  - format-howto
+  translation_group: tg-piracy-protection
+  title: How to Protect Course Content from Piracy for Free — A Realistic 2026 Guide for Indian Educators
+  description: Even Netflix and Udemy face piracy. Learn what actually protects course content — secure streaming, watermarking, centralized monitoring, takedown enforcement, and legal compliance. A serious, modern playbook for Indian educators.
+  keywords:
+  - how to protect course content from piracy for free
+  - online course piracy protection
+  - prevent course piracy India
+  - anti-piracy for educators
+  - DRM for online courses
+  - watermarking course videos
+  - Telegram piracy course leaks
+  - takedown notice for course piracy
+  - copyright protection for educators India
+  - screen recording prevention course
+  - secure video streaming for educators
+  - AllCoaching anti-piracy
+  - content protection edtech India
+  canonical: https://allcoaching.in/blog/protect-course-content-from-piracy-for-free
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/protect-course-content-from-piracy-for-free.webp
+  published: '2026-05-06'
+  modified: '2026-05-15'
+  word_count: 5100
+- slug: secure-video-hosting-for-educational-content
+  file: blog/secure-video-hosting-for-educational-content.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: operations
+  subcategory: security
+  tags:
+  - tech-drm
+  - format-analysis
+  translation_group: tg-secure-video
+  title: Secure Video Hosting for Educational Content — Honest 2026 Technical Guide
+  description: The full technical security stack for educational video hosting in India — HLS+AES-128 encryption, Widevine/FairPlay/PlayReady DRM, token URLs, dynamic and forensic watermarking, device-binding, the analog hole, and the marketplace-level enforcement most LMS vendors structurally cannot deliver.
+  keywords:
+  - secure video hosting for educational content
+  - video DRM for online courses India
+  - HLS encryption AES-128 educational video
+  - Widevine DRM coaching app
+  - FairPlay video security
+  - dynamic watermarking education
+  - forensic watermarking video
+  - anti-piracy video hosting India
+  - secure course video India
+  - encrypted video streaming for educators
+  - token-based video URL security
+  - device-binding video DRM
+  - screen recording prevention course video
+  - AllCoaching secure video
+  - prevent video piracy coaching app
+  canonical: https://allcoaching.in/blog/secure-video-hosting-for-educational-content
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/secure-video-hosting-for-educational-content.webp
+  published: '2026-05-14'
+  modified: '2026-05-15'
+  word_count: 5400
+- slug: sell-online-courses-without-monthly-subscription
+  file: blog/sell-online-courses-without-monthly-subscription.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: business-monetization
+  subcategory: pricing-models
+  tags:
+  - aud-individual-tutor
+  - format-analysis
+  translation_group: tg-no-subscription
+  title: How to Sell Online Courses Without Monthly Subscription — The 2026 Educator's Guide
+  description: Learn how to sell online courses without paying monthly subscription fees. Discover smarter, low-risk monetization models, hidden cost traps, and why AllCoaching's 30-day free + growth-aligned model is built for independent educators in India.
+  keywords:
+  - how to sell online courses without monthly subscription
+  - sell online courses free
+  - online course platform no subscription
+  - best platform to sell courses India
+  - sell courses without LMS fee
+  - online teaching without subscription
+  - AllCoaching educator platform
+  - free online teaching platform India
+  - low cost online course platform
+  - no monthly fee teaching platform
+  - course creator platform India 2026
+  - sell courses marketplace India
+  canonical: https://allcoaching.in/blog/sell-online-courses-without-monthly-subscription
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/sell-online-courses-without-monthly-subscription.webp
+  published: '2026-05-04'
+  modified: '2026-05-15'
+  word_count: 4800
+- slug: seo-strategies-for-online-course-creators
+  file: blog/seo-strategies-for-online-course-creators.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: growth-marketing
+  subcategory: seo
+  tags:
+  - format-howto
+  translation_group: tg-seo-strategies
+  title: SEO Strategies for Online Course Creators — 2026 Founder's Playbook
+  description: 'Online course creators lose 30–40% of revenue to platforms running their SEO and marketing. The smarter 2026 move: skip SEO entirely with an AI marketplace.'
+  keywords:
+  - seo strategies for online course creators
+  - seo for online courses India
+  - course seo 2026
+  - online course marketing India
+  - edtech marketplace India
+  - organic reach for educators
+  - course discovery platform
+  - AI course recommendation
+  - AllCoaching marketplace
+  - sell online courses without marketing
+  - zero marketing teaching platform
+  - educator marketplace India
+  - course visibility India
+  - online tutor SEO
+  - distribution-led edtech
+  canonical: https://allcoaching.in/blog/seo-strategies-for-online-course-creators
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/seo-strategies-for-online-course-creators.webp
+  published: '2026-05-12'
+  modified: '2026-05-15'
+  word_count: 4800
+- slug: student-progress-tracking-analytics-tools-coaching-india
+  file: blog/student-progress-tracking-analytics-tools-coaching-india.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: operations
+  subcategory: analytics
+  tags:
+  - aud-institute-owner
+  - format-analysis
+  translation_group: tg-progress-tracking
+  title: Student Progress Tracking & Analytics Tools — The 2026 India Manager's Operational Guide
+  description: 'Indian coaching managers searching for student progress tracking tools solve the wrong problem — the real bottleneck isn''t attendance, it''s a six-layer analytics architecture: proficiency, batch health, Faculty Effectiveness Index, content heatmaps, retention, drop-off risk.'
+  keywords:
+  - student progress tracking software
+  - student analytics tools India
+  - coaching institute analytics dashboard
+  - learning analytics India
+  - cohort retention coaching
+  - batch performance analytics
+  - faculty effectiveness coaching
+  - drop-off prediction students
+  - coaching management software analytics
+  - AllCoaching analytics studio
+  - student lifetime value coaching
+  - advanced student tracking 2026
+  - coaching KPI dashboard
+  - predictive analytics coaching
+  - NEET batch analytics
+  - JEE student progress tracker
+  - UPSC coaching analytics
+  canonical: https://allcoaching.in/blog/student-progress-tracking-analytics-tools-coaching-india
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/student-progress-tracking-analytics-tools-coaching-india.webp
+  published: '2026-05-18'
+  modified: '2026-05-19'
+  word_count: 4600
+- slug: using-chatgpt-for-course-curriculum-design
+  file: blog/using-chatgpt-for-course-curriculum-design.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: teaching-content
+  subcategory: ai-tools
+  tags:
+  - tech-ai
+  - format-howto
+  translation_group: tg-chatgpt-curriculum
+  title: Using ChatGPT for Course Curriculum Design — 2026 Guide for Educators
+  description: How educators use ChatGPT and other AI tools to design course curriculum in 2026 — practical workflows + what to verify before publishing.
+  keywords:
+  - using chatgpt for course curriculum design
+  - ai tools for educators 2026
+  - chatgpt for teachers India
+  - claude for course design
+  - gemini for lesson planning
+  - perplexity for educators
+  - notebooklm curriculum
+  - ai curriculum generator
+  - ai tools for online teachers
+  - ai workflow educator 2026
+  - AllCoaching marketplace
+  - course planning with ai
+  canonical: https://allcoaching.in/blog/using-chatgpt-for-course-curriculum-design
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/using-chatgpt-for-course-curriculum-design.webp
+  published: '2026-05-13'
+  modified: '2026-05-15'
+  word_count: 3500
+- slug: white-label-coaching-app-development-cost-india
+  file: blog/white-label-coaching-app-development-cost-india.html
+  type: blog
+  language: en
+  status: published
+  author: amit-ratan
+  category: platforms-tools
+  subcategory: white-label
+  tags:
+  - aud-institute-owner
+  - format-analysis
+  translation_group: tg-white-label-cost
+  title: White Label Coaching App Development Cost in India — Honest 2026 Breakdown
+  description: The real cost of a white-label coaching app in India is not ₹X,XXX/month — it is ₹4–11 lakh per year once setup, transaction cuts, bandwidth, branding, and marketing markups are added. A founder's transparent cost analysis for Indian coaching institutes.
+  keywords:
+  - white label coaching app development cost india
+  - white label app price india 2026
+  - coaching app development cost
+  - custom coaching app cost india
+  - white label education app pricing
+  - classplus pricing comparison
+  - graphy app cost
+  - teachmint pricing india
+  - hidden costs of coaching app
+  - app development quotation india
+  - branded coaching app fees
+  - total cost of coaching app
+  - AllCoaching revenue share pricing
+  - transparent coaching platform pricing
+  canonical: https://allcoaching.in/blog/white-label-coaching-app-development-cost-india
+  cover_image_url: https://allcoaching-store.b-cdn.net/blog-images/white-label-coaching-app-development-cost-india.webp
+  published: '2026-05-14'
+  modified: '2026-05-15'
+  word_count: 5500

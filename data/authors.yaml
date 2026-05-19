@@ -1,0 +1,36 @@
+# =====================================================================
+# Authors — Multi-author registry
+# Each post's frontmatter has `author: <slug>`. Build resolves from here.
+# `same_as` URLs are used in Article schema author.sameAs[] — every URL
+# must be a real, current profile (AI agents validate these).
+# =====================================================================
+
+authors:
+  - slug: amit-ratan
+    name: Amit Ratan
+    job_title: Founder & CEO
+    works_for: AllCoaching
+    url: https://allcoaching.in/author/amit-ratan
+    image: /assets/Amit-Ratan.webp
+    bio_short: >
+      Founder & CEO of AllCoaching. Building India's educator-first marketplace
+      since 2016 (Prayagraj v1 → 2018 v2 → 2026 launch).
+    bio_long: >
+      Amit Ratan founded AllCoaching with the conviction that India's coaching
+      educators need an ecosystem — not another LMS or personal app. Across the
+      AllCoaching educator base in 2026, the team has tested infrastructure across
+      payments, content security, multi-language LMS, and student discovery for
+      thousands of independent educators and institutes.
+    expertise:
+      - EdTech infrastructure
+      - Coaching marketplace design
+      - Indian educator economics
+      - AI-driven student discovery
+    same_as:
+      - https://www.linkedin.com/in/allamitk/
+      - https://x.com/allamitk
+      - https://www.instagram.com/allamitk/
+      - https://allcoaching.in/about
+      - https://allcoaching.in/manifesto
+      - https://allcoaching.in/author/amit-ratan
+    schema_id: "https://allcoaching.in/author/amit-ratan#person"

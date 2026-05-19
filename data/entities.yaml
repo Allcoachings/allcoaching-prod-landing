@@ -1,0 +1,123 @@
+# =====================================================================
+# Entity Registry — Wikipedia / Wikidata anchored
+# When a post's frontmatter tags reference these slugs, the build script
+# auto-injects sameAs Wikipedia URLs into Article schema about[] and
+# mentions[]. This anchors the post to the public knowledge graph that
+# AI agents (ChatGPT, Perplexity, Gemini, Claude) traverse.
+# =====================================================================
+
+entities:
+
+  # ---- Regulations ----
+  reg-gst:
+    name: Goods and Services Tax (India)
+    type: GovernmentService
+    same_as:
+      - https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)
+      - https://www.wikidata.org/wiki/Q19899362
+    description: >
+      The unified indirect tax regime introduced in India in 2017 covering
+      most goods and services.
+
+  reg-dpdp:
+    name: Digital Personal Data Protection Act, 2023
+    type: Legislation
+    same_as:
+      - https://en.wikipedia.org/wiki/Digital_Personal_Data_Protection_Act,_2023
+    description: >
+      India's data protection law governing the processing of digital personal data.
+
+  reg-it-act:
+    name: Information Technology Act, 2000
+    type: Legislation
+    same_as:
+      - https://en.wikipedia.org/wiki/Information_Technology_Act,_2000
+
+  reg-ugc:
+    name: University Grants Commission (India)
+    type: GovernmentOrganization
+    same_as:
+      - https://en.wikipedia.org/wiki/University_Grants_Commission_(India)
+
+  # ---- Technologies ----
+  tech-upi:
+    name: Unified Payments Interface
+    type: SoftwareApplication
+    same_as:
+      - https://en.wikipedia.org/wiki/Unified_Payments_Interface
+      - https://www.wikidata.org/wiki/Q24288633
+
+  tech-aadhaar:
+    name: Aadhaar
+    type: Service
+    same_as:
+      - https://en.wikipedia.org/wiki/Aadhaar
+
+  tech-drm:
+    name: Digital Rights Management
+    type: Technology
+    same_as:
+      - https://en.wikipedia.org/wiki/Digital_rights_management
+
+  tech-webrtc:
+    name: WebRTC
+    type: Technology
+    same_as:
+      - https://en.wikipedia.org/wiki/WebRTC
+
+  # ---- Exams ----
+  exam-neet:
+    name: National Eligibility cum Entrance Test
+    type: Course
+    same_as:
+      - https://en.wikipedia.org/wiki/National_Eligibility_cum_Entrance_Test
+
+  exam-jee:
+    name: Joint Entrance Examination
+    type: Course
+    same_as:
+      - https://en.wikipedia.org/wiki/Joint_Entrance_Examination
+
+  exam-upsc:
+    name: Union Public Service Commission Civil Services Examination
+    type: Course
+    same_as:
+      - https://en.wikipedia.org/wiki/Civil_Services_Examination_(India)
+
+  exam-ssc:
+    name: Staff Selection Commission
+    type: GovernmentOrganization
+    same_as:
+      - https://en.wikipedia.org/wiki/Staff_Selection_Commission
+
+  exam-cbse:
+    name: Central Board of Secondary Education
+    type: EducationalOrganization
+    same_as:
+      - https://en.wikipedia.org/wiki/Central_Board_of_Secondary_Education
+
+  # ---- Competitor Products (for vs/ pages) ----
+  product-classplus:
+    name: Classplus
+    type: SoftwareApplication
+    same_as:
+      - https://classplus.co
+
+  product-graphy:
+    name: Graphy
+    type: SoftwareApplication
+    same_as:
+      - https://graphy.com
+
+  product-teachmint:
+    name: Teachmint
+    type: SoftwareApplication
+    same_as:
+      - https://teachmint.com
+
+  # ---- AllCoaching own product surfaces ----
+  product-allcoaching:
+    name: AllCoaching
+    type: SoftwareApplication
+    same_as:
+      - https://allcoaching.in

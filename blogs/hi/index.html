@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en-IN" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#C58B43" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#15110D" media="(prefers-color-scheme: dark)" />
+  <meta name="color-scheme" content="light" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="AllCoaching" />
+
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T3KFKD3G');</script>
+
+  <title>AllCoaching Blog — हिन्दी Guides | Indian Teachers ke liye</title>
+  <meta name="description" content="Indian teachers ke liye long-form हिन्दी guides — educator infrastructure, marketplace economics, AI workflows, EdTech compliance, aur online teaching ka future. Founder Amit Ratan ne likha." />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <meta name="author" content="Amit Ratan, Founder &amp; CEO, AllCoaching" />
+  <link rel="canonical" href="https://allcoaching.in/blogs/hi/" />
+
+  <link rel="alternate" hreflang="en-IN" href="https://allcoaching.in/blog/" />
+  <link rel="alternate" hreflang="x-default" href="https://allcoaching.in/blogs/" />
+
+  <link rel="icon" type="image/webp" href="../../assets/fevicon.webp" />
+  <link rel="apple-touch-icon" href="../../assets/fevicon.webp" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+  <meta property="og:title" content="AllCoaching Blog — हिन्दी Guides | Indian Teachers ke liye" />
+  <meta property="og:description" content="Indian teachers ke liye long-form हिन्दी guides — educator infrastructure, marketplace economics, AI workflows, EdTech compliance, aur online teaching ka future. Founder Amit Ratan ne likha." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://allcoaching.in/blogs/hi/" />
+  <meta property="og:image" content="https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp" />
+  <meta property="og:site_name" content="AllCoaching" />
+  <meta property="og:locale" content="en_IN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@allcoachings" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://allcoaching-store.b-cdn.net" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+Devanagari:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../dist/tw.min.css" />
+  <link rel="stylesheet" href="../../styles.css" />
+  <link rel="stylesheet" href="../../brand.css" />
+
+  <style>
+    /* Filter chips — restrained, brand-aligned */
+    .filter-bar { display:flex; flex-wrap:wrap; gap:.5rem; }
+    .filter-chip { display:inline-flex; align-items:center; gap:.5rem; padding:.5rem .9rem; border-radius:999px; background:#FFFFFF; border:1px solid #E5DDD0; color:#4F4840; font-family:'JetBrains Mono',monospace; font-size:.72rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; transition:all .25s cubic-bezier(.2,.7,.2,1); text-decoration:none; }
+    .filter-chip:hover { border-color:#C58B43; color:#15110D; }
+    .filter-chip.is-active { background:linear-gradient(180deg,#C58B43 0%, #8E5F22 100%); border-color:#8E5F22; color:#FFFFFF; }
+    .filter-chip-count { display:inline-flex; align-items:center; justify-content:center; min-width:1.25rem; height:1.25rem; padding:0 .35rem; border-radius:999px; background:#FBF6EA; color:#8E5F22; font-size:.66rem; letter-spacing:.04em; }
+    .filter-chip.is-active .filter-chip-count { background:rgba(255,255,255,.22); color:#FFFFFF; }
+    /* Empty state */
+    .empty-state { display:flex; flex-direction:column; align-items:center; gap:1rem; padding:5rem 1.5rem; text-align:center; background:#FFFFFF; border:1px dashed #E5DDD0; border-radius:18px; }
+    .empty-state-icon { width:54px; height:54px; border-radius:14px; background:linear-gradient(180deg,#FBF6EA 0%, #F4EADA 100%); display:flex; align-items:center; justify-content:center; font-family:'Instrument Serif',serif; font-size:1.7rem; color:#8E5F22; font-style:italic; }
+    .empty-state-title { font-family:'Instrument Serif',serif; font-size:1.6rem; line-height:1.2; color:#15110D; margin:0; font-style:italic; }
+    .empty-state-desc { color:#4F4840; font-size:.95rem; line-height:1.65; max-width:32rem; margin:0; }
+    .empty-state-cta { display:inline-flex; align-items:center; gap:.55rem; font-family:'JetBrains Mono',monospace; font-size:.72rem; letter-spacing:.16em; text-transform:uppercase; font-weight:700; color:#8E5F22; padding:.65rem 1.2rem; border:1px solid #C58B43; border-radius:999px; transition:all .25s; }
+    .empty-state-cta:hover { background:#C58B43; color:#FFFFFF; }
+  </style>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"AllCoaching Blog — हिन्दी Guides | Indian Teachers ke liye","description":"Indian teachers ke liye long-form हिन्दी guides — educator infrastructure, marketplace economics, AI workflows, EdTech compliance, aur online teaching ka future. Founder Amit Ratan ne likha.","url":"https://allcoaching.in/blogs/hi/","inLanguage":["en-IN","hi-IN","hi-Latn"],"publisher":{"@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in","logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/AllCoaching-logo.webp"}},"blogPost":[]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","@id":"https://allcoaching.in/blogs/hi/#webpage","name":"AllCoaching Blog — हिन्दी Guides | Indian Teachers ke liye","headline":"AllCoaching Blog — हिन्दी Guides | Indian Teachers ke liye","description":"Indian teachers ke liye long-form हिन्दी guides — educator infrastructure, marketplace economics, AI workflows, EdTech compliance, aur online teaching ka future. Founder Amit Ratan ne likha.","url":"https://allcoaching.in/blogs/hi/","inLanguage":"en-IN","isPartOf":{"@type":"WebSite","@id":"https://allcoaching.in/#website","name":"AllCoaching","url":"https://allcoaching.in/"},"dateModified":"2026-05-19"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allcoaching.in/"},{"@type":"ListItem","position":2,"name":"Blogs","item":"https://allcoaching.in/blogs/"},{"@type":"ListItem","position":3,"name":"हिन्दी","item":"https://allcoaching.in/blogs/hi/"}]}</script>
+  
+</head>
+
+<body class="bg-mesh text-[#15110D] antialiased">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57a1.1 1.1 0 0 0-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4c-1.76 0-3.49-.47-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.38a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.83 9.83 0 0 1 9.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41Z"/></symbol>
+  <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.6 3.6 12 3.6 12 3.6s-7.6 0-9.4.5A3 3 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 0 0 2.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.8.5-5.8.5-5.8s0-4-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></symbol>
+  <symbol id="i-telegram" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.2-1.86 8.77c-.14.62-.51.77-1.03.48l-2.85-2.1-1.37 1.32c-.15.15-.28.28-.57.28l.2-2.9 5.27-4.77c.23-.2-.05-.32-.36-.12l-6.52 4.1-2.81-.88c-.61-.19-.62-.61.13-.9l10.99-4.24c.51-.19.96.12.78.96z"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.72-2.13 1.38A5.85 5.85 0 0 0 .63 4.14c-.3.76-.5 1.64-.56 2.9C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.9.3.79.72 1.46 1.38 2.13.67.66 1.34 1.08 2.13 1.38.76.3 1.64.5 2.9.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.9-.56.79-.3 1.46-.72 2.13-1.38.66-.67 1.08-1.34 1.38-2.13.3-.76.5-1.64.56-2.9.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.9a5.85 5.85 0 0 0-1.38-2.13A5.85 5.85 0 0 0 19.86.63c-.76-.3-1.64-.5-2.9-.56C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zm0 10.16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M24 12a12 12 0 1 0-13.88 11.86v-8.39H7.08V12h3.04V9.36c0-3 1.79-4.67 4.53-4.67 1.31 0 2.68.24 2.68.24v2.95h-1.51c-1.49 0-1.96.93-1.96 1.87V12h3.33l-.53 3.47h-2.8v8.39A12 12 0 0 0 24 12z"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path fill="currentColor" d="M18.244 2h3.308l-7.227 8.26L22.5 22h-6.8l-5.31-6.96L4.3 22H.99l7.73-8.83L1.5 2h6.97l4.8 6.34L18.244 2zm-1.16 18h1.83L7.02 3.9H5.06l12.02 16.1z"/></symbol>
+</svg>
+
+
+<header class="fixed top-0 inset-x-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 md:px-5 mt-4">
+    <nav class="nav-shell flex items-center justify-between px-4 py-2.5">
+      <span class="nav-shell-halo" aria-hidden="true"></span>
+      <a href="/" aria-label="AllCoaching home" class="flex items-center">
+        <img src="../../assets/AllCoaching-logo.webp" alt="AllCoaching" class="nav-logo h-9 md:h-10 w-auto" decoding="async" width="200" height="50" />
+      </a>
+      <div class="flex items-center gap-2">
+        <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-ghost hidden md:inline-flex">Login</a>
+        <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" aria-label="Join Now" class="btn btn-primary btn-cta-mobile">
+          <span class="btn-label">Join Now</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+<!-- ================= MASTHEAD ================= -->
+<header class="mast-dark pt-32 md:pt-36 pb-12 md:pb-14">
+  <div class="max-w-4xl mx-auto px-5 md:px-6 relative z-10 text-center">
+    <div class="inline-flex items-center gap-3 mb-8">
+      <span class="brand-pill">Editorial Archive · हिन्दी</span>
+      <span class="text-[12px] tracking-[.12em] uppercase text-[#8C8378]">30 guides · By the founder</span>
+    </div>
+    <p class="kicker justify-center" style="justify-content:center;">By Amit Ratan · Founder &amp; CEO, AllCoaching</p>
+    <h1 class="h-mast font-display mt-5">
+      The AllCoaching<br/>
+      <span class="grad-text">हिन्दी Blog.</span>
+    </h1>
+    <p class="mt-6 mx-auto text-[1.08rem] md:text-[1.18rem] leading-[1.7] text-[#4F4840] max-w-2xl">
+      Indian teachers ke liye long-form हिन्दी guides — educator infrastructure, marketplace economics, AI workflows, EdTech compliance, aur online teaching ka future. Founder Amit Ratan ne likha.
+    </p>
+  </div>
+</header>
+
+<!-- ================= MAIN ================= -->
+<main class="max-w-7xl mx-auto px-5 md:px-6 py-16 md:py-20">
+
+  <!-- Filter bar -->
+  <div class="flex items-center justify-between mb-10 flex-wrap gap-4">
+    <div class="filter-bar">
+      <a href="/blogs/" class="filter-chip ">
+        All <span class="filter-chip-count">30</span>
+      </a>
+      <a href="/blogs/en/" class="filter-chip " hreflang="en-IN">
+        English <span class="filter-chip-count">28</span>
+      </a>
+      <a href="/blogs/hi/" class="filter-chip is-active" hreflang="hi-IN">
+        <span style="font-family:'Noto Sans Devanagari',system-ui;">हिन्दी</span> <span class="filter-chip-count">0</span>
+      </a>
+      <a href="/blogs/hinglish/" class="filter-chip " hreflang="hi-Latn">
+        Hinglish <span class="filter-chip-count">2</span>
+      </a>
+    </div>
+    <span class="text-[12px] hidden md:inline" style="font-family:'JetBrains Mono',monospace; letter-spacing:.18em; color:#8C8378; font-weight:700; text-transform:uppercase;">0 published · Newest first</span>
+  </div>
+
+  <!-- Section heading -->
+  <div class="mb-10">
+    <p class="kicker">Newest first</p>
+    <h2 class="h-chap font-display mt-3">हिन्दी <span class="grad-text">guides.</span></h2>
+  </div>
+
+  
+  <!-- Empty state (Hindi filter etc) -->
+  <div class="empty-state">
+    <div class="empty-state-icon">…</div>
+    <h2 class="empty-state-title">हिन्दी guides coming soon</h2>
+    <p class="empty-state-desc">Hindi mein detailed guides abhi launch nahi hue. Naya content milne ke baad yahaan publish honge. Tab tak browse all posts across languages.</p>
+    <a href="/blogs/" class="empty-state-cta">Browse all posts →</a>
+  </div>
+  
+
+</main>
+
+
+<footer class="bg-[#EEE7DA] border-t border-[#E5DDD0] pt-16 pb-8">
+  <div class="max-w-7xl mx-auto px-5 grid md:grid-cols-12 gap-10">
+    <div class="md:col-span-4">
+      <a href="/" class="inline-block"><img src="../../assets/AllCoaching-logo.webp" alt="AllCoaching" class="h-11 w-auto" decoding="async" width="200" height="50" /></a>
+      <p class="mt-5 text-[#4F4840] text-sm max-w-xs leading-relaxed">The educator-first marketplace + platform. Teach, get discovered, and keep 90% of your earnings — all in one login.</p>
+      <div class="mt-6">
+        <div class="text-xs font-semibold text-[#8C8378] uppercase tracking-wider mb-3">Follow us</div>
+        <div class="flex flex-wrap gap-2">
+          <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" aria-label="WhatsApp" class="soc soc-whatsapp"><svg class="w-5 h-5"><use href="#i-whatsapp"/></svg></a>
+          <a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener" aria-label="YouTube" class="soc soc-youtube"><svg class="w-5 h-5"><use href="#i-youtube"/></svg></a>
+          <a href="https://t.me/allcoaching" target="_blank" rel="noopener" aria-label="Telegram" class="soc soc-telegram"><svg class="w-5 h-5"><use href="#i-telegram"/></svg></a>
+          <a href="https://www.instagram.com/allcoachings/" target="_blank" rel="noopener" aria-label="Instagram" class="soc soc-instagram"><svg class="w-5 h-5"><use href="#i-instagram"/></svg></a>
+          <a href="https://www.facebook.com/allcoaching.in" target="_blank" rel="noopener" aria-label="Facebook" class="soc soc-facebook"><svg class="w-5 h-5"><use href="#i-facebook"/></svg></a>
+          <a href="https://x.com/allcoachings" target="_blank" rel="noopener" aria-label="X" class="soc soc-x"><svg class="w-5 h-5"><use href="#i-x"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Product</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="/#features" class="hover:text-[#15110D]">Features</a></li><li><a href="/#marketplace" class="hover:text-[#15110D]">Marketplace</a></li><li><a href="/#calculator" class="hover:text-[#15110D]">Calculator</a></li><li><a href="/#pricing" class="hover:text-[#15110D]">Pricing</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Company</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="/manifesto" class="hover:text-[#15110D]">Manifesto</a></li><li><a href="/about" class="hover:text-[#15110D]">About</a></li><li><a href="/contact" class="hover:text-[#15110D]">Contact</a></li><li><a href="/privacy" class="hover:text-[#15110D]">Privacy</a></li><li><a href="/terms" class="hover:text-[#15110D]">Terms</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Educators</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-[#15110D]">Login</a></li><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-[#15110D]">Join Now</a></li><li><a href="/faq" class="hover:text-[#15110D]">FAQ</a></li><li><a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="hover:text-[#15110D]">WhatsApp</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Students</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching" target="_blank" rel="noopener" class="hover:text-[#15110D]">Android App</a></li><li><a href="/#marketplace" class="hover:text-[#15110D]">Find Educators</a></li><li><a href="https://t.me/allcoaching" target="_blank" rel="noopener" class="hover:text-[#15110D]">Telegram</a></li></ul></div>
+  </div>
+  <div class="max-w-7xl mx-auto px-5 mt-12 pt-6 border-t border-[#E5DDD0] text-xs text-[#8C8378] flex flex-wrap justify-between gap-3">
+    <div>© 2026 AllCoaching Technologies Pvt. Ltd. · Made in India</div>
+    <div>The Operating System of Education · One educator at a time.</div>
+  </div>
+</footer>
+
+<a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="fab-wa" aria-label="Chat on WhatsApp">
+  <span class="pulse-ring"></span>
+  <svg class="w-6 h-6 relative"><use href="#i-whatsapp"/></svg>
+  <span class="label relative">Chat on WhatsApp</span>
+</a>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(function () {});
+    });
+  }
+</script>
+
+</body>
+</html>

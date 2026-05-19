@@ -1,0 +1,106 @@
+{# Article template — for blog / news posts rendered from markdown.
+   Uses the same chrome (head/header/footer) as legacy posts.
+#}<!doctype html>
+<html lang="{{ html_lang }}" class="scroll-smooth">
+<head>
+  {% include "_partials/_head.html.j2" %}
+</head>
+
+<body class="bg-mesh text-[#15110D] antialiased">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+{% include "_partials/_icons.html.j2" %}
+{% include "_partials/_header.html.j2" %}
+
+<!-- ================= MASTHEAD ================= -->
+<header class="mast-dark pt-32 md:pt-36 pb-12 md:pb-16">
+  <div class="max-w-3xl mx-auto px-5 md:px-6 relative z-10">
+    <div class="flex items-center gap-3 mb-10">
+      <span class="brand-pill">{{ post.published.year }} Edition</span>
+      {% if section_label %}<span class="text-[12px] tracking-[.12em] uppercase text-[#8C8378]">{{ section_label }}</span>{% endif %}
+    </div>
+    {% if post.kicker %}<p class="kicker">{{ post.kicker }}</p>{% endif %}
+    <h1 class="h-mast font-display mt-5">{{ post.title }}</h1>
+    <p class="mt-6 text-[1.08rem] md:text-[1.18rem] leading-[1.7] text-[#4F4840] max-w-2xl">{{ post.description }}</p>
+
+    <div class="author-strip">
+      <div class="author-strip-img"><img src="{{ assets_prefix }}assets/{{ author.image | replace('/assets/', '') }}" alt="{{ author.name }}, {{ author.job_title }} of {{ site.name }}" loading="eager" decoding="async" width="400" height="400" /></div>
+      <div>
+        <div class="author-strip-name">By <a href="{{ author.url }}" class="hover:underline">{{ author.name }}</a></div>
+        <div class="author-strip-role">{{ author.job_title }}, {{ site.name }}</div>
+        <div class="author-strip-meta">
+          Published {{ post.published.strftime('%B %-d, %Y') if not is_windows else post.published.strftime('%B %#d, %Y') }}
+          {% if post.modified and post.modified != post.published %} &nbsp;·&nbsp; Updated {{ post.modified.strftime('%B %-d, %Y') if not is_windows else post.modified.strftime('%B %#d, %Y') }}{% endif %}
+          {% if post.reading_time_min %} &nbsp;·&nbsp; {{ post.reading_time_min }} min read{% endif %}
+          {% if section_label %} &nbsp;·&nbsp; {{ section_label }}{% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+{% if post.epigraph %}
+<aside class="epi">
+  <p>{{ post.epigraph }}</p>
+  {% if post.epigraph_attribution %}<cite>— {{ post.epigraph_attribution }}</cite>{% endif %}
+</aside>
+{% endif %}
+
+{% if cover_url %}
+<div class="cover-shell">
+  <figure class="cover-figure">
+    <img src="{{ cover_url }}" alt="{{ post.cover_image_alt or post.title }}" loading="eager" fetchpriority="high" width="{{ site.cover_size[0] }}" height="{{ site.cover_size[1] }}" decoding="async" />
+  </figure>
+</div>
+{% endif %}
+
+<main class="article-body">
+  <div class="max-w-3xl mx-auto px-5 md:px-6">
+    {% if toc_html %}
+    <nav class="toc" aria-label="In this article">
+      <p class="toc-l">In this article</p>
+      {{ toc_html | safe }}
+    </nav>
+    {% endif %}
+
+    {{ body_html | safe }}
+
+    {% if post.faq %}
+    <section id="faq" class="py-14 md:py-16 border-t border-[#E5DDD0]">
+      <p class="kicker">FAQ</p>
+      <h2 class="h-chap font-display mt-3">Frequently Asked Questions</h2>
+      <div class="mt-8 space-y-4">
+        {% for item in post.faq %}
+        <details class="faq-item">
+          <summary>{{ item.q }}</summary>
+          <p>{{ item.a }}</p>
+        </details>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+  </div>
+</main>
+
+<!-- ================= CTA ================= -->
+<section id="cta" class="py-24 md:py-28 relative overflow-hidden bg-white">
+  <div class="absolute inset-0 -z-0" aria-hidden="true" style="background:radial-gradient(50% 40% at 25% 50%, rgba(197,139,67,.10), transparent 70%), radial-gradient(40% 35% at 75% 60%, rgba(47,143,78,.10), transparent 70%);"></div>
+  <div class="max-w-3xl mx-auto px-5 text-center relative">
+    <div class="inline-block mb-6 float-y"><img src="{{ assets_prefix }}assets/fevicon.webp" alt="{{ site.name }}" class="w-16 h-16 rounded-full shadow-lg ring-1 ring-[#E5DDD0] bg-white" decoding="async" loading="lazy" width="512" height="512" /></div>
+    <h2 class="h-mani font-display">Stop paying to find students.<br/><em>Let the marketplace find them for you.</em></h2>
+    <p class="mt-6 max-w-2xl mx-auto" style="font-size:1.05rem; line-height:1.7; color:#4F4840;">{{ site.description }}</p>
+    <div class="mt-9 flex flex-wrap justify-center gap-3">
+      <a href="{{ site.ctas.educator_signup }}" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+        Start as an educator
+        <svg class="w-4 h-4"><use href="#i-arrow"/></svg>
+      </a>
+      <a href="/manifesto" class="btn btn-secondary btn-lg">Read the manifesto</a>
+    </div>
+    <div class="mt-6 text-xs text-[#8C8378]">30-day free trial · 90% revenue to educator · No lock-in · Daily payouts</div>
+  </div>
+</section>
+
+{% include "_partials/_footer.html.j2" %}
+
+</body>
+</html>

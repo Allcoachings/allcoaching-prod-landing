@@ -1,0 +1,12 @@
+.build/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Keep _sources/ tracked — these are the canonical markdown sources
+# (they just live behind an underscore so they don't clutter the public tree)
+

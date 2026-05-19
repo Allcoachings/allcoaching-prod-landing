@@ -1,0 +1,39 @@
+# =====================================================================
+# Redirects — 301/302 rules
+# Build pipeline reads this and APPENDS rules to .htaccess via a clearly
+# marked block (between BEGIN-AUTO-REDIRECTS / END-AUTO-REDIRECTS markers).
+# Existing manual rules in .htaccess are preserved.
+# =====================================================================
+
+# Format:
+#   - from:  /old-path           (relative path, no domain)
+#     to:    /new-path           (relative path or full URL)
+#     code:  301                 (301 permanent, 302 temporary)
+#     note:  "why this redirect exists"
+
+redirects:
+  # 2026-05-19: Moved hinglish posts from /hinglish/blog/ → /blogs/hinglish/
+  # Risk-low: posts published same day, low indexing exposure.
+  - from: /hinglish/blog/apna-coaching-app-kaise-banaye-free
+    to:   /blogs/hinglish/apna-coaching-app-kaise-banaye-free
+    code: 301
+    note: "Hinglish post moved under /blogs/ unified hub"
+  - from: /hinglish/blog/teachers-ke-liye-best-coaching-app-2026
+    to:   /blogs/hinglish/teachers-ke-liye-best-coaching-app-2026
+    code: 301
+    note: "Hinglish post moved under /blogs/ unified hub"
+  - from: /hinglish/blog/
+    to:   /blogs/hinglish/
+    code: 301
+    note: "Hinglish blog index → /blogs/hinglish/ filter view"
+  - from: /hi/blog/
+    to:   /blogs/hi/
+    code: 301
+    note: "Hindi blog index (was empty) → /blogs/hi/ filter view (empty state)"
+
+# Example (for future reference; commented out):
+# redirects:
+#   - from: /privacy
+#     to:   /legal/privacy
+#     code: 301
+#     note: "Move privacy page under /legal/ namespace (planned)"

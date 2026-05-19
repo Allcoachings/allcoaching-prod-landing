@@ -1,0 +1,149 @@
+# =====================================================================
+# Content Taxonomy — Categories, Subcategories, Tags
+# 6 top-level categories (locked). Each has subcategories. Tags are open.
+# Capacity: ~6 categories × ~5-6 subcats × 100-300 posts each = 3K-10K
+# =====================================================================
+
+categories:
+  - slug: getting-started
+    label:
+      en: Getting Started
+      hi: शुरुआत कैसे करें
+      hinglish: Shuru Kaise Karein
+    description:
+      en: "How to start, migrate offline → online, no-code paths for educators."
+    color: "#C58B43"
+    subcategories:
+      - { slug: migration,     label: { en: "Offline to Online Migration" } }
+      - { slug: first-setup,   label: { en: "First Setup" } }
+      - { slug: market-entry,  label: { en: "Market Entry" } }
+      - { slug: no-code,       label: { en: "No-Code Paths" } }
+
+  - slug: platforms-tools
+    label:
+      en: Platforms & Tools
+      hi: प्लेटफॉर्म्स और टूल्स
+      hinglish: Platforms aur Tools
+    description:
+      en: "LMS, app builders, white-label, integrations, multi-language platforms."
+    color: "#8E5F22"
+    subcategories:
+      - { slug: lms-platforms,  label: { en: "LMS Platforms" } }
+      - { slug: white-label,    label: { en: "White-Label Solutions" } }
+      - { slug: integrations,   label: { en: "Integrations" } }
+      - { slug: mobile-apps,    label: { en: "Mobile Apps" } }
+      - { slug: multilingual,   label: { en: "Multilingual Platforms" } }
+
+  - slug: teaching-content
+    label:
+      en: Teaching & Content
+      hi: टीचिंग और कंटेंट
+      hinglish: Teaching aur Content
+    description:
+      en: "Live classes, mock tests, content creation, AI in teaching, studio setup."
+    color: "#E0A95C"
+    subcategories:
+      - { slug: live-classes,    label: { en: "Live Classes" } }
+      - { slug: mock-tests,      label: { en: "Mock Tests" } }
+      - { slug: video-creation,  label: { en: "Video Creation" } }
+      - { slug: ai-tools,        label: { en: "AI Tools" } }
+      - { slug: studio-setup,    label: { en: "Studio Setup" } }
+
+  - slug: operations
+    label:
+      en: Operations
+      hi: ऑपरेशन्स
+      hinglish: Operations
+    description:
+      en: "Payments, security, analytics, compliance, onboarding, fee management."
+    color: "#15110D"
+    subcategories:
+      - { slug: payments,        label: { en: "Payments" } }
+      - { slug: security,        label: { en: "Content Security" } }
+      - { slug: analytics,       label: { en: "Analytics" } }
+      - { slug: compliance,      label: { en: "Compliance" } }
+      - { slug: onboarding,      label: { en: "Student Onboarding" } }
+      - { slug: fee-management,  label: { en: "Fee Management" } }
+
+  - slug: growth-marketing
+    label:
+      en: Growth & Marketing
+      hi: ग्रोथ और मार्केटिंग
+      hinglish: Growth aur Marketing
+    description:
+      en: "Student acquisition, SEO, social, content marketing, conversion optimization."
+    color: "#B45309"
+    subcategories:
+      - { slug: student-acquisition,  label: { en: "Student Acquisition" } }
+      - { slug: seo,                  label: { en: "SEO" } }
+      - { slug: social-media,         label: { en: "Social Media" } }
+      - { slug: content-marketing,    label: { en: "Content Marketing" } }
+      - { slug: conversion,           label: { en: "Conversion" } }
+
+  - slug: business-monetization
+    label:
+      en: Business & Monetization
+      hi: बिज़नेस और मोनेटाइज़ेशन
+      hinglish: Business aur Monetization
+    description:
+      en: "Pricing, revenue streams, business plans, industry trends, legal & finance."
+    color: "#7C2D12"
+    subcategories:
+      - { slug: pricing-models,    label: { en: "Pricing Models" } }
+      - { slug: revenue-streams,   label: { en: "Revenue Streams" } }
+      - { slug: business-plans,    label: { en: "Business Plans" } }
+      - { slug: industry-trends,   label: { en: "Industry Trends" } }
+      - { slug: legal-finance,     label: { en: "Legal & Finance" } }
+
+  # Special: comparisons live under /vs/, not /blog/. Listed here for unified taxonomy.
+  - slug: comparisons
+    label:
+      en: Comparisons
+      hi: तुलना
+      hinglish: Comparisons
+    description:
+      en: "Founder-written side-by-side comparisons of edtech platforms."
+    is_blog: false
+    url_prefix: /vs/
+
+# ---------------------------------------------------------------------
+# Tags — Free-form, cross-category. Used for entity-rich discoverability.
+# Type field maps to schema.org categories used in mentions[]/about[].
+# ---------------------------------------------------------------------
+tags:
+  exam_categories:
+    - { slug: exam-neet,         label: NEET }
+    - { slug: exam-jee,          label: JEE }
+    - { slug: exam-upsc,         label: UPSC }
+    - { slug: exam-ssc,          label: SSC }
+    - { slug: exam-banking,      label: "Banking Exams" }
+    - { slug: exam-state-board,  label: "State Board" }
+    - { slug: exam-cbse,         label: CBSE }
+    - { slug: exam-icse,         label: ICSE }
+
+  regulations:
+    - { slug: reg-gst,    label: GST }
+    - { slug: reg-dpdp,   label: "DPDP Act" }
+    - { slug: reg-it-act, label: "IT Act" }
+    - { slug: reg-ugc,    label: UGC }
+
+  technologies:
+    - { slug: tech-upi,        label: UPI }
+    - { slug: tech-aadhaar,    label: Aadhaar }
+    - { slug: tech-drm,        label: DRM }
+    - { slug: tech-webrtc,     label: WebRTC }
+    - { slug: tech-ai,         label: AI }
+    - { slug: tech-blockchain, label: Blockchain }
+
+  audiences:
+    - { slug: aud-institute-owner,   label: "Institute Owner" }
+    - { slug: aud-individual-tutor,  label: "Individual Tutor" }
+    - { slug: aud-student,           label: Student }
+    - { slug: aud-parent,            label: Parent }
+
+  formats:
+    - { slug: format-comparison,  label: Comparison }
+    - { slug: format-howto,       label: "How-To" }
+    - { slug: format-analysis,    label: Analysis }
+    - { slug: format-case-study,  label: "Case Study" }
+    - { slug: format-news,        label: News }

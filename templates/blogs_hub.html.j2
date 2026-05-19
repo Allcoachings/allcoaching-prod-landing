@@ -1,0 +1,156 @@
+{# Blogs Hub — matches the legacy /blog/index.html aesthetic exactly.
+   Uses brand classes (.h-mast, .h-chap, .grad-text, .kicker, .brand-pill, .blog-card)
+   so every visual choice is canonical and pixel-perfect with the rest of the site.
+#}<!doctype html>
+<html lang="en-IN" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="{{ site.raw.brand.primary_color }}" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#15110D" media="(prefers-color-scheme: dark)" />
+  <meta name="color-scheme" content="light" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="{{ site.name }}" />
+
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','{{ site.gtm_id }}');</script>
+
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_description }}" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <meta name="author" content="Amit Ratan, Founder &amp; CEO, {{ site.name }}" />
+  <link rel="canonical" href="{{ canonical }}" />
+
+  <link rel="alternate" hreflang="en-IN" href="{{ site.url }}/blog/" />
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/blogs/" />
+
+  <link rel="icon" type="image/webp" href="{{ assets_prefix }}assets/fevicon.webp" />
+  <link rel="apple-touch-icon" href="{{ assets_prefix }}assets/fevicon.webp" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+  <meta property="og:title" content="{{ page_title }}" />
+  <meta property="og:description" content="{{ page_description }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ canonical }}" />
+  <meta property="og:image" content="{{ site.cdn_images_base }}/Online-teaching.webp" />
+  <meta property="og:site_name" content="{{ site.name }}" />
+  <meta property="og:locale" content="en_IN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="{{ site.social.twitter }}" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="{{ site.raw.cdn.images_base.split('/blog-images')[0] }}" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+Devanagari:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ assets_prefix }}dist/tw.min.css" />
+  <link rel="stylesheet" href="{{ assets_prefix }}styles.css" />
+  <link rel="stylesheet" href="{{ assets_prefix }}brand.css" />
+
+  <style>
+    /* Filter chips — restrained, brand-aligned */
+    .filter-bar { display:flex; flex-wrap:wrap; gap:.5rem; }
+    .filter-chip { display:inline-flex; align-items:center; gap:.5rem; padding:.5rem .9rem; border-radius:999px; background:#FFFFFF; border:1px solid #E5DDD0; color:#4F4840; font-family:'JetBrains Mono',monospace; font-size:.72rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; transition:all .25s cubic-bezier(.2,.7,.2,1); text-decoration:none; }
+    .filter-chip:hover { border-color:#C58B43; color:#15110D; }
+    .filter-chip.is-active { background:linear-gradient(180deg,#C58B43 0%, #8E5F22 100%); border-color:#8E5F22; color:#FFFFFF; }
+    .filter-chip-count { display:inline-flex; align-items:center; justify-content:center; min-width:1.25rem; height:1.25rem; padding:0 .35rem; border-radius:999px; background:#FBF6EA; color:#8E5F22; font-size:.66rem; letter-spacing:.04em; }
+    .filter-chip.is-active .filter-chip-count { background:rgba(255,255,255,.22); color:#FFFFFF; }
+    /* Empty state */
+    .empty-state { display:flex; flex-direction:column; align-items:center; gap:1rem; padding:5rem 1.5rem; text-align:center; background:#FFFFFF; border:1px dashed #E5DDD0; border-radius:18px; }
+    .empty-state-icon { width:54px; height:54px; border-radius:14px; background:linear-gradient(180deg,#FBF6EA 0%, #F4EADA 100%); display:flex; align-items:center; justify-content:center; font-family:'Instrument Serif',serif; font-size:1.7rem; color:#8E5F22; font-style:italic; }
+    .empty-state-title { font-family:'Instrument Serif',serif; font-size:1.6rem; line-height:1.2; color:#15110D; margin:0; font-style:italic; }
+    .empty-state-desc { color:#4F4840; font-size:.95rem; line-height:1.65; max-width:32rem; margin:0; }
+    .empty-state-cta { display:inline-flex; align-items:center; gap:.55rem; font-family:'JetBrains Mono',monospace; font-size:.72rem; letter-spacing:.16em; text-transform:uppercase; font-weight:700; color:#8E5F22; padding:.65rem 1.2rem; border:1px solid #C58B43; border-radius:999px; transition:all .25s; }
+    .empty-state-cta:hover { background:#C58B43; color:#FFFFFF; }
+  </style>
+
+  {% for schema_json in schemas %}<script type="application/ld+json">{{ schema_json | safe }}</script>
+  {% endfor %}
+</head>
+
+<body class="bg-mesh text-[#15110D] antialiased">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+{% include "_partials/_icons.html.j2" %}
+{% include "_partials/_header.html.j2" %}
+
+<!-- ================= MASTHEAD ================= -->
+<header class="mast-dark pt-32 md:pt-36 pb-12 md:pb-14">
+  <div class="max-w-4xl mx-auto px-5 md:px-6 relative z-10 text-center">
+    <div class="inline-flex items-center gap-3 mb-8">
+      <span class="brand-pill">{{ pill_label }}</span>
+      <span class="text-[12px] tracking-[.12em] uppercase text-[#8C8378]">{{ counts.total }} guides · {{ pill_meta }}</span>
+    </div>
+    <p class="kicker justify-center" style="justify-content:center;">By Amit Ratan · Founder &amp; CEO, AllCoaching</p>
+    <h1 class="h-mast font-display mt-5">
+      {{ heading_top | safe }}<br/>
+      <span class="grad-text">{{ heading_accent | safe }}</span>
+    </h1>
+    <p class="mt-6 mx-auto text-[1.08rem] md:text-[1.18rem] leading-[1.7] text-[#4F4840] max-w-2xl">
+      {{ page_description }}
+    </p>
+  </div>
+</header>
+
+<!-- ================= MAIN ================= -->
+<main class="max-w-7xl mx-auto px-5 md:px-6 py-16 md:py-20">
+
+  <!-- Filter bar -->
+  <div class="flex items-center justify-between mb-10 flex-wrap gap-4">
+    <div class="filter-bar">
+      <a href="/blogs/" class="filter-chip {% if active_filter == 'all' %}is-active{% endif %}">
+        All <span class="filter-chip-count">{{ counts.total }}</span>
+      </a>
+      <a href="/blogs/en/" class="filter-chip {% if active_filter == 'en' %}is-active{% endif %}" hreflang="en-IN">
+        English <span class="filter-chip-count">{{ counts.en }}</span>
+      </a>
+      <a href="/blogs/hi/" class="filter-chip {% if active_filter == 'hi' %}is-active{% endif %}" hreflang="hi-IN">
+        <span style="font-family:'Noto Sans Devanagari',system-ui;">हिन्दी</span> <span class="filter-chip-count">{{ counts.hi }}</span>
+      </a>
+      <a href="/blogs/hinglish/" class="filter-chip {% if active_filter == 'hinglish' %}is-active{% endif %}" hreflang="hi-Latn">
+        Hinglish <span class="filter-chip-count">{{ counts.hinglish }}</span>
+      </a>
+    </div>
+    <span class="text-[12px] hidden md:inline" style="font-family:'JetBrains Mono',monospace; letter-spacing:.18em; color:#8C8378; font-weight:700; text-transform:uppercase;">{{ counts.visible }} published · Newest first</span>
+  </div>
+
+  <!-- Section heading -->
+  <div class="mb-10">
+    <p class="kicker">{{ section_kicker }}</p>
+    <h2 class="h-chap font-display mt-3">{{ section_heading_top }} <span class="grad-text">{{ section_heading_accent }}</span></h2>
+  </div>
+
+  {% if items %}
+  <!-- Grid -->
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {% for item in items %}
+    <a href="{{ item.url }}" class="blog-card" aria-label="Read: {{ item.title }}" hreflang="{{ item.hreflang }}">
+      <div class="blog-card-img">
+        <img src="{{ item.cover_url }}" alt="{{ item.title }}" loading="lazy" width="1600" height="900" decoding="async" />
+      </div>
+      <div class="blog-card-body">
+        <span class="blog-card-tag">{{ item.section_label }} · {{ item.year }}</span>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+        <div class="blog-card-meta">
+          <span>By Amit Ratan</span>
+          {% if item.read_time %}<span class="dot"></span><span>{{ item.read_time }} min read</span>{% endif %}
+        </div>
+        <div class="blog-card-cta">{{ item.cta or "Read guide" }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <!-- Empty state (Hindi filter etc) -->
+  <div class="empty-state">
+    <div class="empty-state-icon">…</div>
+    <h2 class="empty-state-title">{{ empty_state_title }}</h2>
+    <p class="empty-state-desc">{{ empty_state_desc }}</p>
+    <a href="/blogs/" class="empty-state-cta">Browse all posts →</a>
+  </div>
+  {% endif %}
+
+</main>
+
+{% include "_partials/_footer.html.j2" %}
+</body>
+</html>

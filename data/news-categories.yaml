@@ -1,0 +1,58 @@
+# =====================================================================
+# News Categories — Google News-aligned
+# These map to Google News topic codes. Used by news-sitemap and
+# NewsArticle schema's articleSection.
+# =====================================================================
+
+categories:
+  - slug: policy-regulation
+    label:
+      en: Policy & Regulation
+      hi: पॉलिसी और रेगुलेशन
+      hinglish: Policy aur Regulation
+    description: >
+      Government policy, edtech regulations, GST/DPDP/UGC updates affecting
+      coaching institutes and educators.
+    google_news_topic: "Education Policy"
+    typical_word_count: [500, 1000]
+
+  - slug: industry-updates
+    label:
+      en: Industry Updates
+      hi: इंडस्ट्री अपडेट्स
+      hinglish: Industry Updates
+    description: >
+      Funding rounds, M&A, market reports, layoffs, IPOs — India edtech industry.
+    google_news_topic: "EdTech Industry"
+    typical_word_count: [600, 1200]
+
+  - slug: exam-news
+    label:
+      en: Exam News
+      hi: एग्ज़ाम न्यूज़
+      hinglish: Exam News
+    description: >
+      NEET, JEE, UPSC, board exam announcements — schedules, syllabus changes,
+      result dates, reforms.
+    google_news_topic: "Examinations"
+    typical_word_count: [500, 900]
+
+  - slug: platform-launches
+    label:
+      en: Platform Launches
+      hi: प्लेटफॉर्म लॉन्च
+      hinglish: Platform Launches
+    description: >
+      New product launches, feature releases by edtech platforms in India.
+    google_news_topic: "Technology Launches"
+    typical_word_count: [400, 800]
+
+  - slug: allcoaching-news
+    label:
+      en: AllCoaching News
+      hi: AllCoaching न्यूज़
+      hinglish: AllCoaching News
+    description: >
+      AllCoaching company announcements, milestones, product updates.
+    google_news_topic: "Company News"
+    typical_word_count: [400, 800]

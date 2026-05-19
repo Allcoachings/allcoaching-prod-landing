@@ -1,0 +1,83 @@
+# =====================================================================
+# AllCoaching — Global Site Config
+# Single source of truth for cross-cutting site constants.
+# =====================================================================
+
+site:
+  name: AllCoaching
+  legal_name: AllCoaching Technologies Pvt. Ltd.
+  domain: allcoaching.in
+  url: https://allcoaching.in
+  tagline: "India's Educator-First Marketplace"
+  description: >
+    AllCoaching is India's educator-first marketplace and coaching platform —
+    launch a branded app, sell courses, and grow through AI-driven student discovery.
+
+# Default language is the canonical (no path prefix). Others get path prefixes.
+languages:
+  default: en
+  available:
+    - code: en
+      label: English
+      html_lang: en-IN
+      hreflang: en-IN
+      path_prefix: ""              # canonical, no prefix
+    - code: hi
+      label: हिन्दी
+      html_lang: hi-IN
+      hreflang: hi-IN
+      path_prefix: "hi"            # /hi/...
+    - code: hinglish
+      label: Hinglish
+      html_lang: hi-Latn
+      hreflang: hi-Latn
+      path_prefix: "hinglish"      # /hinglish/...
+
+# Brand constants (mirrors brand.css; do not modify without coordinated edits there)
+brand:
+  primary_color: "#C58B43"
+  gradient: ["#E0A95C", "#C58B43", "#8E5F22"]
+  fonts:
+    display: Instrument Serif
+    ui: Inter Tight
+    mono: JetBrains Mono
+
+# Analytics & verification
+analytics:
+  gtm_id: GTM-T3KFKD3G
+
+# CDN / Images
+cdn:
+  images_base: https://allcoaching-store.b-cdn.net/blog-images
+  cover_image_size: [1600, 900]
+  news_cover_size: [1200, 630]
+
+# Social profiles (used in JSON-LD sameAs, footer links, OG tags)
+social:
+  twitter: "@allcoachings"
+  twitter_url: https://x.com/allcoachings
+  youtube_url: https://www.youtube.com/@Allcoaching
+  linkedin_url: https://www.linkedin.com/company/allcoaching
+  instagram_url: https://www.instagram.com/allcoachings/
+  facebook_url: https://www.facebook.com/allcoaching.in
+  telegram_url: https://t.me/allcoaching
+  play_store_url: https://play.google.com/store/apps/details?id=org.student.allcoaching
+
+# Contact
+contact:
+  email: hello@allcoaching.in
+  whatsapp: "+919889977262"
+  whatsapp_url: https://api.whatsapp.com/send/?phone=919889977262
+
+# CTAs (single source — never hardcode these in templates)
+ctas:
+  educator_signup: https://educator.allcoaching.in/
+  contact_page: https://allcoaching.in/contact
+  pricing_page: https://allcoaching.in/pricing
+
+# Build / output
+build:
+  output_dir: "."                  # build output writes here (project root, alongside legacy)
+  cache_dir: ".build/cache"
+  database: ".build/content.db"
+  baseline: ".build/legacy-baseline.json"
