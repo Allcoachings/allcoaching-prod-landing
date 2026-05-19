@@ -14,8 +14,8 @@
     <copyright>© 2026 AllCoaching Technologies Pvt. Ltd.</copyright>
     <managingEditor>hello@allcoaching.in (Amit Ratan)</managingEditor>
     <webMaster>hello@allcoaching.in (Amit Ratan)</webMaster>
-    <pubDate>Tue, 19 May 2026 16:05:46 +0530</pubDate>
-    <lastBuildDate>Tue, 19 May 2026 16:05:46 +0530</lastBuildDate>
+    <pubDate>Tue, 19 May 2026 22:27:24 +0530</pubDate>
+    <lastBuildDate>Tue, 19 May 2026 22:27:24 +0530</lastBuildDate>
     <category>Education</category>
     <category>EdTech</category>
     <category>India</category>
@@ -29,6 +29,17 @@
       <width>200</width>
       <height>50</height>
     </image>
+  <item>
+    <title>Cloud LMS vs Self-Hosted for Coaching — The Honest 2026 Technical Verdict for Indian Educators</title>
+    <link>https://allcoaching.in/blogs/en/cloud-lms-vs-self-hosted-for-coaching</link>
+    <guid isPermaLink="true">https://allcoaching.in/blogs/en/cloud-lms-vs-self-hosted-for-coaching</guid>
+    <description>Cloud LMS vs self-hosted for coaching — line-by-line 2026 comparison for Indian educators. Moodle, Open edX, custom servers vs Classplus, Teachmint, Graphy, AllCoaching. Real Year-1 cost, DevOps burden, security exposure, lock-in. Founder ne khud likha.</description>
+    <pubDate>Tue, 19 May 2026 12:00:00 +0530</pubDate>
+    <dc:creator>Amit Ratan</dc:creator>
+    <dc:language>en-IN</dc:language>
+    <category>Platforms &amp; Tools</category>
+    <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/cloud-lms-vs-self-hosted-for-coaching.webp" type="image/webp" length="0" />
+  </item>
   <item>
     <title>Apna Coaching App Kaise Banaye Free — A 2026 Founder&apos;s Mega Guide (Hinglish)</title>
     <link>https://allcoaching.in/blogs/hinglish/apna-coaching-app-kaise-banaye-free</link>

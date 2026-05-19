@@ -55,17 +55,19 @@
 {% endif %}
 
 <main class="article-body">
+  {% if toc_html %}
   <div class="max-w-3xl mx-auto px-5 md:px-6">
-    {% if toc_html %}
     <nav class="toc" aria-label="In this article">
       <p class="toc-l">In this article</p>
       {{ toc_html | safe }}
     </nav>
-    {% endif %}
+  </div>
+  {% endif %}
 
-    {{ body_html | safe }}
+  {{ body_html | safe }}
 
-    {% if post.faq %}
+  {% if post.faq %}
+  <div class="max-w-3xl mx-auto px-5 md:px-6">
     <section id="faq" class="py-14 md:py-16 border-t border-[#E5DDD0]">
       <p class="kicker">FAQ</p>
       <h2 class="h-chap font-display mt-3">Frequently Asked Questions</h2>
@@ -78,8 +80,8 @@
         {% endfor %}
       </div>
     </section>
-    {% endif %}
   </div>
+  {% endif %}
 </main>
 
 <!-- ================= CTA ================= -->

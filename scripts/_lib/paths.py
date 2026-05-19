@@ -2,13 +2,17 @@
 Path / URL resolution — single source of truth for where a Post is written
 to disk and what its canonical URL becomes.
 
-URL strategy (2026-05-19 update — hi/hinglish unified under /blogs/):
-    en blog       →  /blog/<slug>             → blog/<slug>.html       (legacy, untouched)
+URL strategy (2026-05-19 update — all new blog posts unified under /blogs/):
+    en blog       →  /blogs/en/<slug>         → blogs/en/<slug>.html   (new posts here)
     hi blog       →  /blogs/hi/<slug>         → blogs/hi/<slug>.html
     hinglish blog →  /blogs/hinglish/<slug>   → blogs/hinglish/<slug>.html
     en news       →  /news/<slug>             → news/<slug>.html
     hi news       →  /blogs/hi/news/<slug>    (TBD — same pattern as blog)
     en page       →  /<slug>                  → <slug>.html
+
+    Legacy: 28 hand-authored EN posts at /blog/<slug>.html remain frozen
+    (safety_guard). They are NOT built from sources/ and are linked from
+    hub listings via the legacy-manifest.yaml.
 """
 from __future__ import annotations
 from pathlib import Path
@@ -21,14 +25,13 @@ OG_LOCALE = {"en": "en_IN", "hi": "hi_IN", "hinglish": "hi_IN"}
 
 def url_path(post: Post) -> str:
     """Site-relative URL path (no domain).
-       EN blog stays at /blog/<slug> (legacy).
-       Non-EN blog posts live under /blogs/<lang>/<slug>.
+       All new blog posts live under /blogs/<lang>/<slug>.
+       Legacy 28 EN posts at /blog/<slug>.html are frozen (safety_guard)
+       and surfaced via legacy-manifest.yaml, not from sources/.
     """
     if post.type == "page":
         return f"/{post.slug}" if post.language == "en" else f"/{post.language}/{post.slug}"
     if post.type == "blog":
-        if post.language == "en":
-            return f"/blog/{post.slug}"
         return f"/blogs/{post.language}/{post.slug}"
     # news / other types
     if post.language == "en":

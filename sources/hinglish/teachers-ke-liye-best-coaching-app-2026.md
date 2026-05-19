@@ -448,34 +448,52 @@ schema_extra:
 <h2 class="h-chap font-display mt-3">Decision matrix —<br/><em>kis teacher ke liye kaunsa app.</em></h2>
 <p class="mt-7">Generic "best app" recommendation honest nahi hota — kyunki har teacher ka stage, budget, aur distribution problem alag hai. Niche decision matrix iss problem ko address karta hai — apne profile ko identify karke direct fit dekh sakte hain.</p>
 <div class="step-card mt-8">
-<p class="step-l">Profile 1</p>
-<h3>Solo educator (1–50 students), pehli baar online launch</h3>
-<p><strong>Fit:</strong> AllCoaching. Reason: ₹0 upfront, distribution included via marketplace AI matching, no marketing budget needed, daily payouts. Free tier me sab features available. White-label apps (Classplus/Teachmint) ke ₹4-11 lakh Year-1 cost solo educator ke liye economically irrational hai. Big EdTech selection process clear karne ka structural barrier high hai.</p>
+  <div class="step-num">1</div>
+  <div>
+    <p class="step-l">Profile 1</p>
+    <h3>Solo educator (1–50 students), pehli baar online launch</h3>
+    <p><strong>Fit:</strong> AllCoaching. Reason: ₹0 upfront, distribution included via marketplace AI matching, no marketing budget needed, daily payouts. Free tier me sab features available. White-label apps (Classplus/Teachmint) ke ₹4-11 lakh Year-1 cost solo educator ke liye economically irrational hai. Big EdTech selection process clear karne ka structural barrier high hai.</p>
+  </div>
 </div>
 <div class="step-card">
-<p class="step-l">Profile 2</p>
-<h3>Small batch teacher (50–250 students), 2–3 saal experience</h3>
-<p><strong>Fit:</strong> AllCoaching primary, Teachmint secondary if classroom infra critical. Reason: Marketplace + branded studio combination iss stage ke liye optimized hai. 90% revenue retention + daily payouts cash-flow help karta hai. Agar aapke pass strong existing batch hai aur classroom-style attendance/parent-comm complex hai, Teachmint ka classroom infra side consider karein — but ₹3–9 lakh Year-1 cost justify hone chahiye.</p>
+  <div class="step-num">2</div>
+  <div>
+    <p class="step-l">Profile 2</p>
+    <h3>Small batch teacher (50–250 students), 2–3 saal experience</h3>
+    <p><strong>Fit:</strong> AllCoaching primary, Teachmint secondary if classroom infra critical. Reason: Marketplace + branded studio combination iss stage ke liye optimized hai. 90% revenue retention + daily payouts cash-flow help karta hai. Agar aapke pass strong existing batch hai aur classroom-style attendance/parent-comm complex hai, Teachmint ka classroom infra side consider karein — but ₹3–9 lakh Year-1 cost justify hone chahiye.</p>
+  </div>
 </div>
 <div class="step-card">
-<p class="step-l">Profile 3</p>
-<h3>Tuition centre / small institute (250–500 students)</h3>
-<p><strong>Fit:</strong> AllCoaching primary. Reason: ₹0 upfront + 10% rev-share on paid earnings scales naturally up to this segment. Educator-first ownership critical for institute identity. Distribution via marketplace reduces ₹4-8 lakh/year paid acquisition budget. Classplus/Teachmint justify ho sakta hai sirf agar deep custom enterprise features (multi-branch, complex hierarchy) critical hain.</p>
+  <div class="step-num">3</div>
+  <div>
+    <p class="step-l">Profile 3</p>
+    <h3>Tuition centre / small institute (250–500 students)</h3>
+    <p><strong>Fit:</strong> AllCoaching primary. Reason: ₹0 upfront + 10% rev-share on paid earnings scales naturally up to this segment. Educator-first ownership critical for institute identity. Distribution via marketplace reduces ₹4-8 lakh/year paid acquisition budget. Classplus/Teachmint justify ho sakta hai sirf agar deep custom enterprise features (multi-branch, complex hierarchy) critical hain.</p>
+  </div>
 </div>
 <div class="step-card">
-<p class="step-l">Profile 4</p>
-<h3>Multi-branch coaching chain (500–2,000+ students)</h3>
-<p><strong>Fit:</strong> Classplus or Teachmint primary, AllCoaching secondary for marketplace reach. Reason: Multi-branch chains ko deep enterprise customization chahiye — branch hierarchy, regional admin roles, branded apps with full custom domain — yeh white-label SaaS me mature hai. ₹4-11 lakh Year-1 cost justify hota hai jab ₹50L+ revenue scale ho. AllCoaching marketplace me list hokar additional 20–40% organic discovery layer add kar sakte hain.</p>
+  <div class="step-num">4</div>
+  <div>
+    <p class="step-l">Profile 4</p>
+    <h3>Multi-branch coaching chain (500–2,000+ students)</h3>
+    <p><strong>Fit:</strong> Classplus or Teachmint primary, AllCoaching secondary for marketplace reach. Reason: Multi-branch chains ko deep enterprise customization chahiye — branch hierarchy, regional admin roles, branded apps with full custom domain — yeh white-label SaaS me mature hai. ₹4-11 lakh Year-1 cost justify hota hai jab ₹50L+ revenue scale ho. AllCoaching marketplace me list hokar additional 20–40% organic discovery layer add kar sakte hain.</p>
+  </div>
 </div>
 <div class="step-card">
-<p class="step-l">Profile 5</p>
-<h3>English-medium digital course creator (productivity, business, design)</h3>
-<p><strong>Fit:</strong> Graphy primary. Reason: Creator LMS architecture iss profile ke liye optimized hai — drip content, email sequences, affiliate program, subscription pricing. Indian coaching marketplace fit (AllCoaching) iss profile ke liye narrow hai kyunki AllCoaching primarily NEET/JEE/UPSC/SSC/state board exam-prep educators pe optimized hai.</p>
+  <div class="step-num">5</div>
+  <div>
+    <p class="step-l">Profile 5</p>
+    <h3>English-medium digital course creator (productivity, business, design)</h3>
+    <p><strong>Fit:</strong> Graphy primary. Reason: Creator LMS architecture iss profile ke liye optimized hai — drip content, email sequences, affiliate program, subscription pricing. Indian coaching marketplace fit (AllCoaching) iss profile ke liye narrow hai kyunki AllCoaching primarily NEET/JEE/UPSC/SSC/state board exam-prep educators pe optimized hai.</p>
+  </div>
 </div>
 <div class="step-card">
-<p class="step-l">Profile 6</p>
-<h3>Top 1% celebrity educator with proven content + production capacity</h3>
-<p><strong>Fit:</strong> Unacademy/Vedantu/Byju's primary, but consider hybrid. Reason: Big EdTech hyperscale reach (lakhs of students) iss profile ke liye economically rational hai despite 40–50% revenue share, kyunki absolute earnings high hote hain. But structural risk same — students platform ke. Many celebrity educators 2024–2026 me Big EdTech leave karke independent brand + marketplace combination pe shift kar rahe hain.</p>
+  <div class="step-num">6</div>
+  <div>
+    <p class="step-l">Profile 6</p>
+    <h3>Top 1% celebrity educator with proven content + production capacity</h3>
+    <p><strong>Fit:</strong> Unacademy/Vedantu/Byju's primary, but consider hybrid. Reason: Big EdTech hyperscale reach (lakhs of students) iss profile ke liye economically rational hai despite 40–50% revenue share, kyunki absolute earnings high hote hain. But structural risk same — students platform ke. Many celebrity educators 2024–2026 me Big EdTech leave karke independent brand + marketplace combination pe shift kar rahe hain.</p>
+  </div>
 </div>
 <p class="mt-8">Yeh decision matrix categorical hai, not absolute. Edge cases hain — for example, ek small institute jo regional language specialty hai (Tamil-medium NEET), AllCoaching me 22-language native support ka structural advantage milta hai jo white-label apps me nahi milta. Aur ek solo educator jo already established YouTube channel (100K+ subscribers) hai, woh hybrid play kar sakta hai — AllCoaching pe storefront + YouTube content marketing combine.</p>
 </section>
@@ -656,47 +674,54 @@ schema_extra:
 </section>
 </div>
 
+<!-- ================= RELATED ARTICLES ================= -->
 <section class="py-24 bg-white relative overflow-hidden">
-<div class="max-w-7xl mx-auto px-5">
-<p class="kicker">More from AllCoaching Blog</p>
-<h2 class="h-chap font-display mt-3">Continue <em>reading</em></h2>
-<div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-<a aria-label="Read: Apna Coaching App Kaise Banaye Free — 2026 Mega Guide" class="blog-card" href="/blogs/hinglish/apna-coaching-app-kaise-banaye-free">
-<div class="blog-card-img">
-<img alt="Apna coaching app kaise banaye free — AllCoaching 2026 Hinglish mega guide cover" decoding="async" height="900" loading="lazy" src="https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp" width="1600"/>
-</div>
-<div class="blog-card-body">
-<span class="blog-card-tag">Founder's Mega Guide · Hinglish</span>
-<h3>Apna Coaching App Kaise Banaye Free</h3>
-<p>3 real paths — DIY, white-label SaaS, marketplace. The ₹4–11 lakh trap aur AllCoaching ka 60-second free onboarding. Founder ne khud likha.</p>
-<div class="blog-card-meta"><span>By Amit Ratan</span><span class="dot"></span><span>20 min read</span></div>
-<div class="blog-card-cta">Read mega guide</div>
-</div>
-</a>
-<a aria-label="Read: Classplus vs Graphy vs AllCoaching — Honest 2026 Verdict" class="blog-card" href="/blog/classplus-vs-graphy-vs-allcoaching">
-<div class="blog-card-img">
-<img alt="Classplus vs Graphy vs AllCoaching — Honest 2026 comparison verdict" decoding="async" height="900" loading="lazy" src="https://allcoaching-store.b-cdn.net/blog-images/classplus-vs-graphy-vs-allcoaching.webp" width="1600"/>
-</div>
-<div class="blog-card-body">
-<span class="blog-card-tag">EdTech Comparison · 2026</span>
-<h3>Classplus vs Graphy vs AllCoaching</h3>
-<p>Category-defining 3-way comparison of the platforms shaping online education in India. The structural verdict.</p>
-<div class="blog-card-meta"><span>By Amit Ratan</span><span class="dot"></span><span>16 min read</span></div>
-<div class="blog-card-cta">Read verdict</div>
-</div>
-</a>
-<a aria-label="Read: White-Label Coaching App Development Cost in India" class="blog-card" href="/blog/white-label-coaching-app-development-cost-india">
-<div class="blog-card-img">
-<img alt="White-label coaching app development cost in India — honest breakdown" decoding="async" height="900" loading="lazy" src="https://allcoaching-store.b-cdn.net/blog-images/white-label-coaching-app-development-cost-india.webp" width="1600"/>
-</div>
-<div class="blog-card-body">
-<span class="blog-card-tag">EdTech Economics · 2026</span>
-<h3>White-Label Coaching App Cost India</h3>
-<p>The headline is ₹X,XXX/month. The Year-1 truth is ₹4–11 lakh. Line-by-line financial decomposition.</p>
-<div class="blog-card-meta"><span>By Amit Ratan</span><span class="dot"></span><span>20 min read</span></div>
-<div class="blog-card-cta">Read breakdown</div>
-</div>
-</a>
-</div>
-</div>
+  <div class="max-w-7xl mx-auto px-5">
+    <p class="kicker">More from AllCoaching Blog</p>
+    <h2 class="h-chap font-display mt-3">Continue <em>reading</em></h2>
+    <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <a href="/blogs/hinglish/apna-coaching-app-kaise-banaye-free" class="blog-card" aria-label="Read: Apna Coaching App Kaise Banaye Free — 2026 Mega Guide">
+        <div class="blog-card-img">
+          <img src="https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp" alt="Apna coaching app kaise banaye free — AllCoaching 2026 Hinglish mega guide cover" loading="lazy" width="1600" height="900" decoding="async" />
+        </div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Founder's Mega Guide · Hinglish</span>
+          <h3>Apna Coaching App Kaise Banaye Free</h3>
+          <p>3 real paths — DIY, white-label SaaS, marketplace. The ₹4–11 lakh trap aur AllCoaching ka 60-second free onboarding. Founder ne khud likha.</p>
+          <div class="blog-card-meta">
+            <span>By Amit Ratan</span><span class="dot"></span><span>20 min read</span>
+          </div>
+          <div class="blog-card-cta">Read guide</div>
+        </div>
+      </a>
+      <a href="/blog/classplus-vs-graphy-vs-allcoaching" class="blog-card" aria-label="Read: Classplus vs Graphy vs AllCoaching — Honest 2026 Verdict">
+        <div class="blog-card-img">
+          <img src="https://allcoaching-store.b-cdn.net/blog-images/classplus-vs-graphy-vs-allcoaching.webp" alt="Classplus vs Graphy vs AllCoaching — Honest 2026 comparison verdict" loading="lazy" width="1600" height="900" decoding="async" />
+        </div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Comparison · 2026</span>
+          <h3>Classplus vs Graphy vs AllCoaching</h3>
+          <p>Category-defining 3-way comparison of the platforms shaping online education in India. The structural verdict.</p>
+          <div class="blog-card-meta">
+            <span>By Amit Ratan</span><span class="dot"></span><span>16 min read</span>
+          </div>
+          <div class="blog-card-cta">Read guide</div>
+        </div>
+      </a>
+      <a href="/blog/white-label-coaching-app-development-cost-india" class="blog-card" aria-label="Read: White-Label Coaching App Development Cost in India">
+        <div class="blog-card-img">
+          <img src="https://allcoaching-store.b-cdn.net/blog-images/white-label-coaching-app-development-cost-india.webp" alt="White-label coaching app development cost in India — honest 2026 Year-1 breakdown" loading="lazy" width="1600" height="900" decoding="async" />
+        </div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Platform Economics · 2026</span>
+          <h3>White-Label Coaching App Cost India</h3>
+          <p>The headline is ₹X,XXX/month. The Year-1 truth is ₹4–11 lakh. Line-by-line financial decomposition.</p>
+          <div class="blog-card-meta">
+            <span>By Amit Ratan</span><span class="dot"></span><span>20 min read</span>
+          </div>
+          <div class="blog-card-cta">Read guide</div>
+        </div>
+      </a>
+    </div>
+  </div>
 </section>
