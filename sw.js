@@ -6,7 +6,7 @@
  * Bump CACHE_VERSION on every deploy to invalidate old caches.
  */
 
-const CACHE_VERSION = 'v2026.05.04.1';
+const CACHE_VERSION = 'v2026.05.20.5';
 const STATIC_CACHE  = `ac-static-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `ac-runtime-${CACHE_VERSION}`;
 const HTML_CACHE    = `ac-html-${CACHE_VERSION}`;
@@ -62,6 +62,12 @@ function isStaticAsset(url) {
   return /\.(?:css|js|png|jpg|jpeg|webp|avif|svg|gif|ico|woff2?|ttf|otf)$/i.test(url.pathname);
 }
 
+// CSS and JS change frequently — never serve stale.
+// Images/fonts are immutable per deploy — cache-first is fine.
+function isCodeAsset(url) {
+  return /\.(?:css|js)$/i.test(url.pathname);
+}
+
 self.addEventListener('fetch', (event) => {
   const { request } = event;
 
@@ -84,7 +90,13 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Same-origin static assets — cache-first
+  // Same-origin CSS/JS — network-first (so brand.css edits are visible immediately)
+  if (url.origin === self.location.origin && isCodeAsset(url)) {
+    event.respondWith(networkFirst(request, STATIC_CACHE));
+    return;
+  }
+
+  // Same-origin images/fonts — cache-first (immutable per deploy)
   if (url.origin === self.location.origin && isStaticAsset(url)) {
     event.respondWith(cacheFirst(request, STATIC_CACHE));
     return;

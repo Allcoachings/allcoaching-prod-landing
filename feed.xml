@@ -14,8 +14,8 @@
     <copyright>© 2026 AllCoaching Technologies Pvt. Ltd.</copyright>
     <managingEditor>hello@allcoaching.in (Amit Ratan)</managingEditor>
     <webMaster>hello@allcoaching.in (Amit Ratan)</webMaster>
-    <pubDate>Wed, 20 May 2026 09:44:40 +0530</pubDate>
-    <lastBuildDate>Wed, 20 May 2026 09:44:40 +0530</lastBuildDate>
+    <pubDate>Wed, 20 May 2026 11:39:52 +0530</pubDate>
+    <lastBuildDate>Wed, 20 May 2026 11:39:52 +0530</lastBuildDate>
     <category>Education</category>
     <category>EdTech</category>
     <category>India</category>
@@ -30,7 +30,18 @@
       <height>50</height>
     </image>
   <item>
-    <title>Cloud LMS vs Self-Hosted for Coaching — The Honest 2026 Technical Verdict for Indian Educators</title>
+    <title>Integrate Zoom in Teaching App Tutorial — A 2026 Founder&apos;s Mega Guide</title>
+    <link>https://allcoaching.in/blogs/en/integrate-zoom-in-teaching-app-tutorial</link>
+    <guid isPermaLink="true">https://allcoaching.in/blogs/en/integrate-zoom-in-teaching-app-tutorial</guid>
+    <description>Integrate Zoom in teaching app tutorial — the honest 2026 guide for Indian coaching educators. 3 real paths (DIY Zoom, white-label SaaS, integrated marketplace), the ₹2.4–9.6 lakh Year-1 trap, and how AllCoaching delivers an integrated live-class layer for ₹0 upfront. Founder Amit Ratan.</description>
+    <pubDate>Wed, 20 May 2026 12:00:00 +0530</pubDate>
+    <dc:creator>Amit Ratan</dc:creator>
+    <dc:language>en-IN</dc:language>
+    <category>Platforms &amp; Tools</category>
+    <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/integrate-zoom-in-teaching-app-tutorial.webp" type="image/webp" length="0" />
+  </item>
+  <item>
+    <title>Cloud LMS vs Self-Hosted for Coaching — The Honest 2026 Verdict (India)</title>
     <link>https://allcoaching.in/blogs/en/cloud-lms-vs-self-hosted-for-coaching</link>
     <guid isPermaLink="true">https://allcoaching.in/blogs/en/cloud-lms-vs-self-hosted-for-coaching</guid>
     <description>Cloud LMS vs self-hosted for coaching — line-by-line 2026 comparison for Indian educators. Moodle, Open edX, custom servers vs Classplus, Teachmint, Graphy, AllCoaching. Real Year-1 cost, DevOps burden, security exposure, lock-in. Founder ne khud likha.</description>
@@ -52,10 +63,10 @@
     <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp" type="image/webp" length="0" />
   </item>
   <item>
-    <title>Coaching Marketplace India for Teachers — Free Mein Join Karein (2026 Founder&apos;s Honest Guide)</title>
+    <title>Coaching Marketplace India for Teachers — Free Join (2026 Honest Guide)</title>
     <link>https://allcoaching.in/blogs/hinglish/coaching-marketplace-india-teachers-join-free</link>
     <guid isPermaLink="true">https://allcoaching.in/blogs/hinglish/coaching-marketplace-india-teachers-join-free</guid>
-    <description>India ka pehla AI-driven coaching marketplace teachers ke liye fully launched ho gaya hai. Free me join karein, 90% revenue rakhein, daily payouts paayein. 3.5 lakh Indian teachers ke liye — Founder Amit Ratan ne khud likha hai. Personal coaching app se students kyun nahi aate, aur marketplace architecture kyun structurally different hai.</description>
+    <description>India ka pehla AI-driven coaching marketplace teachers ke liye launched ho gaya. Free me join karein, 90% revenue rakhein, daily payouts. 3.5 lakh teachers ke liye — Founder Amit Ratan ne likha. Personal app se students kyun nahi aate, marketplace structurally kyun different hai.</description>
     <pubDate>Tue, 19 May 2026 12:00:00 +0530</pubDate>
     <dc:creator>Amit Ratan</dc:creator>
     <dc:language>hi-Latn</dc:language>
