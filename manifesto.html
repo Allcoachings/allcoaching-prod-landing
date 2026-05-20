@@ -66,194 +66,54 @@
   <link rel="preconnect" href="https://allcoaching-store.b-cdn.net" crossorigin />
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="preload" as="image" href="https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp?v=manifesto" fetchpriority="high" />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,600;1,9..144,700;1,9..144,800&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./dist/tw.min.css" />
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="./brand.css" />
 
   <style>
-    /* Story-page typography (AllCoaching brand) */
-    .kicker{ font-family:'Inter',sans-serif; font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:800; color:#C58B43; }
-    .h-mast{ font-size: clamp(2.4rem, 5.6vw, 4.6rem); line-height:1.02; font-weight:900; letter-spacing:-.035em; }
-    .h-chap{ font-size: clamp(1.7rem, 3.2vw, 2.5rem); line-height:1.15; font-weight:800; letter-spacing:-.022em; }
-    .h-mani{ font-size: clamp(1.9rem, 3.6vw, 2.8rem); line-height:1.1; font-weight:900; letter-spacing:-.025em; }
+    /* ============================================================
+       Manifesto page — keep ONLY manifesto-specific components.
+       Typography, .kicker, .h-mast, .h-chap, .h-mani, .pull, .epi,
+       .stat-row, .cmp (use cmp-h4/cmp-r4), .hband, .toc, .orn, .drop-cap,
+       .brand-pill, .mast-dark, .founder — all defined in brand.css.
+    ============================================================ */
 
-    .article-body p{ font-size:17px; line-height:1.85; color:#4F4840; font-weight:400; }
-    .article-body p + p{ margin-top:1.25rem; }
-    .article-body strong{ color:#15110D; font-weight:700; }
-    .article-body em{ font-style: italic; color: #15110D; }
-    .article-body ul, .article-body ol{ margin: 1.1rem 0 1.4rem 1.25rem; }
-    .article-body ul li, .article-body ol li{ margin: .55rem 0; line-height: 1.75; color:#4F4840; font-size: 16.5px; }
-    .article-body a{ color:#9C6A2E; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
-    .article-body a:hover{ color:#C58B43; }
-
-    /* Masthead */
-    .mast-dark{
-      background:
-        radial-gradient(60% 45% at 15% 0%, rgba(197,139,67,0.10), transparent 60%),
-        radial-gradient(50% 35% at 85% 0%, rgba(47,143,78,0.08), transparent 60%),
-        radial-gradient(35% 35% at 50% 100%, rgba(244,184,26,0.06), transparent 60%),
-        #fff;
-      color:#15110D;
-      position:relative; overflow:hidden;
-    }
-    .mast-dark::before{ content:""; position:absolute; top:-30%; right:-10%; width:560px; height:560px; border-radius:999px; border:1px solid rgba(197,139,67,.12); pointer-events:none; }
-    .mast-dark::after{ content:""; position:absolute; top:-10%; right:5%; width:280px; height:280px; border-radius:999px; border:1px solid rgba(47,143,78,.12); pointer-events:none; }
-
-    .brand-pill{ font-family:'Inter'; font-size:11px; letter-spacing:.18em; text-transform:uppercase; font-weight:800; color:#9C6A2E; padding:6px 12px; border-radius:6px; border:1px solid rgba(197,139,67,.2); }
-
-    /* Drop cap */
-    .drop-cap::first-letter{
-      font-family:'Inter Tight', sans-serif;
-      font-size: 4.5rem; font-weight:900; line-height:.9;
-      float:left; padding: .15rem .55rem 0 0;
-      color:#C58B43; letter-spacing:-.04em;
-    }
-
-    /* Pull quote — fresh minimalist */
-    .pull{
-      position:relative; padding: 1.9rem 2rem 1.9rem 2.4rem;
-      background: linear-gradient(160deg, #FBF4E6 0%, #FDFCFF 65%, #FFFFFF 100%);
-      border-left: 4px solid #C58B43;
-      border-radius: 0 14px 14px 0;
-      margin: 2.4rem 0;
-      box-shadow: 0 2px 8px rgba(139,92,246,.06), 0 16px 36px -16px rgba(139,92,246,.1);
-    }
-    .pull p{
-      font-family:'Inter Tight',sans-serif; font-size: clamp(1.15rem, 2vw, 1.45rem); line-height:1.5;
-      font-weight:700; color:#15110D; letter-spacing:-.012em;
-    }
-
-    /* Epigraph — fresh minimalist */
-    .epi{
-      background: linear-gradient(135deg, #FBF4E6 0%, #F5E8D2 100%);
-      color:#3A2710; text-align:center; padding: 3rem 1.5rem;
-      border-top: 1px solid rgba(139,92,246,.12);
-      border-bottom: 1px solid rgba(139,92,246,.12);
-    }
-    .epi p{
-      font-family:'Inter Tight',sans-serif;
-      font-size: clamp(1.15rem, 2.4vw, 1.6rem); line-height:1.5; font-weight:600; max-width:780px; margin:0 auto;
-    }
-    .epi cite{ display:block; margin-top:1rem; font-style:normal; font-size:11px; letter-spacing:.18em; text-transform:uppercase; opacity:.55; font-family:'Inter'; font-weight:700; }
-
-    /* Stat row */
-    .stat-row{
-      display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
-      gap:1px; background:#E5DDD0; border:1px solid #E5DDD0; border-radius:14px; overflow:hidden;
-      box-shadow: 0 30px 60px -40px rgba(38,28,14,.18);
-    }
-    .stat-cell{ background:#fff; padding:1.6rem 1.25rem; text-align:center; }
-    .stat-num{ font-family:'Inter Tight',sans-serif; font-weight:900; font-size: clamp(1.9rem, 3.4vw, 2.6rem); color:#C58B43; line-height:1; letter-spacing:-.025em; }
-    .stat-lab{ font-size:13px; color:#8C8378; line-height:1.5; margin-top:.55rem; }
-
-    /* Problem / entity card */
+    /* Problem / entity card — manifesto-specific */
     .pcard{ border:1px solid #E5DDD0; border-radius:16px; padding:1.5rem; background:#fff; transition:border-color .25s, transform .25s, box-shadow .25s; }
     .pcard:hover{ border-color:#C58B43; transform:translateY(-3px); box-shadow:0 28px 50px -28px rgba(197,139,67,.25); }
-    .pcard .pin{ font-family:'Inter'; font-size:11px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:#C58B43; }
-    .pcard .role{ font-family:'Inter'; font-size: 11.5px; font-weight: 600; color:#4F4840; margin-top:.3rem; }
-    .pcard h3{ font-family:'Inter Tight',sans-serif; font-size:1.1rem; font-weight:800; color:#15110D; line-height:1.3; margin-top:.5rem; }
+    .pcard .pin{ font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:#9C6A2E; }
+    .pcard .role{ font-family:'Inter Tight',sans-serif; font-size: 11.5px; font-weight: 600; color:#4F4840; margin-top:.3rem; }
+    .pcard h3{ font-family:'Fraunces','Instrument Serif',serif; font-style:italic; font-size:1.25rem; font-weight:700; color:#15110D; line-height:1.25; margin-top:.5rem; letter-spacing:-.015em; }
     .pcard p{ font-size:14.5px; color:#4F4840; line-height:1.7; margin-top:.65rem; }
     .pcard p + p{ margin-top: .65rem; }
 
-    /* Compare table — manifesto pattern */
-    .cmp{ border:1px solid #E5DDD0; border-radius:14px; overflow:hidden; box-shadow:0 30px 60px -40px rgba(38,28,14,.18); background:#fff; }
-    .cmp-h, .cmp-r{ display:grid; grid-template-columns:2fr 1fr 1fr 1fr; align-items:center; }
-    .cmp-h{ background:#15110D; color:#fff; padding:.85rem 1.2rem; }
-    .cmp-h span{ font-size:11px; letter-spacing:.14em; text-transform:uppercase; font-weight:700; color:rgba(255,255,255,.85); }
-    .cmp-h span:first-child{ color:rgba(255,255,255,.55); }
-    .cmp-r{ padding:.95rem 1.2rem; border-top:1px solid #E5DDD0; }
-    .cmp-r:nth-child(even){ background:#EEE7DA; }
-    .cmp-r span{ font-size:14px; color:#4F4840; line-height:1.5; }
-    .cmp-r span:first-child{ color:#15110D; font-weight:600; }
-    .ic-y{ color:#2F8F4E; font-weight:900; }
-    .ic-n{ color:#C44232; font-weight:900; }
-    .ic-p{ color:#B08518; font-weight:900; }
-
-    /* Mobile-safe table wrapper */
-    .cmp-scroll{ overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 2rem -.25rem; }
-    .cmp-scroll .cmp{ min-width: 640px; margin: 0; }
-
-    /* Manifesto numbered points */
+    /* Manifesto numbered points (inside dark band) */
     .mp{ display:flex; gap:1.25rem; padding:1.25rem 0; border-top:1px solid rgba(255,255,255,.08); }
     .mp:first-child{ border-top:0; }
-    .mp .mp-n{ font-family:'Inter'; font-size:11px; font-weight:800; letter-spacing:.14em; color:#E0A95C; min-width:36px; padding-top:6px; }
-    .mp h4{ font-family:'Inter Tight',sans-serif; font-size:1.1rem; font-weight:800; color:#fff; line-height:1.3; }
-    .mp p{ color:rgba(248,250,252,.65); font-size:15px; line-height:1.7; margin-top:.45rem; font-weight:400; }
+    .mp .mp-n{ font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:800; letter-spacing:.14em; color:#E0A95C; min-width:36px; padding-top:6px; }
+    .mp h4{ font-family:'Fraunces','Instrument Serif',serif; font-style:italic; font-size:1.2rem; font-weight:700; color:#fff; line-height:1.3; letter-spacing:-.012em; }
+    .mp p{ color:rgba(248,250,252,.7); font-size:15px; line-height:1.7; margin-top:.45rem; font-weight:400; }
 
     .manifesto-band{
       background: radial-gradient(120% 80% at 100% 0%, #1A150F 0%, #060B1F 60%, #04070F 100%);
       color:#fff; padding: 4.5rem 1.5rem; position:relative; overflow:hidden;
     }
     .manifesto-band::before{
-      content:"“"; position:absolute; left:-30px; top:-90px;
-      font-family:'Inter Tight',sans-serif; font-size:280px; line-height:1; color:rgba(224,169,92,.08); pointer-events:none;
+      content:"\201C"; position:absolute; left:-30px; top:-90px;
+      font-family:'Fraunces','Instrument Serif',serif; font-style:italic; font-size:280px; line-height:1; color:rgba(224,169,92,.08); pointer-events:none;
     }
 
-    /* Feature list */
+    /* Feature list — manifesto-specific */
     .fitem{ display:grid; grid-template-columns: 110px 1fr; gap:1.25rem; padding:1.6rem 0; border-top:1px solid #E5DDD0; align-items:start; }
     .fitem:first-child{ border-top:0; }
-    .fitem .ftag{ font-family:'Inter'; font-size:10px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; padding:5px 10px; background:#FEF3C7; color:#92400E; border-radius:6px; display:inline-block; white-space:nowrap; }
-    .fitem h4{ font-family:'Inter Tight',sans-serif; font-size:1.05rem; font-weight:800; color:#15110D; }
+    .fitem .ftag{ font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; padding:5px 10px; background:#FEF3C7; color:#92400E; border-radius:6px; display:inline-block; white-space:nowrap; }
+    .fitem h4{ font-family:'Fraunces','Instrument Serif',serif; font-style:italic; font-size:1.18rem; font-weight:700; color:#15110D; letter-spacing:-.015em; }
     .fitem p{ font-size:14.5px; color:#4F4840; line-height:1.7; margin-top:.4rem; }
 
-    /* Highlight band */
-    .hband{ background:linear-gradient(180deg,#F4EAD0,#FFFEF0); border:1px solid #E8CFA3; border-radius:14px; padding:1.5rem 1.75rem; margin: 2.25rem 0; }
-    .hband p{ font-size:15.5px; color:#4F4840; line-height:1.75; margin:0; }
-    .hband strong{ color:#15110D; font-weight:700; }
-
-    /* TOC */
-    .toc{ background:#EEE7DA; border:1px solid #E5DDD0; border-radius:16px; padding:1.75rem 1.75rem 1.4rem; margin: 3rem 0; }
-    .toc-l{ font-family:'Inter'; font-size:10px; letter-spacing:.22em; text-transform:uppercase; font-weight:800; color:#8C8378; }
-    .toc ol{ counter-reset: tocn; list-style:none; margin-top:1rem; padding: 0; }
-    .toc ol li{ counter-increment:tocn; font-size:14.5px; line-height:1.6; padding:.45rem 0; color:#4F4840; display:flex; gap:.85rem; align-items:baseline; border-top:1px dashed #E5DDD0; }
-    .toc ol li:first-child{ border-top:0; }
-    .toc ol li::before{ content: counter(tocn,decimal-leading-zero); font-family:'Inter'; font-size:11px; font-weight:800; letter-spacing:.1em; color:#C58B43; min-width:30px; }
-    .toc a{ color:#4F4840; text-decoration:none; transition:color .15s; }
-    .toc a:hover{ color:#C58B43; }
-
-    /* Ornament */
-    .orn{ text-align:center; color:#B6AEA1; letter-spacing:.5em; font-size:12px; margin: 2rem 0; }
-
-    /* Founder card */
-    .founder{
-      display:grid; grid-template-columns: 220px 1fr; gap:2rem; align-items:center;
-      background: linear-gradient(180deg,#FFFFFF, #EEE7DA);
-      border:1px solid #E5DDD0; border-radius:22px; padding: 2rem;
-      box-shadow: 0 36px 64px -36px rgba(38,28,14,.22);
-      position:relative; overflow:hidden;
-    }
-    .founder::before{
-      content:""; position:absolute; inset:auto -40% -40% auto; width:380px; height:380px;
-      background: radial-gradient(circle at 50% 50%, rgba(197,139,67,.10), transparent 60%);
-      pointer-events:none;
-    }
-    .founder .photo-wrap{
-      width: 200px; height: 240px; border-radius:18px; overflow:hidden; position:relative;
-      background: linear-gradient(135deg,#E0A95C 0%,#C58B43 55%,#9C6A2E 100%);
-      box-shadow: 0 24px 50px -24px rgba(38,28,14,.35);
-    }
-    .founder .photo-wrap img{ width:100%; height:100%; object-fit:cover; display:block; }
-    .founder .photo-wrap::after{
-      content:""; position:absolute; inset:0; border-radius:inherit; pointer-events:none;
-      box-shadow: 0 1px 0 rgba(255,255,255,.4) inset, 0 0 0 4px rgba(255,255,255,.7) inset;
-    }
-    .founder-eyebrow{ font-family:'Inter'; font-size:10px; font-weight:800; letter-spacing:.22em; text-transform:uppercase; color:#C58B43; }
-    .founder-name{ font-family:'Inter Tight',sans-serif; font-weight:900; font-size: clamp(1.6rem, 3vw, 2.1rem); color:#15110D; letter-spacing:-.02em; line-height:1.05; margin-top:.4rem; }
-    .founder-role{ font-family:'Inter Tight',sans-serif; font-weight:700; color:#4F4840; font-size:.95rem; margin-top:.15rem; }
-    .founder-quote{
-      margin-top:1.1rem; padding-top:1.1rem; border-top:1px dashed #B6AEA1;
-      font-family:'Inter Tight',sans-serif; font-size:1.05rem; line-height:1.55; color:#15110D; font-weight:600;
-      font-style:italic;
-    }
-    .founder-bio{ margin-top:.85rem; font-size:14.5px; color:#4F4840; line-height:1.7; }
-
+    /* Mobile adjustments for manifesto-specific components */
     @media (max-width: 720px){
-      .founder{ grid-template-columns: 1fr; text-align:left; }
-      .founder .photo-wrap{ width: 160px; height: 190px; }
       .fitem{ grid-template-columns: 1fr; gap:.5rem; }
-      .cmp-h, .cmp-r{ grid-template-columns: 1.6fr 1fr 1fr 1fr; }
-      .pull{ padding:1.5rem 1.25rem; margin: 2rem 0; }
     }
   </style>
 
@@ -541,18 +401,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 
       <p><strong>Your growth is capped by their algorithm.</strong> Large platforms have internal incentives that don't align with individual educator growth. They need to promote courses that maximise platform revenue. If a newer, cheaper educator covers the same subject, you may be deprioritised. You are competing with your own platform's interests.</p>
 
-      <div class="cmp mt-10">
-        <div class="cmp-h">
+      <div class="cmp-scroll mt-10">
+      <div class="cmp">
+        <div class="cmp-h4">
           <span>What you want</span><span>Personal App</span><span>Big EdTech</span><span>AllCoaching</span>
         </div>
-        <div class="cmp-r"><span>Your own brand identity</span><span class="ic-y">✓</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r"><span>Student discovery without paid marketing</span><span class="ic-n">✗</span><span class="ic-p">±</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r"><span>Keep your student relationships</span><span class="ic-y">✓</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r"><span>Zero technical maintenance burden</span><span class="ic-n">✗</span><span class="ic-y">✓</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r"><span>Transparent revenue without hidden cuts</span><span class="ic-p">±</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r"><span>Network effect &amp; co-discovery with peers</span><span class="ic-n">✗</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r"><span>Freedom to focus only on teaching</span><span class="ic-n">✗</span><span class="ic-p">±</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r"><span>Portability — take your audience if you leave</span><span class="ic-y">✓</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
+        <div class="cmp-r4"><span>Your own brand identity</span><span class="ic-y">✓</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
+        <div class="cmp-r4"><span>Student discovery without paid marketing</span><span class="ic-n">✗</span><span class="ic-p">±</span><span class="ic-y">✓</span></div>
+        <div class="cmp-r4"><span>Keep your student relationships</span><span class="ic-y">✓</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
+        <div class="cmp-r4"><span>Zero technical maintenance burden</span><span class="ic-n">✗</span><span class="ic-y">✓</span><span class="ic-y">✓</span></div>
+        <div class="cmp-r4"><span>Transparent revenue without hidden cuts</span><span class="ic-p">±</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
+        <div class="cmp-r4"><span>Network effect &amp; co-discovery with peers</span><span class="ic-n">✗</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
+        <div class="cmp-r4"><span>Freedom to focus only on teaching</span><span class="ic-n">✗</span><span class="ic-p">±</span><span class="ic-y">✓</span></div>
+        <div class="cmp-r4"><span>Portability — take your audience if you leave</span><span class="ic-y">✓</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
+      </div>
       </div>
 
       <p class="mt-8">The honest truth is that neither extreme works. A personal app gives you ownership but no reach. A big EdTech platform gives you reach but no ownership. The Indian education ecosystem has been stuck between these two bad choices for half a decade — and no one has built the third option at scale. <strong>Until now.</strong></p>
@@ -630,9 +492,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
           <img src="./assets/Amit-Ratan.webp" alt="Amit Ratan, Founder & CEO of AllCoaching" loading="lazy" decoding="async" width="180" height="180" style="object-position:center 20%;" />
         </div>
         <div class="relative z-10">
-          <div class="founder-eyebrow">Founder &amp; CEO</div>
-          <div class="founder-name">Amit Ratan</div>
-          <div class="founder-role">Founder &amp; CEO · AllCoaching</div>
+          <div class="founder-eyebrow" style="font-family:'JetBrains Mono',monospace;font-weight:800;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#9C6A2E;margin:0;">About the Author</div>
+          <div class="founder-name" style="font-family:'Fraunces','Instrument Serif',serif;font-style:italic;font-weight:800;font-size:clamp(1.95rem,3.2vw,2.5rem);color:#15110D;letter-spacing:-.025em;line-height:1;margin:.5rem 0 0;">Amit Ratan</div>
+          <div class="founder-role" style="font-family:'Inter Tight',sans-serif;font-weight:700;color:#9C6A2E;font-size:1.02rem;letter-spacing:.008em;margin:.35rem 0 0;">Founder &amp; CEO, AllCoaching</div>
 
           <p class="founder-quote">"I didn't start AllCoaching to build another app. I started it because the people who taught me — and millions like them — deserved an internet that worked for them, not against them."</p>
 
