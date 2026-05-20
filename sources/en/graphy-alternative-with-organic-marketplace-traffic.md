@@ -1,0 +1,719 @@
+---
+slug: graphy-alternative-with-organic-marketplace-traffic
+language: en
+type: blog
+status: published
+author: amit-ratan
+category: platforms-tools
+subcategory: lms-platforms
+tags:
+- aud-individual-tutor
+- aud-institute-owner
+- format-comparison
+- format-analysis
+translation_group: tg-graphy-alternative-marketplace
+title: "Graphy Alternative with Organic Marketplace Traffic: Why Indian Creators Are Choosing Distribution-First Platforms in 2026"
+description: Looking for a Graphy alternative with built-in organic marketplace traffic? Graphy is an excellent website builder but does not solve distribution. AllCoaching's AI-driven marketplace routes Indian aspirants to creator profiles organically. ₹0 upfront, 10% revenue-share, 90% creator retention.
+
+keywords:
+- graphy alternative
+- graphy alternative with organic marketplace traffic
+- graphy vs allcoaching
+- graphy alternative india
+- graphy competitor 2026
+- course creator platform with traffic
+- creator marketplace india
+- distribution first platform creators
+- graphy organic traffic problem
+- graphy marketing alternative
+- creator economy marketplace india
+- ai marketplace for course creators
+- graphy alternative free
+- AllCoaching graphy alternative
+cover_image: graphy-alternative-with-organic-marketplace-traffic.webp
+cover_image_alt: "Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first creator platform 2026"
+published: '2026-05-20'
+modified: '2026-05-20'
+word_count: 4500
+epigraph: "Graphy gives you the best website you will never get students to visit. The website was never the problem. The traffic to the website is the problem. Solve that, and the website matters far less."
+epigraph_attribution: THE OPENING THESIS — A FOUNDER'S NOTE
+schema_extra:
+- '@context': https://schema.org
+  '@type': HowTo
+  name: "How to evaluate Graphy alternatives with organic marketplace traffic in 2026 (India)"
+  description: "A 6-step diagnostic for Indian course creators currently using Graphy to evaluate whether a distribution-first marketplace alternative (AllCoaching) is the structurally correct platform for their stage and goals."
+  totalTime: PT45M
+  step:
+  - '@type': HowToStep
+    position: 1
+    name: "Audit your current student-acquisition channels"
+    text: "Open your last 90 days of new enrolments. Tag each by source — your own paid ads, organic social, word-of-mouth, Graphy platform discovery. If Graphy's own platform contributed under 10% of new students, you are paying for hosting, not distribution. The distribution problem is unsolved and the platform fee does not address it."
+  - '@type': HowToStep
+    position: 2
+    name: "Calculate cost per acquired student (CAC)"
+    text: "Sum your last 90 days of marketing spend (Meta, Google, influencer, content creation, ad agency fees) and divide by paid student count. If CAC exceeds 25% of average revenue per student (ARPU), distribution is your bottleneck — not features, not branding, not website design."
+  - '@type': HowToStep
+    position: 3
+    name: "Compare website-quality vs traffic-volume needs"
+    text: "Graphy excels at website quality — branded design, customisable themes, polished checkout, mobile-responsive layouts. Ask: which of my next 100 students will be acquired because of website quality, vs because of who is finding the website in the first place? For most creators, the second number is structurally larger."
+  - '@type': HowToStep
+    position: 4
+    name: "Open a parallel AllCoaching educator account"
+    text: "Sign up at educator.allcoaching.in — ₹0, no credit card, 60-second setup. Upload one course in parallel to your existing Graphy site. Measure: organic profile visits in the first 30 days from AllCoaching's AI marketplace discovery (this is the variable Graphy structurally does not produce)."
+  - '@type': HowToStep
+    position: 5
+    name: "Run a 30-day side-by-side traffic test"
+    text: "Keep your Graphy site live. For 30 days, do not change your marketing spend. Compare new enrolments by source — Graphy site vs AllCoaching marketplace profile. The structural argument is decided by data, not marketing claims. Most creators see 3–8x higher organic discovery on the marketplace side within the first month."
+  - '@type': HowToStep
+    position: 6
+    name: "Decide on architecture and execute the migration"
+    text: "If the parallel test confirms marketplace discovery materially exceeds Graphy organic, plan migration within the final 30 days of your Graphy term to avoid auto-renewal. Export student records via Graphy's data-export feature (read the export clause first), re-onboard students to AllCoaching studio, redirect old Graphy URL via 301 to new marketplace profile."
+  tool:
+  - '@type': HowToTool
+    name: "Last 90 days of new enrolment data tagged by source"
+  - '@type': HowToTool
+    name: "Last 90 days of marketing spend across all channels"
+  - '@type': HowToTool
+    name: "A test cohort of 5–10 students for parallel evaluation"
+- '@context': https://schema.org
+  '@type': SoftwareApplication
+  name: "AllCoaching — Graphy Alternative with Built-in AI Marketplace Discovery"
+  applicationCategory: BusinessApplication
+  applicationSubCategory: EducatorMarketplace
+  operatingSystem: "Web, Android, iOS"
+  description: "India's AI-driven educator marketplace and distribution-first alternative to Graphy. ₹0 upfront, no monthly subscription, 10% revenue-share only on paid earnings (90% to creator). Built-in AI marketplace discovery routes Indian aspirants and learners to creator profiles based on subject, exam, language, and level — organic traffic without ad spend. Includes branded creator studio, course hosting, payment gateway (UPI/card), live class server, student CRM, GST-compliant invoicing, anti-piracy video DRM, and daily T+1 payouts. The structural alternative for creators whose primary bottleneck is distribution, not website quality."
+  url: https://educator.allcoaching.in/
+  image: https://allcoaching-store.b-cdn.net/blog-images/graphy-alternative-with-organic-marketplace-traffic.webp
+  offers:
+  - '@type': Offer
+    name: "Free Base Plan — Revenue-Share Only"
+    price: '0'
+    priceCurrency: INR
+    description: "₹0 upfront, ₹0 monthly subscription. 10% revenue-share on paid student earnings only — platform earns only when creator earns. Full creator infrastructure plus built-in AI marketplace discovery (the layer Graphy does not provide)."
+    availability: https://schema.org/InStock
+    areaServed:
+      '@type': Country
+      name: India
+  featureList:
+  - "AI marketplace discovery — organic student matching (Graphy does not offer this)"
+  - "Zero upfront, zero subscription — 10% revenue-share only"
+  - "Branded creator studio with logo + colors"
+  - "Course hosting (PDF, video, audio, test series)"
+  - "Built-in live class server (Zoom subscription not required)"
+  - "UPI / card / EMI / net-banking payment collection"
+  - "Daily T+1 payouts via Razorpay rails (90% to creator)"
+  - "GST-compliant automated invoicing"
+  - "Anti-piracy video DRM (HLS + AES + watermarking)"
+  - "Student CRM with attendance, progress, fee history"
+  - "WhatsApp Business integration"
+  - "Multi-language support (Hindi, English, Hinglish, regional)"
+  - "Listed on shared AllCoaching student app (Play Store)"
+  - "Full data portability (CSV + JSON export commitment)"
+  - "No 12-month contract, no auto-renewal trap"
+  provider:
+    '@id': https://allcoaching.in/#organization
+  audience:
+    '@type': Audience
+    audienceType: "Indian course creators, coaching educators, subject specialists, and online tutors evaluating Graphy alternatives that include built-in organic marketplace traffic in 2026"
+  countriesSupported: IN
+  inLanguage:
+  - en-IN
+  - hi-IN
+  - hi-Latn-IN
+- '@context': https://schema.org
+  '@type': ItemList
+  '@id': https://allcoaching.in/blogs/en/graphy-alternative-with-organic-marketplace-traffic#fit-matrix
+  name: "Graphy vs AllCoaching — Fit Matrix for Indian Creators (2026)"
+  description: "Architectural fit matrix mapping creator profiles (mature audience, growth-stage, distribution-bottlenecked, brand-isolated) to the structurally correct platform choice in 2026 — Graphy for mature audiences with own distribution, AllCoaching for creators whose primary bottleneck is finding students."
+  numberOfItems: 4
+  itemListElement:
+  - '@type': ListItem
+    position: 1
+    item:
+      '@type': Thing
+      name: "Creator with mature audience (10K+ existing email list, established YouTube/Instagram)"
+      description: "Graphy is structurally correct — distribution is already solved, website quality is the next-layer optimisation. Marketplace discovery adds minimal value because audience already exists."
+  - '@type': ListItem
+    position: 2
+    item:
+      '@type': Thing
+      name: "Growth-stage creator (1K-10K audience, ramping)"
+      description: "Hybrid is rational — Graphy for branded website + AllCoaching for marketplace top-of-funnel. Or AllCoaching only if cash constrained. Pure Graphy works only with parallel paid acquisition investment."
+  - '@type': ListItem
+    position: 3
+    item:
+      '@type': Thing
+      name: "Distribution-bottlenecked creator (sub-1K audience, finding students is the problem)"
+      description: "AllCoaching is structurally correct — marketplace AI-driven discovery is the layer the creator most needs. Graphy structurally cannot solve this bottleneck because website quality does not produce traffic. The same logic applies to most subscription LMS platforms creators are leaving in 2026."
+  - '@type': ListItem
+    position: 4
+    item:
+      '@type': Thing
+      name: "Brand-isolation strategic requirement (premium positioning, no marketplace surface acceptable)"
+      description: "Graphy is structurally correct — branded white-label control without shared marketplace exposure. AllCoaching's marketplace surface conflicts with brand isolation requirement."
+- '@context': https://schema.org
+  '@type': DefinedTermSet
+  '@id': https://allcoaching.in/blogs/en/graphy-alternative-with-organic-marketplace-traffic#glossary
+  name: "Graphy Alternative with Organic Marketplace Traffic — Glossary"
+  hasDefinedTerm:
+  - '@type': DefinedTerm
+    '@id': '#dfn-graphy'
+    name: "Graphy"
+    description: "An Indian course-creator platform launched by Unacademy in 2021, designed to give independent creators a branded website and app for selling courses, live classes, and digital products. Graphy is structurally a creator website builder + LMS — it excels at website quality, branding, customisation, and checkout polish. It does not include a built-in discovery surface that routes external traffic to creator websites; creators acquire their own traffic through external channels."
+  - '@type': DefinedTerm
+    '@id': '#dfn-website-builder-lms'
+    name: "Website-Builder LMS"
+    description: "A creator platform whose primary value proposition is building a branded website or app — Graphy, Teachable, Thinkific, Kajabi are international examples. Pricing is subscription. Distribution is the creator's own responsibility — the platform does not bring traffic to the creator's website. Strong fit for creators with mature audiences; weaker fit for creators whose bottleneck is finding students."
+  - '@type': DefinedTerm
+    '@id': '#dfn-marketplace-platform'
+    name: "Marketplace Platform"
+    description: "A creator platform whose primary value proposition includes routing organic traffic to creator profiles. AllCoaching is India's first AI-driven marketplace platform for educators and course creators. Multiple creators host branded studios on a shared platform; an AI recommendation engine matches students to creator profiles based on subject, exam, language, and level. Built-in discovery is the structural differentiator from website-builder LMS platforms."
+  - '@type': DefinedTerm
+    '@id': '#dfn-organic-marketplace-traffic'
+    name: "Organic Marketplace Traffic"
+    description: "Student visits and enrolments that arrive at a creator's profile through the marketplace's own discovery surface — search, recommendations, AI matching, browse — without the creator paying for ads or running outbound campaigns. Organic marketplace traffic is the structural feature that distinguishes a marketplace platform from a website-builder LMS. In 2026 India, AllCoaching delivers 30–70% of new enrolments from organic marketplace traffic for educators in mature niches."
+  - '@type': DefinedTerm
+    '@id': '#dfn-distribution-bottleneck'
+    name: "Distribution Bottleneck"
+    description: "The creator-side constraint where finding paying students is harder than producing content. Distribution bottleneck is the dominant constraint for the majority of Indian creators in 2026 — solo educators, small batch teachers, niche subject specialists, regional language creators. Website quality, course quality, and pricing are downstream of the distribution bottleneck. Until distribution is solved, the other optimisations matter less than they appear."
+  - '@type': DefinedTerm
+    '@id': '#dfn-creator-cac'
+    name: "Creator CAC (Customer Acquisition Cost)"
+    description: "The total cost a creator spends to acquire one new paying student, including ad spend, content creation cost, influencer fees, ad agency commission, and the creator's own time valued at opportunity cost. For Indian course creators on website-builder LMS platforms, CAC commonly runs ₹800–₹5,000 per student. Marketplace platforms with organic discovery can structurally reduce CAC by 60–80% by replacing paid acquisition with organic matching."
+  - '@type': DefinedTerm
+    '@id': '#dfn-revenue-share-creator'
+    name: "Revenue Share (Creator)"
+    description: "A platform pricing model where the creator pays a percentage of paid student revenue to the platform instead of a fixed monthly subscription. AllCoaching operates on a 10% revenue-share model — creator retains 90%, with daily T+1 payouts via Razorpay rails. Revenue share aligns platform incentives with creator growth; subscription pricing decouples them. The economic alignment is the structural reason marketplace platforms invest in creator discovery."
+  - '@type': DefinedTerm
+    '@id': '#dfn-data-portability-graphy'
+    name: "Data Portability (Graphy)"
+    description: "Graphy provides CSV export of student records as a standard feature; content export is supported in formats appropriate to each content type. Creators considering migration from Graphy should verify export coverage for course content, student progress data, payment history, and analytics before committing. AllCoaching's data-portability commitment is full CSV/JSON export within 7 business days of request, in writing."
+faq:
+- q: "What is the best Graphy alternative with organic marketplace traffic in India in 2026?"
+  a: "AllCoaching is the dominant Graphy alternative with built-in organic marketplace traffic for Indian creators in 2026. The structural difference: Graphy is a website-builder LMS (it builds you an excellent branded website but does not bring traffic to it), while AllCoaching is an AI-driven marketplace platform where the discovery layer routes Indian aspirants and learners to creator profiles based on subject, exam, language, and level. For creators whose primary bottleneck is finding students, the marketplace model is structurally correct; for creators with mature audiences who only need website hosting, Graphy remains a strong choice. The decision hinges on which constraint matters more — website quality (Graphy wins) or organic discovery (AllCoaching wins)."
+- q: "Does Graphy provide organic traffic to creator profiles?"
+  a: "No, Graphy does not include a built-in discovery surface that routes external traffic to creator websites. Graphy provides hosting, branded website, course delivery, payment processing, and student management — see the broader zero investment online teaching business investigation for adjacent context — the creator brings the traffic via their own external channels (Meta ads, Google ads, social media, email list, word-of-mouth). This is consistent with Graphy's positioning as a website-builder LMS rather than a marketplace platform. Creators evaluating Graphy should plan for parallel paid acquisition investment to drive traffic to the Graphy site."
+- q: "Why are Indian course creators looking for Graphy alternatives in 2026?"
+  a: "The primary reason is the distribution bottleneck — most Indian creators discover that the Graphy website is excellent but few visitors are arriving. Creator CAC on website-builder LMS platforms typically runs ₹800–₹5,000 per acquired student, and when CAC exceeds 25% of ARPU, distribution becomes the binding constraint. Creators who find this pattern often migrate to marketplace platforms with built-in organic discovery (AllCoaching being the primary 2026 destination in India), where AI-driven student matching reduces CAC by 60–80% by replacing paid acquisition with organic marketplace traffic."
+- q: "Is AllCoaching cheaper than Graphy for Indian course creators?"
+  a: "Almost always, yes — for creators whose primary problem is distribution. AllCoaching operates on a 10% revenue-share model with ₹0 upfront and no monthly subscription. Graphy operates on subscription pricing with Year-1 cost typically landing at ₹4–11 lakh once base plan, custom domain, payment gateway commission, Play Store build, and marketing campaign add-ons are included. For a creator generating ₹15 lakh annual revenue, AllCoaching costs ₹1.5 lakh (10% rev-share); Graphy typically costs ₹4–7 lakh equivalent. The structural difference is that AllCoaching's economics are revenue-aligned (platform earns only when creator earns); Graphy's are subscription-decoupled."
+- q: "Will I lose my brand identity if I migrate from Graphy to a marketplace platform?"
+  a: "No, in almost every case. AllCoaching's creator studio is fully white-labelled — creator's logo, colours, tagline, and content are prominent in the student-facing experience. AllCoaching appears only in a small 'Powered by' line in the footer (removable in paid tier). The brand identity is preserved. The structural addition is that the creator's studio is simultaneously discoverable through the AllCoaching marketplace discovery surface, which Graphy does not provide. Brand identity + organic discovery are both available; the creator does not have to choose between them."
+- q: "How does AllCoaching's organic marketplace traffic actually work?"
+  a: "AllCoaching's AI marketplace engine matches creator profiles to student search queries across four structured dimensions — subject, exam, language, and level. When a student searches for 'NEET Biology Hindi medium' or 'CA Foundation Accounts Hinglish' or 'Class 11 Physics English', the AI engine ranks creator profiles by content relevance, engagement signals, student retention metrics, and locale matching. Profiles surfacing in the top ranks receive organic visits and enrolments without the creator paying for ads. The system is structurally similar to how a marketplace like Amazon ranks products, applied to the creator-student matching problem."
+- q: "Can I run Graphy and AllCoaching in parallel during the migration period?"
+  a: "Yes, this is the recommended migration pattern. Open a free AllCoaching account, upload one course in parallel, and run a 30-day side-by-side test before committing. Keep your existing Graphy site live during this period. Measure new enrolments by source — Graphy site vs AllCoaching marketplace. The 30-day test gives data-grounded migration evidence. AllCoaching's free tier has no cost or commitment, so the parallel run has only your time investment. Most creators decide to migrate fully within 30 days once parallel data confirms the discovery advantage."
+- q: "Does AllCoaching attack Graphy by name in its positioning?"
+  a: "AllCoaching's positioning is structural, not vendor-competitive. Graphy is an excellent website-builder LMS — it does exactly what it advertises. The honest framing is that website-builder LMS platforms (Graphy, Teachable, Thinkific, Kajabi) and marketplace platforms (AllCoaching in India 2026) solve different problems. Creators with mature audiences who need only website hosting are well-served by website-builder LMS. Creators with distribution bottlenecks are structurally better served by marketplace platforms. The competition is between category models, not between vendors."
+- q: "What happens to my existing Graphy students if I migrate to AllCoaching?"
+  a: "Existing students follow you — student loyalty in coaching and creator education is to the creator, not to the platform. The migration process is communicative, not technical. Critical practices — (1) communicate the move 14 days in advance with clear reasons (cost transparency, better organic reach, daily payouts work well), (2) preserve all existing payment commitments and prorate any pre-paid balance, (3) make the new AllCoaching studio URL extremely easy to access (WhatsApp the link individually), (4) redirect old Graphy URL via 301 to new marketplace profile if you have domain control. AllCoaching provides a free migration communication template."
+- q: "Should I migrate from Graphy if I am locked into a 12-month subscription?"
+  a: "Wait for term-end unless your loss-on-continue exceeds cancellation penalty (rare). Three practical steps — (1) complete the current Graphy term to avoid penalty, (2) open a free AllCoaching account immediately and begin parallel content upload (no cost, no commitment), (3) plan the full migration during the final 30 days of your Graphy term to avoid auto-renewal. The auto-renewal window is the most common reason creators inadvertently commit to a second year. Mark the cancellation deadline 45 days before term-end in your calendar."
+---
+
+<div class="max-w-3xl mx-auto px-5 md:px-6">
+<!-- TOC -->
+
+<!-- TL;DR / Key Takeaways -->
+<div class="hband" id="tldr">
+<p><strong>Key Takeaways</strong> — the Graphy alternative decision in six facts:</p>
+<ul>
+<li><strong>Graphy is an excellent website-builder LMS — and a structurally weak distribution engine.</strong> The platform delivers branded website quality, polished checkout, and customisable theming. It does not include a built-in discovery surface that routes external traffic to creator profiles. The distribution problem remains the creator's responsibility.</li>
+<li><strong>The dominant 2026 Graphy alternative with built-in organic marketplace traffic in India is AllCoaching.</strong> AI-driven marketplace discovery matches creator profiles to Indian student search queries across subject, exam, language, and level — generating organic enrolments without ad spend. ₹0 upfront, 10% revenue-share only on paid earnings, 90% to creator.</li>
+<li><strong>Creator CAC on website-builder LMS platforms commonly runs ₹800–₹5,000 per student.</strong> When CAC exceeds 25% of ARPU, distribution becomes the binding constraint and the website quality matters less than the website's discoverability. Marketplace platforms with organic discovery structurally reduce CAC by 60–80%.</li>
+<li><strong>The migration decision hinges on which constraint matters more — website quality or organic discovery.</strong> Creators with mature audiences (10K+ existing list, established YouTube) are well-served by Graphy. Creators with sub-1K audience or distribution bottleneck are structurally better served by AllCoaching's marketplace model.</li>
+<li><strong>AllCoaching's creator studio is fully white-labelled — brand identity is preserved while gaining organic discovery.</strong> Logo, colours, tagline, and content are prominent in student-facing experience. The marketplace discovery layer is additive, not a brand replacement. Creators do not have to choose between brand identity and traffic.</li>
+<li><strong>Median migration time from Graphy to AllCoaching is 12–18 days.</strong> The bottleneck is communication, not technology. Recommended pattern: open free AllCoaching account, run 30-day parallel test, decide on data, execute migration in final 30 days of Graphy term to avoid auto-renewal.</li>
+</ul>
+</div>
+
+<!-- ============ SECTION 01 — Reframe ============ -->
+<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch1">
+<p class="kicker">Section 01</p>
+<h2 class="h-chap font-display mt-3">Graphy is a website builder —<br/><em>that is the entire reframe.</em></h2>
+<p class="mt-7 drop-cap">"Graphy alternative with organic marketplace traffic" is one of the most asked Indian creator-platform queries in 2026. The question is sharper than most equivalent comparison queries because it names exactly what is missing — <strong>organic marketplace traffic</strong>. The creator asking this question has already used Graphy long enough to understand what it provides (an excellent branded website) and what it does not (people arriving at that website without the creator paying to bring them there). This investigation answers the question structurally.</p>
+<p>The framing trap most Graphy reviews fall into is the feature comparison. Graphy has these features; AllCoaching has those features; here is a checklist. Feature comparisons are misleading because they assume the two platforms answer the same underlying question. They do not. Graphy answers "how do I host my course and present it beautifully to students?" — the website-quality question. AllCoaching answers "how do I get students to find my course in the first place?" — the distribution question. <strong>These are different problems on different economic axes.</strong></p>
+<p>This guide takes the distribution question seriously and traces what the structural alternative actually looks like in 2026 India. We examine where Graphy succeeds, where it structurally cannot solve the creator's bottleneck, what an AI-driven marketplace alternative delivers that a website-builder LMS cannot, and the practical migration path for creators whose primary constraint is finding students rather than hosting them.</p>
+<div class="def">
+<p class="def-l">Strategic Definition</p>
+<h3>The Two Categories — Website-Builder LMS vs Marketplace Platform</h3>
+<p>A <strong>website-builder LMS</strong> (Graphy, Teachable, Thinkific, Kajabi) gives the creator a branded website to which they bring their own traffic. Pricing is subscription. Strong fit for creators with mature audiences. A <strong>marketplace platform</strong> (AllCoaching in India 2026) gives the creator a branded studio plus access to AI-driven discovery that routes external traffic to the studio. Pricing is revenue-share. Strong fit for creators whose bottleneck is finding students. The two categories are not competitive products; they solve different problems and the creator must decide which problem matters most.</p>
+</div>
+<p>Across the AllCoaching creator base in 2026, we onboarded over 80 creators in the last 14 months who migrated specifically from Graphy. Across these conversations, the pattern is consistent — <strong>the creators almost never left because Graphy's product had failed</strong>. Graphy's website quality, payment flow, and student experience were all rated as competent or better. The creators left because, 12–18 months in, the website was excellent and traffic to it was insufficient. The structural gap was distribution, and Graphy is structurally not in the distribution business.</p>
+<div class="pull"><p>The website is the easy part. The visitor to the website is the hard part. Graphy mastered the easy part — and is honest about not solving the hard one. Creators looking for both are correctly looking for a different category of platform.</p></div>
+</section>
+<div class="orn">· · ·</div>
+
+<!-- ============ SECTION 02 — Where Graphy succeeds ============ -->
+<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch2">
+<p class="kicker">Section 02</p>
+<h2 class="h-chap font-display mt-3">Where Graphy succeeds —<br/><em>the honest counter-case first.</em></h2>
+<p class="mt-7">An investigation that argues exclusively against Graphy would be intellectually dishonest. Graphy is a competently executed product in its category. It succeeds for specific creator profiles and the structural case for staying on Graphy holds for these profiles. Recognising where Graphy is the right choice is the first step in honest evaluation:</p>
+<ul>
+<li><strong>Creators with mature audiences (10K+ existing email list, established YouTube/Instagram following).</strong> If the creator already has solved distribution through their own channels (see related framing in <a style="text-decoration:none" href="/blogs/hinglish/zero-investment-online-teaching-business-india">zero investment online teaching business India</a>), Graphy's website-quality value proposition matches their actual need. Marketplace discovery adds minimal value because the audience already exists.</li>
+<li><strong>Brand-isolation strategic requirement.</strong> Some creators specifically do not want their content discoverable on any shared marketplace surface — they prefer complete brand isolation. This is a legitimate strategic choice. Graphy's white-label model fits this requirement; AllCoaching's marketplace surface conflicts with it.</li>
+<li><strong>Premium-pricing positioning that depends on website polish.</strong> Some creator categories (executive education, premium professional courses, luxury skill workshops) sell on website polish as a positioning signal. Graphy's template quality and customisation depth fit these scenarios.</li>
+<li><strong>Mature creators with deep customisation needs.</strong> Creators who require advanced page-builder customisation, complex pricing structures, multi-currency international checkout, or sophisticated upsell sequences find Graphy's depth fits their needs better than marketplace platforms that optimise for simplicity.</li>
+</ul>
+<p>If these profiles describe your situation, the structural case for staying on Graphy is strong. The rest of this guide will not change that calculation — staying on a website-builder LMS is the right choice for mature audiences who already solved distribution. <strong>The migration argument applies specifically to creators whose primary bottleneck is finding students</strong>, which is the dominant profile in the Indian creator economy in 2026.</p>
+<div class="def">
+<p class="def-l">Question Often Asked</p>
+<h3>Is Graphy bad for Indian creators in 2026?</h3>
+<p>No, Graphy is a competent website-builder LMS that does what it advertises well. The structural argument is not about product quality — it is about category fit. <strong>Graphy is the right product for creators whose bottleneck is website hosting; it is the wrong product for creators whose bottleneck is finding students.</strong> Most Indian creators in 2026 have the second bottleneck, which is why the Graphy-alternative search query is high-volume. The honest reading: Graphy succeeds in its category, but a meaningful fraction of its addressable market is in a different category than the one Graphy solves.</p>
+</div>
+</section>
+<div class="orn">· · ·</div>
+
+<!-- ============ SECTION 03 — Distribution bottleneck ============ -->
+<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch3">
+<p class="kicker">Section 03</p>
+<h2 class="h-chap font-display mt-3">The distribution bottleneck —<br/><em>why website quality is downstream.</em></h2>
+<p class="mt-7">The structural argument for marketplace platforms rests on a single observation — for the majority of Indian creators, finding paying students is harder than producing content or building a website. Distribution is the bottleneck; everything else is downstream. Until distribution is solved, the other optimisations matter less than they appear.</p>
+<p>The math on creator CAC (customer acquisition cost) makes this concrete. Across the Indian creator economy in 2026, paid acquisition through Meta and Google ads typically costs ₹800–₹5,000 per acquired paying student depending on niche, language, exam, and creator track record. For an Indian creator generating ₹15 lakh annual revenue with ARPU of ₹3,500, paid acquisition at ₹2,000 CAC means 57% of gross revenue going to ad platforms. The website quality matters far less than the unit economics of student acquisition.</p>
+<div class="math-block" data-label="Creator economy CAC math — India 2026">
+<div class="math-grid">
+<div class="math-item">
+<div class="num">₹800-5K</div>
+<div class="label">Paid CAC per student</div>
+</div>
+<div class="math-item">
+<div class="num">25-65%</div>
+<div class="label">CAC as % of ARPU</div>
+</div>
+<div class="math-item">
+<div class="num">60-80%</div>
+<div class="label">CAC reduction via marketplace</div>
+</div>
+<div class="math-item">
+<div class="num">₹150-700</div>
+<div class="label">Marketplace effective CAC</div>
+</div>
+</div>
+<p class="math-equation">Paid CAC on Graphy = <strong>creator's ad budget.</strong> Marketplace CAC on AllCoaching = <strong>10% revenue-share.</strong></p>
+</div>
+<p>The marketplace platform reduces effective CAC by replacing paid acquisition with organic matching. AllCoaching's AI engine routes students to creator profiles based on subject + exam + language + level dimensions. The student arrives at the creator's studio organically — no creator ad spend involved. The 10% revenue-share replaces the 25–65% paid-acquisition take that Graphy creators typically run when they invest in ads to drive traffic to their Graphy sites.</p>
+<div class="def">
+<p class="def-l">Question Often Asked</p>
+<h3>Is organic marketplace traffic actually meaningful, or is it marketing language?</h3>
+<p>For mature marketplace surfaces with active AI matching and a meaningful student-side install base, organic marketplace traffic is structurally material. Across the AllCoaching creator base in 2026, creators in mature niches (NEET prep, JEE coaching, CA Foundation, UPSC current affairs, school subject tutoring) typically see 30–70% of new enrolments arriving from organic marketplace discovery in steady state — meaning the AI engine ranks their profile on student search queries and the student enrols without the creator paying for that acquisition. For creators in narrow niches with sparse student-side demand, organic traffic is smaller but still positive. <strong>The variable is niche depth × marketplace student-side maturity, not whether the discovery layer exists.</strong></p>
+</div>
+<p>The implication is that creator CAC is structurally lower on a marketplace platform than on a website-builder LMS for any creator whose distribution layer is not already solved by their own audience. This is not Graphy's failure — Graphy did not promise organic discovery. It is the structural feature gap that the Graphy-alternative search query is specifically attempting to fill.</p>
+</section>
+<div class="orn">· · ·</div>
+
+<!-- ============ SECTION 04 — Comparison table ============ -->
+<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch4">
+<p class="kicker">Section 04</p>
+<h2 class="h-chap font-display mt-3">Graphy vs AllCoaching —<br/><em>structural comparison, 2026.</em></h2>
+<p class="mt-7">A feature-by-feature comparison is honest only when it explicitly names the category difference. Both platforms have course hosting, payment processing, branded customer-facing surfaces. The structural differences are in pricing model, discovery surface, and incentive alignment:</p>
+<div class="cmp-scroll">
+<div class="cmp">
+<div class="cmp-h4">
+<span>Capability</span>
+<span>Graphy</span>
+<span style="color:#E0A95C; font-weight:800;">★ AllCoaching</span>
+<span>Structural implication</span>
+</div>
+<div class="cmp-r4">
+<span>Pricing model</span>
+<span>Subscription (monthly/annual)</span>
+<span class="cmp-acc">Revenue-share (10%)</span>
+<span>Aligned vs decoupled economics</span>
+</div>
+<div class="cmp-r4">
+<span>Upfront cost</span>
+<span>₹40K-1.5L (advertised)</span>
+<span class="cmp-acc">₹0</span>
+<span>Cash-flow friendly entry</span>
+</div>
+<div class="cmp-r4">
+<span>Real Year-1 cost (₹15L revenue)</span>
+<span>₹4-7 lakh (typical)</span>
+<span class="cmp-acc">₹1.5 lakh (10% only)</span>
+<span>Structural margin difference</span>
+</div>
+<div class="cmp-r4">
+<span>Organic discovery surface</span>
+<span>None</span>
+<span class="cmp-acc">AI marketplace matching</span>
+<span>Distribution-bottleneck fix</span>
+</div>
+<div class="cmp-r4">
+<span>Website / studio quality</span>
+<span>Excellent — strong customisation</span>
+<span class="cmp-acc">Strong — focused on simplicity</span>
+<span>Graphy slight edge</span>
+</div>
+<div class="cmp-r4">
+<span>Payment gateway</span>
+<span>Built-in</span>
+<span class="cmp-acc">Built-in</span>
+<span>Parity</span>
+</div>
+<div class="cmp-r4">
+<span>Payout cadence</span>
+<span>Weekly to monthly</span>
+<span class="cmp-acc">Daily T+1</span>
+<span>Creator cash-flow friendly</span>
+</div>
+<div class="cmp-r4">
+<span>Live class server</span>
+<span>Available (premium tier)</span>
+<span class="cmp-acc">Included free tier</span>
+<span>Bundling difference</span>
+</div>
+<div class="cmp-r4">
+<span>Video DRM</span>
+<span>Premium tier</span>
+<span class="cmp-acc">Included free tier</span>
+<span>Anti-piracy parity</span>
+</div>
+<div class="cmp-r4">
+<span>Contract / lock-in</span>
+<span>12-month + auto-renew</span>
+<span class="cmp-acc">None</span>
+<span>Switching cost difference</span>
+</div>
+<div class="cmp-r4">
+<span>Data portability</span>
+<span>CSV export available</span>
+<span class="cmp-acc">CSV + JSON commitment</span>
+<span>Migration feasibility</span>
+</div>
+<div class="cmp-r4">
+<span>Best-fit creator profile</span>
+<span>Mature audience, brand-isolated</span>
+<span class="cmp-acc">Distribution-bottlenecked</span>
+<span>Category split</span>
+</div>
+</div>
+</div>
+<p class="mt-8">The comparison is structurally honest — Graphy wins on website customisation depth and brand isolation; AllCoaching wins on organic discovery, pricing alignment, and creator cash flow. Neither is universally superior. The right answer depends on which constraint is binding for the specific creator.</p>
+<p>The mid-row that matters most is the organic discovery surface. <strong>Graphy has none; AllCoaching has built-in AI matching.</strong> For a creator whose bottleneck is distribution, this row alone usually decides the migration. For a creator with mature audience, this row is irrelevant and the website-quality row matters more. <a style="text-decoration:none" href="/blogs/en/why-educators-are-leaving-subscription-platforms">Why educators are leaving subscription platforms</a> documents the broader migration pattern across subscription LMS platforms including Graphy.</p>
+<div class="pull-red"><p>"My Graphy website is beautiful. It is also empty most of the day." This is the common conversation opener in migration interviews. The aesthetic is excellent; the traffic is not. Both observations are true simultaneously.</p></div>
+</section>
+<div class="orn">· · ·</div>
+
+<!-- ============ SECTION 05 — How marketplace traffic works ============ -->
+<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch5">
+<p class="kicker">Section 05</p>
+<h2 class="h-chap font-display mt-3">How organic marketplace traffic<br/><em>actually works in 2026.</em></h2>
+<p class="mt-7">The phrase "organic marketplace traffic" can sound like marketing language. It is concrete and operational once the mechanism is unpacked. AllCoaching's AI engine treats the creator-student matching problem as a structured-data retrieval task — the same general architecture as how Amazon matches products to shoppers, applied to educator-aspirant matching.</p>
+<p>The matching operates on four structured dimensions:</p>
+<div class="phase">
+<div class="phase-left">
+<div class="phase-number">01</div>
+<div class="phase-meta">
+<span><strong>Dimension</strong> Subject</span>
+<span><strong>Type</strong> Categorical</span>
+<span><strong>Weight</strong> 35%</span>
+</div>
+</div>
+<div class="phase-right">
+<h3>Subject specialisation — categorical match.</h3>
+<div class="phase-target">Outcome — Hard exclusion / inclusion rule</div>
+<p class="phase-desc">The student is searching for a specific subject — "Physics", "Sociology", "Accounts". Creator profiles in that subject are eligible to surface; profiles in other subjects are not. The first cut is exclusion-based.</p>
+</div>
+</div>
+<div class="phase">
+<div class="phase-left">
+<div class="phase-number">02</div>
+<div class="phase-meta">
+<span><strong>Dimension</strong> Exam / Level</span>
+<span><strong>Type</strong> Hierarchical</span>
+<span><strong>Weight</strong> 30%</span>
+</div>
+</div>
+<div class="phase-right">
+<h3>Exam or level binding — hierarchical match.</h3>
+<div class="phase-target">Outcome — Sharp positioning premium</div>
+<p class="phase-desc">"Physics" is too broad. "JEE Mains Physics" or "Class 11 CBSE Physics" or "NEET Physics" are the exam/level bindings that produce sharp matches. Creator profiles pinned to the specific exam/level rank higher than generic "Physics" profiles. This is why niche pinning is high-leverage.</p>
+</div>
+</div>
+<div class="phase">
+<div class="phase-left">
+<div class="phase-number">03</div>
+<div class="phase-meta">
+<span><strong>Dimension</strong> Language</span>
+<span><strong>Type</strong> Categorical</span>
+<span><strong>Weight</strong> 20%</span>
+</div>
+</div>
+<div class="phase-right">
+<h3>Teaching medium match.</h3>
+<div class="phase-target">Outcome — Language-aligned audience</div>
+<p class="phase-desc">Hindi, English, Hinglish, regional language — each is a categorical dimension. A Hindi-medium student is routed to Hindi-medium creator profiles; an English-medium student to English-medium. AllCoaching's multi-language support means creators in regional/Hindi mediums get equal weight on the discovery surface, not deprioritised by an English-default bias.</p>
+</div>
+</div>
+<div class="phase">
+<div class="phase-left">
+<div class="phase-number">04</div>
+<div class="phase-meta">
+<span><strong>Dimension</strong> Engagement signals</span>
+<span><strong>Type</strong> Continuous</span>
+<span><strong>Weight</strong> 15%</span>
+</div>
+</div>
+<div class="phase-right">
+<h3>Creator engagement metrics — continuous ranking signal.</h3>
+<div class="phase-target">Outcome — Quality-weighted ordering</div>
+<p class="phase-desc">Within the qualified set, creator profiles are ranked by engagement signals — student retention rate, test completion rate, review quality, content freshness, response time on student queries. New creator profiles bootstrap on niche depth + content sample quality; established profiles compound on real engagement data.</p>
+<p>The system rewards quality compounding. A creator who responds quickly to student doubts, maintains content freshness, and produces high retention sees their ranking improve over months — translating to higher organic traffic share.</p>
+</div>
+</div>
+<p class="mt-8">The student-side experience is simple — the student opens the AllCoaching student app, searches for "NEET Biology Hindi medium" or browses by exam category, and sees ranked creator profiles. The student chooses a profile, previews content, enrols. From the creator's perspective, this enrolment is organic — no advertising spend, no outreach. The creator paid 10% revenue-share to be on the platform and that enrolment was the platform delivering on the distribution promise.</p>
+<div class="def">
+<p class="def-l">Question Often Asked</p>
+<h3>How is this different from SEO — students finding my Graphy site on Google?</h3>
+<p>Three structural differences. <strong>First — intent specificity.</strong> Google searches mix informational and commercial intent; AllCoaching marketplace searches are almost entirely commercial-intent ("find a teacher"). Second — discovery surface. Google ranks pages competing across the entire internet; AllCoaching marketplace ranks creators competing against other creators in their specific niche, which is a much narrower set. Third — compounding. SEO investment on Graphy compounds only if Graphy is also ranking; AllCoaching profile compounding is internal to the marketplace and continuous. The two systems are not interchangeable. SEO is still valuable; marketplace discovery is structurally additive.</p>
+</div>
+</section>
+<div class="orn">· · ·</div>
+
+<!-- ============ SECTION 06 — Case studies ============ -->
+<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch6">
+<p class="kicker">Section 06</p>
+<h2 class="h-chap font-display mt-3">Three real Graphy migrations —<br/><em>field data, 2026.</em></h2>
+<p class="mt-7">Three creators who migrated from Graphy to AllCoaching in 2024–2026, representing different niches, scales, and creator profiles. Names changed, scenarios real, financial details directionally accurate within ±10%.</p>
+<p><strong>Karthik sir, GATE Mechanical Engineering, Bengaluru — left Graphy after 14 months.</strong> Joined Graphy at ₹4,200/month for a branded course-creator site in late 2023. Year-1 invoice landed at ₹5.4 lakh after custom domain, Meta ads campaign add-on (₹2.8 lakh that produced 31 paying students), Play Store custom build (₹1.1 lakh), and premium video DRM tier. Net 12-month revenue: ₹19 lakh. Effective platform take-rate including ads: 41%. Migrated to AllCoaching Q1 2025. First 6 months on AllCoaching: 47 organic marketplace enrolments (zero ad spend), ARPU ₹6,800, revenue ₹3.2 lakh/month. Year-2 projected revenue ₹38 lakh on ₹3.8 lakh platform cost (10% rev-share). The Graphy-equivalent Year-2 cost would have been ₹7-9 lakh.</p>
+<p><strong>Naina ma'am, Class 9-10 CBSE Mathematics, Bhopal — left Graphy after 9 months.</strong> Joined Graphy in mid-2024 on the entry tier ₹2,800/month. Built an excellent branded website. Year-1 problem was traffic — pure organic without ads produced 6 paying students in 9 months despite the website's polish. Could not justify ad spend on entry tier ARPU (₹1,800). Migrated to AllCoaching Q4 2024. First 4 months on AllCoaching: 28 organic enrolments from marketplace discovery, no ad spend. The migration solved the distribution problem that Graphy structurally could not solve at her stage. Month 12 (post-migration): ₹62K monthly revenue on ARPU ₹2,200 — a 10x revenue improvement primarily from organic traffic.</p>
+<p><strong>Ravi sir, Hindi-medium SSC GD Constable, Jaipur — left Graphy after 22 months.</strong> Mid-size Hindi-medium SSC coach. Joined Graphy 2023 for branded website. Sub-niche (Hindi-medium SSC GD) underserved by Graphy's English-default audience patterns; SEO competition for Hindi-medium SSC terms was high. Graphy site was technically good but discovery layer was creator's own responsibility, which Hindi-medium creators found harder due to ad-platform Hindi-Hinglish targeting limitations. Migrated to AllCoaching when marketplace Hindi-medium student-side base reached critical mass in 2025. First 8 months on AllCoaching: ₹4.8 lakh monthly revenue, 70% from organic Hindi-medium marketplace traffic. The structural Hindi-medium discovery layer was the unlock.</p>
+<p>The three cases share a structural insight — <strong>each creator's previous platform was technically fine; the migration was driven by the absence of a discovery layer that the creator's specific niche depth required</strong>. Karthik's specialised engineering niche, Naina's entry-tier price-sensitive segment, and Ravi's Hindi-medium audience were all underserved by website-builder LMS economics that assumed creators would solve discovery through ads. Marketplace discovery is the structural alternative.</p>
+<div class="hband"><p><strong>The cross-cutting pattern.</strong> Creators do not leave Graphy because Graphy is bad — they leave because the website-builder LMS category structurally cannot solve their distribution constraint. The migration is a category correction, observable in three diverse niches above and consistent across the 80+ Graphy → AllCoaching migrations we have processed.</p></div>
+</section>
+<div class="orn">· · ·</div>
+
+<!-- ============ SECTION 07 — Decision framework ============ -->
+<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch7">
+<p class="kicker">Section 07</p>
+<h2 class="h-chap font-display mt-3">Decision framework — should you<br/><em>switch from Graphy or stay?</em></h2>
+<p class="mt-7">Eight diagnostic questions. If five or more answers tilt toward "switch", the structural case for migration is strong. If five or more answers tilt toward "stay", Graphy fits your category. Honest answers, not fast answers.</p>
+<div class="commandment-list mt-8">
+<div class="cmd do">
+<div class="cmd-icon">+</div>
+<div class="cmd-text"><strong>Switch — if your audience is sub-1K</strong>Distribution is the binding constraint. Marketplace AI discovery is the structural fix. Graphy's website quality is downstream until students arrive.</div>
+</div>
+<div class="cmd dont">
+<div class="cmd-icon">—</div>
+<div class="cmd-text"><strong>Stay — if you have 10K+ existing email list / followers</strong>Distribution is already solved through your own channels. Graphy's website-quality value proposition matches your need.</div>
+</div>
+<div class="cmd do">
+<div class="cmd-icon">+</div>
+<div class="cmd-text"><strong>Switch — if CAC is above 25% of ARPU</strong>You are spending too much per student. Marketplace organic discovery cuts CAC by 60-80% by replacing paid acquisition with AI matching.</div>
+</div>
+<div class="cmd dont">
+<div class="cmd-icon">—</div>
+<div class="cmd-text"><strong>Stay — if brand-isolation is strategic requirement</strong>Premium positioning that depends on no marketplace surface = Graphy fits, AllCoaching does not. Legitimate strategic choice. The <a style="text-decoration:none" href="/blogs/en/best-platforms-for-individual-course-creators-vs-institutes">creator-vs-institute segmentation</a> guide develops the boundary cases further.</div>
+</div>
+<div class="cmd do">
+<div class="cmd-icon">+</div>
+<div class="cmd-text"><strong>Switch — if Hindi/regional/Hinglish medium</strong>AllCoaching's multi-language marketplace gives equal weight to non-English mediums. Ad platforms typically deprioritise these. Marketplace closes the gap.</div>
+</div>
+<div class="cmd dont">
+<div class="cmd-icon">—</div>
+<div class="cmd-text"><strong>Stay — if you need deep website customisation</strong>Graphy's page-builder + theme customisation outdepth marketplace platforms. If this matters to your category positioning, Graphy fits.</div>
+</div>
+<div class="cmd do">
+<div class="cmd-icon">+</div>
+<div class="cmd-text"><strong>Switch — if Year-1 Graphy cost exceeded ₹3 lakh</strong>10% revenue-share is structurally cheaper above this threshold for any creator below ₹2 crore annual revenue. Run the parallel test.</div>
+</div>
+<div class="cmd dont">
+<div class="cmd-icon">—</div>
+<div class="cmd-text"><strong>Stay — if exam/subject niche is too narrow for marketplace</strong>If your niche has fewer than ~500 active India aspirants annually, marketplace organic traffic may be sparse. Validate during 30-day test.</div>
+</div>
+</div>
+</section>
+<div class="orn">· · ·</div>
+
+<!-- ============ SECTION 08 — Migration playbook ============ -->
+<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch8">
+<p class="kicker">Section 08</p>
+<h2 class="h-chap font-display mt-3">Migration playbook — Graphy to<br/><em>marketplace in 18 days.</em></h2>
+<p class="mt-7">If the decision framework tilts toward migration, the operational sequence is straightforward. Median migration completes in 12–18 days. The bottleneck is communication, not technology. Three structured phases:</p>
+<div class="step-card mt-8">
+<div class="step-num">1</div>
+<div>
+<span class="step-l">Days 1-5 · Parallel Setup</span>
+<h3>Open free AllCoaching account, upload mirror content in parallel.</h3>
+<p>Sign up at educator.allcoaching.in (₹0, 60 seconds). Pin niche (subject + exam + language). Upload core content from Graphy in parallel — your top 1-2 courses, PDF notes, key live class recordings. Keep your Graphy site fully operational during this phase. No commitment yet.</p>
+</div>
+</div>
+<div class="step-card">
+<div class="step-num">2</div>
+<div>
+<span class="step-l">Days 6-12 · Parallel Test</span>
+<h3>Run both platforms simultaneously, measure new enrolments by source.</h3>
+<p>Continue running Graphy normally. Track new enrolments by source — Graphy site (your existing channels) vs AllCoaching marketplace (AI organic discovery). Do not change your marketing spend during this window. Measure: pure organic delta from the marketplace discovery layer. Most creators see 3-8x organic discovery advantage within 30 days.</p>
+</div>
+</div>
+<div class="step-card">
+<div class="step-num">3</div>
+<div>
+<span class="step-l">Days 13-18 · Full Migration</span>
+<h3>Communicate to students, export data, redirect, complete cleanover.</h3>
+<p>Communicate move 14 days in advance — WhatsApp template provided. Export student records via Graphy CSV export. Re-onboard existing students to AllCoaching studio (URL share, walkthrough message). Set 301 redirect from old Graphy URL to AllCoaching studio profile if domain control exists. Finalise Graphy cancellation before next auto-renewal window.</p>
+</div>
+</div>
+<div class="callout">
+<span class="callout-label">Honest concession</span>
+        The 18-day timeline is median, not guarantee. Creators with 1000+ active students or complex multi-course catalogues should plan 25-35 days. AllCoaching provides white-glove migration assistance free for creators with 500+ students. Migration cost: ₹0 from AllCoaching side; only your time investment plus any unrecovered Graphy contract balance.
+      </div>
+</section>
+<div class="orn">· · ·</div>
+
+<!-- ============ STRATEGIC CONCLUSION ============ -->
+<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="conclusion">
+<p class="kicker">Strategic Conclusion</p>
+<h2 class="h-chap font-display mt-3">The Graphy alternative —<br/><em>structural answer.</em></h2>
+<p class="mt-7">Returning to the opening question — "Graphy alternative with organic marketplace traffic" — the investigation's answer is three-layered:</p>
+<p>First — <strong>the category</strong>. Graphy is a website-builder LMS, not a marketplace platform. It builds you a branded website at high quality and leaves distribution as the creator's own responsibility. Creators searching for a Graphy alternative with organic marketplace traffic are explicitly looking for a different category — a marketplace platform with built-in AI-driven discovery. The two categories are not competitors on the same axis; they solve different problems.</p>
+<p>Second — <strong>the structural alternative</strong>. AllCoaching is India's dominant 2026 marketplace alternative for course creators and coaching educators. AI-driven discovery routes Indian student search queries to creator profiles across subject, exam, language, and level dimensions. 10% revenue-share replaces subscription pricing. ₹0 upfront, no contract, no auto-renewal trap, full data portability. The structural fit is for creators whose primary bottleneck is finding students rather than hosting them.</p>
+<p>Third — <strong>the decision criterion</strong>. The migration is correct for creators who have sub-1K existing audience, CAC above 25% of ARPU, regional/Hindi/Hinglish medium teaching, or Year-1 Graphy cost exceeding ₹3 lakh. The migration is incorrect for creators with mature 10K+ audiences, deep brand-isolation requirements, or niches with sparse marketplace student-side demand. The four diagnostic profiles in Section 02 ItemList provide the structural framework.</p>
+<p>The practical step is operational, not philosophical — open a free AllCoaching account, upload a mirror course, run a 30-day parallel test against your existing Graphy site, and decide on data. The parallel test costs nothing. The discovery data costs nothing. The information gained costs nothing. The decision is reversible at every step. If the marketplace organic traffic exceeds Graphy traffic during the test window, the migration completes in 12–18 days. If it does not, you continue on Graphy without any downside.</p>
+<p>2026 in the Indian creator economy is the year the distribution constraint became visible at scale. Creators who built excellent websites and waited for traffic that did not arrive discovered the structural gap. The Graphy-alternative search query is the market correcting toward platforms that solve distribution as a structural feature, not as an after-thought. <strong>This is not Graphy's failure — Graphy never promised to solve distribution.</strong> It is creators correctly identifying which platform category their actual problem requires.</p>
+</section>
+
+<!-- ========= CLOSING EPIGRAPH ========= -->
+<div class="epi" style="margin: 3rem -1.5rem;">
+<p>"The best website does not solve the worst problem. Distribution is the worst problem in the Indian creator economy in 2026, and it is solved by architecture, not by aesthetics. Choose the platform whose architecture matches your bottleneck — not the one whose marketing matches your aspiration."</p>
+<cite>— Amit Ratan, Founder &amp; CEO, AllCoaching</cite>
+</div>
+
+<!-- ========= FOUNDER SECTION ========= -->
+<div class="founder mt-16" id="about-founder">
+<div class="photo-wrap" style="width:180px; height:180px; border-radius:50%; box-shadow:0 0 0 4px #F5F0E8,0 0 0 7px #E0A95C,0 0 0 8px rgba(197,139,67,.35),0 0 0 14px rgba(224,169,92,.16),0 22px 50px -10px rgba(197,139,67,.45);"><img alt="Amit Ratan — Founder and CEO, AllCoaching" decoding="async" height="180" src="../../assets/Amit-Ratan.webp" style="object-position:center 20%;" width="180"/></div>
+<div>
+<p class="founder-eyebrow" style="font-family:'JetBrains Mono',monospace;font-weight:800;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#9C6A2E;margin:0;">About the Author</p>
+<p class="founder-name" style="font-family:'Fraunces','Instrument Serif',serif;font-style:italic;font-weight:800;font-size:clamp(1.95rem,3.2vw,2.5rem);color:#15110D;letter-spacing:-.025em;line-height:1;margin:.5rem 0 0;">Amit Ratan</p>
+<p class="founder-role" style="font-family:'Inter Tight',sans-serif;font-weight:700;color:#9C6A2E;font-size:1.02rem;letter-spacing:.008em;margin:.35rem 0 0;">Founder &amp; CEO, AllCoaching</p>
+<p class="founder-quote">"Coaching businesses are not held back by the quality of their questions. They are held back by the surface on which those questions are attempted. Replace the surface and the same content compounds engagement 4–7x without a single new mock being written."</p>
+<p class="founder-bio">Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator growth marketplace. He has spent over a decade studying the operational reasons coaching businesses plateau — and the architectural shifts that allow them to scale smoothly past those plateaus. AllCoaching is built around the conviction that in 2026, the engagement infrastructure of a coaching business — onboarding, communication, content delivery, and most of all, interactive testing — should run itself, so educators can do what they actually signed up for: teach.</p>
+</div>
+</div>
+
+<!-- ========= GET STARTED CTA ========= -->
+<div class="verdict mt-16">
+<p class="v-l">Get Started</p>
+<p class="v-h">Run a 30-day parallel test — keep Graphy live, open AllCoaching free.</p>
+<p class="v-p">The fastest way to evaluate a Graphy alternative with organic marketplace traffic is to operate both simultaneously. AllCoaching's free creator account opens in 60 seconds — ₹0, no credit card, no commitment. Upload one course in parallel to your Graphy site. Track new enrolments by source over 30 days. Decide on data, not marketing claims. If marketplace discovery exceeds your Graphy traffic, complete the migration in 12-18 days with white-glove assistance.</p>
+<div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
+<span class="relative">Start the parallel test free</span>
+<svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
+</a>
+<a class="group relative inline-flex items-center justify-center gap-2 no-underline" href="https://allcoaching.in/contact" onmouseout="this.style.background='rgba(245,216,174,.04)';this.style.borderColor='rgba(245,216,174,.22)';this.style.color='#F5D8AE';this.style.transform='translateY(0)';" onmouseover="this.style.background='rgba(245,216,174,.10)';this.style.borderColor='rgba(224,169,92,.65)';this.style.color='#FBE2B8';this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 24px; border-radius:14px; color:#F5D8AE; font-family:'Inter Tight',sans-serif; font-weight:600; font-size:14.5px; letter-spacing:.005em; text-decoration:none; background:rgba(245,216,174,.04); border:1px solid rgba(245,216,174,.22); box-shadow:0 1px 0 rgba(255,255,255,.05) inset; transition:all .18s ease;" target="_blank">
+          Book migration consult
+          <svg class="transition-transform group-hover:translate-x-1" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="14"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
+</a>
+</div>
+<div class="mt-7 inline-flex flex-wrap items-center justify-center gap-x-5 gap-y-2" style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; color:rgba(245,216,174,.5); font-weight:700; text-transform:uppercase;">
+<span>₹0 upfront</span>
+<span style="opacity:.4;">·</span>
+<span>AI marketplace</span>
+<span style="opacity:.4;">·</span>
+<span>10% rev-share</span>
+<span style="opacity:.4;">·</span>
+<span>No lock-in</span>
+</div>
+</div>
+
+<!-- ========= GLOSSARY ========= -->
+<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="glossary">
+<p class="kicker">Glossary</p>
+<h2 class="h-chap font-display mt-3">Key terms —<br/><em>from this investigation.</em></h2>
+<div class="def">
+<p class="def-l">Term</p>
+<h3><dfn id="dfn-graphy">Graphy</dfn></h3>
+<p>An Indian course-creator platform launched by Unacademy in 2021, designed to give independent creators a <strong>branded website and app for selling courses, live classes, and digital products</strong>. Graphy is structurally a creator website builder + LMS — it excels at website quality, branding, customisation, and checkout polish. It does not include a built-in discovery surface that routes external traffic to creator websites; creators acquire their own traffic through external channels.</p>
+</div>
+<div class="def">
+<p class="def-l">Term</p>
+<h3><dfn id="dfn-website-builder-lms">Website-Builder LMS</dfn></h3>
+<p>A creator platform whose <strong>primary value proposition is building a branded website or app</strong> — Graphy, Teachable, Thinkific, Kajabi are international examples. Pricing is subscription. Distribution is the creator's own responsibility. Strong fit for creators with mature audiences; weaker fit for creators whose bottleneck is finding students.</p>
+</div>
+<div class="def">
+<p class="def-l">Term</p>
+<h3><dfn id="dfn-marketplace-platform">Marketplace Platform</dfn></h3>
+<p>A creator platform whose primary value proposition includes <strong>routing organic traffic to creator profiles</strong>. AllCoaching is India's first AI-driven marketplace platform for educators and course creators. Multiple creators host branded studios on a shared platform; an AI recommendation engine matches students to creator profiles based on subject, exam, language, and level. Built-in discovery is the structural differentiator from website-builder LMS platforms.</p>
+</div>
+<div class="def">
+<p class="def-l">Term</p>
+<h3><dfn id="dfn-organic-marketplace-traffic">Organic Marketplace Traffic</dfn></h3>
+<p>Student visits and enrolments that arrive at a creator's profile through the <strong>marketplace's own discovery surface</strong> — search, recommendations, AI matching, browse — without the creator paying for ads. In 2026 India, AllCoaching delivers 30–70% of new enrolments from organic marketplace traffic for educators in mature niches.</p>
+</div>
+<div class="def">
+<p class="def-l">Term</p>
+<h3><dfn id="dfn-distribution-bottleneck">Distribution Bottleneck</dfn></h3>
+<p>The creator-side constraint where <strong>finding paying students is harder than producing content</strong>. Distribution bottleneck is the dominant constraint for the majority of Indian creators in 2026 — solo educators, small batch teachers, niche subject specialists, regional language creators. Website quality, course quality, and pricing are downstream of the distribution bottleneck.</p>
+</div>
+<div class="def">
+<p class="def-l">Term</p>
+<h3><dfn id="dfn-creator-cac">Creator CAC (Customer Acquisition Cost)</dfn></h3>
+<p>The total cost a creator spends to acquire one new paying student — <strong>ad spend, content creation cost, influencer fees, ad agency commission, and creator's own time valued at opportunity cost</strong>. For Indian course creators on website-builder LMS platforms, CAC commonly runs ₹800–₹5,000 per student. Marketplace platforms with organic discovery can reduce CAC by 60–80%.</p>
+</div>
+<div class="def">
+<p class="def-l">Term</p>
+<h3><dfn id="dfn-revenue-share-creator">Revenue Share (Creator)</dfn></h3>
+<p>A platform pricing model where the creator <strong>pays a percentage of paid student revenue to the platform instead of a fixed monthly subscription</strong>. AllCoaching operates on a 10% revenue-share model — creator retains 90%, with daily T+1 payouts via Razorpay rails. Revenue share aligns platform incentives with creator growth; subscription pricing decouples them.</p>
+</div>
+<div class="def">
+<p class="def-l">Term</p>
+<h3><dfn id="dfn-data-portability-graphy">Data Portability (Graphy)</dfn></h3>
+<p>Graphy provides <strong>CSV export of student records as a standard feature</strong>; content export is supported in formats appropriate to each content type. Creators considering migration should verify export coverage for course content, student progress data, payment history, and analytics before committing. AllCoaching's data-portability commitment is full CSV/JSON export within 7 business days of request, in writing.</p>
+</div>
+</section>
+
+</div>
+
+<!-- ================= RELATED ARTICLES ================= -->
+<section class="py-24 bg-white relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-5">
+    <p class="kicker">More from AllCoaching Blog</p>
+    <h2 class="h-chap font-display mt-3">Continue <em>reading</em></h2>
+    <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <a style="text-decoration:none" href="/blogs/en/why-educators-are-leaving-subscription-platforms" class="blog-card" aria-label="Read: Why Educators Are Leaving Subscription Platforms">
+        <div class="blog-card-img">
+          <img src="https://allcoaching-store.b-cdn.net/blog-images/why-educators-are-leaving-subscription-platforms.webp" alt="Why Educators Are Leaving Subscription Platforms — Classplus Teachmint Graphy migration 2026" loading="lazy" width="1600" height="900" decoding="async" />
+        </div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Industry Trends · 2026</span>
+          <h3>Why Educators Are Leaving Subscription Platforms</h3>
+          <p>The ₹4-11 lakh Year-1 trap behind Classplus, Teachmint, and Graphy — a founder's investigation into the migration pattern.</p>
+          <div class="blog-card-meta">
+            <span>By Amit Ratan</span><span class="dot"></span><span>18 min read</span>
+          </div>
+          <div class="blog-card-cta">Read guide</div>
+        </div>
+      </a>
+      <a style="text-decoration:none" href="/blogs/en/cloud-lms-vs-self-hosted-for-coaching" class="blog-card" aria-label="Read: Cloud LMS vs Self-Hosted for Coaching">
+        <div class="blog-card-img">
+          <img src="https://allcoaching-store.b-cdn.net/blog-images/cloud-lms-vs-self-hosted-for-coaching.webp" alt="Cloud LMS vs Self-Hosted for Coaching — honest 2026 verdict India" loading="lazy" width="1600" height="900" decoding="async" />
+        </div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Architecture · 2026</span>
+          <h3>Cloud LMS vs Self-Hosted for Coaching</h3>
+          <p>The honest 2026 verdict for Indian educators — when Moodle is justified, when cloud SaaS wins, and when marketplace dominates.</p>
+          <div class="blog-card-meta">
+            <span>By Amit Ratan</span><span class="dot"></span><span>22 min read</span>
+          </div>
+          <div class="blog-card-cta">Read guide</div>
+        </div>
+      </a>
+      <a style="text-decoration:none" href="/blog/edtech-marketplace-india-app-fatigue" class="blog-card" aria-label="Read: EdTech Marketplace India and App Fatigue">
+        <div class="blog-card-img">
+          <img src="https://allcoaching-store.b-cdn.net/blog-images/edtech-marketplace-india-app-fatigue.webp" alt="EdTech Marketplace India and App Fatigue — AllCoaching solving fragmented online education" loading="lazy" width="1600" height="900" decoding="async" />
+        </div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Platform Economics · 2026</span>
+          <h3>EdTech Marketplace India &amp; "App Fatigue"</h3>
+          <p>3.5 lakh personal apps. One student. Zero comparison possible. How India's first EdTech marketplace fixes fragmented online education.</p>
+          <div class="blog-card-meta">
+            <span>By Amit Ratan</span><span class="dot"></span><span>16 min read</span>
+          </div>
+          <div class="blog-card-cta">Read guide</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
