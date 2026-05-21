@@ -33,7 +33,7 @@ keywords:
 cover_image: cloud-lms-vs-self-hosted-for-coaching.webp
 cover_image_alt: Cloud LMS vs self-hosted for coaching — honest 2026 technical verdict for Indian educators
 published: '2026-05-19'
-modified: '2026-05-19'
+modified: '2026-05-21'
 word_count: 4600
 epigraph: "Self-hosted gives you control over a server. Cloud gives you control over your teaching. Most coaching teachers confuse these two and pay for the wrong one for three years before realising."
 epigraph_attribution: THE OPENING THESIS — A FOUNDER'S NOTE
@@ -257,7 +257,7 @@ faq:
 <div class="def">
 <p class="def-l">Decision Hint</p>
 <h3>If you are solo or small-batch, the cloud comparison is marketplace cloud, not SaaS</h3>
-<p>Most "cloud LMS is expensive" complaints come from teachers who compared Moodle (free software, ignored salary) against white-label SaaS (₹4–11 lakh Year-1, scared by sticker). The correct comparison for a solo or small-batch educator is Moodle's real cost (₹2.5–6 lakh Year-1 with salary) against marketplace cloud (₹0 upfront + 10% rev-share on paid earnings only). When framed this way, the conclusion almost always inverts.</p>
+<p>Most "cloud LMS is expensive" complaints come from teachers who compared Moodle (free software, ignored salary) against white-label SaaS (₹4–11 lakh Year-1, scared by sticker). The correct comparison for a solo or small-batch educator is Moodle's real cost (₹2.5–6 lakh Year-1 with salary) against marketplace cloud (₹0 upfront + 10% rev-share on paid earnings only). When framed this way, the conclusion almost always inverts. The broader strategic version of this debate is unpacked in <a style="text-decoration:none" href="/blogs/en/is-it-better-to-build-own-app-or-join-marketplace">is it better to build own app or join marketplace</a>.</p>
 </section>
 <div class="orn">· · ·</div>
 

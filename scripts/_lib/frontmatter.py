@@ -60,6 +60,8 @@ class Post:
     # Article schema extras (optional pass-through, hand-tuned by author)
     schema_about: list[dict] = field(default_factory=list)
     schema_mentions: list[dict] = field(default_factory=list)
+    schema_speakable: list[str] = field(default_factory=list)
+    schema_audience: str | None = None
     schema_extra: list[dict] = field(default_factory=list)
     # FAQ entries (list of {q, a})
     faq: list[dict] = field(default_factory=list)

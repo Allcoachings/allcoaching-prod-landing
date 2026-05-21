@@ -96,8 +96,14 @@ def process_file(path, base_url):
     }
 
 def main():
+    # Legacy /blog/*.html
     blog_files = sorted(glob.glob(os.path.join(ROOT, 'blog', '*.html')))
     blog_files = [f for f in blog_files if not f.endswith('index.html')]
+    # New /blogs/{lang}/*.html
+    for lang in ('en', 'hi', 'hinglish'):
+        blogs_files = sorted(glob.glob(os.path.join(ROOT, 'blogs', lang, '*.html')))
+        blogs_files = [f for f in blogs_files if not f.endswith('index.html')]
+        blog_files.extend(blogs_files)
 
     # Sort by datePublished (newest first) where possible
     def sort_key(path):
@@ -127,7 +133,13 @@ def main():
 
     for path in blog_files:
         slug = os.path.basename(path).replace('.html', '')
-        base_url = f'https://allcoaching.in/blog/{slug}'
+        # Determine URL: /blog/<slug> for legacy, /blogs/<lang>/<slug> for new
+        rel = os.path.relpath(path, ROOT).replace(os.sep, '/')
+        if rel.startswith('blogs/'):
+            parts = rel.split('/')
+            base_url = f'https://allcoaching.in/blogs/{parts[1]}/{slug}'
+        else:
+            base_url = f'https://allcoaching.in/blog/{slug}'
         data = process_file(path, base_url)
         output.append(f'# {data["title"]}')
         output.append('')

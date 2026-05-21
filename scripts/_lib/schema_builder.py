@@ -95,6 +95,16 @@ def build_article(post: Post, root: Path) -> dict:
         schema["about"] = post.schema_about
     if post.schema_mentions:
         schema["mentions"] = post.schema_mentions
+    if post.schema_speakable:
+        schema["speakable"] = {
+            "@type": "SpeakableSpecification",
+            "cssSelector": post.schema_speakable,
+        }
+    if post.schema_audience:
+        schema["audience"] = {
+            "@type": "Audience",
+            "audienceType": post.schema_audience,
+        }
     return schema
 
 
