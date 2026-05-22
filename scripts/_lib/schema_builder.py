@@ -114,7 +114,14 @@ def build_breadcrumb(post: Post, root: Path) -> dict:
         {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{site.url}/"},
     ]
     pos = 2
-    if post.type != "page":
+    if post.type == "blog":
+        # New blog posts live under /blogs/<lang>/; route breadcrumb to the language hub.
+        items.append({
+            "@type": "ListItem", "position": pos, "name": "Blog",
+            "item": f"{site.url}/blogs/{post.language}/",
+        })
+        pos += 1
+    elif post.type != "page":
         type_label = post.type.title()
         items.append({
             "@type": "ListItem", "position": pos, "name": type_label,
