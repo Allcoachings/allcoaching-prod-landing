@@ -6,7 +6,11 @@
       "Bash(Select-Object Name)",
       "Bash(Sort-Object Name)",
       "Bash(grep -E '\\\\.\\(html|xml|json|webmanifest|txt|js|htaccess|redirects\\)$')",
-      "Bash(python -c \"import json,re; content=open\\('blog/how-to-create-landing-page-for-online-course.html','r',encoding='utf-8'\\).read\\(\\); schemas=re.findall\\(r'<script type=\\\\\"application/ld\\\\+json\\\\\">\\\\s*\\(.+?\\)\\\\s*</script>', content, re.DOTALL\\); [json.loads\\(s\\) for s in schemas]; print\\(f'OK: {len\\(schemas\\)} JSON-LD blocks parsed cleanly'\\)\")"
+      "Bash(python -c \"import json,re; content=open\\('blog/how-to-create-landing-page-for-online-course.html','r',encoding='utf-8'\\).read\\(\\); schemas=re.findall\\(r'<script type=\\\\\"application/ld\\\\+json\\\\\">\\\\s*\\(.+?\\)\\\\s*</script>', content, re.DOTALL\\); [json.loads\\(s\\) for s in schemas]; print\\(f'OK: {len\\(schemas\\)} JSON-LD blocks parsed cleanly'\\)\")",
+      "Bash(where code *)",
+      "Bash(code --install-extension ritwickdey.LiveServer)",
+      "Read(//c/c/Users/allco/codes/allcoaching-prod-landing/**)",
+      "Read(//c/c/Users/allco/codes/allcoaching-prod-landing/blog/**)"
     ]
   }
 }
