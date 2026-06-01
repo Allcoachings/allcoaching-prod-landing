@@ -149,7 +149,7 @@
   <div class="max-w-3xl mx-auto px-5 md:px-6">
     <nav class="toc" aria-label="In this article">
       <p class="toc-l">In this article</p>
-      <ol class="toc-list">
+      <ol>
 <li><a href="#ch1">The real problem is trust, not storage.</a></li>
 <li><a href="#ch2">How a tamper-proof certificate actually works — six steps.</a></li>
 <li><a href="#ch3">PDF vs platform-database vs verifiable credential — scorecard.</a></li>
@@ -473,7 +473,7 @@
 <p class="mt-7">If the framework points to verifiable credentials — as it will for most educators — here is the concrete sequence to issue tamper-proof, independently verifiable certificates without building blockchain infrastructure. Three phases, about ten days.</p>
 <div class="step-card mt-8">
 <div class="step-num">1</div>
-<div class="step-content">
+<div>
 <span class="step-l">Days 1-3 · Define the credential &amp; security model</span>
 <h3>Decide what you certify and how it is anchored.</h3>
 <p>Specify exactly what each certificate asserts — student, course, completion date, outcome — and the security goals: tamper-evidence, independent verification, revocation. Choose the anchor: a signed verifiable credential on a trusted platform for the standard case, public-chain anchoring only if issuer-independent permanence is genuinely required. Confirm the design keeps personal data off any public chain — hash-on-chain, data-off-chain — so you stay DPDP-compliant and correctable.</p>
@@ -481,7 +481,7 @@
 </div>
 <div class="step-card">
 <div class="step-num">2</div>
-<div class="step-content">
+<div>
 <span class="step-l">Days 4-7 · Issue with hashing and signatures</span>
 <h3>Generate certificates that prove their own authenticity.</h3>
 <p>For each completion, the platform hashes the certificate content into a unique fingerprint, signs it with the issuer key, and anchors the fingerprint to a tamper-evident record. Attach a public verification link or QR code to every certificate so a verifier can check it in one tap. Keep the certificate data and revocation status in DPDP-compliant, India-resident storage you control — not on a public ledger.</p>
@@ -489,7 +489,7 @@
 </div>
 <div class="step-card">
 <div class="step-num">3</div>
-<div class="step-content">
+<div>
 <span class="step-l">Days 8-10 · Enable verification and revocation</span>
 <h3>Publish the verification path and test the full loop.</h3>
 <p>Stand up a verification page where anyone can scan or paste a certificate and instantly confirm authenticity and integrity without contacting you. Configure a revocation status list so mistaken or fraudulent credentials can be marked invalid. Then test the whole loop end to end — issue a certificate, verify it, alter a copy and confirm verification fails, revoke one and confirm the status updates — before issuing at scale.</p>
@@ -678,52 +678,52 @@
       <h2 class="h-chap font-display mt-3">Frequently Asked Questions</h2>
       <div class="mt-8 space-y-4">
 
-        <details class="faq-item">
+        <details>
           <summary>What is blockchain for course certification and security?</summary>
           <p>Blockchain for course certification is the use of cryptographic techniques — hashing, digital signatures, and a tamper-evident ledger — to issue course completion certificates that anyone can independently verify as authentic and unaltered, without having to contact the issuing institute. The core mechanism is not the blockchain itself but the verifiable credential: the certificate's content is hashed into a unique fingerprint, the issuer signs it with a private key, and that fingerprint is anchored to a tamper-evident record. A verifier later re-hashes the certificate and checks it against the anchored record and the issuer's signature; if anything was altered, the hashes do not match and the forgery is exposed. A public blockchain is one way to anchor that record, but for most coaching use cases a cryptographically signed credential on a trusted registry achieves the same security with far less cost and complexity.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Do coaching institutes actually need a blockchain to secure certificates?</summary>
           <p>Usually no — they need verifiable credentials, which a public blockchain is only one way to provide. The real goals are tamper-evidence (alterations are detectable), independent verification (anyone can check authenticity without calling the institute), and forgery resistance. These are delivered by cryptographic hashing plus digital signatures, which work whether the anchor is a public blockchain, a permissioned ledger, or a trusted signed registry like DigiLocker. A public blockchain adds decentralization and issuer-independence, which matters for high-stakes, globally-recognized credentials, but adds cost, energy, and UX friction that most coaching certificates do not justify. The honest 2026 answer for the typical Indian coaching institute is a signed verifiable credential on a trusted platform, with blockchain anchoring reserved for the few credentials where issuer-independent permanence is genuinely required.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>How does a blockchain certificate actually prevent forgery?</summary>
           <p>Through a cryptographic hash and a digital signature. When the certificate is issued, its exact content — student name, course, date, issuer — is run through a cryptographic hash function that produces a fixed-length fingerprint unique to that content; change a single character and the fingerprint changes completely. The issuer signs that fingerprint with a private key, and the fingerprint is anchored to a tamper-evident record (a blockchain or signed registry). To verify, anyone re-hashes the certificate they hold and compares it to the anchored fingerprint and checks the issuer signature. A forged or altered certificate produces a different hash, so it fails the check instantly. The forgery resistance comes from the mathematics of hashing and public-key cryptography, not from the blockchain per se — the ledger only guarantees the fingerprint cannot be secretly changed after the fact.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>What is a verifiable credential and how is it different from a PDF certificate?</summary>
           <p>A verifiable credential is a digitally-signed, machine-verifiable statement — defined by the W3C Verifiable Credentials standard — that a holder can present and anyone can cryptographically verify as authentic and unaltered. A PDF or image certificate, by contrast, carries no cryptographic proof: it can be edited in minutes, the name and grade swapped, and a verifier has no way to detect the change except by phoning the issuer. A verifiable credential embeds the issuer's signature and a tamper-evident hash, so verification is instant, offline-capable, and does not depend on the issuer still existing or answering. The practical difference is trust: a PDF asks the verifier to trust a picture; a verifiable credential lets the verifier check the math.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Is a blockchain certificate recognized in India and does DigiLocker support it?</summary>
           <p>India already runs a national verifiable-credential infrastructure through DigiLocker and the National Academic Depository (NAD), which store and verify academic records issued by recognized boards and universities. These use cryptographic signing and trusted issuance rather than a public blockchain, and they are the de facto recognized standard for formal academic credentials in India. For a private coaching certificate, recognition comes from the issuer's reputation plus cryptographic verifiability, not from the blockchain label — a tamper-proof certificate from an unknown issuer is verifiable but not necessarily valued. The pragmatic path for Indian coaching in 2026 is to issue cryptographically verifiable certificates that are easy to check and, where relevant, compatible with the DigiLocker/NAD ecosystem, while building the issuer reputation that makes the credential actually mean something.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>What are the downsides of using a public blockchain for course certificates?</summary>
           <p>Three main downsides. First, cost and complexity — anchoring to a public blockchain like Ethereum involves transaction fees, key management, and engineering overhead that a signed registry avoids. Second, user experience — students and verifiers must understand wallets, keys, and chain explorers, which most do not, creating friction that hurts adoption. Third, permanence cuts both ways — data anchored on a public chain is hard to remove, which can conflict with privacy expectations and India's DPDP Act for any personal data placed on-chain (the fix is to anchor only a hash, never personal data itself). For the vast majority of coaching certificates, these downsides outweigh the marginal benefit of full decentralization, which is why signed verifiable credentials on a trusted platform are the better default.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Can a certificate be revoked or corrected after it is issued on a blockchain?</summary>
           <p>Yes, through a revocation mechanism — but how cleanly depends on the architecture. Verifiable credentials support revocation via a status list the issuer maintains: when a verifier checks a credential, they also check whether the issuer has marked it revoked. On a public blockchain you do not delete the original anchor (you cannot), but you publish a revocation record that verification logic respects, so the credential reads as revoked. Corrections work the same way — revoke the old credential and issue a new one. The key design rule is to anchor only the hash on-chain and keep the actual certificate data and revocation status in issuer-controlled storage, so corrections, privacy compliance, and right-to-erasure remain possible. A platform that handles revocation for the educator removes this complexity entirely.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>How does AllCoaching handle secure course certificates?</summary>
           <p>AllCoaching issues cryptographically verifiable course certificates as part of the educator platform — each certificate carries a tamper-evident hash and issuer signature, a public verification link anyone can check without contacting the educator, and issuer-managed revocation, with personal data kept in DPDP-compliant India-resident storage rather than placed on a public chain. The architecture delivers the security goals — tamper-evidence, independent verification, forgery resistance, revocation — without imposing wallet-and-key friction on students. Crucially, the certificate is issued inside a marketplace where the educator's reputation, reviews, and track record are visible, so the credential carries trust signals a standalone tamper-proof PDF never could. The educator gets verifiable security plus the issuer reputation that makes a certificate actually valued, bundled in the standard revenue-share with no separate fee.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Does a tamper-proof certificate make my course more valuable?</summary>
           <p>It removes a downside rather than creating upside on its own. A verifiable certificate prevents forgery, lets students prove completion instantly, and signals that you take credentialing seriously — all of which reduce friction and disputes. But security alone does not make a credential valued; value comes from the issuer's reputation and the credential's recognition. A tamper-proof certificate from an unknown educator is trustworthy but not necessarily prestigious; the same certificate from a recognized educator on a trusted platform is both. The strategic move is to pair cryptographic verifiability (so the certificate cannot be faked) with reputation and distribution (so the certificate is worth having). Security is necessary; recognition is what makes it matter.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Will placing student data on a blockchain violate India's DPDP Act?</summary>
           <p>It can, if you do it naively — which is why you should never put personal data directly on a public blockchain. India's Digital Personal Data Protection Act 2023 includes rights such as correction and erasure, which conflict with a public blockchain's immutability. The correct architecture anchors only a cryptographic hash (which reveals nothing about the person) to the tamper-evident record, while the actual certificate data and personal information stay in issuer-controlled, India-resident, DPDP-compliant storage where they can be corrected or erased. This hash-on-chain, data-off-chain pattern gives you tamper-evidence and verifiability without trapping personal data in an immutable public ledger. Any serious certification platform for India in 2026 is built this way; verify that any solution you evaluate keeps personal data off-chain.</p>
         </details>

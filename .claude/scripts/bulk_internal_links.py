@@ -108,20 +108,18 @@ def build_block(slug):
     items = []
     for r in refs:
         anchor = POSTS.get(r, r)
-        items.append(f'      <li><a href="/blog/{r}">{anchor}</a> — deep dive on the same architectural layer.</li>')
+        items.append(f'      <a href="/blog/{r}" class="x-ref">{anchor}</a>')
 
     return f'''
   {MARKER}
-  <div class="article-body" id="strategic-cross-refs" style="margin: 3rem 0 1.5rem; padding: 1.5rem 1.75rem; background: linear-gradient(180deg, #FBF6EA 0%, #FFFFFF 100%); border-left: 4px solid #C58B43; border-radius: 0 14px 14px 0; box-shadow: 0 4px 14px -8px rgba(197,139,67,.25);">
-    <p style="font-family:'Inter',sans-serif; font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:800; color:#C58B43; margin:0 0 0.85rem;">Strategic cross-references</p>
-    <p style="margin:0 0 1rem; font-size:15.5px; line-height:1.65; color:#4F4840;">If this essay was useful, these companion pieces extend the same argument — economics, infrastructure, compliance, and discovery across the AllCoaching system.</p>
-    <ul style="margin:0 0 1.25rem; padding-left:1.15rem; list-style:disc; font-size:14.5px; line-height:1.85; color:#4F4840;">
+  <aside class="x-refs" id="strategic-cross-refs" aria-label="Related reading from AllCoaching">
+    <p class="x-refs-l">Continue the argument</p>
+    <p class="x-refs-intro">Companion pieces across the AllCoaching system — economics, infrastructure, compliance, and discovery.</p>
+    <div class="x-refs-grid">
 {chr(10).join(items)}
-    </ul>
-    <p style="margin:0; font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.14em; font-weight:700; color:#8E5F22; text-transform:uppercase;">
-      Also see: <a href="/pricing" style="color:#8E5F22; text-decoration:underline;">Pricing</a> &nbsp;·&nbsp; <a href="/faq" style="color:#8E5F22; text-decoration:underline;">FAQ Hub (40 Q/A)</a> &nbsp;·&nbsp; <a href="/author/amit-ratan" style="color:#8E5F22; text-decoration:underline;">Founder profile</a>
-    </p>
-  </div>
+    </div>
+    <p class="x-refs-also">Also see <a href="/pricing">Pricing</a> <span>·</span> <a href="/faq">FAQ Hub</a> <span>·</span> <a href="/author/amit-ratan">Founder profile</a></p>
+  </aside>
 '''
 
 def process_file(path):
@@ -132,10 +130,20 @@ def process_file(path):
     with open(path, 'r', encoding='utf-8') as fp:
         text = fp.read()
 
-    if MARKER in text:
-        return 'SKIP (already has marker)'
-
     block = build_block(slug)
+
+    # If a block already exists, replace it in place (re-style / refresh links).
+    if MARKER in text:
+        block_re = re.compile(
+            r'\n?[ \t]*' + re.escape(MARKER) +
+            r'\s*<(?:div|aside)\b[^>]*id="strategic-cross-refs"[^>]*>.*?</(?:div|aside)>',
+            re.DOTALL)
+        new_text, n = block_re.subn(block, text, count=1)
+        if n == 1:
+            with open(path, 'w', encoding='utf-8', newline='\n') as fp:
+                fp.write(new_text)
+            return 'REPLACED (restyled)'
+        return 'SKIP (marker present but block not matched)'
 
     # Try inserting before related-articles section markers
     anchors = [

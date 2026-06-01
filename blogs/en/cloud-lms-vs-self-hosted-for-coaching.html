@@ -152,7 +152,7 @@
   <div class="max-w-3xl mx-auto px-5 md:px-6">
     <nav class="toc" aria-label="In this article">
       <p class="toc-l">In this article</p>
-      <ol class="toc-list">
+      <ol>
 <li><a href="#ch1">"Cloud or self-hosted?" is the wrong first question.</a></li>
 <li><a href="#ch2">What "self-hosted LMS" actually means in 2026 India.</a></li>
 <li><a href="#ch3">What "cloud LMS" actually means and its four sub-types.</a></li>
@@ -218,6 +218,7 @@
 <p class="def-l">Honest Definition</p>
 <h3>What you sign up for when you self-host</h3>
 <p>A 36-month operational commitment to running production software. This commitment exists whether or not you write it down — the day you tell a student "you can log in here and access your course", you have implicitly promised them that this login page will work tomorrow morning, will not lose their data, and will not leak their phone number to attackers. Self-hosting means that promise is yours to keep. Cloud LMS means that promise is the vendor's to keep, contractually.</p>
+</div>
 </section>
 <div class="orn">· · ·</div>
 
@@ -238,6 +239,7 @@
 <p class="def-l">Decision Hint</p>
 <h3>If you are solo or small-batch, the cloud comparison is marketplace cloud, not SaaS</h3>
 <p>Most "cloud LMS is expensive" complaints come from teachers who compared Moodle (free software, ignored salary) against white-label SaaS (₹4–11 lakh Year-1, scared by sticker). The correct comparison for a solo or small-batch educator is Moodle's real cost (₹2.5–6 lakh Year-1 with salary) against marketplace cloud (₹0 upfront + 10% rev-share on paid earnings only). When framed this way, the conclusion almost always inverts. The broader strategic version of this debate is unpacked in <a style="text-decoration:none" href="/blogs/en/is-it-better-to-build-own-app-or-join-marketplace">is it better to build own app or join marketplace</a>.</p>
+</div>
 </section>
 <div class="orn">· · ·</div>
 
@@ -337,6 +339,7 @@
 <p class="def-l">Operational Reality</p>
 <h3>Cloud is not "less control" — it is "different control"</h3>
 <p>The popular narrative says cloud means giving up control. That is partially true; you give up control of the server. What you gain is control of your time, your security posture, your scalability, and your ability to focus on teaching instead of running infrastructure. The trade is real, but it is not "more freedom vs less freedom" — it is "freedom over the wrong things vs freedom over the right things". For an educator, the right things are content, pricing, student relationship, and growth — not kernel patches.</p>
+</div>
 </section>
 <div class="orn">· · ·</div>
 
@@ -352,6 +355,7 @@
 <p class="def-l">Self-Honesty Check</p>
 <h3>Are you in one of these three scenarios — really?</h3>
 <p>If you are reading this section thinking "yes, scenario 3 is me", pause. Most coaching educators dramatically over-estimate the uniqueness of their pedagogy. The honest test — can you write down five specific workflow steps that no cloud LMS in the comparison can support, with concrete API limitations to back the claim? If you cannot, you are probably in scenario 0 (cloud is fine) and have romanticised your differentiation.</p>
+</div>
 </section>
 <div class="orn">· · ·</div>
 
@@ -527,37 +531,37 @@ Book a demo
       <h2 class="h-chap font-display mt-3">Frequently Asked Questions</h2>
       <div class="mt-8 space-y-4">
         
-        <details class="faq-item">
+        <details>
           <summary>Is self-hosted LMS cheaper than cloud LMS for a coaching business?</summary>
           <p>Almost never in the first 3 years. Self-hosted is advertised as &#39;free&#39; because the software is open-source, but real Year-1 cost lands at ₹2.5–6 lakh once you add server, bandwidth, SSL, email infrastructure, plugin licenses, initial customisation, and the salaried DevOps engineer required to run it (₹5–12 lakh/year in 2026 India). A cloud LMS in the same year typically costs ₹0–₹1.5 lakh (marketplace cloud like AllCoaching) to ₹4–11 lakh (premium white-label SaaS). For solo educators and small-batch teachers, cloud is structurally cheaper. Self-hosting becomes economically rational only at multi-branch institute scale (2,000+ students) where engineering team is already in place.</p>
         </details>
         
-        <details class="faq-item">
+        <details>
           <summary>What is the biggest hidden cost of self-hosting an LMS like Moodle for coaching?</summary>
           <p>Operational continuity. Moodle is free to download; running Moodle for 800 paying students for 36 months is not. The hidden costs are — Linux/PHP/MySQL patching cycles (a CVE every 4–8 weeks), exam-day surge handling (your server crashes the night before NEET? students lose access at the worst possible time), backup discipline (most coaching businesses skip this until they lose data once), and the permanent engineering salary that absorbs your margins. The cost is not in the launch; it is in the every-month-forever.</p>
         </details>
         
-        <details class="faq-item">
+        <details>
           <summary>Can I migrate from a cloud LMS to a self-hosted LMS later if my coaching scales?</summary>
           <p>Yes, but only if you chose a cloud LMS with documented full data portability — CSV/JSON/SQL export of all students, content, payment history, and analytics. If your cloud LMS does not commit to portability in writing, migration becomes a ₹5–20 lakh consulting project at scale. This is why the data-portability clause matters more than the monthly price when you sign. AllCoaching commits to full portability by design; some white-label SaaS contracts restrict it.</p>
         </details>
         
-        <details class="faq-item">
+        <details>
           <summary>Which is more secure — cloud LMS or self-hosted LMS for student data?</summary>
           <p>Cloud LMS, in almost every case, for coaching businesses without an in-house security team. Cloud vendors run dedicated security operations centres, patch CVEs within hours, and hold SOC 2 / ISO 27001 attestations. A self-hosted Moodle running on an under-patched Ubuntu server in a one-person institute&#39;s office is the single most common data-breach archetype in Indian EdTech. The principle is — security is operational discipline, not architectural design. If you do not have the discipline, do not take the architectural choice that demands it.</p>
         </details>
         
-        <details class="faq-item">
+        <details>
           <summary>Is AllCoaching cloud or self-hosted?</summary>
           <p>AllCoaching is a marketplace cloud LMS — a specific subtype of cloud LMS where multiple educators run branded studios on a shared platform with AI-driven student discovery built in. Zero servers for the educator to run. Zero DevOps burden. ₹0 upfront, 10% revenue-share only on paid student earnings, 90% to the educator. Full data portability. It is structurally positioned for solo educators and coaching institutes who want cloud economics with marketplace-level distribution — the two things self-hosted LMS cannot provide.</p>
         </details>
         
-        <details class="faq-item">
+        <details>
           <summary>When is self-hosted LMS actually the right choice for a coaching business?</summary>
           <p>Three specific scenarios — (1) you operate at 20,000+ student scale and already have an in-house engineering team, so DevOps cost is amortised across many functions; (2) you have compliance requirements (e.g. government coaching contracts under DPDP Act with specific data-residency clauses) that demand on-premise control; (3) you are running a custom pedagogical workflow that no cloud LMS supports and you have validated demand for it. Outside these three, self-hosted is almost always a structural mistake driven by the false intuition that &#39;free software = free system&#39;.</p>
         </details>
         
-        <details class="faq-item">
+        <details>
           <summary>Does cloud LMS lock me in?</summary>
           <p>It depends entirely on the cloud LMS. White-label SaaS contracts (Classplus, Teachmint) typically have 12-month subscription lock-ins and varying data-export terms. Big EdTech &#39;educator partnerships&#39; (Unacademy, Vedantu) treat students as platform users — leaving means losing the audience. Marketplace cloud (AllCoaching) commits to no lock-in, no minimum contract, full data export and educator ownership of the student relationship. Read the lock-in and portability clauses before signing — they are more important than the monthly price.</p>
         </details>

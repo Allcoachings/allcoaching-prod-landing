@@ -149,7 +149,7 @@
   <div class="max-w-3xl mx-auto px-5 md:px-6">
     <nav class="toc" aria-label="In this article">
       <p class="toc-l">In this article</p>
-      <ol class="toc-list">
+      <ol>
 <li><a href="#ch1">The real question is intervention, not prediction.</a></li>
 <li><a href="#ch2">What actually predicts a result — the five-signal stack.</a></li>
 <li><a href="#ch3">How the prediction is built — the pipeline, no hype.</a></li>
@@ -536,7 +536,7 @@
 <p class="mt-7">If the framework points to using prediction — as it will for most institutes with a real cohort — here is the concrete sequence to pilot an early-warning system without hiring a data-science team or betting the term. Three phases, about thirty days, one signal, one decided action.</p>
 <div class="step-card mt-8">
 <div class="step-num">1</div>
-<div class="step-content">
+<div>
 <span class="step-l">Days 1-7 · Define the outcome &amp; the one signal that matters</span>
 <h3>Decide exactly what you are predicting — and what "at-risk" means in numbers.</h3>
 <p>Pin down the outcome you want to catch early — a falling mock trajectory, a silent drop-off, a missed target — and define "at-risk" concretely for your students, not abstractly. Then pick the single strongest leading indicator you can already measure, almost always engagement cadence relative to a student's own baseline. Resist the urge to build a rich multi-signal model first; one good signal with a clear threshold proves the loop, and the pilot's job is to prove the loop, not to win a data-science prize.</p>
@@ -544,7 +544,7 @@
 </div>
 <div class="step-card">
 <div class="step-num">2</div>
-<div class="step-content">
+<div>
 <span class="step-l">Days 8-21 · Wire the prediction to an intervention</span>
 <h3>Set the threshold, then pre-decide the exact action each flag triggers.</h3>
 <p>Choose the threshold that turns the signal into a flag — sensitive enough to catch real risk, conservative enough that teachers trust it — and, before you switch it on, decide the precise action each flag triggers: a personal message, a call, a reassigned chapter. The intervention is the product, not the score. Run the loop on your current batch: when a student is flagged, act, and record what happened. A flag with no pre-decided action is the most common way these pilots quietly fail.</p>
@@ -552,7 +552,7 @@
 </div>
 <div class="step-card">
 <div class="step-num">3</div>
-<div class="step-content">
+<div>
 <span class="step-l">Days 22-30 · Ship inside your course &amp; measure the lead time</span>
 <h3>Run it where the data already lives, then let results decide.</h3>
 <p>Run the early-warning loop live on a platform that already captures behaviour and carries your students, so the analytics is a by-product of teaching rather than a separate build. Measure two things only: lead time — how early the flag arrives before the outcome it predicts — and whether acting on it changed the result versus comparable students you did not reach. Keep and tune the signal only if intervention measurably improves outcomes, and let results, not the novelty of prediction, decide which signal you add next.</p>
@@ -745,52 +745,52 @@
       <h2 class="h-chap font-display mt-3">Frequently Asked Questions</h2>
       <div class="mt-8 space-y-4">
 
-        <details class="faq-item">
+        <details>
           <summary>What is predictive analytics for student results in coaching apps?</summary>
           <p>Predictive analytics for student results in coaching apps is the use of a student's behavioural and assessment data — how regularly they study, how fast they move through content, how their mock-test scores trend over time — to estimate, before the exam, how likely they are to reach their target outcome, so a teacher can intervene while there is still time to change it. It is not fortune-telling and it is not a single magic number; it is a probability built from leading indicators that move weeks before a final score does. The genuinely important point is that prediction is the easy and cheap part — a fairly simple model on good data predicts risk surprisingly well — while the value lives entirely in the intervention that the prediction triggers. A prediction nobody acts on changes no result. And the model is only as good as the behavioural data it is fed, which is dense only when the student actually learns inside one platform rather than scattered across YouTube, PDFs, and WhatsApp.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>How does a coaching app predict a student's result?</summary>
           <p>A coaching app predicts a student's result through a five-stage pipeline. First it captures behavioural and assessment data as the student learns — logins, lecture completion, questions attempted, doubts asked, mock scores. Second it turns raw events into features: not "logged in 4 times" but "login frequency falling versus the student's own four-week baseline". Third it labels outcomes from past cohorts — which patterns historically preceded a strong result and which preceded a poor one. Fourth it trains a model, where for this kind of problem a simple, interpretable classifier on good features usually beats a complex one on thin data. Fifth it produces a score and, crucially, an action threshold that decides when a teacher is alerted. The hard, valuable work is the features and the threshold, not the algorithm — and the prediction is worthless unless it is wired to a channel through which the teacher can actually act.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>What data is needed to predict student outcomes?</summary>
           <p>The data that predicts outcomes is mostly leading-indicator behavioural data, not just marks. The strongest signals are engagement cadence (how recently and how regularly a student studies, relative to their own baseline), content-completion velocity (whether they are keeping pace with the cohort or falling behind), assessment trajectory (the direction their mock scores are moving, which matters more than the absolute number), practice depth (how many questions they actually attempt and how many doubts they raise), and consistency (whether study is steady or erratic). Absolute marks today are a lagging indicator — they tell you where a student is, not where they are heading. The catch is data density: these signals are reliable only when a meaningful share of the student's learning happens in one place, because behaviour fragmented across many apps produces a signal too thin to predict anything trustworthy.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Is predictive analytics accurate for predicting exam results?</summary>
           <p>Predictive analytics is accurate enough to be useful as an early-warning flag, but not accurate enough to be treated as a verdict — and confusing the two is the central mistake. A well-built model can reliably separate students who are clearly on track from those who are clearly slipping, weeks before a failed mock makes it obvious, which is exactly the window in which intervention works. What it cannot do is certify that a specific student will pass or fail; results are shaped by effort, circumstance, and exam-day factors no model sees. The right way to read accuracy is through precision and recall: you want to catch genuinely at-risk students (recall) without crying wolf so often that teachers ignore the alerts (precision). Used as a prompt for a human to look closer, it is powerful; used as a label stamped on a child, it is both inaccurate and harmful.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>What is an early-warning system for student drop-off?</summary>
           <p>An early-warning system is the most practical form of predictive analytics in coaching: it continuously watches each student's leading indicators and raises a flag when the pattern matches the one that historically preceded disengagement or a poor result — typically weeks before a failed test or a silent drop-off would otherwise reveal it. Its purpose is not to grade students but to buy the teacher time, surfacing the handful of students who most need attention before the problem has hardened. A good early-warning system is judged by lead time (how early it flags), by precision (whether the flags are worth acting on), and above all by whether it is connected to an intervention channel — a nudge, a call, a re-assignment — because a warning that arrives early and accurately but reaches no one who can act is just a number in a dashboard.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>What is the difference between descriptive and predictive analytics?</summary>
           <p>Descriptive analytics tells you what has already happened — attendance last month, average mock score, completion rate — and is essentially a rear-view mirror. Predictive analytics estimates what is likely to happen next — which students are trending toward a poor result — and is a forward-looking flag. A third layer, prescriptive analytics, goes further and recommends the specific action to take — which student to call, which chapter to reassign. Most "analytics dashboards" sold to coaching institutes are purely descriptive: they report the past in colourful charts but predict nothing and prescribe nothing, leaving the teacher to infer risk manually. The useful stack for student results is predictive flowing into prescriptive — flag the risk early, then recommend the intervention — delivered inside the platform where the teacher can actually act on it, not in a separate report that arrives after the term is over.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Can a small or solo coaching educator use predictive analytics?</summary>
           <p>Yes, but only if it is built into the platform they already teach on — building it themselves is not worth it for a small educator. Hiring a data scientist (₹12–30 lakh a year) and commissioning a custom model is a poor use of scarce resources for someone whose real constraint is being discovered and retaining the students they have. What a solo educator should use is a platform that captures the learning behaviour and ships an early-warning flag and a suggested action as a standard feature, so the analytics is a by-product of teaching rather than a separate engineering project. The honest rule is that a small educator should consume predictive analytics, not construct it, and should spend their own energy on the two things no model replaces — clear teaching and being found by students.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Does predictive analytics replace the teacher's judgment?</summary>
           <p>No — predictive analytics does not replace the teacher's judgment; it directs the teacher's attention. The model is good at one narrow thing: scanning every student's behavioural pattern continuously and surfacing the few who are statistically slipping, which a human cannot do at scale. But it does not know why a student is slipping, what to say to them, or what is happening in their life — that diagnosis and the relationship that makes intervention work are entirely the teacher's. The durable model is the analytics as a tireless assistant that says "look at these five students this week", and the teacher deciding what is actually wrong and what to do. Treating the score as the judgment, rather than as the prompt for a human judgment, is how predictive analytics becomes both unfair and ineffective.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Is student predictive analytics legal and ethical under India's DPDP Act?</summary>
           <p>Student predictive analytics is legal under India's Digital Personal Data Protection Act 2023 when done with consent, data minimisation, and a clear purpose, but it carries real ethical weight because most coaching students are minors and the data is sensitive. The compliant and responsible design is privacy-by-design: collect only the behavioural data needed to help the student, keep it on India-resident infrastructure, obtain verifiable parental consent where required, and use the prediction to support rather than to label or rank-and-shame. The single most important ethical rule is that an at-risk flag must trigger help, never a punishment or a permanent label — a self-fulfilling prophecy that tells a child they will fail is both an ethical failure and a practical one. Used to direct care and kept private and proportionate, it is both lawful and defensible; used to profile and stigmatise, it is neither.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>How does AllCoaching provide predictive analytics for student results?</summary>
           <p>AllCoaching provides predictive analytics as a by-product of a complete learning ecosystem rather than as a bolt-on dashboard. Because students learn, attempt tests, and ask doubts inside the platform, the behavioural data is dense enough to be predictive in the first place — solving the data-density problem that defeats analytics built on fragmented usage. The platform surfaces early-warning, at-risk signals and a per-student weakness map to the educator, and wires them to an intervention channel — nudges, reminders, and next-step suggestions — so a prediction becomes an action rather than a number. Crucially, this sits inside a marketplace that also supplies discovery, student traffic, and reputation, which is what actually grows a coaching business, all bundled in the standard revenue-share with no separate analytics fee and with DPDP-compliant, India-resident data handling — so the educator gets the intelligence without building a data-science team or sacrificing student privacy.</p>
         </details>

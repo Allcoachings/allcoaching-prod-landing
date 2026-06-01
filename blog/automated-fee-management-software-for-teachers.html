@@ -36,7 +36,7 @@
   <meta property="og:image:height" content="900" />
   <meta property="article:author" content="Amit Ratan" />
   <meta property="article:published_time" content="2026-05-15" />
-  <meta property="article:modified_time" content="2026-05-15" />
+  <meta property="article:modified_time" content="2026-06-01" />
   <meta property="article:section" content="EdTech Operations" />
   <meta property="og:site_name" content="AllCoaching" />
   <meta property="og:locale" content="en_IN" />
@@ -97,7 +97,7 @@
       ]
     },
     "datePublished":"2026-05-15",
-    "dateModified":"2026-05-15",
+    "dateModified":"2026-06-01",
     "mainEntityOfPage":{"@type":"WebPage","@id":"https://allcoaching.in/blog/automated-fee-management-software-for-teachers"},
     "articleSection":"EdTech Operations",
     "about":[
@@ -313,7 +313,7 @@
       <div>
         <div class="author-strip-name">Amit Ratan</div>
         <div class="author-strip-role">Founder &amp; CEO, AllCoaching</div>
-        <div class="author-strip-meta">Published May 15, 2026 &nbsp;·&nbsp; Updated May 15, 2026 &nbsp;·&nbsp; 22 min read &nbsp;·&nbsp; EdTech Operations</div>
+        <div class="author-strip-meta">Published May 15, 2026 &nbsp;·&nbsp; Updated June 1, 2026 &nbsp;·&nbsp; 22 min read &nbsp;·&nbsp; EdTech Operations</div>
       </div>
     </div>
   </div>
@@ -419,7 +419,7 @@
       <li><strong>Automated multi-channel reminders</strong> — SMS, WhatsApp, email, and optionally voice. WhatsApp is now the dominant channel in India; any platform without WhatsApp Business API integration is missing the channel parents actually read.</li>
       <li><strong>Installment and partial-payment tracking</strong> — Indian coaching fees are rarely paid in one transaction. The system must handle structured installment plans, partial payments against an installment, and aggregate reporting across the plan.</li>
       <li><strong>Multi-batch, multi-course fee structures</strong> — most institutes run 4–12 active batches with different fee schedules. The system must allow per-batch fee plans, mid-year revisions, and bulk reassignment of students between batches.</li>
-      <li><strong>Embedded payment collection</strong> — UPI, debit and credit cards, net banking, and EMI rails. UPI alone covers 65–75% of education payments in 2026 India; absence of UPI is a deal-breaker.</li>
+      <li><strong>Embedded payment collection</strong> — UPI, debit and credit cards, net banking, and EMI rails. UPI processed a record <strong>₹27.97 lakh crore across 21.6 billion transactions in a single month (December 2025)</strong><sup><a href="#ref-2">[2]</a></sup>, and it now covers an estimated 65–75% of education payments in 2026 India; absence of UPI is a deal-breaker.</li>
       <li><strong>GST-compliant invoicing</strong> — automatic GST application per fee plan (18% under SAC 999293 for coaching, exempt for school content), proper HSN/SAC code mapping, sequential invoice numbering, and GSTR-1-ready exports.</li>
       <li><strong>Defaulter identification and escalation</strong> — automated categorisation of overdue accounts, configurable escalation thresholds, escalation routes (parent notification, in-app blocking, batch-leader visibility), and grace-period rules.</li>
       <li><strong>Refund processing with audit trail</strong> — partial refunds, full refunds, refund-after-discount calculations, GST credit-note generation, and time-stamped reason codes. Tax authorities and grievance officers will ask for this trail eventually.</li>
@@ -521,7 +521,7 @@
 
     <p><strong>Goods and Services Tax</strong>. As per the Central Goods and Services Tax Act, 2017<sup><a href="#ref-1">[1]</a></sup>, coaching services for competitive examinations attract <strong>18% GST under SAC code 999293</strong>. The exemption framework under Notification 12/2017-Central Tax (Rate) covers services provided by an "educational institution" — specifically defined as institutions providing pre-school education, education up to higher secondary (CBSE/ICSE/State boards), or education leading to a qualification recognised by Indian law. Coaching institutes preparing students for NEET, JEE, UPSC, SSC, banking, CAT, and similar competitive exams are not "educational institutions" under this definition and are therefore not exempt.</p>
 
-    <p>GST registration is mandatory when annual aggregate turnover crosses ₹20 lakh (₹10 lakh for special-category North-Eastern states). Below this threshold, institutes can operate under the composition scheme or remain unregistered. <strong>Most growing coaching institutes cross the ₹20 lakh threshold within 18–30 months of launch</strong>, and the threshold-crossing event is where manual fee tracking transitions from inconvenient to genuinely risky — input tax credit claims, GSTR-1 filings, and GSTR-3B monthly returns all require structured invoice data that Excel does not natively produce.</p>
+    <p>GST registration is mandatory when annual aggregate turnover crosses ₹20 lakh (₹10 lakh for special-category North-Eastern states)<sup><a href="#ref-1">[1]</a></sup>. Below this threshold, institutes can operate under the composition scheme or remain unregistered. <strong>Most growing coaching institutes cross the ₹20 lakh threshold within 18–30 months of launch</strong>, and the threshold-crossing event is where manual fee tracking transitions from inconvenient to genuinely risky — input tax credit claims, GSTR-1 filings, and GSTR-3B monthly returns all require structured invoice data that Excel does not natively produce.</p>
 
     <div class="def">
       <p class="def-l">Question Often Asked</p>
@@ -1021,21 +1021,20 @@
 
 
   <!-- AUTO: strategic-cross-refs -->
-  <div class="article-body" id="strategic-cross-refs" style="margin: 3rem 0 1.5rem; padding: 1.5rem 1.75rem; background: linear-gradient(180deg, #FBF6EA 0%, #FFFFFF 100%); border-left: 4px solid #C58B43; border-radius: 0 14px 14px 0; box-shadow: 0 4px 14px -8px rgba(197,139,67,.25);">
-    <p style="font-family:'Inter',sans-serif; font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:800; color:#C58B43; margin:0 0 0.85rem;">Strategic cross-references</p>
-    <p style="margin:0 0 1rem; font-size:15.5px; line-height:1.65; color:#4F4840;">If this guide was useful, these companion pieces extend the same argument — economics, infrastructure, compliance, and discovery across the AllCoaching system.</p>
-    <ul style="margin:0 0 1.25rem; padding-left:1.15rem; list-style:disc; font-size:14.5px; line-height:1.85; color:#4F4840;">
-      <li><a href="/blog/automate-student-onboarding-for-coaching-app">automate student onboarding for coaching app</a> — deep dive on the same architectural layer.</li>
-      <li><a href="/blog/migrate-offline-coaching-to-online-zero-cost">migrate offline coaching to online at zero cost</a> — deep dive on the same architectural layer.</li>
-      <li><a href="/blog/how-to-start-online-academy-in-5-steps">how to start an online academy in 5 steps</a> — deep dive on the same architectural layer.</li>
-      <li><a href="/blog/white-label-coaching-app-development-cost-india">white label coaching app development cost in India</a> — deep dive on the same architectural layer.</li>
-      <li><a href="/blog/best-zero-commission-teaching-platform-india">zero-commission teaching platform in India</a> — deep dive on the same architectural layer.</li>
-      <li><a href="/blog/classplus-vs-graphy-vs-allcoaching">Classplus vs Graphy vs AllCoaching comparison</a> — deep dive on the same architectural layer.</li>
-    </ul>
-    <p style="margin:0; font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.14em; font-weight:700; color:#9C6A2E; text-transform:uppercase;">
-      Also see: <a href="/pricing" style="color:#9C6A2E; text-decoration:underline;">Pricing</a> &nbsp;·&nbsp; <a href="/faq" style="color:#9C6A2E; text-decoration:underline;">FAQ Hub (40 Q/A)</a> &nbsp;·&nbsp; <a href="/author/amit-ratan" style="color:#9C6A2E; text-decoration:underline;">Founder profile</a>
-    </p>
-  </div>
+  <aside class="x-refs" id="strategic-cross-refs" aria-label="Related reading from AllCoaching">
+    <p class="x-refs-l">Continue the argument</p>
+    <p class="x-refs-intro">Companion pieces across the AllCoaching system — economics, infrastructure, compliance, and discovery.</p>
+    <div class="x-refs-grid">
+      <a href="/blog/automate-student-onboarding-for-coaching-app" class="x-ref">automate student onboarding for coaching app</a>
+      <a href="/blog/migrate-offline-coaching-to-online-zero-cost" class="x-ref">migrate offline coaching to online at zero cost</a>
+      <a href="/blog/how-to-start-online-academy-in-5-steps" class="x-ref">how to start an online academy in 5 steps</a>
+      <a href="/blog/white-label-coaching-app-development-cost-india" class="x-ref">white label coaching app development cost in India</a>
+      <a href="/blog/best-zero-commission-teaching-platform-india" class="x-ref">zero-commission teaching platform in India</a>
+      <a href="/blog/classplus-vs-graphy-vs-allcoaching" class="x-ref">Classplus vs Graphy vs AllCoaching comparison</a>
+    </div>
+    <p class="x-refs-also">Also see <a href="/pricing">Pricing</a> <span>·</span> <a href="/faq">FAQ Hub</a> <span>·</span> <a href="/author/amit-ratan">Founder profile</a></p>
+  </aside>
+
 
   <!-- ================= RELATED ARTICLES ================= -->
 <section class="py-24 bg-white relative overflow-hidden">

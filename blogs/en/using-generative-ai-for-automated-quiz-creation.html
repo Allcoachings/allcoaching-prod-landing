@@ -346,7 +346,7 @@
   <!-- TABLE OF CONTENTS -->
   <nav class="toc" aria-label="Article contents">
     <p class="toc-l">In This Article</p>
-    <ol class="toc-list">
+    <ol>
       <li><a href="#real-problem">The Real Problem Behind Quiz Creation</a></li>
       <li><a href="#tldr">Key Takeaways — The Post in 6 Facts</a></li>
       <li><a href="#what-it-is">What Automated Quiz Creation Actually Means in 2026</a></li>
@@ -490,7 +490,7 @@
 
     <div class="step-card">
       <div class="step-num">1</div>
-      <div class="step-content">
+      <div>
         <h3>Role &amp; Authority</h3>
         <p>Pin the AI's role to a specific expertise: "You are a senior NEET Biology faculty with 15 years of authoring experience for top Indian coaching institutes. You write to the standard of Allen, Aakash, and Resonance test papers." The role anchors stylistic and difficulty expectations.</p>
       </div>
@@ -498,7 +498,7 @@
 
     <div class="step-card">
       <div class="step-num">2</div>
-      <div class="step-content">
+      <div>
         <h3>Exam Pattern &amp; Marking</h3>
         <p>Encode the marking scheme explicitly: "Each MCQ has 4 options, exactly one correct. NEET marking: +4 for correct, -1 for incorrect, 0 for unattempted. Stay within Class 11–12 NCERT boundary. No post-Class-12 content. No Olympiad-tier reasoning."</p>
       </div>
@@ -506,7 +506,7 @@
 
     <div class="step-card">
       <div class="step-num">3</div>
-      <div class="step-content">
+      <div>
         <h3>Source Grounding (RAG)</h3>
         <p>Provide the source: NCERT chapter PDF, lecture notes, previously-vetted bank. "Generate items using only the attached source. For every item, output the source chapter, page, and one sentence from the source that proves the correct answer." This is the hallucination kill-switch.</p>
       </div>
@@ -514,7 +514,7 @@
 
     <div class="step-card">
       <div class="step-num">4</div>
-      <div class="step-content">
+      <div>
         <h3>Bloom Distribution</h3>
         <p>"Generate 50 items with this Bloom distribution: Remember 10, Understand 15, Apply 12, Analyze 8, Evaluate 4, Create 1. Tag every item with its Bloom level in the output JSON." Forces the AI off the medium-recall default.</p>
       </div>
@@ -522,7 +522,7 @@
 
     <div class="step-card">
       <div class="step-num">5</div>
-      <div class="step-content">
+      <div>
         <h3>Distractor Calibration Rules</h3>
         <p>"Each distractor must be plausibly true if the student misapplied a specific concept. For numerical items, every distractor must be calculator-reachable from a realistic wrong step. No distractor may be absurdly wrong (e.g., differing by 1000×). Output for each distractor the specific misconception it traps."</p>
       </div>
@@ -530,7 +530,7 @@
 
     <div class="step-card">
       <div class="step-num">6</div>
-      <div class="step-content">
+      <div>
         <h3>Output Format (Structured JSON)</h3>
         <p>"Output as structured JSON with fields: stem, options (4), correct_index, explanation (3–6 sentences), concept_tag, common_mistake, source_chapter, source_page, proof_sentence, bloom_level, difficulty_target." Structured output enables the review grid and analytics layer.</p>
       </div>
@@ -538,7 +538,7 @@
 
     <div class="step-card">
       <div class="step-num">7</div>
-      <div class="step-content">
+      <div>
         <h3>Self-Check Before Output</h3>
         <p>"Before finalising each item, verify: (a) correct option is unambiguously correct against the source, (b) all distractors are wrong against the source, (c) no item refers to material outside the chapter boundary, (d) explanation cites the same source passage as the stem. If any check fails, regenerate the item." Reduces hallucination by another 40–60%.</p>
       </div>
@@ -581,7 +581,7 @@
 
     <div class="step-card">
       <div class="step-num">1</div>
-      <div class="step-content">
+      <div>
         <span class="step-l">Safeguard 1</span>
         <h3>Retrieval-Augmented Generation (RAG)</h3>
         <p>Ground the model in verified source content rather than parametric memory. The educator uploads NCERT chapters, previously-vetted question banks, curated current-affairs feeds (for UPSC), and lecture notes into the source library. At generation time, the relevant passages are retrieved and inserted into the prompt context. The model can only generate items that are anchored to a retrieved passage. This single change cuts hallucination from 8–15% to 2–4%.</p>
@@ -590,7 +590,7 @@
 
     <div class="step-card">
       <div class="step-num">2</div>
-      <div class="step-content">
+      <div>
         <span class="step-l">Safeguard 2</span>
         <h3>Structured Per-Item Source Citation</h3>
         <p>Every generated item outputs a source chapter, source page, and a one-sentence proof from the source that justifies the correct answer. The reviewer scans the citation in 5 seconds and verifies the proof sentence actually appears in the source. Items without citations are auto-rejected by the pipeline. This catches the residual 2–4% of items where the model retrieved a passage but then drifted in the answer key.</p>
@@ -599,7 +599,7 @@
 
     <div class="step-card">
       <div class="step-num">3</div>
-      <div class="step-content">
+      <div>
         <span class="step-l">Safeguard 3</span>
         <h3>Mandatory Faculty Review Gate</h3>
         <p>No AI-generated item ships to a student without a human pass. The review grid shows item stem, options, correct answer, explanation, source citation, Bloom level, difficulty target, and edit/approve/reject buttons. A senior reviewer scans 50 items in 25–40 minutes once the upstream stack is stable. Items that get edited feed corrections back into the prompt template, so the next generation pass produces fewer corrections. The review gate is the final cut from 2–4% to under 1%.</p>
@@ -654,7 +654,7 @@
 
     <div class="step-card">
       <div class="step-num">1</div>
-      <div class="step-content">
+      <div>
         <span class="step-l">Day 1</span>
         <h3>Inventory the question-bank gap and exam patterns</h3>
         <p>List every paid offering — full courses, test series, chapter tests, daily quizzes, mock-exam packages. For each, record exam pattern, current bank size, target bank size, refresh cadence, language requirements. This becomes the prioritised AI-generation backlog ranked by student-impact.</p>
@@ -663,7 +663,7 @@
 
     <div class="step-card">
       <div class="step-num">2</div>
-      <div class="step-content">
+      <div>
         <span class="step-l">Day 2</span>
         <h3>Build the verified source library</h3>
         <p>Upload NCERT chapters, lecture notes, previously-vetted banks, curated current-affairs feeds. This is the RAG corpus. The discipline matters — every passage in the source library is content the institute is willing to stand behind in a parent grievance call.</p>
@@ -672,7 +672,7 @@
 
     <div class="step-card">
       <div class="step-num">3</div>
-      <div class="step-content">
+      <div>
         <span class="step-l">Day 3</span>
         <h3>Configure prompt templates per exam pattern</h3>
         <p>Set up reusable prompt stacks for NEET, JEE Main, JEE Advanced, UPSC Prelims, SSC, CA Foundation, state board — whichever apply to your institute. Each template encodes role, marking, source grounding, Bloom distribution, distractor rules, output format, and self-check.</p>
@@ -681,7 +681,7 @@
 
     <div class="step-card">
       <div class="step-num">4</div>
-      <div class="step-content">
+      <div>
         <span class="step-l">Day 4</span>
         <h3>Generate the first 50-item bank against a real chapter</h3>
         <p>Pick one chapter from the highest-priority subject. Generate. Verify every item has a source citation, every distractor is plausibly wrong, the Bloom distribution matches target. This is the proof-of-workflow milestone — the first moment the institute internalises that the pipeline works.</p>
@@ -690,7 +690,7 @@
 
     <div class="step-card">
       <div class="step-num">5</div>
-      <div class="step-content">
+      <div>
         <span class="step-l">Day 5</span>
         <h3>Run the calibration pass</h3>
         <p>Senior faculty review the 50-item bank in the dashboard's grid view. Edits feed back into the prompt template. After two calibration passes, per-item review time drops from 4–6 minutes to 30–60 seconds. The prompt stack is now stable for that exam pattern.</p>
@@ -699,7 +699,7 @@
 
     <div class="step-card">
       <div class="step-num">6</div>
-      <div class="step-content">
+      <div>
         <span class="step-l">Day 6</span>
         <h3>Run parallel — manual authoring + AI authoring</h3>
         <p>For one week, commission new bank items via the manual workflow while simultaneously generating equivalents via AI. Compare faculty-rated quality, student attempt-difficulty data, and time-per-item cost. Catch edge cases (image-anchored Physics, regional-language design, multi-step UPSC analytical) before cutover.</p>
@@ -708,7 +708,7 @@
 
     <div class="step-card">
       <div class="step-num">7</div>
-      <div class="step-content">
+      <div>
         <span class="step-l">Day 7</span>
         <h3>Cut over — AI-assisted authoring becomes default</h3>
         <p>Senior faculty retain the review gate but stop drafting from scratch. The manual workflow is retained only for image-heavy items, niche regional content, and the highest-stakes final mock tests. Bank-refresh velocity improves 6–10×.</p>

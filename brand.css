@@ -568,6 +568,70 @@ header.mast-dark p[class*="leading-"]{
 .cmp-scroll{ overflow-x:auto; -webkit-overflow-scrolling:touch; margin:2rem -.25rem; }
 .cmp-scroll .cmp{ min-width:720px; margin:0; }
 
+/* ───── Semantic data / cost table (a real <table>, usually inside .cmp) ─── */
+.cost-table{ width:100%; border-collapse:collapse; font-family:var(--ui); }
+.cost-table thead th{ background:var(--ink-1); color:var(--on-dark-1); font-family:var(--mono); font-weight:700; font-size:11px; letter-spacing:.14em; text-transform:uppercase; text-align:left; padding:.85rem 1.2rem; }
+.cost-table thead th:first-child{ color:rgba(245,216,174,.55); }
+.cost-table tbody td{ padding:.85rem 1.2rem; border-top:1px solid var(--line); font-size:13.5px; color:var(--ink-2); line-height:1.5; }
+.cost-table tbody tr:nth-child(even){ background:var(--bg-tint); }
+.cost-table tbody td:first-child{ color:var(--ink-1); font-weight:600; }
+.cost-table tfoot td{ padding:.95rem 1.2rem; border-top:2px solid var(--accent); background:var(--bg-tint); font-weight:800; color:var(--ink-1); font-size:14px; }
+
+/* ───── Generic comparison row (flex — adapts to any column count) ───────── */
+.cmp-h, .cmp-r{ display:flex; align-items:center; }
+.cmp-h{ background:var(--ink-1); color:var(--on-dark-1); padding:.85rem 1.2rem; }
+.cmp-h span{ flex:1; font-family:var(--mono); font-weight:700; font-size:11px; letter-spacing:.14em; text-transform:uppercase; }
+.cmp-h span:first-child{ flex:1.6; color:rgba(245,216,174,.55); }
+.cmp-r{ padding:.95rem 1.2rem; border-top:1px solid var(--line); }
+.cmp-r:nth-child(even){ background:var(--bg-tint); }
+.cmp-r span{ flex:1; font-family:var(--ui); font-size:13.5px; color:var(--ink-2); line-height:1.5; }
+.cmp-r span:first-child{ flex:1.6; color:var(--ink-1); font-weight:600; }
+
+/* ───── Plain feature card (.pcard) ─────────────────────────────────────── */
+.pcard{ border:1px solid var(--line); border-radius:16px; padding:1.5rem 1.75rem; background:linear-gradient(180deg,#FBF6EA,#FFFFFF); }
+.pcard .pin{ font-family:var(--mono); font-weight:700; font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--accent-deep); }
+.pcard h3{ font-family:var(--display); font-style:italic; font-weight:400; font-size:1.3rem; color:var(--ink-1); margin:.5rem 0 .35rem; }
+.pcard .role{ font-family:var(--mono); font-size:11px; letter-spacing:.04em; color:var(--ink-3); margin-bottom:.7rem; }
+.pcard p{ font-size:15px; color:var(--ink-2); line-height:1.75; margin:0 0 .6rem; font-family:var(--ui); }
+.pcard p:last-child{ margin-bottom:0; }
+.pcard strong{ color:var(--ink-1); }
+
+/* ───── Educator photo grid ─────────────────────────────────────────────── */
+.photo-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(108px, 1fr)); gap:1.1rem; margin:1.75rem 0; }
+.photo-card{ display:flex; flex-direction:column; align-items:center; text-align:center; gap:.55rem; margin:0; }
+.photo-card img{ width:78px; height:78px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 3px #fff,0 0 0 4px rgba(197,139,67,.32); }
+.photo-meta .pn{ font-family:var(--ui); font-weight:700; font-size:13px; color:var(--ink-1); line-height:1.2; }
+.photo-meta .ps{ font-family:var(--ui); font-size:11.5px; color:var(--ink-3); }
+
+/* ───── Pull quote — green variant ──────────────────────────────────────── */
+.pull-green{ position:relative; padding:1.9rem 2rem 1.9rem 2.4rem; background:linear-gradient(160deg,#E9F5EC 0%,#F3FAF4 65%,#FFFFFF 100%); border-left:4px solid var(--positive); border-radius:0 14px 14px 0; margin:2rem 0; }
+.pull-green p{ font-family:var(--display); font-style:italic; font-size:1.3rem; line-height:1.5; color:var(--ink-1); margin:0; }
+
+/* ───── Pricing tiers ───────────────────────────────────────────────────── */
+.pricing-tier{ border:1px solid var(--line); border-radius:18px; padding:1.75rem; background:var(--surface); position:relative; }
+.pricing-tier.growth{ border-color:var(--accent); box-shadow:0 14px 34px -14px rgba(197,139,67,.45); }
+.tier-badge{ display:inline-block; font-family:var(--mono); font-weight:700; font-size:10px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-deep); background:var(--bg-tint); padding:.32rem .7rem; border-radius:999px; }
+.tier-price{ font-family:var(--display); font-style:italic; font-size:2.3rem; color:var(--ink-1); margin:.7rem 0 .15rem; line-height:1; }
+.pricing-tier.free .tier-price{ color:var(--accent-deep); }
+.tier-sub{ font-family:var(--ui); font-size:13px; color:var(--ink-3); margin-bottom:1.1rem; }
+.tier-features{ list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:.55rem; }
+.tier-features li{ font-family:var(--ui); font-size:14px; color:var(--ink-2); line-height:1.5; padding-left:1.5rem; position:relative; }
+.tier-features li::before{ content:"\2713"; position:absolute; left:0; color:var(--positive); font-weight:800; }
+
+/* ───── Step list wrapper ───────────────────────────────────────────────── */
+.step-list{ display:flex; flex-direction:column; gap:1.1rem; margin:1.75rem 0; }
+
+/* ───── Strategic cross-references (chip links) ─────────────────────────── */
+.x-refs{ margin:3rem 0 1.5rem; padding:1.6rem 1.75rem; background:linear-gradient(180deg,#FBF6EA 0%,#FFFFFF 100%); border-left:4px solid var(--accent); border-radius:0 16px 16px 0; box-shadow:0 4px 14px -8px rgba(197,139,67,.25); }
+.x-refs-l{ font-family:var(--mono); font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:800; color:var(--accent); margin:0 0 .55rem; }
+.x-refs-intro{ font-family:var(--ui); font-size:15px; line-height:1.6; color:var(--ink-2); margin:0 0 1.1rem; max-width:62ch; }
+.x-refs-grid{ display:flex; flex-wrap:wrap; gap:.6rem; }
+.x-ref{ display:inline-flex; align-items:center; font-family:var(--ui); font-size:13.5px; font-weight:600; color:var(--accent-deep); text-decoration:none; background:#fff; border:1px solid rgba(197,139,67,.32); border-radius:999px; padding:.5rem .95rem; line-height:1.25; transition:transform .16s ease, background .16s ease, color .16s ease, border-color .16s ease; }
+.x-ref:hover{ background:var(--accent); color:#2A1B07; border-color:var(--accent); transform:translateY(-1px); }
+.x-refs-also{ font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; font-weight:700; color:var(--ink-3); text-transform:uppercase; margin:1.15rem 0 0; }
+.x-refs-also a{ color:var(--accent-deep); text-decoration:underline; }
+.x-refs-also span{ opacity:.4; margin:0 .3rem; }
+
 /* ───── Layer card ─────────────────────────────────────────────────────── */
 .layer-card{
   position:relative;

@@ -149,7 +149,7 @@
   <div class="max-w-3xl mx-auto px-5 md:px-6">
     <nav class="toc" aria-label="In this article">
       <p class="toc-l">In this article</p>
-      <ol class="toc-list">
+      <ol>
 <li><a href="#ch1">The discovery surface changed — from ranking to citation.</a></li>
 <li><a href="#ch2">The six layers of an AI-agent-optimized coaching website.</a></li>
 <li><a href="#ch3">SEO site vs DIY GEO vs marketplace-native — the scorecard.</a></li>
@@ -489,7 +489,7 @@
 <p class="mt-7">If you are optimizing a standalone coaching site, here is the concrete sequence. The technical layers complete in about two weeks; the authority layer begun in phase two keeps compounding for months afterward. Three phases:</p>
 <div class="step-card mt-8">
 <div class="step-num">1</div>
-<div class="step-content">
+<div>
 <span class="step-l">Days 1-5 · Structured data &amp; crawler access</span>
 <h3>Make the site parseable and readable to AI crawlers.</h3>
 <p>Add accurate schema.org JSON-LD to every page — Organization, Person (named educator with sameAs), Course, FAQPage, Article, BreadcrumbList — and validate it against a structured-data validator. Update robots.txt to explicitly allow GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, and Google-Extended. Confirm every schema claim mirrors the visible content exactly. This is the entry ticket — without it, nothing downstream can be cited.</p>
@@ -497,7 +497,7 @@
 </div>
 <div class="step-card">
 <div class="step-num">2</div>
-<div class="step-content">
+<div>
 <span class="step-l">Days 6-10 · Entity &amp; authorship layer</span>
 <h3>Become a recognized, credible, named entity.</h3>
 <p>Anchor the educator and institute as entities — one consistent name everywhere, sameAs links to LinkedIn, X, YouTube, and Wikipedia or Wikidata where they exist. Add a named-author E-E-A-T identity with real credentials and first-person experience signals. Then begin the slow, decisive work: building branded mentions across the web — guest pieces, directories, interviews, profiles — because mentions correlate with AI visibility more than backlinks do. This layer starts now and never fully finishes.</p>
@@ -505,7 +505,7 @@
 </div>
 <div class="step-card">
 <div class="step-num">3</div>
-<div class="step-content">
+<div>
 <span class="step-l">Days 11-14 · Citation-grade content &amp; llms.txt</span>
 <h3>Write to be quoted, and hand AI a map.</h3>
 <p>Rewrite key pages so the first sentence directly answers the target question. Add TL;DR blocks, FAQs mirroring FAQPage schema, at least one expert quote, and specific cited statistics with sources. Publish an llms.txt index at the site root listing your most important pages, optionally with an llms-full.txt of full text. Set dateModified and a freshness cadence. Now the site is parseable, trusted-in-progress, answer-ready, and current — the four AI-citation tests, passed.</p>
@@ -694,52 +694,52 @@
       <h2 class="h-chap font-display mt-3">Frequently Asked Questions</h2>
       <div class="mt-8 space-y-4">
 
-        <details class="faq-item">
+        <details>
           <summary>What does it mean to optimize a coaching website for AI agents?</summary>
           <p>Optimizing a coaching website for AI agents means structuring its content, data, and identity so that generative engines — ChatGPT, Perplexity, Google AI Overviews, Gemini, Claude — can parse it, trust it, and cite it by name when a student asks them a question. This discipline is called Generative Engine Optimization (GEO). It differs from classic SEO: SEO optimizes to rank a blue link a human clicks; GEO optimizes to be the source an AI quotes in its answer, often with no click at all. The six structural layers are structured data (schema.org JSON-LD), entity anchoring (sameAs links to the knowledge graph), citation-grade content (direct-answer sentences and specific statistics), crawler access plus an llms.txt file, a named-author E-E-A-T identity, and answer-engine freshness signals. A coaching site that does all six is legible to AI agents; one that does none is invisible to them regardless of its Google ranking.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>What is the difference between SEO and GEO for a coaching website?</summary>
           <p>SEO (Search Engine Optimization) optimizes a page to rank in a list of blue links that a human scans and clicks. GEO (Generative Engine Optimization) optimizes content to be extracted and cited inside an AI-generated answer, where there may be no list and no click. The mechanics differ: SEO rewards keywords, backlinks, and page speed; GEO rewards structured data, entity recognition, expert quotes, inline statistics, and clear direct-answer sentences. A 2024 Princeton-led study on GEO found that expert quotes lifted AI citation probability by 41%, and statistics with cited sources lifted it by 30%. In 2026 the two disciplines overlap but are not identical — a coaching site can rank #1 on Google and still never be cited by ChatGPT, because the signals AI engines read are different from the ones the classic ranking algorithm reads.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>What structured data should a coaching website add for AI agents?</summary>
           <p>At minimum: Organization and Person (the institute and the named educator, with sameAs links to social and Wikipedia/Wikidata where applicable), Course or EducationalOccupationalProgram (each course offered, with provider, price, and audience), FAQPage (mirroring visible FAQs verbatim), Article or BlogPosting on every editorial page, and BreadcrumbList for site structure. Advanced layers add Review/AggregateRating, Event for live classes, and HowTo for procedural guides. The JSON-LD must be accurate and mirror the visible DOM exactly — AI engines and Google both penalize schema that claims content the page does not show. Structured data is the single highest-leverage GEO investment because it converts ambiguous prose into machine-readable facts an AI agent can lift with confidence.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Does adding schema markup guarantee my coaching site gets cited by AI?</summary>
           <p>No. Schema is necessary but not sufficient. Structured data makes your content parseable, but AI engines also weigh trust, entity recognition, and authority before they cite a source. Position Digital's 2025 correlation analysis found that branded web mentions correlate roughly three times more strongly with AI visibility than backlinks do — which means being recognized as a named entity across the web matters more than raw link count. A brand-new coaching site with perfect schema but zero entity footprint will be parsed but rarely cited; an established, frequently-mentioned educator with good schema will be cited often. Schema is the entry ticket; entity authority and citation-grade content are what actually win the citation.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>What is llms.txt and does a coaching website need one?</summary>
           <p>llms.txt is a proposed plain-text file placed at the root of a website (yoursite.com/llms.txt) that gives AI crawlers a curated, machine-readable index of the site's most important content — a sitemap written for language models rather than search bots. A companion llms-full.txt can contain the full text of key pages. For a coaching website in 2026 it is a low-cost, high-signal addition: it tells AI agents exactly which pages to read and how to describe them, increasing the odds your courses and guides are surfaced accurately. It is not yet a universal standard and not every crawler honors it, but the cost to publish one is near zero and the downside is none. Pair it with an accurate robots.txt that explicitly allows the major AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended) rather than blocking them.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Should I block or allow AI crawlers like GPTBot on my coaching website?</summary>
           <p>For almost every coaching educator who wants students to discover them, allow the AI crawlers. Blocking GPTBot, ClaudeBot, PerplexityBot, and Google-Extended in robots.txt removes your content from the exact engines students increasingly use to find teachers — it is the 2026 equivalent of asking Google to de-index you. The instinct to block comes from a content-theft fear that mostly does not apply to a coaching business whose product is teaching and student relationships, not the blog text itself. The strategic move is the opposite of blocking: make your content maximally legible and citable, so when a student asks an AI 'who teaches NEET Biology well in Hindi,' your name is in the answer. Block crawlers only if your content genuinely is the paid product and is fully public — a rare case for coaching.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>How do AI agents decide which coaching website to cite or recommend?</summary>
           <p>AI engines weigh a blend of signals: can the content be parsed (structured data), is the source a recognized entity (sameAs, branded mentions, knowledge-graph presence), does the content directly answer the query (citation-grade sentences, TL;DR blocks, FAQs), is it credible (named author with E-E-A-T, expert quotes, cited statistics), and is it current (dateModified, fresh content). The 2024 Princeton GEO study quantified several of these — expert quotes +41%, cited statistics +30%, inline citations +30% on AI citation probability. Crucially, AI recommendation also favors aggregators and marketplaces that already carry trust and structured entity data at scale, which is why an individual educator on a well-optimized marketplace is often surfaced more readily than the same educator on an unknown standalone domain.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Is it worth building a standalone optimized website or joining a marketplace for AI discovery?</summary>
           <p>For most individual coaching educators, joining an AI-optimized marketplace beats hand-optimizing a standalone site. GEO done properly is ongoing technical work — schema maintenance, entity building, content freshness, crawler management, and the slow accumulation of branded mentions that AI engines reward. A standalone new domain starts with zero entity authority and must build it alone. A marketplace like AllCoaching already carries domain authority, an entity graph, structured data at scale, and aggregated trust signals — so an educator's profile and courses inherit a discovery surface that AI agents already read and trust. The rational division: let the ecosystem carry the GEO infrastructure and entity authority; you carry the teaching and the niche. Build a standalone site later, for brand, once you have an audience that no longer depends on it.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>How long does it take to make a coaching website AI-citable?</summary>
           <p>The technical layer — structured data, llms.txt, robots.txt crawler access, author schema, citation-grade rewrites of key pages — can be implemented in about 14 days for a small site. But AI-citability is not only technical: the entity-authority layer (branded mentions, recognition across the web, knowledge-graph presence) accumulates over months and is the slower, harder half. So expect the site to become parseable and well-structured within two weeks, and to become genuinely citable as authority compounds over the following one to six months. The fastest path to citability is to attach your content to an existing entity-authoritative platform rather than building authority from zero on a new domain.</p>
         </details>
 
-        <details class="faq-item">
+        <details>
           <summary>Will optimizing for AI agents hurt my normal Google SEO?</summary>
           <p>No — done correctly, GEO and SEO reinforce each other. Accurate structured data, fast clean pages, clear direct-answer content, a named credible author, and fresh updates all help classic Google ranking and AI citation simultaneously. The only conflict arises from bad practice — stuffing unreadable keyword text or schema that misrepresents the page, which harms both. The 2026 reality is that Google's own AI Overviews are an answer engine layered on top of search, so optimizing for AI citation is increasingly the same work as optimizing for the top of Google. Treat GEO as the superset that includes good SEO, not as a competing discipline.</p>
         </details>

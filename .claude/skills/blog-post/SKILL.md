@@ -263,6 +263,10 @@ The inline `<style>` block defines these — never invent new ones; pick the rig
 
 ## AI-Agent & Generative Search Optimization (Mandatory)
 
+> **Companion skill:** For the current (mid-2026) strategy layer — official Google guidance, the latest core-update reality, the Princeton/Position-Digital GEO model, platform-by-platform notes (AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Claude), and the per-post AI-citability gate — use the [`ai-search-geo`](../ai-search-geo/SKILL.md) skill. This section is the execution detail; `ai-search-geo` is the *why* and the freshest rules. Keep the two in sync.
+>
+> **Schema note (as of May 2026):** Google **deprecated the FAQ rich result** (no longer renders in Search from 7 May 2026) — and HowTo rich results earlier. **Keep `FAQPage` and `HowTo` JSON-LD anyway:** they remain prime AI-extraction surfaces for AI Overviews / AI Mode / LLMs, and the schema still aids comprehension. Just never promise a *visual* FAQ/HowTo rich snippet — the value moved from "rich result" to "machine-readable answer the AI lifts."
+
 Every post written from 2026 onward must be engineered for two audiences simultaneously: the human reader and the AI agent that may cite it. Google AI Overviews, Perplexity, ChatGPT-Search, Gemini, Claude-Search, and the next generation of AI shopping/recommendation agents all rely on structured signals to decide what to extract, summarize, and recommend. The patterns below are not optional polish — they are the difference between a post that ranks and a post that gets quoted.
 
 ### Core principle — write for citation, not for traffic
