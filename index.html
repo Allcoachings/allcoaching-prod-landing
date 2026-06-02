@@ -594,12 +594,33 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
 .reveal{opacity:0; transform:translateY(20px); transition:opacity .7s var(--ease), transform .7s var(--ease);}
 .reveal.in{opacity:1; transform:none;}
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important;} .reveal{opacity:1; transform:none;}}
-.mobnav{display:none; position:fixed; inset:0; z-index:90; background:rgba(21,17,13,.5);}
-.mobnav.open{display:block;}
-.mobnav .panel{position:absolute; top:0; right:0; width:min(82vw,340px); height:100%; background:var(--bg); padding:24px; display:flex; flex-direction:column; gap:4px; box-shadow:var(--sh-3);}
-.mobnav .panel a{padding:14px 8px; font-size:16px; font-weight:600; border-bottom:1px solid var(--line);}
-.mobnav .close{align-self:flex-end; width:42px; height:42px; border-radius:11px; border:1px solid var(--line-2); background:var(--surface); display:grid; place-items:center; margin-bottom:8px;}
-.mobnav .close svg{width:20px; height:20px; stroke:var(--ink-1);}
+.mobnav{position:fixed; inset:0; z-index:90; background:rgba(21,17,13,.55); -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px); opacity:0; visibility:hidden; pointer-events:none; transition:opacity .3s var(--ease), visibility .3s var(--ease);}
+.mobnav.open{opacity:1; visibility:visible; pointer-events:auto;}
+.mobnav .panel{position:absolute; top:0; right:0; width:min(86vw,362px); height:100%; background:linear-gradient(185deg,var(--surface),var(--bg) 72%); padding:20px 22px 26px; display:flex; flex-direction:column; box-shadow:-26px 0 64px -22px rgba(21,17,13,.45); border-left:1px solid rgba(197,139,67,.28); transform:translateX(102%); transition:transform .44s var(--ease); overflow-y:auto;}
+.mobnav.open .panel{transform:translateX(0);}
+.mn-top{display:flex; align-items:center; justify-content:space-between; padding-bottom:16px; border-bottom:1px solid var(--line);}
+.mn-brand{display:flex; align-items:center; gap:9px; text-decoration:none;}
+.mn-brand img{width:30px; height:30px; border-radius:8px; box-shadow:0 4px 12px rgba(197,139,67,.28);}
+.mn-brand .w{font-family:var(--display); font-style:italic; font-size:19px; color:var(--ink-1); line-height:1;}
+.mobnav .close{width:40px; height:40px; border-radius:12px; border:1px solid var(--line-2); background:var(--surface); display:grid; place-items:center; cursor:pointer; flex-shrink:0; transition:transform .25s var(--ease), background .2s var(--ease);}
+.mobnav .close:hover{transform:rotate(90deg); background:rgba(20,17,13,.05);}
+.mobnav .close svg{width:18px; height:18px; stroke:var(--ink-1); fill:none;}
+.mn-tag{font-family:var(--mono); font-size:9px; letter-spacing:.26em; text-transform:uppercase; color:var(--accent-deep); margin:16px 2px 2px;}
+.mn-links{display:flex; flex-direction:column;}
+.mn-links a{display:flex; align-items:center; gap:14px; padding:16px 4px; border-bottom:1px solid var(--line); text-decoration:none; opacity:0; transform:translateX(16px);}
+.mobnav.open .mn-links a{animation:mnIn .5s var(--ease) forwards;}
+.mobnav.open .mn-links a:nth-child(1){animation-delay:.10s} .mobnav.open .mn-links a:nth-child(2){animation-delay:.16s} .mobnav.open .mn-links a:nth-child(3){animation-delay:.22s} .mobnav.open .mn-links a:nth-child(4){animation-delay:.28s} .mobnav.open .mn-links a:nth-child(5){animation-delay:.34s} .mobnav.open .mn-links a:nth-child(6){animation-delay:.40s}
+@keyframes mnIn{to{opacity:1; transform:translateX(0);}}
+.mn-links .n{font-family:var(--mono); font-size:11px; font-weight:700; color:var(--accent); min-width:20px;}
+.mn-links .t{font-family:var(--display); font-style:italic; font-size:23px; line-height:1; letter-spacing:-.3px; color:var(--ink-1); flex:1; transition:color .2s var(--ease);}
+.mn-links .ar{width:16px; height:16px; stroke:var(--accent-deep); fill:none; stroke-width:2; opacity:0; transform:translateX(-4px); transition:opacity .2s var(--ease), transform .2s var(--ease);}
+.mn-links a:hover .t,.mn-links a:focus-visible .t{color:var(--accent-deep);}
+.mn-links a:hover .ar,.mn-links a:focus-visible .ar{opacity:1; transform:translateX(0);}
+.mn-foot{margin-top:auto; padding-top:20px; display:flex; flex-direction:column; gap:8px;}
+.mn-foot .btn{justify-content:center; width:100%;}
+.mn-login{text-align:center; font-size:13px; font-weight:600; color:var(--ink-2); padding:6px; text-decoration:none;}
+.mn-login:hover{color:var(--ink-1);}
+@media (prefers-reduced-motion:reduce){.mobnav,.mobnav .panel,.mobnav.open .mn-links a{transition:none!important; animation:none!important; transform:none!important; opacity:1!important;}}
 @media (max-width:980px){.hero-frame{grid-template-columns:1fr; gap:30px;} .cluster{order:-1; height:520px;} .pgrid{grid-template-columns:1fr 1fr;} .foot-grid{grid-template-columns:repeat(4,1fr); gap:28px 24px;} .foot-brand{grid-column:1 / -1; max-width:560px;}}
 @media (max-width:760px){.wrap{padding:0 20px;} .topbar{padding:11px 20px;} .topbar nav,.topbar .actions{display:none;} .burger{display:flex;} .section{padding:72px 0;} .hero{padding:36px 0 64px;} .pgrid{grid-template-columns:1fr;} .foot-grid{grid-template-columns:1fr 1fr; gap:26px 20px;} .chip-rev,.chip-enr,.chip-rate{display:none;}}
 .studio-stage{position:relative; z-index:1;}
@@ -809,9 +830,23 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
   <button class="burger" id="burger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
 </header>
 <div class="mobnav" id="mobnav"><div class="panel">
-  <button class="close" id="mobclose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
-  <a href="#trap">The trap</a><a href="#studio">Studio</a><a href="#students">Students</a><a href="#calc">Earnings</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
-  <a href="https://educator.allcoaching.in/" class="btn btn-accent" style="margin-top:14px;">Join now</a>
+  <div class="mn-top">
+    <a href="#top" class="mn-brand"><img src="assets/fevicon.webp" alt="AllCoaching"/><span class="w">AllCoaching</span></a>
+    <button class="close" id="mobclose" aria-label="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+  <div class="mn-tag">Democratizing&nbsp;Education</div>
+  <nav class="mn-links">
+    <a href="#trap"><span class="n">01</span><span class="t">The trap</span><svg class="ar" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a href="#studio"><span class="n">02</span><span class="t">Studio</span><svg class="ar" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a href="#students"><span class="n">03</span><span class="t">Students</span><svg class="ar" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a href="#calc"><span class="n">04</span><span class="t">Earnings</span><svg class="ar" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a href="#pricing"><span class="n">05</span><span class="t">Pricing</span><svg class="ar" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a href="#faq"><span class="n">06</span><span class="t">FAQ</span><svg class="ar" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </nav>
+  <div class="mn-foot">
+    <a href="https://educator.allcoaching.in/" class="btn btn-accent btn-lg">Join now</a>
+    <a href="https://educator.allcoaching.in/" class="mn-login">Log in to your studio</a>
+  </div>
 </div></div>
 <section class="hero" id="top">
   <span class="orb a"></span><span class="orb b"></span>
@@ -1709,7 +1744,7 @@ document.addEventListener('scroll', onScroll, {passive:true}); onScroll();
 var bg=document.getElementById('burger'),mn=document.getElementById('mobnav'),mc=document.getElementById('mobclose');
 bg.addEventListener('click',function(){mn.classList.add('open');});
 mc.addEventListener('click',function(){mn.classList.remove('open');});
-mn.addEventListener('click',function(e){if(e.target===mn||e.target.tagName==='A')mn.classList.remove('open');});
+mn.addEventListener('click',function(e){if(e.target===mn||e.target.closest('a'))mn.classList.remove('open');});
 function fmt(v,o){ if(o.format==='inr'){return (o.prefix||'')+Math.round(v).toLocaleString('en-IN')+(o.suffix||'');} var d=o.dec||0; return (o.prefix||'')+v.toFixed(d)+(o.suffix||'');}
 function countUp(el){
   var target=parseFloat(el.dataset.count), o={dec:parseInt(el.dataset.dec||0),prefix:el.dataset.prefix||'',suffix:el.dataset.suffix||'',format:el.dataset.format||''};
