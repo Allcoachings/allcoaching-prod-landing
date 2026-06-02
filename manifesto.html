@@ -66,7 +66,7 @@
   <link rel="preconnect" href="https://allcoaching-store.b-cdn.net" crossorigin />
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="preload" as="image" href="https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp?v=manifesto" fetchpriority="high" />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,600;1,9..144,700;1,9..144,800&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./dist/tw.min.css" />
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="./brand.css" />
@@ -82,17 +82,17 @@
     /* Problem / entity card — manifesto-specific */
     .pcard{ border:1px solid #E5DDD0; border-radius:16px; padding:1.5rem; background:#fff; transition:border-color .25s, transform .25s, box-shadow .25s; }
     .pcard:hover{ border-color:#C58B43; transform:translateY(-3px); box-shadow:0 28px 50px -28px rgba(197,139,67,.25); }
-    .pcard .pin{ font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:#9C6A2E; }
+    .pcard .pin{ font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:#9C6A2E; }
     .pcard .role{ font-family:'Inter Tight',sans-serif; font-size: 11.5px; font-weight: 600; color:#4F4840; margin-top:.3rem; }
-    .pcard h3{ font-family:'Fraunces','Instrument Serif',serif; font-style:italic; font-size:1.25rem; font-weight:700; color:#15110D; line-height:1.25; margin-top:.5rem; letter-spacing:-.015em; }
+    .pcard h3{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:1.25rem; font-weight:400; color:#15110D; line-height:1.25; margin-top:.5rem; letter-spacing:-.015em; }
     .pcard p{ font-size:14.5px; color:#4F4840; line-height:1.7; margin-top:.65rem; }
     .pcard p + p{ margin-top: .65rem; }
 
     /* Manifesto numbered points (inside dark band) */
     .mp{ display:flex; gap:1.25rem; padding:1.25rem 0; border-top:1px solid rgba(255,255,255,.08); }
     .mp:first-child{ border-top:0; }
-    .mp .mp-n{ font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:800; letter-spacing:.14em; color:#E0A95C; min-width:36px; padding-top:6px; }
-    .mp h4{ font-family:'Fraunces','Instrument Serif',serif; font-style:italic; font-size:1.2rem; font-weight:700; color:#fff; line-height:1.3; letter-spacing:-.012em; }
+    .mp .mp-n{ font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:700; letter-spacing:.14em; color:#E0A95C; min-width:36px; padding-top:6px; }
+    .mp h4{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:1.2rem; font-weight:400; color:#fff; line-height:1.3; letter-spacing:-.012em; }
     .mp p{ color:rgba(248,250,252,.7); font-size:15px; line-height:1.7; margin-top:.45rem; font-weight:400; }
 
     .manifesto-band{
@@ -101,19 +101,31 @@
     }
     .manifesto-band::before{
       content:"\201C"; position:absolute; left:-30px; top:-90px;
-      font-family:'Fraunces','Instrument Serif',serif; font-style:italic; font-size:280px; line-height:1; color:rgba(224,169,92,.08); pointer-events:none;
+      font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:280px; line-height:1; color:rgba(224,169,92,.08); pointer-events:none;
     }
 
     /* Feature list — manifesto-specific */
     .fitem{ display:grid; grid-template-columns: 110px 1fr; gap:1.25rem; padding:1.6rem 0; border-top:1px solid #E5DDD0; align-items:start; }
     .fitem:first-child{ border-top:0; }
-    .fitem .ftag{ font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; padding:5px 10px; background:#FEF3C7; color:#92400E; border-radius:6px; display:inline-block; white-space:nowrap; }
-    .fitem h4{ font-family:'Fraunces','Instrument Serif',serif; font-style:italic; font-size:1.18rem; font-weight:700; color:#15110D; letter-spacing:-.015em; }
+    .fitem .ftag{ font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; padding:5px 10px; background:#FEF3C7; color:#92400E; border-radius:6px; display:inline-block; white-space:nowrap; }
+    .fitem h4{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:1.18rem; font-weight:400; color:#15110D; letter-spacing:-.015em; }
     .fitem p{ font-size:14.5px; color:#4F4840; line-height:1.7; margin-top:.4rem; }
 
     /* Mobile adjustments for manifesto-specific components */
     @media (max-width: 720px){
       .fitem{ grid-template-columns: 1fr; gap:.5rem; }
+    }
+
+    /* Brand display headings → Instrument Serif italic 400 (never bold) */
+    .h-mast,.h-chap,.h-mani,.h-display,.h-sec,.font-display,.grad-text{font-family:'Instrument Serif','Times New Roman',serif !important;font-style:italic;font-weight:400;}
+
+    /* Accessibility — honour reduced-motion preference */
+    @media (prefers-reduced-motion: reduce){
+      .reveal{ opacity:1; transform:none; transition:none; }
+      .pcard,.pcard:hover{ transform:none; transition:none; }
+      .float-y{ animation:none; }
+      .pulse-ring{ animation:none; }
+      .progress{ transition:none; }
     }
   </style>
 
@@ -202,6 +214,7 @@
 </head>
 
 <body class="bg-white text-[#15110D] antialiased">
+<div class="progress" id="progress"></div>
 <!-- Google Tag Manager (noscript) -->
 <noscript>
 <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G"
@@ -220,27 +233,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </svg>
 
 <!-- ================= NAV ================= -->
-<header class="fixed top-0 inset-x-0 z-50">
-  <div class="max-w-7xl mx-auto px-4 md:px-5 mt-4">
-    <nav class="nav-shell flex items-center justify-between px-4 py-2.5">
-      <span class="nav-shell-halo" aria-hidden="true"></span>
-      <a href="/" aria-label="AllCoaching home" class="flex items-center">
-        <img src="./assets/AllCoaching-logo.webp" alt="AllCoaching" class="nav-logo h-9 md:h-10 w-auto" decoding="async"  width="200"  height="50" />
-      </a>
-      <ul class="hidden md:flex items-center gap-8 text-[14.5px] text-[#4F4840] font-medium">
-        <li><a href="/#features" class="hover:text-[#15110D] transition-colors">Platform</a></li>
-        <li><a href="/#pricing" class="hover:text-[#15110D] transition-colors">Pricing</a></li>
-        <li><a href="/manifesto" class="text-[#15110D]">Manifesto</a></li>
-        <li><a href="/about" class="hover:text-[#15110D] transition-colors">About</a></li>
-        <li><a href="/contact" class="hover:text-[#15110D] transition-colors">Contact</a></li>
-      </ul>
-      <div class="flex items-center gap-2">
-        <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-ghost hidden md:inline-flex">Login</a>
-        <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" aria-label="Join Now" class="btn btn-primary btn-cta-mobile">
-          <span class="btn-label">Join Now</span>
-        </a>
-      </div>
-    </nav>
+<header class="topbar simple" id="topbar">
+  <a href="/" class="lockup"><img src="/assets/fevicon.webp" alt="AllCoaching"/><span class="word">AllCoaching</span><span class="dem-tag">Democratizing&nbsp;Education</span></a>
+  <div class="actions">
+    <a href="https://educator.allcoaching.in/" class="login">Log in</a>
+    <a href="https://educator.allcoaching.in/" class="btn btn-accent">Join now</a>
   </div>
 </header>
 
@@ -319,7 +316,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 
       <div class="pull"><p>"The personal app was designed to solve the distribution problem of a lockdown world. But the lockdown ended. The fragmentation didn't."</p></div>
 
-      <p>What happened was a structural misreading of the moment. The pandemic created a temporarily captive audience — people stuck at home with no option but to learn online. Any app with decent content could acquire students because there was nowhere else to go. This created a false positive: personal apps seemed to work.</p>
+      <p>What happened was a structural misreading of the moment. The pandemic created a temporarily captive base of students — people stuck at home with no option but to learn online. Any app with decent content could acquire students because there was nowhere else to go. This created a false positive: personal apps seemed to work.</p>
 
       <p>But normalcy returned. Students went back to having choices. And the economics of running a solo-educator app revealed themselves in full, brutal detail. The personal app wasn't a product — it was a burden. It was a <em>mohalle ki coaching</em> centre that had gone digital, but remained just as invisible, just as local, just as limited.</p>
 
@@ -336,7 +333,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
       <p class="kicker">Chapter 02</p>
       <h2 class="h-chap font-display mt-3">The Educator's Trap —<br/><span class="accent-blue">Reach vs. revenue vs. reality.</span></h2>
 
-      <p class="mt-7">Here is what nobody told the 3.5 lakh educators who built their personal apps: <strong>having an app and having an audience are two completely different things.</strong> The app-builder companies made money by selling the app. What happened after launch was your problem.</p>
+      <p class="mt-7">Here is what nobody told the 3.5 lakh educators who built their personal apps: <strong>having an app and having your students are two completely different things.</strong> The app-builder companies made money by selling the app. What happened after launch was your problem.</p>
 
       <p>So educators did what entrepreneurs do — they tried everything.</p>
 
@@ -399,7 +396,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 
       <p><strong>Your income is never fully yours.</strong> Revenue splits on large platforms are rarely transparent and almost never educator-friendly at scale. The platform takes the lion's share of the margin precisely because they control discovery — and they will always control discovery.</p>
 
-      <p><strong>Your growth is capped by their algorithm.</strong> Large platforms have internal incentives that don't align with individual educator growth. They need to promote courses that maximise platform revenue. If a newer, cheaper educator covers the same subject, you may be deprioritised. You are competing with your own platform's interests.</p>
+      <p><strong>Your growth is capped by their algorithm.</strong> Large platforms have internal incentives that don't align with individual educator growth. They need to promote courses that grow platform revenue. If a newer, cheaper educator covers the same subject, you may be deprioritised. You are competing with your own platform's interests.</p>
 
       <div class="cmp-scroll mt-10">
       <div class="cmp">
@@ -413,7 +410,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
         <div class="cmp-r4"><span>Transparent revenue without hidden cuts</span><span class="ic-p">±</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
         <div class="cmp-r4"><span>Network effect &amp; co-discovery with peers</span><span class="ic-n">✗</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
         <div class="cmp-r4"><span>Freedom to focus only on teaching</span><span class="ic-n">✗</span><span class="ic-p">±</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r4"><span>Portability — take your audience if you leave</span><span class="ic-y">✓</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
+        <div class="cmp-r4"><span>Portability — take your students if you leave</span><span class="ic-y">✓</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
       </div>
       </div>
 
@@ -427,9 +424,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 
       <p class="mt-7">There is a concept in technology that separates merely good products from transformative ones: the <strong>network effect.</strong> A network effect occurs when a product becomes more valuable as more people use it. WhatsApp became indispensable not because its technology was superior, but because everyone you knew was already there. Amazon became dominant not just because it sold books, but because more sellers attracted more buyers, who attracted more sellers.</p>
 
-      <p>The Indian EdTech ecosystem — for all its explosion of apps, content creators, and platforms — has catastrophically failed to build a meaningful network effect for individual educators.</p>
+      <p>The Indian EdTech ecosystem — for all its explosion of apps, content educators, and platforms — has catastrophically failed to build a meaningful network effect for individual educators.</p>
 
-      <p>When an educator creates a new course on their personal app, does that make any other educator's courses easier to sell? No. Does it make it easier for any student to discover education? No. Does it build any shared infrastructure, any collective trust, any cumulative audience? No. Every new educator is an isolated node. Every new app is a separate island.</p>
+      <p>When an educator creates a new course on their personal app, does that make any other educator's courses easier to sell? No. Does it make it easier for any student to discover education? No. Does it build any shared infrastructure, any collective trust, any cumulative base of students? No. Every new educator is an isolated node. Every new app is a separate island.</p>
 
       <div class="pull"><p>"The internet's greatest promise to education was scale — the ability to teach one student or ten million with the same effort. Personal apps killed that promise before it could be kept."</p></div>
 
@@ -492,8 +489,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
           <img src="./assets/Amit-Ratan.webp" alt="Amit Ratan, Founder & CEO of AllCoaching" loading="lazy" decoding="async" width="180" height="180" style="object-position:center 20%;" />
         </div>
         <div class="relative z-10">
-          <div class="founder-eyebrow" style="font-family:'JetBrains Mono',monospace;font-weight:800;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#9C6A2E;margin:0;">About the Author</div>
-          <div class="founder-name" style="font-family:'Fraunces','Instrument Serif',serif;font-style:italic;font-weight:800;font-size:clamp(1.95rem,3.2vw,2.5rem);color:#15110D;letter-spacing:-.025em;line-height:1;margin:.5rem 0 0;">Amit Ratan</div>
+          <div class="founder-eyebrow" style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#8E5F22;margin:0;">About the Author</div>
+          <div class="founder-name" style="font-family:'Instrument Serif','Times New Roman',serif;font-style:italic;font-weight:400;font-size:clamp(1.95rem,3.2vw,2.5rem);color:#15110D;letter-spacing:-.025em;line-height:1;margin:.5rem 0 0;">Amit Ratan</div>
           <div class="founder-role" style="font-family:'Inter Tight',sans-serif;font-weight:700;color:#9C6A2E;font-size:1.02rem;letter-spacing:.008em;margin:.35rem 0 0;">Founder &amp; CEO, AllCoaching</div>
 
           <p class="founder-quote">"I didn't start AllCoaching to build another app. I started it because the people who taught me — and millions like them — deserved an internet that worked for them, not against them."</p>
@@ -526,7 +523,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 
 <!-- ============ CTA ============ -->
 <section class="py-24 md:py-28 relative overflow-hidden bg-white">
-  <div class="absolute inset-0 -z-0" style="background:radial-gradient(50% 40% at 25% 50%, rgba(197,139,67,.10), transparent 70%), radial-gradient(40% 35% at 75% 60%, rgba(47,143,78,.10), transparent 70%);"></div>
+  <div class="absolute inset-0 -z-0" style="background:radial-gradient(50% 40% at 25% 50%, rgba(197,139,67,.10), transparent 70%), radial-gradient(40% 35% at 75% 60%, rgba(197,139,67,.10), transparent 70%);"></div>
   <div class="max-w-2xl mx-auto px-5 text-center relative">
     <p class="kicker">Join the Movement</p>
     <h2 class="h-mani font-display mt-3">Stop running a startup.<br/><span class="grad-text">Start teaching again.</span></h2>
@@ -545,31 +542,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </section>
 
 <!-- ============ FOOTER ============ -->
-<footer class="bg-[#EEE7DA] border-t border-[#E5DDD0] pt-16 pb-8">
-  <div class="max-w-7xl mx-auto px-5 grid md:grid-cols-12 gap-10">
-    <div class="md:col-span-4">
-      <a href="/" class="inline-block"><img src="./assets/AllCoaching-logo.webp" alt="AllCoaching" class="h-11 w-auto" decoding="async"  width="200"  height="50" /></a>
-      <p class="mt-5 text-[#4F4840] text-sm max-w-xs leading-relaxed">The educator-first marketplace + platform. Teach, get discovered, and keep 90% of your earnings — all in one login.</p>
-      <div class="mt-6">
-        <div class="text-xs font-semibold text-[#8C8378] uppercase tracking-wider mb-3">Follow us</div>
-        <div class="flex flex-wrap gap-2">
-          <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" aria-label="WhatsApp" class="soc soc-whatsapp"><svg class="w-5 h-5"><use href="#i-whatsapp"/></svg></a>
-          <a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener" aria-label="YouTube" class="soc soc-youtube"><svg class="w-5 h-5"><use href="#i-youtube"/></svg></a>
-          <a href="https://t.me/allcoaching" target="_blank" rel="noopener" aria-label="Telegram" class="soc soc-telegram"><svg class="w-5 h-5"><use href="#i-telegram"/></svg></a>
-          <a href="https://www.instagram.com/allcoachings/" target="_blank" rel="noopener" aria-label="Instagram" class="soc soc-instagram"><svg class="w-5 h-5"><use href="#i-instagram"/></svg></a>
-          <a href="https://www.facebook.com/allcoaching.in" target="_blank" rel="noopener" aria-label="Facebook" class="soc soc-facebook"><svg class="w-5 h-5"><use href="#i-facebook"/></svg></a>
-          <a href="https://x.com/allcoachings" target="_blank" rel="noopener" aria-label="X" class="soc soc-x"><svg class="w-5 h-5"><use href="#i-x"/></svg></a>
+<footer>
+  <div class="foot-wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="/" class="lockup"><img src="/assets/fevicon.webp" alt="AllCoaching"/><span class="word">AllCoaching</span></a>
+        <div class="dem-tag-foot">Democratizing Education</div>
+        <div style="font-family:var(--display); font-style:italic; font-size:23px; letter-spacing:-.3px; color:var(--accent-deep); margin:12px 0 0; line-height:1.25;">Reclaiming education for the people who <span style="color:var(--accent-light);">teach it.</span></div>
+        <p>This was never about software. It's a quiet revolution for the people who taught us everything &mdash; built so the <em style="font-style:italic;font-family:var(--display);color:var(--accent-deep);">best teacher</em>, not the biggest budget, is the one who gets found.</p>
+        <div class="foot-follow">Follow us</div>
+        <div class="foot-soc">
+          <a class="wa" href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57a1.1 1.1 0 00-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4c-1.76 0-3.49-.47-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.38a9.86 9.86 0 01-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.83 9.83 0 019.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0012.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 005.69 1.45c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 00-3.48-8.41z"/></svg></a>
+          <a class="yt" href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.6 3.6 12 3.6 12 3.6s-7.6 0-9.4.5A3 3 0 00.5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 002.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 002.1-2.1c.5-1.8.5-5.8.5-5.8s0-4-.5-5.8zM9.6 15.6V8.4l6.3 3.6z"/></svg></a>
+          <a class="tg" href="https://t.me/allcoaching" target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.2-1.86 8.77c-.14.62-.51.77-1.03.48l-2.85-2.1-1.37 1.32c-.15.15-.28.28-.57.28l.2-2.9 5.27-4.77c.23-.2-.05-.32-.36-.12l-6.52 4.1-2.81-.88c-.61-.19-.62-.61.13-.9l10.99-4.24c.51-.19.96.12.78.96z"/></svg></a>
+          <a class="ig" href="https://www.instagram.com/allcoachings/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 01-1.38-.9 3.7 3.7 0 01-.9-1.38c-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63a5.8 5.8 0 00-2.1 1.37A5.8 5.8 0 00.63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.37 2.1.64.65 1.31 1.06 2.1 1.37.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.8 5.8 0 002.1-1.37 5.8 5.8 0 001.37-2.1c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.8 5.8 0 00-1.37-2.1A5.8 5.8 0 0019.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zm0 10.16A4 4 0 1116 12a4 4 0 01-4 4zm6.41-11.85a1.44 1.44 0 101.44 1.44 1.44 1.44 0 00-1.44-1.44z"/></svg></a>
+          <a class="fb" href="https://www.facebook.com/allcoaching.in" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 10-13.88 11.86v-8.39H7.08V12h3.04V9.36c0-3 1.79-4.67 4.53-4.67 1.31 0 2.68.24 2.68.24v2.95h-1.51c-1.49 0-1.96.93-1.96 1.87V12h3.33l-.53 3.47h-2.8v8.39A12 12 0 0024 12z"/></svg></a>
+          <a class="x" href="https://x.com/allcoachings" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.244 2h3.308l-7.227 8.26L22.5 22h-6.8l-5.31-6.96L4.3 22H.99l7.73-8.83L1.5 2h6.97l4.8 6.34L18.244 2zm-1.16 18h1.83L7.02 3.9H5.06l12.02 16.1z"/></svg></a>
         </div>
       </div>
+      <div class="foot-col"><h4>Product</h4><a href="/#features">Features</a><a href="/#students">Marketplace</a><a href="/#calc">Calculator</a><a href="/pricing">Pricing</a></div>
+      <div class="foot-col"><h4>Company</h4><a href="/manifesto">Manifesto</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div>
+      <div class="foot-col"><h4>Educators</h4><a href="https://educator.allcoaching.in/">Login</a><a href="https://educator.allcoaching.in/">Join Now</a><a href="/faq">FAQ</a><a href="https://api.whatsapp.com/send/?phone=919889977262">WhatsApp</a></div>
+      <div class="foot-col"><h4>Students</h4><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching">Android App</a><a href="/#students">Find Educators</a><a href="https://t.me/allcoaching">Telegram</a></div>
     </div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Product</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="/#features" class="hover:text-[#15110D]">Features</a></li><li><a href="/#marketplace" class="hover:text-[#15110D]">Marketplace</a></li><li><a href="/#calculator" class="hover:text-[#15110D]">Calculator</a></li><li><a href="/#pricing" class="hover:text-[#15110D]">Pricing</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Company</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="/manifesto" class="hover:text-[#15110D]">Manifesto</a></li><li><a href="/blog/" class="hover:text-[#15110D]">Blog</a></li><li><a href="/about" class="hover:text-[#15110D]">About</a></li><li><a href="/contact" class="hover:text-[#15110D]">Contact</a></li><li><a href="/privacy" class="hover:text-[#15110D]">Privacy</a></li><li><a href="/terms" class="hover:text-[#15110D]">Terms</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Educators</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-[#15110D]">Login</a></li><li><a href="https://educator.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-[#15110D]">Join Now</a></li><li><a href="/#faq" class="hover:text-[#15110D]">FAQ</a></li><li><a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="hover:text-[#15110D]">WhatsApp</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Students</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching" target="_blank" rel="noopener" class="hover:text-[#15110D]">Android App</a></li><li><a href="/#marketplace" class="hover:text-[#15110D]">Find Educators</a></li><li><a href="https://t.me/allcoaching" target="_blank" rel="noopener" class="hover:text-[#15110D]">Telegram</a></li></ul></div>
-  </div>
-  <div class="max-w-7xl mx-auto px-5 mt-12 pt-6 border-t border-[#E5DDD0] text-xs text-[#8C8378] flex flex-wrap justify-between gap-3">
-    <div>© 2026 AllCoaching Technologies Pvt. Ltd. · Made in India 🇮🇳</div>
-    <div>The Operating System of Education · One educator at a time.</div>
+    <div class="foot-bottom">
+      <div>&copy; <span id="yr">2026</span> AllCoaching Technologies Pvt. Ltd. &middot; Made in India</div>
+      <div>The Operating System of Education &middot; One educator at a time.</div>
+    </div>
   </div>
 </footer>
 
@@ -587,5 +586,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
   }
 </script>
 
+<script>
+(function(){
+  var y=document.getElementById('yr'); if(y) y.textContent=new Date().getFullYear();
+  var tb=document.getElementById('topbar'), pr=document.getElementById('progress');
+  function onScroll(){ var h=document.documentElement, st=h.scrollTop||document.body.scrollTop, max=h.scrollHeight-h.clientHeight; if(pr) pr.style.width=(max>0?(st/max*100):0)+'%'; if(tb) tb.classList.toggle('scrolled', st>8); }
+  document.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  var bg=document.getElementById('burger'), mn=document.getElementById('mobnav'), mc=document.getElementById('mobclose');
+  if(bg&&mn) bg.addEventListener('click',function(){mn.classList.add('open');});
+  if(mc&&mn) mc.addEventListener('click',function(){mn.classList.remove('open');});
+  if(mn) mn.addEventListener('click',function(e){ if(e.target===mn||e.target.tagName==='A') mn.classList.remove('open'); });
+})();
+</script>
 </body>
 </html>

@@ -39,27 +39,37 @@ def xml_escape(text):
     return html.escape(text or '', quote=False)
 
 def main():
-    blog_files = sorted(glob.glob(os.path.join(ROOT, 'blog', '*.html')))
-    blog_files = [f for f in blog_files if not f.endswith('index.html')]
+    # Scan both the legacy /blog/ tree and the /blogs/en/ tree.
+    sources = [
+        (os.path.join(ROOT, 'blog', '*.html'), 'https://allcoaching.in/blog/'),
+        (os.path.join(ROOT, 'blogs', 'en', '*.html'), 'https://allcoaching.in/blogs/en/'),
+    ]
 
     posts = []
-    for path in blog_files:
-        with open(path, 'r', encoding='utf-8') as fp:
-            text = fp.read()
-        slug = os.path.basename(path).replace('.html', '')
-        m = re.search(r'"datePublished":"([^"]+)"', text)
-        pub_date = m.group(1) if m else '2026-01-01'
-        m2 = re.search(r'"dateModified":"([^"]+)"', text)
-        mod_date = m2.group(1) if m2 else pub_date
-        posts.append({
-            'slug': slug,
-            'url': f'https://allcoaching.in/blog/{slug}',
-            'title': extract_title(text).replace(' | AllCoaching', '').strip(),
-            'description': extract_meta(text, 'description') or '',
-            'image': extract_meta(text, 'og:image') or '',
-            'date_published': pub_date,
-            'date_modified': mod_date
-        })
+    seen = set()
+    for pattern, url_prefix in sources:
+        for path in sorted(glob.glob(pattern)):
+            if path.endswith('index.html'):
+                continue
+            slug = os.path.basename(path).replace('.html', '')
+            if slug in seen:
+                continue
+            seen.add(slug)
+            with open(path, 'r', encoding='utf-8') as fp:
+                text = fp.read()
+            m = re.search(r'"datePublished":"([^"]+)"', text)
+            pub_date = m.group(1) if m else '2026-01-01'
+            m2 = re.search(r'"dateModified":"([^"]+)"', text)
+            mod_date = m2.group(1) if m2 else pub_date
+            posts.append({
+                'slug': slug,
+                'url': f'{url_prefix}{slug}',
+                'title': extract_title(text).replace(' | AllCoaching', '').strip(),
+                'description': extract_meta(text, 'description') or '',
+                'image': extract_meta(text, 'og:image') or '',
+                'date_published': pub_date,
+                'date_modified': mod_date
+            })
 
     posts.sort(key=lambda p: p['date_published'], reverse=True)
 
