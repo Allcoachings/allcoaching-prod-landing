@@ -741,12 +741,12 @@ header.mast-dark p[class*="leading-"]{
   box-shadow:0 1px 0 rgba(255,255,255,.4) inset, 0 0 0 4px rgba(255,255,255,.7) inset;
 }
 .founder-eyebrow{
-  font-family:var(--mono); font-weight:800;
+  font-family:var(--mono); font-weight:700;
   font-size:11px; letter-spacing:.26em; text-transform:uppercase;
   color:var(--accent-deep);
 }
 .founder-name{
-  font-family:var(--display); font-style:italic; font-weight:800;
+  font-family:var(--display); font-style:italic; font-weight:700;
   font-size:clamp(1.95rem, 3.2vw, 2.5rem); color:var(--ink-1);
   letter-spacing:-.025em; line-height:1.0;
   margin-top:.5rem;
@@ -935,58 +935,219 @@ header.mast-dark p[class*="leading-"]{
 }
 .nav-logo{ display:block; }
 
-/* ───── Blog card (related articles) ───────────────────────────────────── */
+/* ───── Blog card (related articles + listing) ─────────────────────────────
+   Winner: EDITORIAL-REFINED, with grafts from premium-elevated (ochre
+   top-accent, warm image gradient, CTA gap widen) and minimal-precise
+   (min-width:0 ellipsis hardening, 4px-grid footer rhythm).
+   CSS-only. DOM unchanged. Tokens-only. Balanced braces.
+*/
 .blog-card{
+  position:relative;
   display:flex; flex-direction:column;
-  background:var(--surface); border:1px solid var(--line);
-  border-radius:18px; overflow:hidden;
-  box-shadow:var(--sh-1);
+  height:100%;
+  background:var(--surface);
+  /* 1px transparent border reserved up front so the :hover color swap never
+     reflows by 1px; the visible hairline is painted by the box-shadow ring,
+     so geometry is invariant between rest, hover and focus. */
+  border:1px solid transparent;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 0 0 1px var(--line), var(--sh-1);
   text-decoration:none; color:inherit;
-  transition:transform .25s var(--ease), box-shadow .25s var(--ease), border-color .25s var(--ease);
+  isolation:isolate;
+  -webkit-tap-highlight-color:transparent;
+  transition:transform .35s var(--ease), box-shadow .35s var(--ease), border-color .35s var(--ease);
+  will-change:transform;
 }
 .blog-card:hover{
-  transform:translateY(-3px);
-  box-shadow:var(--sh-3);
+  transform:translateY(-4px);
   border-color:var(--accent-line);
+  box-shadow:0 0 0 1px var(--accent-line), var(--sh-3);
 }
-.blog-card-img{ aspect-ratio:16/9; overflow:hidden; background:var(--ink-1); }
-.blog-card-img img{ width:100%; height:100%; object-fit:cover; display:block; }
-.blog-card-body{ padding:1.25rem 1.25rem 1.4rem; display:flex; flex-direction:column; flex:1; }
+/* Lifted/focused card paints above later grid siblings so its drop shadow and
+   focus ring are never clipped by the next card's opaque --surface fill. */
+.blog-card:hover,
+.blog-card:focus-visible{ z-index:1; }
+/* Keyboard a11y: layered box-shadow ring (surface gap + ochre halo). Painted
+   as shadow so overflow:hidden does NOT clip it; no layout shift. Uses
+   --accent-deep so the visible band clears WCAG 2.4.11 non-text 3:1 on both
+   the white card and the cream page. */
+.blog-card:focus-visible{
+  outline:none;
+  border-color:var(--accent-line);
+  box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--accent-deep), var(--sh-2);
+}
+
+/* Ochre top-accent hairline (graft: premium-elevated) — faint at rest, warms
+   and fills on hover. Absolutely positioned, no DOM change, no reflow. */
+.blog-card::before{
+  content:"";
+  position:absolute; top:0; left:0; right:0;
+  height:3px;
+  z-index:4;
+  background:linear-gradient(90deg, var(--accent-line), var(--accent-light));
+  opacity:.45;
+  transform:scaleX(.9);
+  transform-origin:left center;
+  transition:opacity .35s var(--ease), transform .35s var(--ease), background .35s var(--ease);
+  pointer-events:none;
+}
+.blog-card:hover::before{
+  opacity:1;
+  transform:scaleX(1);
+  background:linear-gradient(90deg, var(--accent), var(--accent-light));
+}
+
+/* ── Image frame: fixed 16/9, crops overflow so the img can zoom on hover.
+      The 1px seam below the photo is an inset box-shadow (no layout cost),
+      leaving the ::after free for the warm gradient. ── */
+.blog-card-img{
+  position:relative;
+  aspect-ratio:16/9;
+  overflow:hidden;
+  background:var(--ink-1);
+  box-shadow:inset 0 -1px 0 var(--line);
+}
+.blog-card-img img{
+  width:100%; height:100%;
+  object-fit:cover; display:block;
+  transform:scale(1.001); /* prime compositor; avoids first-frame jitter */
+  transform-origin:center center;
+  transition:transform .6s var(--ease);
+  will-change:transform;
+}
+.blog-card:hover .blog-card-img img,
+.blog-card:focus-visible .blog-card-img img{
+  transform:scale(1.045);
+}
+/* Soft warm bottom gradient for editorial depth (graft: premium-elevated). */
+.blog-card-img::after{
+  content:"";
+  position:absolute; inset:0;
+  background:linear-gradient(180deg, rgba(20,17,13,0) 55%, rgba(20,17,13,.14) 100%);
+  opacity:.7;
+  transition:opacity .35s var(--ease);
+  pointer-events:none;
+}
+.blog-card:hover .blog-card-img::after{ opacity:1; }
+
+/* ── Body: flex column; min-width:0 hardens line-clamp ellipsis (graft:
+      minimal-precise). The footer cluster is pinned to the bottom. ── */
+.blog-card-body{
+  display:flex; flex-direction:column;
+  flex:1 1 auto;
+  min-width:0;
+  padding:1.375rem 1.375rem 1.5rem;
+}
+
 .blog-card-tag{
-  font-family:var(--mono); font-weight:700;
-  font-size:10px; letter-spacing:.18em; text-transform:uppercase;
-  color:var(--accent-deep);
   align-self:flex-start;
-  padding:4px 8px; border-radius:6px;
-  background:var(--accent-soft); border:1px solid var(--accent-line);
+  max-width:100%;
+  font-family:var(--mono); font-weight:700;
+  font-size:10px; line-height:1; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--accent-deep);
+  padding:5px 9px; border-radius:6px;
+  background:var(--accent-soft);
+  border:1px solid var(--accent-line);
+  /* Long 'Section · 2026' chips never wrap to a second line. */
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  transition:border-color .35s var(--ease);
 }
+.blog-card:hover .blog-card-tag{ border-color:var(--accent-light); }
+
 .blog-card-body h3{
   font-family:var(--display); font-style:italic; font-weight:400;
-  font-size:1.35rem; line-height:1.2; letter-spacing:-.012em;
+  font-size:1.375rem; line-height:1.22; letter-spacing:-.012em;
   color:var(--ink-1);
-  margin:.85rem 0 .5rem;
+  margin:.9rem 0 .55rem;
+  /* Clamp to exactly 2 lines; reserve 2 line-boxes so 1-line titles still
+     hold the rhythm and metas align across the row. */
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+  min-height:calc(1.375rem * 1.22 * 2);
+  transition:color .35s var(--ease);
 }
+.blog-card:hover .blog-card-body h3{ color:var(--accent-deep); }
+
 .blog-card-body p{
   font-family:var(--ui);
-  font-size:14px; color:var(--ink-2); line-height:1.6;
-  margin:0; flex:1;
+  font-size:14px; line-height:1.6; color:var(--ink-2);
+  margin:0;
+  /* Clamp to exactly 3 lines + ellipsis → uniform block, aligned metas. */
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+  min-height:calc(14px * 1.6 * 3);
 }
+
+/* Footer cluster (meta + CTA) pinned to the card bottom via margin-top:auto on
+   .blog-card-meta — meta and CTA travel together, independent of text length,
+   and never relies on p{flex:1}. */
 .blog-card-meta{
   display:flex; align-items:center; gap:8px;
   font-family:var(--mono); font-weight:500;
-  font-size:11px; color:var(--ink-3);
-  letter-spacing:.04em;
-  margin-top:1rem;
+  font-size:11px; line-height:1; letter-spacing:.04em;
+  color:var(--ink-3);
+  margin-top:auto;
+  padding-top:1rem;
 }
-.blog-card-meta .dot{ width:3px; height:3px; border-radius:50%; background:var(--ink-4); }
+.blog-card-meta .dot{
+  flex:0 0 auto;
+  width:3px; height:3px; border-radius:50%;
+  background:var(--ink-4);
+}
+
 .blog-card-cta{
-  margin-top:.85rem;
+  display:inline-flex; align-items:center; gap:7px;
+  align-self:flex-start;
+  margin-top:.75rem;
   font-family:var(--mono); font-weight:700;
-  font-size:11px; letter-spacing:.16em; text-transform:uppercase;
+  font-size:11px; line-height:1; letter-spacing:.16em; text-transform:uppercase;
   color:var(--accent-deep);
-  display:inline-flex; align-items:center; gap:6px;
+  transition:color .35s var(--ease), gap .35s var(--ease);
 }
-.blog-card-cta::after{ content:"→"; }
+.blog-card-cta::after{
+  content:"→";
+  display:inline-block;
+  font-weight:400;
+  transition:transform .35s var(--ease);
+}
+.blog-card:hover .blog-card-cta,
+.blog-card:focus-visible .blog-card-cta{
+  color:var(--accent-deep);
+  gap:9px;
+}
+.blog-card:hover .blog-card-cta::after,
+.blog-card:focus-visible .blog-card-cta::after{
+  transform:translateX(4px);
+}
+
+/* ── Respect reduced-motion: keep color/shadow state changes, drop movement,
+      zoom, gap-widen and arrow travel. ── */
+@media (prefers-reduced-motion:reduce){
+  .blog-card,
+  .blog-card::before,
+  .blog-card-img img,
+  .blog-card-img::after,
+  .blog-card-tag,
+  .blog-card-body h3,
+  .blog-card-cta,
+  .blog-card-cta::after{
+    transition:box-shadow .2s var(--ease), border-color .2s var(--ease), color .2s var(--ease), opacity .2s var(--ease);
+  }
+  .blog-card:hover{ transform:none; }
+  .blog-card:hover .blog-card-img img,
+  .blog-card:focus-visible .blog-card-img img{ transform:scale(1.001); }
+  .blog-card:hover .blog-card-cta,
+  .blog-card:focus-visible .blog-card-cta{ gap:7px; }
+  .blog-card:hover .blog-card-cta::after,
+  .blog-card:focus-visible .blog-card-cta::after{ transform:none; }
+}
 
 /* ───── Floating WhatsApp button ───────────────────────────────────────── */
 .fab-wa{

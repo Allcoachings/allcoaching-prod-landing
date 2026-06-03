@@ -6,7 +6,7 @@
  * Bump CACHE_VERSION on every deploy to invalidate old caches.
  */
 
-const CACHE_VERSION = 'v2026.06.03.1';
+const CACHE_VERSION = 'v2026.06.03.2';
 const STATIC_CACHE  = `ac-static-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `ac-runtime-${CACHE_VERSION}`;
 const HTML_CACHE    = `ac-html-${CACHE_VERSION}`;
