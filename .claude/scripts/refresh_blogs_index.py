@@ -59,7 +59,7 @@ assert H.count(bp_open) == 1
 H = H.replace(bp_open, bp_open + ','.join(bp_entries) + ',', 1)
 
 # 7) freshen CollectionPage dateModified
-H = re.sub(r'("dateModified":")\d{4}-\d{2}-\d{2}(")', r'\g<1>2026-06-06\g<2>', H, count=1)
+H = re.sub(r'("dateModified":")\d{4}-\d{2}-\d{2}(")', r'\g<1>2026-06-09\g<2>', H, count=1)
 
 open(IDX, 'w', encoding='utf-8', newline='').write(H)
 print('WROTE. cards now:', H.count('class="blog-card"'), '| blogPost now:', H.count('"@type":"BlogPosting"'))
