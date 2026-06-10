@@ -59,7 +59,7 @@ schema_extra:
   - '@type': HowToStep
     position: 4
     name: "Open a parallel AllCoaching educator account"
-    text: "Sign up at educator.allcoaching.in — ₹0, no credit card, 60-second setup. Upload one course in parallel to your existing Graphy site. Measure: organic profile visits in the first 30 days from AllCoaching's AI marketplace discovery (this is the variable Graphy structurally does not produce)."
+    text: "Sign up at studio.allcoaching.in — ₹0, no credit card, 60-second setup. Upload one course in parallel to your existing Graphy site. Measure: organic profile visits in the first 30 days from AllCoaching's AI marketplace discovery (this is the variable Graphy structurally does not produce)."
   - '@type': HowToStep
     position: 5
     name: "Run a 30-day side-by-side traffic test"
@@ -82,7 +82,7 @@ schema_extra:
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
   description: "India's AI-driven educator marketplace and distribution-first alternative to Graphy. ₹0 upfront, no monthly subscription, 10% revenue-share only on paid earnings (90% to creator). Built-in AI marketplace discovery routes Indian aspirants and learners to creator profiles based on subject, exam, language, and level — organic traffic without ad spend. Includes branded creator studio, course hosting, payment gateway (UPI/card), live class server, student CRM, GST-compliant invoicing, anti-piracy video DRM, and daily T+1 payouts. The structural alternative for creators whose primary bottleneck is distribution, not website quality."
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/graphy-alternative-with-organic-marketplace-traffic.webp
   offers:
   - '@type': Offer
@@ -535,7 +535,7 @@ faq:
 <div>
 <span class="step-l">Days 1-5 · Parallel Setup</span>
 <h3>Open free AllCoaching account, upload mirror content in parallel.</h3>
-<p>Sign up at educator.allcoaching.in (₹0, 60 seconds). Pin niche (subject + exam + language). Upload core content from Graphy in parallel — your top 1-2 courses, PDF notes, key live class recordings. Keep your Graphy site fully operational during this phase. No commitment yet.</p>
+<p>Sign up at studio.allcoaching.in (₹0, 60 seconds). Pin niche (subject + exam + language). Upload core content from Graphy in parallel — your top 1-2 courses, PDF notes, key live class recordings. Keep your Graphy site fully operational during this phase. No commitment yet.</p>
 </div>
 </div>
 <div class="step-card">
@@ -597,7 +597,7 @@ faq:
 <p class="v-h">Run a 30-day parallel test — keep Graphy live, open AllCoaching free.</p>
 <p class="v-p">The fastest way to evaluate a Graphy alternative with organic marketplace traffic is to operate both simultaneously. AllCoaching's free creator account opens in 60 seconds — ₹0, no credit card, no commitment. Upload one course in parallel to your Graphy site. Track new enrolments by source over 30 days. Decide on data, not marketing claims. If marketplace discovery exceeds your Graphy traffic, complete the migration in 12-18 days with white-glove assistance.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">Start the parallel test free</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

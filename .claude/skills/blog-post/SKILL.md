@@ -227,7 +227,7 @@ Every post must have, in order:
 
 12. **Founder block** (`<div class="founder">`) — Amit Ratan photo + bio + signature quote.
 
-13. **Get Started verdict CTA** (`<div class="verdict">`) — gradient block with two buttons: "Start Selling for Free" → `educator.allcoaching.in`, and "Book a Demo" → `contact.html`.
+13. **Get Started verdict CTA** (`<div class="verdict">`) — gradient block with two buttons: "Start Selling for Free" → `studio.allcoaching.in`, and "Book a Demo" → `contact.html`.
 
 14. **Glossary section** (`<div class="article-body" id="glossary">`) — **mandatory**. 6–10 `<dfn>` terms wrapped in `.def` cards. Each definition is 1–3 sentences, written as a standalone factual statement that AI agents will cite when explaining the term. Must mirror the `DefinedTermSet` JSON-LD in `<head>` exactly.
 
@@ -556,7 +556,7 @@ When the user asks you to edit a post in `blog/`, run through:
 7. **Author strip + canonical URL + OG image** match the slug.
 8. **Read-time** in `author-strip-meta` and related-card meta is honest (≈230 wpm).
 9. **`orn` separators** between every body section.
-10. **CTAs** point to `https://educator.allcoaching.in/` and `https://allcoaching.in/contact`.
+10. **CTAs** point to `https://studio.allcoaching.in/` and `https://allcoaching.in/contact`.
 11. **AI-SEO retrofit.** Older posts missing the 2026 AI-agent patterns — TL;DR block, Glossary section, extended JSON-LD (HowTo/SoftwareApplication/DefinedTermSet), author `sameAs[]`, `about[]` with Wikipedia anchors, `mentions[]`, `speakable` — should be retrofitted when touched. Use the AI-Agent & Generative Search Optimization section's quality-gate checklist (11 items) to audit.
 12. **Internal linking density.** Count internal links in body paragraphs (not the related-articles block). Below 5 — add more, with keyword-phrase anchor text pointing to the target post's primary keyword.
 13. **Entity consistency.** Every brand/regulation/technology mentioned has consistent naming, is linked at first mention, and appears in the appropriate JSON-LD array (`about[]` or `mentions[]`).
@@ -679,7 +679,7 @@ These constants are sacred across every post and every retrofit. Never alter the
 - **CDN base for images**: `https://allcoaching-store.b-cdn.net/blog-images/<slug>.webp`
 - **GTM ID**: `GTM-T3KFKD3G`
 - **Author**: Amit Ratan, Founder & CEO, AllCoaching
-- **Educator sign-up URL**: `https://educator.allcoaching.in/`
+- **Educator sign-up URL**: `https://studio.allcoaching.in/`
 - **Contact URL**: `https://allcoaching.in/contact`
 - **Social handles**: X `@allcoachings`, YouTube `@Allcoaching`, Instagram `@allcoachings`, Facebook `allcoaching.in`, Telegram `@allcoaching`
 - **WhatsApp**: `+91 98899 77262` (URL: `https://api.whatsapp.com/send/?phone=919889977262`)

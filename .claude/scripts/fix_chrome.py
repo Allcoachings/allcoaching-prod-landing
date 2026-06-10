@@ -15,22 +15,22 @@ OLD_HEADER = '''<header class="topbar" id="topbar">
     <a href="/#trap">The trap</a><a href="/#studio">Studio</a><a href="/#students">Students</a><a href="/#calc">Earnings</a><a href="/pricing">Pricing</a><a href="/faq">FAQ</a>
   </nav>
   <div class="actions">
-    <a href="https://educator.allcoaching.in/" class="login">Log in</a>
-    <a href="https://educator.allcoaching.in/" class="btn btn-accent">Join now</a>
+    <a href="https://studio.allcoaching.in/" class="login">Log in</a>
+    <a href="https://studio.allcoaching.in/" class="btn btn-accent">Join now</a>
   </div>
   <button class="burger" id="burger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
 </header>
 <div class="mobnav" id="mobnav"><div class="panel">
   <button class="close" id="mobclose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
   <a href="/#trap">The trap</a><a href="/#studio">Studio</a><a href="/#students">Students</a><a href="/#calc">Earnings</a><a href="/pricing">Pricing</a><a href="/faq">FAQ</a>
-  <a href="https://educator.allcoaching.in/" class="btn btn-accent" style="margin-top:14px;">Join now</a>
+  <a href="https://studio.allcoaching.in/" class="btn btn-accent" style="margin-top:14px;">Join now</a>
 </div></div>'''
 
 NEW_HEADER = '''<header class="topbar simple" id="topbar">
   <a href="/" class="lockup"><img src="/assets/fevicon.webp" alt="AllCoaching"/><span class="word">AllCoaching</span><span class="dem-tag">Democratizing&nbsp;Education</span></a>
   <div class="actions">
-    <a href="https://educator.allcoaching.in/" class="login">Log in</a>
-    <a href="https://educator.allcoaching.in/" class="btn btn-accent">Join now</a>
+    <a href="https://studio.allcoaching.in/" class="login">Log in</a>
+    <a href="https://studio.allcoaching.in/" class="btn btn-accent">Join now</a>
   </div>
 </header>'''
 

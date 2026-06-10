@@ -81,7 +81,7 @@ schema_extra:
   - '@type': HowToTool
     name: "Reference chapter PDFs across all 5 sections for AI generator input"
   - '@type': HowToTool
-    name: "A free AllCoaching educator account (educator.allcoaching.in)"
+    name: "A free AllCoaching educator account (studio.allcoaching.in)"
   - '@type': HowToTool
     name: "WhatsApp Business account for distribution loops"
 - '@context': https://schema.org
@@ -91,7 +91,7 @@ schema_extra:
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
   description: "AllCoaching's AI Test Series Generator — upload any chapter PDF, get 20-50 exam-pattern multiple-choice questions in under 90 seconds. Pre-tuned for IBPS PO, IBPS Clerk, SBI PO, SBI Clerk, RBI Grade B, NABARD Grade A/B, LIC AAO patterns. Each generated question includes 4 plausible distractors, answer key, step-by-step rationale, difficulty rating (easy/medium/hard), and topic tag (Data Interpretation/Puzzle/Syllogism/Cloze Test/Reading Comprehension/etc.). Bundled into AllCoaching's free educator tier — ₹0 upfront, 10% revenue-share only on paid student earnings. Replaces 4-6 hours per 50-question test of manual question-bank labour."
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/how-to-sell-banking-exam-test-series-online-india.webp
   offers:
   - '@type': Offer
@@ -611,7 +611,7 @@ faq:
 <div>
 <span class="step-l">Days 1-7 · Setup + Exam Pattern Audit + IBPS PO Prelims Generation</span>
 <h3>AllCoaching free account, exam pattern audit, IBPS PO Prelims complete generation.</h3>
-<p>Sign up at educator.allcoaching.in (₹0, 60 seconds). Pin niche — Banking → IBPS PO + SBI PO → English/Hindi medium → Prelims+Mains. Download last 8 IBPS PO papers, tabulate topic distribution per Prelims paper, design your test series topic distribution within 5% tolerance. Upload reference content for AI Test Series Generator. Generate 25 IBPS PO Prelims mocks (1,250-1,500 questions) — 4 tests/day × 7 days = ~28 tests, exceeding the 25 target. Review each test (12-20 min/test).</p>
+<p>Sign up at studio.allcoaching.in (₹0, 60 seconds). Pin niche — Banking → IBPS PO + SBI PO → English/Hindi medium → Prelims+Mains. Download last 8 IBPS PO papers, tabulate topic distribution per Prelims paper, design your test series topic distribution within 5% tolerance. Upload reference content for AI Test Series Generator. Generate 25 IBPS PO Prelims mocks (1,250-1,500 questions) — 4 tests/day × 7 days = ~28 tests, exceeding the 25 target. Review each test (12-20 min/test).</p>
 </div>
 </div>
 <div class="step-card">
@@ -681,7 +681,7 @@ faq:
 <p class="v-h">Launch your banking test series in 30 days — free tier, AI Generator, no commitment.</p>
 <p class="v-p">The fastest way to launch a banking exam test series in 2026 is to use the AllCoaching free educator tier with the AI Test Series Generator. Open the free account (60 seconds), do the exam pattern audit tonight, generate your first 5 IBPS PO Prelims mocks tomorrow using the AI Generator. Marketplace AI matching surfaces your profile to banking aspirants within 7 days. First paying customer typically arrives within 14-30 days. The launch carries zero financial risk — ₹0 upfront, 10% revenue-share only on paid earnings. Architecture compounds; revenue grows; the decision window is now.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">Try the AI Test Series Generator free</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

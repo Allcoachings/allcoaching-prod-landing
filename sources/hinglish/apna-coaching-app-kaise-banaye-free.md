@@ -38,39 +38,39 @@ schema_extra:
 - '@context': https://schema.org
   '@type': HowTo
   name: How to launch a free coaching app on AllCoaching in 60 seconds (India, 2026)
-  description: 'The 6-step educator onboarding flow at educator.allcoaching.in — from mobile-OTP verification to the educator''s branded coaching studio going live. Designed for Indian educators with no technical background. Average completion time: 60 seconds for the studio setup, 48 hours to launch the first paid batch.'
+  description: 'The 6-step educator onboarding flow at studio.allcoaching.in — from mobile-OTP verification to the educator''s branded coaching studio going live. Designed for Indian educators with no technical background. Average completion time: 60 seconds for the studio setup, 48 hours to launch the first paid batch.'
   totalTime: PT60S
   step:
   - '@type': HowToStep
     position: 1
     name: Verify mobile via OTP
-    text: Enter your Indian mobile number at educator.allcoaching.in. Receive a 6-digit OTP via SMS on a 256-bit encrypted channel. No email, no password — mobile is your single source of identity.
-    url: https://educator.allcoaching.in/#verify
+    text: Enter your Indian mobile number at studio.allcoaching.in. Receive a 6-digit OTP via SMS on a 256-bit encrypted channel. No email, no password — mobile is your single source of identity.
+    url: https://studio.allcoaching.in/#verify
   - '@type': HowToStep
     position: 2
     name: Add your name and WhatsApp
     text: Enter your full name as you want students to see it, plus the WhatsApp number you want for student support. This becomes the educator-facing identity on your branded studio.
-    url: https://educator.allcoaching.in/#you
+    url: https://studio.allcoaching.in/#you
   - '@type': HowToStep
     position: 3
     name: Choose your teaching subject
     text: Select the subject, exam, or skill you teach (NEET Physics, CA Foundation, UPSC GS, IIT Maths, Class XII Chemistry, etc.). This drives AI-marketplace matching for student discovery.
-    url: https://educator.allcoaching.in/#subject
+    url: https://studio.allcoaching.in/#subject
   - '@type': HowToStep
     position: 4
     name: Brand your studio with logo and colors
     text: Upload your logo and pick brand colors. AllCoaching white-labels the educator studio with your branding — student-facing experience looks like your app, not AllCoaching.
-    url: https://educator.allcoaching.in/#brand
+    url: https://studio.allcoaching.in/#brand
   - '@type': HowToStep
     position: 5
     name: Choose a plan (free trial or paid)
     text: Start with the 30-day free trial — full features, no credit card required. Or pick a paid plan upfront if you already know you want extended features. Free base plan remains available even after trial.
-    url: https://educator.allcoaching.in/#plan
+    url: https://studio.allcoaching.in/#plan
   - '@type': HowToStep
     position: 6
     name: Launch — your studio is live
     text: Your branded coaching studio is now live with a public URL. Upload your first course, schedule a live class, share the URL with students. Most educators run their first paid batch within 48 hours of launch.
-    url: https://educator.allcoaching.in/#launch
+    url: https://studio.allcoaching.in/#launch
   tool:
   - '@type': HowToTool
     name: Smartphone or laptop with internet
@@ -85,7 +85,7 @@ schema_extra:
   applicationSubCategory: EducationLaunchPlatform
   operatingSystem: Web, Android, iOS
   description: India's free educator app platform — Indian teachers, coaching institutes, and subject experts launch a complete branded coaching app for ₹0 upfront in 2026. Includes course hosting, live classes with attendance tracking, payment gateway, student CRM, GST-compliant invoicing, marketplace discovery, and daily payouts. 60-second onboarding from mobile OTP to live branded studio. Free base plan remains available permanently — paid tiers add custom domain, advanced analytics, and priority support.
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp
   offers:
   - '@type': Offer
@@ -330,7 +330,7 @@ schema_extra:
 <p class="kicker">Section 06</p>
 <h2 class="h-chap font-display mt-3">AllCoaching ka 60-second onboarding —<br/><em>6 steps se branded studio live.</em></h2>
 <p class="mt-7">Theory bahut ho gayi. Ab dekhte hain practically AllCoaching par signup kaise hota hai. Educator setup wizard 6 simple steps me complete hota hai. Most educators iss flow ko 60 seconds me complete kar lete hain — pehla paid student aane me uske baad 24-48 hours lagte hain (kyunki ek course upload + ek live class schedule kar na hota hai).</p>
-<p>Yahaan har step ka breakdown hai — exactly jaisa educator.allcoaching.in par dikhta hai:</p>
+<p>Yahaan har step ka breakdown hai — exactly jaisa studio.allcoaching.in par dikhta hai:</p>
 <div class="phase">
 <div class="phase-left">
 <div class="phase-number">01</div>
@@ -608,7 +608,7 @@ schema_extra:
 <li><strong>Marketing/discovery ko app banane ka by-product samjha</strong> — woh actual primary problem hai jo architecture me solve hoti hai, baad me bolt-on nahi.</li>
 <li><strong>Free me launch kiya, validate kiya, phir paid tier ka decision liya</strong> — speculation nahi.</li>
 </ul>
-<p>Aapka coaching business kal nahi banega — aaj ban sakta hai. Mobile lijiye, educator.allcoaching.in pe jaayein, 60 seconds me studio live ho jaayega. Pehla paid student 48 hours me aa sakta hai. Yeh hyperbole nahi, observable reality hai jo 500+ educators har mahine demonstrate kar rahe hain.</p>
+<p>Aapka coaching business kal nahi banega — aaj ban sakta hai. Mobile lijiye, studio.allcoaching.in pe jaayein, 60 seconds me studio live ho jaayega. Pehla paid student 48 hours me aa sakta hai. Yeh hyperbole nahi, observable reality hai jo 500+ educators har mahine demonstrate kar rahe hain.</p>
 </section>
 <!-- ========= CLOSING EPIGRAPH ========= -->
 <div class="epi" style="margin: 3rem -1.5rem;">
@@ -632,7 +632,7 @@ schema_extra:
 <p class="v-h">Apna coaching app aaj launch karein — free me, 60 seconds me.</p>
 <p class="v-p">Mobile + WhatsApp + ek subject — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded studio live hoga, aur pehla paid batch 48 hours me run ho sakta hai. ₹0 upfront. 90% revenue educator ko. Daily payouts. No lock-in. Aap padhayein. Platform infrastructure, payments, aur discovery handle kare.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">Free me studio launch karein</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

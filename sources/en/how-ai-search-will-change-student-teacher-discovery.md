@@ -87,7 +87,7 @@ schema_extra:
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
   description: "India's first AI-discovery-native marketplace platform — architected from day one for the post-Google AI search era. Each educator is exposed as a fully structured citable entity (schema-marked profile, reviews, content, outcomes, credentials), making the educator directly cite-able by AI search engines (Perplexity, ChatGPT Search, Gemini, Claude) rather than buried behind a brand layer or hidden in a personal-app silo. Built on AllCoaching's manifesto principle that talent should be its own distribution — merit-based discovery instead of marketing-budget-based discovery. ₹0 upfront, 10% revenue-share only on paid earnings, 90% to creator."
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/how-ai-search-will-change-student-teacher-discovery.webp
   offers:
   - '@type': Offer
@@ -514,7 +514,7 @@ faq:
 <div>
 <span class="step-l">Days 1-5 · Entity-Graph Setup</span>
 <h3>Open free AllCoaching account, complete the citable entity profile.</h3>
-<p>Sign up at educator.allcoaching.in (₹0, 60 seconds). Complete every entity field — name, photo, credentials, subject, exam, language, level, teaching style, years of experience, sample content, methodology description. The completeness percentage decides AI-search citability — partial profiles are deprioritised. Run the AI-search baseline audit — query Perplexity, ChatGPT Search, Gemini, Claude with your real student queries before migration, log the baseline citation share (typically zero for personal-app educators).</p>
+<p>Sign up at studio.allcoaching.in (₹0, 60 seconds). Complete every entity field — name, photo, credentials, subject, exam, language, level, teaching style, years of experience, sample content, methodology description. The completeness percentage decides AI-search citability — partial profiles are deprioritised. Run the AI-search baseline audit — query Perplexity, ChatGPT Search, Gemini, Claude with your real student queries before migration, log the baseline citation share (typically zero for personal-app educators).</p>
 </div>
 </div>
 <div class="step-card">
@@ -576,7 +576,7 @@ faq:
 <p class="v-h">Run the AI-search audit — query, baseline, migrate, monitor.</p>
 <p class="v-p">The fastest way to evaluate the AI-search discovery shift is to run the audit yourself — query Perplexity, ChatGPT Search, Gemini, and Claude with your real student queries today, log whether anything of yours is cited, then open a free AllCoaching account and complete your citable entity profile. Re-run the audit at week 4 and week 8 — track the citation share trajectory. The audit costs nothing. The free tier has no commitment. If AI-search citation share materially improves within 8 weeks, complete the migration in 12-18 days. The architectural advantage compounds over 24 months.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">Claim your citable entity free</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

@@ -71,7 +71,7 @@ contact:
 
 # CTAs (single source — never hardcode these in templates)
 ctas:
-  educator_signup: https://educator.allcoaching.in/
+  educator_signup: https://studio.allcoaching.in/
   contact_page: https://allcoaching.in/contact
   pricing_page: https://allcoaching.in/pricing
 

@@ -47,33 +47,33 @@ schema_extra:
   - '@type': HowToStep
     position: 1
     name: Mobile OTP verify karein
-    text: educator.allcoaching.in par apna Indian mobile number daalein. 6-digit OTP SMS ke through aata hai. Koi email/password nahi — sirf mobile aapki identity hai.
-    url: https://educator.allcoaching.in/#verify
+    text: studio.allcoaching.in par apna Indian mobile number daalein. 6-digit OTP SMS ke through aata hai. Koi email/password nahi — sirf mobile aapki identity hai.
+    url: https://studio.allcoaching.in/#verify
   - '@type': HowToStep
     position: 2
     name: Naam aur WhatsApp jodein
     text: Apna full name (jo students ko dikhega) aur WhatsApp number daalein (student communication ke liye). Yeh aapki educator-facing identity banti hai branded studio par.
-    url: https://educator.allcoaching.in/#you
+    url: https://studio.allcoaching.in/#you
   - '@type': HowToStep
     position: 3
     name: Apna teaching subject chunein
     text: NEET Physics, JEE Maths, UPSC GS, SSC Reasoning, CA Foundation, Class XII Chemistry — jo bhi padhate hain wo subject select karein. Yeh AI-marketplace matching ka base banta hai students ke liye.
-    url: https://educator.allcoaching.in/#subject
+    url: https://studio.allcoaching.in/#subject
   - '@type': HowToStep
     position: 4
     name: Studio ko logo + colors se brand karein
     text: Apna logo upload karein aur brand colors chunein. AllCoaching educator studio ko aapke branding se white-label kar deta hai — student-facing experience aapka app lagta hai, AllCoaching ka nahi.
-    url: https://educator.allcoaching.in/#brand
+    url: https://studio.allcoaching.in/#brand
   - '@type': HowToStep
     position: 5
     name: Plan select karein (free ya paid)
     text: 30-day free trial se shuru karein — full features, koi credit card nahi. Ya direct paid plan bhi le sakte hain agar extended features turant chahiye. Free base plan trial ke baad bhi permanent available hai.
-    url: https://educator.allcoaching.in/#plan
+    url: https://studio.allcoaching.in/#plan
   - '@type': HowToStep
     position: 6
     name: Launch — aapka studio live hai
     text: Aapka branded coaching studio ab public URL par live hai. Pehla course upload karein, live class schedule karein, URL students ko share karein. Median educator 48 hours me pehla paid batch run kar leta hai.
-    url: https://educator.allcoaching.in/#launch
+    url: https://studio.allcoaching.in/#launch
   tool:
   - '@type': HowToTool
     name: Internet wala smartphone ya laptop
@@ -88,7 +88,7 @@ schema_extra:
   applicationSubCategory: EducatorMarketplace
   operatingSystem: Web, Android, iOS
   description: 'Bharat ka pehla AI-driven coaching marketplace aur zero-upfront educator platform 2026 ke liye. Teachers free me join karein — koi upfront cost nahi, koi credit card nahi, koi lock-in nahi. 30-day free premium trial, phir permanent free base plan. 10% revenue-share sirf paid earnings par. 90% revenue educator ko, daily T+1 payouts, GST-compliant invoicing, video DRM, marketplace AI discovery, aur cross-educator network effects. White-label SaaS (Classplus, Teachmint) ke ₹4–11 lakh Year-1 trap ka structural alternative.'
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/coaching-marketplace-india-teachers-join-free.webp
   offers:
   - '@type': Offer
@@ -187,7 +187,7 @@ faq:
 - q: Free coaching app aur coaching marketplace me kya fark hai?
   a: Free coaching app (Classplus free tier, etc.) aapko tool deta hai, audience aapki apni zimmedari. Coaching marketplace (AllCoaching) tool + audience dono deta hai — AI-driven student discovery built-in hai, koi marketing budget alag nahi. 3.5 lakh Indian educators ke paas already personal apps hain but bahut kam ke paas students hain — yahi problem marketplace solve karta hai.
 - q: Teachers AllCoaching marketplace par free me join kaise karein?
-  a: educator.allcoaching.in par jaayein. 6-step onboarding hai — mobile OTP, name + WhatsApp, teaching subject, branded studio (logo + colors), plan select (free ya paid), launch. 60 seconds me aapka branded coaching studio live ho jayega. Koi upfront fee nahi, koi credit card nahi, koi commitment nahi. 30-day free premium trial milta hai full features ke saath.
+  a: studio.allcoaching.in par jaayein. 6-step onboarding hai — mobile OTP, name + WhatsApp, teaching subject, branded studio (logo + colors), plan select (free ya paid), launch. 60 seconds me aapka branded coaching studio live ho jayega. Koi upfront fee nahi, koi credit card nahi, koi commitment nahi. 30-day free premium trial milta hai full features ke saath.
 - q: Classplus, Teachmint, Graphy ke muqable AllCoaching marketplace structurally kaise different hai?
   a: 'Classplus + Teachmint white-label SaaS hain — aapko app rent par milta hai ₹4–11 lakh Year-1 cost par (hidden costs milakar). Graphy creator LMS hai — global English creators ke liye optimized, Indian coaching ke liye narrow fit. AllCoaching marketplace hai — multi-educator platform jaha AI-discovery built-in hai. Cost structure: AllCoaching = ₹0 upfront + 10% rev-share; SaaS = ₹4–11L upfront + 1.5–3% transaction. 500 paid students par AllCoaching 60–80% cheaper.'
 - q: Marketplace par mere students mere rahenge ya platform ke?
@@ -412,7 +412,7 @@ faq:
 </ul>
 </div>
 <p class="mt-8"><strong>Ek line summary:</strong> agar aap 1-2,000 paid students ke beech kahin hain aur India me exam-prep ya skill-coaching segment me hain (NEET, JEE, UPSC, SSC, banking, state board, CA, programming, English speaking), to coaching marketplace structurally sabse fit choice hai. Aap free me join kar sakte hain — yeh marketing claim nahi hai, yeh literal pricing hai. Outside iss segment, honest alternative recommendations upar hain.</p>
-<p>AllCoaching par join karne ke baad 48 hours me median educator pehla paid batch run kar leta hai — koi marketing budget required nahi, kyunki marketplace discovery pehle din se active hai. Yeh feature nahi hai, yeh architecture hai. <a style="text-decoration:none" href="https://educator.allcoaching.in/" target="_blank" rel="noopener">educator.allcoaching.in</a> par 60-second onboarding hai. Mobile OTP, name, subject, brand, plan, launch — 6 steps. ₹0 commitment. Yeh structural change hai India ke teachers ke liye — pehli baar.</p>
+<p>AllCoaching par join karne ke baad 48 hours me median educator pehla paid batch run kar leta hai — koi marketing budget required nahi, kyunki marketplace discovery pehle din se active hai. Yeh feature nahi hai, yeh architecture hai. <a style="text-decoration:none" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">studio.allcoaching.in</a> par 60-second onboarding hai. Mobile OTP, name, subject, brand, plan, launch — 6 steps. ₹0 commitment. Yeh structural change hai India ke teachers ke liye — pehli baar.</p>
 <div class="verdict">
 <p class="v-l">Verdict</p>
 <p class="v-h">Agar aap ke paas app hai but students nahi, to problem app nahi hai. Architecture hai.</p>
@@ -428,7 +428,7 @@ faq:
 <p class="mt-7">Wapas chal-te hain shuru ke sawal par — <em>"coaching marketplace India me teachers free me join kaise karein?"</em> Iss guide ke baad answer specific aur teen-layer ka hai:</p>
 <p>Pehla layer — <strong>"free" ka structural meaning</strong>. Free matlab ₹0 upfront cash outlay, no credit card, no trial expiry forced upgrade. Iss definition par sirf AllCoaching marketplace fit karta hai — 90% revenue educator ko, 10% rev-share sirf paid earnings par, ₹0 kamaya to ₹0 kata. White-label SaaS (Classplus, Teachmint) ka "free trial" 30 din ke baad <a style="text-decoration:none" href="/blog/best-zero-commission-teaching-platform-india">₹4–11 lakh Year-1 trap</a> me convert hota hai. Big EdTech (Unacademy, Vedantu) absorption model par chalte hain — students officially platform ke ho jaate hain.</p>
 <p>Doosra layer — <strong>marketplace vs personal app ka structural fark</strong>. 3.5 lakh Indian educators ke paas personal coaching app hai. 88% ke paas sustainable revenue nahi hai. Yeh content failure nahi hai — yeh architecture failure hai. Personal app aapko surface deta hai (course host karne ki jagah). Marketplace aapko surface + AI-driven student discovery dono deta hai. Distribution problem hosting layer me built-in hai, paid Meta/Google ads ka structural alternative.</p>
-<p>Teesra layer — <strong>execution sequence</strong>. educator.allcoaching.in pe 60-second onboarding karein → studio live → pehla course 24 hours me upload → pehla live class 48 hours me schedule → pehla paid batch 7 din ke andar. Yeh sequence har step par revocable hai — full data portability (CSV/JSON export), koi lock-in nahi, koi exit penalty nahi.</p>
+<p>Teesra layer — <strong>execution sequence</strong>. studio.allcoaching.in pe 60-second onboarding karein → studio live → pehla course 24 hours me upload → pehla live class 48 hours me schedule → pehla paid batch 7 din ke andar. Yeh sequence har step par revocable hai — full data portability (CSV/JSON export), koi lock-in nahi, koi exit penalty nahi.</p>
 <p>2026 me jo Indian coaching educators thrive kar rahe hain unka ek consistent pattern hai. Unhone:</p>
 <ul>
 <li><strong>"Apna app banwa lunga" wala dream chhoda</strong> aur marketplace pe shuru kiya — distribution included.</li>
@@ -436,7 +436,7 @@ faq:
 <li><strong>Big EdTech ke "partnership" framing ko absorption pehchana</strong> aur educator-first ownership chuna.</li>
 <li><strong>Free me launch kiya, validate kiya, phir paid tier decide kiya</strong> — speculation nahi, observed traffic data.</li>
 </ul>
-<p>Aapka coaching business kal nahi banega — aaj ban sakta hai. Mobile lijiye, <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener">educator.allcoaching.in</a> pe jaayein, 60 seconds me branded studio live ho jaayega. Pehla paid student 48 hours me aa sakta hai. Yeh hyperbole nahi, observable reality hai jo 500+ educators har mahine demonstrate kar rahe hain across the AllCoaching base in 2026.</p>
+<p>Aapka coaching business kal nahi banega — aaj ban sakta hai. Mobile lijiye, <a href="https://studio.allcoaching.in/" target="_blank" rel="noopener">studio.allcoaching.in</a> pe jaayein, 60 seconds me branded studio live ho jaayega. Pehla paid student 48 hours me aa sakta hai. Yeh hyperbole nahi, observable reality hai jo 500+ educators har mahine demonstrate kar rahe hain across the AllCoaching base in 2026.</p>
 </section>
 
 <!-- ========= CLOSING EPIGRAPH ========= -->
@@ -463,7 +463,7 @@ faq:
 <p class="v-h">Apna coaching studio aaj launch karein — free me, 60 seconds me.</p>
 <p class="v-p">Mobile + WhatsApp + ek subject — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded studio live hoga, aur pehla paid batch 48 hours me run ho sakta hai. ₹0 upfront. 90% revenue educator ko. Daily payouts. No lock-in. Aap padhayein. Platform infrastructure, payments, aur discovery handle kare.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">Free me studio launch karein</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

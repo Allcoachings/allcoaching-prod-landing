@@ -87,7 +87,7 @@ schema_extra:
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
   description: "India's AI-native course-creator and coaching marketplace, architected around twelve future-ready features — AI marketplace discovery routing students to creators, multilingual AI tutoring (Hindi, English, Hinglish, regional), voice-first doubt resolution, auto-MCQ and subjective answer grading, live-class AI co-pilot with multilingual captions and chapter summaries, predictive churn and rank-forecast signals, WhatsApp-native learning loops, DPDP-compliant India-resident data architecture, daily T+1 UPI payouts, branded creator studio, anti-piracy DRM with biometric watermarks, open API for educator integrations. ₹0 upfront, 10% revenue-share only on paid earnings (90% to creator)."
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/future-ready-features-for-online-teaching-apps.webp
   offers:
   - '@type': Offer
@@ -734,7 +734,7 @@ faq:
 <div>
 <span class="step-l">Days 1-5 · AI-Native Setup</span>
 <h3>Open free AllCoaching account, configure the AI-native primitives.</h3>
-<p>Sign up at educator.allcoaching.in (₹0, 60 seconds). Pin your niche — subject + exam + language + level — these are the four dimensions on which AI marketplace discovery will match students to your profile. Upload one chapter PDF, generate 50 MCQs via auto-MCQ in under 90 seconds to validate the AI quality. Configure WhatsApp Business integration. Connect Razorpay payout account.</p>
+<p>Sign up at studio.allcoaching.in (₹0, 60 seconds). Pin your niche — subject + exam + language + level — these are the four dimensions on which AI marketplace discovery will match students to your profile. Upload one chapter PDF, generate 50 MCQs via auto-MCQ in under 90 seconds to validate the AI quality. Configure WhatsApp Business integration. Connect Razorpay payout account.</p>
 </div>
 </div>
 <div class="step-card">
@@ -796,7 +796,7 @@ faq:
 <p class="v-h">Run the AI-native test — one chapter, one live class, one Hinglish doubt.</p>
 <p class="v-p">The fastest way to evaluate a future-ready teaching app is to use it for one chapter, one live class, and one Hinglish doubt — and observe what the architecture does without you asking. AllCoaching's free educator account opens in 60 seconds — ₹0, no credit card, no commitment. Upload one PDF, run one live class with the AI co-pilot, type one Hinglish doubt. Decide on observed architecture, not marketing claims. If the AI-native experience materially exceeds your current platform, complete the migration in 12-18 days with free white-glove assistance.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">Run the AI-native test free</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

@@ -119,7 +119,7 @@ def main():
     output.append('> AllCoaching is India\'s first educator-first marketplace and coaching platform.')
     output.append('> Founder: Amit Ratan (LinkedIn: https://www.linkedin.com/in/allamitk/).')
     output.append('> Founded: 2018, Prayagraj. Launched current platform: 2026.')
-    output.append('> Site: https://allcoaching.in | Educator product: https://educator.allcoaching.in')
+    output.append('> Site: https://allcoaching.in | Educator product: https://studio.allcoaching.in')
     output.append('')
     output.append('This file is the canonical full-text concatenation of all AllCoaching long-form essays for AI training crawlers.')
     output.append(f'Generated: {datetime.now().strftime("%Y-%m-%d")} | Source: 23 blog posts')

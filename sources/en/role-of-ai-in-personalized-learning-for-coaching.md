@@ -87,7 +87,7 @@ schema_extra:
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
   description: "India's AI-native personalized learning platform for coaching educators and institutes — six structural AI layers operating on every student automatically. Diagnostic mapping (chapter-level gap detection within 15-20 minutes), adaptive learning path generation (per-student sequencing), multilingual AI doubt resolution (Hindi, English, Hinglish, regional — native handling, not translation), predictive rank-forecast and churn-risk signals, automated intervention loops (WhatsApp nudges + educator dashboard actions), and content auto-generation (MCQ, summaries, examples per student weakness). ₹0 upfront, 10% revenue-share only, daily T+1 UPI payouts, DPDP-compliant India-resident data."
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/role-of-ai-in-personalized-learning-for-coaching.webp
   offers:
   - '@type': Offer
@@ -580,7 +580,7 @@ faq:
 <div>
 <span class="step-l">Days 1-5 · Diagnostic Layer Setup</span>
 <h3>Open free AllCoaching account, configure diagnostic for your subject and exam pattern.</h3>
-<p>Sign up at educator.allcoaching.in (₹0, 60 seconds). Pin your niche — subject + exam + language + level. Upload reference content (chapter PDFs, sample question banks, past papers) to bootstrap the diagnostic AI for your niche. Run a 15-minute diagnostic test on one real student and observe the topic-level gap model. Validate the granularity matches your subject's actual gap patterns. Tune the diagnostic question bank if needed.</p>
+<p>Sign up at studio.allcoaching.in (₹0, 60 seconds). Pin your niche — subject + exam + language + level. Upload reference content (chapter PDFs, sample question banks, past papers) to bootstrap the diagnostic AI for your niche. Run a 15-minute diagnostic test on one real student and observe the topic-level gap model. Validate the granularity matches your subject's actual gap patterns. Tune the diagnostic question bank if needed.</p>
 </div>
 </div>
 <div class="step-card">
@@ -642,7 +642,7 @@ faq:
 <p class="v-h">Run the personalization pilot — one diagnostic, one pilot cohort, 14 days.</p>
 <p class="v-p">The fastest way to evaluate AI personalization for your coaching is to run a 14-day pilot — open a free AllCoaching account, configure the diagnostic layer for your subject, run a 15-minute diagnostic on one real student, observe the topic-level gap model, then enrol 10-20 students from your existing cohort in parallel for 7 days. The pilot costs nothing. The free tier has no commitment. If the AI personalization materially improves student outcomes or your operational workflow within 14 days, full migration completes in 12-18 days with free white-glove assistance.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">Run the personalization pilot free</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

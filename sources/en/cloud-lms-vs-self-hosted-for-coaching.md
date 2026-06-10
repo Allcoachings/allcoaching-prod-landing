@@ -82,7 +82,7 @@ schema_extra:
   applicationSubCategory: EducatorMarketplace
   operatingSystem: Web, Android, iOS
   description: India's first AI-driven educator marketplace and zero-upfront cloud LMS for coaching teachers, tuition centres, and coaching institutes. ₹0 upfront cloud-hosted branded studio, daily T+1 payouts, 90% revenue to educator, marketplace AI student discovery, GST-compliant invoicing, anti-piracy DRM, and full data portability. The structural alternative to self-hosted Moodle/Open edX deployments and white-label SaaS lock-in.
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/cloud-lms-vs-self-hosted-for-coaching.webp
   offers:
   - '@type': Offer
@@ -439,7 +439,7 @@ faq:
 <li><strong>Read the data-portability clause before signing</strong>, knowing that lock-in costs more over three years than monthly subscription differences.</li>
 <li><strong>Recognised distribution as the load-bearing problem</strong> — and picked the architecture that bundled it in, not the architecture that left it as a separate ₹2–6L/year marketing line item.</li>
 </ul>
-<p>Your next coaching season does not have to begin on the wrong architecture. Pick up your phone, visit <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener">educator.allcoaching.in</a>, and your branded studio is live in 60 seconds — no server to provision, no DevOps engineer to hire, no Year-1 cost ledger to reconcile. Your first paid batch can run within 48 hours. This is not hyperbole; it is observable reality across 500+ Indian coaching educators every month in the AllCoaching base.</p>
+<p>Your next coaching season does not have to begin on the wrong architecture. Pick up your phone, visit <a href="https://studio.allcoaching.in/" target="_blank" rel="noopener">studio.allcoaching.in</a>, and your branded studio is live in 60 seconds — no server to provision, no DevOps engineer to hire, no Year-1 cost ledger to reconcile. Your first paid batch can run within 48 hours. This is not hyperbole; it is observable reality across 500+ Indian coaching educators every month in the AllCoaching base.</p>
 </section>
 
 <!-- ========= CLOSING EPIGRAPH ========= -->
@@ -466,7 +466,7 @@ faq:
 <p class="v-h">Launch your coaching studio today — free, in 60 seconds.</p>
 <p class="v-p">Mobile + WhatsApp + one subject — that is everything you need. After AllCoaching's 60-second onboarding, your branded studio is live with course hosting, live classes, attendance, recording, payment, GST-compliant invoicing, and student CRM — no server to provision, no Moodle to maintain, no white-label SaaS contract to sign. ₹0 upfront. 90% revenue to the educator. Daily payouts. No lock-in. You teach. The platform handles infrastructure, payments, and discovery.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">Launch your studio free</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

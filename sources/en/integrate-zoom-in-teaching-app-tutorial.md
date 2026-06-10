@@ -36,39 +36,39 @@ schema_extra:
 - '@context': https://schema.org
   '@type': HowTo
   name: How to launch an integrated live-class studio on AllCoaching in 60 seconds (India, 2026)
-  description: 'The 6-step educator onboarding flow at educator.allcoaching.in — from mobile-OTP verification to a branded live-class studio going live with attendance, recording, payment and student CRM integrated. Designed for Indian educators who would otherwise spend 80–200 hours integrating Zoom into a teaching app. Average completion: 60 seconds setup, 48 hours to first paid live class.'
+  description: 'The 6-step educator onboarding flow at studio.allcoaching.in — from mobile-OTP verification to a branded live-class studio going live with attendance, recording, payment and student CRM integrated. Designed for Indian educators who would otherwise spend 80–200 hours integrating Zoom into a teaching app. Average completion: 60 seconds setup, 48 hours to first paid live class.'
   totalTime: PT60S
   step:
   - '@type': HowToStep
     position: 1
     name: Verify mobile via OTP
-    text: Enter your Indian mobile number at educator.allcoaching.in. Receive a 6-digit OTP via SMS on a 256-bit encrypted channel. No email, no password, no Zoom Marketplace App credentials — mobile is your single source of identity.
-    url: https://educator.allcoaching.in/#verify
+    text: Enter your Indian mobile number at studio.allcoaching.in. Receive a 6-digit OTP via SMS on a 256-bit encrypted channel. No email, no password, no Zoom Marketplace App credentials — mobile is your single source of identity.
+    url: https://studio.allcoaching.in/#verify
   - '@type': HowToStep
     position: 2
     name: Add your name and WhatsApp
     text: Enter your full name as students will see it, plus the WhatsApp number for student support. This becomes the educator-facing identity on your branded studio — used in live-class reminders, post-class recording links, and attendance digests.
-    url: https://educator.allcoaching.in/#you
+    url: https://studio.allcoaching.in/#you
   - '@type': HowToStep
     position: 3
     name: Choose your teaching subject
     text: Select the subject, exam, or skill you teach (NEET Physics, CA Foundation, UPSC GS, IIT Maths, SSC Reasoning, Class XII Chemistry). This drives AI-marketplace matching so live classes get discovered by the right students from day one.
-    url: https://educator.allcoaching.in/#subject
+    url: https://studio.allcoaching.in/#subject
   - '@type': HowToStep
     position: 4
     name: Brand your studio with logo and colors
     text: Upload your logo and pick brand colors. AllCoaching white-labels the educator studio with your branding — the live-class waiting room, post-class recording page, and student app screens all reflect your brand, not Zoom's.
-    url: https://educator.allcoaching.in/#brand
+    url: https://studio.allcoaching.in/#brand
   - '@type': HowToStep
     position: 5
     name: Choose a plan (free trial or paid)
     text: Start with the 30-day free trial — full live-class features, no credit card required. Or pick a paid plan upfront if you already know you want extended features. The free base plan remains available even after the trial expires.
-    url: https://educator.allcoaching.in/#plan
+    url: https://studio.allcoaching.in/#plan
   - '@type': HowToStep
     position: 6
     name: Launch — your live-class studio is live
     text: Your branded studio is now live with a public URL. Schedule a live class, share the URL with students. Attendance is auto-recorded, the session is auto-recorded with DRM, and the recording lands in the student library within 15 minutes — no Zoom OAuth, no webhook subscription, no DRM pipeline to maintain.
-    url: https://educator.allcoaching.in/#launch
+    url: https://studio.allcoaching.in/#launch
   tool:
   - '@type': HowToTool
     name: Smartphone or laptop with internet
@@ -83,7 +83,7 @@ schema_extra:
   applicationSubCategory: EducatorMarketplace
   operatingSystem: Web, Android, iOS
   description: India's integrated live-class platform for coaching educators — Indian teachers, coaching institutes, and subject experts launch a complete branded live-class studio for ₹0 upfront in 2026. Includes HLS streaming, branded waiting room, automatic attendance tracking, cloud recording with Widevine L1 DRM, payment gateway, student CRM, GST-compliant invoicing, marketplace discovery, and daily payouts. 60-second onboarding from mobile OTP to live branded studio. Free base plan permanently available — the structural alternative to the 80–200 hour Zoom integration project.
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/integrate-zoom-in-teaching-app-tutorial.webp
   offers:
   - '@type': Offer
@@ -328,7 +328,7 @@ schema_extra:
 <p class="kicker">Section 06</p>
 <h2 class="h-chap font-display mt-3">AllCoaching's 60-second onboarding —<br/><em>6 steps to a live-class studio.</em></h2>
 <p class="mt-7">Theory is enough. Now let us see how signup actually works on AllCoaching. The educator setup wizard completes in 6 simple steps. Most educators finish in 60 seconds — the first live class typically follows within 48 hours (because a course needs to be uploaded and a class scheduled in between).</p>
-<p>Each step as it appears on educator.allcoaching.in:</p>
+<p>Each step as it appears on studio.allcoaching.in:</p>
 <div class="phase">
 <div class="phase-left">
 <div class="phase-number">01</div>
@@ -606,7 +606,7 @@ schema_extra:
 <li><strong>Treated marketing and discovery as architectural, not by-product</strong> — knowing that the platform AI surfacing them organically beats ₹2–6L/year of ads.</li>
 <li><strong>Launched free, validated, then decided paid</strong> — speculation replaced by observed traffic data.</li>
 </ul>
-<p>Your live-class workflow does not have to wait for the next batch. Pick up your phone, visit <a href="https://educator.allcoaching.in/" target="_blank" rel="noopener">educator.allcoaching.in</a>, and your branded studio is live in 60 seconds. The first paid live class can run within 48 hours. This is not hyperbole; it is observable reality across 500+ Indian coaching educators every month in the AllCoaching base.</p>
+<p>Your live-class workflow does not have to wait for the next batch. Pick up your phone, visit <a href="https://studio.allcoaching.in/" target="_blank" rel="noopener">studio.allcoaching.in</a>, and your branded studio is live in 60 seconds. The first paid live class can run within 48 hours. This is not hyperbole; it is observable reality across 500+ Indian coaching educators every month in the AllCoaching base.</p>
 </section>
 <!-- ========= CLOSING EPIGRAPH ========= -->
 <div class="epi" style="margin: 3rem -1.5rem;">
@@ -630,7 +630,7 @@ schema_extra:
 <p class="v-h">Launch your live-class studio today — free, in 60 seconds.</p>
 <p class="v-p">Mobile + WhatsApp + one subject — that is everything you need. After AllCoaching's 60-second onboarding, your branded studio is live with integrated live class, attendance, recording, payment, and student CRM — no Zoom integration project required. ₹0 upfront. 90% revenue to the educator. Daily payouts. No lock-in. You teach. The platform handles infrastructure, payments, and discovery.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">Launch your studio free</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

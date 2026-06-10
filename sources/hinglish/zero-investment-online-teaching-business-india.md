@@ -47,37 +47,37 @@ schema_extra:
     position: 1
     name: "Apna niche pin karein (subject + exam + language)"
     text: "Aap kya padha sakte hain woh ek line me likhein — 'JEE Mains Physics, Hindi medium', 'Class 8-10 Maths, English medium', 'CA Foundation Accounts, Hinglish'. Yeh niche AI marketplace par aapki discoverability decide karta hai."
-    url: https://educator.allcoaching.in/#subject
+    url: https://studio.allcoaching.in/#subject
   - '@type': HowToStep
     position: 2
     name: "Mobile par AllCoaching educator signup"
-    text: "educator.allcoaching.in par mobile number daalein. OTP verify karein. Naam aur WhatsApp number daalein. Iss step me ₹0 lagta hai — no credit card, no signup fee."
-    url: https://educator.allcoaching.in/#verify
+    text: "studio.allcoaching.in par mobile number daalein. OTP verify karein. Naam aur WhatsApp number daalein. Iss step me ₹0 lagta hai — no credit card, no signup fee."
+    url: https://studio.allcoaching.in/#verify
   - '@type': HowToStep
     position: 3
     name: "Free studio brand karein"
     text: "Logo upload karein (ya skip karein — default chalega), 2 brand colors choose karein. Aapka branded studio URL turant generate ho jata hai — share-ready."
-    url: https://educator.allcoaching.in/#brand
+    url: https://studio.allcoaching.in/#brand
   - '@type': HowToStep
     position: 4
     name: "Ek course ya test series upload karein"
     text: "Pehla course chhota rakhein — 5-10 lessons, ek topic, clear outcome. Mobile se hi PDF, video, ya audio upload kar sakte hain. Pricing free rakhein ya ₹99-499."
-    url: https://educator.allcoaching.in/#launch
+    url: https://studio.allcoaching.in/#launch
   - '@type': HowToStep
     position: 5
     name: "Ek live class schedule karein"
     text: "Free demo class ya paid 30-min session schedule karein. Built-in live class server par link generate hota hai — Zoom subscription nahi chahiye."
-    url: https://educator.allcoaching.in/#launch
+    url: https://studio.allcoaching.in/#launch
   - '@type': HowToStep
     position: 6
     name: "WhatsApp + Instagram par studio URL share karein"
     text: "Apne 200-500 contacts, 3-5 WhatsApp groups, aur Instagram story par studio URL share karein. AI marketplace simultaneously aapko exam-matched students tak organically pahunchata hai."
-    url: https://educator.allcoaching.in/
+    url: https://studio.allcoaching.in/
   - '@type': HowToStep
     position: 7
     name: "Pehla paid student — 24-48 hours ke andar"
     text: "Payment student ke UPI/card se aati hai, agle business day 90% educator ke bank account me daily payout. GST invoice automatic generate. ₹0 investment ka business technically chal padta hai."
-    url: https://educator.allcoaching.in/
+    url: https://studio.allcoaching.in/
   tool:
   - '@type': HowToTool
     name: "Smartphone with internet (basic Android/iPhone)"
@@ -94,7 +94,7 @@ schema_extra:
   applicationSubCategory: EducationLaunchPlatform
   operatingSystem: "Web, Android, iOS"
   description: "India's zero investment online teaching business platform — Indian teachers, retired educators, college students, and subject experts launch a complete paid online teaching business for ₹0 upfront in 2026. Mobile-first setup. Includes course hosting, live classes, payment gateway (UPI/card), student CRM, GST-compliant invoicing, AI marketplace discovery, and daily payouts. 60-second educator onboarding. Permanently free base plan — platform earns only when educator earns (10% revenue share on paid earnings, 90% educator keeps)."
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/zero-investment-online-teaching-business-india.webp
   offers:
   - '@type': Offer
@@ -442,7 +442,7 @@ faq:
 </div>
 </div>
 <div class="phase-right">
-<h3>educator.allcoaching.in pe mobile signup.</h3>
+<h3>studio.allcoaching.in pe mobile signup.</h3>
 <div class="phase-target">Outcome — Branded studio live, URL ready to share</div>
 <p class="phase-desc">Mobile par browser me URL kholein. OTP verify, naam, WhatsApp, subject (Step 1 ki niche), brand color (skip kar sakte hain), free trial select. 60 seconds me studio live. Public URL milti hai jo aap kahin bhi share kar sakte hain.</p>
 </div>
@@ -651,7 +651,7 @@ faq:
 <li><strong>Pehle paid student ko Day 7 ka target rakha</strong>, na ki "pehle 1000 free students" ka — paid validation = real validation.</li>
 <li><strong>Structured 30-day plan follow kiya</strong> — Week 1 launch, Week 2 content, Week 3 community, Week 4 optimization.</li>
 </ul>
-<p>Aapka teaching business kal nahi banega — aaj ban sakta hai. Yeh blog padhne ka kharch ₹0 hai, mobile pe educator.allcoaching.in kholne ka kharch ₹0 hai, niche pin karne ka kharch ₹0 hai, pehla course upload karne ka kharch ₹0 hai. Pehla paid student ka revenue aapka hai. Yeh hyperbole nahi, observable reality hai jo 500+ educators har mahine demonstrate kar rahe hain.</p>
+<p>Aapka teaching business kal nahi banega — aaj ban sakta hai. Yeh blog padhne ka kharch ₹0 hai, mobile pe studio.allcoaching.in kholne ka kharch ₹0 hai, niche pin karne ka kharch ₹0 hai, pehla course upload karne ka kharch ₹0 hai. Pehla paid student ka revenue aapka hai. Yeh hyperbole nahi, observable reality hai jo 500+ educators har mahine demonstrate kar rahe hain.</p>
 </section>
 
 <!-- ========= CLOSING EPIGRAPH ========= -->
@@ -678,7 +678,7 @@ faq:
 <p class="v-h">Apna zero investment teaching business aaj launch karein — 60 seconds me.</p>
 <p class="v-p">Mobile + WhatsApp + ek subject — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded studio live hoga, aur pehla paid student 48 hours me aa sakta hai. ₹0 upfront. 90% revenue educator ko. Daily payouts. No lock-in. Aap padhayein. Platform infrastructure, payments, aur discovery handle kare.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">₹0 me studio launch karein</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

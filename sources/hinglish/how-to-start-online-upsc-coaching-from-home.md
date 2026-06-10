@@ -48,37 +48,37 @@ schema_extra:
     position: 1
     name: "Apna UPSC niche choose karein (stage + subject)"
     text: "UPSC ke 4 main stages hain — Prelims (CSAT + GS), Mains (GS-I to GS-IV + Optional + Essay + Language), Personality Test (Interview), aur Current Affairs (cross-stage). Apna sabse sharp expertise ek line me likhein — 'Mains GS-II International Relations' ya 'Sociology Optional' ya 'Daily Current Affairs Editorial Hindi medium'."
-    url: https://educator.allcoaching.in/#subject
+    url: https://studio.allcoaching.in/#subject
   - '@type': HowToStep
     position: 2
     name: "Mobile par AllCoaching educator signup"
-    text: "educator.allcoaching.in par mobile number daalein. OTP verify karein. Naam, WhatsApp, UPSC niche enter karein. Studio 60 seconds me live. ₹0 upfront."
-    url: https://educator.allcoaching.in/#verify
+    text: "studio.allcoaching.in par mobile number daalein. OTP verify karein. Naam, WhatsApp, UPSC niche enter karein. Studio 60 seconds me live. ₹0 upfront."
+    url: https://studio.allcoaching.in/#verify
   - '@type': HowToStep
     position: 3
     name: "Pehla PDF resource upload karein"
     text: "Aapke best 1-2 chapters ke comprehensive notes (15-25 pages) PDF banayein mobile par. Free download set karein lead magnet ke liye, ya ₹99-299 pricing."
-    url: https://educator.allcoaching.in/#launch
+    url: https://studio.allcoaching.in/#launch
   - '@type': HowToStep
     position: 4
     name: "Mock test series ka pehla set design karein"
     text: "Sectional mock test (50 questions) ya full-length practice test create karein. Built-in test engine auto-grading + answer key publishing handle karta hai. Pricing ₹199-499 per test."
-    url: https://educator.allcoaching.in/#launch
+    url: https://studio.allcoaching.in/#launch
   - '@type': HowToStep
     position: 5
     name: "Ek live class schedule karein — concept overview"
     text: "60-min live class — 'Mains GS-II ke important themes 2026' jaisa concept-heavy topic. Built-in live class server, recording auto-save."
-    url: https://educator.allcoaching.in/#launch
+    url: https://studio.allcoaching.in/#launch
   - '@type': HowToStep
     position: 6
     name: "Studio URL UPSC aspirant communities me share karein"
     text: "Telegram UPSC groups, Reddit r/IndiaUPSC, Twitter UPSC pages, aur WhatsApp aspirant batches me studio URL share karein. Apna PYQ analysis sample ya answer model dikhayein — discovery aur trust ek saath build hote hain."
-    url: https://educator.allcoaching.in/
+    url: https://studio.allcoaching.in/
   - '@type': HowToStep
     position: 7
     name: "Pehla paid aspirant — 48-72 hours ke andar"
     text: "Aspirant ne payment ki, agle business day mentor ke bank account me 90% credit. AllCoaching AI marketplace simultaneously aapko exam-stage matched aspirants tak organically pahunchata hai. GST invoice automatic generate."
-    url: https://educator.allcoaching.in/
+    url: https://studio.allcoaching.in/
   tool:
   - '@type': HowToTool
     name: "Smartphone with internet (basic Android/iPhone)"
@@ -95,7 +95,7 @@ schema_extra:
   applicationSubCategory: ExamCoachingPlatform
   operatingSystem: "Web, Android, iOS"
   description: "India's UPSC mentor platform — ex-aspirants, retired civil servants, subject specialists, and full-time UPSC coaches launch a complete online UPSC coaching business from home for ₹0 upfront in 2026. Mobile-first. Includes PDF/note hosting with anti-piracy DRM, mock test engine with auto-grading, mains answer evaluation upload + feedback workflow, live class server, current affairs daily push, UPSC-aspirant CRM, GST-compliant invoicing, AI marketplace discovery targeted at UPSC search queries, and daily payouts. Permanently free base plan — platform earns only when mentor earns (10% revenue share on paid earnings, 90% mentor keeps)."
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/how-to-start-online-upsc-coaching-from-home.webp
   offers:
   - '@type': Offer
@@ -483,7 +483,7 @@ faq:
 </div>
 </div>
 <div class="phase-right">
-<h3>educator.allcoaching.in pe mobile signup.</h3>
+<h3>studio.allcoaching.in pe mobile signup.</h3>
 <div class="phase-target">Outcome — Branded mentor studio live</div>
 <p class="phase-desc">Mobile par OTP verify, naam, WhatsApp, niche enter karein. Profile me UPSC credentials add karein (cleared stage + year, optional subject background, civil service experience). Studio public URL milti hai jo aspirant communities me share kar sakte hain.</p>
 </div>
@@ -682,7 +682,7 @@ faq:
 <li><strong>4-tier pricing funnel strictly follow ki</strong> — free PDF → ₹199-999 → ₹2-15K → ₹15-50K — ARPU compounding ka basis.</li>
 <li><strong>Pehle 90 din ko trust-build phase samjha</strong>, na ki revenue-maximization phase — Month 4-6 me compounding kicks in automatically.</li>
 </ul>
-<p>Aapka UPSC coaching business kal nahi banega — aaj ban sakta hai. Iss blog padhne ka kharch ₹0 hai, mobile par educator.allcoaching.in kholne ka kharch ₹0 hai, niche pin karne ka kharch ₹0 hai, pehla PDF upload karne ka kharch ₹0 hai. Pehla paid aspirant ka ₹999 ya ₹4,999 aapka hai. 90% bank account me daily. Yeh hyperbole nahi, observable reality hai jo 50+ UPSC mentors AllCoaching pe demonstrate kar rahe hain.</p>
+<p>Aapka UPSC coaching business kal nahi banega — aaj ban sakta hai. Iss blog padhne ka kharch ₹0 hai, mobile par studio.allcoaching.in kholne ka kharch ₹0 hai, niche pin karne ka kharch ₹0 hai, pehla PDF upload karne ka kharch ₹0 hai. Pehla paid aspirant ka ₹999 ya ₹4,999 aapka hai. 90% bank account me daily. Yeh hyperbole nahi, observable reality hai jo 50+ UPSC mentors AllCoaching pe demonstrate kar rahe hain.</p>
 </section>
 
 <!-- ========= CLOSING EPIGRAPH ========= -->
@@ -709,7 +709,7 @@ faq:
 <p class="v-h">Apna online UPSC coaching aaj launch karein — ghar baithe, ₹0 me.</p>
 <p class="v-p">Mobile + ek UPSC stage niche + 10-15 hours/week — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded mentor studio live hoga, aur pehla paid aspirant 72 hours me aa sakta hai. ₹0 upfront. 90% revenue mentor ko. Daily payouts. PDF DRM, mock test engine, answer evaluation workflow — sab built-in.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">UPSC mentor studio launch karein</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

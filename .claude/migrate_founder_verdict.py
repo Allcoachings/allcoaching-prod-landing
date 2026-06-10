@@ -61,7 +61,7 @@ def patch_founder(text: str):
 
 # Match: the button-wrapper div inside a verdict block.
 # Pattern: <div class="...flex...">  ... two <a> tags ...  </div>
-# It MUST contain 'educator.allcoaching.in' to be sure we're hitting the CTA buttons.
+# It MUST contain 'studio.allcoaching.in' to be sure we're hitting the CTA buttons.
 
 BTN_BLOCK_RE = re.compile(
     r'<div class="mt-6 flex flex-wrap gap-3">\s*'

@@ -48,37 +48,37 @@ schema_extra:
     position: 1
     name: "Pin your tutor niche (subject + exam/level + language)"
     text: "AllCoaching's AI marketplace matches student search queries on four structured dimensions — subject, exam/level, language, and engagement. Write your tutor positioning as one line: 'JEE Mains Physics, Hindi medium, Class 11-12' or 'Class 9-10 CBSE Maths, English medium' or 'CA Foundation Accounts, Hinglish'. Sharp niche pinning is the single highest-leverage decision for organic traffic."
-    url: https://educator.allcoaching.in/#subject
+    url: https://studio.allcoaching.in/#subject
   - '@type': HowToStep
     position: 2
-    name: "Sign up on educator.allcoaching.in via mobile"
+    name: "Sign up on studio.allcoaching.in via mobile"
     text: "60-second mobile OTP signup. Enter name, WhatsApp, niche. Studio is live with public URL. ₹0 upfront, no credit card, no contract. The tutor's branded studio is immediately listed on the shared AllCoaching student app and discoverable through the marketplace AI."
-    url: https://educator.allcoaching.in/#verify
+    url: https://studio.allcoaching.in/#verify
   - '@type': HowToStep
     position: 3
     name: "Upload one mini-course or test series in your niche"
     text: "First content asset — 5-10 lessons or one test series. Mobile-uploaded PDF/video/audio works. Pricing options: free lead magnet (Tier 1) or ₹99-499 first paid (Tier 2). The content quality + niche specificity drive marketplace AI ranking on relevant student searches."
-    url: https://educator.allcoaching.in/#launch
+    url: https://studio.allcoaching.in/#launch
   - '@type': HowToStep
     position: 4
     name: "Schedule one free demo live class within 48 hours"
     text: "60-min concept overview demo class. Built-in live class server. Schedule visible on marketplace profile. Recording auto-saves. This creates social proof and a discoverable event that marketplace AI surfaces in 'upcoming demo classes' student feed."
-    url: https://educator.allcoaching.in/#launch
+    url: https://studio.allcoaching.in/#launch
   - '@type': HowToStep
     position: 5
     name: "Verify marketplace discovery surface activation"
     text: "Within 24-48 hours, your tutor profile becomes active on AllCoaching's marketplace AI matching layer. The system indexes your niche, content samples, language, and engagement signals. Search-query matching activates automatically. No additional action required from the tutor."
-    url: https://educator.allcoaching.in/
+    url: https://studio.allcoaching.in/
   - '@type': HowToStep
     position: 6
     name: "Receive first organic profile visits from marketplace traffic"
     text: "Aspirants searching for your niche on the AllCoaching student app or web see your profile in ranked results. First 10-40 organic profile visits typically arrive within 48-72 hours of setup, dependent on niche demand density and content quality. No tutor advertising spend involved."
-    url: https://educator.allcoaching.in/
+    url: https://studio.allcoaching.in/
   - '@type': HowToStep
     position: 7
     name: "Convert to first paid student within 72 hours"
     text: "From organic profile visits, conversion to paid enrolment follows. Median time to first paid student in mature niches (NEET, JEE, UPSC, school subjects, CA): 24-72 hours. Payment via UPI/card/EMI, daily T+1 payout (90% to tutor). GST invoice auto-generated. The 10% AllCoaching revenue-share is the only cost — there is no upfront, monthly, or marketing fee."
-    url: https://educator.allcoaching.in/
+    url: https://studio.allcoaching.in/
   tool:
   - '@type': HowToTool
     name: "Smartphone with internet (basic Android/iPhone)"
@@ -95,7 +95,7 @@ schema_extra:
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
   description: "India's free coaching app for tutors with built-in AI marketplace student traffic. Indian aspirants and learners search for tutors on the shared AllCoaching student app across subjects, exams, languages, and levels — and AllCoaching's AI engine routes them to matching tutor profiles organically. ₹0 upfront, no monthly subscription, no contract. 10% revenue-share only on paid earnings — platform earns only when tutor earns. 90% to tutor, daily T+1 payouts via Razorpay rails. Includes branded tutor studio, mobile-first setup, course hosting, live class server, payment gateway (UPI/card/EMI), student CRM, GST-compliant invoicing, and anti-piracy video DRM. The structural difference between free hosting apps and free apps with built-in traffic."
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/free-coaching-app-for-tutors-with-student-traffic.webp
   offers:
   - '@type': Offer
@@ -457,7 +457,7 @@ faq:
 <div>
 <span class="step-l">Day 1 · Niche &amp; Signup</span>
 <h3>Pin niche, mobile signup, brand studio in 90 minutes total.</h3>
-<p>Niche pinning (subject + exam/level + language) in 30 minutes — paper-and-pen, not over-optimised. AllCoaching mobile signup at educator.allcoaching.in in 60 seconds. Brand studio (logo upload, brand colours, public studio URL ready) in 60 minutes. End of Day 1 — tutor profile live on marketplace.</p>
+<p>Niche pinning (subject + exam/level + language) in 30 minutes — paper-and-pen, not over-optimised. AllCoaching mobile signup at studio.allcoaching.in in 60 seconds. Brand studio (logo upload, brand colours, public studio URL ready) in 60 minutes. End of Day 1 — tutor profile live on marketplace.</p>
 </div>
 </div>
 <div class="step-card">
@@ -558,7 +558,7 @@ faq:
 <p>The practical recommendation is operational:</p>
 <ul>
 <li><strong>Pin your tutor niche sharply</strong> — subject + exam/level + language combination on one line.</li>
-<li><strong>Sign up at educator.allcoaching.in via mobile</strong> — ₹0, 60 seconds, no credit card.</li>
+<li><strong>Sign up at studio.allcoaching.in via mobile</strong> — ₹0, 60 seconds, no credit card.</li>
 <li><strong>Upload one quality content sample in your niche</strong> within 3-5 days.</li>
 <li><strong>Schedule one demo live class</strong> in week 1.</li>
 <li><strong>Let the marketplace AI deliver first organic traffic</strong> — typically within 24-72 hours of setup.</li>
@@ -592,7 +592,7 @@ faq:
 <p class="v-h">Launch your free tutor studio with built-in student traffic — in 60 seconds.</p>
 <p class="v-p">India's only 2026 free coaching app where the free tier includes built-in AI marketplace student traffic. ₹0 upfront, no credit card, no contract. Pin your niche, sign up via mobile, upload one content asset, schedule one demo class — the marketplace AI delivers first organic student traffic within 24-72 hours. 10% revenue-share only on paid earnings, 90% to you, daily T+1 payouts via Razorpay rails.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">Launch your free tutor studio</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>

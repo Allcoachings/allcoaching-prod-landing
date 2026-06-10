@@ -76,7 +76,7 @@ schema_extra:
   applicationSubCategory: EducatorMarketplace
   operatingSystem: Web, Android, iOS
   description: India's first AI-driven educator marketplace — Indian teachers, coaching institutes, and subject experts launch a branded coaching app for ₹0 upfront in 2026 and get AI-matched student discovery built into the platform. Includes course hosting, live classes, payment gateway, student CRM, GST-compliant invoicing, daily payouts, anti-piracy DRM, and marketplace-level distribution. Educator keeps 90% of revenue. The structural alternative to white-label SaaS, creator LMS, and Big EdTech absorption.
-  url: https://educator.allcoaching.in/
+  url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/teachers-ke-liye-best-coaching-app-2026.webp
   offers:
   - '@type': Offer
@@ -565,7 +565,7 @@ schema_extra:
 <p class="v-h">Apna coaching app aaj launch karein — AllCoaching pe, free me.</p>
 <p class="v-p">Iss listicle ka conclusion ek concrete next step pe lock-in karta hai. Solo educator ya small institute teacher hain? AllCoaching pe 60-second onboarding karein — mobile OTP, name, subject, brand color, launch. ₹0 upfront. 90% revenue educator ko. Daily payouts. Marketplace AI matching pehle din se active. Pehla paid student 48 hours me. No lock-in.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://educator.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
 <span class="relative">Free me studio launch karein</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
