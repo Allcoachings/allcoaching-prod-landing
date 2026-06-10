@@ -56,7 +56,14 @@ H = H.replace(grid_open, grid_open + '\n' + '\n\n'.join(cards) + '\n\n', 1)
 # 6) prepend entries to the blogPost[] JSON-LD (newest-first)
 bp_open = '"blogPost":['
 assert H.count(bp_open) == 1
-H = H.replace(bp_open, bp_open + ','.join(bp_entries) + ',', 1)
+def _bp_repl(m):
+    inner = m.group(1).strip().strip(',').strip()
+    inner = re.sub(r'\}\s*,(?:\s*,)+\s*\{', '},{', inner)  # collapse stray comma-runs between entries
+    parts = [e for e in bp_entries if e.strip()]
+    if inner:
+        parts.append(inner)
+    return '"blogPost":[' + ','.join(parts) + ']}'
+H = re.sub(r'"blogPost":\[(.*?)\]\}', _bp_repl, H, count=1, flags=re.DOTALL)
 
 # 7) freshen CollectionPage dateModified
 H = re.sub(r'("dateModified":")\d{4}-\d{2}-\d{2}(")', r'\g<1>2026-06-09\g<2>', H, count=1)

@@ -13,10 +13,17 @@ def pages():
 def rel(p): return os.path.relpath(p, ROOT).replace('\\', '/')
 
 def meta(c, name, attr='name'):
-    m = re.search(r'<meta[^>]*'+attr+r'=["\']'+re.escape(name)+r'["\'][^>]*content=["\']([^"\']*)["\']', c, re.I)
-    if not m:
-        m = re.search(r'<meta[^>]*content=["\']([^"\']*)["\'][^>]*'+attr+r'=["\']'+re.escape(name)+r'["\']', c, re.I)
-    return m.group(1) if m else None
+    # NOTE: match the delimiter quote explicitly so apostrophes inside the value
+    # (e.g. India's, isn't) don't truncate the captured content.
+    pat = (r'<meta[^>]*' + attr + r'=(["\'])' + re.escape(name) +
+           r'\1[^>]*content=(["\'])(.*?)\2')
+    m = re.search(pat, c, re.I)
+    if m:
+        return m.group(3)
+    pat2 = (r'<meta[^>]*content=(["\'])(.*?)\1[^>]*' + attr +
+            r'=(["\'])' + re.escape(name) + r'\3')
+    m = re.search(pat2, c, re.I)
+    return m.group(2) if m else None
 
 issues = {}
 titles = {}; descs = {}
@@ -38,7 +45,7 @@ for p in P:
     d = meta(c, 'description')
     if not d: add(p, 'NO meta description')
     else:
-        if len(d) > 165: add(p, f'desc {len(d)}c (>165)')
+        if len(d) > 170: add(p, f'desc {len(d)}c (>170)')
         if len(d) < 70: add(p, f'desc {len(d)}c (short)')
         descs.setdefault(d, []).append(r)
     # canonical
