@@ -12,7 +12,7 @@ tags:
 - aud-institute-owner
 translation_group: tg-zero-investment-teaching
 title: "Zero Investment Online Teaching Business India: ₹0 Lagao, ₹50K–1L/Month Kamao (2026 Real Hinglish Guide)"
-description: Zero investment online teaching business India 2026 — bina laptop, bina developer, bina marketing budget. Sirf mobile + ek subject se start. 3 honest paths analyzed, ₹0 upfront ka real meaning, AllCoaching marketplace pe pehla paid student 48 hours me. Founder Amit Ratan ka step-by-step Hinglish playbook.
+description: Zero investment online teaching business India 2026 — bina laptop, bina developer, bina marketing budget. Sirf mobile + ek subject se start. 3 honest paths analyzed, ₹0 upfront ka real meaning, AllCoaching marketplace pe pehla paid student 48 hours me.
 
 keywords:
 - zero investment online teaching business india

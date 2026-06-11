@@ -11,7 +11,7 @@ tags:
 - format-howto
 translation_group: tg-integrate-zoom-teaching-app
 title: Integrate Zoom in Teaching App Tutorial — A 2026 Founder's Mega Guide
-description: Integrate Zoom in teaching app tutorial — the honest 2026 guide for Indian coaching educators. 3 real paths (DIY Zoom, white-label SaaS, integrated marketplace), the ₹2.4–9.6 lakh Year-1 trap, and how AllCoaching delivers an integrated live-class layer for ₹0 upfront. Founder Amit Ratan.
+description: Integrate Zoom in teaching app tutorial — the honest 2026 guide for Indian coaching educators. 3 real paths (DIY Zoom, white-label SaaS, integrated marketplace), the ₹2.4–9.6 lakh Year-1 trap, and how AllCoaching delivers an integrated live-class layer for ₹0 upfront.
 keywords:
 - integrate zoom in teaching app tutorial
 - how to integrate zoom in coaching app

@@ -69,7 +69,7 @@ FILTER_META = {
     },
     "hi": {
         "page_title":   "AllCoaching Blog — हिन्दी Guides | Indian Teachers ke liye",
-        "page_description": "Indian teachers ke liye long-form हिन्दी guides — educator infrastructure, marketplace economics, AI workflows, EdTech compliance, aur online teaching ka future. Founder Amit Ratan ne likha.",
+        "page_description": "Indian teachers ke liye long-form हिन्दी guides — educator infrastructure, marketplace economics, AI workflows, EdTech compliance, aur online teaching ka future.",
         "pill_label":   "Editorial Archive · हिन्दी",
         "pill_meta":    "By the founder",
         "heading_top":  "The AllCoaching",
@@ -84,7 +84,7 @@ FILTER_META = {
     },
     "hinglish": {
         "page_title":   "AllCoaching Blog — Hinglish Guides | Indian Teachers ke liye",
-        "page_description": "Founder Amit Ratan dwara likhi gayi long-form Hinglish guides — coaching app banane se lekar marketplace economics tak, sab kuch one-place pe.",
+        "page_description": "Founder-written long-form Hinglish guides — coaching app banane se lekar marketplace economics tak, sab kuch one-place pe.",
         "pill_label":   "Editorial Archive · Hinglish",
         "pill_meta":    "By the founder",
         "heading_top":  "The AllCoaching",

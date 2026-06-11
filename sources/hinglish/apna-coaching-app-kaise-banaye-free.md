@@ -11,7 +11,7 @@ tags:
 - format-howto
 translation_group: tg-no-code-academy
 title: Apna Coaching App Kaise Banaye Free — A 2026 Founder's Mega Guide (Hinglish)
-description: Apna coaching app kaise banaye free in 2026? Honest Hinglish mega guide — 3 real paths (DIY, white-label SaaS, marketplace), the ₹4–11 lakh trap most educators don't see, and how AllCoaching delivers full app infrastructure for ₹0 upfront. Founder Amit Ratan ne khud likha.
+description: Apna coaching app kaise banaye free in 2026? Honest Hinglish mega guide — 3 real paths (DIY, white-label SaaS, marketplace), the ₹4–11 lakh trap most educators don't see, and how AllCoaching delivers full app infrastructure for ₹0 upfront.
 keywords:
 - apna coaching app kaise banaye free
 - coaching app banaye free

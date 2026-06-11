@@ -112,7 +112,7 @@ NEW_DESCRIPTIONS = {
     'zero-investment-online-teaching-business-india': (
         "Zero investment online teaching business India 2026 — bina laptop, bina developer, bina marketing budget. Sirf "
         "mobile + ek subject se start. 3 honest paths analyzed, ₹0 upfront ka real meaning, AllCoaching marketplace pe "
-        "pehla paid student 48 hours me. Founder Amit Ratan ka step-by-step Hinglish playbook."
+        "pehla paid student 48 hours me."
     ),
     'how-to-start-online-upsc-coaching-from-home': (
         "How to start online UPSC coaching from home 2026 — ghar baithe ₹0 investment me UPSC mentor banne ka practical "
