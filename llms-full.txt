@@ -23767,7 +23767,7 @@ Input Free trial / Paid
 ### Choose a plan — free trial or paid.
 
 Outcome — Studio access tier locked
-Pick the 30-day free trial — full premium live-class features, no credit card. Or pick the paid tier directly if you already know you want extended features. The free base plan stays permanently free after the trial — only advanced features (custom domain, premium DRM tier, advanced analytics) are on the paid tier.
+Start on the free plan — full premium live-class features, no credit card. Or pick the paid tier directly if you already know you want extended features. The free base plan stays permanently free after the trial — only advanced features (custom domain, premium DRM tier, advanced analytics) are on the paid tier.
 
 No credit card is asked at trial signup. No automatic charge happens when the trial ends — the educator decides whether to upgrade to paid or continue on the free base plan.
 
@@ -26460,7 +26460,7 @@ Input Free trial / Paid
 ### Plan choose karein — free trial ya paid.
 
 Outcome — Studio access tier locked
-30-day free trial select karein — full premium features, no credit card. Ya agar aapko advance se pata hai ki aapko paid tier features chahiye, woh select karein. Free base plan permanently free rehta hai trial khatm hone ke baad — sirf advanced features (custom domain, advanced analytics) paid tier me hain.
+Free plan select karein — full premium features, no credit card. Ya agar aapko advance se pata hai ki aapko paid tier features chahiye, woh select karein. Free base plan permanently free rehta hai trial khatm hone ke baad — sirf advanced features (custom domain, advanced analytics) paid tier me hain.
 
 Free trial signup par credit card nahi maanga jaata. Trial khatm hone par automatic charge nahi hota — aap manually decide karte hain paid pe shift karna hai ya free base plan par chalna hai.
 
@@ -26771,7 +26771,7 @@ Apna coaching app free me kaise banaye 2026 me?
 2026 me apna coaching app free me banane ka sabse practical raasta hai — AllCoaching jaisi AI-driven educator marketplace par 60-second onboarding complete karna. ₹0 upfront, no credit card, no coding. Aapko milta hai branded studio, live class server, video DRM, payment gateway, student CRM, aur marketplace discovery — sab integrated. DIY (Flutter/developer hire) me 6 mahine + ₹3-15 lakh lagte hain; white-label SaaS me Year-1 cost ₹4-11 lakh hota hai. Marketplace route me sirf 10% revenue-share paid earnings par.
 
 Kya AllCoaching par really ₹0 upfront me coaching app milta hai?
-Haan. AllCoaching ka educator base plan permanently free hai — no upfront fee, no monthly subscription on the free tier, no credit card required at signup. 30-day free trial me full premium features unlocked rehte hain. Trial khatm hone par bhi educator base plan free rehta hai — sirf advanced features (advanced analytics, white-label custom domain, priority support) paid tier me hain. Revenue model rev-share par chalta hai — 10% on paid earnings, 90% educator ko.
+Haan. AllCoaching ka educator base plan permanently free hai — no upfront fee, no monthly subscription on the free tier, no credit card required at signup. Base plan me sab premium features free unlocked rehte hain. Trial khatm hone par bhi educator base plan free rehta hai — sirf advanced features (advanced analytics, white-label custom domain, priority support) paid tier me hain. Revenue model rev-share par chalta hai — 10% on paid earnings, 90% educator ko.
 
 Free coaching app aur paid coaching app me kya farak hai?
 Free tier me aapko complete teaching infrastructure milti hai — courses, live classes, payments, student CRM, marketplace discovery. Paid tier (₹999-4999/month) advanced analytics, custom domain branding, priority WhatsApp support, aur extended marketing tools deti hai. Most solo educators pehle 6-12 mahine free tier par hi profitable ho jaate hain — paid features tab matter karte hain jab aap 100+ students ya multi-batch scale par pahuchte hain.
@@ -27736,7 +27736,7 @@ Unacademy Educator ya Vedantu pe teacher banke join karu?
 Big EdTech platforms (Unacademy, Vedantu, Byju's) ka educator side aapko platform pe teach karne ki opportunity deta hai — but yeh partnership nahi hai, absorption hai. Aapke students officially platform ke students hain. Aapke content ke rights aksar platform ke saath share hote hain. Agar aap leave karte hain, students retain nahi hote. Revenue split aksar 50–60% educator ko, rest platform — vs marketplace me 90%. Top-tier celebrity educators ke liye Big EdTech reach justify karta hai; solo/small institute teachers ke liye structural alternative AllCoaching jaisi educator-owned marketplace hai jaha aapke students aapke rehte hain.
 
 Free coaching app teachers ke liye kaunsa hai 2026 me?
-2026 me genuinely free coaching app (₹0 upfront, no credit card, no monthly subscription) ka raasta hai AllCoaching — educator base plan permanently free hai. 30-day free trial me full premium features unlocked rehte hain. Trial ke baad bhi base plan free rehta hai — sirf advanced features (custom domain, advanced analytics, priority support) paid tier me hain. Revenue model 10% rev-share on paid earnings only — educator paisa kamaya tabhi platform kamati hai. Classplus, Teachmint, Graphy ke "free trials" time-bound hote hain (15–30 days) aur baad me ₹X,XXX/month subscription start hota hai.
+2026 me genuinely free coaching app (₹0 upfront, no credit card, no monthly subscription) ka raasta hai AllCoaching — educator base plan permanently free hai. Base plan me sab premium features free unlocked rehte hain. Trial ke baad bhi base plan free rehta hai — sirf advanced features (custom domain, advanced analytics, priority support) paid tier me hain. Revenue model 10% rev-share on paid earnings only — educator paisa kamaya tabhi platform kamati hai. Classplus, Teachmint, Graphy ke "free trials" time-bound hote hain (15–30 days) aur baad me ₹X,XXX/month subscription start hota hai.
 
 Coaching app me Hindi medium ya regional language support kis me best hai?
 Indian coaching apps me Hindi-medium aur regional language support ka spectrum hai. Classplus aur Teachmint me UI Hindi/English translatable hai, lekin content discovery layer Hindi-aware nahi hai. Graphy primarily English-first hai. Unacademy par Hindi content visible hai but algorithmic preference English ko. AllCoaching me 22 scheduled Indian languages plus Hinglish, Bhojpuri, aur regional dialects ka native AI-matching support hai — Hindi medium NEET teacher ka content automatically Hindi-medium NEET students ko reach karta hai geography + language preference ke basis pe. Regional-language teachers ke liye structural advantage hai.
@@ -32214,7 +32214,7 @@ Razorpay UPI 2%: ₹20,000. GST invoicing tool: ₹30,000. Reconciliation accoun
 
 
 AllCoaching — integrated
-10% all-inclusive on ₹10L: ₹1,00,000. Includes UPI + cards + EMI + net-banking + GST invoicing + refund workflow + reconciliation + daily T+1 payouts + marketplace discovery. All-in Year 1: ₹1,00,000. Same number Year 2 (no escalation). 2-year lock on Early Launch tier (first 50 educators).
+10% all-inclusive on ₹10L: ₹1,00,000. Includes UPI + cards + EMI + net-banking + GST invoicing + refund workflow + reconciliation + daily T+1 payouts + marketplace discovery. All-in Year 1: ₹1,00,000. No subscription at all — a flat 10% only on what you sell, the same in Year 1 and Year 2, no lock-in.
 
 
 
@@ -32559,7 +32559,7 @@ that ends all five vendors.
 
 
 
-Start 30-Day Free Trial
+Start free — keep 90%
 
 
 
@@ -48820,7 +48820,7 @@ Key Takeaways — the entire post in six facts:
 
 - Monthly subscription pricing penalises educators in their first 3–6 months when revenue is still building — creating cash-flow drag exactly when the institute can least afford it. The subscription does not care whether the educator had a good month or a bad one.
 
-- The three-phase pay-as-you-grow alternative — Phase 1: 30-day free trial. Phase 2: low-cost yearly plan (no monthly cash-flow drag). Phase 3: commission waiver after revenue threshold. Aligns platform pricing with educator outcomes across all stages.
+- The free, pay-as-you-earn alternative — ₹0 to start, free forever and no subscription — a flat 10% only on what you sell, so you keep 90% and pay nothing in a month with no sales. Aligns platform pricing with educator outcomes across all stages.
 
 - Cash flow drag is the hidden subscription cost — a ₹9,999/month subscription can consume 30–60% of available cash in early months and forces the educator to make ad spend decisions designed to cover the subscription rather than build sustainable enrolment.
 
@@ -48828,7 +48828,7 @@ Key Takeaways — the entire post in six facts:
 
 - Indian institutes on subscription-heavy platforms churn at 3–4x the rate of institutes on revenue-aligned pricing — not because the absolute subscription cost is large, but because subscription pricing removes the room-to-fail that early-stage businesses need.
 
-- AllCoaching's three-phase pricing removes the upfront capital risk of subscription LMS, the recurring monthly drag of mid-tier SaaS, and the commission penalty at scale — giving Indian educators a pricing model that compounds in their favour rather than against it.
+- AllCoaching's free, pay-as-you-earn pricing removes the upfront capital risk of subscription LMS, the recurring monthly drag of mid-tier SaaS, and the commission penalty at scale — giving Indian educators a pricing model that compounds in their favour rather than against it.
 
 
 
@@ -48944,7 +48944,7 @@ The strategy for selling online courses without monthly subscription pressure is
 
 ### Choose a Growth-Aligned Platform Model
 
-The first decision is the most important: select a platform whose pricing model aligns with your revenue stage, not with the platform's revenue needs. Look specifically for free trial periods of 30 days or longer, yearly subscription options (annual billing is 30–50% cheaper than monthly and removes the monthly psychological pressure), and ideally, revenue-threshold models where platform fees reduce or disappear after you cross a defined income level.
+The first decision is the most important: select a platform whose pricing model aligns with your revenue stage, not with the platform's revenue needs. Look specifically for a free-to-start, no-subscription model, a flat fee charged only on actual sales (so a quiet month costs you nothing), and ideally, built-in marketplace discovery where platform fees reduce or disappear after you cross a defined income level.
 
 
 
@@ -48992,7 +48992,7 @@ The hours you save from not managing platform infrastructure and not running ad 
 
 ### Scale Cost Only When Revenue Justifies It
 
-The principle that should govern every platform decision: never let your platform cost run ahead of your platform revenue. Start free. Validate. Transition to a yearly plan only after consistent monthly enrollment. On the best platforms, you cross a revenue threshold and the subscription is waived entirely — meaning your platform cost falls to zero as your teaching business grows, rather than rising with it.
+The principle that should govern every platform decision: never let your platform cost run ahead of your platform revenue. Start free. Validate. Pay a flat 10% only on what you actually sell — never a fixed fee before revenue. On the best platforms there is no subscription at all — you pay only a flat 10% on what you actually sell, so your platform cost rises only as your revenue does, rather than rising with it.
 
 
 
@@ -49069,7 +49069,7 @@ Question Often Asked
 
 ### Why does the monthly subscription penalise me even if I can afford the ₹9,999/month easily?
 
-Because the penalty is not in the rupee amount — it is in the decision architecture the subscription forces on you. Once you are paying ₹9,999/month, every product and pricing decision you make in the first 6 months is implicitly designed to cover the subscription. You launch courses faster than you should to generate the revenue. You set prices lower than you should to convert students faster. You skip the 5-point verification step on AI-drafted content because there is not time to verify when the subscription bill is recurring. In our experience across the AllCoaching educator base in 2026, this "subscription-pressure" decision pattern is the single largest source of avoidable early-stage failures — not the subscription cost itself, but the rushed product decisions the subscription cost forced. The economic value of a 30-day free trial plus a yearly plan is not just the ₹9,999/month saved; it is the breathing room to make first-year decisions correctly.
+Because the penalty is not in the rupee amount — it is in the decision architecture the subscription forces on you. Once you are paying ₹9,999/month, every product and pricing decision you make in the first 6 months is implicitly designed to cover the subscription. You launch courses faster than you should to generate the revenue. You set prices lower than you should to convert students faster. You skip the 5-point verification step on AI-drafted content because there is not time to verify when the subscription bill is recurring. In our experience across the AllCoaching educator base in 2026, this "subscription-pressure" decision pattern is the single largest source of avoidable early-stage failures — not the subscription cost itself, but the rushed product decisions the subscription cost forced. The economic value of starting free with a flat 10% is not just the ₹9,999/month saved; it is the breathing room to make first-year decisions correctly.
 
 
 
@@ -49114,9 +49114,9 @@ AllCoaching was designed specifically around the insight that the traditional LM
 
 
 
-Phase 1
+Start free
 ₹0
-30 days — completely free
+Free to start — and to stay
 
 - Full platform access
 
@@ -49135,13 +49135,13 @@ Phase 1
 
 
 
-Phase 2
-Yearly
-Annual plan — not monthly pressure
+Pay as you earn
+10%
+Flat — only on what you sell
 
 - No recurring monthly bill
 
-- Pay once, grow all year
+- No subscription, ever
 
 - Full infrastructure included
 
@@ -49156,15 +49156,15 @@ Annual plan — not monthly pressure
 
 
 
-Phase 3
-Waived*
-After crossing revenue threshold
+Keep 90%
+90%
+Stays with you, paid daily
 
-- Subscription may be eliminated
+- No subscription to eliminate
 
-- Platform cost → zero at scale
+- Pay nothing in a no-sale month
 
-- Commission-only model
+- Flat 10% on sales only
 
 - Full ecosystem access continues
 
@@ -49177,16 +49177,16 @@ After crossing revenue threshold
 
 
 
-*Revenue threshold and exact waiver conditions subject to current AllCoaching plan terms. Contact AllCoaching for specific threshold details applicable to your educator category.
+*Pricing is a flat 10% on paid sales; the educator keeps 90%, with daily INR payouts. See the pricing page for current terms.
 
-This three-phase model is the practical implementation of growth-aligned pricing. Phase 1 eliminates the risk of paying before validating. An educator can create courses, attract their first students, and test the marketplace fit of their content — all without spending a single rupee. This is not a limited demo; it is full platform access for 30 days.
+This free, pay-as-you-earn model is the practical implementation of growth-aligned pricing. Starting free eliminates the risk of paying before validating. An educator can create courses, attract their first students, and test the marketplace fit of their content — all without spending a single rupee. This is not a limited demo or a countdown trial; it is full platform access, free, with no time limit.
 
-Phase 2 replaces the monthly subscription with a yearly option — removing the psychological and financial pressure of a monthly bill that arrives regardless of enrollment. A yearly plan paid once is structurally different from a monthly plan paid twelve times: it aligns with how educators actually plan their business (annually, not monthly), eliminates twelve separate "should I keep paying?" decisions each year, and is significantly cheaper in total cost.
+No subscription at all — not monthly, not yearly — removes the psychological and financial pressure of a bill that arrives regardless of enrolment. You never face the twelve separate "should I keep paying?" decisions a monthly plan forces each year, because there is no plan to pay: your only cost is a flat 10% on what you actually sell, and a month with no sales costs nothing.
 
-Phase 3 is the most strategically important: after crossing a defined revenue threshold, the subscription may be waived entirely. This is the platform explicitly saying: your growth is our growth. Once you are contributing meaningfully to the ecosystem — bringing students, generating revenue, building marketplace credibility — your fixed platform cost reduces to zero. The only cost remaining is a commission on revenue, which is by definition performance-aligned.
+And the flat fee is, by definition, performance-aligned: the platform earns only when the educator earns. This is the platform explicitly saying: your growth is our growth. As you bring students, generate revenue and build marketplace credibility, the platform grows with you — never ahead of you. There is no fixed cost to reduce, because there was never a fixed cost to begin with; the only cost is a flat 10% on revenue you have already made.
 
 
-AllCoaching's model inverts the traditional LMS logic: instead of charging you more as you grow, it charges you less. The platform succeeds when educators succeed — and it has built its economics to reflect exactly that alignment.
+AllCoaching's model inverts the traditional LMS logic: instead of charging you more as you grow, it charges you nothing until you sell — and only ever a flat 10% of what you actually earn. The platform succeeds when educators succeed — and it has built its economics to reflect exactly that alignment.
 
 
 
@@ -49195,9 +49195,9 @@ Question Often Asked
 
 
 
-### At what revenue level does the commission waiver actually start saving me money?
+### Why is a flat 10% on sales cheaper than a monthly subscription?
 
-The crossover math depends on the institute's specific revenue and the exact waiver threshold, but the structural pattern is consistent across Indian educators on AllCoaching in 2026. Below the threshold, the platform's standard revenue share covers shared infrastructure (hosting, payment processing, AI discovery, support) — the cost the platform incurs serving the educator. At the threshold, the educator has demonstrated they generate enough volume that infrastructure costs are amortised. Above the threshold, the platform waives or substantially reduces commission, sharing the upside of scale with the educator who produced it. For most institutes, this means the effective per-student platform cost falls progressively as revenue grows — the opposite of subscription pricing where per-student platform cost rises as student count rises against a fixed monthly bill. Across the AllCoaching educator base in 2026, we have observed institutes routinely save 30–60% of total platform cost in Year 2 versus Year 1, simply by crossing the commission-waiver threshold mid-year.
+The math is structural, and it is consistent across Indian educators on AllCoaching in 2026. A monthly subscription charges a fixed amount whether or not you sell — so in any low-revenue month the per-student platform cost rises as the bill stays the same. A flat 10% on sales charges nothing when you do not sell, and exactly 10% when you do, so the per-student platform cost is constant and only ever a fraction of money you have already received. For a new or seasonal educator, that is the difference between paying before you earn and paying only after. Across the AllCoaching educator base in 2026, we have observed that educators on the flat-10% model routinely spend far less of their revenue on platform cost than peers on subscription plans — because they pay nothing through the months a subscription would have billed them anyway.
 
 
 
@@ -49561,7 +49561,7 @@ Start Free
 
 30 days completely free. No credit card. No monthly pressure.
 
-Full platform access from day one. Create your first course, attract your first students, and validate your idea — all before spending a single rupee. Then transition to a yearly plan when your revenue justifies it, and watch your platform cost reduce as your teaching business grows.
+Full platform access from day one. Create your first course, attract your first students, and validate your idea — all before spending a single rupee. Then pay only a flat 10% on what you actually sell — so your platform cost rises only as your revenue does, never ahead of it.
 
 
 
@@ -49607,9 +49607,9 @@ Term
 
 
 
-### Three-Phase Pricing Model
+### Pay-As-You-Earn Pricing
 
-AllCoaching's pay-as-you-grow pricing structure: Phase 1 — 30-day free trial; Phase 2 — low-cost yearly plan (no monthly cash-flow drag); Phase 3 — commission waiver after revenue threshold. Aligns platform pricing with educator outcomes across all stages.
+AllCoaching's pricing model: free to start and free forever, with no subscription and no setup fee, and a single flat 10% platform fee charged only on what you actually sell — so you keep 90% and pay nothing in a month with no sales.
 
 
 
@@ -49629,9 +49629,9 @@ Term
 
 
 
-### 30-Day Free Trial
+### Free-Forever Plan
 
-A platform-onboarding mechanism where the educator pays nothing for the first 30 days of operation. Provides time to publish initial content, attract first students, and validate paid conversion before any platform cost is incurred. Critical for early-stage Indian educators who cannot absorb subscription cost before revenue.
+A pricing model where the educator pays nothing to start and nothing to stay — no subscription, setup fee, or card at signup. It lets an educator publish content, attract first students, and earn before paying anything; the only charge is a flat 10% on actual sales. Critical for early-stage Indian educators who cannot absorb a subscription before revenue.
 
 
 
@@ -49640,9 +49640,9 @@ Term
 
 
 
-### Commission Waiver Threshold
+### Flat Platform Fee
 
-A pricing structure where the platform waives commission after the educator crosses a defined revenue threshold — rewarding scale rather than penalising it. Aligns platform incentives with educator growth: the platform earns more by helping the educator earn more, not by extracting fixed fees regardless of outcomes.
+A single, fixed percentage the platform charges only on what an educator actually sells — on AllCoaching, a flat 10%, with the educator keeping 90%. It aligns platform incentives with educator outcomes: the platform earns only when the educator earns, never by extracting a fixed subscription regardless of sales.
 
 
 
@@ -49708,7 +49708,7 @@ References & Sources
 
 
 How can I sell online courses without a monthly subscription?
-You can sell online courses without monthly subscriptions by joining a growth-aligned marketplace platform like AllCoaching, which offers a 30-day completely free trial, a yearly plan (significantly cheaper than month-to-month), and a revenue-threshold model where subscriptions may be waived once you cross a defined income level. This aligns your platform cost with your actual teaching revenue — you pay nothing during validation, transition to an annual plan during growth, and the cost reduces as your business scales.
+You can sell online courses without monthly subscriptions by joining a growth-aligned marketplace platform like AllCoaching, which is free to start and free forever — no subscription at all — with a single flat 10% charged only on what you actually sell. This aligns your platform cost with your actual teaching revenue: you pay nothing during validation, nothing in a quiet month, and only ever 10% of money a student has already paid you.
 
 
 
@@ -49726,7 +49726,7 @@ Monthly subscriptions charge a fixed fee regardless of whether you have students
 
 
 Are there truly free platforms to sell online courses?
-Fully free platforms exist but carry significant limitations: capped bandwidth, limited courses, no custom branding, aggressive revenue sharing, or absence of live class tools. AllCoaching's 30-day free access gives you full platform functionality — including live classes, course creation, marketplace listing, and payment processing — without feature caps. After 30 days, the yearly subscription is structured to be significantly less financially pressuring than a monthly plan, and the revenue-threshold waiver creates a genuine path to zero platform cost at scale.
+Fully free platforms exist but carry significant limitations: capped bandwidth, limited courses, no custom branding, aggressive revenue sharing, or absence of live class tools. AllCoaching's free-forever plan gives you full platform functionality — including live classes, course creation, marketplace listing, and payment processing — without feature caps. There is no subscription to start paying after a trial: your only cost is ever a flat 10% on what you actually sell, so a month with no sales costs nothing at all.
 
 
 
@@ -49737,8 +49737,8 @@ The biggest hidden cost is student acquisition — paid ads, social media manage
 
 
 
-How does AllCoaching's revenue threshold waiver work?
-AllCoaching's pricing model is designed to scale down in cost as educator revenue scales up. After crossing a defined revenue threshold on the platform, educators may qualify to have their subscription fee waived — moving to a commission-only model. This means the platform's fixed cost reduces to zero at the point where an educator least needs financial relief from a fixed fee. Contact AllCoaching for current threshold details applicable to your educator category and plan.
+How does AllCoaching's flat 10% pricing work?
+AllCoaching's pricing is a single flat 10% charged only on what an educator actually sells — there is no subscription or fixed fee at any stage. The educator keeps 90% of every sale, paid out daily in INR, and pays nothing in a month with no sales. Because the cost is always a fraction of money already received, the platform earns only when the educator earns. See the pricing page for current terms.
 
 
 
@@ -49750,7 +49750,7 @@ For most independent educators — especially those without an existing large fo
 
 
 What is the best platform for selling online courses in India in 2026?
-The best platform in 2026 combines four qualities: low or zero entry cost (so you validate before paying), built-in AI student discovery (so marketing doesn't drain all revenue), full production-grade infrastructure (live classes, recorded courses, payments, mobile apps), and growth-aligned pricing (cost that scales with revenue, not against it). AllCoaching is the only platform in India purpose-built around all four — starting with a 30-day free trial and scaling to a potential subscription waiver as your teaching business grows.
+The best platform in 2026 combines four qualities: low or zero entry cost (so you validate before paying), built-in AI student discovery (so marketing doesn't drain all revenue), full production-grade infrastructure (live classes, recorded courses, payments, mobile apps), and growth-aligned pricing (cost that scales with revenue, not against it). AllCoaching is the only platform in India purpose-built around all four — free to start, with a flat 10% only on what you sell — and nothing in a month with no sales.
 
 ---
 
@@ -52601,28 +52601,28 @@ AllCoaching gives educators a branded space sitting on top of a marketplace. Tea
 
 # Core company pages
 
-## AllCoaching Pricing — Start Free, Keep 90% Revenue · India 2026
+## AllCoaching Pricing — Free Forever, Keep 90%. Pay 10% Only When You Earn · India 2026
 
 **Source:** https://allcoaching.in/pricing  
-**Summary:** AllCoaching pricing for Indian educators in 2026 — launch your branded coaching, sell courses, and get discovered, with educator-first pricing and daily payouts.
+**Summary:** AllCoaching pricing for Indian educators in 2026: ₹0 to start, free forever — no subscription, no card, no KYC at signup. Launch a branded coaching app, sell courses and get discovered, and pay a flat 10% only on what you actually sell. You keep 90%, with daily INR payouts.
 
 Honest pricing · 2026 India
 
 
 
 #
-Three tiers.
+₹0 to start.
 
-Zero hidden cuts.
-
-
-
-Start free for 30 days. When you're earning, choose Early Launch (₹11,999/year, first 50 only) or Standard (₹24,999/year). Educators keep 90% of revenue with daily payouts. No setup fee. No price escalation. No transaction stacking.
+You keep 90%. Forever.
 
 
 
-34 of 50 slots taken
-Early Launch closes when full
+No subscription. No card. No KYC to sign up. Launch your branded coaching app in 60 seconds, sell your courses, and pay a flat 10% only on what you actually earn — you keep 90%, paid daily in INR. The platform makes money only when you do.
+
+
+
+Free forever · No card required
+Pay only when you earn
 
 
 
@@ -52631,32 +52631,17 @@ Early Launch closes when full
 Key facts — pricing in 6 lines
 
 
-- 30-day free trial — full platform, no card required. Cancel anytime.
+- ₹0 to start — free forever. No subscription, no setup fee, no card and no KYC to sign up.
 
-- Early Launch Offer: ₹11,999/year + 10% per transaction. First 50 educators only. 2-year lock at this rate.
+- One flat 10% platform fee — charged only on what you actually sell. No tiers, no plans to pick.
 
-- Standard Plan: ₹24,999/year + 10% per transaction. Multi-teacher institutes, advanced analytics, dedicated account manager.
+- You keep 90% of every sale, settled as daily payouts in INR straight to your account.
 
-- Educators keep 90% of revenue. Daily payouts. Platform handles GST, UPI, refunds, anti-piracy, marketplace discovery.
+- The platform earns only when you earn. In a month with no sales, you pay nothing at all.
 
-- No setup fee, no SMS credits, no annual escalation. The number you see is the number you pay.
+- Everything is inside the 10% — branded app, UPI payments, GST invoicing, anti-piracy, refunds, marketplace discovery.
 
-- 18% GST applies on subscription + commission per Indian tax law (SAC 999293). Invoices show ITC-eligible GST separately.
-
-
-
-
-
-
-
-
-Three tiers
-
-
-
-## Pick what fits your stage.
-
-Every paid tier includes branded coaching app, live class infrastructure, marketplace discovery, payment processing, and GST-compliant invoicing. What changes between tiers is institute scale and support depth.
+- Fair-use storage and bandwidth included; live is pay-per-use — you never pay for capacity you do not use.
 
 
 
@@ -52664,76 +52649,67 @@ Every paid tier includes branded coaching app, live class infrastructure, market
 
 
 
-Starter
 
-30 Days
-Free Trial
-
-Explore the full platform. No card required. Cancel anytime.
+One plan. For everyone.
 
 
-Full platform access
-Live classes & recordings
-Payments (UPI + cards)
-Marketplace profile
-Student CRM + analytics
 
-Start 30-Day Trial
-No payment details collected
+## No tiers. No trial. No catch.
+
+There is exactly one plan, and it is free to start and free to stay. Everything is included; the only charge is a flat 10% on the courses you actually sell — and you keep 90%.
 
 
 
 
 
-First 50 Educators · 34 / 50 Taken
-Early Launch Offer
+The only plan you need
+Free Forever
 
-₹11,999
-/ year
+₹0
+to start — and to stay
 
-2-year price lock. + 10% per transaction. Limited slots — closes when full.
-
-
-Unlimited students
-Branded Android + iOS app
-Full CRM, tests, DPPs, mock papers
-Priority marketplace placement
-Dedicated onboarding support
-Daily payouts at 90% revenue share
-2-year price lock guaranteed
+Flat 10% only on what you sell. You keep 90%, paid daily in INR. No subscription, no card, no KYC to begin.
 
 
-Claim Early Launch
+Branded Android + iOS coaching app
+Unlimited courses, notes & ranked test series
+Live classes with chat, polls & attendance
+UPI, card & net-banking checkout
+Daily INR payouts at 90% revenue share
+Owned student CRM & analytics
+GST invoicing, refunds & anti-piracy handled
+AI-driven marketplace discovery
 
 
-16 slots remaining as of today
+Start free — keep 90%
 
 
-
-
-
-Standard Plan
-
-₹24,999
-/ year
-
-Full platform + marketplace for growing institutes. + 10% per transaction.
-
-
-Everything in Early Launch
-Multi-teacher institute support
-Advanced analytics & exports
-Dedicated account manager
-Bulk operations + reporting
-
-Start Growing
-No commitment beyond annual term
+No payment details collected at signup
 
 
 
 
 
-All prices exclusive of 18% GST · Prices in ₹ · SAC 999293
+
+
+No card
+Sign up with phone, Google or email and land straight in the dashboard. Bank and KYC details are asked only at your first payout — not before.
+
+
+
+No subscription
+Nothing to renew, nothing to escalate. The only number that exists is 10% — and only on the sales you actually make.
+
+
+
+Fully aligned
+With no fixed fee, the platform is paid only when you are. We lose if you lose — so we have to keep earning you students.
+
+
+
+
+
+Flat 10% on paid sales only · You keep 90% · GST applies on the platform fee (ITC-eligible)
 
 
 
@@ -52750,27 +52726,23 @@ Concrete example — a NEET physics educator with ₹10 lakh annual revenue (abo
 
 
 
-↳ AllCoaching Early Launch · Year 1 actual cost
+↳ AllCoaching · what a ₹10 lakh year actually costs
 
 
-Annual subscription
-₹11,999
+Cost to sign up & start
+₹0
 
 
-+ 18% GST on subscription
-₹2,160
-
-
-10% transaction commission on ₹10L revenue
-₹1,00,000
-
-
-+ 18% GST on commission (ITC-eligible)
-₹18,000
+Subscription / annual fee
+₹0 (there isn't one)
 
 
 Setup fee
 ₹0
+
+
+Flat 10% platform fee on ₹10L sold
+₹1,00,000
 
 
 SMS / WhatsApp message credit packs
@@ -52778,26 +52750,26 @@ SMS / WhatsApp message credit packs
 
 
 Payment gateway markup
-₹0 (in commission)
+₹0 (inside the 10%)
 
 
 Annual price escalation
-₹0 (2-year lock)
+₹0 (no price to escalate)
 
 
 
-Year 1 all-in
-₹1,32,159
+Total platform cost, Year 1
+₹1,00,000
 
 
 
-That is 13.2% of revenue — including everything: hosting, payments, GST, anti-piracy, marketplace discovery, customer support. Educator keeps ₹8,67,841 of the ₹10 lakh earned.
+That is the flat 10% — and nothing else: hosting, payments, GST invoicing, anti-piracy, marketplace discovery and support are all inside it. You keep ₹9,00,000 of the ₹10 lakh you earn. GST applies on the ₹1,00,000 platform fee per law and is ITC-eligible, so a registered educator reclaims it.
 
 
 
 
 
-Compare this with the same educator on a white-label app: typically ₹4–7 lakh Year 1 all-in (setup + monthly fees + transaction stack + escalation + marketing). The marketplace path costs 3–5× less.
+Compare this with the same educator on a white-label app: typically ₹4–7 lakh Year 1 all-in (setup + monthly fees + transaction stack + escalation + marketing) — most of it due before a single course sells. The marketplace path costs 4–7× less, and ₹0 of it is due upfront.
 
 
 
@@ -52832,7 +52804,7 @@ Setup fee
 
 Annual / monthly software fee
 ₹2,500 – ₹1,25,000 per month (₹30K – ₹15L/year)
-₹11,999 – ₹24,999 / year fixed
+₹0 — no subscription, ever
 
 
 Transaction commission
@@ -52847,7 +52819,7 @@ Included
 
 Annual price escalation
 15–25% per year
-None (2-year lock on Early Launch)
+None — there is no price to escalate
 
 
 Marketing / SEO / discovery
@@ -52855,9 +52827,9 @@ Educator pays separately (₹6–18 lakh/year)
 Included via AI marketplace
 
 
-Storage + bandwidth overages
+Storage + bandwidth
 ₹500 – ₹3,000 / 100 GB + ₹5–15 / GB video bandwidth
-Included
+Fair-use included; live pay-per-use
 
 
 GST compliance + invoicing
@@ -52877,7 +52849,7 @@ Daily, at 90% revenue
 
 Real Year 1 cost (₹10L educator)
 ₹4–7 lakh
-₹1.32 lakh
+~₹1 lakh (just the 10%)
 
 
 
@@ -52907,7 +52879,7 @@ Trusted by 2,400+ educators
 
 
 ★★★★★
-"The Early Launch Offer was honest pricing in an industry built on hidden costs. Zero setup fee, no escalation, and the marketplace is where students actually come to find me."
+"Starting free was honest pricing in an industry built on hidden costs. No setup fee, no subscription, nothing until I actually earned — and the marketplace is where students actually come to find me."
 
 
 PV
@@ -52959,61 +52931,61 @@ Pricing questions, answered
 
 
 How much does AllCoaching cost for an Indian educator in 2026?
-AllCoaching offers three tiers: (1) Free 30-day trial — full platform access, no card required; (2) Early Launch Offer — ₹11,999/year + 10% per transaction, locked for 2 years, limited to the first 50 educators only; (3) Standard Plan — ₹24,999/year + 10% per transaction. Educators keep 90% of revenue with daily payouts. There is no setup fee, no per-message credits, no annual price escalation, and no hidden transaction stacking.
+AllCoaching is free to start and free forever. There is no subscription, no setup fee, and no card or KYC required to sign up — you launch your branded coaching app and start in about a minute. The only charge is a single flat 10% platform fee on what you actually sell; you keep 90%, paid out daily in INR. There are no tiers, no per-message credits, and no annual price escalation, because there is no annual price.
 
 
 
 
-What does the 10% transaction commission include?
-The 10% per-transaction fee covers: payment gateway costs (UPI, cards, EMI, net-banking), GST-compliant invoicing automation under SAC 999293, secure video streaming with HLS+AES-128 + DRM, anti-piracy watermarking, refund processing under Consumer Protection E-Commerce Rules 2020, DPDP-compliant data storage, grievance officer infrastructure, daily payout settlement, marketplace AI recommendation, and ongoing platform engineering. It is a single inclusive number — no payment gateway markup is added on top.
+Is there really no subscription or setup fee?
+Correct — there is no subscription and no setup fee, ever. You do not pay anything to start, to host your courses, or to be listed on the marketplace. The platform earns only a flat 10% when you make a paid sale, which means in any month you do not sell, you pay nothing at all.
 
 
 
 
-Is there a setup fee or onboarding cost on AllCoaching?
-No. Unlike white-label coaching app vendors who typically charge ₹25,000–₹2,00,000 in setup fees plus monthly software licenses, AllCoaching has zero setup cost. The annual subscription (₹11,999 or ₹24,999) is the only fixed cost. Branded coaching app, marketplace listing, payment infrastructure, and onboarding support are all included in the annual fee.
+Do I need a card, KYC, or GST details to sign up?
+No. You can sign up with phone OTP, Google, or email and land straight in the dashboard to create and publish a course — no card, no KYC, no GST or bank details at signup. Bank and KYC details are requested only later, at the exact moment you set up a paid course or request your first payout, so your money is secured when it actually moves.
 
 
 
 
-How does the Early Launch Offer work?
-The Early Launch Offer is ₹11,999/year locked for 2 years (₹23,998 total over 2 years vs ₹49,998 on Standard tier — a 52% discount). It is strictly limited to the first 50 educators who commit. After 50 slots fill, no new Early Launch enrolments are accepted; future educators move to the ₹24,999/year Standard tier. The 10% transaction fee is the same across all paid tiers.
+What does the 10% platform fee include?
+The flat 10% covers payment processing (UPI, cards, EMI, net-banking), GST-compliant invoicing, secure video streaming with anti-piracy protection, refund handling, DPDP-aligned data storage, daily payout settlement, AI-driven marketplace discovery, and ongoing platform engineering. It is a single inclusive number charged only on paid sales — there is no separate payment-gateway markup stacked on top.
 
 
 
 
-What happens after the 30-day free trial ends?
-During the trial you have full access to live classes, branded coaching app, marketplace listing, and payment infrastructure with no card on file. After 30 days, if you have not enrolled into a paid tier, the platform pauses outbound payments and limits new student enrolments — but no data is deleted. You can resume any time by enrolling in Early Launch (if slots remain) or Standard. There is no automatic charge.
+If it is free, how does AllCoaching make money?
+Only from the flat 10% on what you actually sell — nothing else. That is the point: because there is no subscription, the platform earns only when an educator earns, so its incentive is aligned with yours. If you have a quiet month, the platform earns nothing from you that month; it has to keep helping you sell to be paid at all.
 
 
 
 
-Is AllCoaching pricing inclusive of GST?
-AllCoaching's subscription pricing is shown exclusive of GST. 18% GST is added at the time of invoice (₹11,999 + 18% GST = ₹14,159 total for Early Launch). The 10% transaction commission is also exclusive of GST — invoices show the GST line item separately for educator ITC (Input Tax Credit) purposes. AllCoaching handles full GST compliance under SAC 999293 for the platform-level revenue.
+Are there limits on storage, bandwidth, or live classes?
+There is generous free storage and fair-use bandwidth included in the free plan, and live streaming is metered pay-per-use — you are only charged for the live viewer-hours you actually stream. This keeps the platform sustainable without a subscription, and it means you never pay for capacity you are not using. Usage meters are visible in your dashboard, so there are no surprises.
 
 
 
 
-What is the refund policy for AllCoaching subscriptions?
-AllCoaching follows the Consumer Protection (E-Commerce) Rules 2020 — refunds are processed within 30 days of request. For annual subscriptions, pro-rated refunds are available for cancellations within the first 7 days. After 7 days, the subscription continues for the year. Educator payouts (the 90% revenue share) are not affected by subscription cancellation — earnings already accrued are paid out on the normal daily payout cycle.
+Is the 10% inclusive of GST?
+The 10% is the platform fee; GST applies on that fee per Indian tax law and is shown as a separate, ITC-eligible line on your invoice, so you can claim Input Tax Credit. Because there is no subscription, there is no annual subscription GST to pay — GST applies only to the platform's service fee on your sales. AllCoaching handles the GST-compliant invoicing for the platform-level revenue.
+
+
+
+
+What happens to the 10% fee on a refund?
+If a student is refunded, the platform fee is reversed proportionally — a full refund reverses the full 10%, and a partial refund reverses it in proportion. Failed payments and chargebacks carry no fee. Your earned payouts on completed sales settle on the normal daily cycle and are not affected by an unrelated refund.
 
 
 
 
 How does AllCoaching pricing compare to Classplus, Graphy, or Teachmint?
-White-label vendors like Classplus, Graphy, and Teachmint typically charge ₹2,500–₹1,25,000 per month in software fees plus 1.5–4% transaction commission on top of payment gateway costs (0.3–1%), plus setup ₹25K–₹2L, plus per-message credits ₹2K–₹8K/month, plus 15–25% annual escalation. Real Year 1 cost for a typical institute on white-label: ₹4–11 lakh. On AllCoaching Early Launch: ₹11,999 fixed + 10% of revenue. For a ₹10 lakh annual revenue educator, AllCoaching costs ~₹1.32 lakh total vs ₹4–7 lakh on white-label — a 3–5× cost difference. Full breakdown in our white-label cost analysis.
+White-label vendors like Classplus, Graphy and Teachmint typically charge ₹2,500–₹1,25,000 per month in software fees (₹30K–₹15L/year), plus setup of ₹25K–₹2L, plus a transaction commission and per-message credits, plus 15–25% annual escalation — a real Year 1 cost of ₹4–11 lakh before you have sold anything. AllCoaching has none of that: ₹0 to start and a flat 10% only on what you sell. For a ₹10 lakh-revenue educator, that is about ₹1 lakh in total versus ₹4–7 lakh on white-label.
 
 
 
 
-Does AllCoaching commission decrease as revenue grows?
-The 10% per-transaction commission is flat across all revenue brackets — there are no volume discounts because the marketplace value (AI discovery, branded space, payment infrastructure) compounds, not diminishes, with educator scale. Top educators on AllCoaching often find that the 10% they pay is significantly less than the 30–40% of revenue they would otherwise spend on marketing, SEO retainers, payment processing markups, and content distribution combined.
-
-
-
-
-Can I cancel my AllCoaching subscription and migrate my student list elsewhere?
-Yes. Educator data — including student lists, course content, payment history, and analytics — is exportable at any time in standard CSV/PDF formats. AllCoaching follows data portability requirements under the DPDP Act 2023. Cancellation does not lock data; you retain ownership of your educator brand, your student relationships, and all content you uploaded. The platform-level marketplace traffic you no longer receive is the only thing you give up by leaving.
+Can I export my data and leave anytime?
+Yes. Your student list, course content, payment history and analytics are exportable at any time in standard formats, in line with data-portability rights under the DPDP Act 2023. Nothing is locked — you keep ownership of your brand, your students and your content. The only thing you give up by leaving is the marketplace traffic the platform was sending you.
 
 
 
@@ -53027,15 +52999,15 @@ Ready to start
 
 
 
-## Honest pricing. Honest platform.
+## Stop paying to teach. Start keeping 90%.
 
 
-Start with the 30-day free trial. If AllCoaching is not earning you more than it costs by Day 30, walk away — no data lock-in, no auto-charge, no questions.
+Sign up free in about a minute — no card, no subscription, no catch. Publish your first course today, and pay a flat 10% only when a student actually buys. The platform wins only when you do.
 
 
 
 
-Start 30-Day Free Trial
+Start free — keep 90%
 
 
 
@@ -53044,13 +53016,13 @@ Ask via WhatsApp
 
 
 
-No card required
+Free forever
 ·
-Cancel anytime
+No card to start
 ·
-Data is yours
+You keep 90%
 ·
-Reply in 24h
+Daily payouts
 
 ---
 
@@ -53114,7 +53086,7 @@ questions.
 
 
 How much does AllCoaching cost for an Indian educator in 2026?
-AllCoaching offers three tiers: (1) Free 30-day trial — full platform, no card required; (2) Early Launch Offer — ₹11,999/year + 10% per transaction, locked for 2 years, limited to first 50 educators; (3) Standard Plan — ₹24,999/year + 10% per transaction. Educators keep 90% of revenue with daily payouts. No setup fee, no SMS credits, no annual escalation.
+AllCoaching is free to start and free forever — no subscription, no setup fee, and no card or KYC to sign up. The only charge is a single flat 10% platform fee on what you actually sell; you keep 90%, paid out daily in INR. There are no tiers and no annual price.
 
 Full details · Pricing page
 
@@ -53128,25 +53100,25 @@ All-inclusive: UPI/card/EMI/net-banking payment gateway, GST-compliant invoicing
 
 
 Is there a setup fee or onboarding cost?
-No. Unlike Classplus, Graphy, and Teachmint (which charge ₹25,000–₹2,00,000 setup plus monthly software), AllCoaching has zero setup cost. The annual subscription is the only fixed cost — branded app, marketplace listing, payment infrastructure, and onboarding support are all included.
+No. Unlike Classplus, Graphy, and Teachmint (which charge ₹25,000–₹2,00,000 setup plus monthly software), AllCoaching has zero setup cost and no subscription at all. The branded app, marketplace listing, payment infrastructure, and onboarding are all free — you pay only the flat 10% when you make a sale.
 
 
 
 
-What is the Early Launch Offer and how does it work?
-Early Launch is ₹11,999/year locked for 2 years (₹23,998 total vs ₹49,998 on Standard tier — a 52% discount). Strictly limited to the first 50 educators. After 50 slots fill, future educators move to Standard. 10% transaction fee is the same across paid tiers.
+Is there really no subscription or hidden fee?
+Correct — there is no subscription, no setup fee, and no card required to start, ever. You launch your branded coaching app free and pay only a flat 10% on what you actually sell. In any month you do not sell, you pay nothing at all — the platform earns only when you earn.
 
 
 
 
 Is AllCoaching pricing inclusive of GST?
-Pricing is shown exclusive of GST. 18% GST is added at invoice (₹11,999 + 18% = ₹14,159 for Early Launch). The 10% transaction commission is also exclusive of GST. Invoices show GST as a separate line — ITC-eligible for GST-registered educators. AllCoaching handles full GST compliance under SAC 999293.
+The 10% is the platform fee; GST applies on that fee per Indian tax law and is shown as a separate, ITC-eligible line on your invoice, so GST-registered educators reclaim it. Because there is no subscription, there is no annual subscription GST to pay. AllCoaching handles GST-compliant invoicing under SAC 999293.
 
 
 
 
 What is AllCoaching's refund policy?
-Follows the Consumer Protection (E-Commerce) Rules 2020 — refunds within 30 days. For annual subscriptions, pro-rated refunds available within first 7 days. After 7 days, subscription continues for the year. Educator payouts are unaffected — earnings already accrued are paid out on the normal daily cycle.
+When a student is refunded, AllCoaching reverses its 10% platform fee proportionally — a full refund reverses the full fee, a partial one reverses in proportion. Refunds follow the Consumer Protection (E-Commerce) Rules 2020, within 30 days. Your earned payouts on completed sales settle on the normal daily cycle and are not affected by an unrelated refund.
 
 
 
@@ -53163,13 +53135,13 @@ Branded Android + iOS + Web coaching app, live class infrastructure (attendance 
 
 
 Can I use my own custom domain?
-Yes. Educators on paid tiers can map a custom domain to their AllCoaching branded space. Domain mapping is included in the annual subscription — no additional fee. Carries your logo, color palette, custom URL.
+Yes. You can map a custom domain to your AllCoaching branded space — included free, no subscription or extra fee. Carries your logo, color palette, custom URL.
 
 
 
 
 Does AllCoaching include a branded mobile app?
-Yes. Both paid tiers include a fully branded Android + iOS app — your logo, your colors, your name in app stores. Inherits AllCoaching's infrastructure (streaming, payments, anti-piracy, GST) but displays as the educator's own brand. No separate app development cost.
+Yes. A fully branded Android + iOS app is included free — your logo, your colors, your name in app stores. Inherits AllCoaching's infrastructure (streaming, payments, anti-piracy, GST) but displays as the educator's own brand. No subscription, no separate app development cost.
 
 
 
@@ -53202,7 +53174,7 @@ Most educators sign up, upload first content, set pricing, and become discoverab
 
 
 Do I need any technical or coding skills?
-No. AllCoaching is a no-code platform built for educators who want to teach, not configure servers. Everything from app branding to payment setup is done through a visual studio. Onboarding support is included on all paid tiers.
+No. AllCoaching is a no-code platform built for educators who want to teach, not configure servers. Everything from app branding to payment setup is done through a visual studio. Onboarding support is included free.
 
 Deep dive · Online coaching academy bina coding
 
@@ -53290,7 +53262,7 @@ Deep dive · First 500 students playbook
 
 
 Is featured placement available for new educators?
-Yes. Early Launch Offer educators receive priority marketplace placement during their first 6 months. Standard tier educators rank based on outcomes (student results, completion rates) and verified reviews — the marketplace is merit-based, not pay-to-play.
+Yes. New educators receive a fair visibility boost in their first window after launching. After that, all educators rank based on outcomes (student results, completion rates) and verified reviews — the marketplace is merit-based, not pay-to-play.
 
 
 
@@ -53389,8 +53361,8 @@ Udemy and Coursera are course marketplaces for global, English-language, evergre
 ## Account & Data
 
 
-Can I cancel my AllCoaching subscription?
-Yes, anytime from the studio. After 7 days, the subscription continues for the year (no pro-rated refund), but you can disable auto-renewal anytime. Cancellation does not delete data — student lists, course content, and analytics remain exportable. Platform pauses marketplace traffic and new enrollments; existing student access continues until subscription end date.
+Can I stop or leave AllCoaching anytime?
+Yes — there is nothing to cancel, because there is no subscription. You can stop at any time at zero cost, and your data is never deleted — student lists, course content, and analytics remain exportable. You only ever paid the flat 10% on actual sales, so leaving costs you nothing and your students keep the access they already bought.
 
 
 
@@ -53402,7 +53374,7 @@ Yes. Educator data — student contacts, payment history, course content, engage
 
 
 Can multiple teachers share one AllCoaching account?
-Yes — Standard Plan includes multi-teacher institute support. Coaching institutes with multiple faculty can run a unified educator profile with separate teacher logins, individual content management, batch ownership, and revenue allocation. Useful for chains, partnerships, and institutes with 3+ teachers. Early Launch supports single-educator profiles; multi-teacher requires Standard.
+Yes — multi-teacher institute support is included free. Coaching institutes with multiple faculty can run a unified educator profile with separate teacher logins, individual content management, batch ownership, and revenue handled by the institute. Useful for chains, partnerships, and institutes with multiple teachers. The same flat 10% applies — there is no separate plan or fee for multi-teacher.
 
 
 
@@ -53515,7 +53487,7 @@ Setup fee
 
 Monthly / annual software
 ₹2,500 – ₹1,25,000 / month (₹30K – 15L / year)
-₹11,999 / year (Early Launch) or ₹24,999 / year fixed
+₹0 — no subscription, ever
 
 
 Transaction commission
@@ -53530,7 +53502,7 @@ Included
 
 Annual price escalation
 15–25% per year typical
-None (2-year lock on Early Launch)
+None — there is no price to escalate
 
 
 Marketing / SEO / discovery
@@ -53599,22 +53571,22 @@ Year 1 all-in₹6.47 L
 
 
 
-↳ AllCoaching Early Launch · Year 1 actual cost
-Annual subscription₹11,999
-18% GST on subscription₹2,160
-10% commission on ₹10L (all-inclusive)₹1,00,000
-18% GST on commission (ITC-eligible)₹18,000
+↳ AllCoaching · what a ₹10L year actually costs
+Cost to sign up & start₹0
+Subscription / annual fee₹0 (none)
+Flat 10% platform fee on ₹10L sold₹1,00,000
+Payment gateway markup₹0 (inside the 10%)
 Setup fee₹0
 SMS / WhatsApp credits₹0 (included)
 Marketing (marketplace discovery)₹0 (included)
-Year 1 all-in₹1.32 L
+Year 1 all-in₹1 L
 
 
 
 
 The honest verdict
 
-₹5.15 L
+₹5.47 L
 saved in Year 1 alone — and the gap compounds
 
 
@@ -53690,7 +53662,7 @@ Final cutover, payment routing switched to AllCoaching. Classplus subscription c
 
 ### Throughout · Zero charges
 
-Migration is free under AllCoaching's annual subscription. No setup fee, no migration consulting fee, no data import charge. Included by default.
+Migration is free on AllCoaching — no subscription, no setup fee, no migration consulting fee, no data import charge. Included by default.
 
 
 
@@ -53763,7 +53735,7 @@ Classplus headline pricing starts around ₹2,500–₹1,25,000 per month, but t
 
 
 Can I migrate from Classplus to AllCoaching?
-Yes. The AllCoaching onboarding team handles migration: student list import (CSV/Excel), course content transfer, payment history reconciliation, batch reassignment. Migration is free — included in the annual subscription, no separate fee. Typical timeline: 3–7 days for a 200–500 student institute. Existing students receive migration emails with new login credentials and retain full course access.
+Yes. The AllCoaching onboarding team handles migration: student list import (CSV/Excel), course content transfer, payment history reconciliation, batch reassignment. Migration is free — free, with no separate fee. Typical timeline: 3–7 days for a 200–500 student institute. Existing students receive migration emails with new login credentials and retain full course access.
 
 
 
@@ -53807,13 +53779,13 @@ Ready to compare for yourself
 
 
 
-## Start a free 30-day trial.
+## Start free — keep 90%.
 No card. No commitment.
 
-Use AllCoaching alongside your existing Classplus subscription for 30 days. Compare daily payouts, marketplace discovery, true cost — then decide.
+Use AllCoaching alongside your existing Classplus subscription. Compare daily payouts, marketplace discovery, true cost — then decide.
 
 
-Start 30-Day Free Trial
+Start free — keep 90%
 
 
 WhatsApp to discuss
@@ -53910,7 +53882,7 @@ Setup fee
 
 Monthly / annual software
 ₹2,500 – ₹1,25,000 / month (₹30K – 15L / year)
-₹11,999 / year (Early Launch) or ₹24,999 / year fixed
+₹0 — no subscription, ever
 
 
 Transaction commission
@@ -53925,7 +53897,7 @@ Included
 
 Annual price escalation
 15–25% per year typical
-None (2-year lock on Early Launch)
+None — there is no price to escalate
 
 
 Marketing / SEO / discovery
@@ -53994,22 +53966,22 @@ Year 1 all-in₹6.47 L
 
 
 
-↳ AllCoaching Early Launch · Year 1 actual cost
-Annual subscription₹11,999
-18% GST on subscription₹2,160
-10% commission on ₹10L (all-inclusive)₹1,00,000
-18% GST on commission (ITC-eligible)₹18,000
+↳ AllCoaching · what a ₹10L year actually costs
+Cost to sign up & start₹0
+Subscription / annual fee₹0 (none)
+Flat 10% platform fee on ₹10L sold₹1,00,000
+Payment gateway markup₹0 (inside the 10%)
 Setup fee₹0
 SMS / WhatsApp credits₹0 (included)
 Marketing (marketplace discovery)₹0 (included)
-Year 1 all-in₹1.32 L
+Year 1 all-in₹1 L
 
 
 
 
 The honest verdict
 
-₹5.15 L
+₹5.47 L
 saved in Year 1 alone — and the gap compounds
 
 
@@ -54085,7 +54057,7 @@ Final cutover, payment routing switched to AllCoaching. Graphy subscription canc
 
 ### Throughout · Zero charges
 
-Migration is free under AllCoaching's annual subscription. No setup fee, no migration consulting fee, no data import charge. Included by default.
+Migration is free on AllCoaching — no subscription, no setup fee, no migration consulting fee, no data import charge. Included by default.
 
 
 
@@ -54158,7 +54130,7 @@ Graphy headline pricing starts around ₹2,500–₹1,25,000 per month, but the 
 
 
 Can I migrate from Graphy to AllCoaching?
-Yes. The AllCoaching onboarding team handles migration: student list import (CSV/Excel), course content transfer, payment history reconciliation, batch reassignment. Migration is free — included in the annual subscription, no separate fee. Typical timeline: 3–7 days for a 200–500 student institute. Existing students receive migration emails with new login credentials and retain full course access.
+Yes. The AllCoaching onboarding team handles migration: student list import (CSV/Excel), course content transfer, payment history reconciliation, batch reassignment. Migration is free — free, with no separate fee. Typical timeline: 3–7 days for a 200–500 student institute. Existing students receive migration emails with new login credentials and retain full course access.
 
 
 
@@ -54202,13 +54174,13 @@ Ready to compare for yourself
 
 
 
-## Start a free 30-day trial.
+## Start free — keep 90%.
 No card. No commitment.
 
-Use AllCoaching alongside your existing Graphy subscription for 30 days. Compare daily payouts, marketplace discovery, true cost — then decide.
+Use AllCoaching alongside your existing Graphy subscription. Compare daily payouts, marketplace discovery, true cost — then decide.
 
 
-Start 30-Day Free Trial
+Start free — keep 90%
 
 
 WhatsApp to discuss
@@ -54305,7 +54277,7 @@ Setup fee
 
 Monthly / annual software
 ₹2,500 – ₹1,25,000 / month (₹30K – 15L / year)
-₹11,999 / year (Early Launch) or ₹24,999 / year fixed
+₹0 — no subscription, ever
 
 
 Transaction commission
@@ -54320,7 +54292,7 @@ Included
 
 Annual price escalation
 15–25% per year typical
-None (2-year lock on Early Launch)
+None — there is no price to escalate
 
 
 Marketing / SEO / discovery
@@ -54389,22 +54361,22 @@ Year 1 all-in₹6.47 L
 
 
 
-↳ AllCoaching Early Launch · Year 1 actual cost
-Annual subscription₹11,999
-18% GST on subscription₹2,160
-10% commission on ₹10L (all-inclusive)₹1,00,000
-18% GST on commission (ITC-eligible)₹18,000
+↳ AllCoaching · what a ₹10L year actually costs
+Cost to sign up & start₹0
+Subscription / annual fee₹0 (none)
+Flat 10% platform fee on ₹10L sold₹1,00,000
+Payment gateway markup₹0 (inside the 10%)
 Setup fee₹0
 SMS / WhatsApp credits₹0 (included)
 Marketing (marketplace discovery)₹0 (included)
-Year 1 all-in₹1.32 L
+Year 1 all-in₹1 L
 
 
 
 
 The honest verdict
 
-₹5.15 L
+₹5.47 L
 saved in Year 1 alone — and the gap compounds
 
 
@@ -54480,7 +54452,7 @@ Final cutover, payment routing switched to AllCoaching. Teachmint subscription c
 
 ### Throughout · Zero charges
 
-Migration is free under AllCoaching's annual subscription. No setup fee, no migration consulting fee, no data import charge. Included by default.
+Migration is free on AllCoaching — no subscription, no setup fee, no migration consulting fee, no data import charge. Included by default.
 
 
 
@@ -54553,7 +54525,7 @@ Teachmint headline pricing starts around ₹2,500–₹1,25,000 per month, but t
 
 
 Can I migrate from Teachmint to AllCoaching?
-Yes. The AllCoaching onboarding team handles migration: student list import (CSV/Excel), course content transfer, payment history reconciliation, batch reassignment. Migration is free — included in the annual subscription, no separate fee. Typical timeline: 3–7 days for a 200–500 student institute. Existing students receive migration emails with new login credentials and retain full course access.
+Yes. The AllCoaching onboarding team handles migration: student list import (CSV/Excel), course content transfer, payment history reconciliation, batch reassignment. Migration is free — free, with no separate fee. Typical timeline: 3–7 days for a 200–500 student institute. Existing students receive migration emails with new login credentials and retain full course access.
 
 
 
@@ -54597,13 +54569,13 @@ Ready to compare for yourself
 
 
 
-## Start a free 30-day trial.
+## Start free — keep 90%.
 No card. No commitment.
 
-Use AllCoaching alongside your existing Teachmint subscription for 30 days. Compare daily payouts, marketplace discovery, true cost — then decide.
+Use AllCoaching alongside your existing Teachmint subscription. Compare daily payouts, marketplace discovery, true cost — then decide.
 
 
-Start 30-Day Free Trial
+Start free — keep 90%
 
 
 WhatsApp to discuss
@@ -54680,7 +54652,7 @@ We'd love to hear from you — whether you're an educator, a student, a parent, 
 
 
 
-Start 30-Day Free Trial
+Start free — keep 90%
 
 Join Now
 
@@ -55448,7 +55420,7 @@ Key facts
 
 - Educators on platform: 2,400+ active as of May 2026. 4.9/5 average educator rating.
 
-- Revenue model: Educators keep 90% of revenue. Annual subscription ₹11,999 (Early Launch, first 50 educators) or ₹24,999 + 10% per transaction.
+- Revenue model: Free to start and free forever — no subscription, no card to sign up. Educators keep 90% of revenue; a flat 10% platform fee applies only on paid sales.
 
 - Payout cadence: Daily, T+1 settlement. No minimum payout threshold.
 
@@ -55680,10 +55652,10 @@ For educators
 
 ## Start teaching with us.
 
-Begin a 30-day free trial, or watch a quick walkthrough. If you'd prefer a live call, just WhatsApp us — we'll set up a demo on your schedule.
+Start free in about a minute — no card, no subscription — or watch a quick walkthrough. If you'd prefer a live call, just WhatsApp us — we'll set up a demo on your schedule.
 
 
-Start 30-Day Free Trial
+Start free — keep 90%
 
 Join Now
 
