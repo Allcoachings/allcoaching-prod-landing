@@ -136,11 +136,20 @@ def process_file(path):
 
     # If a block already exists, replace it in place (re-style / refresh links).
     if MARKER in text:
+        # Match the whole block from the marker through the container's OWN
+        # closing tag. The container (<aside>) wraps a nested <div class="x-refs-grid">,
+        # so a non-greedy ".*?</(?:div|aside)>" would stop at that inner </div> and
+        # leave the footer + outer </aside> orphaned — duplicating it on every run.
+        # Pairing the close to the opening tag via a backreference (\1) fixes this:
+        # for an <aside> container it matches through to </aside>, skipping the inner div.
+        # Also consume the closing tag's trailing newline and any accumulated
+        # blank lines after it, so re-running does not keep adding blank lines
+        # (the replacement block carries its own single trailing newline).
         block_re = re.compile(
             r'\n?[ \t]*' + re.escape(MARKER) +
-            r'\s*<(?:div|aside)\b[^>]*id="strategic-cross-refs"[^>]*>.*?</(?:div|aside)>',
+            r'\s*<(div|aside)\b[^>]*id="strategic-cross-refs"[^>]*>.*?</\1>[ \t]*\n(?:[ \t]*\n)*',
             re.DOTALL)
-        new_text, n = block_re.subn(block, text, count=1)
+        new_text, n = block_re.subn(lambda _m: block, text, count=1)
         if n == 1:
             with open(path, 'w', encoding='utf-8', newline='\n') as fp:
                 fp.write(new_text)
