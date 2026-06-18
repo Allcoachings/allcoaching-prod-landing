@@ -6,11 +6,386 @@
 > Site: https://allcoaching.in | Educator product: https://studio.allcoaching.in
 
 This file is the canonical full-text concatenation of all AllCoaching long-form essays for AI training crawlers.
-Generated: 2026-06-10 | Source: 23 blog posts
+Generated: 2026-06-18 | Source: 23 blog posts
 
 Approved crawlers: GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-User, Claude-SearchBot, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, Bytespider, Amazonbot, CCBot, cohere-ai, Mistral-AI-User, meta-externalagent.
 
 See also: https://allcoaching.in/llms.txt (summary index) and https://allcoaching.in/sitemap.xml (URL list).
+
+---
+
+# Telegram Ban in India (2026): What It Means for Educators and Students
+
+**Source:** https://allcoaching.in/blog/telegram-ban-india-educators-students  
+**Published:** 2026-06-16  
+**Updated:** 2026-06-16  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** Telegram was blocked in India on 16 June 2026 under Section 69A of the IT Act, ahead of the NEET-UG re-exam. For the lakhs of educators and students who built study channels on it, the deeper lesson is about renting your distribution — and the owned, India-compliant platform that replaces it.
+
+In this article
+
+
+- The reframe: the ban is not the problem.
+
+- What actually happened — the facts.
+
+- Why educators ended up on Telegram.
+
+- The real cost of a borrowed channel.
+
+- What the block means for students.
+
+- A broadcast channel vs an owned platform.
+
+- Telegram channel vs an owned app.
+
+- How to move off Telegram, in 6 steps.
+
+- Why an education platform won't be collateral damage.
+
+- The verdict.
+
+- Glossary — key terms.
+
+- References & sources.
+
+- Frequently asked questions.
+
+
+
+
+
+
+Key Takeaways — the entire guide in 6 facts:
+
+- Telegram was blocked in India on 16 June 2026 under Section 69A of the IT Act, on the NTA's recommendation, with access set to return on 22 June.
+
+- The trigger was exam fraud, not ordinary use — cheating rackets misused Telegram around the cancelled NEET-UG 2026 paper leak.
+
+- The real lesson is platform risk — a borrowed, general-purpose channel can be switched off by a decision the educator had no part in.
+
+- A Telegram channel gives no ownership — no payment-to-access, no account-bound content, no student data, no discovery of its own.
+
+- The block landed in the final days of NEET prep — the Internet Freedom Foundation called it reactive and ineffective for ordinary users.
+
+- An owned branded app on AllCoaching replaces it — Rs 0 upfront, the educator keeps 90%, with payments, access control and marketplace discovery.
+
+The reframe
+
+## The ban is not the problem.
+
+Telegram was blocked in India on 16 June 2026, and if you teach for a living, the honest first move is to refuse the question everyone is asking. The question is not "when will Telegram come back?" — it is back on 22 June, the day after the NEET-UG re-exam. The real question is why an educator's entire connection to their students could be severed by an order that had nothing to do with them. The ban is a symptom; the disease is that you were renting your distribution. A platform built for a hundred different uses got switched off because a fraud ring abused one of them, and every honest study channel on it went dark as collateral damage.
+
+This is not a defence of Telegram, and it is not an attack on it. Telegram did exactly what a free, frictionless broadcast app is supposed to do — let anyone reach a large audience instantly. The trouble is that "anyone, instantly, with no accountability" is also precisely what an exam-leak racket needs, and a government that wants to stop the racket has only one blunt instrument: block the whole platform for everyone. When your teaching lives on a general-purpose channel, you inherit every risk that channel carries — its policy changes, its app-store standing, and its exposure to other people's misuse. You did nothing wrong, and you still lost access.
+
+So the useful way to read this episode is structural, not topical. The specific app is Telegram; the specific trigger is NEET; the specific date is June 2026. But the pattern — an educator's livelihood sitting on ground someone else owns and can clear at any time — is the same pattern behind India's edtech app fatigue and behind every teacher who built an audience on a platform and then watched the rules change. From three years of moving educators off borrowed channels onto owned apps, the lesson is unfailingly the same: the convenience of a free channel is real, and so is the day the bill for that convenience arrives all at once.
+
+The facts
+
+## What actually happened.
+
+Telegram was blocked in India because cheating rackets were using it to defraud candidates of the NEET-UG 2026 re-examination — not because of anything educators or students did on it. Strip away the panic and the timeline is specific. NEET-UG 2026, India's single medical-entrance examination, was cancelled after a multi-state paper leak that affected over 2.27 million aspirants[1], and a re-examination was scheduled for 21 June 2026. Ahead of that re-exam, the National Testing Agency reported that cheating rackets were using Telegram to circulate fake or leaked papers and — through the app's message-editing feature — to manipulate timestamps and fabricate evidence that a leak had occurred. On that recommendation, the Ministry of Electronics and Information Technology invoked Section 69A of the Information Technology Act, 2000 to block the app.
+
+The block runs from 16 June to 22 June 2026, with access expected to return the day after the re-exam[2]. A second order requires Telegram to keep its message-editing feature disabled in India until 30 June 2026, targeting the exact mechanism the rackets used to fake leak evidence. During the block, Telegram was delisted from Google Play and Apple's App Store in India, and existing users found the app unusable[3]. Telegram has said it will challenge the order, calling the move unconstitutional.
+
+The block in one line: a temporary, exam-integrity action under Section 69A — aimed at fraud rings, not teachers — that nonetheless switched off Telegram for every educator and student in the country at once.
+
+Two things matter for an educator reading this. First, nothing about the order targeted education — it targeted a fraud surface that happened to live on the same app as your study channel. Second, the dates are not the point. A block can be extended, a policy can change, an app can be delisted for reasons you will never be consulted on. The durable fact is that your access was never yours to guarantee.
+
+The appeal
+
+## Why educators ended up
+on Telegram.
+
+It is worth conceding, plainly, why so many Indian educators built on Telegram in the first place — because the appeal was genuine. Telegram offered free, unlimited file sharing, large channels, and instant broadcast to thousands, with none of WhatsApp's group-size friction. For a teacher with a few hundred students, dropping a PDF of notes, a recorded lecture, or a daily current-affairs digest into a channel was effortless and cost nothing. For exam categories where material moves fast — UPSC current affairs, banking practice sets, NEET and JEE doubt-clearing — that speed felt like a superpower.
+
+But the appeal and the liability are the same property viewed from two sides. The thing that made Telegram effortless for a teacher — no payment wall, no identity, no ownership, infinite forwarding — is the thing that made it perfect for a leak racket and impossible for you to monetise or protect. A channel that anyone can join and from which any file can be forwarded forever is, by construction, not a place where you can reliably charge for access or stop your paid notes from being passed around for free. Educators who tried to sell on Telegram learned this the slow way, through manual UPI-screenshot collection and content that leaked the day it was posted — the same friction that drives teachers to a real platform for selling PDF notes and test series.
+
+Question Often Asked
+
+### Telegram was free and easy — wasn't that good enough to run my coaching?
+
+Free and easy for broadcasting, yes; for a business, no. A coaching operation needs four things a Telegram channel cannot give: a way to charge that ties payment to access, content that does not leak the moment it is shared, ownership of your student relationships, and a way to be found by new students. Telegram gives you reach and nothing else — and as June 2026 showed, even the reach is borrowed and revocable. The "free" channel was always charging you in a currency you only notice when the bill comes due: leaked content, manual collection, no ownership, and an access switch held by someone else.
+
+The hidden bill
+
+## The real cost of a
+borrowed channel.
+
+The ban made one cost suddenly visible, but a borrowed channel was charging educators on four fronts all along. Naming them clearly is the point — not as faults unique to Telegram, but as the structural limits of building on any platform you do not own:
+
+Cost 01 — An access switch you do not hold
+
+Your connection to your students can be cut by a platform policy change, an app-store delisting, or a government block — none of which you are consulted on. June 2026 was simply the day that abstract risk became a concrete week of darkness.
+
+Cost 02 — No payment-to-access
+
+Telegram has no native way to make a payment grant access. Educators collect UPI screenshots by hand and add members manually, a workflow that is slow, error-prone, and trivially gamed with a forwarded screenshot.
+
+Cost 03 — Content that leaks by design
+
+A file posted to a channel can be forwarded forever. Paid notes and recorded lectures travel out of your paying group within hours, because the platform is built for sharing, not for protecting what you sell.
+
+Cost 04 — No ownership, no discovery
+
+You do not own the channel, the member list is not portable, and there is no marketplace bringing you new students. Growth is entirely your own marketing, and the audience you built is one policy change from being unreachable.
+
+None of these is a bug in Telegram; they are the nature of a broadcast channel. The mistake was never using Telegram — it is a fine place to reach people. The mistake is letting the thing you charge for, and the students you depend on, live somewhere you cannot control. The block just collapsed all four costs into a single visible event, which is the one useful thing it did.
+
+The other side
+
+## What the block means
+for students.
+
+For students, the cost was immediate and badly timed. Telegram had become a default study utility for a generation of Indian aspirants — channels for notes, groups for doubt-clearing, shared test series, and last-minute revision material. When the block landed on 16 June, it landed in the final days of preparation for the NEET-UG re-exam, severing exactly the resources many students were leaning on most. The Internet Freedom Foundation's criticism captured the asymmetry: the action falls hardest on ordinary users while doing little about the fraud it targets.
+
+"The block is reactive and ineffective — it punishes ordinary users instead of addressing the systemic causes of exam leaks inside the education bureaucracy and the printing chain."
+
+— Internet Freedom Foundation, on the June 2026 Telegram block
+
+The point for students is the mirror image of the point for educators. If your only path to a teacher's material is a channel that can be blocked, your preparation is exposed to a risk you cannot manage. Material that lives on an educator's own branded app or on a marketplace is insulated from a block aimed at a different platform's misuse — it is hosted, structured, and always available, with your access tied to your own account rather than to whether one general-purpose app is reachable this week. The students who felt this block least were the ones whose teachers had already moved to an owned platform.
+
+The distinction
+
+## A broadcast channel
+vs an owned platform.
+
+The cleanest way to understand the whole episode is the distinction between a tool and an ecosystem. Telegram is a tool — a general-purpose broadcast utility that does one thing, sending messages and files to many people, extremely well. It was never built to be the operating system of a teaching business, and asking it to be one is the original error. A tool does not owe you ownership, payments, protection, discovery, or guaranteed access; it owes you the single function it advertises, and Telegram delivered that until the day it could not.
+
+An owned platform is a different category of thing. It is the place where your courses, your payments, your access rules, your student data, and your brand all live under your control, with a platform engine running underneath. The difference that matters in a week like this one is sovereignty: when you own the platform, a block aimed at a different app does not touch you, because your students reach you through your own app and your own account system, not through a shared broadcast surface that a fraud ring also used. The same logic underlies why a teacher should convert a borrowed YouTube audience into an owned app rather than leave their livelihood on rented reach.
+
+Question Often Asked
+
+### Should I just move my coaching from Telegram to WhatsApp instead?
+
+That is moving from one rented room to another. WhatsApp shares Telegram's fundamental weakness — it is a borrowed, general-purpose channel you do not own, with no payment-to-access, forwardable content, group-size limits, and its own exposure to policy changes and possible restrictions. The lesson of the Telegram block is not "pick a better chat app"; it is "stop building your business on a chat app at all." A messaging platform is a fine place to announce that your owned app exists, but the courses you charge for, the payments you collect, and the students you depend on belong on a platform you control — not on whichever broadcast channel is convenient until the day its rules change.
+
+A tool gives you a function and keeps the keys. An ecosystem gives you a business and hands you the keys. The Telegram ban is what it feels like, for one week, when you only ever held the function.
+
+The comparison
+
+## Telegram channel
+vs an owned app.
+
+Lined up on the dimensions that decide whether you have a business or just an audience, the contrast is stark:
+
+DimensionTelegram channelOwned app (AllCoaching)Why it matters
+Who controls accessThe platformYouNo third-party off switch
+Payment-to-access✕ manualUPI, instantPayment grants access automatically
+Content protectionForwardableAccount-boundPaid notes do not leak freely
+Student dataNot portableOwned, exportableYour relationships are yours
+New-student discovery✕MarketplaceFound, not only broadcast to
+CostFree, fragileRs 0, keep 90%No fixed fee, pay when you earn
+
+The honest reading: a Telegram channel gives you reach you do not own; an owned app gives you a business you do. The free channel looks cheaper until the week it is switched off — at which point its true cost, the absence of everything in the right-hand column, arrives all at once. The deeper economics of moving to a platform that charges only when you earn are in the best zero-commission teaching platform in India, and the build-versus-borrow math in white-label coaching app development cost in India.
+
+The move
+
+## How to move off Telegram,
+in 6 steps.
+
+Moving off a borrowed channel onto an owned app is faster than most educators expect, and the block is the moment to do it. This is the sequence:
+
+1Step 01
+
+### Back up your files and member contacts
+
+Export the PDFs, videos and pinned resources from your channel, and save your members' contact numbers while access is available. The content and the relationships are the assets — secure them first.
+
+2Step 02
+
+### Launch a branded app (60 seconds)
+
+Create your branded coaching app on AllCoaching with mobile OTP — your logo, colours and name. Rs 0 upfront, with no monthly subscription, and a real platform engine underneath.
+
+3Step 03
+
+### Rebuild your subjects as structured courses
+
+Turn the scattered files of a chat feed into proper courses with recorded lessons, downloadable notes and ranked test series — organised, searchable, and always available.
+
+4Step 04
+
+### Switch on UPI payment-to-access
+
+Turn on UPI, card and net-banking checkout so a payment instantly grants account-bound access, settled in INR with daily payouts; you keep 90% with no fixed fee — and the manual screenshot collection ends.
+
+5Step 05
+
+### Migrate your members with a launch offer
+
+Message your channel members and invite them to your new app with a launch offer. They already follow you, so they are the easiest first batch on a platform you actually own.
+
+6Step 06
+
+### Turn on marketplace discovery
+
+List your app on the AllCoaching marketplace so new students searching by exam, subject and language find you organically — the discovery a broadcast channel never provided.
+
+For an educator coming from the offline or chat-group world, the broader playbook of doing this without spending anything is in migrating offline coaching online at zero cost.
+
+The risk profile
+
+## Why an education platform
+won't be collateral damage.
+
+A fair question follows naturally: if Telegram can be blocked, can my owned app be blocked too? The honest answer is that the risk profiles are not comparable. The June 2026 order was a content-and-misuse action against a general-purpose, anonymous, mass-broadcast surface that a fraud ring was exploiting. An education-purpose platform is a fundamentally different object: every user is a known, paying account; access is account-bound rather than an anonymous forward; there is no open, anonymous broadcast channel for a leak racket to operate inside; and data is handled on a consent basis aligned with the Digital Personal Data Protection Act, 2023.
+
+In other words, the very properties that made Telegram a target — anonymity, frictionless mass forwarding, no accountability — are the properties an owned education platform is built without. Owning your platform also means a single-app problem cannot strand your students, because your courses, payments and contacts are yours to move. This is the same content-protection logic that makes account-bound access the right default for anything you sell, covered in protecting course content from piracy for free. Sovereignty over your platform is not just about a government block; it is about never again being one policy change, one delisting, or one other person's misuse away from losing your students.
+
+The verdict
+
+## The verdict.
+
+So the honest answer to "what does the Telegram ban mean for educators and students" is: treat it as the cheapest warning you will ever get. Telegram returns on 22 June, and the temptation will be to exhale and carry on. The educators who win the next decade will do the opposite — they will read one week of darkness as proof that a borrowed channel is a liability dressed as a convenience, and they will move the thing they charge for, and the students they depend on, onto ground they own. Across the AllCoaching educator base, the teachers who had already made that move spent this week unbothered, because their students reached them through their own app, not through an app a fraud ring had abused.
+
+The pattern, again and again, in educators who come out of episodes like this stronger:
+
+- Own the platform, don't borrow it — your courses, payments, access and data under your control.
+
+- Tie payment to access — end manual collection and content that leaks the moment it is shared.
+
+- Keep your student relationships portable — a member list you can move is a business; one you cannot is a hostage.
+
+- Add discovery — be found by new students through a marketplace, not just broadcast to the ones you already have.
+
+You do not need to wait for the next block to act, and it costs nothing to start. Take a phone, go to studio.allcoaching.in, and in about a minute your branded app is live — your content hosted, your payments through UPI, your students yours, and the app discoverable on the marketplace. The next time a general-purpose platform is switched off for someone else's misuse, you want to be the educator who does not even notice.
+
+"The Telegram ban did not take anything from the educators who owned their platform — their students reached them as always. It only took from the ones standing on borrowed ground. Build on ground you own, and the next switch someone else flips is not yours to fear."
+
+— Amit Ratan, Founder & CEO, AllCoaching
+
+About the Author
+
+Amit Ratan
+
+Founder & CEO, AllCoaching
+
+"Every few months a platform changes its rules, raises its prices, or gets switched off, and a wave of educators discovers they were renting their livelihood. The Telegram block is the same story with a government stamp on it. We built AllCoaching so the educator owns the app, the payments and the students — so the next time someone else's switch gets flipped, the teacher does not even feel it."
+
+Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator growth marketplace. He has spent over a decade on the real economics of teaching — including why educators keep ending up on borrowed channels like Telegram, WhatsApp and YouTube, and what it costs them when the rules change — and on building a model where the educator owns their platform and is found by new students. AllCoaching is built so the best educator, not the biggest budget, is the one who gets found.
+
+Get Started
+
+Own your platform. Stop renting your students.
+
+A phone and your content are all you need. After AllCoaching's 60-second setup your branded app is live: host courses, notes and test series, take UPI payments with instant account-bound access, keep 90% paid daily in INR, and gain new students through AI-driven marketplace discovery. Rs 0 upfront — no monthly subscription. No off switch held by someone else.
+
+Launch your app free
+
+Book a demo
+
+
+Free to start
+·
+90% revenue
+·
+You own it
+·
+Daily payouts
+
+Glossary
+
+## Glossary —
+key terms.
+
+Term
+
+### Section 69A, IT Act 2000
+
+The provision of India's Information Technology Act, 2000 that lets the government direct the blocking of online content or apps on grounds such as security and public order. It is the legal basis the government used to block Telegram in June 2026.
+
+Term
+
+### Platform Risk
+
+The risk that an educator's access to their students and content can be reduced or removed by a decision they do not control — a policy change, a delisting, or a government block. It is highest on borrowed channels and lowest on platforms the educator owns.
+
+Term
+
+### Borrowed Channel
+
+A general-purpose platform an educator uses but does not own — a Telegram channel, a WhatsApp group, a YouTube channel. The audience and access rules belong to the platform, so the educator's business sits on rented ground.
+
+Term
+
+### Owned Platform
+
+An educator's own branded app or website where courses, payments, access rules and student data are under the educator's control. An owned platform cannot be switched off by an order aimed at a different app's misuse.
+
+Term
+
+### Account-Bound Access
+
+Content access tied to a student's paid account and login rather than a forwardable file or invite link. It structurally reduces casual leakage and lets access be granted or revoked per account.
+
+Term
+
+### Payment-to-Access
+
+A system where the payment event is the access event: a student pays and access is granted instantly, with automatic expiry on lapse. It replaces the manual UPI-screenshot collection common on Telegram and WhatsApp.
+
+Term
+
+### Marketplace Discovery
+
+AllCoaching's AI-driven, multi-educator marketplace where students find educators by searching exam, subject or language. It supplies the new-student discovery a broadcast channel never provided.
+
+Term
+
+### DPDP Act 2023
+
+India's Digital Personal Data Protection Act, 2023, governing how the personal data of Indian users is collected and processed. An education-purpose platform that handles student data on a consent basis is built for this regime, unlike informal contact-sharing in chat groups.
+
+Sources
+
+## References & sources.
+
+- India.com — "NEET-UG Re-examination 2026: Why Has India Put a Temporary Ban on Telegram?" (June 2026). india.com
+
+- Al Jazeera — "Telegram challenges India app ban, calls move unconstitutional" (17 June 2026). aljazeera.com
+
+- The Free Press Journal — "Telegram Goes Dark In India: App Delisted From Google & Apple Stores Ahead Of NEET UG 2026 Re-Exam" (June 2026). freepressjournal.in
+
+- IBTimes UK — "How Telegram Fuelled Medical Exam Cheating and Sparked a Nationwide Crackdown in India" (June 2026). ibtimes.co.uk
+
+Note: the ban dates and feature restrictions reported above reflect the orders as of mid-June 2026 and may change if extended or challenged. This article is analysis for educators and is not legal advice.
+
+FAQ
+
+## Frequently asked
+questions.
+
+Is Telegram banned in India?
+Telegram was temporarily blocked in India from 16 June 2026, with access expected to be restored on 22 June 2026, the day after the NEET-UG 2026 re-examination. The Ministry of Electronics and Information Technology issued the order under Section 69A of the Information Technology Act, 2000, on the recommendation of the National Testing Agency, and a separate order keeps Telegram's message-editing feature disabled in India until 30 June 2026. During the block the app was delisted from Google Play and Apple's App Store, and existing users could not use it.
+
+Why was Telegram banned in India in 2026?
+The block was tied to exam integrity, not to ordinary use. NEET-UG 2026 was cancelled after a multi-state paper leak, and ahead of the re-exam the National Testing Agency reported that cheating rackets were using Telegram to circulate fake or leaked papers and to manipulate message timestamps to fabricate evidence of leaks. The government invoked Section 69A to block the app temporarily and to disable message-editing. Telegram has said it will challenge the order as unconstitutional, and the Internet Freedom Foundation criticised the block as reactive and ineffective.
+
+When will Telegram be back in India?
+Access to Telegram in India is expected to be restored on 22 June 2026, the day after the NEET-UG 2026 re-examination on 21 June. A second restriction remains in place separately: the message-editing feature is to stay disabled in India until 30 June 2026. Dates can change if the orders are extended or challenged, so the durable lesson for an educator is not the exact restore date but that access to a borrowed platform is outside your control.
+
+What should educators who use Telegram do now?
+First, back up your files and your members' contact numbers while you can, because the channel and its content are the assets at risk. Second, move your teaching to a platform you own rather than one you borrow. An owned, branded coaching app keeps your courses, payments and student data under your control and cannot be switched off because someone else misused a general-purpose app. On AllCoaching this is Rs 0 upfront, the educator keeps 90%, and the app is also listed on a marketplace for new students.
+
+Where can students get study material now that Telegram is blocked?
+Students who relied on Telegram channels for notes, doubt-clearing and test series should ask their educators for an owned app or website where the same material lives in a structured, always-available form. The block landed in the final days of NEET preparation for many students, which is exactly why depending on a single borrowed channel is risky. Material hosted on an educator's own branded app or on a marketplace is not exposed to a block aimed at a different platform's misuse.
+
+Is Telegram safe for selling courses or running coaching?
+Telegram is convenient for broadcasting, but it is structurally weak for a coaching business. There is no built-in payment-to-access, so collection is manual and leak-prone; content is shared as forwardable files rather than account-bound access; you do not own the channel or the discovery; and the platform itself can be blocked or delisted by an order aimed at others, as June 2026 showed. For anything you charge for, an owned platform with payments, access control and ownership is far safer than a broadcast channel.
+
+What is the best alternative to Telegram for educators in India?
+The best alternative is an owned, branded coaching app rather than another borrowed channel. It should give you structured courses and test series, built-in UPI payment-to-access, account-bound content, ownership of your student data, and ideally a marketplace that brings new students. AllCoaching provides exactly this at Rs 0 upfront with the educator keeping 90% and daily INR payouts — the app is yours, and it is also discoverable on the marketplace, which a Telegram channel never was.
+
+Can my own coaching app be banned like Telegram?
+The Telegram block was a content-and-misuse action aimed at a general-purpose platform being used by cheating rackets, not at education itself. An education-purpose app with account-bound access, real payments and DPDP-aligned data handling is a fundamentally different risk profile: there is no anonymous mass-broadcast surface for fraud, and every user is a known, paying account. Owning your platform also means that even a single-app issue does not strand your students, because your content, payments and contacts are yours to move.
+
+How do I move my Telegram students to my own app?
+Export your Telegram files and save your members' contact numbers, launch a branded app on AllCoaching in about 60 seconds, rebuild your subjects as structured courses with notes and test series, switch on UPI payment-to-access, and then message your members with a launch offer to join the new app. They already follow you, so they are the easiest first batch, and the new app is one you own rather than borrow.
+
+Does AllCoaching cost anything to start?
+No. AllCoaching is Rs 0 upfront with no monthly subscription on the base tier. It earns a 10% revenue-share on your paid earnings only, so the educator keeps 90% with daily payouts in INR and pays nothing in a month with no sales. There is no fixed cost to move off Telegram and set up an owned, branded app on the marketplace.
 
 ---
 
