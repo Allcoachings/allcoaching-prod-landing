@@ -48,6 +48,7 @@ POSTS = {
     'classplus-vs-graphy-vs-allcoaching': 'Classplus vs Graphy vs AllCoaching comparison',
     'edtech-marketplace-india-app-fatigue': 'EdTech marketplace and app fatigue in India',
     'online-coaching-academy-without-coding': 'online coaching academy without coding',
+    'personal-brand-for-educators-india': 'personal brand for educators in India',
 }
 
 # Topic categories → posts (used to pick contextually-related cross-refs)
@@ -56,7 +57,7 @@ CATEGORIES = {
     'economics': ['white-label-coaching-app-development-cost-india', 'best-zero-commission-teaching-platform-india', 'affordable-lms-for-independent-educators', 'sell-online-courses-without-monthly-subscription', 'best-upi-payment-gateway-for-online-courses'],
     'operations': ['automated-fee-management-software-for-teachers', 'automate-student-onboarding-for-coaching-app', 'migrate-offline-coaching-to-online-zero-cost', 'how-to-start-online-academy-in-5-steps', 'how-to-get-first-500-students-for-coaching-app', 'best-upi-payment-gateway-for-online-courses', 'how-to-create-landing-page-for-online-course'],
     'infrastructure': ['secure-video-hosting-for-educational-content', 'protect-course-content-from-piracy-for-free', 'how-to-conduct-live-classes-on-mobile-apps', 'best-free-tools-for-teachers-to-record-lectures', 'budget-home-studio-setup-for-online-teaching'],
-    'growth': ['monetize-youtube-teaching-channel-via-personal-app', 'best-platform-for-selling-pdf-notes-and-test-series', 'seo-strategies-for-online-course-creators', 'using-chatgpt-for-course-curriculum-design', 'how-to-create-landing-page-for-online-course'],
+    'growth': ['monetize-youtube-teaching-channel-via-personal-app', 'best-platform-for-selling-pdf-notes-and-test-series', 'seo-strategies-for-online-course-creators', 'personal-brand-for-educators-india', 'using-chatgpt-for-course-curriculum-design', 'how-to-create-landing-page-for-online-course'],
     'compliance': ['indian-edtech-laws-and-regulations-for-teachers', 'online-coaching-academy-without-coding'],
 }
 
@@ -87,6 +88,7 @@ POST_CATEGORIES = {
     'classplus-vs-graphy-vs-allcoaching': ['architecture', 'economics'],
     'edtech-marketplace-india-app-fatigue': ['architecture', 'growth'],
     'online-coaching-academy-without-coding': ['compliance', 'operations'],
+    'personal-brand-for-educators-india': ['growth', 'architecture'],
 }
 
 def pick_cross_refs(slug):
