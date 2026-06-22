@@ -49,6 +49,7 @@ POSTS = {
     'edtech-marketplace-india-app-fatigue': 'EdTech marketplace and app fatigue in India',
     'online-coaching-academy-without-coding': 'online coaching academy without coding',
     'personal-brand-for-educators-india': 'personal brand for educators in India',
+    'how-much-can-you-earn-teaching-online-india': 'how much you can earn teaching online in India',
 }
 
 # Topic categories → posts (used to pick contextually-related cross-refs)
@@ -89,6 +90,7 @@ POST_CATEGORIES = {
     'edtech-marketplace-india-app-fatigue': ['architecture', 'growth'],
     'online-coaching-academy-without-coding': ['compliance', 'operations'],
     'personal-brand-for-educators-india': ['growth', 'architecture'],
+    'how-much-can-you-earn-teaching-online-india': ['economics', 'growth'],
 }
 
 def pick_cross_refs(slug):
