@@ -53,6 +53,10 @@ POSTS = {
     'will-ai-tutors-replace-coaching-teachers-india': 'will AI tutors replace coaching teachers in India',
     'future-of-edtech-india-after-byjus-independent-educator': 'the future of edtech in India after Byju\'s',
     'new-coaching-center-rules-india-2026': 'new coaching rules in India for educators',
+    'coaching-centre-library-safety-norms-avoid-sealing-india': 'coaching centre and library safety norms in India',
+    'reduce-student-dropout-online-coaching-india': 'how to reduce student drop-off in online coaching',
+    'online-cuet-coaching-platform-for-educators': 'online CUET coaching platform for educators',
+    'how-to-price-online-courses-india': 'how to price your online course in India',
 }
 
 # Topic categories → posts (used to pick contextually-related cross-refs)
@@ -97,6 +101,10 @@ POST_CATEGORIES = {
     'will-ai-tutors-replace-coaching-teachers-india': ['growth', 'architecture'],
     'future-of-edtech-india-after-byjus-independent-educator': ['architecture', 'economics'],
     'new-coaching-center-rules-india-2026': ['compliance', 'economics'],
+    'coaching-centre-library-safety-norms-avoid-sealing-india': ['compliance', 'operations'],
+    'reduce-student-dropout-online-coaching-india': ['operations', 'growth'],
+    'online-cuet-coaching-platform-for-educators': ['architecture', 'operations'],
+    'how-to-price-online-courses-india': ['economics', 'growth'],
 }
 
 def pick_cross_refs(slug):
