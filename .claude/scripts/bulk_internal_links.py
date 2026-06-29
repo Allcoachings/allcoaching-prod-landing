@@ -57,6 +57,7 @@ POSTS = {
     'reduce-student-dropout-online-coaching-india': 'how to reduce student drop-off in online coaching',
     'online-cuet-coaching-platform-for-educators': 'online CUET coaching platform for educators',
     'how-to-price-online-courses-india': 'how to price your online course in India',
+    'best-ai-tools-for-teachers-india': 'best AI tools for teachers in India',
 }
 
 # Topic categories → posts (used to pick contextually-related cross-refs)
@@ -105,6 +106,7 @@ POST_CATEGORIES = {
     'reduce-student-dropout-online-coaching-india': ['operations', 'growth'],
     'online-cuet-coaching-platform-for-educators': ['architecture', 'operations'],
     'how-to-price-online-courses-india': ['economics', 'growth'],
+    'best-ai-tools-for-teachers-india': ['growth', 'architecture'],
 }
 
 def pick_cross_refs(slug):

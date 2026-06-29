@@ -13,8 +13,8 @@
     <copyright>© 2026 AllCoaching Technologies Pvt. Ltd.</copyright>
     <managingEditor>allcoachingss@gmail.com (Amit Ratan)</managingEditor>
     <webMaster>allcoachingss@gmail.com (Amit Ratan)</webMaster>
-    <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-    <lastBuildDate>Sun, 28 Jun 2026 07:28:46 +0000</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 12:24:49 +0000</lastBuildDate>
     <category>Education</category>
     <category>EdTech</category>
     <category>India</category>
@@ -22,7 +22,7 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>1440</ttl>
     <image>
-      <url>https://allcoaching.in/assets/AllCoaching-logo.webp?v=20260629</url>
+      <url>https://allcoaching.in/assets/AllCoaching-logo.webp</url>
       <title>AllCoaching</title>
       <link>https://allcoaching.in/</link>
       <width>200</width>
@@ -31,6 +31,19 @@
     <sy:updatePeriod>weekly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
 
+    <item>
+      <title>Best AI Tools for Teachers in India (2026) — and Where to Actually Use Them</title>
+      <link>https://allcoaching.in/blog/best-ai-tools-for-teachers-india</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/best-ai-tools-for-teachers-india</guid>
+      <description>The best AI tools for teachers in India in 2026 — by job: lesson plans, notes, slides, quizzes and mock tests, video and voice, doubt-solving and marketing. Plus the part most lists skip: AI creates content fast, but a folder of AI-made material earns nothing. Here is how to turn it into income on the AllCoaching edtech marketplace.</description>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/best-ai-tools-for-teachers-india.webp" type="image/webp" />
+    </item>
     <item>
       <title>Coaching Centre &amp;amp; Library Safety Norms in India: How to Avoid Sealing (2026)</title>
       <link>https://allcoaching.in/blog/coaching-centre-library-safety-norms-avoid-sealing-india</link>
