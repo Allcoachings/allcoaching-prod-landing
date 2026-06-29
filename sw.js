@@ -23,9 +23,9 @@ const PRECACHE_URLS = [
   '/styles.css',
   '/dist/tw.min.css',
   '/manifest.webmanifest',
-  '/assets/AllCoaching-logo.webp',
+  '/assets/AllCoaching-logo.webp?v=20260629',
   '/assets/Amit-Ratan.webp',
-  '/assets/fevicon.webp'
+  '/assets/fevicon.webp?v=20260629'
 ];
 
 self.addEventListener('install', (event) => {

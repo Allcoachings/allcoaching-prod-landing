@@ -37,7 +37,7 @@ def _publisher_block(site: SiteConfig) -> dict:
         "url": site.url,
         "logo": {
             "@type": "ImageObject",
-            "url": f"{site.url}/assets/AllCoaching-logo.webp",
+            "url": f"{site.url}/assets/AllCoaching-logo.webp?v=20260629",
             "width": 200, "height": 50,
         },
         "sameAs": [
