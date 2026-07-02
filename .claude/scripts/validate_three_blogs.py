@@ -3,9 +3,8 @@ import re, json, os, html
 os.chdir(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 SLUGS = [
-    "how-housewives-can-start-teaching-online-india",
-    "how-to-teach-online-without-showing-your-face-india",
-    "whatsapp-channels-for-coaching-educators-india",
+    "how-to-teach-yoga-fitness-classes-online-india",
+    "online-ugc-net-coaching-platform-for-educators",
 ]
 
 def strip_tags(s):

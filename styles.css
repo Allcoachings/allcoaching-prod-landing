@@ -356,7 +356,7 @@ input[type="range"].slider::-moz-range-thumb{ width:24px; height:24px; border-ra
   transition: gap .25s var(--ease), color .25s var(--ease);
 }
 .blog-card-cta::after{
-  content:"→"; font-weight:800; transition: transform .3s var(--ease);
+  content:"→"; font-weight:700; transition: transform .3s var(--ease);
 }
 .blog-card:hover .blog-card-cta{ color:var(--accent); gap:.6rem; }
 .blog-card:hover .blog-card-cta::after{ transform: translateX(3px); }

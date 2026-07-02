@@ -62,6 +62,8 @@ POSTS = {
     'how-housewives-can-start-teaching-online-india': 'how a housewife can start teaching online from home',
     'how-to-teach-online-without-showing-your-face-india': 'how to teach online without showing your face',
     'whatsapp-channels-for-coaching-educators-india': 'WhatsApp Channels for coaching educators',
+    'how-to-teach-yoga-fitness-classes-online-india': 'how to teach yoga and fitness classes online',
+    'online-ugc-net-coaching-platform-for-educators': 'online UGC-NET coaching platform for educators',
 }
 
 # Topic categories → posts (used to pick contextually-related cross-refs)
@@ -115,6 +117,8 @@ POST_CATEGORIES = {
     'how-housewives-can-start-teaching-online-india': ['growth', 'economics'],
     'how-to-teach-online-without-showing-your-face-india': ['growth', 'infrastructure'],
     'whatsapp-channels-for-coaching-educators-india': ['growth', 'architecture'],
+    'how-to-teach-yoga-fitness-classes-online-india': ['growth', 'economics'],
+    'online-ugc-net-coaching-platform-for-educators': ['architecture', 'operations'],
 }
 
 def pick_cross_refs(slug):
