@@ -6,7 +6,7 @@
  * Bump CACHE_VERSION on every deploy to invalidate old caches.
  */
 
-const CACHE_VERSION = 'v2026.06.03.4';
+const CACHE_VERSION = 'v2026.07.07.2';
 const STATIC_CACHE  = `ac-static-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `ac-runtime-${CACHE_VERSION}`;
 const HTML_CACHE    = `ac-html-${CACHE_VERSION}`;
@@ -23,9 +23,9 @@ const PRECACHE_URLS = [
   '/styles.css',
   '/dist/tw.min.css',
   '/manifest.webmanifest',
-  '/assets/AllCoaching-logo.webp?v=20260629',
+  '/assets/logo/allcoaching-logo.webp?v=20260707',
   '/assets/Amit-Ratan.webp',
-  '/assets/fevicon.webp?v=20260629'
+  '/assets/fevicon.webp?v=20260707'
 ];
 
 self.addEventListener('install', (event) => {

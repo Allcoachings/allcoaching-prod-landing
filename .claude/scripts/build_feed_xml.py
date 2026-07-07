@@ -115,11 +115,11 @@ def main():
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>1440</ttl>
     <image>
-      <url>https://allcoaching.in/assets/AllCoaching-logo.webp</url>
+      <url>https://allcoaching.in/assets/logo/allcoaching-logo.webp?v=20260707</url>
       <title>AllCoaching</title>
       <link>https://allcoaching.in/</link>
-      <width>200</width>
-      <height>50</height>
+      <width>512</width>
+      <height>512</height>
     </image>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>

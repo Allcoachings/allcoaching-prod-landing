@@ -199,7 +199,7 @@ def _build_schemas(site_url: str, page_title: str,
             "url": site_url,
             "logo": {
                 "@type": "ImageObject",
-                "url": f"{site_url}/assets/AllCoaching-logo.webp?v=20260629",
+                "url": f"{site_url}/assets/logo/allcoaching-logo.webp?v=20260707",
             },
         },
         "blogPost": blog_posts,

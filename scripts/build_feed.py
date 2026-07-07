@@ -152,7 +152,7 @@ def build_feed() -> str:
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>1440</ttl>
     <image>
-      <url>{site_url}/assets/AllCoaching-logo.webp?v=20260629</url>
+      <url>{site_url}/assets/logo/allcoaching-logo.webp?v=20260707</url>
       <title>{_xml_escape(site.name)}</title>
       <link>{site_url}/</link>
       <width>200</width>

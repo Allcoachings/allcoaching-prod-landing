@@ -68,8 +68,8 @@ for slug in SLUGS:
           "| tldr bullets:", len(re.findall(r'<li><strong>', t.split('id="tldr"')[1].split('</ul>')[0])) if 'id="tldr"' in t else 0)
     print("  lang en-IN:", 'lang="en-IN"' in t,
           "| delayed-GTM:", 'w.__gtm' in t,
-          "| versioned-logo:", t.count('fevicon.webp?v=20260629'),
-          "| publisher-logo-v:", 'AllCoaching-logo.webp?v=20260629' in t)
+          "| versioned-logo:", t.count('fevicon.webp?v=20260707'),
+          "| publisher-logo-v:", 'logo/allcoaching-logo.webp?v=20260707' in t)
     # internal links in body (exclude nav/footer/related/x-refs)
     body = t.split('id="real-problem"')[1].split('<!-- ================= RELATED ARTICLES')[0] if 'id="real-problem"' in t else ""
     inbody = len(re.findall(r'href="https://allcoaching\.in/blog', body)) + len(re.findall(r'href="https://allcoaching\.in/blogs/', body))
