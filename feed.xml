@@ -13,8 +13,8 @@
     <copyright>© 2026 AllCoaching Technologies Pvt. Ltd.</copyright>
     <managingEditor>allcoachingss@gmail.com (Amit Ratan)</managingEditor>
     <webMaster>allcoachingss@gmail.com (Amit Ratan)</webMaster>
-    <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Jul 2026 07:45:05 +0000</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2026 20:18:41 +0000</lastBuildDate>
     <category>Education</category>
     <category>EdTech</category>
     <category>India</category>
@@ -22,7 +22,7 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>1440</ttl>
     <image>
-      <url>https://allcoaching.in/assets/logo/allcoaching-logo.webp</url>
+      <url>https://allcoaching.in/assets/logo/allcoaching-logo.webp?v=20260707</url>
       <title>AllCoaching</title>
       <link>https://allcoaching.in/</link>
       <width>512</width>
@@ -31,6 +31,32 @@
     <sy:updatePeriod>weekly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
 
+    <item>
+      <title>Bank Exam Coaching App for Educators — Own-Brand Mocks (2026)</title>
+      <link>https://allcoaching.in/blog/bank-exam-coaching-app-for-educators</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/bank-exam-coaching-app-for-educators</guid>
+      <description>The best app for an IBPS or SBI PO coach to sell sectional mocks under their own brand — sectional cut-offs, speed-and-accuracy analytics, Rs 0, keep 90% on sales.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/bank-exam-coaching-app-for-educators.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Testbook Alternative for Educators — Sell Your Own Mocks (2026)</title>
+      <link>https://allcoaching.in/blog/testbook-alternative-for-educators</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/testbook-alternative-for-educators</guid>
+      <description>A Testbook alternative for educators who want to sell their own mock tests in 2026 — own the brand, ranks and student data, launch for Rs 0, keep 90% with a flat 10% on sales.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/testbook-alternative-for-educators.webp" type="image/webp" />
+    </item>
     <item>
       <title>Best NEET Coaching Platform for Educators — Own App (2026)</title>
       <link>https://allcoaching.in/blog/online-neet-coaching-platform-for-educators</link>
