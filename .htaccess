@@ -39,6 +39,19 @@ ErrorDocument 500 /404.html
   RewriteRule ^app-fatigue-allcoaching/?$ /blog/edtech-marketplace-india-app-fatigue [R=301,L,NE]
   RewriteRule ^classplus-vs-graphy-vs-allcoaching/?$ /blog/classplus-vs-graphy-vs-allcoaching [R=301,L,NE]
 
+  # 301 — legacy WordPress-era URLs still earning Search impressions (were 404)
+  RewriteRule ^about-allcoaching/?$ /about [R=301,L,NE]
+  RewriteRule ^privacy-policy-allcoaching/?$ /privacy [R=301,L,NE]
+  RewriteRule ^help/?$ /faq [R=301,L,NE]
+  RewriteRule ^partners/?$ /about [R=301,L,NE]
+  RewriteRule ^transparency/?$ /pricing [R=301,L,NE]
+  RewriteRule ^community/?$ / [R=301,L,NE]
+  RewriteRule ^category/[a-z0-9-]+/?$ /blog/ [R=301,L,NE]
+  RewriteRule ^(?:video|classic|standard)-post/?$ /blog/ [R=301,L,NE]
+
+  # 301 — /index and /index.html duplicate the homepage → canonical root
+  RewriteRule ^index(?:\.html)?/?$ / [R=301,L,NE]
+
   # BEGIN-AUTO-REDIRECTS — managed by scripts/build_redirects.py (do not edit between markers)
   # Hinglish post moved under /blogs/ unified hub
   RewriteRule ^hinglish/blog/apna\-coaching\-app\-kaise\-banaye\-free/?$ /blogs/hinglish/apna-coaching-app-kaise-banaye-free [R=301,L,NE]
