@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["BYUARNR4SF.org.student.allcoaching"],
+        "components": [
+          { "/": "/institute/*" },
+          { "/": "/course/*" },
+          { "/": "/shorts/*" }
+        ]
+      }
+    ]
+  }
+}

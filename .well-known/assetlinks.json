@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "org.student.allcoaching",
+      "sha256_cert_fingerprints": [
+        "2D:FF:45:41:D4:6B:59:06:6F:FF:1F:15:1E:38:35:F7:C3:CD:D1:03:2B:D3:1E:B5:7D:C4:A9:4C:B9:30:1F:2C"
+      ]
+    }
+  }
+]
