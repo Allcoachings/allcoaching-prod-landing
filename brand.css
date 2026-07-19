@@ -1555,6 +1555,15 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
 header.mast-dark{padding-top:3.5rem !important;}
 @media (max-width:760px){#main-content > section:first-of-type{padding-top:2rem !important;} header.mast-dark{padding-top:2.5rem !important;}}
 
+/* @GROW-CTA — honest growing-marketplace inline CTA (inserted after #tldr in blog posts) */
+.grow-cta{margin:2.2rem 0 0; padding:1.35rem 1.5rem; background:#FFFFFF; border:1px solid #E5DDD0; border-left:3px solid #C58B43; border-radius:14px;}
+.grow-cta .gc-label{font-family:'JetBrains Mono',monospace; font-size:10.5px; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:#9C6A2E; margin:0 0 .55rem;}
+.grow-cta p{margin:0; font-size:15.5px; line-height:1.75; color:#4F4840;}
+.grow-cta .gc-row{display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-top:.95rem;}
+.grow-cta .gc-btn{display:inline-flex; align-items:center; gap:8px; height:40px; padding:0 18px; border-radius:10px; background:linear-gradient(180deg,#E0A95C,#C58B43); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:13.5px; text-decoration:none; box-shadow:0 6px 16px -6px rgba(197,139,67,.5); transition:transform .18s ease, box-shadow .18s ease;}
+.grow-cta .gc-btn:hover{transform:translateY(-2px); box-shadow:0 10px 22px -6px rgba(197,139,67,.55);}
+.grow-cta .gc-note{font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:#8C8378;}
+
 /* @CHROME-SIMPLE */
 .topbar.simple .actions{margin-left:auto;}
 @media (max-width:760px){.topbar.simple{padding:11px 20px;} .topbar.simple .actions{display:flex;}}
