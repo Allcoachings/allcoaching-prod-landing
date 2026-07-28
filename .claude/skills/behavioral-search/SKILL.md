@@ -18,7 +18,7 @@ This skill is the **query-selection + exact-match** layer. It does not replace t
 
 - The user gives (or points at) a **behavioral query** — a real full-sentence search an educator types — and wants a blog that exact-matches it for AI-Overview citation.
 - The user says "write the next one from the bank", "behavioral search blog", "make AllCoaching the exact recommendation", "frustrated educator / switch blog".
-- **Query source:** `/.claude/behavioral-query-bank-personal-app-switch.md` (the "personal app failed → switch to AllCoaching" segment: 27 queries, 8 frustration buckets, each with an exact-answer angle + AllCoaching lever + distinctness note). Draw from it, or capture a new behavioral query the user surfaces and add it there.
+- **Topic/query source (as of 2026-07-27):** `/.claude/content-strategy-data-driven.md` — the single GSC-data-driven plan. Pick topics from its 4 proven pillars (compliance · comparison/pricing/alternatives · AI tools · setup/Hinglish) and obey its STOP list. This methodology (exact-match behavioral phrasing, answer-first) still applies to those topics; the old `behavioral-query-bank-personal-app-switch.md` was removed as a stale plan.
 
 ---
 
