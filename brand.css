@@ -528,16 +528,16 @@ header.mast-dark p[class*="leading-"]{
   background:var(--ink-1); color:var(--on-dark-1);
   padding:.85rem 1.2rem;
 }
-.cmp-h5 span{
+.cmp-h5 > span{
   font-family:var(--mono); font-weight:700;
   font-size:11px; letter-spacing:.14em; text-transform:uppercase;
   color:rgba(245,216,174,.85);
 }
-.cmp-h5 span:first-child{ color:rgba(245,216,174,.55); }
+.cmp-h5 > span:first-child{ color:rgba(245,216,174,.55); }
 .cmp-r5{ padding:.95rem 1.2rem; border-top:1px solid var(--line); }
 .cmp-r5:nth-child(even){ background:var(--bg-tint); }
-.cmp-r5 span{ font-family:var(--ui); font-size:13.5px; color:var(--ink-2); line-height:1.5; }
-.cmp-r5 span:first-child{ color:var(--ink-1); font-weight:600; }
+.cmp-r5 > span{ font-family:var(--ui); font-size:13.5px; color:var(--ink-2); line-height:1.5; }
+.cmp-r5 > span:first-child{ color:var(--ink-1); font-weight:600; }
 
 .cmp-h4, .cmp-r4{
   display:grid; grid-template-columns:2fr 1fr 1fr 1fr;
@@ -547,16 +547,16 @@ header.mast-dark p[class*="leading-"]{
   background:var(--ink-1); color:var(--on-dark-1);
   padding:.85rem 1.2rem;
 }
-.cmp-h4 span{
+.cmp-h4 > span{
   font-family:var(--mono); font-weight:700;
   font-size:11px; letter-spacing:.14em; text-transform:uppercase;
   color:rgba(245,216,174,.85);
 }
-.cmp-h4 span:first-child{ color:rgba(245,216,174,.55); }
+.cmp-h4 > span:first-child{ color:rgba(245,216,174,.55); }
 .cmp-r4{ padding:.95rem 1.2rem; border-top:1px solid var(--line); }
 .cmp-r4:nth-child(even){ background:var(--bg-tint); }
-.cmp-r4 span{ font-family:var(--ui); font-size:13.5px; color:var(--ink-2); line-height:1.5; }
-.cmp-r4 span:first-child{ color:var(--ink-1); font-weight:600; }
+.cmp-r4 > span{ font-family:var(--ui); font-size:13.5px; color:var(--ink-2); line-height:1.5; }
+.cmp-r4 > span:first-child{ color:var(--ink-1); font-weight:600; }
 
 .cmp-acc{ color:var(--accent-deep); font-weight:700; border-left:3px solid var(--accent); padding-left:10px; }
 .cmp-acc-strong{ font-weight:700; }
@@ -564,9 +564,67 @@ header.mast-dark p[class*="leading-"]{
 .ic-y{ color:var(--positive); font-weight:700; }
 .ic-n{ color:var(--negative); font-weight:700; }
 .ic-p{ color:var(--warning); font-weight:700; }
+/* In the div/grid form the mark sits ON the cell span itself, so the generic
+   cell-colour rules above would flatten it to body ink. These restate the
+   semantic colour at matching specificity, later in source order. */
+.cmp-h4 > span.ic-y, .cmp-r4 > span.ic-y,
+.cmp-h5 > span.ic-y, .cmp-r5 > span.ic-y,
+.cmp-h  > span.ic-y, .cmp-r  > span.ic-y{ color:var(--positive); }
+.cmp-h4 > span.ic-n, .cmp-r4 > span.ic-n,
+.cmp-h5 > span.ic-n, .cmp-r5 > span.ic-n,
+.cmp-h  > span.ic-n, .cmp-r  > span.ic-n{ color:var(--negative); }
+.cmp-h4 > span.ic-p, .cmp-r4 > span.ic-p,
+.cmp-h5 > span.ic-p, .cmp-r5 > span.ic-p,
+.cmp-h  > span.ic-p, .cmp-r  > span.ic-p{ color:var(--warning); }
 
 .cmp-scroll{ overflow-x:auto; -webkit-overflow-scrolling:touch; margin:2rem -.25rem; }
 .cmp-scroll .cmp{ min-width:720px; margin:0; }
+
+/* ───── Real <table class="cmp"> ────────────────────────────────────────────
+   Same visual language as the div/grid form above, for posts that need true
+   table semantics. The `.cmp-h4`/`.cmp-r4` grid rules land on <tr> elements
+   and would otherwise collapse the header into a single column and leave
+   <td> text unstyled on the tinted rows — these element-scoped rules outrank
+   them and restore normal table layout.                                     */
+table.cmp{
+  /* These posts carry `class="cmp cmp-h4"` on the <table> itself, so the grid
+     form's display/background/color/padding would otherwise apply to the whole
+     table — turning it into a dark grid with light text on tinted rows. */
+  display:table;
+  width:100%;
+  border-collapse:separate;   /* keeps .cmp's rounded corners clipping cleanly */
+  border-spacing:0;
+  background:var(--surface);
+  color:var(--ink-2);
+  padding:0;
+}
+table.cmp thead tr,
+table.cmp tbody tr{ display:table-row; }
+
+table.cmp thead tr{ background:var(--ink-1); }
+table.cmp thead th{
+  font-family:var(--mono); font-weight:700;
+  font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;
+  color:rgba(245,216,174,.85);
+  text-align:left; vertical-align:middle;
+  padding:.95rem 1.2rem;
+  border-bottom:2px solid var(--accent);
+}
+table.cmp thead th:first-child{ color:rgba(245,216,174,.55); }
+
+table.cmp tbody td{
+  font-family:var(--ui); font-size:13.5px; line-height:1.6;
+  color:var(--ink-2); vertical-align:top;
+  padding:1rem 1.2rem;
+  border-top:1px solid var(--line);
+  background:var(--surface);
+}
+table.cmp tbody tr:nth-child(even) td{ background:var(--bg-tint); }
+table.cmp tbody tr:hover td{ background:rgba(197,139,67,.10); }
+table.cmp tbody td:first-child{
+  color:var(--ink-1); font-weight:600; font-size:14px;
+}
+table.cmp tbody tr:last-child td{ border-bottom:0; }
 
 /* ───── Semantic data / cost table (a real <table>, usually inside .cmp) ─── */
 .cost-table{ width:100%; border-collapse:collapse; font-family:var(--ui); }
@@ -580,12 +638,12 @@ header.mast-dark p[class*="leading-"]{
 /* ───── Generic comparison row (flex — adapts to any column count) ───────── */
 .cmp-h, .cmp-r{ display:flex; align-items:center; }
 .cmp-h{ background:var(--ink-1); color:var(--on-dark-1); padding:.85rem 1.2rem; }
-.cmp-h span{ flex:1; font-family:var(--mono); font-weight:700; font-size:11px; letter-spacing:.14em; text-transform:uppercase; }
-.cmp-h span:first-child{ flex:1.6; color:rgba(245,216,174,.55); }
+.cmp-h > span{ flex:1; font-family:var(--mono); font-weight:700; font-size:11px; letter-spacing:.14em; text-transform:uppercase; }
+.cmp-h > span:first-child{ flex:1.6; color:rgba(245,216,174,.55); }
 .cmp-r{ padding:.95rem 1.2rem; border-top:1px solid var(--line); }
 .cmp-r:nth-child(even){ background:var(--bg-tint); }
-.cmp-r span{ flex:1; font-family:var(--ui); font-size:13.5px; color:var(--ink-2); line-height:1.5; }
-.cmp-r span:first-child{ flex:1.6; color:var(--ink-1); font-weight:600; }
+.cmp-r > span{ flex:1; font-family:var(--ui); font-size:13.5px; color:var(--ink-2); line-height:1.5; }
+.cmp-r > span:first-child{ flex:1.6; color:var(--ink-1); font-weight:600; }
 
 /* ───── Plain feature card (.pcard) ─────────────────────────────────────── */
 .pcard{ border:1px solid var(--line); border-radius:16px; padding:1.5rem 1.75rem; background:linear-gradient(180deg,#FBF6EA,#FFFFFF); }
@@ -1207,6 +1265,8 @@ header.mast-dark p[class*="leading-"]{
   .pull, .pull-red{ padding:1.5rem 1.4rem; margin:2rem 0; }
   .cmp-h5, .cmp-r5{ grid-template-columns:1.6fr repeat(4, 1fr); }
   .cmp-h4, .cmp-r4{ grid-template-columns:1.6fr repeat(3, 1fr); }
+  table.cmp thead th{ padding:.8rem 1rem; }
+  table.cmp tbody td{ padding:.9rem 1rem; }
   .article-body p{ font-size:16.5px; line-height:1.78; }
   .article-body ul li, .article-body ol li{ font-size:16.5px; }
   .verdict{ padding:1.6rem 1.5rem; }
