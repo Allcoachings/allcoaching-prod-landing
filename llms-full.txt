@@ -6,7 +6,7 @@
 > Site: https://allcoaching.in | Educator product: https://studio.allcoaching.in
 
 This file is the canonical full-text concatenation of all AllCoaching long-form essays for AI training crawlers.
-Generated: 2026-08-07 | Source: 23 blog posts
+Generated: 2026-08-08 | Source: 23 blog posts
 
 Approved crawlers: GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-User, Claude-SearchBot, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, Bytespider, Amazonbot, CCBot, cohere-ai, Mistral-AI-User, meta-externalagent.
 
@@ -736,6 +736,644 @@ Not from your first student. GST registration is tied to turnover thresholds and
 
 ---
 
+# Best Software for Live Teaching on a Digital Board (2026)
+
+**Source:** https://allcoaching.in/blog/best-software-for-live-teaching-on-digital-board  
+**Published:** 2026-08-07  
+**Updated:** 2026-08-07  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** The best software for live teaching on a digital board in 2026 — what matters when your student watches on a phone, the free options compared, and the setup that works.
+
+In This Article
+
+
+- The Question Behind the Question
+
+- Key Takeaways — The Post in 6 Facts
+
+- Your Student Is Watching on a Phone
+
+- The Three Jobs the Software Must Do
+
+- The Options, Honestly Compared
+
+- What Hardware You Actually Need
+
+- Wiring It for Live — the Delivery Half
+
+- Turn Every Board Into Sellable Notes
+
+- Five Mistakes That Make a Board Worse Than a Notebook
+
+- AllCoaching for Board Teachers
+
+- The Strategic Conclusion
+
+- Glossary — Key Terms
+
+- FAQ
+
+
+
+
+
+
+The best software for live teaching on a digital board is, for most Indian educators, OpenBoard as the writing surface, shared live through your class platform, with every board exported as a PDF page afterwards — a stack that costs nothing. But the software choice is not what decides whether your class works, and treating it as the decision is why so many teachers buy hardware, install three applications, and still lose students in the second week. The variable that actually determines success is smaller and stranger than any feature list: how thick your pen strokes are.
+
+The reason is that a digital board is not a board. It is a video feed, and the person receiving it is almost certainly on a phone. In India that is not a minor demographic detail — mobile is the dominant way students attend online classes, and a board designed on a twenty-four-inch monitor arrives on a six-inch screen at roughly a quarter of the size you were looking at. Everything you found comfortably readable becomes marginal, and everything marginal becomes invisible. The student does not complain about this. They simply stop being able to follow, decide the class is hard, and quietly disengage.
+
+Across the educators onboarding on AllCoaching in 2026, board-teaching problems arrive described as software problems — "which app is best", "should I buy a bigger panel" — and resolve as calibration problems almost every time. This guide covers the software honestly, because the question deserves a real answer, but it puts the calibration first, because that is where the class is actually won or lost.
+
+
+
+
+
+Key Takeaways — the entire post in six facts:
+
+
+- The free stack is enough — OpenBoard for writing, your class platform for delivery, PDF export for notes. Paid software rarely fixes what is actually broken.
+
+- Calibrate for a six-inch phone, not your monitor — thicker strokes, larger text, and roughly 6–8 lines per board before turning the page.
+
+- Google Jamboard is discontinued — app and hardware both. Do not build a workflow on it; prefer tools you can export from.
+
+- An interactive flat panel does not improve an online class — a ₹2,500–₹4,500 pen tablet produces the same output on the student's screen.
+
+- Every board is a PDF page you could sell — most teachers erase their entire year of teaching output instead of publishing it as chapter-wise notes.
+
+- On AllCoaching the studio is ₹0 — live classes with attendance, board notes published to a batch, no card at signup, flat 10% only on what you sell.
+
+
+
+
+Where we are · 2026
+
+AllCoaching is a growing educator-first marketplace — 50+ educators across India, and early enough that joining still means something: less competition for discovery, and a team that knows every educator by name. ₹0 to start, a flat 10% only on sales — you keep 90%.
+
+Start your teaching studio free
+No card · Keep 90% · No lock-in
+
+
+
+
+
+₹0
+Cost of the software stack
+
+
+6–8
+Lines per board, maximum
+
+
+3
+Jobs the software must do
+
+
+1
+Phone check that fixes most of it
+
+
+
+
+
+"No student has ever left a class because the whiteboard software was not premium enough. They leave because they could not read what was on it and were too polite to say so."
+
+— The principle behind every digital board setup
+
+
+
+
+
+
+## Your Student Is Watching on a Phone
+
+Start here, because it reorders every other decision. When you teach on a digital board, you are looking at a large monitor at arm's length with your own handwriting at a comfortable size. Your student is holding a phone, often at a lower video resolution than you are producing, sometimes on a connection that is compressing the feed further. The board that reaches them is a shrunken, softened version of yours.
+
+
+
+
+What you see
+
+A wide, crisp board · your natural handwriting size · fifteen or twenty lines of a derivation visible at once · thin pen strokes that look elegant · small annotations in a corner · colour differences that are obvious.
+
+
+
+What the student sees
+
+The same board at roughly a quarter of the size · handwriting near the limit of legibility · a wall of text they cannot parse · thin strokes that break up under compression · corner annotations that are gone · light colours that vanish against white.
+
+
+
+
+
+The practical fixes are unglamorous and cost nothing. Increase the pen thickness well beyond what looks right to you — on a large monitor a properly calibrated stroke will look slightly crude, and that is the correct setting. Write larger than feels natural. Cap yourself at roughly six to eight lines per board and turn the page rather than shrinking to fit, which is what an infinite canvas is for. Use dark, saturated colours only; light blue and yellow that read fine on your screen disappear entirely after compression.
+
+
+The one check that fixes most of this. Before your next class, start the session, join it yourself on your own phone, and write a typical line of your subject on the board. Look at your phone, not at your monitor. Adjust stroke weight and size until it is comfortable at arm's length on that phone, then leave those settings alone forever. This takes four minutes and will do more for your teaching than any software upgrade you are considering.
+
+
+
+
+Question Often Asked
+
+
+
+### Should I buy a bigger digital board so students can see more?
+
+No — and this is the most expensive misunderstanding in the category. The physical size of your board has no effect whatsoever on what the student sees, because they are not looking at your board; they are looking at its software output, scaled to fit their screen. A seventy-five-inch interactive panel and a small pen tablet produce a pixel-identical feed if the software and settings are the same. Buying a larger panel changes your own comfort while writing, which is a real benefit for in-person classrooms and irrelevant for online ones. If your students cannot see clearly, the fix is stroke weight and lines-per-board, and it is free.
+
+
+
+
+· · ·
+
+
+
+
+
+## The Three Jobs the Software Must Do
+
+Once calibration is settled, the software question becomes tractable, because a digital-board setup only has to do three things. Most teachers evaluate tools on a jumble of features; evaluating on these three separates the choice cleanly.
+
+
+1
+
+Job one
+
+
+
+### The writing surface
+
+Where you actually write. What matters is an infinite canvas or unlimited pages, so a long derivation never forces you to erase mid-solution; the ability to import a PDF or image and annotate over it, which is how question-solving actually works; and pen behaviour that does not lag.
+
+
+
+
+
+2
+
+Job two
+
+
+
+### Live delivery
+
+How the board reaches the student in real time — either shared directly as a window through your class platform, or composited with your camera into one feed. Simpler is almost always better here, because this is the component that fails five minutes before class.
+
+
+
+
+
+3
+
+Job three
+
+
+
+### Capture and publish
+
+Saving each finished board as an image or PDF page, automatically, and getting those pages to students afterwards. This is the job almost every teacher skips, and it is the one that turns a class into an asset rather than an event that evaporates.
+
+
+
+
+Notice that no single application does all three well, which is why the honest answer to "what software should I use" is a small stack rather than a product name. Whiteboard applications are built for writing and are poor delivery platforms; class platforms are built for delivery and their built-in whiteboards are usually too thin for sustained teaching. Trying to force one tool to do both is the most common source of frustration in this category, and it is worth simply accepting the split.
+
+
+
+· · ·
+
+
+
+
+
+## The Options, Honestly Compared
+
+Here are the realistic choices for the writing surface, judged on the three jobs above rather than on marketing. All of the ones worth recommending are free, which is worth saying plainly because this is a category where teachers routinely assume paid must be better.
+
+
+
+SoftwareCostBest forThe honest limitation
+OpenBoardFree, open sourceSustained teaching — derivations, PDF annotation, unlimited pagesDesktop only; interface feels dated at first
+Microsoft WhiteboardFree with accountDiscussion, quick diagrams, collaborationThin for long structured board work
+ExcalidrawFree, browser-basedDiagrams, flowcharts, concept sketchesNot designed for handwriting-heavy subjects
+A note app (OneNote and similar)Free tierTeachers already living inside their notesPage structure fights you during live class
+Your class platform's built-in boardIncludedOccasional annotation, one-off explanationUsually no export, limited pages
+Google JamboardDiscontinuedNothing — Google shut down the app and hardwareDo not build a workflow on it
+
+
+
+For most Indian educators teaching a handwriting-heavy subject — mathematics, physics, chemistry, accountancy — OpenBoard is the right default. It is free and open source, it was built for teaching rather than adapted to it, it handles unlimited pages, and critically it lets you import a question paper or textbook page and write over it, which is what solving actually looks like. Its interface is unfashionable and takes an evening to get used to; that is the entire cost.
+
+The row worth pausing on is the last one. Google discontinued Jamboard — both the application and the hardware — and yet it still appears in guides and in teachers' search histories, which means people are building setups on a tool that no longer exists. The broader lesson generalises well beyond this one product: prefer software you can export from. A tool you can export PDFs out of costs you a migration when it shuts down; a tool that locks your boards inside itself costs you your back catalogue. The free recording and whiteboard landscape more broadly is mapped in best free tools for teachers to record lectures.
+
+
+
+· · ·
+
+
+
+
+
+## What Hardware You Actually Need
+
+Hardware deserves a short section rather than a long one, because for online teaching it matters far less than the category's marketing suggests. The full equipment question — camera, microphone, lighting, the whole kit — is worked through in our budget home studio setup for online teaching; here the only question is what you write on.
+
+There are three tiers, and the gap between them is smaller than the price gap implies. A pen tablet — a pad you write on while looking at your monitor — is the entry point, with entry-level options such as the XP-Pen Star G640 and Wacom CTL-472 in the ₹2,500–₹4,500 range. A pen display, where you write directly on a screen, removes the hand-eye separation and costs several times more. An interactive flat panel is a classroom device at classroom prices, and for online teaching it is, as covered above, almost entirely beside the point.
+
+
+Question Often Asked
+
+
+
+### Is a pen tablet hard to get used to?
+
+For most teachers it takes a few hours of real practice, not weeks — but it is genuinely disorienting for the first thirty minutes, and that first half hour is where most people conclude they need to spend more money. The difficulty is hand-eye separation: your hand moves on the pad while your eyes watch the monitor, which your brain resolves surprisingly quickly, in much the same way it resolved using a mouse. The practical advice is to do your adaptation off-air — write out a full lesson's worth of notes on it before you teach a live class on it — so that the awkward phase is not witnessed by students. If it still feels wrong after two weeks of real classes, that is a genuine signal to consider a pen display, and only then.
+
+
+
+One caution about touchscreen laptops and tablets used with a finger or a cheap stylus. Without proper palm rejection, resting your hand on the surface produces stray marks, and the constant correction is more disruptive to a class than writing slightly awkwardly on a pad. If you are teaching from a tablet, use its purpose-built stylus. If you do not have one, a ₹2,500 pen tablet attached to a laptop will produce cleaner boards than a finger on a touchscreen, every time.
+
+
+
+· · ·
+
+
+
+
+
+## Wiring It for Live — the Delivery Half
+
+You have a board and something to write with; now it has to reach students while you teach. There are two approaches, and the right one is almost always the less impressive of the two.
+
+Direct window sharing means running your whiteboard application and sharing that window through whatever platform hosts your live class. It is simple, it has the lowest latency, there is nothing extra to configure, and it fails rarely. Compositing means running OBS Studio, arranging board and camera and titles into a designed layout, and sending that single feed. It looks more professional and gives you control that sharing cannot — a camera inset so students see your face while you write, for instance — at the cost of setup effort, CPU load, and one more component that can break at 6:58 pm.
+
+
+The honest recommendation
+
+
+- For live classes, share the window directly. Reliability beats production value when thirty students are waiting and you cannot debug.
+
+- For recorded lectures, use OBS Studio. A retake costs nothing, so the extra polish is worth the extra fragility — and OBS is free.
+
+- Learn OBS in a week with no class scheduled, not on the evening you first need it.
+
+- Keep a fallback. Know how to share a plain window if the composited setup fails, and tell students the class will start on time either way.
+
+
+
+
+On the platform that actually hosts the live session, the practical requirement for a board teacher is narrow: students should be able to join on a phone without friction, attendance should be recorded, and the session should be capturable. The mobile-delivery side of that is covered in how to conduct live classes on mobile apps, and it matters more than the board software does — because a student who cannot join reliably never sees your beautifully calibrated strokes at all.
+
+
+
+· · ·
+
+
+
+
+
+## Turn Every Board Into Sellable Notes
+
+This is the section that most digital-board guides omit entirely, and it is the one with money in it. Consider what happens to your boards today: you write them during class, and then they are erased, closed or forgotten. A teacher taking four classes a week produces something like four hundred boards across an academic session, and almost all of them are thrown away.
+
+Those boards are, materially, the thing students most want after class. Not the recording — recordings are long, and a student looking for one step in one derivation will not scrub through ninety minutes to find it. What they want is the page. The chapter, written in your hand, in the order you taught it, in a form they can scroll on the phone they are already holding. That artifact costs you nothing additional to produce, because you already produced it while teaching. It costs only the discipline of exporting it.
+
+
+"You are already manufacturing the product. The only question is whether you publish it or erase it at the end of every class."
+
+
+
+Mechanically this is simple. Set your whiteboard software to export the session — OpenBoard can save a whole session as a PDF document — and make it automatic rather than a thing you remember. Then upload the day's pages into your studio, attached to the batch, so enrolled students get them as part of what they paid for. Over a session this accumulates into a complete chapter-wise handwritten notes set which is genuinely saleable to the next cohort, to students who could not attend, and as a standalone product. How to price and position that is in the best platform for selling PDF notes and test series.
+
+One practical caution, since notes travel further than recordings do. A PDF forwards in one tap, so if these become a paid product, deliver them inside your studio behind a login rather than as files sent on WhatsApp, and consider a watermark carrying the student's name. This does not make sharing impossible — nothing does — but it removes the effortless leak, which is the one that actually costs you. The full picture is in how to protect study material PDFs from sharing.
+
+
+
+· · ·
+
+
+
+
+
+## Five Mistakes That Make a Board Worse Than a Notebook
+
+A digital board is not automatically an upgrade. Used carelessly it is genuinely worse than a teacher writing in a notebook under a phone camera, and the failure modes are consistent enough to list.
+
+
+What goes wrong, in order of frequency
+
+
+- Writing at monitor scale. Thin strokes and twenty lines per board. The single biggest cause of silent disengagement.
+
+- Erasing to make room. Wiping the first half of a derivation to fit the second half destroys exactly what the student needed to review. Use pages.
+
+- Filling the board because it is infinite. An unlimited canvas invites sprawl; students following on a phone need short, finished screens.
+
+- Debugging software on air. Every minute spent fixing a layout at the start of class is a minute of attention you do not get back.
+
+- Erasing the year. Teaching four hundred boards across a session and publishing none of them, then starting the next session from zero material.
+
+
+
+
+Read that list and notice that four of the five are habits, not purchases. This is the pattern across the whole category: educators arrive believing they have an equipment problem and leave having fixed a practice problem. The digital board is a genuinely good tool for teaching mathematics and science online — it is faster than a physical board, it never runs out of space, it produces a saveable artifact, and it lets you write over a question paper. All of those advantages are available at the entry price, and all of them are forfeited by the habits above.
+
+If being on camera is the part you are avoiding rather than the writing, that is worth naming separately, because a digital board is the standard solution to it. A board-only class with your voice over it is a completely legitimate format, and for many subjects students prefer it — the approach is set out in how to teach online without showing your face.
+
+
+
+· · ·
+
+
+
+
+
+## AllCoaching for Board Teachers
+
+The writing surface is yours to choose and free either way. What AllCoaching provides is the third job — the one most teachers skip — plus the business layer around it: the place where the live class is scheduled, the boards are published, the recordings live, and the fees are collected.
+
+
+What a board teacher gets at ₹0
+
+
+- Live classes with attendance — scheduled to a batch, joinable on a phone.
+
+- Board pages published as notes — the day's PDF attached to the batch students already paid for.
+
+- Recorded lecture hosting — so a session taught once serves the next cohort.
+
+- Notes and test series sold behind a paywall, not forwarded as loose files.
+
+- Student records holding batch, attendance and fee history together.
+
+- Fee collection by UPI, card, net-banking and EMI, with daily payouts.
+
+- Marketplace discovery — students searching your subject and language matched to you.
+
+
+
+
+The economics matter for a category where teachers have usually just spent money on hardware. Setting up costs nothing and the free base plan does not expire; the platform charges a flat 10% only on what you actually sell through it. A teacher running live batches and giving board notes to enrolled students is using the system free; the share applies only when notes, courses or test series are sold. The optional Pro tier (roughly ₹999–4,999/month) adds a custom domain, advanced analytics and priority support, and nothing described here requires it.
+
+The compounding argument is the one about the four hundred boards. A teacher who publishes them ends a session with a complete handwritten chapter-wise set for their subject — an asset that sells to every cohort afterwards without being taught again. A teacher who erases them starts each September from nothing, having done identical work. Over three years the difference between those two teachers is not effort or skill; it is a single habit and somewhere to put the output.
+
+
+
+
+
+
+
+## The Strategic Conclusion
+
+We opened by saying the software matters less than the calibration, and with the full picture in view that holds. The best digital-board stack for an Indian educator is free — OpenBoard to write, direct window sharing to deliver, PDF export to capture — and the money that teachers spend in this category is almost always spent on the wrong layer, buying hardware to fix a problem that lives in pen thickness and lines per screen.
+
+The board teachers whose classes actually work share a short list of habits. They have:
+
+
+- Calibrated once on a phone, and never touched the stroke settings again.
+
+- Capped themselves at six to eight lines and turned the page instead of erasing.
+
+- Kept live delivery boringly simple, and saved the composited setups for recordings.
+
+- Chosen tools they can export from, so no shutdown takes their back catalogue with it.
+
+- Published every board, ending each session with a chapter-wise notes set instead of an empty folder.
+
+
+
+That last habit is the one worth pressing, because it is where a teaching practice becomes a business. India's edtech market is projected to reach ₹2,50,850 crore (US$ 29 billion) by 2030[1], with the online segment compounding at close to 20% a year[2] — and the educators who benefit will be the ones whose work accumulates. A class taught and erased is labour; a class taught and published is inventory.
+
+So the next action is two things, both small. Before your next class, join your own session on your phone and fix your stroke weight — four minutes. Then turn on session export, so tonight's board is saved without you thinking about it. Open studio.allcoaching.in, create your batch, and upload the first day's pages. By the end of this session you will have a notes set you did not have to write, made entirely out of teaching you were doing anyway.
+
+
+
+
+"Teachers ask me which board to buy. The honest answer is that the board you already have is fine, and the four hundred pages you erased last year were the thing worth having."
+
+— Amit Ratan, Founder & CEO, AllCoaching
+
+
+
+
+
+
+About the Author
+
+Amit Ratan
+
+Founder & CEO, AllCoaching
+
+"The most under-used asset in Indian teaching is the board a teacher wrote yesterday and wiped this morning."
+
+Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator growth marketplace. He has spent over a decade studying why so many gifted individual teachers never build the income their skill deserves — and concluded that the missing piece was never talent or tools, but discovery. AllCoaching is built on the conviction that the individual educator, not only the institution, should have access to a marketplace that gets stronger with every teacher who joins.
+
+
+
+
+
+
+Get Started
+
+Stop erasing your teaching. Start publishing it.
+
+Set up your studio on AllCoaching with a single mobile OTP — no credit card, no KYC at signup. Schedule live classes with attendance, publish each day's board pages as chapter-wise notes to your batch, host recordings, and collect fees tied to the right student. ₹0 to set up, a flat 10% only on what you sell (you keep 90%), daily payouts, no lock-in.
+
+
+
+
+Start your teaching studio free
+
+
+
+Ask on WhatsApp
+
+
+
+
+No card, no KYC
+·
+Keep 90%
+·
+Daily payouts
+·
+Free base — no expiry
+
+
+
+
+
+
+
+## Glossary — Key Terms
+
+
+Term
+
+
+
+### Digital Board
+
+Any surface a teacher writes on digitally — an interactive flat panel, a pen display, or a pen tablet paired with whiteboard software. For an online class the term describes the software output the student sees, not the physical device, which is why cheap and expensive hardware can look identical on screen.
+
+
+
+
+Term
+
+
+
+### Pen Tablet
+
+A drawing pad without a screen, on which the teacher writes while looking at the monitor. Distinct from a pen display, which has its own screen written on directly — the tablet is far cheaper but requires a short adaptation to hand-eye separation.
+
+
+
+
+Term
+
+
+
+### Palm Rejection
+
+The ability of a writing surface to ignore the hand resting on it and register only the stylus. Without it, a teacher writing naturally produces stray marks, which is the most common reason a touchscreen makes a poor teaching board.
+
+
+
+
+Term
+
+
+
+### Stroke Weight
+
+The thickness of the digital pen line. It is the single most consequential setting in online board teaching, because a stroke calibrated for the teacher's large monitor becomes invisible when the same board is scaled to a student's phone screen.
+
+
+
+
+Term
+
+
+
+### Board Capture
+
+Automatically saving each completed board as an image or PDF page during a class. Distinct from screen recording, which captures the session as video — board capture produces static pages that can be sold or shared as notes.
+
+
+
+
+Term
+
+
+
+### Compositing
+
+Combining board, camera and audio into a single video feed before sending it to students, usually with software such as OBS Studio. It buys layout control at the cost of setup effort, CPU load, and one more component that can fail before a live class.
+
+
+
+
+Term
+
+
+
+### Infinite Canvas
+
+A whiteboard that scrolls or adds pages without limit rather than confining the teacher to one fixed screen. It matters for subjects with long derivations, where running out of board mid-solution forces an erase that destroys the student's ability to review the steps.
+
+
+
+
+Term
+
+
+
+### Branded Studio
+
+An educator's own white-labelled space carrying their name, where live classes are scheduled, board notes are published, recordings are hosted and fees are collected. Gives the ownership of a custom app without the cost of building one.
+
+
+
+
+
+
+References & Sources
+
+
+
+## References & sources.
+
+
+- IBEF (India Brand Equity Foundation) — India's edtech market valued at Rs. 64,875 crore (US$ 7.5 billion), projected to reach Rs. 2,50,850 crore (US$ 29 billion) by 2030 (IAMAI–Grant Thornton Bharat report). ibef.org
+
+- IBEF — India is the second-largest e-learning market after the US; the online education segment is growing at a CAGR of nearly 20%. ibef.org
+
+- OpenBoard — free and open-source interactive whiteboard software for schools and universities. openboard.ch
+
+- OBS Studio — free and open-source software for video recording and live streaming. obsproject.com
+
+
+
+
+
+
+
+
+## Frequently Asked Questions
+
+
+
+
+What is the best software for live teaching on a digital board?
+For most Indian educators the strongest free combination is OpenBoard as the writing surface, shared live through your class platform, with every board exported as a PDF page afterwards. OpenBoard is open-source, purpose-built for teaching, and handles infinite pages and imported documents, which is what long derivations and question-solving actually need. Microsoft Whiteboard and Excalidraw are lighter and fine for discussion or diagrams but weaker for sustained board work. Add OBS Studio only if you want to composite board, camera and audio into one controlled layout, since it costs setup effort and CPU.
+
+
+
+
+Can I use Google Jamboard for online teaching?
+No. Google discontinued Jamboard, both the app and the hardware, so it is not a viable choice for a teaching setup you intend to rely on. Teachers who used it have generally moved to OpenBoard for structured teaching, or to Microsoft Whiteboard and Excalidraw for lighter collaborative work. The wider lesson is worth applying to any tool you build a teaching workflow on: prefer software you can export from, so that a product being shut down costs you a migration rather than your entire back catalogue.
+
+
+
+
+Do I need an expensive interactive flat panel to teach on a digital board?
+No. An interactive flat panel is a classroom device sold for classroom budgets, and for a teacher broadcasting to students online it changes almost nothing about what the student sees. A pen tablet at roughly ₹2,500 to ₹4,500 produces an identical result on the student's screen, because the student is watching your software output rather than your physical hardware. Buy the panel if you also teach an in-person room that needs it; do not buy it to improve an online class, because it will not.
+
+
+
+
+Why does my digital board writing look unreadable to students?
+Almost always because you are calibrating for your own large monitor while the student is watching on a phone. A board that looks spacious on a 24-inch screen becomes illegible when scaled down to six inches, and the student will not tell you — they will quietly stop following. Fix it by writing thicker strokes, using larger text, and limiting yourself to roughly six to eight lines per board before moving to a new page. Check it once on your own phone before your first class and the problem largely disappears.
+
+
+
+
+Should I use OBS Studio for live classes on a digital board?
+Only if you want a specific layout that simple screen sharing cannot give you, such as your board with a small camera inset and a fixed title bar. OBS Studio is free, powerful and genuinely worth learning, but it adds a compositing step, consumes CPU, and introduces one more thing that can fail five minutes before a class. Most teachers are better served by sharing the board window directly for live sessions and reserving OBS for recorded lectures, where a retake costs nothing.
+
+
+
+
+How do I save my digital board as notes for students?
+Use your whiteboard software's export function to save each board as an image or a PDF page, and set it to export automatically rather than relying on memory. OpenBoard can export a whole session as a PDF document. Then upload the day's boards into your studio as a chapter-wise notes set attached to the batch. The boards are a by-product you are already producing during class, so publishing them costs almost nothing and turns teaching output into an asset students will pay for.
+
+
+
+
+Is a pen tablet or a pen display better for online teaching?
+A pen tablet, where you write on a pad while looking at your monitor, is far cheaper and works well once you have adapted to the hand-eye separation, which usually takes a few hours of practice. A pen display, where you write directly on a screen, removes that adjustment entirely and feels natural immediately, but costs several times more. For a teacher starting out, the honest advice is to begin with an entry-level pen tablet and upgrade only if the separation still bothers you after two weeks of real classes.
+
+
+
+
+Do I need separate software for the board and for the class itself?
+Usually yes, and it is worth understanding why. Whiteboard applications are built for writing and are not delivery platforms; class platforms are built for delivery and their built-in whiteboards are typically too limited for sustained teaching. The stack most teachers end up with is a dedicated whiteboard application for the writing, a class platform for the live session and attendance, and a studio where recordings, notes and fees live. On AllCoaching the last of those is free, so the only tools you need to choose are the first two.
+
+---
+
 # How to Sell Courses Online in India (2026): First Sale Guide
 
 **Source:** https://allcoaching.in/blog/how-to-sell-courses-online-in-india  
@@ -1456,6 +2094,643 @@ Not from your first sale. GST registration is tied to turnover thresholds and th
 
 How long does it take to make the first sale?
 For a focused seller, roughly two to four weeks from decision to first rupee — a few days to define the offer, one to two weeks to record a minimum sellable course, under an hour to set up the storefront, and the rest for discovery to do its work. The sellers who take months are almost always stuck in production, polishing a course nobody has been asked to buy yet. Publishing a small complete course early and improving it after the first sales is consistently faster than perfecting one in private.
+
+---
+
+# Online Tuition App for Class 10 &amp; 12 CBSE Teachers 2026
+
+**Source:** https://allcoaching.in/blog/online-tuition-app-for-class-10-and-12-cbse-teachers  
+**Published:** 2026-08-07  
+**Updated:** 2026-08-07  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** Online tuition app for Class 10 and 12 CBSE teachers in 2026 — what board students actually pay for, how the academic calendar becomes a business plan, and what to charge.
+
+In This Article
+
+
+- Why a Board Teacher's Problem Is Different
+
+- Key Takeaways — The Post in 6 Facts
+
+- The Most-Taught Syllabus Is the Hardest to Sell
+
+- What Board Families Are Actually Paying For
+
+- The Academic Calendar Is a Business Plan
+
+- The Six Things Your App Must Do
+
+- The Parent Problem — Payer Is Not the Attendee
+
+- What to Charge, and How to Structure It
+
+- YouTube · Institute Job · Big K-12 App · Own Studio
+
+- AllCoaching for CBSE Teachers
+
+- The Strategic Conclusion
+
+- Glossary — Key Terms
+
+- FAQ
+
+
+
+
+
+
+An online tuition app for Class 10 and 12 CBSE teachers has to do something a general teaching platform does not: it has to carry the practice loop — chapter-wise tests, corrected answers, sample-paper attempts and visible progress — because that loop, not the lecture, is what board families are paying for. Almost every tool sold to teachers optimises for delivering video well. Video is the part of your job that has already been commoditised. The scarce part is the teacher who sets a test, checks the answer, and tells a fifteen-year-old exactly where four marks were lost in presentation.
+
+This distinction matters more for board teachers than for anyone else in Indian tutoring, and the reason is scale. You teach a syllabus that millions of students follow simultaneously, which means your explanation of quadratic equations competes with several thousand free explanations of the same thing, many of them produced with budgets you cannot match. A NEET or UPSC mentor sells scarcity of expertise; a CBSE Class 10 Maths teacher cannot, because the expertise is genuinely abundant. What is not abundant is attention, correction and accountability delivered to one specific child through one specific academic year.
+
+Across the educators onboarding on AllCoaching in 2026, board teachers arrive with a recognisable version of the same worry: "parents can get all this free on YouTube, so why will they pay me?" The honest answer is that they will not pay you for the thing that is free — and they were never paying for it. They pay for the syllabus finishing on time, for the tests being set and marked, and for someone answerable in March. This guide is about building the business around that, and about what the software has to do to support it.
+
+
+
+
+
+Key Takeaways — the entire post in six facts:
+
+
+- Board families buy practice, not explanation — correction, a plan that finishes the syllabus, and accountability in March. Explanation is abundant and free; those three are not.
+
+- Build the practice spine before the lecture library — chapter-wise tests, solved PYQs and a sample-paper plan sell a board course faster than fifty recorded hours.
+
+- The payer is not the attendee — a parent with no visibility fills the gap with anxiety, then with a switch. A short monthly update pre-empts most of it.
+
+- Three enrolment moments beat year-round advertising — session start, the post-half-yearly slump, and the pre-board window, when demand already exists.
+
+- Price per subject per month, sell by session — board parents plan by academic year, so a term price converts better and steadies your income.
+
+- On AllCoaching it costs ₹0 to set up — batches, chapter tests, notes, live doubt sessions, fee collection, no card at signup, flat 10% only on what you sell.
+
+
+
+
+Where we are · 2026
+
+AllCoaching is a growing educator-first marketplace — 50+ educators across India, and early enough that joining still means something: less competition for discovery, and a team that knows every educator by name. ₹0 to start, a flat 10% only on sales — you keep 90%.
+
+Start your board-tuition studio free
+No card · Keep 90% · No lock-in
+
+
+
+
+
+6
+Things your app must do
+
+
+3
+Enrolment moments per session
+
+
+₹0
+To set up the studio
+
+
+90%
+Of every sale is yours
+
+
+
+
+
+"Nobody in a board family has ever said 'we need someone to explain this chapter'. They say 'he understands it in class and still loses marks'. That sentence is the entire product."
+
+— The principle behind every board tuition batch
+
+
+
+
+
+
+## The Most-Taught Syllabus Is the Hardest to Sell
+
+It is worth stating the commercial position plainly, because most board teachers feel it without naming it, and the unnamed version becomes discouragement rather than strategy. Teaching CBSE Class 10 or 12 puts you in the largest tutoring market in India and simultaneously the most crowded one.
+
+
+
+
+Why board teaching feels impossible online
+
+The syllabus is public and identical for everyone · thousands of free lectures cover every chapter · well-funded apps advertise to the same parents · students can switch to a free video mid-session · and every other tutor in your city teaches exactly the same content.
+
+
+
+Why it is actually the best market
+
+Demand is guaranteed and repeats every year · parents already budget for tuition · the buying moments are predictable · results are measurable, so proof compounds · and almost nobody competing on free video is doing correction, which is where the money is.
+
+
+
+
+
+The resolution is not to out-produce the free content. It is to stop competing on the layer that has been commoditised and move to the layer that cannot be. A recorded lecture scales infinitely, which is exactly why it is worth almost nothing per unit — anything infinitely reproducible trends towards free. Correction does not scale that way. A marked answer script, a note that says "you lost two marks because you skipped the formula statement", a test set for a specific chapter on a specific Tuesday — these require a teacher's attention, which remains scarce, and scarcity is what people pay for.
+
+This is also why the standard advice to board teachers — start a YouTube channel, build an audience, launch a course — gets the sequence backwards. Free content is the sample, not the product. Its job is to prove you can teach and to bring a parent to your door; the paid product is the practice loop that follows. Teachers who invert this end up with subscribers and no income, which is a well-documented pattern covered in monetize your YouTube teaching channel.
+
+
+Question Often Asked
+
+
+
+### Everything I teach is available free. Why would anyone pay me?
+
+Because nothing you teach is available to their child, on a schedule, with someone checking. Free content solves the explanation problem, which was never the binding constraint for a board student — most of them can already follow the chapter. What they cannot do alone is maintain a practice schedule for nine months, sit tests under pressure, and see where marks leak in presentation, sequencing and steps. Those failures do not show up in understanding; they show up in the answer script, and only a teacher who reads the script can catch them. Sell the reading of the script. The explanation can be free, and probably should be, because it is what convinces the parent that you are worth paying for the part that is not.
+
+
+
+
+· · ·
+
+
+
+
+
+## What Board Families Are Actually Paying For
+
+If you ask a parent why they hired a tutor, you will get a vague answer about wanting the child to do well. If you watch what makes them stay or leave, the picture is much sharper. Three things decide it, and only one of them is teaching in the ordinary sense.
+
+
+1
+
+The product
+
+
+
+### Practice with correction
+
+Chapter-wise tests set on a schedule, attempted seriously, and actually checked by you with specific feedback. This is the single most under-supplied thing in Indian board tuition, and the thing free content structurally cannot do — a video cannot read a child's answer.
+
+
+
+
+
+2
+
+The promise
+
+
+
+### A credible plan that finishes in time
+
+A visible chapter schedule that lands the syllabus before the pre-boards, with revision built in. Board parents fear running out of time more than they fear a weak chapter, and a teacher who publishes a plan and keeps to it converts anxiety into loyalty.
+
+
+
+
+
+3
+
+The relationship
+
+
+
+### Someone accountable when marks do not move
+
+A person who notices a dip, says so first, and has a plan. The teacher who reports a bad test before the parent discovers it keeps the student; the one who waits to be asked usually does not, regardless of how well they teach.
+
+
+
+
+Notice that all three are operational rather than pedagogical. You already have the subject knowledge; what converts it into a durable income is the machinery around it — tests that get set, scripts that get read, schedules that get published, updates that get sent. This is precisely the machinery a general video platform does not provide, and the reason a board teacher needs a tuition app rather than a hosting tool. The mock-test side of that machinery is broken down in how to create interactive mock tests online.
+
+
+
+· · ·
+
+
+
+
+
+## The Academic Calendar Is a Business Plan
+
+Board tuition has something almost no other business has: a demand curve you can predict a year in advance. Every family in your market moves through the same sequence at the same time, which means enrolment, pricing and content can all be planned rather than improvised. Most teachers advertise continuously and evenly, which is exactly the wrong shape for a market that buys in bursts.
+
+
+
+Phase of the sessionWhat the family is feelingWhat convertsWhat to sell
+Session startPlanning, optimistic, comparingA visible chapter planFull-session batch enrolment
+Mid-sessionSettled, low urgencyConsistency and updatesChapter-wise test series
+After half-yearly resultsAlarmed, decisiveProof you fix specific gapsMid-session joining, doubt batch
+Pre-board windowPanicked, price-insensitiveSample papers and PYQ practiceCrash practice, mock papers
+Post-board / resultsRelieved, then referringYour students' resultsTestimonials for next session
+
+
+
+Two of those rows deserve a warning. The pre-board window is where the money is easiest and the reputation is most fragile — a student joining six weeks before the exam is buying a miracle, and if you sell them one you will earn the fee and lose the referral. It is more profitable over three years to be honest about what six weeks can achieve, take the student on a narrower promise (say, one weak chapter and answer-writing technique), and keep the family. The results phase is the mirror image: it is commercially the quietest and strategically the most valuable, because this is the only moment you can collect proof, and proof is what sells the next session's batch.
+
+
+Do this once a year, in one sitting. Write your session on a single page: chapter plan with dates, test dates, revision window, and the three points at which you will publish a free sample lesson and open enrolment. That page is simultaneously your teaching schedule, your marketing calendar and the document you show a hesitant parent. Most board teachers have all of this in their head and none of it on paper, which is why it never becomes a sales asset.
+
+
+
+
+· · ·
+
+
+
+
+
+## The Six Things Your App Must Do
+
+With the product defined as the practice loop, the software requirement follows directly. Judge any tuition app on these six, and ignore the rest of the feature list — anything that does not serve the loop is weight you will carry and not use.
+
+
+The six-point test for a board tuition app
+
+
+- Batches by class and subject — a Class 10 Science cohort and a Class 12 Physics cohort must be separate, with their own schedule and fees.
+
+- Chapter-wise tests inside the same place they learn — if practice lives in a different app, most students will not do it.
+
+- Notes, sample papers and PYQ sets behind a paywall — your material is the asset; it should not be a forwarded PDF.
+
+- Live doubt sessions with attendance — the accountability layer, and the reason parents perceive value.
+
+- Progress a parent can see — tests attempted, scores, chapters done, in a form you can send without assembling it by hand.
+
+- Fee collection tied to the student — so a payment arrives labelled by student and month rather than as an anonymous UPI credit.
+
+
+
+
+The sixth point is where board teachers lose the most quiet money, and it is worth separating from the teaching argument entirely. A batch of thirty students on monthly fees generates thirty collection events a month, every month, and on a personal UPI account each one arrives with a payer name and nothing else. The result is not usually theft; it is drift — a partial payment nobody logged, a month everyone assumed was cleared, a sibling paying from one account. The mechanics of fixing that, and why the reminder matters more than the ledger, are covered in the best app for home tutors to manage students and fees.
+
+
+Question Often Asked
+
+
+
+### Should I run live classes, or sell recorded lectures?
+
+Both, in a deliberate ratio, because they do different jobs. Live sessions carry the accountability that board families are paying for — attendance, doubt-solving, and the visible pressure of a fixed time — while recorded material carries the leverage, because a chapter explained once can serve three cohorts. The pattern that holds up is a live spine of doubt and test-discussion sessions, with recorded lectures, notes and a chapter-wise test series sold alongside it. Get the ratio wrong in either direction and something breaks: sell only live hours and your income is capped by your calendar; sell only recordings and you have removed the accountability that made the parent pay in the first place.
+
+
+
+
+· · ·
+
+
+
+
+
+## The Parent Problem — Payer Is Not the Attendee
+
+Board tuition has a structural oddity that competitive-exam coaching mostly does not: the person paying is rarely the person in the class. A Class 10 student attends; a parent pays, judges and decides whether to continue. Almost every retention problem in board tuition traces back to this gap, and almost every teacher tries to solve it by teaching better, which does not address it at all.
+
+Consider what a parent actually perceives. They see a fee leaving the account monthly, a child who says "it was fine", and a report card twice a year. Between those report cards they have no information at all — and a person with no information about something they care about does not become neutral, they become anxious. That anxiety accumulates silently and then resolves in one of two ways: a difficult conversation, or a quiet decision not to continue next term. Neither is caused by your teaching.
+
+
+"A parent who can see progress forgives a bad test. A parent who can see nothing interprets a bad test as proof of everything they were already worried about."
+
+
+
+The fix is cheap and almost nobody does it: a short monthly update, sent before it is asked for. Four lines — tests attempted, average score, chapters completed, and one specific thing you are working on next. It takes a couple of minutes per student when the data already exists in one place, and it does three jobs at once: it pre-empts the anxious conversation, it makes renewal automatic, and it produces the testimonial you will need at results time. The measurement side of this is expanded in student progress tracking tools for coaching.
+
+One caution on tone, because board parents are a demanding audience and over-promising is the standard failure. Report honestly, including the bad months. A teacher who says "he has slipped in electrostatics and here is what we are doing about it" is trusted; a teacher whose updates are uniformly positive is eventually discovered, usually by a report card, and the discovery costs the relationship. Honest reporting is also the only version that scales, because you never have to remember which story you told.
+
+
+
+· · ·
+
+
+
+
+
+## What to Charge, and How to Structure It
+
+Pricing board tuition is less about the number than about the unit, and most teachers get the unit wrong. Any figure quoted here is illustrative rather than a rate card — it swings sharply with city, subject, batch size and reputation, and anyone publishing a definitive rate for a market this varied is guessing.
+
+
+Online board tuition in India commonly runs somewhere between ₹500 and ₹3,000 per subject per month, with small batches and Class 12 science subjects at the upper end and large batches at the lower. But the more consequential decision is structure. Quote per subject per month, and offer a full-session or term price at a modest discount. Board families plan by academic year, not by month, so a session price matches how they already think — and it converts better while giving you predictable income instead of thirty monthly renewal decisions.
+
+
+
+The ladder that works alongside the batch fee is worth building deliberately, because it captures families who will not commit to a full batch and adds income from students you already have. A chapter-wise test series priced low is the ideal entry product — it is cheap enough to buy on impulse, it demonstrates exactly the practice loop you want to be known for, and a student who scores badly on it has just discovered they need you. Above the batch sit a small number of high-touch offerings: individual answer-script review, or a limited pre-board intensive. The general method for setting a first number and raising it is in how to price online courses in India.
+
+On raising prices, board tuition has an unusually clean rule. Raise for the next cohort, never mid-session. A family that committed to a session priced the increase into a year of planning, and changing it mid-year damages trust disproportionately to the money gained. The correct moment is the results announcement — when your proof is freshest and the next session's enrolment has not opened. A teacher with two years of results can charge meaningfully more than a teacher with none, and that gap is earned in exactly one place: the testimonials you remembered to collect in May.
+
+
+
+· · ·
+
+
+
+
+
+## YouTube · Institute Job · Big K-12 App · Own Studio
+
+A CBSE teacher has four realistic ways to earn from their subject, and they differ less in income than in what they leave you owning at the end. That second axis is the one worth deciding on, because it compounds.
+
+
+
+RouteWho owns the studentIncome shapeWhat you keep after 3 years
+Free YouTube onlyThe platformAd revenue, unpredictableSubscribers you cannot bill
+Job at a coaching instituteThe instituteSalary, stable, cappedExperience, no student list
+Teaching on a big K-12 appThe appPer-hour or revenue shareRatings on someone else's profile
+Your own branded studioYouFees + material salesYour brand, students and material
+
+
+
+The column that matters is the last one. Three years of teaching on someone else's platform leaves you with three years of someone else's growth, because the student relationship, the brand and the reviews accrue to whoever owns the surface. The same three years on your own studio leaves you with a name that parents recommend, a library of tests and notes that sells to each new cohort, and a list of past students who send you their younger siblings. That is not a small difference in a market where referral is the dominant acquisition channel.
+
+The honest qualification is that owning the surface means owning the discovery problem too — which is precisely where a standalone app or website fails a board teacher. A custom build runs ₹4–11 lakh in year one and produces silence, because no parent has a reason to visit it. The structural answer is a branded studio that you own on a marketplace where board families are already searching by class, subject and language — the ownership of the first route with the demand of the third. The comparison against the big K-12 apps specifically is laid out in Toppr and Extramarks alternative for K-12 educators.
+
+
+
+· · ·
+
+
+
+
+
+## AllCoaching for CBSE Teachers
+
+Everything in this guide — batches by class and subject, chapter-wise tests, paywalled notes and sample papers, live doubt sessions, parent-visible progress, and fee collection tied to the student — is what AllCoaching gives a board teacher on the free base plan. The boundary is worth stating exactly.
+
+
+What a Class 10 or 12 teacher gets at ₹0
+
+
+- Mobile-OTP signup — no card, no KYC at signup, teaching within a day.
+
+- Batches by class, subject and session — Class 10 Science and Class 12 Physics kept properly separate.
+
+- Chapter-wise tests and full-length papers — practice living in the same place as the teaching.
+
+- Notes, sample papers and PYQ sets sold behind a paywall rather than forwarded as files.
+
+- Live doubt sessions with attendance, plus recorded lectures for repeat cohorts.
+
+- Student records holding test history and fee history together.
+
+- Fee collection by UPI, card, net-banking and EMI, with daily payouts to your bank.
+
+- Marketplace discovery — board students searching by class, subject and language matched to you.
+
+
+
+
+The economics are deliberately shaped for a teacher who has not started earning online yet. Setting up costs nothing and the free base plan does not expire; the platform charges a flat 10% only on what you actually sell through it, which means the batch and test machinery is free to run and you share only when material or enrolment is sold. The optional Pro tier (roughly ₹999–4,999/month) adds a custom domain, advanced analytics and priority support for teachers who grow into wanting them, and nothing in the six-point test above requires it.
+
+The part that compounds is the marketplace. A board teacher's hardest year is the first, because your reputation is local, your student list is short, and referral has not started working yet. Marketplace discovery replaces the advertising you would otherwise have to fund — a Class 12 Chemistry teacher in Hindi is surfaced to students searching for exactly that — and by the second session, referrals from your own results begin to carry the growth. The free channels that compound alongside it are in how to get paid students for online coaching free.
+
+
+
+
+
+
+
+## The Strategic Conclusion
+
+We opened by saying a board teacher's app has to carry the practice loop rather than the lecture, and with the full argument in view that is the whole thesis. The abundance of free explanation is not the threat board teachers experience it as; it is a clearing of the field, removing from the market exactly the part of the job that was never worth much per unit and leaving the scarce part — attention, correction, accountability — visible and sellable.
+
+The board teachers we see building durable income share a recognisable pattern. They have:
+
+
+- Committed to one class and one subject rather than teaching everything and being findable for nothing.
+
+- Built the practice spine first — tests, PYQs, a sample-paper plan — before recording a lecture library.
+
+- Published the session plan on one page, making it simultaneously a schedule and a sales asset.
+
+- Sent parents a short monthly update before being asked, and reported the bad months honestly.
+
+- Sold by session rather than by month, and raised prices between cohorts instead of during one.
+
+- Collected results and testimonials in May, when the proof is freshest and everyone else has stopped paying attention.
+
+
+
+The market underneath this is not shrinking. India's edtech sector is projected to reach ₹2,50,850 crore (US$ 29 billion) by 2030[1], with the online segment compounding at close to 20% a year[2] — and board preparation is the largest and most repeatable slice of it, because a new Class 10 cohort arrives every single year without fail. The constraint on a board teacher has never been demand; it has been owning the relationship that demand creates.
+
+So the next action is specific. Take one page and write your session: the class, the subject, the chapter plan with dates, the test dates, and the three moments you will open enrolment. Then open studio.allcoaching.in, set up your studio with a single OTP, create your batch, and publish one chapter test before you record anything. The test will teach you more about what your students need than a month of lectures will — and it is the thing their parents were trying to buy all along.
+
+
+
+
+"The free lecture took away the part of teaching that was easiest to copy. What it left behind — noticing that one child, on one chapter, is losing marks for the same reason every time — was always the actual job."
+
+— Amit Ratan, Founder & CEO, AllCoaching
+
+
+
+
+
+
+About the Author
+
+Amit Ratan
+
+Founder & CEO, AllCoaching
+
+"A school teacher with twenty years of board experience knows things no production budget can buy. The only thing missing was a way for the right parent to find them."
+
+Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator growth marketplace. He has spent over a decade studying why so many gifted individual teachers never build the income their skill deserves — and concluded that the missing piece was never talent or tools, but discovery. AllCoaching is built on the conviction that the individual educator, not only the institution, should have access to a marketplace that gets stronger with every teacher who joins.
+
+
+
+
+
+
+Get Started
+
+Run your Class 10 and 12 batches from one free studio.
+
+Set up your board-tuition studio on AllCoaching with a single mobile OTP — no credit card, no KYC at signup. Organise batches by class and subject, publish chapter-wise tests and sample papers, run live doubt sessions, sell your notes, and collect fees tied to the right student. ₹0 to set up, a flat 10% only on what you sell (you keep 90%), daily payouts, no lock-in.
+
+
+
+
+Start your board-tuition studio free
+
+
+
+Ask on WhatsApp
+
+
+
+
+No card, no KYC
+·
+Keep 90%
+·
+Daily payouts
+·
+Free base — no expiry
+
+
+
+
+
+
+
+## Glossary — Key Terms
+
+
+Term
+
+
+
+### CBSE
+
+The Central Board of Secondary Education, the national school board whose Class 10 and Class 12 examinations set the syllabus most Indian private tuition is built around. Its scale is why board tuition is simultaneously the largest tutoring market in India and the hardest to differentiate in.
+
+
+
+
+Term
+
+
+
+### Practice Spine
+
+The sequence of chapter-wise tests, solved previous-year questions and sample-paper attempts a board course is structured around. Distinct from a lecture library, which explains content — the practice spine is what produces marks, and what board families are actually paying for.
+
+
+
+
+Term
+
+
+
+### Chapter-wise Test
+
+A short assessment covering a single chapter, attempted soon after that chapter is taught. It is the smallest unit of accountability in board tuition, because it converts "I understood it" into a score a student and a parent can both see.
+
+
+
+
+Term
+
+
+
+### PYQ (Previous Year Questions)
+
+Questions from past board papers, usually organised chapter-wise and solved with marking-scheme reasoning. For board students they are the highest-signal practice available, because they reveal how marks are actually awarded rather than only whether an answer is correct.
+
+
+
+
+Term
+
+
+
+### Pre-Board
+
+A full-length practice examination held before the board exam, conducted under exam conditions. Commercially it is the point of peak demand and peak expectation in a board teacher's year, and the hardest moment at which to take on a new student honestly.
+
+
+
+
+Term
+
+
+
+### Parent Visibility
+
+The deliberate practice of showing a paying parent what is happening — tests attempted, scores, chapters covered — without waiting to be asked. In board tuition the payer is usually not the attendee, and visibility is what prevents anxiety from becoming a decision to switch.
+
+
+
+
+Term
+
+
+
+### Academic Session
+
+The school year a board batch runs across, from the start of teaching to the board examination. Pricing and enrolment work better when planned against the session rather than the calendar month, because that is how board families themselves plan.
+
+
+
+
+Term
+
+
+
+### Branded Studio
+
+A teacher's own white-labelled space carrying their name, where batches are taught, tests are set, notes are sold and fees are collected. Gives the ownership of a custom app without the cost of building one.
+
+
+
+
+
+
+References & Sources
+
+
+
+## References & sources.
+
+
+- IBEF (India Brand Equity Foundation) — India's edtech market valued at Rs. 64,875 crore (US$ 7.5 billion), projected to reach Rs. 2,50,850 crore (US$ 29 billion) by 2030 (IAMAI–Grant Thornton Bharat report). ibef.org
+
+- IBEF — India is the second-largest e-learning market after the US; the online education segment is growing at a CAGR of nearly 20%. ibef.org
+
+- Central Board of Secondary Education — official curriculum, syllabus and sample question papers for Classes 10 and 12. cbse.gov.in
+
+
+
+
+
+
+
+
+## Frequently Asked Questions
+
+
+
+
+What is the best online tuition app for Class 10 and 12 CBSE teachers?
+The right app for a board teacher is the one that handles practice and accountability, not just video. Judge it on six things: batches for a Class 10 or Class 12 cohort, chapter-wise tests students can attempt inside the same place they learn, notes and sample papers behind a paywall, live doubt sessions, progress a parent can see, and fee collection tied to the student. A general video-hosting tool covers only one of those. On AllCoaching a branded studio with all six is free to set up, with no card at signup, a flat 10% charged only on what you sell, and daily payouts.
+
+
+
+
+How do CBSE teachers compete with free YouTube lectures?
+By selling what YouTube structurally cannot: correction, accountability and a finite plan. A free lecture explains a chapter to nobody in particular; it cannot mark a student's answer, notice that they skipped three tests, tell a parent whether the child is on track, or guarantee that the syllabus finishes before the pre-boards. Board students rarely fail for lack of explanation — they fail for lack of practice under supervision. Price and position your tuition around the practice loop, and treat free content as the sample that brings students to it rather than as the competition.
+
+
+
+
+What do Class 10 and 12 board students actually pay for?
+Three things, in this order: practice with correction, a credible plan to finish the syllabus in time, and someone accountable when marks do not move. Explanation matters but is abundant and largely free. What is scarce is a teacher who sets chapter-wise tests, actually checks answers, points out where marks are being lost in presentation and steps, and keeps a student on schedule through the session. That is why a test series plus doubt sessions often sells better to board families than a recorded lecture course alone.
+
+
+
+
+How much should a CBSE teacher charge for online tuition per subject?
+Treat any figure as illustrative rather than a rate card, because it varies sharply with city, subject, batch size and reputation. Online board tuition in India commonly runs somewhere between ₹500 and ₹3,000 per subject per month, with small batches and Class 12 science subjects sitting at the higher end and large batches at the lower. The more useful decision is structure rather than number: quote per subject per month, offer a full-session or term price at a modest discount, and raise the price for the next cohort once you have results and testimonials rather than mid-session.
+
+
+
+
+Should I run live classes or sell recorded courses for board students?
+Both, but in a specific ratio. Live sessions carry the accountability that board families are paying for — attendance, doubt-solving and visible pressure — while recorded material carries the leverage, because a chapter explained once can be sold to three cohorts. The pattern that works is a live spine of doubt and test-discussion sessions, with recorded lectures, notes and a chapter-wise test series sold alongside. A teacher who sells only live hours has income capped by their calendar; a teacher who sells only recordings loses the accountability that made parents pay.
+
+
+
+
+How do I keep parents satisfied when the student attends but marks do not move?
+By making progress visible before the parent asks. In board tuition the person paying is usually not the person attending, and a parent with no visibility fills the gap with anxiety, then with a decision to switch. A short monthly update — tests attempted, average score, chapters completed, and one specific thing being worked on — pre-empts almost every difficult conversation. It also converts renewals, because a parent who can see movement rarely leaves over a bad single test.
+
+
+
+
+When is the best time to enrol Class 10 and 12 students?
+There are three predictable moments in a board session, and they matter more than continuous advertising. The first is the start of the academic session, when families are choosing tuition for the year. The second is after the half-yearly results, when a disappointing score converts a wavering parent immediately. The third is the pre-board window, when panic buying peaks but expectations are hardest to meet. Publishing a free sample lesson at each of these three points does more than advertising year-round, because the demand is already there and simply needs a credible option in front of it.
+
+
+
+
+Do I need my own app to teach CBSE tuition online?
+No. A custom app costs roughly ₹4–11 lakh in the first year once development, hosting and maintenance are counted, and it does nothing about your actual constraint, which is that board families do not know you exist. A branded studio gives you the same ownership — your name, your batches, your students, your fees — without the build cost, and adds a marketplace where students searching for Class 10 or Class 12 help by subject and language can find you. Build your own only after demand is proven.
 
 ---
 
