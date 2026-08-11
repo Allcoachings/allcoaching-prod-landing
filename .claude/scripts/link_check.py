@@ -3,14 +3,22 @@
 import re, glob, os
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# Every directory that publishes pages. `vs` and `institute` were missing until
+# 2026-08-07, which made real pages such as /vs/classplus report as broken links.
+PAGE_DIRS = ['blog', 'blogs', 'blogs/en', 'blogs/hi', 'blogs/hinglish',
+             'author', 'vs', 'institute']
+
+
 def pages():
     out = glob.glob(os.path.join(ROOT, '*.html'))
-    for d in ['blog', 'blogs', 'blogs/en', 'blogs/hi', 'blogs/hinglish', 'author']:
+    for d in PAGE_DIRS:
         out += glob.glob(os.path.join(ROOT, d, '*.html'))
+        out += glob.glob(os.path.join(ROOT, d, '*', '*.html'))
     return sorted(set(out))
 
 P = pages()
-valid = {'/', '/index.html', '/blog', '/blogs', '/blogs/en', '/blogs/hi', '/blogs/hinglish', '/author'}
+valid = {'/', '/index.html'}
+valid.update('/' + d for d in PAGE_DIRS)
 for p in P:
     rp = '/' + os.path.relpath(p, ROOT).replace(os.sep, '/')
     valid.add(rp)            # /about.html

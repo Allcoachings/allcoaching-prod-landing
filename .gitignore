@@ -10,3 +10,5 @@ Thumbs.db
 # Keep _sources/ tracked — these are the canonical markdown sources
 # (they just live behind an underscore so they don't clutter the public tree)
 
+# Personal Claude Code permissions — never commit (see CLAUDE.md)
+.claude/settings.local.json
