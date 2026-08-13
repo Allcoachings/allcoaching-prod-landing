@@ -116,6 +116,17 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://allcoaching.in/blog/appx-vs-classplus</loc>
+    <lastmod>2026-08-12T14:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://allcoaching.in/blog/appx-vs-classplus" />
+    <image:image>
+      <image:loc>https://allcoaching-store.b-cdn.net/blog-images/appx-vs-classplus.webp</image:loc>
+      <image:title>AppX vs Classplus for Coaching Educators in India (2026)</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://allcoaching.in/blog/gst-for-coaching-institutes-india</loc>
     <lastmod>2026-08-12T11:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>

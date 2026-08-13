@@ -14,7 +14,7 @@
     <managingEditor>contact@allcoaching.in (Amit Ratan)</managingEditor>
     <webMaster>contact@allcoaching.in (Amit Ratan)</webMaster>
     <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    <lastBuildDate>Wed, 12 Aug 2026 10:34:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 11:50:38 +0000</lastBuildDate>
     <category>Education</category>
     <category>EdTech</category>
     <category>India</category>
@@ -31,6 +31,19 @@
     <sy:updatePeriod>weekly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
 
+    <item>
+      <title>AppX vs Classplus for Coaching Educators in India (2026)</title>
+      <link>https://allcoaching.in/blog/appx-vs-classplus</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/appx-vs-classplus</guid>
+      <description>AppX vs Classplus for Indian coaching educators, 2026: one-time app purchase against subscription plus revenue share, what each actually costs, and the gap both leave open.</description>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/appx-vs-classplus.webp" type="image/webp" />
+    </item>
     <item>
       <title>GST for Coaching Institutes in India: Rates, ITC, Rules (2026)</title>
       <link>https://allcoaching.in/blog/gst-for-coaching-institutes-india</link>
