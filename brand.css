@@ -1635,42 +1635,71 @@ header.mast-dark{padding-top:3.5rem !important;}
   letter-spacing:.22em; text-transform:uppercase; color:var(--accent-deep);
   margin:0 0 .7rem;
 }
+/* the frame is a <button>; reset UA styling and force deterministic layout */
 .vid-frame{
-  position:relative; aspect-ratio:16/9; border-radius:20px; overflow:hidden;
-  border:1px solid var(--line); box-shadow:var(--sh-3);
-  background:linear-gradient(135deg,#1A150F,#3A2710);
-  cursor:pointer; display:block; width:100%; padding:0;
+  display:block; width:100%; margin:0; padding:0;
+  position:relative; aspect-ratio:16/9;
+  border:1px solid var(--line); border-radius:20px; overflow:hidden;
+  background:#1A150F; box-shadow:var(--sh-3);
+  cursor:pointer; isolation:isolate; text-align:left;
+  -webkit-appearance:none; appearance:none; font:inherit; color:inherit;
 }
-.vid-frame img{ width:100%; height:100%; display:block; object-fit:cover; transition:transform .5s var(--ease); }
-.vid-frame:hover img{ transform:scale(1.03); }
+.vid-frame > img{
+  position:absolute; inset:0; width:100%; height:100%;
+  object-fit:cover; display:block;
+  transition:transform .5s var(--ease);
+}
+.vid-frame:hover > img{ transform:scale(1.04); }
 .vid-frame::after{
-  content:""; position:absolute; inset:0; pointer-events:none;
-  background:linear-gradient(180deg, rgba(0,0,0,.10) 0%, transparent 40%, rgba(0,0,0,.42) 100%);
+  content:""; position:absolute; inset:0; pointer-events:none; z-index:1;
+  background:linear-gradient(180deg, rgba(0,0,0,.10) 0%, transparent 38%, rgba(0,0,0,.55) 100%);
 }
+/* play button scales with viewport so it is never oversized on mobile */
 .vid-play{
-  position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
-  width:74px; height:74px; border-radius:50%; display:grid; place-items:center;
+  position:absolute; left:50%; top:50%; z-index:2;
+  transform:translate(-50%,-50%);
+  width:clamp(50px,11vw,74px); height:clamp(50px,11vw,74px);
+  border-radius:50%; display:flex; align-items:center; justify-content:center;
   background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%);
-  box-shadow:0 10px 30px -6px rgba(197,139,67,.65), 0 0 0 1px rgba(95,55,15,.20);
-  transition:transform .22s var(--ease); z-index:2;
+  box-shadow:0 10px 30px -6px rgba(197,139,67,.6), 0 0 0 1px rgba(95,55,15,.20);
+  transition:transform .25s var(--ease), box-shadow .25s var(--ease);
 }
-.vid-frame:hover .vid-play{ transform:translate(-50%,-50%) scale(1.08); }
-.vid-play svg{ width:26px; height:26px; margin-left:4px; fill:#1A100A; }
+.vid-frame:hover .vid-play{
+  transform:translate(-50%,-50%) scale(1.09);
+  box-shadow:0 14px 38px -6px rgba(197,139,67,.75), 0 0 0 1px rgba(95,55,15,.24);
+}
+.vid-frame:focus-visible{ outline:3px solid var(--accent); outline-offset:3px; }
+/* svg sized relative to the button, so it can never blow up */
+.vid-play svg{ width:36%; height:36%; margin-left:8%; fill:#1A100A; display:block; }
 .vid-cap{
-  position:absolute; left:0; right:0; bottom:0; z-index:2;
-  padding:1.15rem 1.3rem; text-align:left;
+  position:absolute; left:0; right:0; bottom:0; z-index:2; display:block;
+  padding:clamp(.8rem,2.4vw,1.25rem) clamp(.95rem,2.8vw,1.35rem);
 }
 .vid-cap .vid-t{
-  font-family:var(--display); font-style:italic; font-weight:400;
-  font-size:clamp(1.05rem,2.3vw,1.4rem); line-height:1.25;
+  display:block; font-family:var(--display); font-style:italic; font-weight:400;
+  font-size:clamp(.98rem,2.6vw,1.4rem); line-height:1.25;
   color:#FBE2B8; margin:0; letter-spacing:-.01em;
+  text-shadow:0 1px 12px rgba(0,0,0,.45);
 }
 .vid-cap .vid-m{
-  font-family:var(--mono); font-size:10px; font-weight:700; letter-spacing:.18em;
-  text-transform:uppercase; color:rgba(245,216,174,.62); margin:.4rem 0 0;
+  display:block; font-family:var(--mono); font-size:clamp(8.5px,1.7vw,10px);
+  font-weight:700; letter-spacing:.18em; text-transform:uppercase;
+  color:rgba(245,216,174,.66); margin:.4rem 0 0;
 }
-.vid-embed iframe{ width:100%; height:100%; border:0; display:block; }
+/* playing state: iframe fills the same frame, facade fades out */
+.vid-frame.is-playing{ cursor:default; }
+.vid-frame.is-playing > img,
+.vid-frame.is-playing .vid-play,
+.vid-frame.is-playing .vid-cap,
+.vid-frame.is-playing::after{ opacity:0; pointer-events:none; }
+.vid-frame > iframe{
+  position:absolute; inset:0; width:100%; height:100%;
+  border:0; display:block; z-index:3;
+  opacity:0; transition:opacity .35s var(--ease);
+}
+.vid-frame > iframe.ready{ opacity:1; }
 @media (prefers-reduced-motion: reduce){
-  .vid-frame img, .vid-play{ transition:none; }
-  .vid-frame:hover img{ transform:none; }
+  .vid-frame > img, .vid-play, .vid-frame > iframe{ transition:none; }
+  .vid-frame:hover > img{ transform:none; }
+  .vid-frame:hover .vid-play{ transform:translate(-50%,-50%); }
 }

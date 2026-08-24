@@ -59,7 +59,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="../../dist/tw.min.css?v=20260702" />
 <link rel="stylesheet" href="../../styles.css?v=20260702" />
-<link rel="stylesheet" href="../../brand.css?v=20260702" />
+<link rel="stylesheet" href="../../brand.css?v=20260824" />
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","TechArticle"],"headline":"Classplus Ka Best Alternative Kaunsa Hai? (2026)","description":"Ek honest Hinglish 2026 guide jo Indian coaching-institute owners aur educators ke liye 'Classplus ka best alternative kaunsa hai' ka jawab deti hai. Core reframe: har Classplus alternative — Teachmint, Graphy, Learnyst, Testpress, Edmingle, Winuall, TagMango — ek TOOL hai (sasta private app jo aapko hi bharna hai), jabki AllCoaching alag CATEGORY hai: own-brand white-label studio ek shared student MARKETPLACE ke andar, jo woh cheez add karta hai jo koi tool nahi kar sakta — discovery. Guide honestly batati hai educators Classplus kyun chhodte hain (public reviews ke mutabik: subscription + usage-based live-class credits + paid add-ons, apps platform ke apne developer account par publish hoti hain yaani vendor lock-in, attendance-centric analytics), har alternative ka fair rundown, structural comparison table, Rs 0 base + flat 10% on sales only (keep 90%) ki fee-after-income economics, Classplus se parallel-run migration jisme koi student nahi khota, aur institute size ke hisaab se decision framework.","author":{"@id":"https://allcoaching.in/author/amit-ratan#person","@type":"Person","name":"Amit Ratan","jobTitle":"Founder & CEO","worksFor":{"@id":"https://allcoaching.in/#organization"},"url":"https://allcoaching.in/author/amit-ratan","image":"https://allcoaching.in/assets/Amit-Ratan.webp","sameAs":["https://www.linkedin.com/in/allamitk/","https://x.com/allamitk","https://www.instagram.com/allamitk/","https://allcoaching.in/about","https://allcoaching.in/manifesto","https://allcoaching.in/author/amit-ratan"]},"publisher":{"@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in","logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/logo/allcoaching-logo.webp?v=20260707","width":512,"height":512},"sameAs":["https://x.com/allcoachings","https://www.youtube.com/@Allcoaching","https://www.instagram.com/allcoachings/","https://www.facebook.com/allcoaching.in","https://t.me/allcoaching","https://play.google.com/store/apps/details?id=org.student.allcoaching","https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866"]},"datePublished":"2026-07-21","dateModified":"2026-07-21","mainEntityOfPage":{"@type":"WebPage","@id":"https://allcoaching.in/blogs/hinglish/classplus-ka-best-alternative-kaunsa-hai"},"inLanguage":"hi-Latn","isPartOf":{"@type":"Blog","@id":"https://allcoaching.in/blog/","name":"AllCoaching Blog"},"image":{"@type":"ImageObject","url":"https://allcoaching-store.b-cdn.net/blog-images/classplus-ka-best-alternative-kaunsa-hai.webp","width":1600,"height":900},"articleSection":"Comparison","audience":{"@type":"Audience","audienceType":"Indian coaching-institute owners aur educators jo 2026 mein Classplus alternative dhoondh rahe hain"},"about":[{"@type":"Thing","name":"Educational technology","sameAs":"https://en.wikipedia.org/wiki/Educational_technology"},{"@type":"Thing","name":"Online marketplace","sameAs":"https://en.wikipedia.org/wiki/Online_marketplace"},{"@type":"Thing","name":"Learning management system","sameAs":"https://en.wikipedia.org/wiki/Learning_management_system"},{"@type":"Thing","name":"Software as a service","sameAs":"https://en.wikipedia.org/wiki/Software_as_a_service"},{"@type":"Thing","name":"Vendor lock-in","sameAs":"https://en.wikipedia.org/wiki/Vendor_lock-in"},{"@type":"Thing","name":"Unified Payments Interface","sameAs":"https://en.wikipedia.org/wiki/Unified_Payments_Interface"}],"mentions":[{"@type":"Service","name":"AllCoaching Educator Studio","url":"https://studio.allcoaching.in/"},{"@type":"Organization","name":"Classplus"},{"@type":"Organization","name":"Teachmint"},{"@type":"Organization","name":"Graphy"},{"@type":"Thing","name":"Unified Payments Interface","url":"https://en.wikipedia.org/wiki/Unified_Payments_Interface"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":["#tldr","#tldr ul","#faq summary","#faq details > p","#glossary .def h3"]},"keywords":"classplus ka best alternative kaunsa hai, classplus alternative hindi, classplus se accha app, classplus vs allcoaching","wordCount":4200}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allcoaching.in/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://allcoaching.in/blog/"},{"@type":"ListItem","position":3,"name":"Classplus Ka Best Alternative Kaunsa Hai","item":"https://allcoaching.in/blogs/hinglish/classplus-ka-best-alternative-kaunsa-hai"}]}</script>
@@ -160,6 +160,7 @@
 <li><strong>Switch se koi student nahi khota</strong> — parallel run ka matlab access mein koi gap nahi aur koi student dobara pay nahi karta.</li>
 </ul>
 </div>
+
 
 
 
@@ -611,17 +612,32 @@
   <script src="/assets/track.js?v=1" defer></script>
 <script data-founder-video="1">
 (function(){
-  document.addEventListener('click',function(e){
-    var b=e.target.closest?e.target.closest('.vid-frame'):null;
-    if(!b||!b.dataset.yt) return;
+  var WARM=0;
+  function warm(){
+    if(WARM) return; WARM=1;
+    ['https://www.youtube-nocookie.com','https://i.ytimg.com'].forEach(function(u){
+      var l=document.createElement('link'); l.rel='preconnect'; l.href=u; l.crossOrigin='';
+      document.head.appendChild(l);
+    });
+  }
+  function play(b){
+    if(b.classList.contains('is-playing')) return;
     var f=document.createElement('iframe');
-    f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0';
-    f.title=b.getAttribute('aria-label')||'YouTube video';
+    f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1&modestbranding=1';
+    f.title=(b.getAttribute('aria-label')||'YouTube video').replace(/^Play:\s*/,'');
     f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-    f.allowFullscreen=true; f.loading='lazy';
-    var w=document.createElement('div');
-    w.className='vid-frame'; w.style.cursor='default'; w.appendChild(f);
-    b.parentNode.replaceChild(w,b);
+    f.allowFullscreen=true;
+    f.addEventListener('load',function(){ f.classList.add('ready'); });
+    b.classList.add('is-playing');
+    b.setAttribute('aria-label','Now playing');
+    b.appendChild(f);
+  }
+  document.addEventListener('pointerover',function(e){
+    var b=e.target.closest&&e.target.closest('.vid-frame'); if(b&&b.dataset.yt) warm();
+  },{passive:true});
+  document.addEventListener('click',function(e){
+    var b=e.target.closest&&e.target.closest('.vid-frame');
+    if(b&&b.dataset.yt) play(b);
   },false);
 })();
 </script>

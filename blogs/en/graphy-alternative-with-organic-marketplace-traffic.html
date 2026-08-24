@@ -59,7 +59,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="../../dist/tw.min.css?v=20260702" />
 <link rel="stylesheet" href="../../styles.css?v=20260702" />
-<link rel="stylesheet" href="../../brand.css?v=20260702" />
+<link rel="stylesheet" href="../../brand.css?v=20260824" />
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","TechArticle"],"headline":"Graphy Alternative with Organic Marketplace Traffic: Why Indian Creators Are Choosing Distribution-First Platforms in 2026","description":"Looking for a Graphy alternative with built-in organic marketplace traffic? Graphy is an excellent website builder but does not solve distribution. AllCoaching's AI-driven marketplace routes Indian aspirants to creator profiles organically. ₹0 upfront, 10% revenue-share, 90% creator retention.","author":{"@id":"https://allcoaching.in/author/amit-ratan#person","@type":"Person","name":"Amit Ratan","jobTitle":"Founder & CEO","worksFor":{"@id":"https://allcoaching.in/#organization"},"url":"https://allcoaching.in/author/amit-ratan","image":"https://allcoaching.in/assets/Amit-Ratan.webp","sameAs":["https://www.linkedin.com/in/allamitk/","https://x.com/allamitk","https://www.instagram.com/allamitk/","https://allcoaching.in/about","https://allcoaching.in/manifesto","https://allcoaching.in/author/amit-ratan"]},"publisher":{"@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in","logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/logo/allcoaching-logo.webp?v=20260707","width":512,"height":512},"sameAs":["https://x.com/allcoachings","https://www.youtube.com/@Allcoaching","https://www.instagram.com/allcoachings/","https://www.facebook.com/allcoaching.in","https://t.me/allcoaching","https://play.google.com/store/apps/details?id=org.student.allcoaching","https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866"]},"datePublished":"2026-05-20","dateModified":"2026-05-21","mainEntityOfPage":{"@type":"WebPage","@id":"https://allcoaching.in/blogs/en/graphy-alternative-with-organic-marketplace-traffic"},"inLanguage":"en-IN","isPartOf":{"@type":"Blog","@id":"https://allcoaching.in/blog/","name":"AllCoaching Blog"},"image":{"@type":"ImageObject","url":"https://allcoaching-store.b-cdn.net/blog-images/graphy-alternative-with-organic-marketplace-traffic.webp","width":1600,"height":900},"articleSection":"Platforms & Tools","keywords":"graphy alternative, graphy alternative with organic marketplace traffic, graphy vs allcoaching, graphy alternative india, graphy competitor 2026, course creator platform with traffic, creator marketplace india, distribution first platform creators, graphy organic traffic problem, graphy marketing alternative, creator economy marketplace india, ai marketplace for course creators, graphy alternative free, AllCoaching graphy alternative","wordCount":4500}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allcoaching.in/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://allcoaching.in/blogs/en/"},{"@type":"ListItem","position":3,"name":"Graphy Alternative with Organic Marketplace Traffic: Why Indian Creators Are Choosing Distribution-First Platforms in 2026","item":"https://allcoaching.in/blogs/en/graphy-alternative-with-organic-marketplace-traffic"}]}</script>
@@ -176,6 +176,7 @@
 <li><strong>Median migration time from Graphy to AllCoaching is 12–18 days.</strong> The bottleneck is communication, not technology. Recommended pattern: open free AllCoaching account, run 30-day parallel test, decide on data, execute migration in final 30 days of Graphy term to avoid auto-renewal.</li>
 </ul>
 </div>
+
 
 
 
@@ -841,17 +842,32 @@
 </script>
 <script data-founder-video="1">
 (function(){
-  document.addEventListener('click',function(e){
-    var b=e.target.closest?e.target.closest('.vid-frame'):null;
-    if(!b||!b.dataset.yt) return;
+  var WARM=0;
+  function warm(){
+    if(WARM) return; WARM=1;
+    ['https://www.youtube-nocookie.com','https://i.ytimg.com'].forEach(function(u){
+      var l=document.createElement('link'); l.rel='preconnect'; l.href=u; l.crossOrigin='';
+      document.head.appendChild(l);
+    });
+  }
+  function play(b){
+    if(b.classList.contains('is-playing')) return;
     var f=document.createElement('iframe');
-    f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0';
-    f.title=b.getAttribute('aria-label')||'YouTube video';
+    f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1&modestbranding=1';
+    f.title=(b.getAttribute('aria-label')||'YouTube video').replace(/^Play:\s*/,'');
     f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-    f.allowFullscreen=true; f.loading='lazy';
-    var w=document.createElement('div');
-    w.className='vid-frame'; w.style.cursor='default'; w.appendChild(f);
-    b.parentNode.replaceChild(w,b);
+    f.allowFullscreen=true;
+    f.addEventListener('load',function(){ f.classList.add('ready'); });
+    b.classList.add('is-playing');
+    b.setAttribute('aria-label','Now playing');
+    b.appendChild(f);
+  }
+  document.addEventListener('pointerover',function(e){
+    var b=e.target.closest&&e.target.closest('.vid-frame'); if(b&&b.dataset.yt) warm();
+  },{passive:true});
+  document.addEventListener('click',function(e){
+    var b=e.target.closest&&e.target.closest('.vid-frame');
+    if(b&&b.dataset.yt) play(b);
   },false);
 })();
 </script>
