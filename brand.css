@@ -1670,11 +1670,6 @@ header.mast-dark{padding-top:3.5rem !important;}
   text-transform:uppercase; color:rgba(245,216,174,.62); margin:.4rem 0 0;
 }
 .vid-embed iframe{ width:100%; height:100%; border:0; display:block; }
-.vid-note{
-  font-family:var(--ui); font-size:13.5px; color:var(--ink-3);
-  margin:.75rem 0 0; line-height:1.6;
-}
-.vid-note a{ color:var(--accent-deep); text-decoration:underline; text-underline-offset:2px; }
 @media (prefers-reduced-motion: reduce){
   .vid-frame img, .vid-play{ transition:none; }
   .vid-frame:hover img{ transform:none; }

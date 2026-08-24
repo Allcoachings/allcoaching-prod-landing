@@ -16,12 +16,26 @@ DEFAULT = {
     'title': 'Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab',
     'channel': 'Amit Ratan',
     'channel_url': 'https://www.youtube.com/@allamitratan',
-    'upload_date': '2026-08-24',
+    # values below pulled from the YouTube watch page, not assumed
+    'upload_date': '2026-08-23T21:48:09-07:00',
+    'duration_sec': 277,
+    'duration_iso': 'PT4M37S',
+    'description': (
+        'Coaching app banwane ka kharcha ₹0 bhi ho sakta hai, aur ₹30 lakh bhi. '
+        'Is video me wahi real cost dikhaya hai jo koi bhi app company khulkar nahi batati '
+        '— custom app pricing, subscription app ka chhupa hisaab, Android-only apps ka trap, '
+        'aur marketing budget wala asli kharcha jiski baat koi nahi karta.'
+    ),
 }
 # per-page overrides: {'blog/foo.html': {...}}
 VIDEOS = {}
 
 TARGETS = [
+    # exact keyword match for this video (app cost) — these two also carry
+    # the <video:video> entry in sitemap.xml
+    'blogs/hinglish/coaching-app-banane-me-kitna-paisa-lagta-hai.html',
+    'blog/white-label-coaching-app-development-cost-india.html',
+    # platform-comparison cluster
     'blog/appx-vs-classplus.html',
     'blog/classplus-alternative-for-coaching-institutes.html',
     'blog/classplus-vs-graphy-vs-allcoaching.html',
@@ -47,7 +61,6 @@ BLOCK = '''{start}
     <span class="vid-m">{channel} · YouTube</span>
   </span>
 </button>
-<p class="vid-note">Video click karne par hi load hoga — page speed par asar nahi. <a href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener">YouTube par dekhiye</a>.</p>
 </div>
 {end}'''
 
@@ -82,9 +95,10 @@ def video_schema(v, page_url):
         "@context": "https://schema.org",
         "@type": "VideoObject",
         "name": v['title'],
-        "description": v['title'],
+        "description": v.get('description', v['title']),
         "thumbnailUrl": ["https://i.ytimg.com/vi/%s/maxresdefault.jpg" % v['id']],
         "uploadDate": v['upload_date'],
+        "duration": v.get('duration_iso'),
         "contentUrl": "https://www.youtube.com/watch?v=%s" % v['id'],
         "embedUrl": "https://www.youtube-nocookie.com/embed/%s" % v['id'],
         "inLanguage": "hi-IN",
