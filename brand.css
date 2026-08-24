@@ -1641,8 +1641,7 @@ header.mast-dark{padding-top:3.5rem !important;}
   position:relative; aspect-ratio:16/9;
   border:1px solid var(--line); border-radius:20px; overflow:hidden;
   background:#1A150F; box-shadow:var(--sh-3);
-  cursor:pointer; isolation:isolate; text-align:left;
-  -webkit-appearance:none; appearance:none; font:inherit; color:inherit;
+  cursor:pointer; isolation:isolate;
 }
 .vid-frame > img{
   position:absolute; inset:0; width:100%; height:100%;
@@ -1660,6 +1659,7 @@ header.mast-dark{padding-top:3.5rem !important;}
   transform:translate(-50%,-50%);
   width:clamp(50px,11vw,74px); height:clamp(50px,11vw,74px);
   border-radius:50%; display:flex; align-items:center; justify-content:center;
+  border:0; padding:0; cursor:pointer; -webkit-appearance:none; appearance:none;
   background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%);
   box-shadow:0 10px 30px -6px rgba(197,139,67,.6), 0 0 0 1px rgba(95,55,15,.20);
   transition:transform .25s var(--ease), box-shadow .25s var(--ease);
@@ -1668,7 +1668,7 @@ header.mast-dark{padding-top:3.5rem !important;}
   transform:translate(-50%,-50%) scale(1.09);
   box-shadow:0 14px 38px -6px rgba(197,139,67,.75), 0 0 0 1px rgba(95,55,15,.24);
 }
-.vid-frame:focus-visible{ outline:3px solid var(--accent); outline-offset:3px; }
+.vid-play:focus-visible{ outline:3px solid var(--accent); outline-offset:4px; }
 /* svg sized relative to the button, so it can never blow up */
 .vid-play svg{ width:36%; height:36%; margin-left:8%; fill:#1A100A; display:block; }
 .vid-cap{
@@ -1690,6 +1690,7 @@ header.mast-dark{padding-top:3.5rem !important;}
 .vid-frame.is-playing{ cursor:default; }
 .vid-frame.is-playing > img,
 .vid-frame.is-playing .vid-play,
+.vid-frame.is-playing .vid-play:hover,
 .vid-frame.is-playing .vid-cap,
 .vid-frame.is-playing::after{ opacity:0; pointer-events:none; }
 .vid-frame > iframe{

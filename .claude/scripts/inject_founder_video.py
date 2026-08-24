@@ -53,14 +53,17 @@ END = '<!-- /AUTO: founder-video -->'
 BLOCK = '''{start}
 <div class="vid-embed" id="founder-video">
 <p class="vid-l">Founder ka video</p>
-<button class="vid-frame" type="button" data-yt="{vid}" aria-label="Play: {title_attr}">
-  <img src="https://i.ytimg.com/vi/{vid}/maxresdefault.jpg" alt="{title_attr} — video by {channel}" loading="lazy" width="1280" height="720" decoding="async" />
-  <span class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+<div class="vid-frame" data-yt="{vid}">
+  <img src="https://i.ytimg.com/vi/{vid}/maxresdefault.jpg"
+       srcset="https://i.ytimg.com/vi/{vid}/mqdefault.jpg 320w, https://i.ytimg.com/vi/{vid}/hqdefault.jpg 480w, https://i.ytimg.com/vi/{vid}/maxresdefault.jpg 1280w"
+       sizes="(max-width: 768px) 100vw, 720px"
+       alt="{title_attr} — video by {channel}" loading="lazy" width="1280" height="720" decoding="async" />
+  <button class="vid-play" type="button" aria-label="Play video: {title_attr}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
   <span class="vid-cap">
     <span class="vid-t">{title_html}</span>
     <span class="vid-m">{channel} · YouTube</span>
   </span>
-</button>
+</div>
 </div>
 {end}'''
 
@@ -76,14 +79,16 @@ SCRIPT = '''<script data-founder-video="1">
   }
   function play(b){
     if(b.classList.contains('is-playing')) return;
+    var pb=b.querySelector('.vid-play');
+    var label=(pb&&pb.getAttribute('aria-label'))||'YouTube video';
     var f=document.createElement('iframe');
     f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1&modestbranding=1';
-    f.title=(b.getAttribute('aria-label')||'YouTube video').replace(/^Play:\\s*/,'');
+    f.title=label.replace(/^Play video:\\s*/,'');
     f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
     f.allowFullscreen=true;
     f.addEventListener('load',function(){ f.classList.add('ready'); });
     b.classList.add('is-playing');
-    b.setAttribute('aria-label','Now playing');
+    if(pb) pb.disabled=true;
     b.appendChild(f);
   }
   document.addEventListener('pointerover',function(e){

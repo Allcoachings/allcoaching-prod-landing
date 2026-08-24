@@ -352,17 +352,23 @@
 
 
 
+
+
+
 <!-- AUTO: founder-video -->
 <div class="vid-embed" id="founder-video">
 <p class="vid-l">Founder ka video</p>
-<button class="vid-frame" type="button" data-yt="EbJTiKAlwH0" aria-label="Play: Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab">
-  <img src="https://i.ytimg.com/vi/EbJTiKAlwH0/maxresdefault.jpg" alt="Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab — video by Amit Ratan" loading="lazy" width="1280" height="720" decoding="async" />
-  <span class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+<div class="vid-frame" data-yt="EbJTiKAlwH0">
+  <img src="https://i.ytimg.com/vi/EbJTiKAlwH0/maxresdefault.jpg"
+       srcset="https://i.ytimg.com/vi/EbJTiKAlwH0/mqdefault.jpg 320w, https://i.ytimg.com/vi/EbJTiKAlwH0/hqdefault.jpg 480w, https://i.ytimg.com/vi/EbJTiKAlwH0/maxresdefault.jpg 1280w"
+       sizes="(max-width: 768px) 100vw, 720px"
+       alt="Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab — video by Amit Ratan" loading="lazy" width="1280" height="720" decoding="async" />
+  <button class="vid-play" type="button" aria-label="Play video: Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
   <span class="vid-cap">
     <span class="vid-t">Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab</span>
     <span class="vid-m">Amit Ratan · YouTube</span>
   </span>
-</button>
+</div>
 </div>
 <!-- /AUTO: founder-video -->
 <!-- AUTO: grow-cta -->
@@ -1222,14 +1228,16 @@
   }
   function play(b){
     if(b.classList.contains('is-playing')) return;
+    var pb=b.querySelector('.vid-play');
+    var label=(pb&&pb.getAttribute('aria-label'))||'YouTube video';
     var f=document.createElement('iframe');
     f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1&modestbranding=1';
-    f.title=(b.getAttribute('aria-label')||'YouTube video').replace(/^Play:\s*/,'');
+    f.title=label.replace(/^Play video:\s*/,'');
     f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
     f.allowFullscreen=true;
     f.addEventListener('load',function(){ f.classList.add('ready'); });
     b.classList.add('is-playing');
-    b.setAttribute('aria-label','Now playing');
+    if(pb) pb.disabled=true;
     b.appendChild(f);
   }
   document.addEventListener('pointerover',function(e){
