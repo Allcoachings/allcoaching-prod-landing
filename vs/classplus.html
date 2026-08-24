@@ -243,6 +243,7 @@
     .bg-cream{ background:linear-gradient(180deg,#F5F0E8 0%,#EEE7DA 100%); }
     a:focus-visible, button:focus-visible{ outline:2px solid #C58B43; outline-offset:3px; border-radius:6px; }
   </style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab","description":"Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab","thumbnailUrl":["https://i.ytimg.com/vi/EbJTiKAlwH0/maxresdefault.jpg"],"uploadDate":"2026-08-24","contentUrl":"https://www.youtube.com/watch?v=EbJTiKAlwH0","embedUrl":"https://www.youtube-nocookie.com/embed/EbJTiKAlwH0","inLanguage":"hi-IN","creator":{"@type":"Person","name":"Amit Ratan","url":"https://www.youtube.com/@allamitratan"},"publisher":{"@id":"https://allcoaching.in/#organization"},"isPartOf":{"@type":"WebPage","@id":"https://allcoaching.in/vs/classplus"}}</script>
 </head>
 
 <body class="bg-mesh text-[#15110D] antialiased">
@@ -328,6 +329,26 @@
         <li><strong>Migration takes 3–7 days</strong> — student list import, content transfer, payment reconciliation. Free via AllCoaching onboarding team.</li>
       </ul>
     </div>
+
+
+
+
+
+
+<!-- AUTO: founder-video -->
+<div class="vid-embed" id="founder-video">
+<p class="vid-l">Founder ka video</p>
+<button class="vid-frame" type="button" data-yt="EbJTiKAlwH0" aria-label="Play: Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab">
+  <img src="https://i.ytimg.com/vi/EbJTiKAlwH0/maxresdefault.jpg" alt="Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab — video by Amit Ratan" loading="lazy" width="1280" height="720" decoding="async" />
+  <span class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+  <span class="vid-cap">
+    <span class="vid-t">Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab</span>
+    <span class="vid-m">Amit Ratan · YouTube</span>
+  </span>
+</button>
+<p class="vid-note">Video click karne par hi load hoga — page speed par asar nahi. <a href="https://www.youtube.com/watch?v=EbJTiKAlwH0" target="_blank" rel="noopener">YouTube par dekhiye</a>.</p>
+</div>
+<!-- /AUTO: founder-video -->
   </div>
 </section>
 
@@ -673,5 +694,21 @@
 })();
 </script>
 
+<script data-founder-video="1">
+(function(){
+  document.addEventListener('click',function(e){
+    var b=e.target.closest?e.target.closest('.vid-frame'):null;
+    if(!b||!b.dataset.yt) return;
+    var f=document.createElement('iframe');
+    f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0';
+    f.title=b.getAttribute('aria-label')||'YouTube video';
+    f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    f.allowFullscreen=true; f.loading='lazy';
+    var w=document.createElement('div');
+    w.className='vid-frame'; w.style.cursor='default'; w.appendChild(f);
+    b.parentNode.replaceChild(w,b);
+  },false);
+})();
+</script>
 </body>
 </html>
