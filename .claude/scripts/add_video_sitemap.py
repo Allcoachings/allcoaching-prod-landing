@@ -11,25 +11,43 @@ import re
 SITEMAP = 'sitemap.xml'
 NS_VIDEO = 'xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"'
 
-VIDEO = {
-    'id': 'EbJTiKAlwH0',
-    'title': 'Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab',
-    'description': (
-        'Coaching app banwane ka kharcha 0 rupaye bhi ho sakta hai, aur 30 lakh bhi. '
-        'Is video me wahi real cost dikhaya hai jo koi bhi app company khulkar nahi batati '
-        '- custom app pricing, subscription app ka chhupa hisaab, Android-only apps ka trap, '
-        'aur marketing budget wala asli kharcha jiski baat koi nahi karta.'
-    ),
-    'duration': 277,
-    'publication_date': '2026-08-23T21:48:09-07:00',
-    'uploader': 'Amit Ratan',
-    'uploader_url': 'https://www.youtube.com/@allamitratan',
-}
-
-# only the exact-topic pages get a video sitemap entry
-PAGES = [
-    'https://allcoaching.in/blogs/hinglish/coaching-app-banane-me-kitna-paisa-lagta-hai',
-    'https://allcoaching.in/blog/white-label-coaching-app-development-cost-india',
+# Each video is claimed only on the pages that are its exact topical match.
+VIDEOS = [
+    {
+        'id': 'EbJTiKAlwH0',
+        'title': 'Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab',
+        'description': (
+            'Coaching app banwane ka kharcha 0 rupaye bhi ho sakta hai, aur 30 lakh bhi. '
+            'Is video me wahi real cost dikhaya hai jo koi bhi app company khulkar nahi batati '
+            '- custom app pricing, subscription app ka chhupa hisaab, Android-only apps ka trap, '
+            'aur marketing budget wala asli kharcha jiski baat koi nahi karta.'
+        ),
+        'duration': 277,
+        'publication_date': '2026-08-23T21:48:09-07:00',
+        'uploader': 'Amit Ratan',
+        'uploader_url': 'https://www.youtube.com/@allamitratan',
+        'pages': [
+            'https://allcoaching.in/blogs/hinglish/coaching-app-banane-me-kitna-paisa-lagta-hai',
+            'https://allcoaching.in/blog/white-label-coaching-app-development-cost-india',
+        ],
+    },
+    {
+        'id': 'hBni8zWCtuA',
+        'title': 'Apna Coaching App Kaise Banaye | 0 Rupaye Me, Poora Live Demo',
+        'description': (
+            'Apna coaching app banwane ke liye pehle lakhon rupaye lagte the, developers hire '
+            'karne padte the, aur phir bhi students aapko dhoondh nahi paate the. Is video me '
+            'poora AllCoaching Studio ka live demo hai - website se lekar branded institute '
+            'live hone tak, 0 rupaye me.'
+        ),
+        'duration': 306,
+        'publication_date': '2026-08-29T07:43:52-07:00',
+        'uploader': 'All Coaching',
+        'uploader_url': 'https://www.youtube.com/@Allcoaching',
+        'pages': [
+            'https://allcoaching.in/blogs/hinglish/apna-coaching-app-kaise-banaye-free',
+        ],
+    },
 ]
 
 
@@ -74,14 +92,15 @@ def main():
 
     # 3) insert into the target <url> blocks, before </url>
     added = 0
-    for page in PAGES:
-        m = re.search(r'(  <url>\s*\n\s*<loc>' + re.escape(page) + r'</loc>.*?)(  </url>)',
-                      h, flags=re.DOTALL)
-        if not m:
-            print('NOT FOUND in sitemap:', page)
-            continue
-        h = h[:m.end(1)] + block(VIDEO) + h[m.end(1):]
-        added += 1
+    for v in VIDEOS:
+        for page in v['pages']:
+            m = re.search(r'(  <url>\s*\n\s*<loc>' + re.escape(page) + r'</loc>.*?)(  </url>)',
+                          h, flags=re.DOTALL)
+            if not m:
+                print('NOT FOUND in sitemap:', page)
+                continue
+            h = h[:m.end(1)] + block(v) + h[m.end(1):]
+            added += 1
 
     open(SITEMAP, 'w', encoding='utf-8').write(h)
     print('video entries added:', added)

@@ -28,9 +28,29 @@ DEFAULT = {
     ),
 }
 # per-page overrides: {'blog/foo.html': {...}}
-VIDEOS = {}
+VIDEOS = {
+    # exact-topic match: this page ranks for "coaching app kaise banaye"
+    'blogs/hinglish/apna-coaching-app-kaise-banaye-free.html': {
+        'id': 'hBni8zWCtuA',
+        'title': 'Apna Coaching App Kaise Banaye | ₹0 Me, Poora Live Demo',
+        # brand channel re-upload; supersedes WjAvIiq_m30 (same title, personal channel)
+        'channel': 'All Coaching',
+        'channel_url': 'https://www.youtube.com/@Allcoaching',
+        'creator_type': 'Organization',
+        'upload_date': '2026-08-29T07:43:52-07:00',
+        'duration_sec': 306,
+        'duration_iso': 'PT5M6S',
+        'description': (
+            'Apna coaching app banwane ke liye pehle lakhon rupaye lagte the, developers '
+            'hire karne padte the, aur phir bhi students aapko dhoondh nahi paate the. '
+            'Is video me poora AllCoaching Studio ka live demo hai — website se lekar '
+            'branded institute live hone tak, ₹0 me.'
+        ),
+    },
+}
 
 TARGETS = [
+    'blogs/hinglish/apna-coaching-app-kaise-banaye-free.html',
     # exact keyword match for this video (app cost) — these two also carry
     # the <video:video> entry in sitemap.xml
     'blogs/hinglish/coaching-app-banane-me-kitna-paisa-lagta-hai.html',
@@ -122,7 +142,8 @@ def video_schema(v, page_url):
         "contentUrl": "https://www.youtube.com/watch?v=%s" % v['id'],
         "embedUrl": "https://www.youtube-nocookie.com/embed/%s" % v['id'],
         "inLanguage": "hi-IN",
-        "creator": {"@type": "Person", "name": v['channel'], "url": v['channel_url']},
+        "creator": {"@type": v.get('creator_type', 'Person'),
+                    "name": v['channel'], "url": v['channel_url']},
         "publisher": {"@id": "https://allcoaching.in/#organization"},
         "isPartOf": {"@type": "WebPage", "@id": page_url},
     }

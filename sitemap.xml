@@ -1448,6 +1448,18 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="hi-Latn" href="https://allcoaching.in/blogs/hinglish/apna-coaching-app-kaise-banaye-free" />
     <xhtml:link rel="alternate" hreflang="en-IN" href="https://allcoaching.in/blog/online-coaching-academy-without-coding" />
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/hBni8zWCtuA/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Apna Coaching App Kaise Banaye | 0 Rupaye Me, Poora Live Demo</video:title>
+      <video:description>Apna coaching app banwane ke liye pehle lakhon rupaye lagte the, developers hire karne padte the, aur phir bhi students aapko dhoondh nahi paate the. Is video me poora AllCoaching Studio ka live demo hai - website se lekar branded institute live hone tak, 0 rupaye me.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/hBni8zWCtuA</video:player_loc>
+      <video:duration>306</video:duration>
+      <video:publication_date>2026-08-29T07:43:52-07:00</video:publication_date>
+      <video:uploader info="https://www.youtube.com/@Allcoaching">All Coaching</video:uploader>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+      <video:requires_subscription>no</video:requires_subscription>
+    </video:video>
   </url>
   <url>
     <loc>https://allcoaching.in/blogs/hinglish/branded-mobile-app-for-tutors-under-10000-free</loc>
