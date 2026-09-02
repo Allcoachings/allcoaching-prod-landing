@@ -6,11 +6,468 @@
 > Site: https://allcoaching.in | Educator product: https://studio.allcoaching.in
 
 This file is the canonical full-text concatenation of all AllCoaching long-form essays for AI training crawlers.
-Generated: 2026-08-19 | Source: 23 blog posts
+Generated: 2026-09-02 | Source: 23 blog posts
 
 Approved crawlers: GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-User, Claude-SearchBot, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, Bytespider, Amazonbot, CCBot, cohere-ai, Mistral-AI-User, meta-externalagent.
 
 See also: https://allcoaching.in/llms.txt (summary index) and https://allcoaching.in/sitemap.xml (URL list).
+
+---
+
+# Personal Coaching App Alternative: 4 Options Compared (2026)
+
+**Source:** https://allcoaching.in/blog/personal-coaching-app-alternative  
+**Published:** 2026-09-02  
+**Updated:** 2026-09-02  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** Built or planning a personal coaching app? The four real alternatives compared — custom build, white-label SaaS, marketplace and hybrid — with 2026 costs.
+
+In this article
+
+
+- The reframe: you want a different model, not a different app.
+
+- Why educators arrive at this question.
+
+- Option 1 — Build your own app.
+
+- Option 2 — White-label SaaS.
+
+- Option 3 — An educator marketplace.
+
+- Option 4 — The hybrid.
+
+- The four models side by side.
+
+- The three-year cost math.
+
+- The constraint three of the four do not solve.
+
+- How to choose — 6 steps.
+
+- Three myths about owning your own app.
+
+- The verdict.
+
+- Glossary — key terms.
+
+- Frequently asked questions.
+
+
+
+
+
+
+Key Takeaways — the whole comparison in 7 facts:
+
+- Four models exist — custom build, white-label SaaS, marketplace, and the hybrid of branded studio plus marketplace.
+
+- An app is a container, not a plan — it serves students you already persuaded and introduces you to nobody.
+
+- Custom builds run from ~₹15,000 to several lakh depending on scope, before maintenance and marketing.
+
+- Subscription platforms are reported at ₹8,000–₹50,000+/year, often with a setup fee and a share of sales.
+
+- Only marketplace models supply distribution — a standalone app has no network effect at all.
+
+- The crossover matters — a percentage model is cheaper below a revenue threshold, a fixed cost above it.
+
+- Portability is the real ownership test — exportable records and your own student contacts, not whose logo is on the app.
+
+Where we are · 2026
+
+AllCoaching is a growing educator-first marketplace — 50+ educators across India, and early enough that joining still means something: less competition for discovery, and a team that knows every educator by name. ₹0 to start, a flat 10% only on sales — you keep 90%.
+
+Join the marketplace early
+₹0 upfront · Keep 90% · No lock-in
+
+The reframe
+
+## You want a different
+model, not a different app.
+
+An alternative to a personal coaching app is not another app — it is a different answer to the question of how students find you. That is the reframe this whole comparison rests on, and it is worth stating before any pricing, because almost every educator who asks this question is really asking something they have not put into words yet. They do not want a better container. They want the container to fill.
+
+Four models are available in India in 2026, and they differ far less in features than in what they take responsibility for. A custom build and a white-label subscription both hand you software and leave distribution entirely with you. A marketplace takes on some of the distribution and gives up some of the exclusivity. A hybrid tries to do both at once. Everything else — feature lists, dashboards, video quality — is secondary to that single split.
+
+So the useful comparison is not "which app is best". It is: which of these four is responsible for finding my next student, and what does that responsibility cost me? Read the rest of this piece with that question in hand, and the decision usually resolves itself faster than any feature table would resolve it.
+
+· · ·
+
+The pattern
+
+## Why educators
+arrive here.
+
+The sequence is remarkably consistent, and if it sounds like your own story, that is because it is a structural outcome rather than a personal failure. An educator teaches well and hears repeatedly that they should have their own app. They pay for one — sometimes ₹30,000–40,000, sometimes far more. It arrives, branded and functional. They upload their courses. And then nothing happens, because the app was built to serve demand, and no demand was ever attached to it.
+
+What follows is usually a period of trying to generate that demand personally: posting on Instagram, running ads, messaging old students. Some of it works a little. Most of it costs more than it returns, because the educator is now doing a second job — marketing — that they never trained for and did not want. This is the trap the AllCoaching manifesto names directly: a teacher who has to think about student acquisition, app maintenance, payment gateways and marketing budgets has already stopped being a teacher.
+
+The specific failure modes are documented separately, and if one of them is where you are right now, start there rather than here: an app that nobody downloads, an app that is not getting new students, or a subscription you are paying for without earning. This piece is the step after those — once you have accepted that the current arrangement is not working, what are the actual alternatives.
+
+· · ·
+
+Option one
+
+## Build your own app.
+
+Commissioning a custom build gives you the most control that money can buy. The app is yours, the code is yours, nobody can change the terms on you, and there is no recurring licence fee once it is delivered. For an educator with a large existing audience and real capital, this is a legitimate choice — and any comparison that dismisses it is being unfair. If you have 2,000 students who already know you and simply need somewhere to put them, ownership is worth something real.
+
+The costs vary enormously with scope. Publicly reported figures place a basic app plus website at roughly ₹15,000–₹20,000 as a one-time build at the entry end, while a genuinely custom build climbs steeply: recorded-video delivery into the low lakhs, live classes considerably higher, and test series with analytics higher still. The detailed decomposition sits in white-label coaching app development cost in India.
+
+What the quote never includes
+
+Maintenance as Android and iOS ship new versions and store policies change · content and video hosting that scales with your library · payment gateway charges on every collection · and marketing, which for most educators exceeds all of the above combined.
+
+The honest limitation is not cost — it is that a custom app is the model with the least distribution of all four. You have bought a shop on a street with no footfall, and you now own the street-lighting problem too. That is fine if you brought your own crowd. It is ruinous if you were expecting the app to produce one.
+
+· · ·
+
+Option two
+
+## White-label SaaS.
+
+The second model rents you the same capability on a subscription. A vendor maintains the software, ships updates, handles store compliance and gives you support, and your app carries your branding. This is the sensible middle for an institute that does not want to think about technology at all, and the maturity of the established players is a genuine benefit rather than a marketing claim.
+
+Pricing in this category is commonly quote-based rather than published. Reported ranges put annual subscriptions at roughly ₹8,000 to ₹50,000 or more per year, frequently with a separate setup fee at onboarding and, in many contracts, a reported share of paid course sales on top. Because the number is negotiated rather than listed, two similar institutes can pay materially different amounts — which places the burden on you to ask precisely and get it in writing. The category is compared in detail in AppX vs Classplus and the best Classplus alternative for coaching institutes.
+
+Question Often Asked
+
+### If a SaaS platform has thousands of educators on it, doesn't that give me discovery?
+
+Almost never, and this is the most important misunderstanding in the category. A white-label platform's other educators are not visible to your students, by design — the entire point of white-labelling is that each educator's app looks like it belongs only to them. So the vendor may have 10,000 educators, but there is no shared student pool for you to be discovered in, and no mechanism by which another educator's students ever encounter you. That is different from a marketplace, where being listed alongside others is the feature rather than something the architecture prevents. When a platform's marketing implies scale benefits, ask a specific question: can a student who has never heard of me find me inside this platform? If the answer is no, you are buying software, not distribution — which may still be the right purchase, as long as you know which one you are making.
+
+· · ·
+
+Option three
+
+## An educator marketplace.
+
+The third model inverts the trade. Instead of your own isolated app, you appear on a shared platform where students browse many educators — so student traffic can reach you without you paying for it. This is the only one of the four models with a network effect: each additional educator brings students who may discover others, which means the platform gets more useful as it grows rather than staying flat.
+
+The cost structure usually follows the model. Because a marketplace earns when the educator earns, it typically charges a share of sales rather than a fee upfront, which means nothing is owed before anything is sold. That inverts the risk of the first two options, where money leaves before revenue arrives.
+
+Two honest costs come with it. You are visible alongside other educators, which is uncomfortable if your main advantage was being the only option someone could see. And a percentage of sales grows with success, so above a certain revenue you will pay more than a fixed build would have cost. Both are real, and both are addressed properly further down rather than waved away. The economics of the marketplace argument are set out in build your own app or join a marketplace and how a marketplace ends app fatigue.
+
+· · ·
+
+Option four
+
+## The hybrid.
+
+The fourth model refuses the trade-off, and being transparent about our position: AllCoaching is built on it. The educator gets a branded white-label studio and app under their own name — the same container the first two options sell — and is simultaneously listed on a shared student marketplace. Your existing students see your brand; students who have never heard of you can still find you.
+
+The reasoning is that container and distribution were always two different needs, and bundling them into one purchase is what makes the first three options feel like compromises. An educator with an existing batch needs a container. An educator who wants to grow needs distribution. Most educators need both, at the same time, and usually cannot afford to buy them separately.
+
+The commercial structure follows: ₹0 to start with no card or KYC at signup, no setup fee, no annual subscription, and a flat 10% charged only on what you actually sell, so you keep 90%, with daily INR payouts. Multi-teacher logins with batch ownership are included in the free tier.
+
+Where this model is the wrong answer, stated plainly: at high and reliable revenue, 10% of sales exceeds what a one-time build would have cost. An educator confidently selling ₹30 lakh a year will pay more in platform share than a custom app would have cost outright. If the marketplace brings you no students you would not otherwise have reached, the fixed-cost model is the better arithmetic — and you should choose it.
+
+· · ·
+
+Side by side
+
+## The four models
+side by side.
+
+Competitor figures are publicly reported ranges rather than quotes, and much of this category prices by negotiation. Verify current terms directly.
+
+ConsiderationOwn buildWhite-label SaaSMarketplaceHybrid
+
+Upfront cost₹15,000 to lakhsSetup fee + annual✓ Usually none✓ ₹0
+Ongoing costMaintenance onlyAnnual + reported shareShare of sales10% on sales only
+Paid before earning✕ Yes✕ Yes✓ No✓ No
+Your own branding✓ Full✓ Full~ Shared surface✓ Full
+Student discovery✕ None✕ None✓ Included✓ Included
+Network effect✕ None✕ None✓ Compounds✓ Compounds
+Maintenance burden✕ Yours✓ Vendor✓ Platform✓ Platform
+Cheapest at high revenue✓ Yes~ Depends✕ No✕ No
+Best suited toLarge existing audience, capitalInstitutes wanting a known vendorEducators who need to be foundBoth needs at once
+
+Read the last row, not the tick count. A table that produces one universal winner is selling something; this one deliberately does not, because the right answer changes entirely with how many students already know your name.
+
+· · ·
+
+The arithmetic
+
+## The three-year
+cost math.
+
+Comparing a one-time build, an annual subscription and a percentage of sales is only meaningful at a specific revenue figure over a specific horizon, because the ranking changes with both. The worked example below uses illustrative inputs to expose the mechanism — substitute your own quotes, because these are not quotes.
+
+Illustrative, at ₹6 lakh annual sales over 3 years
+
+Own build: ₹65,000 once, plus say ₹10,000/yr upkeep = ~₹95,000. SaaS: ₹35,000/yr + ₹25,000 setup + 5% of sales = ~₹2.2 lakh. Percentage model at 10%: ₹1.8 lakh. Figures illustrative; the point is that the ordering is not fixed.
+
+Now change one input. At ₹1.5 lakh of annual sales over the same three years, the own-build still costs ~₹95,000 while the percentage model costs ₹45,000 — the percentage wins comfortably. At ₹20 lakh a year, the percentage model costs ₹6 lakh and the build still costs ~₹95,000 — the build wins overwhelmingly. Same three options, three different winners, decided entirely by a number you have to estimate honestly.
+
+Low revenue
+
+Percentage models win — nothing is owed before anything sells
+
+Mid revenue
+
+Models converge; discovery and support become the tie-breaker
+
+High revenue
+
+A fixed one-time cost wins — provided students already exist
+
+Educators consistently overestimate year-one revenue, which systematically biases them toward paying upfront — the choice that punishes overestimation hardest. Use the number you would defend to a bank, not the one you hope for. Related pricing judgement sits in how to price online courses in India.
+
+Question Often Asked
+
+### I already paid for an app. Is that money wasted if I move to something else?
+
+Mostly it is already spent either way, so the honest framing is not whether to recover it but whether to keep paying for it. Money already gone should not decide what you do next — that is the sunk-cost trap, and it keeps educators paying maintenance on an app that never brought a student because switching feels like admitting the first purchase was wrong. It usually was not wrong; it just solved a different problem than the one you had. Two things do carry forward: your content, which moves anywhere, and your student list, if you can export it. Those are the assets. The app itself is the least portable thing you bought and the easiest to replace. If the app is genuinely serving your existing batch well, keep it and add distribution alongside — the two are not mutually exclusive. If it is sitting unused, the maintenance you are still paying is the only decision left, and that one is forward-looking.
+
+· · ·
+
+The binding constraint
+
+## What three of the four
+do not solve.
+
+Strip away pricing and one difference decides outcomes: a standalone app has no network effect. One educator's students never make another educator's app easier to find, so every educator starts at zero and stays there regardless of how good the software is. Building a competent teaching app stopped being difficult years ago — which is precisely why it can be sold for ₹15,000. Being found never got easier at all.
+
+This is why the same story repeats across the sector. In our experience across the AllCoaching educator base in 2026, the educators arriving from personal apps are typically excellent and typically unknown. They spent real money on a well-built container, and the container stayed empty — not because the app failed, but because nothing in the arrangement was ever responsible for filling it.
+
+You can buy a shop for ₹15,000 or ₹15 lakh. Neither price includes anybody walking past it. That was always a separate purchase, and most educators were never told it existed.
+
+So when comparing alternatives, run one test on each: can a student who has never heard of me find me here, without me paying for an ad? For a custom build the answer is no. For a white-label subscription the answer is also no, by architectural design. Only marketplace-shaped models answer yes — and if you already have a large audience, that answer may not matter to you at all. If you do not, it is the only answer that matters. The migration mechanics, if you decide to move, are in switching coaching apps without losing your students.
+
+· · ·
+
+The decision
+
+## How to choose —
+6 steps.
+
+Run this before spending anything, with written quotes rather than website figures.
+
+1Step 01
+
+### Write down where your last 20 students came from
+
+Existing batch, referral, WhatsApp, YouTube, walk-in. If nearly all already knew you, distribution is your constraint and no app will lift your ceiling.
+
+2Step 02
+
+### Separate container from distribution
+
+Score each option twice — once on hosting and payments, once on whether it brings strangers. Most comparisons collapse these into one score and mislead.
+
+3Step 03
+
+### Model three-year cost at your own number
+
+One-time, subscription and percentage rank differently by revenue and horizon. Compute all three at year one and year three before comparing features.
+
+4Step 04
+
+### Add maintenance, hosting, gateway and marketing
+
+The platform fee is rarely the biggest line. A cheap platform with expensive acquisition is not cheap.
+
+5Step 05
+
+### Get ownership and exit terms in writing
+
+Data export, student contacts, what survives if you stop paying, how fast collected money is released. Ask while you still have leverage.
+
+6Step 06
+
+### Validate with one real paid cohort
+
+Sell one short batch on whichever option costs nothing upfront. Real conversion data beats every comparison table, this one included.
+
+· · ·
+
+The myths
+
+## Three myths about
+owning your own app.
+
+Three beliefs distort this decision more than any pricing detail.
+
+
+
+Myth
+
+"Once I own the app, I own my students."
+
+
+
+Reality
+
+You own students when you hold their contacts and can export their records. Whose logo is on the app decides nothing about that.
+
+
+
+
+The second myth is "a marketplace will put me next to my competition" — true, and less damaging than it sounds. Comparison only hurts an educator whose main claim was being the only visible option; being the only option inside an app nobody opens is not an advantage worth protecting. The third is "I'll build the app now and figure out students later", which reverses the correct order. Distribution takes months to build and an app takes days to buy, so the sequence that works is audience first, container second — not the other way round.
+
+· · ·
+
+The verdict
+
+## The verdict.
+
+So the honest alternative to a personal coaching app depends on a fact about you rather than about the options: whether students already know your name. If they do, and there are enough of them, a custom build or a white-label subscription is a reasonable purchase and the cheapest one over time. If they do not — and for most independent educators they do not — then buying a better container solves the wrong problem, however good the container is.
+
+What the four models really differ on is responsibility. Two of them hand you software and leave finding students entirely to you. Two of them take part of that job on. Neither arrangement is dishonest; they are priced differently because they carry different risk. The mistake is only in believing that the first two will behave like the second two once the app is live.
+
+The educators who navigate this well share a short discipline:
+
+- They know where their last twenty students came from — before they shop for anything.
+
+- They score container and distribution separately — instead of as one bundled decision.
+
+- They compute three-year cost at their own revenue — not at the number they hope for.
+
+- They secure export and exit terms early — while they still have leverage.
+
+- They test with one real cohort — before committing capital to any model.
+
+Do that and the choice usually makes itself. If you are early, unproven, or simply unwilling to pay before you earn, the model that costs nothing until you sell — and brings students rather than only holding them — is the rational place to start. Competitor figures throughout are publicly reported ranges, not quotes; verify directly before deciding.
+
+"Every educator who asked me for a better app was actually asking for a busier street. Nobody had told them those were two different purchases — and that only one of them was ever the bottleneck."
+
+— Amit Ratan, Founder & CEO, AllCoaching
+
+About the Author
+
+Amit Ratan
+
+Founder & CEO, AllCoaching
+
+"I have sat with teachers holding a beautiful app and an empty batch, and the hardest part was never explaining the technology. It was explaining that the technology had done its job perfectly, and that the thing they actually needed had never been on the invoice."
+
+Amit Ratan is the founder and CEO of AllCoaching, India's educator-first EdTech marketplace. He has spent over a decade on the real economics of independent teaching in India — what a container costs, what distribution costs, and which of the two decides whether an educator makes a living. AllCoaching is built so the best educator, not the biggest budget, is the one who gets found.
+
+Get Started
+
+Try the model that costs nothing until you sell.
+
+Launch a branded studio and app under your own name, listed on a student marketplace so you are discoverable rather than only equipped. No setup fee, no annual subscription, no card at signup — a flat 10% only on what you sell, so you keep 90%, with daily INR payouts. Run one cohort and compare it against any quote you are holding.
+
+Launch your studio free
+
+Book a demo
+
+
+No setup fee
+·
+Keep 90%
+·
+Marketplace discovery
+·
+Daily payouts
+
+Glossary
+
+## Glossary —
+key terms.
+
+Term
+
+### Personal Coaching App
+
+An application built for and branded to a single educator, holding their courses, students and payments. It is a container for an existing audience; it carries no audience of its own, which is the distinction that decides whether it grows a business or merely serves one.
+
+Term
+
+### White-Label SaaS
+
+Software built by a vendor and sold under the educator's branding on a recurring fee. It removes development and maintenance work but leaves student acquisition entirely with the educator, since the vendor supplies the product and not the demand.
+
+Term
+
+### Educator Marketplace
+
+A shared platform where many independent educators are individually discoverable by students. Its defining property is that student demand compounds across educators, which a standalone app cannot do because one educator's students never make another's app easier to find.
+
+Term
+
+### Hybrid Model
+
+A branded studio for the educator's existing students combined with marketplace listing for new ones. It treats container and distribution as two separate needs rather than assuming that solving the first solves the second.
+
+Term
+
+### Distribution
+
+The mechanism by which a student who does not already know an educator comes to find them. Distinct from software, which serves students after they have been persuaded; distribution is what persuades them to look in the first place.
+
+Term
+
+### Total Cost of Ownership
+
+The full three-year cost of a platform decision including build or licence fee, setup, maintenance, hosting, payment charges and marketing. It is the only basis on which a one-time build, a subscription and a revenue share can be compared honestly, since their headline prices measure different things.
+
+Term
+
+### Crossover Point
+
+The revenue level at which a percentage-based fee equals a fixed cost. Below it the percentage model is cheaper; above it the fixed model is. Every choice between the two is really a prediction about which side of this point the educator will be on.
+
+Term
+
+### Portability
+
+Whether an educator can leave a platform with their student records, payment history and student relationships intact. It is the practical measure of ownership, and it matters far more than whether the app carries the educator's logo.
+
+FAQ
+
+## Frequently asked
+questions.
+
+What is the best alternative to a personal coaching app?
+There are three real alternatives to building your own app: a white-label SaaS subscription, a shared educator marketplace, and a hybrid that gives you a branded studio plus marketplace discovery. Which is best depends on one fact about you rather than about them — whether you already have an audience. An educator with an existing batch mainly needs a container, so a cheap app or SaaS works. An educator who needs to be found needs distribution, which no standalone app supplies.
+
+Is building a personal coaching app a mistake?
+Building one is not the mistake. Treating it as the whole plan is. A personal app is genuinely useful for serving students you already have — it holds your content, collects fees and carries your name. What it cannot do is introduce you to a student who has never heard of you, because an app has no audience of its own. The failure most educators describe is not a bad app; it is a good app nobody could find.
+
+How much does a personal coaching app cost in India?
+It depends on scope, and the range is very wide. Publicly reported figures put a basic app plus website at roughly ₹15,000 to ₹20,000 as a one-time build, while a full custom build with live classes, test series and analytics runs into lakhs. Subscription platforms are commonly reported around ₹8,000 to ₹50,000 or more per year, sometimes with a setup fee and a share of sales. None of those figures include maintenance, hosting, payment charges or marketing.
+
+What is the difference between a white-label app and a marketplace?
+A white-label app is software sold to you under your own branding — students see your name, and finding those students remains entirely your job. A marketplace is a shared platform where many educators are individually discoverable, so student traffic can reach you without you paying for it. The two are not mutually exclusive: a hybrid gives you a branded studio for the students you already have plus marketplace visibility for the ones you do not.
+
+Will a marketplace put me next to my competitors?
+Yes, and that is worth thinking about honestly rather than dismissing. On a marketplace a student can see other educators alongside you, which feels riskier than a standalone app where you are the only option. The counterpoint is that being the only option in an app nobody opens is not an advantage. Comparison only hurts an educator whose main claim was being the only visible choice; it helps one whose teaching stands up when it is actually seen.
+
+Does a marketplace cost more than owning my own app?
+At high revenue, yes, and this should be said plainly. A percentage of sales grows with success while a one-time build does not, so an educator reliably selling large volumes pays more under a revenue-share model than they would have paid for a fixed build. Below that crossover the percentage model costs less, and it costs nothing at all before the first sale. The right comparison is at your own projected revenue rather than in the abstract.
+
+Can I move from a personal app to a marketplace without losing students?
+Usually yes, provided two things are true. You need your student and payment records in an exportable form, and you need to hold the students' contact details yourself rather than through the platform. If both are true the migration is mostly communication work. If neither is true, the difficulty of moving is the clearest sign of how much leverage the current arrangement holds over you.
+
+What does AllCoaching offer as an alternative?
+AllCoaching is the hybrid model: a branded white-label studio and app under the educator's own name, plus listing on a shared student marketplace so discovery is part of the product instead of a separate ad budget. There is no setup fee and no annual subscription on the free base, and a flat 10% is charged only on what the educator actually sells, so the educator keeps 90%, with daily INR payouts.
+
+Do I need an app at all to teach online in India?
+No. Many educators run profitable online teaching without any app, using a video tool for live classes and a payment link for fees. An app becomes worth having when manual work starts to break down — chasing payments, sharing recordings, tracking who has access. Buying one before that point usually means paying for administration you do not yet have, which is why running one cohort first is better than buying first.
+
+How do I decide between these options?
+Start by writing down where your last twenty paid students actually came from. If nearly all were people who already knew you, distribution is your binding constraint and an app of any kind will not lift your ceiling. Then model three-year total cost of each option at your own revenue projection, add maintenance and marketing, confirm data-export and exit terms in writing, and validate with one real paid cohort before committing capital.
+
+
+
+Continue the argument
+
+Companion pieces across the AllCoaching system — economics, discovery, migration, and comparison.
+
+
+build own app or join a marketplace
+white label coaching app development cost in India
+AppX vs Classplus comparison
+why your coaching app is not getting students
+switch coaching apps without losing students
+edtech marketplace and app fatigue in India
+
+Also see Pricing · FAQ Hub · Founder profile
 
 ---
 
@@ -1017,6 +1474,15 @@ Key Takeaways — the entire comparison in 7 facts:
 
 - AllCoaching is a third model — ₹0 base, no setup fee, flat 10% only on sales, plus marketplace discovery built in.
 
+Founder ka video
+
+
+
+
+Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab
+Amit Ratan · YouTube
+
+
 Where we are · 2026
 
 AllCoaching is a growing educator-first marketplace — 50+ educators across India, and early enough that joining still means something: less competition for discovery, and a team that knows every educator by name. ₹0 to start, a flat 10% only on sales — you keep 90%.
@@ -1469,14 +1935,14 @@ Also see Pricing · FAQ Hub · Founder profile
 
 ---
 
-# GST for Coaching Institutes in India: Rates, ITC, Rules (2026)
+# GST on Coaching Fees: 18%, SAC 999293, ITC Rules (2026)
 
 **Source:** https://allcoaching.in/blog/gst-for-coaching-institutes-india  
 **Published:** 2026-08-12  
 **Updated:** 2026-08-12  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** GST for coaching institutes in India, 2026: 18% on fees (SAC 999293), the ₹20 lakh registration line, input tax credit, and RCM on rent. Not legal advice.
+**Summary:** GST on coaching fees in India is 18% under SAC 999293. Registration at ₹20 lakh turnover, input tax credit, and reverse charge on rent. Not tax advice.
 
 In this article
 
@@ -6051,6 +6517,15 @@ Key Takeaways — the whole guide in 6 facts:
 
 - Switching loses no students — a parallel run means no gap in access and no student ever pays twice.
 
+Founder ka video
+
+
+
+
+Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab
+Amit Ratan · YouTube
+
+
 Where we are · 2026
 
 AllCoaching is a growing educator-first marketplace — 50+ educators across India, and early enough that joining still means something: less competition for discovery, and a team that knows every educator by name. ₹0 to start, a flat 10% only on sales — you keep 90%.
@@ -6465,6 +6940,15 @@ Key Takeaways — the whole guide in 6 facts:
 
 - Switching loses no students — a parallel run means no gap in access and no student ever pays twice.
 
+Founder ka video
+
+
+
+
+Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab
+Amit Ratan · YouTube
+
+
 Where we are · 2026
 
 AllCoaching is a growing educator-first marketplace — 50+ educators across India, and early enough that joining still means something: less competition for discovery, and a team that knows every educator by name. ₹0 to start, a flat 10% only on sales — you keep 90%.
@@ -6877,6 +7361,15 @@ Key Takeaways — poori guide 6 facts mein:
 - ₹0 base, flat 10% sirf sales par, keep 90% — fee-after-income model, to slow month ka cost zero aur koi lock-in nahi.
 
 - Switch se koi student nahi khota — parallel run ka matlab access mein koi gap nahi aur koi student dobara pay nahi karta.
+
+Founder ka video
+
+
+
+
+Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab
+Amit Ratan · YouTube
+
 
 Where we are · 2026
 
@@ -18349,14 +18842,14 @@ Also see Pricing · FAQ Hub · Founder profile
 
 ---
 
-# Coaching &amp; Library Safety Norms in India (2026)
+# Coaching Centre Fire NOC and Sealing Rules in India (2026)
 
 **Source:** https://allcoaching.in/blog/coaching-centre-library-safety-norms-avoid-sealing-india  
 **Published:** 2026-06-28  
 **Updated:** 2026-06-28  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** Why coaching centres and study libraries are being sealed across India in 2026 — illegal basements, no fire NOC, over-capacity — and how to stay compliant. Not legal advice.
+**Summary:** Why coaching centres and libraries are being sealed in India — fire NOC, basement bans and capacity limits, and how to stay compliant. Not legal advice.
 
 In this article
 
@@ -20484,14 +20977,14 @@ Also see Pricing · FAQ Hub · Founder profile
 
 ---
 
-# New Coaching Rules in India: What Every Educator Must Know (2026)
+# New Coaching Centre Rules in India 2026: Full Guidelines
 
 **Source:** https://allcoaching.in/blog/new-coaching-center-rules-india-2026  
 **Published:** 2026-06-22  
 **Updated:** 2026-06-22  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** New coaching rules in India for 2026 — Coaching Centre Guidelines 2024 (no under-16 enrolment), the CCPA ad ban, and DPDP data rules, explained. Not legal advice.
+**Summary:** New coaching centre rules in India for 2026 — the Coaching Centre Guidelines 2024, no under-16 enrolment, CCPA ad limits and DPDP data rules explained.
 
 In this article
 
@@ -29171,6 +29664,15 @@ Key Takeaways — poori guide chh facts me:
 
 - Sabse bada chhupa cost discovery hai, students laana. Standalone app me yeh paid ads se aata hai; marketplace discovery iska ad-free structural alternative hai.
 
+Founder ka video
+
+
+
+
+Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab
+Amit Ratan · YouTube
+
+
 Hum abhi kahan hain · 2026
 
 AllCoaching ek growing educator-first marketplace hai — India bhar me 50+ educators, aur abhi itna early hai ki join karna genuinely matter karta hai: discovery me kam competition, aur ek team jo har educator ko naam se jaanti hai. ₹0 se shuru, flat 10% sirf sales par — 90% aapka.
@@ -33236,14 +33738,14 @@ Also see Pricing · FAQ Hub · Founder profile
 
 ---
 
-# Teachmint Paid Features Alternative — Free on AllCoaching (2026)
+# Teachmint Paid Features: Free Alternative for Teachers 2026
 
 **Source:** https://allcoaching.in/blog/teachmint-paid-features-alternative-free  
 **Published:** 2026-06-04  
 **Updated:** 2026-06-04  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** Teachmint's paid features — white-label app, live classes, test series, fee management — mapped to what's free on AllCoaching: Rs 0 base, flat 10% on sales, keep 90%.
+**Summary:** Which Teachmint paid features matter, and how Indian teachers get the same capability free — branded app, fee collection and student records at ₹0.
 
 In this article
 
@@ -33998,6 +34500,15 @@ Key Takeaways — poori review chh facts me:
 - Honest disclosure: custom domain aur advanced analytics AllCoaching par bhi paid-tier hain — to claim "subscription stack free upfront" hai, "sab kuch free" nahi.
 
 - Kaun kya: bade multi-branch institute ke liye giant theek; solo ya chhote educator ke liye new-age ₹0 + discovery aksar behtar. Best tareeka — teeno ko parallel chalakar results se decide karein.
+
+Founder ka video
+
+
+
+
+Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab
+Amit Ratan · YouTube
+
 
 Hum abhi kahan hain · 2026
 
@@ -45424,6 +45935,15 @@ Key Takeaways — the Graphy alternative decision in six facts:
 
 - Median migration time from Graphy to AllCoaching is 12–18 days. The bottleneck is communication, not technology. Recommended pattern: open free AllCoaching account, run 30-day parallel test, decide on data, execute migration in final 30 days of Graphy term to avoid auto-renewal.
 
+Founder ka video
+
+
+
+
+Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab
+Amit Ratan · YouTube
+
+
 Where we are · 2026
 
 AllCoaching is a growing educator-first marketplace — 50+ educators across India, and early enough that joining still means something: less competition for discovery, and a team that knows every educator by name. ₹0 to start, a flat 10% only on sales — you keep 90%.
@@ -48638,6 +49158,15 @@ Key Takeaways — the entire guide in six facts:
 - 7 infrastructure layers jo har coaching app me chahiye: live class server, video DRM, payment gateway, student CRM, fee management, marketing/discovery surface, aur GST-compliant invoicing. Alag-alag assemble karne par ₹4-11L/year. AllCoaching free tier me sab built-in.
 
 - AllCoaching educator 90% revenue rakhta hai, daily payouts hote hain, no lock-in. 10% rev-share sirf paid earnings par — educator paisa kamaya tabhi platform kamati hai. Base plan hamesha permanently free rehta hai — koi trial expiry nahi.
+
+Founder ka video
+
+
+
+
+Apna Coaching App Kaise Banaye | ₹0 Me, Poora Live Demo
+All Coaching · YouTube
+
 
 Hum abhi kahan hain · 2026
 
@@ -54240,14 +54769,14 @@ Five-step setup. (1) Sign up at studio.allcoaching.in and complete profile with 
 
 ---
 
-# Best UPI Payment Gateway for Online Courses: 2026 Guide
+# UPI Payment Gateway for Course Sellers: Real Charges 2026
 
 **Source:** https://allcoaching.in/blog/best-upi-payment-gateway-for-online-courses  
 **Published:** 2026-05-16  
 **Updated:** 2026-07-17  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** UPI looks free, but most gateways still take 1.5–2% plus GST on every course sale. 2026 guide: free & no-KYC UPI options, 0%-MDR claims tested, the fee-free educator route.
+**Summary:** UPI looks free, but most gateways still take 1.5–2% plus GST on every course sale. What Indian educators actually pay, and the ₹0 options.
 
 In this guide
 
@@ -58312,6 +58841,15 @@ Key Takeaways — the entire post in six facts:
 - 3-year TCO comparison — White-label ₹52–96 lakh cumulative; AllCoaching marketplace ₹11–17 lakh cumulative. 5–8x cost reduction with distribution included rather than externalised to self-funded marketing.
 
 
+
+
+Founder ka video
+
+
+
+
+Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab
+Amit Ratan · YouTube
 
 
 Where we are · 2026
@@ -72538,14 +73076,14 @@ The best platform in 2026 combines four qualities: low or zero entry cost (so yo
 
 ---
 
-# Affordable LMS for Independent Educators: Real-Cost Guide
+# Affordable LMS in India 2026: Real Pricing vs ₹0 Options
 
 **Source:** https://allcoaching.in/blog/affordable-lms-for-independent-educators  
 **Published:** 2026-04-30  
 **Updated:** 2026-06-01  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** Affordable LMS for independent educators — real 2026 India pricing: subscription LMS costs vs a Rs 0 platform that also brings students. The cheapest LMS isn't the lowest fee.
+**Summary:** What an LMS really costs in India in 2026 — subscription pricing compared against a ₹0-to-start platform that also sends you students.
 
 In this article
 
@@ -73417,14 +73955,14 @@ The most expensive thing in the world is a teaching gift that never finds the st
 
 ---
 
-# Classplus vs Graphy vs AllCoaching: 2026 Honest Verdict
+# Graphy vs Classplus vs AllCoaching: 2026 Pricing Verdict
 
 **Source:** https://allcoaching.in/blog/classplus-vs-graphy-vs-allcoaching  
 **Published:** 2026-04-25  
 **Updated:** 2026-06-01  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** Classplus vs Graphy vs AllCoaching for 2026: which actually grows your coaching with student discovery, not just another app you fund?
+**Summary:** Graphy vs Classplus vs AllCoaching in 2026 — what each really costs per sale, and which one actually brings you students instead of just an app.
 
 In this article
 
@@ -73472,6 +74010,15 @@ Key Takeaways — the entire post in six facts:
 - The right choice depends on stage — under 200 students, marketplace wins decisively; 200–2000 with proven brand, hybrid works; over 2000 with independent audience, white-label or custom build can be rational. Match architecture to stage, not to whichever vendor pitches first.
 
 
+
+
+Founder ka video
+
+
+
+
+Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab
+Amit Ratan · YouTube
 
 
 Where we are · 2026
@@ -76212,10 +76759,10 @@ Visit Contact Page
 
 ---
 
-## Classplus Pricing 2026: Cost, Charges &amp; Is It Free?
+## Classplus Pricing 2026: ₹8,000–₹50,000/yr + Commission
 
 **Source:** https://allcoaching.in/vs/classplus  
-**Summary:** How much does Classplus cost in 2026? Plans are quote-based — reportedly ₹8,000–₹50,000+/yr plus commission and add-ons. The real cost vs AllCoaching's ₹0 base + flat 10%.
+**Summary:** Classplus pricing is quote-based — reportedly ₹8,000–₹50,000+ a year, plus a setup fee and a cut of your sales. The full 2026 breakdown.
 
 Honest comparison · 2026 India
 
@@ -76260,6 +76807,16 @@ Key takeaways — comparison in 6 facts
 
 - Migration takes 3–7 days — student list import, content transfer, payment reconciliation. Free via AllCoaching onboarding team.
 
+
+
+
+Founder ka video
+
+
+
+
+Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab
+Amit Ratan · YouTube
 
 
 
@@ -76621,10 +77178,10 @@ Classplus deep-dives: Best Classplus alternative · Classplus vs Graphy vs AllCo
 
 ---
 
-## AllCoaching vs Graphy — Honest 2026 India Comparison · Cost · Features
+## Graphy Pricing 2026: Plans, Fees and a ₹0 Alternative
 
 **Source:** https://allcoaching.in/vs/graphy  
-**Summary:** The honest 2026 comparison of AllCoaching vs Graphy for Indian educators. Real Year 1 cost breakdown (Graphy ₹4–11 lakh vs AllCoaching ₹1.32 lakh), feature-by-feature analysis across 12 dimensions, migration playbook with timeline, and the structural difference between a white-label app builder (Graphy) and an educator-first marketplace (AllCoaching).
+**Summary:** What Graphy actually costs in 2026 — plans, transaction fees and the total you pay per sale, next to a ₹0-to-start alternative for Indian educators.
 
 Honest comparison · 2026 India
 
@@ -76669,6 +77226,16 @@ Key takeaways — comparison in 6 facts
 
 - Migration takes 3–7 days — student list import, content transfer, payment reconciliation. Free via AllCoaching onboarding team.
 
+
+
+
+Founder ka video
+
+
+
+
+Coaching App Banane Ka Kharcha Kitna Hai? | 2026 Ka Asli Hisaab
+Amit Ratan · YouTube
 
 
 
@@ -77016,10 +77583,10 @@ Other comparisons: AllCoaching vs Classplus · AllCoaching vs Teachmint
 
 ---
 
-## AllCoaching vs Teachmint — Honest 2026 India Comparison · Cost · Features
+## Teachmint Pricing 2026: Plans, Fees and a ₹0 Alternative
 
 **Source:** https://allcoaching.in/vs/teachmint  
-**Summary:** The honest 2026 comparison of AllCoaching vs Teachmint for Indian educators. Real Year 1 cost breakdown (Teachmint ₹4–11 lakh vs AllCoaching ₹1.32 lakh), feature-by-feature analysis across 12 dimensions, migration playbook with timeline, and the structural difference between a white-label app builder (Teachmint) and an educator-first marketplace (AllCoaching).
+**Summary:** What Teachmint actually costs in 2026 — plans, per-sale fees and what is free, next to a ₹0-to-start alternative for Indian coaching educators.
 
 Honest comparison · 2026 India
 
