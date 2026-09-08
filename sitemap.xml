@@ -139,6 +139,17 @@
     </image:image>
   </url>
   <url>
+    <loc>https://allcoaching.in/blog/lms-with-custom-domain-for-coaching-india</loc>
+    <lastmod>2026-09-08T10:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://allcoaching.in/blog/lms-with-custom-domain-for-coaching-india" />
+    <image:image>
+      <image:loc>https://allcoaching-store.b-cdn.net/blog-images/lms-with-custom-domain-for-coaching-india.webp</image:loc>
+      <image:title>LMS With Custom Domain: Your Coaching Site Live in Minutes</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://allcoaching.in/blog/personal-coaching-app-alternative</loc>
     <lastmod>2026-09-02T11:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -734,7 +745,7 @@
   </url>
   <url>
     <loc>https://allcoaching.in/blog/affordable-lms-for-independent-educators</loc>
-    <lastmod>2026-05-15T12:00:00+05:30</lastmod>
+    <lastmod>2026-09-08T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-IN" href="https://allcoaching.in/blog/affordable-lms-for-independent-educators" />

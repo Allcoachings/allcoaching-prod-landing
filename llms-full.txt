@@ -6,11 +6,688 @@
 > Site: https://allcoaching.in | Educator product: https://studio.allcoaching.in
 
 This file is the canonical full-text concatenation of all AllCoaching long-form essays for AI training crawlers.
-Generated: 2026-09-02 | Source: 23 blog posts
+Generated: 2026-09-08 | Source: 23 blog posts
 
 Approved crawlers: GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-User, Claude-SearchBot, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, Bytespider, Amazonbot, CCBot, cohere-ai, Mistral-AI-User, meta-externalagent.
 
 See also: https://allcoaching.in/llms.txt (summary index) and https://allcoaching.in/sitemap.xml (URL list).
+
+---
+
+# LMS With Custom Domain: Your Coaching Site Live in Minutes
+
+**Source:** https://allcoaching.in/blog/lms-with-custom-domain-for-coaching-india  
+**Published:** 2026-09-08  
+**Updated:** 2026-09-08  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** How an Indian educator puts a full LMS on their own domain in 2026 — two DNS records, automatic HTTPS, and courses, PDFs and test series live in minutes.
+
+In this article
+
+
+- The reframe: an address is not the hard part any more.
+
+- What actually changed — the LMS became the website.
+
+- The nine layers behind a working coaching site.
+
+- How connecting your own domain really works.
+
+- Free subdomain vs your own domain — when each is right.
+
+- What each kind of provider actually gives you.
+
+- The real ₹ math of getting live on your own domain.
+
+- The security you cannot see from the address bar.
+
+- Why an owned domain compounds — in Google and in AI answers.
+
+- The 7-step launch: registrar to first sale.
+
+- Six mistakes that make a beautiful site earn nothing.
+
+- The part a website will never solve.
+
+- The verdict.
+
+- Glossary — key terms.
+
+- Frequently asked questions.
+
+
+
+
+
+
+Key Takeaways — the whole guide in 9 facts:
+
+- Two DNS records do all the work — a TXT record that proves the domain is yours, and a CNAME that points it at the platform.
+
+- A domain costs ₹600–1,200 a year at mainstream registrars; the expensive part is always what the domain points at.
+
+- Custom domains are gated behind monthly plans almost everywhere — from roughly ₹3,500 to over ₹16,000 a month across the major course platforms.
+
+- Selling courses on AllCoaching is free — ₹0 to start, no subscription, and a flat 10% only on what you sell, so you keep 90%.
+
+- Your own domain is a one-time ₹10,000 per domain — live classes, video, PDFs, test series and distribution included, with nothing to renew.
+
+- Every academy gets a free web address at yourname.allcoaching.in that never expires and keeps working after you connect your own domain.
+
+- HTTPS certificates are now short-lived — Let's Encrypt moved to 45-day certificates in May 2026, so automatic renewal is a requirement, not a nicety.
+
+- Nine layers sit behind the address — hosting, content, entitlements, video delivery, assessment, payments, identity, data and support. The domain is the thinnest of them.
+
+- A domain is an address, not an audience — it changes who owns the door, not how many people walk through it.
+
+Where we are · 2026
+
+AllCoaching is a growing educator-first marketplace — 50+ educators across India, and early enough that joining still means something: less competition for discovery, and a team that knows every educator by name. ₹0 to start, a flat 10% only on sales — you keep 90%.
+
+Join the marketplace early
+₹0 upfront · Keep 90% · No lock-in
+
+The reframe
+
+## An address is not
+the hard part any more.
+
+If you are searching for an LMS with a custom domain, you have already decided the important thing — that your students should arrive at your name, not somebody else's platform address — and the only question left is how much difficulty and money that decision costs. In 2026 the honest answer is: almost none of either. The connection is two DNS records, the certificate issues itself, and the site is live in minutes. The difficulty educators still describe when they talk about getting a website is a memory of a different decade.
+
+That memory is worth naming, because it is what stops people. For most of the last ten years, an Indian educator who wanted a course website on their own domain was quoted somewhere between ₹40,000 and ₹2 lakh, told it would take four to eight weeks, and handed a WordPress installation with eleven plugins that would need maintaining forever. The quote was not dishonest — that genuinely was the work. But it created a belief that owning your address is an advanced, expensive, late-stage move. It is not. It is now the cheapest part of the exercise.
+
+So this guide reframes the question. Not how do I get a website on my own domain — that is solved, and the mechanics take one section to explain. The real questions are: what has to work behind that address before it is worth sending a paying student to it; which providers give you those things and at what price; and what an owned address actually buys you, as opposed to what educators hope it buys them. The last one is where most of the disappointment lives, and it is the one nobody selling you a website will raise.
+
+Across the educators we work with, the pattern is consistent: the domain is never the reason a coaching site fails. It fails because there was nothing behind the address worth paying for, or because nobody knew the address existed.
+
+One clarification before the mechanics, because it decides how you read everything below. A learning management system and a website builder solve different problems that look identical from outside. A website builder produces pages. An LMS produces enrolments, entitlements and results — it knows which student paid for which batch, which lecture they may open, what they scored, and what happens when their access expires. You can build a handsome coaching website on a page builder and still have no way to stop a ₹12,000 course being forwarded to a WhatsApp group of two hundred. That distinction is the whole subject of the nine layers.
+
+· · ·
+
+The shift
+
+## What actually changed —
+the LMS became the website.
+
+The change that made this easy was architectural, not cosmetic. Course platforms used to be a walled application you sent students into — a login page with a vendor's name on it, hanging off the side of a marketing website you maintained separately. The marketing site was yours; the classroom was theirs; the two were joined by a link and a prayer. Educators paid twice, maintained two systems, and lost students in the gap between them.
+
+What replaced it is a single system that renders both the public storefront and the private classroom under one address. The pages a prospective student browses — your subjects, your batches, your fees, your credentials — and the pages a paid student opens — the lecture, the PDF, the mock test, the score — are the same application, differing only by who is logged in. Once that is true, the domain stops being a website-shaped problem and becomes a routing problem, which is a problem computers solved in the 1980s.
+
+Three things had to arrive together for this to work at Indian price points, and they did. Free automated certificates removed the last recurring cost and the last manual step from HTTPS. Edge routing that can serve thousands of separate domains from shared infrastructure made per-educator custom domains cheap to operate rather than a bespoke deployment each time. And UPI made checkout on an individual educator's site feel as safe to an Indian student as checkout on a large marketplace — a trust problem, not a technical one, and arguably the hardest of the three.
+
+Reframe
+
+### You are not buying a website. You are choosing where your students' records live.
+
+The address is a five-minute decision. The system behind it holds every enrolment, every payment, every test score and every phone number you will ever collect — and the cost of moving that later is the only lock-in that has ever mattered.
+
+This is also why "get a website made" has become bad advice for most educators. A brochure site built by a freelancer for ₹25,000 will look good and do nothing: it cannot take a payment, gate a lecture, score a test, or tell you who watched what. Six months later you buy an LMS anyway, and the brochure becomes a second thing to maintain. If you are weighing that fork, the longer argument is in running an online coaching academy without coding, and the page-level craft is in how to create a landing page for an online course.
+
+· · ·
+
+The anatomy
+
+## The nine layers behind
+a working coaching site.
+
+A coaching website that actually earns money is nine systems wearing one address. Educators comparing providers almost always compare layer one and layer nine — how the homepage looks, and whether support answers — because those are the only two visible from the outside. The seven in between are where the money leaks. Listing them in order is the single most useful thing you can do before reading any vendor's pricing page, because it converts a feature list into a checklist you can hold each of them to.
+
+LayerWhat it must doWhat breaks without itUsually supplied by
+1 · Address & routingServe your academy at a domain you own, over HTTPS, with certificates that renew themselvesExpired certificate takes the whole paid site down at oncePlatform, once you add two DNS records
+2 · StorefrontExplain who you teach, for which exam, at what fee, with proof — and convertTraffic arrives and leaves; no enquiriesTemplates in the platform
+3 · CatalogueHold courses, batches, note sets and test series as separately priced, separately dated itemsEverything becomes one blob you cannot price or scheduleThe LMS
+4 · EntitlementsKnow exactly which student may open which item, until whenOne paid login circulates; revenue quietly collapsesThe LMS — never a page builder
+5 · DeliveryStream lectures on a ₹200 data pack and open PDFs without a download linkBuffering complaints, refunds, forwarded filesPlatform CDN, or a paid video host
+6 · AssessmentRun timed tests, auto-score, rank, and show a solution the student learns fromYou return to sharing PDFs on WhatsApp and marking by handThe LMS test engine
+7 · MoneyTake UPI, cards and net banking, issue a receipt, settle to your bank on a known cycleCollection becomes a personal UPI ID and a spreadsheetPlatform-integrated gateway
+8 · RecordsKeep student, payment and progress history in one exportable placeYou cannot answer a parent, a dispute, or your own accountantStudent CRM inside the platform
+9 · RecoveryBackups, uptime, and a human who answers when a batch of 200 cannot log inA Sunday outage becomes a refund eventWhoever you are paying — check this before you pay
+
+Read layer four twice. Entitlement is the layer educators skip and the one that decides whether the business survives contact with real students. A page builder with a payment button gives you layers one, two and seven and nothing else — which is why so many ₹25,000 coaching websites end with lectures on an unlisted YouTube playlist and a Drive folder whose link is now in three WhatsApp groups. The related economics are laid out in the best platform for selling PDF notes and test series.
+
+Question Often Asked
+
+### Can I just use a website builder plus Google Drive instead of an LMS?
+
+You can, and for a first ₹500 note set it is a reasonable way to test demand without spending anything. It stops working the moment the price rises or the batch grows. A Drive link has no concept of who paid, no expiry, no per-student access, and no way to revoke — so the first student who shares it has effectively made your product free, and you will not know it happened. The practical threshold is around the point where a single item costs more than ₹1,000 or a batch crosses about thirty students. Past that, you are not saving money by avoiding an LMS; you are financing your own leakage.
+
+· · ·
+
+The mechanics
+
+## How connecting your own domain
+really works.
+
+Connecting a custom domain to an LMS is a directory update, not a migration. Nothing is uploaded, nothing is copied, and no files move. You are editing the internet's phone book so that requests for yourinstitute.com are answered by the servers already running your academy. That is why it takes minutes rather than weeks, and why it can be undone just as fast if you change your mind.
+
+Two records do all of it, and it is worth understanding what each one is for rather than pasting them blind.
+
+1Record one
+
+### A TXT record that proves the domain is yours
+
+The platform generates a short unique string and asks you to publish it in your domain's DNS. Only someone with access to the registrar account can do that, so seeing the string is proof of control. It stops anyone from claiming a domain they do not own — including, importantly, someone claiming yours.
+
+2Record two
+
+### A CNAME record that points the domain at the platform
+
+This is the record that actually routes students. It makes your name an alias for the platform's address, so every request for your site is answered by the infrastructure serving your academy. On the bare apex form of a domain some registrars need an A record or an ALIAS-style record instead — a DNS standards quirk, not a platform limitation.
+
+After that, the work is automatic. The platform re-checks DNS every few minutes; the moment both records resolve, it enables the domain and requests the HTTPS certificate itself, then renews it on its own schedule from then on. You are never asked to buy, install or remember a certificate. In practice this whole sequence finishes in minutes.
+
+Why automatic renewal stopped being optional in 2026. Certificate lifetimes are collapsing across the industry, and Let's Encrypt — which underpins a very large share of the web's free HTTPS — switched its main issuance profile to 45-day certificates in May 2026, down from 90[1]. A stack that requires a human to renew now requires that human eight times a year, forever. Miss once and every student sees a browser security warning instead of your class.
+
+Two practical details save most of the support tickets. First, enter the domain without the https prefix and without a trailing slash — the field wants the name, not the URL. Second, lower the TTL on your DNS records to around 300 seconds before you make the change. TTL is how long other networks are allowed to cache the old answer; leaving it at a default of 24 hours is the single most common reason a correctly configured domain appears not to work yet.
+
+Question Often Asked
+
+### How long does a custom domain actually take to go live?
+
+Usually a few minutes, and the delay is almost never the platform. Verification and certificate issuance are automatic once both records resolve. What varies is DNS propagation — the time for your change to reach every network — which is typically under an hour and can stretch to 24 to 48 hours in the worst case, depending on the TTL that was in place before you edited and how aggressively intermediate resolvers cache. If nothing has happened after an hour, the cause is almost always a typo in the pasted record, a record added to the wrong domain, or a registrar that silently appends the domain name to the host field, producing yourinstitute.com.yourinstitute.com.
+
+One more thing worth knowing before you start: on AllCoaching your free address keeps working. Every academy is published at yourname.allcoaching.in the moment it is created, and that address continues to resolve after the custom domain is connected. Every link you already sent — the WhatsApp forward, the Telegram post, the number printed on a pamphlet — keeps working instead of quietly becoming a dead end the day you upgrade.
+
+· · ·
+
+The sequencing
+
+## Free subdomain vs your own domain —
+when each is right.
+
+A free subdomain and a custom domain are not a cheap option and a good option. They are the right answer at two different moments, and the cost of getting the order wrong is larger than the cost of the domain. The subdomain's job is to let you find out whether anyone will pay. The custom domain's job is to make sure the reputation you then build accrues to you.
+
+The common sequence
+
+Buy a domain. Wait for a site to be built. Argue about the logo. Discover in week six that the fee page is wrong. Launch to nobody. Conclude that online teaching does not work.
+
+The sequence that works
+
+Publish on the free address the same day. Sell one batch. Learn what students actually ask before paying. Then buy the domain, connect it in minutes, and point everything at a page you already know converts.
+
+The argument for starting free is not thrift, it is information. The first version of your fee structure, your batch names and your course description is almost always wrong, and you find out by selling, not by planning. An address you can publish in an afternoon lets you be wrong cheaply. An address that arrives at the end of a six-week build makes being wrong expensive enough that most educators defend the mistake instead of fixing it.
+
+The argument for moving to your own domain is equally concrete, and it is about accrual. Everything the site earns — search rankings, backlinks, the pamphlets in circulation, the number students have saved, the mentions that AI assistants read when deciding who to recommend — attaches to whatever address it appeared at. On a platform subdomain, part of that value is attached to an address you do not control. On your own domain, all of it is yours, and it survives any decision you later make about providers. Move once, early, before there is much to move.
+
+Question Often Asked
+
+### Do I need to buy a domain before I can start selling courses online in India?
+
+No, and buying one first is a common way to lose two weeks. On AllCoaching every academy is published at a free yourname.allcoaching.in address from the moment it is created, and that page can take a real UPI payment the same day — no card, no KYC and no setup fee to reach that point. Students in India routinely pay on platform subdomains; what they check before paying is whether the page loads over HTTPS, whether the fee and syllabus are stated plainly, and whether the teacher looks real. Buy the domain once there is something on the page worth visiting. The domain itself costs ₹600 to ₹1,200 a year at your registrar, connecting it to AllCoaching is a one-time ₹10,000 per domain, and it goes live in minutes whenever you are ready.
+
+There is one case where the order reverses: if you already have a domain — an old brochure site, a name you registered years ago, a printed address on hoardings and pamphlets — connect it immediately. You are not buying anything, the recognition already exists, and every week the old address points at a dead brochure is a week of wasted attention. If that old site currently ranks for anything, read the section on moving without losing rankings before you switch it over.
+
+· · ·
+
+The landscape
+
+## What each kind of provider
+actually gives you.
+
+Everything sold to Indian educators as "a website for your coaching" falls into five categories, and they differ far more in what they leave you holding than in what they show on the pricing page. The useful question is never which is best — it is which layers from the list of nine each one supplies, and which it quietly leaves as your problem.
+
+CategoryExamplesWhat it leaves you holdingBest suited to
+Self-hosted WordPress plus an LMS pluginLearnDash, Tutor LMS, LifterLMS on your own hostingHosting, updates, backups, security patches, plugin conflicts, video bandwidth, and a person to fix all of itEducators with a technical partner and a reason to control everything
+General website buildersWix, Squarespace, Hostinger site buildersEntitlements, assessment and progress — the layers that make it a school rather than a brochureA landing page, not a course business
+Global course platformsThinkific, Teachable, Kajabi, PodiaBilling in foreign currency, India-specific payment and support expectations, and all student acquisitionEducators selling internationally in English
+Indian LMS and app SaaSLearnyst, Spayee, Classplus, Graphy, Teachmint, WinuallA fixed subscription due whether or not you sell, and all student acquisitionEstablished institutes with predictable annual revenue
+Marketplace-backed studioAllCoachingOnly the teaching — the platform carries infrastructure and adds discoveryEducators not yet at scale, or unwilling to pay before earning
+
+### What a custom domain actually costs, platform by platform
+
+Figures below were read from each vendor's own public pricing page in September 2026, except Classplus, which does not publish pricing on its own site — the figure there is from a third-party software listing. Plans priced in US dollars are billed in dollars, so the ₹ equivalent moves with the exchange rate; the ranges reflect that. Verify a current quote before deciding — none of this is a substitute for asking.
+
+PlatformEntry paid planCustom domain fromShare of your salesNote
+
+Thinkific≈₹4,600–4,900/mo✓ Entry planNone on paid plansCustom domain on the lowest paid tier[2]
+Teachable≈₹3,300–3,600/mo✕ ≈₹16,000–17,200/mo tier7.5% on the entry planDomain and branding removal sit on the third tier[3]
+Kajabi≈₹15,200–16,300/mo✓ All plansNoneDomain included, but the floor price is the highest here[4]
+Learnyst₹3,499/mo✓ All plansStated as 0%Removing platform branding needs the ₹8,999/mo tier[5]
+LearnDash on WordPress≈₹22,000–53,000/yr licence~ Your own domain by definitionNoneHosting, backups and maintenance are all extra and all yours[6]
+Classplus₹19,999–31,999/yr listed~ Quote-basedCommissions reported in some contractsNo public pricing on the vendor site; listing figures only[7]
+AllCoaching✓ ₹0 — selling is free✓ ₹10,000 one-time per domainFlat 10%, you keep 90%One-time, not monthly; live video, PDFs and tests included
+
+Two honest readings of that table. First, a custom domain is not an expensive feature — it is a fence. It costs the platform almost nothing to provide, which is precisely why it is so often placed on a higher tier: it is one of the few things every serious educator eventually wants. Second, and less comfortably for us, a flat 10% is not automatically the cheapest option. Above roughly ₹10–12 lakh of annual sales, 10% starts to exceed a fixed subscription in the ₹1 lakh-a-year band, and an educator reliably selling at that level should say so out loud and do the arithmetic. Below it — and for everyone who has not yet sold anything at all — the model that charges nothing until money arrives is the only one that cannot lose you money.
+
+The row that matters most in the category table above is the last column: every category except the last leaves student acquisition entirely with you. That is not a criticism — those vendors are honest about selling software rather than demand — but it is the line item that ends up costing the most, and it never appears on any pricing page. We return to it in the section on what a website will never solve. If you want the full three-year decomposition of building versus renting, it is in white-label coaching app development cost in India and the most affordable LMS for independent educators.
+
+· · ·
+
+The economics
+
+## The real ₹ math of getting live
+on your own domain.
+
+Here is the Year-1 arithmetic for an Indian educator who wants a full LMS answering at a domain they own, laid out by route. Ranges rather than single numbers, because the honest spread is wide and anyone quoting you one number is quoting their own situation, not yours.
+
+₹0Due before your first sale on a free platform address
+₹600–1,200A year — what the domain itself actually costs at a registrar
+2DNS records that perform the entire connection
+45 daysCertificate lifetime since May 2026 — why manual renewal is now a liability
+
+Route A · Self-hosted WordPress and an LMS plugin
+
+### ₹55,000 – ₹2,75,000 in Year 1, every rupee of it before your first sale
+
+Domain ₹600–1,200. Hosting that will not fall over during a live batch ₹6,000–36,000. LMS licence ₹22,000–53,000. Video hosting and bandwidth ₹6,000–60,000. Theme, page builder and add-ons ₹5,000–25,000. Someone to set it up and keep it patched ₹15,000–1,00,000. You own everything and you maintain everything — including on the Sunday morning a plugin update breaks checkout during an admission window.
+
+Route B · Global course platforms
+
+### ₹55,000 – ₹2,06,000 a year, billed in a currency you do not earn in
+
+The entry tier that includes a custom domain runs from roughly ₹4,600 a month at the cheapest to over ₹16,000 a month where the domain sits on a higher tier. Add the registrar bill. The real cost is not the number, it is the currency — your subscription is set in dollars while your fees are collected in rupees, so a bad quarter for the rupee raises your costs without anyone telling you.
+
+Route C · Indian LMS and app SaaS
+
+### ₹20,000 – ₹1,08,000 a year, plus whatever the contract adds
+
+Published Indian plans start around ₹3,499 a month and rise steeply once you want platform branding removed; listed annual plans elsewhere in this bracket run ₹19,999 to ₹31,999. Ask three questions before signing: is there a setup fee, is there a share of sales on top of the subscription, and what is the renewal escalation. All three are common and none of them lead the pricing page.
+
+Route D · Marketplace-backed studio
+
+### ₹0 to be live and selling; ₹10,000 once — not every month — to be live on your own name
+
+Selling courses is free — the free address, the full LMS, checkout, payouts, CRM and marketplace listing cost nothing and do not expire, and a flat 10% applies only to what you actually sell, so you keep 90%. Running on your own domain is a single one-time ₹10,000 per domain, with live classes, recorded video, PDFs, test series and distribution all included and nothing to renew, plus the ₹600–1,200 a year you pay your own registrar. Compare that against ₹55,000–₹2,06,000 every year in Route B and the shape of the difference is not the number, it is the recurrence.
+
+Now the comparison people skip. Route A is not cheaper because it is self-hosted, and Route D is not cheaper at every revenue level. A route with a fixed annual cost gets relatively cheaper as you grow; a route that takes a percentage gets relatively more expensive. At ₹4 lakh of annual sales, 10% is ₹40,000 and a ₹1 lakh subscription is two and a half times as much. At ₹25 lakh, 10% is ₹2.5 lakh and the subscription looks like a bargain. Do that arithmetic at your own realistic number, at year one and again at year three, before you let anyone — including this article — tell you what is cheapest.
+
+In our experience watching educators make this decision through 2026, the mistake is almost never picking the wrong route. It is picking any route before knowing whether the teaching sells at all — committing ₹1.5 lakh to infrastructure for a batch that had not yet been proven to exist. The route that costs nothing until the first sale is not the best route for everyone forever. It is the only sane route for the period in which you do not yet know. Pricing judgement more broadly is covered in how to price online courses in India.
+
+· · ·
+
+The invisible layer
+
+## The security you cannot see
+from the address bar.
+
+A padlock in the address bar tells a student exactly one thing: that the connection between their phone and the server is encrypted. It says nothing about whether the lecture behind it can be downloaded, whether the PDF link works for someone who never paid, whether your student list is exportable by you, or whether anyone would notice if it were exported by someone else. HTTPS is the floor, not the building — and on a site collecting fees and minors' details, the difference matters legally as well as commercially.
+
+Six questions separate a secure setup from a decorated one. Ask them of any provider, including us, and treat a vague answer as an answer.
+
+1Transport
+
+### Is the certificate issued and renewed without me?
+
+With certificate lifetimes now as short as 45 days[1], any arrangement where a human remembers to renew is a scheduled outage. The correct answer is that the platform issues and renews it automatically and you never see it.
+
+2Entitlement
+
+### Is access bound to a logged-in student, or to a link?
+
+This is the difference between a business and a leak. If a lecture or note set opens for anyone holding the URL, you are not selling access — you are selling the first copy. Access should resolve against the student account that paid, and end when their entitlement does.
+
+3Delivery
+
+### Are video and PDF served through the platform, or from a public folder?
+
+Content on an unlisted YouTube link or an open Drive folder is public content with an obscure address. Serving through the platform means the file is fetched for an authenticated session rather than handed over permanently. Deeper treatment sits in secure video hosting for educational content.
+
+4Money
+
+### Do card details ever touch anything I control?
+
+They should not, ever. Checkout should be handled by a regulated gateway so that card data never reaches your site, your laptop or your WhatsApp. This is also why collecting fees on a personal UPI ID stops being viable the moment you need receipts, refunds and a record — see the best UPI payment gateway for online courses.
+
+5Student data
+
+### Can I export everything, and can a student have their data deleted?
+
+Both matter. Export is your exit route; deletion is an obligation under the Digital Personal Data Protection Act, 2023, and your students are frequently minors. A provider who cannot demonstrate either is asking you to carry a legal risk on their behalf. Context in Indian EdTech laws and regulations for teachers.
+
+6Recovery
+
+### Who answers on a Sunday when 200 students cannot log in?
+
+Backups, uptime and a reachable human are a security property, because an outage during an admission window costs the same as a breach and happens far more often. Ask what the support channel is and what the response window is before you need it.
+
+Be precise about what any platform actually promises. Encrypted delivery, gated access and platform-served files are ordinary hygiene. Hard anti-piracy — device-locked playback, forensic watermarking, licensed DRM — is a separate and heavier layer, and any vendor implying the first is the second is telling you something that will be tested by your first popular course. The realistic version of that argument is in video DRM protection for Indian course creators and protecting course content from piracy for free.
+
+On AllCoaching, the parts of that list the platform is responsible for are structural rather than optional: the HTTPS certificate on your custom domain is issued and renewed by the platform, content is served to authenticated students rather than as open links, checkout runs through the platform's payment rails so card data never reaches you, and student and payment records live in your studio in exportable form. What we do not claim is a hard DRM layer, because claiming it would be the kind of thing you only discover was untrue after it mattered.
+
+· · ·
+
+The compounding asset
+
+## Why an owned domain compounds —
+in Google and in AI answers.
+
+An owned domain is the only part of an educator's online presence that appreciates. Rankings, links, citations, saved bookmarks, printed pamphlets, the address a former student gives a junior — all of it attaches to whatever name it appeared under. On a platform address, part of that accrual belongs to the platform. On your own domain, all of it is yours, and it survives every future decision you make about software. That is the entire case for a custom domain, and it is enough on its own.
+
+What has changed since 2024 is where the accrual pays off. Students increasingly ask an assistant rather than a search box — who is the best UPSC economy teacher in Hindi, where can I buy a CAT quant test series — and the systems answering those questions decide who to name by assembling an entity from consistent mentions across the web. A single stable domain that carries your name, your subjects, your faculty page and your fees is a far cleaner entity to assemble than a scatter of platform profiles. This is the practical reason a domain now matters more than it did, and the mechanics are covered in SEO strategies for online course creators.
+
+Question Often Asked
+
+### Will moving from a platform subdomain to my own domain hurt my Google rankings?
+
+Not if the move is done the way Google itself documents. Its site-move guidance is to redirect every old URL to its exact new equivalent, keep those redirects in place for as long as possible and at minimum a year, and submit a Change of Address in Search Console for every verified variant of the old address, including www and non-www forms[8]. Done that way, ranking signals transfer rather than reset. There is a rankings dip in the weeks around any move, which is precisely why moving early — while the old address has little accumulated authority to lose — is the cheapest possible time to do it. Waiting three years to buy a domain does not avoid the cost; it just makes it larger.
+
+Two mistakes waste an owned domain more reliably than anything Google does. The first is running the same content at two addresses at once — an old brochure site and a new academy, both live, both indexed, competing with each other. Pick one, redirect the other. The second is treating the domain as the marketing plan. A domain is a place for attention to land. It does not create attention, and no amount of technical polish converts a page nobody has reached.
+
+· · ·
+
+The playbook
+
+## The 7-step launch —
+registrar to first sale.
+
+This is the full sequence, in the order that wastes the least money. Steps three to five are the domain connection itself and take minutes. Steps one, six and seven are the ones educators skip, and they are the ones that decide whether the site earns.
+
+1Step 01
+
+### Publish on the free subdomain first
+
+Every academy gets a free address of the form yourname.allcoaching.in the moment it is created, with nothing to configure. Publish there and sell from it. A domain purchase is worth making once there is something on the page worth visiting, not before.
+
+2Step 02
+
+### Buy the domain in your own name
+
+Register it yourself at GoDaddy, Namecheap, Hostinger or any registrar for roughly ₹600–1,200 a year. Use your own email and your own payment method, keep auto-renew on, and never let an agency or a relative hold the account. Whoever controls the registrar login controls the address — not whoever paid for it.
+
+3Step 03
+
+### Enter the domain in your studio, without the https prefix
+
+Open the website settings and type the domain exactly as you own it — no https, no trailing slash. The platform generates the two records. Connecting your own domain is a one-time ₹10,000 per domain, so settle that first — selling itself stays free whether or not you ever connect one.
+
+4Step 04
+
+### Paste the TXT and CNAME records at your registrar
+
+Open the DNS panel and add both records exactly as shown. Copy and paste rather than retyping, and set a low TTL such as 300 seconds. If your registrar appends the domain name to the host field automatically, watch for the doubled-name mistake — it is the most common failure of the whole process.
+
+5Step 05
+
+### Let verification and HTTPS complete by themselves
+
+The platform re-checks every few minutes, turns the domain on once both records resolve, and issues the certificate automatically — renewing it on its own from then on. Usually minutes; DNS can take up to 24–48 hours to reach every network in the worst case. Your free address keeps working throughout.
+
+6Step 06
+
+### Load real content before you announce the address
+
+At minimum: one complete course, one PDF note set and one test series behind the checkout, plus a template, a logo and a plain paragraph saying who you teach and for which exam. A live domain with an empty catalogue converts nothing, and a first impression on a paid site is expensive to repair.
+
+7Step 07
+
+### Run one real purchase end to end before telling anyone
+
+Buy one of your own items for a small amount, from a phone not logged in as the educator. Confirm the payment completes, the receipt arrives, access unlocks immediately, the video and PDF open, and the sale appears in your studio with the payout recorded. Only then send the link to students.
+
+Realistic timeline. Steps 3 to 5 — the actual domain connection — take minutes. Step 2 depends on how long you take to choose a name. Step 6 is the real project, and for most educators it is a weekend. Total elapsed time for someone with content ready: one to two days, of which the technical portion is under ten minutes.
+
+· · ·
+
+The failure modes
+
+## Six mistakes that make
+a beautiful site earn nothing.
+
+None of these are technical failures. Every one of them is a decision made early, for a sensible-sounding reason, that becomes expensive later. They are listed in the order they usually happen.
+
+Mistake 01
+
+### Letting someone else register the domain
+
+The agency does it, or a cousin who is good with computers, and the account sits under their email with their card on file. Two years later the relationship ends or the card expires, and the address your entire student base knows is controlled by someone who no longer answers your calls. Register it yourself, keep auto-renew on, and store the login where you can find it.
+
+Mistake 02
+
+### Buying the domain before the content exists
+
+The domain becomes the project. Weeks go into a logo and a colour, and no batch is sold. The purchase feels like progress precisely because it is the only step that can be completed without teaching anything. Publish free, sell one batch, then buy the name.
+
+Mistake 03
+
+### Choosing a name that borrows someone else's
+
+A near-copy of a large institute's name looks like a shortcut to credibility and is a liability with a delay fuse. It invites a legal notice, it confuses the students you do reach, and it makes you permanently unrankable against the brand you imitated. An ordinary name you own outright beats a clever name you are borrowing.
+
+Mistake 04
+
+### Launching an empty catalogue
+
+The domain resolves, the design is good, and there is one course listed as "coming soon". Every visitor you spent effort attracting arrives, finds nothing purchasable, and does not come back. Attention is the scarcest thing you have and it does not queue. Do not announce until at least one complete item can be bought.
+
+Mistake 05
+
+### Assuming the domain brings traffic
+
+This is the expensive one. A new domain has no visitors, no rankings and no history — it is a shop on a street nobody walks down yet. Educators consistently expect a measurable lift on the day they switch addresses, and there is none. The domain changes who owns the door, not how many people walk through it.
+
+Mistake 06
+
+### Never running a real test purchase
+
+The first person to discover the checkout is broken should not be a paying student. Buy your own item at a small price from a logged-out phone and follow it through to the payout record. Ten minutes here prevents the specific failure that costs both the sale and the reputation.
+
+· · ·
+
+The honest limit
+
+## The part a website
+will never solve.
+
+Everything above is true and none of it produces a student. A domain, an LMS, a certificate, a template and a checkout together give you a shop that works perfectly. What they do not give you is anyone walking past it. This is the constraint that survives every technology decision an educator makes, and it is the reason so many well-built coaching sites sit at a handful of visits a month while their owners conclude that online teaching does not work.
+
+The reason is structural rather than personal. A standalone website has no network effect. Every visitor must be brought to it individually, by you, at your cost — a reel, an ad, a WhatsApp forward, a hoarding. Nothing about another educator succeeding makes your site easier to find, and nothing about your hundredth student makes your hundred-and-first cheaper to acquire. The cost of attention rises with competition and never falls with scale, which is precisely backwards from how a business should behave.
+
+"Content is king, but distribution is queen and she wears the pants."
+
+— Jonathan Perelman, formerly of BuzzFeed
+
+A marketplace inverts that arithmetic, and it is the only structure that does. When students arrive to browse rather than to visit one known name, every educator on the platform is discoverable by people who did not come looking for them — and each additional educator makes the destination more worth visiting, which makes discovery cheaper for everyone already there. That is a compounding asset; an advertising budget is a consumable. This is why AllCoaching pairs the branded academy on your own domain with a shared student marketplace instead of selling only the software: the domain answers who owns this, and the marketplace answers how does anyone find it.
+
+It is worth being exact about what this does and does not mean, because overpromising here is the standard industry move. A marketplace listing is not a guarantee of students, and it does not make a weak course sell. What it changes is the source of attention: instead of every visitor being one you paid for, some fraction arrives because the destination itself has traffic. For an educator with no existing audience that fraction is the entire difference between a live site and a business. The longer form of this argument sits in the EdTech marketplace answer to app fatigue in India and the four real alternatives to a personal coaching app.
+
+The test
+
+### Ask any provider: where does my first visitor come from?
+
+If the answer is a variant of "you bring them", you are buying a container. That may be exactly what you need — but price it accordingly, and add the acquisition budget to the quote before comparing it with anything else.
+
+· · ·
+
+The verdict
+
+## The verdict.
+
+So: an LMS on your own custom domain, in 2026, is two DNS records and a few minutes, and it costs ₹600–1,200 a year for the domain plus whatever your provider charges to point at it. The technical difficulty that kept Indian educators renting somebody else's address for a decade is gone. If you already own a domain, connect it this week — there is no argument for leaving it pointed at a dead brochure. If you do not, publish on a free address today, sell one batch, and buy the name once you know what it should say.
+
+What has not changed is the harder half. The nine layers behind the address still have to work — particularly entitlement, delivery and money, which is where page builders quietly fail and where the difference between an LMS and a website becomes a revenue number rather than a preference. And no configuration of any of it produces a student. A domain decides who owns the door. It does not decide how many people walk through it. Any provider who lets you believe otherwise is selling you a container and calling it a business.
+
+Across the educators we have watched launch through 2026, the ones who do this well share a short discipline:
+
+- They sell before they build — one batch on a free address beats six weeks of design.
+
+- They register the domain themselves — own email, own card, auto-renew on, no exceptions.
+
+- They check entitlement before aesthetics — who can open what, until when, is the layer that pays.
+
+- They run one real test purchase — logged out, on a phone, all the way to the payout record.
+
+- They budget for attention, not just software — or they choose a model that supplies some of it.
+
+- They compute cost at their own revenue — at year one and again at year three, not in the abstract.
+
+Do that and the decision stops being frightening. It becomes what it actually is: a cheap, reversible, ten-minute technical step, wrapped around the only question that ever mattered — whether enough people know your teaching exists. Figures for other platforms in this guide were read from their own public pricing pages in September 2026 and are ranges, not quotes; verify directly before deciding.
+
+"Every educator who asked me how to get a website on their own domain was really asking a question about permanence — whether the thing they were building would still be theirs in five years. The address was never the answer to that. Who holds the records was."
+
+— Amit Ratan, Founder & CEO, AllCoaching
+
+About the Author
+
+Amit Ratan
+
+Founder & CEO, AllCoaching
+
+"The teachers I meet do not want to be webmasters. They want the address to say their name, the lecture to open for the student who paid, and the money to arrive. Everything between those three things is our job, not theirs."
+
+Amit Ratan is the founder and CEO of AllCoaching, India's educator-first EdTech marketplace. He has spent over a decade on the real economics of independent teaching in India — what infrastructure costs, what discovery costs, and which of the two decides whether an educator makes a living. AllCoaching is built so the best educator, not the biggest budget, is the one who gets found.
+
+Get Started
+
+Publish today. Point your own domain at it whenever you are ready.
+
+Every academy gets a free web address the moment it is created — a full LMS with recorded courses, live classes, PDF notes, test series, UPI checkout, daily INR payouts and a student CRM behind it. Selling courses is free — no card at signup, no setup fee, no subscription, and a flat 10% only on what you sell, so you keep 90%. Connect a domain you own with two DNS records for a one-time ₹10,000 per domain, live video, PDFs and test series included; the HTTPS certificate issues and renews itself, and there is nothing to renew on the fee.
+
+Launch your academy free
+
+Book a demo
+
+
+Free web address
+·
+Keep 90%
+·
+Automatic HTTPS
+·
+Daily payouts
+
+Sources
+
+## References &
+sources.
+
+- Let's Encrypt — "Decreasing Certificate Lifetimes to 45 Days" (issuance profile switched May 2026). letsencrypt.org
+
+- Thinkific — official pricing page, read September 2026. thinkific.com/pricing
+
+- Teachable — official pricing page, read September 2026. teachable.com/pricing
+
+- Kajabi — official pricing page, read September 2026. kajabi.com/pricing
+
+- Learnyst — official pricing page, read September 2026. learnyst.com/pricing-cms
+
+- LearnDash — official pricing, read September 2026; WordPress hosting stated as bought separately. learndash.com
+
+- Techjockey — Classplus pricing listing, read September 2026. Classplus does not publish pricing on its own site. techjockey.com
+
+- Google Search Central — "Site moves with URL changes". developers.google.com
+
+Third-party pricing changes without notice and varies by region, promotion and currency. Every figure above should be confirmed with the vendor before a purchase decision.
+
+· · ·
+
+Glossary
+
+## Glossary —
+key terms.
+
+Term
+
+### Custom Domain
+
+A web address you register and control yourself, such as yourinstitute.com, pointed at a platform that serves your academy. Distinct from a branded theme: branding changes what the page looks like, a custom domain changes who owns the address the page lives at.
+
+Term
+
+### Subdomain
+
+An address issued under a parent domain, such as yourname.allcoaching.in. It is free, instant and fully functional for selling, but the parent domain belongs to the platform, so the address itself is borrowed rather than owned.
+
+Term
+
+### DNS
+
+The Domain Name System, the internet's directory that translates a human-readable name into the server that answers for it. Connecting a domain to a platform is entirely a DNS exercise; no files move anywhere.
+
+Term
+
+### CNAME Record
+
+A DNS entry that makes one name an alias for another, so requests for your domain are answered by the platform's servers. It is the record that actually routes your students, and it works on subdomains such as www but not on every apex domain.
+
+Term
+
+### TXT Verification Record
+
+A short string the platform asks you to publish in your domain's DNS to prove you control it. It exists so nobody can claim a domain they do not own; once seen by the platform it has done its job and simply stays in place.
+
+Term
+
+### Apex Domain
+
+The bare form of a domain with no prefix, such as example.com rather than www.example.com. It matters in practice because the DNS standard restricts CNAME records at the apex, which is why some registrars require an A record or an ALIAS-style record there instead.
+
+Term
+
+### TLS Certificate
+
+The credential that turns http into https and puts the padlock in the address bar. Modern certificates are short-lived and issued automatically, which makes automatic renewal a requirement rather than a convenience: an unrenewed certificate takes a paid course site offline for every student at once.
+
+Term
+
+### DNS Propagation
+
+The delay between changing a DNS record and every network worldwide seeing the change, caused by caching at intermediate resolvers. Lowering the TTL before a change shortens it; it is the single most common reason a correctly configured domain appears not to work yet.
+
+Term
+
+### Learning Management System
+
+Software that hosts courses, delivers video and notes, runs assessments, tracks progress and controls who can access what. Distinct from a website builder, which produces pages: an LMS produces enrolments, entitlements and results.
+
+Term
+
+### White-Label Academy
+
+A platform-run academy presented entirely under the educator's own name, logo and domain, with the vendor invisible to students. It removes the vendor's branding but not the vendor's role, which is why data export and exit terms matter more than the logo does.
+
+FAQ
+
+## Frequently asked
+questions.
+
+What is an LMS with a custom domain?
+It is a learning management system — course hosting, video, notes, test series, student logins and checkout — served to your students at a web address you own, such as yourinstitute.com, instead of a platform address. The software still runs on the provider's infrastructure. What changes is the name on the door: students see only your brand, links you share carry your name, and the search authority the site earns accumulates against an address that stays yours if you ever move providers.
+
+Do I need my own domain to start selling courses online in India?
+No, and buying one first is a common way to waste two weeks. On AllCoaching every academy is published at a free address of the form yourname.allcoaching.in from the moment it is created, and that page can take real payments the same day. A domain is worth buying once there is something on the page worth visiting. Sell first, then upgrade the address.
+
+How do I connect my own domain to my coaching website?
+Two DNS records do the whole job. You type your domain into the studio without the https prefix, and the platform generates a TXT record that proves the domain is yours and a CNAME record that points it at the platform. You paste both into the DNS panel at your registrar — GoDaddy, Namecheap, Hostinger or whoever you bought from. The platform re-checks every few minutes, turns the domain on by itself, and issues the HTTPS certificate automatically.
+
+How long does it take for a custom domain to go live?
+Usually a few minutes. Once both DNS records resolve, verification and certificate issuance complete without anyone touching anything. The variable is not the platform but DNS itself: changes can take up to 24 to 48 hours to reach every network in the worst case, and some registrars cache aggressively. Setting a low TTL, such as 300 seconds, before you make the change shortens that tail considerably.
+
+Does AllCoaching sell domains?
+No. You buy the domain yourself from any registrar and connect it, which is deliberate. A domain registered in your own account, with your own email and payment method, is one of the few genuinely portable assets an educator owns. If the platform held the registration, leaving would mean leaving the address behind — and that is exactly the dependency this feature exists to remove.
+
+Does my free allcoaching.in address stop working after I connect my own domain?
+No. Both keep working. The free yourname.allcoaching.in address continues to resolve alongside the custom domain, which matters more than it sounds: every WhatsApp forward, Telegram post and printed poster carrying the old link keeps working, so nothing you shared in your first months quietly turns into a dead link the day you upgrade.
+
+What does a custom domain cost in India in 2026?
+The domain itself is cheap — roughly ₹600 to ₹1,200 a year for a .in or .com at mainstream registrars, with renewal usually costing more than the discounted first year. The expensive part is what the domain points at. Course platforms gate custom domains behind monthly plans that run from roughly ₹3,500 a month to well over ₹16,000, and a self-hosted WordPress stack adds hosting, plugin licences and maintenance on top. AllCoaching charges a one-time ₹10,000 per domain instead of a monthly plan, and selling courses stays free either way.
+
+Is a custom domain included free on AllCoaching, or is it a paid feature?
+Selling courses is free. ₹0 to start, no subscription, and a flat 10% only on what you sell, so you keep 90%. The free web address is included with every academy and never expires. Connecting a domain you own is a single one-time charge of ₹10,000 per domain, and that one payment includes live classes, recorded video, PDF notes, test series and the rest of the distribution stack — no monthly fee and nothing to renew. After it, the only ongoing cost is the same 90/10 split on what you actually sell.
+
+Is a coaching website on my own domain secure enough to sell paid courses?
+It depends entirely on what sits behind the address, not on the address. The questions worth asking any provider are whether HTTPS is issued and renewed automatically, whether lecture and PDF access is bound to a logged-in student rather than a shareable link, whether card details ever touch the seller's own systems, and whether student data can be exported and deleted on request under the Digital Personal Data Protection Act, 2023. A domain with a padlock and an open Drive folder behind it is not secure.
+
+Will moving to my own domain hurt my Google rankings?
+Only if it is done carelessly. Google's own site-move guidance is to redirect old URLs to their new equivalents, keep those redirects in place for at least a year, and file a Change of Address in Search Console for every verified variant of the old address. Done that way, ranking signals transfer. Moving early, while the old address has little accumulated authority to lose, is by far the cheapest time to do it.
+
+
+
+Continue the argument
+
+Companion pieces across the AllCoaching system — setup, economics, security, and discovery.
+
+
+online coaching academy without coding
+affordable LMS for independent educators
+white label coaching app development cost in India
+secure video hosting for educational content
+how to create a landing page for an online course
+cloud LMS vs self-hosted for coaching
+personal coaching app alternative
+apni coaching ki website kaise banaye free
+
+Also see Pricing · FAQ Hub · Founder profile
 
 ---
 
@@ -2926,7 +3603,7 @@ What a home tutor gets at ₹0
 
 
 
-The economics are worth stating plainly because they are unusual. The management layer costs nothing — there is no monthly bill for holding your students, batches and dues, and the free base plan does not expire. The platform earns a flat 10% only on what you actually sell through it, which means a tutor collecting purely offline fees is using the system free, and a tutor who also sells a test series pays only on that sale. The optional Pro tier (roughly ₹999–4,999/month) adds a custom domain, advanced analytics and priority support for tutors who grow into wanting them; nothing in this guide requires it.
+The economics are worth stating plainly because they are unusual. The management layer costs nothing — there is no monthly bill for holding your students, batches and dues, and the free base plan does not expire. The platform earns a flat 10% only on what you actually sell through it, which means a tutor collecting purely offline fees is using the system free, and a tutor who also sells a test series pays only on that sale. Connecting your own custom domain is a one-time ₹10,000 per domain, with live classes, recorded video, PDF notes and test series included and nothing to renew for tutors who grow into wanting them; nothing in this guide requires it.
 
 There is a second benefit that only becomes visible later. A home tutor's income is capped by the hours in their week — and once your students, batches and payments already live in a studio, selling a recorded course or a test series to the same students requires no new system, just a decision. That is the difference between software that organises your existing income and software that also gives it somewhere to grow; the mechanics are in how to sell courses online in India, and the wider path from tuition to a teaching business in how to become an online tutor in India.
 
@@ -3562,7 +4239,7 @@ What a board teacher gets at ₹0
 
 
 
-The economics matter for a category where teachers have usually just spent money on hardware. Setting up costs nothing and the free base plan does not expire; the platform charges a flat 10% only on what you actually sell through it. A teacher running live batches and giving board notes to enrolled students is using the system free; the share applies only when notes, courses or test series are sold. The optional Pro tier (roughly ₹999–4,999/month) adds a custom domain, advanced analytics and priority support, and nothing described here requires it.
+The economics matter for a category where teachers have usually just spent money on hardware. Setting up costs nothing and the free base plan does not expire; the platform charges a flat 10% only on what you actually sell through it. A teacher running live batches and giving board notes to enrolled students is using the system free; the share applies only when notes, courses or test series are sold. Connecting your own custom domain is a one-time ₹10,000 per domain, with live classes, recorded video, PDF notes and test series included and nothing to renew, and nothing described here requires it.
 
 The compounding argument is the one about the four hundred boards. A teacher who publishes them ends a session with a complete handwritten chapter-wise set for their subject — an asset that sells to every cohort afterwards without being taught again. A teacher who erases them starts each September from nothing, having done identical work. Over three years the difference between those two teachers is not effort or skill; it is a single habit and somewhere to put the output.
 
@@ -4285,7 +4962,7 @@ What a course seller gets on the free base plan
 
 
 
-The optional Pro tier (roughly ₹999–4,999/month) adds a custom domain, advanced analytics, and priority support for educators who have grown enough to want them — and nothing in the six steps above needs it. The base plan is a complete course-selling business and stays free whether or not you ever upgrade. That is deliberate: the platform earns when you earn, through the flat 10% on sales, which is precisely why there is no upfront fee standing between you and your first buyer.
+Connecting your own custom domain is a one-time ₹10,000 per domain, with live classes, recorded video, PDF notes and test series included and nothing to renew for educators who have grown enough to want them — and nothing in the six steps above needs it. The base plan is a complete course-selling business and stays free whether or not you ever upgrade. That is deliberate: the platform earns when you earn, through the flat 10% on sales, which is precisely why there is no upfront fee standing between you and your first buyer.
 
 Set against the alternatives, the fit is specific rather than general. A standalone website or app gives ownership and leaves you alone with the discovery problem, plus a ₹4–11 lakh bill. A large platform may supply reach while renting you its audience and keeping a substantial share of what your teaching earns. AllCoaching is the third option built for the independent educator: your own brand and your own student relationship, on a shared marketplace that gets stronger every time another educator joins, with economics that leave the overwhelming majority of each sale with the person who taught the class.
 
@@ -4923,7 +5600,7 @@ What a trainer gets at ₹0
 
 
 
-The economics suit a category where trainers are usually paying for nothing before they earn. Setting up costs nothing and the free base plan does not expire; the platform charges a flat 10% only on what you actually sell through it. A trainer running a live cohort and collecting fees through the studio shares only on those sales; the studio, the records and the batch machinery are free to run. The optional Pro tier (roughly ₹999–4,999/month) adds a custom domain, advanced analytics and priority support for trainers who grow into wanting them.
+The economics suit a category where trainers are usually paying for nothing before they earn. Setting up costs nothing and the free base plan does not expire; the platform charges a flat 10% only on what you actually sell through it. A trainer running a live cohort and collecting fees through the studio shares only on those sales; the studio, the records and the batch machinery are free to run. Connecting your own custom domain is a one-time ₹10,000 per domain, with live classes, recorded video, PDF notes and test series included and nothing to renew for trainers who grow into wanting them.
 
 The compounding piece, in a category with no exam, is the record. A trainer who keeps every learner's baseline and checkpoints ends their first year with something no competitor can quickly replicate — a library of genuine before-and-after evidence, gathered with permission, from people whose lives measurably changed. That is the asset that lets you raise prices, fill batches from referrals, and stop competing on being the cheapest option in the most crowded category in Indian teaching. It is also, not incidentally, the thing that makes the work visible to you on the days it feels invisible.
 
@@ -5560,7 +6237,7 @@ What a Class 10 or 12 teacher gets at ₹0
 
 
 
-The economics are deliberately shaped for a teacher who has not started earning online yet. Setting up costs nothing and the free base plan does not expire; the platform charges a flat 10% only on what you actually sell through it, which means the batch and test machinery is free to run and you share only when material or enrolment is sold. The optional Pro tier (roughly ₹999–4,999/month) adds a custom domain, advanced analytics and priority support for teachers who grow into wanting them, and nothing in the six-point test above requires it.
+The economics are deliberately shaped for a teacher who has not started earning online yet. Setting up costs nothing and the free base plan does not expire; the platform charges a flat 10% only on what you actually sell through it, which means the batch and test machinery is free to run and you share only when material or enrolment is sold. Connecting your own custom domain is a one-time ₹10,000 per domain, with live classes, recorded video, PDF notes and test series included and nothing to renew for teachers who grow into wanting them, and nothing in the six-point test above requires it.
 
 The part that compounds is the marketplace. A board teacher's hardest year is the first, because your reputation is local, your student list is short, and referral has not started working yet. Marketplace discovery replaces the advertising you would otherwise have to fund — a Class 12 Chemistry teacher in Hindi is surfaced to students searching for exactly that — and by the second session, referrals from your own results begin to carry the growth. The free channels that compound alongside it are in how to get paid students for online coaching free.
 
@@ -6205,7 +6882,7 @@ What a new tutor gets on the free base plan
 
 
 
-The paid Pro tier (optional, roughly ₹999–4,999/month) adds a custom domain, advanced analytics, and priority support for tutors who have grown enough to want them — but nothing in the five steps above requires it. The base plan is a complete tutoring business, and it stays free whether or not you ever upgrade. This is deliberate: the platform earns when you earn, through the flat 10% on sales, which is why there is no upfront fee to gate you out at the start. Your success and the platform's are pointed the same direction.
+Connecting your own custom domain is a one-time ₹10,000 per domain, with live classes, recorded video, PDF notes and test series included and nothing to renew for tutors who have grown enough to want them — but nothing in the five steps above requires it. The base plan is a complete tutoring business, and it stays free whether or not you ever upgrade. This is deliberate: the platform earns when you earn, through the flat 10% on sales, which is why there is no upfront fee to gate you out at the start. Your success and the platform's are pointed the same direction.
 
 Set against the alternatives, the fit is clear. A standalone personal app gives you ownership but leaves you alone with the discovery problem — and a ₹4–11 lakh bill. A big-brand platform may give you reach but rents your audience and takes a large cut. AllCoaching is the third option built specifically for the independent tutor: your own brand and student relationship, plus a shared marketplace that gets stronger every time another educator joins, on economics that let you keep the overwhelming majority of what you earn.
 
@@ -6643,7 +7320,7 @@ different kind of alternative.
 
 AllCoaching gives you everything the tools give you — a branded studio, live classes, recorded courses, ranked test series, UPI payments and a student CRM — and then adds the one thing they structurally cannot. A shared marketplace routes students searching your exam, subject and language to your studio by name, so growth stops depending entirely on the reach you personally own. You keep your own brand; students reach you on the web or through one shared student app rather than an app locked under a platform's developer account; and your students and content stay yours with no lock-in, so this is the last switch you are forced to make.
 
-The economics are deliberately the opposite of a credit-metered subscription. The base is ₹0 forever — no card at signup, no setup fee, no monthly plan — and the platform is paid a single flat 10% only on paid sales, so you keep 90% with daily UPI payouts. Multi-teacher institutes are supported on the free tier, with separate teacher logins and batch ownership, covered in the multi-teacher coaching platform guide. There is an optional Pro tier in the ~₹999–4,999/month range for extras like a custom domain and advanced analytics, but it is a luxury bought on top of profit, never a toll before it. Honesty matters here: AllCoaching is an early, growing marketplace, so its discovery network is compounding rather than already vast — which is precisely why joining early means less competition for the students it does route.
+The economics are deliberately the opposite of a credit-metered subscription. The base is ₹0 forever — no card at signup, no setup fee, no monthly plan — and the platform is paid a single flat 10% only on paid sales, so you keep 90% with daily UPI payouts. Multi-teacher institutes are supported on the free tier, with separate teacher logins and batch ownership, covered in the multi-teacher coaching platform guide. Connecting your own custom domain is a one-time ₹10,000 per domain — a one-off bought on top of profit, never a toll before it. Honesty matters here: AllCoaching is an early, growing marketplace, so its discovery network is compounding rather than already vast — which is precisely why joining early means less competition for the students it does route.
 
 Question Often Asked
 
@@ -7081,7 +7758,7 @@ different kind of alternative.
 
 AllCoaching gives you everything the storefronts give you — a branded studio, courses, live classes, ranked tests, digital products, UPI payments and a student CRM — and then adds the one thing they structurally cannot. A shared marketplace routes students searching your subject and exam to your studio by name, so growth stops depending entirely on the audience you personally own. You keep your own brand; your studio is independent, not a storefront folded into a giant; and your students and content stay yours with no lock-in, reachable on the web or through one shared student app.
 
-The economics are deliberately the opposite of the triple charge. The base is ₹0 forever — no card at signup, no monthly subscription, and no onboarding fee — and the platform is paid a single flat 10% only on paid sales, so you keep 90% with daily UPI payouts. One charge, and only after a sale. There is an optional Pro tier in the ~₹999–4,999/month range for extras like a custom domain and advanced analytics, but it is a luxury bought on top of profit, never a toll before it. Honesty matters here: AllCoaching is an early, growing marketplace, so its discovery network is compounding rather than already vast — which is exactly why joining early means less competition for the students it routes.
+The economics are deliberately the opposite of the triple charge. The base is ₹0 forever — no card at signup, no monthly subscription, and no onboarding fee — and the platform is paid a single flat 10% only on paid sales, so you keep 90% with daily UPI payouts. One charge, and only after a sale. Connecting your own custom domain is a one-time ₹10,000 per domain — a one-off bought on top of profit, never a toll before it. Honesty matters here: AllCoaching is an early, growing marketplace, so its discovery network is compounding rather than already vast — which is exactly why joining early means less competition for the students it routes.
 
 Question Often Asked
 
@@ -7488,7 +8165,7 @@ kyun hai.
 
 AllCoaching aapko woh sab deta hai jo tools dete hain — ek branded studio, live classes, recorded courses, ranked test series, UPI payments aur ek student CRM — aur phir woh ek cheez jodta hai jo woh structurally nahi kar sakte. Ek shared marketplace aapke exam, subject aur language search karne wale students ko naam se aapke studio tak route karta hai, to growth poori tarah us reach par depend karna band kar deti hai jo aap khud own karte ho. Aap apna brand rakhte ho; students aap tak web ya ek shared student app se pahunchte hain, na ki platform ke developer account par band app se; aur aapke students aur content aapke rehte hain koi lock-in ke bina, to yeh aakhri switch hai jo aapko majboori mein karna pade.
 
-Economics jaan-boojhkar credit-metered subscription ke ulat hai. Base ₹0 forever hai — signup par card nahi, koi setup fee nahi, koi monthly plan nahi — aur platform ko ek single flat 10% sirf paid sales par milta hai, to aap 90% rakhte ho daily UPI payouts ke saath. Multi-teacher institutes free tier par supported hain, alag teacher logins aur batch ownership ke saath, multi-teacher coaching platform guide mein cover kiya gaya. Ek optional Pro tier ~₹999–4,999/month range mein hai custom domain aur advanced analytics jaise extras ke liye, par woh profit ke upar khareedi gayi luxury hai, kabhi uske pehle ka toll nahi. Honesty zaroori hai: AllCoaching ek early, growing marketplace hai, to iska discovery network already-vishaal ke bajaye compound ho raha hai — jo bilkul wahi wajah hai ki early join karne ka matlab un students ke liye kam competition jo woh route karta hai.
+Economics jaan-boojhkar credit-metered subscription ke ulat hai. Base ₹0 forever hai — signup par card nahi, koi setup fee nahi, koi monthly plan nahi — aur platform ko ek single flat 10% sirf paid sales par milta hai, to aap 90% rakhte ho daily UPI payouts ke saath. Multi-teacher institutes free tier par supported hain, alag teacher logins aur batch ownership ke saath, multi-teacher coaching platform guide mein cover kiya gaya. Apna custom domain connect karna ek-baar ka ₹10,000 per domain hai, live video aur test series jaise sab kuch included ke liye, par woh profit ke upar khareedi gayi luxury hai, kabhi uske pehle ka toll nahi. Honesty zaroori hai: AllCoaching ek early, growing marketplace hai, to iska discovery network already-vishaal ke bajaye compound ho raha hai — jo bilkul wahi wajah hai ki early join karne ka matlab un students ke liye kam competition jo woh route karta hai.
 
 Aksar poochha jaane wala sawaal
 
@@ -8195,7 +8872,7 @@ after the income.
 
 AllCoaching is built on the opposite direction of money: the base is free, forever — no card at signup, no setup fee, no subscription, no trial that expires — and the platform is paid a single flat 10% on paid sales only, so you keep 90%, with daily UPI payouts. The break-even student count is zero; a slow month costs nothing; the fee can never run ahead of the income because it is defined as a fraction of it. And unlike the subscription it replaces, the 10% funds something no flat fee includes: AI-driven marketplace discovery, where students searching your exam, subject and language find you by name — the economics argued in full in the best zero-commission teaching platform in India.
 
-An optional Pro tier (roughly ₹999–4,999/month) exists for extras — custom domain, advanced analytics, priority support — and it is genuinely optional: the free tier is the product, and notice the design principle even in Pro. You would only ever buy a fixed fee here after your income justifies it — the platform's one subscription is priced as a luxury on top of profit, never a toll before it. Ownership stays with you throughout: your content, your students, your brand, with no lock-in and nothing to cancel your way out of, because there is nothing being charged.
+Connecting your own custom domain is a one-time ₹10,000 per domain — live video, PDFs and test series included — and it is genuinely optional: the free tier is the product, and notice the design principle even in Pro. You would only ever buy a fixed fee here after your income justifies it — the platform's one subscription is priced as a luxury on top of profit, never a toll before it. Ownership stays with you throughout: your content, your students, your brand, with no lock-in and nothing to cancel your way out of, because there is nothing being charged.
 
 Question Often Asked
 
@@ -8379,7 +9056,7 @@ Won't I end up paying more than a subscription if I grow big on a 10% model?
 At high, steady revenue, arithmetically yes — 10% of Rs 50,000 in monthly sales is Rs 5,000, which is more than a Rs 3,000 flat fee. But the comparison is only fair if the flat fee also brought the students, and it does not: a subscription buys infrastructure, while the 10% on AllCoaching also funds the marketplace discovery that brings students you could not reach alone. The deeper difference is risk: the 10% scales down to zero in a slow month, while the flat fee does not — so the percentage model costs more only in the exact months you can most afford it.
 
 What does AllCoaching cost compared to a monthly-fee coaching app?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the educator keeps 90% with daily UPI payouts, and a month with no sales costs nothing. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional — the free tier is the product, and marketplace discovery is included in it.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the educator keeps 90% with daily UPI payouts, and a month with no sales costs nothing. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew — the free tier is the product, and marketplace discovery is included in it.
 
 How do I move without losing the students I already have?
 With a parallel run: rebuild your catalogue on the new studio while the old plan is still active, announce the move on channels you own — your class groups, WhatsApp, your own voice — and invite students across, honouring their existing paid access so the switch costs them a login, never a second payment. Then let the old subscription lapse on its renewal date, so no student ever experiences a gap. Students follow the teacher, not the software; the ones who joined for you will move for you, and a Rs 0 destination means the overlap period costs nothing extra.
@@ -8869,7 +9546,7 @@ inside a marketplace.
 
 AllCoaching is built to do exactly this — remove the two things stopping your downloads by making downloads unnecessary. You get a branded studio under your own name, placed inside a shared student marketplace, reachable on the web and through one student app that students install once and use across every educator — so discovery brings students who never heard of you, and no student ever has to hunt for or install your specific private app to buy from you. The empty-app problem does not get patched; it stops existing, because the two causes — no traffic, and a separate install — are both removed by design. The economics behind why this beats a paid or "zero-commission" tool are in the best zero-commission teaching platform in India.
 
-The model, stated plainly: the base is free, forever — no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%, with daily UPI payouts. If your current app also charges you while getting no downloads, this removes that fixed cost at the same time it removes the download problem — you stop paying to keep an app no one is installing. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain and advanced analytics, but it is genuinely optional; the free tier is the product, and both the marketplace discovery and the no-install front door are included in it.
+The model, stated plainly: the base is free, forever — no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%, with daily UPI payouts. If your current app also charges you while getting no downloads, this removes that fixed cost at the same time it removes the download problem — you stop paying to keep an app no one is installing. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; the free tier is the product, and both the marketplace discovery and the no-install front door are included in it.
 
 Question Often Asked
 
@@ -9247,7 +9924,7 @@ inside a marketplace.
 
 AllCoaching is built to solve exactly this problem, because it is the one thing a standalone app can never be: a branded studio and a student marketplace in one. You get your own app and web studio under your own name — your brand, your students, your content — and it sits inside a shared marketplace where students searching by exam, subject and language are routed to you, so the storage you wanted comes with the distribution you were missing. This is the whole design: not another empty app, but the street your app never had, argued from the economics side in the best zero-commission teaching platform in India.
 
-The model, stated plainly: the base is free, forever — no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%, with daily UPI payouts. This matters doubly for an empty app that is also charging you, because a private app that brings no students while billing you a monthly or annual fee is a double loss — moving to a free-forever, marketplace-backed studio removes the fixed cost at the same time it fixes discovery. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain and advanced analytics, but it is genuinely optional; the free tier is the product, and the marketplace discovery is included in it.
+The model, stated plainly: the base is free, forever — no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%, with daily UPI payouts. This matters doubly for an empty app that is also charging you, because a private app that brings no students while billing you a monthly or annual fee is a double loss — moving to a free-forever, marketplace-backed studio removes the fixed cost at the same time it fixes discovery. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; the free tier is the product, and the marketplace discovery is included in it.
 
 Question Often Asked
 
@@ -9574,7 +10251,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your branded railway-exam app — sectional drills, full-length mocks with negative marking and all-India ranks, the PYQ bank, Hindi and regional-language content, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product, and especially load-bearing for a volume-driven exam niche where fixed costs matter more than for a boutique practice.
+AllCoaching's model, without adornment: the base is free, forever. Your branded railway-exam app — sectional drills, full-length mocks with negative marking and all-India ranks, the PYQ bank, Hindi and regional-language content, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free, and especially load-bearing for a volume-driven exam niche where fixed costs matter more than for a boutique practice.
 
 Two things stay on your side of the line. Ownership: your question bank, your explanations and your student relationships remain yours — the platform supplies the engine and the discovery, never a claim on the craft. Discovery: aspirants searching RRB, NTPC, Group-D and their language are routed to you by name, and because this pool is so large, discovery volume here can meaningfully exceed what a boutique exam niche ever generates. The cold-start mechanics of a first cohort are in how to get your first 500 students for a coaching app.
 
@@ -9757,7 +10434,7 @@ How do aspirants find my railway coaching without a big brand?
 Through marketplace discovery first and results second. On AllCoaching, aspirants arrive searching by exam and language — RRB, NTPC, Group-D, Hindi-medium — and the discovery layer routes them to coaches who teach exactly that, under those coaches' own names. A free full-length mock converts the search into proof of quality. Because the RRB aspirant pool is so large, even a modest share of organic discovery within it represents a meaningful number of students, unlike smaller boutique exam pools where discovery volume is inherently limited.
 
 What does it cost to run a railway-exam coaching practice on AllCoaching?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the coach keeps 90% with daily UPI payouts. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional. Illustratively — not a promise — a Rs 149 test series sold to 2,000 aspirants adds about Rs 3 lakh a season, keeping roughly Rs 2.7 lakh at 90%; volume, not price, carries the economics here.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the coach keeps 90% with daily UPI payouts. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew. Illustratively — not a promise — a Rs 149 test series sold to 2,000 aspirants adds about Rs 3 lakh a season, keeping roughly Rs 2.7 lakh at 90%; volume, not price, carries the economics here.
 
 Can I serve both RRB NTPC and Group-D from the same app?
 Yes — both fall under the same Railway Recruitment Board system and share a meaningful overlap in General Awareness and Reasoning content, though NTPC and Group-D differ in difficulty level and, for Group-D, the addition of General Science and a Physical Efficiency Test rather than further written stages. The same studio can sell an NTPC-specific series and a Group-D-specific series as separate products under one brand, sharing one student account, one checkout and one payout, with the same flat 10% and 90% kept.
@@ -9903,7 +10580,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your branded K-12 app — chapter-wise lessons, chapter and full-syllabus tests, doubt-solving under your own name, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product.
+AllCoaching's model, without adornment: the base is free, forever. Your branded K-12 app — chapter-wise lessons, chapter and full-syllabus tests, doubt-solving under your own name, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free.
 
 Two things stay on your side of the line. Ownership: your lessons, your explanations, your test bank and your student relationships remain yours — the platform supplies the engine and the discovery, never a claim on the craft. Discovery: parents searching your subject, board and class are routed to you by name, replacing the lead flow a sales team or a school's licence would otherwise supply. The cold-start mechanics of a first direct cohort are in how to get your first 500 students for a coaching app.
 
@@ -10086,7 +10763,7 @@ How do parents find my teaching without a big platform's sales team?
 Through marketplace discovery first and results second. On AllCoaching, parents arrive searching by subject, board and class, and the discovery layer routes them to teachers who teach exactly that, under those teachers' own names. A free chapter converts the search into proof: the parent and student experience the teaching quality before paying. School and tuition-hub communities are close-knit, so a teacher whose students visibly improve becomes known by name within a term or two.
 
 What does it cost to run a direct-to-student practice on AllCoaching?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the teacher keeps 90% with daily UPI payouts. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional. Illustratively — not a promise — a Rs 499 monthly subject subscription with 80 students collects about Rs 40,000 monthly, of which the teacher keeps roughly Rs 36,000.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the teacher keeps 90% with daily UPI payouts. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew. Illustratively — not a promise — a Rs 499 monthly subject subscription with 80 students collects about Rs 40,000 monthly, of which the teacher keeps roughly Rs 36,000.
 
 Can I teach multiple subjects or classes from the same app?
 Yes — one branded studio can hold separate chapter-wise courses for different subjects and classes, each priced and sold independently, sharing one student account, one checkout and one payout. If you teach alongside colleagues covering other subjects, multi-teacher support is free-tier included, so a small tuition group can operate under one shared brand while each teacher's lessons and doubt-solving stay attributed to them individually.
@@ -10230,7 +10907,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your branded defence-exam app — written sectional drills, full-length mocks with negative marking and all-India ranks, the psychological-test practice module, live SSB mock interview and GD sessions with recordings, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product.
+AllCoaching's model, without adornment: the base is free, forever. Your branded defence-exam app — written sectional drills, full-length mocks with negative marking and all-India ranks, the psychological-test practice module, live SSB mock interview and GD sessions with recordings, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free.
 
 Two things stay on your side of the line. Ownership: your question bank, your explanations, your SSB feedback and your student relationships remain yours — the platform supplies the engine and the discovery, never a claim on the craft. Discovery: aspirants and parents searching NDA, CDS, AFCAT and SSB are routed to you by name, with a free full mock converting the search into experienced proof. The cold-start mechanics of a first cohort are in how to get your first 500 students for a coaching app.
 
@@ -10413,7 +11090,7 @@ How do aspirants find my defence coaching without a big brand?
 Through marketplace discovery first and results second. On AllCoaching, aspirants and parents arrive searching by exam and language — NDA, CDS, AFCAT, SSB — and the discovery layer routes them to coaches who teach exactly that, under those coaches' own names. A free full-length written mock converts the search into proof: the aspirant experiences your question quality and explanation depth before paying. Defence-aspirant circles are tight-knit and word travels fast through coaching hubs and alumni networks once a coach's SSB recommendations start showing results.
 
 What does it cost to run a defence-exam coaching practice on AllCoaching?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the coach keeps 90% with daily UPI payouts. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional. Illustratively — not a promise — a Rs 999 written test series sold to 300 aspirants adds about Rs 3 lakh a season, keeping roughly Rs 2.7 lakh; a 20-seat live SSB-prep batch at Rs 4,999 adds about Rs 1 lakh, keeping roughly Rs 90,000.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the coach keeps 90% with daily UPI payouts. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew. Illustratively — not a promise — a Rs 999 written test series sold to 300 aspirants adds about Rs 3 lakh a season, keeping roughly Rs 2.7 lakh; a 20-seat live SSB-prep batch at Rs 4,999 adds about Rs 1 lakh, keeping roughly Rs 90,000.
 
 Can I serve NDA, CDS and AFCAT from the same app?
 Yes — the SSB stage is common to NDA, CDS and most other defence entries, so a coach's SSB-prep module (psychological-test practice, mock interviews, GD sessions) serves aspirants across all three, while the written test bank is built per exam to match each one's actual pattern and syllabus. The same studio sells an NDA written series, a CDS written series, an AFCAT written series and a shared SSB-prep batch as separate products under one brand, sharing one student account, one checkout and one payout.
@@ -10559,7 +11236,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your branded community app — live sessions, discussion and doubt-solving space, practice sets or ranked test series, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no fixed monthly SaaS fee, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product.
+AllCoaching's model, without adornment: the base is free, forever. Your branded community app — live sessions, discussion and doubt-solving space, practice sets or ranked test series, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no fixed monthly SaaS fee, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free.
 
 Two things stay on your side of the line. Ownership: your session content, your discussion history and your member relationships remain yours — the platform supplies the engine and the discovery, never a claim on the community you built. Discovery: students searching your subject, exam or language are routed to you by name, something an own-traffic community platform never supplies. The cold-start mechanics of filling a first cohort are in how to get your first 500 students for a coaching app.
 
@@ -10748,7 +11425,7 @@ How does discovery work for a paid community — do I need my own audience first
 Not necessarily. Skool and Circle.so are own-traffic platforms — they host your community but do not bring members; you need an existing audience to fill it. AllCoaching adds AI-driven marketplace discovery on top: students searching your subject, exam or language are routed to you by name. A free open session still matters as proof of the community's value, but you are not solely dependent on an audience you built somewhere else first.
 
 What does it cost to run a paid study community on AllCoaching?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the educator keeps 90% with daily UPI payouts. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional. Illustratively — not a promise — a 60-member community at Rs 499 per month collects about Rs 30,000 monthly, of which the educator keeps roughly Rs 27,000.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the educator keeps 90% with daily UPI payouts. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew. Illustratively — not a promise — a 60-member community at Rs 499 per month collects about Rs 30,000 monthly, of which the educator keeps roughly Rs 27,000.
 
 How long does it take to launch a paid study community app?
 The studio is created in about a minute at Rs 0; a sellable start is realistically a weekend — set the weekly live-session rhythm, open the discussion space, and attach one practice set or test as the first measurable layer. Because there is no subscription and no card at signup, you can build and publish before spending anything, and the first rupee the platform earns is 10% of the first rupee you do.
@@ -10902,7 +11579,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your branded independent app — rebuilt curriculum, live batches, recorded lessons, practice sets or ranked mocks, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no franchise fee, no ongoing royalty, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product.
+AllCoaching's model, without adornment: the base is free, forever. Your branded independent app — rebuilt curriculum, live batches, recorded lessons, practice sets or ranked mocks, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no franchise fee, no ongoing royalty, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free.
 
 Two things stay on your side of the line, permanently. Ownership: your curriculum, your teaching materials, your test series and your student relationships remain yours — the platform supplies the engine and the discovery, never a claim on the craft. Discovery: families searching your subject, your exam and your area are routed to you by name, replacing the lead flow a franchise brand used to provide. The cold-start mechanics of rebuilding a first independent cohort from a mix of old and new families are in how to get your first 500 students for a coaching app.
 
@@ -11085,7 +11762,7 @@ How is the Cuemath model different from the Aakash model?
 The Cuemath-style model is typically a single-subject, home-center certification: a teacher-partner runs small in-person or online math batches from home, following a licensed workbook-based method, with leads arriving through the franchisor's own app. The Aakash-style model is typically a large-format, multi-subject exam-coaching branch — JEE, NEET or foundation-level — with a bigger upfront investment, standardized print material, and a physical center under franchise licence. Both share the same underlying trade: curriculum and brand access in exchange for an ongoing share of revenue and a name that stays with the franchisor on exit.
 
 What does it cost to run an independent brand on AllCoaching compared to a franchise?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so you keep 90% with daily UPI payouts. A franchise, by contrast, typically charges an upfront certification or franchise fee plus an ongoing revenue share taken for as long as you operate under the brand — a cost that does not end when the fee is paid off. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so you keep 90% with daily UPI payouts. A franchise, by contrast, typically charges an upfront certification or franchise fee plus an ongoing revenue share taken for as long as you operate under the brand — a cost that does not end when the fee is paid off. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew.
 
 Do I need new curriculum content, or can I keep teaching the way I always have?
 You keep teaching the way you always have — your explanations, your pacing, your classroom style are yours and always were. What changes is the packaging: a licensed workbook or centrally issued study material usually cannot travel with you, so the practical work is rebuilding your own worksheets, notes or question sets in your own words, around the same method you have already proven works. Most independent tutors find this rebuild sharpens the teaching rather than diluting it.
@@ -11229,7 +11906,7 @@ Alternative
 ## AllCoaching model,
 saaf-saaf.
 
-AllCoaching ka model, bina kisi adornment ke: base hamesha ke liye free hai. Aapka branded test-series app — sectional tests, full mocks with All India rank aur negative marking, PYQ bank, detailed solutions, UPI checkout with daily payouts, student CRM — Rs 0 me set up hota hai aur Rs 0 me chalta hai: koi card signup par nahi, koi setup fee nahi, koi subscription nahi, koi trial jo expire ho. Platform ko sirf ek flat 10% paid sales par milta hai; aap 90% rakhte hain. Ek optional Pro tier (lagbhag Rs 999-4,999/month) custom domain, advanced analytics aur priority support jaise extras deta hai — genuinely optional; free tier hi asli product hai.
+AllCoaching ka model, bina kisi adornment ke: base hamesha ke liye free hai. Aapka branded test-series app — sectional tests, full mocks with All India rank aur negative marking, PYQ bank, detailed solutions, UPI checkout with daily payouts, student CRM — Rs 0 me set up hota hai aur Rs 0 me chalta hai: koi card signup par nahi, koi setup fee nahi, koi subscription nahi, koi trial jo expire ho. Platform ko sirf ek flat 10% paid sales par milta hai; aap 90% rakhte hain. Apna custom domain connect karna ek-baar ka Rs 10,000 per domain hai — live classes, recorded video, PDF notes aur test series sab included, na monthly fee na renewal; course bechna khud free hai.
 
 Do cheezein hamesha aapke side rehti hain. Ownership: aapke questions, aapke solutions, aapke students ka data aapka hi rehta hai — platform sirf engine aur discovery deta hai, kabhi craft par claim nahi karta. Discovery: jo students NEET ya JEE search karte hain, unhe aapke naam se route kiya jaata hai, aggregator ke naam se nahi. Pehla batch build karne ka cold-start method pehle 500 students laane ke guide me hai.
 
@@ -11558,7 +12235,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your branded law-entrance app — passage-based drills, full-length mocks with negative marking and all-India ranks, the legal GK compendium, discussion-led live classes with recordings, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product.
+AllCoaching's model, without adornment: the base is free, forever. Your branded law-entrance app — passage-based drills, full-length mocks with negative marking and all-India ranks, the legal GK compendium, discussion-led live classes with recordings, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free.
 
 Two things stay on your side of the line. Ownership: your passages, your explanations, your compendium and your student relationships remain yours — the platform supplies the engine and the discovery, never a claim on the craft. Discovery: aspirants and parents searching CLAT, law entrance and your language are routed to you by name, with a free full mock converting the search into experienced proof. The cold-start mechanics of a first boutique cohort are in how to get your first 500 students for a coaching app.
 
@@ -11741,7 +12418,7 @@ How do aspirants find my law-entrance coaching without a big brand?
 Through marketplace discovery first and results second. On AllCoaching, aspirants and parents arrive searching by exam and language — CLAT, law entrance, AILET — and the discovery layer routes them to coaches who teach exactly that, under those coaches' own names. A free full-length mock converts the search into proof: the aspirant experiences your passage quality and explanation depth before paying. Law-aspirant circles are small and talkative — school groups, Telegram communities — so visible rank improvements and NLU admits travel fast once the first cohort lands.
 
 What does it cost to run a CLAT coaching practice on AllCoaching?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the coach keeps 90% with daily UPI payouts. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional. Illustratively — not a promise — a 50-seat live batch at Rs 1,499 per month collects about Rs 75,000 monthly, of which the coach keeps roughly Rs 67,500; a Rs 799 mock series sold to 250 aspirants adds about Rs 1.8 lakh a season at 90%.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the coach keeps 90% with daily UPI payouts. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew. Illustratively — not a promise — a 50-seat live batch at Rs 1,499 per month collects about Rs 75,000 monthly, of which the coach keeps roughly Rs 67,500; a Rs 799 mock series sold to 250 aspirants adds about Rs 1.8 lakh a season at 90%.
 
 Can I serve AILET and other law entrances from the same app?
 Yes — and you should, because the preparation overlaps heavily. AILET and most other law entrances test the same passage-based skills with pattern differences, so a coach's passage bank, legal GK compendium and live discussions serve the whole cluster with exam-specific mock variants layered on top. The same studio sells the CLAT series, an AILET variant, the GK compendium as a subscription and the live batch as separate products under one brand, sharing one student account, one checkout and one payout, with the same flat 10% and 90% kept.
@@ -11876,7 +12553,7 @@ The alternative
 ## The India-first answer,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your branded studio and app — recorded courses, live classes, ranked test series, UPI-first checkout at INR price points you control, daily INR settlements to your bank, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Sell nothing in a month and you owe nothing that month — the bill arrives after the income, never before it. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product.
+AllCoaching's model, without adornment: the base is free, forever. Your branded studio and app — recorded courses, live classes, ranked test series, UPI-first checkout at INR price points you control, daily INR settlements to your bank, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Sell nothing in a month and you owe nothing that month — the bill arrives after the income, never before it. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free.
 
 What makes it the answer to this specific search is that the rails are the product, not an integration. UPI is the first-class checkout because that is how your students pay; settlements land daily in rupees because that is how your month runs; price points stay yours because no fixed bill sits underneath them. And the marketplace supplies the engine no course SaaS carries: students searching your exam, subject and language, routed to you by name. The operational layer — receipts, reconciliations, the fee cycle running itself — is the same discipline we detailed in automated fee management software for teachers.
 
@@ -12059,7 +12736,7 @@ I also sell to international students — should I still switch?
 Run a dual-track honestly. If a meaningful share of your buyers are genuinely international card-payers, a global platform may keep earning its subscription for that audience — keep it for what it does well. But most Indian educators discover on inspection that the overwhelming majority of their students are Indian, paying in rupees, preferring UPI — and for that majority the India-first studio is simply the better machine. Because the AllCoaching base is Rs 0, running it alongside a global platform costs nothing extra: route Indian students to UPI-first checkout, keep the international track where it is, and let the numbers tell you where the business actually lives.
 
 What does the Indian alternative cost compared to a monthly subscription?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so you keep 90% of every sale with daily UPI payouts; sell nothing in a month and you owe nothing that month. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional. The structural difference from subscription SaaS: the bill arrives after the income, never before it.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so you keep 90% of every sale with daily UPI payouts; sell nothing in a month and you owe nothing that month. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew. The structural difference from subscription SaaS: the bill arrives after the income, never before it.
 
 Does AllCoaching bring students, or do I still supply all the traffic?
 This is the second structural difference from Teachable-class platforms, after the rails. Course SaaS runs an own-traffic model: it sells to the audience you bring and brings none of its own. AllCoaching is a marketplace — students arrive searching by exam, subject and language, and the discovery layer routes them to educators who teach exactly that, under those educators' own names. Your existing audience still converts through your links as before; discovery adds a second engine that a standalone course site can never bolt on, because it requires the students to already be there.
@@ -12216,7 +12893,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your own branded studio and app — recorded courses, ranked test series with sectional and full-length mocks, live classes, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. While you rebuild and nothing sells, you owe nothing. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product.
+AllCoaching's model, without adornment: the base is free, forever. Your own branded studio and app — recorded courses, ranked test series with sectional and full-length mocks, live classes, UPI checkout with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. While you rebuild and nothing sells, you owe nothing. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free.
 
 What makes it the right address for this particular move is the pairing the mass-prep company never offered: ownership plus distribution. The students who enrol are your students — reachable by you, retained by you, and still yours if you change what or how you teach. And the marketplace supplies the reach that made leaving feel impossible: aspirants searching your exam find you by name. The zero-commission economics in full are in the best zero-commission teaching platform in India.
 
@@ -12399,7 +13076,7 @@ How do aspirants find me without the company's app behind me?
 Two engines replace the company's distribution. First, marketplace discovery: on AllCoaching, aspirants arrive searching by exam, subject and language — SSC, banking, railways, teaching exams — and the discovery layer routes them to educators who teach exactly that, under those educators' own names. Second, your borrowed audience made portable: the students who know your face from the company's channels follow announcements on your personal handles. Together they solve the cold start that scares most educators out of leaving — reach without renting a brand again.
 
 What does it cost to rebuild my exam content business on AllCoaching?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so you keep 90% of every sale with daily UPI payouts; if you sell nothing while rebuilding, you owe nothing while rebuilding. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional. The economics are built for exactly this situation: publish first, earn later, pay only on results.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so you keep 90% of every sale with daily UPI payouts; if you sell nothing while rebuilding, you owe nothing while rebuilding. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew. The economics are built for exactly this situation: publish first, earn later, pay only on results.
 
 Should I rebuild my recorded course first or launch a test series first?
 For most govt-exam educators, the test series first — it is faster to build, quicker to sell, and the sharpest proof of quality. Sectional and full-length mocks with ranks and detailed solutions can be assembled in weeks from the question patterns already in your head, and a free demo mock doubles as your relaunch announcement's call to action. The recorded course follows as the deeper product: re-record your flagship subject fresh, sell it alongside the series, and add a live doubt batch once enrolments justify the fixed hour. Three products, one rebuilt brand, each feeding the next.
@@ -12545,7 +13222,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your branded GATE studio — branch-wise recorded courses, the topic-to-full-length test ladder with NAT questions and all-India ranks, PYQ modules, live doubt sessions, UPI checkout with daily payouts — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Sell nothing between seasons and you owe nothing between seasons. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product.
+AllCoaching's model, without adornment: the base is free, forever. Your branded GATE studio — branch-wise recorded courses, the topic-to-full-length test ladder with NAT questions and all-India ranks, PYQ modules, live doubt sessions, UPI checkout with daily payouts — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Sell nothing between seasons and you owe nothing between seasons. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free.
 
 Two things stay on your side of the line. Ownership: your recorded subjects, your question bank, your solutions and your aspirant relationships remain yours — the platform supplies the engine and the discovery, not a claim on your work. Discovery by branch: aspirants search GATE with their paper attached, and the marketplace routes exactly those searches to the educator who teaches exactly that branch — under the educator's own name, with a free full-length mock converting discovery into proof. The cold-start mechanics of a first season are in how to get your first 500 students for a coaching app, and the broader case for selling without a calendar-billed platform in selling online courses without a monthly subscription.
 
@@ -12728,7 +13405,7 @@ How do aspirants find my branch-specific courses without a big coaching brand?
 Branch-wise search is precisely where marketplace discovery works hardest. GATE aspirants search with their paper attached — their branch plus test series, their subject plus lectures — and on AllCoaching the discovery layer routes those searches to educators who teach exactly that branch, under their own names. A free full-length mock converts that discovery into proof: the aspirant sees their rank and your solution quality before paying. From there, branch communities — college groups, PSU-aspirant forums — carry results by word-of-mouth faster than advertising could.
 
 What does it cost to run a GATE coaching studio on AllCoaching?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so you keep 90% of every sale with daily UPI payouts. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional. Illustratively — not a promise — a Rs 2,999 branch course sold to 150 aspirants collects about Rs 4.5 lakh, of which you keep roughly Rs 4 lakh; a Rs 999 test series sold to 300 adds about Rs 2.7 lakh at 90%.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so you keep 90% of every sale with daily UPI payouts. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew. Illustratively — not a promise — a Rs 2,999 branch course sold to 150 aspirants collects about Rs 4.5 lakh, of which you keep roughly Rs 4 lakh; a Rs 999 test series sold to 300 adds about Rs 2.7 lakh at 90%.
 
 Can I sell the test series separately from the full course?
 Yes, and for GATE you should — the test series is the natural entry product. Many aspirants prepare from free lectures and books but pay for a ranked, exam-faithful mock series, so a standalone series at an accessible price captures buyers the full course never would, and doubles as the feeder into it. The same studio sells the branch course, the test series, a PYQ-solutions module and the general-aptitude add-on as separate products under one brand, sharing one student account, one checkout and one payout, with the same flat 10% and 90% kept.
@@ -12874,7 +13551,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your branded coaching app — capped cohorts with pricing you control, VARC/DILR/QA sectional and full-length mocks with percentile feedback, evening and weekend live classes with recordings, WAT-PI modules, UPI checkout with daily payouts — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Sell nothing in the off-season and you owe nothing in the off-season. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product.
+AllCoaching's model, without adornment: the base is free, forever. Your branded coaching app — capped cohorts with pricing you control, VARC/DILR/QA sectional and full-length mocks with percentile feedback, evening and weekend live classes with recordings, WAT-PI modules, UPI checkout with daily payouts — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Sell nothing in the off-season and you owe nothing in the off-season. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free.
 
 Two things stay on your side of the line. Ownership: the cohort, the brand, the aspirant relationships and the percentile data remain yours — the platform supplies the engine and the discovery, not a claim on your practice. Discovery: aspirants searching CAT and MBA entrance are routed to trainers who teach exactly that, under those trainers' own names — with your free diagnostic mock converting search into applications. The cold-start mechanics of turning first searches into a first full cohort are in how to get your first 500 students for a coaching app.
 
@@ -13057,7 +13734,7 @@ How do aspirants find my program if I am not a famous coaching brand?
 Through marketplace discovery first, and results-driven word-of-mouth after. On AllCoaching, aspirants arrive searching by exam and language — CAT, MBA entrance — and the discovery layer routes them to trainers who teach exactly that, under those trainers' own names. A free diagnostic mock is the honest funnel: serious aspirants attempt it, see their percentile and the quality of your analysis, and apply for the paid cohort. From there, MBA aspirants are unusually networked — percentile improvements and admits travel fast through college groups and office circles.
 
 What does it cost to run a high-ticket CAT program on AllCoaching?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the trainer keeps 90% with daily UPI payouts. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional. Illustratively — not a promise — a 30-seat cohort priced at Rs 25,000 collects Rs 7.5 lakh a season, of which the trainer keeps about Rs 6.75 lakh.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of actual sales, so the trainer keeps 90% with daily UPI payouts. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew. Illustratively — not a promise — a 30-seat cohort priced at Rs 25,000 collects Rs 7.5 lakh a season, of which the trainer keeps about Rs 6.75 lakh.
 
 Can I sell a mock series or WAT-PI module separately from the main cohort?
 Yes — the same studio sells the flagship cohort, a standalone mock series and a WAT-PI module as separate products under one brand, and staggering them matches the aspirant's season. A standalone percentile mock series serves aspirants who cannot afford the full cohort and becomes a feeder into it; the WAT-PI and interview module sells after results to a wider pool than your own students, because every shortlisted aspirant suddenly needs it. Everything shares one student account, one checkout and one payout, with the same flat 10% and 90% kept.
@@ -13203,7 +13880,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your own branded tuition studio and app — scheduled live batches with recordings, homework and chapter tests, monthly UPI fee collection with daily payouts and automatic receipts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no franchise fee, no trial that expires. The platform is paid a single flat 10% on fees actually collected; you keep 90%. A student skips a month — you owe nothing on that gap. An optional Pro tier (roughly ₹999–4,999/month) adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product.
+AllCoaching's model, without adornment: the base is free, forever. Your own branded tuition studio and app — scheduled live batches with recordings, homework and chapter tests, monthly UPI fee collection with daily payouts and automatic receipts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no franchise fee, no trial that expires. The platform is paid a single flat 10% on fees actually collected; you keep 90%. A student skips a month — you owe nothing on that gap. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free.
 
 What makes it the answer to this specific search is the pairing: ownership plus discovery. The practice is yours — your name on the app, your fee, your students reachable by you — and the marketplace supplies the student flow that made the company and the franchise tempting in the first place: students and parents searching by class, subject and language are routed to teachers who teach exactly that. The cold-start mechanics — how a new listing converts its first searches into its first full batch — are in how to get paid students for online coaching free and how to get your first 500 students for a coaching app.
 
@@ -13386,7 +14063,7 @@ How will students and parents find my tuition classes if I am not under a big br
 Through marketplace discovery — the honest answer to the one thing a big brand or franchise genuinely offers. On AllCoaching, students and parents arrive searching by class, subject, exam and language, and the discovery layer routes them to teachers who teach exactly that, under those teachers' own names. Your tuition practice stops depending on colony word-of-mouth alone and becomes findable at the moment a parent is searching. Word-of-mouth still compounds on top — results in a batch bring the next batch — but discovery removes the cold start.
 
 What does it cost to run my own online tuition on AllCoaching?
-Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, no franchise fee, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of fees actually collected, so you keep 90% of every payment with daily UPI payouts. An optional Pro tier (roughly Rs 999–4,999 per month) adds extras like a custom domain, advanced analytics and priority support, but it is genuinely optional. Illustratively — not a promise — a single batch of 30 students at Rs 800 per month collects Rs 24,000, of which you keep about Rs 21,600; a second batch doubles it from the same timetable.
+Rs 0 to start and Rs 0 to keep running: no setup fee, no subscription, no franchise fee, and no card at signup — the free tier never expires. The platform is paid a single flat 10% out of fees actually collected, so you keep 90% of every payment with daily UPI payouts. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew. Illustratively — not a promise — a single batch of 30 students at Rs 800 per month collects Rs 24,000, of which you keep about Rs 21,600; a second batch doubles it from the same timetable.
 
 Can I keep my students if I leave a tutoring platform or franchise?
 Usually not the relationship itself — and that is the core of the problem. On a tutoring company's platform the student account, contact and history belong to the company; a franchise agreement typically restricts taking students with you and the brand recall stays with the franchisor. Students who loved your teaching often cannot even find you afterwards, because they knew the brand, not your name. That is the strongest argument for owning the practice from day one: on your own studio, every student who joins is your student, and they remain reachable if you change what or how you teach.
@@ -13532,7 +14209,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your branded bank-exam app — sectional and full-length mocks, sectional timers and cut-offs, negative marking, all-India ranks, speed-accuracy analytics, a current-affairs module, live classes, UPI checkout with daily payouts — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Sell nothing in a month and you owe nothing. An optional Pro tier (roughly ₹999–4,999/month) later adds extras like a custom domain, advanced analytics and priority support — genuinely optional; the free tier is the product.
+AllCoaching's model, without adornment: the base is free, forever. Your branded bank-exam app — sectional and full-length mocks, sectional timers and cut-offs, negative marking, all-India ranks, speed-accuracy analytics, a current-affairs module, live classes, UPI checkout with daily payouts — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Sell nothing in a month and you owe nothing. Connecting your own custom domain is a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew; selling itself is free.
 
 What makes it the right app for a bank-exam coach specifically is that the test engine is built for exactly this exam shape — per-section timing, cut-offs and speed-accuracy analytics — rather than being a generic quiz tool. And two things stay on your side of the line. Ownership: your questions, your current-affairs notes and your aspirant relationship remain yours; the platform supplies the engine and the discovery, not a claim on your work. Discovery: the marketplace brings aspirants searching your exam under your own name. Many coaches start with a sectional series and add live strategy sessions and a current-affairs subscription from the same studio — one aspirant account, one payout, the same 10%. The broader zero-commission economics are argued in selling courses without a monthly subscription and the best zero-commission teaching platform in India.
 
@@ -13862,7 +14539,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, without adornment: the base is free, forever. Your own branded test-series app — sectional and full-length mocks, negative marking, all-India ranks, detailed solutions, question-level analytics, UPI checkout with daily payouts — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Sell nothing in a month and you owe nothing that month. An optional Pro tier (roughly ₹999–4,999/month) later adds extras like a custom domain, advanced analytics and priority support — but it is genuinely optional; the free tier is the product, not a teaser.
+AllCoaching's model, without adornment: the base is free, forever. Your own branded test-series app — sectional and full-length mocks, negative marking, all-India ranks, detailed solutions, question-level analytics, UPI checkout with daily payouts — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; you keep 90%. Sell nothing in a month and you owe nothing that month. Connecting your own custom domain is a one-time ₹10,000 per domain, live video, PDFs and test series included, with nothing to renew — genuinely optional; the free tier is the product, not a teaser.
 
 What makes it a Testbook alternative rather than just cheaper software is the two things it keeps on your side of the line. Ownership: your questions, your solutions and your student relationship stay yours — the platform supplies the engine and the discovery, not a claim on your intellectual property. Discovery: the marketplace brings students searching your exam under your own brand, which is the value an aggregator sells and a standalone app lacks. And because a test series is quick to launch, many educators start there and add recorded crash courses and live doubt sessions later — one studio, one student account, one payout, the same 10%. The broader zero-commission economics are argued in selling courses without a monthly subscription; the exam-specific playbooks in the best app for state-PSC coaching educators.
 
@@ -14519,7 +15196,7 @@ The studio
 ## The mentor's studio
 on AllCoaching.
 
-On AllCoaching, the mentorship stack assembles inside one free branded studio: the ranked test engine runs the sectional and full-length prelims series with ranks and percentile feedback; live classes host the weekly discussion hour; recorded content holds model-answer discussions and any crash material; batch and student management keeps the answer-writing calendar organised, with copies moving as PDF submissions you collect and return; and UPI payments settle daily to your own bank. The economics are the ones stated throughout: ₹0 upfront, free forever, no card at signup, a flat 10% only on paid sales — you keep 90%. An optional Pro tier (custom domain, advanced analytics, priority support) exists for mentors who later want it; the free tier never expires.
+On AllCoaching, the mentorship stack assembles inside one free branded studio: the ranked test engine runs the sectional and full-length prelims series with ranks and percentile feedback; live classes host the weekly discussion hour; recorded content holds model-answer discussions and any crash material; batch and student management keeps the answer-writing calendar organised, with copies moving as PDF submissions you collect and return; and UPI payments settle daily to your own bank. The economics are the ones stated throughout: ₹0 upfront, free forever, no card at signup, a flat 10% only on paid sales — you keep 90%. Connecting your own custom domain is a one-time ₹10,000 per domain for mentors who later want it — live video, PDFs and test series included, nothing to renew; the free tier never expires.
 
 Discovery matters differently in UPSC than in other verticals — serious aspirants distrust advertising, but they search with precision. Marketplace discovery routes aspirants searching by exam and language to mentors who run exactly the programme they need, and a transparent profile — evaluation method, sample marked copy, batch cap, turnaround promise — converts that search into trust. From there, UPSC's tight-knit circles do the compounding: one genuinely improved copy posted in a study group recruits better than any campaign. The mentor's only marketing budget is the discipline of the feedback itself.
 
@@ -14861,7 +15538,7 @@ The ownership path
 ## The ownership path
 on AllCoaching.
 
-On AllCoaching, the alternative to a faculty seat inside a coaching giant looks like this: you set up a branded studio under your own name in about a minute — no card, no KYC hurdle, no setup fee — and it comes with the six systems already wired: your app, video hosting for recorded courses, live classes, ranked test series, a student CRM, and UPI payments settled daily to your own bank. The economics are the inversion described above: ₹0 upfront, free forever, a single flat 10% only on paid sales — you keep 90%. There is no trial that expires and no forced upgrade; an optional Pro tier (custom domain, advanced analytics, priority support) exists for educators who later want it, but the base never stops being free.
+On AllCoaching, the alternative to a faculty seat inside a coaching giant looks like this: you set up a branded studio under your own name in about a minute — no card, no KYC hurdle, no setup fee — and it comes with the six systems already wired: your app, video hosting for recorded courses, live classes, ranked test series, a student CRM, and UPI payments settled daily to your own bank. The economics are the inversion described above: ₹0 upfront, free forever, a single flat 10% only on paid sales — you keep 90%. There is no trial that expires and no forced upgrade; connecting your own custom domain is a one-time ₹10,000 per domain for educators who later want it, but the base never stops being free.
 
 The sixth system — discovery — is where the marketplace does what neither a custom build nor a SaaS subscription can. Students on AllCoaching search by exam, subject and language; AI-driven discovery surfaces your batch to exactly the students looking for what you teach, so an unknown teacher competes on relevance and reviews rather than on advertising spend. This is the network-effect layer that isolated apps never get: every educator who joins makes the marketplace worth more students' time, and every student makes it worth more educators' time. Your name stays on the door — the students who enrol are your students, in your studio — but the street outside has foot traffic. The comparison with subscription-first platforms is laid out in Classplus vs Graphy vs AllCoaching, and the zero-commission economics in the best zero-commission teaching platform in India.
 
@@ -15188,7 +15865,7 @@ The alternative
 ## The AllCoaching model,
 stated plainly.
 
-AllCoaching's model, stated without adornment: the base is free, forever. Your institute's branded studio and app — recorded courses, live classes, ranked test series, UPI fee collection with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; your institute keeps 90%. If you sell nothing in a month, you owe nothing that month. An optional Pro tier (roughly ₹999–4,999/month) exists for institutes that later want extras — custom domain, advanced analytics, priority support — but it is genuinely optional; the free tier is not a teaser, it is the product.
+AllCoaching's model, stated without adornment: the base is free, forever. Your institute's branded studio and app — recorded courses, live classes, ranked test series, UPI fee collection with daily payouts, student CRM — costs ₹0 to set up and ₹0 to keep running: no card at signup, no setup fee, no subscription, no trial that expires. The platform is paid a single flat 10% on paid sales only; your institute keeps 90%. If you sell nothing in a month, you owe nothing that month. Connecting your own custom domain is a one-time ₹10,000 per domain for institutes that later want it — live video, PDFs and test series included, with no monthly fee — and it is genuinely optional; the free tier is not a teaser, it is the product.
 
 Two inclusions matter specifically to institutes. First, multi-teacher support is free-tier included: each teacher gets a separate login and owns their batches under the institute's single brand — no per-seat pricing, which is where subscription platforms often grow expensive as faculty is added. The split stays simple: 10% to the platform on sales, 90% to the institute, and internal teacher pay remains the institute's own arrangement. Second, fee collection is built in — UPI in, daily payouts to the institute's bank, with the operational discipline described in automated fee management software for teachers. The wider zero-commission economics of this model are argued in the best zero-commission teaching platform in India.
 
@@ -15374,7 +16051,7 @@ Will I lose my students if I move my institute off a subscription platform?
 Not if the migration is sequenced properly — students follow the institute, not the software. The zero-downtime pattern: set up the free studio in parallel while the old platform runs, mirror your batch structure, move recorded content and notes first so students arrive in a furnished app, pilot one batch for two weeks, switch fee collection at the natural fee-cycle boundary, and let the old subscription lapse at renewal. Students experience a change of address, not a change of institute — and because the new studio costs Rs 0, the two platforms can overlap for the whole transition without double cost.
 
 What does the institute's app include on AllCoaching's free tier?
-The free tier includes the branded studio and app under the institute's name, recorded courses, live classes, ranked test series, UPI fee collection with daily payouts, a student CRM, multi-teacher logins with batch ownership, and AI-driven marketplace discovery. An optional paid Pro tier (roughly Rs 999–4,999 per month) adds advanced extras like a custom domain, advanced analytics and priority support — but it is genuinely optional, and the free tier never expires. There is no trial period that ends and no forced upgrade.
+The free tier includes the branded studio and app under the institute's name, recorded courses, live classes, ranked test series, UPI fee collection with daily payouts, a student CRM, multi-teacher logins with batch ownership, and AI-driven marketplace discovery. Connecting your own custom domain is a one-time Rs 10,000 per domain, which includes live classes, recorded video, PDF notes and test series, with no monthly fee and nothing to renew — but it is genuinely optional, and the free tier never expires. There is no trial period that ends and no forced upgrade.
 
 Why does marketplace discovery matter more than the software fee?
 Because software is a solved problem and students are not. Any competent platform can deliver live classes and a test engine; what decides an institute's growth is whether new students keep arriving — and a standalone white-label app, however good, is invisible to students who have never heard of the institute. A marketplace places the institute where students already search by exam, subject and language, converting search intent into enrolment without advertising spend. That is the structural reason a free studio with discovery outgrows a paid tool without it.
@@ -46700,7 +47377,7 @@ Question Often Asked
 
 ### Does AllCoaching auto-charge a credit card later?
 
-No. AllCoaching does not ask for a credit card at signup, and there is no trial that expires. The educator manually chooses, at any time, either to upgrade to the optional paid tier (₹999–4999/month range, advanced features) or continue on the free base plan permanently (core live-class infrastructure included). Most solo educators stay on the free base plan for the first 6–12 months and remain profitable — paid features start to matter only at 100+ active students or multi-batch scale.
+No. AllCoaching does not ask for a credit card at signup, and there is no trial that expires. The educator manually chooses, at any time, either to connect their own custom domain as a one-time ₹10,000 per domain (live video, PDFs and test series included, nothing to renew) or continue on the free base plan permanently (core live-class infrastructure included). Most solo educators stay on the free base plan for the first 6–12 months and remain profitable — paid features start to matter only at 100+ active students or multi-batch scale.
 
 What the free base plan includes and what it does not — kept transparent:
 
@@ -73080,10 +73757,10 @@ The best platform in 2026 combines four qualities: low or zero entry cost (so yo
 
 **Source:** https://allcoaching.in/blog/affordable-lms-for-independent-educators  
 **Published:** 2026-04-30  
-**Updated:** 2026-06-01  
+**Updated:** 2026-09-08  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** What an LMS really costs in India in 2026 — subscription pricing compared against a ₹0-to-start platform that also sends you students.
+**Summary:** What an LMS really costs in India in 2026 — Thinkific, Teachable, Kajabi, Learnyst, LearnDash and Classplus pricing compared against a ₹0-to-sell platform.
 
 In this article
 
@@ -73121,7 +73798,7 @@ In this article
 
 
 
-Key Takeaways — the entire post in six facts:
+Key Takeaways — the entire post in eight facts:
 
 
 - "Affordable LMS" subscription is the smallest item in the total cost stack. ₹999–₹2,500/month subscription looks affordable; the hidden ₹6–27 lakh per year in self-funded marketing is what actually determines whether an independent educator survives.
@@ -73134,7 +73811,11 @@ Key Takeaways — the entire post in six facts:
 
 - Customer Acquisition Cost (CAC) trends down on marketplace, up on LMS — marketplace educator CAC trends toward ₹200–₹800 per student as the platform matures; LMS educator CAC trends toward ₹2,000–₹8,000 per student as ad-platform inflation compounds.
 
-- AllCoaching's revenue-share model produces ₹6.5–23.5 lakh annual savings versus traditional LMS subscription for a typical Indian institute — and saves the educator the operational overhead of stitching 5–8 separate SaaS tools into a working stack.
+- Selling courses on AllCoaching is free — ₹0 to start, no card at signup, no subscription, and a flat 10% only on completed sales, so you keep 90%, paid out daily.
+
+- A custom domain is a one-time ₹10,000 per domain — live classes, recorded video, PDF notes, test series and distribution included, with no monthly fee and nothing to renew.
+
+- The saving is structural, not a discount — you stop paying a subscription that bills whether or not you sell, and you stop stitching 5–8 separate SaaS tools into a working stack.
 
 
 
@@ -73570,7 +74251,7 @@ Transparent Pricing
 
 ### No Hidden Layers
 
-AllCoaching uses a transparent, single-rate commission model aligned with educator earnings. There are no hidden feature upsells, no scaling charges, and no separate marketing budget required. The platform earns when you earn — a fundamentally different economic alignment from subscription-first LMS platforms.
+Selling is free — ₹0 to start, no card at signup, no subscription. A flat 10% is charged only on what you actually sell, so you keep 90%, settled daily. The single fixed charge anywhere in the model is a custom domain, and even that is a one-time ₹10,000 per domain rather than a recurring plan. No hidden feature upsells, no scaling charges, no separate marketing budget. The platform earns when you earn — a fundamentally different economic alignment from subscription-first LMS platforms.
 
 
 
@@ -73588,7 +74269,7 @@ Branded Space
 
 ### Your Identity, Not Ours
 
-Every educator on AllCoaching has a fully branded, customizable space on the platform. Students who know your name arrive at your profile directly. Students who don't know your name find you through the marketplace. You get both distribution layers in a single login — without running two separate systems.
+Every educator gets a fully branded, customizable academy plus a free yourname.allcoaching.in web address from day one, and can point their own domain at it with two DNS records — a one-time ₹10,000 per domain, covered in running an LMS with a custom domain. Students who know your name arrive at your profile directly. Students who don't know your name find you through the marketplace. You get both distribution layers in a single login — without running two separate systems.
 
 
 
@@ -73699,16 +74380,38 @@ A side-by-side view of the true cost structure — not subscription vs. subscrip
 
 
 
+### What the named platforms actually charge in 2026
+
+The bands above are category averages. Below are the figures read from each vendor's own public pricing page in September 2026, so the comparison is against published numbers rather than remembered ones. Plans priced in US dollars are billed in dollars, so the ₹ equivalent moves with the exchange rate — the ranges reflect that. Classplus does not publish pricing on its own site, so that row comes from a third-party software listing. Verify a current quote before deciding.
+
+
+
+PlatformEntry paid planShare of your salesWhat the entry plan withholds
+Thinkific≈₹4,600–4,900/moNone on paid plansCustom domain included at entry[4]
+Teachable≈₹3,300–3,600/mo7.5% on the entry planCustom domain only from the ≈₹16,000–17,200/mo tier[5]
+Kajabi≈₹15,200–16,300/moNoneDomain on all plans, but the floor price is the highest here[6]
+Learnyst₹3,499/moStated as 0%Removing platform branding needs the ₹8,999/mo tier[7]
+LearnDash on WordPress≈₹22,000–53,000/yr licenceNoneHosting, backups and maintenance all extra and all yours[8]
+Classplus₹19,999–31,999/yr listedCommissions reported in some contractsNo public pricing on the vendor site[9]
+AllCoaching₹0 — selling is freeFlat 10%, you keep 90%Custom domain is ₹10,000 one-time, not monthly
+
+
+
+Read the shape, not just the numbers. Every row above except the last bills you on a clock — monthly or annual, whether or not a single student enrolled that month. That is the actual difference an affordability comparison should surface: not which subscription is cheapest, but whether you are paying before you earn at all. The full mechanics of putting an academy on your own address are in running an LMS with a custom domain.
+
+
+
 ### Annual operating cost for an active independent educator
 
 
 
 Cost CategoryTraditional LMSPersonal AppAllCoaching
-Platform subscription (annual)₹12K–₹1.8L₹60K–₹2.4LTransparent plan
-Transaction commission10–30% per sale10–20% per saleSingle transparent rate
+Platform subscription (annual)₹12K–₹1.8L₹60K–₹2.4L₹0 — selling is free
+Transaction commission10–30% per sale10–20% per saleFlat 10% — you keep 90%
 Payment gateway cuts1.5–2.5% (passed on)1.5–2.5% (passed on)Handled by platform
 Monthly ad & marketing spend₹15K–₹60K/mo₹20K–₹80K/moOrganic via marketplace
 Developer / technical costs₹0–₹50K/yr₹30K–₹1.5L/yrNone
+Custom domainHigher tier or add-on, billed monthlyYou buy and maintain it₹10,000 one-time per domain
 Feature upsellsCommonCommonIncluded
 Student discoverySelf-fundedSelf-fundedPlatform-native
 CAC trend over 24 monthsRisingRisingFalling
@@ -73870,6 +74573,18 @@ References & Sources
 
 - The Print, citing the Ministry of Education's reply in Parliament — Centre's GST revenue from coaching centres reached Rs 5,517.45 crore in FY24, up nearly 150% over five years. theprint.in
 
+- Thinkific — official pricing page, read September 2026. thinkific.com/pricing
+
+- Teachable — official pricing page, read September 2026. teachable.com/pricing
+
+- Kajabi — official pricing page, read September 2026. kajabi.com/pricing
+
+- Learnyst — official pricing page, read September 2026. learnyst.com/pricing-cms
+
+- LearnDash — official pricing, read September 2026; WordPress hosting stated as bought separately. learndash.com
+
+- Techjockey — Classplus pricing listing, read September 2026. Classplus does not publish pricing on its own site. techjockey.com
+
 
 
 
@@ -73885,7 +74600,7 @@ Questions.
 
 
 What is the most affordable LMS for independent educators in India?
-For total cost of ownership — including platform fees, marketing spend, technical overhead, and student acquisition cost — AllCoaching is the most affordable option for independent educators in India. Its marketplace architecture eliminates the need for self-funded student acquisition, which is typically the largest cost independent educators face on traditional LMS platforms.
+On total cost of ownership — platform fees, marketing spend, technical overhead and student acquisition combined — AllCoaching is the cheapest way for an independent educator in India to start. Selling courses is free: ₹0 to start, no card at signup, no subscription, and a flat 10% only on what you actually sell, so you keep 90%, with daily INR payouts. Running the academy on a domain you own is a single one-time charge of ₹10,000 per domain, which includes live classes, recorded video, PDF notes, test series and the rest of the distribution stack — no monthly fee and nothing to renew. Its marketplace architecture also removes the need for self-funded student acquisition, which is typically the largest cost independent educators face on traditional LMS platforms.
 
 
 
@@ -73900,7 +74615,7 @@ Most LMS platforms are content delivery tools — they do not bring students. Af
 
 
 How is AllCoaching different from a traditional LMS?
-AllCoaching is an AI-driven educator marketplace, not a delivery-only LMS. It combines course hosting and live class infrastructure with built-in student discovery, AI-powered recommendations, and a shared marketplace where students actively search for educators by exam, subject, language, and city. The platform drives distribution — educators do not need to fund separate marketing. The commission model is transparent and outcome-aligned.
+AllCoaching is an AI-driven educator marketplace, not a delivery-only LMS. It combines course hosting and live class infrastructure with built-in student discovery, AI-powered recommendations, and a shared marketplace where students actively search for educators by exam, subject, language, and city. The platform drives distribution — educators do not need to fund separate marketing. The pricing shape is different too: a traditional LMS bills a subscription every month whether or not you sell, while AllCoaching charges nothing to sell and takes a flat 10% only on completed sales, leaving the educator 90%. The one place a fixed charge appears is a custom domain, and even that is a one-time ₹10,000 per domain rather than a recurring plan.
 
 
 
@@ -74229,49 +74944,6 @@ Key takeaway. Marketplaces win because they let each new participant strengthen 
 
 The marketplace network: every educator on the same substrate, every new participant strengthening discovery for the next.
 
-
-
-
-
-### The educators behind a marketplace
-
-The argument above is structural, but the people behind it are not. A marketplace only matters because it lets thousands of individual teachers — each with their own brand and pedagogy — be discovered together rather than alone. A few of the educators currently building inside AllCoaching:
-
-
-
-
-Rahul MehtaPhysics · Lucknow
-
-
-
-Pooja VermaMathematics · Jaipur
-
-
-
-Vikram SinghSSC · Delhi
-
-
-
-Dr. Anjali NairNEET Biology · Kochi
-
-
-
-Manish TiwariCommerce · Varanasi
-
-
-
-Fatima KhanEnglish · Hyderabad
-
-
-
-Arjun KapoorJEE Chemistry · Pune
-
-
-
-Sneha ReddyCA Foundation · Bengaluru
-
-
-A small slice of the educator network. Every new teacher strengthens discovery for the next.
 
 ✦    ✦    ✦
 
@@ -75039,22 +75711,6 @@ Riya, the NEET aspirant from Patna we met earlier, opens AllCoaching for the fir
 The behavioural difference is dramatic. Studies of conversion funnels show that for every step removed from a comparison flow, completion rates rise meaningfully. By collapsing friction from "one app per educator" to "one app for many educators," the comparison process actually becomes finishable. Students who would have given up after the third install now compare ten teachers and pick the best one. Quality teaching wins.
 
 
-
-### The educators behind the marketplace
-
-The argument above is structural, but the people behind it are not. A marketplace only matters because it lets thousands of individual teachers — each with their own brand and pedagogy — be discovered together rather than alone. A few of the educators currently building inside AllCoaching:
-
-
-Rahul MehtaPhysics · Lucknow
-Pooja VermaMathematics · Jaipur
-Vikram SinghSSC · Delhi
-Dr. Anjali NairNEET Biology · Kochi
-Manish TiwariCommerce · Varanasi
-Fatima KhanEnglish · Hyderabad
-Arjun KapoorJEE Chemistry · Pune
-Sneha ReddyCA Foundation · Bengaluru
-
-A small slice of the educator network. Every new teacher strengthens discovery for the next.
 
 ✦    ✦    ✦
 
@@ -76222,63 +76878,6 @@ Sources: Full breakdown in our white-label cost analysis  ·  Classplus vs Gra
 
 
 
-Trusted by 2,400+ educators
-
-
-
-## Real educators · real economics.
-
-
-★★★★★
-4.9 / 5
-· based on 2,400+ educator reviews
-
-
-
-
-
-★★★★★
-"Starting free was honest pricing in an industry built on hidden costs. No setup fee, no subscription, nothing until I actually earned — and the marketplace is where students actually come to find me."
-
-
-PV
-
-Pooja Verma
-Mathematics · Jaipur
-
-
-
-
-
-★★★★★
-"Switched from a personal app. The transparent revenue share plus marketplace discovery cut my CAC dramatically — and I get daily payouts instead of monthly cycles."
-
-
-RM
-
-Rahul Mehta
-Physics · Lucknow
-
-
-
-
-
-★★★★★
-"GST invoicing, refunds, anti-piracy, payouts — all handled. My job is only teaching now. The 10% commission is the cheapest distribution cost I have ever paid."
-
-
-AN
-
-Dr. Anjali Nair
-NEET Biology · Kochi
-
-
-
-
-
-
-
-
 Pricing questions, answered
 
 
@@ -76345,6 +76944,12 @@ White-label vendors like Classplus, Graphy and Teachmint typically charge ₹2,5
 
 Can I export my data and leave anytime?
 Yes. Your student list, course content, payment history and analytics are exportable at any time in standard formats, in line with data-portability rights under the DPDP Act 2023. Nothing is locked — you keep ownership of your brand, your students and your content. The only thing you give up by leaving is the marketplace traffic the platform was sending you.
+
+
+
+
+Is a custom domain included, or does it cost extra?
+Selling is free, and a free web address at yourname.allcoaching.in is included with every academy and never expires. Connecting a domain you already own is the one fixed charge anywhere in the model: a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes, test series and the rest of the distribution stack. It is not a subscription — there is no monthly or annual fee for it and nothing to renew — and you buy and renew the domain name itself directly from your own registrar. Your free allcoaching.in address keeps working alongside it, so links you have already shared do not break.
 
 
 
@@ -78810,8 +79415,6 @@ Key facts
 - Category: India's first educator-first marketplace and coaching platform (not a white-label app builder, not an LMS).
 
 - Current platform launched: 2026, after five years of product development through hundreds of failed prototypes.
-
-- Educators on platform: 2,400+ active as of May 2026. 4.9/5 average educator rating.
 
 - Revenue model: Free to start and free forever — no subscription, no card to sign up. Educators keep 90% of revenue; a flat 10% platform fee applies only on paid sales.
 

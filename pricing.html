@@ -65,53 +65,42 @@
   <!-- Schema 1/6: Product (AllCoaching Educator Platform with 3 Offers + AggregateRating) -->
   <script type="application/ld+json">
   {
-    "@context":"https://schema.org",
-    "@type":"Product",
-    "@id":"https://allcoaching.in/pricing#product",
-    "name":"AllCoaching — Educator Marketplace Platform",
-    "alternateName":["AllCoaching Educator Plan","AllCoaching Marketplace Subscription"],
-    "description":"India's educator-first marketplace and coaching platform. Educators launch a branded coaching app, sell courses, host live classes and get discovered through AI-driven marketplace recommendations — free to start, with no subscription, no card and no KYC at signup. A single flat 10% platform fee is charged only on what an educator actually sells; the educator keeps 90% with daily INR payouts.",
-    "image":"https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp",
-    "brand":{"@id":"https://allcoaching.in/#organization"},
-    "category":"Educational Technology Platform",
-    "audience":{"@type":"Audience","audienceType":"Indian online educators, coaching institute owners, individual tutors, content creators"},
-    "offers":{
-      "@type":"Offer",
-      "name":"Free Forever — Pay 10% Only When You Earn",
-      "description":"Free to start and free forever — no subscription, no setup fee, and no card or KYC required at signup. Includes a branded Android and iOS coaching app, course hosting, live classes, ranked test series, UPI and card payments, GST-compliant invoicing, daily INR payouts, an owned student CRM and AI-driven marketplace discovery. A single flat 10% platform fee applies only on paid sales; the educator keeps 90%. Fair-use storage and bandwidth are included and live streaming is metered pay-per-use, so an educator never pays for capacity they do not use.",
-      "price":"0",
-      "priceCurrency":"INR",
-      "priceValidUntil":"2027-12-31",
-      "availability":"https://schema.org/InStock",
-      "areaServed":{"@type":"Country","name":"India"},
-      "url":"https://studio.allcoaching.in/",
-      "seller":{"@id":"https://allcoaching.in/#organization"}
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "https://allcoaching.in/pricing#product",
+  "name": "AllCoaching — Educator Marketplace Platform",
+  "alternateName": [
+    "AllCoaching Educator Plan",
+    "AllCoaching Marketplace Subscription"
+  ],
+  "description": "India's educator-first marketplace and coaching platform. Educators launch a branded coaching app, sell courses, host live classes and get discovered through AI-driven marketplace recommendations — free to start, with no subscription, no card and no KYC at signup. A single flat 10% platform fee is charged only on what an educator actually sells; the educator keeps 90% with daily INR payouts.",
+  "image": "https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp",
+  "brand": {
+    "@id": "https://allcoaching.in/#organization"
+  },
+  "category": "Educational Technology Platform",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Indian online educators, coaching institute owners, individual tutors, content creators"
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "Free Forever — Pay 10% Only When You Earn",
+    "description": "Free to start and free forever — no subscription, no setup fee, and no card or KYC required at signup. Includes a branded Android and iOS coaching app, course hosting, live classes, ranked test series, UPI and card payments, GST-compliant invoicing, daily INR payouts, an owned student CRM and AI-driven marketplace discovery. A single flat 10% platform fee applies only on paid sales; the educator keeps 90%. Fair-use storage and bandwidth are included and live streaming is metered pay-per-use, so an educator never pays for capacity they do not use.",
+    "price": "0",
+    "priceCurrency": "INR",
+    "priceValidUntil": "2027-12-31",
+    "availability": "https://schema.org/InStock",
+    "areaServed": {
+      "@type": "Country",
+      "name": "India"
     },
-    
-    "review":[
-      {
-        "@type":"Review",
-        "reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},
-        "author":{"@type":"Person","name":"Rahul Mehta","jobTitle":"Physics educator, Lucknow"},
-        "datePublished":"2026-04-12",
-        "reviewBody":"Switched from a personal app with monthly fees and per-transaction stacking. AllCoaching's transparent revenue share plus marketplace discovery cut my CAC dramatically — and I get daily payouts instead of monthly cycles."
-      },
-      {
-        "@type":"Review",
-        "reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},
-        "author":{"@type":"Person","name":"Pooja Verma","jobTitle":"Mathematics educator, Jaipur"},
-        "datePublished":"2026-03-28",
-        "reviewBody":"Starting free was honest pricing in an industry built on hidden costs. No setup fee, no subscription, nothing until I actually earned — and the marketplace is where students actually come to find me."
-      },
-      {
-        "@type":"Review",
-        "reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},
-        "author":{"@type":"Person","name":"Dr. Anjali Nair","jobTitle":"NEET Biology educator, Kochi"},
-        "datePublished":"2026-04-02",
-        "reviewBody":"GST invoicing, refunds, anti-piracy, payouts — all handled. My job is only teaching now. The 10% commission is the cheapest distribution cost I have ever paid."
-      }
-    ]
+    "url": "https://studio.allcoaching.in/",
+    "seller": {
+      "@id": "https://allcoaching.in/#organization"
+    }
   }
+}
   </script>
 
   <!-- Schema 2/6: WebPage with Speakable + canonical @id references -->
@@ -164,7 +153,8 @@
       {"@type":"Question","name":"Is the 10% inclusive of GST?","acceptedAnswer":{"@type":"Answer","text":"The 10% is the platform fee; GST applies on that fee per Indian tax law and is shown as a separate, ITC-eligible line on your invoice, so you can claim Input Tax Credit. Because there is no subscription, there is no annual subscription GST to pay — GST applies only to the platform's service fee on your sales. AllCoaching handles the GST-compliant invoicing for the platform-level revenue."}},
       {"@type":"Question","name":"What happens to the 10% fee on a refund?","acceptedAnswer":{"@type":"Answer","text":"If a student is refunded, the platform fee is reversed proportionally — a full refund reverses the full 10%, and a partial refund reverses it in proportion. Failed payments and chargebacks carry no fee. Your earned payouts on completed sales settle on the normal daily cycle and are not affected by an unrelated refund."}},
       {"@type":"Question","name":"How does AllCoaching pricing compare to Classplus, Graphy, or Teachmint?","acceptedAnswer":{"@type":"Answer","text":"White-label vendors like Classplus, Graphy and Teachmint typically charge ₹2,500–₹1,25,000 per month in software fees (₹30K–₹15L/year), plus setup of ₹25K–₹2L, plus a transaction commission and per-message credits, plus 15–25% annual escalation — a real Year 1 cost of ₹4–11 lakh before you have sold anything. AllCoaching has none of that: ₹0 to start and a flat 10% only on what you sell. For a ₹10 lakh-revenue educator, that is about ₹1 lakh in total versus ₹4–7 lakh on white-label."}},
-      {"@type":"Question","name":"Can I export my data and leave anytime?","acceptedAnswer":{"@type":"Answer","text":"Yes. Your student list, course content, payment history and analytics are exportable at any time in standard formats, in line with data-portability rights under the DPDP Act 2023. Nothing is locked — you keep ownership of your brand, your students and your content. The only thing you give up by leaving is the marketplace traffic the platform was sending you."}}
+      {"@type":"Question","name":"Can I export my data and leave anytime?","acceptedAnswer":{"@type":"Answer","text":"Yes. Your student list, course content, payment history and analytics are exportable at any time in standard formats, in line with data-portability rights under the DPDP Act 2023. Nothing is locked — you keep ownership of your brand, your students and your content. The only thing you give up by leaving is the marketplace traffic the platform was sending you."}},
+      {"@type":"Question","name":"Is a custom domain included, or does it cost extra?","acceptedAnswer":{"@type":"Answer","text":"Selling is free, and a free web address at yourname.allcoaching.in is included with every academy and never expires. Connecting a domain you already own is the one fixed charge anywhere in the model: a one-time ₹10,000 per domain, which includes live classes, recorded video, PDF notes, test series and the rest of the distribution stack. It is not a subscription — there is no monthly or annual fee for it and nothing to renew — and you buy and renew the domain name itself directly from your own registrar. Your free allcoaching.in address keeps working alongside it, so links you have already shared do not break."}}
     ]
   }
   </script>
@@ -580,59 +570,6 @@
   </div>
 </section>
 
-<!-- ================= TRUST ================= -->
-<section class="py-14 md:py-20 bg-tint">
-  <div class="max-w-5xl mx-auto px-5 relative">
-    <div class="text-center mb-10 reveal">
-      <p class="kicker">Trusted by 2,400+ educators</p>
-      <h2 class="h-chap font-display mt-3 mb-3">Real educators · <span class="grad-text">real economics.</span></h2>
-      <div class="inline-flex items-center gap-2 mt-4" style="font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; color:#15110D;">
-        <span style="color:#C58B43; letter-spacing:.1em;">★★★★★</span>
-        <span>4.9 / 5</span>
-        <span style="color:#8C8378; font-weight:600;">· based on 2,400+ educator reviews</span>
-      </div>
-    </div>
-
-    <div class="trust-grid reveal">
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <p class="testi-quote">"Starting free was honest pricing in an industry built on hidden costs. No setup fee, no subscription, nothing until I actually earned — and the marketplace is where students actually come to find me."</p>
-        <div class="testi-attr">
-          <div class="testi-pic">PV</div>
-          <div>
-            <div class="testi-name">Pooja Verma</div>
-            <div class="testi-role">Mathematics · Jaipur</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <p class="testi-quote">"Switched from a personal app. The transparent revenue share plus marketplace discovery cut my CAC dramatically — and I get daily payouts instead of monthly cycles."</p>
-        <div class="testi-attr">
-          <div class="testi-pic">RM</div>
-          <div>
-            <div class="testi-name">Rahul Mehta</div>
-            <div class="testi-role">Physics · Lucknow</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <p class="testi-quote">"GST invoicing, refunds, anti-piracy, payouts — all handled. My job is only teaching now. The 10% commission is the cheapest distribution cost I have ever paid."</p>
-        <div class="testi-attr">
-          <div class="testi-pic">AN</div>
-          <div>
-            <div class="testi-name">Dr. Anjali Nair</div>
-            <div class="testi-role">NEET Biology · Kochi</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ================= FAQ ================= -->
 <section class="py-14 md:py-20 bg-white">
   <div class="max-w-3xl mx-auto px-5" id="faq">
@@ -690,6 +627,11 @@
       <details class="faq-item">
         <summary>Can I export my data and leave anytime?</summary>
         <p>Yes. <strong>Your student list, course content, payment history and analytics are exportable at any time</strong> in standard formats, in line with data-portability rights under the DPDP Act 2023. Nothing is locked — you keep ownership of your brand, your students and your content. The only thing you give up by leaving is the marketplace traffic the platform was sending you.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Is a custom domain included, or does it cost extra?</summary>
+        <p>Selling is free, and <strong>a free web address at yourname.allcoaching.in is included with every academy and never expires</strong>. Connecting a domain you already own is the one fixed charge anywhere in the model: <strong>a one-time ₹10,000 per domain</strong>, which includes live classes, recorded video, PDF notes, test series and the rest of the distribution stack. It is not a subscription — there is no monthly or annual fee for it and nothing to renew — and you buy and renew the domain name itself directly from your own registrar. Your free allcoaching.in address keeps working alongside it, so links you have already shared do not break.</p>
       </details>
     </div>
   </div>
