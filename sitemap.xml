@@ -16,9 +16,25 @@
   </url>
   <url>
     <loc>https://allcoaching.in/demo/</loc>
-    <lastmod>2026-09-15T12:00:00+05:30</lastmod>
+    <lastmod>2026-09-15T18:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://allcoaching.in/demo/" />
+    <image:image>
+      <image:loc>https://allcoaching.in/demo/assets/shots/studio-desktop.webp</image:loc>
+      <image:title>AllCoaching educator studio — live demo</image:title>
+      <image:caption>The dashboard an Indian coaching educator runs their academy from, shown in the free no-sign-up demo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://allcoaching.in/demo/assets/shots/website-desktop.webp</image:loc>
+      <image:title>Academy website — live demo</image:title>
+      <image:caption>An educator's own academy website with course pages and enquiry form, shown in the free demo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://allcoaching.in/demo/assets/shots/app-mobile.webp</image:loc>
+      <image:title>Student app — live demo</image:title>
+      <image:caption>The branded student app with live classes, tests and notes, shown in the free demo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://allcoaching.in/about</loc>

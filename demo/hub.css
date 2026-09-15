@@ -75,20 +75,20 @@ figure{margin:0}
 .icon-btn svg{width:20px;height:20px}
 
 /* topbar (matches allcoaching.in) */
-.topbar{position:sticky;top:0;z-index:80;display:flex;align-items:center;gap:16px;padding:13px var(--gutter);background:rgba(250,248,244,.86);-webkit-backdrop-filter:saturate(180%) blur(16px);backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid var(--line);transition:box-shadow .3s var(--ease)}
+.topbar{position:sticky;top:0;z-index:80;display:flex;align-items:center;flex-wrap:nowrap;gap:16px;padding:13px var(--gutter);padding-left:max(var(--gutter),env(safe-area-inset-left));padding-right:max(var(--gutter),env(safe-area-inset-right));background:rgba(250,248,244,.86);-webkit-backdrop-filter:saturate(180%) blur(16px);backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid var(--line);transition:box-shadow .3s var(--ease)}
 .topbar.scrolled{box-shadow:0 10px 30px -16px rgba(38,28,14,.16)}
-.lockup{display:flex;align-items:center;gap:11px;text-decoration:none;min-width:0}
-.lockup img{width:34px;height:34px;border-radius:50%;box-shadow:0 4px 12px rgba(197,139,67,.28)}
-.word{font-family:var(--display);font-style:italic;font-weight:400;font-size:23px;letter-spacing:-.3px;line-height:1;color:var(--ink-1);white-space:nowrap}
+.lockup{display:flex;align-items:center;gap:11px;text-decoration:none;min-width:0;overflow:hidden}
+.lockup img{flex:none;width:34px;height:34px;border-radius:50%;box-shadow:0 4px 12px rgba(197,139,67,.28)}
+.word{font-family:var(--display);font-style:italic;font-weight:400;font-size:23px;letter-spacing:-.3px;line-height:1;color:var(--ink-1);white-space:nowrap;min-width:0;overflow:hidden}
 .dem-tag,.dem-tag-foot{font-family:var(--mono);font-weight:700;text-transform:uppercase;background:linear-gradient(90deg,#9C6A2E,#E0A95C,#C58B43,#E0A95C,#9C6A2E);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:demShine 5s linear infinite}
 .dem-tag{display:inline-flex;align-items:center;margin-left:8px;padding-left:14px;border-left:1px solid var(--line-2);font-size:9.5px;letter-spacing:.2em;white-space:nowrap}
 .dem-tag-foot{display:inline-block;font-size:11px;letter-spacing:.26em;margin-top:12px}
 @keyframes demShine{to{background-position:-200% center}}
-.nav{display:flex;gap:26px;margin-left:auto;align-items:center}
+.nav{display:flex;gap:26px;margin-left:auto;align-items:center;min-width:0}
 .nav a{font-size:14.5px;font-weight:600;color:var(--ink-1);padding:6px 0;position:relative;text-decoration:none}
 .nav a::after{content:'';position:absolute;left:0;bottom:0;width:0;height:2px;background:var(--accent);transition:width .25s var(--ease)}
 .nav a:hover::after{width:100%}
-.actions{display:flex;align-items:center;gap:14px;margin-left:auto}
+.actions{display:flex;align-items:center;gap:14px;margin-left:auto;flex:none}
 .nav+.actions{margin-left:10px}
 .login{font-size:14.5px;font-weight:600;color:var(--ink-1);text-decoration:none}
 .login:hover{color:var(--accent-deep)}
@@ -98,7 +98,7 @@ figure{margin:0}
 .topbar .lockup{flex:0 1 auto}
 .topbar .actions{flex:none}
 .mobnav{position:fixed;inset:0;z-index:150;background:rgba(21,17,13,.45);animation:fade .2s var(--ease)}
-.mobnav-panel{position:absolute;top:0;right:0;width:min(84vw,340px);height:100%;background:var(--bg);padding:20px;display:flex;flex-direction:column;gap:2px;box-shadow:var(--sh-3);animation:slideIn .28s var(--ease);overflow-y:auto}
+.mobnav-panel{position:absolute;top:0;right:0;width:min(84vw,340px);height:100%;background:var(--bg);padding:20px;padding-top:max(20px,env(safe-area-inset-top));padding-right:max(20px,env(safe-area-inset-right));padding-bottom:max(20px,env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:2px;box-shadow:var(--sh-3);animation:slideIn .28s var(--ease);overflow-y:auto}
 .mobnav-panel a:not(.btn){padding:14px 6px;font-size:16px;font-weight:600;border-bottom:1px solid var(--line);color:var(--ink-1);text-decoration:none}
 .mobnav-panel .btn{margin-top:18px}
 .mobnav-close{align-self:flex-end;margin-bottom:8px}
@@ -195,7 +195,7 @@ figure{margin:0}
 .mono-line{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin:22px 0 0}
 
 /* footer */
-.footer{background:#EEE7DA;border-top:1px solid #E5DDD0;padding:64px 0 32px}
+.footer{background:#EEE7DA;border-top:1px solid #E5DDD0;padding:64px 0 32px;padding-bottom:max(32px,env(safe-area-inset-bottom))}
 .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
 .foot-brand .word{font-size:24px}
 .foot-brand p{font-size:13.5px;color:var(--ink-2);line-height:1.65;max-width:320px;margin:16px 0 0}
@@ -208,6 +208,8 @@ figure{margin:0}
 .foot-col a{display:block;font-size:14px;color:var(--ink-2);padding:5px 0;text-decoration:none}
 .foot-col a:hover{color:var(--ink-1)}
 .foot-bottom{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:48px;padding-top:24px;border-top:1px solid #E5DDD0;font-size:12.5px;color:var(--ink-3)}
+/* the WhatsApp FAB is fixed bottom-right; below ~1280px it sits over the wrap */
+@media (max-width:1280px){.foot-bottom{padding-right:76px}}
 
 /* whatsapp */
 .wafab{position:fixed;right:max(20px,env(safe-area-inset-right));bottom:max(20px,env(safe-area-inset-bottom));z-index:90;width:60px;height:60px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;box-shadow:0 12px 28px -8px rgba(37,211,102,.6),0 4px 10px rgba(0,0,0,.12);transition:transform .2s var(--ease)}
@@ -247,15 +249,18 @@ figure{margin:0}
   .foot-grid{grid-template-columns:1fr 1fr 1fr}.foot-brand{grid-column:1/-1}
   .aw{grid-template-columns:1fr auto}
 }
-@media (max-width:860px){
-  .nav,.topbar .login{display:none}
+@media (max-width:960px){
+  .nav{display:none}
+  .topbar .login{display:none}
+  /* pages without a burger (app-view) keep their only way back */
+  .topbar .login.keep{display:inline-flex}
   .burger{display:inline-flex}
   .actions{gap:8px}
 }
 @media (max-width:760px){
   .only-wide{display:none!important}
   .only-narrow{display:block!important}
-  .topbar{padding:10px 16px;gap:10px}
+  .topbar{padding-block:10px;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right));gap:10px}
   .topbar .btn-accent{min-height:40px;padding:9px 16px;font-size:14px;border-radius:11px}
   .word{font-size:21px}
   .lockup img{width:30px;height:30px}
@@ -273,13 +278,23 @@ figure{margin:0}
   .cost-grid{grid-template-columns:1fr}
   .cost-grid div,.cost-grid div+div{padding:20px 0 4px;border-left:0}
   .cost-grid div+div{border-top:1px solid var(--line-2)}
-  .foot-grid{grid-template-columns:1fr 1fr;gap:28px 20px}
+  .foot-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 16px}
+  .footer{padding-top:48px;padding-bottom:calc(92px + env(safe-area-inset-bottom))}
+  .foot-bottom{margin-top:32px;flex-direction:column;align-items:flex-start;gap:6px;padding-right:0}
   .wafab{width:54px;height:54px;right:16px;bottom:16px}
   .wafab svg{width:27px;height:27px}
   .wabubble{right:80px;bottom:28px;font-size:17px}
 }
-@media (max-width:380px){
-  .word{font-size:19px}
+@media (max-width:430px){
+  .topbar{gap:8px}
+  .word{font-size:20px}
+  .topbar .btn-accent{padding:9px 14px;font-size:13.5px}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:26px 18px}
+}
+@media (max-width:360px){
+  /* below this the wordmark cannot fit beside the CTA and the burger —
+     drop to the logo mark rather than clipping the text mid-letter */
+  .topbar .word{display:none}
   .topbar .btn-accent{padding:9px 12px}
   .h-mast{font-size:2.4rem}
   .foot-grid{grid-template-columns:1fr}
