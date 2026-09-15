@@ -6,7 +6,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 # Every directory that publishes pages. `vs` and `institute` were missing until
 # 2026-08-07, which made real pages such as /vs/classplus report as broken links.
 PAGE_DIRS = ['blog', 'blogs', 'blogs/en', 'blogs/hi', 'blogs/hinglish',
-             'author', 'vs', 'institute']
+             'author', 'vs', 'institute', 'demo']
 
 
 def pages():

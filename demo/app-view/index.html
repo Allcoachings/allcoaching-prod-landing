@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<title>Student app demo — AllCoaching</title>
+<meta name="description" content="Try the student app your academy gets on AllCoaching — live classes, tests, notes and doubts, with your name and logo."/>
+<meta name="robots" content="noindex"/>
+<meta name="theme-color" content="#F5F0E8"/>
+<script>
+  if ((window.matchMedia('(max-width: 760px)').matches||screen.width<=760)) location.replace('../app/' + location.hash);
+</script>
+<link rel="icon" type="image/webp" href="../assets/favicon.webp"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap"/>
+<link rel="stylesheet" href="../hub.css?v=4"/>
+</head>
+<body>
+<header class="topbar" id="topbar">
+  <a href="../" class="lockup" aria-label="All AllCoaching demos">
+    <img src="../assets/allcoaching-logo.webp" alt="" width="32" height="32"/>
+    <span class="word">AllCoaching</span>
+    <span class="dem-tag">Democratizing&nbsp;Education</span>
+  </a>
+  <div class="actions">
+    <a href="../" class="login">All demos</a>
+    <a href="https://studio.allcoaching.in/" class="btn btn-accent">Join now</a>
+  </div>
+</header>
+
+<main class="aw wrap">
+  <div class="aw-copy">
+    <p class="eyebrow">Student app · live demo</p>
+    <h1 class="h-mast aw-title">What your students <em>install.</em></h1>
+    <p class="lede">Your academy's name and logo on their home screen. Tap around the phone — every button works, with sample data.</p>
+    <ul class="ticks aw-ticks">
+      <li>Live classes with chat, recordings after</li>
+      <li>Test series with instant results</li>
+      <li>Notes, PDFs and a doubts community</li>
+      <li>Installs straight from the browser</li>
+    </ul>
+    <p class="aw-tip hand">best on a phone — open allcoaching.in/demo/app</p>
+    <div class="hero-cta">
+      <a href="https://studio.allcoaching.in/" class="btn btn-accent btn-lg">Join now</a>
+      <a href="../studio/" class="btn btn-secondary btn-lg">Studio demo</a>
+      <a href="../website/" class="btn btn-secondary btn-lg">Website demo</a>
+    </div>
+  </div>
+  <div class="aw-device" id="aw-device">
+    <div class="aw-phone">
+      <iframe id="aw-frame" title="Student app demo" allow="clipboard-write; fullscreen"></iframe>
+    </div>
+  </div>
+</main>
+
+<a href="https://wa.me/919889977262?text=Hi%20AllCoaching%2C%20I%20just%20tried%20the%20student%20app%20demo%20and%20want%20an%20app%20like%20this%20for%20my%20academy." class="wafab" target="_blank" rel="noopener" aria-label="Chat with AllCoaching on WhatsApp">
+  <svg viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57a1.1 1.1 0 0 0-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4c-1.76 0-3.49-.47-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.38a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.83 9.83 0 0 1 9.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41Z"/></svg>
+</a>
+
+<script>
+  (function () {
+    var frame = document.getElementById('aw-frame');
+    frame.src = '../app/' + location.hash;
+    var device = document.getElementById('aw-device');
+    var fit = function () {
+      var s = Math.min(1, (window.innerHeight - 110) / 868);
+      device.style.setProperty('--s', Math.max(0.55, s).toFixed(3));
+    };
+    fit();
+    window.addEventListener('resize', fit);
+    var mq = window.matchMedia('(max-width: 760px)');
+    var onMq = function () { if (mq.matches || screen.width <= 760) location.replace('../app/' + location.hash); };
+    mq.addEventListener ? mq.addEventListener('change', onMq) : mq.addListener(onMq);
+  })();
+</script>
+<script src="../guide.js?v=5" data-product="hub" defer></script>
+</body>
+</html>

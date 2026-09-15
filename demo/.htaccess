@@ -1,0 +1,5 @@
+# Live demo — the Studio demo previews the educator's own camera, mic and screen,
+# so this folder relaxes the site-wide Permissions-Policy for same-origin use only.
+<IfModule mod_headers.c>
+  Header always set Permissions-Policy "geolocation=(), microphone=(self), camera=(self), display-capture=(self), payment=(), usb=(), interest-cohort=()"
+</IfModule>

@@ -34,6 +34,7 @@ from _lib.translations import collect_groups
 # Static surface pages — manually curated. Each entry: (path, changefreq, priority).
 STATIC_PAGES = [
     ("/",          "weekly",  "1.0"),
+    ("/demo/",     "weekly",  "0.9"),
     ("/about",     "monthly", "0.8"),
     ("/pricing",   "monthly", "0.9"),
     ("/contact",   "monthly", "0.7"),
