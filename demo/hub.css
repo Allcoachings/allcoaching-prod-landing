@@ -239,7 +239,7 @@ figure{margin:0}
 @media (max-width:1180px){.dem-tag{display:none}.nav{gap:20px}}
 @media (max-width:1020px){
   .hero{grid-template-columns:1fr}
-  .hero-visual{max-width:640px;margin-inline:auto;width:100%}
+  .hero-visual{order:-1;max-width:640px;margin-inline:auto;width:100%}
   .products{grid-template-columns:1fr;max-width:620px;margin-inline:auto}
   .pc-art{height:300px}
   .pc-art .dev-phone{width:190px;margin-left:-95px}

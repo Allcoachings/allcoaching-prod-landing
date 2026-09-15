@@ -188,3 +188,27 @@ html.dark .topbar { background: rgba(15,12,8,.86); }
 @media (max-width: 720px) {
   .cd-actions { flex-wrap: wrap; row-gap: 8px; }
 }
+
+/* ─── Sticky studio chrome ───────────────────────────────────────────────── */
+/* overflow-x:hidden on html/body turns body into a scroll container, which breaks
+   position:sticky on the rail and topbar; clip keeps the guard without that side effect. */
+@supports (overflow: clip) {
+  html, body { overflow-x: clip; }
+}
+.rail {
+  height: 100vh;
+  height: 100dvh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.14) transparent;
+}
+.rail::-webkit-scrollbar { width: 6px; }
+.rail::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.14); border-radius: 6px; }
+.rail-foot {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  margin-top: auto;
+  background: linear-gradient(180deg, rgba(16, 12, 9, 0) 0, #100C09 22px);
+}

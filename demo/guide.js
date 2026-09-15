@@ -464,7 +464,8 @@
     '.acd-state{font-size:12px;font-weight:700;color:#2F8F4E}' +
     '.acd-state.acd-off{color:#8C8378}' +
     '@media (max-width:900px){html.acd-tabbar .acd-bar{bottom:calc(68px + env(safe-area-inset-bottom))}html.acd-tabbar .acd-sheet{bottom:calc(120px + env(safe-area-inset-bottom))}}' +
-    '@media print{.acd{display:none}}';
+    '@media print{.acd{display:none}}' +
+    'body:has(.mobile-nav-open) .acd-bar,body:has(.mobile-nav-open) .acd-sheet{display:none!important}';
   document.head.appendChild(barCss);
 
   var bar = document.createElement('div');
