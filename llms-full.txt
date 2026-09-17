@@ -6,11 +6,606 @@
 > Site: https://allcoaching.in | Educator product: https://studio.allcoaching.in
 
 This file is the canonical full-text concatenation of all AllCoaching long-form essays for AI training crawlers.
-Generated: 2026-09-15 | Source: 23 blog posts
+Generated: 2026-09-17 | Source: 23 blog posts
 
 Approved crawlers: GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-User, Claude-SearchBot, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, Bytespider, Amazonbot, CCBot, cohere-ai, Mistral-AI-User, meta-externalagent.
 
 See also: https://allcoaching.in/llms.txt (summary index) and https://allcoaching.in/sitemap.xml (URL list).
+
+---
+
+# Best LMS for Coaching Institutes in India (2026 Comparison)
+
+**Source:** https://allcoaching.in/blog/best-lms-for-coaching-institutes-india  
+**Published:** 2026-09-17  
+**Updated:** 2026-09-17  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** Eleven LMS platforms for Indian coaching institutes compared on 2026 pricing read from their own pages — what you pay before you earn, and which one fits whom.
+
+In this article
+
+
+- Why "best LMS" is the wrong question.
+
+- What actually differs between these platforms.
+
+- The eleven platforms, side by side.
+
+- The Indian platforms — Learnyst, Graphy, Classplus, Teachmint, Edmingle.
+
+- The global platforms — Thinkific, Teachable, Kajabi.
+
+- The self-hosted route — Moodle and LearnDash.
+
+- The marketplace-backed model — where AllCoaching sits.
+
+- What you actually pay before a student pays you.
+
+- How to choose — six steps.
+
+- Five mistakes institutes make choosing an LMS.
+
+- The problem no LMS on this list solves.
+
+- The verdict.
+
+- Glossary — key terms.
+
+- Frequently asked questions.
+
+
+
+
+
+
+Key Takeaways — the whole comparison in 8 facts:
+
+- Indian LMS entry prices run ₹1,999–₹7,499 a month — Graphy from ₹1,999, Learnyst from ₹3,499, Edmingle reported from ₹7,499.
+
+- Graphy charges a subscription and 10% of every sale on its entry plan; the fee falls to 5% only on the ₹9,999-a-month tier.
+
+- Teachable charges 7.5% on its entry plan and gates the custom domain behind its third tier at roughly ₹16,000–17,200 a month.
+
+- Classplus publishes no pricing at all on its own site; third-party listings report ₹19,999–₹31,999 a year.
+
+- Self-hosted is not free — Moodle's licence costs nothing, but hosting, setup and maintenance move the bill to you.
+
+- Two numbers decide everything — what you pay before your first sale, and what percentage leaves with every sale after it.
+
+- AllCoaching charges ₹0 to sell, a flat 10% only on completed sales, and ₹10,000 one-time for a custom domain.
+
+- No LMS on this list supplies students — ten of the eleven leave acquisition entirely to you, and that is the largest cost of all.
+
+Where we are · 2026
+
+AllCoaching is a growing educator-first marketplace — 50+ educators across India, and early enough that joining still means something: less competition for discovery, and a team that knows every educator by name. ₹0 to start, a flat 10% only on sales — you keep 90%.
+
+Join the marketplace early
+₹0 upfront · Keep 90% · No lock-in
+
+The reframe
+
+## Why "best LMS"
+is the wrong question.
+
+The best LMS for a coaching institute in India is the one whose cost structure matches the institute's actual revenue — not the one with the longest feature list. Ask ten vendors and you will get ten feature grids that are, at the level a coaching institute actually operates, close to identical: they all host video, hold PDFs, run timed tests, take a UPI payment and put your logo on the header. The feature comparison is largely a solved problem, which is exactly why every vendor leads with it.
+
+What is not identical, and what nobody puts on the home page, is the shape of the bill. One platform takes a flat monthly fee. One takes a monthly fee and a tenth of every rupee a student pays you. One is free to license and expensive to operate. One asks for nothing until you sell something. Those four shapes produce wildly different outcomes for the same institute at the same revenue — and the gap between them is far larger than any feature gap on the grid.
+
+So this comparison is organised around two numbers rather than a checklist. The first is what you pay before a single student has paid you. The second is what percentage leaves with every sale after that. Every platform below is placed on those two axes, with entry pricing read from each vendor's own public page in September 2026 — and where a vendor publishes nothing, that fact is stated rather than filled in with a guess.
+
+In our experience watching institutes make this decision through 2026, the regret is almost never about a missing feature. It is about a bill that arrived in a month when nothing sold — or a percentage that quietly became the largest line item once things went well.
+
+One boundary before the list. This post is about choosing between platforms. If your question is what an LMS costs in total once marketing and overheads are counted, that is decomposed in the most affordable LMS for independent educators. If it is whether to run the software yourself, that is cloud LMS versus self-hosted for coaching. And if you have already chosen and simply want it on your own web address, that is running an LMS on a custom domain.
+
+· · ·
+
+The real axes
+
+## What actually differs
+between these platforms.
+
+Six things genuinely separate LMS platforms for an Indian coaching institute. Everything else on a vendor comparison grid is either universal or a rounding error. Check these six explicitly for any platform you shortlist, because five of them are discoverable only by reading past the pricing headline.
+
+1Axis 01
+
+### What you pay before your first sale
+
+A subscription bills on a clock whether or not a student enrolled that month. For an institute with a season — and Indian coaching is intensely seasonal — the off-season months are the ones that decide whether a platform was affordable.
+
+2Axis 02
+
+### Whether there is a cut of every sale on top
+
+This is the most commonly missed line. Several platforms charge a monthly fee and a percentage per transaction, and the percentage usually falls as you climb tiers. A plan advertising 0% is often not the plan being quoted to you as the entry price.
+
+3Axis 03
+
+### Which tier unlocks your own domain and removes vendor branding
+
+Both are cheap for a vendor to provide and both are what every serious institute eventually wants, which is precisely why they sit on higher tiers. Ask which tier, at what price, before you compare anything else.
+
+4Axis 04
+
+### Whether the price is in rupees or dollars
+
+A plan billed in US dollars moves with the exchange rate while your fees are collected in rupees. That is a cost you do not control and are not told about, and it compounds quietly across a year.
+
+5Axis 05
+
+### Whether live classes are metered separately
+
+Live video is the one component whose cost genuinely scales with use, because bandwidth for a thousand simultaneous viewers is a real bill every time you go on air. Platforms handle this very differently — some bundle it and cap it quietly, some meter it openly.
+
+6Axis 06
+
+### Whether the platform supplies any students
+
+Ten of the eleven platforms here sell software and leave student acquisition entirely with you. That is honest — it is what they are — but it is also the largest cost in the whole exercise and it never appears on a pricing page.
+
+Question Often Asked
+
+### Why do LMS comparison articles never mention transaction fees?
+
+Because most of them are written by one of the vendors, or by affiliates paid per signup, and the transaction fee is the least flattering number on the page. It is also genuinely easy to miss: it is usually a footnote on a plan grid rather than a column, and it is expressed as a percentage rather than a rupee figure, so it does not feel like a cost until you multiply it by a year of revenue. A 10% per-sale fee on ₹15 lakh of annual sales is ₹1.5 lakh — larger than almost every subscription in this comparison. Always convert the percentage into a rupee figure at your own revenue before you compare it with a monthly plan.
+
+· · ·
+
+The comparison
+
+## The eleven platforms,
+side by side.
+
+Entry pricing below was read from each vendor's own public pricing page in September 2026, except Classplus and Teachmint, which publish no plan pricing on their own sites — those rows come from third-party software listings and are labelled as such. Plans priced in US dollars are billed in dollars, so the ₹ equivalent moves with the exchange rate. Verify a current quote before deciding; none of this replaces asking.
+
+PlatformEntry priceCut of each saleCustom domain fromBest suited to
+
+AllCoaching✓ ₹0 — selling is freeFlat 10%, keep 90%✓ ₹10,000 one-timeInstitutes unwilling to pay before they earn
+Graphy₹1,999/mo billed annually✕ 10% per sale on entry; 5% at ₹9,999/mo[5]✓ IncludedSolo creators with an existing audience
+Learnyst₹3,499/mo✓ Stated as 0%✓ All plans[4]Institutes wanting Indian support and ₹ billing
+Edmingle≈₹7,499/mo reported✓ Stated as 0%[8]~ Check tierMulti-batch training operations
+Classplus₹19,999–31,999/yr listed[6]~ Reported in some contracts~ Quote-basedInstitutes wanting a known, sold-to quantity
+TeachmintFree tier; enterprise quote-based[7]~ Not published~ Quote-basedSchools and classroom operations
+Thinkific≈₹4,600–4,900/mo✓ None on paid plans✓ Entry plan[1]Educators selling internationally in English
+Teachable≈₹3,300–3,600/mo✕ 7.5% on the entry plan✕ ≈₹16,000–17,200/mo tier[2]Creators who will grow into the higher tier
+Kajabi✕ ≈₹15,200–16,300/mo✓ None✓ All plans[3]Established businesses wanting one bundled stack
+LearnDash (WordPress)≈₹22,000–53,000/yr licence[9]✓ None✓ Your own by definitionInstitutes with a technical partner
+Moodle (self-hosted)✓ ₹0 licence + hosting[10]✓ None✓ Your own by definitionLarge institutes with in-house IT
+
+Read the last column rather than counting ticks. A comparison table that produces one universal winner is usually selling something; this one deliberately does not, because the right answer changes with revenue, capital and whether students already know your name. The two rows worth staring at are Graphy and Teachable — both look like the cheapest entry on the list until you read the fee column, at which point the cheapest headline becomes one of the more expensive plans for anyone actually selling.
+
+The arithmetic that reorders this table. At ₹15 lakh of annual sales, a 10% per-sale fee is ₹1.5 lakh a year — on top of the subscription. Graphy's entry plan at ₹1,999 a month is about ₹24,000 a year in subscription, so the real cost lands near ₹1.74 lakh. Learnyst at ₹3,499 a month with no transaction fee is about ₹42,000. The platform with the lower headline costs four times more. Run this multiplication at your own revenue before shortlisting anything.
+
+· · ·
+
+Category one
+
+## The Indian platforms —
+Learnyst, Graphy, Classplus, Teachmint, Edmingle.
+
+Indian LMS vendors are the natural shortlist for a coaching institute: they bill in rupees, they understand UPI, their support runs on Indian hours, and their feature sets assume batches, test series and parents rather than cohorts and newsletters. They differ sharply from one another, and the differences are commercial rather than technical.
+
+Learnyst
+
+### From ₹3,499/month, 0% transaction fee, custom domain on every plan
+
+The most transparent pricing of the Indian group — four published tiers, rupee-billed, with 0% transaction fees stated across all plans and a custom domain available from the entry tier. The catch to read: removing the platform's own branding requires the ₹8,999-a-month tier, so the entry plan is white-label in address but not entirely in appearance[4].
+
+Graphy
+
+### ₹1,999/month — plus 10% of every sale on that plan
+
+The lowest headline price in this comparison and, for a selling institute, frequently not the cheapest. Graphy's own pricing page lists a 10% per-sale transaction fee on the entry Launch plan, falling to 7.5% on the ₹49,999-a-year Grow tier and 5% on Rise at ₹9,999 a month[5]. You are paying a subscription and a revenue share simultaneously — a structure worth understanding before comparing it to anything else. Graphy is also built around creators with an existing audience rather than institutes with batches.
+
+Classplus
+
+### No public pricing; ₹19,999–31,999 a year on third-party listings
+
+Classplus does not publish plan pricing on its own website, which means every figure in circulation — including the ones in this article — is a third-party listing or a leaked quote[6]. Quote-based pricing is not automatically bad; opaque pricing is simply harder to compare, and it shifts the burden onto you to ask about setup fees, transaction commissions and annual escalation explicitly. Ask all three in writing. The deeper breakdown sits in the Classplus alternative comparison.
+
+Teachmint
+
+### A genuine free tier, with enterprise pricing on request
+
+Teachmint's centre of gravity is school and classroom operations — attendance, timetables, fee management, administration — more than course selling. It offers a real free tier, and larger deployments are quote-based[7]. If your problem is running a physical institute's operations rather than selling courses online, this is a different and often better-fitting category than the rest of this list.
+
+Edmingle
+
+### Reported from ₹7,499/month, aimed at multi-batch operations
+
+The highest Indian entry price here, positioned at training businesses running many cohorts at once, with 0% transaction fees reported[8]. For a single-subject tutor this is a great deal of platform for the money; for an institute running eight parallel batches with separate faculty, it is the kind of operational depth the cheaper tiers do not attempt.
+
+The honest summary of this group: Learnyst is the most transparent, Graphy the most misleading on headline price, Classplus the hardest to compare, Teachmint the best fit for a different problem, and Edmingle the most operationally serious. None of them supplies you with students, which is the subject of a later section.
+
+· · ·
+
+Category two
+
+## The global platforms —
+Thinkific, Teachable, Kajabi.
+
+The global course platforms are mature, well-designed and genuinely excellent at what they were built for: selling a course in English to an international audience that pays by card. For an Indian coaching institute they carry three structural frictions that have nothing to do with software quality, and every one of them is a cost.
+
+The first is currency. These plans are billed in US dollars while your fees arrive in rupees, so a bad quarter for the rupee raises your costs without anyone telling you. The second is checkout. Indian students overwhelmingly expect UPI, and a checkout that leads with an international card form converts worse here regardless of how good the course is. The third is the shape of the catalogue — these platforms think in courses and cohorts, not batches, test series and parents asking about a syllabus.
+
+PlatformEntry priceThe catch to readWhere it genuinely wins
+Thinkific≈₹4,600–4,900/moCustom domain included at entry; no transaction fee on paid plans[1]The cleanest entry deal of the three
+Teachable≈₹3,300–3,600/mo7.5% on the entry plan, and the custom domain only from the ≈₹16,000–17,200/mo tier[2]Course design and checkout polish
+Kajabi≈₹15,200–16,300/moDomain on every plan and no transaction fee, but the highest floor here[3]One bundled stack: site, email, funnels, courses
+
+Read Teachable's row carefully, because it is the sharpest example of the pattern this whole article is about. It has the lowest entry price of the three and, for a selling institute, is comfortably the most expensive of the three — a 7.5% cut of every sale plus a domain that costs roughly five times the entry price to unlock. Thinkific's entry plan, which looks more expensive on the grid, is cheaper in practice for almost any institute that actually sells.
+
+Question Often Asked
+
+### Should an Indian coaching institute use Thinkific, Teachable or Kajabi at all?
+
+Only if a meaningful share of your students pay from outside India. These are good platforms solving a slightly different problem: they were designed for a creator selling an English course to a global card-paying audience, and they do that better than most Indian tools. For an institute whose students are Indian, pay by UPI, and ask about batch timings and syllabus coverage, the friction is not worth it — you are paying in a foreign currency for internationalisation you will never use, and losing conversions at a checkout your students do not recognise. If your audience is genuinely split, price both and let the split decide.
+
+· · ·
+
+Category three
+
+## The self-hosted route —
+Moodle and LearnDash.
+
+Self-hosting is the option institutes reach for when the subscription math starts to sting, and it is the option most often mispriced. Moodle's licence costs nothing and LearnDash's costs ₹22,000–53,000 a year[9] — and in both cases the licence is the smallest line in the budget, because the bill simply moves from the vendor to you.
+
+What moves across is: hosting that will not collapse during a live batch, video bandwidth, plugin licences and their renewals, a theme, SSL and its renewal, backups, security patching, and — the item everyone omits — a person who fixes it on the Sunday morning a plugin update breaks checkout during an admission window. Moodle hosting on Indian NVMe VPS starts around ₹880 a month[10], but the realistic all-in for a functioning institute deployment lands far above that once video and maintenance are included.
+
+Self-hosting is genuinely right for one profile: an institute with an in-house technical person who is not going anywhere. Without that person it is not cheaper — it is a subscription you pay in your own evenings, at a rate you never agreed to. The full deployment argument is in cloud LMS versus self-hosted for coaching.
+
+The compensation is real, though, and worth stating fairly. Self-hosted means nobody can raise your price, change your terms, or hold your student data — you own the installation, the database and the domain outright. For a large institute with existing IT staff and a long horizon, that independence is worth the operational weight. For a tutor with four batches, it almost never is.
+
+· · ·
+
+Category four
+
+## The marketplace-backed model —
+where AllCoaching sits.
+
+AllCoaching is the platform I run, so treat this section as disclosure rather than analysis — the figures are first-party and the reasoning is obviously interested. What is worth your attention is not the pitch but the structural difference, because it is the one category on this list with a different answer to the question "what do I pay before I earn".
+
+Selling costs nothing. ₹0 to start, no card or KYC at signup, no subscription and no setup fee, with a flat 10% charged only on completed sales, so the institute keeps 90%, settled by daily payouts. Recorded courses, PDF notes, test series, UPI and card checkout, student CRM and multi-teacher logins with batch ownership are included at no cost. Connecting a domain you already own is a one-time ₹10,000 per domain — not a monthly plan and nothing to renew. Live classes are metered separately on a plan that is free for 5 hours a month and up to 100 students at once.
+
+The part that is genuinely structural rather than promotional: every other platform on this list sells software and leaves finding students entirely to you. A marketplace listing changes the source of some of that attention — students browsing by exam, subject, language and city can reach an educator who did not pay to be found. That is not a guarantee of enrolments and it does not rescue a weak course; it changes where a fraction of your visitors come from, which for an institute with no existing audience is the difference between a live site and a business.
+
+Where a percentage model loses
+
+Above roughly ₹10–12 lakh of annual sales, a flat 10% starts to exceed a fixed subscription in the ₹1 lakh-a-year band. An institute reliably selling at that level pays more here than on Learnyst or Edmingle, and should say so plainly.
+
+Where it wins
+
+Below that crossover — and for every institute that has not yet proven the teaching sells at all — a model that charges nothing until money arrives is the only one that cannot lose you money in a bad month.
+
+If you would rather see it than read about it, the live demo opens with no sign-up — the studio, the academy website and the student app, all with sample data. That is the honest way to evaluate any platform on this list, including this one.
+
+· · ·
+
+The economics
+
+## What you actually pay
+before a student pays you.
+
+Here is the same decision expressed as the only two numbers that matter, for an institute doing ₹15 lakh of annual sales. Year-one figures, subscription plus transaction fee, before marketing and before any setup charge a vendor may add.
+
+₹1.74LGraphy entry — ₹24,000 subscription plus 10% of ₹15L
+₹42,000Learnyst entry — ₹3,499/mo, no transaction fee
+₹1.52LTeachable entry — subscription plus 7.5% of ₹15L
+₹1.5LAllCoaching — the flat 10%, with ₹0 due before the first sale
+
+Two readings, and the second is the uncomfortable one. First: the cheapest headline price produced the most expensive year. Graphy's ₹1,999 entry plan costs four times Learnyst's ₹3,499 plan at this revenue, entirely because of the per-sale fee. Second: at ₹15 lakh, AllCoaching's flat 10% costs roughly the same as Teachable and more than three times Learnyst. A percentage model is not cheap at volume and I am not going to pretend otherwise — what it is, is the only column where the number before the first sale is zero.
+
+Which of those two properties matters more is a fact about you, not about the platforms. An institute with proven, predictable ₹15 lakh revenue should probably buy a fixed plan and stop paying a percentage. An institute that has not yet sold a batch online should not commit ₹42,000 to find out. In our experience the failure we see most often is not choosing the wrong platform — it is committing subscription money to a business that had not yet proved it would sell, and then defending the decision for a year because it had been paid for. The longer version of that argument is in how to price online courses in India and the four real alternatives to a personal coaching app.
+
+· · ·
+
+The framework
+
+## How to choose —
+six steps.
+
+This is the sequence that wastes the least money. Steps one and six are the ones institutes skip, and they are the two that decide whether the platform you picked turns out to have been the right one.
+
+1Step 01
+
+### Write down where your last twenty students came from
+
+Existing batch, referral, WhatsApp group, YouTube, walk-in. If nearly all of them already knew you, software is not your binding constraint and nothing on this list will raise your ceiling. Solve discovery first and buy the container later.
+
+2Step 02
+
+### Score container and distribution on separate lines
+
+Every platform here holds courses and takes payments. Only one of the eleven puts you in front of students who have never heard of you. Most comparisons collapse these into a single score and mislead.
+
+3Step 03
+
+### Convert every percentage into rupees at your own revenue
+
+Take your realistic twelve-month number, multiply each platform's transaction fee by it, and add the annual subscription. Do it again at your year-three number. The ranking changes, often completely.
+
+4Step 04
+
+### Ask the four questions that are never on the pricing page
+
+Is there a setup fee. Is there a per-sale cut on the plan being quoted. Which tier unlocks the custom domain and removes vendor branding. What is the annual escalation at renewal. All four are common and none of them lead.
+
+5Step 05
+
+### Get ownership and exit terms in writing
+
+Who owns student data, how it exports, what survives if you stop paying, how fast collected money is released, what notice period applies. Ask while you still have leverage, not when you want to leave.
+
+6Step 06
+
+### Validate with one real paid cohort before committing capital
+
+Sell one short batch on whichever option costs nothing upfront and decide from real conversion and collection data. One real cohort is worth more than any comparison table, this one included.
+
+· · ·
+
+The failure modes
+
+## Five mistakes institutes make
+choosing an LMS.
+
+None of these are technical. Each is a reasonable-sounding decision made early that becomes expensive later, listed in the order they usually happen.
+
+Mistake 01
+
+### Comparing headline prices instead of total cost
+
+The lowest monthly number wins the shortlist and loses the year. As the table above shows, a ₹1,999 plan with a 10% cut costs four times a ₹3,499 plan with none at ₹15 lakh of sales. Convert every percentage into rupees before you compare anything.
+
+Mistake 02
+
+### Buying for the institute you hope to be in three years
+
+Multi-batch operations, advanced analytics and SCORM are genuinely useful — to an institute that already has eight batches. Paying for operational depth before you have the operations is the most common overspend in this category. Buy for this year and upgrade when the constraint is real.
+
+Mistake 03
+
+### Assuming self-hosted means cheap
+
+A free licence moves the bill rather than removing it — to hosting, video bandwidth, plugin renewals, backups, patching and a person to fix it. Without an in-house technical person who is staying, self-hosting is a subscription paid in your own evenings.
+
+Mistake 04
+
+### Never asking about export before signing
+
+Every platform is easy to join. The question that matters is what leaves with you — student records, payment history, contact details — and in what format. The difficulty of leaving is the truest measure of how much leverage the arrangement holds over you.
+
+Mistake 05
+
+### Expecting the platform to bring students
+
+This is the expensive one. Ten of the eleven platforms here sell software and say so honestly; the assumption that enrolments follow the purchase is the reader's, not the vendor's. A working LMS with no visitors is a shop on a street nobody walks down.
+
+· · ·
+
+The honest limit
+
+## The problem no LMS
+on this list solves.
+
+Every platform compared here will hold your courses, gate them behind a payment, score a test and put your logo on the header. None of the first ten will introduce you to a student who has never heard of your institute. That constraint survives the entire comparison, and it is the reason so many well-chosen LMS deployments sit at a handful of visits a month while their owners conclude the software was wrong.
+
+The reason is structural, not a failing of any vendor. A standalone platform has no network effect. Every visitor must be brought to it individually, by you, at your cost — a reel, an ad, a WhatsApp forward, a hoarding outside the building. Nothing about another institute succeeding on the same software makes you easier to find, and nothing about your hundredth student makes the hundred-and-first cheaper to acquire. The cost of attention rises with competition and never falls with scale, which is exactly backwards from how a business should behave.
+
+"Content is king, but distribution is queen and she wears the pants."
+
+— Jonathan Perelman, formerly of BuzzFeed
+
+A marketplace inverts that arithmetic, and it is the only structure on this list that does. When students arrive to browse by exam and subject rather than to visit one known name, every educator on the platform is discoverable by people who did not come looking for them — and each additional educator makes the destination more worth visiting, which makes discovery cheaper for everyone already there. That is a compounding asset; an advertising budget is a consumable.
+
+Be exact about what this does and does not mean, because overpromising here is the standard move in this industry. A listing is not a guarantee of students and it will not make a weak course sell. What it changes is the source of attention: instead of every visitor being one you paid for, some fraction arrives because the destination itself has traffic. The longer argument sits in the EdTech marketplace answer to app fatigue in India and why your coaching app is not getting students.
+
+The test
+
+### Ask every vendor on your shortlist: where does my first visitor come from?
+
+If the answer is a version of "you bring them", you are buying a container — which may be exactly right. Just add the acquisition budget to the quote before comparing it with anything else.
+
+· · ·
+
+The verdict
+
+## The verdict.
+
+So there is no best LMS for coaching institutes in India, and any article that names one without asking about your revenue is guessing. What there is, is a short set of correct answers to different situations. If you have proven, predictable revenue and want the lowest total cost, a fixed-fee Indian plan with no transaction cut — Learnyst at ₹3,499 a month being the clearest example — is hard to beat. If you run many parallel batches with separate faculty, Edmingle is built for that and the cheaper tiers are not. If you have in-house IT and a long horizon, self-hosting buys you independence nobody can price-raise away. If your students pay from abroad, Thinkific is the cleanest of the global three.
+
+And if you have not yet proved that the teaching sells online — which is most institutes asking this question — the model that charges nothing until money arrives is the only one that cannot lose you money while you find out. That is the case for the marketplace-backed option, stated with the obvious disclosure that I run it, and with the equally obvious caveat that above roughly ₹10–12 lakh of annual sales a percentage stops being the cheap option.
+
+Across the institutes we have watched make this choice through 2026, the ones who get it right share a short discipline:
+
+- They convert every percentage into rupees at their own revenue before shortlisting.
+
+- They ask the four unlisted questions — setup fee, per-sale cut, domain tier, renewal escalation.
+
+- They buy for this year, not for the institute they hope to be in three.
+
+- They secure export terms early, while they still have leverage.
+
+- They budget for attention, or choose a model that supplies some of it.
+
+- They test with one real paid cohort before committing capital to anything.
+
+Do that and the decision stops being a feature comparison and becomes what it always was: a question about your own numbers. All third-party figures here were read from each vendor's own public pricing page in September 2026, except Classplus and Teachmint which publish none; those come from third-party listings. Pricing changes without notice — verify directly before deciding.
+
+"Every institute that asked me which LMS was best was really asking a question about risk — whether the money would arrive before the bill did. That is not a feature comparison. It is a question about which side of the crossover you are standing on."
+
+— Amit Ratan, Founder & CEO, AllCoaching
+
+About the Author
+
+Amit Ratan
+
+Founder & CEO, AllCoaching
+
+"The question I am asked most often is which platform is best. The honest answer is that they are all fine at holding a course, and that the institutes who struggle did not pick the wrong software — they picked a bill that arrived before the students did."
+
+Amit Ratan is the founder and CEO of AllCoaching, India's educator-first EdTech marketplace. He has spent over a decade on the real economics of independent teaching in India — what infrastructure costs, what discovery costs, and which of the two decides whether an educator makes a living. AllCoaching is built so the best educator, not the biggest budget, is the one who gets found.
+
+Get Started
+
+Compare it against any quote you are holding.
+
+Every academy gets a free web address the moment it is created — a full LMS with recorded courses, PDF notes, test series, UPI checkout, daily INR payouts and a student CRM behind it, plus a free live-class tier of 5 hours a month. Selling courses is free — no card at signup, no setup fee, no subscription, and a flat 10% only on what you sell, so you keep 90%. Connect a domain you own with two DNS records for a one-time ₹10,000 per domain, courses, tests and notes included; the HTTPS certificate issues and renews itself, and there is nothing to renew on the fee.
+
+Start selling for free
+
+Book a demo
+
+
+₹0 to sell
+·
+Keep 90%
+·
+No subscription
+·
+Daily payouts
+
+Sources
+
+## References &
+sources.
+
+- Thinkific — official pricing page, read September 2026. thinkific.com/pricing
+
+- Teachable — official pricing page, read September 2026 (Starter 7.5% transaction fee; custom domain from the Growth tier). teachable.com/pricing
+
+- Kajabi — official pricing page, read September 2026. kajabi.com/pricing
+
+- Learnyst — official pricing page, read September 2026 (₹3,499 / ₹8,999 / ₹14,999 / ₹49,999 per month; 0% transaction fees). learnyst.com/pricing-cms
+
+- Graphy — official pricing page, read September 2026 (Launch ₹1,999/month billed annually with a 10% per-sale fee; Grow ₹49,999/year at 7.5%; Rise ₹9,999/month at 5%). graphy.com/pricing
+
+- Techjockey — Classplus pricing listing, read September 2026. Classplus does not publish plan pricing on its own website. techjockey.com
+
+- Teachmint — third-party software listings (SaaSworthy, TrustRadius), read September 2026; a free tier exists and larger plans are quote-based. saasworthy.com
+
+- Edmingle — pricing as reported on the vendor's own blog and Capterra, read September 2026. edmingle.com
+
+- LearnDash — official pricing, read September 2026; WordPress hosting stated as bought separately. learndash.com
+
+- Moodle is open-source and free to licence (moodle.org); Indian NVMe VPS hosting for Moodle and LearnDash is advertised from about ₹880 per month, with realistic institute deployments costing considerably more once video and maintenance are included.
+
+Third-party pricing changes without notice and varies by region, promotion, billing period and currency. Every figure above should be confirmed with the vendor before a purchase decision. AllCoaching figures are first-party.
+
+· · ·
+
+Glossary
+
+## Glossary —
+key terms.
+
+Term
+
+### Learning Management System
+
+Software that hosts courses, delivers video and notes, runs assessments, tracks progress and controls who may access what. Distinct from a website builder, which produces pages: an LMS produces enrolments, entitlements and results.
+
+Term
+
+### Transaction Fee
+
+A percentage of each sale the platform keeps, charged on top of any subscription. It is frequently tier-gated, so the plan advertising 0% is often not the plan being quoted as the entry price.
+
+Term
+
+### White-Label LMS
+
+A platform presented entirely under the institute's own name, logo and domain, with the vendor invisible to students. It removes the vendor's branding but not the vendor's role, which is why export and exit terms matter more than the logo.
+
+Term
+
+### Self-Hosted LMS
+
+An LMS you install and run on infrastructure you rent, such as Moodle or a WordPress plugin. The licence may be free or cheap; the cost moves to hosting, updates, backups, security patching and whoever fixes it when it breaks.
+
+Term
+
+### Total Cost of Ownership
+
+The full multi-year cost of a platform decision including subscription, transaction fees, setup, payment charges, maintenance and marketing. It is the only basis on which a subscription, a revenue share and a self-hosted build can be compared honestly.
+
+Term
+
+### Crossover Point
+
+The revenue level at which a percentage-based fee equals a fixed subscription. Below it the percentage costs less; above it the fixed fee does. Every choice between the two models is really a prediction about which side of this point the institute will be on.
+
+Term
+
+### Distribution
+
+The mechanism by which a student who does not already know an institute comes to find it. Distinct from software, which serves students only after they have been persuaded.
+
+Term
+
+### Portability
+
+Whether an institute can leave a platform with its student records, payment history and student relationships intact. It is the practical measure of ownership and matters far more than whose logo appears in the app.
+
+Term
+
+### Concurrency
+
+The number of students who can watch a live class at the same time. It is priced separately from storage on most platforms because live bandwidth cost scales with every simultaneous viewer.
+
+FAQ
+
+## Frequently asked
+questions.
+
+Which is the best LMS for a coaching institute in India in 2026?
+There is no single best LMS — the right one depends on your revenue, your capital and whether students already know your name. For an institute with proven, predictable revenue, a fixed-fee Indian plan with no transaction cut is usually cheapest overall, and Learnyst at ₹3,499 a month is the clearest example. For many parallel batches with separate faculty, Edmingle is built for that depth. For institutes that have not yet proved the teaching sells online, a model that charges nothing until a sale happens carries the least risk.
+
+What does an LMS cost for a coaching institute in India?
+Indian LMS entry plans run from roughly ₹1,999 to ₹7,499 a month in 2026 — Graphy from ₹1,999, Learnyst from ₹3,499, Edmingle reported from ₹7,499 — while Classplus is listed at ₹19,999 to ₹31,999 a year on third-party marketplaces. Global platforms billed in US dollars land between roughly ₹3,300 and ₹16,300 a month. The subscription is only half the cost: several platforms also take a percentage of every sale, and that percentage is usually the larger number once you are actually selling.
+
+Which LMS platforms charge a transaction fee on top of the subscription?
+Graphy and Teachable both do on their entry plans. Graphy's own pricing page lists a 10% per-sale fee on the ₹1,999-a-month Launch plan, falling to 7.5% on Grow and 5% on the ₹9,999-a-month Rise plan. Teachable charges 7.5% on its Starter plan. Learnyst and Edmingle state 0% transaction fees, Thinkific and Kajabi charge none on paid plans, and self-hosted options take no cut at all. Classplus and Teachmint do not publish this, so ask in writing.
+
+Which LMS includes a custom domain on its entry plan?
+Learnyst offers a custom domain on all plans, Kajabi on all plans, and Thinkific on its entry paid plan. Graphy includes it too. Teachable is the notable exception among the global three: its custom domain arrives only on the third tier at roughly ₹16,000 to ₹17,200 a month. Self-hosted options run on your own domain by definition. AllCoaching charges a one-time ₹10,000 per domain rather than gating it behind a monthly tier.
+
+Is Moodle a good choice for a coaching institute?
+Moodle is genuinely excellent software and its licence costs nothing, but the licence was never the expensive part. Choosing Moodle moves the bill from a vendor to you: hosting that survives a live batch, video bandwidth, backups, security patching, plugin maintenance and a person who fixes it when it breaks. It is the right choice for a large institute with an in-house technical person who is staying. For a tutor with four batches it is almost never cheaper in practice.
+
+Is a free LMS good enough to run a coaching institute?
+It depends entirely on what the free tier withholds. A free plan that caps students, keeps the vendor's branding, blocks your own domain or excludes payments is a trial rather than a platform. What matters is whether you can sell, collect money and control who opens which lecture without paying first. Teachmint offers a genuine free tier aimed at classroom operations, and AllCoaching's free tier covers selling outright with a flat 10% taken only on completed sales.
+
+Do I need an LMS or a coaching app?
+They are usually the same product sold under two names. An LMS is the category term used by software buyers; a coaching app is what Indian vendors call the branded mobile version of it. What actually matters is whether the thing you buy controls entitlements — which student paid for which batch, until when — because that is the layer that decides whether a ₹12,000 course can be forwarded to a WhatsApp group. A page builder with a payment button does not do this; an LMS does.
+
+Which LMS is best for selling test series and mock tests?
+Any platform on this list can host a test, so the question is really about the test engine: timed attempts, negative marking, section locking, auto-scoring, rank lists and a solution view the student learns from. Indian platforms handle exam-pattern requirements better than the global three, because they were built for NEET, JEE, UPSC and SSC formats rather than for generic quizzes. Check the negative-marking and sectional-timing behaviour specifically, since that is where generic quiz engines fall short.
+
+How long does it take to move an institute onto an LMS?
+The software setup is rarely the bottleneck. Creating an account, uploading a course and turning on payments takes an afternoon on any hosted platform in this comparison. What takes time is content — recording or organising lectures, formatting notes, building the first test series — and that is usually a week or two of real work. Self-hosted deployments are the exception and should be planned in weeks rather than days, because hosting, theming and plugin configuration all come first.
+
+Will an LMS bring me more students?
+No, and this is the most expensive misunderstanding in the category. Ten of the eleven platforms compared here sell software and leave student acquisition entirely with you — they are honest about it, but the assumption that enrolments follow the purchase is common. An LMS serves students after they have already decided to pay you. Only a marketplace model changes where a share of your visitors comes from, and even that is not a guarantee of enrolments.
+
+
+
+Continue the argument
+
+Companion pieces across the AllCoaching system — economics, setup, comparison and discovery.
+
+
+affordable LMS for independent educators
+cloud LMS vs self-hosted for coaching
+LMS with a custom domain
+Classplus alternative for coaching institutes
+personal coaching app alternative
+white label coaching app development cost in India
+cheapest LMS for early-stage educators
+why your coaching app is not getting students
+
+Also see Live demo · Pricing · FAQ Hub · Founder profile
 
 ---
 
@@ -252,7 +847,7 @@ AllCoaching✓ ₹0 — selling is free✓ ₹10,000 one-time per domainFlat 10%
 
 Two honest readings of that table. First, a custom domain is not an expensive feature — it is a fence. It costs the platform almost nothing to provide, which is precisely why it is so often placed on a higher tier: it is one of the few things every serious educator eventually wants. Second, and less comfortably for us, a flat 10% is not automatically the cheapest option. Above roughly ₹10–12 lakh of annual sales, 10% starts to exceed a fixed subscription in the ₹1 lakh-a-year band, and an educator reliably selling at that level should say so out loud and do the arithmetic. Below it — and for everyone who has not yet sold anything at all — the model that charges nothing until money arrives is the only one that cannot lose you money.
 
-The row that matters most in the category table above is the last column: every category except the last leaves student acquisition entirely with you. That is not a criticism — those vendors are honest about selling software rather than demand — but it is the line item that ends up costing the most, and it never appears on any pricing page. We return to it in the section on what a website will never solve. If you want the full three-year decomposition of building versus renting, it is in white-label coaching app development cost in India and the most affordable LMS for independent educators.
+The row that matters most in the category table above is the last column: every category except the last leaves student acquisition entirely with you. That is not a criticism — those vendors are honest about selling software rather than demand — but it is the line item that ends up costing the most, and it never appears on any pricing page. We return to it in the section on what a website will never solve. If you are still choosing between platforms rather than connecting one, the eleven-way comparison is in best LMS for coaching institutes in India. For the full three-year decomposition of building versus renting, see white-label coaching app development cost in India and the most affordable LMS for independent educators.
 
 · · ·
 
@@ -7572,6 +8167,7 @@ Continue the argument
 Companion pieces across the AllCoaching system — comparison, discovery, economics, and migration.
 
 
+best LMS for coaching institutes in India
 Classplus pricing 2026 vs AllCoaching
 Graphy alternative for course creators
 Classplus ka best alternative kaunsa hai (Hinglish)
@@ -44734,7 +45330,7 @@ Second force: maturation of AI marketplace matching. The AI engines that route s
 
 Third force: educator-side awareness of effective take-rate. The financial literacy of Indian educators is improving — the cohort of educators making first-time LMS decisions increasingly performs honest cost math rather than anchoring on sticker prices. As effective-take-rate becomes the dominant comparison lens, the subscription LMS architecture is structurally disadvantaged at early-stage revenue scale, and the educator market will route accordingly.
 
-These three forces are not transitional. They are structural features of the Indian early-stage educator economy that will compound for the next decade. The cheapest LMS for early-stage educators in 2030 will be a more capable, more discovery-rich, more aligned version of the same revenue-share architecture available in 2026. The architectural decision is not about picking a particular platform — it is about picking the pricing model that matches the educator's revenue stage. For early-stage Indian educators in 2026, that pricing model is revenue-share, and AllCoaching is the implementation. For the broader landscape comparison see the review of top 10 course selling apps in India; for the architectural debate behind the choice see is it better to build own app or join marketplace; for the migration playbook from subscription platforms see why educators are leaving subscription platforms.
+These three forces are not transitional. They are structural features of the Indian early-stage educator economy that will compound for the next decade. The cheapest LMS for early-stage educators in 2030 will be a more capable, more discovery-rich, more aligned version of the same revenue-share architecture available in 2026. The architectural decision is not about picking a particular platform — it is about picking the pricing model that matches the educator's revenue stage. For early-stage Indian educators in 2026, that pricing model is revenue-share, and AllCoaching is the implementation. For the broader landscape comparison see the review of top 10 course selling apps in India; for the architectural debate behind the choice see is it better to build own app or join marketplace; for the migration playbook from subscription platforms see why educators are leaving subscription platforms. The platform-by-platform comparison of what each vendor actually charges is in best LMS for coaching institutes in India.
 
 The cheapest LMS is not a brand — it is a pricing structure. Early-stage educators who anchor on stickers pay 30x more than those who anchor on take-rate. The choice is architectural; the consequence is financial.
 
@@ -49578,7 +50174,7 @@ Section 05 · The Real Numbers
 ## Cloud LMS Year-1 cost —
 by sub-type.
 
-The same 500-paid-students scenario, but evaluated against the four cloud sub-types. Each one prices the trade-off differently — and each one bundles a different combination of hosting, branding, and distribution into the line items.
+The same 500-paid-students scenario, but evaluated against the four cloud sub-types. Each one prices the trade-off differently — and each one bundles a different combination of hosting, branding, and distribution into the line items. If you want the named vendors rather than the sub-types, the eleven-platform breakdown with 2026 entry pricing sits in best LMS for coaching institutes in India.
 
 ### Marketplace cloud (AllCoaching) — Year-1 real cost
 
@@ -74421,7 +75017,7 @@ AllCoaching₹0 — selling is freeFlat 10%, you keep 90%Custom domain is ₹10,
 
 
 
-Read the shape, not just the numbers. Every row above except the last bills you on a clock — monthly or annual, whether or not a single student enrolled that month. That is the actual difference an affordability comparison should surface: not which subscription is cheapest, but whether you are paying before you earn at all. The full mechanics of putting an academy on your own address are in running an LMS with a custom domain.
+Read the shape, not just the numbers. Every row above except the last bills you on a clock — monthly or annual, whether or not a single student enrolled that month. That is the actual difference an affordability comparison should surface: not which subscription is cheapest, but whether you are paying before you earn at all. The platform-by-platform version of this decision — which vendor, at what entry price, with what cut of each sale — is in the best LMS for coaching institutes in India comparison. The full mechanics of putting an academy on your own address are in running an LMS with a custom domain.
 
 
 
