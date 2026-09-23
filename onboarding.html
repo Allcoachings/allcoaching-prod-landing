@@ -120,10 +120,16 @@ h1,h2,h3{margin:0}
 .sh{display:grid;grid-template-columns:1fr;gap:13px;margin-top:20px}
 .sh a{display:block;text-decoration:none;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;transition:transform .18s,box-shadow .18s}
 .sh a:active{transform:scale(.99)}
-.shot{height:188px;overflow:hidden;background:linear-gradient(160deg,#EFE6D6,#E2D0B2);display:grid;place-items:start center;padding:15px 15px 0}
-.shot img{border:1px solid rgba(20,17,13,.12);border-bottom:0;box-shadow:0 14px 28px -14px rgba(38,28,14,.5)}
-.shot.lap img{width:100%;border-radius:9px 9px 0 0}
-.shot.ph img{width:124px;border:5px solid #15110D;border-bottom:0;border-radius:18px 18px 0 0}
+.shot{position:relative;height:228px;overflow:hidden;background:linear-gradient(158deg,#F2EADC 0%,#E6D6BB 55%,#DFCBAB 100%)}
+.shot::after{content:'';position:absolute;inset:auto 0 0 0;height:56px;background:linear-gradient(180deg,rgba(226,208,178,0),rgba(226,208,178,.55));pointer-events:none}
+.lap{position:absolute;left:6.5%;right:6.5%;top:26px;background:#fff;border:1px solid rgba(20,17,13,.13);border-radius:11px;overflow:hidden;box-shadow:0 24px 46px -18px rgba(38,28,14,.55)}
+.lap .tb{display:flex;align-items:center;gap:5px;height:21px;padding:0 9px;background:#FAF8F4;border-bottom:1px solid rgba(20,17,13,.08)}
+.lap .tb i{width:6px;height:6px;border-radius:50%;background:#E3D9C7;flex:none}
+.lap .tb u{margin:0 auto;transform:translateX(-13px);font-family:var(--mono);font-size:8px;font-weight:700;letter-spacing:.02em;color:var(--ink3);background:#F2EDE4;padding:2px 10px;border-radius:99px;text-decoration:none;white-space:nowrap;overflow:hidden}
+.lap img{width:100%;height:auto;display:block}
+.phn{position:absolute;left:50%;top:20px;width:148px;margin-left:-74px;background:#15110D;border-radius:27px;padding:6px;box-shadow:0 24px 46px -18px rgba(38,28,14,.62)}
+.phn::before{content:'';position:absolute;left:50%;top:11px;transform:translateX(-50%);width:44px;height:4px;border-radius:99px;background:rgba(245,232,210,.3);z-index:2}
+.phn img{width:100%;height:auto;display:block;border-radius:22px}
 .sh span{display:block;padding:12px 14px 14px;font-size:14.5px;font-weight:600}
 .sh span i{display:block;font-style:normal;font-weight:400;font-size:12.5px;color:var(--ink3);margin-top:2px}
 
@@ -163,7 +169,9 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
   .steps{grid-template-columns:repeat(3,1fr)}
   .stp{flex-direction:column}
   .sh{grid-template-columns:repeat(3,1fr);gap:16px}
-  .shot{height:196px}
+  .shot{height:212px}
+  .lap{left:5.5%;right:5.5%;top:22px}
+  .phn{width:132px;margin-left:-66px;top:18px}
   .cta{width:auto;min-width:16rem}
   .hero .cta{width:100%;max-width:26rem}
   body{padding-bottom:0}
@@ -269,15 +277,29 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
     <p style="font-size:15px;color:var(--ink2);margin:8px 0 0">The demo is the real product with sample data. Every button works. No sign-up, no card.</p>
     <div class="sh">
       <a href="/demo/studio/" target="_blank" rel="noopener" data-ev="ob_demo_click">
-        <div class="shot lap"><img src="/demo/assets/shots/studio-desktop.webp" width="1440" height="900" alt="The AllCoaching studio showing revenue, students and a live class" loading="lazy" decoding="async"/></div>
+        <div class="shot">
+          <div class="lap">
+            <div class="tb"><i></i><i></i><i></i><u>studio.allcoaching.in</u></div>
+            <img src="/demo/assets/shots/studio-desktop.webp" width="1440" height="900" alt="The AllCoaching studio showing revenue, students and a live class" loading="lazy" decoding="async"/>
+          </div>
+        </div>
         <span>Your studio<i>Where you run the academy</i></span>
       </a>
       <a href="/demo/website/" target="_blank" rel="noopener" data-ev="ob_demo_click">
-        <div class="shot lap"><img src="/demo/assets/shots/website-desktop.webp" width="1440" height="900" alt="An academy website with course pages and an enquiry form" loading="lazy" decoding="async"/></div>
+        <div class="shot">
+          <div class="lap">
+            <div class="tb"><i></i><i></i><i></i><u>yourinstitute.com</u></div>
+            <img src="/demo/assets/shots/website-desktop.webp" width="1440" height="900" alt="An academy website with course pages and an enquiry form" loading="lazy" decoding="async"/>
+          </div>
+        </div>
         <span>Your website<i>Where new students enrol</i></span>
       </a>
       <a href="/demo/app/" target="_blank" rel="noopener" data-ev="ob_demo_click">
-        <div class="shot ph"><img src="/demo/assets/shots/app-mobile.webp" width="780" height="1688" alt="The student app with live classes, tests and notes" loading="lazy" decoding="async"/></div>
+        <div class="shot">
+          <div class="phn">
+            <img src="/demo/assets/shots/app-mobile.webp" width="780" height="1688" alt="The student app with live classes, tests and notes" loading="lazy" decoding="async"/>
+          </div>
+        </div>
         <span>Their app<i>Your name on their phone</i></span>
       </a>
     </div>
