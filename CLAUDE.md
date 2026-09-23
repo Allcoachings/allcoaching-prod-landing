@@ -1,6 +1,6 @@
 # AllCoaching — marketing site (allcoaching.in)
 
-This repo is the static marketing site + blog for **AllCoaching** (AllCoaching Technologies Pvt. Ltd.) — India's educator-first EdTech marketplace. Deploys from GitHub `master`.
+This repo is the static marketing site + blog for **AllCoaching** (AllCoaching Technologies) — India's educator-first EdTech marketplace. Deploys from GitHub `master`.
 
 ## Load context first
 - **Company context (canonical):** invoke the `allcoaching` skill (`.claude/skills/allcoaching/SKILL.md`) whenever working on anything AllCoaching — product, pricing, brand, blog, strategy. It is the source of truth; don't contradict it.

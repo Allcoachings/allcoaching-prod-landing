@@ -16,7 +16,7 @@ description: >-
 Use this as the ground truth about the company. If a request touches AllCoaching, assume these facts; don't re-derive or contradict them. When something below is marked **unverified**, do not assert it — ask or leave it out.
 
 ## 1. What AllCoaching is (one line)
-AllCoaching (**allcoaching.in**) is an **educator-first EdTech marketplace** for India's independent educators — coaching-institute owners, tutors, and subject experts. It gives each educator a **branded white-label studio (web + app)** to run their whole teaching business, *plus* a **shared marketplace** so students can discover them. Legal entity: **AllCoaching Technologies Pvt. Ltd.** Founded **2022**. Category: **EdTech Marketplace**.
+AllCoaching (**allcoaching.in**) is an **educator-first EdTech marketplace** for India's independent educators — coaching-institute owners, tutors, and subject experts. It gives each educator a **branded white-label studio (web + app)** to run their whole teaching business, *plus* a **shared marketplace** so students can discover them. Legal entity: **AllCoaching Technologies** Founded **2022**. Category: **EdTech Marketplace**.
 
 - **Tagline:** *Democratizing Education.*
 - **Positioning:** *The Operating System of Education.*

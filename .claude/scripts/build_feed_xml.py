@@ -103,7 +103,7 @@ def main():
     <atom:link href="https://allcoaching.in/feed.xml" rel="self" type="application/rss+xml" />
     <description>Long-form, founder-written essays on educator infrastructure, marketplace economics, AI workflows, EdTech compliance, and the architecture of online teaching in India. By Amit Ratan, Founder &amp; CEO of AllCoaching — India's first educator-first marketplace, founded 2018 in Prayagraj.</description>
     <language>en-IN</language>
-    <copyright>© 2026 AllCoaching Technologies Pvt. Ltd.</copyright>
+    <copyright>© 2026 AllCoaching Technologies</copyright>
     <managingEditor>contact@allcoaching.in (Amit Ratan)</managingEditor>
     <webMaster>contact@allcoaching.in (Amit Ratan)</webMaster>
     <pubDate>{date_to_rfc822(posts[0]['date_published']) if posts else now_rfc}</pubDate>

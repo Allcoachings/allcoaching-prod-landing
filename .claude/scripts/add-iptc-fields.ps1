@@ -15,7 +15,7 @@ $siteRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 Write-Host "Site root: $siteRoot"
 
 # JSON unicode escape for © to avoid PS5.1 ANSI-vs-UTF8 source encoding issues
-$iptcFields = ',"copyrightNotice":"© 2026 AllCoaching Technologies Pvt. Ltd.","license":"https://allcoaching.in/terms","creditText":"AllCoaching","acquireLicensePage":"https://allcoaching.in/contact"'
+$iptcFields = ',"copyrightNotice":"© 2026 AllCoaching Technologies","license":"https://allcoaching.in/terms","creditText":"AllCoaching","acquireLicensePage":"https://allcoaching.in/contact"'
 
 function Add-IPTCFields {
     param([string]$content)
