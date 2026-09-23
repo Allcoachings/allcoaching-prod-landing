@@ -88,6 +88,13 @@ h1,h2,h3{margin:0}
 .cta.dk{background:#15110D;color:#F5E8D2;box-shadow:0 8px 20px -8px rgba(20,17,13,.5)}
 .micro{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:rgba(245,232,210,.55);font-weight:700;margin:14px 0 0}
 .micro.d{color:var(--ink3)}
+.proof{display:inline-flex;align-items:center;gap:9px;margin:18px 0 0;padding:9px 15px;border-radius:999px;background:rgba(47,143,78,.14);border:1px solid rgba(123,224,160,.32);font-size:13.5px;color:#DFF3E6;line-height:1.35;text-align:left}
+.proof b{color:#7BE0A0;font-weight:700}
+.proof .dot{flex:none;width:8px;height:8px;border-radius:50%;background:#7BE0A0;box-shadow:0 0 0 3px rgba(123,224,160,.22)}
+.proof2{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:26px;padding-top:20px;border-top:1px solid var(--line)}
+.proof2 div{text-align:center}
+.proof2 b{display:block;font-family:var(--dp);font-style:italic;font-weight:400;font-size:2rem;line-height:1;color:var(--acc2)}
+.proof2 span{display:block;font-size:12.5px;color:var(--ink3);margin-top:5px}
 </style>
 <style>
 /* in/out columns */
@@ -184,6 +191,7 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
     <span class="chip"><i></i>Free onboarding seats are full</span>
     <h1 class="h1">Your own coaching academy.<br/><em>₹6,999. Once.</em></h1>
     <p class="sub">A branded app, your own website and a student app on your own domain — set up <strong>with you</strong>, not left for you to figure out.</p>
+    <p class="proof"><span class="dot"></span><span><b>270 educators</b> are already selling their courses on AllCoaching.</span></p>
 
     <ul class="ticks">
       <li>Pay once. No monthly fee, ever.</li>
@@ -312,7 +320,13 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
 <!-- ============ FAQ ============ -->
 <section class="s" id="faq">
   <div class="w">
-    <p class="eb">Before you decide</p>
+    <div class="proof2">
+      <div><b>270</b><span>educators selling</span></div>
+      <div><b>90%</b><span>stays with you</span></div>
+      <div><b>Daily</b><span>payouts to your bank</span></div>
+      <div><b>₹0</b><span>due in a month with no sales</span></div>
+    </div>
+    <p class="eb" style="margin-top:34px">Before you decide</p>
     <h2 class="h2">The questions <em>everyone asks.</em></h2>
     <div style="margin-top:18px">
       <details open><summary>Is ₹6,999 really all I pay?</summary><p><strong>Yes — once, and it does not repeat.</strong> No subscription, no renewal, no yearly increase, no setup fee on top. The only other money that moves is 10% of a sale, after a student has actually paid you.</p></details>
