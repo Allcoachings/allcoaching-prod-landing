@@ -110,11 +110,15 @@ h1,h2,h3{margin:0}
 .stp p{margin:0;font-size:14px;color:var(--ink2);line-height:1.55}
 
 /* screens */
-.sh{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:20px}
-.sh a{display:block;text-decoration:none;border:1px solid var(--line);border-radius:13px;overflow:hidden;background:#fff}
-.sh img{width:100%;height:118px;object-fit:cover;object-position:top center}
-.sh span{display:block;padding:9px 11px 11px;font-size:13px;font-weight:600}
-.sh span i{display:block;font-style:normal;font-weight:400;font-size:11.5px;color:var(--ink3);margin-top:1px}
+.sh{display:grid;grid-template-columns:1fr;gap:13px;margin-top:20px}
+.sh a{display:block;text-decoration:none;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;transition:transform .18s,box-shadow .18s}
+.sh a:active{transform:scale(.99)}
+.shot{height:188px;overflow:hidden;background:linear-gradient(160deg,#EFE6D6,#E2D0B2);display:grid;place-items:start center;padding:15px 15px 0}
+.shot img{border:1px solid rgba(20,17,13,.12);border-bottom:0;box-shadow:0 14px 28px -14px rgba(38,28,14,.5)}
+.shot.lap img{width:100%;border-radius:9px 9px 0 0}
+.shot.ph img{width:124px;border:5px solid #15110D;border-bottom:0;border-radius:18px 18px 0 0}
+.sh span{display:block;padding:12px 14px 14px;font-size:14.5px;font-weight:600}
+.sh span i{display:block;font-style:normal;font-weight:400;font-size:12.5px;color:var(--ink3);margin-top:2px}
 
 /* compare */
 .cmpt{width:100%;border-collapse:collapse;font-size:14px;margin-top:18px;background:#fff;border:1px solid var(--line);border-radius:13px;overflow:hidden}
@@ -151,8 +155,8 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
   .two{grid-template-columns:1fr 1fr;gap:18px}
   .steps{grid-template-columns:repeat(3,1fr)}
   .stp{flex-direction:column}
-  .sh{grid-template-columns:repeat(3,1fr)}
-  .sh img{height:150px}
+  .sh{grid-template-columns:repeat(3,1fr);gap:16px}
+  .shot{height:196px}
   .cta{width:auto;min-width:16rem}
   .hero .cta{width:100%;max-width:26rem}
   body{padding-bottom:0}
@@ -257,16 +261,16 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
     <p style="font-size:15px;color:var(--ink2);margin:8px 0 0">The demo is the real product with sample data. Every button works. No sign-up, no card.</p>
     <div class="sh">
       <a href="/demo/studio/" target="_blank" rel="noopener" data-ev="ob_demo_click">
-        <img src="/demo/assets/shots/studio-mobile.webp" width="780" height="1688" alt="The AllCoaching studio on a phone" loading="lazy" decoding="async"/>
-        <span>Your studio<i>Run the academy</i></span>
+        <div class="shot lap"><img src="/demo/assets/shots/studio-desktop.webp" width="1440" height="900" alt="The AllCoaching studio showing revenue, students and a live class" loading="lazy" decoding="async"/></div>
+        <span>Your studio<i>Where you run the academy</i></span>
       </a>
       <a href="/demo/website/" target="_blank" rel="noopener" data-ev="ob_demo_click">
-        <img src="/demo/assets/shots/website-mobile.webp" width="780" height="1688" alt="An academy website on a phone" loading="lazy" decoding="async"/>
-        <span>Your website<i>Students enrol here</i></span>
+        <div class="shot lap"><img src="/demo/assets/shots/website-desktop.webp" width="1440" height="900" alt="An academy website with course pages and an enquiry form" loading="lazy" decoding="async"/></div>
+        <span>Your website<i>Where new students enrol</i></span>
       </a>
       <a href="/demo/app/" target="_blank" rel="noopener" data-ev="ob_demo_click">
-        <img src="/demo/assets/shots/app-mobile.webp" width="780" height="1688" alt="The student app on a phone" loading="lazy" decoding="async"/>
-        <span>Student app<i>Your name on it</i></span>
+        <div class="shot ph"><img src="/demo/assets/shots/app-mobile.webp" width="780" height="1688" alt="The student app with live classes, tests and notes" loading="lazy" decoding="async"/></div>
+        <span>Their app<i>Your name on their phone</i></span>
       </a>
     </div>
   </div>
@@ -290,18 +294,18 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
   <div class="w">
     <p class="eb">The honest comparison</p>
     <h2 class="h2">What you pay <em>before you sell anything.</em></h2>
-    <p style="font-size:15px;color:var(--ink2);margin:8px 0 0">Competitor figures from their own public pricing pages, September 2026.</p>
+    <p style="font-size:15px;color:var(--ink2);margin:8px 0 0">Graphy and Learnyst figures are from their own pricing pages. Classplus publishes no pricing on its own site — that figure is a third-party listing. Edmingle is as publicly reported. Checked September 2026; confirm a current quote before deciding.</p>
     <table class="cmpt">
-      <thead><tr><th>Platform</th><th>Fixed cost, 3 years</th><th>Shape</th></tr></thead>
+      <thead><tr><th>Platform</th><th>Fixed cost, 3 yrs</th><th>Cut of your sales</th></tr></thead>
       <tbody>
-        <tr class="us"><td>AllCoaching</td><td class="b">₹6,999</td><td>Once. Never repeats.</td></tr>
-        <tr><td>Classplus</td><td>₹60,000 – ₹96,000</td><td>Every year</td></tr>
-        <tr><td>Graphy</td><td>₹72,000 + 10% per sale</td><td>Every month</td></tr>
-        <tr><td>Learnyst</td><td>₹1,25,964</td><td>Every month</td></tr>
-        <tr><td>Edmingle</td><td>₹2,69,964</td><td>Every month</td></tr>
+        <tr class="us"><td>AllCoaching</td><td class="b">₹6,999<br/><small style="font-weight:400;font-size:11.5px;color:var(--ink3)">paid once</small></td><td>10%</td></tr>
+        <tr><td>Classplus</td><td>₹60,000 – ₹96,000<br/><small style="font-size:11.5px;color:var(--ink3)">listed, not published by them</small></td><td>Commission reported in some contracts</td></tr>
+        <tr><td>Graphy</td><td>₹71,964<br/><small style="font-size:11.5px;color:var(--ink3)">₹1,999/mo, billed yearly</small></td><td>10% on the entry plan</td></tr>
+        <tr><td>Learnyst</td><td>₹1,25,964<br/><small style="font-size:11.5px;color:var(--ink3)">₹3,499/mo</small></td><td>0%</td></tr>
+        <tr><td>Edmingle</td><td>₹2,69,964<br/><small style="font-size:11.5px;color:var(--ink3)">₹7,499/mo, reported</small></td><td>0%</td></tr>
       </tbody>
     </table>
-    <p style="font-size:14px;color:var(--ink2);margin:16px 0 0;line-height:1.6"><strong>One thing we will say plainly:</strong> a flat 10% is not cheapest at every level. Above roughly ₹4 lakh of sales a year, a fixed monthly plan with no per-sale cut can work out lower. Below that — and before you have proved the teaching sells online — paying ₹6,999 once beats committing ₹42,000 a year to find out.</p>
+    <p style="font-size:14px;color:var(--ink2);margin:16px 0 0;line-height:1.6"><strong>Read both columns, not just the first.</strong> Learnyst and Edmingle take no cut of your sales — we take 10%. So above roughly ₹4 lakh of sales a year, their fixed monthly plan can work out cheaper than our percentage, and we would rather you know that now. Below that, and before you have proved the teaching sells online, ₹6,999 paid once beats committing ₹42,000 a year to find out.</p>
   </div>
 </section>
 
