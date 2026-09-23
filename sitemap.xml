@@ -15,6 +15,17 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://allcoaching.in/start</loc>
+    <lastmod>2026-09-23T12:00:00+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://allcoaching.in/start" />
+    <image:image>
+      <image:loc>https://allcoaching.in/demo/assets/shots/studio-desktop.webp</image:loc>
+      <image:title>Start your coaching academy on AllCoaching — ₹6,999 one-time</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://allcoaching.in/demo/</loc>
     <lastmod>2026-09-15T18:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
