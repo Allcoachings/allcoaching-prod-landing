@@ -8,7 +8,8 @@ This repo is the static marketing site + blog for **AllCoaching** (AllCoaching T
 - **AI-search/GEO decisions:** use the `ai-search-geo` skill.
 
 ## Non-negotiable facts (summary — full detail in the allcoaching skill)
-- **Pricing:** ₹0 free-forever base (no card/KYC at signup, never expires) + optional Pro tier (~₹999–4,999/mo) + **flat 10% only on sales — educator keeps 90%**, daily UPI payouts. **Never** use "free trial that ends" framing.
+- **Pricing (confirmed 2026-09-23 — ONE price, nothing else):** **₹6,999 one-time onboarding**, paid once, covering everything including the educator's own custom domain and live classes. Then a **flat 10% on completed sales — educator keeps 90%**, daily INR payouts. A month with no sales costs nothing. **There is no free tier any more.** Never write "₹0 to start", "free forever", "free tier/base/plan", "no card at signup", "no setup fee", "start free", "Pro tier", a ₹10,000 custom-domain charge, or metered live-class plans — all were true in earlier models and are now false. Third-party free tiers (Zoom, Loom, Canva, competitors) must be preserved when editing.
+- **Competitor pricing:** naming a rival's price is a claim about them. State the source per figure, show their transaction fee next to the fixed cost (Learnyst and Edmingle take 0%, we take 10%), and never round up. Classplus publishes no pricing on its own site — any figure is a third-party listing and must say so.
 - **Voice:** say *educator* (not creator/user), *studio* (not dashboard). No exclamation marks, no "#1 platform" claims, no fabricated stats — ₹ ranges only, illustrative figures marked as illustrative.
 - **Fonts:** Instrument Serif (italic display) + Inter Tight + JetBrains Mono. **Fraunces is NOT a brand font.** Ochre `#C58B43` is the only accent.
 - **Contact email:** contact@allcoaching.in (old gmail must never reappear).
