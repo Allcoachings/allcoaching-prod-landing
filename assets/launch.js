@@ -25,6 +25,9 @@
   var CANCEL = {};
   var run = 0, idx = 0, userPaused = false, vis = false, started = false;
   var active = false, elapsed = 0, est = 1, scale = 1, mode = '';
+  /* Playback speed: every wait, cursor move and typing delay is multiplied
+     by SPEED, so 0.6 plays the script 40% faster and fast-forward goes 4x. */
+  var NORMAL = 0.6, FF = 0.25, SPEED = NORMAL;
 
   /* ── icons ─────────────────────────────────────────────── */
   var P = {
@@ -53,7 +56,9 @@
   /* ── fit the fixed-size stage into the page ────────────── */
   function fit(){
     var w = vp.clientWidth; if(!w) return;
-    var m = w < 740 ? 'compact' : 'wide';
+    /* Phone layout only on genuinely small screens (or a very narrow column);
+       a two-column hero on a laptop keeps the full desktop studio, scaled. */
+    var m = (window.innerWidth < 760 || w < 520) ? 'compact' : 'wide';
     if(m !== mode){ mode = m; root.setAttribute('data-mode', m); }
     /* A narrower design width means a bigger zoom: on a 1260px hero the
        studio renders ~1.25x, so every label reads clearly at a glance. */
@@ -77,7 +82,7 @@
         var left = ms, last = performance.now();
         (function tick(now){
           if(id !== run) return rej(CANCEL);
-          if(!userPaused && vis) left -= (now - last);
+          if(!userPaused && vis) left -= (now - last) / SPEED;
           last = now;
           if(left <= 0) res(); else requestAnimationFrame(tick);
         })(last);
@@ -96,7 +101,7 @@
       ms = ms || 720;
       xy = pos(el);
       cur.classList.add('show');
-      cur.style.transitionDuration = ms + 'ms, .3s';
+      cur.style.transitionDuration = Math.round(ms * SPEED) + 'ms, .3s';
       cur.style.transform = 'translate(' + xy[0] + 'px,' + xy[1] + 'px)';
       await wait(ms + 30);
       hover(el);
@@ -143,7 +148,7 @@
       t.innerHTML = '<span class="ti">' + ic(icon || 'check') + '</span><div><b>' + title + '</b><span>' + sub + '</span></div>';
       toasts.appendChild(t);
       while(toasts.children.length > 2) toasts.firstChild.remove();
-      setTimeout(function(){ t.classList.add('out'); setTimeout(function(){ t.remove(); }, 420); }, 3400);
+      setTimeout(function(){ t.classList.add('out'); setTimeout(function(){ t.remove(); }, 420); }, Math.max(1600, 3400 * SPEED));
     }
     return {wait:wait, move:move, click:click, type:type, count:count, focus:focus, toast:toast, hover:hover, alive:alive, fast:fast};
   }
@@ -155,7 +160,7 @@
     urlBox.classList.remove('chg'); void urlBox.offsetWidth; urlBox.classList.add('chg');
   }
   function studio(k, u){
-    learn.classList.remove('on');
+    learn.classList.remove('on'); urlBox.classList.remove('st');
     navs.forEach(function(n){ n.classList.toggle('on', n.getAttribute('data-k') === k); });
     setUrl(u);
   }
@@ -382,6 +387,7 @@
         '<div class="lx-in mt" id="lU"><span class="v ph">yourname@upi</span></div>' +
         '<div class="lx-btn acc mt" id="lP">Pay ₹4,999</div></div>';
     setUrl('sharmaphysics.in/courses/jee-physics-mechanics');
+    urlBox.classList.add('st');
     learn.classList.add('on');
     await h.wait(1300);
     var buy = learn.querySelector('#lB');
@@ -468,7 +474,7 @@
   var last = performance.now();
   function loop(now){
     var dt = now - last; last = now;
-    if(active && !userPaused && vis){ elapsed += dt; bars[idx].style.width = Math.min(elapsed / est * 100, 99) + '%'; }
+    if(active && !userPaused && vis){ elapsed += dt / SPEED; bars[idx].style.width = Math.min(elapsed / est * 100, 99) + '%'; }
     requestAnimationFrame(loop);
   }
   if(!RM) requestAnimationFrame(loop);
@@ -488,13 +494,13 @@
       cur.classList.remove('show'); h.hover(null);
       await h.wait(400);
       endCard.classList.add('on');
-      await h.wait(9000);
+      await h.wait(10000);
       play(0, true);
     }catch(e){ if(e !== CANCEL) throw e; }
   }
 
   chs.forEach(function(c, k){
-    c.addEventListener('click', function(){ userPaused = false; syncBtn(); play(k, !RM); });
+    c.addEventListener('click', function(){ started = true; userPaused = false; syncBtn(); play(k, !RM); });
   });
   root.querySelector('.lx-replay').addEventListener('click', function(){ userPaused = false; syncBtn(); play(0, !RM); });
   function syncBtn(){
@@ -506,6 +512,18 @@
     userPaused = !userPaused; syncBtn();
   });
   if(RM){ playBtn.setAttribute('aria-label', 'Next step'); }
+
+  /* Fast-forward toggles 4x playback; "next" jumps straight to the next step. */
+  var ffBtn = root.querySelector('.lx-ff'), nextBtn = root.querySelector('.lx-next');
+  if(ffBtn) ffBtn.addEventListener('click', function(){
+    SPEED = SPEED === FF ? NORMAL : FF;
+    ffBtn.setAttribute('aria-pressed', SPEED === FF ? 'true' : 'false');
+    if(userPaused){ userPaused = false; syncBtn(); }
+  });
+  if(nextBtn) nextBtn.addEventListener('click', function(){
+    started = true; userPaused = false; syncBtn();
+    play((idx + 1) % SC.length, !RM);
+  });
 
   var io = new IntersectionObserver(function(es){
     vis = es[0].isIntersecting;
