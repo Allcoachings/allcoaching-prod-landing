@@ -870,17 +870,16 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
 .hx-bar i{width:9px; height:9px; border-radius:50%; background:var(--line-strong); flex:none;}
 .hx-url{margin:0 auto; transform:translateX(-18px); font-family:var(--mono); font-size:10.5px; color:var(--ink-3); background:var(--bg); padding:3px 14px; border-radius:999px; white-space:nowrap;}
 .hx-laptop img,.hx-phone img{display:block; width:100%; height:auto;}
-.hx-play{position:absolute; left:50%; top:56%; transform:translate(-50%,-50%); display:inline-flex; align-items:center; gap:8px; padding:11px 20px; border-radius:999px; background:rgba(21,17,13,.9); color:#F5F0E8; font-size:14px; font-weight:700; white-space:nowrap; box-shadow:0 14px 30px -8px rgba(21,17,13,.55); transition:transform .25s var(--ease);}
-.hx-play svg{width:14px; height:14px; color:#E0A95C;}
-.hx-laptop:hover .hx-play{transform:translate(-50%,-50%) scale(1.06);}
+.hx-play{position:absolute; right:14px; bottom:14px; z-index:3; display:inline-flex; align-items:center; gap:6px; padding:8px 14px; border-radius:999px; background:rgba(21,17,13,.88); color:#F5F0E8; font-size:12.5px; font-weight:700; white-space:nowrap; box-shadow:0 10px 22px -8px rgba(21,17,13,.5); transition:transform .25s var(--ease);}
+.hx-play svg{width:12px; height:12px; color:#E0A95C;}
+.hx-laptop:hover .hx-play{transform:translateY(-3px);}
 .hx-phone{display:block; text-decoration:none;}
 .hx-frame{display:block; background:#15110D; border-radius:30px; padding:6px; box-shadow:var(--sh-3);}
 .hx-frame img{border-radius:24px;}
 .hx-hand{display:block; white-space:nowrap; font-family:var(--display); font-style:italic; font-size:21px; line-height:1; color:var(--accent-deep); text-align:center; margin-top:10px;}
-.hx-note{position:absolute; left:14px; top:0; margin:0; transform:rotate(-3deg);}
 .hx-app{position:absolute; right:0; bottom:0; width:29%; transform:rotate(2.5deg); transition:transform .35s var(--ease);}
 .hx-app:hover{transform:rotate(2.5deg) translateY(-4px);}
-.hx-flow{position:absolute; left:14px; top:12px; z-index:3; height:36px; display:block; pointer-events:none;}
+.hx-flow{position:absolute; left:16px; top:46px; z-index:3; height:36px; display:block; pointer-events:none;}
 .hx-flow-chip{position:absolute; left:0; top:0; display:inline-flex; align-items:center; gap:8px; padding:7px 14px 7px 7px; border-radius:999px; background:#fff; box-shadow:0 10px 24px -8px rgba(21,17,13,.35),0 0 0 1px rgba(21,17,13,.07); white-space:nowrap; opacity:0; transform:translateX(-14px); animation:hxFlowCycle 13.2s ease-in-out infinite;}
 .hx-flow-chip b{width:22px; height:22px; border-radius:50%; background:linear-gradient(180deg,#F5C887,#C58B43); color:#1A100A; font-family:var(--display); font-style:italic; font-weight:400; font-size:13px; display:grid; place-items:center; flex:none;}
 .hx-flow-chip span{font-size:12.5px; font-weight:700; color:var(--ink-1); letter-spacing:-.005em;}
@@ -896,7 +895,7 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
   .hero-cta .btn{flex:1 1 100%; justify-content:center;}
   .hx-steps{gap:12px 18px;}
   .hx-visual{display:grid; grid-template-columns:1fr 1fr; gap:16px; padding:4px 4px 0;}
-  .hx-laptop,.hx-note{display:none;}
+  .hx-laptop{display:none;}
   .hx-studio-m{display:block; transform:rotate(-1.5deg);}
   .hx-app{position:static; width:auto; transform:rotate(1.5deg);}
   .hx-frame{border-radius:26px; padding:5px;} .hx-frame img{border-radius:21px;}
@@ -959,7 +958,7 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
       </ol>
       <div class="hero-trust">
         <div class="t"><b>100%</b><span>your brand &amp; students — always yours</span></div>
-        <div class="t"><b class="count" data-count="90" data-suffix="%">0</b><span>revenue stays with you</span></div>
+        <div class="t"><b class="count" data-count="95" data-prefix="Up to " data-suffix="%">0</b><span>revenue stays with you</span></div>
         <div class="t"><b>₹6,999</b><span>per year to start · no lock-in</span></div>
       </div>
     </div>
@@ -973,9 +972,8 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
           <span class="hx-flow-chip"><b>3</b><span>Connect your domain</span></span>
           <span class="hx-flow-chip"><b>4</b><span>Start selling</span></span>
         </span>
-        <span class="hx-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>Click to try</span>
+        <span class="hx-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>Live demo</span>
       </a>
-      <p class="hx-hand hx-note" aria-hidden="true">your studio</p>
       <a class="hx-phone hx-studio-m" href="/demo/studio/" aria-label="Open the Studio demo">
         <span class="hx-frame"><img src="/demo/assets/shots/studio-mobile.webp" width="780" height="1688" alt="" loading="lazy"/></span>
         <span class="hx-hand">your studio</span>
@@ -1551,7 +1549,7 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
     <div class="shead">
       <div class="snum">11 — What you keep</div>
       <h2 class="h-section" style="margin-top:12px;">Drag the sliders. Watch what <em>stays with you.</em></h2>
-      <p class="lede">Real take-home after our platform fee — calculated after fees, not before. No hidden cuts, nothing more taken until a student pays you.</p>
+      <p class="lede">Real take-home at the Starter rate (10%) — calculated after fees, not before. Growth and Pro lower the fee further as you upgrade. No hidden cuts, nothing taken until a student pays you.</p>
     </div>
     <div class="calc">
       <div class="calc-panel">
@@ -1572,7 +1570,7 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
         </div>
         <div class="calc-split">
           <div class="calc-bar"><div class="you" style="width:90%"></div><div class="fee" style="width:10%"></div></div>
-          <div class="calc-bar-lab"><span style="color:var(--accent-deep)">90% to you</span><span style="color:var(--ink-3)">10% platform</span></div>
+          <div class="calc-bar-lab"><span style="color:var(--accent-deep)">90% to you</span><span style="color:var(--ink-3)">10% platform · Starter</span></div>
         </div>
       </div>
       <div class="calc-result">
@@ -1581,10 +1579,10 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
         <div class="rs">after our platform fee — nothing taken before a student pays you</div>
         <div class="rbreak">
           <div class="rrow"><span>Gross revenue</span><b class="mono-num" id="rgross">₹9L</b></div>
-          <div class="rrow"><span>Platform fee · from 10%</span><b class="mono-num" id="rfee">₹89,970</b></div>
+          <div class="rrow"><span>Platform fee · Starter, 10%</span><b class="mono-num" id="rfee">₹89,970</b></div>
           <div class="rrow tot"><span>Your take-home</span><b class="mono-num" id="rnet2">₹8,09,730</b></div>
         </div>
-        <div class="calc-note">Estimates only. Actual earnings vary by engagement &amp; retention.</div>
+        <div class="calc-note">Shown at the Starter rate. <a href="/pricing" style="color:var(--accent-deep); font-weight:700;">Growth and Pro lower the fee to 7.5% and 5%.</a> Estimates only — actual earnings vary by engagement &amp; retention.</div>
       </div>
     </div>
   </div>
