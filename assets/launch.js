@@ -29,6 +29,13 @@
   /* Playback speed: every wait, cursor move and typing delay is multiplied
      by SPEED, so 0.6 plays the script 40% faster and fast-forward goes 4x. */
   var NORMAL = 0.6, FF = 0.25, SPEED = NORMAL;
+  /* Which plan the walkthrough buys. Pages that show a single offer (the ad
+     landing page) set data-offer="starter"; the homepage shows all three
+     plans and walks through Growth. */
+  var ONE = root.getAttribute('data-offer') === 'starter';
+  var OFFER = ONE
+    ? {n:'Starter', price:'6,999.00', gst:'1,259.82', total:'8,258.82', fee:.10, feeTxt:'10%', keepTxt:'90%', live:'5', idx:0}
+    : {n:'Growth', price:'12,999.00', gst:'2,339.82', total:'15,338.82', fee:.075, feeTxt:'7.5%', keepTxt:'92.5%', live:'10', idx:1};
 
   /* ── icons ─────────────────────────────────────────────── */
   var P = {
@@ -171,8 +178,8 @@
   }
   function setPlan(on){
     plan.classList.toggle('on', !!on);
-    plan.querySelector('.k').textContent = on ? 'Growth · active' : 'No plan yet';
-    plan.querySelector('.v').textContent = on ? 'Renews in 12 months · 10 live hrs/month' : 'Choose a plan to publish your academy';
+    plan.querySelector('.k').textContent = on ? OFFER.n + ' · active' : 'No plan yet';
+    plan.querySelector('.v').textContent = on ? 'Renews in 12 months · ' + OFFER.live + ' live hrs/month' : 'Choose a plan to publish your academy';
   }
   function resetShell(){
     toasts.innerHTML = '';
@@ -221,26 +228,26 @@
     mount(
       '<div class="lx-eb">Billing</div><h3 class="lx-h">Choose your plan.</h3>' +
       '<p class="lx-p">Annual plans · prices exclude GST · every plan includes your own domain</p>' +
-      '<div class="lx-plans">' + PLANS.map(function(p, i){
+      '<div class="lx-plans' + (ONE ? ' one' : '') + '">' + (ONE ? PLANS.slice(0, 1) : PLANS).map(function(p, i){
         return '<div class="lx-pl" data-i="' + i + '"><div class="n">' + p.n + (i === 2 ? '<span>Premium template</span>' : '') + '</div>' +
           '<div class="pr">₹' + p.p + '<small> /year</small></div><span class="fee">' + p.f + '% fee · you keep ' + p.k + '%</span>' +
           '<ul>' + p.l.map(function(x){ return '<li>' + ic('check') + x + '</li>'; }).join('') + '</ul>' +
-          '<div class="lx-btn' + (i === 1 ? ' dark' : '') + '">Choose ' + p.n + '</div></div>';
+          '<div class="lx-btn' + (i === OFFER.idx ? ' dark' : '') + '">Choose ' + p.n + '</div></div>';
       }).join('') + '</div>' +
       '<div class="lx-scrim"></div>' +
       '<div class="lx-drawer"><div class="lx-dw">' +
-        '<div class="lx-eb">Checkout</div><h4 class="lx-h4">Growth · annual</h4>' +
-        '<div class="lx-row"><span>Growth plan · 12 months</span><b>₹12,999.00</b></div>' +
-        '<div class="lx-row"><span>GST (18%)</span><b>₹2,339.82</b></div>' +
-        '<div class="lx-row tot"><span>Total today</span><b>₹15,338.82</b></div>' +
+        '<div class="lx-eb">Checkout</div><h4 class="lx-h4">' + OFFER.n + ' · annual</h4>' +
+        '<div class="lx-row"><span>' + OFFER.n + ' plan · 12 months</span><b>₹' + OFFER.price + '</b></div>' +
+        '<div class="lx-row"><span>GST (18%)</span><b>₹' + OFFER.gst + '</b></div>' +
+        '<div class="lx-row tot"><span>Total today</span><b>₹' + OFFER.total + '</b></div>' +
         '<span class="lx-lbl mt">Pay with</span>' +
         '<div class="lx-pm"><span class="on">UPI</span><span>Card</span><span>Netbanking</span></div>' +
         '<div class="lx-in mt"><span>neha.sharma@gmail.com</span><span class="lx-gtag">' + GLOGO + 'Signed in</span></div>' +
-        '<div class="lx-btn acc lx-pay mt">Pay ₹15,338.82</div>' +
+        '<div class="lx-btn acc lx-pay mt">Pay ₹' + OFFER.total + '</div>' +
         '<p class="lx-fine">Renews yearly · upgrade anytime, unused value is credited</p>' +
       '</div></div>'
     );
-    var cards = view.querySelectorAll('.lx-pl'), g = cards[1];
+    var cards = view.querySelectorAll('.lx-pl'), g = cards[ONE ? 0 : OFFER.idx];
     await h.wait(900);
     var gb = g.querySelector('.lx-btn');
     await h.click(gb, 700);
@@ -254,12 +261,12 @@
     await h.wait(1500);
     q('.lx-dw').innerHTML =
       '<div class="lx-okw"><div class="lx-okc"><svg class="i" viewBox="0 0 24 24">' + P.check + '</svg></div>' +
-      '<h4 class="lx-h4">Growth plan active.</h4><p class="lx-p">Receipt emailed · renews in 12 months</p>' +
-      '<div class="lx-row mt"><span>Platform fee on your sales</span><b>7.5%</b></div>' +
-      '<div class="lx-row"><span>You keep on every sale</span><b>92.5%</b></div>' +
-      '<div class="lx-row"><span>Live classes</span><b>10 hrs/month</b></div></div>';
+      '<h4 class="lx-h4">' + OFFER.n + ' plan active.</h4><p class="lx-p">Receipt emailed · renews in 12 months</p>' +
+      '<div class="lx-row mt"><span>Platform fee on your sales</span><b>' + OFFER.feeTxt + '</b></div>' +
+      '<div class="lx-row"><span>You keep on every sale</span><b>' + OFFER.keepTxt + '</b></div>' +
+      '<div class="lx-row"><span>Live classes</span><b>' + OFFER.live + ' hrs/month</b></div></div>';
     setPlan(1);
-    h.toast('Payment received', 'Growth plan is active on your studio', 'card', true);
+    h.toast('Payment received', OFFER.n + ' plan is active on your studio', 'card', true);
     await h.wait(2300);
   }
 
@@ -441,8 +448,8 @@
       '<div class="lx-kpis">' +
         '<div class="lx-kpi" id="q1"><div class="k">Sales</div><div class="v" id="v1">₹0</div><span class="d" id="d1">no sales yet</span></div>' +
         '<div class="lx-kpi" id="q2"><div class="k">Enrolments</div><div class="v" id="v2">0</div><span class="d" id="d2">—</span></div>' +
-        '<div class="lx-kpi acc" id="q3"><div class="k">You keep · 92.5%</div><div class="v" id="v3">₹0</div><span class="d">to your bank, T+3</span></div>' +
-        '<div class="lx-kpi" id="q4"><div class="k">Platform fee · 7.5%</div><div class="v" id="v4">₹0</div><span class="d">flat, per sale</span></div>' +
+        '<div class="lx-kpi acc" id="q3"><div class="k">You keep · ' + OFFER.keepTxt + '</div><div class="v" id="v3">₹0</div><span class="d">to your bank, T+3</span></div>' +
+        '<div class="lx-kpi" id="q4"><div class="k">Platform fee · ' + OFFER.feeTxt + '</div><div class="v" id="v4">₹0</div><span class="d">flat, per sale</span></div>' +
       '</div>' +
       '<div class="lx-dg2"><div class="lx-card lx-chart"><div class="hd"><b>Sales</b><span>sharmaphysics.in</span></div>' +
         '<svg viewBox="0 0 400 180" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="lxGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C58B43" stop-opacity=".28"/><stop offset="1" stop-color="#C58B43" stop-opacity="0"/></linearGradient></defs>' +
@@ -469,8 +476,8 @@
       if(i === BUYERS.length - 1) h.toast(n + ' students enrolled', 'Every sale lands in your studio', 'rupee', true);
       await Promise.all([
         h.count(q('#v1'), prev, now, 900, inr),
-        h.count(q('#v3'), prev * .925, now * .925, 900, inr),
-        h.count(q('#v4'), prev * .075, now * .075, 900, inr)
+        h.count(q('#v3'), prev * (1 - OFFER.fee), now * (1 - OFFER.fee), 900, inr),
+        h.count(q('#v4'), prev * OFFER.fee, now * OFFER.fee, 900, inr)
       ]);
       await h.wait(i === 0 ? 1100 : 650);
       ['#q1', '#q2', '#q3'].forEach(function(s){ q(s).classList.remove('hl'); });
