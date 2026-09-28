@@ -9,6 +9,7 @@
       stage = root.querySelector('.lx-stage'),
       view = root.querySelector('.lx-view'),
       learn = root.querySelector('.lx-learn'),
+      login = root.querySelector('.lx-login'),
       urlBox = root.querySelector('.lx-url'),
       urlTxt = root.querySelector('.lx-url-t'),
       cur = root.querySelector('.lx-cursor'),
@@ -160,7 +161,7 @@
     urlBox.classList.remove('chg'); void urlBox.offsetWidth; urlBox.classList.add('chg');
   }
   function studio(k, u){
-    learn.classList.remove('on'); urlBox.classList.remove('st');
+    learn.classList.remove('on'); login.classList.remove('on', 'pop'); urlBox.classList.remove('st');
     navs.forEach(function(n){ n.classList.toggle('on', n.getAttribute('data-k') === k); });
     setUrl(u);
   }
@@ -186,8 +187,37 @@
     {n:'Growth', p:'12,999', f:'7.5', k:'92.5', l:['Your own domain', 'Live classes · 10 hrs/month', 'Marketplace discovery']},
     {n:'Pro', p:'24,999', f:'5', k:'95', l:['Your own domain', 'Live classes · 15 hrs/month', 'Premium website template']}
   ];
+  var GLOGO = '<svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>';
   async function scPlan(h){
-    studio('billing', 'studio.allcoaching.in/billing'); setPlan(0);
+    studio('billing', 'studio.allcoaching.in/login'); setPlan(0);
+    /* 1a · one-tap Google sign-in, then straight to payment */
+    var logo = (q('.lx-brand img') || {}).src || '';
+    login.innerHTML =
+      '<div class="lx-lgc">' +
+        '<div class="lx-lgb"><img src="' + logo + '" alt=""/><b>AllCoaching</b><sup>STUDIO</sup></div>' +
+        '<h3 class="lx-h">Launch your academy.</h3>' +
+        '<p class="lx-p">Sign in with one tap. No forms, no sales call.</p>' +
+        '<div class="lx-gbtn" id="gB">' + GLOGO + 'Continue with Google</div>' +
+        '<p class="lx-fine">By continuing you agree to the educator terms</p>' +
+      '</div>' +
+      '<div class="lx-gpop" id="gP">' +
+        '<div class="gh">' + GLOGO + 'Sign in with Google</div>' +
+        '<h4>Choose an account</h4><p>to continue to AllCoaching Studio</p>' +
+        '<div class="acct" id="gA"><span class="lx-av">NS</span><div><b>Neha Sharma</b><span>neha.sharma@gmail.com</span></div></div>' +
+        '<div class="acct alt"><span class="lx-av">+</span><div><b>Use another account</b></div></div>' +
+      '</div>';
+    login.classList.add('on');
+    await h.wait(700);
+    var gB = login.querySelector('#gB');
+    await h.click(gB, 800);
+    login.classList.add('pop'); login.querySelector('#gP').classList.add('on');
+    await h.wait(650);
+    var gA = login.querySelector('#gA');
+    await h.click(gA, 600);
+    gA.classList.add('busy');
+    await h.wait(700);
+    login.classList.remove('on', 'pop');
+    setUrl('studio.allcoaching.in/billing');
     mount(
       '<div class="lx-eb">Billing</div><h3 class="lx-h">Choose your plan.</h3>' +
       '<p class="lx-p">Annual plans · prices exclude GST · every plan includes your own domain</p>' +
@@ -205,26 +235,19 @@
         '<div class="lx-row tot"><span>Total today</span><b>₹15,338.82</b></div>' +
         '<span class="lx-lbl mt">Pay with</span>' +
         '<div class="lx-pm"><span class="on">UPI</span><span>Card</span><span>Netbanking</span></div>' +
-        '<div class="lx-in mt" id="pUpi"><span class="v ph">yourname@upi</span></div>' +
+        '<div class="lx-in mt"><span>neha.sharma@gmail.com</span><span class="lx-gtag">' + GLOGO + 'Signed in</span></div>' +
         '<div class="lx-btn acc lx-pay mt">Pay ₹15,338.82</div>' +
         '<p class="lx-fine">Renews yearly · upgrade anytime, unused value is credited</p>' +
       '</div></div>'
     );
     var cards = view.querySelectorAll('.lx-pl'), g = cards[1];
     await h.wait(900);
-    await h.move(cards[0], 900); await h.wait(350);
-    await h.move(cards[2], 700); await h.wait(350);
-    await h.move(g, 600); await h.wait(250);
     var gb = g.querySelector('.lx-btn');
-    await h.click(gb, 500);
+    await h.click(gb, 700);
     g.classList.add('sel'); h.hover(null);
     await h.wait(250);
     q('.lx-view .lx-scrim').classList.add('on'); q('.lx-drawer').classList.add('on');
     await h.wait(900);
-    var upi = q('#pUpi');
-    await h.click(upi, 700); h.focus(upi);
-    await h.type(upi.querySelector('.v'), 'neha.sharma@upi');
-    h.focus(null);
     var pay = q('.lx-pay');
     await h.click(pay, 600);
     pay.innerHTML = '<span class="lx-spin"></span>Confirming payment';
@@ -375,7 +398,7 @@
           '<div class="lx-lhero"><div><span class="lx-leb">Course · JEE Main</span><h4>' + TITLE + '</h4>' +
             '<div class="lx-lby"><span class="lx-av">NS</span><div><b>Neha Sharma</b><span>Physics · Sharma Physics</span></div></div>' +
             '<div class="lx-lmeta"><span>3 lessons</span><span>Formula sheet</span><span>12 months access</span></div></div>' +
-            '<div class="lx-buy"><div class="pr">₹4,999</div><span class="s">12 months access · watch on web and app</span>' +
+            '<div class="lx-buy"><div class="pr">₹4,999</div><span class="s">12 months access · also on the AllCoaching app</span>' +
             '<div class="lx-btn acc" id="lB">Enrol now</div><span class="s2">' + ic('lock') + 'Secure checkout · UPI &amp; cards</span></div></div>' +
           '<div class="lx-lsec"><span class="lx-lbl">Course content</span>' +
             FILES.map(function(f, i){ return '<div class="lx-less"><span class="pl">' + ic(i < 2 ? 'play' : 'file') + '</span><b>' + f[1].replace(/\.(mp4|pdf)$/, '') + '</b><span>' + (i < 2 ? ['42:10', '55:36'][i] : 'PDF') + '</span></div>'; }).join('') +
@@ -456,10 +479,10 @@
   }
 
   var SC = [
-    {t:12500, run:scPlan, cap:'<b>Choose a plan.</b> Pick the annual plan that fits and pay by UPI or card. It is active the moment the payment clears.'},
+    {t:11500, run:scPlan, cap:'<b>Sign in with Google, then pay.</b> One tap to log in, pick a plan at its real price and pay by UPI or card. Active the moment it clears.'},
     {t:15500, run:scCourse, cap:'<b>Create your course.</b> Name it, upload lessons, set your price and publish. The student preview updates as you type.'},
     {t:10500, run:scDomain, cap:'<b>Connect your domain.</b> Type a domain you own. Verification and the HTTPS certificate are tracked right in the studio.'},
-    {t:21000, run:scSell, cap:'<b>Start selling.</b> A student finds the course on your domain and pays by UPI. The sale lands in your studio, with your share shown upfront.'}
+    {t:21000, run:scSell, cap:'<b>Start selling.</b> Students find your course on the AllCoaching app (Android, iOS, web) or your own domain, and pay by UPI. The sale lands in your studio.'}
   ];
 
   /* ── chapters / progress ───────────────────────────────── */
