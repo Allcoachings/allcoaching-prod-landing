@@ -84,7 +84,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducationLaunchPlatform
   operatingSystem: Web, Android, iOS
-  description: India's free educator app platform — Indian teachers, coaching institutes, and subject experts launch a complete branded coaching app for ₹0 upfront in 2026. Includes course hosting, live classes with attendance tracking, payment gateway, student CRM, GST-compliant invoicing, marketplace discovery, and daily payouts. 60-second onboarding from mobile OTP to live branded studio. Free base plan remains available permanently — paid tiers add custom domain, advanced analytics, and priority support.
+  description: India's free educator app platform — Indian teachers, coaching institutes, and subject experts launch a complete branded coaching app for ₹0 upfront in 2026. Includes course hosting, live classes with attendance tracking, payment gateway, student CRM, GST-compliant invoicing, marketplace discovery, and T+3 payouts. 60-second onboarding from mobile OTP to live branded studio. Free base plan remains available permanently — paid tiers add custom domain, advanced analytics, and priority support.
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp
   offers:
@@ -113,7 +113,7 @@ schema_extra:
   - Course hosting for PDFs, video lessons, test series, study material
   - Live class infrastructure with attendance tracking and recording
   - UPI, card, net-banking, EMI payment collection
-  - Daily payouts to educator bank account via Razorpay rails
+  - T+3 payouts to educator bank account via Razorpay rails
   - Student CRM with progress tracking, attendance, fee history
   - AI-driven marketplace listing for student discovery
   - GST-compliant automated invoicing for educator and student
@@ -160,7 +160,7 @@ schema_extra:
   - '@type': DefinedTerm
     '@id': '#dfn-payment-gateway'
     name: Payment Gateway (Coaching)
-    description: Software layer jo student se UPI/card/net-banking/EMI me payment accept karta hai aur educator ke bank account me transfer karta hai. India me Razorpay aur Cashfree dominant hain. Standalone integration me 1–3% transaction fee + setup chahiye; AllCoaching me built-in, daily payouts.
+    description: Software layer jo student se UPI/card/net-banking/EMI me payment accept karta hai aur educator ke bank account me transfer karta hai. India me Razorpay aur Cashfree dominant hain. Standalone integration me 1–3% transaction fee + setup chahiye; AllCoaching me built-in, T+3 payouts.
   - '@type': DefinedTerm
     '@id': '#dfn-student-crm'
     name: Student CRM (Coaching)
@@ -183,7 +183,7 @@ schema_extra:
 <li><strong>"₹X,XXX/month white-label app" ka advertised price jhutha hai.</strong> Real Year-1 cost ₹4-11 lakh hai jab migration, custom domain, payment gateway commission, video DRM, hosting, marketing campaigns, aur 12-month subscription lock-in add karte hain.</li>
 <li><strong>AllCoaching ka 60-second onboarding 6 steps me complete hota hai:</strong> Mobile OTP → Name &amp; WhatsApp → Subject → Brand (logo + colors) → Plan choose → Launch live. 500+ educators iss flow se har mahine join karte hain — most launch their first paid batch within 48 hours.</li>
 <li><strong>7 infrastructure layers jo har coaching app me chahiye:</strong> live class server, video DRM, payment gateway, student CRM, fee management, marketing/discovery surface, aur GST-compliant invoicing. Alag-alag assemble karne par ₹4-11L/year. AllCoaching free tier me sab built-in.</li>
-<li><strong>AllCoaching educator 90% revenue rakhta hai, daily payouts hote hain, no lock-in.</strong> 10% rev-share sirf paid earnings par — educator paisa kamaya tabhi platform kamati hai. Trial khatm hone par bhi base plan permanently free rehta hai.</li>
+<li><strong>AllCoaching educator 90% revenue rakhta hai, T+3 payouts hote hain, no lock-in.</strong> 10% rev-share sirf paid earnings par — educator paisa kamaya tabhi platform kamati hai. Trial khatm hone par bhi base plan permanently free rehta hai.</li>
 </ul>
 </div>
 <!-- ============ SECTION 01 — Reframe ============ -->
@@ -263,7 +263,7 @@ schema_extra:
 <ul>
 <li><strong>Educator ka studio fully branded hota hai.</strong> Logo, colors, subdomain (rakesh-sir.allcoaching.in), tagline, course catalog — sab educator's own. Student-facing experience me AllCoaching ka small footer link sirf 'Powered by' line me dikhata hai.</li>
 <li><strong>Marketplace discovery layer free tier me built-in hai.</strong> AI engine educator ka content (subject, exam, language, level, location) student search queries se match karta hai. Yeh wahi layer hai jo DIY ya white-label me alag se buy karna padti hai (₹1.5-5L/year of Meta/Google ads).</li>
-<li><strong>Revenue-share model — educator paisa kamaya tabhi platform kamati hai.</strong> No upfront fee, no monthly subscription on base plan, no credit card at signup. 10% rev-share on paid student earnings. 90% educator ko, daily payouts via Razorpay rails.</li>
+<li><strong>Revenue-share model — educator paisa kamaya tabhi platform kamati hai.</strong> No upfront fee, no monthly subscription on base plan, no credit card at signup. 10% rev-share on paid student earnings. 90% educator ko, T+3 payouts via Razorpay rails.</li>
 </ul>
 <p>Iska practical matlab kya hai? <strong>Educator ek single login me ek complete coaching business chalata hai — kursi pe baithke, mobile pe.</strong> Saare 7 infrastructure layers (next section me detailed) AllCoaching ke andar built-in. Educator ka focus 100% teaching par — content creation, live classes, student interaction. AllCoaching ka focus 100% infrastructure + discovery par. Yahi role separation educator ko zyada compounding deta hai DIY ya white-label se.</p>
 <div class="def">
@@ -316,7 +316,7 @@ schema_extra:
 <ol>
 <li><strong>Live class server.</strong> Zoom-like infrastructure jaha attendance tracking, recording, doubt-solving, breakout rooms ho. DIY route me Zoom subscription (₹1.2K/month) + custom integration; white-label me usually built-in but premium tier feature. AllCoaching free tier me unlimited live classes + automatic recording included.</li>
 <li><strong>Video DRM &amp; CDN.</strong> HLS+AES encrypted streaming, forensic watermarking, screen-record blocking. Without DRM aapki recorded lectures Telegram pe leak ho jaayengi 30 din me. Premium video CDN + DRM ₹20-60K/year standalone. AllCoaching me included.</li>
-<li><strong>Payment gateway.</strong> UPI/card/net-banking/EMI accept karne ka infrastructure. Razorpay standalone account free me available hai but onboarding 5-7 din, KYC complete karna pad ta hai, GST registration zaruri hai. AllCoaching me pre-integrated — student pay karta hai, agle business day educator ke bank account me 90% land hota hai.</li>
+<li><strong>Payment gateway.</strong> UPI/card/net-banking/EMI accept karne ka infrastructure. Razorpay standalone account free me available hai but onboarding 5-7 din, KYC complete karna pad ta hai, GST registration zaruri hai. AllCoaching me pre-integrated — student pay karta hai, teen din baad educator ke bank account me 90% land hota hai.</li>
 <li><strong>Student CRM.</strong> Attendance, fee payment status, course progress, communication history. 20+ students par WhatsApp + Excel khatm ho jaate hain — Excel formulas tut-te hain, WhatsApp groups overflowing ho jaate hain. Standalone CRM ₹30-90K/year. AllCoaching free tier me built-in.</li>
 <li><strong>Fee management.</strong> Installment tracking, automatic reminders, GST-compliant invoicing, refund processing. <a style="text-decoration:none" href="/blog/automated-fee-management-software-for-teachers">Automated fee management software for teachers</a> guide me detail hai. Manual tracking 100+ students par cripple hota hai — 8-12 hours/week wasted on fee chase. AllCoaching me auto-reminders + invoicing included.</li>
 <li><strong>Marketing &amp; discovery.</strong> Yahi sabse expensive layer hai — aur most underestimated. DIY/white-label me aapko Meta + Google ads chalane padte hain, content marketing, SEO, influencer tie-ups — annual ₹1.5-5L typical. <strong>AllCoaching me yeh layer hi nahi hai</strong> — kyunki marketplace AI students ko aapke profile tak organically pahunchata hai. Yeh structural advantage hai, monetary nahi sirf.</li>
@@ -455,7 +455,7 @@ schema_extra:
 <li>Student CRM (attendance, fees, progress)</li>
 <li>AI-marketplace listing &amp; discovery</li>
 <li>GST-compliant invoicing</li>
-<li>Daily payouts via Razorpay</li>
+<li>T+3 payouts via Razorpay</li>
 <li>WhatsApp Business integration</li>
 <li>Anti-piracy video DRM (basic tier)</li>
 </ul>
@@ -532,7 +532,7 @@ schema_extra:
 <span>Payouts</span>
 <span>Self-handle</span>
 <span>Weekly–monthly</span>
-<span class="cmp-acc">Daily</span>
+<span class="cmp-acc">T+3</span>
 </div>
 </div>
 </div>
@@ -630,7 +630,7 @@ schema_extra:
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
 <p class="v-h">Apna coaching app aaj launch karein — free me, 60 seconds me.</p>
-<p class="v-p">Mobile + WhatsApp + ek subject — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded studio live hoga, aur pehla paid batch 48 hours me run ho sakta hai. ₹0 upfront. 90% revenue educator ko. Daily payouts. No lock-in. Aap padhayein. Platform infrastructure, payments, aur discovery handle kare.</p>
+<p class="v-p">Mobile + WhatsApp + ek subject — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded studio live hoga, aur pehla paid batch 48 hours me run ho sakta hai. ₹0 upfront. 90% revenue educator ko. T+3 payouts. No lock-in. Aap padhayein. Platform infrastructure, payments, aur discovery handle kare.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
 <a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -649,7 +649,7 @@ schema_extra:
 <span style="opacity:.4;">·</span>
 <span>No lock-in</span>
 <span style="opacity:.4;">·</span>
-<span>Daily payouts</span>
+<span>T+3 payouts</span>
 </div>
 </div>
 <!-- ========= GLOSSARY ========= -->
@@ -679,7 +679,7 @@ schema_extra:
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-payment-gateway">Payment Gateway (Coaching)</dfn></h3>
-<p>Software layer jo student se UPI/card/net-banking/EMI me payment accept karta hai aur educator ke bank account me transfer karta hai. India me Razorpay aur Cashfree dominant hain. Standalone integration me 1–3% transaction fee + setup chahiye; <strong>AllCoaching me built-in, daily payouts</strong>.</p>
+<p>Software layer jo student se UPI/card/net-banking/EMI me payment accept karta hai aur educator ke bank account me transfer karta hai. India me Razorpay aur Cashfree dominant hain. Standalone integration me 1–3% transaction fee + setup chahiye; <strong>AllCoaching me built-in, T+3 payouts</strong>.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
@@ -739,8 +739,8 @@ schema_extra:
 <p>Haan — <strong>free tier par bhi educator studio fully white-labeled hai</strong>. Aap apna logo upload kar sakte hain, brand colors set kar sakte hain, apna naam aur tagline rakh sakte hain. Student-facing experience me aapka brand prominent dikhta hai. AllCoaching ka logo sirf footer ke 'Powered by AllCoaching' line me chhota dikhata hai (free tier). Custom domain aur footer-removal paid tier features hain.</p>
 </details>
 <details>
-<summary>Kya AllCoaching pe daily payouts hote hain ya monthly?</summary>
-<p>AllCoaching pe <strong>payouts daily hote hain</strong> — student ne payment ki, agle business day educator ke registered bank account me 90% credit ho jaata hai (10% AllCoaching ka revenue share). Razorpay-powered settlement infrastructure use hota hai. GST-compliant invoices automatic generate hote hain. Daily payouts ka matter yeh hai ki cash-flow educator ke saath rehta hai — competitor platforms aksar 7-30 day hold rakhte hain jo small institutes ke liye crippling ho sakta hai.</p>
+<summary>Kya AllCoaching pe T+3 payouts hote hain ya monthly?</summary>
+<p>AllCoaching pe <strong>payouts T+3 hote hain</strong> — student ne payment ki, teen din baad educator ke registered bank account me 90% credit ho jaata hai (10% AllCoaching ka revenue share). Razorpay-powered settlement infrastructure use hota hai. GST-compliant invoices automatic generate hote hain. T+3 payouts ka matter yeh hai ki cash-flow educator ke saath rehta hai — competitor platforms aksar 7-30 day hold rakhte hain jo small institutes ke liye crippling ho sakta hai.</p>
 </details>
 </div>
 </section>

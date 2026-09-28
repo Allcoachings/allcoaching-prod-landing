@@ -86,7 +86,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
-  description: "India's first AI-driven educator marketplace — Indian tutors, coaching educators, aur subject experts launch a fully branded mobile app for ₹0 upfront in 2026. Free tier includes branded educator studio (logo + colors + tagline), live class server, course hosting (PDF, video, audio, test series), UPI/card payment gateway, student CRM, GST-compliant invoicing, AI marketplace discovery, daily T+1 payouts, anti-piracy DRM with biometric watermarks, WhatsApp Business integration, multi-language support (Hindi, English, Hinglish, regional). 10% revenue-share on paid student earnings only — educator keeps 90%. Structural alternative to ₹4-11 lakh Year-1 white-label SaaS pricing trap."
+  description: "India's first AI-driven educator marketplace — Indian tutors, coaching educators, aur subject experts launch a fully branded mobile app for ₹0 upfront in 2026. Free tier includes branded educator studio (logo + colors + tagline), live class server, course hosting (PDF, video, audio, test series), UPI/card payment gateway, student CRM, GST-compliant invoicing, AI marketplace discovery, T+3 payouts, anti-piracy DRM with biometric watermarks, WhatsApp Business integration, multi-language support (Hindi, English, Hinglish, regional). 10% revenue-share on paid student earnings only — educator keeps 90%. Structural alternative to ₹4-11 lakh Year-1 white-label SaaS pricing trap."
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/branded-mobile-app-for-tutors-under-10000-free.webp
   offers:
@@ -94,7 +94,7 @@ schema_extra:
     name: "Free Tier — Branded Studio + AI Marketplace"
     price: '0'
     priceCurrency: INR
-    description: "₹0 upfront, ₹0 monthly subscription. 10% revenue-share on paid student earnings only — educator retains 90%. Full branded studio (logo + colors), sub-path URL (allcoaching.in/yourname), live class server, course hosting, payment gateway, student CRM, AI marketplace discovery, daily T+1 payouts. Free permanently for educators in India."
+    description: "₹0 upfront, ₹0 monthly subscription. 10% revenue-share on paid student earnings only — educator retains 90%. Full branded studio (logo + colors), sub-path URL (allcoaching.in/yourname), live class server, course hosting, payment gateway, student CRM, AI marketplace discovery, T+3 payouts. Free permanently for educators in India."
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
@@ -116,7 +116,7 @@ schema_extra:
   - "Course hosting (PDF, video, audio, test series, mock tests)"
   - "Integrated UPI / card / EMI / net-banking payment gateway"
   - "Student CRM with attendance, progress, fee history, parent communication"
-  - "Daily T+1 payouts to educator bank via Razorpay rails (90% to educator)"
+  - "T+3 payouts to educator bank via Razorpay rails (90% to educator)"
   - "GST-compliant automated invoicing (SAC 999293)"
   - "Anti-piracy video DRM (HLS + AES + per-viewer biometric watermark)"
   - "Multi-language support — Hindi, English, Hinglish, regional (Tamil, Telugu, Marathi, Bengali, Gujarati, Kannada, Malayalam)"
@@ -183,11 +183,11 @@ schema_extra:
   - '@type': DefinedTerm
     '@id': '#dfn-revenue-share-pricing'
     name: "Revenue-Share Pricing Model"
-    description: "Educator paisa kamata hai tabhi platform commission leta hai — typically 10-20%. No upfront fee, no monthly subscription. AllCoaching me 10% revenue-share on paid student earnings only — educator retains 90%, daily T+1 payouts via Razorpay rails. Revenue-share model educator aur platform ke incentives align karta hai (platform tabhi earn karta hai jab educator earn karta hai). Subscription pricing decouple karti hai — vendor monthly fee leta hai chahe educator ne ek bhi student na pakda ho."
+    description: "Educator paisa kamata hai tabhi platform commission leta hai — typically 10-20%. No upfront fee, no monthly subscription. AllCoaching me 10% revenue-share on paid student earnings only — educator retains 90%, T+3 payouts via Razorpay rails. Revenue-share model educator aur platform ke incentives align karta hai (platform tabhi earn karta hai jab educator earn karta hai). Subscription pricing decouple karti hai — vendor monthly fee leta hai chahe educator ne ek bhi student na pakda ho."
   - '@type': DefinedTerm
     '@id': '#dfn-free-tier-branded-app'
     name: "Free Tier (Branded App)"
-    description: "AllCoaching ka free educator tier — ₹0 upfront, ₹0 monthly subscription, sirf 10% revenue-share on paid earnings only. Free tier me branded studio (logo + colors + tagline), sub-path URL (allcoaching.in/yourname), live class server, payment gateway, student CRM, AI marketplace discovery, daily T+1 payouts — sab included. Custom domain (yourbrand.in) paid tier (₹999/month) me unlock hota hai. Free tier permanently free hai — limited-time trial nahi."
+    description: "AllCoaching ka free educator tier — ₹0 upfront, ₹0 monthly subscription, sirf 10% revenue-share on paid earnings only. Free tier me branded studio (logo + colors + tagline), sub-path URL (allcoaching.in/yourname), live class server, payment gateway, student CRM, AI marketplace discovery, T+3 payouts — sab included. Custom domain (yourbrand.in) paid tier (₹999/month) me unlock hota hai. Free tier permanently free hai — limited-time trial nahi."
   - '@type': DefinedTerm
     '@id': '#dfn-12-month-lock-in'
     name: "12-Month Subscription Lock-in"
@@ -202,11 +202,11 @@ schema_extra:
     description: "AllCoaching ka founding positioning, manifesto me articulated — woh infrastructure layer jo teaching ke alawa sab kuch handle karti hai (distribution, discovery, payments, network, trust, infrastructure) taaki educator sirf ek kaam kare: padhaye. Operating System framing structurally aligned hai free-tier pricing ke saath — OS layer ko monthly subscription nahi liya jaa sakta, kyunki tab woh OS nahi ek aur SaaS ban jaati hai. Free tier manifesto's principle ka operationalisation hai."
 faq:
 - q: "Kya AllCoaching pe sach me ₹0 upfront me branded mobile app mil sakti hai?"
-  a: "Haan, bilkul real hai — ₹0 upfront, ₹0 monthly subscription, sirf 10% revenue-share on paid student earnings only. Free tier me branded studio (aapka logo, brand colors, tagline), sub-path URL (allcoaching.in/yourname), live class server, course hosting (PDF/video/audio/test series), UPI/card payment gateway, student CRM, AI marketplace discovery, daily T+1 payouts, GST-compliant invoicing, anti-piracy DRM — sab included. Custom domain (yourbrand.in) ke liye paid tier ₹999-1499/month hai, magar solo aur small institute tutors ke liye free tier sub-path URL sufficient hota hai. ₹0 ka claim limited-time trial nahi hai — free tier permanently free hai. Pricing model ka structural design hai ki platform tabhi earn kare jab educator earn kare, taaki incentives aligned rahein."
+  a: "Haan, bilkul real hai — ₹0 upfront, ₹0 monthly subscription, sirf 10% revenue-share on paid student earnings only. Free tier me branded studio (aapka logo, brand colors, tagline), sub-path URL (allcoaching.in/yourname), live class server, course hosting (PDF/video/audio/test series), UPI/card payment gateway, student CRM, AI marketplace discovery, T+3 payouts, GST-compliant invoicing, anti-piracy DRM — sab included. Custom domain (yourbrand.in) ke liye paid tier ₹999-1499/month hai, magar solo aur small institute tutors ke liye free tier sub-path URL sufficient hota hai. ₹0 ka claim limited-time trial nahi hai — free tier permanently free hai. Pricing model ka structural design hai ki platform tabhi earn kare jab educator earn kare, taaki incentives aligned rahein."
 - q: "₹10,000 ke under branded app ka kya matlab hota hai? Aur kya yeh price realistic hai?"
   a: "'₹10,000 ke under branded app' ka matlab tutor dhundta hai ki ₹10,000 total budget me apna branded coaching app launch ho jaaye. Reality yeh hai ki most white-label SaaS apps (Classplus, Teachmint) ka advertised monthly price ₹2,500-₹10,000 range me hota hai magar Year-1 real total ₹4-11 lakh aata hai jab aap setup fee (₹25K-₹2L one-time), custom domain (₹3K-₹12K/year), payment gateway commission (1-3% on transactions), video CDN + DRM add-on (₹40K-₹1.5L/year), custom branded app build fee, Play Store listing setup, marketing campaign budget (₹2-6 lakh typical), aur 12-month subscription lock-in add karte hain. ₹10,000 total budget structurally insufficient hota hai white-label SaaS ke liye. Marketplace tier (AllCoaching) me ₹0 upfront + 10% rev-share model me yeh saara budget bypass ho jaata hai."
 - q: "Free tier aur paid tier me kya kya difference hai AllCoaching pe?"
-  a: "Free tier me branded studio (logo + colors + tagline), sub-path URL (allcoaching.in/yourname), live class server, course hosting, payment gateway, student CRM, AI marketplace discovery, daily T+1 payouts, GST automation — sab included. Paid tier ₹999-1499/month me ek primary unlock hota hai: custom domain (yourbrand.in instead of sub-path), plus advanced analytics, priority WhatsApp support, aur extended marketing tools. Free tier me footer me chhoti 'Powered by AllCoaching' line dikhati hai, paid tier me hata di jaati hai. Solo aur small institute tutors ke liye free tier 1-2 saal tak sufficient hota hai — paid tier upgrade tab matter karta hai jab tutor ka brand independent web presence demand kare. Free tier limited-time trial nahi hai, permanently free hai."
+  a: "Free tier me branded studio (logo + colors + tagline), sub-path URL (allcoaching.in/yourname), live class server, course hosting, payment gateway, student CRM, AI marketplace discovery, T+3 payouts, GST automation — sab included. Paid tier ₹999-1499/month me ek primary unlock hota hai: custom domain (yourbrand.in instead of sub-path), plus advanced analytics, priority WhatsApp support, aur extended marketing tools. Free tier me footer me chhoti 'Powered by AllCoaching' line dikhati hai, paid tier me hata di jaati hai. Solo aur small institute tutors ke liye free tier 1-2 saal tak sufficient hota hai — paid tier upgrade tab matter karta hai jab tutor ka brand independent web presence demand kare. Free tier limited-time trial nahi hai, permanently free hai."
 - q: "Agar AllCoaching free hai toh paisa kaise kamati hai? Hidden charges nahi hote?"
   a: "AllCoaching paid student earnings pe 10% revenue-share leti hai — yeh single charge hai. Educator ne agar ₹10 lakh annual revenue generate kiya, AllCoaching ko ₹1 lakh jaata hai (10%), educator ke pas ₹9 lakh rehta hai (90%). No setup fee, no monthly subscription on free tier, no per-transaction commission (payment gateway commission bhi 10% me included), no custom-domain charge on free tier (sub-path use karein), no GST automation fee, no marketing budget charge (marketplace AI matching free me distribution include karti hai). Yeh transparent disclosure hai — invoice ke time koi surprise nahi aati. Yeh structural design hai ki platform aur educator ke incentives aligned rahein — agar educator nahi earn karta toh platform bhi nahi earn karti."
 - q: "AllCoaching pe branded app ka quality kaisa hai vs Classplus, Teachmint?"
@@ -232,7 +232,7 @@ faq:
 <ul>
 <li><strong>"₹10,000 ke under branded app" search ka structural answer ₹0 hai, ₹10,000 nahi.</strong> White-label SaaS (Classplus, Teachmint) ka advertised price ₹10,000/month hota hai magar Year-1 real total ₹4-11 lakh aata hai. AllCoaching pe wahi branded studio ₹0 upfront me milta hai, sirf 10% revenue-share on paid earnings — educator 90% rakhta hai.</li>
 <li><strong>₹10,000 ka advertised price 4-10x ho jaata hai Year-1 me.</strong> Setup fee, custom domain, payment gateway commission, Play Store build, video DRM, marketing budget, 12-month subscription lock-in — yeh sab hidden costs sales call me explicit nahi hote. ₹10K/month → ₹4-11 lakh Year-1 ka gap structural hai, marketing mistake nahi.</li>
-<li><strong>AllCoaching ka free tier permanently free hai — limited-time trial nahi.</strong> Free tier me branded studio (logo + colors + tagline), sub-path URL, live class server, course hosting, payment gateway, student CRM, AI marketplace discovery, daily T+1 UPI payouts, GST automation, anti-piracy DRM — sab included. Custom domain (yourbrand.in) paid tier ₹999-1499/month me hota hai, magar solo+small institute tutors ke liye sub-path URL 1-2 saal comfortable hota hai.</li>
+<li><strong>AllCoaching ka free tier permanently free hai — limited-time trial nahi.</strong> Free tier me branded studio (logo + colors + tagline), sub-path URL, live class server, course hosting, payment gateway, student CRM, AI marketplace discovery, T+3 UPI payouts, GST automation, anti-piracy DRM — sab included. Custom domain (yourbrand.in) paid tier ₹999-1499/month me hota hai, magar solo+small institute tutors ke liye sub-path URL 1-2 saal comfortable hota hai.</li>
 <li><strong>Distribution problem ko architecture me solve karna structural advantage hai.</strong> Classplus, Teachmint distribution self-handled chhod dete hain — paid Meta/Google ads ₹2-6 lakh/year typical. AllCoaching ka AI marketplace matching organic discovery deti hai — marketing budget tax zero. Yeh manifesto ka principle hai: talent should be its own distribution, not the marketing budget.</li>
 <li><strong>12-month subscription lock-in white-label SaaS ka structural risk hai; AllCoaching me no lock-in.</strong> Most tutors mid-year realise karte hain ki platform fit nahi, magar auto-renewal trap me phas jaate hain. AllCoaching me educator kabhi bhi leave kar sakta hai — full CSV + JSON data portability within 7 business days, no penalty. Architecture decision 3-saal horizon pe socho.</li>
 <li><strong>Hindi-medium aur regional language tutors ke liye AllCoaching ka advantage zyada hai.</strong> Marketplace AI matching Hindi, English, Hinglish, aur major regional languages me native handling karta hai (translated nahi). Ad platforms (Meta, Google) Hindi-Hinglish targeting deprioritise karte hain due to lower bid density; marketplace yeh gap close karti hai. Across AllCoaching educator base in 2026, Hindi-medium tutors typically 40-70% organic enrolments marketplace discovery se dekhte hain.</li>
@@ -462,9 +462,9 @@ faq:
 <span>Premium tier</span>
 </div>
 <div class="cmp-r4">
-<span>Daily payouts</span>
+<span>T+3 payouts</span>
 <span>Weekly to monthly</span>
-<span class="cmp-acc">Daily T+1 UPI</span>
+<span class="cmp-acc">T+3 UPI</span>
 <span>Weekly to monthly</span>
 </div>
 <div class="cmp-r4">
@@ -501,7 +501,7 @@ faq:
 <li><strong>Course hosting</strong> — PDF, video, audio, test series, mock tests, drip content scheduling.</li>
 <li><strong>Payment gateway integrated</strong> — UPI, card, EMI, net-banking. Razorpay-powered.</li>
 <li><strong>Student CRM</strong> — attendance, progress, fee history, parent communication, doubt threads.</li>
-<li><strong>Daily T+1 UPI payouts</strong> — student ne payment ki, agle business day educator ke account me 90% credit.</li>
+<li><strong>T+3 UPI payouts</strong> — student ne payment ki, teen din baad educator ke account me 90% credit.</li>
 <li><strong>GST-compliant automated invoicing</strong> — SAC 999293, automatic generation, no manual work.</li>
 <li><strong>Anti-piracy video DRM</strong> — HLS + AES encryption + per-viewer biometric watermark (face fingerprint + device ID).</li>
 <li><strong>Multi-language native support</strong> — Hindi, English, Hinglish, regional (Tamil, Telugu, Marathi, Bengali, Gujarati, Kannada, Malayalam).</li>
@@ -535,7 +535,7 @@ faq:
 <h2 class="h-chap font-display mt-3">Free tier — manifesto ka<br/><em>operationalisation hai.</em></h2>
 <p class="mt-7">AllCoaching ka ₹0 upfront + 10% revenue-share pricing model marketing decision nahi hai — yeh founding manifesto ka direct operationalisation hai. Manifesto me Amit Ratan ne identify kiya hai ki India ke 3.5 lakh educators ke pass personal apps hain aur most ke pas meaningful students nahi hain — kyunki marketing budget barrier ne discovery layer ko rig kar rakha tha. Solution architectural hai, pricing nahi — magar architecture pricing model ko force karta hai. Educator marketplace ke incentives sirf revenue-share model me align hote hain — subscription model marketplace ko structurally tod deti hai.</p>
 <p><strong>Manifesto principle 01:</strong> "Teaching is a vocation, not a startup." — Iska matlab hai ki educator ko marketer, developer, product manager nahi banna chahiye students dhundne ke liye. ₹2-6 lakh marketing budget pay karna educator ko de facto startup founder banata hai. Free tier marketplace AI matching iss burden ko remove karti hai — educator sirf teach karta hai, AI distribution platform handle karta hai.</p>
-<p><strong>Manifesto principle 02:</strong> "Quality education is being held hostage by inferior infrastructure." — Free tier me biometric DRM, daily UPI payouts, GST automation, multilingual AI — yeh sab included hain. Inferior infrastructure ka structural defect free tier ka core unlock hai, paid tier ka feature nahi.</p>
+<p><strong>Manifesto principle 02:</strong> "Quality education is being held hostage by inferior infrastructure." — Free tier me biometric DRM, T+3 UPI payouts, GST automation, multilingual AI — yeh sab included hain. Inferior infrastructure ka structural defect free tier ka core unlock hai, paid tier ka feature nahi.</p>
 <p><strong>Manifesto principle 03:</strong> "Talent should be its own distribution." — Yeh principle directly ₹0 marketing budget se operationalise hota hai. Marketplace AI matching organic discovery deti hai — talent quality + verifiable outcomes + reviews discovery decide karte hain, marketing budget nahi. <strong>Free tier yeh principle ka literal operationalisation hai.</strong></p>
 <p><strong>Manifesto principle 04:</strong> "Network effects should serve educators, not exploit them." — Free tier me hi shared AllCoaching student app me listing milti hai. Hindi-medium NEET tutor ke students dusre Hindi-medium NEET tutors discover karte hain (cross-educator network effect). Yeh shared network effect free tier me hai — paid feature nahi.</p>
 <p><strong>Manifesto principle 05:</strong> "A student should find the best teacher, not just the most advertised one." — Marketplace AI matching merit-based ranking deti hai — verified student outcomes, review density, content authority. Marketing budget AI matching ranking pe zero impact karta hai. Free tier ke har tutor ka structural equal opportunity hai paid tier ke tutors ke against ranking me.</p>
@@ -633,7 +633,7 @@ faq:
 <h2 class="h-chap font-display mt-3">"Branded app under ₹10,000" —<br/><em>structural answer.</em></h2>
 <p class="mt-7">Opening question pe wapas — "branded mobile app for tutors under ₹10,000" — iss investigation ka jawab teen layers me hai:</p>
 <p>Pehla — <strong>reframe</strong>. ₹10,000 budget cap structurally inadequate hai white-label SaaS ke liye. Advertised ₹10K/month ka Year-1 real total ₹4-11 lakh aata hai jab 8 hidden cost categories add karte hain (setup fee, custom domain, payment gateway commission, Play Store build, video DRM, marketing budget, 12-month lock-in, premium features). Yeh pricing trap structural hai, marketing miscommunication nahi.</p>
-<p>Doosra — <strong>structural alternative</strong>. AllCoaching ka free tier wahi branded studio (logo + colors + tagline) + AI marketplace discovery + live class server + payment gateway + student CRM + multilingual support + daily T+1 UPI payouts + DRM + GST automation ₹0 upfront me deliver karta hai. Sirf 10% revenue-share on paid earnings only — educator 90% retain karta hai. Custom domain paid tier ₹999-1499/month me hota hai, magar 95% solo+small institute tutors ke liye sub-path URL (allcoaching.in/yourname) 1-2 saal sufficient hota hai.</p>
+<p>Doosra — <strong>structural alternative</strong>. AllCoaching ka free tier wahi branded studio (logo + colors + tagline) + AI marketplace discovery + live class server + payment gateway + student CRM + multilingual support + T+3 UPI payouts + DRM + GST automation ₹0 upfront me deliver karta hai. Sirf 10% revenue-share on paid earnings only — educator 90% retain karta hai. Custom domain paid tier ₹999-1499/month me hota hai, magar 95% solo+small institute tutors ke liye sub-path URL (allcoaching.in/yourname) 1-2 saal sufficient hota hai.</p>
 <p>Teesra — <strong>manifesto alignment</strong>. Free tier marketing decision nahi hai — yeh founding manifesto ka direct operationalisation hai. Marketing-budget tax (Google-SEO era ka structural defect) ko marketplace AI matching se zero karna manifesto's principle "talent should be its own distribution" ka literal operationalisation hai. Yeh pricing tactic nahi, architectural commitment hai jo subscription pricing me structurally translate nahi ho sakti.</p>
 <p>Practical step operational hai, philosophical nahi — studio.allcoaching.in pe free account open karein (60 second), branded studio configure karein, ek small batch enrol karein, 30-din parallel test chalayein existing platform ke against. Pilot ka cost ₹0 hai. Parallel run me zero downside hai. Agar AI marketplace discovery materially aapke workflow ko improve karti hai 30 din me, full migration 12-18 din me complete. Agar nahi karti, existing platform pe continue karein bina kisi cost ke.</p>
 <p>2026 in India coaching economy me yeh saal hai jab marketing-budget era end ho raha hai aur merit-based discovery era start ho raha hai. 3.5 lakh personal app educators jo Google-SEO era me marketing budget pay karte the woh ab marketplace AI matching ke through organic discovery access kar sakte hain. <strong>"₹10,000 ke under branded app" search ka era end ho raha hai — kyunki ₹10,000 cap structurally outdated hai. ₹0 cap structurally honest hai. AllCoaching iss honest cap pe launch karne ka platform hai.</strong> Manifesto promise — talent as distribution — free tier me operationalised. Decision window narrow hai. Architecture advantage compounds. Aaj se shuru karein.</p>
@@ -680,7 +680,7 @@ faq:
 <span style="opacity:.4;">·</span>
 <span>No lock-in</span>
 <span style="opacity:.4;">·</span>
-<span>Daily UPI payouts</span>
+<span>T+3 UPI payouts</span>
 </div>
 </div>
 
@@ -706,12 +706,12 @@ faq:
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-revenue-share-pricing">Revenue-Share Pricing Model</dfn></h3>
-<p>Educator paisa kamata hai tabhi platform commission leta hai — <strong>typically 10-20%</strong>. No upfront fee, no monthly subscription. AllCoaching me 10% revenue-share on paid earnings only — educator 90% rakhta hai, daily T+1 payouts. Subscription pricing decouple karti hai; revenue-share aligns karta hai.</p>
+<p>Educator paisa kamata hai tabhi platform commission leta hai — <strong>typically 10-20%</strong>. No upfront fee, no monthly subscription. AllCoaching me 10% revenue-share on paid earnings only — educator 90% rakhta hai, T+3 payouts. Subscription pricing decouple karti hai; revenue-share aligns karta hai.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-free-tier-branded-app">Free Tier (Branded App)</dfn></h3>
-<p>AllCoaching free educator tier — <strong>₹0 upfront, ₹0 monthly, 10% rev-share on paid earnings only</strong>. Branded studio + sub-path URL + live class server + payment gateway + student CRM + AI marketplace discovery + daily payouts + GST automation — sab included. Custom domain paid tier (₹999/month) me. Free tier permanently free hai — limited-time trial nahi.</p>
+<p>AllCoaching free educator tier — <strong>₹0 upfront, ₹0 monthly, 10% rev-share on paid earnings only</strong>. Branded studio + sub-path URL + live class server + payment gateway + student CRM + AI marketplace discovery + T+3 payouts + GST automation — sab included. Custom domain paid tier (₹999/month) me. Free tier permanently free hai — limited-time trial nahi.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>

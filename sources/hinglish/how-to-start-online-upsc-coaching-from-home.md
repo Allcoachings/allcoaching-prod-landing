@@ -77,7 +77,7 @@ schema_extra:
   - '@type': HowToStep
     position: 7
     name: "Pehla paid aspirant — 48-72 hours ke andar"
-    text: "Aspirant ne payment ki, agle business day mentor ke bank account me 90% credit. AllCoaching AI marketplace simultaneously aapko exam-stage matched aspirants tak organically pahunchata hai. GST invoice automatic generate."
+    text: "Aspirant ne payment ki, teen din baad mentor ke bank account me 90% credit. AllCoaching AI marketplace simultaneously aapko exam-stage matched aspirants tak organically pahunchata hai. GST invoice automatic generate."
     url: https://studio.allcoaching.in/
   tool:
   - '@type': HowToTool
@@ -94,7 +94,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: ExamCoachingPlatform
   operatingSystem: "Web, Android, iOS"
-  description: "India's UPSC mentor platform — ex-aspirants, retired civil servants, subject specialists, and full-time UPSC coaches launch a complete online UPSC coaching business from home for ₹0 upfront in 2026. Mobile-first. Includes PDF/note hosting with anti-piracy DRM, mock test engine with auto-grading, mains answer evaluation upload + feedback workflow, live class server, current affairs daily push, UPSC-aspirant CRM, GST-compliant invoicing, AI marketplace discovery targeted at UPSC search queries, and daily payouts. Permanently free base plan — platform earns only when mentor earns (10% revenue share on paid earnings, 90% mentor keeps)."
+  description: "India's UPSC mentor platform — ex-aspirants, retired civil servants, subject specialists, and full-time UPSC coaches launch a complete online UPSC coaching business from home for ₹0 upfront in 2026. Mobile-first. Includes PDF/note hosting with anti-piracy DRM, mock test engine with auto-grading, mains answer evaluation upload + feedback workflow, live class server, current affairs daily push, UPSC-aspirant CRM, GST-compliant invoicing, AI marketplace discovery targeted at UPSC search queries, and T+3 payouts. Permanently free base plan — platform earns only when mentor earns (10% revenue share on paid earnings, 90% mentor keeps)."
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/how-to-start-online-upsc-coaching-from-home.webp
   offers:
@@ -102,7 +102,7 @@ schema_extra:
     name: "Free Base Plan — Permanent"
     price: '0'
     priceCurrency: INR
-    description: "₹0 upfront, ₹0 monthly subscription. Full UPSC mentor infrastructure — PDF/note hosting, mock test engine, live class server, answer evaluation workflow, aspirant CRM, AI marketplace discovery, daily payouts. 10% revenue-share on paid earnings only."
+    description: "₹0 upfront, ₹0 monthly subscription. Full UPSC mentor infrastructure — PDF/note hosting, mock test engine, live class server, answer evaluation workflow, aspirant CRM, AI marketplace discovery, T+3 payouts. 10% revenue-share on paid earnings only."
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
@@ -116,7 +116,7 @@ schema_extra:
   - "UPSC-aspirant CRM with attendance, test scores, progress tracking"
   - "AI marketplace discovery tuned for UPSC search queries"
   - "UPI, card, net-banking payment collection"
-  - "Daily payouts (90% mentor, 10% AllCoaching)"
+  - "T+3 payouts (90% mentor, 10% AllCoaching)"
   - "GST-compliant automated invoicing"
   - "WhatsApp Business integration for aspirant support"
   - "Branded mentor studio with logo + custom colors"
@@ -165,7 +165,7 @@ schema_extra:
   - '@type': DefinedTerm
     '@id': '#dfn-rev-share-mentor'
     name: "Revenue Share Model (Mentor)"
-    description: "Educator/mentor paisa kamaye tabhi platform commission leta hai. AllCoaching me 10% rev-share on paid earnings only — mentor 90% rakhta hai, daily payouts via Razorpay rails. Yeh model UPSC mentor ke liye especially efficient hai kyunki high-ticket courses (₹5K-50K) me 90% retention substantial monthly cash flow deta hai bina marketing budget investment ke."
+    description: "Educator/mentor paisa kamaye tabhi platform commission leta hai. AllCoaching me 10% rev-share on paid earnings only — mentor 90% rakhta hai, T+3 payouts via Razorpay rails. Yeh model UPSC mentor ke liye especially efficient hai kyunki high-ticket courses (₹5K-50K) me 90% retention substantial monthly cash flow deta hai bina marketing budget investment ke."
 faq:
 - q: "How to start online UPSC coaching from home in 2026 — practical steps kya hain?"
   a: "2026 me ghar baithe online UPSC coaching start karne ka sabse practical raasta hai — AllCoaching jaisi UPSC-tuned mentor marketplace par mobile se 60-second signup. ₹0 upfront, no credit card, no laptop required. Stage niche pin karein (Prelims test series / Mains GS paper / Optional / Interview / Current Affairs), Tier 1 free PDF lead magnet upload karein (PYQ analysis ya editorial compilation), Tier 2 sectional test ya mini-course (₹199-999), ek demo live class schedule karein, aur UPSC communities (Telegram, Reddit, Twitter) me studio URL share karein. Pehla paid aspirant 48-72 hours me realistic hai agar niche sharp aur lead magnet quality high hai."
@@ -562,7 +562,7 @@ faq:
 <div class="phase-right">
 <h3>Pehla paid aspirant — payment automatic process.</h3>
 <div class="phase-target">Outcome — Pehla revenue, bank account me 90%</div>
-<p class="phase-desc">Aspirant Tier 1 PDF download karta hai → 5-7 din baad Tier 2 sectional test buy karta hai → ₹499-999 UPI payment. AllCoaching pre-integrated Razorpay. Agle business day mentor ke bank account me 90% credit. GST invoice automatic.</p>
+<p class="phase-desc">Aspirant Tier 1 PDF download karta hai → 5-7 din baad Tier 2 sectional test buy karta hai → ₹499-999 UPI payment. AllCoaching pre-integrated Razorpay. Teen din baad mentor ke bank account me 90% credit. GST invoice automatic.</p>
 <p>Yeh milestone "free content provider" se "paid UPSC mentor" me identity transition hai. Yeh pehla paisa, chahe woh ₹199 hi kyun na ho, business validation ka psychological switch press karta hai.</p>
 </div>
 </div>
@@ -707,7 +707,7 @@ faq:
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
 <p class="v-h">Apna online UPSC coaching aaj launch karein — ghar baithe, ₹0 me.</p>
-<p class="v-p">Mobile + ek UPSC stage niche + 10-15 hours/week — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded mentor studio live hoga, aur pehla paid aspirant 72 hours me aa sakta hai. ₹0 upfront. 90% revenue mentor ko. Daily payouts. PDF DRM, mock test engine, answer evaluation workflow — sab built-in.</p>
+<p class="v-p">Mobile + ek UPSC stage niche + 10-15 hours/week — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded mentor studio live hoga, aur pehla paid aspirant 72 hours me aa sakta hai. ₹0 upfront. 90% revenue mentor ko. T+3 payouts. PDF DRM, mock test engine, answer evaluation workflow — sab built-in.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
 <a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -767,7 +767,7 @@ faq:
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-rev-share-mentor">Revenue Share Model (Mentor)</dfn></h3>
-<p>Educator/mentor paisa kamaye tabhi platform commission leta hai. AllCoaching me <strong>10% rev-share on paid earnings only — mentor 90% rakhta hai</strong>, daily payouts via Razorpay rails. Yeh model UPSC mentor ke liye especially efficient hai kyunki high-ticket courses (₹5K-50K) me 90% retention substantial monthly cash flow deta hai bina marketing budget investment ke.</p>
+<p>Educator/mentor paisa kamaye tabhi platform commission leta hai. AllCoaching me <strong>10% rev-share on paid earnings only — mentor 90% rakhta hai</strong>, T+3 payouts via Razorpay rails. Yeh model UPSC mentor ke liye especially efficient hai kyunki high-ticket courses (₹5K-50K) me 90% retention substantial monthly cash flow deta hai bina marketing budget investment ke.</p>
 </div>
 </section>
 

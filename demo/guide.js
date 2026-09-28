@@ -127,7 +127,7 @@
     [/filter/, 'Narrow the list down'],
     [/invite/, 'Invite someone with a link'],
     [/refund/, 'Refunds go back to the student'],
-    [/payout|bank/, 'Your earnings, paid to your bank daily'],
+    [/payout|bank/, 'Your earnings, paid to your bank T+3 (3 days after each sale)'],
     [/upload|add file/, 'Add files from your device'],
     [/^next$|^previous$|^prev$|›|‹/, 'Next or previous page'],
     [/^(all|paid|pending|refunded|failed|active|scheduled|expired|draft|published|comments|reviews|followers|engagement|funnel|overview)\b/, 'Switch what the list shows'],

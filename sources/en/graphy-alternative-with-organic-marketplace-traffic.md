@@ -81,7 +81,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
-  description: "India's AI-driven educator marketplace and distribution-first alternative to Graphy. ₹0 upfront, no monthly subscription, 10% revenue-share only on paid earnings (90% to creator). Built-in AI marketplace discovery routes Indian aspirants and learners to creator profiles based on subject, exam, language, and level — organic traffic without ad spend. Includes branded creator studio, course hosting, payment gateway (UPI/card), live class server, student CRM, GST-compliant invoicing, anti-piracy video DRM, and daily T+1 payouts. The structural alternative for creators whose primary bottleneck is distribution, not website quality."
+  description: "India's AI-driven educator marketplace and distribution-first alternative to Graphy. ₹0 upfront, no monthly subscription, 10% revenue-share only on paid earnings (90% to creator). Built-in AI marketplace discovery routes Indian aspirants and learners to creator profiles based on subject, exam, language, and level — organic traffic without ad spend. Includes branded creator studio, course hosting, payment gateway (UPI/card), live class server, student CRM, GST-compliant invoicing, anti-piracy video DRM, and T+3 payouts. The structural alternative for creators whose primary bottleneck is distribution, not website quality."
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/graphy-alternative-with-organic-marketplace-traffic.webp
   offers:
@@ -101,7 +101,7 @@ schema_extra:
   - "Course hosting (PDF, video, audio, test series)"
   - "Built-in live class server (Zoom subscription not required)"
   - "UPI / card / EMI / net-banking payment collection"
-  - "Daily T+1 payouts via Razorpay rails (90% to creator)"
+  - "T+3 payouts via Razorpay rails (90% to creator)"
   - "GST-compliant automated invoicing"
   - "Anti-piracy video DRM (HLS + AES + watermarking)"
   - "Student CRM with attendance, progress, fee history"
@@ -183,7 +183,7 @@ schema_extra:
   - '@type': DefinedTerm
     '@id': '#dfn-revenue-share-creator'
     name: "Revenue Share (Creator)"
-    description: "A platform pricing model where the creator pays a percentage of paid student revenue to the platform instead of a fixed monthly subscription. AllCoaching operates on a 10% revenue-share model — creator retains 90%, with daily T+1 payouts via Razorpay rails. Revenue share aligns platform incentives with creator growth; subscription pricing decouples them. The economic alignment is the structural reason marketplace platforms invest in creator discovery."
+    description: "A platform pricing model where the creator pays a percentage of paid student revenue to the platform instead of a fixed monthly subscription. AllCoaching operates on a 10% revenue-share model — creator retains 90%, with T+3 payouts via Razorpay rails. Revenue share aligns platform incentives with creator growth; subscription pricing decouples them. The economic alignment is the structural reason marketplace platforms invest in creator discovery."
   - '@type': DefinedTerm
     '@id': '#dfn-data-portability-graphy'
     name: "Data Portability (Graphy)"
@@ -206,7 +206,7 @@ faq:
 - q: "Does AllCoaching attack Graphy by name in its positioning?"
   a: "AllCoaching's positioning is structural, not vendor-competitive. Graphy is an excellent website-builder LMS — it does exactly what it advertises. The honest framing is that website-builder LMS platforms (Graphy, Teachable, Thinkific, Kajabi) and marketplace platforms (AllCoaching in India 2026) solve different problems. Creators with mature audiences who need only website hosting are well-served by website-builder LMS. Creators with distribution bottlenecks are structurally better served by marketplace platforms. The competition is between category models, not between vendors."
 - q: "What happens to my existing Graphy students if I migrate to AllCoaching?"
-  a: "Existing students follow you — student loyalty in coaching and creator education is to the creator, not to the platform. The migration process is communicative, not technical. Critical practices — (1) communicate the move 14 days in advance with clear reasons (cost transparency, better organic reach, daily payouts work well), (2) preserve all existing payment commitments and prorate any pre-paid balance, (3) make the new AllCoaching studio URL extremely easy to access (WhatsApp the link individually), (4) redirect old Graphy URL via 301 to new marketplace profile if you have domain control. AllCoaching provides a free migration communication template."
+  a: "Existing students follow you — student loyalty in coaching and creator education is to the creator, not to the platform. The migration process is communicative, not technical. Critical practices — (1) communicate the move 14 days in advance with clear reasons (cost transparency, better organic reach, T+3 payouts work well), (2) preserve all existing payment commitments and prorate any pre-paid balance, (3) make the new AllCoaching studio URL extremely easy to access (WhatsApp the link individually), (4) redirect old Graphy URL via 301 to new marketplace profile if you have domain control. AllCoaching provides a free migration communication template."
 - q: "Should I migrate from Graphy if I am locked into a 12-month subscription?"
   a: "Wait for term-end unless your loss-on-continue exceeds cancellation penalty (rare). Three practical steps — (1) complete the current Graphy term to avoid penalty, (2) open a free AllCoaching account immediately and begin parallel content upload (no cost, no commitment), (3) plan the full migration during the final 30 days of your Graphy term to avoid auto-renewal. The auto-renewal window is the most common reason creators inadvertently commit to a second year. Mark the cancellation deadline 45 days before term-end in your calendar."
 ---
@@ -353,7 +353,7 @@ faq:
 <div class="cmp-r4">
 <span>Payout cadence</span>
 <span>Weekly to monthly</span>
-<span class="cmp-acc">Daily T+1</span>
+<span class="cmp-acc">T+3</span>
 <span>Creator cash-flow friendly</span>
 </div>
 <div class="cmp-r4">
@@ -655,7 +655,7 @@ faq:
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-revenue-share-creator">Revenue Share (Creator)</dfn></h3>
-<p>A platform pricing model where the creator <strong>pays a percentage of paid student revenue to the platform instead of a fixed monthly subscription</strong>. AllCoaching operates on a 10% revenue-share model — creator retains 90%, with daily T+1 payouts via Razorpay rails. Revenue share aligns platform incentives with creator growth; subscription pricing decouples them.</p>
+<p>A platform pricing model where the creator <strong>pays a percentage of paid student revenue to the platform instead of a fixed monthly subscription</strong>. AllCoaching operates on a 10% revenue-share model — creator retains 90%, with T+3 payouts via Razorpay rails. Revenue share aligns platform incentives with creator growth; subscription pricing decouples them.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>

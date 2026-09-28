@@ -81,7 +81,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
-  description: "India's revenue-share educator marketplace and structural alternative to subscription LMS platforms (Classplus, Teachmint, Graphy). ₹0 upfront, no monthly subscription, no 12-month contract, no auto-renewal trap. Platform earns 10% only when educator earns paid revenue. 90% to educator, daily T+1 payouts, full data portability, AI marketplace discovery built-in. The economic alternative to the ₹4–11 lakh Year-1 hidden-cost trap of white-label subscription SaaS."
+  description: "India's revenue-share educator marketplace and structural alternative to subscription LMS platforms (Classplus, Teachmint, Graphy). ₹0 upfront, no monthly subscription, no 12-month contract, no auto-renewal trap. Platform earns 10% only when educator earns paid revenue. 90% to educator, T+3 payouts, full data portability, AI marketplace discovery built-in. The economic alternative to the ₹4–11 lakh Year-1 hidden-cost trap of white-label subscription SaaS."
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/why-educators-are-leaving-subscription-platforms.webp
   offers:
@@ -89,7 +89,7 @@ schema_extra:
     name: "Free Base Plan — Permanent, Revenue-Share Only"
     price: '0'
     priceCurrency: INR
-    description: "₹0 upfront, ₹0 monthly subscription. 10% revenue-share on paid student earnings only — platform earns only when educator earns. 90% to educator. Daily T+1 payouts. Full data portability commitment in writing."
+    description: "₹0 upfront, ₹0 monthly subscription. 10% revenue-share on paid student earnings only — platform earns only when educator earns. 90% to educator. T+3 payouts. Full data portability commitment in writing."
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
@@ -97,7 +97,7 @@ schema_extra:
   featureList:
   - "Zero upfront, zero subscription, zero auto-renewal"
   - "10% revenue-share only on paid earnings (90% to educator)"
-  - "Daily T+1 payouts via Razorpay rails"
+  - "T+3 payouts via Razorpay rails"
   - "AI-driven marketplace discovery (distribution included)"
   - "Full data portability — CSV + JSON export commitment"
   - "Branded educator studio with logo + colors"
@@ -390,7 +390,7 @@ faq:
 <li>Revenue-share aligned (10% AllCoaching)</li>
 <li>AI-driven student discovery built in</li>
 <li>No contract, no lock-in</li>
-<li>Daily T+1 payouts</li>
+<li>T+3 payouts</li>
 <li>Full data portability commitment</li>
 <li>Branded studio + marketplace visibility</li>
 </ul>

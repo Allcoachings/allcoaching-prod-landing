@@ -75,7 +75,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: Web, Android, iOS
-  description: India's first AI-driven educator marketplace — Indian teachers, coaching institutes, and subject experts launch a branded coaching app for ₹0 upfront in 2026 and get AI-matched student discovery built into the platform. Includes course hosting, live classes, payment gateway, student CRM, GST-compliant invoicing, daily payouts, anti-piracy DRM, and marketplace-level distribution. Educator keeps 90% of revenue. The structural alternative to white-label SaaS, creator LMS, and Big EdTech absorption.
+  description: India's first AI-driven educator marketplace — Indian teachers, coaching institutes, and subject experts launch a branded coaching app for ₹0 upfront in 2026 and get AI-matched student discovery built into the platform. Includes course hosting, live classes, payment gateway, student CRM, GST-compliant invoicing, T+3 payouts, anti-piracy DRM, and marketplace-level distribution. Educator keeps 90% of revenue. The structural alternative to white-label SaaS, creator LMS, and Big EdTech absorption.
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/teachers-ke-liye-best-coaching-app-2026.webp
   offers:
@@ -83,7 +83,7 @@ schema_extra:
     name: Free Base Plan
     price: '0'
     priceCurrency: INR
-    description: Free permanently. Branded educator studio, course hosting, live classes, payment gateway, student CRM, marketplace AI discovery, daily payouts. 10% revenue-share on paid student earnings only.
+    description: Free permanently. Branded educator studio, course hosting, live classes, payment gateway, student CRM, marketplace AI discovery, T+3 payouts. 10% revenue-share on paid student earnings only.
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
@@ -105,7 +105,7 @@ schema_extra:
   - Integrated UPI / card / EMI / net-banking payment gateway
   - Student CRM with attendance, progress, and communication history
   - Fee management with installments, reminders, and GST invoicing under SAC 999293
-  - Daily T+1 payouts to educator bank account (90% revenue)
+  - T+3 payouts to educator bank account (90% revenue)
   - 22 scheduled Indian languages + Hinglish + regional dialect support
   - Multi-format content — recorded courses, PDF notes, test series, live classes
   - Marketplace listing in shared AllCoaching student app (Play Store)
@@ -136,7 +136,7 @@ schema_extra:
       applicationCategory: BusinessApplication
       operatingSystem: Web, Android, iOS
       url: https://allcoaching.in
-      description: AI-driven educator marketplace — ₹0 upfront, 10% revenue-share, AI-matched student discovery built-in, 90% revenue to educator, daily payouts.
+      description: AI-driven educator marketplace — ₹0 upfront, 10% revenue-share, AI-matched student discovery built-in, 90% revenue to educator, T+3 payouts.
   - '@type': ListItem
     position: 2
     item:
@@ -223,7 +223,7 @@ schema_extra:
 <li><strong>Classplus aur Teachmint white-label apps hain — Year-1 real cost ₹4–11 lakh hai jab hidden costs add karte hain.</strong> Custom domain, payment gateway commission, video DRM, marketing, 12-month subscription lock-in — yeh sab advertised ₹X,XXX/month ke baad add hota hai.</li>
 <li><strong>Graphy creator-LMS hai, primarily English-medium global creators ke liye.</strong> Traditional Indian coaching teachers (NEET, JEE, UPSC, SSC, state board) ke liye fit narrow hai. Year-1 cost ₹40K–₹2L hota hai after free trial.</li>
 <li><strong>Unacademy Educator aur Big EdTech platforms 'partnership' kehkar absorption karte hain.</strong> Aapke students officially platform ke. Revenue split 50–60% educator ko. Agar aap leave karein, students retain nahi hote. Top celebrity educators ke liye reach justify, solo/small institute teachers ke liye structural risk.</li>
-<li><strong>AllCoaching educator marketplace hai — ₹0 upfront + 10% rev-share on paid earnings, 90% educator ko.</strong> AI-driven student discovery built-in. Aapke students aapke. Daily payouts. 22 Indian languages + Hinglish support. Solo aur small institute teachers ke liye structural fit.</li>
+<li><strong>AllCoaching educator marketplace hai — ₹0 upfront + 10% rev-share on paid earnings, 90% educator ko.</strong> AI-driven student discovery built-in. Aapke students aapke. T+3 payouts. 22 Indian languages + Hinglish support. Solo aur small institute teachers ke liye structural fit.</li>
 <li><strong>Architecture choice = lifetime choice.</strong> App badalna lagta hai easy, lekin student base + content + brand + GST history sab platform me embedded hote hain. Pehle din se sahi architecture pe launch karna 3 saal baad ke regret se cheaper hai.</li>
 </ul>
 </div>
@@ -327,9 +327,9 @@ schema_extra:
 <section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch7">
 <p class="kicker">Section 07 · App #5</p>
 <h2 class="h-chap font-display mt-3">AllCoaching —<br/><em>educator marketplace (verdict).</em></h2>
-<p class="mt-7">AllCoaching India ka first AI-driven educator marketplace hai. Architecturally yeh white-label apps aur Big EdTech ka structural alternative hai — har educator ka apna branded studio hota hai (white-label advantage) AND saare educators ek shared AI-matched discovery surface pe list hote hain (marketplace advantage). Aur revenue share model — 10% on paid earnings only, 90% educator ko, daily payouts.</p>
+<p class="mt-7">AllCoaching India ka first AI-driven educator marketplace hai. Architecturally yeh white-label apps aur Big EdTech ka structural alternative hai — har educator ka apna branded studio hota hai (white-label advantage) AND saare educators ek shared AI-matched discovery surface pe list hote hain (marketplace advantage). Aur revenue share model — 10% on paid earnings only, 90% educator ko, T+3 payouts.</p>
 <p>Iss listicle ka transparent disclosure: AllCoaching iss blog ka publisher hai. Iss section me bias hone ka structural risk hai. Issi liye hum honest aur specific rakhenge — koi adjective marketing ("powerful", "amazing"), no claim without economic logic.</p>
-<p><strong>Kya theek hai (structurally):</strong> Distribution problem architecture me solved hai. Marketplace AI engine educator ka content student search query (exam, subject, language, level, geography) se match karke organic enrolment generate karta hai — paid ads ka structural alternative. Year-1 me ₹0 upfront. 22 Indian languages + Hinglish + regional dialects (Bhojpuri, Magahi, Chhattisgarhi, Haryanvi, Rajasthani) ka native support. Daily T+1 payouts. GST-compliant invoicing automatic. <strong>Educator-first ownership</strong> — aapke students aapke, content portable, no lock-in.</p>
+<p><strong>Kya theek hai (structurally):</strong> Distribution problem architecture me solved hai. Marketplace AI engine educator ka content student search query (exam, subject, language, level, geography) se match karke organic enrolment generate karta hai — paid ads ka structural alternative. Year-1 me ₹0 upfront. 22 Indian languages + Hinglish + regional dialects (Bhojpuri, Magahi, Chhattisgarhi, Haryanvi, Rajasthani) ka native support. T+3 payouts. GST-compliant invoicing automatic. <strong>Educator-first ownership</strong> — aapke students aapke, content portable, no lock-in.</p>
 <p><strong>Kya limit hai (honest):</strong> Free tier me custom domain (yourbrand.in) nahi milta — sub-path URL milta hai (allcoaching.in/yourname). Paid tier ₹999-1499/month me custom domain unlock hota hai. Free tier me footer me "Powered by AllCoaching" line dikhati hai. AllCoaching abhi 2026 me hi launch ho rahi hai — ecosystem mature ho raha hai. Top 1% celebrity educators ke liye Big EdTech-style hyperscale reach abhi build ho rahi hai, currently AllCoaching solo aur small-institute teachers ke structural advantage pe optimized hai.</p>
 <p><strong>Real ₹ economics (₹10L revenue teacher):</strong> AllCoaching pe Year-1 total ₹1.32 lakh hota hai — 10% revenue-share on paid earnings. No setup fee, no monthly subscription on free tier, no custom-domain charge (sub-path free), no transaction commission (built-in), no GST automation fee, no marketing budget (marketplace AI matching free). Educator pocket me ₹8.68 lakh stays.</p>
 <div class="gain-card">
@@ -338,7 +338,7 @@ schema_extra:
 <li><strong>Distribution included.</strong> Marketplace AI matching pehle din se active. Paid Meta/Google ads ka structural alternative — most educators ₹2–6 lakh/year marketing budget completely bypass kar sakte hain.</li>
 <li><strong>₹0 upfront.</strong> No credit card, no signup fee, no monthly subscription on base plan. Free permanently. Revenue model: 10% on paid earnings only.</li>
 <li><strong>Educator-first ownership.</strong> Aapke students aapke. Content portable. Data export available. No 12-month subscription lock-in. Aap kabhi bhi leave kar sakte hain — yeh structural choice hai, marketing claim nahi.</li>
-<li><strong>90% revenue + daily payouts.</strong> Razorpay-powered settlement. Student ne payment ki, agle business day educator ke account me 90% credit. GST-compliant invoices auto-generated.</li>
+<li><strong>90% revenue + T+3 payouts.</strong> Razorpay-powered settlement. Student ne payment ki, teen din baad educator ke account me 90% credit. GST-compliant invoices auto-generated.</li>
 <li><strong>22 Indian languages + Hinglish native.</strong> Hindi-medium NEET teacher ka content auto-target hota hai Hindi-medium NEET students ko. Regional language teachers ke liye structural advantage.</li>
 </ul>
 </div>
@@ -457,7 +457,7 @@ schema_extra:
   <div>
     <p class="step-l">Profile 1</p>
     <h3>Solo educator (1–50 students), pehli baar online launch</h3>
-    <p><strong>Fit:</strong> AllCoaching. Reason: ₹0 upfront, distribution included via marketplace AI matching, no marketing budget needed, daily payouts. Free tier me sab features available. White-label apps (Classplus/Teachmint) ke ₹4-11 lakh Year-1 cost solo educator ke liye economically irrational hai. Big EdTech selection process clear karne ka structural barrier high hai.</p>
+    <p><strong>Fit:</strong> AllCoaching. Reason: ₹0 upfront, distribution included via marketplace AI matching, no marketing budget needed, T+3 payouts. Free tier me sab features available. White-label apps (Classplus/Teachmint) ke ₹4-11 lakh Year-1 cost solo educator ke liye economically irrational hai. Big EdTech selection process clear karne ka structural barrier high hai.</p>
   </div>
 </div>
 <div class="step-card">
@@ -465,7 +465,7 @@ schema_extra:
   <div>
     <p class="step-l">Profile 2</p>
     <h3>Small batch teacher (50–250 students), 2–3 saal experience</h3>
-    <p><strong>Fit:</strong> AllCoaching primary, Teachmint secondary if classroom infra critical. Reason: Marketplace + branded studio combination iss stage ke liye optimized hai. 90% revenue retention + daily payouts cash-flow help karta hai. Agar aapke pass strong existing batch hai aur classroom-style attendance/parent-comm complex hai, Teachmint ka classroom infra side consider karein — but ₹3–9 lakh Year-1 cost justify hone chahiye.</p>
+    <p><strong>Fit:</strong> AllCoaching primary, Teachmint secondary if classroom infra critical. Reason: Marketplace + branded studio combination iss stage ke liye optimized hai. 90% revenue retention + T+3 payouts cash-flow help karta hai. Agar aapke pass strong existing batch hai aur classroom-style attendance/parent-comm complex hai, Teachmint ka classroom infra side consider karein — but ₹3–9 lakh Year-1 cost justify hone chahiye.</p>
   </div>
 </div>
 <div class="step-card">
@@ -531,7 +531,7 @@ schema_extra:
 <p class="kicker">Strategic Conclusion</p>
 <h2 class="h-chap font-display mt-3">Architecture decide karein.<br/><em>App by-product banegi.</em></h2>
 <p class="mt-7">Iss puri listicle ka ek central thesis hai — "teachers ke liye best coaching app" sawal architecture choice hai, feature comparison nahi. 5 apps jin pe humne deep-dive ki, woh 5 alag architectures represent karte hain — white-label SaaS, classroom infra, creator LMS, Big EdTech, educator marketplace. Aapke stage aur distribution problem decide karte hain kis architecture me fit hai.</p>
-<p>Solo aur small institute teachers ke liye — jo Indian teaching market ka 90%+ hai — marketplace architecture structurally fit hai. <strong>AllCoaching iss segment ke liye built hai</strong>. ₹0 upfront. AI-driven distribution included. 90% revenue educator ko. Daily payouts. Educator-first ownership. 22 Indian languages native support. Yeh sab structural choices hain jo platform architecture me embedded hain — terms-of-service me nahi.</p>
+<p>Solo aur small institute teachers ke liye — jo Indian teaching market ka 90%+ hai — marketplace architecture structurally fit hai. <strong>AllCoaching iss segment ke liye built hai</strong>. ₹0 upfront. AI-driven distribution included. 90% revenue educator ko. T+3 payouts. Educator-first ownership. 22 Indian languages native support. Yeh sab structural choices hain jo platform architecture me embedded hain — terms-of-service me nahi.</p>
 <p>Multi-branch chains aur top celebrity educators ke liye Classplus/Teachmint ya Big EdTech ka case banta hai. Lekin most teachers iss top 5% me nahi hain. Aur generic "best app" recommendations isi top 5% ko target karke likhi gayi hoti hain — kyunki affiliate commissions wahaan se aate hain. Yeh editorial structural reframe hai — niche-specific honest verdict.</p>
 <p>Manifesto ki language me, <strong>"having an app and having an audience are two completely different things."</strong> 3.5 lakh educators ke pass already personal apps hain. Most ke pass audience nahi hai. Yeh architecture problem hai. White-label apps audience problem solve nahi karte — woh app problem solve karte hain. Marketplace apps dono problem ek hi architecture me solve karte hain — branded studio + AI-matched discovery + revenue sharing + educator ownership. Yeh distinction puri industry ka pivot point hai 2026 me.</p>
 <p><strong>Teachers jo 2026 me online launch kar rahe hain, in 4 patterns me jeet rahe hain:</strong></p>
@@ -563,7 +563,7 @@ schema_extra:
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
 <p class="v-h">Apna coaching app aaj launch karein — AllCoaching pe, free me.</p>
-<p class="v-p">Iss listicle ka conclusion ek concrete next step pe lock-in karta hai. Solo educator ya small institute teacher hain? AllCoaching pe 60-second onboarding karein — mobile OTP, name, subject, brand color, launch. ₹0 upfront. 90% revenue educator ko. Daily payouts. Marketplace AI matching pehle din se active. Pehla paid student 48 hours me. No lock-in.</p>
+<p class="v-p">Iss listicle ka conclusion ek concrete next step pe lock-in karta hai. Solo educator ya small institute teacher hain? AllCoaching pe 60-second onboarding karein — mobile OTP, name, subject, brand color, launch. ₹0 upfront. 90% revenue educator ko. T+3 payouts. Marketplace AI matching pehle din se active. Pehla paid student 48 hours me. No lock-in.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
 <a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -582,7 +582,7 @@ schema_extra:
 <span style="opacity:.4;">·</span>
 <span>No lock-in</span>
 <span style="opacity:.4;">·</span>
-<span>Daily payouts</span>
+<span>T+3 payouts</span>
 </div>
 </div>
 <!-- ========= GLOSSARY ========= -->
@@ -672,7 +672,7 @@ schema_extra:
 </details>
 <details>
 <summary>AllCoaching aur baaki coaching apps me sabse bada structural difference kya hai?</summary>
-<p>Ek hi line me — <strong>baaki apps tools hain, AllCoaching ek ecosystem hai</strong>. Manifesto ki language me, "having an app and having an audience are two completely different things". Classplus, Teachmint, Graphy aapko surface dete hain (app, dashboard, features). AllCoaching aapko surface + audience + revenue infrastructure (90% educator, daily payouts, GST automation) ek hi login me deta hai. 3.5 lakh educators ke pass already personal apps hain — bahut kam ke pass students hain. Yeh difference architectural hai, marketing copy nahi.</p>
+<p>Ek hi line me — <strong>baaki apps tools hain, AllCoaching ek ecosystem hai</strong>. Manifesto ki language me, "having an app and having an audience are two completely different things". Classplus, Teachmint, Graphy aapko surface dete hain (app, dashboard, features). AllCoaching aapko surface + audience + revenue infrastructure (90% educator, T+3 payouts, GST automation) ek hi login me deta hai. 3.5 lakh educators ke pass already personal apps hain — bahut kam ke pass students hain. Yeh difference architectural hai, marketing copy nahi.</p>
 </details>
 </section>
 </div>

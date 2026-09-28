@@ -81,7 +81,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
-  description: "India's AI-driven educator marketplace explicitly architected to scale for both individual course creators and multi-teacher coaching institutes. Same underlying platform, two distinct operational surfaces — creator-mode for solo educators (simplified onboarding, mobile-first, single-teacher CRM, marketplace AI discovery) and institute-mode for multi-branch operations (teacher roster management, batch scheduling, fee installment cycles, attendance tracking, branch coordination, parent communication, GST/payroll integration). 10% revenue-share, ₹0 upfront, daily T+1 payouts."
+  description: "India's AI-driven educator marketplace explicitly architected to scale for both individual course creators and multi-teacher coaching institutes. Same underlying platform, two distinct operational surfaces — creator-mode for solo educators (simplified onboarding, mobile-first, single-teacher CRM, marketplace AI discovery) and institute-mode for multi-branch operations (teacher roster management, batch scheduling, fee installment cycles, attendance tracking, branch coordination, parent communication, GST/payroll integration). 10% revenue-share, ₹0 upfront, T+3 payouts."
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/best-platforms-for-individual-course-creators-vs-institutes.webp
   offers:
@@ -114,7 +114,7 @@ schema_extra:
   - "Fee installment cycles with auto-reminders"
   - "Attendance tracking with parent notifications"
   - "GST-compliant invoicing under SAC 999293"
-  - "Daily T+1 payouts to teacher accounts"
+  - "T+3 payouts to teacher accounts"
   - "Multi-branch coordination (for chains)"
   - "WhatsApp Business integration"
   - "Parent app for institute mode"
@@ -237,7 +237,7 @@ faq:
 - q: "How does AllCoaching scale from individual creator to coaching institute on the same platform?"
   a: "AllCoaching's dual-mode architecture lets educators start in creator-mode (solo educator, mobile-first, simplified onboarding) and switch to institute-mode (multi-teacher roster, batch scheduling, fee installments, parent communication) when operational scale warrants — without changing platforms or losing data. The underlying marketplace discovery, payment infrastructure, course hosting, and student CRM remain unified; mode-specific operational surfaces activate based on educator needs. Pricing also remains aligned — 10% revenue-share regardless of mode. This is the only Indian platform in 2026 explicitly architected for this scaling path."
 - q: "What features should I prioritise when choosing between platforms for an individual creator?"
-  a: "For Indian individual course creators in 2026, prioritise in this order — (1) distribution layer (marketplace AI discovery vs creator's own acquisition), (2) pricing model (revenue-share aligned vs subscription decoupled), (3) data portability (full CSV/JSON export commitment), (4) payment infrastructure (UPI/card/EMI with daily payouts), (5) mobile-first delivery (Indian student device reality). Website quality and customisation depth matter but rank lower — they are downstream of distribution. Anti-piracy DRM, GST compliance, and live class quality should be baseline-acceptable but rarely decisive between modern creator platforms."
+  a: "For Indian individual course creators in 2026, prioritise in this order — (1) distribution layer (marketplace AI discovery vs creator's own acquisition), (2) pricing model (revenue-share aligned vs subscription decoupled), (3) data portability (full CSV/JSON export commitment), (4) payment infrastructure (UPI/card/EMI with T+3 payouts), (5) mobile-first delivery (Indian student device reality). Website quality and customisation depth matter but rank lower — they are downstream of distribution. Anti-piracy DRM, GST compliance, and live class quality should be baseline-acceptable but rarely decisive between modern creator platforms."
 - q: "What features should I prioritise when choosing between platforms for a coaching institute?"
   a: "For Indian coaching institutes in 2026, prioritise — (1) batch management workflow (subject + time-slot + teacher grouping with attendance tracking), (2) fee installment cycle handling (multi-installment schedules + automated reminders + late fee + refund + GST per installment), (3) multi-teacher roster management (teacher onboarding, permission tiers, batch assignment, payout splits), (4) parent communication channel (attendance notifications, fee alerts, performance reports), (5) branch coordination if multi-branch, (6) GST/payroll integration. Distribution layer matters but ranks lower than for individual creators because institutes have local-brand walk-in enquiries as a major acquisition channel."
 - q: "Does the platform choice change if I am both a solo creator and run a small batch program?"
@@ -592,7 +592,7 @@ faq:
 <li>Course-led content delivery</li>
 <li>Single-payment or simple EMI pricing</li>
 <li>Marketplace AI discovery (organic students)</li>
-<li>10% revenue-share, daily T+1 payouts</li>
+<li>10% revenue-share, T+3 payouts</li>
 <li>Simplified analytics — per course, per student</li>
 <li>Focus: content creation + distribution</li>
 </ul>
@@ -708,7 +708,7 @@ faq:
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
 <p class="v-h">Run AllCoaching in your segment — creator-mode or institute-mode, free.</p>
-<p class="v-p">The fastest way to validate platform fit is to operate AllCoaching in your actual segment for 30 days with real students. ₹0 upfront, no credit card. Creator-mode for solo educators — simplified mobile-first onboarding. Institute-mode for multi-teacher operations — batch management, fee installments, parent communication. The platform absorbs the transition if your scale changes. 10% revenue-share, daily T+1 payouts, no contract.</p>
+<p class="v-p">The fastest way to validate platform fit is to operate AllCoaching in your actual segment for 30 days with real students. ₹0 upfront, no credit card. Creator-mode for solo educators — simplified mobile-first onboarding. Institute-mode for multi-teacher operations — batch management, fee installments, parent communication. The platform absorbs the transition if your scale changes. 10% revenue-share, T+3 payouts, no contract.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
 <a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -725,7 +725,7 @@ faq:
 <span style="opacity:.4;">·</span>
 <span>10% rev-share</span>
 <span style="opacity:.4;">·</span>
-<span>Daily payouts</span>
+<span>T+3 payouts</span>
 <span style="opacity:.4;">·</span>
 <span>No lock-in</span>
 </div>

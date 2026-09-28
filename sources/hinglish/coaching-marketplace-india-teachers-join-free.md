@@ -12,7 +12,7 @@ tags:
 - format-analysis
 translation_group: tg-marketplace-india-free
 title: Coaching Marketplace India for Teachers — Free Join (2026 Honest Guide)
-description: India ka pehla AI-driven coaching marketplace teachers ke liye launched ho gaya. Free me join karein, 90% revenue rakhein, daily payouts. 3.5 lakh teachers ke liye — Personal app se students kyun nahi aate, marketplace structurally kyun different hai.
+description: India ka pehla AI-driven coaching marketplace teachers ke liye launched ho gaya. Free me join karein, 90% revenue rakhein, T+3 payouts. 3.5 lakh teachers ke liye — Personal app se students kyun nahi aate, marketplace structurally kyun different hai.
 keywords:
 - coaching marketplace india for teachers join free
 - coaching marketplace india teachers
@@ -87,7 +87,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: Web, Android, iOS
-  description: 'Bharat ka pehla AI-driven coaching marketplace aur zero-upfront educator platform 2026 ke liye. Teachers free me join karein — koi upfront cost nahi, koi credit card nahi, koi lock-in nahi. 30-day free premium trial, phir permanent free base plan. 10% revenue-share sirf paid earnings par. 90% revenue educator ko, daily T+1 payouts, GST-compliant invoicing, video DRM, marketplace AI discovery, aur cross-educator network effects. White-label SaaS (Classplus, Teachmint) ke ₹4–11 lakh Year-1 trap ka structural alternative.'
+  description: 'Bharat ka pehla AI-driven coaching marketplace aur zero-upfront educator platform 2026 ke liye. Teachers free me join karein — koi upfront cost nahi, koi credit card nahi, koi lock-in nahi. 30-day free premium trial, phir permanent free base plan. 10% revenue-share sirf paid earnings par. 90% revenue educator ko, T+3 payouts, GST-compliant invoicing, video DRM, marketplace AI discovery, aur cross-educator network effects. White-label SaaS (Classplus, Teachmint) ke ₹4–11 lakh Year-1 trap ka structural alternative.'
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/coaching-marketplace-india-teachers-join-free.webp
   offers:
@@ -95,7 +95,7 @@ schema_extra:
     name: Free Base Plan
     price: '0'
     priceCurrency: INR
-    description: 'Permanent free plan. Full coaching infrastructure — course hosting, live classes, payment gateway, student CRM, marketplace AI discovery, daily payouts. 10% revenue-share sirf paid student earnings par — ₹0 kamaya to ₹0 kata.'
+    description: 'Permanent free plan. Full coaching infrastructure — course hosting, live classes, payment gateway, student CRM, marketplace AI discovery, T+3 payouts. 10% revenue-share sirf paid student earnings par — ₹0 kamaya to ₹0 kata.'
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
@@ -117,7 +117,7 @@ schema_extra:
   - Cross-educator network effects — ek educator ke students dusre educators ko discover karte hain
   - Live class infrastructure attendance tracking + recording ke saath
   - UPI, card, net-banking, EMI payment collection built-in
-  - Daily T+1 payouts educator bank account me Razorpay rails se
+  - T+3 payouts educator bank account me Razorpay rails se
   - Student CRM progress, attendance, fee history ke saath
   - GST-compliant automated invoicing educator aur student dono ke liye
   - WhatsApp Business integration student communication ke liye
@@ -159,8 +159,8 @@ schema_extra:
     description: 'Pricing model jaha platform paisa tabhi kamati hai jab educator kamata hai. No upfront fee, no monthly subscription. AllCoaching me 10% rev-share sirf paid earnings par — educator 90% rakhta hai. ₹0 revenue par platform ₹0 kamati hai — incentives 100% aligned.'
   - '@type': DefinedTerm
     '@id': '#dfn-daily-payouts'
-    name: Daily T+1 Payouts
-    description: 'Student payment ke agle business day par educator ke bank account me 90% revenue automatic credit. Razorpay-powered settlement rails se. Competitor platforms typically 7–30 day hold rakhte hain — daily payouts cash-flow ko educator ke paas rakhte hain.'
+    name: T+3 Payouts
+    description: 'Student payment ke teen din baad par educator ke bank account me 90% revenue automatic credit. Razorpay-powered settlement rails se. Competitor platforms typically 7–30 day hold rakhte hain — T+3 payouts cash-flow ko educator ke paas rakhte hain.'
   - '@type': DefinedTerm
     '@id': '#dfn-distribution-problem'
     name: The Distribution Problem
@@ -201,7 +201,7 @@ faq:
 - q: Marketplace se kab join NAHI karna chahiye — koi scenario hai?
   a: 'Do scenarios me marketplace primary choice nahi hai. Pehla — aap 20,000+ students wale multi-branch chain hain aur aapke paas dedicated engineering team hai (tab hybrid: self-hosted + marketplace listing); dusra — aap already 50,000+ existing brand-loyal audience ke saath established celebrity educator hain (tab Big EdTech reach justify ho sakti hai). Outside in do cases, solo educators + small batch teachers + tuition centres + mid-size institutes sabke liye marketplace structurally sabse fit hai.'
 - q: AllCoaching marketplace baaki coaching apps se sabse bada structural fark kya hai?
-  a: Ek line me — baaki apps tools hain, AllCoaching ecosystem hai. Manifesto ki language me, "having an app and having an audience are two completely different things". Classplus, Teachmint, Graphy aapko surface dete hain (app, dashboard, features). AllCoaching aapko surface + audience + revenue infrastructure (90% educator, daily payouts, GST automation) ek hi login me deta hai. 3.5 lakh educators ke paas already personal apps hain — bahut kam ke paas students hain. Yeh fark architectural hai, marketing copy nahi.
+  a: Ek line me — baaki apps tools hain, AllCoaching ecosystem hai. Manifesto ki language me, "having an app and having an audience are two completely different things". Classplus, Teachmint, Graphy aapko surface dete hain (app, dashboard, features). AllCoaching aapko surface + audience + revenue infrastructure (90% educator, T+3 payouts, GST automation) ek hi login me deta hai. 3.5 lakh educators ke paas already personal apps hain — bahut kam ke paas students hain. Yeh fark architectural hai, marketing copy nahi.
 ---
 
 <div class="max-w-3xl mx-auto px-5 md:px-6">
@@ -216,7 +216,7 @@ faq:
 <li><strong>Coaching app vs coaching marketplace structurally different categories hain.</strong> App aapko tool deta hai (audience your problem); marketplace aapko tool + AI-discovered audience dono deta hai. Personal app me network effects nahi hote — har app isolated island hai.</li>
 <li><strong>Big EdTech (Unacademy, Vedantu) absorption hai, partnership nahi.</strong> Reach milti hai but students officially platform ke hote hain, revenue split 40–60% educator ko, educator jata hai to audience chhutti hai. Yeh structural cost hai, monthly fee nahi.</li>
 <li><strong>AllCoaching marketplace Year-1 real cost: ₹0 upfront + 10% rev-share.</strong> White-label SaaS (Classplus, Teachmint) Year-1 real cost ₹4–11 lakh after hidden costs. 500 paid students scale par AllCoaching 60–80% cheaper.</li>
-<li><strong>Daily T+1 payouts educator ke bank account me.</strong> 90% revenue educator ko, 10% AllCoaching ko (sirf paid earnings par). GST-compliant invoicing automatic, payment gateway + DRM + CRM sab included. Koi separate fee nahi.</li>
+<li><strong>T+3 payouts educator ke bank account me.</strong> 90% revenue educator ko, 10% AllCoaching ko (sirf paid earnings par). GST-compliant invoicing automatic, payment gateway + DRM + CRM sab included. Koi separate fee nahi.</li>
 <li><strong>22 Indian languages + Hinglish + regional dialects ka native AI-discovery support.</strong> Hindi-medium NEET teacher ka content Hindi-medium NEET students tak automatically reach karta hai — yeh white-label apps me structurally missing hai.</li>
 </ul>
 </div>
@@ -370,8 +370,8 @@ faq:
 <!-- ============ SECTION 09 — Free Join Economics ============ -->
 <section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch9">
 <p class="kicker">Section 09 · The Economics</p>
-<h2 class="h-chap font-display mt-3">Free Join, 90% Revenue, Daily Payouts —<br/><em>The honest economics.</em></h2>
-<p class="mt-7">Ab aate hain practical question par: <em>"Free join ka sahi meaning kya hai? Hidden fee to nahi?"</em> Yahaan honest answer hai — haan, truly free join. Base plan permanent free hai. Credit card upfront required nahi. Trial expiry forced upgrade nahi. To AllCoaching kamati kya se hai? <strong>Revenue-share par, aur sirf paid earnings par.</strong> Jab aap paid course bechte hain, student payment karta hai, tab 10% AllCoaching leti hai, 90% educator ke bank account me jata hai next business day. ₹0 kamaya to ₹0 kata. Yeh 100% aligned incentive structure hai.</p>
+<h2 class="h-chap font-display mt-3">Free Join, 90% Revenue, T+3 Payouts —<br/><em>The honest economics.</em></h2>
+<p class="mt-7">Ab aate hain practical question par: <em>"Free join ka sahi meaning kya hai? Hidden fee to nahi?"</em> Yahaan honest answer hai — haan, truly free join. Base plan permanent free hai. Credit card upfront required nahi. Trial expiry forced upgrade nahi. To AllCoaching kamati kya se hai? <strong>Revenue-share par, aur sirf paid earnings par.</strong> Jab aap paid course bechte hain, student payment karta hai, tab 10% AllCoaching leti hai, 90% educator ke bank account me jata hai teen din baad (T+3). ₹0 kamaya to ₹0 kata. Yeh 100% aligned incentive structure hai.</p>
 <div class="gain-card">
 <p class="gc-l">AllCoaching Free Tier — Year-1 Real Math (500 paid students)</p>
 <ul>
@@ -387,7 +387,7 @@ faq:
 <li><strong>Net saving: 60–80% Year-1 cost reduction</strong> on same revenue target</li>
 </ul>
 </div>
-<p><strong>Daily T+1 payouts</strong> matlab: student payment aaj, educator ke account me 90% kal. Razorpay rails se. Yeh bahut badi cash-flow advantage hai. Competitor platforms typically 7-30 day hold rakhte hain — that means aapka paisa platform ke account me baitha hai, aapka nahi. 30-day hold par ₹15 lakh annual revenue ka average daily working capital ₹1.25 lakh aapke paas nahi hai. Daily payouts par woh aapke paas hai. Yeh real money hai.</p>
+<p><strong>T+3 payouts</strong> matlab: student payment aaj, educator ke account me 90% teen din baad. Razorpay rails se. Yeh bahut badi cash-flow advantage hai. Competitor platforms typically 7-30 day hold rakhte hain — that means aapka paisa platform ke account me baitha hai, aapka nahi. 30-day hold par ₹15 lakh annual revenue ka average daily working capital ₹1.25 lakh aapke paas nahi hai. T+3 payouts par woh aapke paas hai. Yeh real money hai.</p>
 <p><strong>GST-compliant invoicing automatic.</strong> SAC code 999293 ke tahat. Educator aur student dono ke liye invoice generate ho jata hai payment completion par. Tax filing time me aapko kuch manually compile nahi karna — sab marketplace ke dashboard me export-ready hai. Yeh chhota sa detail hai but Year-end par 20-30 hours save karta hai, aur tax-audit risk substantially kam karta hai.</p>
 <p><strong>Anti-piracy video DRM included.</strong> Widevine L1 + forensic watermarking + screen-record blocking + device-binding. Recorded lectures aapka asset hain — plain MP4 hosting me 70% chance hai ki woh Telegram/WhatsApp groups par leak ho jaayein. AllCoaching me encryption + watermarking + analytics built-in. Standalone DRM ki Year-1 cost ₹60K-₹2L hoti hai — yahaan included hai.</p>
 <p><strong>Full data portability.</strong> Aapke students aapke hain. Course content aapka hai. Payment history aapki hai. Har record CSV/JSON me export kar sakte hain anytime. Koi lock-in clause nahi, koi exit penalty nahi. Yeh white-label SaaS contracts se structurally different hai, jahaan 12-month subscription lock-in aur varying data-export terms hote hain.</p>
@@ -402,8 +402,8 @@ faq:
 <div class="cost-card">
 <p class="cc-l">Decision Matrix — Indian Coaching Educator (2026)</p>
 <ul>
-<li><strong>Solo educator (1–50 students)</strong> → <span style="color:#2F8F4E">AllCoaching marketplace primary</span>. Reason: ₹0 upfront, distribution included, no marketing budget required, daily payouts. Free tier par sab features available.</li>
-<li><strong>Small batch teacher (50–250 students)</strong> → <span style="color:#2F8F4E">AllCoaching primary, Teachmint secondary</span> if classroom infrastructure complex hai. 90% revenue retention + cash-flow daily payouts iss segment ke liye optimized.</li>
+<li><strong>Solo educator (1–50 students)</strong> → <span style="color:#2F8F4E">AllCoaching marketplace primary</span>. Reason: ₹0 upfront, distribution included, no marketing budget required, T+3 payouts. Free tier par sab features available.</li>
+<li><strong>Small batch teacher (50–250 students)</strong> → <span style="color:#2F8F4E">AllCoaching primary, Teachmint secondary</span> if classroom infrastructure complex hai. 90% revenue retention + cash-flow T+3 payouts iss segment ke liye optimized.</li>
 <li><strong>Tuition centre / small institute (250–500 students)</strong> → <span style="color:#2F8F4E">AllCoaching primary</span>. Distribution via marketplace reduces ₹4-8 lakh/year paid acquisition budget. Classplus/Teachmint justify only if deep multi-branch features critical.</li>
 <li><strong>Mid-size institute (500–2,000 students)</strong> → <span style="color:#C58B43">Hybrid — AllCoaching marketplace + selective white-label features</span>. AllCoaching listing 20–40% additional organic discovery layer add karta hai.</li>
 <li><strong>Multi-branch chain (2,000+ students)</strong> → <span style="color:#C58B43">Hybrid — Classplus/Teachmint primary for deep enterprise customization, AllCoaching secondary for marketplace reach</span>. ₹4-11L Year-1 cost justify hoti hai ₹50L+ revenue scale par.</li>
@@ -461,7 +461,7 @@ faq:
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
 <p class="v-h">Apna coaching studio aaj launch karein — free me, 60 seconds me.</p>
-<p class="v-p">Mobile + WhatsApp + ek subject — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded studio live hoga, aur pehla paid batch 48 hours me run ho sakta hai. ₹0 upfront. 90% revenue educator ko. Daily payouts. No lock-in. Aap padhayein. Platform infrastructure, payments, aur discovery handle kare.</p>
+<p class="v-p">Mobile + WhatsApp + ek subject — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded studio live hoga, aur pehla paid batch 48 hours me run ho sakta hai. ₹0 upfront. 90% revenue educator ko. T+3 payouts. No lock-in. Aap padhayein. Platform infrastructure, payments, aur discovery handle kare.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
 <a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -480,7 +480,7 @@ Demo book karein
 <span style="opacity:.4;">·</span>
 <span>No lock-in</span>
 <span style="opacity:.4;">·</span>
-<span>Daily payouts</span>
+<span>T+3 payouts</span>
 </div>
 </div>
 </div>

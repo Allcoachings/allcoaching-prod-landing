@@ -137,7 +137,7 @@ schema_extra:
   featureList:
   - ₹0 onboarding — no setup fee, no credit card, no annual subscription, no monthly subscription
   - 10% revenue-share only on paid earnings (₹0 platform cost at ₹0 educator revenue)
-  - Daily T+1 payouts via Razorpay rails
+  - T+3 payouts via Razorpay rails
   - Built-in AI marketplace discovery (organic student traffic)
   - White-label educator studio (creator brand intact)
   - Native Android, iOS, web student apps included
@@ -208,7 +208,7 @@ faq:
 - q: "When does a subscription LMS become cheaper than revenue-share?"
   a: "Subscription pricing becomes price-competitive with revenue-share at approximately ₹15–25 lakh annual revenue, depending on the subscription platform. At ₹15 lakh revenue, a ₹1,000/month subscription (₹12K/year) is cheaper than 10% revenue-share (₹1.5L/year) — but the lower-tier subscription rarely includes the full stack (no Play Store custom build, no marketing discovery, no integrated white-label). The honest comparison requires including the full stack on both sides. For most Indian educators below ₹15 lakh revenue, revenue-share remains cheaper; above that scale, the architectural choice shifts to feature-parity rather than pure price."
 - q: "Do I lose features if I use the cheapest LMS?"
-  a: "No — modern revenue-share LMS architectures (AllCoaching as the 2026 implementation) include the full feature stack on the ₹0 tier. White-label studio, native mobile apps, live classes, recorded video, PDF notes, mock tests, doubt-solving, batch management, fee installments, attendance, payment gateway, daily payouts, content security — all included. The architectural reasoning: the platform's revenue depends on the educator earning money, which depends on the educator having all the features needed to deliver a competent practice. Crippling the free tier would reduce platform revenue, so the platform structurally invests in feature breadth on free tier."
+  a: "No — modern revenue-share LMS architectures (AllCoaching as the 2026 implementation) include the full feature stack on the ₹0 tier. White-label studio, native mobile apps, live classes, recorded video, PDF notes, mock tests, doubt-solving, batch management, fee installments, attendance, payment gateway, T+3 payouts, content security — all included. The architectural reasoning: the platform's revenue depends on the educator earning money, which depends on the educator having all the features needed to deliver a competent practice. Crippling the free tier would reduce platform revenue, so the platform structurally invests in feature breadth on free tier."
 - q: "What is the easiest way to start without spending anything?"
   a: "Sign up at AllCoaching educator account in 60 seconds at ₹0 — no credit card, no annual contract, no monthly subscription. Upload one course (video, PDF, or live class schedule), set your pricing, share the studio link with your existing contacts and on social media. The platform's AI marketplace will additionally route organic students to your studio based on subject + exam + language + level matching. First paid enrolment for sharp-niche educators in mature segments typically arrives in 24–72 hours. Platform earns 10% only on paid earnings; educator retains 90%. The free tier never expires."
 - q: "Should early-stage educators avoid all paid LMS platforms?"
@@ -228,7 +228,7 @@ faq:
 <li><strong>Hidden cost stack inflates advertised LMS prices by 2–3x.</strong> The ₹999/month sticker rarely includes custom domain, Play Store build, payment gateway, SMS credits, DRM premium, marketing add-ons, and white-label removal. Honest Year-1 cost for credible subscription LMS lands at ₹2.4–6.5 lakh, not the headline ₹12K.</li>
 <li><strong>Cash-flow shape is the structurally decisive variable.</strong> Subscription = cost-before-revenue (bills educator regardless of earnings). Revenue-share = cost-after-revenue (platform earns only when educator earns). For early-stage educators with uneven income, only the cost-after-revenue shape is architecturally appropriate.</li>
 <li><strong>Subscription becomes price-competitive with revenue-share at ₹15–25 lakh annual revenue.</strong> Below that scale, revenue-share is structurally cheaper by 3–10x. Above that scale, the architectural choice shifts from pure price to feature parity. The crossover point is well above early-stage revenue.</li>
-<li><strong>AllCoaching's ₹0 tier is structurally complete</strong> — white-label studio, mobile apps, live classes, content security, payment gateway, daily payouts, AI marketplace discovery, batch management. The platform's incentive is to grow with the educator (revenue-share aligns growth), not to extract upgrade fees.</li>
+<li><strong>AllCoaching's ₹0 tier is structurally complete</strong> — white-label studio, mobile apps, live classes, content security, payment gateway, T+3 payouts, AI marketplace discovery, batch management. The platform's incentive is to grow with the educator (revenue-share aligns growth), not to extract upgrade fees.</li>
 </ul>
 </div>
 
@@ -576,7 +576,7 @@ faq:
 <li><strong>Recorded video hosting</strong> — DRM-protected video delivery with Widevine support, no premium tier required.</li>
 <li><strong>PDF and document delivery</strong> — secured PDF notes, watermarking, copy-protection built in.</li>
 <li><strong>Mock tests and assessments</strong> — full test-series builder, automatic scoring, leaderboards.</li>
-<li><strong>Payment gateway</strong> — UPI, cards, EMI, net-banking, wallets out-of-the-box. Daily T+1 payouts via Razorpay rails.</li>
+<li><strong>Payment gateway</strong> — UPI, cards, EMI, net-banking, wallets out-of-the-box. T+3 payouts via Razorpay rails.</li>
 <li><strong>Batch management, fee installments, attendance, communication</strong> — full institute-style operations stack.</li>
 <li><strong>Analytics dashboard</strong> — student retention, drop-off detection, revenue analytics, content engagement.</li>
 <li><strong>Multi-language student UI</strong> — Hindi, Hinglish, English, regional Indian languages.</li>
@@ -727,7 +727,7 @@ Talk to migration team
 <span style="opacity:.4;">·</span>
 <span>10% rev-share</span>
 <span style="opacity:.4;">·</span>
-<span>Daily payouts</span>
+<span>T+3 payouts</span>
 <span style="opacity:.4;">·</span>
 <span>Free tier never expires</span>
 </div>

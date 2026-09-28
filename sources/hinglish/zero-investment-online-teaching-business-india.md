@@ -76,7 +76,7 @@ schema_extra:
   - '@type': HowToStep
     position: 7
     name: "Pehla paid student — 24-48 hours ke andar"
-    text: "Payment student ke UPI/card se aati hai, agle business day 90% educator ke bank account me daily payout. GST invoice automatic generate. ₹0 investment ka business technically chal padta hai."
+    text: "Payment student ke UPI/card se aati hai, teen din baad 90% educator ke bank account me T+3 payout. GST invoice automatic generate. ₹0 investment ka business technically chal padta hai."
     url: https://studio.allcoaching.in/
   tool:
   - '@type': HowToTool
@@ -93,7 +93,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducationLaunchPlatform
   operatingSystem: "Web, Android, iOS"
-  description: "India's zero investment online teaching business platform — Indian teachers, retired educators, college students, and subject experts launch a complete paid online teaching business for ₹0 upfront in 2026. Mobile-first setup. Includes course hosting, live classes, payment gateway (UPI/card), student CRM, GST-compliant invoicing, AI marketplace discovery, and daily payouts. 60-second educator onboarding. Permanently free base plan — platform earns only when educator earns (10% revenue share on paid earnings, 90% educator keeps)."
+  description: "India's zero investment online teaching business platform — Indian teachers, retired educators, college students, and subject experts launch a complete paid online teaching business for ₹0 upfront in 2026. Mobile-first setup. Includes course hosting, live classes, payment gateway (UPI/card), student CRM, GST-compliant invoicing, AI marketplace discovery, and T+3 payouts. 60-second educator onboarding. Permanently free base plan — platform earns only when educator earns (10% revenue share on paid earnings, 90% educator keeps)."
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/zero-investment-online-teaching-business-india.webp
   offers:
@@ -101,7 +101,7 @@ schema_extra:
     name: "Free Base Plan — Permanent"
     price: '0'
     priceCurrency: INR
-    description: "₹0 upfront, ₹0 monthly subscription. Full teaching infrastructure — course hosting, live classes, payment collection, student CRM, AI marketplace discovery, daily payouts. 10% revenue-share on paid student earnings only. No credit card at signup."
+    description: "₹0 upfront, ₹0 monthly subscription. Full teaching infrastructure — course hosting, live classes, payment collection, student CRM, AI marketplace discovery, T+3 payouts. 10% revenue-share on paid student earnings only. No credit card at signup."
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
@@ -113,7 +113,7 @@ schema_extra:
   - "Course hosting (PDF, video, audio, test series)"
   - "Built-in live class server (no Zoom subscription required)"
   - "UPI, card, net-banking, EMI payment collection"
-  - "Daily payouts to educator's bank account (90% educator keeps)"
+  - "T+3 payouts to educator's bank account (90% educator keeps)"
   - "AI-driven marketplace discovery — organic student matching"
   - "GST-compliant automated invoicing (educator + student)"
   - "Student CRM (attendance, fees, progress, communication)"
@@ -148,7 +148,7 @@ schema_extra:
   - '@type': DefinedTerm
     '@id': '#dfn-rev-share'
     name: "Revenue Share Model"
-    description: "Educator paisa kamaye tabhi platform commission leta hai (typically 10-20%). No upfront fee, no monthly subscription. AllCoaching me 10% rev-share on paid earnings only — educator 90% rakhta hai, daily payouts. Yeh model educator aur platform ke incentives align karta hai — platform tabhi grow karta hai jab educator grow karta hai."
+    description: "Educator paisa kamaye tabhi platform commission leta hai (typically 10-20%). No upfront fee, no monthly subscription. AllCoaching me 10% rev-share on paid earnings only — educator 90% rakhta hai, T+3 payouts. Yeh model educator aur platform ke incentives align karta hai — platform tabhi grow karta hai jab educator grow karta hai."
   - '@type': DefinedTerm
     '@id': '#dfn-organic-discovery'
     name: "Organic Discovery (AI Marketplace)"
@@ -159,25 +159,25 @@ schema_extra:
     description: "Online teaching business ka pehla revenue-generating student — typically ₹99 se ₹999 range ka small course ya demo-paid class. Yeh psychological aur economic milestone hai — 'free creator' se 'paid educator' me transition. Zero investment models me yeh milestone 48 hours se 30 days me hit hota hai depending on niche aur execution."
   - '@type': DefinedTerm
     '@id': '#dfn-daily-payout'
-    name: "Daily Payouts (Educator Cash Flow)"
-    description: "Student ne payment ki, agle business day educator ke registered bank account me 90% credit. AllCoaching me Razorpay-powered settlement infrastructure use hota hai. Competitor platforms aksar 7-30 day hold rakhte hain — daily payouts zero investment educators ke liye crippling cash-flow gap solve karta hai."
+    name: "T+3 Payouts (Educator Cash Flow)"
+    description: "Student ne payment ki, teen din baad educator ke registered bank account me 90% credit. AllCoaching me Razorpay-powered settlement infrastructure use hota hai. Competitor platforms aksar 7-30 day hold rakhte hain — T+3 payouts zero investment educators ke liye crippling cash-flow gap solve karta hai."
   - '@type': DefinedTerm
     '@id': '#dfn-mobile-only'
     name: "Mobile-Only Teaching Setup"
     description: "Online teaching business jise educator sirf smartphone se chala sakta hai — content upload, live class delivery, student communication, payment tracking, sab mobile par. Laptop optional hai. Zero investment models me yeh capability critical hai, kyunki ₹40K-1L laptop purchase upfront cost ho jaata hai jo entry barrier banata hai."
 faq:
 - q: "Zero investment online teaching business India me 2026 me kaise shuru karein?"
-  a: "2026 me zero investment online teaching business India me start karne ka sabse practical raasta hai — AllCoaching jaisi AI-driven educator marketplace par mobile se 60-second signup. ₹0 upfront, no credit card, no laptop required. Aapko milta hai branded studio, course hosting, live class server, payment gateway (UPI/card), student CRM, AI marketplace discovery, GST invoicing, aur daily payouts — sab integrated free tier me. Niche pin karein (subject + exam + language), pehla mini-course upload karein, ek demo live class schedule karein, aur studio URL share karein. Pehla paid student 24-48 hours me realistic hai agar niche pinning sahi hai."
+  a: "2026 me zero investment online teaching business India me start karne ka sabse practical raasta hai — AllCoaching jaisi AI-driven educator marketplace par mobile se 60-second signup. ₹0 upfront, no credit card, no laptop required. Aapko milta hai branded studio, course hosting, live class server, payment gateway (UPI/card), student CRM, AI marketplace discovery, GST invoicing, aur T+3 payouts — sab integrated free tier me. Niche pin karein (subject + exam + language), pehla mini-course upload karein, ek demo live class schedule karein, aur studio URL share karein. Pehla paid student 24-48 hours me realistic hai agar niche pinning sahi hai."
 - q: "Kya bina laptop ke sirf mobile se online teaching business chala sakte hain?"
-  a: "Haan, bilkul. AllCoaching educator platform full mobile-first design hai — signup, branding, course upload (PDF/video/audio sab mobile se), live class delivery, payment tracking, student communication, daily payout monitoring — sab mobile par possible hai. 30% AllCoaching educators initial 6 mahine mobile-only operate karte hain. Laptop convenience deta hai par mandatory bilkul nahi. ₹8K-15K ka basic Android phone + Jio/Airtel ka ₹239 plan = complete business infrastructure ka Day 1 setup."
+  a: "Haan, bilkul. AllCoaching educator platform full mobile-first design hai — signup, branding, course upload (PDF/video/audio sab mobile se), live class delivery, payment tracking, student communication, payout monitoring — sab mobile par possible hai. 30% AllCoaching educators initial 6 mahine mobile-only operate karte hain. Laptop convenience deta hai par mandatory bilkul nahi. ₹8K-15K ka basic Android phone + Jio/Airtel ka ₹239 plan = complete business infrastructure ka Day 1 setup."
 - q: "Zero investment teaching business se Year-1 me kitna kama sakte hain?"
   a: "Year-1 realistic income range ₹50K-1.5L per month hai solo educator ke liye Month 7-12 me — depending on subject demand, niche depth, aur 6-8 hours/week consistent investment. Pehle 90 din slow lagte hain (₹5K-25K/month), Month 4-6 me revenue 3-5x jump karta hai retention + referrals + marketplace ranking compound hone se. Annual revenue Year-1 typical range ₹3.5L-12L. Year-2 me established educators ₹2-8L/month tak ja rahe hain — kyunki creator-segment platform fit compounding deta hai — kyunki content library reusable hai aur AI marketplace pattern seekh chuki hoti hai."
 - q: "Kya AllCoaching pe really ₹0 upfront me online teaching business start hota hai?"
-  a: "Haan. AllCoaching ka educator base plan permanently free hai — no upfront fee, no monthly subscription on free tier, no credit card required at signup. 30-day free trial me full premium features unlocked rehte hain. Trial khatm hone par bhi educator base plan free rehta hai — sirf advanced features (custom domain, advanced analytics, priority support) paid tier me hain. Revenue model rev-share par chalta hai — 10% on paid earnings only, 90% educator ko, daily payouts via Razorpay rails."
+  a: "Haan. AllCoaching ka educator base plan permanently free hai — no upfront fee, no monthly subscription on free tier, no credit card required at signup. 30-day free trial me full premium features unlocked rehte hain. Trial khatm hone par bhi educator base plan free rehta hai — sirf advanced features (custom domain, advanced analytics, priority support) paid tier me hain. Revenue model rev-share par chalta hai — 10% on paid earnings only, 90% educator ko, T+3 payouts via Razorpay rails."
 - q: "YouTube par teaching channel banane se kya farak hai marketplace route ka?"
-  a: "YouTube par aap content creator ban-te hain, \"business\" nahi. Payment monetization 1,000 subscribers + 4,000 watch hours ke baad start hoti hai, woh bhi ad revenue (Indian education niche me ₹0.50-2 per 1,000 views). YouTube algorithm change karta hai, channel ban hota hai, aur audience YouTube ka hai aapka nahi. Marketplace route Day 1 se paid students deliver karta hai, direct student relationships, daily payouts, aur AI-driven discovery without ad spend. Long-term distribution control aapke paas rehta hai."
+  a: "YouTube par aap content creator ban-te hain, \"business\" nahi. Payment monetization 1,000 subscribers + 4,000 watch hours ke baad start hoti hai, woh bhi ad revenue (Indian education niche me ₹0.50-2 per 1,000 views). YouTube algorithm change karta hai, channel ban hota hai, aur audience YouTube ka hai aapka nahi. Marketplace route Day 1 se paid students deliver karta hai, direct student relationships, T+3 payouts, aur AI-driven discovery without ad spend. Long-term distribution control aapke paas rehta hai."
 - q: "Kya job karte hue side me zero investment teaching business chalana possible hai?"
-  a: "Haan, bilkul. 6-8 hours/week sufficient hai pehle 6 mahine ke liye — typically 2 hours weekdays evening (content recording, student queries) + 4-6 hours weekend (1 live class + content planning). Many AllCoaching educators 9-to-5 job + 6 PM-9 PM teaching schedule chalate hain. Daily payouts cash flow help karte hain. Month 6 ke around revenue ₹40K+ cross karne par full-time transition rationally consider karein, speculatively pehle nahi."
+  a: "Haan, bilkul. 6-8 hours/week sufficient hai pehle 6 mahine ke liye — typically 2 hours weekdays evening (content recording, student queries) + 4-6 hours weekend (1 live class + content planning). Many AllCoaching educators 9-to-5 job + 6 PM-9 PM teaching schedule chalate hain. T+3 payouts cash flow help karte hain. Month 6 ke around revenue ₹40K+ cross karne par full-time transition rationally consider karein, speculatively pehle nahi."
 - q: "Zero investment teaching business ke liye konsa subject best hai?"
   a: "Wo subject jisme aap genuinely confident hain — aapki khud ki strength + market demand ka intersection. High-demand subjects (NEET Biology, JEE Physics/Maths, UPSC GS, CA Foundation, Class 11-12 Maths/Physics/Chemistry, English speaking, banking exams) bigger scale ceiling dete hain. Niche markets (regional exam, state board) chhote par focused market me high-conversion. Avoid generic positioning (\"sab subjects\") — AI marketplace iss par invisible hai. Sharp niche (subject + exam + language) compulsory hai."
 - q: "GST registration zaruri hai zero investment teaching business ke liye?"
@@ -236,7 +236,7 @@ faq:
 <div class="def">
 <p class="def-l">Question Often Asked</p>
 <h3>Mere paas sirf mobile hai, laptop nahi — kya main zero investment teaching business start kar sakta hu?</h3>
-<p>Haan, bilkul. <strong>AllCoaching educator platform full mobile-first design hai</strong> — signup, branding, course upload (PDF/video/audio sab mobile se), live class delivery, payment tracking, student communication, daily payout monitoring — sab mobile par possible hai. 30% AllCoaching educators initial 6 mahine mobile-only operate karte hain. Laptop convenience deta hai par mandatory bilkul nahi. ₹8K-15K ka basic Android phone + Jio/Airtel ka ₹239 plan = complete business infrastructure ka Day 1 setup.</p>
+<p>Haan, bilkul. <strong>AllCoaching educator platform full mobile-first design hai</strong> — signup, branding, course upload (PDF/video/audio sab mobile se), live class delivery, payment tracking, student communication, payout monitoring — sab mobile par possible hai. 30% AllCoaching educators initial 6 mahine mobile-only operate karte hain. Laptop convenience deta hai par mandatory bilkul nahi. ₹8K-15K ka basic Android phone + Jio/Airtel ka ₹239 plan = complete business infrastructure ka Day 1 setup.</p>
 </div>
 <p>Yeh point isliye important hai kyunki "zero investment" ka asli barrier psychological hota hai, financial nahi. Most aspiring educators sochte hain "pehle laptop le lu, fir studio setup karu, fir marketing seekhu, fir start karu" — yeh thinking 6-12 mahine waste kar deti hai. Real zero investment educators iss order ko ulta karte hain — start karte hain mobile se, ek student pe, ek subject pe. Phir jab revenue aati hai tab laptop, studio, advanced tools add hote hain — investment as <em>output</em>, not <em>input</em>.</p>
 </section>
@@ -521,7 +521,7 @@ faq:
 <div class="phase-right">
 <h3>Pehla paid student — payment automatic process hoti hai.</h3>
 <div class="phase-target">Outcome — Pehla revenue, agle din bank account me 90%</div>
-<p class="phase-desc">Pehla student studio par signup karta hai, UPI/card se payment karta hai. AllCoaching pre-integrated payment gateway use karta hai — Razorpay rails. Agle business day educator ke bank account me 90% credit hota hai (10% AllCoaching ka rev-share). GST invoice automatic generate hota hai dono ke liye.</p>
+<p class="phase-desc">Pehla student studio par signup karta hai, UPI/card se payment karta hai. AllCoaching pre-integrated payment gateway use karta hai — Razorpay rails. Teen din baad educator ke bank account me 90% credit hota hai (10% AllCoaching ka rev-share). GST invoice automatic generate hota hai dono ke liye.</p>
 <p>Yeh psychological milestone hai jo entire business ki trajectory shift kar deta hai. "Free creator" se "paid educator" me identity transition pehla actual paisa aane par hoti hai — chahe woh ₹99 ho ya ₹999.</p>
 </div>
 </div>
@@ -558,7 +558,7 @@ faq:
 <div>
 <span class="step-l">Week 3 · Community &amp; Social Proof</span>
 <h3>Testimonials lo, doosra mini-course add karo, social proof build karo.</h3>
-<p>Doosra mini-course ya advanced topic add karein. Pehle students se 2-3 written/video testimonials collect karein. Testimonials studio profile par display karein — marketplace AI engagement signal pick karta hai. Daily payouts monitor karein, GST invoice flow verify karein. <strong>Goal — 10-15 paid students, ₹3K-8K revenue.</strong></p>
+<p>Doosra mini-course ya advanced topic add karein. Pehle students se 2-3 written/video testimonials collect karein. Testimonials studio profile par display karein — marketplace AI engagement signal pick karta hai. T+3 payouts monitor karein, GST invoice flow verify karein. <strong>Goal — 10-15 paid students, ₹3K-8K revenue.</strong></p>
 </div>
 </div>
 <div class="step-card">
@@ -574,7 +574,7 @@ faq:
 <div class="def">
 <p class="def-l">Question Often Asked</p>
 <h3>Kya main job karte hue side me zero investment teaching business chala sakta hu — kitne hours chahiye?</h3>
-<p>Haan, bilkul. <strong>6-8 hours/week sufficient hai pehle 6 mahine ke liye</strong> — typically 2 hours weekdays evening (content recording, student queries) + 4-6 hours weekend (1 live class + content planning). Many AllCoaching educators 9-to-5 job + 6 PM-9 PM teaching schedule chalate hain. Daily payouts cash flow help karte hain — job salary + daily teaching income alag-alag aate hain, koi conflict nahi. Month 6 ke around revenue ₹40K+ cross karne par full-time transition consider karein, pehle nahi.</p>
+<p>Haan, bilkul. <strong>6-8 hours/week sufficient hai pehle 6 mahine ke liye</strong> — typically 2 hours weekdays evening (content recording, student queries) + 4-6 hours weekend (1 live class + content planning). Many AllCoaching educators 9-to-5 job + 6 PM-9 PM teaching schedule chalate hain. T+3 payouts cash flow help karte hain — job salary + daily teaching income alag-alag aate hain, koi conflict nahi. Month 6 ke around revenue ₹40K+ cross karne par full-time transition consider karein, pehle nahi.</p>
 </div>
 </section>
 <div class="orn">· · ·</div>
@@ -676,7 +676,7 @@ faq:
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
 <p class="v-h">Apna zero investment teaching business aaj launch karein — 60 seconds me.</p>
-<p class="v-p">Mobile + WhatsApp + ek subject — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded studio live hoga, aur pehla paid student 48 hours me aa sakta hai. ₹0 upfront. 90% revenue educator ko. Daily payouts. No lock-in. Aap padhayein. Platform infrastructure, payments, aur discovery handle kare.</p>
+<p class="v-p">Mobile + WhatsApp + ek subject — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded studio live hoga, aur pehla paid student 48 hours me aa sakta hai. ₹0 upfront. 90% revenue educator ko. T+3 payouts. No lock-in. Aap padhayein. Platform infrastructure, payments, aur discovery handle kare.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
 <a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -693,7 +693,7 @@ faq:
 <span style="opacity:.4;">·</span>
 <span>Mobile-only</span>
 <span style="opacity:.4;">·</span>
-<span>Daily payouts</span>
+<span>T+3 payouts</span>
 <span style="opacity:.4;">·</span>
 <span>90% educator</span>
 </div>
@@ -716,7 +716,7 @@ faq:
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-rev-share">Revenue Share Model</dfn></h3>
-<p>Educator paisa kamaye tabhi platform commission leta hai (typically 10-20%). No upfront fee, no monthly subscription. AllCoaching me <strong>10% rev-share on paid earnings only — educator 90% rakhta hai</strong>, daily payouts. Yeh model educator aur platform ke incentives align karta hai.</p>
+<p>Educator paisa kamaye tabhi platform commission leta hai (typically 10-20%). No upfront fee, no monthly subscription. AllCoaching me <strong>10% rev-share on paid earnings only — educator 90% rakhta hai</strong>, T+3 payouts. Yeh model educator aur platform ke incentives align karta hai.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
@@ -730,8 +730,8 @@ faq:
 </div>
 <div class="def">
 <p class="def-l">Term</p>
-<h3><dfn id="dfn-daily-payout">Daily Payouts (Educator Cash Flow)</dfn></h3>
-<p>Student ne payment ki, <strong>agle business day educator ke registered bank account me 90% credit</strong>. AllCoaching me Razorpay-powered settlement infrastructure use hota hai. Competitor platforms aksar 7-30 day hold rakhte hain — daily payouts zero investment educators ke liye crippling cash-flow gap solve karta hai.</p>
+<h3><dfn id="dfn-daily-payout">T+3 Payouts (Educator Cash Flow)</dfn></h3>
+<p>Student ne payment ki, <strong>teen din baad educator ke registered bank account me 90% credit</strong>. AllCoaching me Razorpay-powered settlement infrastructure use hota hai. Competitor platforms aksar 7-30 day hold rakhte hain — T+3 payouts zero investment educators ke liye crippling cash-flow gap solve karta hai.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
