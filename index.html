@@ -897,7 +897,17 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
 .hx-laptop:hover{transform:rotate(-1deg) translateY(-4px);}
 .hx-bar{display:flex; align-items:center; gap:6px; height:30px; padding:0 12px; background:var(--surface-2); border-bottom:1px solid var(--line);}
 .hx-bar i{width:9px; height:9px; border-radius:50%; background:var(--line-strong); flex:none;}
-.hx-url{margin:0 auto; transform:translateX(-18px); font-family:var(--mono); font-size:10.5px; color:var(--ink-3); background:var(--bg); padding:3px 14px; border-radius:999px; white-space:nowrap;}
+.hx-url-wrap{position:relative; margin:0 auto; transform:translateX(-18px); height:20px; width:150px;}
+.hx-url{position:absolute; left:50%; top:0; transform:translateX(-50%); font-family:var(--mono); font-size:10.5px; color:var(--ink-3); background:var(--bg); padding:3px 14px; border-radius:999px; white-space:nowrap;}
+.hx-url.a{animation:hxUrlA 13.2s ease-in-out infinite;}
+.hx-url.b{opacity:0; animation:hxUrlB 13.2s ease-in-out infinite;}
+@keyframes hxUrlA{0%,40%{opacity:1;} 48%,90%{opacity:0;} 98%,100%{opacity:1;}}
+@keyframes hxUrlB{0%,40%{opacity:0;} 48%,90%{opacity:1;} 98%,100%{opacity:0;}}
+.hx-shots{position:relative; display:block;}
+.hx-shot{display:block; width:100%; height:auto;}
+.hx-shot.b{position:absolute; inset:0; opacity:0; animation:hxShotB 13.2s ease-in-out infinite;}
+@keyframes hxShotB{0%,40%{opacity:0;} 48%,90%{opacity:1;} 98%,100%{opacity:0;}}
+@media (prefers-reduced-motion:reduce){.hx-url.b,.hx-shot.b{animation:none; opacity:0;} .hx-url.a{animation:none; opacity:1;}}
 .hx-laptop img,.hx-phone img{display:block; width:100%; height:auto;}
 .hx-play{position:absolute; right:14px; bottom:14px; z-index:3; display:inline-flex; align-items:center; gap:6px; padding:8px 14px; border-radius:999px; background:rgba(21,17,13,.88); color:#F5F0E8; font-size:12.5px; font-weight:700; white-space:nowrap; box-shadow:0 10px 22px -8px rgba(21,17,13,.5); transition:transform .25s var(--ease);}
 .hx-play svg{width:12px; height:12px; color:#E0A95C;}
@@ -993,8 +1003,11 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
     </div>
     <div class="hx-visual">
       <a class="hx-laptop" href="/demo/studio/" aria-label="Open the Studio demo">
-        <span class="hx-bar" aria-hidden="true"><i></i><i></i><i></i><span class="hx-url">studio.allcoaching.in</span></span>
-        <img src="/demo/assets/shots/studio-desktop.webp" width="1440" height="900" alt="AllCoaching Studio dashboard with sample revenue, enrolments and a live class" fetchpriority="high"/>
+        <span class="hx-bar" aria-hidden="true"><i></i><i></i><i></i><span class="hx-url-wrap"><span class="hx-url a">studio.allcoaching.in</span><span class="hx-url b">yourname.allcoaching.in</span></span></span>
+        <span class="hx-shots">
+          <img class="hx-shot a" src="/demo/assets/shots/studio-desktop.webp" width="1440" height="900" alt="AllCoaching Studio dashboard with sample revenue, enrolments and a live class" fetchpriority="high"/>
+          <img class="hx-shot b" src="/demo/assets/shots/website-desktop.webp" width="1440" height="900" alt="" aria-hidden="true" loading="lazy"/>
+        </span>
         <span class="hx-flow" aria-hidden="true">
           <span class="hx-flow-chip"><b>1</b><span>Sign up</span></span>
           <span class="hx-flow-chip"><b>2</b><span>Create your course</span></span>
