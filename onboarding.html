@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
 <meta name="theme-color" content="#15110D"/>
 <meta name="color-scheme" content="light"/>
-<title>Start Your Coaching Academy — ₹6,999 One-Time | AllCoaching</title>
-<meta name="description" content="Your own branded app, website and student app on your own domain. One-time ₹6,999, no monthly fee ever. You keep 90% of every sale, paid daily."/>
+<title>Start Your Coaching Academy — Plans from ₹6,999/yr | AllCoaching</title>
+<meta name="description" content="Your own branded app, website and student app on your own domain. Three annual plans from ₹6,999 — keep 90% to 95% of every sale. Sign up and start selling yourself, no sales call needed."/>
 <!-- ad destination: keep out of the index so it does not compete with /start and /pricing -->
 <meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="https://allcoaching.in/onboarding"/>
 <link rel="icon" type="image/webp" href="/assets/fevicon.webp?v=20260707"/>
 <link rel="apple-touch-icon" href="/assets/logo/allcoaching-logo.webp?v=20260707"/>
-<meta property="og:title" content="Start Your Coaching Academy — ₹6,999 One-Time"/>
-<meta property="og:description" content="Branded app, website and student app on your own domain. Pay once. Keep 90% of every sale."/>
+<meta property="og:title" content="Start Your Coaching Academy — Plans from ₹6,999/yr"/>
+<meta property="og:description" content="Branded app, website and student app on your own domain. Sign up, connect your domain, start selling — no sales call needed."/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://allcoaching.in/onboarding"/>
 <meta property="og:image" content="https://allcoaching.in/demo/assets/shots/studio-desktop.webp"/>
@@ -161,6 +161,25 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
 .ft{background:#15110D;color:rgba(245,232,210,.6);font-size:12.5px;padding:26px 0 30px;text-align:center}
 .ft a{color:rgba(245,232,210,.85);text-decoration:none;margin:0 7px}
 
+/* mini 3-tier plan cards */
+.p3{display:grid;grid-template-columns:1fr;gap:12px;margin-top:20px}
+.p3c{position:relative;background:#fff;border:1px solid var(--line);border-radius:15px;padding:18px 16px}
+.p3c.feat{background:linear-gradient(180deg,#fff,#FFFBF2);border:1.5px solid #E0A95C}
+.p3-badge{position:absolute;top:-10px;left:16px;padding:3px 10px;background:#15110D;color:#F5E8D2;border-radius:999px;font-family:var(--mono);font-size:8.5px;letter-spacing:.14em;font-weight:700;text-transform:uppercase}
+.p3-name{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--ink3);text-transform:uppercase;letter-spacing:.04em}
+.p3-price{display:flex;align-items:baseline;gap:5px;margin-top:6px}
+.p3-price b{font-family:var(--dp);font-style:italic;font-weight:400;font-size:1.7rem;color:var(--ink)}
+.p3-price span{font-size:.72rem;color:var(--ink3)}
+.p3-keep{font-size:13px;color:var(--ink2);margin-top:4px}
+.p3-keep strong{color:var(--ink)}
+.p3 ul{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-direction:column;gap:5px}
+.p3 li{position:relative;padding-left:16px;font-size:12.5px;color:var(--ink);line-height:1.5}
+.p3 li::before{content:'';position:absolute;left:0;top:.45em;width:5px;height:5px;border-radius:50%;background:var(--acc)}
+.p3c a{display:block;text-align:center;margin-top:12px;padding:9px 12px;border-radius:9px;font-size:12.5px;font-weight:700;text-decoration:none}
+.p3c a.pri{background:linear-gradient(180deg,#F5C887,#E0A95C 40%,#C58B43);color:#1A100A}
+.p3c a.gho{background:#fff;color:var(--ink);border:1px solid var(--line)}
+
+@media(min-width:720px){.p3{grid-template-columns:1fr 1fr 1fr}}
 @media(min-width:720px){
   .w{padding:0 26px}
   .s{padding:60px 0}
@@ -196,26 +215,25 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
 <!-- ============ HERO ============ -->
 <section class="hero" id="top">
   <div class="w">
-    <span class="chip"><i></i>Free onboarding seats are full</span>
-    <h1 class="h1">Your own coaching academy.<br/><em>₹6,999. Once.</em></h1>
-    <p class="sub">A branded app, your own website and a student app on your own domain — set up <strong>with you</strong>, not left for you to figure out.</p>
+    <h1 class="h1">Your own coaching academy.<br/><em>Launch it yourself.</em></h1>
+    <p class="sub">A branded app, your own website and a student app on your own domain. <strong>Sign up and set it up yourself</strong> — no sales call, no demo required.</p>
     <p class="proof"><span class="dot"></span><span><b>270 educators</b> are already selling their courses on AllCoaching.</span></p>
 
     <ul class="ticks">
-      <li>Pay once. No monthly fee, ever.</li>
-      <li>You keep <strong>90%</strong> of every sale, paid daily.</li>
+      <li>Three annual plans, starting at ₹6,999.</li>
+      <li>Keep <strong>90% to 95%</strong> of every sale, paid daily.</li>
       <li>Your name and logo — not ours.</li>
-      <li>Sell nothing this month? You pay nothing.</li>
+      <li>Connect your own domain on every plan.</li>
     </ul>
 
     <div class="pbox">
-      <div class="amt"><b>₹6,999</b><span>one-time</span></div>
-      <p class="n">Studio, website, student app, <strong>your own domain</strong>, live classes, courses, notes and test series — all of it, included.</p>
-      <div class="then">Then when a student pays you:<br/><b>10%</b> platform &nbsp;·&nbsp; <b>90%</b> yours</div>
-      <a class="cta" style="margin-top:16px" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="hero">Start onboarding
+      <div class="amt"><b>₹6,999</b><span>per year</span></div>
+      <p class="n">Starter plan: studio, website, student app, <strong>your own domain</strong>, live classes, courses, notes and test series — all included.</p>
+      <div class="then">Keep 90% of every sale.<br/><b>10%</b> platform &nbsp;·&nbsp; <b>90%</b> yours</div>
+      <a class="cta" style="margin-top:16px" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="hero">Start with Starter
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
       </a>
-      <p class="micro d" style="text-align:center">No subscription · No renewal · No hidden fees</p>
+      <p class="micro d" style="text-align:center">Prices exclude GST · Growth &amp; Pro plans below</p>
     </div>
 
     <a class="cta g" style="margin-top:14px;max-width:26rem" href="/demo/" target="_blank" rel="noopener" data-ev="ob_demo_click">See it first — free demo, no sign-up</a>
@@ -225,47 +243,50 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
 <!-- ============ WHAT YOU PAY ============ -->
 <section class="s" id="pay">
   <div class="w">
-    <p class="eb">No asterisks</p>
-    <h2 class="h2">What you pay — <em>and what you never will.</em></h2>
-    <p style="font-size:15px;color:var(--ink2);margin:8px 0 0">One price. No tiers. Nothing moves to a higher plan later.</p>
-    <div class="two">
-      <div class="col">
-        <h3>Included in ₹6,999</h3>
-        <p class="sub">Paid once. Yours from day one.</p>
+    <p class="eb">No sales call. No surprises.</p>
+    <h2 class="h2">Three plans. <em>Pick one, start today.</em></h2>
+    <p style="font-size:15px;color:var(--ink2);margin:8px 0 0">Every plan includes your own connected domain, the branded app and marketplace discovery. Storage, streaming, live hours and the platform fee change by plan.</p>
+
+    <div class="p3">
+      <div class="p3c">
+        <div class="p3-badge" style="background:#EAF5EC;color:#1F6B39">New academy</div>
+        <p class="p3-name">Starter</p>
+        <div class="p3-price"><b>₹6,999</b><span>/year</span></div>
+        <p class="p3-keep"><strong>Keep 90%</strong> — 10% fee</p>
         <ul>
-          <li>Branded studio — your name, logo, colours</li>
-          <li>Your academy website</li>
-          <li>Student app that installs on their phone</li>
-          <li><strong>Your own domain</strong> — yourinstitute.com</li>
-          <li>Courses, PDF notes and study material</li>
-          <li>Test series with auto-scoring and ranks</li>
-          <li><strong>Live classes</strong> with chat and recordings</li>
-          <li>UPI, card and net-banking checkout</li>
-          <li>Student CRM and daily payouts</li>
-          <li>A login for every teacher</li>
-          <li>Listing on the AllCoaching marketplace</li>
-          <li>Help building your first course</li>
+          <li>512 GB storage · 1080p</li>
+          <li>5 live hours/month</li>
+          <li>Your own domain, connected</li>
         </ul>
+        <a class="gho" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="pay-starter">Start with Starter</a>
       </div>
-      <div class="col no">
-        <h3>Never charged</h3>
-        <p class="sub">Not now, not later, not at scale.</p>
+      <div class="p3c feat">
+        <div class="p3-badge">Most popular</div>
+        <p class="p3-name">Growth</p>
+        <div class="p3-price"><b>₹12,999</b><span>/year</span></div>
+        <p class="p3-keep"><strong>Keep 92.5%</strong> — 7.5% fee</p>
         <ul>
-          <li>Monthly or yearly subscription</li>
-          <li>Setup fee on top of the ₹6,999</li>
-          <li>Renewal — the fee does not repeat</li>
-          <li>Separate charge for your domain</li>
-          <li>Per-hour meter on live classes</li>
-          <li>Per-teacher or per-student pricing</li>
-          <li>SMS or WhatsApp credit packs</li>
-          <li>Gateway markup on top of the 10%</li>
-          <li>Yearly price increase</li>
-          <li>A higher tier to unlock features</li>
-          <li>Anything in a month with no sales</li>
-          <li>A cut of anything except real sales</li>
+          <li>1 TB storage · 1080p</li>
+          <li>10 live hours/month</li>
+          <li>Your own domain, connected</li>
         </ul>
+        <a class="pri" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="pay-growth">Start with Growth</a>
+      </div>
+      <div class="p3c">
+        <div class="p3-badge" style="background:#FBE2B8;color:#8E5F22">Best value</div>
+        <p class="p3-name">Pro</p>
+        <div class="p3-price"><b>₹24,999</b><span>/year</span></div>
+        <p class="p3-keep"><strong>Keep 95%</strong> — 5% fee</p>
+        <ul>
+          <li>3 TB storage · 4K</li>
+          <li>15 live hours/month</li>
+          <li>Premium website template</li>
+        </ul>
+        <a class="gho" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="pay-pro">Start with Pro</a>
       </div>
     </div>
+
+    <p style="font-size:12.5px;color:var(--ink3);margin-top:14px;text-align:center">Prices exclude GST · Upgrades credit what you already paid · <a href="/pricing" style="color:var(--acc2)">Full pricing details</a></p>
   </div>
 </section>
 
@@ -309,12 +330,12 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
 <!-- ============ HOW ============ -->
 <section class="s" id="how">
   <div class="w">
-    <p class="eb">Three steps</p>
+    <p class="eb">Self-serve, start to finish</p>
     <h2 class="h2">Live in <em>a day or two.</em></h2>
     <div class="steps">
-      <div class="stp"><b>1</b><div><h3>Onboarding</h3><p>Pay ₹6,999 once. We set it up with you — your name, logo, colours, your domain, and your first course.</p></div></div>
-      <div class="stp"><b>2</b><div><h3>Add your teaching</h3><p>Lectures, notes, a test series. Set your prices, turn on UPI. No coding, no developer.</p></div></div>
-      <div class="stp"><b>3</b><div><h3>Start earning</h3><p>Share the link with your students and get found on the marketplace. You keep 90%, paid daily.</p></div></div>
+      <div class="stp"><b>1</b><div><h3>Sign up &amp; choose a plan</h3><p>Create your account free, then pick Starter, Growth or Pro. No card required just to sign up.</p></div></div>
+      <div class="stp"><b>2</b><div><h3>Upload &amp; connect</h3><p>Add your course, notes and tests, connect your own domain, and turn on UPI. No coding, no developer.</p></div></div>
+      <div class="stp"><b>3</b><div><h3>Publish &amp; start earning</h3><p>Share the link and get found on the marketplace. Keep 90% to 95%, paid daily.</p></div></div>
     </div>
   </div>
 </section>
@@ -328,14 +349,14 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
     <table class="cmpt">
       <thead><tr><th>Platform</th><th>What they charge</th><th>Same, over 3 years</th><th>Cut of your sales</th></tr></thead>
       <tbody>
-        <tr class="us"><td>AllCoaching</td><td>₹6,999 once</td><td class="b">₹6,999</td><td>10%</td></tr>
+        <tr class="us"><td>AllCoaching</td><td>₹6,999–₹24,999 / year</td><td class="b">₹6,999+</td><td>10% down to 5%</td></tr>
         <tr><td>Classplus</td><td>₹19,999 – ₹31,999 / year<br/><small style="font-size:11.5px;color:var(--ink3)">third-party listing</small></td><td>₹59,997 – ₹95,997</td><td>Commission reported in some contracts</td></tr>
         <tr><td>Graphy</td><td>₹1,999 / month<br/><small style="font-size:11.5px;color:var(--ink3)">billed annually</small></td><td>₹71,964</td><td>10% on the entry plan</td></tr>
         <tr><td>Learnyst</td><td>₹3,499 / month</td><td>₹1,25,964</td><td>0%</td></tr>
         <tr><td>Edmingle</td><td>₹7,499 / month<br/><small style="font-size:11.5px;color:var(--ink3)">as reported</small></td><td>₹2,69,964</td><td>0%</td></tr>
       </tbody>
     </table>
-    <p style="font-size:14px;color:var(--ink2);margin:16px 0 0;line-height:1.6"><strong>Read both columns, not just the first.</strong> Learnyst and Edmingle take no cut of your sales — we take 10%. So above roughly ₹4 lakh of sales a year, their fixed monthly plan can work out cheaper than our percentage, and we would rather you know that now. Below that, and before you have proved the teaching sells online, ₹6,999 paid once beats committing ₹41,988 a year to find out.</p>
+    <p style="font-size:14px;color:var(--ink2);margin:16px 0 0;line-height:1.6"><strong>Read both columns, not just the first.</strong> Learnyst and Edmingle take no cut of your sales; Starter takes 10%, falling to 5% on Pro. The crossover is exact: above ₹2.4 lakh of annual sales, Growth already pays for its higher plan price; above ₹3.6 lakh, Pro does. We would rather you know that now than discover it later.</p>
   </div>
 </section>
 
@@ -344,21 +365,21 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
   <div class="w">
     <div class="proof2">
       <div><b>270</b><span>educators selling</span></div>
-      <div><b>90%</b><span>stays with you</span></div>
+      <div><b>90–95%</b><span>stays with you</span></div>
       <div><b>Daily</b><span>payouts to your bank</span></div>
-      <div><b>₹0</b><span>due in a month with no sales</span></div>
+      <div><b>No</b><span>sales call required</span></div>
     </div>
     <p class="eb" style="margin-top:34px">Before you decide</p>
     <h2 class="h2">The questions <em>everyone asks.</em></h2>
     <div style="margin-top:18px">
-      <details open><summary>Is ₹6,999 really all I pay?</summary><p><strong>Yes — once, and it does not repeat.</strong> No subscription, no renewal, no yearly increase, no setup fee on top. The only other money that moves is 10% of a sale, after a student has actually paid you.</p></details>
-      <details><summary>What if I don't sell anything one month?</summary><p><strong>You pay nothing.</strong> The 10% only applies to completed sales. In a slow month the platform earns nothing from you — that is the whole point of charging once instead of monthly.</p></details>
-      <details><summary>Do I pay extra for my own domain?</summary><p>No — connecting your domain is included. <strong>The only thing you buy separately is the domain name itself</strong>, about ₹600–1,200 a year from GoDaddy, Namecheap or Hostinger, registered in your own name so it always stays yours.</p></details>
-      <details><summary>Are live classes charged by the hour?</summary><p><strong>No.</strong> Live classes are included, with chat and automatic recordings. There is no per-hour meter and no separate live plan to buy.</p></details>
-      <details><summary>Will students see my brand or AllCoaching's?</summary><p><strong>Yours.</strong> Your academy name, logo and colours lead everywhere — the website, the app on their home screen, the receipts. We run the infrastructure quietly in the background.</p></details>
+      <details open><summary>Is ₹6,999 really the entry price?</summary><p><strong>Yes — that is the Starter plan, per year.</strong> No setup fee on top, no card required just to sign up. Prices exclude GST, added at checkout. Growth and Pro cost more but lower the platform fee.</p></details>
+      <details><summary>Do I need a sales call or demo to sign up?</summary><p><strong>No.</strong> Sign up, choose a plan, upload a course, connect your domain, set up payment, publish — fully self-serve. WhatsApp support is there if you want to ask something first, but it is optional.</p></details>
+      <details><summary>Do I pay extra for my own domain?</summary><p>No — connecting your domain is included on every plan, including Starter. <strong>The only thing you buy separately is the domain name itself</strong>, about ₹600–1,200 a year from GoDaddy, Namecheap or Hostinger, registered in your own name.</p></details>
+      <details><summary>Are live classes charged by the hour?</summary><p><strong>No.</strong> Each plan's live-class hours are included in its price — 5 on Starter, 10 on Growth, 15 on Pro. There is no separate per-hour meter within that allowance.</p></details>
+      <details><summary>What happens if I do not renew?</summary><p><strong>Your academy goes offline</strong> at the end of your paid year — students can no longer reach it. Your content and student data stay exportable, and renewing brings it back live.</p></details>
       <details><summary>Can I see it before paying?</summary><p>Yes — <a href="/demo/" target="_blank" rel="noopener" data-ev="ob_demo_click" style="color:var(--acc2);font-weight:600">open the free demo</a>. It is the real product with sample data. No sign-up, no card, nothing saved or charged.</p></details>
-      <details><summary>What if I want to leave later?</summary><p>Your students, payment history and content are <strong>exportable any time</strong>, and the domain is registered in your name, so it leaves with you. There is no lock-in and no notice period.</p></details>
-      <details><summary>Why is onboarding paid now?</summary><p>The free seats are full. <strong>Setting an academy up properly takes real time from a real person</strong> — your first course, your domain, your pricing. The fee pays for that. The 90/10 split has not changed.</p></details>
+      <details><summary>Will students see my brand or AllCoaching's?</summary><p><strong>Yours.</strong> Your academy name, logo and colours lead everywhere — the website, the app on their home screen, the receipts. We run the infrastructure quietly in the background.</p></details>
+      <details><summary>Can I upgrade later?</summary><p><strong>Yes, any time.</strong> Upgrades take effect the moment payment clears, and what you already paid this year is credited toward the higher plan — you only pay the difference.</p></details>
     </div>
   </div>
 </section>
@@ -366,11 +387,11 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
 <!-- ============ FINAL ============ -->
 <section class="hero" style="padding:42px 0 46px" id="final">
   <div class="w">
-    <h2 class="h1" style="font-size:clamp(1.9rem,6.6vw,2.8rem)">Pay once.<br/><em>Teach for years.</em></h2>
-    <p class="sub">₹6,999 to get your academy set up properly, with help. After that it is yours — and we only earn when you do.</p>
-    <a class="cta" style="margin-top:22px;max-width:26rem" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="final">Start onboarding — ₹6,999</a>
+    <h2 class="h1" style="font-size:clamp(1.9rem,6.6vw,2.8rem)">Launch it yourself.<br/><em>Starting today.</em></h2>
+    <p class="sub">Sign up, choose a plan and connect your own domain — no sales call, no demo, no technical team required. Plans start at ₹6,999/year.</p>
+    <a class="cta" style="margin-top:22px;max-width:26rem" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="final">Start with Starter — ₹6,999/yr</a>
     <a class="cta g" style="margin-top:11px;max-width:26rem" href="https://api.whatsapp.com/send/?phone=919889977262&amp;text=Hi%20AllCoaching%2C%20I%20have%20a%20question%20before%20starting." target="_blank" rel="noopener" data-ev="ob_whatsapp_click">Ask a question on WhatsApp</a>
-    <p class="micro">One-time · Keep 90% · Daily payouts · No subscription</p>
+    <p class="micro">From ₹6,999/yr · Keep up to 95% · Connect your own domain · No sales call</p>
   </div>
 </section>
 
@@ -383,8 +404,8 @@ details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
 
 <!-- sticky mobile CTA: the single biggest mobile conversion lever -->
 <div class="bar" role="region" aria-label="Start onboarding">
-  <div class="px"><b>₹6,999</b><i>one-time</i></div>
-  <a class="cta" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="sticky">Start onboarding</a>
+  <div class="px"><b>₹6,999</b><i>per year</i></div>
+  <a class="cta" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="sticky">Start with Starter</a>
   <a class="w2" href="https://api.whatsapp.com/send/?phone=919889977262&amp;text=Hi%20AllCoaching%2C%20I%20want%20to%20start%20my%20coaching%20academy." target="_blank" rel="noopener" aria-label="WhatsApp" data-ev="ob_whatsapp_click"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57a1.1 1.1 0 0 0-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4c-1.76 0-3.49-.47-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.38a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.83 9.83 0 0 1 9.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41Z"/></svg></a>
 </div>
 
