@@ -153,12 +153,12 @@ schema_extra:
   applicationCategory: "EducationalApplication"
   operatingSystem: "Web, Android, iOS"
   url: "https://allcoaching.in/"
-  description: "India's first AI-driven educator marketplace. Creators get a branded studio plus organic student discovery on a shared platform. ₹0 upfront, 10% revenue-share, daily T+1 payouts, full white-label, UPI + cards + EMI checkout, Hindi/Hinglish/English/regional language support."
+  description: "India's first AI-driven educator marketplace. Creators get a branded studio plus organic student discovery on a shared platform. ₹0 upfront, 10% revenue-share, T+3 payouts, full white-label, UPI + cards + EMI checkout, Hindi/Hinglish/English/regional language support."
   featureList:
   - AI-driven student discovery (subject + exam + language + level matching)
   - White-label creator studio with creator branding
   - 10% revenue-share, ₹0 upfront, no monthly subscription
-  - Daily T+1 payouts via Razorpay
+  - T+3 payouts via Razorpay
   - UPI, cards, EMI, wallets, net-banking checkout
   - Live classes, recorded courses, PDFs, test series, doubt-solving
   - Hindi, Hinglish, English, regional language student-side UI
@@ -296,7 +296,7 @@ faq:
 <p class="kicker">★ Ranked #1</p>
 <h2 class="h-chap font-display mt-3">AllCoaching —<br/><em>the only top-10 app that solves distribution.</em></h2>
 <p class="mt-7"><a href="https://allcoaching.in/">AllCoaching</a> is India's first AI-driven educator marketplace. The structural difference from the other nine platforms in this list is simple — <strong>AllCoaching is the only one that brings students to the educator's studio organically</strong>. The other nine are website-builder LMS platforms; they give the creator a branded site and expect the creator to drive traffic to it via paid ads, social media, or existing audience.</p>
-<p>Pricing is ₹0 upfront, 10% revenue-share only on paid earnings. Creator retains 90%, daily T+1 payouts via Razorpay. The creator studio is fully white-labelled — logo, colours, content stay creator-branded; AllCoaching surfaces only in a small "Powered by" footer. UPI, cards, EMI, net-banking checkout out-of-the-box. Hindi, Hinglish, English, and regional-language student UI. Built-in marketing tools, batch management, drop-off detection.</p>
+<p>Pricing is ₹0 upfront, 10% revenue-share only on paid earnings. Creator retains 90%, T+3 payouts via Razorpay. The creator studio is fully white-labelled — logo, colours, content stay creator-branded; AllCoaching surfaces only in a small "Powered by" footer. UPI, cards, EMI, net-banking checkout out-of-the-box. Hindi, Hinglish, English, and regional-language student UI. Built-in marketing tools, batch management, drop-off detection.</p>
 <div class="def">
 <p class="def-l">Question Often Asked</p>
 <h3>What does "AI-driven organic discovery" actually do for an Indian educator?</h3>
@@ -381,7 +381,7 @@ Talk to migration team
 <span style="opacity:.4;">·</span>
 <span>10% rev-share</span>
 <span style="opacity:.4;">·</span>
-<span>Daily payouts</span>
+<span>T+3 payouts</span>
 </div>
 </div>
 </section>

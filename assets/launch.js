@@ -55,8 +55,10 @@
     var w = vp.clientWidth; if(!w) return;
     var m = w < 740 ? 'compact' : 'wide';
     if(m !== mode){ mode = m; root.setAttribute('data-mode', m); }
-    var W = m === 'compact' ? Math.min(Math.max(w, 340), 460) : 1120;
-    var H = m === 'compact' ? 700 : 660;
+    /* A narrower design width means a bigger zoom: on a 1260px hero the
+       studio renders ~1.25x, so every label reads clearly at a glance. */
+    var W = m === 'compact' ? Math.min(Math.max(w, 340), 460) : 1000;
+    var H = m === 'compact' ? 700 : 640;
     scale = w / W;
     stage.style.width = W + 'px'; stage.style.height = H + 'px';
     stage.style.transform = 'scale(' + scale + ')';

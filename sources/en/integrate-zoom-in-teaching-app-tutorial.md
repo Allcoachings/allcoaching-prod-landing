@@ -82,7 +82,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: Web, Android, iOS
-  description: India's integrated live-class platform for coaching educators — Indian teachers, coaching institutes, and subject experts launch a complete branded live-class studio for ₹0 upfront in 2026. Includes HLS streaming, branded waiting room, automatic attendance tracking, cloud recording with Widevine L1 DRM, payment gateway, student CRM, GST-compliant invoicing, marketplace discovery, and daily payouts. 60-second onboarding from mobile OTP to live branded studio. Free base plan permanently available — the structural alternative to the 80–200 hour Zoom integration project.
+  description: India's integrated live-class platform for coaching educators — Indian teachers, coaching institutes, and subject experts launch a complete branded live-class studio for ₹0 upfront in 2026. Includes HLS streaming, branded waiting room, automatic attendance tracking, cloud recording with Widevine L1 DRM, payment gateway, student CRM, GST-compliant invoicing, marketplace discovery, and T+3 payouts. 60-second onboarding from mobile OTP to live branded studio. Free base plan permanently available — the structural alternative to the 80–200 hour Zoom integration project.
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/integrate-zoom-in-teaching-app-tutorial.webp
   offers:
@@ -90,7 +90,7 @@ schema_extra:
     name: Free Base Plan
     price: '0'
     priceCurrency: INR
-    description: Free permanently. Full live-class infrastructure — HLS streaming, attendance, cloud recording, branded studio, payment gateway, student CRM, marketplace discovery, daily payouts. 10% revenue-share on paid student earnings only.
+    description: Free permanently. Full live-class infrastructure — HLS streaming, attendance, cloud recording, branded studio, payment gateway, student CRM, marketplace discovery, T+3 payouts. 10% revenue-share on paid student earnings only.
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
@@ -113,7 +113,7 @@ schema_extra:
   - HLS adaptive bitrate streaming optimised for sub-₹15K Android devices on patchy Indian mobile data
   - WhatsApp + push notification reminders sent automatically before class
   - Integrated payment gateway — UPI, card, net-banking, EMI
-  - Daily payouts to educator bank account via Razorpay rails
+  - T+3 payouts to educator bank account via Razorpay rails
   - Student CRM with live-class attendance, recording-view progress, and fee history in one record
   - AI-driven marketplace listing for organic student discovery
   - GST-compliant automated invoicing under SAC 999293
@@ -181,7 +181,7 @@ schema_extra:
 <li><strong>The advertised "₹1,750/month Zoom Business tier" is 5–15% of the real Year-1 cost.</strong> Engineering build, ongoing maintenance, observability, DRM re-upload pipeline, CRM integration and edge-case support add up to ₹1.6–8.6 lakh on top of the subscription. Most teachers budget only the subscription.</li>
 <li><strong>AllCoaching's 60-second onboarding launches a live-class studio in 6 steps:</strong> Mobile OTP → Name &amp; WhatsApp → Subject → Brand (logo + colors) → Plan choose → Launch live. 500+ educators run this flow every month — most schedule their first live class within 48 hours of launch, no Zoom integration required.</li>
 <li><strong>7 infrastructure layers every live-class teaching app needs:</strong> live-class streaming, attendance tracking, recording, DRM-protected playback, payment gateway, student CRM, GST-compliant invoicing. Assembled separately: ₹2.7L–11L/year + 80–200 engineering hours. AllCoaching free tier: all included.</li>
-<li><strong>AllCoaching educators keep 90% of paid earnings with daily payouts and no lock-in.</strong> 10% rev-share only on paid student earnings — the platform earns only when the educator does. The free base plan stays free permanently after the 30-day premium trial ends.</li>
+<li><strong>AllCoaching educators keep 90% of paid earnings with T+3 payouts and no lock-in.</strong> 10% rev-share only on paid student earnings — the platform earns only when the educator does. The free base plan stays free permanently after the 30-day premium trial ends.</li>
 </ul>
 </div>
 <!-- ============ SECTION 01 — Reframe ============ -->
@@ -261,7 +261,7 @@ schema_extra:
 <ul>
 <li><strong>The educator studio is fully branded.</strong> Logo, colors, subdomain, the waiting room before live classes, the post-class recording screen — all reflect the educator's brand. The student-facing experience never reveals Zoom. AllCoaching appears only as a small 'Powered by' line in the footer of the free tier.</li>
 <li><strong>The live-class layer uses HLS streaming, not Zoom.</strong> HLS is the adaptive-bitrate protocol designed for inconsistent mobile bandwidth — the sub-₹15K Android device on patchy 4G stays connected as well as the home-WiFi student. Zoom assumes a desktop-class connection and degrades faster on Indian mobile reality.</li>
-<li><strong>Revenue-share model — the platform earns only when the educator earns.</strong> No upfront fee, no monthly subscription on the base plan, no credit card at signup. 10% rev-share on paid student earnings. 90% to the educator, daily payouts via Razorpay rails. ₹0 earned means ₹0 paid.</li>
+<li><strong>Revenue-share model — the platform earns only when the educator earns.</strong> No upfront fee, no monthly subscription on the base plan, no credit card at signup. 10% rev-share on paid student earnings. 90% to the educator, T+3 payouts via Razorpay rails. ₹0 earned means ₹0 paid.</li>
 </ul>
 <p>The practical implication: <strong>the educator runs the entire live-class workflow from one login — schedule a class, students get reminders, attendance is recorded, the session is recorded with DRM, the playback link reaches the student CRM, the payment is reconciled, the invoice is generated.</strong> No Zoom Marketplace App. No webhook subscription. No DRM re-upload pipeline. The educator's focus stays on teaching; the platform's focus stays on the system. This role separation is what gives marketplace-cloud educators more compounding than DIY or white-label.</p>
 <div class="def">
@@ -315,7 +315,7 @@ schema_extra:
 <li><strong>Live-class streaming.</strong> Either Zoom subscription (₹21K/year per host) plus the 80–200 hour integration, or a self-hosted Jitsi/Janus stack (more engineering), or an integrated platform. AllCoaching uses HLS adaptive bitrate streaming on its own servers — optimised for Indian mobile data, included in the free tier with no per-host fee.</li>
 <li><strong>Attendance pipeline.</strong> If using Zoom, this means subscribing to meeting.participant_joined and meeting.participant_left webhooks, building idempotent handlers, and enforcing email-matching at join-link generation. If skipped, attendance data is unreliable. AllCoaching writes attendance natively — every join/leave is a CRM record without webhook plumbing.</li>
 <li><strong>Recording + DRM.</strong> Zoom records to its cloud; you must download via the recording.completed webhook within 24 hours, re-upload to your own CDN, apply Widevine L1 DRM + forensic watermarking. Without DRM, plain-Zoom recordings of paid Indian coaching content leak 60–75% within 30 days on Telegram/WhatsApp. AllCoaching applies DRM natively.</li>
-<li><strong>Payment gateway.</strong> Razorpay or Cashfree direct integration takes 5–7 days, requires KYC + GST registration, and adds 1.5–3% transaction commission. AllCoaching pre-integrates the gateway — student pays, the next business day 90% lands in the educator's bank account.</li>
+<li><strong>Payment gateway.</strong> Razorpay or Cashfree direct integration takes 5–7 days, requires KYC + GST registration, and adds 1.5–3% transaction commission. AllCoaching pre-integrates the gateway — student pays, and 3 days later 90% lands in the educator's bank account.</li>
 <li><strong>Student CRM.</strong> Attendance, fee status, recording-view progress, communication history. Beyond 20 students WhatsApp + Excel breaks down — formulas snap, groups overflow. Standalone CRM tools run ₹30–90K/year. AllCoaching's CRM is built in.</li>
 <li><strong>Discovery + marketing.</strong> The most expensive and underestimated layer. DIY and white-label leave it to the educator — Meta + Google ads, content marketing, SEO, influencer tie-ups — ₹1.5–5L/year typical. <strong>AllCoaching has no separate marketing layer</strong> because the marketplace AI surfaces educators to students organically. A structural advantage, not just a monetary one.</li>
 <li><strong>GST + invoicing.</strong> Coaching services in India attract 18% GST. Manual invoicing through a CA or in-house adds ₹15–40K/year. AllCoaching auto-generates GST-compliant invoices per transaction under SAC 999293.</li>
@@ -455,7 +455,7 @@ schema_extra:
 <li>Student CRM (attendance, fees, progress)</li>
 <li>AI-marketplace listing &amp; discovery</li>
 <li>GST-compliant invoicing</li>
-<li>Daily payouts via Razorpay</li>
+<li>T+3 payouts via Razorpay</li>
 </ul>
 </div>
 <div class="cost-card">
@@ -530,7 +530,7 @@ schema_extra:
 <span>Payouts</span>
 <span>Self-handle</span>
 <span>Weekly–monthly</span>
-<span class="cmp-acc">Daily</span>
+<span class="cmp-acc">T+3</span>
 </div>
 </div>
 </div>
@@ -628,7 +628,7 @@ schema_extra:
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
 <p class="v-h">Launch your live-class studio today — free, in 60 seconds.</p>
-<p class="v-p">Mobile + WhatsApp + one subject — that is everything you need. After AllCoaching's 60-second onboarding, your branded studio is live with integrated live class, attendance, recording, payment, and student CRM — no Zoom integration project required. ₹0 upfront. 90% revenue to the educator. Daily payouts. No lock-in. You teach. The platform handles infrastructure, payments, and discovery.</p>
+<p class="v-p">Mobile + WhatsApp + one subject — that is everything you need. After AllCoaching's 60-second onboarding, your branded studio is live with integrated live class, attendance, recording, payment, and student CRM — no Zoom integration project required. ₹0 upfront. 90% revenue to the educator. T+3 payouts. No lock-in. You teach. The platform handles infrastructure, payments, and discovery.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
 <a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -647,7 +647,7 @@ schema_extra:
 <span style="opacity:.4;">·</span>
 <span>No lock-in</span>
 <span style="opacity:.4;">·</span>
-<span>Daily payouts</span>
+<span>T+3 payouts</span>
 </div>
 </div>
 <!-- ========= GLOSSARY ========= -->

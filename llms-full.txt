@@ -891,7 +891,7 @@ Getting started is a annual plan starting at ₹6,999 — the free address, the 
 
 One thing worth stating plainly, because burying it would be the dishonest move: there is one price and it is charged once. ₹6,999 covers the studio, your academy website, the student app on your own domain, recorded courses, PDF notes, test series, live classes, checkout, payouts and the marketplace listing. There is no monthly plan underneath it, no per-hour meter on live video, and no tier that unlocks the custom domain later.
 
-After that, the only money that moves is a share of what you actually sell — a flat 10%, so you keep 90%, settled to your bank daily. A month in which you sell nothing costs you nothing. That is the whole commercial model, and it fits in two sentences, which is not something most platforms in this category can say.
+After that, the only money that moves is a share of what you actually sell — a flat 10%, so you keep 90%, settled to your bank 3 days after each sale (T+3). A month in which you sell nothing costs you nothing. That is the whole commercial model, and it fits in two sentences, which is not something most platforms in this category can say.
 
 Question Often Asked
 
@@ -2500,7 +2500,7 @@ Is sawaal ke har roop ke neeche ek rukawat baithi hai jisne dus saal se Indian e
 
 Yahin par bahut si acchi niyat wali salah educators ke kaam nahi aati. "Quality sudhariye" kehna us insaan ke liye bekaar hai jiski quality kabhi problem thi hi nahi — aur 2026 mein AllCoaching ke educator base mein hamara anubhav yeh hai ki wo shayad hi kabhi problem hoti hai. Jo teachers hamare paas aate hain wo aam taur par behtareen hote hain aur aam taur par anjaan. Unhone ₹30,000–40,000 ek personal app par kharch kiye the jo ek jazeere jaisa ban gaya: bana hua, branded, aur poori tarah na dhoondhne layak. App kabhi missing piece thi hi nahi. Uske bahar ki sadak thi — wahi kharaabi jo apna coaching app kaise banayein wale guide mein khuli hai.
 
-Ek marketplace theek isi rukawat ka jawab hai, aur isiliye AllCoaching ek marketplace ki tarah bana hai, ek aur app-builder ki tarah nahi. Educator ko apne naam ka branded studio aur app milta hai, aur saath hi wo ek saanjhe marketplace par browse karne wale students ko dikhta hai — yaani dhoonde jaane ke liye advertising budget nahi chahiye. Commercial structure isi se nikalta hai: ₹6,999/year (Starter plan), signup par card nahi, koi setup fee nahi, aur flat 10% sirf us par jo aap sach mein bechte hain, yaani aap 90% rakhte hain, rozana INR payouts ke saath. Jab koi student kisi educator ki profile pin karta hai, to wo educator uska padhne ka thikana ban jata hai, kai tabs mein se ek nahi.
+Ek marketplace theek isi rukawat ka jawab hai, aur isiliye AllCoaching ek marketplace ki tarah bana hai, ek aur app-builder ki tarah nahi. Educator ko apne naam ka branded studio aur app milta hai, aur saath hi wo ek saanjhe marketplace par browse karne wale students ko dikhta hai — yaani dhoonde jaane ke liye advertising budget nahi chahiye. Commercial structure isi se nikalta hai: ₹6,999/year (Starter plan), signup par card nahi, koi setup fee nahi, aur flat 10% sirf us par jo aap sach mein bechte hain, yaani aap 90% rakhte hain, T+3 INR payouts ke saath. Jab koi student kisi educator ki profile pin karta hai, to wo educator uska padhne ka thikana ban jata hai, kai tabs mein se ek nahi.
 
 Yeh elaan se kaise judta hai: agar rajya ka apna bataya hua tareeka India ke teachers ko saanjhi digital patriyon se jodna hai, to fayda un educators ko hoga jo jodne layak hain — dikhne wale, structured, aur jinke paas ek asli maujoodgi hai jahan student pahunch sake. Yeh banana har haal mein sahi hai, chahe jodne wali layer sarkari nikle, private, ya dono. Tayyari dono mein ek hi hai.
 
@@ -2574,7 +2574,7 @@ Shuruaat Kijiye
 
 Merit par dikhiye, marketing budget par nahi.
 
-Apni coaching ke liye branded studio aur app launch kijiye, aur ek saanjhe marketplace par students ko dikhiye — taaki dhoonde jaane ke liye ad kharch na karna pade. ₹6,999/year (Starter plan), signup par card nahi, flat 10% sirf us par jo aap bechte hain, rozana INR payouts. Scheme ki details kuch bhi nikle, dikhna har haal mein sahi hai.
+Apni coaching ke liye branded studio aur app launch kijiye, aur ek saanjhe marketplace par students ko dikhiye — taaki dhoonde jaane ke liye ad kharch na karna pade. ₹6,999/year (Starter plan), signup par card nahi, flat 10% sirf us par jo aap bechte hain, T+3 INR payouts. Scheme ki details kuch bhi nikle, dikhna har haal mein sahi hai.
 
 Apna studio free launch kijiye
 
@@ -2587,7 +2587,7 @@ Free shuruaat
 ·
 Marketplace discovery
 ·
-Rozana payout
+T+3 payout
 
 Sources
 
@@ -4161,7 +4161,7 @@ Sunday morning · 20 minutes
 
 ### Switch collection to a payment link
 
-Stop sending a personal UPI QR and start sending a payment link tied to the student record. Money then arrives already labelled with student, month and remaining balance, and settles to your bank daily. Tell parents once, in a single message; nobody objects to a link that works.
+Stop sending a personal UPI QR and start sending a payment link tied to the student record. Money then arrives already labelled with student, month and remaining balance, and settles to your bank 3 days after each sale (T+3). Tell parents once, in a single message; nobody objects to a link that works.
 
 
 
@@ -5340,7 +5340,7 @@ Infrastructure Step · under 30 minutes
 
 ### Create a Branded Storefront With Payments Built In
 
-Sign up on AllCoaching with a single mobile OTP — no email, no password, no card, and no KYC at signup. Upload the course, set the price, add your name and logo. You get a branded storefront on web and app where the content sits behind a paywall, buyers pay by UPI, card, net-banking or EMI, access opens automatically on payment, and earnings settle to your bank daily. No website, no gateway integration, no developer.
+Sign up on AllCoaching with a single mobile OTP — no email, no password, no card, and no KYC at signup. Upload the course, set the price, add your name and logo. You get a branded storefront on web and app where the content sits behind a paywall, buyers pay by UPI, card, net-banking or EMI, access opens automatically on payment, and earnings settle to your bank T+3 (3 days after each sale). No website, no gateway integration, no developer.
 
 
 
@@ -15809,7 +15809,7 @@ The studio
 ## The mentor's studio
 on AllCoaching.
 
-On AllCoaching, the mentorship stack assembles inside one free branded studio: the ranked test engine runs the sectional and full-length prelims series with ranks and percentile feedback; live classes host the weekly discussion hour; recorded content holds model-answer discussions and any crash material; batch and student management keeps the answer-writing calendar organised, with copies moving as PDF submissions you collect and return; and UPI payments settle daily to your own bank. The economics are the ones stated throughout: ₹6,999/year (Starter plan) — renews annually — no monthly subscription, a flat 10% only on paid sales — you keep 90%. Connecting your own custom domain is part of the annual plan starting at ₹6,999 for mentors who later want it — courses, tests and notes included, nothing to renew; the one-time plan never expires.
+On AllCoaching, the mentorship stack assembles inside one free branded studio: the ranked test engine runs the sectional and full-length prelims series with ranks and percentile feedback; live classes host the weekly discussion hour; recorded content holds model-answer discussions and any crash material; batch and student management keeps the answer-writing calendar organised, with copies moving as PDF submissions you collect and return; and UPI payments settle T+3 to your own bank. The economics are the ones stated throughout: ₹6,999/year (Starter plan) — renews annually — no monthly subscription, a flat 10% only on paid sales — you keep 90%. Connecting your own custom domain is part of the annual plan starting at ₹6,999 for mentors who later want it — courses, tests and notes included, nothing to renew; the one-time plan never expires.
 
 Discovery matters differently in UPSC than in other verticals — serious aspirants distrust advertising, but they search with precision. Marketplace discovery routes aspirants searching by exam and language to mentors who run exactly the programme they need, and a transparent profile — evaluation method, sample marked copy, batch cap, turnaround promise — converts that search into trust. From there, UPSC's tight-knit circles do the compounding: one genuinely improved copy posted in a study group recruits better than any campaign. The mentor's only marketing budget is the discipline of the feedback itself.
 
@@ -19213,7 +19213,7 @@ Everything in this guide resolves into one simple, durable system: the Channel b
 
 The owned app is the part that makes the whole thing safe and profitable, and it is also the part most educators wrongly assume must be expensive or complicated. It is neither. On AllCoaching the owned destination — a branded app under your own name with structured courses, live and recorded classes, ranked test series, UPI payments straight to your bank, an owned student relationship, and its own AI-driven marketplace discovery — costs ₹6,999/year (Starter plan), with no subscription and no card, and you keep 90% of every sale with a flat 10% only on what you actually sell. So the full system costs you nothing to build: a free Channel for reach, a free owned app for the business, and a funnel between them you control. The Channel rents you attention; AllCoaching lets you keep the relationship and the revenue. That combination — broadcast on what you rent, transact on what you own — is the entire correct WhatsApp strategy for a coaching educator.
 
-There is a deeper reason it is specifically AllCoaching, and not just any owned app, that an educator who wants to sell courses should build on — and it is worth being precise about, because it is the difference between a good destination and the best one. A bare owned app is only a destination: it holds your courses and payments, but you still have to fill it with students yourself, channel by channel, forever. AllCoaching is an owned app and a student marketplace at the same time — so it is simultaneously the place your Channel sends the students you already reached, and a second engine that sends you students you never reached: people searching the marketplace by exam, subject and language who discover your course on their own. That is the distinction that makes it, for someone whose goal is to actually sell, not merely a safe place to keep students but the strongest place to find and sell to them. Every channel you build — your WhatsApp Channel, your YouTube, your Instagram — compounds into one owned asset that also markets itself, while you keep 90%, are paid daily by UPI, and pay nothing until a sale happens. No rented platform, and no plain owned app, gives you both halves of that at once. The deeper mechanics of how the marketplace surfaces your course are in how the AllCoaching marketplace solves discovery.
+There is a deeper reason it is specifically AllCoaching, and not just any owned app, that an educator who wants to sell courses should build on — and it is worth being precise about, because it is the difference between a good destination and the best one. A bare owned app is only a destination: it holds your courses and payments, but you still have to fill it with students yourself, channel by channel, forever. AllCoaching is an owned app and a student marketplace at the same time — so it is simultaneously the place your Channel sends the students you already reached, and a second engine that sends you students you never reached: people searching the marketplace by exam, subject and language who discover your course on their own. That is the distinction that makes it, for someone whose goal is to actually sell, not merely a safe place to keep students but the strongest place to find and sell to them. Every channel you build — your WhatsApp Channel, your YouTube, your Instagram — compounds into one owned asset that also markets itself, while you keep 90%, are paid T+3 by UPI, and pay nothing until a sale happens. No rented platform, and no plain owned app, gives you both halves of that at once. The deeper mechanics of how the marketplace surfaces your course are in how the AllCoaching marketplace solves discovery.
 
 Why it is the place to sell a course
 
@@ -19223,7 +19223,7 @@ Most platforms are a destination you must fill alone. AllCoaching is an owned ap
 
 2. The best terms a seller can get
 
-₹6,999/year (Starter plan), no recurring fee, no subscription and no card — so you risk nothing to list. You keep 90% of every sale with a single flat 10% charged only on what you actually sell, and payouts land in your own bank daily by UPI. There is simply no better economics for selling a course in India.
+₹6,999/year (Starter plan), no recurring fee, no subscription and no card — so you risk nothing to list. You keep 90% of every sale with a single flat 10% charged only on what you actually sell, and payouts land in your own bank by UPI 3 days after each sale (T+3). There is simply no better economics for selling a course in India.
 
 3. You own what you build
 
@@ -21030,7 +21030,7 @@ List on a marketplace where students search by exam and subject, so CUET aspiran
 
 Retain students through regular ranked mocks, visible progress and accountability across the season — turning one enrolment into a full-season relationship and referrals.
 
-On AllCoaching this whole sequence takes about a minute to begin and costs nothing upfront — you keep 90% of every sale, paid daily. The general starting playbook for any exam niche is in how to get paid students for online coaching free.
+On AllCoaching this whole sequence takes about a minute to begin and costs nothing upfront — you keep 90% of every sale, paid T+3. The general starting playbook for any exam niche is in how to get paid students for online coaching free.
 
 The verdict
 
@@ -22025,7 +22025,7 @@ the hidden multiplier.
 
 The keep-rate is the percentage of each sale you actually keep after the platform takes its cut, and it is the lever educators most often forget exists — which is exactly why it quietly costs them the most. You can do everything else right — great teaching, fair price, real reach — and still take home far less than you earned, because a platform structure decided your keep-rate before you sold anything. The difference between keeping 90% and keeping 50% is not a detail; on the same sales it is the difference between one income and half of it.
 
-The erosion takes two shapes, and many platforms use both. The first is a fixed subscription — a monthly or annual fee you pay whether or not you sell, which is heaviest precisely when income is low or seasonal, as it is across exam cycles. The second is a commission — a percentage of every sale. A platform charging both takes a cut at the door and a cut on every transaction, and the educator, focused on gross sales, often never computes the net. AllCoaching's model is deliberately the opposite: a single flat 10% on paid sales only, no subscription, nothing upfront — you keep 90%, settled to your bank daily. The full argument for why subscriptions misalign with educator income is in selling online courses without a monthly subscription.
+The erosion takes two shapes, and many platforms use both. The first is a fixed subscription — a monthly or annual fee you pay whether or not you sell, which is heaviest precisely when income is low or seasonal, as it is across exam cycles. The second is a commission — a percentage of every sale. A platform charging both takes a cut at the door and a cut on every transaction, and the educator, focused on gross sales, often never computes the net. AllCoaching's model is deliberately the opposite: a single flat 10% on paid sales only, no subscription, nothing upfront — you keep 90%, settled to your bank 3 days after each sale (T+3). The full argument for why subscriptions misalign with educator income is in selling online courses without a monthly subscription.
 
 On ₹1,00,000 of salesSubscription + 30%Flat 10%, no subscriptionDifference
 Platform takes₹30,000 + fixed fee₹10,000The gap is your income
@@ -22126,7 +22126,7 @@ From years of watching Indian educators build real incomes online, the pattern i
 
 - They compound with retention — turning a one-time sale into a returning student and a durable income.
 
-You can start computing your own number today, for free. Take a phone, go to studio.allcoaching.in, set up a branded studio in about a minute, price your first product, and let the marketplace surface it to students searching for exactly what you teach — keeping 90% of every sale, paid to your bank daily. The formula has been true all along. The only question is which of your three numbers you move first.
+You can start computing your own number today, for free. Take a phone, go to studio.allcoaching.in, set up a branded studio in about a minute, price your first product, and let the marketplace surface it to students searching for exactly what you teach — keeping 90% of every sale, paid to your bank 3 days after each sale (T+3). The formula has been true all along. The only question is which of your three numbers you move first.
 
 "Stop asking what online teaching pays. It does not pay a wage — it multiplies three numbers you control. Protect what you keep, grow who you reach, and the income is simply the arithmetic."
 
@@ -23652,7 +23652,7 @@ Get Started
 
 Own your platform. Stop renting your students.
 
-A phone and your content are all you need. After AllCoaching's 60-second setup your branded app is live: host courses, notes and test series, take UPI payments with instant account-bound access, keep 90% paid daily in INR, and gain new students through AI-driven marketplace discovery. Rs 6,999/year (Starter plan) — no monthly subscription. No off switch held by someone else.
+A phone and your content are all you need. After AllCoaching's 60-second setup your branded app is live: host courses, notes and test series, take UPI payments with instant account-bound access, keep 90% paid T+3 in INR, and gain new students through AI-driven marketplace discovery. Rs 6,999/year (Starter plan) — no monthly subscription. No off switch held by someone else.
 
 Launch your app
 
@@ -24045,7 +24045,7 @@ Get Started
 
 Monetise your audience and find new students — free.
 
-A phone and your offerings are all you need. After AllCoaching's 60-second setup your branded app is live: monetise your followers with UPI payment-to-access, teach structured courses and test series, keep 90% paid daily in INR, and gain new students through AI-driven marketplace discovery. Rs 6,999/year (Starter plan) — no fixed subscription. No lock-in.
+A phone and your offerings are all you need. After AllCoaching's 60-second setup your branded app is live: monetise your followers with UPI payment-to-access, teach structured courses and test series, keep 90% paid T+3 in INR, and gain new students through AI-driven marketplace discovery. Rs 6,999/year (Starter plan) — no fixed subscription. No lock-in.
 
 Launch your app
 
@@ -24424,7 +24424,7 @@ Get Started
 
 Switch to an India-fit platform today — free.
 
-A phone and your content are all you need. After AllCoaching's 60-second setup your branded app is live: sell courses with UPI payment-to-access, get paid daily in INR, and reach new students through AI-driven marketplace discovery. Rs 6,999/year (Starter plan) — no USD subscription. 90% revenue to the educator. T+3 payouts. No lock-in.
+A phone and your content are all you need. After AllCoaching's 60-second setup your branded app is live: sell courses with UPI payment-to-access, get paid T+3 in INR, and reach new students through AI-driven marketplace discovery. Rs 6,999/year (Starter plan) — no USD subscription. 90% revenue to the educator. T+3 payouts. No lock-in.
 
 Launch your app
 
@@ -24726,7 +24726,7 @@ Build MCQ and descriptive test series, and revise lessons and tests each cycle f
 
 ### Switch on payments, automate access
 
-Turn on UPI, card and net-banking checkout. Payment becomes access: pay and access is instant, lapse and it expires, no manual collection. You keep 90%, paid daily.
+Turn on UPI, card and net-banking checkout. Payment becomes access: pay and access is instant, lapse and it expires, no manual collection. You keep 90%, paid T+3.
 
 6Step 06
 
@@ -25124,7 +25124,7 @@ Build topic-wise problem sets, full mocks and PYQ sets with auto-evaluation and 
 
 ### Switch on payments, automate access
 
-Turn on UPI, card and net-banking checkout. Payment becomes access: pay and access is instant, lapse and it expires, no manual collection. You keep 90%, paid daily.
+Turn on UPI, card and net-banking checkout. Payment becomes access: pay and access is instant, lapse and it expires, no manual collection. You keep 90%, paid T+3.
 
 6Step 06
 
@@ -25971,7 +25971,7 @@ Get Started
 
 Keep the course tools, drop the subscription — free.
 
-A phone and your content are all you need. After AllCoaching's 60-second setup your branded app is live: host and sell courses with UPI payment-to-access, keep 90% paid daily in INR, and gain new students through AI-driven marketplace discovery. Rs 6,999/year (Starter plan) — no monthly subscription. No lock-in.
+A phone and your content are all you need. After AllCoaching's 60-second setup your branded app is live: host and sell courses with UPI payment-to-access, keep 90% paid T+3 in INR, and gain new students through AI-driven marketplace discovery. Rs 6,999/year (Starter plan) — no monthly subscription. No lock-in.
 
 Launch your app
 
@@ -26350,7 +26350,7 @@ Get Started
 
 Own your students and your pricing — free.
 
-A phone and your content are all you need. After AllCoaching's 60-second setup your branded app is live: sell courses with UPI payment-to-access, set your own price, keep 90% paid daily in INR, and stay discoverable through AI-driven marketplace listing. Rs 6,999/year (Starter plan). No lock-in. Your brand, your students, your price.
+A phone and your content are all you need. After AllCoaching's 60-second setup your branded app is live: sell courses with UPI payment-to-access, set your own price, keep 90% paid T+3 in INR, and stay discoverable through AI-driven marketplace listing. Rs 6,999/year (Starter plan). No lock-in. Your brand, your students, your price.
 
 Launch your app
 
@@ -26670,7 +26670,7 @@ and the brand.
 
 On a large platform, your earnings follow the platform's model — a contract, a share, or platform-set pricing — and the platform decides how your work is sold and priced. You earn on its terms, and the brand value you create accrues to it. The exact arrangements vary, so this guide does not quote a figure, but the structural shape is consistent: your income and your brand are set by, and accrue to, the platform.
 
-On an owned app the shape inverts: you set your own price, keep 90% on AllCoaching with a 10% revenue-share on paid earnings only, are paid daily in INR, and every student and every bit of brand recognition is yours. The platform is Rs 6,999/year (Starter plan), so building your own brand carries no fixed cost. For the broader independence case and the honest cost of going it alone, see white-label coaching app development cost in India and best zero-commission teaching platform in India.
+On an owned app the shape inverts: you set your own price, keep 90% on AllCoaching with a 10% revenue-share on paid earnings only, are paid T+3 in INR, and every student and every bit of brand recognition is yours. The platform is Rs 6,999/year (Starter plan), so building your own brand carries no fixed cost. For the broader independence case and the honest cost of going it alone, see white-label coaching app development cost in India and best zero-commission teaching platform in India.
 
 90%
 
@@ -26731,7 +26731,7 @@ Get Started
 
 Be your own platform — free.
 
-A phone and your teaching are all you need. After AllCoaching's 60-second setup your branded app is live under your name: run live classes, sell courses and test series with UPI payment-to-access, keep 90% paid daily in INR, and stay discoverable through AI-driven marketplace listing. Rs 6,999/year (Starter plan). No lock-in. Your brand, your students, your price.
+A phone and your teaching are all you need. After AllCoaching's 60-second setup your branded app is live under your name: run live classes, sell courses and test series with UPI payment-to-access, keep 90% paid T+3 in INR, and stay discoverable through AI-driven marketplace listing. Rs 6,999/year (Starter plan). No lock-in. Your brand, your students, your price.
 
 Launch your app
 
@@ -26820,7 +26820,7 @@ Do I own my students on a large platform?
 Generally not in the way you would on your own app. On a large platform the student relationship is the platform's: learners are its customers, discovery is attributed to its brand, and your direct relationship with them is limited. That is acceptable for reach without ownership, but it means your audience is not really yours. An owned branded app reverses this so the student, the data and the relationship are yours to build on.
 
 How is the money different from teaching on Unacademy?
-On a large platform your earnings are set by the platform's model and terms — a contract, a share or platform-set pricing — and the platform controls how your work is sold and priced. On AllCoaching you set your own price, keep 90% with a 10% revenue-share on paid earnings only, and are paid daily in INR. The structural difference is that you control the price and keep the majority of it, rather than earning on the platform's terms.
+On a large platform your earnings are set by the platform's model and terms — a contract, a share or platform-set pricing — and the platform controls how your work is sold and priced. On AllCoaching you set your own price, keep 90% with a 10% revenue-share on paid earnings only, and are paid T+3 in INR. The structural difference is that you control the price and keep the majority of it, rather than earning on the platform's terms.
 
 Will I lose reach if I leave a large platform to teach independently?
 You would lose reach if you simply moved to a self-hosted site, which is the real reason many educators stay on a large platform. AllCoaching is built so you do not have to choose: you teach under your own brand on your own app, and you are also listed on a shared, AI-driven marketplace so students searching by exam and subject find you. So you keep the discovery a large platform gave, now pointed at your own brand.
@@ -48087,7 +48087,7 @@ None
 Payouts
 Self-handle
 Weekly–monthly
-Daily
+T+3
 
 These numbers are scenario-specific, but the pattern is consistent. In a ₹10 lakh annual revenue scenario, the AllCoaching educator retains ₹9 lakh take-home. DIY Zoom integration retains roughly ₹0 (revenue absorbed by engineering and maintenance). White-label SaaS often runs net loss in Year 1. This is not a one-time difference — in Year 2 and Year 3 the gap widens, because AllCoaching's marketing/discovery layer delivers organic compounding. Affordable LMS for independent educators covers the long-run compounding math.
 
@@ -50824,7 +50824,7 @@ None
 Payouts
 Self-handle
 Weekly–monthly
-Daily
+T+3
 
 Yeh number scenario specific hain, lekin pattern consistent rehta hai. ₹10 lakh annual revenue scenario me AllCoaching educator ₹9 lakh take-home retain karta hai. DIY route me ₹0 (saara revenue cost recover karne me chala jaata hai). White-label route me aksar net loss hota hai pehle Year me. Yeh sirf ek-time difference nahi hai — Year-2, Year-3 me yeh gap widen hoti hai, kyunki AllCoaching ki marketing/discovery layer organic compounding deti hai. Affordable LMS for independent educators guide me iss compounding ki long-run math hai.
 
@@ -73770,7 +73770,7 @@ Flat — only on what you sell
 
 Keep 90%
 90%
-Stays with you, paid daily
+Stays with you, paid T+3
 
 - No subscription to eliminate
 

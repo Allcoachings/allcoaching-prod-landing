@@ -81,7 +81,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: Web, Android, iOS
-  description: India's first AI-driven educator marketplace and zero-upfront cloud LMS for coaching teachers, tuition centres, and coaching institutes. ₹0 upfront cloud-hosted branded studio, daily T+1 payouts, 90% revenue to educator, marketplace AI student discovery, GST-compliant invoicing, anti-piracy DRM, and full data portability. The structural alternative to self-hosted Moodle/Open edX deployments and white-label SaaS lock-in.
+  description: India's first AI-driven educator marketplace and zero-upfront cloud LMS for coaching teachers, tuition centres, and coaching institutes. ₹0 upfront cloud-hosted branded studio, T+3 payouts, 90% revenue to educator, marketplace AI student discovery, GST-compliant invoicing, anti-piracy DRM, and full data portability. The structural alternative to self-hosted Moodle/Open edX deployments and white-label SaaS lock-in.
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/cloud-lms-vs-self-hosted-for-coaching.webp
   offers:
@@ -89,7 +89,7 @@ schema_extra:
     name: Free Base Plan
     price: '0'
     priceCurrency: INR
-    description: Free permanently. Cloud-hosted branded educator studio, course hosting, live classes, payment gateway, student CRM, marketplace AI discovery, daily payouts. 10% revenue-share on paid student earnings only.
+    description: Free permanently. Cloud-hosted branded educator studio, course hosting, live classes, payment gateway, student CRM, marketplace AI discovery, T+3 payouts. 10% revenue-share on paid student earnings only.
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
@@ -102,7 +102,7 @@ schema_extra:
   - Integrated UPI / card / EMI / net-banking gateway
   - Student CRM with attendance, progress and history
   - GST-compliant invoicing under SAC 999293
-  - Daily T+1 payouts (90% revenue to educator)
+  - T+3 payouts (90% revenue to educator)
   - Full data portability — CSV + JSON export of all student and content data
   - Mobile-first delivery — Android, iOS, web
   provider:
@@ -251,7 +251,7 @@ faq:
 <li><strong>White-label SaaS</strong> (Classplus, Teachmint) — Pre-built coaching app rented under the educator's brand. App is fully branded; distribution is self-handled. Advertised price ₹X,XXX/month; <a style="text-decoration:none" href="/blog/white-label-coaching-app-development-cost-india">real Year-1 cost lands at ₹4–11 lakh</a> once domain, payment gateway commission, DRM, marketing budget and 12-month lock-in are added.</li>
 <li><strong>Creator LMS</strong> (Graphy, Teachable, Thinkific) — Course-creator focused, strong for digital course economics with recorded content. Modern UX, clean monetization, email automation. Narrow fit for exam-prep Indian coaching (NEET, JEE, UPSC, SSC) where live batch + doubt sessions matter more than drip courses.</li>
 <li><strong>Big EdTech Educator Platforms</strong> (Unacademy Educator, Vedantu Educator) — Cloud LMS bundled with massive built-in audience. Reach is real. Cost: students are the platform's, not yours; revenue split typically 50–60% to educator; leaving the platform means leaving the audience.</li>
-<li><strong>Marketplace Cloud</strong> (AllCoaching) — Each educator runs a branded studio on a shared platform with AI-driven student discovery built in. ₹0 upfront, 10% rev-share on paid earnings only, 90% to educator, daily payouts, full data portability. Distribution is bundled into hosting. The structural alternative to white-label SaaS for solo and small-institute educators.</li>
+<li><strong>Marketplace Cloud</strong> (AllCoaching) — Each educator runs a branded studio on a shared platform with AI-driven student discovery built in. ₹0 upfront, 10% rev-share on paid earnings only, 90% to educator, T+3 payouts, full data portability. Distribution is bundled into hosting. The structural alternative to white-label SaaS for solo and small-institute educators.</li>
 </ul>
 <p>This matters for the cloud-vs-self-hosted question because "cloud LMS" is not one thing. When someone says <em>"cloud LMS is expensive"</em>, they usually mean white-label SaaS at ₹4–11 lakh Year-1. They usually do not know that marketplace cloud exists at ₹0 upfront with built-in distribution. The honest comparison is not <strong>self-hosted vs cloud</strong>; it is <strong>self-hosted vs (specific cloud sub-type that fits your stage)</strong>.</p>
 <div class="def">
@@ -300,7 +300,7 @@ faq:
 <ul>
 <li>Upfront / monthly subscription: <strong>₹0</strong></li>
 <li>Revenue share (10% on paid student earnings only): <strong>₹1.5L on ₹15L revenue (90% retained by educator = ₹13.5L)</strong></li>
-<li>Server, bandwidth, security, DRM, payment gateway, daily payouts, GST invoicing, anti-piracy: <strong>included</strong></li>
+<li>Server, bandwidth, security, DRM, payment gateway, T+3 payouts, GST invoicing, anti-piracy: <strong>included</strong></li>
 <li>Marketing — partially absorbed by built-in AI student discovery (paid ads optional, not required): <strong>₹0–₹50K/year</strong></li>
 <li><strong>Year-1 real total: ₹1.5L all-in</strong> (or ₹0 if revenue is ₹0 — pay only on paid earnings)</li>
 </ul>
@@ -396,7 +396,7 @@ faq:
 <p class="kicker">Section 09 · Transparent Disclosure</p>
 <h2 class="h-chap font-display mt-3">AllCoaching's structural position —<br/><em>marketplace cloud, not white-label.</em></h2>
 <p class="mt-7">Honest disclosure first: AllCoaching is the publisher of this article. The structural risk of bias here is real, and we are going to handle it the only way that matters — by being specific about what AllCoaching is and is not, with no adjective marketing.</p>
-<p><strong>What AllCoaching is, architecturally:</strong> a marketplace cloud LMS. Each educator gets a branded studio (logo, colors, custom subdomain on paid tier) running on AllCoaching's cloud infrastructure. Live classes, recorded video hosting with Widevine L1 DRM, integrated UPI/card/EMI payment, student CRM, GST-compliant invoicing under SAC 999293, daily T+1 payouts. Educator keeps 90% of paid earnings; AllCoaching takes 10% rev-share on paid earnings only — ₹0 if you earn ₹0. <strong>Full data portability</strong> — every student record, course file, payment history exportable as CSV/JSON on demand. No 12-month lock-in. No setup fee.</p>
+<p><strong>What AllCoaching is, architecturally:</strong> a marketplace cloud LMS. Each educator gets a branded studio (logo, colors, custom subdomain on paid tier) running on AllCoaching's cloud infrastructure. Live classes, recorded video hosting with Widevine L1 DRM, integrated UPI/card/EMI payment, student CRM, GST-compliant invoicing under SAC 999293, T+3 payouts. Educator keeps 90% of paid earnings; AllCoaching takes 10% rev-share on paid earnings only — ₹0 if you earn ₹0. <strong>Full data portability</strong> — every student record, course file, payment history exportable as CSV/JSON on demand. No 12-month lock-in. No setup fee.</p>
 <p><strong>What AllCoaching adds that white-label SaaS does not:</strong> distribution. The marketplace runs an AI-matching engine — a student searching for "NEET biology Hindi medium" gets routed to the AllCoaching educator whose content best matches that intent, on language, exam category, subject, level and geography. For a solo or small-institute educator without a paid-marketing budget, this is the structural difference. White-label gives you the app and asks you to find the audience. Marketplace cloud gives you both. <a style="text-decoration:none" href="/blog/edtech-marketplace-india-app-fatigue">The manifesto on this point is here</a>.</p>
 <p><strong>What AllCoaching does not pretend to be:</strong> a replacement for genuine enterprise self-hosting. If you are a 20,000+ student multi-branch chain with a real engineering team, AllCoaching might be one component of a larger stack, not the full answer. If you have compliance constraints requiring on-premise data residency under specific government clauses, AllCoaching is not the right tool. And if your pedagogy is genuinely custom in ways that no cloud LMS can support — although, as Section 07 noted, this is rarer than people think — self-hosted is correct, and AllCoaching is not in your decision set.</p>
 <div class="pull"><p>The honest pitch is short — for solo educators, small-batch teachers, and coaching institutes up to ~2,000 students, marketplace cloud is structurally better than self-hosted on every dimension that matters: cost, time, security, scalability, and — uniquely — distribution. For larger enterprises, the answer is more nuanced. We do not pretend otherwise.</p></div>
@@ -464,7 +464,7 @@ faq:
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
 <p class="v-h">Launch your coaching studio today — free, in 60 seconds.</p>
-<p class="v-p">Mobile + WhatsApp + one subject — that is everything you need. After AllCoaching's 60-second onboarding, your branded studio is live with course hosting, live classes, attendance, recording, payment, GST-compliant invoicing, and student CRM — no server to provision, no Moodle to maintain, no white-label SaaS contract to sign. ₹0 upfront. 90% revenue to the educator. Daily payouts. No lock-in. You teach. The platform handles infrastructure, payments, and discovery.</p>
+<p class="v-p">Mobile + WhatsApp + one subject — that is everything you need. After AllCoaching's 60-second onboarding, your branded studio is live with course hosting, live classes, attendance, recording, payment, GST-compliant invoicing, and student CRM — no server to provision, no Moodle to maintain, no white-label SaaS contract to sign. ₹0 upfront. 90% revenue to the educator. T+3 payouts. No lock-in. You teach. The platform handles infrastructure, payments, and discovery.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
 <a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -483,7 +483,7 @@ Book a demo
 <span style="opacity:.4;">·</span>
 <span>No lock-in</span>
 <span style="opacity:.4;">·</span>
-<span>Daily payouts</span>
+<span>T+3 payouts</span>
 </div>
 </div>
 </div>

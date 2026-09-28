@@ -86,7 +86,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
-  description: "India's AI-native personalized learning platform for coaching educators and institutes — six structural AI layers operating on every student automatically. Diagnostic mapping (chapter-level gap detection within 15-20 minutes), adaptive learning path generation (per-student sequencing), multilingual AI doubt resolution (Hindi, English, Hinglish, regional — native handling, not translation), predictive rank-forecast and churn-risk signals, automated intervention loops (WhatsApp nudges + educator dashboard actions), and content auto-generation (MCQ, summaries, examples per student weakness). ₹0 upfront, 10% revenue-share only, daily T+1 UPI payouts, DPDP-compliant India-resident data."
+  description: "India's AI-native personalized learning platform for coaching educators and institutes — six structural AI layers operating on every student automatically. Diagnostic mapping (chapter-level gap detection within 15-20 minutes), adaptive learning path generation (per-student sequencing), multilingual AI doubt resolution (Hindi, English, Hinglish, regional — native handling, not translation), predictive rank-forecast and churn-risk signals, automated intervention loops (WhatsApp nudges + educator dashboard actions), and content auto-generation (MCQ, summaries, examples per student weakness). ₹0 upfront, 10% revenue-share only, T+3 UPI payouts, DPDP-compliant India-resident data."
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/role-of-ai-in-personalized-learning-for-coaching.webp
   offers:
@@ -111,7 +111,7 @@ schema_extra:
   - "Voice-first doubt resolution — record voice, get spoken answer in same language"
   - "AI-graded subjective answers with rubric explanation"
   - "DPDP Act 2023 compliant — India-resident data, on-device sensitive operations"
-  - "Daily T+1 UPI payouts via Razorpay rails (90% to creator)"
+  - "T+3 UPI payouts via Razorpay rails (90% to creator)"
   provider:
     '@id': https://allcoaching.in/#organization
   audience:

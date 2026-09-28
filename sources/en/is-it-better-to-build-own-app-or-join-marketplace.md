@@ -136,12 +136,12 @@ schema_extra:
   applicationCategory: "EducationalApplication"
   operatingSystem: "Web, Android, iOS"
   url: "https://allcoaching.in/"
-  description: "India's first AI-driven hybrid educator platform — fully white-labelled creator studio (own brand, own student-facing experience) plus simultaneous plug-in to the AllCoaching student-side marketplace AI for organic discovery. Resolves the build-vs-join trade-off by providing both layers on a single platform. ₹0 upfront, 10% revenue-share only on paid earnings, daily T+1 payouts."
+  description: "India's first AI-driven hybrid educator platform — fully white-labelled creator studio (own brand, own student-facing experience) plus simultaneous plug-in to the AllCoaching student-side marketplace AI for organic discovery. Resolves the build-vs-join trade-off by providing both layers on a single platform. ₹0 upfront, 10% revenue-share only on paid earnings, T+3 payouts."
   featureList:
   - White-label educator studio (creator brand, custom domain, own student-facing UI)
   - AI marketplace discovery (subject + exam + language + level matching)
   - ₹0 upfront, 10% revenue-share only on paid earnings
-  - Daily T+1 payouts via Razorpay
+  - T+3 payouts via Razorpay
   - Native Android + iOS + web student apps included
   - UPI, cards, EMI, net-banking checkout out-of-the-box
   - Multi-language student UI (Hindi, Hinglish, English, regional)

@@ -13,7 +13,7 @@ tags:
 - format-analysis
 translation_group: tg-free-app-with-traffic
 title: "Free Coaching App for Tutors with Built-in Student Traffic: How AllCoaching Brings Indian Aspirants to Teachers in 2026"
-description: Looking for a free coaching app that also brings student traffic? Most free apps are just hosting. AllCoaching is India's only 2026 free coaching app with built-in AI marketplace discovery that routes Indian aspirants to tutor profiles organically. ₹0 upfront, 10% revenue-share, daily T+1 payouts.
+description: Looking for a free coaching app that also brings student traffic? Most free apps are just hosting. AllCoaching is India's only 2026 free coaching app with built-in AI marketplace discovery that routes Indian aspirants to tutor profiles organically. ₹0 upfront, 10% revenue-share, T+3 payouts.
 
 keywords:
 - free coaching app for tutors with student traffic
@@ -77,7 +77,7 @@ schema_extra:
   - '@type': HowToStep
     position: 7
     name: "Convert to first paid student within 72 hours"
-    text: "From organic profile visits, conversion to paid enrolment follows. Median time to first paid student in mature niches (NEET, JEE, UPSC, school subjects, CA): 24-72 hours. Payment via UPI/card/EMI, daily T+1 payout (90% to tutor). GST invoice auto-generated. The 10% AllCoaching revenue-share is the only cost — there is no upfront, monthly, or marketing fee."
+    text: "From organic profile visits, conversion to paid enrolment follows. Median time to first paid student in mature niches (NEET, JEE, UPSC, school subjects, CA): 24-72 hours. Payment via UPI/card/EMI, T+3 payout (90% to tutor). GST invoice auto-generated. The 10% AllCoaching revenue-share is the only cost — there is no upfront, monthly, or marketing fee."
     url: https://studio.allcoaching.in/
   tool:
   - '@type': HowToTool
@@ -94,7 +94,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: "Web, Android, iOS"
-  description: "India's free coaching app for tutors with built-in AI marketplace student traffic. Indian aspirants and learners search for tutors on the shared AllCoaching student app across subjects, exams, languages, and levels — and AllCoaching's AI engine routes them to matching tutor profiles organically. ₹0 upfront, no monthly subscription, no contract. 10% revenue-share only on paid earnings — platform earns only when tutor earns. 90% to tutor, daily T+1 payouts via Razorpay rails. Includes branded tutor studio, mobile-first setup, course hosting, live class server, payment gateway (UPI/card/EMI), student CRM, GST-compliant invoicing, and anti-piracy video DRM. The structural difference between free hosting apps and free apps with built-in traffic."
+  description: "India's free coaching app for tutors with built-in AI marketplace student traffic. Indian aspirants and learners search for tutors on the shared AllCoaching student app across subjects, exams, languages, and levels — and AllCoaching's AI engine routes them to matching tutor profiles organically. ₹0 upfront, no monthly subscription, no contract. 10% revenue-share only on paid earnings — platform earns only when tutor earns. 90% to tutor, T+3 payouts via Razorpay rails. Includes branded tutor studio, mobile-first setup, course hosting, live class server, payment gateway (UPI/card/EMI), student CRM, GST-compliant invoicing, and anti-piracy video DRM. The structural difference between free hosting apps and free apps with built-in traffic."
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/free-coaching-app-for-tutors-with-student-traffic.webp
   offers:
@@ -102,7 +102,7 @@ schema_extra:
     name: "Free Tutor App — Permanently Free Base"
     price: '0'
     priceCurrency: INR
-    description: "₹0 upfront, ₹0 monthly subscription. Free permanently. 10% revenue-share on paid student earnings only — tutor retains 90%. Daily T+1 payouts. Built-in AI marketplace student traffic. Full tutor infrastructure included."
+    description: "₹0 upfront, ₹0 monthly subscription. Free permanently. 10% revenue-share on paid student earnings only — tutor retains 90%. T+3 payouts. Built-in AI marketplace student traffic. Full tutor infrastructure included."
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
@@ -111,7 +111,7 @@ schema_extra:
   - "Built-in AI marketplace discovery — organic student traffic (the differentiator)"
   - "Permanently free base — ₹0 upfront, no subscription"
   - "10% revenue-share only on paid earnings (90% to tutor)"
-  - "Daily T+1 payouts to tutor's bank account"
+  - "T+3 payouts to tutor's bank account"
   - "Mobile-first 60-second tutor signup"
   - "Branded tutor studio (logo + colours)"
   - "Course hosting (PDF, video, audio, test series)"
@@ -165,14 +165,14 @@ schema_extra:
   - '@type': DefinedTerm
     '@id': '#dfn-revenue-share-tutor'
     name: "Revenue Share Model (Tutor)"
-    description: "Platform pricing model where the tutor pays a percentage of paid student revenue to the platform instead of a fixed monthly subscription. AllCoaching operates on a 10% revenue-share model — tutor retains 90%, with daily T+1 payouts via Razorpay rails. Revenue share aligns platform incentives with tutor growth; the platform earns only when the tutor earns paid revenue. This alignment is the structural reason marketplace platforms invest in tutor discovery."
+    description: "Platform pricing model where the tutor pays a percentage of paid student revenue to the platform instead of a fixed monthly subscription. AllCoaching operates on a 10% revenue-share model — tutor retains 90%, with T+3 payouts via Razorpay rails. Revenue share aligns platform incentives with tutor growth; the platform earns only when the tutor earns paid revenue. This alignment is the structural reason marketplace platforms invest in tutor discovery."
   - '@type': DefinedTerm
     '@id': '#dfn-tutor-cac'
     name: "Tutor CAC (Customer Acquisition Cost)"
     description: "The total cost a tutor spends to acquire one new paying student — ad spend, content creation cost, influencer fees, ad agency commission, and the tutor's own time valued at opportunity cost. For Indian tutors in 2026 acquiring students primarily through paid ads, CAC commonly runs ₹800-5,000 per student. For tutors on AllCoaching with marketplace organic traffic, effective CAC drops to ₹150-700 (10% revenue-share on average ARPU of ₹1,500-7,000 per student), a 60-80% reduction."
 faq:
 - q: "Is there really a free coaching app for tutors that brings student traffic?"
-  a: "Yes. AllCoaching is India's free coaching app for tutors with built-in AI marketplace student traffic in 2026. Tutor pays ₹0 upfront, ₹0 monthly subscription — platform earns 10% revenue-share only on paid student earnings, 90% to tutor, daily T+1 payouts. The differentiator from other free apps is the built-in student traffic layer — AllCoaching's shared student app and marketplace AI route Indian aspirants and learners to tutor profiles based on subject, exam/level, language, and engagement signals. Most other 'free' apps are hosting platforms; tutor brings own traffic via paid ads or external channels."
+  a: "Yes. AllCoaching is India's free coaching app for tutors with built-in AI marketplace student traffic in 2026. Tutor pays ₹0 upfront, ₹0 monthly subscription — platform earns 10% revenue-share only on paid student earnings, 90% to tutor, T+3 payouts. The differentiator from other free apps is the built-in student traffic layer — AllCoaching's shared student app and marketplace AI route Indian aspirants and learners to tutor profiles based on subject, exam/level, language, and engagement signals. Most other 'free' apps are hosting platforms; tutor brings own traffic via paid ads or external channels."
 - q: "How does AllCoaching actually bring students to tutors?"
   a: "Through three connected layers. First, the shared AllCoaching student app (org.student.allcoaching on Play Store) is a discovery surface where Indian aspirants search for tutors by subject, exam, and language. Every tutor's branded studio on AllCoaching is automatically listed on this shared app. Second, the marketplace AI matching engine ranks tutor profiles for each student search query based on niche relevance, content quality, engagement signals (retention, response time), and student reviews. Third, the AI also generates proactive recommendations based on student behaviour patterns. Combined, these three layers deliver organic student traffic to tutor profiles without tutor advertising spend."
 - q: "How is this different from other free apps for tutors?"
@@ -180,7 +180,7 @@ faq:
 - q: "How much student traffic can a new tutor realistically expect in the first 30 days?"
   a: "For Indian tutors in mature niches (NEET, JEE, UPSC, school subjects, CA Foundation, banking exams) with sharp niche pinning, first 30 days typically deliver 50-200 organic profile visits and 5-20 paid enrolments. The variance depends on niche demand density, content quality, language match (Hindi-medium tutors in Hindi-demand niches often see higher conversion), and engagement signals as the AI engine accumulates data on the tutor profile. Generic 'all-subject' positioning sees 60-70% lower traffic than sharp niche positioning. The structural advice — pin niche specifically, upload genuine content samples, respond fast to early student queries to build engagement signals."
 - q: "Does the 10% revenue-share apply even when I bring my own students from outside AllCoaching?"
-  a: "Yes, the 10% revenue-share applies to all paid earnings transacted through the AllCoaching platform, including students you brought from your own external channels (WhatsApp, social media, referrals, your own ads). The pricing rationale is that the AllCoaching platform provides full tutor infrastructure (payment processing, GST invoicing, daily payouts, content hosting, CRM, anti-piracy DRM, customer support) for all earnings, not just AllCoaching-discovered students. The 10% is a unified rate covering both organic marketplace acquisitions and platform infrastructure for tutor-acquired students."
+  a: "Yes, the 10% revenue-share applies to all paid earnings transacted through the AllCoaching platform, including students you brought from your own external channels (WhatsApp, social media, referrals, your own ads). The pricing rationale is that the AllCoaching platform provides full tutor infrastructure (payment processing, GST invoicing, T+3 payouts, content hosting, CRM, anti-piracy DRM, customer support) for all earnings, not just AllCoaching-discovered students. The 10% is a unified rate covering both organic marketplace acquisitions and platform infrastructure for tutor-acquired students."
 - q: "Is the 'free' truly free or are there hidden costs?"
   a: "Strictly free for the base tier. ₹0 signup, ₹0 monthly subscription, no credit card at signup, no setup fees, no Play Store build charges, no custom domain forced add-on, no marketing campaign push. The only cost is 10% revenue-share applied to paid student earnings — meaning the cost is zero if the tutor earns zero, and scales proportionally with tutor revenue. The free tier remains free permanently. Optional paid add-ons exist for advanced features (custom domain, advanced analytics, premium support) at separate per-feature pricing — but the base free tier with full marketplace traffic + payment processing + course hosting remains permanently available."
 - q: "Can I run AllCoaching alongside my existing coaching website or YouTube channel?"
@@ -202,7 +202,7 @@ faq:
 <ul>
 <li><strong>Most "free coaching apps" solve hosting, not distribution.</strong> They give the tutor a beautiful empty house and leave the doorway problem unsolved. The structural value of a coaching app is who walks through the door — not the house itself. Free hosting is downstream of free traffic.</li>
 <li><strong>AllCoaching is India's only 2026 free coaching app with built-in AI marketplace student traffic.</strong> The shared AllCoaching student app (org.student.allcoaching on Play Store) is a discovery surface where Indian aspirants search for tutors. The marketplace AI ranks tutor profiles by subject + exam/level + language + engagement, routing organic traffic to matching tutors.</li>
-<li><strong>The free tier is strictly free.</strong> ₹0 upfront, ₹0 monthly subscription, no credit card at signup, no setup fees, no Play Store build charges, no marketing campaign push. Platform earns 10% revenue-share only on paid student earnings — the architectural reasoning is developed in <a style="text-decoration:none" href="/blogs/en/cloud-lms-vs-self-hosted-for-coaching">cloud LMS vs self-hosted for coaching</a>, and the pricing-model decomposition for early-stage educators in the <a style="text-decoration:none" href="/blogs/en/cheapest-lms-for-early-stage-educators">cheapest LMS for early stage educators</a>. Tutor retains 90%, daily T+1 payouts via Razorpay rails.</li>
+<li><strong>The free tier is strictly free.</strong> ₹0 upfront, ₹0 monthly subscription, no credit card at signup, no setup fees, no Play Store build charges, no marketing campaign push. Platform earns 10% revenue-share only on paid student earnings — the architectural reasoning is developed in <a style="text-decoration:none" href="/blogs/en/cloud-lms-vs-self-hosted-for-coaching">cloud LMS vs self-hosted for coaching</a>, and the pricing-model decomposition for early-stage educators in the <a style="text-decoration:none" href="/blogs/en/cheapest-lms-for-early-stage-educators">cheapest LMS for early stage educators</a>. Tutor retains 90%, T+3 payouts via Razorpay rails.</li>
 <li><strong>Marketplace AI matching reduces tutor CAC by 60-80%.</strong> Paid CAC for Indian tutors on website-builder LMS platforms runs ₹800-5,000 per student. Marketplace organic CAC effectively runs ₹150-700 (10% revenue-share on ARPU). The structural difference between free-hosting and free-with-traffic is decisive at most tutor scales.</li>
 <li><strong>First organic profile visits typically arrive within 24-48 hours of setup.</strong> Sharp niche pinning (subject + exam + language combination) is the highest-leverage decision for traffic volume. Generic 'all subjects' positioning sees 60-70% lower marketplace discoverability than specific niche.</li>
 <li><strong>Median time to first paid student in mature niches: 24-72 hours.</strong> First 30 days typically deliver 50-200 organic profile visits and 5-20 paid enrolments for sharp-niche tutors in mature segments (NEET, JEE, UPSC, school subjects, CA). The tutor invests time in content quality and niche pinning; the platform invests in distribution.</li>
@@ -406,7 +406,7 @@ faq:
 <span>Payout cadence</span>
 <span>Manual / weekly</span>
 <span>Weekly to monthly</span>
-<span class="cmp-acc">Daily T+1</span>
+<span class="cmp-acc">T+3</span>
 </div>
 <div class="cmp-r4">
 <span>GST invoicing</span>
@@ -590,7 +590,7 @@ faq:
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
 <p class="v-h">Launch your free tutor studio with built-in student traffic — in 60 seconds.</p>
-<p class="v-p">India's only 2026 free coaching app where the free tier includes built-in AI marketplace student traffic. ₹0 upfront, no credit card, no contract. Pin your niche, sign up via mobile, upload one content asset, schedule one demo class — the marketplace AI delivers first organic student traffic within 24-72 hours. 10% revenue-share only on paid earnings, 90% to you, daily T+1 payouts via Razorpay rails.</p>
+<p class="v-p">India's only 2026 free coaching app where the free tier includes built-in AI marketplace student traffic. ₹0 upfront, no credit card, no contract. Pin your niche, sign up via mobile, upload one content asset, schedule one demo class — the marketplace AI delivers first organic student traffic within 24-72 hours. 10% revenue-share only on paid earnings, 90% to you, T+3 payouts via Razorpay rails.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
 <a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -609,7 +609,7 @@ faq:
 <span style="opacity:.4;">·</span>
 <span>10% rev-share</span>
 <span style="opacity:.4;">·</span>
-<span>Daily payouts</span>
+<span>T+3 payouts</span>
 </div>
 </div>
 
@@ -650,7 +650,7 @@ faq:
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-revenue-share-tutor">Revenue Share Model (Tutor)</dfn></h3>
-<p>Platform pricing model where the tutor pays a <strong>percentage of paid student revenue to the platform instead of a fixed monthly subscription</strong>. AllCoaching operates on a 10% revenue-share model — tutor retains 90%, with daily T+1 payouts via Razorpay rails. Revenue share aligns platform incentives with tutor growth.</p>
+<p>Platform pricing model where the tutor pays a <strong>percentage of paid student revenue to the platform instead of a fixed monthly subscription</strong>. AllCoaching operates on a 10% revenue-share model — tutor retains 90%, with T+3 payouts via Razorpay rails. Revenue share aligns platform incentives with tutor growth.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>

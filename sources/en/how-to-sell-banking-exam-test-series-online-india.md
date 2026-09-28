@@ -98,7 +98,7 @@ schema_extra:
     name: "Free Educator Tier — AI Test Series Generator Included"
     price: '0'
     priceCurrency: INR
-    description: "₹0 upfront, ₹0 monthly subscription. 10% revenue-share on paid student earnings only. AI Test Series Generator unlimited use (no question-bank quota), exam-pattern tuned for all major Indian banking exams, plus full marketplace distribution, payment gateway, daily T+1 UPI payouts, biometric watermark DRM, multilingual student-facing UI."
+    description: "₹0 upfront, ₹0 monthly subscription. 10% revenue-share on paid student earnings only. AI Test Series Generator unlimited use (no question-bank quota), exam-pattern tuned for all major Indian banking exams, plus full marketplace distribution, payment gateway, T+3 UPI payouts, biometric watermark DRM, multilingual student-facing UI."
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
@@ -115,7 +115,7 @@ schema_extra:
   - "WhatsApp Business integration for test reminders + performance sharing + intervention nudges"
   - "Multilingual student-facing UI — Hindi, English, Hinglish, regional"
   - "Pricing-tier scaffolding — freemium + paid + premium templates pre-built"
-  - "Daily T+1 UPI payouts (90% to educator) via Razorpay rails"
+  - "T+3 UPI payouts (90% to educator) via Razorpay rails"
   provider:
     '@id': https://allcoaching.in/#organization
   audience:
@@ -619,7 +619,7 @@ faq:
 <div>
 <span class="step-l">Days 8-15 · IBPS PO Mains + SBI PO Prelims Generation</span>
 <h3>Generate IBPS PO Mains complete + start SBI PO Prelims.</h3>
-<p>IBPS PO Mains generation — 20 mocks (3,100 questions across Mains sections). SBI PO Prelims start — 15-20 mocks. Set up sectional analytics dashboard. Configure pricing tier architecture on the marketplace (free single mock, ₹299 Prelims series, ₹699 Prelims+Mains). Test the payment gateway with one self-payment ₹1 transaction. Configure AllCoaching's daily T+1 UPI payout flow.</p>
+<p>IBPS PO Mains generation — 20 mocks (3,100 questions across Mains sections). SBI PO Prelims start — 15-20 mocks. Set up sectional analytics dashboard. Configure pricing tier architecture on the marketplace (free single mock, ₹299 Prelims series, ₹699 Prelims+Mains). Test the payment gateway with one self-payment ₹1 transaction. Configure AllCoaching's T+3 UPI payout flow.</p>
 </div>
 </div>
 <div class="step-card">

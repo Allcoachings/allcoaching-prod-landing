@@ -107,7 +107,7 @@ schema_extra:
   - "Multilingual entity exposure for Hindi/English/Hinglish/regional discovery"
   - "Open educator API for entity data portability"
   - "DPDP Act 2023 compliant — India-resident data, on-device sensitive ops"
-  - "Daily T+1 UPI payouts via Razorpay rails (90% to creator)"
+  - "T+3 UPI payouts via Razorpay rails (90% to creator)"
   - "No brand absorption — educator's name and reputation are the surface, not the platform's"
   - "Live class infrastructure with AI co-pilot (multilingual captions, post-class summary)"
   - "AI-graded subjective answers + auto-MCQ generation per student weak chapters"
