@@ -906,22 +906,40 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
 .gl-chips li::before{content:''; width:6px; height:6px; border-radius:50%; background:var(--accent);}
 @media (max-width:640px){.glance{grid-template-columns:1fr;}}
 @media (max-width:760px){.glance{gap:10px; margin-top:30px;} .gl{padding:18px 16px; border-radius:16px;} .gl .t{font-size:14px; margin-top:10px;} .gl .d{font-size:12px;} .gl-chips{justify-content:flex-start;} .gl-chips li{font-size:12px; padding:6px 11px;}}
-/* ── Hero · centred headline + launch walkthrough ── */
-.hero-c{position:relative; z-index:2; text-align:center; display:flex; flex-direction:column; align-items:center;}
-.hero:has(.hero-c){padding-top:44px;}
-.hero-c h1{max-width:1100px; font-size:clamp(38px,4.6vw,62px);}
-.hero-c h1 em{white-space:nowrap;}
-.hero-c .lede{margin-top:18px;}
-.hero-c .hero-cta{margin-top:24px;}
-.hero-c .lede{margin-left:auto; margin-right:auto; max-width:640px;}
-.hero-c .hero-cta{justify-content:center;}
-.hero-facts{list-style:none; margin:18px 0 0; padding:0; display:flex; flex-wrap:wrap; justify-content:center; gap:10px;}
-.hero-facts li{font-size:12.5px; color:var(--ink-3); padding:7px 14px; border-radius:999px; background:rgba(255,255,255,.6); border:1px solid var(--line-2);}
-.hero-facts b{color:var(--ink-1); font-weight:700;}
-.hero-sim{position:relative; z-index:2; max-width:1340px;}
-.hero-sim .lx{margin-top:34px;}
-.hero-sim::before{content:''; position:absolute; left:6%; right:6%; top:140px; bottom:40px; background:radial-gradient(ellipse at 50% 40%, rgba(224,169,92,.28), rgba(224,169,92,.06) 55%, transparent 75%); filter:blur(50px); z-index:-1; pointer-events:none;}
-@media (max-width:760px){.hero-c{text-align:left; align-items:flex-start;} .hero-c .hero-cta{justify-content:flex-start;} .hero-c .hero-cta .btn{flex:1 1 100%;} .hero-facts{justify-content:flex-start; gap:6px;} .hero-facts li{font-size:11.5px; padding:5px 11px;}}
+/* ── Hero · copy + steps on the left, the whole walkthrough on the right ── */
+.hero:has(.hx2){padding:40px 0 64px;}
+.hero-sim{position:relative; z-index:2; max-width:1380px;}
+.lx.hx2{display:grid; grid-template-columns:minmax(340px,.74fr) 1.26fr; gap:48px; align-items:center; margin-top:0;}
+.hx2-copy h1{margin:14px 0 0; font-size:clamp(36px,3.5vw,54px); line-height:1.02;}
+.hx2-copy h1 em{white-space:nowrap;}
+.hx2-copy .lede{margin-top:16px; font-size:16.5px; max-width:460px;}
+.hx2-copy .hero-cta{margin-top:22px;}
+.hx2 .lx-chapters{grid-template-columns:1fr; gap:8px; margin:26px 0 0; counter-reset:none;}
+.hx2 .lx-ch{display:grid; grid-template-columns:auto 1fr; column-gap:12px; align-items:center; padding:11px 14px 13px;}
+.hx2 .lx-ch .k{grid-row:1 / span 2; font-size:0; letter-spacing:0;}
+.hx2 .lx-ch .k i{width:30px; height:30px; font-size:12.5px;}
+.hx2 .lx-ch .t{margin-top:0; font-size:15px;}
+.hx2 .lx-ch .s{margin-top:1px; font-size:12px;}
+.hx2-media{position:relative; min-width:0; align-self:start; margin-top:8px;}
+.hx2-media::before{content:''; position:absolute; left:4%; right:4%; top:6%; bottom:10%; background:radial-gradient(ellipse at 50% 45%, rgba(224,169,92,.30), rgba(224,169,92,.07) 55%, transparent 75%); filter:blur(46px); z-index:-1; pointer-events:none;}
+.hx2 .lx-foot{margin-top:14px; gap:8px;}
+.hx2 .lx-cap{font-size:13.5px; margin-left:6px;}
+@media (max-width:1100px){
+  .lx.hx2{grid-template-columns:1fr; gap:30px;}
+  .hx2-copy{text-align:center; display:flex; flex-direction:column; align-items:center;}
+  .hx2-copy .lede{margin-left:auto; margin-right:auto; max-width:620px;}
+  .hx2-copy .hero-cta{justify-content:center;}
+  .hx2 .lx-chapters{grid-template-columns:repeat(4,1fr); width:100%; text-align:left;}
+  .hx2 .lx-ch .s{display:none;}
+}
+@media (max-width:760px){
+  .hx2-copy{text-align:left; align-items:flex-start;}
+  .hx2-copy .hero-cta{justify-content:flex-start;} .hx2-copy .hero-cta .btn{flex:1 1 100%;}
+  .hx2 .lx-ch{grid-template-columns:1fr; padding:9px 9px 11px;}
+  .hx2 .lx-ch .k{grid-row:auto;} .hx2 .lx-ch .k i{width:22px; height:22px; font-size:10px;}
+  .hx2 .lx-ch .t{font-size:12px; margin-top:6px; line-height:1.25;}
+  .hx2 .lx-cap{flex-basis:100%; margin-left:0;}
+}
 </style>
 <link rel="stylesheet" href="assets/launch.css?v=20260928"/>
 </head>
@@ -961,20 +979,21 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
 </div></div>
 <section class="hero" id="top">
   <span class="orb a"></span><span class="orb b"></span>
-  <div class="wrap hero-c">
-    <div class="eyebrow c">Live in 2 minutes · no sales call · no technical team</div>
-    <h1 class="h-display">Launch your academy yourself — <em>in just 2 minutes.</em></h1>
-    <p class="lede">Create your course, connect your own domain and start selling — all from one studio. Watch it happen below.</p>
-    <div class="hero-cta">
-      <a href="https://studio.allcoaching.in/" class="btn btn-accent btn-lg">Start your academy
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
-      <a href="/demo/" class="btn btn-ghost btn-lg">Try the live demo</a>
-    </div>
-  </div>
   <div class="wrap hero-sim">
-    <div class="lx" id="lx" aria-label="Walkthrough: launching a sample academy on AllCoaching">
+    <div class="lx hx2" id="lx" aria-label="Walkthrough: launching a sample academy on AllCoaching">
+      <div class="hx2-copy">
+        <div class="eyebrow">Live in 2 minutes · no sales call · no technical team</div>
+        <h1 class="h-display">Launch your academy yourself — <em>in just 2 minutes.</em></h1>
+        <p class="lede">Create your course, connect your own domain and start selling — all from one studio.</p>
+        <div class="hero-cta">
+          <a href="https://studio.allcoaching.in/" class="btn btn-accent btn-lg">Start your academy
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="/demo/" class="btn btn-ghost btn-lg">Try the live demo</a>
+        </div>
       <div class="lx-chapters" role="tablist" aria-label="Walkthrough steps"><button class="lx-ch" type="button" role="tab" aria-selected="false"><span class="k"><i>1</i>Step 01</span><span class="t">Choose a plan</span><span class="s">Annual plan, paid by UPI or card</span><span class="bar"><i></i></span></button><button class="lx-ch" type="button" role="tab" aria-selected="false"><span class="k"><i>2</i>Step 02</span><span class="t">Create your course</span><span class="s">Upload lessons, set your price</span><span class="bar"><i></i></span></button><button class="lx-ch" type="button" role="tab" aria-selected="false"><span class="k"><i>3</i>Step 03</span><span class="t">Connect your domain</span><span class="s">Your own .in or .com, included</span><span class="bar"><i></i></span></button><button class="lx-ch" type="button" role="tab" aria-selected="false"><span class="k"><i>4</i>Step 04</span><span class="t">Start selling</span><span class="s">Students pay, your studio updates</span><span class="bar"><i></i></span></button></div>
+      </div>
+      <div class="hx2-media">
       <div class="lx-viewport">
         <div class="lx-stage" aria-hidden="true">
           <div class="lx-win">
@@ -1015,8 +1034,10 @@ footer{background:#EEE7DA; border-top:1px solid #E5DDD0; padding:64px 0 32px;}
       </div>
       <div class="lx-foot">
         <button class="lx-play" type="button" aria-pressed="false" aria-label="Pause walkthrough"><svg class="pa" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><svg class="pl" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="lx-ctl lx-ff" type="button" aria-pressed="false" aria-label="Fast-forward"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 6v12l8-6zM12 6v12l8-6z"/></svg>2×</button>
+        <button class="lx-ctl lx-next" type="button" aria-label="Next step">Next<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
         <p class="lx-cap" aria-live="polite"></p>
-        <span class="lx-note">Sample academy · illustrative figures</span>
+      </div>
       </div>
     </div>
   </div>

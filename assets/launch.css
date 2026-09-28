@@ -401,3 +401,46 @@
 .lx-ord .a{white-space:nowrap;}
 .lx-tg span:first-child{min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 .lx-file > div{min-width:0;}
+
+/* ─── Student-facing theme ────────────────────────────────────────────────
+   Everything a student sees (the educator's own website, its checkout, the
+   domain preview and the "student preview" card) wears the sample academy's
+   own blue brand, so it reads instantly as a different site from the ochre
+   studio. This is the educator's white-label colour, not an AllCoaching one. */
+.lx{--st:#2F5BD3; --st-deep:#1D3F99; --st-soft:#E8EEFC; --st-line:#C9D6F6; --st-ink:#0B1430;}
+.lx-url.st{background:#EEF3FF; border-color:var(--st-line); color:var(--st-deep);}
+.lx-url.st svg{color:var(--st);}
+.lx-learn{background:#F6F8FE;}
+.lx-learn::after{content:'Student view · the academy\2019s own website'; position:absolute; right:14px; bottom:14px; z-index:9; font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; font-weight:700; color:#fff; background:var(--st); padding:6px 11px; border-radius:999px; box-shadow:0 10px 24px -10px rgba(29,63,153,.7);}
+.lx-learn .lx-lmono,.lx-mhd .m{background:linear-gradient(135deg,#4A78EA,var(--st-deep)); color:#fff;}
+.lx-learn .lx-lnav.on{background:var(--st-soft); color:var(--st-deep);}
+.lx-learn .lx-lchip svg{color:var(--st);}
+.lx-learn .lx-tabs span.on{background:var(--st-deep); border-color:var(--st-deep);}
+.lx-learn .lx-lhero{background:radial-gradient(360px 220px at 88% 0%, rgba(110,150,255,.38), transparent 70%), linear-gradient(135deg,#16295E,#0B1430 62%);}
+.lx-learn .lx-leb{color:#9DBBFF;}
+.lx-learn .lx-leb::before{background:#9DBBFF; box-shadow:0 0 0 3px rgba(157,187,255,.22);}
+.lx-learn .lx-lhero h4{color:#E6EDFF;}
+.lx-learn .lx-av{background:linear-gradient(135deg,#7FA2F5,var(--st)); color:#fff;}
+.lx-learn .lx-buy .pr{color:var(--st-ink);}
+.lx-learn .lx-btn.acc{background:linear-gradient(135deg,#4F7DEE,var(--st) 55%,var(--st-deep)); color:#fff; box-shadow:0 10px 20px -8px rgba(47,91,211,.6), inset 0 1px 0 rgba(255,255,255,.25);}
+.lx-learn .lx-pm span.on{border-color:var(--st); background:var(--st-soft); color:var(--st-deep);}
+.lx-learn .lx-in.focus{border-color:var(--st); box-shadow:0 0 0 3px rgba(47,91,211,.16);}
+.lx-learn .lx-eb::before{background:var(--st);}
+.lx-learn .caret::after{background:var(--st-deep);}
+.lx-learn .lx-less .pl{background:var(--st-soft); color:var(--st);}
+.lx-msite{background:#F6F8FE;}
+.lx-mhero em{color:var(--st);}
+.lx-mcard .t{background:radial-gradient(60px 40px at 80% 0, rgba(110,150,255,.55), transparent 70%), linear-gradient(135deg,#16295E,#0B1430);}
+.lx-mcard .p{color:var(--st);}
+.lx-pv .th{background:radial-gradient(220px 140px at 85% 10%, rgba(110,150,255,.5), transparent 70%), linear-gradient(135deg,#16295E,#0B1430);}
+.lx-pv .th::before{border-color:rgba(200,215,255,.2); box-shadow:0 0 0 18px rgba(200,215,255,.05), 0 0 0 36px rgba(200,215,255,.03);}
+.lx-pv .tg{color:#CFDDFF;}
+.lx-pv .tt{color:#E6EDFF;}
+.lx-pv .prr b{color:var(--st);}
+
+/* Fast-forward / next controls */
+.lx-ctl{appearance:none; border:1px solid var(--line-2); cursor:pointer; height:40px; padding:0 14px; border-radius:999px; background:#fff; color:var(--ink-1); display:inline-flex; align-items:center; gap:7px; font:700 12.5px var(--ui); flex:none; box-shadow:var(--sh-1); transition:background .2s, color .2s, border-color .2s, transform .2s var(--ease);}
+.lx-ctl:hover{transform:translateY(-1px);}
+.lx-ctl:focus-visible{outline:none; box-shadow:0 0 0 3px rgba(197,139,67,.4);}
+.lx-ctl svg{width:14px; height:14px;}
+.lx-ctl[aria-pressed="true"]{background:#15110D; color:#FAF8F4; border-color:#15110D;}
