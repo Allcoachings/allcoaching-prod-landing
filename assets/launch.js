@@ -410,7 +410,7 @@
       '<div class="lx-kpis">' +
         '<div class="lx-kpi" id="q1"><div class="k">Sales</div><div class="v" id="v1">₹0</div><span class="d" id="d1">no sales yet</span></div>' +
         '<div class="lx-kpi" id="q2"><div class="k">Enrolments</div><div class="v" id="v2">0</div><span class="d" id="d2">—</span></div>' +
-        '<div class="lx-kpi acc" id="q3"><div class="k">You keep · 92.5%</div><div class="v" id="v3">₹0</div><span class="d">to your bank</span></div>' +
+        '<div class="lx-kpi acc" id="q3"><div class="k">You keep · 92.5%</div><div class="v" id="v3">₹0</div><span class="d">to your bank, T+3</span></div>' +
         '<div class="lx-kpi" id="q4"><div class="k">Platform fee · 7.5%</div><div class="v" id="v4">₹0</div><span class="d">flat, per sale</span></div>' +
       '</div>' +
       '<div class="lx-dg2"><div class="lx-card lx-chart"><div class="hd"><b>Sales</b><span>sharmaphysics.in</span></div>' +
