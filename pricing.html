@@ -230,6 +230,61 @@
     .slot-counter::before{ content:''; width:6px; height:6px; border-radius:50%; background:#C44232; animation:pulse 1.6s ease-in-out infinite; }
     @keyframes pulse{ 0%,100%{opacity:1;transform:scale(1);} 50%{opacity:.5;transform:scale(.85);} }
 
+
+    /* ── Conversion layer (pz-*) ── */
+    .pz-hero-cta{ margin-top:2rem; display:flex; flex-wrap:wrap; justify-content:center; gap:.75rem; }
+    .tier-cta.pz-big{ margin-top:0; padding:16px 26px; font-size:15.5px; }
+    .pz-trust{ list-style:none; padding:0; margin:1.4rem 0 0; display:flex; flex-wrap:wrap; justify-content:center; gap:.5rem; }
+    .pz-trust li{ display:inline-flex; align-items:center; gap:7px; padding:7px 13px; border-radius:999px; background:#fff; border:1px solid rgba(20,17,13,.1); font-size:13px; font-weight:600; color:#4F4840; }
+    .pz-trust li::before{ content:''; width:14px; height:14px; border-radius:50%; background:#DCF1DE url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232F8F4E' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4L18 8'/%3E%3C/svg%3E") center/10px no-repeat; }
+    .pz-facts{ list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(3,1fr); gap:.8rem; }
+    @media(max-width:900px){ .pz-facts{ grid-template-columns:1fr 1fr; } } @media(max-width:560px){ .pz-facts{ grid-template-columns:1fr; } }
+    .pz-fact{ background:#fff; border:1px solid rgba(20,17,13,.08); border-radius:16px; padding:1.1rem 1.2rem; box-shadow:0 6px 18px -12px rgba(38,28,14,.15); }
+    .pz-fact .n{ font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:700; letter-spacing:.16em; color:#C58B43; }
+    .pz-fact p{ margin:.45rem 0 0; font-size:14px; line-height:1.55; color:#4F4840; }
+    .pz-fact p strong{ display:block; color:#15110D; font-size:15px; margin-bottom:2px; }
+    .pz-keep{ margin-top:.55rem; font-size:12.5px; color:#8C8378; } .pz-keep b{ color:#2F8F4E; font-weight:700; }
+    .pz-finder-sec{ background:linear-gradient(180deg,#F6F2EA,#FAF8F4); }
+    .pz-sub{ font-size:15.5px; color:#4F4840; max-width:36rem; margin:0 auto; line-height:1.6; }
+    .pz-finder{ background:#fff; border:1px solid rgba(20,17,13,.08); border-radius:22px; padding:1.75rem; box-shadow:0 30px 70px -30px rgba(38,28,14,.28); }
+    .pz-slider-top{ display:flex; justify-content:space-between; align-items:baseline; gap:1rem; font-size:14px; font-weight:600; color:#4F4840; }
+    .pz-slider-top output{ font-family:'Instrument Serif',serif; font-style:italic; font-size:2.4rem; line-height:1; color:#8E5F22; }
+    .pz-slider input{ -webkit-appearance:none; appearance:none; width:100%; height:8px; margin:1.1rem 0 .5rem; border-radius:99px; background:linear-gradient(90deg,#C58B43 var(--p,20%),#EFEBE2 var(--p,20%)); outline:none; }
+    .pz-slider input::-webkit-slider-thumb{ -webkit-appearance:none; width:26px; height:26px; border-radius:50%; background:#fff; border:3px solid #C58B43; box-shadow:0 4px 12px rgba(197,139,67,.45); cursor:grab; }
+    .pz-slider input::-moz-range-thumb{ width:22px; height:22px; border-radius:50%; background:#fff; border:3px solid #C58B43; cursor:grab; }
+    .pz-slider input:focus-visible::-webkit-slider-thumb{ box-shadow:0 0 0 5px rgba(197,139,67,.3); }
+    .pz-ticks{ display:flex; justify-content:space-between; font-family:'JetBrains Mono',monospace; font-size:10px; color:#8C8378; }
+    .pz-plans{ display:grid; grid-template-columns:repeat(3,1fr); gap:.75rem; margin-top:1.4rem; }
+    @media(max-width:700px){ .pz-plans{ grid-template-columns:1fr; } }
+    .pz-plan{ border:1.5px solid rgba(20,17,13,.1); border-radius:16px; padding:1rem 1.1rem; transition:all .25s ease; position:relative; }
+    .pz-plan .h{ display:flex; justify-content:space-between; align-items:center; margin-bottom:.6rem; }
+    .pz-plan .h b{ font-size:15px; } .pz-plan .h span{ font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#8C8378; }
+    .pz-plan .row{ display:flex; justify-content:space-between; font-size:13px; color:#4F4840; padding:.3rem 0; }
+    .pz-plan .row b{ font-family:'JetBrains Mono',monospace; font-size:13.5px; color:#15110D; }
+    .pz-plan .row.keep b{ color:#2F8F4E; }
+    .pz-plan.best{ border-color:#C58B43; background:linear-gradient(180deg,#FFFBF2,#fff); box-shadow:0 0 0 4px rgba(197,139,67,.14), 0 18px 40px -20px rgba(197,139,67,.55); transform:translateY(-3px); }
+    .pz-plan.best::after{ content:'Best for you'; position:absolute; top:-11px; right:14px; padding:3px 10px; border-radius:99px; background:#15110D; color:#F5E8D2; font-family:'JetBrains Mono',monospace; font-size:9px; letter-spacing:.14em; text-transform:uppercase; font-weight:700; }
+    .pz-verdict{ margin-top:1.4rem; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem; padding-top:1.2rem; border-top:1px dashed rgba(20,17,13,.14); }
+    .pz-verdict p{ margin:0; font-size:15.5px; color:#4F4840; flex:1 1 300px; } .pz-verdict b{ color:#15110D; }
+    .pz-note{ margin:1rem 0 0; font-size:12px; color:#8C8378; line-height:1.55; }
+    .pz-inc{ list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(4,1fr); gap:.75rem; }
+    @media(max-width:900px){ .pz-inc{ grid-template-columns:1fr 1fr; } } @media(max-width:480px){ .pz-inc{ grid-template-columns:1fr; } }
+    .pz-inc li{ padding:1rem 1.1rem 1rem 2.9rem; position:relative; border-radius:14px; background:#FAF8F4; border:1px solid rgba(20,17,13,.06); }
+    .pz-inc li::before{ content:''; position:absolute; left:1rem; top:1.1rem; width:22px; height:22px; border-radius:50%; background:#DCF1DE url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232F8F4E' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4L18 8'/%3E%3C/svg%3E") center/13px no-repeat; }
+    .pz-inc b{ display:block; font-size:14.5px; color:#15110D; } .pz-inc span{ display:block; font-size:12.5px; color:#8C8378; margin-top:2px; line-height:1.45; }
+    .pz-pay{ display:grid; grid-template-columns:repeat(3,1fr); gap:.9rem; }
+    @media(max-width:760px){ .pz-pay{ grid-template-columns:1fr; } }
+    .pz-pay-c{ background:#fff; border:1px solid rgba(20,17,13,.08); border-radius:18px; padding:1.3rem 1.3rem 1.4rem; }
+    .pz-pay-c .n{ display:grid; place-items:center; width:30px; height:30px; border-radius:50%; background:linear-gradient(180deg,#F5C887,#C58B43); color:#1A100A; font-family:'Instrument Serif',serif; font-style:italic; font-size:17px; }
+    .pz-pay-c b{ display:block; margin-top:.8rem; font-size:15.5px; color:#15110D; } .pz-pay-c p{ margin:.35rem 0 0; font-size:13.5px; color:#4F4840; line-height:1.55; }
+    .pz-never{ list-style:none; padding:0; margin:1.3rem 0 0; display:flex; flex-wrap:wrap; justify-content:center; gap:.5rem 1.4rem; font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.08em; text-transform:uppercase; font-weight:700; color:#4F4840; }
+    .pz-never li::before{ content:'✕'; color:#C44232; margin-right:6px; }
+    .pz-sticky{ position:fixed; left:12px; right:12px; bottom:12px; z-index:60; display:none; align-items:center; justify-content:space-between; gap:12px; padding:10px 10px 10px 16px; border-radius:16px; background:rgba(21,17,13,.95); color:#FAF8F4; box-shadow:0 18px 40px -12px rgba(0,0,0,.45); transform:translateY(140%); transition:transform .35s ease; }
+    .pz-sticky b{ display:block; font-size:14px; } .pz-sticky span{ display:block; font-size:11.5px; opacity:.7; }
+    .pz-sticky a{ padding:11px 18px; border-radius:11px; background:linear-gradient(180deg,#F5C887,#C58B43); color:#1A100A; font-weight:700; font-size:14px; white-space:nowrap; }
+    .pz-sticky.on{ transform:none; }
+    @media(max-width:760px){ .pz-sticky{ display:flex; } .fab-wa{ bottom:84px !important; } }
+    @media (prefers-reduced-motion:reduce){ .pz-plan,.pz-sticky{ transition:none; } }
     /* TL;DR strip */
     .tldr-strip{ background:linear-gradient(180deg,#F6F2EA,#FFFFFF); border-left:4px solid #C58B43; border-radius:0 14px 14px 0; padding:1.5rem 1.75rem; box-shadow:0 6px 18px -10px rgba(197,139,67,.3); }
     .tldr-strip ul{ margin:0.75rem 0 0; padding-left:1.15rem; list-style:disc; }
@@ -346,8 +401,15 @@
       <span class="grad-text">Plans from ₹6,999/year.</span>
     </h1>
     <p class="lede mt-6 max-w-2xl mx-auto" style="font-size:1.18rem; line-height:1.7; color:#4F4840;">
-      Sign up, choose a plan, connect your own domain and start selling — <strong style="color:#15110D;">no sales call, no demo, no technical team required.</strong> Three annual plans, each with a lower platform fee as you grow: keep <strong style="color:#15110D;">90% on Starter</strong>, up to <strong style="color:#15110D;">95% on Pro</strong>.
+      Sign in with Google, choose a plan, connect your own domain and start selling. <strong style="color:#15110D;">No sales call, no demo, no technical team.</strong>
     </p>
+    <div class="pz-hero-cta">
+      <a href="https://studio.allcoaching.in/" target="_blank" rel="noopener" class="tier-cta tier-cta-primary pz-big"><svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Start with Google — from ₹6,999/yr</a>
+      <a href="#finder" class="tier-cta tier-cta-ghost pz-big">Which plan fits me? <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    </div>
+    <ul class="pz-trust">
+      <li>No sales call</li><li>Your own domain on every plan</li><li>Keep 90–95% of every sale</li><li>T+3 payouts</li>
+    </ul>
     <div class="mt-7 inline-flex flex-wrap items-center justify-center gap-4">
       <span class="slot-counter" style="color:#2F8F4E; border-color:rgba(47,143,78,.32);">270 educators already selling</span>
       <span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; color:#8C8378; font-weight:700; text-transform:uppercase;">Prices exclude GST</span>
@@ -357,18 +419,8 @@
 
 <!-- ================= TL;DR ================= -->
 <section class="pb-12 md:pb-16">
-  <div class="max-w-3xl mx-auto px-5 reveal">
-    <div class="tldr-strip" id="tldr">
-      <p class="kicker" style="margin:0;">Key facts — pricing in 6 lines</p>
-      <ul>
-        <li><strong>Three annual plans</strong> — Starter ₹6,999, Growth ₹12,999, Pro ₹24,999. No hidden tiers beyond these three.</li>
-        <li><strong>The platform fee falls as you upgrade</strong> — 10% on Starter, 7.5% on Growth, 5% on Pro. You keep 90%, 92.5% or 95% of every sale.</li>
-        <li><strong>Fully self-serve.</strong> Sign up, choose a plan, upload a course, connect your domain, set up payment, publish — no sales call or demo needed.</li>
-        <li><strong>Your own domain connects on every plan</strong>, including Starter. So does AI-driven marketplace discovery.</li>
-        <li><strong>Prices exclude GST</strong>, added at checkout. Payment-gateway charges on student payments are separate.</li>
-        <li><strong>Upgrades are credited</strong> — what you already paid this year counts toward a higher plan, so you only pay the difference.</li>
-      </ul>
-    </div>
+  <div class="max-w-6xl mx-auto px-5 reveal">
+    <div id="tldr"><p class="kicker" style="margin:0 0 1rem; text-align:center;">Key facts — pricing in 6 lines</p><ul class="pz-facts"><li class="pz-fact"><span class="n">01</span><p><strong>Three annual plans</strong>Starter ₹6,999, Growth ₹12,999, Pro ₹24,999. No hidden tiers beyond these three.</p></li><li class="pz-fact"><span class="n">02</span><p><strong>The platform fee falls as you upgrade</strong>10% on Starter, 7.5% on Growth, 5% on Pro. You keep 90%, 92.5% or 95% of every sale.</p></li><li class="pz-fact"><span class="n">03</span><p><strong>Fully self-serve.</strong> Sign up, choose a plan, upload a course, connect your domain, set up payment, publish — no sales call or demo needed.</p></li><li class="pz-fact"><span class="n">04</span><p><strong>Your own domain connects on every plan</strong>including Starter. So does AI-driven marketplace discovery.</p></li><li class="pz-fact"><span class="n">05</span><p><strong>Prices exclude GST</strong>added at checkout. Payment-gateway charges on student payments are separate.</p></li><li class="pz-fact"><span class="n">06</span><p><strong>Upgrades are credited</strong>what you already paid this year counts toward a higher plan, so you only pay the difference.</p></li></ul></div>
   </div>
 </section>
 
@@ -393,6 +445,7 @@
           <span class="price-sub">per year</span>
         </div>
         <p class="tier-tagline"><strong>You keep 90%</strong> of every sale — 10% platform fee.</p>
+        <p class="pz-keep">On ₹1 lakh of sales, <b>₹90,000</b> is yours</p>
         <div class="tier-features">
           <div class="tier-feat">512 GB storage</div>
           <div class="tier-feat">512 GB / month streaming</div>
@@ -419,6 +472,7 @@
           <span class="price-sub">per year</span>
         </div>
         <p class="tier-tagline"><strong>You keep 92.5%</strong> of every sale — 7.5% platform fee.</p>
+        <p class="pz-keep">On ₹1 lakh of sales, <b>₹92,500</b> is yours</p>
         <div class="tier-features">
           <div class="tier-feat">1 TB storage</div>
           <div class="tier-feat">1 TB / month streaming</div>
@@ -445,6 +499,7 @@
           <span class="price-sub">per year</span>
         </div>
         <p class="tier-tagline"><strong>You keep 95%</strong> of every sale — 5% platform fee.</p>
+        <p class="pz-keep">On ₹1 lakh of sales, <b>₹95,000</b> is yours</p>
         <div class="tier-features">
           <div class="tier-feat">3 TB storage</div>
           <div class="tier-feat">3 TB / month streaming</div>
@@ -468,8 +523,8 @@
     <div class="reveal" style="margin-top:3rem; text-align:center;">
       <p class="kicker" style="margin-bottom:.75rem;">How you launch — no sales call, no demo</p>
       <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:.5rem 1.1rem; font-family:'JetBrains Mono',monospace; font-size:11.5px; letter-spacing:.04em; color:#4F4840; font-weight:700;">
-        <span>Sign up</span><span style="color:#C58B43;">→</span>
-        <span>Choose a plan</span><span style="color:#C58B43;">→</span>
+        <span>Continue with Google</span><span style="color:#C58B43;">→</span>
+        <span>Pay for a plan</span><span style="color:#C58B43;">→</span>
         <span>Upload a course</span><span style="color:#C58B43;">→</span>
         <span>Connect your domain</span><span style="color:#C58B43;">→</span>
         <span>Set up payment</span><span style="color:#C58B43;">→</span>
@@ -481,6 +536,70 @@
     <p class="text-center mt-10" style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.18em; color:#8C8378; font-weight:700; text-transform:uppercase;">
       Prices exclude GST · Upgrades take effect the moment payment clears · To move down a tier, contact support
     </p>
+  </div>
+</section>
+
+<!-- ================= PLAN FINDER ================= -->
+<section class="py-14 md:py-20 pz-finder-sec" id="finder">
+  <div class="max-w-5xl mx-auto px-5 reveal">
+    <div class="text-center mb-8">
+      <p class="kicker">Plan finder · 10 seconds</p>
+      <h2 class="h-chap font-display mt-3 mb-3">Slide to your yearly sales. <span class="grad-text">We&rsquo;ll pick the plan.</span></h2>
+      <p class="pz-sub">Total cost = plan price + platform fee on what you sell. The cheapest plan for you is highlighted.</p>
+    </div>
+    <div class="pz-finder">
+      <div class="pz-slider">
+        <div class="pz-slider-top"><span>Your sales in a year</span><output id="pzSalesOut">₹3,00,000</output></div>
+        <input type="range" id="pzSales" min="50000" max="2000000" step="10000" value="300000" aria-label="Your expected course sales in a year"/>
+        <div class="pz-ticks"><span>₹50k</span><span>₹5L</span><span>₹10L</span><span>₹20L</span></div>
+      </div>
+      <div class="pz-plans" id="pzPlans">
+        <div class="pz-plan" data-plan="Starter" data-price="6999" data-fee="0.10"><div class="h"><b>Starter</b><span>10% fee</span></div><div class="row"><span>You pay in a year</span><b class="cost">—</b></div><div class="row keep"><span>You keep</span><b class="kept">—</b></div></div>
+        <div class="pz-plan" data-plan="Growth" data-price="12999" data-fee="0.075"><div class="h"><b>Growth</b><span>7.5% fee</span></div><div class="row"><span>You pay in a year</span><b class="cost">—</b></div><div class="row keep"><span>You keep</span><b class="kept">—</b></div></div>
+        <div class="pz-plan" data-plan="Pro" data-price="24999" data-fee="0.05"><div class="h"><b>Pro</b><span>5% fee</span></div><div class="row"><span>You pay in a year</span><b class="cost">—</b></div><div class="row keep"><span>You keep</span><b class="kept">—</b></div></div>
+      </div>
+      <div class="pz-verdict">
+        <p id="pzVerdict">Starter is the cheapest plan for you.</p>
+        <a href="https://studio.allcoaching.in/" target="_blank" rel="noopener" class="tier-cta tier-cta-primary pz-big" id="pzGo">Start with <span id="pzGoPlan">Starter</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+      <p class="pz-note">Illustrative maths before GST. Payment-gateway charges on student payments are separate. Most educators start on Starter and upgrade later — what you paid is credited.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EVERY PLAN INCLUDES ================= -->
+<section class="py-14 md:py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-5 reveal">
+    <div class="text-center mb-8">
+      <p class="kicker">Included on every plan</p>
+      <h2 class="h-chap font-display mt-3">Starter already has <span class="grad-text">everything you need to sell.</span></h2>
+    </div>
+    <ul class="pz-inc">
+      <li><b>Your own domain</b><span>Connected from the studio, on Starter too</span></li>
+      <li><b>On the AllCoaching app</b><span>Android, iOS and the web app</span></li>
+      <li><b>Marketplace discovery</b><span>Students searching your exam find you</span></li>
+      <li><b>Courses, tests &amp; notes</b><span>Recorded lessons, test series, PDFs</span></li>
+      <li><b>Live classes</b><span>5, 10 or 15 hours a month by plan</span></li>
+      <li><b>UPI &amp; card checkout</b><span>Access opens the moment they pay</span></li>
+      <li><b>T+3 payouts</b><span>To your bank, 3 days after each sale</span></li>
+      <li><b>Your data stays yours</b><span>Students, content and payments exportable</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= WHAT YOU PAY ================= -->
+<section class="py-14 md:py-16">
+  <div class="max-w-5xl mx-auto px-5 reveal">
+    <div class="text-center mb-8">
+      <p class="kicker">Transparent by design</p>
+      <h2 class="h-chap font-display mt-3">What you pay — <span class="grad-text">and nothing else.</span></h2>
+    </div>
+    <div class="pz-pay">
+      <div class="pz-pay-c"><span class="n">1</span><b>One yearly plan price</b><p>₹6,999, ₹12,999 or ₹24,999. GST is added at checkout.</p></div>
+      <div class="pz-pay-c"><span class="n">2</span><b>A platform fee only when you sell</b><p>10%, 7.5% or 5% of each sale. Sell nothing in a month, pay nothing that month.</p></div>
+      <div class="pz-pay-c"><span class="n">3</span><b>Payment-gateway charges</b><p>On student payments, separate from the plan — shown to you, never hidden.</p></div>
+    </div>
+    <ul class="pz-never"><li>No setup fee</li><li>No monthly bill</li><li>No sales call or demo</li><li>No lock-in — upgrades credited</li></ul>
   </div>
 </section>
 
@@ -613,7 +732,8 @@
     </p>
     <div class="flex flex-wrap justify-center gap-3">
       <a href="https://studio.allcoaching.in/" target="_blank" rel="noopener" class="tier-cta tier-cta-primary" style="padding:16px 28px; font-size:15.5px;">
-        Start with Starter — ₹6,999/yr
+<svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>
+        Start with Google — ₹6,999/yr
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
       </a>
       <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="tier-cta tier-cta-ghost" style="padding:16px 24px; font-size:15.5px;">
@@ -698,6 +818,32 @@
   if(bg&&mn) bg.addEventListener('click',function(){mn.classList.add('open');});
   if(mc&&mn) mc.addEventListener('click',function(){mn.classList.remove('open');});
   if(mn) mn.addEventListener('click',function(e){ if(e.target===mn||e.target.tagName==='A') mn.classList.remove('open'); });
+})();
+</script>
+<div class="pz-sticky" id="pzSticky" aria-hidden="true"><div><b>From ₹6,999/yr</b><span>Keep 90–95% · no sales call</span></div><a href="https://studio.allcoaching.in/" target="_blank" rel="noopener" tabindex="-1">Start now</a></div>
+<script>
+(function(){
+  var r=document.getElementById('pzSales'); if(!r) return;
+  var out=document.getElementById('pzSalesOut'), plans=[].slice.call(document.querySelectorAll('#pzPlans .pz-plan'));
+  var verdict=document.getElementById('pzVerdict'), goPlan=document.getElementById('pzGoPlan');
+  function inr(n){ return '\u20b9'+Math.round(n).toLocaleString('en-IN'); }
+  function upd(){
+    var S=+r.value, best=null;
+    out.textContent=inr(S);
+    r.style.setProperty('--p',((S-r.min)/(r.max-r.min)*100)+'%');
+    plans.forEach(function(p){
+      var price=+p.dataset.price, fee=+p.dataset.fee, cost=price+fee*S;
+      p._c=cost; p.querySelector('.cost').textContent=inr(cost); p.querySelector('.kept').textContent=inr(S*(1-fee));
+      if(!best||cost<best._c) best=p;
+    });
+    plans.forEach(function(p){ p.classList.toggle('best',p===best); });
+    var save=Math.max.apply(null,plans.map(function(p){return p._c;}))-best._c;
+    verdict.innerHTML='<b>'+best.dataset.plan+'</b> is the cheapest plan at '+inr(S)+' a year'+(save>0?' \u2014 '+inr(save)+' less than the costliest option.':'.');
+    goPlan.textContent=best.dataset.plan;
+  }
+  r.addEventListener('input',upd); upd();
+  var st=document.getElementById('pzSticky');
+  window.addEventListener('scroll',function(){ var on=window.scrollY>520; st.classList.toggle('on',on); st.setAttribute('aria-hidden',on?'false':'true'); st.querySelector('a').tabIndex=on?0:-1; },{passive:true});
 })();
 </script>
 </body>
