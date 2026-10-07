@@ -617,7 +617,7 @@ schema_extra:
 </div>
 <!-- ========= FOUNDER SECTION ========= -->
 <div class="founder mt-16" id="about-founder">
-<div class="photo-wrap" style="width:180px; height:180px; border-radius:50%; box-shadow:0 0 0 4px #F5F0E8,0 0 0 7px #E0A95C,0 0 0 8px rgba(197,139,67,.35),0 0 0 14px rgba(224,169,92,.16),0 22px 50px -10px rgba(197,139,67,.45);"><img alt="Amit Ratan — Founder and CEO, AllCoaching" decoding="async" height="180" src="/assets/Amit-Ratan.webp" style="object-position:center 20%;" width="180"/></div>
+<div class="photo-wrap" style="width:180px; height:180px; border-radius:50%; box-shadow:0 0 0 4px #F5F0E8,0 0 0 7px #E0A95C,0 0 0 8px rgba(197,139,67,.35),0 0 0 14px rgba(224,169,92,.16),0 22px 50px -10px rgba(197,139,67,.45);"><img alt="Amit Ratan — Founder and CEO, AllCoaching" decoding="async" height="180" src="/assets/amit-ratan-2026.webp" style="object-position:center 20%;" width="180"/></div>
 <div>
 <p class="founder-eyebrow">About the Author</p>
 <p class="founder-name">Amit Ratan</p>

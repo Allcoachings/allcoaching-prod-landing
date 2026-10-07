@@ -21,7 +21,7 @@ NEW_AUTHOR = '''"author":{
       "jobTitle":"Founder & CEO",
       "worksFor":{"@id":"https://allcoaching.in/#organization"},
       "url":"https://allcoaching.in/author/amit-ratan",
-      "image":"https://allcoaching.in/assets/Amit-Ratan.webp",
+      "image":"https://allcoaching.in/assets/amit-ratan-2026.webp",
       "sameAs":[
         "https://www.linkedin.com/in/allamitk/",
         "https://x.com/allamitk",

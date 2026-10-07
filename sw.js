@@ -6,7 +6,7 @@
  * Bump CACHE_VERSION on every deploy to invalidate old caches.
  */
 
-const CACHE_VERSION = 'v2026.09.15.1';
+const CACHE_VERSION = 'v2026.10.07.1';
 const STATIC_CACHE  = `ac-static-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `ac-runtime-${CACHE_VERSION}`;
 const HTML_CACHE    = `ac-html-${CACHE_VERSION}`;
@@ -24,7 +24,7 @@ const PRECACHE_URLS = [
   '/dist/tw.min.css',
   '/manifest.webmanifest',
   '/assets/logo/allcoaching-logo.webp?v=20260707',
-  '/assets/Amit-Ratan.webp',
+  '/assets/amit-ratan-2026.webp',
   '/assets/fevicon.webp?v=20260707'
 ];
 
