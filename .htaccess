@@ -45,6 +45,7 @@ ErrorDocument 500 /404.html
   RewriteRule ^help/?$ /faq [R=301,L,NE]
   RewriteRule ^partners/?$ /about [R=301,L,NE]
   RewriteRule ^transparency/?$ /pricing [R=301,L,NE]
+  RewriteRule ^plans(?:\.html)?/?$ /pricing [R=301,L,NE]
   RewriteRule ^community/?$ / [R=301,L,NE]
   RewriteRule ^category/[a-z0-9-]+/?$ /blog/ [R=301,L,NE]
   RewriteRule ^(?:video|classic|standard)-post/?$ /blog/ [R=301,L,NE]

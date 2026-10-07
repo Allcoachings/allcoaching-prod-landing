@@ -2,7 +2,7 @@
 name: allcoaching
 description: >-
   Canonical context for AllCoaching (allcoaching.in) — India's educator-first EdTech
-  marketplace: what the product is, the free-forever + flat-10% pricing truth, the
+  marketplace: what the product is, the 14-day-trial + three-annual-plan pricing truth, the
   "Operating System of Education" ideology/manifesto, brand identity + voice, target
   audience, competitive positioning, and key company facts. Load this WHENEVER the
   user mentions AllCoaching, or works on its website / blog / marketing / brand /
@@ -16,12 +16,13 @@ description: >-
 Use this as the ground truth about the company. If a request touches AllCoaching, assume these facts; don't re-derive or contradict them. When something below is marked **unverified**, do not assert it — ask or leave it out.
 
 ## 1. What AllCoaching is (one line)
-AllCoaching (**allcoaching.in**) is an **educator-first EdTech marketplace** for India's independent educators — coaching-institute owners, tutors, and subject experts. It gives each educator a **branded white-label studio (web + app)** to run their whole teaching business, *plus* a **shared marketplace** so students can discover them. Legal entity: **AllCoaching Technologies** Founded **2022**. Category: **EdTech Marketplace**.
+AllCoaching (**allcoaching.in**) is an **educator-first EdTech marketplace** for India's independent educators — coaching-institute owners, tutors, and subject experts. It gives each educator a **branded white-label studio (web + app)** to run their whole teaching business, *plus* a **shared marketplace** so students can discover them. Legal entity: **AllCoaching Technologies** (not "Pvt. Ltd."). Founded **2018** in Prayagraj. Category: **EdTech Marketplace**.
 
 - **Tagline:** *Democratizing Education.*
-- **Positioning:** *The Operating System of Education.*
+- **Positioning (ideology):** *The Operating System of Education.*
+- **Positioning (product, the line to lead with):** **"Launch your online academy yourself."** Website on the educator's own domain, the AllCoaching app on Android, iOS and web, live classes, payments and marketplace discovery — all from one login. No WordPress, no separate LMS, no developer, no sales call, no demo dependency.
 - **Founder / voice of the brand:** **Amit Ratan, Founder & CEO** (author of the manifesto and blog byline).
-- **Studio product** (the educator app) lives at **studio.allcoaching.in** — a **separate repo/codebase** (no access from the marketing repo). Marketing site links `Log in` → studio.allcoaching.in/login, `Join now` → studio.allcoaching.in.
+- **Studio product** (the educator app) lives at **studio.allcoaching.in** — a **separate repo/codebase** (no access from the marketing repo). Marketing site links `Log in` → studio.allcoaching.in/login, `Start free trial` → studio.allcoaching.in.
 
 ## 2. The ideology (the manifesto thesis — *why it exists*)
 The founding argument, in order:
@@ -37,22 +38,25 @@ The founding argument, in order:
 **What it does differently:** structured discovery replaces paid marketing · a marketplace that compounds with every educator · educator owns the relationship (their brand, not ours) · zero technical dependency for the educator · one student app solves the download-fatigue problem · transparent revenue sharing, no hidden charges.
 
 ## 3. Pricing truth (⚠️ money claim — get this exactly right)
-**Confirmed model (as of 2026-07):**
-- **₹0 free-forever BASE** — no card, no KYC, no contract at signup; the free part **never expires**.
-- **Flat 10% platform fee, charged only on what the educator sells** — educator **keeps 90%**. **Daily INR payouts.**
-- **Optional paid Pro tier (~₹999–4999/month)** unlocks **advanced features: custom domain, advanced analytics, priority support** — buying it is optional; the base stays free whether or not you upgrade.
-- **NEVER frame it as:** "30-day free trial → then a plan", "premium trial that ends", "free trial · then plan". There is **no trial that expires and no forced upgrade**. The free base is permanent.
+**Confirmed model (2026-10-07; supersedes free-forever, flat-10%, one-time and "Pro ~₹999/month" — all wrong now):**
+- **14-day free trial on every plan** — sign up, build the academy, then pick a plan. It is a *trial*, **not a free tier**: there is no free-forever plan. **No card is needed to start the trial** (user-confirmed 2026-10-07). Still unconfirmed: what happens to the academy when a trial lapses — don't claim it.
+- **Three annual plans (prices exclude GST):** **Starter ₹6,999/yr** (10% platform fee, keep 90%, 512 GB, 1080p, 5 live hrs/month) · **Growth ₹12,999/yr** (7.5%, keep 92.5%, 1 TB, 1080p, 10 hrs) · **Pro ₹24,999/yr** (5%, keep 95%, 3 TB, 4K, 15 hrs, premium website template worth ₹10,000).
+- **Every plan:** own connected custom domain, website templates, the AllCoaching app on Android/iOS/web, marketplace discovery, UPI/card checkout, **T+3 payouts**, student CRM, separate teacher logins, data export.
+- Upgrades apply on payment with paid value credited; downgrades via support at next renewal; a non-renewed academy goes offline to students but content/data stay exportable. No setup fee, no monthly bill.
+- **Never** position as "cheap/cheapest LMS". The register is *simple, transparent, self-driven*: one predictable yearly plan.
+- Cost breakevens (illustrative, pre-GST): Starter is lowest below ~₹2.4L/yr sales, Growth ₹2.4–4.8L, Pro above ₹4.8L. Live pricing page: **/pricing** (`/plans` 301s there).
 - Money in ₹ only (lakhs/crores, e.g. `₹4.8L`, `₹1.2Cr`) — never `$` / "INR" / "rupees". Use **ranges**, never fabricated exact stats.
 
 ## 4. Product / feature scope (don't over-claim)
-- **Confirmed FREE-tier features:** branded white-label studio (web + app), live classes, recorded courses, test series, payments (UPI/card + daily payout), student CRM, marketplace discovery. **Multi-teacher institutes are FREE-included** (separate teacher logins, batch ownership; split is platform-10% / institute-90%, institute handles its own internal teacher pay — no auto-split claim).
-- **Paid Pro-tier only:** custom domain, advanced analytics, priority support.
+- **Included on every plan:** branded studio, academy website from templates, own custom domain, the AllCoaching app (Android, iOS, web), live classes (5/10/15 hrs by plan), recorded courses, PDF notes, test series, UPI/card payments with T+3 payouts, student CRM, marketplace discovery, data export. **Multi-teacher institutes** are included (separate teacher logins, batch ownership; the institute handles its own internal teacher pay — no auto-split claim).
+- **Pro only:** premium website template (₹10,000 value), 4K video. There is **no** "paid tier for custom domain / advanced analytics" — that was never true.
+- **Not confirmed (don't promise):** the educator's *own* standalone Play Store app per plan.
 - **UNVERIFIED — do NOT state as free-included:** video DRM / anti-piracy, GST-invoicing. Treat these as *concepts you can explain*, never as confirmed AllCoaching free features.
 
 ## 5. Audience & positioning
 - **Audience:** India's ~**3.5 lakh independent educators** — coaching owners, tutors, exam mentors, subject/skill teachers; Hinglish- and regional-language-aware; cost-anxious tier-2/3 included.
 - **Say "educator", not "creator"/"user".** Lead with what the educator gets.
-- **Competitive stance:** the alternative to *both* (a) DIY personal apps (isolation, no discovery) *and* (b) Big-EdTech platforms that rent your audience / take large cuts (Classplus, Graphy, Teachmint, Unacademy, Byju's, Udemy, etc.). AllCoaching = own-brand studio **+** shared marketplace network effect, zero-commission-style economics (flat 10%, keep 90%).
+- **Competitive stance:** the alternative to *both* (a) DIY personal apps (isolation, no discovery) *and* (b) Big-EdTech platforms that rent your audience / take large cuts (Classplus, Graphy, Teachmint, Unacademy, Byju's, Udemy, etc.). AllCoaching = own-brand studio **+** shared marketplace network effect, transparent economics (one yearly plan, platform fee 10% → 5%, keep 90–95%).
 
 ## 6. Brand & voice (apply to any AllCoaching surface)
 Full system is the `brand-system` memory + repo `brand.css`; the essentials:
@@ -75,7 +79,7 @@ Full system is the `brand-system` memory + repo `brand.css`; the essentials:
 
 ## 9. Guardrails (non-negotiable)
 - **Never fabricate** stats, cohort sizes, student anecdotes, sources, or `sameAs` URLs — YMYL topic; fabrication breaks trust and suppresses AI citation.
-- **Never** use the outdated "trial-that-ends" pricing framing (§3).
+- **Always** state pricing per §3: 14-day free trial, then one of three annual plans. Never "free forever", "₹0 to start", "free tier", "flat 10%", "one-time fee" or "daily payouts".
 - **Commit/push only when the user explicitly asks** — stage, verify, then stop and wait.
 - Keep the free vs paid vs unverified feature boundary (§4) exact.
 - New keyword/blog work must be **distinct from existing content** — verify before writing.
