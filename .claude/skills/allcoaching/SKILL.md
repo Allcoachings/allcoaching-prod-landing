@@ -20,7 +20,8 @@ AllCoaching (**allcoaching.in**) is an **educator-first EdTech marketplace** for
 
 - **Tagline:** *Democratizing Education.*
 - **Positioning (ideology):** *The Operating System of Education.*
-- **Positioning (product, the line to lead with):** **"Launch your online academy yourself."** Website on the educator's own domain, the AllCoaching app on Android, iOS and web, live classes, payments and marketplace discovery — all from one login. No WordPress, no separate LMS, no developer, no sales call, no demo dependency.
+- **Positioning (confirmed 2026-10-08, lead with this):** **"Sell your courses online. Your way."** Two ways to sell, one account: (1) list courses on the AllCoaching marketplace, where students on Android, iOS and web discover and buy them; (2) launch a full white-label academy yourself — connect your own domain for your website, publish your own app on Google Play, and use the built-in marketing tools to sell under your own brand. Plug and play, no developer. Homepage shows NO founding year or city ("no legacy, no place") — keep "2018"/"Prayagraj" off marketing pages (legal/contact/about pages may keep the registered address).
+- **Earlier product line (still valid as support copy):** **"Launch your online academy yourself."** Website on the educator's own domain, the AllCoaching app on Android, iOS and web, live classes, payments and marketplace discovery — all from one login. No WordPress, no separate LMS, no developer, no sales call, no demo dependency.
 - **Founder / voice of the brand:** **Amit Ratan, Founder & CEO** (author of the manifesto and blog byline).
 - **Studio product** (the educator app) lives at **studio.allcoaching.in** — a **separate repo/codebase** (no access from the marketing repo). Marketing site links `Log in` → studio.allcoaching.in/login, `Start free trial` → studio.allcoaching.in.
 
@@ -50,7 +51,7 @@ The founding argument, in order:
 ## 4. Product / feature scope (don't over-claim)
 - **Included on every plan:** branded studio, academy website from templates, own custom domain, the AllCoaching app (Android, iOS, web), live classes (5/10/15 hrs by plan), recorded courses, PDF notes, test series, UPI/card payments with T+3 payouts, student CRM, marketplace discovery, data export. **Multi-teacher institutes** are included (separate teacher logins, batch ownership; the institute handles its own internal teacher pay — no auto-split claim).
 - **Pro only:** premium website template (₹10,000 value), 4K video. There is **no** "paid tier for custom domain / advanced analytics" — that was never true.
-- **Not confirmed (don't promise):** the educator's *own* standalone Play Store app per plan.
+- **Own Google Play app:** confirmed as part of the white-label path (2026-10-08). Which plans include it is NOT confirmed — don't put it in plan tables until the user says so. Marketing tools: confirmed to exist; don't list specific tools until confirmed.
 - **UNVERIFIED — do NOT state as free-included:** video DRM / anti-piracy, GST-invoicing. Treat these as *concepts you can explain*, never as confirmed AllCoaching free features.
 
 ## 5. Audience & positioning
