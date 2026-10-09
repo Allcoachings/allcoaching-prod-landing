@@ -15,7 +15,8 @@ This repo is the static marketing site + blog for **AllCoaching** (AllCoaching T
 - **Positioning:** core message is **"Launch your online academy yourself"** — fully self-serve (sign up → choose plan → upload course → connect domain → set up payment → publish → sell), explicitly **no sales call, no demo dependency, no technical team required**. **Never position AllCoaching as a "cheap/cheapest LMS."** The differentiator is *simple, transparent, self-driven* pricing, not low cost — say "one predictable annual plan," not "far below a typical monthly subscription."
 - **Competitor pricing:** naming a rival's price is a claim about them. State the source per figure, show their transaction fee next to the fixed cost (Learnyst and Edmingle take 0%, we take 10% down to 5%), and never round up. Classplus publishes no pricing on its own site — any figure is a third-party listing and must say so.
 - **Voice:** say *educator* (not creator/user), *studio* (not dashboard). No exclamation marks, no "#1 platform" claims, no fabricated stats — ₹ ranges only, illustrative figures marked as illustrative.
-- **Fonts:** Instrument Serif (italic display) + Inter Tight + JetBrains Mono. **Fraunces is NOT a brand font.** Ochre `#C58B43` is the only accent.
+- **Website look (2026-10-09, current, owner-approved):** homepage and /onboarding use a light, Edmingle-inspired theme: white/pastel background, electric blue `#2B44FF` accent with cyan light-ray graphics, Inter Tight headlines mixing weight 200 and 700, and a bold sans "AllCoaching" wordmark (nav and footer). Keep new pages consistent with it. /pricing and blog still use the older ochre/serif style until migrated.
+- **Fonts:** Instrument Serif (italic display) + Inter Tight + JetBrains Mono. **Fraunces is NOT a brand font.** Ochre `#C58B43` is the accent on pages not yet migrated to the blue website look above.
 - **Contact email:** contact@allcoaching.in (old gmail must never reappear).
 
 ## Workflow rules
