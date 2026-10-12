@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#C58B43" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#15110D" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#2B44FF" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#14161F" media="(prefers-color-scheme: dark)" />
   <meta name="color-scheme" content="light" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="AllCoaching" />
@@ -49,7 +49,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./dist/tw.min.css?v=20260702" />
   <link rel="stylesheet" href="./styles.css?v=20260702" />
-  <link rel="stylesheet" href="./brand.css?v=20260702" />
+  <link rel="stylesheet" href="./brand.css?v=20261012" />
 
   <!-- Schema 1/5: WebPage -->
   <script type="application/ld+json">
@@ -138,65 +138,65 @@
   </script>
 
   <style>
-    .kicker{ font-family:'JetBrains Mono',monospace; font-size:.66rem; letter-spacing:.22em; text-transform:uppercase; font-weight:700; color:#9C6A2E; }
+    .kicker{ font-family:'JetBrains Mono',monospace; font-size:.66rem; letter-spacing:.22em; text-transform:uppercase; font-weight:700; color:#1A2FD9; }
     .h-mast{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-weight:400; font-size: clamp(2.6rem, 5.8vw, 4.4rem); line-height:1.04; letter-spacing:-.02em; }
     .h-chap{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-weight:400; font-size: clamp(1.7rem, 3vw, 2.4rem); line-height:1.12; letter-spacing:-.015em; }
 
     .asset-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1rem; margin-top:1.5rem; }
-    .asset-card{ background:#FFFFFF; border:1px solid rgba(20,17,13,.08); border-radius:14px; padding:1.5rem; transition:all .22s cubic-bezier(.22,.85,.25,1); }
-    .asset-card:hover{ border-color:#C58B43; box-shadow:0 10px 24px -10px rgba(197,139,67,.3); transform:translateY(-2px); }
-    .asset-preview{ height:120px; background:linear-gradient(180deg,#F6F2EA,#F5E8D2); border-radius:10px; display:flex; align-items:center; justify-content:center; margin-bottom:1rem; }
+    .asset-card{ background:#FFFFFF; border:1px solid rgba(20,22,31,.08); border-radius:14px; padding:1.5rem; transition:all .22s cubic-bezier(.22,.85,.25,1); }
+    .asset-card:hover{ border-color:#2B44FF; box-shadow:0 10px 24px -10px rgba(43,68,255,.3); transform:translateY(-2px); }
+    .asset-preview{ height:120px; background:linear-gradient(180deg,#F6F8FC,#E8F0FF); border-radius:10px; display:flex; align-items:center; justify-content:center; margin-bottom:1rem; }
     .asset-preview img{ max-width:80%; max-height:80%; object-fit:contain; }
-    .asset-name{ font-weight:700; font-size:14.5px; color:#15110D; }
-    .asset-meta{ font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.12em; font-weight:700; color:#8C8378; text-transform:uppercase; margin-top:4px; }
-    .asset-cta{ display:inline-flex; align-items:center; gap:.4rem; margin-top:.75rem; padding:8px 14px; background:#15110D; color:#F5E8D2; border-radius:8px; font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:700; letter-spacing:.14em; text-decoration:none; text-transform:uppercase; transition:all .18s cubic-bezier(.22,.85,.25,1); }
-    .asset-cta:hover{ background:#C58B43; color:#2A1B07; }
+    .asset-name{ font-weight:700; font-size:14.5px; color:#14161F; }
+    .asset-meta{ font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.12em; font-weight:700; color:#7A8094; text-transform:uppercase; margin-top:4px; }
+    .asset-cta{ display:inline-flex; align-items:center; gap:.4rem; margin-top:.75rem; padding:8px 14px; background:#14161F; color:#E8F0FF; border-radius:8px; font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:700; letter-spacing:.14em; text-decoration:none; text-transform:uppercase; transition:all .18s cubic-bezier(.22,.85,.25,1); }
+    .asset-cta:hover{ background:#2B44FF; color:#0A0F3D; }
 
     /* logo board — per brand guideline (mark + Instrument Serif wordmark) */
     .logo-board{ display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:1.5rem; }
     @media(max-width:720px){ .logo-board{ grid-template-columns:1fr 1fr; } }
-    .logo-tile{ aspect-ratio:1.3; border-radius:16px; display:grid; place-items:center; position:relative; border:1px solid rgba(20,17,13,.08); overflow:hidden; transition:transform .2s cubic-bezier(.22,.85,.25,1), box-shadow .2s cubic-bezier(.22,.85,.25,1); }
-    .logo-tile:hover{ transform:translateY(-3px); box-shadow:0 10px 24px -10px rgba(38,28,14,.18); }
-    .logo-tile.cream{ background:#FFFFFF; } .logo-tile.bg{ background:#FAF8F4; }
-    .logo-tile.ink{ background:linear-gradient(180deg,#1A150F,#15110D); border-color:transparent; }
-    .logo-tile.accent{ background:linear-gradient(135deg,#E0A95C,#C58B43 55%,#8E5F22); border-color:transparent; }
+    .logo-tile{ aspect-ratio:1.3; border-radius:16px; display:grid; place-items:center; position:relative; border:1px solid rgba(20,22,31,.08); overflow:hidden; transition:transform .2s cubic-bezier(.22,.85,.25,1), box-shadow .2s cubic-bezier(.22,.85,.25,1); }
+    .logo-tile:hover{ transform:translateY(-3px); box-shadow:0 10px 24px -10px rgba(20,22,31,.18); }
+    .logo-tile.cream{ background:#FFFFFF; } .logo-tile.bg{ background:#F8FAFD; }
+    .logo-tile.ink{ background:linear-gradient(180deg,#1A150F,#14161F); border-color:transparent; }
+    .logo-tile.accent{ background:linear-gradient(135deg,#5B6CFF,#2B44FF 55%,#1A2FD9); border-color:transparent; }
     .logo-tile .lk{ display:flex; align-items:center; gap:9px; }
     .logo-tile img{ width:34px; height:34px; border-radius:9px; }
     .logo-tile .mark-only{ width:56px; height:56px; }
-    .logo-tile .w{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-weight:400; font-size:21px; letter-spacing:-.3px; line-height:1; color:#15110D; }
-    .logo-tile.ink .w{ color:#F5E8D2; } .logo-tile.accent .w{ color:#2A1B07; }
-    .logo-tile .lab{ position:absolute; bottom:10px; left:14px; font-family:'JetBrains Mono',monospace; font-size:8.5px; letter-spacing:1px; text-transform:uppercase; color:#8C8378; }
-    .logo-tile.ink .lab{ color:rgba(245,232,210,.6); } .logo-tile.accent .lab{ color:rgba(42,27,7,.62); }
-    .logo-tile .tdl{ position:absolute; top:10px; right:10px; width:28px; height:28px; border-radius:8px; background:rgba(255,255,255,.92); display:grid; place-items:center; color:#15110D; opacity:0; transition:opacity .2s cubic-bezier(.22,.85,.25,1); box-shadow:0 4px 10px -3px rgba(20,17,13,.25); }
+    .logo-tile .w{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-weight:400; font-size:21px; letter-spacing:-.3px; line-height:1; color:#14161F; }
+    .logo-tile.ink .w{ color:#E8F0FF; } .logo-tile.accent .w{ color:#0A0F3D; }
+    .logo-tile .lab{ position:absolute; bottom:10px; left:14px; font-family:'JetBrains Mono',monospace; font-size:8.5px; letter-spacing:1px; text-transform:uppercase; color:#7A8094; }
+    .logo-tile.ink .lab{ color:rgba(232,240,255,.6); } .logo-tile.accent .lab{ color:rgba(42,27,7,.62); }
+    .logo-tile .tdl{ position:absolute; top:10px; right:10px; width:28px; height:28px; border-radius:8px; background:rgba(255,255,255,.92); display:grid; place-items:center; color:#14161F; opacity:0; transition:opacity .2s cubic-bezier(.22,.85,.25,1); box-shadow:0 4px 10px -3px rgba(20,22,31,.25); }
     .logo-tile:hover .tdl{ opacity:1; }
     .logo-tile .tdl svg{ stroke:currentColor; fill:none; stroke-width:2; }
 
     .color-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:.85rem; margin-top:1.5rem; }
-    .color-swatch{ background:#FFFFFF; border:1px solid rgba(20,17,13,.08); border-radius:12px; overflow:hidden; }
+    .color-swatch{ background:#FFFFFF; border:1px solid rgba(20,22,31,.08); border-radius:12px; overflow:hidden; }
     .color-block{ height:90px; }
     .color-meta{ padding:.85rem; }
-    .color-name{ font-weight:700; font-size:13px; color:#15110D; }
-    .color-hex{ font-family:'JetBrains Mono',monospace; font-size:11px; color:#8C8378; margin-top:2px; letter-spacing:.05em; }
+    .color-name{ font-weight:700; font-size:13px; color:#14161F; }
+    .color-hex{ font-family:'JetBrains Mono',monospace; font-size:11px; color:#7A8094; margin-top:2px; letter-spacing:.05em; }
 
-    .fact-list{ background:linear-gradient(180deg,#F6F2EA,#FFFFFF); border-left:4px solid #C58B43; border-radius:0 14px 14px 0; padding:1.5rem 1.75rem; }
+    .fact-list{ background:linear-gradient(180deg,#F6F8FC,#FFFFFF); border-left:4px solid #2B44FF; border-radius:0 14px 14px 0; padding:1.5rem 1.75rem; }
     .fact-list ul{ margin:0; padding-left:1.15rem; list-style:disc; }
-    .fact-list li{ margin:.55rem 0; font-size:15.5px; line-height:1.65; color:#4F4840; }
-    .fact-list li strong{ color:#15110D; font-weight:700; }
+    .fact-list li{ margin:.55rem 0; font-size:15.5px; line-height:1.65; color:#4A5063; }
+    .fact-list li strong{ color:#14161F; font-weight:700; }
 
-    .quote-card{ background:linear-gradient(180deg,#F5F0E8,#F6F2EA); border-left:4px solid #C58B43; border-radius:0 14px 14px 0; padding:1.5rem 1.75rem; margin-bottom:1rem; position:relative; }
-    .quote-card::before{ content:'"'; position:absolute; top:-.4rem; left:.85rem; font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:4.5rem; color:rgba(197,139,67,.3); line-height:1; }
-    .quote-card .quote-text{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:1.22rem; line-height:1.55; color:#15110D; padding-left:2rem; }
-    .quote-card .quote-attr{ display:block; margin-top:.75rem; padding-left:2rem; font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.16em; font-weight:700; color:#8E5F22; text-transform:uppercase; }
+    .quote-card{ background:linear-gradient(180deg,#F7F8FC,#F6F8FC); border-left:4px solid #2B44FF; border-radius:0 14px 14px 0; padding:1.5rem 1.75rem; margin-bottom:1rem; position:relative; }
+    .quote-card::before{ content:'"'; position:absolute; top:-.4rem; left:.85rem; font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:4.5rem; color:rgba(43,68,255,.3); line-height:1; }
+    .quote-card .quote-text{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:1.22rem; line-height:1.55; color:#14161F; padding-left:2rem; }
+    .quote-card .quote-attr{ display:block; margin-top:.75rem; padding-left:2rem; font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.16em; font-weight:700; color:#1A2FD9; text-transform:uppercase; }
 
     .reveal{ opacity:0; transform:translateY(18px); transition:opacity .8s cubic-bezier(.22,.85,.25,1), transform .8s cubic-bezier(.22,.85,.25,1); }
     .reveal.is-visible{ opacity:1; transform:translateY(0); }
     @media (prefers-reduced-motion: reduce){ .reveal{ opacity:1; transform:none; transition:none; } .asset-card,.logo-tile,.logo-tile .tdl{ transition:none; } .asset-card:hover,.logo-tile:hover{ transform:none; } .float-y{ animation:none; } }
-    .bg-tint{ background:#F6F2EA; }
-    a:focus-visible, button:focus-visible{ outline:2px solid #C58B43; outline-offset:3px; border-radius:6px; }
+    .bg-tint{ background:#F6F8FC; }
+    a:focus-visible, button:focus-visible{ outline:2px solid #2B44FF; outline-offset:3px; border-radius:6px; }
   </style>
 </head>
 
-<body class="bg-mesh text-[#15110D] antialiased">
+<body class="bg-mesh text-[#14161F] antialiased">
 <div class="progress" id="progress"></div>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
@@ -225,7 +225,7 @@
 <!-- HERO -->
 <section class="pt-36 pb-12 relative overflow-hidden">
   <div aria-hidden="true" class="absolute inset-0 -z-0 pointer-events-none">
-    <div class="absolute -top-20 -left-20 w-[480px] h-[480px] rounded-full opacity-35 float-y" style="background:radial-gradient(circle at 30% 30%, rgba(197,139,67,.42), transparent 60%); filter:blur(40px);"></div>
+    <div class="absolute -top-20 -left-20 w-[480px] h-[480px] rounded-full opacity-35 float-y" style="background:radial-gradient(circle at 30% 30%, rgba(43,68,255,.42), transparent 60%); filter:blur(40px);"></div>
   </div>
   <div class="max-w-3xl mx-auto px-5 text-center relative reveal">
     <span class="brand-pill mb-5 inline-block">Press &amp; Media Kit · 2026</span>
@@ -233,7 +233,7 @@
       Press &amp;<br/>
       <span class="grad-text">media kit.</span>
     </h1>
-    <p class="lede mt-6 max-w-2xl mx-auto" style="font-size:1.1rem; line-height:1.7; color:#4F4840;">
+    <p class="lede mt-6 max-w-2xl mx-auto" style="font-size:1.1rem; line-height:1.7; color:#4A5063;">
       Everything journalists, podcast producers, partners, and conference organisers need to write about AllCoaching — brand assets, founder bio, founding story, key facts, approved boilerplate, and direct press contact.
     </p>
   </div>
@@ -244,14 +244,14 @@
   <div class="max-w-3xl mx-auto px-5 reveal" id="boilerplate">
     <p class="kicker">Approved boilerplate</p>
     <h2 class="h-chap font-display mt-3 mb-5">Use this in <span class="grad-text">stories.</span></h2>
-    <p style="font-size:16px; line-height:1.75; color:#4F4840;">Copy this paragraph verbatim or adapt for your style. The factual elements (founding year, location, value proposition) are pre-approved by the AllCoaching team.</p>
+    <p style="font-size:16px; line-height:1.75; color:#4A5063;">Copy this paragraph verbatim or adapt for your style. The factual elements (founding year, location, value proposition) are pre-approved by the AllCoaching team.</p>
 
     <div class="quote-card mt-6">
       <p class="quote-text">AllCoaching is India's first educator-first marketplace and coaching platform. Founded in 2018 in Prayagraj by Amit Ratan, the company lets Indian teachers launch their own online academy themselves — a website on their own domain, the AllCoaching app on Android, iOS and web, live classes, payments and AI-driven marketplace discovery, all from one login — while keeping 90% to 95% of revenue. After five years of focused product development, AllCoaching launched its full marketplace platform in 2026 as the structural answer to India's 3.5 lakh+ isolated personal teaching apps.</p>
       <span class="quote-attr">— AllCoaching standard boilerplate</span>
     </div>
 
-    <p style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.16em; font-weight:700; color:#8C8378; text-transform:uppercase; margin-top:1rem;">Length: 89 words · Use as-is or shorten · Don't modify factual claims</p>
+    <p style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.16em; font-weight:700; color:#7A8094; text-transform:uppercase; margin-top:1rem;">Length: 89 words · Use as-is or shorten · Don't modify factual claims</p>
   </div>
 </section>
 
@@ -264,7 +264,7 @@
     <div class="fact-list">
       <ul>
         <li><strong>Founded:</strong> 2018 in Prayagraj (formerly Allahabad), Uttar Pradesh, India.</li>
-        <li><strong>Founder &amp; CEO:</strong> Amit Ratan. <a href="/author/amit-ratan" style="color:#9C6A2E; text-decoration:underline;">Full profile</a>.</li>
+        <li><strong>Founder &amp; CEO:</strong> Amit Ratan. <a href="/author/amit-ratan" style="color:#1A2FD9; text-decoration:underline;">Full profile</a>.</li>
         <li><strong>Category:</strong> India's first educator-first marketplace and coaching platform (not a white-label app builder, not an LMS).</li>
         <li><strong>Current platform launched:</strong> 2026, after five years of product development through hundreds of failed prototypes.</li>
         <li><strong>Revenue model:</strong> A 14-day free trial on every plan, then plans from ₹6,999/year — no monthly subscription, no card to sign up. Educators keep 90–95% of revenue; a platform fee from 10% down to 5% applies only on paid sales.</li>
@@ -286,19 +286,19 @@
     <div class="grid md:grid-cols-3 gap-8 mt-8">
       <div class="md:col-span-1">
         <div style="position:relative; aspect-ratio:1; max-width:280px; margin:0 auto;">
-          <img src="./assets/amit-ratan-2026.webp" alt="Amit Ratan — Founder & CEO of AllCoaching" width="280" height="280" style="width:100%; height:100%; object-fit:cover; object-position:center 20%; border-radius:50%; box-shadow:0 0 0 4px #F5F0E8,0 0 0 7px #E0A95C,0 22px 50px -10px rgba(197,139,67,.45);" />
+          <img src="./assets/amit-ratan-2026.webp" alt="Amit Ratan — Founder & CEO of AllCoaching" width="280" height="280" style="width:100%; height:100%; object-fit:cover; object-position:center 20%; border-radius:50%; box-shadow:0 0 0 4px #F7F8FC,0 0 0 7px #5B6CFF,0 22px 50px -10px rgba(43,68,255,.45);" />
         </div>
         <div class="mt-4 text-center">
-          <div style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:17px; color:#15110D;">Amit Ratan</div>
-          <div style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.14em; font-weight:700; color:#9C6A2E; text-transform:uppercase; margin-top:4px;">Founder &amp; CEO</div>
+          <div style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:17px; color:#14161F;">Amit Ratan</div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.14em; font-weight:700; color:#1A2FD9; text-transform:uppercase; margin-top:4px;">Founder &amp; CEO</div>
         </div>
       </div>
-      <div class="md:col-span-2" style="font-size:16px; line-height:1.8; color:#4F4840;">
-        <p style="margin-bottom:1.1rem;"><strong style="color:#15110D;">Short bio (50 words):</strong> Amit Ratan is the founder and CEO of AllCoaching, India's first educator-first marketplace, founded in 2018 in Prayagraj. After a decade of working closely with Indian coaching educators on distribution and discovery, he launched AllCoaching's full marketplace platform in 2026.</p>
+      <div class="md:col-span-2" style="font-size:16px; line-height:1.8; color:#4A5063;">
+        <p style="margin-bottom:1.1rem;"><strong style="color:#14161F;">Short bio (50 words):</strong> Amit Ratan is the founder and CEO of AllCoaching, India's first educator-first marketplace, founded in 2018 in Prayagraj. After a decade of working closely with Indian coaching educators on distribution and discovery, he launched AllCoaching's full marketplace platform in 2026.</p>
 
-        <p style="margin-bottom:1.1rem;"><strong style="color:#15110D;">Medium bio (120 words):</strong> Amit Ratan is the founder and CEO of AllCoaching, India's first educator-first marketplace. His work with India's coaching ecosystem began in 2016 in Prayagraj, watching individual teachers struggle with marketing while big institutes with mediocre faculty captured the market through advertising budgets. He founded the first version of AllCoaching in 2018 as a 2-page coaching directory (listing 90%+ of Allahabad's institutes with co-builder Mangal Yadav) before the developer discontinued the project. From 2019 onwards he worked directly with individual educators on digital marketing, and from 2021 committed five years of focused product development to building the full marketplace platform that launched in 2026.</p>
+        <p style="margin-bottom:1.1rem;"><strong style="color:#14161F;">Medium bio (120 words):</strong> Amit Ratan is the founder and CEO of AllCoaching, India's first educator-first marketplace. His work with India's coaching ecosystem began in 2016 in Prayagraj, watching individual teachers struggle with marketing while big institutes with mediocre faculty captured the market through advertising budgets. He founded the first version of AllCoaching in 2018 as a 2-page coaching directory (listing 90%+ of Allahabad's institutes with co-builder Mangal Yadav) before the developer discontinued the project. From 2019 onwards he worked directly with individual educators on digital marketing, and from 2021 committed five years of focused product development to building the full marketplace platform that launched in 2026.</p>
 
-        <p><strong style="color:#15110D;">Long bio:</strong> <a href="/author/amit-ratan" style="color:#9C6A2E; text-decoration:underline; font-weight:700;">Full founder profile at /author/amit-ratan</a> — includes complete founding story (2016 Prayagraj → 2018 v1 → 2026 launch), 12 areas of expertise, decade timeline, all 23 published guides, and verified social profiles.</p>
+        <p><strong style="color:#14161F;">Long bio:</strong> <a href="/author/amit-ratan" style="color:#1A2FD9; text-decoration:underline; font-weight:700;">Full founder profile at /author/amit-ratan</a> — includes complete founding story (2016 Prayagraj → 2018 v1 → 2026 launch), 12 areas of expertise, decade timeline, all 23 published guides, and verified social profiles.</p>
       </div>
     </div>
   </div>
@@ -309,7 +309,7 @@
   <div class="max-w-5xl mx-auto px-5 reveal">
     <p class="kicker">Brand assets</p>
     <h2 class="h-chap font-display mt-3 mb-2">Downloadable <span class="grad-text">files.</span></h2>
-    <p style="font-size:15.5px; line-height:1.7; color:#4F4840; max-width:38rem; margin-bottom:1rem;">Right-click any asset to save. For higher-resolution or alternate formats, email <a href="mailto:contact@allcoaching.in" style="color:#9C6A2E; text-decoration:underline;">contact@allcoaching.in</a> with your specific need.</p>
+    <p style="font-size:15.5px; line-height:1.7; color:#4A5063; max-width:38rem; margin-bottom:1rem;">Right-click any asset to save. For higher-resolution or alternate formats, email <a href="mailto:contact@allcoaching.in" style="color:#1A2FD9; text-decoration:underline;">contact@allcoaching.in</a> with your specific need.</p>
 
     <div class="logo-board">
       <div class="logo-tile cream">
@@ -333,7 +333,7 @@
       </div>
     </div>
 
-    <p style="font-family:'Inter Tight',sans-serif; font-size:13px; font-weight:400; color:#8C8378; margin-top:1.1rem; line-height:1.6;">Wordmark set in Instrument Serif italic · the mark's gradient is fixed — never recolour, stretch or rotate · keep 1× the mark's height as clear space</p>
+    <p style="font-family:'Inter Tight',sans-serif; font-size:13px; font-weight:400; color:#7A8094; margin-top:1.1rem; line-height:1.6;">Wordmark set in Instrument Serif italic · the mark's gradient is fixed — never recolour, stretch or rotate · keep 1× the mark's height as clear space</p>
 
     <div class="asset-grid" style="margin-top:1.5rem;">
       <div class="asset-card">
@@ -355,18 +355,18 @@
   <div class="max-w-4xl mx-auto px-5 reveal">
     <p class="kicker">Brand colors</p>
     <h2 class="h-chap font-display mt-3 mb-5">The palette · <span class="grad-text">cream + ochre.</span></h2>
-    <p style="font-size:15.5px; line-height:1.7; color:#4F4840; margin-bottom:1rem;">Editorial cream surface, ochre as the only accent, dark ink for type. Restraint by design.</p>
+    <p style="font-size:15.5px; line-height:1.7; color:#4A5063; margin-bottom:1rem;">Editorial cream surface, ochre as the only accent, dark ink for type. Restraint by design.</p>
 
     <div class="color-grid">
-      <div class="color-swatch"><div class="color-block" style="background:#C58B43;"></div><div class="color-meta"><div class="color-name">Ochre (Accent)</div><div class="color-hex">#C58B43</div></div></div>
-      <div class="color-swatch"><div class="color-block" style="background:#9C6A2E;"></div><div class="color-meta"><div class="color-name">Ochre Deep</div><div class="color-hex">#9C6A2E</div></div></div>
-      <div class="color-swatch"><div class="color-block" style="background:#E0A95C;"></div><div class="color-meta"><div class="color-name">Ochre Light</div><div class="color-hex">#E0A95C</div></div></div>
-      <div class="color-swatch"><div class="color-block" style="background:#15110D;"></div><div class="color-meta"><div class="color-name">Ink (Dark)</div><div class="color-hex">#15110D</div></div></div>
-      <div class="color-swatch"><div class="color-block" style="background:#F5F0E8; border:1px solid rgba(20,17,13,.08);"></div><div class="color-meta"><div class="color-name">Cream (Surface)</div><div class="color-hex">#F5F0E8</div></div></div>
-      <div class="color-swatch"><div class="color-block" style="background:#F5E8D2;"></div><div class="color-meta"><div class="color-name">Cream Accent</div><div class="color-hex">#F5E8D2</div></div></div>
+      <div class="color-swatch"><div class="color-block" style="background:#2B44FF;"></div><div class="color-meta"><div class="color-name">Ochre (Accent)</div><div class="color-hex">#2B44FF</div></div></div>
+      <div class="color-swatch"><div class="color-block" style="background:#1A2FD9;"></div><div class="color-meta"><div class="color-name">Ochre Deep</div><div class="color-hex">#1A2FD9</div></div></div>
+      <div class="color-swatch"><div class="color-block" style="background:#5B6CFF;"></div><div class="color-meta"><div class="color-name">Ochre Light</div><div class="color-hex">#5B6CFF</div></div></div>
+      <div class="color-swatch"><div class="color-block" style="background:#14161F;"></div><div class="color-meta"><div class="color-name">Ink (Dark)</div><div class="color-hex">#14161F</div></div></div>
+      <div class="color-swatch"><div class="color-block" style="background:#F7F8FC; border:1px solid rgba(20,22,31,.08);"></div><div class="color-meta"><div class="color-name">Cream (Surface)</div><div class="color-hex">#F7F8FC</div></div></div>
+      <div class="color-swatch"><div class="color-block" style="background:#E8F0FF;"></div><div class="color-meta"><div class="color-name">Cream Accent</div><div class="color-hex">#E8F0FF</div></div></div>
     </div>
 
-    <p style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.16em; font-weight:700; color:#8C8378; text-transform:uppercase; margin-top:1.25rem;">Typography · Instrument Serif (italic display) · Inter Tight (UI) · JetBrains Mono (accents/labels)</p>
+    <p style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.16em; font-weight:700; color:#7A8094; text-transform:uppercase; margin-top:1.25rem;">Typography · Instrument Serif (italic display) · Inter Tight (UI) · JetBrains Mono (accents/labels)</p>
   </div>
 </section>
 
@@ -375,7 +375,7 @@
   <div class="max-w-3xl mx-auto px-5 reveal">
     <p class="kicker">Approved founder quotes</p>
     <h2 class="h-chap font-display mt-3 mb-5">Quote Amit · <span class="grad-text">use any of these.</span></h2>
-    <p style="font-size:15.5px; line-height:1.7; color:#4F4840; margin-bottom:1rem;">Pre-approved founder quotes for editorial use. For custom interviews or longer quotes, email <a href="mailto:contact@allcoaching.in" style="color:#9C6A2E; text-decoration:underline;">contact@allcoaching.in</a>.</p>
+    <p style="font-size:15.5px; line-height:1.7; color:#4A5063; margin-bottom:1rem;">Pre-approved founder quotes for editorial use. For custom interviews or longer quotes, email <a href="mailto:contact@allcoaching.in" style="color:#1A2FD9; text-decoration:underline;">contact@allcoaching.in</a>.</p>
 
     <div class="quote-card">
       <p class="quote-text">India has 3.5 lakh+ isolated personal teaching apps. The problem was never that educators couldn't go online — it was that students couldn't find them at scale. AllCoaching exists to fix the discovery layer.</p>
@@ -404,7 +404,7 @@
   <div class="max-w-3xl mx-auto px-5 text-center reveal" id="press-contact">
     <p class="kicker">Press inquiries</p>
     <h2 class="h-chap font-display mt-3 mb-5">Direct contact · <span class="grad-text">no PR agency.</span></h2>
-    <p style="font-size:16.5px; line-height:1.7; color:#4F4840; max-width:38rem; margin:0 auto 2rem;">For interview requests, podcast appearances, conference speaking, partnership inquiries, or any editorial coverage — reach the AllCoaching team directly. Reply within 24 hours.</p>
+    <p style="font-size:16.5px; line-height:1.7; color:#4A5063; max-width:38rem; margin:0 auto 2rem;">For interview requests, podcast appearances, conference speaking, partnership inquiries, or any editorial coverage — reach the AllCoaching team directly. Reply within 24 hours.</p>
     <div class="flex flex-wrap justify-center gap-3">
       <a href="mailto:contact@allcoaching.in" class="btn btn-primary btn-lg">
         <svg class="w-5 h-5"><use href="#i-mail"/></svg>
@@ -415,7 +415,7 @@
         WhatsApp +91-9889977262
       </a>
     </div>
-    <p style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.18em; font-weight:700; color:#8C8378; text-transform:uppercase; margin-top:1.5rem;">Press kit last updated · 16 May 2026 · Prayagraj, India</p>
+    <p style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.18em; font-weight:700; color:#7A8094; text-transform:uppercase; margin-top:1.5rem;">Press kit last updated · 16 May 2026 · Prayagraj, India</p>
   </div>
 </section>
 

@@ -126,7 +126,7 @@ The post-write helper scripts (`build_llms_full.py`, `bulk_internal_links.py`, `
 - Do **not** ask more than 3 clarifying questions. The user is delegating; over-questioning defeats the purpose.
 - Do **not** create the post without the strategic-cross-refs block — `bulk_internal_links.py` adds it but verify the marker is in the final file.
 - Do **not** skip the FAQPage / DefinedTermSet schemas to "save time" — they are the highest AI-citation surface.
-- Do **not** use `<span class="grad-text">` in headings — use `<em>` (ochre via brand.css).
+- Do **not** use `<span class="grad-text">` in headings — use `<em>` (electric blue via brand.css).
 
 ---
 
@@ -146,7 +146,7 @@ When in doubt about a component, an SEO field, a JSON-LD schema, or a specific p
 
 Every blog file references `../brand.css` which provides all design tokens, fonts (Instrument Serif italic + Inter Tight + JetBrains Mono), and component classes (.kicker, .h-mast, .h-chap, .article-body, .pull, .pull-red, .epi, .def, .scale-box, .hband, .verdict, .gain-card, .cost-card, .step-card, .myth-card, .stat-row, .cmp, .layer-card, .founder, .author-strip, .toc, .faq, .blog-card, etc.). **Never inline a `<style>` block in a blog file** — extend brand.css instead.
 
-Headlines use Instrument Serif italic — when emphasizing a phrase, use `<em>` inside the h-mast/h-chap (this colors the italic word ochre via brand.css). Do NOT use `<span class="grad-text">` anymore — just use `<em>`.
+Headlines render in Inter Tight bold (brand.css v2) — when emphasizing a phrase, use `<em>` inside the h-mast/h-chap (this colours the word electric blue via brand.css). Do NOT use `<span class="grad-text">` anymore — just use `<em>`.
 
 ## House voice — non-negotiable
 
@@ -155,7 +155,7 @@ Every post sounds like the founder, Amit Ratan, writing a strategic essay — no
 - **Diagnostic, not promotional.** Open by reframing the reader's question into a more honest one. Refuse the surface framing the reader walked in with.
 - **Distribution-first thesis.** Almost every post argues that infrastructure/storage/tools is a solved problem; the real bottleneck is discoverability, distribution, and network effects. AllCoaching is positioned as an *ecosystem*, never a *tool* or *LMS*.
 - **Tool vs. ecosystem** is the central rhetorical contrast. Use it explicitly.
-- **Editorial, not corporate.** Warm cream canvas, italic display, ochre as the only spotlight. Match the brand guidelines feel — restrained, considered, hand-built.
+- **Editorial, not corporate.** Light white canvas, Inter Tight headlines, electric blue as the only spotlight (see /brand). Match the brand guidelines feel — restrained, considered, hand-built.
 - **Long, dense paragraphs.** 4–7 sentences each, 17px body, line-height ~1.85. No fluff sentences. Every paragraph advances the argument.
 - **Em-dashes liberally** — for asides, contrasts, and shifts mid-sentence. This is the single most recognizable rhythmic tic of the house style.
 - **Bold key phrases** inside paragraphs (`<strong>`) — usually the load-bearing claim of the paragraph. Aim for 1–2 bolded fragments per paragraph max.
@@ -674,7 +674,7 @@ automated-fee-management-software-for-...     |   6/6   |  YES  |   YES    | YES
 These constants are sacred across every post and every retrofit. Never alter them:
 
 - **Domain**: `allcoaching.in`
-- **Primary color** / accent: `#C58B43` (ochre), with brand gradient `#E0A95C → #C58B43 → #8E5F22`
+- **Primary color** / accent: `#2B44FF` (electric blue), hover `#1A2FD9`, tint `#E8F0FF`, navy `#0A0F3D` for CTA bands/footer. Ochre is retired (2026-10-12).
 - **Fonts**: Instrument Serif (display + italic), Inter Tight (UI), JetBrains Mono (mono)
 - **CDN base for images**: `https://allcoaching-store.b-cdn.net/blog-images/<slug>.webp`
 - **GTM ID**: `GTM-T3KFKD3G`

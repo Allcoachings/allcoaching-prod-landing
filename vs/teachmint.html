@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#C58B43" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#15110D" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#2B44FF" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#14161F" media="(prefers-color-scheme: dark)" />
   <meta name="color-scheme" content="light" />
-  <meta name="msapplication-TileColor" content="#C58B43" />
+  <meta name="msapplication-TileColor" content="#2B44FF" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="AllCoaching" />
@@ -53,11 +53,11 @@
   <link rel="preconnect" href="https://allcoaching-store.b-cdn.net" crossorigin />
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="preload" as="image" href="../assets/logo/allcoaching-logo.webp?v=20260707" fetchpriority="high" />
-  <link rel="preload" as="style" href="../brand.css?v=20260702" />
+  <link rel="preload" as="style" href="../brand.css?v=20261012" />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../dist/tw.min.css?v=20260702" />
   <link rel="stylesheet" href="../styles.css?v=20260702" />
-  <link rel="stylesheet" href="../brand.css?v=20260702" />
+  <link rel="stylesheet" href="../brand.css?v=20261012" />
 
   <!-- Schema 1/6: Article (comparison guide) -->
   <script type="application/ld+json">
@@ -163,89 +163,89 @@
   </script>
 
   <style>
-    .kicker{ font-family:'Inter',sans-serif; font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:800; color:#C58B43; }
+    .kicker{ font-family:'Inter',sans-serif; font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:800; color:#2B44FF; }
     .h-mast{ font-size: clamp(2.4rem, 5.6vw, 4.2rem); line-height:1.02; font-weight:900; letter-spacing:-.035em; }
     .h-chap{ font-size: clamp(1.5rem, 2.8vw, 2.1rem); line-height:1.15; font-weight:800; letter-spacing:-.022em; }
 
     /* Versus hero */
     .vs-grid{ display:grid; grid-template-columns:1fr auto 1fr; gap:1rem; align-items:center; margin-top:2.5rem; }
     @media(max-width:640px){ .vs-grid{ grid-template-columns:1fr; } }
-    .vs-card{ background:#FFFFFF; border:1px solid rgba(20,17,13,.08); border-radius:18px; padding:1.5rem 1.25rem; text-align:center; }
-    .vs-card-them{ background:linear-gradient(180deg,#EEE7DA 0%,#EFEBE2 100%); }
-    .vs-card-us{ background:linear-gradient(180deg,#FFFBF2 0%,#FBF6EA 100%); border-color:#E0A95C; box-shadow:0 12px 32px -12px rgba(197,139,67,.35); }
-    .vs-name{ font-family:'Instrument Serif',serif; font-style:italic; font-size:clamp(1.5rem, 3vw, 2rem); line-height:1; color:#15110D; }
-    .vs-name-us{ background:linear-gradient(135deg,#15110D 0%,#3A2710 50%,#9C6A2E 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
-    .vs-tag{ font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; font-weight:700; color:#8C8378; text-transform:uppercase; margin-top:8px; }
-    .vs-divider{ font-family:'Instrument Serif',serif; font-style:italic; font-size:1.6rem; color:#C58B43; }
+    .vs-card{ background:#FFFFFF; border:1px solid rgba(20,22,31,.08); border-radius:18px; padding:1.5rem 1.25rem; text-align:center; }
+    .vs-card-them{ background:linear-gradient(180deg,#EEF1F8 0%,#EEF1F8 100%); }
+    .vs-card-us{ background:linear-gradient(180deg,#FFFFFF 0%,#F8FAFD 100%); border-color:#5B6CFF; box-shadow:0 12px 32px -12px rgba(43,68,255,.35); }
+    .vs-name{ font-family:'Instrument Serif',serif; font-style:italic; font-size:clamp(1.5rem, 3vw, 2rem); line-height:1; color:#14161F; }
+    .vs-name-us{ background:linear-gradient(135deg,#14161F 0%,#0F1A6B 50%,#1A2FD9 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
+    .vs-tag{ font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; font-weight:700; color:#7A8094; text-transform:uppercase; margin-top:8px; }
+    .vs-divider{ font-family:'Instrument Serif',serif; font-style:italic; font-size:1.6rem; color:#2B44FF; }
 
     /* TL;DR */
-    .tldr-strip{ background:linear-gradient(180deg,#FFF8E8,#FFFFFF); border-left:4px solid #C58B43; border-radius:0 14px 14px 0; padding:1.5rem 1.75rem; box-shadow:0 6px 18px -10px rgba(197,139,67,.3); }
+    .tldr-strip{ background:linear-gradient(180deg,#F8FAFD,#FFFFFF); border-left:4px solid #2B44FF; border-radius:0 14px 14px 0; padding:1.5rem 1.75rem; box-shadow:0 6px 18px -10px rgba(43,68,255,.3); }
     .tldr-strip ul{ margin:0.75rem 0 0; padding-left:1.15rem; list-style:disc; }
-    .tldr-strip li{ margin:.55rem 0; font-size:15.5px; line-height:1.65; color:#4F4840; }
-    .tldr-strip li strong{ color:#15110D; font-weight:700; }
+    .tldr-strip li{ margin:.55rem 0; font-size:15.5px; line-height:1.65; color:#4A5063; }
+    .tldr-strip li strong{ color:#14161F; font-weight:700; }
 
     /* Comparison table */
-    .cmp-wrap{ overflow-x:auto; border:1px solid rgba(20,17,13,.08); border-radius:14px; background:#FFFFFF; box-shadow:0 6px 18px -10px rgba(38,28,14,.08); }
+    .cmp-wrap{ overflow-x:auto; border:1px solid rgba(20,22,31,.08); border-radius:14px; background:#FFFFFF; box-shadow:0 6px 18px -10px rgba(20,22,31,.08); }
     .cmp-table{ width:100%; border-collapse:collapse; min-width:720px; font-size:14px; }
-    .cmp-table th{ background:#15110D; color:#F5D8AE; padding:14px 16px; text-align:left; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:13px; letter-spacing:.04em; }
-    .cmp-table th.them{ background:#4F4840; }
-    .cmp-table th.us{ background:linear-gradient(180deg,#9C6A2E,#C58B43); color:#FFFFFF; }
-    .cmp-table td{ padding:14px 16px; border-top:1px solid rgba(20,17,13,.06); color:#15110D; line-height:1.5; }
-    .cmp-table td.us{ background:#FFFBF2; font-weight:700; }
-    .cmp-table tr:hover td{ background:#FBF6EA; }
-    .cmp-table tr:hover td.us{ background:#FFF8E8; }
+    .cmp-table th{ background:#14161F; color:#C9D4FF; padding:14px 16px; text-align:left; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:13px; letter-spacing:.04em; }
+    .cmp-table th.them{ background:#4A5063; }
+    .cmp-table th.us{ background:linear-gradient(180deg,#1A2FD9,#2B44FF); color:#FFFFFF; }
+    .cmp-table td{ padding:14px 16px; border-top:1px solid rgba(20,22,31,.06); color:#14161F; line-height:1.5; }
+    .cmp-table td.us{ background:#FFFFFF; font-weight:700; }
+    .cmp-table tr:hover td{ background:#F8FAFD; }
+    .cmp-table tr:hover td.us{ background:#F8FAFD; }
     .cmp-yes{ color:#2F8F4E; font-weight:800; }
     .cmp-no{ color:#C44232; font-weight:800; }
     .cmp-meh{ color:#B08518; font-weight:700; }
 
     /* Math box */
-    .math-box{ background:linear-gradient(180deg,#15110D 0%,#1F1812 100%); color:#F5D8AE; border-radius:18px; padding:2.25rem 1.75rem; position:relative; overflow:hidden; }
-    .math-box::before{ content:''; position:absolute; inset:0; background-image:radial-gradient(rgba(245,216,174,.04) 1px,transparent 1px); background-size:24px 24px; pointer-events:none; }
-    .math-row{ display:flex; justify-content:space-between; align-items:baseline; padding:.75rem 0; border-bottom:1px solid rgba(245,216,174,.1); position:relative; gap:1rem; }
+    .math-box{ background:linear-gradient(180deg,#14161F 0%,#1F1812 100%); color:#C9D4FF; border-radius:18px; padding:2.25rem 1.75rem; position:relative; overflow:hidden; }
+    .math-box::before{ content:''; position:absolute; inset:0; background-image:radial-gradient(rgba(201,212,255,.04) 1px,transparent 1px); background-size:24px 24px; pointer-events:none; }
+    .math-row{ display:flex; justify-content:space-between; align-items:baseline; padding:.75rem 0; border-bottom:1px solid rgba(201,212,255,.1); position:relative; gap:1rem; }
     .math-row:last-child{ border-bottom:none; }
-    .math-row .lbl{ font-family:'Inter Tight',sans-serif; font-size:14px; color:rgba(245,216,174,.78); font-weight:500; flex:1; }
-    .math-row .val{ font-family:'JetBrains Mono',monospace; font-size:15px; font-weight:700; color:#F5D8AE; flex-shrink:0; }
+    .math-row .lbl{ font-family:'Inter Tight',sans-serif; font-size:14px; color:rgba(201,212,255,.78); font-weight:500; flex:1; }
+    .math-row .val{ font-family:'JetBrains Mono',monospace; font-size:15px; font-weight:700; color:#C9D4FF; flex-shrink:0; }
     .math-row .val-bad{ color:#F49797; }
     .math-row .val-good{ color:#7BD89E; }
-    .math-total{ margin-top:1rem; padding-top:1rem; border-top:2px solid rgba(245,216,174,.25); display:flex; justify-content:space-between; align-items:baseline; }
-    .math-total .lbl{ font-family:'Instrument Serif',serif; font-style:italic; font-size:1.2rem; color:#FBE2B8; }
+    .math-total{ margin-top:1rem; padding-top:1rem; border-top:2px solid rgba(201,212,255,.25); display:flex; justify-content:space-between; align-items:baseline; }
+    .math-total .lbl{ font-family:'Instrument Serif',serif; font-style:italic; font-size:1.2rem; color:#DCE4FF; }
     .math-total .val{ font-family:'Instrument Serif',serif; font-style:italic; font-size:1.9rem; line-height:1; letter-spacing:-.025em; }
     .math-total .val-bad{ color:#F49797; background:none; -webkit-text-fill-color:#F49797; }
-    .math-total .val-good{ background:linear-gradient(135deg,#FBE2B8,#E0A95C); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
+    .math-total .val-good{ background:linear-gradient(135deg,#DCE4FF,#5B6CFF); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
     .math-pair{ display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
     @media(max-width:720px){ .math-pair{ grid-template-columns:1fr; } }
-    .math-them-tag{ font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:rgba(245,216,174,.55); font-weight:700; text-transform:uppercase; margin-bottom:1rem; }
+    .math-them-tag{ font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:rgba(201,212,255,.55); font-weight:700; text-transform:uppercase; margin-bottom:1rem; }
 
     /* Verdict box */
-    .verdict-box{ background:linear-gradient(180deg,#FBF6EA,#FFFFFF); border:1px solid rgba(197,139,67,.25); border-radius:18px; padding:2rem; text-align:center; }
-    .verdict-num{ font-family:'Instrument Serif',serif; font-style:italic; font-size:clamp(3rem, 7vw, 5rem); line-height:1; background:linear-gradient(135deg,#15110D 0%,#3A2710 50%,#9C6A2E 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.03em; }
+    .verdict-box{ background:linear-gradient(180deg,#F8FAFD,#FFFFFF); border:1px solid rgba(43,68,255,.25); border-radius:18px; padding:2rem; text-align:center; }
+    .verdict-num{ font-family:'Instrument Serif',serif; font-style:italic; font-size:clamp(3rem, 7vw, 5rem); line-height:1; background:linear-gradient(135deg,#14161F 0%,#0F1A6B 50%,#1A2FD9 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.03em; }
 
     /* Migration steps */
     .steps-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; margin-top:1.5rem; }
-    .step-card{ background:#FFFFFF; border:1px solid rgba(20,17,13,.08); border-radius:14px; padding:1.25rem; position:relative; }
-    .step-card .step-n{ position:absolute; top:-12px; left:1.25rem; width:32px; height:32px; border-radius:50%; background:linear-gradient(135deg,#E0A95C,#C58B43); color:#FFFFFF; display:flex; align-items:center; justify-content:center; font-family:'JetBrains Mono',monospace; font-weight:800; font-size:13px; box-shadow:0 4px 8px -2px rgba(197,139,67,.4); }
-    .step-card h3{ font-size:15px; font-weight:700; color:#15110D; margin:1rem 0 .5rem; }
-    .step-card p{ font-size:13.5px; line-height:1.55; color:#4F4840; margin:0; }
+    .step-card{ background:#FFFFFF; border:1px solid rgba(20,22,31,.08); border-radius:14px; padding:1.25rem; position:relative; }
+    .step-card .step-n{ position:absolute; top:-12px; left:1.25rem; width:32px; height:32px; border-radius:50%; background:linear-gradient(135deg,#5B6CFF,#2B44FF); color:#FFFFFF; display:flex; align-items:center; justify-content:center; font-family:'JetBrains Mono',monospace; font-weight:800; font-size:13px; box-shadow:0 4px 8px -2px rgba(43,68,255,.4); }
+    .step-card h3{ font-size:15px; font-weight:700; color:#14161F; margin:1rem 0 .5rem; }
+    .step-card p{ font-size:13.5px; line-height:1.55; color:#4A5063; margin:0; }
 
     /* FAQ */
-    .faq-item{ background:#FFFFFF; border:1px solid rgba(20,17,13,.08); border-radius:12px; margin-bottom:.65rem; overflow:hidden; }
-    .faq-item summary{ padding:1.1rem 1.4rem; cursor:pointer; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:15px; color:#15110D; display:flex; justify-content:space-between; align-items:center; gap:1rem; list-style:none; line-height:1.4; }
+    .faq-item{ background:#FFFFFF; border:1px solid rgba(20,22,31,.08); border-radius:12px; margin-bottom:.65rem; overflow:hidden; }
+    .faq-item summary{ padding:1.1rem 1.4rem; cursor:pointer; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:15px; color:#14161F; display:flex; justify-content:space-between; align-items:center; gap:1rem; list-style:none; line-height:1.4; }
     .faq-item summary::-webkit-details-marker{ display:none; }
-    .faq-item summary::after{ content:'+'; font-size:1.6rem; color:#C58B43; line-height:.8; flex-shrink:0; transition:transform .25s ease; font-family:'JetBrains Mono',monospace; }
+    .faq-item summary::after{ content:'+'; font-size:1.6rem; color:#2B44FF; line-height:.8; flex-shrink:0; transition:transform .25s ease; font-family:'JetBrains Mono',monospace; }
     .faq-item[open] summary::after{ transform:rotate(45deg); }
-    .faq-item p{ margin:0; padding:0 1.4rem 1.25rem; font-size:14.5px; line-height:1.7; color:#4F4840; }
-    .faq-item p strong{ color:#15110D; }
+    .faq-item p{ margin:0; padding:0 1.4rem 1.25rem; font-size:14.5px; line-height:1.7; color:#4A5063; }
+    .faq-item p strong{ color:#14161F; }
 
     .reveal{ opacity:0; transform:translateY(18px); transition:opacity .8s cubic-bezier(.22,.85,.25,1), transform .8s cubic-bezier(.22,.85,.25,1); }
     .reveal.is-visible{ opacity:1; transform:translateY(0); }
     @media (prefers-reduced-motion: reduce){ .reveal{ opacity:1; transform:none; transition:none; } }
-    .bg-tint{ background:#EEE7DA; }
-    .bg-cream{ background:linear-gradient(180deg,#F5F0E8 0%,#EEE7DA 100%); }
-    a:focus-visible, button:focus-visible{ outline:2px solid #C58B43; outline-offset:3px; border-radius:6px; }
+    .bg-tint{ background:#EEF1F8; }
+    .bg-cream{ background:linear-gradient(180deg,#F7F8FC 0%,#EEF1F8 100%); }
+    a:focus-visible, button:focus-visible{ outline:2px solid #2B44FF; outline-offset:3px; border-radius:6px; }
   </style>
 </head>
 
-<body class="bg-mesh text-[#15110D] antialiased">
+<body class="bg-mesh text-[#14161F] antialiased">
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -265,11 +265,11 @@
       <a href="/" aria-label="AllCoaching home" class="flex items-center">
         <img src="../assets/logo/allcoaching-logo.webp?v=20260707" alt="AllCoaching" class="nav-logo h-9 md:h-10 w-auto" decoding="async" loading="eager" fetchpriority="high" width="512" height="512" />
       </a>
-      <ul class="hidden md:flex items-center gap-8 text-[14.5px] text-[#4F4840] font-medium">
-        <li><a href="/pricing" class="hover:text-[#15110D] transition-colors">Pricing</a></li>
-        <li><a href="/faq" class="hover:text-[#15110D] transition-colors">FAQ</a></li>
-        <li><a href="/manifesto" class="hover:text-[#15110D] transition-colors">Manifesto</a></li>
-        <li><a href="/blog/" class="hover:text-[#15110D] transition-colors">Blog</a></li>
+      <ul class="hidden md:flex items-center gap-8 text-[14.5px] text-[#4A5063] font-medium">
+        <li><a href="/pricing" class="hover:text-[#14161F] transition-colors">Pricing</a></li>
+        <li><a href="/faq" class="hover:text-[#14161F] transition-colors">FAQ</a></li>
+        <li><a href="/manifesto" class="hover:text-[#14161F] transition-colors">Manifesto</a></li>
+        <li><a href="/blog/" class="hover:text-[#14161F] transition-colors">Blog</a></li>
       </ul>
       <div class="flex items-center gap-2">
         <a href="https://studio.allcoaching.in/login" target="_blank" rel="noopener" class="btn btn-ghost hidden md:inline-flex">Login</a>
@@ -284,8 +284,8 @@
 <!-- HERO -->
 <section class="pt-36 pb-10 relative overflow-hidden">
   <div aria-hidden="true" class="absolute inset-0 -z-0 pointer-events-none">
-    <div class="absolute -top-20 -left-20 w-[480px] h-[480px] rounded-full opacity-35 float-y" style="background:radial-gradient(circle at 30% 30%, rgba(197,139,67,.42), transparent 60%); filter:blur(40px);"></div>
-    <div class="absolute -top-10 right-[-8%] w-[480px] h-[480px] rounded-full opacity-30 float-y" style="background:radial-gradient(circle at 70% 30%, rgba(224,169,92,.40), transparent 60%); filter:blur(40px); animation-delay:-2s"></div>
+    <div class="absolute -top-20 -left-20 w-[480px] h-[480px] rounded-full opacity-35 float-y" style="background:radial-gradient(circle at 30% 30%, rgba(43,68,255,.42), transparent 60%); filter:blur(40px);"></div>
+    <div class="absolute -top-10 right-[-8%] w-[480px] h-[480px] rounded-full opacity-30 float-y" style="background:radial-gradient(circle at 70% 30%, rgba(91,108,255,.40), transparent 60%); filter:blur(40px); animation-delay:-2s"></div>
   </div>
   <div class="max-w-4xl mx-auto px-5 text-center relative reveal">
     <span class="brand-pill inline-flex items-center gap-2 mb-5">
@@ -293,10 +293,10 @@
       Honest comparison · 2026 India
     </span>
     <h1 class="h-mast font-display">
-      AllCoaching <em style="color:#C58B43;">vs</em> Teachmint.
+      AllCoaching <em style="color:#2B44FF;">vs</em> Teachmint.
     </h1>
-    <p class="lede mt-6 max-w-2xl mx-auto" style="font-size:1.15rem; line-height:1.7; color:#4F4840;">
-      The honest 2026 cost + feature comparison for Indian educators. Real Year 1 math (Teachmint <strong style="color:#15110D;">₹4–11 lakh</strong> vs AllCoaching <strong style="color:#15110D;">about ₹0.88 lakh on Pro</strong>), 12-row feature matrix, and the structural reason marketplaces beat white-label app builders for 90%+ of Indian educators under ₹2 Cr revenue.
+    <p class="lede mt-6 max-w-2xl mx-auto" style="font-size:1.15rem; line-height:1.7; color:#4A5063;">
+      The honest 2026 cost + feature comparison for Indian educators. Real Year 1 math (Teachmint <strong style="color:#14161F;">₹4–11 lakh</strong> vs AllCoaching <strong style="color:#14161F;">about ₹0.88 lakh on Pro</strong>), 12-row feature matrix, and the structural reason marketplaces beat white-label app builders for 90%+ of Indian educators under ₹2 Cr revenue.
     </p>
 
     <!-- Versus card grid -->
@@ -308,7 +308,7 @@
       <div class="vs-divider">vs</div>
       <div class="vs-card vs-card-us">
         <div class="vs-name vs-name-us">AllCoaching</div>
-        <div class="vs-tag" style="color:#9C6A2E;">Educator marketplace</div>
+        <div class="vs-tag" style="color:#1A2FD9;">Educator marketplace</div>
       </div>
     </div>
   </div>
@@ -337,7 +337,7 @@
     <div class="text-center mb-10 reveal">
       <p class="kicker">12-dimension feature matrix</p>
       <h2 class="h-chap font-display mt-3 mb-3">Side-by-side — <span class="grad-text">no hidden columns.</span></h2>
-      <p style="font-size:16.5px; line-height:1.7; color:#4F4840; max-width:42rem; margin:0 auto;">The 12 cost + feature dimensions an Indian educator should actually compare. Numbers are based on publicly disclosed pricing and standard industry contracts as of 2026.</p>
+      <p style="font-size:16.5px; line-height:1.7; color:#4A5063; max-width:42rem; margin:0 auto;">The 12 cost + feature dimensions an Indian educator should actually compare. Numbers are based on publicly disclosed pricing and standard industry contracts as of 2026.</p>
     </div>
 
     <div class="cmp-wrap reveal">
@@ -414,8 +414,8 @@
       </table>
     </div>
 
-    <p class="text-center mt-8" style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:#8C8378; font-weight:700; text-transform:uppercase;">
-      Source for Teachmint pricing data: public Teachmint listings + industry contracts &nbsp;·&nbsp; AllCoaching pricing: <a href="/pricing" style="color:#9C6A2E; text-decoration:underline;">/pricing</a> &nbsp;·&nbsp; Full guide: <a href="/blog/classplus-vs-graphy-vs-allcoaching" style="color:#9C6A2E; text-decoration:underline;">Teachmint vs Graphy vs AllCoaching</a>
+    <p class="text-center mt-8" style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:#7A8094; font-weight:700; text-transform:uppercase;">
+      Source for Teachmint pricing data: public Teachmint listings + industry contracts &nbsp;·&nbsp; AllCoaching pricing: <a href="/pricing" style="color:#1A2FD9; text-decoration:underline;">/pricing</a> &nbsp;·&nbsp; Full guide: <a href="/blog/classplus-vs-graphy-vs-allcoaching" style="color:#1A2FD9; text-decoration:underline;">Teachmint vs Graphy vs AllCoaching</a>
     </p>
   </div>
 </section>
@@ -425,7 +425,7 @@
   <div class="max-w-4xl mx-auto px-5 reveal">
     <p class="kicker text-center">Real ₹ math · ₹10 lakh revenue educator</p>
     <h2 class="h-chap font-display mt-3 mb-6 text-center">Year 1 actual cost — <span class="grad-text">side by side.</span></h2>
-    <p class="text-center mb-10" style="font-size:16.5px; line-height:1.7; color:#4F4840; max-width:38rem; margin:0 auto 2.5rem;">
+    <p class="text-center mb-10" style="font-size:16.5px; line-height:1.7; color:#4A5063; max-width:38rem; margin:0 auto 2.5rem;">
       Same educator. Same ₹10 lakh annual revenue. Two platforms. The honest math both companies' marketing decks never show together.
     </p>
 
@@ -445,7 +445,7 @@
 
       <!-- AllCoaching -->
       <div class="math-box">
-        <div class="math-them-tag" style="color:rgba(251,226,184,.7);">↳ AllCoaching · what a ₹10L year actually costs</div>
+        <div class="math-them-tag" style="color:rgba(220,228,255,.7);">↳ AllCoaching · what a ₹10L year actually costs</div>
         <div class="math-row"><span class="lbl">Annual plan (Pro — cheapest at ₹10L sales)</span><span class="val">₹24,999</span></div>
         <div class="math-row"><span class="lbl">5% platform fee on ₹10L sold</span><span class="val">₹50,000</span></div>
         <div class="math-row"><span class="lbl">18% GST on plan + platform fee</span><span class="val">₹13,500</span></div>
@@ -460,9 +460,9 @@
     <div class="verdict-box mt-10 reveal" id="verdict">
       <p class="kicker">The honest verdict</p>
       <div class="verdict-num mt-3">₹5.58 L</div>
-      <p style="margin-top:.5rem; font-family:'Instrument Serif',serif; font-style:italic; font-size:1.2rem; color:#4F4840;">saved in Year 1 alone — and the gap compounds</p>
-      <h2 class="font-display mt-5" style="font-size:clamp(1.4rem, 2.4vw, 1.8rem); color:#15110D; font-weight:800; line-height:1.3;">For a ₹10 lakh revenue educator, AllCoaching costs <em style="color:#C58B43;">7.3× less</em> than Teachmint in Year 1.</h2>
-      <p class="mt-4 max-w-xl mx-auto" style="font-size:14.5px; line-height:1.7; color:#4F4840;">The gap widens at scale because Teachmint monthly fees + transaction commission + escalation stack independently with revenue, while AllCoaching's fee falls from 10% to 5% as you move up plans.</p>
+      <p style="margin-top:.5rem; font-family:'Instrument Serif',serif; font-style:italic; font-size:1.2rem; color:#4A5063;">saved in Year 1 alone — and the gap compounds</p>
+      <h2 class="font-display mt-5" style="font-size:clamp(1.4rem, 2.4vw, 1.8rem); color:#14161F; font-weight:800; line-height:1.3;">For a ₹10 lakh revenue educator, AllCoaching costs <em style="color:#2B44FF;">7.3× less</em> than Teachmint in Year 1.</h2>
+      <p class="mt-4 max-w-xl mx-auto" style="font-size:14.5px; line-height:1.7; color:#4A5063;">The gap widens at scale because Teachmint monthly fees + transaction commission + escalation stack independently with revenue, while AllCoaching's fee falls from 10% to 5% as you move up plans.</p>
     </div>
   </div>
 </section>
@@ -473,7 +473,7 @@
     <div class="text-center mb-10 reveal">
       <p class="kicker">5-step migration playbook</p>
       <h2 class="h-chap font-display mt-3 mb-3">Move from Teachmint <span class="grad-text">in 7 days.</span></h2>
-      <p style="font-size:16.5px; line-height:1.7; color:#4F4840; max-width:38rem; margin:0 auto;">The AllCoaching onboarding team handles 80% of the migration. Here is the 5-step playbook for an institute with 200–500 students.</p>
+      <p style="font-size:16.5px; line-height:1.7; color:#4A5063; max-width:38rem; margin:0 auto;">The AllCoaching onboarding team handles 80% of the migration. Here is the 5-step playbook for an institute with 200–500 students.</p>
     </div>
 
     <div class="steps-grid reveal">
@@ -502,7 +502,7 @@
         <h3>Day 6–7 · Cutover + Teachmint cancel</h3>
         <p>Final cutover, payment routing switched to AllCoaching. Teachmint subscription cancelled per their refund policy. Educator begins receiving T+3 payouts.</p>
       </div>
-      <div class="step-card" style="background:linear-gradient(180deg,#FFFBF2,#FBF6EA); border-color:#E0A95C;">
+      <div class="step-card" style="background:linear-gradient(180deg,#FFFFFF,#F8FAFD); border-color:#5B6CFF;">
         <div class="step-n">⚡</div>
         <h3>Throughout · Zero charges</h3>
         <p>Migration is free on AllCoaching — no monthly fee, no migration consulting fee, no data import charge. Included by default.</p>
@@ -517,26 +517,26 @@
     <div class="text-center mb-10 reveal">
       <p class="kicker">Honest fit</p>
       <h2 class="h-chap font-display mt-3 mb-3">When Teachmint actually <span class="grad-text">makes sense.</span></h2>
-      <p style="font-size:16.5px; line-height:1.7; color:#4F4840; max-width:38rem; margin:0 auto;">This is not a "Teachmint is bad" argument. Teachmint has a real fit — for specific educators. Here is the honest breakdown of when each platform genuinely wins.</p>
+      <p style="font-size:16.5px; line-height:1.7; color:#4A5063; max-width:38rem; margin:0 auto;">This is not a "Teachmint is bad" argument. Teachmint has a real fit — for specific educators. Here is the honest breakdown of when each platform genuinely wins.</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6 reveal">
       <div class="vs-card vs-card-them" style="text-align:left; padding:1.75rem;">
         <div class="vs-name" style="font-size:1.4rem;">Teachmint wins when</div>
-        <ul style="margin-top:1rem; padding-left:1.25rem; list-style:disc; font-size:14.5px; line-height:1.75; color:#4F4840;">
-          <li>You have <strong style="color:#15110D;">₹2+ Cr annual revenue</strong> with proven brand recognition and don't need marketplace discovery.</li>
-          <li>You have a <strong style="color:#15110D;">dedicated ₹6–18L/year marketing budget</strong> and team to deploy it.</li>
-          <li>You want <strong style="color:#15110D;">complete white-label control</strong> with no marketplace co-presence.</li>
+        <ul style="margin-top:1rem; padding-left:1.25rem; list-style:disc; font-size:14.5px; line-height:1.75; color:#4A5063;">
+          <li>You have <strong style="color:#14161F;">₹2+ Cr annual revenue</strong> with proven brand recognition and don't need marketplace discovery.</li>
+          <li>You have a <strong style="color:#14161F;">dedicated ₹6–18L/year marketing budget</strong> and team to deploy it.</li>
+          <li>You want <strong style="color:#14161F;">complete white-label control</strong> with no marketplace co-presence.</li>
           <li>You're already locked into a Teachmint contract and the breakage cost exceeds AllCoaching's savings.</li>
         </ul>
       </div>
       <div class="vs-card vs-card-us" style="text-align:left; padding:1.75rem;">
         <div class="vs-name vs-name-us" style="font-size:1.4rem;">AllCoaching wins when</div>
-        <ul style="margin-top:1rem; padding-left:1.25rem; list-style:disc; font-size:14.5px; line-height:1.75; color:#4F4840;">
-          <li>You're under <strong style="color:#15110D;">₹2 Cr annual revenue</strong> (which is 90%+ of Indian educators).</li>
-          <li>You don't want to spend <strong style="color:#15110D;">₹6–18L/year on marketing</strong> just to be found.</li>
-          <li>You want <strong style="color:#15110D;">T+3 payouts</strong>, transparent pricing, and zero escalation.</li>
-          <li>You value <strong style="color:#15110D;">marketplace AI discovery</strong> over isolated white-label container ownership.</li>
+        <ul style="margin-top:1rem; padding-left:1.25rem; list-style:disc; font-size:14.5px; line-height:1.75; color:#4A5063;">
+          <li>You're under <strong style="color:#14161F;">₹2 Cr annual revenue</strong> (which is 90%+ of Indian educators).</li>
+          <li>You don't want to spend <strong style="color:#14161F;">₹6–18L/year on marketing</strong> just to be found.</li>
+          <li>You want <strong style="color:#14161F;">T+3 payouts</strong>, transparent pricing, and zero escalation.</li>
+          <li>You value <strong style="color:#14161F;">marketplace AI discovery</strong> over isolated white-label container ownership.</li>
         </ul>
       </div>
     </div>
@@ -598,12 +598,12 @@
 <!-- CTA -->
 <section class="py-16 md:py-24 relative overflow-hidden">
   <div aria-hidden="true" class="absolute inset-0 -z-0 pointer-events-none">
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-30" style="background:radial-gradient(circle, rgba(197,139,67,.28), transparent 60%); filter:blur(60px);"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-30" style="background:radial-gradient(circle, rgba(43,68,255,.28), transparent 60%); filter:blur(60px);"></div>
   </div>
   <div class="max-w-3xl mx-auto px-5 text-center relative reveal">
     <p class="kicker">Ready to compare for yourself</p>
     <h2 class="h-chap font-display mt-3 mb-5">Get started — keep up to 95%.<br/><span class="grad-text">No card. No commitment.</span></h2>
-    <p style="font-size:16.5px; line-height:1.7; color:#4F4840; max-width:38rem; margin:0 auto 2.5rem;">Use AllCoaching alongside your existing Teachmint subscription. Compare T+3 payouts, marketplace discovery, true cost — then decide.</p>
+    <p style="font-size:16.5px; line-height:1.7; color:#4A5063; max-width:38rem; margin:0 auto 2.5rem;">Use AllCoaching alongside your existing Teachmint subscription. Compare T+3 payouts, marketplace discovery, true cost — then decide.</p>
     <div class="flex flex-wrap justify-center gap-3">
       <a href="https://studio.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Start free trial — keep up to 95%</a>
       <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
@@ -611,19 +611,19 @@
         WhatsApp to discuss
       </a>
     </div>
-    <p class="mt-8" style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:#8C8378; font-weight:700; text-transform:uppercase;">Other comparisons: <a href="/vs/graphy" style="color:#9C6A2E; text-decoration:underline;">AllCoaching vs Graphy</a> · <a href="/vs/classplus" style="color:#9C6A2E; text-decoration:underline;">AllCoaching vs Classplus</a></p>
+    <p class="mt-8" style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:#7A8094; font-weight:700; text-transform:uppercase;">Other comparisons: <a href="/vs/graphy" style="color:#1A2FD9; text-decoration:underline;">AllCoaching vs Graphy</a> · <a href="/vs/classplus" style="color:#1A2FD9; text-decoration:underline;">AllCoaching vs Classplus</a></p>
   </div>
 </section>
 
 </main>
 
-<footer class="bg-[#EEE7DA] border-t border-[#E5DDD0] pt-16 pb-8">
+<footer class="bg-[#EEF1F8] border-t border-[#E6E8F0] pt-16 pb-8">
   <div class="max-w-7xl mx-auto px-5 grid md:grid-cols-12 gap-10">
     <div class="md:col-span-4">
       <a href="/" class="inline-block"><img src="../assets/logo/allcoaching-logo.webp?v=20260707" alt="AllCoaching" class="h-11 w-auto" decoding="async" width="512" height="512" /></a>
-      <p class="mt-5 text-[#4F4840] text-sm max-w-xs leading-relaxed">The educator-first marketplace + platform. Teach, get discovered, and keep up to 95% of your earnings — all in one login.</p>
+      <p class="mt-5 text-[#4A5063] text-sm max-w-xs leading-relaxed">The educator-first marketplace + platform. Teach, get discovered, and keep up to 95% of your earnings — all in one login.</p>
       <div class="mt-6">
-        <div class="text-xs font-semibold text-[#8C8378] uppercase tracking-wider mb-3">Follow us</div>
+        <div class="text-xs font-semibold text-[#7A8094] uppercase tracking-wider mb-3">Follow us</div>
         <div class="flex flex-wrap gap-2">
           <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" aria-label="WhatsApp" class="soc soc-whatsapp"><svg class="w-5 h-5"><use href="#i-whatsapp"/></svg></a>
           <a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener" aria-label="YouTube" class="soc soc-youtube"><svg class="w-5 h-5"><use href="#i-youtube"/></svg></a>
@@ -634,12 +634,12 @@
         </div>
       </div>
     </div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Product</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="/#features" class="hover:text-[#15110D]">Features</a></li><li><a href="/pricing" class="hover:text-[#15110D]">Pricing</a></li><li><a href="/faq" class="hover:text-[#15110D]">FAQ</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Compare</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="/vs/teachmint" class="hover:text-[#15110D] font-semibold">vs Teachmint</a></li><li><a href="/vs/graphy" class="hover:text-[#15110D]">vs Graphy</a></li><li><a href="/vs/teachmint" class="hover:text-[#15110D] font-semibold">vs Teachmint</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Company</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="/manifesto" class="hover:text-[#15110D]">Manifesto</a></li><li><a href="/blog/" class="hover:text-[#15110D]">Blog</a></li><li><a href="/about" class="hover:text-[#15110D]">About</a></li><li><a href="/contact" class="hover:text-[#15110D]">Contact</a></li></ul></div>
-    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#15110D]">Educators</div><ul class="space-y-2 text-sm text-[#4F4840]"><li><a href="https://studio.allcoaching.in/login" target="_blank" rel="noopener" class="hover:text-[#15110D]">Login</a></li><li><a href="https://studio.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-[#15110D]">Start free trial</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#14161F]">Product</div><ul class="space-y-2 text-sm text-[#4A5063]"><li><a href="/#features" class="hover:text-[#14161F]">Features</a></li><li><a href="/pricing" class="hover:text-[#14161F]">Pricing</a></li><li><a href="/faq" class="hover:text-[#14161F]">FAQ</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#14161F]">Compare</div><ul class="space-y-2 text-sm text-[#4A5063]"><li><a href="/vs/teachmint" class="hover:text-[#14161F] font-semibold">vs Teachmint</a></li><li><a href="/vs/graphy" class="hover:text-[#14161F]">vs Graphy</a></li><li><a href="/vs/teachmint" class="hover:text-[#14161F] font-semibold">vs Teachmint</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#14161F]">Company</div><ul class="space-y-2 text-sm text-[#4A5063]"><li><a href="/manifesto" class="hover:text-[#14161F]">Manifesto</a></li><li><a href="/blog/" class="hover:text-[#14161F]">Blog</a></li><li><a href="/about" class="hover:text-[#14161F]">About</a></li><li><a href="/contact" class="hover:text-[#14161F]">Contact</a></li></ul></div>
+    <div class="md:col-span-2"><div class="text-sm font-semibold mb-4 text-[#14161F]">Educators</div><ul class="space-y-2 text-sm text-[#4A5063]"><li><a href="https://studio.allcoaching.in/login" target="_blank" rel="noopener" class="hover:text-[#14161F]">Login</a></li><li><a href="https://studio.allcoaching.in/" target="_blank" rel="noopener" class="hover:text-[#14161F]">Start free trial</a></li></ul></div>
   </div>
-  <div class="max-w-7xl mx-auto px-5 mt-12 pt-6 border-t border-[#E5DDD0] text-xs text-[#8C8378] flex flex-wrap justify-between gap-3">
+  <div class="max-w-7xl mx-auto px-5 mt-12 pt-6 border-t border-[#E6E8F0] text-xs text-[#7A8094] flex flex-wrap justify-between gap-3">
     <div>© 2026 AllCoaching Technologies · Made in India 🇮🇳</div>
     <div>Democratizing Education · One educator at a time.</div>
   </div>

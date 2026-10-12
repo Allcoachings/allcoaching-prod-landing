@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AllCoaching Brand Guidelines — Colour, Type, Voice, Components</title>
+<meta name="description" content="The AllCoaching brand guidelines: logo and wordmark, colour palette, typography, voice, buttons, cards, graphics and the rules every page follows."/>
+<meta name="robots" content="noindex, follow"/>
+<link rel="canonical" href="https://allcoaching.in/brand"/>
+<meta name="theme-color" content="#FFFFFF"/>
+<link rel="icon" type="image/webp" href="/assets/fevicon.webp?v=20260707"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --ui:'Inter Tight',-apple-system,system-ui,sans-serif; --display:'Instrument Serif','Times New Roman',serif; --mono:'JetBrains Mono',ui-monospace,monospace;
+  --blue:#2B44FF; --blue-d:#1A2FD9; --blue-l:#5B6CFF; --cyan:#22C3F5; --sky:#E8F0FF; --navy:#0A0F3D; --navy-2:#070A26;
+  --ink:#14161F; --ink-2:#4A5063; --ink-3:#7A8094; --ink-4:#A9AEBD; --line:#E6E8F0; --line-2:#D9DCE7; --soft:#F6F8FC; --green:#16A34A; --red:#D64545;
+  --shadow:0 1px 2px rgba(20,22,31,.05),0 10px 30px -14px rgba(20,22,31,.18);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--ui);color:var(--ink);background:#fff;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.lt{font-weight:200}.bd{font-weight:700}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue)}
+.h2{font-size:clamp(28px,4vw,46px);line-height:1.12;letter-spacing:-.03em;margin:12px 0 12px}
+.lede{color:var(--ink-2);font-size:clamp(15.5px,1.5vw,18px);max-width:680px}
+section{padding:88px 0;border-top:1px solid var(--line)}
+.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.85);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:20px;height:64px}
+.lockup{display:flex;align-items:center;gap:10px;text-decoration:none}
+.lockup img{width:32px;height:32px;border-radius:50%}
+.word{font-family:var(--display);font-style:italic;font-size:24px;letter-spacing:-.3px}
+.toc{display:flex;gap:18px;margin-left:auto;font-size:14px;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+.toc::-webkit-scrollbar{display:none}
+.toc a{text-decoration:none;color:var(--ink-2)}.toc a:hover{color:var(--blue)}
+/* hero */
+.hero{position:relative;overflow:hidden;padding:80px 0 90px;background:linear-gradient(180deg,#F3FBF8 0%,#F4F6FF 55%,#fff 100%);text-align:center;border:0}
+.blob{position:absolute;border-radius:50%;filter:blur(60px);opacity:.75;pointer-events:none;animation:drift 18s ease-in-out infinite alternate}
+.b1{width:480px;height:400px;left:-160px;top:-80px;background:#D7F5E9}.b2{width:520px;height:420px;right:-170px;top:-40px;background:#E4E2FF;animation-delay:-7s}
+@keyframes drift{50%{transform:translate(36px,24px) scale(1.08)}100%{transform:translate(-24px,8px) scale(.96)}}
+.hero .wrap{position:relative}
+.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--blue);color:var(--blue);background:rgba(255,255,255,.75);border-radius:999px;padding:6px 16px;font-size:14px;font-weight:500}
+.pill i{width:7px;height:7px;border-radius:50%;background:var(--green)}
+.hero h1{font-size:clamp(38px,6vw,72px);line-height:1.08;letter-spacing:-.03em;margin:22px 0 16px}
+.hero h1 .bd{background:linear-gradient(92deg,var(--ink) 0%,var(--ink) 50%,var(--blue) 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero .lede{margin:0 auto}
+.meta{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin-top:26px;font-family:var(--mono);font-size:12px;color:var(--ink-3)}
+/* grids */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:36px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:36px}
+.card{border:1px solid var(--line);border-radius:20px;padding:24px;background:#fff}
+.card h3{font-size:18px;font-weight:700;letter-spacing:-.01em;margin-bottom:6px}
+.card p{font-size:14.5px;color:var(--ink-2)}
+.cap{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px}
+/* logo */
+.logo-box{border-radius:20px;min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;border:1px solid var(--line)}
+.logo-box .lockup img{width:52px;height:52px}
+.logo-box .word{font-size:44px}
+.logo-box.dark{background:var(--navy-2);color:#fff;border-color:var(--navy-2)}
+.logo-box.blue{background:linear-gradient(140deg,#3C55FF,#14209E);color:#fff;border-color:#2337E0}
+.logo-box small{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;opacity:.6}
+.dont{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px}
+.dont div{border:1px dashed #F3CFCF;background:#FFF8F8;border-radius:14px;padding:16px;font-size:13.5px;color:#7A2E2E;display:flex;gap:8px}
+.dont div::before{content:"✕";color:var(--red);font-weight:700}
+/* colour */
+.sw{border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#fff}
+.sw .chip{height:120px;display:flex;align-items:flex-end;padding:12px;font-family:var(--mono);font-size:12px;font-weight:700}
+.sw .info{padding:12px 14px 14px}
+.sw b{display:block;font-size:15px}
+.sw code{font-family:var(--mono);font-size:12.5px;color:var(--ink-3)}
+.sw p{font-size:13px;color:var(--ink-2);margin-top:6px}
+.ratio{display:flex;height:16px;border-radius:99px;overflow:hidden;margin-top:28px;border:1px solid var(--line)}
+.ratio span{display:block}
+.ratio-l{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-top:8px}
+.grad{height:110px;border-radius:18px;margin-top:16px;display:flex;align-items:flex-end;padding:14px;color:#fff;font-family:var(--mono);font-size:12px;font-weight:700}
+/* type */
+.spec{display:grid;grid-template-columns:200px 1fr;gap:20px;align-items:baseline;border-top:1px solid var(--line);padding:18px 0}
+.spec code{font-family:var(--mono);font-size:12px;color:var(--ink-3);line-height:1.6}
+.face{border-radius:20px;padding:28px;background:var(--soft);border:1px solid var(--line)}
+.face .big{font-size:64px;line-height:1;letter-spacing:-.03em}
+.face p{font-size:14px;color:var(--ink-2);margin-top:12px}
+/* voice */
+.do,.dn{border-radius:18px;padding:22px}
+.do{background:#F2FBF5;border:1px solid #CDEFD9}
+.dn{background:#FFF8F8;border:1px solid #F3CFCF}
+.do h3{color:#0F7A3A}.dn h3{color:#B42318}
+.do li,.dn li{font-size:14.5px;color:var(--ink-2);margin:8px 0 0 18px}
+.words{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+.words div{display:flex;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:12px;padding:11px 14px;font-size:14px}
+.words s{color:var(--ink-4)}.words b{color:var(--blue)}
+/* components */
+.btn{display:inline-flex;align-items:center;gap:8px;font:inherit;font-weight:500;font-size:15px;border-radius:10px;padding:12px 20px;text-decoration:none;white-space:nowrap}
+.btn svg{width:16px;height:16px}
+.b-blue{background:var(--blue);color:#fff;box-shadow:0 12px 26px -12px rgba(43,68,255,.75)}
+.b-line{background:#fff;color:var(--blue);border:1px solid var(--blue)}
+.b-white{background:#fff;color:var(--blue)}
+.b-ghost{border:1px solid rgba(255,255,255,.45);color:#fff}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.demo-dark{background:var(--navy);border-radius:18px;padding:22px;margin-top:12px}
+.fcard{display:flex;gap:11px;align-items:center;background:#fff;border-radius:14px;padding:12px 14px;box-shadow:var(--shadow);border:1px solid rgba(20,22,31,.06);width:max-content;max-width:100%;animation:bob 7s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.fcard .ic{width:36px;height:36px;border-radius:10px;background:var(--sky);color:var(--blue);display:grid;place-items:center;flex:none}
+.fcard b{display:block;font-size:14px}.fcard small{font-size:12px;color:var(--green);font-weight:600}
+.panel{border-radius:20px;padding:26px;color:#fff;background:radial-gradient(120% 140% at 0% 0%,#3C55FF 0%,#2337E0 40%,#14209E 100%);position:relative;overflow:hidden}
+.panel::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 22px,rgba(255,255,255,.05) 22px 24px)}
+.panel > *{position:relative}
+.panel h3{font-size:24px;font-weight:600;letter-spacing:-.02em;margin:10px 0 8px}
+.panel p{color:rgba(255,255,255,.85);font-size:14.5px}
+.tagw{display:inline-block;font-size:12px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:99px;padding:3px 11px}
+.rays{height:150px;border-radius:18px;position:relative;overflow:hidden;margin-top:16px}
+.rays::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 14px,rgba(255,255,255,.22) 14px 16px,rgba(255,255,255,0) 16px 34px),linear-gradient(90deg,#B9F0FF 0%,#4FD2FA 14%,#2B7BFF 34%,#2B44FF 52%,#2B7BFF 70%,#4FD2FA 86%,#B9F0FF 100%);background-size:200% 100%,100% 100%;animation:shimmer 14s linear infinite}
+.rays::after{content:"";position:absolute;left:-10%;right:-10%;top:-50%;height:90%;border-radius:0 0 50% 50%;background:radial-gradient(60% 100% at 50% 0%,#fff 0%,rgba(255,255,255,.95) 55%,rgba(255,255,255,0) 100%)}
+@keyframes shimmer{to{background-position:-400px 0,0 0}}
+.pain{border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.pain .p{padding:14px 18px;background:#FFF6F6;border-bottom:1px dashed #F3CFCF;color:#7A2E2E;font-size:14px}
+.pain .s{padding:16px 18px}.pain .s b{display:block;margin-bottom:4px}.pain .s span{font-size:14px;color:var(--ink-2)}
+.quote{font-family:var(--display);font-style:italic;font-size:26px;line-height:1.35;color:var(--navy);text-align:center;padding:30px;background:linear-gradient(135deg,#E8F0FF,#EEF2FF);border-radius:18px}
+/* checklist */
+.check li{list-style:none;display:flex;gap:10px;font-size:15px;color:var(--ink-2);padding:10px 0;border-top:1px solid var(--line)}
+.check li::before{content:"";flex:none;width:18px;height:18px;margin-top:2px;border-radius:50%;background:var(--sky) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232B44FF' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4L18 8.5'/%3E%3C/svg%3E") center/11px no-repeat}
+footer{background:var(--navy-2);color:rgba(255,255,255,.6);padding:40px 0;font-size:13.5px}
+footer .word{color:#fff}
+@media (max-width:980px){.g3,.g4,.dont{grid-template-columns:1fr 1fr}.toc{display:none}}
+@media (max-width:640px){.wrap{padding:0 16px}section{padding:64px 0}.g2,.g3,.g4,.dont,.words{grid-template-columns:1fr}.spec{grid-template-columns:1fr;gap:6px}.face .big{font-size:46px}.logo-box .word{font-size:36px}.quote{font-size:21px;padding:22px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a href="/" class="lockup"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="AllCoaching" width="512" height="512"/><span class="word">AllCoaching</span></a>
+    <nav class="toc" aria-label="Sections"><a href="#logo">Logo</a><a href="#colour">Colour</a><a href="#type">Type</a><a href="#voice">Voice</a><a href="#components">Components</a><a href="#graphics">Graphics</a><a href="#checklist">Checklist</a></nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="blob b1" aria-hidden="true"></div><div class="blob b2" aria-hidden="true"></div>
+  <div class="wrap">
+    <span class="pill"><i></i>Brand guidelines · v2 · October 2026</span>
+    <h1><span class="lt">One look.</span><br/><span class="bd">Every AllCoaching page.</span></h1>
+    <p class="lede">How AllCoaching looks, sounds and behaves across the website, blogs, ads, PDFs and social media. If a page follows this guide, it looks like AllCoaching.</p>
+    <div class="meta"><span>Light, calm, confident</span><span>Electric blue + cyan</span><span>Inter Tight + Instrument Serif</span></div>
+  </div>
+</section>
+
+<section id="essence">
+  <div class="wrap">
+    <span class="eyebrow">01 · Brand essence</span>
+    <h2 class="h2"><span class="lt">Build your own LMS.</span> <span class="bd">In just a few clicks.</span></h2>
+    <p class="lede">AllCoaching is an LMS for educators. Drag and drop your academy, make it your brand, and start selling, with a 14-day free trial. Every page should leave an educator feeling that this is simple, theirs, and serious.</p>
+    <div class="g3">
+      <div class="card"><div class="cap">Promise</div><h3>Launch it yourself</h3><p>Self-serve from sign-up to first sale. No developer, no sales call, no demo dependency.</p></div>
+      <div class="card"><div class="cap">Proof</div><h3>Your brand, your money</h3><p>Own domain on every plan, keep 90% to 95% of every sale, paid to your bank T+3.</p></div>
+      <div class="card"><div class="cap">Feeling</div><h3>Light, calm, trustworthy</h3><p>Lots of white space, one blue accent, real product screenshots. Never loud, never cheap.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="logo">
+  <div class="wrap">
+    <span class="eyebrow">02 · Logo &amp; wordmark</span>
+    <h2 class="h2"><span class="lt">The mark and</span> <span class="bd">the italic wordmark.</span></h2>
+    <p class="lede">The round logo mark always sits left of "AllCoaching", set in Instrument Serif italic. The wordmark is the only place the serif appears in navigation.</p>
+    <div class="g3">
+      <div class="logo-box"><a class="lockup"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="" width="512" height="512"/><span class="word">AllCoaching</span></a><small>On white · default</small></div>
+      <div class="logo-box dark"><a class="lockup"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="" width="512" height="512"/><span class="word">AllCoaching</span></a><small>On navy · footer</small></div>
+      <div class="logo-box blue"><a class="lockup"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="" width="512" height="512"/><span class="word">AllCoaching</span></a><small>On blue · social &amp; ads</small></div>
+    </div>
+    <div class="dont">
+      <div>Don't set the wordmark in a bold sans font</div>
+      <div>Don't recolour the logo mark</div>
+      <div>Don't stretch, rotate or add effects</div>
+      <div>Don't place it on busy photos</div>
+    </div>
+    <p class="lede" style="margin-top:18px;font-size:14.5px">Clear space: keep at least the height of the mark empty around the lockup. Minimum size: 24px mark on screen.</p>
+  </div>
+</section>
+
+<section id="colour">
+  <div class="wrap">
+    <span class="eyebrow">03 · Colour</span>
+    <h2 class="h2"><span class="lt">White first.</span> <span class="bd">One electric blue.</span></h2>
+    <p class="lede">White and soft grey do most of the work. Electric blue is the single brand accent for buttons, highlights and key words. Navy carries the final CTA and footer. Cyan only appears inside graphics.</p>
+    <div class="g4">
+      <div class="sw"><div class="chip" style="background:#2B44FF;color:#fff">PRIMARY</div><div class="info"><b>Electric Blue</b><code>#2B44FF</code><p>Buttons, links, accent words, featured plan.</p></div></div>
+      <div class="sw"><div class="chip" style="background:#1A2FD9;color:#fff">HOVER</div><div class="info"><b>Deep Blue</b><code>#1A2FD9</code><p>Hover and pressed states.</p></div></div>
+      <div class="sw"><div class="chip" style="background:#E8F0FF;color:#2B44FF">TINT</div><div class="info"><b>Sky</b><code>#E8F0FF</code><p>Icon tiles, highlights, soft fills.</p></div></div>
+      <div class="sw"><div class="chip" style="background:#22C3F5;color:#fff">GRAPHIC</div><div class="info"><b>Cyan</b><code>#22C3F5</code><p>Light rays and gradients only.</p></div></div>
+      <div class="sw"><div class="chip" style="background:#0A0F3D;color:#fff">NAVY</div><div class="info"><b>Navy</b><code>#0A0F3D · #070A26</code><p>Final CTA band and footer.</p></div></div>
+      <div class="sw"><div class="chip" style="background:#14161F;color:#fff">INK</div><div class="info"><b>Ink</b><code>#14161F</code><p>Headlines and strong text.</p></div></div>
+      <div class="sw"><div class="chip" style="background:#4A5063;color:#fff">BODY</div><div class="info"><b>Slate</b><code>#4A5063 · #7A8094</code><p>Body text and captions.</p></div></div>
+      <div class="sw"><div class="chip" style="background:#F6F8FC;color:#7A8094">SURFACE</div><div class="info"><b>White &amp; Mist</b><code>#FFFFFF · #F6F8FC · #E6E8F0</code><p>Backgrounds, alternate sections, borders.</p></div></div>
+    </div>
+    <div class="ratio"><span style="width:62%;background:#fff"></span><span style="width:16%;background:#F6F8FC"></span><span style="width:10%;background:#14161F"></span><span style="width:6%;background:#2B44FF"></span><span style="width:5%;background:#0A0F3D"></span><span style="width:1%;background:#22C3F5"></span></div>
+    <div class="ratio-l"><span>White 62%</span><span>Mist 16%</span><span>Ink 10%</span><span>Blue 6%</span><span>Navy 5%</span><span>Cyan 1%</span></div>
+    <div class="g2">
+      <div class="grad" style="background:linear-gradient(180deg,#F3FBF8 0%,#F4F6FF 55%,#fff 100%);color:var(--ink-3);border:1px solid var(--line)">HERO BACKGROUND · mint → lavender → white</div>
+      <div class="grad" style="background:radial-gradient(120% 140% at 0% 0%,#3C55FF 0%,#2337E0 40%,#14209E 100%)">FEATURE PANEL · blue radial</div>
+    </div>
+    <p class="lede" style="margin-top:18px;font-size:14.5px">Status colours stay functional: green <code style="font-family:var(--mono)">#16A34A</code> for live, paid and connected; red <code style="font-family:var(--mono)">#D64545</code> only for the "pain" side of a pain → solution card. No gold, ochre, purple or rainbow gradients.</p>
+  </div>
+</section>
+
+<section id="type">
+  <div class="wrap">
+    <span class="eyebrow">04 · Typography</span>
+    <h2 class="h2"><span class="lt">Light and bold,</span> <span class="bd">in one line.</span></h2>
+    <p class="lede">Headlines mix Inter Tight weight 200 for the setup and 700 for the payoff. The serif is kept for the wordmark and for quotes, where it adds a human voice.</p>
+    <div class="g2">
+      <div class="face"><div class="cap">Inter Tight · UI &amp; headlines</div><div class="big"><span class="lt">Build your</span> <span class="bd">LMS.</span></div><p>Weights 200, 400, 500, 600, 700. Tracking −0.03em on headlines.</p></div>
+      <div class="face"><div class="cap">Instrument Serif italic · wordmark &amp; quotes</div><div class="big" style="font-family:var(--display);font-style:italic;font-weight:400">For the people who teach.</div><p>Wordmark, pull quotes, manifesto lines. Never for buttons or body text.</p></div>
+    </div>
+    <div style="margin-top:28px">
+      <div class="spec"><code>Display · 38–72px<br/>200 + 700 · −0.03em</code><div style="font-size:44px;letter-spacing:-.03em;line-height:1.1"><span class="lt">In just a few</span> <span class="bd">clicks.</span></div></div>
+      <div class="spec"><code>Heading · 28–48px<br/>200 + 700</code><div style="font-size:30px;letter-spacing:-.03em"><span class="lt">More than an LMS.</span> <span class="bd">Your academy.</span></div></div>
+      <div class="spec"><code>Card title · 17–20px<br/>700</code><div style="font-size:18px;font-weight:700">Drag and drop your whole academy.</div></div>
+      <div class="spec"><code>Body · 15–18px<br/>400 · 1.55–1.6</code><div style="color:var(--ink-2)">Students pay by UPI or card and get access instantly. Your share reaches your bank 3 days later.</div></div>
+      <div class="spec"><code>Eyebrow · JetBrains Mono<br/>12px · 0.14em · caps</code><div class="eyebrow">How it works</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="voice">
+  <div class="wrap">
+    <span class="eyebrow">05 · Voice</span>
+    <h2 class="h2"><span class="lt">Plain, direct,</span> <span class="bd">on the educator's side.</span></h2>
+    <p class="lede">Write like a founder talking to one educator: short sentences, real numbers, no hype. Lead with what they get, then how.</p>
+    <div class="g2">
+      <div class="do"><h3>Do</h3><ul><li>Say <b>educator</b> and <b>studio</b></li><li>Use real facts: 14 days free, keep 90–95%, T+3</li><li>Name the pain, then the fix</li><li>Mark illustrative numbers as illustrative</li><li>End sections with one clear action</li></ul></div>
+      <div class="dn"><h3>Don't</h3><ul><li>No exclamation marks or "#1 platform"</li><li>No "cheapest LMS", "free forever" or "₹0 to start"</li><li>No made-up stats or testimonials</li><li>No "creator", "user" or "dashboard"</li><li>No competitor prices without a source</li></ul></div>
+    </div>
+    <div class="words">
+      <div><s>creator / user</s><b>educator</b></div>
+      <div><s>dashboard</s><b>studio</b></div>
+      <div><s>cheap, affordable</s><b>one predictable yearly plan</b></div>
+      <div><s>book a demo</s><b>start free for 14 days</b></div>
+    </div>
+  </div>
+</section>
+
+<section id="components">
+  <div class="wrap">
+    <span class="eyebrow">06 · Components</span>
+    <h2 class="h2"><span class="lt">The pieces</span> <span class="bd">every page reuses.</span></h2>
+    <div class="g2">
+      <div class="card"><div class="cap">Buttons · 10px radius</div>
+        <div class="row"><a class="btn b-blue">Start free for 14 days <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a><a class="btn b-line">See a live demo</a></div>
+        <div class="demo-dark row"><a class="btn b-white">Start free trial</a><a class="btn b-ghost">Ask on WhatsApp</a></div>
+        <p style="margin-top:12px">One solid blue button per section. Outline for the second action. White on navy.</p>
+      </div>
+      <div class="card"><div class="cap">Badge &amp; floating card</div>
+        <span class="pill"><i></i>14-day free trial · no card needed</span>
+        <div style="margin-top:18px" class="fcard"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span><span><b>youracademy.in</b><small>Connected</small></span></div>
+        <p style="margin-top:14px">Floating cards show real product moments: domain connected, paid by UPI, live class.</p>
+      </div>
+      <div class="panel"><span class="tagw">Build</span><h3>Drag and drop your whole academy.</h3><p>Feature panel: blue radial with faint vertical lines, white text, a mini product UI on the right.</p></div>
+      <div class="pain"><div class="p">✕ Collecting fees on WhatsApp and checking screenshots</div><div class="s"><b>Students pay, access opens</b><span>Pain → solution card: red tint for the pain, white for the fix.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="graphics">
+  <div class="wrap">
+    <span class="eyebrow">07 · Graphics &amp; imagery</span>
+    <h2 class="h2"><span class="lt">Light rays and</span> <span class="bd">real product.</span></h2>
+    <p class="lede">The signature graphic is a band of blue-to-cyan light rays under a soft white arc, with the real studio screenshot on top. Use real screenshots from the demo studio, never mock-ups that show features we don't have.</p>
+    <div class="rays" aria-hidden="true"></div>
+    <div class="g3">
+      <div class="card"><h3>Real screenshots</h3><p>Studio, website and student app from the demo account, at 2x. Light mode on light pages.</p></div>
+      <div class="card"><h3>Gentle motion</h3><p>Drifting blobs, floating cards, slow ray shimmer, fade-up on scroll. Always respect reduced motion.</p></div>
+      <div class="card"><h3>Quotes in serif</h3><p>Pull quotes sit on a soft blue band in Instrument Serif italic.</p></div>
+    </div>
+    <div class="quote" style="margin-top:16px">"A teacher who has to think about payment gateways has already stopped being a teacher."</div>
+  </div>
+</section>
+
+<section id="checklist">
+  <div class="wrap">
+    <span class="eyebrow">08 · Before you publish</span>
+    <h2 class="h2"><span class="lt">The ten-second</span> <span class="bd">brand check.</span></h2>
+    <ul class="check" style="margin-top:24px;max-width:760px">
+      <li>White or pastel background, one blue accent, navy footer</li>
+      <li>Headline mixes weight 200 and 700, with the payoff in bold</li>
+      <li>Wordmark in Instrument Serif italic next to the round mark</li>
+      <li>"Build your own LMS" message and the 14-day free trial are visible</li>
+      <li>One solid blue button per section, pointing to the free trial</li>
+      <li>Real product screenshot or real product moment, no invented features</li>
+      <li>Facts match pricing: ₹6,999 / ₹12,999 / ₹24,999 a year + GST, keep 90–95%, T+3</li>
+      <li>No exclamation marks, no "cheapest", no fabricated numbers</li>
+      <li>Works at 320px wide with no sideways scroll</li>
+      <li>Contact is contact@allcoaching.in and WhatsApp +91 98899 77262</li>
+    </ul>
+  </div>
+</section>
+
+<footer><div class="wrap" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center"><a href="/" class="lockup" style="text-decoration:none"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="" width="512" height="512"/><span class="word">AllCoaching</span></a><span>Brand guidelines v2 · October 2026 · contact@allcoaching.in</span></div></footer>
+</body>
+</html>
