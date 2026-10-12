@@ -63,9 +63,9 @@ The founding argument, in order:
 ## 6. Brand & voice (apply to any AllCoaching surface)
 Full system is the `brand-system` memory + repo `brand.css`; the essentials:
 - **3 fonts, each one job — Fraunces is NOT a brand font.** Display = **Instrument Serif** *italic, weight 400 only* (headlines, KPI values, wordmark; emphasis via **colour**, never bold). UI = **Inter Tight** (body/buttons/nav; default emphasis 600). Mono = **JetBrains Mono** (numbers, eyebrows, IDs, code).
-- **Colour:** warm **cream** canvas (`#FAF8F4`), **ochre is the ONLY spotlight accent** (core `#C58B43`, deep `#8E5F22`) — owns every CTA / live-ribbon / educator-name. No second accent. Ink `#15110D`. Semantic colours = meaning only.
+- **Colour (2026-10-12, current):** white / soft-mist canvas (`#FFFFFF`, `#F6F8FC`), **electric blue `#2B44FF` is the only brand accent** (hover `#1A2FD9`, tint `#E8F0FF`), cyan `#22C3F5` only inside light-ray graphics, navy `#0A0F3D` for final CTA bands and footers. Ochre and cream are retired. Full guideline: allcoaching.in/brand.
 - **Voice:** calm, confident, editorial (not corporate); educator-first; restraint over decoration. Say **educator / studio / your students** (not creator / dashboard / audience). **Banned:** exclamation marks, "maximize", "onboard" (verb), "unlock", "creator", "#1 platform" ranking claims, stock photos. Confidence from accuracy, not hype.
-- **Logo:** rounded-square gradient pin + wordmark in Instrument Serif italic 400 (always italic). Tagline "Democratizing Education" in mono, ochre shimmer.
+- **Logo:** rounded-square gradient pin + wordmark in Instrument Serif italic 400 (always italic). Tagline "Democratizing Education" in mono, cyan on dark / blue on light.
 - Accessibility + reduced-motion always respected; AA contrast.
 
 ## 7. Key facts & links
