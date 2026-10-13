@@ -36,405 +36,403 @@
 -->
 
 <style>
-:root{--ink:#15110D;--ink2:#4F4840;--ink3:#8C8378;--bg:#FAF8F4;--line:rgba(20,17,13,.09);
---acc:#C58B43;--acc2:#9C6A2E;--accsoft:#F5E8D2;--green:#2F8F4E;--red:#C44232;--wa:#25D366;
---ui:'Inter Tight',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
---dp:'Instrument Serif','Times New Roman',Georgia,serif;--mono:'JetBrains Mono',monospace;}
+:root{
+  --ui:'Inter Tight',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;--dp:'Instrument Serif','Times New Roman',Georgia,serif;--mono:'JetBrains Mono',ui-monospace,monospace;
+  --blue:#2B44FF;--blue-d:#1A2FD9;--blue-l:#5B6CFF;--sky:#E8F0FF;--cyan:#22C3F5;--navy:#0A0F3D;--navy-2:#070A26;
+  --ink:#14161F;--ink2:#4A5063;--ink3:#7A8094;--line:#E6E8F0;--line2:#D9DCE7;--soft:#F6F8FC;--green:#16A34A;--red:#D64545;--wa:#25D366;
+  --sh:0 1px 2px rgba(20,22,31,.05),0 12px 32px -16px rgba(20,22,31,.22);--sh-blue:0 14px 30px -12px rgba(43,68,255,.6);
+}
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-body{margin:0;font-family:var(--ui);font-size:16px;line-height:1.6;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased;overflow-x:hidden;padding-bottom:86px}
-img{display:block;max-width:100%}
+body{margin:0;font-family:var(--ui);font-size:16px;line-height:1.6;color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
 a{color:inherit}
-.w{width:100%;max-width:960px;margin:0 auto;padding:0 18px}
-.s{padding:44px 0}
-.s+.s{border-top:1px solid var(--line)}
-h1,h2,h3{margin:0}
-.h1{font-family:var(--dp);font-style:italic;font-weight:400;font-size:clamp(2.1rem,8.2vw,3.5rem);line-height:1.03;letter-spacing:-.02em}
-.h1 em{font-style:italic;color:#F5C887}
-.h2{font-family:var(--dp);font-style:italic;font-weight:400;font-size:clamp(1.7rem,6vw,2.5rem);line-height:1.08;letter-spacing:-.015em;margin-bottom:6px}
-.h2 em{font-style:italic;color:var(--acc2)}
-.eb{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink3);margin:0 0 10px}
-
+.w{width:100%;max-width:1120px;margin:0 auto;padding:0 20px}
+.lt{font-weight:200}.bd{font-weight:700}
+.eb{font-family:var(--mono);font-size:11.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);margin:0 0 10px}
+.h2{font-size:clamp(28px,4.4vw,46px);line-height:1.12;letter-spacing:-.03em;margin:0 0 12px}
+.lede{color:var(--ink2);font-size:clamp(15.5px,1.6vw,18px);margin:0}
+.center{text-align:center}.center .lede{max-width:640px;margin:0 auto}
+section{padding:84px 0}
+.cta{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:56px;padding:15px 26px;border-radius:12px;font:600 17px/1.2 var(--ui);text-decoration:none;background:var(--blue);color:#fff;box-shadow:var(--sh-blue);transition:transform .2s,background .2s,box-shadow .2s}
+.cta:hover{background:var(--blue-d);transform:translateY(-2px)}
+.cta svg{width:18px;height:18px;transition:transform .2s}.cta:hover svg{transform:translateX(3px)}
+.cta.line{background:#fff;color:var(--blue);border:1px solid var(--blue);box-shadow:none}
+.cta.white{background:#fff;color:var(--blue);box-shadow:none}
+.cta.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4);box-shadow:none}
+.micro{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13.5px;color:var(--ink3);margin-top:14px}
+.micro span{display:inline-flex;align-items:center;gap:6px}
+.micro svg{width:15px;height:15px;color:var(--green);flex:none}
 /* header */
-.hd{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 18px;background:#15110D;position:relative;z-index:5}
-.hd .lk{display:flex;align-items:center;gap:9px;text-decoration:none;min-width:0}
-.hd img{width:30px;height:30px;border-radius:50%;flex:none}
-.hd b{font-family:var(--dp);font-style:italic;font-weight:400;font-size:19px;color:#F5E8D2;white-space:nowrap;overflow:hidden}
-.hd a.wa{flex:none;display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:600;color:#F5E8D2;text-decoration:none;border:1px solid rgba(245,232,210,.3);border-radius:999px;padding:7px 13px}
-.hd a.wa svg{width:15px;height:15px;fill:var(--wa)}
-
+.hd{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.86);-webkit-backdrop-filter:saturate(180%) blur(16px);backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid transparent;transition:border-color .2s}
+.hd.sc{border-bottom-color:var(--line)}
+.hd .w{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.lk{display:flex;align-items:center;gap:9px;text-decoration:none}
+.lk img{width:32px;height:32px;border-radius:50%}
+.lk b{font-family:var(--dp);font-style:italic;font-weight:400;font-size:23px;letter-spacing:-.3px}
+.hd-r{display:flex;align-items:center;gap:10px}
+.hd .wa{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:600;color:var(--ink);text-decoration:none;padding:8px 12px;border-radius:10px}
+.hd .wa svg{width:18px;height:18px;fill:var(--wa)}
+.hd .go{display:none;min-height:42px;padding:9px 16px;font-size:14.5px;border-radius:10px}
+.hd.sc .go{display:inline-flex}
 /* hero */
-.hero{background:radial-gradient(120% 90% at 50% 0%,#241A11 0%,#15110D 60%);color:#F5E8D2;padding:30px 0 38px;text-align:center}
-.chip{display:inline-flex;align-items:center;gap:8px;background:rgba(196,66,50,.16);border:1px solid rgba(240,120,100,.4);color:#FFC9BE;font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:7px 13px;border-radius:999px;margin-bottom:16px}
-.chip i{width:7px;height:7px;border-radius:50%;background:#FF6B52;display:block;animation:p 1.8s infinite}
-@keyframes p{0%,100%{opacity:1}50%{opacity:.3}}
-.hero p.sub{font-size:16px;line-height:1.6;color:rgba(245,232,210,.82);margin:14px auto 0;max-width:30rem}
-.ticks{list-style:none;margin:20px auto 0;padding:0;max-width:24rem;text-align:left;display:flex;flex-direction:column;gap:9px}
-.ticks li{position:relative;padding-left:27px;font-size:15px;line-height:1.5;color:#F5E8D2}
-.ticks li::before{content:'';position:absolute;left:0;top:4px;width:16px;height:16px;border-radius:50%;background:rgba(47,143,78,.25) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237BE0A0' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4L18 8.5'/%3E%3C/svg%3E") center/10px no-repeat}
-
-/* price */
-.pbox{background:linear-gradient(180deg,#fff,#FFFBF2);border:1.5px solid #E0A95C;border-radius:18px;padding:22px 20px;margin:24px auto 0;max-width:26rem;box-shadow:0 24px 50px -24px rgba(0,0,0,.5)}
-.amt{display:flex;align-items:baseline;justify-content:center;gap:7px}
-.amt b{font-family:var(--dp);font-style:italic;font-weight:400;font-size:3.3rem;line-height:1;color:var(--ink)}
-.amt span{font-size:14px;font-weight:600;color:var(--ink3)}
-.pbox .n{font-size:13.5px;color:var(--ink2);margin:9px 0 0;line-height:1.5}
-.pbox .then{margin-top:13px;padding-top:12px;border-top:1px dashed rgba(197,139,67,.5);font-size:14px;color:var(--ink2)}
-.pbox .then b{font-family:var(--dp);font-style:italic;font-weight:400;font-size:1.35rem;color:var(--acc2)}
-
-/* buttons */
-.cta{display:inline-flex;align-items:center;justify-content:center;gap:9px;width:100%;min-height:54px;padding:14px 22px;border-radius:13px;font-family:var(--ui);font-size:16px;font-weight:700;text-decoration:none;border:0;cursor:pointer;background:linear-gradient(180deg,#F5C887,#E0A95C 40%,#C58B43);color:#1A100A;box-shadow:0 10px 24px -8px rgba(197,139,67,.6),inset 0 1px 0 rgba(255,255,255,.5)}
-.cta.g{background:transparent;color:#F5E8D2;border:1px solid rgba(245,232,210,.35);box-shadow:none;font-weight:600;font-size:15px;min-height:48px}
-.cta.dk{background:#15110D;color:#F5E8D2;box-shadow:0 8px 20px -8px rgba(20,17,13,.5)}
-.micro{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(245,232,210,.55);font-weight:700;margin:14px 0 0}
-.micro.d{color:var(--ink3)}
-.proof{display:inline-flex;align-items:center;gap:9px;margin:18px 0 0;padding:9px 15px;border-radius:999px;background:rgba(47,143,78,.14);border:1px solid rgba(123,224,160,.32);font-size:13.5px;color:#DFF3E6;line-height:1.35;text-align:left}
-.proof b{color:#7BE0A0;font-weight:700}
-.proof .dot{flex:none;width:8px;height:8px;border-radius:50%;background:#7BE0A0;box-shadow:0 0 0 3px rgba(123,224,160,.22)}
-.proof2{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:26px;padding-top:20px;border-top:1px solid var(--line)}
-.proof2 div{text-align:center}
-.proof2 b{display:block;font-family:var(--dp);font-style:italic;font-weight:400;font-size:2rem;line-height:1;color:var(--acc2)}
-.proof2 span{display:block;font-size:12.5px;color:var(--ink3);margin-top:5px}
-</style>
-<style>
-/* in/out columns */
-.two{display:grid;grid-template-columns:1fr;gap:14px;margin-top:20px}
-.col{background:#fff;border:1px solid var(--line);border-radius:15px;padding:20px 18px}
-.col.no{background:#FCF8F7;border-color:rgba(196,66,50,.18)}
-.col h3{font-size:14px;font-weight:700;margin-bottom:3px}
-.col .sub{font-size:12.5px;color:var(--ink3);margin:0 0 14px}
-.col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
-.col li{position:relative;padding-left:25px;font-size:14.5px;line-height:1.5}
-.col li::before{content:'';position:absolute;left:0;top:4px;width:15px;height:15px;border-radius:50%;background:#EAF5EC url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232F8F4E' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4L18 8.5'/%3E%3C/svg%3E") center/10px no-repeat}
-.col.no li{color:var(--ink2)}
-.col.no li::before{background:#F9E8E2 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C44232' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 7l10 10M17 7L7 17'/%3E%3C/svg%3E") center/9px no-repeat}
-
-/* steps */
-.steps{display:grid;gap:12px;margin-top:20px}
-.stp{display:flex;gap:14px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
-.stp b{flex:none;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--accsoft);color:var(--acc2);font-family:var(--dp);font-style:italic;font-size:20px}
-.stp h3{font-size:15.5px;font-weight:700;margin-bottom:3px}
-.stp p{margin:0;font-size:14px;color:var(--ink2);line-height:1.55}
-
-/* screens */
-.sh{display:grid;grid-template-columns:1fr;gap:13px;margin-top:20px}
-.sh a{display:block;text-decoration:none;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;transition:transform .18s,box-shadow .18s}
-.sh a:active{transform:scale(.99)}
-.shot{position:relative;height:228px;overflow:hidden;background:linear-gradient(158deg,#F2EADC 0%,#E6D6BB 55%,#DFCBAB 100%)}
-.shot::after{content:'';position:absolute;inset:auto 0 0 0;height:56px;background:linear-gradient(180deg,rgba(226,208,178,0),rgba(226,208,178,.55));pointer-events:none}
-.lap{position:absolute;left:6.5%;right:6.5%;top:26px;background:#fff;border:1px solid rgba(20,17,13,.13);border-radius:11px;overflow:hidden;box-shadow:0 24px 46px -18px rgba(38,28,14,.55)}
-.lap .tb{display:flex;align-items:center;gap:5px;height:21px;padding:0 9px;background:#FAF8F4;border-bottom:1px solid rgba(20,17,13,.08)}
-.lap .tb i{width:6px;height:6px;border-radius:50%;background:#E3D9C7;flex:none}
-.lap .tb u{margin:0 auto;transform:translateX(-13px);font-family:var(--mono);font-size:8px;font-weight:700;letter-spacing:.02em;color:var(--ink3);background:#F2EDE4;padding:2px 10px;border-radius:99px;text-decoration:none;white-space:nowrap;overflow:hidden}
-.lap img{width:100%;height:auto;display:block}
-.phn{position:absolute;left:50%;top:20px;width:148px;margin-left:-74px;background:#15110D;border-radius:27px;padding:6px;box-shadow:0 24px 46px -18px rgba(38,28,14,.62)}
-.phn::before{content:'';position:absolute;left:50%;top:11px;transform:translateX(-50%);width:44px;height:4px;border-radius:99px;background:rgba(245,232,210,.3);z-index:2}
-.phn img{width:100%;height:auto;display:block;border-radius:22px}
-.sh span{display:block;padding:12px 14px 14px;font-size:14.5px;font-weight:600}
-.sh span i{display:block;font-style:normal;font-weight:400;font-size:12.5px;color:var(--ink3);margin-top:2px}
-
-/* compare */
-.cmpt{width:100%;border-collapse:collapse;font-size:14px;margin-top:18px;background:#fff;border:1px solid var(--line);border-radius:13px;overflow:hidden}
-.cmpt th{background:#15110D;color:#F5E8D2;padding:11px 13px;text-align:left;font-size:12px;font-weight:700}
-.cmpt td{padding:11px 13px;border-top:1px solid var(--line);color:var(--ink2)}
-.cmpt tr.us td{background:#FFFBF2;color:var(--ink);font-weight:700}
-.cmpt td.b{font-family:var(--dp);font-style:italic;font-size:1.15rem;color:var(--acc2)}
-@media (max-width:440px){.cmpt{font-size:12.5px}.cmpt th,.cmpt td{padding:9px 8px}.cmpt th{font-size:11px}.cmpt td{overflow-wrap:anywhere}}
-
-/* faq */
-details{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:9px;padding:0 16px}
-summary{list-style:none;cursor:pointer;padding:15px 26px 15px 0;font-weight:600;font-size:15px;position:relative}
-summary::-webkit-details-marker{display:none}
-summary::after{content:'';position:absolute;right:2px;top:50%;width:9px;height:9px;border-right:2px solid var(--ink3);border-bottom:2px solid var(--ink3);transform:translateY(-70%) rotate(45deg);transition:transform .2s}
-details[open] summary::after{transform:translateY(-30%) rotate(225deg)}
-details p{margin:0 0 15px;font-size:14.5px;color:var(--ink2);line-height:1.6}
-
-/* sticky mobile bar — the single biggest mobile conversion lever */
-.bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;gap:9px;align-items:center;padding:10px 14px;padding-bottom:calc(10px + env(safe-area-inset-bottom));background:rgba(250,248,244,.97);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-top:1px solid var(--line);box-shadow:0 -8px 24px -12px rgba(38,28,14,.28)}
-.bar .px{flex:none;line-height:1.1}
-.bar .px b{display:block;font-family:var(--dp);font-style:italic;font-weight:400;font-size:21px}
-.bar .px i{display:block;font-style:normal;font-family:var(--mono);font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);font-weight:700}
-.bar .cta{flex:1;min-height:48px;font-size:15px;padding:12px 16px}
-.bar a.w2{flex:none;display:grid;place-items:center;width:48px;height:48px;border-radius:12px;background:var(--wa)}
-.bar a.w2 svg{width:24px;height:24px;fill:#fff}
-
-/* footer */
-.ft{background:#15110D;color:rgba(245,232,210,.6);font-size:12.5px;padding:26px 0 30px;text-align:center}
-.ft a{color:rgba(245,232,210,.85);text-decoration:none;margin:0 7px}
-
-/* mini 3-tier plan cards */
-.p3{display:grid;grid-template-columns:1fr;gap:12px;margin-top:20px}
-.p3c{position:relative;background:#fff;border:1px solid var(--line);border-radius:15px;padding:18px 16px}
-.p3c.feat{background:linear-gradient(180deg,#fff,#FFFBF2);border:1.5px solid #E0A95C}
-.p3-badge{position:absolute;top:-10px;left:16px;padding:3px 10px;background:#15110D;color:#F5E8D2;border-radius:999px;font-family:var(--mono);font-size:8.5px;letter-spacing:.14em;font-weight:700;text-transform:uppercase}
-.p3-name{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--ink3);text-transform:uppercase;letter-spacing:.04em}
-.p3-price{display:flex;align-items:baseline;gap:5px;margin-top:6px}
-.p3-price b{font-family:var(--dp);font-style:italic;font-weight:400;font-size:1.7rem;color:var(--ink)}
-.p3-price span{font-size:.72rem;color:var(--ink3)}
-.p3-keep{font-size:13px;color:var(--ink2);margin-top:4px}
-.p3-keep strong{color:var(--ink)}
-.p3 ul{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-direction:column;gap:5px}
-.p3 li{position:relative;padding-left:16px;font-size:12.5px;color:var(--ink);line-height:1.5}
-.p3 li::before{content:'';position:absolute;left:0;top:.45em;width:5px;height:5px;border-radius:50%;background:var(--acc)}
-.p3c a{display:block;text-align:center;margin-top:12px;padding:9px 12px;border-radius:9px;font-size:12.5px;font-weight:700;text-decoration:none}
-.p3c a.pri{background:linear-gradient(180deg,#F5C887,#E0A95C 40%,#C58B43);color:#1A100A}
-.p3c a.gho{background:#fff;color:var(--ink);border:1px solid var(--line)}
-
-@media(min-width:720px){.p3{grid-template-columns:1fr 1fr 1fr}}
-@media(min-width:720px){
-  .w{padding:0 26px}
-  .s{padding:60px 0}
-  .hero{padding:44px 0 54px}
-  .two{grid-template-columns:1fr 1fr;gap:18px}
-  .steps{grid-template-columns:repeat(3,1fr)}
-  .stp{flex-direction:column}
-  .sh{grid-template-columns:repeat(3,1fr);gap:16px}
-  .shot{height:212px}
-  .lap{left:5.5%;right:5.5%;top:22px}
-  .phn{width:132px;margin-left:-66px;top:18px}
-  .cta{width:auto;min-width:16rem}
-  .hero .cta{width:100%;max-width:26rem}
-  body{padding-bottom:0}
-  .bar{display:none}
-}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
-</style>
-<style>
-/* Light-blue theme — matches the homepage (Edmingle-style), desktop and mobile */
-:root{--ink:#14161F;--ink2:#4A5063;--ink3:#7A8094;--bg:#fff;--line:#E6E8F0;--acc:#2B44FF;--acc2:#2B44FF;--accsoft:#E8F0FF;--blue:#2B44FF;--blue-d:#1A2FD9;--sky:#E8F0FF;--green:#16A34A}
-html{background:#fff;color-scheme:light}
-body{background:#fff;color:var(--ink)}
-.hd{position:sticky;top:0;background:rgba(255,255,255,.85);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(180%) blur(16px);backdrop-filter:saturate(180%) blur(16px)}
-.hd img{border-radius:50%}
-.hd b{font-family:var(--dp);font-style:italic;font-weight:400;font-size:21px;letter-spacing:-.3px;color:var(--ink)}
-.hd a.wa{color:var(--blue);border:1px solid var(--blue);border-radius:8px;background:#fff}
-.hero{position:relative;overflow:hidden;background:linear-gradient(180deg,#F3FBF8 0%,#F4F6FF 50%,#fff 100%);color:var(--ink)}
-.hero .w{position:relative;z-index:2}
-.blob{position:absolute;border-radius:50%;filter:blur(60px);pointer-events:none;opacity:.75;animation:drift 18s ease-in-out infinite alternate;z-index:0}
-.b1{width:420px;height:360px;left:-160px;top:-80px;background:#D7F5E9}.b2{width:460px;height:380px;right:-170px;top:-40px;background:#E4E2FF;animation-delay:-7s}
-@keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(36px,24px) scale(1.08)}100%{transform:translate(-24px,8px) scale(.96)}}
-.tpill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--blue);color:var(--blue);background:rgba(255,255,255,.75);border-radius:999px;padding:6px 14px;font-size:13.5px;font-weight:500;margin-bottom:16px}
-.tpill i{width:7px;height:7px;border-radius:50%;background:var(--green);animation:ping 2s infinite}
+.hero{position:relative;overflow:hidden;padding:48px 0 72px;background:linear-gradient(180deg,#F3FBF8 0%,#F4F6FF 52%,#fff 100%)}
+.blob{position:absolute;border-radius:50%;filter:blur(60px);pointer-events:none;opacity:.75;animation:drift 18s ease-in-out infinite alternate}
+.b1{width:520px;height:420px;left:-170px;top:-90px;background:#D7F5E9}.b2{width:560px;height:460px;right:-180px;top:-40px;background:#E4E2FF;animation-delay:-7s}
+@keyframes drift{50%{transform:translate(36px,24px) scale(1.08)}100%{transform:translate(-24px,8px) scale(.96)}}
+.hero .w{position:relative;z-index:2;display:grid;grid-template-columns:1.02fr 1fr;gap:48px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--blue);color:var(--blue);background:rgba(255,255,255,.8);border-radius:999px;padding:6px 14px;font-size:13.5px;font-weight:600}
+.pill i{width:7px;height:7px;border-radius:50%;background:var(--green);animation:ping 2s infinite}
 @keyframes ping{0%{box-shadow:0 0 0 0 rgba(22,163,74,.45)}70%{box-shadow:0 0 0 9px rgba(22,163,74,0)}100%{box-shadow:0 0 0 0 rgba(22,163,74,0)}}
-.h1,.h2{font-family:var(--ui);font-style:normal;color:var(--ink);letter-spacing:-.03em}
-.h1{font-weight:200;font-size:clamp(2.3rem,8.4vw,4.2rem);line-height:1.1}
-.h1 em,.h1 .bd{font-style:normal;font-weight:700;color:var(--ink)}
-.h1 .bd{background:linear-gradient(92deg,var(--ink) 0%,var(--ink) 55%,var(--blue) 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.h2{font-weight:200;font-size:clamp(1.8rem,6.2vw,2.7rem);line-height:1.12}
-.h2 em{font-style:normal;font-weight:700;color:var(--ink)}
-.hero p.sub{color:var(--ink2)}
-.hero p.sub strong{color:var(--ink)}
-.proof{background:#fff;border:1px solid var(--line);color:var(--ink2);box-shadow:0 8px 24px -14px rgba(20,22,31,.25)}
-.proof b{color:var(--green)}
-.proof .dot{background:var(--green);box-shadow:0 0 0 3px rgba(22,163,74,.18)}
-.ticks li{color:var(--ink)}
-.ticks li::before{background-color:#E7F7EE}
-.eb{font-family:var(--mono);color:var(--blue);letter-spacing:.16em}
-.micro{color:var(--ink3)}
-.micro.d{color:var(--ink3)}
-.pbox{background:#fff;border:1.5px solid var(--blue);box-shadow:0 30px 60px -30px rgba(43,68,255,.45),0 8px 20px -12px rgba(20,22,31,.18)}
-.amt b{font-family:var(--ui);font-style:normal;font-weight:700;letter-spacing:-.03em;color:var(--ink)}
-.amt span{color:var(--blue)}
-.pbox .n{color:var(--ink2)}.pbox .n strong{color:var(--ink)}
-.pbox .then{border-top:1px dashed var(--line);color:var(--ink2)}
-.pbox .then b{font-family:var(--ui);font-style:normal;font-weight:700;color:var(--blue)}
-.cta,.cta.dk,.p3c a.pri{background:var(--blue);color:#fff;border-radius:10px;font-weight:600;box-shadow:0 12px 26px -12px rgba(43,68,255,.75)}
-.cta:hover{background:var(--blue-d)}
-.cta.g{background:#fff;color:var(--blue);border:1px solid var(--blue);box-shadow:none}
-.p3c a.gho{background:#fff;color:var(--blue);border:1px solid var(--blue)}
-/* stage */
-.ostage{position:relative;margin-top:44px;padding-bottom:30px}
-.ostage .rays{position:absolute;left:-30%;right:-30%;top:40px;bottom:-10px;z-index:0;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 22%,#000 70%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0%,#000 22%,#000 70%,transparent 100%)}
-.ostage .rays::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 14px,rgba(255,255,255,.22) 14px 16px,rgba(255,255,255,0) 16px 34px),linear-gradient(90deg,#B9F0FF 0%,#4FD2FA 14%,#2B7BFF 34%,#2B44FF 52%,#2B7BFF 70%,#4FD2FA 86%,#B9F0FF 100%);background-size:200% 100%,100% 100%;animation:shimmer 14s linear infinite}
-.ostage .rays::after{content:"";position:absolute;left:-10%;right:-10%;top:-45%;height:90%;border-radius:0 0 50% 50%;background:radial-gradient(60% 100% at 50% 0%,#fff 0%,rgba(255,255,255,.95) 55%,rgba(255,255,255,0) 100%)}
-@keyframes shimmer{from{background-position:0 0,0 0}to{background-position:-400px 0,0 0}}
-.odev{position:relative;z-index:2;max-width:860px;margin:0 auto;perspective:1600px}
-.odev-in{background:#0F1222;border-radius:18px;padding:8px;box-shadow:0 40px 80px -36px rgba(23,40,160,.5),0 12px 30px -16px rgba(20,22,31,.25);transform:rotateX(8deg);transform-origin:50% 100%}
-.odev-in img{width:100%;height:auto;border-radius:11px}
-.ochip{position:absolute;z-index:3;display:flex;align-items:center;gap:9px;background:#fff;border-radius:12px;padding:9px 12px;box-shadow:0 10px 30px -12px rgba(20,22,31,.3);border:1px solid rgba(20,22,31,.06);animation:bob 7s ease-in-out infinite;text-align:left}
-@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
-.ochip .ic{flex:none;width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:var(--sky);color:var(--blue)}
-.ochip .ic svg{width:16px;height:16px}
-.ochip b{display:block;font-size:13px;line-height:1.2}.ochip small{display:block;font-size:11px;color:var(--green);font-weight:600}
-.ochip.c1{left:-10px;top:-18px}.ochip.c2{right:-10px;bottom:34px;animation-delay:-3s}
-/* sections */
-.s+.s{border-top:1px solid var(--line)}
-#pay{background:#F6F8FC}
-.col,.stp,.sh a,details,.p3c{background:#fff;border:1px solid var(--line);box-shadow:none}
-.p3c{transition:transform .25s,box-shadow .25s,border-color .25s}
-.p3c:hover{transform:translateY(-3px);box-shadow:0 18px 40px -22px rgba(20,22,31,.35)}
-.p3c.feat{background:#fff;border:1.5px solid var(--blue);box-shadow:0 24px 50px -28px rgba(43,68,255,.55)}
-.p3-badge,.p3-badge[style]{background:var(--sky)!important;color:var(--blue)!important}
-.p3c.feat .p3-badge{background:var(--blue)!important;color:#fff!important}
-.p3-name{color:var(--ink3)}
-.p3-price b{font-family:var(--ui);font-style:normal;font-weight:700;letter-spacing:-.03em;color:var(--ink)}
-.p3-keep,.p3-keep strong{color:var(--ink)}
-.p3 li{color:var(--ink2)}.p3 li::before{background:var(--blue)}
-.stp b{background:var(--blue);color:#fff;font-family:var(--ui);font-style:normal;font-weight:700;font-size:15px}
-.stp h3{color:var(--ink)}.stp p{color:var(--ink2)}
-.proof2{border-top:0;background:#F6F8FC;border:1px solid var(--line);border-radius:16px;padding:18px 10px}
-.proof2 b{font-family:var(--ui);font-style:normal;font-weight:700;letter-spacing:-.03em;color:var(--blue)}
-.proof2 span{color:var(--ink3)}
-details{border-radius:12px}
-details[open]{border-color:#C9D1FF;box-shadow:0 12px 30px -20px rgba(20,22,31,.3)}
-summary{color:var(--ink)}
-summary::after{border-color:var(--blue)}
-details p{color:var(--ink2)}
+.hero h1{font-size:clamp(38px,5.4vw,64px);line-height:1.06;letter-spacing:-.035em;margin:18px 0 16px}
+.hero h1 .bd{background:linear-gradient(92deg,var(--ink) 0%,var(--ink) 45%,var(--blue) 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero .lede{max-width:520px}
+.hero .lede b{color:var(--ink);font-weight:600}
+.hero-cta{margin-top:26px;display:flex;flex-direction:column;align-items:flex-start}
+.proof{display:flex;align-items:center;gap:12px;margin-top:24px;padding-top:20px;border-top:1px solid var(--line);max-width:520px}
+.avs{display:flex}.avs span{width:32px;height:32px;border-radius:50%;border:2px solid #fff;margin-left:-8px;display:grid;place-items:center;font-size:12px;font-weight:700;color:#fff}
+.avs span:first-child{margin-left:0}
+.proof p{margin:0;font-size:14px;color:var(--ink2);line-height:1.4}.proof b{color:var(--ink)}
+/* visual */
+.vis{position:relative}
+.dev{background:#0F1222;border-radius:18px;padding:7px;box-shadow:0 40px 80px -36px rgba(23,40,160,.5),0 12px 30px -16px rgba(20,22,31,.25)}
+.dev img{border-radius:12px}
+.ph{position:absolute;right:-14px;bottom:-34px;width:31%;background:#0F1222;border-radius:26px;padding:5px;box-shadow:0 30px 60px -24px rgba(10,20,90,.7)}
+.ph img{border-radius:21px}
+.chip{position:absolute;display:flex;align-items:center;gap:10px;background:#fff;border-radius:14px;padding:10px 13px;box-shadow:var(--sh);border:1px solid rgba(20,22,31,.06);animation:bob 7s ease-in-out infinite;text-align:left}
+@keyframes bob{50%{transform:translateY(-9px)}}
+.chip .ic{flex:none;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--sky);color:var(--blue)}
+.chip .ic svg{width:17px;height:17px}
+.chip b{display:block;font-size:13.5px;line-height:1.2}.chip small{display:block;font-size:11.5px;color:var(--green);font-weight:600}
+.c1{left:-22px;top:-22px}.c2{left:-30px;bottom:18%;animation-delay:-3s}
+/* who */
+.who{padding:28px 0;border-bottom:1px solid var(--line);background:#fff}
+.who p{margin:0 0 14px;text-align:center;font-size:14px;color:var(--ink3)}
+.mq{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.mq-r{display:flex;gap:10px;width:max-content;animation:mq 40s linear infinite}
+@keyframes mq{to{transform:translateX(-50%)}}
+.mq span{white-space:nowrap;background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:9px 15px;font-size:14.5px;font-weight:600;color:var(--ink2)}
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:44px;counter-reset:s}
+.st{position:relative;background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px 24px}
+.st .n{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:var(--blue);color:#fff;font-weight:700;margin-bottom:16px}
+.st h3{font-size:19px;letter-spacing:-.02em;margin:0 0 6px}
+.st p{margin:0;font-size:15px;color:var(--ink2)}
+.st small{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.1em;color:var(--blue);background:var(--sky);border-radius:99px;padding:4px 10px}
+/* pain */
+.pain{background:var(--soft)}
+.pg{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}
+.pc{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s}
+.pc:hover{transform:translateY(-3px);box-shadow:var(--sh)}
+.pc .p{padding:14px 18px;background:#FFF6F6;border-bottom:1px dashed #F3CFCF;color:#7A2E2E;font-size:14.5px;display:flex;gap:9px}
+.pc .p svg{flex:none;width:17px;height:17px;color:var(--red);margin-top:3px}
+.pc .s{padding:16px 18px 20px}
+.pc .s b{display:flex;align-items:center;gap:8px;font-size:16.5px;letter-spacing:-.01em;margin-bottom:4px}
+.pc .s b svg{width:18px;height:18px;color:var(--green);flex:none}
+.pc .s span{font-size:14.5px;color:var(--ink2)}
+/* includes */
+.inc{display:grid;grid-template-columns:1fr 1.05fr;gap:52px;align-items:center}
+.feat{list-style:none;padding:0;margin:26px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.feat li{display:flex;gap:11px;align-items:flex-start;font-size:15px;color:var(--ink2)}
+.feat li b{display:block;color:var(--ink);font-size:15.5px}
+.feat .ic{flex:none;width:36px;height:36px;border-radius:10px;background:var(--sky);color:var(--blue);display:grid;place-items:center}
+.feat .ic svg{width:18px;height:18px}
+.phones{position:relative;height:540px}
+.phones .glow{position:absolute;inset:8% 6% 4% 8%;border-radius:36px;background:linear-gradient(140deg,#4FD2FA 0%,#2B44FF 60%,#1A2FD9 100%);transform:rotate(-5deg)}
+.phones .glow::after{content:"";position:absolute;inset:0;border-radius:inherit;background:repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 18px,rgba(255,255,255,.08) 18px 20px)}
+.pp{position:absolute;width:42%;max-width:240px;border-radius:32px;background:#0F1222;padding:7px;box-shadow:0 40px 70px -30px rgba(10,20,90,.7)}
+.pp img{border-radius:26px}
+.pp.a{left:8%;top:3%;transform:rotate(-7deg)}.pp.b{right:6%;top:13%;transform:rotate(6deg)}
+.cap{position:absolute;z-index:2;background:#fff;border-radius:12px;padding:8px 12px;box-shadow:var(--sh);font-size:13px;font-weight:600}
+.cap.x{left:0;bottom:12%}.cap.y{right:0;bottom:3%}
+/* pricing */
+.pricing{background:linear-gradient(180deg,#fff,#F4F6FF)}
+.trial{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin:24px auto 0;max-width:720px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 18px;font-size:14.5px;color:var(--ink2)}
+.trial b{color:var(--ink)}
+.trial .dot{width:6px;height:6px;border-radius:50%;background:var(--line2)}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px;align-items:stretch}
+.pl{position:relative;background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px 24px;display:flex;flex-direction:column}
+.pl.ft{border:1.5px solid var(--blue);box-shadow:0 30px 60px -32px rgba(43,68,255,.55)}
+.pl .bdg{position:absolute;top:-12px;left:24px;background:var(--blue);color:#fff;font-size:12px;font-weight:600;padding:4px 11px;border-radius:99px}
+.pl .nm{font-family:var(--mono);font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.pl .for{font-size:14px;color:var(--ink2);margin:6px 0 0;min-height:42px}
+.pl .pr{display:flex;align-items:baseline;gap:6px;margin:14px 0 2px}
+.pl .pr b{font-size:44px;letter-spacing:-.04em;line-height:1}
+.pl .pr span{font-size:14px;color:var(--ink3)}
+.pl .keep{background:var(--sky);border-radius:12px;padding:10px 12px;margin:12px 0 14px;font-size:14px;color:var(--ink2)}
+.pl .keep b{color:var(--blue)}
+.pl ul{list-style:none;padding:0;margin:0 0 20px;display:grid;gap:8px;flex:1}
+.pl li{display:flex;gap:9px;font-size:14.5px;color:var(--ink2)}
+.pl li svg{flex:none;width:16px;height:16px;color:var(--blue);margin-top:4px}
+.pl .cta{width:100%;min-height:50px;font-size:15.5px}
+.fine{text-align:center;font-size:13px;color:var(--ink3);margin-top:16px}
+/* promise */
+.prom{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:40px}
+.pm{border:1px solid var(--line);border-radius:18px;padding:22px 20px;background:#fff}
+.pm .ic{width:42px;height:42px;border-radius:12px;background:var(--sky);color:var(--blue);display:grid;place-items:center;margin-bottom:14px}
+.pm .ic svg{width:20px;height:20px}
+.pm b{display:block;font-size:16.5px;margin-bottom:4px}
+.pm p{margin:0;font-size:14.5px;color:var(--ink2)}
+.founder{display:flex;gap:18px;align-items:center;max-width:760px;margin:36px auto 0;background:var(--soft);border:1px solid var(--line);border-radius:20px;padding:22px 24px}
+.founder img{width:64px;height:64px;border-radius:50%;flex:none;box-shadow:0 0 0 4px var(--sky)}
+.founder q{font-family:var(--dp);font-style:italic;font-size:20px;line-height:1.35;color:var(--navy);quotes:none}
+.founder small{display:block;margin-top:6px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3)}
+/* faq */
+.faq{max-width:820px;margin:36px auto 0;display:grid;gap:10px}
+details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:0 20px;transition:border-color .2s,box-shadow .2s}
+details[open]{border-color:#C9D1FF;box-shadow:var(--sh)}
+summary{list-style:none;cursor:pointer;padding:18px 30px 18px 0;font-weight:600;font-size:16px;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:24px;font-weight:400;color:var(--blue);transition:transform .2s}
+details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+details p{margin:0 0 18px;font-size:15px;color:var(--ink2)}
+details p strong{color:var(--ink)}
 /* final */
-#final{background:#0A0F3D;color:#fff}
-#final .rays2{position:absolute;inset:0;z-index:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 16px,rgba(255,255,255,.06) 16px 18px),radial-gradient(70% 90% at 50% 120%,#2B7BFF 0%,#2B44FF 35%,rgba(43,68,255,0) 70%);background-size:200% 100%,100% 100%;animation:shimmer 18s linear infinite}
-#final .h1{color:#fff}
-#final .h1 em{color:#fff}
-#final p.sub{color:rgba(255,255,255,.78)}
-#final .cta{background:#fff;color:var(--blue);box-shadow:none}
-#final .cta.g{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
-#final .micro{color:rgba(255,255,255,.55)}
-/* footer — Edmingle-style */
-.ft{background:#070A26;color:rgba(255,255,255,.62);text-align:left;padding:44px 0 36px;font-size:13.5px;border-top:1px solid rgba(255,255,255,.08)}
-.ft .fgrid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
-.ft .wm{display:flex;align-items:center;gap:10px;text-decoration:none;margin:0}
-.ft .wm img{width:34px;height:34px;border-radius:50%}
-.ft .wm b{font-family:var(--dp);font-style:italic;font-weight:400;font-size:28px;letter-spacing:-.3px;color:#fff}
-.ft .desc{max-width:320px;margin:14px 0 16px;line-height:1.6}
-.ft .ct{display:flex;align-items:center;gap:9px;margin:0 0 9px;color:rgba(255,255,255,.75);text-decoration:none}
-.ft .ct svg{width:16px;height:16px;flex:none;color:rgba(255,255,255,.55)}
-.ft .links{display:flex;flex-direction:column;gap:9px}
-.ft .links h4{font-family:var(--ui);font-size:14px;font-weight:600;color:#fff;margin:0 0 4px}
-.ft .links a{color:rgba(255,255,255,.62);margin:0;text-decoration:none}
-.ft .links a:hover{color:#fff}
-.ft .copy{margin-top:30px;padding-top:18px;border-top:1px solid rgba(255,255,255,.08);font-size:12.5px;color:rgba(255,255,255,.45)}
+.final{position:relative;overflow:hidden;background:var(--navy);color:#fff;text-align:center;padding:96px 0 104px}
+.final .rays{position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 16px,rgba(255,255,255,.06) 16px 18px),radial-gradient(70% 90% at 50% 120%,#2B7BFF 0%,#2B44FF 35%,rgba(43,68,255,0) 70%);background-size:200% 100%,100% 100%;animation:sh 18s linear infinite}
+@keyframes sh{to{background-position:-400px 0,0 0}}
+.final .w{position:relative}
+.final h2{font-size:clamp(32px,5vw,56px);line-height:1.08;letter-spacing:-.035em;margin:0}
+.final p{color:rgba(255,255,255,.78);max-width:560px;margin:14px auto 0;font-size:17px}
+.final .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:30px}
+.final .micro{justify-content:center;color:rgba(255,255,255,.6)}
+.final .micro svg{color:#7BE0A0}
+/* footer */
+.foot{background:var(--navy-2);color:rgba(255,255,255,.6);font-size:13.5px;padding:34px 0 40px}
+.foot .w{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.foot a{color:rgba(255,255,255,.75);text-decoration:none;margin-left:16px}
+.foot .lk b{color:#fff}
 /* sticky bar */
-.bar{background:rgba(255,255,255,.95);border-top:1px solid var(--line);box-shadow:0 -8px 24px -12px rgba(20,22,31,.2)}
-.bar .px b{font-family:var(--ui);font-style:normal;font-weight:700;letter-spacing:-.02em;font-size:18px;color:var(--ink)}
-.bar .px i{color:var(--ink3)}
-@media(max-width:719px){.ochip{padding:7px 10px}.ochip b{font-size:12px}.ochip .ic{width:26px;height:26px}.odev-in{padding:5px;border-radius:13px;transform:rotateX(6deg)}.odev-in img{border-radius:9px}.ft .fgrid{flex-direction:column}}
-@media(min-width:720px){.ft{padding:56px 0 40px}}
-@media(prefers-reduced-motion:reduce){.blob,.ochip,.rays::before,.rays2{animation:none!important}}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;gap:10px;align-items:center;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-top:1px solid var(--line);box-shadow:0 -10px 30px -14px rgba(20,22,31,.25);transform:translateY(110%);transition:transform .3s}
+.bar.on{transform:none}
+.bar .px{flex:none;line-height:1.1}
+.bar .px b{display:block;font-size:17px;letter-spacing:-.02em}
+.bar .px i{display:block;font-style:normal;font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.bar .cta{flex:1;min-height:48px;font-size:15.5px;padding:12px 14px}
+.bar .w2{flex:none;display:grid;place-items:center;width:48px;height:48px;border-radius:12px;background:var(--wa)}
+.bar .w2 svg{width:24px;height:24px;fill:#fff}
+.js .rv{opacity:0;transform:translateY(20px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.js .rv.in{opacity:1;transform:none}
+@media (max-width:980px){
+  .hero .w,.inc{grid-template-columns:1fr;gap:40px}
+  .vis{max-width:640px;margin:0 auto;width:100%}
+  .steps,.pg{grid-template-columns:1fr 1fr}
+  .plans{grid-template-columns:1fr;max-width:480px;margin-left:auto;margin-right:auto}
+  .prom{grid-template-columns:1fr 1fr}
+  .phones{max-width:560px;margin:0 auto;width:100%}
+}
+@media (min-width:761px){.bar{display:none}}
+@media (max-width:760px){
+  body{padding-bottom:80px}
+  .hd .wa span{display:none}
+  .hd .go{display:none!important}
+}
+@media (max-width:640px){
+  .w{padding:0 16px}
+  section{padding:64px 0}
+  .hero{padding:28px 0 56px}
+  .hero h1{margin-top:14px}
+  .hero-cta{align-items:stretch}
+  .hero-cta .cta{width:100%}
+  .proof{margin-top:20px}
+  .c1{left:-6px;top:-18px}.c2{left:-8px}
+  .ph{right:-6px;bottom:-24px}
+  .chip{padding:8px 10px}.chip b{font-size:12.5px}.chip .ic{width:28px;height:28px}
+  .steps,.pg,.prom{grid-template-columns:1fr}
+  .feat{grid-template-columns:1fr}
+  .phones{height:440px}
+  .pp{width:50%}
+  .founder{flex-direction:column;text-align:center}
+  .trial{flex-direction:column;gap:6px}.trial .dot{display:none}
+  .final{padding:72px 0 80px}
+  .final .row .cta{width:100%}
+  .foot .w{flex-direction:column;align-items:flex-start}
+  .foot .w > div{display:flex;flex-wrap:wrap;gap:8px 16px}.foot .w > div > span{width:100%}.foot a{margin:0 16px 0 0}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}}
 </style>
 </head>
-
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+  <symbol id="i-rupee" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12M6 9h12M14 4c3 0 3 10-3 10H6l8 6"/></symbol>
+  <symbol id="i-bank" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10 12 4l9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/></symbol>
+  <symbol id="i-layout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M11 18.5h2"/></symbol>
+  <symbol id="i-live" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 10l5-3v10l-5-3"/><rect x="3" y="6" width="12" height="12" rx="2"/></symbol>
+  <symbol id="i-test" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h6l1 2h3v14H5V6h3z"/><path d="m9 13 2 2 4-4"/></symbol>
+  <symbol id="i-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/></symbol>
+  <symbol id="i-export" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 8l5-5 5 5M4 15v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12.05 21.8h-.01a9.73 9.73 0 0 1-4.96-1.36l-.36-.21-3.69.97.98-3.6-.23-.37a9.72 9.72 0 0 1-1.49-5.19c0-5.38 4.38-9.76 9.77-9.76 2.6 0 5.06 1.02 6.9 2.86a9.7 9.7 0 0 1 2.86 6.9c0 5.38-4.38 9.76-9.77 9.76z"/></symbol>
+</svg>
 
-<!-- header: logo + WhatsApp only. No nav — every extra link is a way to leave. -->
-<header class="hd">
-  <a class="lk" href="#top"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="AllCoaching" width="512" height="512"/><b>AllCoaching</b></a>
-  <a class="wa" href="https://api.whatsapp.com/send/?phone=919889977262&text=Hi%20AllCoaching%2C%20I%20want%20to%20start%20my%20coaching%20academy." target="_blank" rel="noopener" data-ev="ob_whatsapp_click">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57a1.1 1.1 0 0 0-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4c-1.76 0-3.49-.47-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.38a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.83 9.83 0 0 1 9.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41Z"/></svg>
-    Talk to us
-  </a>
+<!-- header: logo + WhatsApp only. No nav, so the trial is the only path forward. -->
+<header class="hd" id="hd">
+  <div class="w">
+    <a class="lk" href="#top"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="AllCoaching" width="512" height="512"/><b>AllCoaching</b></a>
+    <div class="hd-r">
+      <a class="wa" href="https://api.whatsapp.com/send/?phone=919889977262&amp;text=Hi%20AllCoaching%2C%20I%20want%20to%20start%20my%20coaching%20academy." target="_blank" rel="noopener" data-ev="ob_whatsapp_click" data-where="header"><svg><use href="#i-wa"/></svg><span>Talk to us</span></a>
+      <a class="cta go" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="header">Start free trial</a>
+    </div>
+  </div>
 </header>
 
+<main>
 <!-- ============ HERO ============ -->
 <section class="hero" id="top">
   <div class="blob b1" aria-hidden="true"></div><div class="blob b2" aria-hidden="true"></div>
   <div class="w">
-    <span class="tpill"><i></i>The LMS for educators · 14 days free</span>
-    <h1 class="h1">Build your own <span class="bd">LMS.</span><br/>In just a few <em class="bd">clicks.</em></h1>
-    <p class="sub">Drag and drop your academy, make it your brand and start selling. <strong>You set it up yourself.</strong> No developer, no sales call.</p>
-    <p class="proof"><span class="dot"></span><span><b>270 educators</b> are already selling their courses on AllCoaching.</span></p>
-
-    <ul class="ticks">
-      <li><strong>Free for 14 days.</strong> No card needed.</li>
-      <li>Keep <strong>90% to 95%</strong> of every sale. Paid to your bank in 3 days.</li>
-      <li>Drag and drop — your name, your logo, your own domain.</li>
-    </ul>
-
-    <div class="pbox">
-      <div class="amt"><b>14 days</b><span>free</span></div>
-      <p class="n">Then Starter at <strong>₹6,999 a year</strong>: studio, website, student app, <strong>your own domain</strong>, live classes, courses, notes and test series, all included.</p>
-      <div class="then">Keep 90% of every sale.<br/><b>10%</b> platform &nbsp;·&nbsp; <b>90%</b> yours</div>
-      <a class="cta" style="margin-top:16px" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="hero">Start my free trial
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-      </a>
-      <p class="micro d" style="text-align:center">No card needed · Prices exclude GST · Growth &amp; Pro below</p>
-    </div>
-    <div class="ostage" aria-hidden="true">
-      <div class="rays"></div>
-      <div class="odev">
-        <div class="odev-in"><img src="/assets/hero/studio-light-1536.webp?v=b2" srcset="/assets/hero/studio-light-1536.webp?v=b2 1536w, /assets/hero/studio-light-3072.webp?v=b2 3072w" sizes="(max-width:900px) 94vw, 860px" alt="" width="1536" height="960" loading="lazy" decoding="async"/></div>
-        <div class="ochip c1"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span><span><b>youracademy.in</b><small>Connected</small></span></div>
-        <div class="ochip c2"><span class="ic" style="background:#E7F7EE;color:#16A34A"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12M6 9h12M14 4c3 0 3 10-3 10H6l8 6"/></svg></span><span><b>Paid by UPI</b><small>In your bank T+3</small></span></div>
+    <div>
+      <span class="pill"><i></i>14-day free trial · no card needed</span>
+      <h1><span class="lt">Build your own LMS.</span><br/><span class="bd">In just a few clicks.</span></h1>
+      <p class="lede">Your website, student app, courses, tests, live classes and payments, <b>under your own brand.</b> Set it up yourself tonight. No developer, no sales call.</p>
+      <div class="hero-cta">
+        <a class="cta" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="hero">Start my 14-day free trial <svg><use href="#i-arrow"/></svg></a>
+        <div class="micro"><span><svg><use href="#i-check"/></svg>No card needed</span><span><svg><use href="#i-check"/></svg>Sign up with Google</span><span><svg><use href="#i-check"/></svg>Keep 90% to 95% of every sale</span></div>
       </div>
+      <div class="proof">
+        <div class="avs" aria-hidden="true"><span style="background:#2B44FF"><svg width="16" height="16"><use href="#i-users"/></svg></span><span style="background:#16A34A"><svg width="16" height="16"><use href="#i-check"/></svg></span></div>
+        <p><b>270 educators</b> are already selling their courses on AllCoaching.</p>
+      </div>
+    </div>
+    <div class="vis" aria-hidden="true">
+      <div class="dev"><img src="/assets/hero/studio-light-1536.webp?v=b2" srcset="/assets/hero/studio-light-1536.webp?v=b2 1536w, /assets/hero/studio-light-3072.webp?v=b2 3072w" sizes="(max-width:980px) 92vw, 540px" alt="" width="1536" height="960" fetchpriority="high" decoding="async"/></div>
+      <div class="ph"><img src="/demo/assets/shots/app-mobile.webp?v=b2" alt="" width="780" height="1688" decoding="async"/></div>
+      <div class="chip c1"><span class="ic"><svg><use href="#i-globe"/></svg></span><span><b>youracademy.in</b><small>Connected · your brand</small></span></div>
+      <div class="chip c2"><span class="ic" style="background:#E7F7EE;color:#16A34A"><svg><use href="#i-rupee"/></svg></span><span><b>Paid by UPI · ₹4,999</b><small>In your bank T+3</small></span></div>
     </div>
   </div>
 </section>
 
-<!-- ============ WHAT YOU PAY ============ -->
-<section class="s" id="pay">
-  <div class="w">
-    <p class="eb">No sales call. No surprises.</p>
-    <h2 class="h2">Three plans. <em>Pick one, start today.</em></h2>
-    <p style="font-size:15px;color:var(--ink2);margin:8px 0 0">Every plan includes your own connected domain, the branded app and marketplace discovery. Storage, streaming, live hours and the platform fee change by plan.</p>
-
-    <div class="p3">
-      <div class="p3c">
-        <div class="p3-badge" style="background:#EAF5EC;color:#1F6B39">New academy</div>
-        <p class="p3-name">Starter</p>
-        <div class="p3-price"><b>₹6,999</b><span>/year</span></div>
-        <p class="p3-keep"><strong>Keep 90%</strong> — 10% fee</p>
-        <ul>
-          <li>512 GB storage · 1080p</li>
-          <li>5 live hours/month</li>
-          <li>Your own domain, connected</li>
-        </ul>
-        <a class="gho" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="pay-starter">Start free trial</a>
-      </div>
-      <div class="p3c feat">
-        <div class="p3-badge">Most popular</div>
-        <p class="p3-name">Growth</p>
-        <div class="p3-price"><b>₹12,999</b><span>/year</span></div>
-        <p class="p3-keep"><strong>Keep 92.5%</strong> — 7.5% fee</p>
-        <ul>
-          <li>1 TB storage · 1080p</li>
-          <li>10 live hours/month</li>
-          <li>Your own domain, connected</li>
-        </ul>
-        <a class="pri" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="pay-growth">Start free trial</a>
-      </div>
-      <div class="p3c">
-        <div class="p3-badge" style="background:#FBE2B8;color:#8E5F22">Best value</div>
-        <p class="p3-name">Pro</p>
-        <div class="p3-price"><b>₹24,999</b><span>/year</span></div>
-        <p class="p3-keep"><strong>Keep 95%</strong> — 5% fee</p>
-        <ul>
-          <li>3 TB storage · 4K</li>
-          <li>15 live hours/month</li>
-          <li>Premium website template</li>
-        </ul>
-        <a class="gho" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="pay-pro">Start free trial</a>
-      </div>
-    </div>
-
-    <p style="font-size:12.5px;color:var(--ink3);margin-top:14px;text-align:center">Prices exclude GST · Upgrades credit what you already paid</p>
-  </div>
-</section>
+<!-- WHO -->
+<div class="who" aria-label="Who it is for">
+  <p>Built for educators who teach for a living</p>
+  <div class="mq" aria-hidden="true"><div class="mq-r">
+    <span>JEE</span><span>NEET</span><span>UPSC</span><span>SSC</span><span>Banking</span><span>CA &amp; CS</span><span>GATE</span><span>State PSC</span><span>Class 10 &amp; 12</span><span>Spoken English</span><span>Coding</span><span>Music</span>
+    <span>JEE</span><span>NEET</span><span>UPSC</span><span>SSC</span><span>Banking</span><span>CA &amp; CS</span><span>GATE</span><span>State PSC</span><span>Class 10 &amp; 12</span><span>Spoken English</span><span>Coding</span><span>Music</span>
+  </div></div>
+</div>
 
 <!-- ============ HOW ============ -->
-<section class="s" id="how">
+<section id="how">
   <div class="w">
-    <p class="eb">Self-serve, start to finish</p>
-    <h2 class="h2">Your LMS in <em>three steps.</em></h2>
+    <div class="center rv">
+      <p class="eb">How it works</p>
+      <h2 class="h2"><span class="lt">From sign-up to first sale,</span><br/><span class="bd">all by yourself.</span></h2>
+    </div>
     <div class="steps">
-      <div class="stp"><b>1</b><div><h3>Sign up free</h3><p>Your 14-day free trial starts right away. No card needed. Pick Starter, Growth or Pro when you are ready.</p></div></div>
-      <div class="stp"><b>2</b><div><h3>Drag, drop &amp; brand</h3><p>Drag in your courses, notes and tests, add your logo and connect your own domain. No coding, no developer.</p></div></div>
-      <div class="stp"><b>3</b><div><h3>Publish &amp; start earning</h3><p>Share the link and get found on the marketplace. Keep 90% to 95%, paid T+3.</p></div></div>
+      <div class="st rv"><span class="n">1</span><h3>Start free</h3><p>Sign up with Google. Your 14-day trial starts at once, no card needed.</p><small>TODAY</small></div>
+      <div class="st rv"><span class="n">2</span><h3>Drag, drop and brand</h3><p>Add courses, notes, tests and live classes. Put on your logo and connect your domain.</p><small>DAYS 1–14</small></div>
+      <div class="st rv"><span class="n">3</span><h3>Share and get paid</h3><p>Send your academy link. Students pay by UPI or card, and your share reaches your bank in 3 days.</p><small>WHEN YOU'RE READY</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAIN → FIX ============ -->
+<section class="pain">
+  <div class="w">
+    <div class="center rv">
+      <p class="eb">What changes for you</p>
+      <h2 class="h2"><span class="lt">Teaching is your job.</span><br/><span class="bd">The tech should run itself.</span></h2>
+    </div>
+    <div class="pg">
+      <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Paying a developer to build and fix your website or app</div><div class="s"><b><svg><use href="#i-check"/></svg>Build it yourself</b><span>Drag and drop your academy. Website and student app come with every plan.</span></div></div>
+      <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Collecting fees on WhatsApp and checking payment screenshots</div><div class="s"><b><svg><use href="#i-check"/></svg>Students pay, access opens</b><span>UPI and card checkout. The course unlocks the moment a student pays.</span></div></div>
+      <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Waiting weeks to see the money you earned</div><div class="s"><b><svg><use href="#i-check"/></svg>Your money in 3 days</b><span>Your share of every sale reaches your bank 3 days later (T+3).</span></div></div>
+      <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Separate apps for classes, tests, notes and students</div><div class="s"><b><svg><use href="#i-check"/></svg>One studio for everything</b><span>Courses, test series, notes, live classes and your students in one login.</span></div></div>
+      <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Your name hidden behind someone else's brand</div><div class="s"><b><svg><use href="#i-check"/></svg>Your brand, your domain</b><span>Your logo and colours on your own domain, like youracademy.in.</span></div></div>
+      <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Not knowing what you'll pay until the bill arrives</div><div class="s"><b><svg><use href="#i-check"/></svg>One yearly plan</b><span>A fixed price you see before you start. No setup fee.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHAT YOU GET ============ -->
+<section>
+  <div class="w inc">
+    <div class="rv">
+      <p class="eb">Everything included</p>
+      <h2 class="h2"><span class="lt">Your whole academy.</span><br/><span class="bd">Your name on it.</span></h2>
+      <p class="lede">Students buy and learn on your website and in the app. They see your brand, not ours.</p>
+      <ul class="feat">
+        <li><span class="ic"><svg><use href="#i-globe"/></svg></span><span><b>Website on your domain</b>Course pages, faculty and enquiry form</span></li>
+        <li><span class="ic"><svg><use href="#i-phone"/></svg></span><span><b>Student app</b>Android, iOS and web</span></li>
+        <li><span class="ic"><svg><use href="#i-layout"/></svg></span><span><b>Recorded courses</b>Videos, notes and PDFs</span></li>
+        <li><span class="ic"><svg><use href="#i-test"/></svg></span><span><b>Test series</b>Mock tests with ranks</span></li>
+        <li><span class="ic"><svg><use href="#i-live"/></svg></span><span><b>Live classes</b>5, 10 or 15 hours a month</span></li>
+        <li><span class="ic"><svg><use href="#i-rupee"/></svg></span><span><b>UPI and card checkout</b>T+3 payouts to your bank</span></li>
+        <li><span class="ic"><svg><use href="#i-users"/></svg></span><span><b>Student CRM</b>Plus logins for your teachers</span></li>
+        <li><span class="ic"><svg><use href="#i-search"/></svg></span><span><b>Marketplace listing</b>New students can find you</span></li>
+      </ul>
+    </div>
+    <div class="phones rv" aria-hidden="true">
+      <div class="glow"></div>
+      <div class="pp a"><img src="/demo/assets/shots/website-mobile.webp?v=b2" alt="" width="780" height="1688" loading="lazy" decoding="async"/></div>
+      <div class="pp b"><img src="/assets/hero/studio-mobile-light.webp?v=b2" alt="" width="780" height="1688" loading="lazy" decoding="async"/></div>
+      <div class="cap x">Your academy website</div>
+      <div class="cap y">Your studio, on your phone</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="pricing" id="pay">
+  <div class="w">
+    <div class="center rv">
+      <p class="eb">Simple, open pricing</p>
+      <h2 class="h2"><span class="lt">Try everything free.</span><br/><span class="bd">Then one yearly plan.</span></h2>
+      <p class="lede">Same academy on every plan. Bigger plans keep more of every sale.</p>
+    </div>
+    <div class="trial rv"><span><b>Today:</b> start free</span><span class="dot"></span><span><b>14 days:</b> build and test everything</span><span class="dot"></span><span><b>Then:</b> pick a plan, or don't</span></div>
+    <div class="plans">
+      <div class="pl rv"><span class="nm">Starter</span><p class="for">For a new academy finding its first students.</p><div class="pr"><b>₹6,999</b><span>/year + GST</span></div><div class="keep">You keep <b>90%</b> of every sale</div>
+        <ul><li><svg><use href="#i-check"/></svg>512 GB storage · 1080p</li><li><svg><use href="#i-check"/></svg>5 live-class hours a month</li><li><svg><use href="#i-check"/></svg>Your own domain, connected</li><li><svg><use href="#i-check"/></svg>Website, app and marketplace</li></ul>
+        <a class="cta line" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="pay-starter">Start free trial</a></div>
+      <div class="pl ft rv"><span class="bdg">Most popular</span><span class="nm">Growth</span><p class="for">More room for content and live classes, and a lower cut.</p><div class="pr"><b>₹12,999</b><span>/year + GST</span></div><div class="keep">You keep <b>92.5%</b> of every sale</div>
+        <ul><li><svg><use href="#i-check"/></svg>1 TB storage · 1080p</li><li><svg><use href="#i-check"/></svg>10 live-class hours a month</li><li><svg><use href="#i-check"/></svg>Your own domain, connected</li><li><svg><use href="#i-check"/></svg>Website, app and marketplace</li></ul>
+        <a class="cta" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="pay-growth">Start free trial</a></div>
+      <div class="pl rv"><span class="nm">Pro</span><p class="for">4K video, the lowest cut and a premium template.</p><div class="pr"><b>₹24,999</b><span>/year + GST</span></div><div class="keep">You keep <b>95%</b> of every sale</div>
+        <ul><li><svg><use href="#i-check"/></svg>3 TB storage · 4K</li><li><svg><use href="#i-check"/></svg>15 live-class hours a month</li><li><svg><use href="#i-check"/></svg>Premium website template</li><li><svg><use href="#i-check"/></svg>Website, app and marketplace</li></ul>
+        <a class="cta line" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="pay-pro">Start free trial</a></div>
+    </div>
+    <p class="fine">Prices exclude GST · No setup fee · Upgrade any time and what you paid is credited · <a href="/pricing" style="color:var(--blue)">Compare plans in detail</a></p>
+  </div>
+</section>
+
+<!-- ============ PROMISE ============ -->
+<section>
+  <div class="w">
+    <div class="center rv">
+      <p class="eb">No risk in trying</p>
+      <h2 class="h2"><span class="lt">Start free.</span> <span class="bd">Stay because it works.</span></h2>
+    </div>
+    <div class="prom">
+      <div class="pm rv"><span class="ic"><svg><use href="#i-check"/></svg></span><b>No card to start</b><p>Use everything for 14 days before you decide.</p></div>
+      <div class="pm rv"><span class="ic"><svg><use href="#i-layout"/></svg></span><b>No sales call</b><p>Sign up and launch on your own, at your own pace.</p></div>
+      <div class="pm rv"><span class="ic"><svg><use href="#i-export"/></svg></span><b>Your data stays yours</b><p>Courses, students and payments are always exportable.</p></div>
+      <div class="pm rv"><span class="ic"><svg><use href="#i-chat"/></svg></span><b>Help on WhatsApp</b><p>Stuck on a step? Message us and we'll walk you through it.</p></div>
+    </div>
+    <div class="founder rv">
+      <img src="/assets/Amit-Ratan.webp" alt="Amit Ratan, founder of AllCoaching" width="128" height="128" loading="lazy"/>
+      <div><q>We built AllCoaching so an educator can launch a real academy without asking anyone for help, and keep up to 95% of what they earn.</q><small>Amit Ratan · Founder &amp; CEO</small></div>
     </div>
   </div>
 </section>
 
 <!-- ============ FAQ ============ -->
-<section class="s" id="faq">
+<section id="faq" style="background:var(--soft)">
   <div class="w">
-    <div class="proof2">
-      <div><b>270</b><span>educators selling</span></div>
-      <div><b>90–95%</b><span>stays with you</span></div>
-      <div><b>T+3</b><span>payouts to your bank</span></div>
-      <div><b>No</b><span>sales call required</span></div>
+    <div class="center rv">
+      <p class="eb">Before you decide</p>
+      <h2 class="h2"><span class="lt">Questions</span> <span class="bd">educators ask us.</span></h2>
     </div>
-    <p class="eb" style="margin-top:34px">Before you decide</p>
-    <h2 class="h2">The questions <em>everyone asks.</em></h2>
-    <div style="margin-top:18px">
+    <div class="faq">
       <details open><summary>Is ₹6,999 really the entry price?</summary><p><strong>Yes — that is the Starter plan, per year.</strong> No setup fee on top, no card required just to sign up. Prices exclude GST, added at checkout. Growth and Pro cost more but lower the platform fee.</p></details>
       <details><summary>Do I need a sales call or demo to sign up?</summary><p><strong>No.</strong> Sign up, choose a plan, upload a course, connect your domain, set up payment, publish — fully self-serve. WhatsApp support is there if you want to ask something first, but it is optional.</p></details>
       <details><summary>Do I pay extra for my own domain?</summary><p>No — connecting your domain is included on every plan, including Starter. <strong>The only thing you buy separately is the domain name itself</strong>, about ₹600–1,200 a year from GoDaddy, Namecheap or Hostinger, registered in your own name.</p></details>
@@ -448,42 +446,37 @@ details p{color:var(--ink2)}
 </section>
 
 <!-- ============ FINAL ============ -->
-<section class="hero" style="padding:64px 0 70px;background:#0A0F3D" id="final">
-  <div class="rays2" aria-hidden="true"></div>
+<section class="final" id="final">
+  <div class="rays" aria-hidden="true"></div>
   <div class="w">
-    <h2 class="h1" style="font-size:clamp(1.9rem,6.6vw,3rem)">Your LMS. Your brand.<br/><em>Starting today.</em></h2>
-    <p class="sub">Drag and drop your academy, add your brand and start selling. Free for 14 days, then plans from ₹6,999 a year.</p>
-    <a class="cta" style="margin-top:22px;max-width:26rem" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="final">Start 14-day free trial</a>
-    <a class="cta g" style="margin-top:11px;max-width:26rem" href="https://api.whatsapp.com/send/?phone=919889977262&amp;text=Hi%20AllCoaching%2C%20I%20have%20a%20question%20before%20starting." target="_blank" rel="noopener" data-ev="ob_whatsapp_click">Ask a question on WhatsApp</a>
-    <p class="micro">From ₹6,999/yr · Keep up to 95% · Connect your own domain · No sales call</p>
+    <h2 class="rv"><span class="lt">Your academy could be</span><br/><span class="bd">live tonight.</span></h2>
+    <p class="rv">Start free for 14 days. Drag in your first course, add your brand and share your link.</p>
+    <div class="row rv">
+      <a class="cta white" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="final">Start my 14-day free trial <svg><use href="#i-arrow"/></svg></a>
+      <a class="cta ghost" href="https://api.whatsapp.com/send/?phone=919889977262&amp;text=Hi%20AllCoaching%2C%20I%20have%20a%20question%20before%20starting." target="_blank" rel="noopener" data-ev="ob_whatsapp_click" data-where="final">Ask a question on WhatsApp</a>
+    </div>
+    <div class="micro rv"><span><svg><use href="#i-check"/></svg>No card needed</span><span><svg><use href="#i-check"/></svg>From ₹6,999 a year after the trial</span><span><svg><use href="#i-check"/></svg>No sales call</span></div>
   </div>
 </section>
+</main>
 
-<footer class="ft">
+<footer class="foot">
   <div class="w">
-    <div class="fgrid">
-      <div>
-        <a class="wm" href="/"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="" width="512" height="512"/><b>AllCoaching</b></a>
-        <p class="desc">The LMS for educators. Build your own online academy in a few clicks, make it your brand and start selling.</p>
-        <a class="ct" href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>+91 98899 77262 (WhatsApp)</a>
-        <a class="ct" href="mailto:contact@allcoaching.in"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>contact@allcoaching.in</a>
-      </div>
-      <div class="links"><h4>Get started</h4><a href="https://studio.allcoaching.in/">Start free trial</a><a href="https://studio.allcoaching.in/login">Log in</a><a href="/pricing">Pricing</a></div>
-      <div class="links"><h4>Company</h4><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div>
-    </div>
-    <p class="copy">© <span id="yr">2026</span> AllCoaching Technologies. All rights reserved.</p>
+    <a class="lk" href="/"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="" width="512" height="512"/><b>AllCoaching</b></a>
+    <div><span>© <span id="yr">2026</span> AllCoaching Technologies</span><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="mailto:contact@allcoaching.in">contact@allcoaching.in</a></div>
   </div>
 </footer>
 
-<!-- sticky mobile CTA: the single biggest mobile conversion lever -->
-<div class="bar" role="region" aria-label="Start onboarding">
-  <div class="px"><b>14 days</b><i>free trial</i></div>
+<!-- sticky mobile CTA, shown once the hero button scrolls away -->
+<div class="bar" id="bar" role="region" aria-label="Start your free trial">
+  <div class="px"><b>14 days free</b><i>no card needed</i></div>
   <a class="cta" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="sticky">Start free trial</a>
-  <a class="w2" href="https://api.whatsapp.com/send/?phone=919889977262&amp;text=Hi%20AllCoaching%2C%20I%20want%20to%20start%20my%20coaching%20academy." target="_blank" rel="noopener" aria-label="WhatsApp" data-ev="ob_whatsapp_click"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57a1.1 1.1 0 0 0-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4c-1.76 0-3.49-.47-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.38a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.83 9.83 0 0 1 9.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41Z"/></svg></a>
+  <a class="w2" href="https://api.whatsapp.com/send/?phone=919889977262&amp;text=Hi%20AllCoaching%2C%20I%20want%20to%20start%20my%20coaching%20academy." target="_blank" rel="noopener" aria-label="WhatsApp" data-ev="ob_whatsapp_click" data-where="sticky"><svg><use href="#i-wa"/></svg></a>
 </div>
 
 <script>
 (function(){
+  document.documentElement.classList.add('js');
   var dl=window.dataLayer=window.dataLayer||[];
   dl.push({event:'ob_view',page:'onboarding',offer_inr:6999});
   document.addEventListener('click',function(e){
@@ -491,8 +484,20 @@ details p{color:var(--ink2)}
     if(!a)return;
     dl.push({event:a.getAttribute('data-ev'),where:a.getAttribute('data-where')||'',offer_inr:6999});
   },false);
+  // carry ad attribution (utm_*, gclid, fbclid) into the studio sign-up link
+  var q=new URLSearchParams(location.search),keep=new URLSearchParams();
+  q.forEach(function(v,k){if(/^utm_|^(gclid|fbclid|gbraid|wbraid|msclkid)$/.test(k))keep.set(k,v)});
+  var qs=keep.toString();
+  if(qs)document.querySelectorAll('a[href^="https://studio.allcoaching.in/"]').forEach(function(a){a.href+= (a.href.indexOf('?')<0?'?':'&')+qs});
+  // reveal on scroll
+  var els=document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});els.forEach(function(el){io.observe(el)})}else els.forEach(function(el){el.classList.add('in')});
+  // header border + desktop header CTA + mobile sticky bar after the hero CTA leaves view
+  var hd=document.getElementById('hd'),bar=document.getElementById('bar'),heroCta=document.querySelector('.hero-cta .cta'),fin=document.getElementById('final');
+  function sc(){var y=scrollY;hd.classList.toggle('sc',y>8);var past=heroCta.getBoundingClientRect().bottom<0;var atEnd=fin.getBoundingClientRect().top<innerHeight*.6;bar.classList.toggle('on',past&&!atEnd);hd.classList.toggle('past',past)}
+  sc();addEventListener('scroll',sc,{passive:true});
+  var y=document.getElementById('yr');if(y)y.textContent=new Date().getFullYear();
 })();
 </script>
-<script>(function(){var y=document.getElementById('yr');if(y)y.textContent=new Date().getFullYear()})();</script>
 </body>
 </html>
