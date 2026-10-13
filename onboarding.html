@@ -27,12 +27,15 @@
 <!-- Google Tag Manager (routes conversions; add the Meta Pixel inside GTM) -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T3KFKD3G');</script>
 <!--
-  META PIXEL — not installed yet. Add your Pixel ID either:
-   (a) inside GTM as a Custom HTML tag firing on the dataLayer events this page
-       pushes: ob_view, ob_cta_click, ob_whatsapp_click, ob_demo_click; or
-   (b) directly here, replacing YOUR_PIXEL_ID below and uncommenting.
-  Recommended event mapping: ob_view -> ViewContent, ob_cta_click -> InitiateCheckout,
-  ob_whatsapp_click -> Contact, ob_demo_click -> Lead.
+  TRACKING: everything fires through GTM-T3KFKD3G (Meta pixel 391186199904157, Google Ads
+  AW-11343265505, GA4 G-8V1GJFC7WS, X pixel rgpox, Clarity). Do not hardcode pixels here.
+  dataLayer events from this page (each carries a unique event_id for Pixel/CAPI dedup):
+    ob_view            -> Meta ViewContent, GA4 page view
+    ob_cta_click       -> Meta InitiateCheckout, GA4 onboarding_cta_click   (where = hero|header|sticky|pay-*|final)
+    ob_whatsapp_click  -> Meta Contact
+    ob_scroll          -> depth 50 / 90 (engagement signal for ad optimisation)
+  Click IDs (gclid, fbclid, twclid, utm_*) are saved by /assets/attribution.js in the
+  ac_attr cookie on .allcoaching.in and appended to every studio link.
 -->
 
 <style>
@@ -251,6 +254,7 @@ details p strong{color:var(--ink)}
 }
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}}
 </style>
+<script src="/assets/attribution.js?v=1" defer></script>
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -478,17 +482,17 @@ details p strong{color:var(--ink)}
 (function(){
   document.documentElement.classList.add('js');
   var dl=window.dataLayer=window.dataLayer||[];
-  dl.push({event:'ob_view',page:'onboarding',offer_inr:6999});
+  function eid(){return 'ob.'+Date.now().toString(36)+'.'+Math.random().toString(36).slice(2,10)}
+  function attr(){try{var m=document.cookie.match(/(?:^|; )ac_attr=([^;]*)/);var l=m?(JSON.parse(decodeURIComponent(m[1])).last||{}):{};var u=new URLSearchParams(location.search);['utm_source','utm_campaign','gclid','fbclid','twclid'].forEach(function(k){if(u.get(k))l[k]=u.get(k)});return{utm_source:l.utm_source||'',utm_campaign:l.utm_campaign||'',click_id:l.gclid?'gclid':l.fbclid?'fbclid':l.twclid?'twclid':''}}catch(e){return{}}}
+  function push(ev,extra){var o={event:ev,event_id:eid(),page:'onboarding',offer_inr:6999,currency:'INR'};var a=attr();for(var k in a)o[k]=a[k];for(var k2 in extra)o[k2]=extra[k2];dl.push(o)}
+  push('ob_view',{});
   document.addEventListener('click',function(e){
     var a=e.target.closest&&e.target.closest('[data-ev]');
     if(!a)return;
-    dl.push({event:a.getAttribute('data-ev'),where:a.getAttribute('data-where')||'',offer_inr:6999});
+    push(a.getAttribute('data-ev'),{where:a.getAttribute('data-where')||''});
   },false);
-  // carry ad attribution (utm_*, gclid, fbclid) into the studio sign-up link
-  var q=new URLSearchParams(location.search),keep=new URLSearchParams();
-  q.forEach(function(v,k){if(/^utm_|^(gclid|fbclid|gbraid|wbraid|msclkid)$/.test(k))keep.set(k,v)});
-  var qs=keep.toString();
-  if(qs)document.querySelectorAll('a[href^="https://studio.allcoaching.in/"]').forEach(function(a){a.href+= (a.href.indexOf('?')<0?'?':'&')+qs});
+  var sent={};addEventListener('scroll',function(){var h=document.documentElement,p=(scrollY+innerHeight)/h.scrollHeight*100;[50,90].forEach(function(d){if(p>=d&&!sent[d]){sent[d]=1;push('ob_scroll',{depth:d})}})},{passive:true});
+  // ad attribution (utm_*, gclid, fbclid, twclid…) is handled by /assets/attribution.js
   // reveal on scroll
   var els=document.querySelectorAll('.rv');
   if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});els.forEach(function(el){io.observe(el)})}else els.forEach(function(el){el.classList.add('in')});
