@@ -26,18 +26,21 @@ AllCoaching (**allcoaching.in**) is an **educator-first EdTech marketplace** for
 - **Founder / voice of the brand:** **Amit Ratan, Founder & CEO** (author of the manifesto and blog byline).
 - **Studio product** (the educator app) lives at **studio.allcoaching.in** — a **separate repo/codebase** (no access from the marketing repo). Marketing site links `Log in` → studio.allcoaching.in/login, `Start free trial` → studio.allcoaching.in.
 
-## 2. The ideology (the manifesto thesis — *why it exists*)
-The founding argument, in order:
-1. **The Pandemic Mirage** — COVID handed every educator a "personal app / own your students" dream. The lockdown ended; the **fragmentation didn't**. Personal apps produced isolation, debt, abandoned courses, empty classrooms.
-2. **The Educator's Trap** — a good teacher is forced to become a marketer, app-maintainer, and payment-ops person. *"A teacher who has to think about student acquisition, app maintenance, payment gateways, and marketing budgets has already stopped being a teacher."* Every rupee on ads / hour on reels is one not spent on teaching.
-3. **The Student's Nightmare** — 3.5 lakh isolated apps, zero discovery. The best teacher is invisible behind a download wall no one knows to climb.
-4. **Big EdTech is not the educator's friend** — it advertises the loudest, not the best; it rents the educator's audience.
-5. **The Missing Layer** — Indian EdTech never built a **network effect for individual educators**. AllCoaching *is* that layer: a marketplace that gets stronger with every educator who joins.
-6–8. **The Operating System of Education** — the educator owns their identity and student relationship; the platform supplies discovery + infrastructure so their **only job is to teach**.
+## 2. The ideology (the manifesto thesis — *why it exists*; rewritten 2026-10-15)
+**One-line thesis:** *Every educator deserves their own academy, built by themselves.* Own brand (domain, logo, Google Play app) + built self-serve in a few clicks + still found by new students through the shared marketplace. Ownership and reach, without choosing.
 
-**Core beliefs (verbatim manifesto tenets):** teaching is a *vocation, not a startup*; quality education is held hostage by inferior infrastructure; the internet's promise of scale to education hasn't been kept; **network effects should serve educators, not exploit them**; a student should find the *best* teacher, not the *most advertised* one; we are building the world's most **educator-centric** EdTech marketplace, honestly.
+The founding argument, in order (manifesto chapters at /manifesto):
+1. **The Right Dream, Sold the Wrong Way** — "own your academy" was never the mistake. What failed was how it was sold: sales calls, demos, setup fees, agencies building it for you, every change a ticket — and then left alone after launch with no students arriving.
+2. **The Educator's Trap** — a good teacher is forced to become developer, marketer and payments desk; every rupee on ads / hour on reels is one not spent on teaching. Pains: someone else holds the keys · performing replaces teaching · marketing eats quality · tech burden · hidden costs · alone after launch.
+3. **The Student's Side** — two things decide an enrolment: *can the student find the teacher*, and *does what they find look like a real academy they trust*. Fix = a professional academy under the educator's name **and** a way to be found.
+4. **Big EdTech is not the educator's friend** — absorption, not partnership: your brand disappears, content becomes their asset, opaque splits, growth capped by their algorithm.
+5. **The False Choice** — Indian EdTech made educators pick ownership (agency-built app, alone) **or** reach (big platform, brandless). The choice was never real. Analogy: a shop with its own signboard that also sits in a busy market.
+6. **The Operating System of Education** — "you build your academy, we run everything beneath it." Two paths, one account: (a) **your own white-label academy** — website on your domain, own Google Play app, your logo/colours, built and changed by you, data exportable; (b) **the marketplace** — courses also listed on the AllCoaching app (Android, iOS, web) for discovery. The marketplace supports the academy; it does not replace it.
+7. **What it does differently:** Build (drag-and-drop LMS, no code) · Brand (domain, logo, own Play app) · Self-serve (14-day trial, no card, no sales call/demo) · Sell (UPI/card, T+3, keep 90–95%) · Discovery (marketplace) · Ownership (export everything) · Economics (one published yearly plan, fee 10%→5%) · Freedom (time back to teach).
 
-**What it does differently:** structured discovery replaces paid marketing · a marketplace that compounds with every educator · educator owns the relationship (their brand, not ours) · zero technical dependency for the educator · one student app solves the download-fatigue problem · transparent revenue sharing, no hidden charges.
+**Core beliefs (verbatim manifesto tenets, ch. 8):** (1) teaching is a *vocation, not a startup*; (2) every educator should **own** their academy; (3) an educator should be able to **build it themselves** — no sales call, demo, agency or waiting; (4) **ownership and reach should not be a trade-off**; (5) a student should find the *best* teacher, not the *most advertised* one; (6) prices should be **published before anyone signs up**; (7) honest about what it takes — a fair foundation, not a magic solution.
+
+**Retired framing (don't reuse):** "personal apps fail / are a burden", "3.5 lakh educators *with personal apps*", "the mall that brings kirana stores together", "List your courses on AllCoaching" as the primary CTA, "Founded 2022". AllCoaching now *sells* the own-brand app and website, so never argue against educators owning one — argue against owning one you can't control or that leaves you alone.
 
 ## 3. Pricing truth (⚠️ money claim — get this exactly right)
 **Confirmed model (2026-10-07; supersedes free-forever, flat-10%, one-time and "Pro ~₹999/month" — all wrong now):**
@@ -58,7 +61,7 @@ The founding argument, in order:
 ## 5. Audience & positioning
 - **Audience:** India's ~**3.5 lakh independent educators** — coaching owners, tutors, exam mentors, subject/skill teachers; Hinglish- and regional-language-aware; cost-anxious tier-2/3 included.
 - **Say "educator", not "creator"/"user".** Lead with what the educator gets.
-- **Competitive stance:** the alternative to *both* (a) DIY personal apps (isolation, no discovery) *and* (b) Big-EdTech platforms that rent your audience / take large cuts (Classplus, Graphy, Teachmint, Unacademy, Byju's, Udemy, etc.). AllCoaching = own-brand studio **+** shared marketplace network effect, transparent economics (one yearly plan, platform fee 10% → 5%, keep 90–95%).
+- **Competitive stance:** the alternative to *both* (a) agency/sales-led app builders (you get a brand but not the controls, and no discovery) *and* (b) Big-EdTech platforms that rent your audience / take large cuts (Classplus, Graphy, Teachmint, Unacademy, Byju's, Udemy, etc.). AllCoaching = own-brand studio **+** shared marketplace network effect, transparent economics (one yearly plan, platform fee 10% → 5%, keep 90–95%).
 
 ## 6. Brand & voice (apply to any AllCoaching surface)
 Full system is the `brand-system` memory + repo `brand.css`; the essentials:

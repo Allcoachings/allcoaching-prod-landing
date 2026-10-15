@@ -27,27 +27,46 @@ DEFAULT = {
         'aur marketing budget wala asli kharcha jiski baat koi nahi karta.'
     ),
 }
-# per-page overrides: {'blog/foo.html': {...}}
-VIDEOS = {
-    # exact-topic match: this page ranks for "coaching app kaise banaye"
-    'blogs/hinglish/apna-coaching-app-kaise-banaye-free.html': {
-        'id': 'hBni8zWCtuA',
-        'title': 'Apna Coaching App Kaise Banaye | ₹0 Me, Poora Live Demo',
-        # brand channel re-upload; supersedes WjAvIiq_m30 (same title, personal channel)
-        'channel': 'All Coaching',
-        'channel_url': 'https://www.youtube.com/@Allcoaching',
-        'creator_type': 'Organization',
-        'upload_date': '2026-08-29T07:43:52-07:00',
-        'duration_sec': 306,
-        'duration_iso': 'PT5M6S',
-        'description': (
-            'Apna coaching app banwane ke liye pehle lakhon rupaye lagte the, developers '
-            'hire karne padte the, aur phir bhi students aapko dhoondh nahi paate the. '
-            'Is video me poora AllCoaching Studio ka live demo hai — website se lekar '
-            'branded institute live hone tak, ₹0 me.'
-        ),
-    },
+# "Build your own LMS" product demo (2026-10-14) — the current positioning video.
+# Values pulled from the YouTube watch page / oEmbed on 2026-10-15, not assumed.
+LMS_DEMO = {
+    'id': 'Q1OI9SstFkg',
+    'title': 'Build Your Own LMS in a Few Clicks | Website & App | AllCoaching Demo 2026',
+    'label': 'Watch the 4-minute demo',
+    'channel': 'AllCoaching',
+    'channel_url': 'https://www.youtube.com/@Allcoaching',
+    'creator_type': 'Organization',
+    'in_language': 'en-IN',
+    'upload_date': '2026-10-14T02:58:07-07:00',
+    'duration_sec': 276,
+    'duration_iso': 'PT4M36S',
+    'description': (
+        'Build your own LMS and online coaching academy in a few clicks. In this 4-minute demo, '
+        'see how educators in India launch their own website, student app, courses, test series, '
+        'PDF notes and live classes with AllCoaching, with no coding and no developer.'
+    ),
 }
+
+# Onboarding-intent pages with traffic (GSC, Jul–Oct 2026) — all carry the LMS demo.
+LMS_DEMO_PAGES = [
+    'blog/appx-vs-classplus.html',
+    'blog/classplus-vs-graphy-vs-allcoaching.html',
+    'blog/teachmint-paid-features-alternative-free.html',
+    'blogs/hinglish/online-tuition-class-kaise-shuru-kare-aur-paise-kamaye.html',
+    'blog/affordable-lms-for-independent-educators.html',
+    'blogs/hinglish/teachers-ke-liye-best-coaching-app-2026.html',
+    'blog/physics-wallah-alternative-for-educators.html',
+    'blogs/hinglish/apna-coaching-app-kaise-banaye-free.html',
+    'blogs/en/review-of-top-10-course-selling-apps-in-india.html',
+    'blog/testbook-alternative-for-educators.html',
+    'blog/classplus-alternative-for-coaching-institutes.html',
+    'blogs/hinglish/apni-coaching-ki-website-kaise-banaye-free.html',
+    'blogs/en/best-platforms-for-individual-course-creators-vs-institutes.html',
+]
+
+# per-page overrides: {'blog/foo.html': {...}}
+# (hBni8zWCtuA "₹0 Me" demo retired 2026-10-15: there is no free tier.)
+VIDEOS = {p: LMS_DEMO for p in LMS_DEMO_PAGES}
 
 TARGETS = [
     'blogs/hinglish/apna-coaching-app-kaise-banaye-free.html',
@@ -65,14 +84,19 @@ TARGETS = [
     'blogs/hinglish/teachmint-vs-classplus-konsa-best-hai.html',
     'vs/classplus.html',
     'vs/graphy.html',
-]
+] + [p for p in LMS_DEMO_PAGES if p not in (
+    'blogs/hinglish/apna-coaching-app-kaise-banaye-free.html',
+    'blog/appx-vs-classplus.html',
+    'blog/classplus-alternative-for-coaching-institutes.html',
+    'blog/classplus-vs-graphy-vs-allcoaching.html',
+)]
 
 START = '<!-- AUTO: founder-video -->'
 END = '<!-- /AUTO: founder-video -->'
 
 BLOCK = '''{start}
 <div class="vid-embed" id="founder-video">
-<p class="vid-l">Founder ka video</p>
+<p class="vid-l">{label}</p>
 <div class="vid-frame" data-yt="{vid}">
   <img src="https://i.ytimg.com/vi/{vid}/maxresdefault.jpg"
        srcset="https://i.ytimg.com/vi/{vid}/mqdefault.jpg 320w, https://i.ytimg.com/vi/{vid}/hqdefault.jpg 480w, https://i.ytimg.com/vi/{vid}/maxresdefault.jpg 1280w"
@@ -141,7 +165,7 @@ def video_schema(v, page_url):
         "duration": v.get('duration_iso'),
         "contentUrl": "https://www.youtube.com/watch?v=%s" % v['id'],
         "embedUrl": "https://www.youtube-nocookie.com/embed/%s" % v['id'],
-        "inLanguage": "hi-IN",
+        "inLanguage": v.get('in_language', 'hi-IN'),
         "creator": {"@type": v.get('creator_type', 'Person'),
                     "name": v['channel'], "url": v['channel_url']},
         "publisher": {"@id": "https://allcoaching.in/#organization"},
@@ -172,7 +196,7 @@ def process(path, apply=True):
         return path, 'SKIP (no canonical)'
 
     block = BLOCK.format(
-        start=START, end=END, vid=v['id'],
+        start=START, end=END, vid=v['id'], label=esc_html(v.get('label', 'Founder ka video')),
         title_attr=esc_attr(v['title']),
         title_html=esc_html(v['title']),
         channel=esc_html(v['channel']),
@@ -194,7 +218,8 @@ def process(path, apply=True):
         h = h.replace('</body>', SCRIPT + '\n</body>', 1)
 
     if apply:
-        open(path, 'w', encoding='utf-8').write(h)
+        # newline='' keeps LF on Windows (text mode would rewrite every line as CRLF)
+        open(path, 'w', encoding='utf-8', newline='').write(h)
     return path, 'OK'
 
 
