@@ -1748,6 +1748,10 @@ footer > *{position:relative}
 .foot-brand > div[style] span{color:var(--cyan)!important}
 .dem-tag-foot{background:none!important;-webkit-text-fill-color:var(--cyan)!important;color:var(--cyan)!important;animation:none!important}
 .foot-follow{color:rgba(255,255,255,.5)!important}
+.foot-desc{font-size:14px;line-height:1.6;color:rgba(255,255,255,.62)!important;max-width:320px;margin:16px 0 18px}
+.foot-ct{display:flex;align-items:center;gap:9px;margin:0 0 10px;font-size:14px;color:rgba(255,255,255,.75)!important;text-decoration:none}
+.foot-ct svg{width:16px;height:16px;flex:none;color:rgba(255,255,255,.5)}
+.foot-ct:hover{color:#fff!important}
 .foot-soc a{background:rgba(255,255,255,.06)!important;border:1px solid rgba(255,255,255,.1)!important;color:rgba(255,255,255,.75)!important}
 .foot-soc a:hover{background:var(--blue)!important;color:#fff!important}
 .foot-col h4{color:#fff!important}
