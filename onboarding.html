@@ -34,6 +34,7 @@
     ob_cta_click       -> Meta InitiateCheckout, GA4 onboarding_cta_click   (where = hero|header|sticky|pay-*|final)
     ob_whatsapp_click  -> Meta Contact
     ob_scroll          -> depth 50 / 90 (engagement signal for ad optimisation)
+    ob_video_play      -> demo video started (page_variant='en_v2')
   Click IDs (gclid, fbclid, twclid, utm_*) are saved by /assets/attribution.js in the
   ac_attr cookie on .allcoaching.in and appended to every studio link.
 -->
@@ -252,6 +253,26 @@ details p strong{color:var(--ink)}
   .foot .w{flex-direction:column;align-items:flex-start}
   .foot .w > div{display:flex;flex-wrap:wrap;gap:8px 16px}.foot .w > div > span{width:100%}.foot a{margin:0 16px 0 0}
 }
+/* v2: demo video + earnings math */
+.vsec{background:#fff;padding-top:72px}
+.vbox{max-width:880px;margin:32px auto 0}
+.vf{position:relative;display:block;width:100%;aspect-ratio:16/9;border:0;padding:0;border-radius:20px;overflow:hidden;cursor:pointer;background:#0F1222;box-shadow:0 40px 80px -36px rgba(23,40,160,.5)}
+.vf img{width:100%;height:100%;object-fit:cover}
+.vf .vp{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:84px;height:84px;border-radius:50%;background:var(--blue);display:grid;place-items:center;box-shadow:0 0 0 10px rgba(43,68,255,.25);transition:transform .2s}
+.vf:hover .vp{transform:translate(-50%,-50%) scale(1.06)}
+.vf .vp svg{width:36px;height:36px;fill:#fff;margin-left:4px}
+.vf .vt{position:absolute;left:16px;bottom:14px;background:rgba(10,15,61,.78);color:#fff;font-size:13.5px;font-weight:600;padding:7px 12px;border-radius:10px}
+.vf.on img,.vf.on .vp,.vf.on .vt{display:none}
+.vf iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mbox{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;background:var(--navy);color:#fff;border-radius:24px;padding:32px 34px}
+.mbox h3{font-size:clamp(24px,3vw,32px);letter-spacing:-.03em;line-height:1.15;margin:0 0 10px}
+.mbox .eb{color:#8FA0FF}
+.mnote{font-size:13px;color:rgba(255,255,255,.6);margin:8px 0 0}
+.mrows{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:18px 20px}
+.mr{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px dashed rgba(255,255,255,.15);font-size:15.5px;color:rgba(255,255,255,.8)}
+.mr b{color:#fff}
+.mr.big{border-bottom:0;font-size:18px}.mr.big b{color:#7BE0A0;font-size:24px}
+@media (max-width:760px){.mbox{grid-template-columns:1fr;padding:26px 20px}.vf .vp{width:68px;height:68px}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}}
 </style>
 <script src="/assets/attribution.js?v=1" defer></script>
@@ -294,16 +315,16 @@ details p strong{color:var(--ink)}
   <div class="blob b1" aria-hidden="true"></div><div class="blob b2" aria-hidden="true"></div>
   <div class="w">
     <div>
-      <span class="pill"><i></i>14-day free trial · no card needed</span>
-      <h1><span class="lt">Build your own LMS.</span><br/><span class="bd">In just a few clicks.</span></h1>
-      <p class="lede">Your website, student app, courses, tests, live classes and payments, <b>under your own brand.</b> Set it up yourself tonight. No developer, no sales call.</p>
+      <span class="pill"><i></i>14 days free · no card needed</span>
+      <h1><span class="lt">Your own coaching app and website.</span><br/><span class="bd">Built in a few clicks.</span></h1>
+      <p class="lede">Build your own LMS: courses, test series, notes, live classes and UPI fees — <b>all in one place, under your own name.</b> No developer, no sales call. You can be live tonight.</p>
       <div class="hero-cta">
         <a class="cta" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="hero">Start my 14-day free trial <svg><use href="#i-arrow"/></svg></a>
-        <div class="micro"><span><svg><use href="#i-check"/></svg>No card needed</span><span><svg><use href="#i-check"/></svg>Sign up with Google</span><span><svg><use href="#i-check"/></svg>Keep 90% to 95% of every sale</span></div>
+        <div class="micro"><span><svg><use href="#i-check"/></svg>Sign up with your mobile number</span><span><svg><use href="#i-check"/></svg>No card needed</span><span><svg><use href="#i-check"/></svg>Keep 90% to 95% of every sale</span></div>
       </div>
       <div class="proof">
         <div class="avs" aria-hidden="true"><span style="background:#2B44FF"><svg width="16" height="16"><use href="#i-users"/></svg></span><span style="background:#16A34A"><svg width="16" height="16"><use href="#i-check"/></svg></span></div>
-        <p><b>270 educators</b> are already selling their courses on AllCoaching.</p>
+        <p><b>500+ educators</b> are already selling their courses on AllCoaching.</p>
       </div>
     </div>
     <div class="vis" aria-hidden="true">
@@ -312,6 +333,25 @@ details p strong{color:var(--ink)}
       <div class="chip c1"><span class="ic"><svg><use href="#i-globe"/></svg></span><span><b>youracademy.in</b><small>Connected · your brand</small></span></div>
       <div class="chip c2"><span class="ic" style="background:#E7F7EE;color:#16A34A"><svg><use href="#i-rupee"/></svg></span><span><b>Paid by UPI · ₹4,999</b><small>In your bank T+3</small></span></div>
     </div>
+  </div>
+</section>
+
+<!-- ============ VIDEO ============ -->
+<section class="vsec" id="demo">
+  <div class="w">
+    <div class="center rv">
+      <p class="eb">4-minute demo</p>
+      <h2 class="h2"><span class="lt">See it first,</span> <span class="bd">then start.</span></h2>
+      <p class="lede">A coaching app, website, courses and a test series — built from start to finish.</p>
+    </div>
+    <div class="vbox rv">
+      <button class="vf" type="button" data-yt="Q1OI9SstFkg" data-ev="ob_video_play" data-where="demo" aria-label="Play the demo video: Build Your Own LMS in a Few Clicks">
+        <img src="https://i.ytimg.com/vi/Q1OI9SstFkg/maxresdefault.jpg" alt="AllCoaching demo — build your own LMS in a few clicks" width="1280" height="720" loading="lazy" decoding="async"/>
+        <span class="vp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+        <span class="vt">Watch the demo · 4:36</span>
+      </button>
+    </div>
+    <div class="center rv" style="margin-top:22px"><a class="cta" href="https://studio.allcoaching.in/" data-ev="ob_cta_click" data-where="video">Build mine — 14 days free <svg><use href="#i-arrow"/></svg></a></div>
   </div>
 </section>
 
@@ -332,9 +372,28 @@ details p strong{color:var(--ink)}
       <h2 class="h2"><span class="lt">From sign-up to first sale,</span><br/><span class="bd">all by yourself.</span></h2>
     </div>
     <div class="steps">
-      <div class="st rv"><span class="n">1</span><h3>Start free</h3><p>Sign up with Google. Your 14-day trial starts at once, no card needed.</p><small>TODAY</small></div>
+      <div class="st rv"><span class="n">1</span><h3>Start free</h3><p>Enter your mobile number and a one-time code. Your 14-day trial starts at once, no card needed.</p><small>TODAY</small></div>
       <div class="st rv"><span class="n">2</span><h3>Drag, drop and brand</h3><p>Add courses, notes, tests and live classes. Put on your logo and connect your domain.</p><small>DAYS 1–14</small></div>
-      <div class="st rv"><span class="n">3</span><h3>Share and get paid</h3><p>Send your academy link. Students pay by UPI or card, and your share reaches your bank in 3 days.</p><small>WHEN YOU'RE READY</small></div>
+      <div class="st rv"><span class="n">3</span><h3>Share and get paid</h3><p>Share your academy link on WhatsApp, YouTube or Instagram. Students pay by UPI or card, and your share reaches your bank in 3 days.</p><small>WHEN YOU'RE READY</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MATH ============ -->
+<section class="math" style="padding-top:0">
+  <div class="w">
+    <div class="mbox rv">
+      <div>
+        <p class="eb">The maths is simple</p>
+        <h3>50 students, a ₹999 course</h3>
+        <p class="mnote">An illustrative example, not a promise. What you earn depends on your students and your price.</p>
+      </div>
+      <div class="mrows">
+        <div class="mr"><span>Total sales</span><b>₹49,950</b></div>
+        <div class="mr"><span>Platform fee (Starter, 10%)</span><b>− ₹4,995</b></div>
+        <div class="mr big"><span>In your bank</span><b>₹44,955</b></div>
+        <p class="mnote">Starter plan ₹6,999/year (GST extra). The fee drops to 7.5% on Growth and 5% on Pro.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -350,6 +409,7 @@ details p strong{color:var(--ink)}
       <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Paying a developer to build and fix your website or app</div><div class="s"><b><svg><use href="#i-check"/></svg>Build it yourself</b><span>Drag and drop your academy. Website and student app come with every plan.</span></div></div>
       <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Collecting fees on WhatsApp and checking payment screenshots</div><div class="s"><b><svg><use href="#i-check"/></svg>Students pay, access opens</b><span>UPI and card checkout. The course unlocks the moment a student pays.</span></div></div>
       <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Waiting weeks to see the money you earned</div><div class="s"><b><svg><use href="#i-check"/></svg>Your money in 3 days</b><span>Your share of every sale reaches your bank 3 days later (T+3).</span></div></div>
+      <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Your notes and videos shared free on Telegram</div><div class="s"><b><svg><use href="#i-check"/></svg>Content behind a login</b><span>Videos and PDFs open only for students who have paid.</span></div></div>
       <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Separate apps for classes, tests, notes and students</div><div class="s"><b><svg><use href="#i-check"/></svg>One studio for everything</b><span>Courses, test series, notes, live classes and your students in one login.</span></div></div>
       <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Your name hidden behind someone else's brand</div><div class="s"><b><svg><use href="#i-check"/></svg>Your brand, your domain</b><span>Your logo and colours on your own domain, like youracademy.in.</span></div></div>
       <div class="pc rv"><div class="p"><svg><use href="#i-x"/></svg>Not knowing what you'll pay until the bill arrives</div><div class="s"><b><svg><use href="#i-check"/></svg>One yearly plan</b><span>A fixed price you see before you start. No setup fee.</span></div></div>
@@ -366,7 +426,7 @@ details p strong{color:var(--ink)}
       <p class="lede">Students buy and learn on your website and in the app. They see your brand, not ours.</p>
       <ul class="feat">
         <li><span class="ic"><svg><use href="#i-globe"/></svg></span><span><b>Website on your domain</b>Course pages, faculty and enquiry form</span></li>
-        <li><span class="ic"><svg><use href="#i-phone"/></svg></span><span><b>Student app</b>Android, iOS and web</span></li>
+        <li><span class="ic"><svg><use href="#i-phone"/></svg></span><span><b>Your app on Google Play</b>Your name on students' phones</span></li>
         <li><span class="ic"><svg><use href="#i-layout"/></svg></span><span><b>Recorded courses</b>Videos, notes and PDFs</span></li>
         <li><span class="ic"><svg><use href="#i-test"/></svg></span><span><b>Test series</b>Mock tests with ranks</span></li>
         <li><span class="ic"><svg><use href="#i-live"/></svg></span><span><b>Live classes</b>5, 10 or 15 hours a month</span></li>
@@ -437,12 +497,14 @@ details p strong{color:var(--ink)}
       <h2 class="h2"><span class="lt">Questions</span> <span class="bd">educators ask us.</span></h2>
     </div>
     <div class="faq">
-      <details open><summary>Is ₹6,999 really the entry price?</summary><p><strong>Yes — that is the Starter plan, per year.</strong> No setup fee on top, no card required just to sign up. Prices exclude GST, added at checkout. Growth and Pro cost more but lower the platform fee.</p></details>
+      <details open><summary>Is it really free for 14 days?</summary><p><strong>Yes.</strong> Sign up, build your academy and add your courses for 14 days without paying anything, and you don't need a card to start. After that, pick Starter, Growth or Pro if you want to keep going.</p></details>
+      <details><summary>I'm not technical. Can I really build it myself?</summary><p><strong>Yes.</strong> Everything is drag and drop. If you can use WhatsApp, you can set up your academy — no developer, no code. If you get stuck, message us on WhatsApp.</p></details>
+      <details><summary>Can I sign up from my phone?</summary><p><strong>Yes.</strong> Enter your mobile number and verify it with a one-time code. You can also sign in with Google, but if you opened this page inside Instagram or Facebook, the mobile number is the easiest way.</p></details>
+      <details><summary>Is ₹6,999 really the entry price?</summary><p><strong>Yes — that is the Starter plan, per year.</strong> No setup fee on top, no card required just to sign up. Prices exclude GST, added at checkout. Growth and Pro cost more but lower the platform fee.</p></details>
       <details><summary>Do I need a sales call or demo to sign up?</summary><p><strong>No.</strong> Sign up, choose a plan, upload a course, connect your domain, set up payment, publish — fully self-serve. WhatsApp support is there if you want to ask something first, but it is optional.</p></details>
       <details><summary>Do I pay extra for my own domain?</summary><p>No — connecting your domain is included on every plan, including Starter. <strong>The only thing you buy separately is the domain name itself</strong>, about ₹600–1,200 a year from GoDaddy, Namecheap or Hostinger, registered in your own name.</p></details>
       <details><summary>Are live classes charged by the hour?</summary><p><strong>No.</strong> Each plan's live-class hours are included in its price — 5 on Starter, 10 on Growth, 15 on Pro. There is no separate per-hour meter within that allowance.</p></details>
       <details><summary>What happens if I do not renew?</summary><p><strong>Your academy goes offline</strong> at the end of your paid year — students can no longer reach it. Your content and student data stay exportable, and renewing brings it back live.</p></details>
-      <details><summary>Can I try it before paying?</summary><p>Yes. Start the 14-day free trial, set up your academy and add a course before you pay anything. No card needed.</p></details>
       <details><summary>Will students see my brand or AllCoaching's?</summary><p><strong>Yours.</strong> Your academy name, logo and colours lead everywhere — the website, the app on their home screen, the receipts. We run the infrastructure quietly in the background.</p></details>
       <details><summary>Can I upgrade later?</summary><p><strong>Yes, any time.</strong> Upgrades take effect the moment payment clears, and what you already paid this year is credited toward the higher plan — you only pay the difference.</p></details>
     </div>
@@ -484,7 +546,7 @@ details p strong{color:var(--ink)}
   var dl=window.dataLayer=window.dataLayer||[];
   function eid(){return 'ob.'+Date.now().toString(36)+'.'+Math.random().toString(36).slice(2,10)}
   function attr(){try{var m=document.cookie.match(/(?:^|; )ac_attr=([^;]*)/);var l=m?(JSON.parse(decodeURIComponent(m[1])).last||{}):{};var u=new URLSearchParams(location.search);['utm_source','utm_campaign','gclid','fbclid','twclid'].forEach(function(k){if(u.get(k))l[k]=u.get(k)});return{utm_source:l.utm_source||'',utm_campaign:l.utm_campaign||'',click_id:l.gclid?'gclid':l.fbclid?'fbclid':l.twclid?'twclid':''}}catch(e){return{}}}
-  function push(ev,extra){var o={event:ev,event_id:eid(),page:'onboarding',offer_inr:6999,currency:'INR'};var a=attr();for(var k in a)o[k]=a[k];for(var k2 in extra)o[k2]=extra[k2];dl.push(o)}
+  function push(ev,extra){var o={event:ev,event_id:eid(),page:'onboarding',page_variant:'en_v2',offer_inr:6999,currency:'INR'};var a=attr();for(var k in a)o[k]=a[k];for(var k2 in extra)o[k2]=extra[k2];dl.push(o)}
   push('ob_view',{});
   document.addEventListener('click',function(e){
     var a=e.target.closest&&e.target.closest('[data-ev]');
@@ -493,6 +555,9 @@ details p strong{color:var(--ink)}
   },false);
   var sent={};addEventListener('scroll',function(){var h=document.documentElement,p=(scrollY+innerHeight)/h.scrollHeight*100;[50,90].forEach(function(d){if(p>=d&&!sent[d]){sent[d]=1;push('ob_scroll',{depth:d})}})},{passive:true});
   // ad attribution (utm_*, gclid, fbclid, twclid…) is handled by /assets/attribution.js
+  // demo video: load the YouTube player only when the visitor taps play
+  var vf=document.querySelector('.vf');
+  if(vf)vf.addEventListener('click',function(){if(vf.classList.contains('on'))return;var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+vf.getAttribute('data-yt')+'?autoplay=1&rel=0&playsinline=1&modestbranding=1';f.title='AllCoaching demo video';f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';f.allowFullscreen=true;vf.classList.add('on');vf.appendChild(f)});
   // reveal on scroll
   var els=document.querySelectorAll('.rv');
   if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});els.forEach(function(el){io.observe(el)})}else els.forEach(function(el){el.classList.add('in')});
