@@ -62,6 +62,14 @@ LMS_DEMO_PAGES = [
     'blog/classplus-alternative-for-coaching-institutes.html',
     'blogs/hinglish/apni-coaching-ki-website-kaise-banaye-free.html',
     'blogs/en/best-platforms-for-individual-course-creators-vs-institutes.html',
+    # comparison cluster refresh (2026-10-17)
+    'blog/graphy-alternative-for-course-creators-india.html',
+    'blog/personal-coaching-app-alternative.html',
+    'blogs/hinglish/teachmint-vs-classplus-konsa-best-hai.html',
+    'vs/classplus.html',
+    'vs/graphy.html',
+    'vs/teachmint.html',
+    'vs/appx.html',
 ]
 
 # per-page overrides: {'blog/foo.html': {...}}
@@ -225,7 +233,9 @@ def process(path, apply=True):
 
 if __name__ == '__main__':
     apply = '--dry-run' not in sys.argv
-    for t in TARGETS:
+    only = [a for a in sys.argv[1:] if not a.startswith('--')]
+    targets = TARGETS + [p for p in LMS_DEMO_PAGES if p not in TARGETS]
+    for t in (only or targets):
         if not os.path.exists(t):
             print('%-62s MISSING' % t)
             continue
