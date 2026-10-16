@@ -9,7 +9,7 @@
 <title>AllCoaching — Build Your Own LMS in a Few Clicks · 14 Days Free</title>
 <meta name="description" content="Build your own LMS in a few clicks. Drag and drop your academy, make it your brand with your domain and app, and sell courses. 14-day free trial, no card."/>
 <meta name="keywords" content="AllCoaching, educator marketplace India, online coaching platform, white label coaching app, sell courses online, live classes app, EdTech India, teach online, keep 90%"/>
-<meta name="author" content="AllCoaching Technologies"/>
+<meta name="author" content="AllCoaching"/>
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1"/>
 <link rel="canonical" href="https://allcoaching.in/"/>
 <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)"/>
@@ -39,7 +39,7 @@
 <meta name="twitter:image" content="https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp"/>
 <!-- Structured data -->
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","@id":"https://allcoaching.in/#organization","name":"AllCoaching","legalName":"AllCoaching Technologies","alternateName":["AllCoachings","All Coaching"],"url":"https://allcoaching.in/","logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/logo/allcoaching-logo.webp?v=20260707","width":512,"height":512},"image":"https://allcoaching.in/assets/logo/allcoaching-logo.webp?v=20260707","description":"The educator-first EdTech marketplace for India where educators own their brand and students, get discovered by learners searching their exam, and keep up to 95% of revenue, paid out T+3 (3 days after each sale).","slogan":"The Operating System of Education","foundingDate":"2018","founder":{"@id":"https://allcoaching.in/author/amit-ratan#person"},"areaServed":{"@type":"Country","name":"India"},"knowsAbout":["Online coaching","EdTech marketplace","JEE preparation","NEET preparation","UPSC preparation","SSC exam preparation","CAT preparation","Banking exam preparation","Selling online courses","Live online classes","Online coaching marketplace","Test series and mock tests","Educator monetization"],"address":{"@type":"PostalAddress","streetAddress":"Sangam Vihar Colony, Haveliya, Jhusi","addressLocality":"Prayagraj","addressRegion":"Uttar Pradesh","postalCode":"211019","addressCountry":"IN"},"email":"contact@allcoaching.in","telephone":"+91-9889977262","sameAs":["https://www.youtube.com/@Allcoaching","https://www.instagram.com/allcoachings/","https://www.facebook.com/allcoaching.in","https://x.com/allcoachings","https://t.me/allcoaching","https://play.google.com/store/apps/details?id=org.student.allcoaching","https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866"],"contactPoint":{"@type":"ContactPoint","contactType":"customer support","telephone":"+91-9889977262","email":"contact@allcoaching.in","url":"https://allcoaching.in/contact","availableLanguage":["en","hi"]}}
+{"@context":"https://schema.org","@type":"Organization","@id":"https://allcoaching.in/#organization","name":"AllCoaching","legalName":"AllCoaching Technology","alternateName":["AllCoachings","All Coaching"],"url":"https://allcoaching.in/","logo":{"@type":"ImageObject","url":"https://allcoaching.in/assets/logo/allcoaching-logo.webp?v=20260707","width":512,"height":512},"image":"https://allcoaching.in/assets/logo/allcoaching-logo.webp?v=20260707","description":"The educator-first EdTech marketplace for India where educators own their brand and students, get discovered by learners searching their exam, and keep up to 95% of revenue, paid out T+3 (3 days after each sale).","slogan":"The Operating System of Education","foundingDate":"2018","founder":{"@id":"https://allcoaching.in/author/amit-ratan#person"},"areaServed":{"@type":"Country","name":"India"},"knowsAbout":["Online coaching","EdTech marketplace","JEE preparation","NEET preparation","UPSC preparation","SSC exam preparation","CAT preparation","Banking exam preparation","Selling online courses","Live online classes","Online coaching marketplace","Test series and mock tests","Educator monetization"],"address":{"@type":"PostalAddress","addressLocality":"Prayagraj","addressRegion":"Uttar Pradesh","addressCountry":"IN"},"email":"contact@allcoaching.in","telephone":"+91-9889977262","sameAs":["https://www.youtube.com/@Allcoaching","https://www.instagram.com/allcoachings/","https://www.facebook.com/allcoaching.in","https://x.com/allcoachings","https://t.me/allcoaching","https://play.google.com/store/apps/details?id=org.student.allcoaching","https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866"],"contactPoint":{"@type":"ContactPoint","contactType":"customer support","telephone":"+91-9889977262","email":"contact@allcoaching.in","url":"https://allcoaching.in/contact","availableLanguage":["en","hi"]}}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","@id":"https://allcoaching.in/#website","name":"AllCoaching","url":"https://allcoaching.in/","inLanguage":"en-IN","publisher":{"@id":"https://allcoaching.in/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://allcoaching.in/blog/?q={search_term_string}","query-input":"required name=search_term_string"}}
@@ -377,6 +377,26 @@ footer .foot-brand > div[style] span{color:var(--cyan)!important}
 .mr b{color:#fff}
 .mr.big{border-bottom:0;font-size:18px}.mr.big b{color:#7BE0A0;font-size:24px}
 @media (max-width:760px){.mbox{grid-template-columns:1fr;padding:26px 20px}.vf .vp{width:68px;height:68px}.vsec{padding:72px 0 32px}.hero-proof{flex-wrap:wrap;text-align:center}}
+/* hero word rotator: App -> Website -> LMS */
+.hero h1 .rot{position:relative;display:inline-block;vertical-align:baseline;white-space:nowrap;font-weight:700;color:var(--ink);transition:width .6s var(--ease);perspective:600px}
+.hero h1 .rot-w{display:inline-block;position:relative}
+.hero h1 .rot .ch{display:inline-block;transform-origin:50% 100%;-webkit-text-fill-color:currentColor;will-change:transform,opacity,filter}
+.hero h1 .rot .ch.out{animation:rotOut .42s cubic-bezier(.55,0,.75,.2) forwards;animation-delay:calc(var(--i) * 28ms)}
+.hero h1 .rot .ch.in{animation:rotIn .7s cubic-bezier(.2,.9,.25,1.15) both;animation-delay:calc(var(--i) * 45ms)}
+@keyframes rotOut{to{transform:translateY(-62%) rotateX(80deg);opacity:0;filter:blur(8px)}}
+@keyframes rotIn{from{transform:translateY(70%) rotateX(-80deg);opacity:0;filter:blur(8px)}to{transform:none;opacity:1;filter:none}}
+.hero h1 .rot[data-k="0"],.hero h1 .rot[data-k="1"]{color:var(--blue)}
+.hero h1 .rot::after{content:"";position:absolute;left:2%;right:2%;bottom:.04em;height:.085em;border-radius:99px;background:linear-gradient(90deg,var(--blue),var(--cyan));transform:scaleX(0);transform-origin:left;opacity:.9}
+.hero h1 .rot.draw::after{animation:rotLine 1.6s var(--ease) forwards}
+@keyframes rotLine{0%{transform:scaleX(0);transform-origin:left}45%{transform:scaleX(1);transform-origin:left}55%{transform:scaleX(1);transform-origin:right}100%{transform:scaleX(0);transform-origin:right}}
+.hero h1 .rot-badge{position:absolute;right:-.5em;top:-.3em;width:.62em;height:.62em;min-width:30px;min-height:30px;border-radius:30%;background:#fff;box-shadow:0 10px 24px -8px rgba(43,68,255,.55),0 0 0 1px rgba(43,68,255,.12);display:grid;place-items:center;opacity:0;transform:scale(.4) rotate(-18deg);transition:opacity .35s,transform .5s cubic-bezier(.2,1.3,.3,1)}
+.hero h1 .rot.badge-on .rot-badge{opacity:1;transform:scale(1) rotate(-8deg)}
+.hero h1 .rot-badge svg{position:absolute;width:56%;height:56%;fill:none;stroke:var(--blue);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;opacity:0;transform:scale(.6);transition:opacity .3s,transform .4s cubic-bezier(.2,1.3,.3,1)}
+.hero h1 .rot[data-k="0"] .ri-app,.hero h1 .rot[data-k="1"] .ri-web,.hero h1 .rot[data-k="2"] .ri-lms{opacity:1;transform:none}
+.hero h1 .dot{margin-left:.02em}
+.mbr{display:none}
+@media (max-width:640px){.mbr{display:inline}}
+@media (prefers-reduced-motion:reduce){.hero h1 .rot .ch{animation:none!important}.hero h1 .rot::after{display:none}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
 
 /* responsive */
@@ -499,7 +519,7 @@ footer > .wrap{position:relative}
   <div class="blob b1" aria-hidden="true"></div><div class="blob b2" aria-hidden="true"></div><div class="blob b3" aria-hidden="true"></div>
   <div class="wrap center">
     <span class="pill reveal"><span class="dot"></span>The LMS for educators · 14 days free</span>
-    <h1 class="reveal"><span class="lt">Build your own</span> <span class="bd">LMS.</span><br/><span class="lt">In just a few</span> <span class="bd">clicks.</span></h1>
+    <h1 class="reveal"><span class="lt">Build your own</span><br class="mbr"/> <span class="rot" id="rot" data-words="App|Website|LMS"><span class="rot-w">LMS</span><span class="rot-badge" aria-hidden="true"><svg class="ri ri-app" viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.6"/><path d="M10.5 18.5h3"/></svg><svg class="ri ri-web" viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="16" rx="2.2"/><path d="M2.5 8.5h19M5.5 6.3h.01M8 6.3h.01M10.5 6.3h.01"/></svg><svg class="ri ri-lms" viewBox="0 0 24 24"><rect x="3" y="3" width="7.5" height="7.5" rx="1.6"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.6"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.6"/><path d="M14 17.2h7M17.5 13.7v7"/></svg></span></span><span class="bd dot">.</span><br/><span class="lt">In just a few</span> <span class="bd">clicks.</span></h1>
     <p class="lede reveal">Drag and drop your courses, tests, live classes and payments. Then make it your brand with your own domain, logo and app. No developer, no sales call.</p>
     <div class="hero-cta reveal">
       <a href="/demo/" class="btn btn-line">See a live demo</a>
@@ -799,7 +819,7 @@ footer > .wrap{position:relative}
       <div class="foot-col"><h4>Students</h4><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching">Android App</a><a href="https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866">iOS App</a><a href="#students">Find Educators</a><a href="https://t.me/allcoaching">Telegram</a></div>
     </div>
     <div class="foot-bottom">
-      <div>© <span id="yr">2026</span> AllCoaching Technologies · Made in India 🇮🇳</div>
+      <div>© <span id="yr">2026</span> AllCoaching · Made in India 🇮🇳</div>
       <div>The Operating System of Education · One educator at a time.</div>
     </div>
   </div>
@@ -827,6 +847,28 @@ footer > .wrap{position:relative}
   if(tabs.length&&!matchMedia('(prefers-reduced-motion: reduce)').matches)auto();
   var vf=document.querySelector('.vf');
   if(vf)vf.addEventListener('click',function(){if(vf.classList.contains('on'))return;var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+vf.getAttribute('data-yt')+'?autoplay=1&rel=0&playsinline=1&modestbranding=1';f.title='AllCoaching demo video';f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';f.allowFullscreen=true;vf.classList.add('on');vf.appendChild(f);(window.dataLayer=window.dataLayer||[]).push({event:'home_video_play',video_id:'Q1OI9SstFkg'})});
+  // hero word rotator: App -> Website -> LMS (text in the HTML stays "LMS" for search and no-JS)
+  (function(){
+    var r=document.getElementById('rot'); if(!r) return;
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var words=r.getAttribute('data-words').split('|'), w=r.querySelector('.rot-w'), k=words.length-1, busy=false;
+    function chars(t,cls){return t.split('').map(function(c,i){return '<span class="ch '+cls+'" style="--i:'+i+'">'+c+'</span>'}).join('')}
+    function width(t){var m=document.createElement('span');m.className='rot-w';m.style.cssText='position:absolute;visibility:hidden;white-space:nowrap';m.textContent=t;r.appendChild(m);var x=m.getBoundingClientRect().width;r.removeChild(m);return x}
+    r.style.width=width(words[k])+'px'; r.setAttribute('data-k',k);
+    function next(){
+      if(busy||document.hidden) return; busy=true;
+      var old=w.textContent, n=(k+1)%words.length, nw=words[n];
+      w.innerHTML=chars(old,'out');
+      setTimeout(function(){
+        r.style.width=width(nw)+'px'; k=n; r.setAttribute('data-k',k);
+        w.innerHTML=chars(nw,'in');
+        r.classList.remove('draw'); void r.offsetWidth; r.classList.add('draw','badge-on');
+        setTimeout(function(){w.textContent=nw; busy=false}, 700+nw.length*45);
+      }, 380+old.length*28);
+    }
+    setTimeout(function(){next(); setInterval(next, 2600)}, 1400);
+    addEventListener('resize',function(){r.style.width=width(words[k])+'px'},{passive:true});
+  })();
   var y=document.getElementById('yr');if(y)y.textContent=new Date().getFullYear();
 })();
 </script>

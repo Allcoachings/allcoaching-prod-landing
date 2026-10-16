@@ -80,7 +80,7 @@ def process_file(path, base_url):
     body_text = strip_tags(body)
     # Filter footer/related/cta noise - take only the article body up to a cutoff
     cutoff_markers = ['Related Articles', 'More from AllCoaching Blog', 'Continue reading',
-                      'Stop running a startup', 'AllCoaching Technologies']
+                      'Stop running a startup', 'Made in India']
     for m in cutoff_markers:
         if m in body_text:
             body_text = body_text.split(m)[0].strip()
