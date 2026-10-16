@@ -453,9 +453,9 @@ Google's E-E-A-T framework added a second "E" in 2022 for **Experience** — fir
 
 For every long-form post, weave in **at least 2 first-person Experience lines** that signal direct observation. Pattern:
 
-- "In our analysis of 10,000+ educator onboardings on AllCoaching..."
+- "Across the 500+ educators selling on AllCoaching, we see that..." (500+ is the confirmed count; never invent a bigger number)
 - "Across the AllCoaching educator base in 2026, we observed that..."
-- "From three years of running fee collection workflows for 350+ coaching institutes, the pattern is unmistakable..."
+- "When educators on AllCoaching move fee collection from WhatsApp to checkout, the pattern is..." (no invented counts or durations)
 - "When we ran the migration for a 4-batch NEET coaching institute in Prayagraj last quarter, the actual reconciliation time dropped from..."
 
 Rules:

@@ -36,7 +36,7 @@ The founding argument, in order (manifesto chapters at /manifesto):
 4. **Big EdTech is not the educator's friend** — absorption, not partnership: your brand disappears, content becomes their asset, opaque splits, growth capped by their algorithm.
 5. **The False Choice** — Indian EdTech made educators pick ownership (agency-built app, alone) **or** reach (big platform, brandless). The choice was never real. Analogy: a shop with its own signboard that also sits in a busy market.
 6. **The Operating System of Education** — "you build your academy, we run everything beneath it." Two paths, one account: (a) **your own white-label academy** — website on your domain, own Google Play app, your logo/colours, built and changed by you, data exportable; (b) **the marketplace** — courses also listed on the AllCoaching app (Android, iOS, web) for discovery. The marketplace supports the academy; it does not replace it.
-7. **What it does differently:** Build (drag-and-drop LMS, no code) · Brand (domain, logo, own Play app) · Self-serve (14-day trial, no card, no sales call/demo) · Sell (UPI/card, T+3, keep 90–95%) · Discovery (marketplace) · Ownership (export everything) · Economics (one published yearly plan, fee 10%→5%) · Freedom (time back to teach).
+7. **What it does differently:** Build (drag-and-drop LMS, no code) · Brand (domain, logo, own Play app) · Self-serve (14-day trial, no card, no sales call/demo) · Sell (UPI/card, automatic Razorpay payouts, keep 90–95%) · Discovery (marketplace) · Ownership (export everything) · Economics (one published yearly plan, fee 10%→5%) · Freedom (time back to teach).
 
 **Core beliefs (verbatim manifesto tenets, ch. 8):** (1) teaching is a *vocation, not a startup*; (2) every educator should **own** their academy; (3) an educator should be able to **build it themselves** — no sales call, demo, agency or waiting; (4) **ownership and reach should not be a trade-off**; (5) a student should find the *best* teacher, not the *most advertised* one; (6) prices should be **published before anyone signs up**; (7) honest about what it takes — a fair foundation, not a magic solution.
 
@@ -46,14 +46,14 @@ The founding argument, in order (manifesto chapters at /manifesto):
 **Confirmed model (2026-10-07; supersedes free-forever, flat-10%, one-time and "Pro ~₹999/month" — all wrong now):**
 - **14-day free trial on every plan** — sign up, build the academy, then pick a plan. It is a *trial*, **not a free tier**: there is no free-forever plan. **No card is needed to start the trial** (user-confirmed 2026-10-07). Still unconfirmed: what happens to the academy when a trial lapses — don't claim it.
 - **Three annual plans (prices exclude GST):** **Starter ₹6,999/yr** (10% platform fee, keep 90%, 512 GB, 1080p, 5 live hrs/month) · **Growth ₹12,999/yr** (7.5%, keep 92.5%, 1 TB, 1080p, 10 hrs) · **Pro ₹24,999/yr** (5%, keep 95%, 3 TB, 4K, 15 hrs, premium website template worth ₹10,000).
-- **Every plan:** own connected custom domain, website templates, the AllCoaching app on Android/iOS/web, marketplace discovery, UPI/card checkout, **T+3 payouts**, student CRM, separate teacher logins, data export.
+- **Every plan:** own connected custom domain, website templates, the AllCoaching app on Android/iOS/web, marketplace discovery, UPI/card checkout, **automatic payouts**, student CRM, separate teacher logins, data export.
 - Upgrades apply on payment with paid value credited; downgrades via support at next renewal; a non-renewed academy goes offline to students but content/data stay exportable. No setup fee, no monthly bill.
 - **Never** position as "cheap/cheapest LMS". The register is *simple, transparent, self-driven*: one predictable yearly plan.
 - Cost breakevens (illustrative, pre-GST): Starter is lowest below ~₹2.4L/yr sales, Growth ₹2.4–4.8L, Pro above ₹4.8L. Live pricing page: **/pricing** (`/plans` 301s there).
 - Money in ₹ only (lakhs/crores, e.g. `₹4.8L`, `₹1.2Cr`) — never `$` / "INR" / "rupees". Use **ranges**, never fabricated exact stats.
 
 ## 4. Product / feature scope (don't over-claim)
-- **Included on every plan:** branded studio, academy website from templates, own custom domain, the AllCoaching app (Android, iOS, web), live classes (5/10/15 hrs by plan), recorded courses, PDF notes, test series, UPI/card payments with T+3 payouts, student CRM, marketplace discovery, data export. **Multi-teacher institutes** are included (separate teacher logins, batch ownership; the institute handles its own internal teacher pay — no auto-split claim).
+- **Included on every plan:** branded studio, academy website from templates, own custom domain, the AllCoaching app (Android, iOS, web), live classes (5/10/15 hrs by plan), recorded courses, PDF notes, test series, UPI/card payments, student CRM, marketplace discovery, data export. **Multi-teacher institutes** are included (separate teacher logins, batch ownership; the institute handles its own internal teacher pay — no auto-split claim).
 - **Pro only:** premium website template (₹10,000 value), 4K video. There is **no** "paid tier for custom domain / advanced analytics" — that was never true.
 - **Own Google Play app:** confirmed as part of the white-label path (2026-10-08). Which plans include it is NOT confirmed — don't put it in plan tables until the user says so. Marketing tools: confirmed to exist; don't list specific tools until confirmed.
 - **UNVERIFIED — do NOT state as free-included:** video DRM / anti-piracy, GST-invoicing. Treat these as *concepts you can explain*, never as confirmed AllCoaching free features.
@@ -84,7 +84,7 @@ Full system is the `brand-system` memory + repo `brand.css`; the essentials:
 
 ## 9. Guardrails (non-negotiable)
 - **Never fabricate** stats, cohort sizes, student anecdotes, sources, or `sameAs` URLs — YMYL topic; fabrication breaks trust and suppresses AI citation.
-- **Always** state pricing per §3: 14-day free trial, then one of three annual plans. Never "free forever", "₹0 to start", "free tier", "flat 10%", "one-time fee" or "daily payouts".
+- **Always** state pricing per §3: 14-day free trial, then one of three annual plans. Never "free forever", "₹0 to start", "free tier", "flat 10%", "one-time fee" or "daily payouts". **Payouts (owner, 2026-10-17):** payouts are automatic through Razorpay; do NOT highlight payout speed (no "T+3", "paid in 3 days", "money in 3 days") as a selling point anywhere. **Traction:** 500+ educators already selling (confirmed 2026-10-15) — never claim "thousands of educators" on AllCoaching.
 - **Commit/push only when the user explicitly asks** — stage, verify, then stop and wait.
 - Keep the free vs paid vs unverified feature boundary (§4) exact.
 - New keyword/blog work must be **distinct from existing content** — verify before writing.
