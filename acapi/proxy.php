@@ -138,7 +138,8 @@ $headers = [
 ];
 $token = $_SERVER['HTTP_X_AC_TOKEN'] ?? '';
 if ($token !== '') {
-    if (!preg_match('/^[A-Za-z0-9]{20,128}$/', $token)) out(400, 'Bad session. Please start again.');
+    // Session keys are base64url (letters, digits, - and _), 43 characters today.
+    if (!preg_match('/^[A-Za-z0-9_.\-]{20,256}$/', $token)) out(400, 'Bad session. Please start again.');
     $headers[] = 'Authorization: Token ' . $token;
 }
 
