@@ -41,6 +41,9 @@ No rebuild needed for these URL options, on any page:
 - `?checkout=1` opens the checkout straight away
 - `?ref=CODE` passes a referral code to the new studio
 
+After **any change to `assets/checkout.js`**, bump `?v=` on its script tag in `build_lp.py` and
+rebuild: `/assets/*` is served with a one-year immutable cache, so browsers keep the old file.
+
 Any other page can use the checkout too: load `/assets/checkout.js` and add `data-checkout`
 (and optionally `data-plan="growth"`) to a link.
 
