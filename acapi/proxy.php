@@ -34,6 +34,11 @@ const ALLOW = [
     'login/onboarding/coupon/check' => ['POST',  'json'],
     'login/onboarding/pay/checkout' => ['POST',  'json'],
     'login/onboarding/pay/verify'   => ['POST',  'json'],
+    // An existing studio (trial running, or upgrading) buys through studio's own
+    // Settings ▸ Plan endpoints. All three need the educator's token.
+    'institute/usage/'              => ['GET',   'none'],
+    'institute/plan/checkout/'      => ['POST',  'json'],
+    'institute/plan/verify/'        => ['POST',  'json'],
 ];
 
 // Profile fields the landing checkout may write (sent upstream as multipart,

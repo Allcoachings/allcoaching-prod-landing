@@ -489,10 +489,8 @@
       save();
       identify();
       step('otp_verified', { new_studio: S.isNew });
-      if ((inst && isOnboarded(inst)) || (inst == null && d.organizations && d.organizations.length)) {
-        renderExisting();
-        return;
-      }
+      if (inst && isOnboarded(inst)) { loadExisting(false); return; }
+      if (inst == null && d.organizations && d.organizations.length) { loadExisting(true); return; }
       renderDetails();
     }).catch(function (e) {
       setBusy(btn, false);
@@ -503,13 +501,95 @@
   }
 
   // ── already has a studio ──────────────────────────────────────────────
-  function renderExisting() {
+  // A studio on its free trial can buy a plan here; a paid one can move up a plan.
+  // Reads the same /institute/usage/ studio's Settings ▸ Plan reads.
+  var EXISTING = null;
+  function loadExisting(teammate) {
+    if (teammate) { renderExisting(null); return; }
+    showWait('Checking your studio…', '');
+    api('institute/usage/').then(function (j) {
+      var u = (j && (j.data || j)) || {};
+      EXISTING = {
+        plan: validPlan(u.plan) || null,
+        onTrial: !!(u.trial && u.trial.active),
+        trialEnds: (u.trial && u.trial.ends_at) || u.plan_expires_at || null,
+        daysLeft: typeof u.plan_days_left === 'number' ? u.plan_days_left : null
+      };
+      renderExisting(EXISTING);
+    }, function (e) {
+      if (e.status === 401) { expired(); return; }
+      renderExisting(null);
+    });
+  }
+  function niceDate(s) {
+    try { return new Date(s).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }); } catch (e) { return ''; }
+  }
+  function renderExisting(ex) {
     S.step = 'existing'; progress(3);
-    body.innerHTML = '<div class="ck-done"><div class="ck-tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg></div>' +
-      '<h3 id="ck-t">You already have a studio</h3>' +
-      '<p class="sub">This number is already linked to an AllCoaching studio. Open it to keep building, or change your plan from Settings.</p>' +
-      '<button type="button" class="ck-btn" id="ck-go">Open my studio</button></div>';
-    body.querySelector('#ck-go').addEventListener('click', function () { goStudio(true); });
+    var cur = ex && ex.plan ? ORDER.indexOf(ex.plan) : -1;
+    // On trial: every plan (the trial plan itself is a first purchase, sent as renew).
+    // Paid: only plans above the current one; renewal is offered in the last 60 days.
+    var offer = !ex ? [] : ex.onTrial ? ORDER.slice()
+      : ORDER.filter(function (k, i) { return i > cur || (i === cur && ex.daysLeft != null && ex.daysLeft <= 60); });
+    var tick = '<div class="ck-tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg></div>';
+    if (!offer.length) {
+      body.innerHTML = '<div class="ck-done">' + tick +
+        '<h3 id="ck-t">You already have a studio</h3>' +
+        '<p class="sub">This number is already linked to an AllCoaching studio' + (ex && ex.plan ? ' on the ' + PLANS[ex.plan].label + ' plan' : '') + '. Open it to keep building.</p>' +
+        '<button type="button" class="ck-btn" id="ck-go">Open my studio</button></div>';
+      body.querySelector('#ck-go').addEventListener('click', function () { goStudio(true); });
+      return;
+    }
+    if (offer.indexOf(S.plan) < 0) S.plan = offer.indexOf('growth') >= 0 ? 'growth' : offer[0];
+    var rows = offer.map(function (k) {
+      var p = PLANS[k], same = ex.plan === k;
+      var tag = ex.onTrial && same ? 'Your trial plan' : (!ex.onTrial && same ? 'Renew' : (k === 'growth' ? 'Most popular' : ''));
+      return '<label class="ck-pl' + (S.plan === k ? ' on' : '') + '">' + (tag ? '<span class="tg">' + tag + '</span>' : '') +
+        '<input type="radio" name="ck-plan" value="' + k + '"' + (S.plan === k ? ' checked' : '') + '/>' +
+        '<span><b>' + p.label + '</b><small>Keep ' + p.keep + ' of every sale · ' + p.meta + '</small></span>' +
+        '<span class="p">' + rs(p.fee) + '<small>/yr</small></span></label>';
+    }).join('');
+    var title = ex.onTrial ? 'Your free trial is running' : ex.plan ? 'Move up a plan' : 'Choose your plan';
+    var sub = ex.onTrial
+      ? 'Pick a plan to keep your academy live' + (ex.trialEnds ? ' after ' + esc(niceDate(ex.trialEnds)) : '') + '. Your year starts today.'
+      : ex.plan ? 'You’re on ' + PLANS[ex.plan].label + '. Upgrade now and what you already paid this year is credited.'
+      : 'Pick a plan for your studio. Your year starts today.';
+    body.innerHTML = '<h3 id="ck-t">' + title + '</h3><p class="sub">' + sub + '</p>' +
+      '<div class="ck-err" role="alert"></div>' +
+      '<div class="ck-plans" role="radiogroup" aria-label="Plan">' + rows + '</div>' +
+      '<p class="ck-fine">You’ll see the final amount, including any tax and any credit, on the payment screen before you pay.</p>' +
+      '<button type="button" class="ck-btn" id="ck-pay">Continue to secure payment</button>' +
+      '<button type="button" class="ck-btn sec" id="ck-open">Open my studio instead</button>' +
+      '<div class="ck-trust"><span>Razorpay: UPI, cards, netbanking</span><span>Same studio, nothing to set up again</span></div>';
+    var radios = body.querySelectorAll('input[name="ck-plan"]');
+    for (var i = 0; i < radios.length; i++) radios[i].addEventListener('change', function () {
+      S.plan = this.value;
+      var all = body.querySelectorAll('.ck-pl');
+      for (var j = 0; j < all.length; j++) all[j].classList.toggle('on', all[j].querySelector('input').checked);
+    });
+    body.querySelector('#ck-open').addEventListener('click', function () { goStudio(true); });
+    body.querySelector('#ck-pay').addEventListener('click', function () {
+      if (busy) return;
+      var btn = this, tier = S.plan;
+      setErr('');
+      setBusy(btn, true, 'Opening payment…');
+      preloadRzp();
+      payPlan(tier, ex.plan === tier, ex.onTrial).then(function (r) {
+        if (!r.paid) {
+          setBusy(btn, false);
+          setErr('Payment not completed. You can pay whenever you’re ready.');
+          step('payment_dismissed', { existing: true });
+          return;
+        }
+        r.category = ex.onTrial ? 'Studio activation' : 'Studio upgrade';
+        finish(r, false, tier);
+      }).catch(function (e) {
+        setBusy(btn, false);
+        if (e.status === 401) { expired(); return; }
+        setErr(e.message || 'Something went wrong. Please try again.');
+        step('error', { at: 'plan_pay', error: String(e.message).slice(0, 100) });
+      });
+    });
   }
 
   // ── step 2: name + academy ────────────────────────────────────────────
@@ -688,54 +768,69 @@
     }
     return rzpLoading;
   }
+  // New studio: studio's payOnboardingFee (order → Razorpay → verify).
   function pay(tier, claim) {
     var req = { tier: tier };
     if (COUPON) req.code = COUPON;
-    return api('login/onboarding/pay/checkout', req,'Couldn’t open the payment window. Please try again.').then(function (j) {
+    return api('login/onboarding/pay/checkout', req, 'Couldn’t open the payment window. Please try again.').then(function (j) {
       var order = j.data || {};
       if (order.waived) return { paid: true, amountPaise: 0, waived: true };
-      if (!order.order_id || !order.key_id) throw new Error('Couldn’t open the payment window. Please try again.');
-      return preloadRzp().then(function (ok) {
-        if (!ok || !window.Razorpay) throw new Error('Couldn’t load the payment window. Check your connection and try again.');
-        var value = (order.amount || claim.fee_paise || 0) / 100;
-        push('add_payment_info', { value: value, currency: 'INR', content_name: PLANS[tier].label + ' plan', page: PAGE, vertical: VERTICAL || undefined });
-        step('payment_open', { value: value });
-        return new Promise(function (resolve, reject) {
-          var rz = new window.Razorpay({
-            key: order.key_id,
-            order_id: order.order_id,
-            amount: order.amount,
-            currency: order.currency || 'INR',
-            name: order.label ? 'AllCoaching · ' + order.label + ' plan' : 'AllCoaching Studio',
-            description: order.label ? order.label + ' plan · one year of studio' : 'Studio activation',
-            prefill: { name: S.name || undefined, contact: S.phone || undefined, email: eduEmail() },
-            theme: { color: '#2B44FF' },
-            handler: function (resp) {
-              showWait('Confirming your payment…', 'Please don’t close this window.');
-              api('login/onboarding/pay/verify', {
-                razorpay_order_id: resp.razorpay_order_id,
-                razorpay_payment_id: resp.razorpay_payment_id,
-                razorpay_signature: resp.razorpay_signature
-              }, 'We received your payment but could not confirm it yet. Please contact us on WhatsApp with your payment id ' + resp.razorpay_payment_id + '.').then(function (v) {
-                var d = v.data || {};
-                if (!d.paid) {
-                  renderPlan();
-                  reject(new Error('We received your payment but could not confirm it yet. Please contact us on WhatsApp with your payment id ' + resp.razorpay_payment_id + '.'));
-                  return;
-                }
-                resolve({ paid: true, paymentId: resp.razorpay_payment_id, orderId: resp.razorpay_order_id, amountPaise: order.amount, tier: order.tier || tier, label: order.label });
-              }, function (e) {
-                renderPlan();
-                reject(e);
-              });
-            },
-            modal: { ondismiss: function () { resolve({ paid: false }); }, confirm_close: true }
-          });
-          rz.on && rz.on('payment.failed', function (r) {
-            step('error', { at: 'razorpay', error: (r && r.error && r.error.description || 'payment failed').slice(0, 100) });
-          });
-          rz.open();
+      return openRazorpay(order, tier, claim.fee_paise, 'login/onboarding/pay/verify',
+        function (d) { return !!d.paid; }, renderPlan,
+        order.label ? order.label + ' plan · one year of studio' : 'Studio activation');
+    });
+  }
+
+  // Studio that already exists (trial running, or a paid plan to upgrade or renew):
+  // studio's own upgradeStudioPlan (institute/plan/checkout → Razorpay → institute/plan/verify).
+  // The server prices it: full year for a trial conversion or renewal, credited difference
+  // for an upgrade.
+  function payPlan(tier, renew, onTrial) {
+    return api('institute/plan/checkout/', { tier: tier, renew: !!renew }, 'Couldn’t open the payment window. Please try again.').then(function (j) {
+      var order = j.data || {};
+      var desc = onTrial ? (order.label || PLANS[tier].label) + ' — your first year'
+        : renew ? 'Renew ' + (order.label || PLANS[tier].label) + ' — one more year'
+        : 'Upgrade to ' + (order.label || PLANS[tier].label) + ' — one year';
+      return openRazorpay(order, tier, PLANS[tier].fee, 'institute/plan/verify/',
+        function (d) { return !!d.plan; }, function () { renderExisting(EXISTING); }, desc);
+    });
+  }
+
+  function openRazorpay(order, tier, fallbackPaise, verifyPath, verified, onFail, description) {
+    if (!order.order_id || !order.key_id) return Promise.reject(new Error('Couldn’t open the payment window. Please try again.'));
+    return preloadRzp().then(function (ok) {
+      if (!ok || !window.Razorpay) throw new Error('Couldn’t load the payment window. Check your connection and try again.');
+      var value = (order.amount || fallbackPaise || 0) / 100;
+      push('add_payment_info', { value: value, currency: 'INR', content_name: PLANS[tier].label + ' plan', page: PAGE, vertical: VERTICAL || undefined });
+      step('payment_open', { value: value, existing: !!EXISTING });
+      return new Promise(function (resolve, reject) {
+        var rz = new window.Razorpay({
+          key: order.key_id,
+          order_id: order.order_id,
+          amount: order.amount,
+          currency: order.currency || 'INR',
+          name: order.label ? 'AllCoaching · ' + order.label + ' plan' : 'AllCoaching Studio',
+          description: description,
+          prefill: { name: S.name || undefined, contact: S.phone || undefined, email: eduEmail() },
+          theme: { color: '#2B44FF' },
+          handler: function (resp) {
+            showWait('Confirming your payment…', 'Please don’t close this window.');
+            var stuck = 'We received your payment but could not confirm it yet. Please contact us on WhatsApp with your payment id ' + resp.razorpay_payment_id + '.';
+            api(verifyPath, {
+              razorpay_order_id: resp.razorpay_order_id,
+              razorpay_payment_id: resp.razorpay_payment_id,
+              razorpay_signature: resp.razorpay_signature
+            }, stuck).then(function (v) {
+              if (!verified(v.data || {})) { onFail(); reject(new Error(stuck)); return; }
+              resolve({ paid: true, paymentId: resp.razorpay_payment_id, orderId: resp.razorpay_order_id, amountPaise: order.amount, tier: order.tier || (v.data && v.data.plan) || tier, label: order.label });
+            }, function (e) { onFail(); reject(e); });
+          },
+          modal: { ondismiss: function () { resolve({ paid: false }); }, confirm_close: true }
         });
+        rz.on && rz.on('payment.failed', function (r) {
+          step('error', { at: 'razorpay', error: (r && r.error && r.error.description || 'payment failed').slice(0, 100) });
+        });
+        rz.open();
       });
     });
   }
@@ -748,11 +843,14 @@
   function finish(paid, startedTrial, tier) {
     busy = true;
     showWait('Opening your studio…', '');
-    // Final profile flush, as studio does after payment (best effort).
+    // Final profile flush, as studio does after payment (best effort). Never for a studio
+    // that already existed: its name and subject are the educator's, not this page's.
     var flush = {};
-    if (S.name) flush.director_name = S.name;
-    if (S.academy) flush.name = S.academy;
-    if (VERTICAL) flush.vertical = VERTICAL;
+    if (!EXISTING && S.saved !== undefined) {
+      if (S.name) flush.director_name = S.name;
+      if (S.academy) flush.name = S.academy;
+      if (VERTICAL) flush.vertical = VERTICAL;
+    }
     var flushed = Object.keys(flush).length ? api('login/update', flush).catch(function () {}) : Promise.resolve();
     flushed.then(function () {
       identify();
@@ -771,7 +869,7 @@
             event_id: txn,
             value: (paid.amountPaise || 0) / 100,
             currency: 'INR',
-            content_category: 'Studio activation',
+            content_category: paid.category || 'Studio activation',
             content_name: PLANS[paid.tier] ? PLANS[paid.tier].label + ' plan' : 'Studio plan',
             external_id: id,
             user_email: email,
@@ -816,8 +914,13 @@
 
   function renderDone(trial, paid) {
     progress(3);
-    var title = trial ? 'Your 14-day trial has started' : 'Payment received. Your studio is open.';
-    var sub = trial ? 'Nothing was charged. Taking you to your studio to add your first course.' : 'Taking you to your studio to add your first course.';
+    var realPay = paid && paid.paid && !paid.waived;
+    var title = trial ? 'Your 14-day trial has started'
+      : realPay ? 'Payment received. Your studio is open.'
+      : 'Your studio is open';
+    var sub = trial ? 'Nothing was charged. Taking you to your studio to add your first course.'
+      : EXISTING ? 'Taking you to your studio.'
+      : 'Taking you to your studio to add your first course.';
     body.innerHTML = '<div class="ck-done"><div class="ck-tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg></div>' +
       '<h3 id="ck-t">' + title + '</h3><p class="sub">' + sub + '</p>' +
       (paid && paid.paymentId ? '<p class="ck-fine">Payment id: ' + esc(paid.paymentId) + '</p>' : '') +
@@ -845,7 +948,7 @@
   }
 
   function expired() {
-    S.token = null; S.auth = null; S.step = 'phone'; save();
+    S.token = null; S.auth = null; S.step = 'phone'; EXISTING = null; save();
     renderPhone();
     setErr('Your session expired. Please verify your number again.');
   }
