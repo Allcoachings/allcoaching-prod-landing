@@ -338,6 +338,7 @@
     var bars = ov.querySelectorAll('.ck-pr i');
     for (var i = 0; i < bars.length; i++) bars[i].classList.toggle('on', i < n);
   }
+  var opened = false;
   function open(plan, where) {
     mount();
     if (validPlan(plan)) S.plan = plan;
@@ -346,6 +347,16 @@
     ov.style.display = 'flex';
     requestAnimationFrame(function () { ov.classList.add('on'); });
     step('open', { where: where || '' });
+    // Meta InitiateCheckout / GA4 begin_checkout: once per page view, valued at the plan on screen.
+    if (!opened) {
+      opened = true;
+      var p0 = PLANS[S.plan];
+      push('begin_checkout', {
+        event_id: 'ic_' + uuid(), value: p0.fee / 100, currency: 'INR',
+        content_ids: [p0.key], content_name: p0.label + ' plan', content_type: 'product', num_items: 1,
+        where: where || '', page: PAGE, vertical: VERTICAL || undefined
+      });
+    }
     loadPricing();
     if (S.token && S.step === 'plan') renderPlan();
     else if (S.token && S.step === 'details') renderDetails();
@@ -489,6 +500,17 @@
       save();
       identify();
       step('otp_verified', { new_studio: S.isNew });
+      // Meta Lead: a new educator verified their number. event_id = user id, the same id the
+      // server-side CAPI Lead (LoginVerifyView) and studio's own lead_complete send, so all
+      // three collapse into one Lead in Meta.
+      var lid = u.id != null ? String(u.id) : '';
+      if (S.isNew && lid && once('lead|' + lid)) {
+        push('lead_complete', {
+          lead_id: lid, event_id: lid, content_category: 'General', content_name: 'Educator signup',
+          vertical: VERTICAL || undefined, user_email: u.email || undefined, user_phone: S.phone,
+          ac_attribution: attribution(), page: PAGE
+        });
+      }
       if (inst && isOnboarded(inst)) { loadExisting(false); return; }
       if (inst == null && d.organizations && d.organizations.length) { loadExisting(true); return; }
       renderDetails();
@@ -631,6 +653,15 @@
         S.saved = true; save();
         step('details_saved');
         identify();
+        // Meta CompleteRegistration: the new studio now has a name and an academy.
+        var rid = eduId();
+        if (S.isNew && rid && once('reg|' + rid)) {
+          push('sign_up', {
+            event_id: 'reg_' + rid, method: 'phone_otp', educator_id: rid, subject: VERTICAL || undefined,
+            content_name: 'Studio created', status: 'registered', currency: 'INR', value: 0,
+            user_data: { email: eduEmail(), phone: S.phone }, ac_attribution: attribution(), page: PAGE
+          });
+        }
         setBusy(go, false);
         renderPlan();
       }, function (e) {
@@ -808,7 +839,11 @@
     return preloadRzp().then(function (ok) {
       if (!ok || !window.Razorpay) throw new Error('Couldn’t load the payment window. Check your connection and try again.');
       var value = (order.amount || fallbackPaise || 0) / 100;
-      push('add_payment_info', { value: value, currency: 'INR', content_name: PLANS[tier].label + ' plan', page: PAGE, vertical: VERTICAL || undefined });
+      push('add_payment_info', {
+        event_id: 'api_' + order.order_id, value: value, currency: 'INR',
+        content_ids: [tier], content_name: PLANS[tier].label + ' plan', content_type: 'product', num_items: 1,
+        page: PAGE, vertical: VERTICAL || undefined
+      });
       step('payment_open', { value: value, existing: !!EXISTING });
       return new Promise(function (resolve, reject) {
         var rz = new window.Razorpay({
@@ -878,6 +913,9 @@
             currency: 'INR',
             content_category: paid.category || 'Studio activation',
             content_name: PLANS[paid.tier] ? PLANS[paid.tier].label + ' plan' : 'Studio plan',
+            content_ids: [PLANS[paid.tier] ? paid.tier : 'plan'],
+            content_type: 'product',
+            num_items: 1,
             external_id: id,
             user_email: email,
             user_phone: S.phone,
@@ -889,25 +927,22 @@
         }
       }
 
-      // Signup conversions — only for a studio this flow created (studio's !isReturning).
       if (last) push(last[0], last[1]);   // purchase_complete leads, as in studio
       last = null;
+      // Lead and CompleteRegistration already went out at OTP and at the details step.
       if (S.isNew && id && once('signup|' + id)) {
         push('studio_signup_complete', {
           educator_id: id, plan: paid ? (paid.tier || tier) : tier, subject: VERTICAL || undefined,
           trial: startedTrial, user_data: userData, event_id: uuid(), ac_attribution: attr, page: PAGE
         });
-        push('sign_up', {
-          method: 'phone_otp', educator_id: id, subject: VERTICAL || undefined, plan: paid ? (paid.tier || tier) : tier,
-          user_data: userData, event_id: uuid(), ac_attribution: attr, page: PAGE
+      }
+      // Meta StartTrial: valued at zero, with the plan it converts to as predicted_ltv.
+      if (startedTrial && id && once('trial|' + id)) {
+        push('start_trial', {
+          event_id: 'trial_' + id, educator_id: id, plan: 'starter', value: 0, currency: 'INR',
+          predicted_ltv: PLANS.starter.fee / 100, content_ids: ['starter'], content_name: 'Starter plan trial',
+          subject: VERTICAL || undefined, user_data: userData, ac_attribution: attr, page: PAGE
         });
-        push('lead_complete', {
-          lead_id: id, event_id: id, content_category: 'General', vertical: VERTICAL || undefined,
-          user_email: email, user_phone: S.phone, ac_attribution: attr, page: PAGE
-        });
-        if (startedTrial) {
-          push('start_trial', { educator_id: id, plan: 'starter', subject: VERTICAL || undefined, user_data: userData, ac_attribution: attr, page: PAGE });
-        }
       }
 
       // GTM fires tags in dataLayer order, so a callback on this LAST push runs only after

@@ -385,7 +385,7 @@ ${css}
 </style>
 <script>window.AC_CHECKOUT=${cfg};</script>
 <script src="/assets/attribution.js?v=1" defer></script>
-<script src="/assets/checkout.js?v=4" defer></script>
+<script src="/assets/checkout.js?v=5" defer></script>
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
