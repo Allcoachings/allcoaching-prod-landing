@@ -396,18 +396,18 @@
       '<div class="ck-err" role="alert"></div>' +
       '<label class="l" for="ck-ph">Mobile number</label>' +
       '<div class="ck-in"><span>+91</span><input id="ck-ph" type="tel" inputmode="numeric" autocomplete="tel-national" maxlength="10" placeholder="10-digit mobile number" value="' + esc(S.phone || '') + '"/></div>' +
-      '<label class="ck-chk"><input type="checkbox" id="ck-tc"/><span>I agree to the <a href="/terms" target="_blank" rel="noopener">Terms &amp; Conditions</a> and <a href="/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</span></label>' +
+      '<p class="ck-fine" style="margin:0 0 14px">By continuing you agree to the <a href="/terms" target="_blank" rel="noopener" style="color:#2B44FF">Terms &amp; Conditions</a> and <a href="/privacy" target="_blank" rel="noopener" style="color:#2B44FF">Privacy Policy</a>.</p>' +
       '<button type="button" class="ck-btn" id="ck-go">Send OTP</button>' +
       '<div class="ck-trust"><span>No card needed to sign up</span><span>Secure payment by Razorpay</span></div>';
     bindPlansLink();
-    var ph = body.querySelector('#ck-ph'), tc = body.querySelector('#ck-tc'), go = body.querySelector('#ck-go');
+    var ph = body.querySelector('#ck-ph'), go = body.querySelector('#ck-go');
     ph.addEventListener('input', function () { ph.value = ph.value.replace(/\D/g, '').slice(0, 10); setErr(''); });
     ph.addEventListener('keydown', function (e) { if (e.key === 'Enter') go.click(); });
     go.addEventListener('click', function () {
       if (busy) return;
       var v = ph.value.replace(/\D/g, '');
       if (!/^[6-9]\d{9}$/.test(v)) { setErr('Enter a valid 10-digit mobile number.'); ph.focus(); return; }
-      if (!tc.checked) { setErr('Please accept the Terms and Privacy Policy to continue.'); return; }
+      setErr('');
       sendOtp(v, go);
     });
     setTimeout(function () { ph.focus(); }, 60);
