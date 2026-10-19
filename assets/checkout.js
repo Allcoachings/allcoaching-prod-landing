@@ -532,12 +532,19 @@
     var offer = !ex ? [] : ex.onTrial ? ORDER.slice()
       : ORDER.filter(function (k, i) { return i > cur || (i === cur && ex.daysLeft != null && ex.daysLeft <= 60); });
     var tick = '<div class="ck-tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg></div>';
+    var team = !ex && S.auth && S.auth.organizations && S.auth.organizations.length && S.auth.organizations[0].role !== 'owner'
+      ? S.auth.organizations[0] : null;
     if (!offer.length) {
       body.innerHTML = '<div class="ck-done">' + tick +
-        '<h3 id="ck-t">You already have a studio</h3>' +
-        '<p class="sub">This number is already linked to an AllCoaching studio' + (ex && ex.plan ? ' on the ' + PLANS[ex.plan].label + ' plan' : '') + '. Open it to keep building.</p>' +
+        '<h3 id="ck-t">' + (team ? 'This number is a team login' : 'You already have a studio') + '</h3>' +
+        '<p class="sub">' + (team
+          ? 'It is a teacher login on ' + esc(team.name || 'another academy') + '. Plans are bought by the academy owner. To start your own academy, use a different mobile number.'
+          : 'This number is already linked to an AllCoaching studio' + (ex && ex.plan ? ' on the ' + PLANS[ex.plan].label + ' plan' : '') + '. Open it to keep building.') + '</p>' +
+        (team ? '<button type="button" class="ck-btn sec" id="ck-new" style="margin:0 0 10px">Use a different number</button>' : '') +
         '<button type="button" class="ck-btn" id="ck-go">Open my studio</button></div>';
       body.querySelector('#ck-go').addEventListener('click', function () { goStudio(true); });
+      var nb = body.querySelector('#ck-new');
+      if (nb) nb.addEventListener('click', function () { S.token = null; S.auth = null; S.phone = ''; EXISTING = null; save(); renderPhone(); });
       return;
     }
     if (offer.indexOf(S.plan) < 0) S.plan = offer.indexOf('growth') >= 0 ? 'growth' : offer[0];
