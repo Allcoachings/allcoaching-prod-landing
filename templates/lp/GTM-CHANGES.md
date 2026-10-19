@@ -29,22 +29,11 @@ Optional, for X: Tags → **X Pixel - Checkout start** → add firing trigger **
 
 ## 3. Tag "Meta Pixel - Lead": fire on every site, with the dedup id
 
-Replace the whole HTML with:
-
-```html
-<script>
-(function () {
-  if (typeof fbq !== 'function') return;
-  var id = {{DLV - event_id}};
-  var p = { content_category: {{DLV - content_category}} || 'General', content_name: 'Educator signup' };
-  id ? fbq('track', 'Lead', p, { eventID: String(id) }) : fbq('track', 'Lead', p);
-})();
-</script>
-```
-
-Why: the old code only ran on join.allcoaching.in, so no Meta Lead came from studio or the
-landing pages. The id is the user id, the same one the server CAPI Lead sends, so Meta merges
-the browser and server Lead into one.
+Done in the Default Workspace on 2026-10-19. The tag now runs on every hostname (the old code
+returned early unless the hostname was join.allcoaching.in), takes its eventID from the latest
+`lead` or `lead_complete` event in the dataLayer (the user id, same as the server CAPI Lead),
+re-inits the pixel with the latest `user_identified` fields for advanced matching, and sends
+`Lead` with content_category 'General'.
 
 ## 4. Tag "Meta Pixel - Purchase": send the plan with the value
 
