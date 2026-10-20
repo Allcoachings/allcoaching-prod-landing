@@ -614,8 +614,23 @@
       renderOtp();
     }, function (e) {
       setBusy(btn, false);
+      step('error', { at: 'otp_send', error: String(e.message).slice(0, 100), status: e.status });
+      // The SMS service itself failed (5xx): say so plainly and give a way to reach us,
+      // so the educator is not left with a dead button.
+      if (!e.status || e.status >= 500) {
+        setErr('We couldn’t send the code right now. Please try again in a minute.');
+        var box = body.querySelector('.ck-err');
+        if (box) {
+          var wa = document.createElement('a');
+          wa.href = 'https://api.whatsapp.com/send/?phone=919889977262&text=' + encodeURIComponent('Hi, I want to start my AllCoaching studio. The OTP did not arrive on +91 ' + phone + '.');
+          wa.target = '_blank'; wa.rel = 'noopener';
+          wa.textContent = 'Or start on WhatsApp →';
+          wa.style.cssText = 'display:block;margin-top:6px;font-weight:600;color:#9B2C2C';
+          box.appendChild(wa);
+        }
+        return;
+      }
       setErr(e.message);
-      step('error', { at: 'otp_send', error: e.message.slice(0, 100) });
     });
   }
 
