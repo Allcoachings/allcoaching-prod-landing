@@ -591,7 +591,7 @@
       '<div class="ck-in"><span>+91</span><input id="ck-ph" type="tel" inputmode="numeric" autocomplete="tel-national" maxlength="10" placeholder="10-digit mobile number" value="' + esc(S.phone || '') + '"/></div>' +
       '<p class="ck-fine" style="margin:0 0 14px">By continuing you agree to the <a href="/terms" target="_blank" rel="noopener" style="color:#2B44FF">Terms &amp; Conditions</a> and <a href="/privacy" target="_blank" rel="noopener" style="color:#2B44FF">Privacy Policy</a>.</p>' +
       '<button type="button" class="ck-btn" id="ck-go">Send OTP</button>' +
-      '<div class="ck-trust"><span>No card needed to sign up</span><span>Secure payment by Razorpay</span></div>';
+      '<div class="ck-trust"><span>Takes about a minute</span><span>Secure payment by Razorpay</span></div>';
     bindPlansLink();
     var ph = body.querySelector('#ck-ph'), go = body.querySelector('#ck-go');
     ph.addEventListener('input', function () { ph.value = ph.value.replace(/\D/g, '').slice(0, 10); setErr(''); });
