@@ -84,6 +84,7 @@
   function clearSaved() { try { sessionStorage.removeItem(SKEY); } catch (e) {} }
 
   // ── helpers ─────────────────────────────────────────────────────────────
+  function gb(bytes) { var g = bytes / 1073741824; return g >= 1024 ? (Math.round(g / 102.4) / 10) + ' TB' : Math.round(g) + ' GB'; }
   function rs(paise) { return '₹' + Math.round(paise / 100).toLocaleString('en-IN'); }
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function uuid() {
@@ -1002,11 +1003,23 @@
     pricingLoaded = true;
     api('login/onboarding/pricing').then(function (j) {
       var d = j.data || {};
+      // Plans change on the server, so everything shown about them comes from here: price,
+      // share kept, storage, video quality, live hours. The built-in list is only a fallback.
       (d.plans || []).forEach(function (p) {
         if (!PLANS[p.key]) return;
-        if (p.signup_paise || p.fee_paise) PLANS[p.key].fee = p.signup_paise || p.fee_paise;
+        var P = PLANS[p.key];
+        if (p.signup_paise || p.fee_paise) P.fee = p.signup_paise || p.fee_paise;
+        if (p.label) P.label = p.label;
+        if (typeof p.commission_pct === 'number') { P.keep = (100 - p.commission_pct) + '%'; P.fee_pct = p.commission_pct + '%'; }
+        var bits = [];
+        if (p.storage_bytes) bits.push(gb(p.storage_bytes));
+        if (p.video_max) bits.push(/4k/i.test(p.video_max) ? '4K' : p.video_max);
+        if (p.live_hours_month) bits.push(p.live_hours_month + ' live hrs/month');
+        if (p.premium_template) bits.push('premium template');
+        if (bits.length) P.meta = bits.join(' · ');
       });
-      if (S.step === 'plan') paint();
+      window.AC_PLANS = PLANS;
+      if (S.step === 'plan' && !busy) renderPlan();
       var sum = body && body.querySelector('.ck-sum span');
       if (sum) sum.innerHTML = '<b>' + PLANS[S.plan].label + ' plan</b> · ' + rs(PLANS[S.plan].fee) + '/year';
     }, function () { pricingLoaded = false; });
