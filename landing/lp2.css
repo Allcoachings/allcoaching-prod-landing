@@ -265,3 +265,15 @@ main,.foot{position:relative;z-index:1}
 @media (max-width:920px){.orb-sec .vis2{grid-template-columns:1fr}.steps.s5{grid-template-columns:1fr 1fr 1fr}}
 @media (max-width:640px){.orbit{max-width:262px}.core b{font-size:15px}.core small{font-size:8.5px}.incl{grid-template-columns:1fr}.steps.s5{grid-template-columns:1fr}.chip{font-size:11.5px;padding:5px 10px 5px 5px}.chip i{width:22px;height:22px}}
 @media (prefers-reduced-motion:reduce){.bgsk [pathLength]{stroke-dashoffset:0}.bgsk text{opacity:1}.chip{transform:translate(-50%,-50%)}}
+
+/* skills: niche illustrations */
+.niche-sec{padding-bottom:40px}
+.niche{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:42px}
+.nc{display:flex;flex-direction:column;align-items:center;text-align:center}
+.nc img{width:100%;max-width:230px;height:220px;object-fit:contain;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.nc:hover img{transform:translateY(-6px) scale(1.02)}
+.nc b{font-size:17px;letter-spacing:-.01em;margin-top:14px}
+.nc small{font-size:14px;color:var(--ink3);margin-top:3px}
+.js .nc.rv:nth-child(2){transition-delay:.1s}.js .nc.rv:nth-child(3){transition-delay:.2s}.js .nc.rv:nth-child(4){transition-delay:.3s}
+@media (max-width:920px){.niche{grid-template-columns:1fr 1fr;gap:28px 14px}.nc img{height:170px}}
+@media (max-width:640px){.nc img{height:140px}.nc b{font-size:15.5px}.nc small{font-size:13px}}
