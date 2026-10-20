@@ -1028,6 +1028,9 @@
       if (!a) return;
       if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
       e.preventDefault();
+      // A page can let the educator pick their subject first (data-vertical on the button).
+      var v = a.getAttribute('data-vertical');
+      if (v && VERTICALS.indexOf(v) >= 0) VERTICAL = v;
       open(a.getAttribute('data-plan'), a.getAttribute('data-where'));
     });
     // Resume after a refresh mid-checkout (e.g. the OTP SMS took the educator away).
