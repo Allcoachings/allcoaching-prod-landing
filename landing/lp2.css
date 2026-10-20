@@ -198,3 +198,70 @@ section{padding:84px 0}
 .scr .it b{display:block;font-size:11.5px}.scr .it small{color:var(--ink3);font-size:10px}
 .scr .it em{margin-left:auto;font-style:normal;font-weight:700;font-size:11.5px}
 .scr .buy{margin:auto 14px 14px;background:var(--blue);color:#fff;border-radius:11px;text-align:center;padding:10px;font-weight:700;font-size:12px}
+
+/* ── v2.1 premium layer ─────────────────────────────────────────────────── */
+/* hero right side: the studio's own branding setup, on a loop (/assets/studio-anim.js) */
+.stage.st2{height:auto;min-height:0;padding:10px 0 20px}
+.stage.st2 .sa{position:relative;z-index:1}
+.stage.st2 .toast{z-index:2}
+.stage.st2 .t1{top:auto;bottom:-6px;left:-18px}
+[data-studio-anim]:empty{width:100%;max-width:580px;aspect-ratio:1.38;border-radius:18px;background:#F4F6FB}
+
+/* full-page hand-drawn niche sketches: they draw themselves as you scroll */
+body{position:relative}
+main,.foot{position:relative;z-index:1}
+.alt{background:rgba(247,248,252,.8)}
+.bgsk{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.bgsk .d{position:absolute;will-change:transform}
+.bgsk svg{width:100%;height:100%;overflow:visible;fill:none;stroke:#3A4A9F;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;opacity:.12;filter:url(#hd);transform:rotate(var(--r,0deg));animation:skfloat 12s ease-in-out infinite}
+.bgsk .hdf{position:absolute;width:0;height:0}
+.bgsk .d:nth-child(2n) svg{animation-delay:-3s;animation-duration:12s}.bgsk .d:nth-child(3n) svg{animation-delay:-6s}
+.bgsk [pathLength]{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 2.6s cubic-bezier(.6,.1,.3,1)}
+.bgsk .d.in [pathLength]{stroke-dashoffset:0}
+.bgsk text{fill:#3A4A9F;stroke:none;font-family:"Caveat","Segoe Print","Bradley Hand",cursive;font-weight:600;opacity:0;transition:opacity 1.2s .9s}
+.bgsk .d.in text{opacity:1}
+.bgsk .f{fill:#3A4A9F;stroke:none}
+@keyframes skfloat{50%{transform:rotate(var(--r,0deg)) translateY(-10px)}}
+@media (max-width:1180px){.bgsk svg{opacity:.09}}
+@media (max-width:640px){.bgsk svg{opacity:.06}.bgsk .d{max-width:110px;max-height:110px}}
+
+/* everything included, with the tools orbiting the studio */
+.orb-sec{overflow:hidden}
+.orb-sec .vis2{grid-template-columns:1.02fr .98fr}
+.incl{list-style:none;padding:0;margin:26px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:18px 22px}
+.incl li{display:flex;gap:12px;align-items:flex-start;font-size:inherit}
+.vis2 .incl li::before{display:none}
+.incl .ic{flex:none;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--sky);color:var(--blue)}
+.incl .ic svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.incl b{display:block;font-size:15.5px;letter-spacing:-.01em}
+.incl small{display:block;font-size:13.5px;color:var(--ink3);line-height:1.4;margin-top:2px}
+.orbit{position:relative;width:100%;max-width:440px;aspect-ratio:1;margin:0 auto}
+.orbit::before{content:"";position:absolute;inset:22%;border-radius:50%;background:radial-gradient(closest-side,#DCE4FF,rgba(220,228,255,0));animation:breathe 7s ease-in-out infinite}
+.ring{position:absolute;border:1.5px dashed #D3D9F5;border-radius:50%;animation:spin 60s linear infinite}
+.ring.r1{inset:21%}.ring.r2{inset:2%}
+.pt{position:absolute;width:0;height:0}
+.chip{position:absolute;left:0;top:0;display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 13px 7px 7px;font-weight:600;font-size:13px;white-space:nowrap;box-shadow:0 14px 30px -18px rgba(15,25,120,.45);transform:translate(-50%,-50%);animation:cspin 60s linear infinite}
+@keyframes cspin{from{transform:translate(-50%,-50%) rotate(0)}to{transform:translate(-50%,-50%) rotate(-360deg)}}
+.chip i{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;color:#fff;font-style:normal;font-weight:700;font-size:12px}
+.chip i svg{width:14px;height:14px;fill:currentColor}
+.core{position:absolute;inset:37%;border-radius:28px;background:radial-gradient(120% 140% at 0% 0%,#3C55FF 0%,#2337E0 45%,#14209E 100%);box-shadow:0 30px 60px -24px rgba(20,32,158,.7);display:grid;place-items:center;text-align:center;color:#fff}
+.core b{font-family:var(--dp);font-style:italic;font-weight:400;font-size:clamp(17px,2.2vw,22px);line-height:1}
+.core small{display:block;font-size:10.5px;opacity:.75;margin-top:4px;letter-spacing:.08em;text-transform:uppercase}
+.more{text-align:center;font-size:13px;color:var(--ink3);margin-top:8px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* five steps, like opening an online store */
+.steps.s5{grid-template-columns:repeat(5,1fr);gap:14px}
+.steps.s5::before,.steps.s5::after{left:10%;right:10%}
+.steps.s5 .st:nth-child(4) .n{transition-delay:1.5s}.steps.in.s5 .st:nth-child(4) .n{transition-delay:1.5s}.steps.in.s5 .st:nth-child(5) .n{transition-delay:2s}
+.steps.s5 .st b{font-size:16.5px}.steps.s5 .st p{font-size:14px}
+
+/* plan cards: shared list and best value tag */
+.plan .tag.bv{background:linear-gradient(90deg,#06B6D4,#2B44FF)}
+.plan li{display:flex;gap:8px}.plan li::before{content:"\2713";color:var(--green);font-weight:700}
+.plan .hr{border-top:1px dashed var(--line);margin:4px 0}
+.plan .hr::before{display:none}
+
+@media (max-width:920px){.orb-sec .vis2{grid-template-columns:1fr}.steps.s5{grid-template-columns:1fr 1fr 1fr}}
+@media (max-width:640px){.orbit{max-width:262px}.core b{font-size:15px}.core small{font-size:8.5px}.incl{grid-template-columns:1fr}.steps.s5{grid-template-columns:1fr}.chip{font-size:11.5px;padding:5px 10px 5px 5px}.chip i{width:22px;height:22px}}
+@media (prefers-reduced-motion:reduce){.bgsk [pathLength]{stroke-dashoffset:0}.bgsk text{opacity:1}.chip{transform:translate(-50%,-50%)}}

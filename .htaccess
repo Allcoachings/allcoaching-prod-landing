@@ -46,7 +46,10 @@ ErrorDocument 500 /404.html
   RewriteRule ^partners/?$ /about [R=301,L,NE]
   RewriteRule ^transparency/?$ /pricing [R=301,L,NE]
   RewriteRule ^plans(?:\.html)?/?$ /pricing [R=301,L,NE]
-  RewriteRule ^onboarding(?:hing2|hinglish)(?:\.html)?/?$ /onboarding2 [R=301,L,NE]
+  # 301 — old /onboarding pages (removed 2026-10-21) → the /landing pages and /pricing; query strings (UTMs) carry over
+  RewriteRule ^onboarding-jee-neet(?:\.html)?/?$ /landing/jee-neet [R=301,L,NE]
+  RewriteRule ^onboarding-skills(?:\.html)?/?$ /landing/skills [R=301,L,NE]
+  RewriteRule ^onboarding(?:-competitive-exams|-school-tuition|2|hing2|hinglish)?(?:\.html)?/?$ /pricing [R=301,L,NE]
   RewriteRule ^community/?$ / [R=301,L,NE]
   RewriteRule ^category/[a-z0-9-]+/?$ /blog/ [R=301,L,NE]
   RewriteRule ^(?:video|classic|standard)-post/?$ /blog/ [R=301,L,NE]

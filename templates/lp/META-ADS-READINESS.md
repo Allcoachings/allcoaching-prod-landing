@@ -30,9 +30,9 @@ funnel event once and confirmed exactly one Meta call per event.
 
 ## Before you launch
 
-1. **Send ads to a live URL.** `/landing/*` is still 404 until the Hostinger deploy goes through. Use
-   `/onboarding-competitive-exams`, `/onboarding-jee-neet`, `/onboarding-school-tuition`,
-   `/onboarding-skills` for now.
+1. **Send ads to the /landing pages.** `/landing/jee-neet`, `/landing/skills`,
+   `/landing/wordpress-vs-allcoaching` (live since 2026-10-20). The old `/onboarding-*` pages were
+   removed on 2026-10-21 and 301 to these, so old ads keep working.
 2. **Optimisation event: start with Lead, not Purchase.** Meta's learning phase needs about 50
    conversions per ad set per week. Purchase has ~16 real payments in 28 days, which keeps ad sets in
    "Learning limited". Lead (new number verified by OTP) comes earlier in the funnel and fires far more

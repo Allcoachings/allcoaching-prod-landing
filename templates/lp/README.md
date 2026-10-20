@@ -5,8 +5,8 @@ page**, and are then sent to studio.allcoaching.in. Every conversion fires on al
 through our own GTM container.
 
 ```
-ad → allcoaching.in/onboarding-<vertical>
-     → CTA opens the checkout sheet (/assets/checkout.js)
+ad → allcoaching.in/landing/<page>
+     → CTA opens the checkout (/assets/checkout.js): plan on the left, checkout on the right
         1. mobile number + OTP          (POST login/, login/verify)
         2. name + academy name          (PATCH login/update)
         3. plan → Razorpay, or 14-day trial
@@ -18,31 +18,29 @@ ad → allcoaching.in/onboarding-<vertical>
 
 | File | What it is |
 |---|---|
-| `scripts/build_lp.py` | Page copy for every vertical + the page template. Run it after any edit. |
-| `templates/lp/lp.css` | Page styles, inlined into each page by the build. |
+| `landing/*.html` | The campaign pages (JEE/NEET, Skills, WordPress). Hand-written, see `landing/README.md`. |
+| `landing/lp2.css`, `landing/plans.js`, `landing/page.js` | Shared styles, live plan cards, funnel events. |
 | `assets/checkout.js` | The checkout. Shared by every campaign page. |
 | `acapi/proxy.php` | Same-origin pass-through to the educator API (the API only allows studio.allcoaching.in in CORS). |
-| `onboarding-*.html` | Built pages. Do not edit by hand. |
 
-Live pages: `/onboarding-competitive-exams`, `/onboarding-jee-neet`, `/onboarding-school-tuition`, `/onboarding-skills`.
+The old `/onboarding-*`, `/onboarding` and `/onboarding2` pages were removed on 2026-10-21.
+`.htaccess` sends them with a 301 (query string kept) to `/landing/jee-neet`, `/landing/skills`
+or `/pricing`.
 
 ## New campaign or offer
 
-1. Copy a `PAGES` entry in `scripts/build_lp.py`, give it a new `slug`, change the copy.
+1. Copy a page in `landing/`, change the copy and `window.AC_CHECKOUT.page`.
 2. For an offer, create an activation code in the admin and put it in `coupon`. It is applied
    automatically and the price is re-checked by the server before payment.
-3. `python scripts/build_lp.py`
-4. Keep the `/onboarding-` prefix. The live GTM container fires Meta **InitiateCheckout** on a
-   click on a studio link only when the page path contains `/onboarding`.
 
-No rebuild needed for these URL options, on any page:
+No edit needed for these URL options, on any page:
 - `?code=OFFER50` applies an activation code
 - `?plan=starter|growth|pro` preselects the plan
 - `?checkout=1` opens the checkout straight away
 - `?ref=CODE` passes a referral code to the new studio
 
-After **any change to `assets/checkout.js`**, bump `?v=` on its script tag in `build_lp.py` and
-rebuild: `/assets/*` is served with a one-year immutable cache, so browsers keep the old file.
+After **any change to `assets/checkout.js`** or a `landing/` asset, bump its `?v=` on every page
+that loads it: `/assets/*` is served with a one-year immutable cache, so browsers keep the old file.
 
 Any other page can use the checkout too: load `/assets/checkout.js` and add `data-checkout`
 (and optionally `data-plan="growth"`) to a link.

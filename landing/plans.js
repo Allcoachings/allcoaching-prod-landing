@@ -40,9 +40,11 @@
     var pts = [];
     if (keep != null) pts.push('Keep <b>' + keep + '%</b> of every sale');
     if (p.storage_bytes) pts.push(gb(p.storage_bytes) + ' storage · ' + (/4k/i.test(p.video_max || '') ? '4K' : esc(p.video_max || '1080p')));
-    if (p.live_hours_month) pts.push(p.live_hours_month + ' live hours a month');
-    if (p.premium_template) pts.push('Premium website template');
-    return '<div class="plan' + (featured ? ' ft' : '') + '">' + (featured ? '<span class="tag">Most popular</span>' : '') +
+    if (p.premium_template) pts.push('Premium theme (₹10,000 value)');
+    // On every plan (pricing truth 2026-10-20).
+    pts.push('Unlimited live classes &amp; videos', 'Your own Android &amp; iOS app', 'Domain, themes, Zoom, Razorpay, Pixel &amp; GTM');
+    var tag = featured ? '<span class="tag">Most popular</span>' : p.key === 'pro' ? '<span class="tag bv">Best value</span>' : '';
+    return '<div class="plan' + (featured ? ' ft' : '') + '">' + tag +
       '<span class="pn">' + esc(p.label || p.key) + '</span>' +
       '<div class="pp"><b>' + rs(fee(p)) + '</b><span>/year + GST</span></div>' +
       '<ul>' + pts.map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</ul>' +

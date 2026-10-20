@@ -22,6 +22,15 @@
     var io = new IntersectionObserver(function (es) { es.forEach(function (x) { if (x.isIntersecting) { x.target.classList.add('in'); io.unobserve(x.target); } }); }, { threshold: .2 });
     els.forEach(function (el) { io.observe(el); });
   } else els.forEach(function (el) { el.classList.add('in'); });
+  // background sketches: draw when they come into view, drift a little slower than the page
+  var sk = document.querySelectorAll('.bgsk .d');
+  if ('IntersectionObserver' in window) {
+    var so = new IntersectionObserver(function (es) { es.forEach(function (x) { if (x.isIntersecting) { x.target.classList.add('in'); so.unobserve(x.target); } }); }, { rootMargin: '0px 0px -10% 0px' });
+    sk.forEach(function (el) { so.observe(el); });
+  } else sk.forEach(function (el) { el.classList.add('in'); });
+  var still = window.matchMedia && matchMedia('(prefers-reduced-motion:reduce)').matches, ticking = false;
+  function px() { ticking = false; var y = scrollY; sk.forEach(function (el) { el.style.transform = 'translate3d(0,' + (y * (+el.getAttribute('data-d') || 0)).toFixed(1) + 'px,0)'; }); }
+  if (!still && sk.length) addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(px); } }, { passive: true });
   var bar = document.getElementById('bar'), hc = document.getElementById('hero-cta'), fin = document.querySelector('.final');
   function sc() { if (bar && hc) bar.classList.toggle('on', hc.getBoundingClientRect().bottom < 0 && (!fin || fin.getBoundingClientRect().top > innerHeight * .6)); }
   sc(); addEventListener('scroll', sc, { passive: true });
