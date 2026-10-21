@@ -10,7 +10,7 @@
  *     page: 'lp_competitive',   // tracking page name
  *     variant: 'v1',            // tracking variant
  *     vertical: 'competitive',  // studio vertical id (competitive|entrance|school|skills)
- *     plan: 'growth',           // default plan
+ *     plan: 'starter',          // default plan
  *     coupon: '',               // activation code applied automatically (campaign offers)
  *     trial: true               // offer the 14-day free trial next to buying
  *   };
@@ -67,7 +67,7 @@
 
   // ── state ───────────────────────────────────────────────────────────────
   var S = load() || {};
-  S.plan = validPlan(Q.get('plan')) || S.plan || validPlan(CFG.plan) || 'growth';
+  S.plan = validPlan(Q.get('plan')) || S.plan || validPlan(CFG.plan) || 'starter';
   var quote = null;          // server coupon quote for the selected plan
   var busy = false;
   var countdownTimer = null;
@@ -766,7 +766,7 @@
       if (nb) nb.addEventListener('click', function () { S.token = null; S.auth = null; S.phone = ''; EXISTING = null; save(); renderPhone(); });
       return;
     }
-    if (offer.indexOf(S.plan) < 0) S.plan = offer.indexOf('growth') >= 0 ? 'growth' : offer[0];
+    if (offer.indexOf(S.plan) < 0) S.plan = offer[0];
     var rows = offer.map(function (k) {
       var p = PLANS[k], same = ex.plan === k;
       var tag = ex.onTrial && same ? 'Your trial plan' : (!ex.onTrial && same ? 'Renew' : (k === 'growth' ? 'Most popular' : ''));

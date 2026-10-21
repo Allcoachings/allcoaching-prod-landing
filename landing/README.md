@@ -2,11 +2,11 @@
 
 | URL | For | Checkout |
 |---|---|---|
-| `/landing/launch` | Any educator. "Live today, no demo call" + "What do you teach?" chips | plans + 14-day trial |
+| `/landing/launch` | Any educator. "Your own coaching academy, live today" + "What do you teach?" chips, demo-route vs self-serve, FAQ | plans only, no trial |
 | `/landing/wordpress-vs-allcoaching` | Educators on (or considering) WordPress | plans + 14-day trial |
 | `/landing/skills` | Skill coaches, pay-first | plans only, no trial |
 
-- Shared styles: `landing.css` (bump `?v=` on every page's `<link>` after editing; CSS is cached for a year).
+- Shared styles: `lp2.css` for every page (`landing.css` is the retired v1 sheet; bump `?v=` on every page's `<link>` after editing; CSS is cached for a year).
 - Checkout: `/assets/checkout.js` (see `templates/lp/README.md`). Any button with `data-checkout`
   opens it; `data-plan` preselects a plan; `data-vertical` files the studio under a subject.
 - URL options on every page: `?code=OFFER` (activation code), `?plan=pro`, `?checkout=1`.
