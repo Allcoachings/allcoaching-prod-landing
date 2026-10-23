@@ -12,7 +12,9 @@
  *     vertical: 'competitive',  // studio vertical id (competitive|entrance|school|skills)
  *     plan: 'starter',          // default plan
  *     coupon: '',               // activation code applied automatically (campaign offers)
- *     trial: true               // offer the 14-day free trial next to buying
+ *     trial: true,              // offer the 14-day free trial next to buying
+ *     plans: ['growth'],        // optional: only these plans can be bought (offer pages)
+ *     bonus: ''                 // optional: extra line under the plan, e.g. a free theme
  *   };
  * URL overrides: ?plan=pro  ?code=OFFER50  ?ref=REFERRALCODE
  *
@@ -55,7 +57,11 @@
   };
   var ORDER = ['starter', 'growth', 'pro'];
   var VERTICALS = ['competitive', 'entrance', 'school', 'skills'];
-  function validPlan(p) { return PLANS[p] ? p : null; }
+  // Offer pages can sell a subset of plans (AC_CHECKOUT.plans); ORDER stays the full ladder.
+  var SHOWN = ORDER.filter(function (k) { return !(CFG.plans && CFG.plans.length) || CFG.plans.indexOf(k) >= 0; });
+  if (!SHOWN.length) SHOWN = ORDER.slice();
+  function validPlan(p) { return PLANS[p] && SHOWN.indexOf(p) >= 0 ? p : null; }
+  var BONUS = String(CFG.bonus || '').slice(0, 120);
 
   var PAGE = CFG.page || ('lp' + location.pathname.replace(/[^a-z0-9]+/gi, '_'));
   var VARIANT = CFG.variant || 'v1';
@@ -67,7 +73,7 @@
 
   // ── state ───────────────────────────────────────────────────────────────
   var S = load() || {};
-  S.plan = validPlan(Q.get('plan')) || S.plan || validPlan(CFG.plan) || 'starter';
+  S.plan = validPlan(Q.get('plan')) || validPlan(S.plan) || validPlan(CFG.plan) || SHOWN[0];
   var quote = null;          // server coupon quote for the selected plan
   var busy = false;
   var countdownTimer = null;
@@ -265,6 +271,7 @@
     '.ck-pills{display:flex;gap:4px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:4px;margin-top:6px}',
     '.ck-pill{position:relative;flex:1;border:0;background:transparent;color:rgba(255,255,255,.72);font:600 14px/1 "Inter Tight",system-ui,sans-serif;padding:11px 6px;border-radius:10px;cursor:pointer;transition:background .2s,color .2s}',
     '.ck-pill:hover{color:#fff}',
+    '.ck-pills.one .ck-pill{text-align:center;cursor:default}',
     '.ck-pill.on{background:#fff;color:#0A0F3D;box-shadow:0 8px 20px -8px rgba(0,0,0,.5)}',
     '.ck-pill i{position:absolute;top:-10px;left:50%;transform:translateX(-50%);font:700 9px/1 "JetBrains Mono",ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;color:#fff;background:linear-gradient(90deg,#06B6D4,#2B44FF);padding:4px 7px;border-radius:99px}',
     '.ck-price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}',
@@ -412,9 +419,9 @@
       '<button type="button" class="ck-x" aria-label="Close">×</button>' +
       '<aside class="ck-as" aria-label="Your plan">' +
         '<div class="ck-brand"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="" width="30" height="30"/><b>AllCoaching</b><span>Studio plan</span></div>' +
-        '<div class="ck-pills" role="group" aria-label="Choose a plan">' + ORDER.map(function (k) {
+        (SHOWN.length > 1 ? '<div class="ck-pills" role="group" aria-label="Choose a plan">' + SHOWN.map(function (k) {
           return '<button type="button" class="ck-pill" data-pick="' + k + '">' + PLANS[k].label + (k === 'pro' ? '<i>Best value</i>' : '') + '</button>';
-        }).join('') + '</div>' +
+        }).join('') + '</div>' : '<div class="ck-pills one"><span class="ck-pill on" data-pick="' + SHOWN[0] + '">' + PLANS[SHOWN[0]].label + ' plan</span></div>') +
         '<div id="ck-pa" style="display:contents"></div>' +
         '<div class="ck-sa-l"><i></i>What you set up in your studio</div><div class="ck-sa"></div>' +
         '<details class="ck-inc"' + (wide ? ' open' : '') + '><summary>Everything included <em>Show</em></summary><ul>' + inc + '</ul></details>' +
@@ -477,7 +484,8 @@
       '<div class="ck-hl"><div><b>' + esc(p.storage) + '</b><small>storage</small></div>' +
       '<div><b>' + esc(p.video) + '</b><small>video quality</small></div>' +
       '<div><b>Unlimited</b><small>live classes</small></div></div>' +
-      (p.premium ? '<div class="ck-prem">' + SVG.star + 'Premium theme included · ₹10,000 value</div>' : '');
+      (p.premium ? '<div class="ck-prem">' + SVG.star + 'Premium theme included · ₹10,000 value</div>' : '') +
+      (BONUS ? '<div class="ck-prem">' + SVG.star + esc(BONUS) + '</div>' : '');
   }
   function pickPlan(k) {
     if (!validPlan(k) || busy) return;
@@ -729,7 +737,7 @@
     api('institute/usage/').then(function (j) {
       var u = (j && (j.data || j)) || {};
       EXISTING = {
-        plan: validPlan(u.plan) || null,
+        plan: PLANS[u.plan] ? u.plan : null,
         onTrial: !!(u.trial && u.trial.active),
         trialEnds: (u.trial && u.trial.ends_at) || u.plan_expires_at || null,
         daysLeft: typeof u.plan_days_left === 'number' ? u.plan_days_left : null
@@ -748,8 +756,9 @@
     var cur = ex && ex.plan ? ORDER.indexOf(ex.plan) : -1;
     // On trial: every plan (the trial plan itself is a first purchase, sent as renew).
     // Paid: only plans above the current one; renewal is offered in the last 60 days.
-    var offer = !ex ? [] : ex.onTrial ? ORDER.slice()
-      : ORDER.filter(function (k, i) { return i > cur || (i === cur && ex.daysLeft != null && ex.daysLeft <= 60); });
+    var offer = (!ex ? [] : ex.onTrial ? ORDER.slice()
+      : ORDER.filter(function (k, i) { return i > cur || (i === cur && ex.daysLeft != null && ex.daysLeft <= 60); }))
+      .filter(function (k) { return SHOWN.indexOf(k) >= 0; });
     var tick = '<div class="ck-tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg></div>';
     var team = !ex && S.auth && S.auth.organizations && S.auth.organizations.length && S.auth.organizations[0].role !== 'owner'
       ? S.auth.organizations[0] : null;
@@ -880,9 +889,9 @@
   function renderPlan() {
     S.step = 'plan'; progress(3); save();
     preloadRzp();
-    var rows = ORDER.map(function (k) {
+    var rows = SHOWN.map(function (k) {
       var p = PLANS[k];
-      var tg = k === 'growth' ? '<span class="tg">Most popular</span>' : k === 'pro' ? '<span class="tg bv">Best value</span>' : '';
+      var tg = SHOWN.length < 2 ? '' : k === 'growth' ? '<span class="tg">Most popular</span>' : k === 'pro' ? '<span class="tg bv">Best value</span>' : '';
       return '<label class="ck-pl' + (S.plan === k ? ' on' : '') + '">' + tg +
         '<input type="radio" name="ck-plan" value="' + k + '"' + (S.plan === k ? ' checked' : '') + '/>' +
         '<span><b>' + p.label + '</b><small>Keep ' + p.keep + ' of every sale · ' + p.meta + '</small></span>' +

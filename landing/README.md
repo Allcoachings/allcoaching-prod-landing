@@ -5,7 +5,7 @@
 | `/landing/launch` | Any educator. "Your own coaching academy, live today" + "What do you teach?" chips, demo-route vs self-serve, FAQ | plans only, no trial |
 | `/landing/wordpress-vs-allcoaching` | Educators on (or considering) WordPress | plans + 14-day trial |
 | `/landing/skills` | Skill coaches, pay-first | plans only, no trial |
-| `/landing/growth-upsc` | UPSC / State PSC educators, sent as a personal invite (`?name=Rahul%20Sir` shows "Prepared for"). Growth plan + premium civil services theme (₹10,000 value) free | Growth preselected, no trial |
+| `/landing/growth-upsc` | UPSC / State PSC educators, sent as a personal invite (`?name=Rahul%20Sir` shows "Prepared for"). Growth plan + premium Rajya Seva theme (₹10,000 value) free. Live preview of `/landing/themes/rajya-seva.html` | Growth only (`plans:['growth']`), no trial |
 
 - Shared styles: `lp2.css` for every page (`landing.css` is the retired v1 sheet; bump `?v=` on every page's `<link>` after editing; CSS is cached for a year).
 - Checkout: `/assets/checkout.js` (see `templates/lp/README.md`). Any button with `data-checkout`

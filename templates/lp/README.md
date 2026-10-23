@@ -34,6 +34,7 @@ or `/pricing`.
    automatically and the price is re-checked by the server before payment.
 
 No edit needed for these URL options, on any page:
+- `AC_CHECKOUT.plans = ['growth']` sells only those plans (offer pages); `AC_CHECKOUT.bonus` adds one line under the price, e.g. a free theme
 - `?code=OFFER50` applies an activation code
 - `?plan=starter|growth|pro` preselects the plan
 - `?checkout=1` opens the checkout straight away
