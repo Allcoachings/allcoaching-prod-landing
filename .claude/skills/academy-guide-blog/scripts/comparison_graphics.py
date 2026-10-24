@@ -133,7 +133,7 @@ def prices(sp):
         us = r['name'] == 'AllCoaching'
         b += text(60, y + 42, r['name'], 25, BLUE if us else INK, 800, font=F_HEAD, ls=-0.6)
         if r.get('published'):
-            w = max(70, 640 * r['price'] / mx)
+            w = max(70, 480 * r['price'] / mx)
             b += f'<rect x="300" y="{y + 12}" width="{w}" height="46" rx="14" fill="{BLUE if us else "#C9CEDD"}"/>'
             b += text(300 + w + 16, y + 44, r['label'], 23, INK, 700, font=F_HEAD)
             b += text(300 + w + 16, y + 70, r.get('fee', ''), 16, MUTED)
@@ -151,7 +151,7 @@ def cost(sp):
     palette = ['#14161F', '#8A90A2', '#C27C0E', '#7A4DD8']
     for k, comp in enumerate(c['competitors']):
         series.append((comp['name'], palette[k % len(palette)], [comp_cost(comp['plans'], s) for s in levels]))
-    W, H = 1220, 900
+    W, H = 1220, 940
     x0, y0, cw, ch = 140, 230, 1000, 470
     raw = max(max(v) for _, _, v in series)
     step = 25000 if raw <= 200000 else 50000
@@ -175,8 +175,10 @@ def cost(sp):
         b += f'<rect x="{lx}" y="{y0 - 50}" width="26" height="8" rx="4" fill="{col}"/>' + text(lx + 36, y0 - 41, name, 18, INK, 600)
         lx += 60 + len(name) * 11
     notes = [cm.get('note') for cm in c['competitors'] if cm.get('note')]
-    b += text(60, H - 54, ' · '.join(notes)[:150], 15, MUTED)
-    b += text(60, H - 28, 'AllCoaching: Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%. GST extra.', 15, MUTED) + signature(W, H)
+    notes.append('AllCoaching: Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%. GST extra.')
+    for k, n in enumerate(notes[-4:]):
+        b += text(60, H - 118 + k * 24, n, 15, MUTED)
+    b += signature(W, H)
     return svg(W, H, b, 'Total yearly cost at different sales levels, from published prices')
 
 

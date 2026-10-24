@@ -1,0 +1,1092 @@
+[
+  {
+    "name": "Classplus",
+    "website": "https://classplusapp.com",
+    "category": "coaching app builder",
+    "good_at": "Branded teaching app plus website for coaching businesses; its page says \"Get your own brand's teaching app, create your own website & sell courses\" and lists unlimited recorded courses, live classes, enrolments and storage on its plans.",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Classplus Plan - 1 Year",
+          "price": 29999,
+          "period": "1 year",
+          "currency": "INR",
+          "fee_on_sales": "not stated"
+        },
+        {
+          "name": "Classplus Plan - 2 Years",
+          "price": 39999,
+          "period": "2 years",
+          "currency": "INR",
+          "fee_on_sales": "not stated"
+        }
+      ],
+      "free_trial": "not mentioned on the pricing page",
+      "gst_or_tax_note": "not stated (page does not say whether GST is included or extra)",
+      "notes": "Struck-through list prices shown: ₹34,999 (1 year) and ₹44,999 (2 years). Page lists Android App, Website, Admin Portal, unlimited recorded courses, live classes, student enrolments, storage, 'A.I. Powered Leads'. An FAQ titled 'What are the renewal charges?' exists but its answer is not in the page HTML. iOS app not listed on the plan cards. Same as vs/classplus.html (17 Oct 2026)."
+    },
+    "sources": [
+      {
+        "url": "https://classplusapp.com/new-web",
+        "checked": "2026-10-24",
+        "what_it_supports": "Both plan prices, struck-through prices, plan feature list, FAQ titles"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "Renewal price, fee on sales, GST treatment and trial are not stated on the page.",
+      "Footer still reads '© 2023', so page freshness is unclear even though prices match 17 Oct check."
+    ]
+  },
+  {
+    "name": "Graphy",
+    "website": "https://graphy.com",
+    "category": "course/creator commerce platform",
+    "good_at": "All-in-one creator platform: website builder, branded mobile apps, digital products and AI sales/support agents; its pricing page says it gives creators \"everything you need to launch, scale, and automate your online teaching business — all in one place\".",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Launch",
+          "price": 49,
+          "period": "month (monthly billing; annual toggle says 'Save 25%')",
+          "currency": "USD",
+          "fee_on_sales": "0% transaction fee (US page)"
+        },
+        {
+          "name": "Rise",
+          "price": 149,
+          "period": "month",
+          "currency": "USD",
+          "fee_on_sales": "0% transaction fee (US page)"
+        },
+        {
+          "name": "Scale",
+          "price": 399,
+          "period": "month",
+          "currency": "USD",
+          "fee_on_sales": "0% transaction fee (US page)"
+        }
+      ],
+      "free_trial": "14 days (US page: 'Start Your 14-Day Free Trial Today'); an embedded block in the same page data says 'No credit card required'",
+      "gst_or_tax_note": "not stated",
+      "notes": "INDIA PRICES NOT VERIFIED TODAY: graphy.com/pricing geo-redirects our (non-Indian) connection to graphy.com/us/pricing/, and graphy.com/in/pricing/ redirects too. The same page's server-rendered data contains conflicting INR figures: (a) a hidden India block 'Launch ₹1,999 per month *billed annually, 10% per sale or ₹10 whichever is higher' and 'Rise ₹9,999 per month *billed annually, 5% per sale or ₹10 whichever is higher', '*iOS app is available as a paid add-on'; (b) SEO meta description 'Launch plan ₹1,999 per month, growth plan ₹4,200 per month and rise plan ₹8,400 per month'; (c) hero 'oldPrice' 'Rs. 24999'. vs/graphy.html (17 Oct 2026) recorded Launch ₹24,999/yr 10%, Grow ₹49,999/yr 7.5%, Rise ₹99,999/yr 5% (or ₹10 if higher) — none of (a)-(c) matches that three-plan set. Do not publish INR Graphy plan prices until re-checked from an Indian IP."
+    },
+    "sources": [
+      {
+        "url": "https://graphy.com/us/pricing/",
+        "checked": "2026-10-24",
+        "what_it_supports": "US plan prices, 0% transaction fee, 14-day trial (redirect target of graphy.com/pricing from our region)"
+      },
+      {
+        "url": "https://graphy.com/pricing",
+        "checked": "2026-10-24",
+        "what_it_supports": "Embedded India block and meta description with conflicting INR figures (page data, not verified as what Indian visitors see)"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "INR pricing could not be verified for an Indian visitor on 2026-10-24; the 17 Oct figures in vs/graphy.html are now unconfirmed and conflict with the INR figures embedded in the current page.",
+      "spayee.com now 301-redirects to graphy.com."
+    ]
+  },
+  {
+    "name": "Teachmint",
+    "website": "https://www.teachmint.com",
+    "category": "coaching app builder",
+    "good_at": "Now leads with Teachmint X, an \"AI-Powered Connected Classroom Device\" (interactive board plus EduAI tools) for schools, higher education and coaching.",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "not mentioned",
+      "gst_or_tax_note": "n/a",
+      "notes": "No plans or prices listed. teachmint.com/pricing redirects (from our region) to teachmint.com/en-us, a product page for Teachmint X with 'Book a Demo'. vs/teachmint.html (17 Oct) also found no published plans."
+    },
+    "sources": [
+      {
+        "url": "https://www.teachmint.com/en-us",
+        "checked": "2026-10-24",
+        "what_it_supports": "Product focus (Teachmint X device), no published prices, demo-led sales"
+      },
+      {
+        "url": "https://www.teachmint.com/pricing",
+        "checked": "2026-10-24",
+        "what_it_supports": "Redirects to en-us home; no pricing page served"
+      }
+    ],
+    "educator_model": "n/a (software/hardware vendor)",
+    "caveats": [
+      "Site geo-redirects to en-us; the India (en-in) pages could not be loaded, so an India-only price list cannot be ruled out."
+    ]
+  },
+  {
+    "name": "AppX",
+    "website": "https://appx.co.in",
+    "category": "coaching app builder",
+    "good_at": "Branded website and apps (Android, iOS, desktop) for educators and creators, with DRM security and low-latency live streaming; it says \"Launch your own branded app and website for your courses and community. No code needed.\"",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "not mentioned ('Free personalized demo' instead)",
+      "gst_or_tax_note": "n/a",
+      "notes": "No prices on the site. FAQ: 'It takes 3-5 days to deliver your finished application and website'; hero: 'Setup in under 48 hours'. Matches vs/appx.html (17 Oct 2026)."
+    },
+    "sources": [
+      {
+        "url": "https://appx.co.in/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Product description, no prices, free demo, '3-5 days' and 'under 48 hours' delivery statements"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "appx.co.in/faqs returns 404; FAQ is on the homepage (#faqs).",
+      "Self-reported stats (15,000+ creators, ₹3000 Crores+ earned by creators) are AppX's own claims."
+    ]
+  },
+  {
+    "name": "Learnyst",
+    "website": "https://www.learnyst.com",
+    "category": "LMS for training businesses",
+    "good_at": "Course, mock-test and live-class platform with DRM content protection, test series and branded apps; it pitches \"Features required to market and sell your content online across globe\".",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Launcher",
+          "price": 10000,
+          "period": "year",
+          "currency": "INR",
+          "fee_on_sales": "10% of sales"
+        },
+        {
+          "name": "Professional",
+          "price": 8999,
+          "period": "month (billed monthly); ₹8,099/month when billed annually",
+          "currency": "INR",
+          "fee_on_sales": "0% transaction fees"
+        },
+        {
+          "name": "Premium",
+          "price": 14999,
+          "period": "month (billed monthly); ₹13,499/month when billed annually",
+          "currency": "INR",
+          "fee_on_sales": "0% (page lists 0% under Professional; Premium is 'Everything in Professional, plus')"
+        },
+        {
+          "name": "Business",
+          "price": 49999,
+          "period": "month (billed monthly); ₹44,999/month when billed annually",
+          "currency": "INR",
+          "fee_on_sales": "0% (as above)"
+        },
+        {
+          "name": "Enterprise",
+          "price": "contact sales",
+          "period": "n/a",
+          "currency": "INR",
+          "fee_on_sales": "not stated"
+        }
+      ],
+      "free_trial": "not stated as a trial; buttons say 'Get started for free'",
+      "gst_or_tax_note": "'+taxes' / '+Taxes' on every plan",
+      "notes": "Launcher shows a struck-through ₹26,997 and 'No monthly fee'. Professional includes a 'Common Android & iOS App'; branded Android app from Premium, branded Android & iOS from Business; '** Annual Pricing plan commitment. Apps will be available in Google Play store & Apple App store under Learnyst's Developer Account'. '* Additional Charges Applicable' footnote."
+    },
+    "sources": [
+      {
+        "url": "https://www.learnyst.com/pricing",
+        "checked": "2026-10-24",
+        "what_it_supports": "All plan prices (monthly and annual toggle), Launcher 10% fee, 0% transaction fee line, +taxes, app notes"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "Prices shown in ₹ only with an Indian locale; without it the page shows USD ($149, $249...).",
+      "CLAUDE.md says 'Learnyst takes 0%': true for subscription plans, but the Launcher plan takes 10% of sales."
+    ]
+  },
+  {
+    "name": "Spayee",
+    "website": "https://www.spayee.com",
+    "category": "course/creator commerce platform",
+    "good_at": "No standalone product today: www.spayee.com 301-redirects to graphy.com (Graphy is the Spayee team's creator platform).",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "No Spayee pricing exists separately; see Graphy."
+    },
+    "sources": [
+      {
+        "url": "https://www.spayee.com/",
+        "checked": "2026-10-24",
+        "what_it_supports": "301 redirect to https://graphy.com/ (pricing URL returned 403)"
+      }
+    ],
+    "educator_model": "n/a",
+    "caveats": [
+      "Treat 'Spayee' in posts as Graphy (formerly Spayee); do not describe Spayee as a separate current LMS."
+    ]
+  },
+  {
+    "name": "Edmingle",
+    "website": "https://www.edmingle.com",
+    "category": "LMS for training businesses",
+    "good_at": "AI-powered LMS for professional training and skilling businesses: multi-cohort/batch programs, branch management, white-labelled academies with apps; it calls itself \"AI-powered LMS purpose-built for professional training and skilling businesses\".",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Core",
+          "price": 7499,
+          "period": "month, billed annually (₹8,999/month billed monthly)",
+          "currency": "INR",
+          "fee_on_sales": "not stated"
+        },
+        {
+          "name": "Prime",
+          "price": 14999,
+          "period": "month, billed annually (₹17,999/month billed monthly)",
+          "currency": "INR",
+          "fee_on_sales": "not stated"
+        },
+        {
+          "name": "Power (Most Popular)",
+          "price": 29999,
+          "period": "month, billed annually (₹34,999/month billed monthly)",
+          "currency": "INR",
+          "fee_on_sales": "not stated"
+        },
+        {
+          "name": "Maxx",
+          "price": "Get a Quote",
+          "period": "n/a",
+          "currency": "INR",
+          "fee_on_sales": "not stated"
+        }
+      ],
+      "free_trial": "7 days ('Start for Free ₹0 FOR 07 Days')",
+      "gst_or_tax_note": "'+ Taxes' on every plan",
+      "notes": "Core includes custom domain and a common Android/iOS app; branded Android app from Prime, branded iOS app from Power ('(A) Available on Annual Commitment'). FAQ: 'Some advanced options, integrations, or higher usage tiers may be priced separately'."
+    },
+    "sources": [
+      {
+        "url": "https://www.edmingle.com/in/pricing/",
+        "checked": "2026-10-24",
+        "what_it_supports": "India plan prices (annual and monthly, from page data), 7-day free start, + Taxes, app tiers, FAQ"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "The page does not state any transaction fee or commission; CLAUDE.md's 'Edmingle takes 0%' is not confirmed by this page (it is not contradicted either).",
+      "Price digits render via an animation; values were read from the page's own embedded plan data."
+    ]
+  },
+  {
+    "name": "Testpress",
+    "website": "https://testpress.tech",
+    "category": "test-series engine",
+    "good_at": "Online exam and LMS software for institutes, with secure (DRM) video streaming and AI proctoring; it says its platform covers exams \"From NEET and JEE to internal corporate assessments\".",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "not mentioned ('Request Demo')",
+      "gst_or_tax_note": "n/a",
+      "notes": "testpress.in/pricing/ redirects to testpress.tech/pricing/, which returns 404 ('Oops! That page can't be found'). No prices on the homepage."
+    },
+    "sources": [
+      {
+        "url": "https://testpress.tech/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Product description, demo-led sales"
+      },
+      {
+        "url": "https://testpress.tech/pricing/",
+        "checked": "2026-10-24",
+        "what_it_supports": "404, no pricing page"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "Not listed on https://testpress.tech/pricing/ (checked 2026-10-24)."
+    ]
+  },
+  {
+    "name": "Winuall",
+    "website": "https://winuall.com",
+    "category": "coaching app builder",
+    "good_at": "Could not be determined from an official page: winuall.com now 301-redirects to edify.club (a refurbished-laptop store) and www.winuall.com did not respond.",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "No official Winuall page reachable on 2026-10-24."
+    },
+    "sources": [
+      {
+        "url": "http://winuall.com/",
+        "checked": "2026-10-24",
+        "what_it_supports": "301 redirect to https://edify.club/ (refurbished laptops)"
+      },
+      {
+        "url": "https://www.winuall.com/",
+        "checked": "2026-10-24",
+        "what_it_supports": "No response (connection failed)"
+      }
+    ],
+    "educator_model": "n/a",
+    "caveats": [
+      "Product status unknown; do not describe Winuall's current features or pricing (including 'monthly' or 'yearly subscription') without a new official source."
+    ]
+  },
+  {
+    "name": "Exly",
+    "website": "https://exlyapp.com",
+    "category": "course/creator commerce platform",
+    "good_at": "Storefront, payments, CRM and WhatsApp/email automation for coaches and creators selling courses, consultations and digital products; it calls itself \"an all-in-one solution to all things business\".",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Starter",
+          "price": 0,
+          "period": "year (annual upfront fee 'FREE')",
+          "currency": "INR",
+          "fee_on_sales": "10% commission"
+        },
+        {
+          "name": "Pro",
+          "price": 30000,
+          "period": "year (shown as ₹2,500/month billed annually)",
+          "currency": "INR",
+          "fee_on_sales": "6% commission"
+        },
+        {
+          "name": "Premium",
+          "price": 108000,
+          "period": "year (shown as ₹9,000/month billed annually)",
+          "currency": "INR",
+          "fee_on_sales": "3% commission"
+        }
+      ],
+      "free_trial": "not stated",
+      "gst_or_tax_note": "not stated",
+      "notes": "A quarterly billing option exists (yearly saves 15%); quarterly prices were not recorded. Add-ons: Mobile App (iOS and Android) from ₹60,000/year, Omni-channel from ₹48,000/year (₹60,000 shown on Starter/Pro cards), Zoom from ₹18,000/year, white-labelled branding from ₹20,000/year, custom website from ₹60,000/year, org members ₹1,000/user/year. WhatsApp marketing 'pay per use'."
+    },
+    "sources": [
+      {
+        "url": "https://exlyapp.com/pricing",
+        "checked": "2026-10-24",
+        "what_it_supports": "Plans, annual fees, commission rates, add-on prices"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "Quarterly-billing prices not captured.",
+      "GST treatment not stated."
+    ]
+  },
+  {
+    "name": "Rigi",
+    "website": "https://www.rigi.club",
+    "category": "course/creator commerce platform",
+    "good_at": "The official site no longer describes a creator platform: rigi.club is now 'Rigi TV - Instant Entertainment', a short-drama video app.",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "No creator product or pricing on rigi.club (checked 2026-10-24)."
+    },
+    "sources": [
+      {
+        "url": "https://www.rigi.club/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Site is 'Rigi TV - Instant Entertainment' (short dramas); no creator/coach product"
+      }
+    ],
+    "educator_model": "n/a",
+    "caveats": [
+      "Posts describing Rigi as a current creator-monetisation tool are out of date; whether the creator product still exists elsewhere is unverified."
+    ]
+  },
+  {
+    "name": "TagMango",
+    "website": "https://tagmango.com",
+    "category": "course/creator commerce platform",
+    "good_at": "Course, community and automation platform for coaches with an AI add-on stack and optional branded apps; its page promises a custom domain live \"24 hours from onboarding\".",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Freedom Setup (custom domain, required on top of a plan)",
+          "price": 24999,
+          "period": "year",
+          "currency": "INR",
+          "fee_on_sales": "n/a"
+        },
+        {
+          "name": "Basic",
+          "price": 0,
+          "period": "no fixed fee",
+          "currency": "INR",
+          "fee_on_sales": "10% commission (including Indian payment gateway)"
+        },
+        {
+          "name": "Pro",
+          "price": 5000,
+          "period": "month",
+          "currency": "INR",
+          "fee_on_sales": "5.5% commission (including Indian payment gateway)"
+        },
+        {
+          "name": "Advanced",
+          "price": 15000,
+          "period": "month",
+          "currency": "INR",
+          "fee_on_sales": "3.5% commission (including Indian payment gateway)"
+        },
+        {
+          "name": "Ultimate",
+          "price": 30000,
+          "period": "month",
+          "currency": "INR",
+          "fee_on_sales": "zero commission (gateway charge from 1.9%)"
+        }
+      ],
+      "free_trial": "not stated ('Book a Call')",
+      "gst_or_tax_note": "'+ GST' on every price; 'All variable charges are exclusive of GST'",
+      "notes": "Basic capped at 200 students. Add-ons: AI-Verse Stack ₹49,999 + GST/year; Branded Apps Stack ₹74,999 + GST one-time setup (own Play Store and iOS apps). International payment gateway charge 5%, exclusive."
+    },
+    "sources": [
+      {
+        "url": "https://tagmango.com/pricing",
+        "checked": "2026-10-24",
+        "what_it_supports": "Setup fee, plan prices, commissions, GST notes, add-ons"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": []
+  },
+  {
+    "name": "Kajabi",
+    "website": "https://www.kajabi.com",
+    "category": "international course platform",
+    "good_at": "All-in-one platform for experts: courses, coaching, memberships, website, email, funnels and checkout; \"One subscription runs your whole business, and Kajabi takes no revenue share.\"",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Basic",
+          "price": 179,
+          "period": "month (monthly); $143/month billed annually at $1,716",
+          "currency": "USD",
+          "fee_on_sales": "0% revenue share (card processing fees apply)"
+        },
+        {
+          "name": "Growth",
+          "price": 249,
+          "period": "month (monthly); $199/month billed annually at $2,388",
+          "currency": "USD",
+          "fee_on_sales": "0% revenue share; 'Discounted Kajabi Payments rate'"
+        },
+        {
+          "name": "Pro (Most Popular)",
+          "price": 499,
+          "period": "month (monthly); $399/month billed annually at $4,788",
+          "currency": "USD",
+          "fee_on_sales": "0% revenue share; 'Deepest discounted Kajabi Payments rate'"
+        }
+      ],
+      "free_trial": "14 days free; 30-day money-back guarantee",
+      "gst_or_tax_note": "not stated",
+      "notes": "FAQ: standard card processing fee for Kajabi Payments differs by country; an additional processing fee applies if a third-party processor is used where Kajabi Payments is offered. Branded App Store app on Pro."
+    },
+    "sources": [
+      {
+        "url": "https://www.kajabi.com/pricing-new",
+        "checked": "2026-10-24",
+        "what_it_supports": "Plan prices (monthly and annual), 0% revenue share, trial, guarantee, processing-fee FAQ (kajabi.com/pricing redirects here)"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "Prices viewed from a non-Indian connection; country-specific pricing not checked."
+    ]
+  },
+  {
+    "name": "Teachable",
+    "website": "https://www.teachable.com",
+    "category": "international course platform",
+    "good_at": "Course, coaching and membership platform with global payments and tax handling; \"Launch, sell, and scale your online business.\"",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Starter",
+          "price": 39,
+          "period": "month (monthly); $29/month billed annually",
+          "currency": "USD",
+          "fee_on_sales": "7.5% transaction fee"
+        },
+        {
+          "name": "Builder (Popular)",
+          "price": 89,
+          "period": "month (monthly); $69/month billed annually",
+          "currency": "USD",
+          "fee_on_sales": "0%*"
+        },
+        {
+          "name": "Growth",
+          "price": 189,
+          "period": "month (monthly); $139/month billed annually",
+          "currency": "USD",
+          "fee_on_sales": "0%*"
+        },
+        {
+          "name": "Custom",
+          "price": "contact sales",
+          "period": "n/a",
+          "currency": "USD",
+          "fee_on_sales": "0%*"
+        }
+      ],
+      "free_trial": "7-day free trial; 30-day guarantee",
+      "gst_or_tax_note": "'Charges are subject to change and additional fees may apply'; Teachable advertises 'Global payments & taxes' handling",
+      "notes": "Starter limited to 5 products, Builder 10, Growth 50. Plans auto-renew until cancelled. Processing fees and payout terms are separate (see 'Processing fees' on the page)."
+    },
+    "sources": [
+      {
+        "url": "https://www.teachable.com/pricing",
+        "checked": "2026-10-24",
+        "what_it_supports": "Plan prices, transaction fees, product limits, trial, renewal terms"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "The asterisk on 0% refers to processing/usage fees detailed elsewhere; not expanded here."
+    ]
+  },
+  {
+    "name": "Thinkific",
+    "website": "https://www.thinkific.com",
+    "category": "international course platform",
+    "good_at": "Course, community and live-cohort platform with commerce tools; \"Built for businesses that can't afford to outgrow their platform\".",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Start",
+          "price": 109,
+          "period": "month (monthly); $82/month billed annually",
+          "currency": "USD",
+          "fee_on_sales": "no platform transaction fee stated; payment-processing fees apply"
+        },
+        {
+          "name": "Grow (Most Popular)",
+          "price": 219,
+          "period": "month (monthly); $164/month billed annually",
+          "currency": "USD",
+          "fee_on_sales": "as above"
+        },
+        {
+          "name": "Expand",
+          "price": 499,
+          "period": "month (monthly); $374/month billed annually",
+          "currency": "USD",
+          "fee_on_sales": "as above"
+        },
+        {
+          "name": "Plus",
+          "price": "talk to sales",
+          "period": "n/a",
+          "currency": "USD",
+          "fee_on_sales": "as above"
+        }
+      ],
+      "free_trial": "30-day free trial (FAQ: 'Does Thinkific have a free plan? No, instead, you can explore the whole platform with a 30-day free trial')",
+      "gst_or_tax_note": "not stated",
+      "notes": "Branded mobile app is a $199/month add-on (included on select Plus plans). FAQ: Thinkific Payments priced 'in line with other processors like Stripe and Paypal at 2.9%'; using third-party processors adds a gateway fee that varies by plan."
+    },
+    "sources": [
+      {
+        "url": "https://www.thinkific.com/pricing/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Plan prices (monthly and annual), 30-day trial, no free plan, app add-on, fee FAQ"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "Page blocked plain curl (403); read via headless browser."
+    ]
+  },
+  {
+    "name": "Udemy (instructor side)",
+    "website": "https://www.udemy.com",
+    "category": "education marketplace / edtech brand",
+    "good_at": "Global course marketplace where instructors publish courses to Udemy's existing learner base.",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "Publishing is not a paid plan; the instructor revenue share is set by Udemy's terms."
+    },
+    "sources": [
+      {
+        "url": "https://support.udemy.com/hc/en-us/articles/229605008-Instructor-Revenue-Share",
+        "checked": "2026-10-24",
+        "what_it_supports": "Returned 403 / redirected to success.udemy.com cookie wall; content not retrieved"
+      },
+      {
+        "url": "https://www.udemy.com/terms/instructor/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Rendered 'We can't find the page you're looking for'"
+      }
+    ],
+    "educator_model": "not verified: Udemy's official revenue-share page could not be retrieved on 2026-10-24 (403 / bot check). Do not state a percentage until it is re-checked on Udemy's own support or terms page.",
+    "caveats": [
+      "Udemy's footer now shows 'Find more on Coursera'; corporate status not researched.",
+      "Claims like 'takes a large cut' or 'controls pricing through discounts' need the official revenue-share/pricing policy pages."
+    ]
+  },
+  {
+    "name": "Unacademy (educator side)",
+    "website": "https://unacademy.com",
+    "category": "education marketplace / edtech brand",
+    "good_at": "Large exam-prep learning platform; it describes itself as \"India's largest online learning platform\".",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "No educator plan or pricing."
+    },
+    "sources": [
+      {
+        "url": "https://unacademy.com/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Self-description"
+      },
+      {
+        "url": "https://unacademy.com/educators",
+        "checked": "2026-10-24",
+        "what_it_supports": "Serves the homepage; no educator programme page found"
+      }
+    ],
+    "educator_model": "not published",
+    "caveats": [
+      "No official page describing educator terms, ownership or pay was found."
+    ]
+  },
+  {
+    "name": "Physics Wallah (educator side)",
+    "website": "https://www.pw.live",
+    "category": "education marketplace / edtech brand",
+    "good_at": "Online and offline coaching brand for JEE, NEET and classes 6-12; it describes itself as providing an \"affordable and comprehensive learning experience\".",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "No educator plan; PW hires faculty (careers via pwhr.darwinbox.in)."
+    },
+    "sources": [
+      {
+        "url": "https://www.pw.live/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Self-description, careers link"
+      }
+    ],
+    "educator_model": "not published",
+    "caveats": [
+      "Faculty pay/terms are not published; 'teacher cannot build own brand on PW' is a characterisation, not an official statement."
+    ]
+  },
+  {
+    "name": "Vedantu (teacher side)",
+    "website": "https://www.vedantu.com",
+    "category": "education marketplace / edtech brand",
+    "good_at": "Live online classes for K-12, CBSE/ICSE, JEE and NEET plus offline centres; it calls itself \"the top choice for LIVE online classes for K1 to K12\".",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "No educator plan; teachers apply to teach."
+    },
+    "sources": [
+      {
+        "url": "https://www.vedantu.com/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Self-description"
+      },
+      {
+        "url": "https://www.vedantu.com/become-a-teacher",
+        "checked": "2026-10-24",
+        "what_it_supports": "Teacher recruitment page with earning statements"
+      }
+    ],
+    "educator_model": "Vedantu's own become-a-teacher page states 'Earning Potential from minimum ₹ 25,000+ per month @ 4h/day upto ₹ 75,000+ per month for full time' and, in its FAQ, 'On an average, teachers earn more than INR 15000 per month' (2 h/day: 'INR 18000-20000 per month'). These are Vedantu's claims, not a published revenue share; teachers must give 'Minimum 3 Hours of Daily Availability ... between 4-10 PM IST'.",
+    "caveats": [
+      "The become-a-teacher page contains stale items (e.g. 'CUET 2022' course links) and internally inconsistent earning figures; quote only with attribution and date."
+    ]
+  },
+  {
+    "name": "Testbook (educator side)",
+    "website": "https://testbook.com",
+    "category": "education marketplace / edtech brand",
+    "good_at": "Government-exam prep with mock tests, live classes and the Testbook Pass; it describes itself as an online test series platform with '1.2 Cr. users'.",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "No educator plan; 'Partner Faculty' apply via testbook.com/teach."
+    },
+    "sources": [
+      {
+        "url": "https://testbook.com/teach",
+        "checked": "2026-10-24",
+        "what_it_supports": "Partner-faculty programme: Testbook handles 'marketing, promotions & technology', telesales and DTP support"
+      },
+      {
+        "url": "https://testbook.com/pass",
+        "checked": "2026-10-24",
+        "what_it_supports": "Testbook Pass (student subscription) exists"
+      }
+    ],
+    "educator_model": "not published (testbook.com/teach describes Partner Faculty support but no pay or revenue share)",
+    "caveats": []
+  },
+  {
+    "name": "Adda247 (educator side)",
+    "website": "https://www.adda247.com",
+    "category": "education marketplace / edtech brand",
+    "good_at": "Government-exam and upskilling prep in many languages; it calls itself \"India's Largest Vernacular Learning Platform (Online Courses, Mocks, Books)\".",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "No educator plan or programme page found."
+    },
+    "sources": [
+      {
+        "url": "https://www.adda247.com/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Self-description"
+      }
+    ],
+    "educator_model": "not published",
+    "caveats": []
+  },
+  {
+    "name": "Toppr",
+    "website": "https://www.toppr.com",
+    "category": "education marketplace / edtech brand",
+    "good_at": "Not verifiable today: toppr.com did not respond on 2026-10-24.",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "Site unreachable."
+    },
+    "sources": [
+      {
+        "url": "https://www.toppr.com/",
+        "checked": "2026-10-24",
+        "what_it_supports": "No response (connection failed)"
+      }
+    ],
+    "educator_model": "not published",
+    "caveats": [
+      "Historical descriptions (adaptive learning, multi-year packages, telecalling sales) could not be checked against an official page."
+    ]
+  },
+  {
+    "name": "Extramarks",
+    "website": "https://www.extramarks.com",
+    "category": "education marketplace / edtech brand",
+    "good_at": "Digital learning solutions for schools, teachers, students and parents (smart class, assessment centre, learning app); it says it offers \"Cutting-Edge Solutions for Schools, Teachers, Students, and Parents\".",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "No prices or educator programme on the homepage."
+    },
+    "sources": [
+      {
+        "url": "https://www.extramarks.com/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Self-description and product list"
+      }
+    ],
+    "educator_model": "not published",
+    "caveats": []
+  },
+  {
+    "name": "Skool",
+    "website": "https://www.skool.com",
+    "category": "community platform",
+    "good_at": "Community platform with courses, live calls and gamification; plans include 'Unlimited members, Unlimited courses, Unlimited videos, Unlimited live calls'.",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Hobby",
+          "price": 9,
+          "period": "month (monthly); $7.50/month on yearly billing",
+          "currency": "USD",
+          "fee_on_sales": "10% transaction fee"
+        },
+        {
+          "name": "Pro",
+          "price": 99,
+          "period": "month (monthly); $82/month on yearly billing",
+          "currency": "USD",
+          "fee_on_sales": "2.9% transaction fee"
+        }
+      ],
+      "free_trial": "14-day free trial (page meta: 'Get started for $9/month with a 14-day free trial. Cancel anytime.')",
+      "gst_or_tax_note": "not stated",
+      "notes": "Yearly billing advertised as '2 months free!'."
+    },
+    "sources": [
+      {
+        "url": "https://www.skool.com/pricing",
+        "checked": "2026-10-24",
+        "what_it_supports": "Plan prices, transaction fees, trial"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": []
+  },
+  {
+    "name": "Circle.so",
+    "website": "https://circle.so",
+    "category": "community platform",
+    "good_at": "Community, courses, events and branded apps in one platform; \"Run your entire digital business on Circle\".",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Professional",
+          "price": 89,
+          "period": "month, based on annual billing",
+          "currency": "USD",
+          "fee_on_sales": "not stated"
+        },
+        {
+          "name": "Business (Most Popular)",
+          "price": 199,
+          "period": "month, based on annual billing",
+          "currency": "USD",
+          "fee_on_sales": "not stated"
+        },
+        {
+          "name": "Scale",
+          "price": 419,
+          "period": "month, based on annual billing",
+          "currency": "USD",
+          "fee_on_sales": "not stated"
+        },
+        {
+          "name": "Circle Plus",
+          "price": "custom",
+          "period": "n/a",
+          "currency": "USD",
+          "fee_on_sales": "not stated"
+        }
+      ],
+      "free_trial": "14 days, no credit card required",
+      "gst_or_tax_note": "'Prices displayed in USD, based on annual billing and do not include applicable taxes'",
+      "notes": "Custom branded mobile apps are on Circle Plus; Professional includes Circle's iOS, Android & desktop apps. Email Hub add-on from +$99/month for 10,000 contacts. Monthly-billing prices not shown on the page."
+    },
+    "sources": [
+      {
+        "url": "https://circle.so/pricing",
+        "checked": "2026-10-24",
+        "what_it_supports": "Plan prices, trial, tax note, app tiers"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "Payment/transaction fees are not stated on the pricing page."
+    ]
+  },
+  {
+    "name": "Cuemath (teacher/franchise)",
+    "website": "https://www.cuemath.com",
+    "category": "franchise / tutoring company",
+    "good_at": "Online math tutoring (K-12, test prep such as SAT, AMC 8) now presented mainly for a US audience; it calls itself \"The Math Expert\".",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "No tutor/franchise terms published; cuemath.com/teach/ serves the blog."
+    },
+    "sources": [
+      {
+        "url": "https://www.cuemath.com/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Self-description (US-focused grade levels and tests)"
+      },
+      {
+        "url": "https://www.cuemath.com/teach/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Serves blog page, no teacher/franchise programme"
+      }
+    ],
+    "educator_model": "not published",
+    "caveats": [
+      "No official page on a Cuemath franchise or tutor revenue share was found; claims of franchise revenue share/territory rules are unverified."
+    ]
+  },
+  {
+    "name": "Aakash (franchise)",
+    "website": "https://www.aakash.ac.in",
+    "category": "franchise / tutoring company",
+    "good_at": "Test-prep coaching for NEET, JEE, Olympiads and foundation classes; it calls itself \"India's Top Coaching Institute\" with \"36+ Years of Legacy\".",
+    "pricing": {
+      "published": false,
+      "plans": [],
+      "free_trial": "n/a",
+      "gst_or_tax_note": "n/a",
+      "notes": "The only franchise page found is an old application form: 'FRANCHISE ENQUIRY Closed!!', a ₹2,000 application/brochure fee, and a last date of 20th April, 2019."
+    },
+    "sources": [
+      {
+        "url": "https://www.aakash.ac.in/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Self-description"
+      },
+      {
+        "url": "https://www.aakash.ac.in/franchise/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Stale 2019 franchise form (closed), ₹2,000 application fee"
+      }
+    ],
+    "educator_model": "not published (no current franchise terms, revenue share or territory rules found)",
+    "caveats": [
+      "Franchise economics are not published; treat any revenue-share or territory claims as unverified."
+    ]
+  },
+  {
+    "name": "LearnDash (WordPress LMS)",
+    "website": "https://www.learndash.com",
+    "category": "WordPress LMS plugin",
+    "good_at": "WordPress LMS for building, selling and certifying courses with quizzes, memberships and group seats; \"LEARNDASH – #1 LMS ON WORDPRESS\" (its own claim).",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "1 site",
+          "price": 350,
+          "period": "not stated on page",
+          "currency": "USD",
+          "fee_on_sales": "none stated"
+        },
+        {
+          "name": "10 sites",
+          "price": 599,
+          "period": "not stated on page",
+          "currency": "USD",
+          "fee_on_sales": "none stated"
+        },
+        {
+          "name": "25 sites",
+          "price": 799,
+          "period": "not stated on page",
+          "currency": "USD",
+          "fee_on_sales": "none stated"
+        },
+        {
+          "name": "50 sites",
+          "price": 899,
+          "period": "not stated on page",
+          "currency": "USD",
+          "fee_on_sales": "none stated"
+        },
+        {
+          "name": "100 sites",
+          "price": 999,
+          "period": "not stated on page",
+          "currency": "USD",
+          "fee_on_sales": "none stated"
+        }
+      ],
+      "free_trial": "not stated (a 'Try live demo' is offered)",
+      "gst_or_tax_note": "not stated",
+      "notes": "learndash.com/pricing redirects to liquidweb.com/software/learndash/. Every plan is a bundle: 'Give, The Events Calendar, LearnDash, and Kadence'. Hosting, payment gateway and app are separate (self-hosted WordPress)."
+    },
+    "sources": [
+      {
+        "url": "https://www.liquidweb.com/software/learndash/#pricing",
+        "checked": "2026-10-24",
+        "what_it_supports": "Bundle prices per site count"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "The page does not say whether prices are annual or one-time; do not write '/year' without checking checkout terms."
+    ]
+  },
+  {
+    "name": "Tutor LMS (WordPress LMS)",
+    "website": "https://tutorlms.com",
+    "category": "WordPress LMS plugin",
+    "good_at": "WordPress LMS plugin with a free core and Pro add-ons (course builder, quizzes, native eCommerce, AI Studio); \"The full Tutor LMS core is free forever.\"",
+    "pricing": {
+      "published": true,
+      "plans": [
+        {
+          "name": "Free (core)",
+          "price": 0,
+          "period": "forever",
+          "currency": "USD",
+          "fee_on_sales": "none stated"
+        },
+        {
+          "name": "Individual (1 site)",
+          "price": 199,
+          "period": "year (or $499 one-time lifetime)",
+          "currency": "USD",
+          "fee_on_sales": "none stated"
+        },
+        {
+          "name": "Business (up to 10 sites)",
+          "price": 399,
+          "period": "year (or $999 one-time lifetime)",
+          "currency": "USD",
+          "fee_on_sales": "none stated"
+        },
+        {
+          "name": "Agency",
+          "price": 799,
+          "period": "year, unlimited sites (lifetime $1,999, up to 50 sites)",
+          "currency": "USD",
+          "fee_on_sales": "none stated"
+        }
+      ],
+      "free_trial": "no trial; free core plus '30-day money-back guarantee'",
+      "gst_or_tax_note": "'Prices in USD & exclude VAT/Taxes'",
+      "notes": "Self-hosted WordPress: hosting and payment-gateway fees are separate. Supports Razorpay among gateways."
+    },
+    "sources": [
+      {
+        "url": "https://tutorlms.com/pricing/",
+        "checked": "2026-10-24",
+        "what_it_supports": "Annual and lifetime prices, free core, money-back guarantee, tax note"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": []
+  }
+]

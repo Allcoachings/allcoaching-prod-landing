@@ -64,3 +64,15 @@ Open every exported WebP (Read tool) and fix overlaps or clipped text before bui
 - No `{{` placeholders left in the HTML (`grep -c "{{"` = 0).
 - Banned-word scan clean.
 - Report per post: final title, description, word count, competitors cited with source URLs, and anything you could not verify.
+
+## Special cases from the 24 Oct 2026 fact check (read `data/competitors.json` notes)
+- **Graphy:** rupee prices could NOT be confirmed (the pricing page geo-redirected to US prices). Do not print any Graphy ₹ plan price or per-sale % anywhere, including old figures (₹24,999 / ₹49,999 / ₹99,999, ₹1,999/month, ₹2,800, ₹4,200). Write: "Graphy publishes plans on graphy.com/pricing, but prices are shown by country and we could not confirm the Indian rupee plans on 24 Oct 2026; check the page from India." Graphy is `published:false` in price graphics and excluded from cost charts. You may cite its 14-day trial and its own description.
+- **Spayee:** spayee.com now redirects to graphy.com (checked 24 Oct 2026). Say so plainly; treat former Spayee users as now on Graphy.
+- **Winuall:** winuall.com now redirects to an unrelated site (checked 24 Oct 2026). Write the post for institutes that used Winuall and need a new home; do not describe Winuall's current product or prices.
+- **Rigi:** rigi.club now presents a different product (a short-video app). Say Rigi has changed direction; focus the post on Exly and the reader's options.
+- **Toppr** (site unreachable), **Aakash franchise** (only a closed 2019 application page found), **Cuemath** (site now targets US students): describe only what is verifiable; otherwise frame as "check current terms directly".
+- **Learnyst:** Launcher ₹10,000/yr + 10%; Professional/Premium/Business ₹8,999/₹14,999/₹49,999 a month (₹8,099/₹13,499/₹44,999 billed annually) with 0% transaction fees; taxes extra; apps under Learnyst's developer account. Never write "Learnyst takes 0%" without naming the plan.
+- **Edmingle:** Core/Prime/Power ₹7,499/₹14,999/₹29,999 a month billed annually; fee on sales not stated (do not write 0%); 7-day free start.
+- **Udemy:** revenue share could not be verified; do not state a percentage. **Vedantu** publishes its own teacher-earning claims ("₹25,000+ to ₹75,000+ per month"); quote only as Vedantu's claim, with source.
+- USD platforms (Kajabi, Teachable, Thinkific, Skool, Circle, Tutor LMS, LearnDash): quote in USD exactly as published, say prices are in US dollars and exclude Indian GST; do not convert to ₹ unless you state the date and that it is an approximate conversion (prefer not converting).
+- Old unsupported figures flagged in `claims-audit.md` (e.g. "₹4–11 lakh Year-1 trap", "12–18 day median migration", "25–65% acquisition") must be removed, not reworded.
