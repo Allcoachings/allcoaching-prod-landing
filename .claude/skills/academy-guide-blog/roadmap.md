@@ -1,51 +1,42 @@
-# Educator-growth content roadmap (v3 guides)
+# Educator-growth content roadmap (v3 guides, English only)
 
-Built 2026-10-24 from the July–October 2026 Search Console review and the earlier 20-blog list, then checked against every title in `blog/`, `blogs/en/` and `blogs/hinglish/`.
+Updated 2026-10-24 on the owner's direction: the 20-blog list from the Search Console review, **all posts in English**, positioning = Shopify for educators (own academy first, marketplace secondary).
 
-Rules for this list:
-- New post = keyword no existing post targets. Overlap = **refresh the existing post into the v3 layout** instead of writing a duplicate (keeps its URL and rankings).
-- From the earlier list, two working titles broke pricing rules and are corrected here: "Apna Course App Banao ₹0 Mein" (no ₹0 claims) and "White-label app ... for Free" (there is no free tier; say 14-day free trial).
-- Positioning in every post: Shopify for educators, own academy first, marketplace as supporting discovery.
+How the list was made:
+- The owner's 20 titles, with every Hinglish title rewritten in English.
+- English/Hinglish pairs that became the same post were merged: pricing (old 5+6), UPI (10+11), Meta ads (13+14), SEO (15+16). SEO is already live.
+- Four freed slots went to distinct topics no post covers: What is an online academy, course description, academy name ideas, 30-day launch plan, Google Business Profile.
+- Every title was checked against `blog/`, `blogs/en/`, `blogs/hinglish/`. Where an English post already targets the keyword, the item is a **REFRESH**: rewrite that post into the v3 layout at its existing URL (keeps rankings), don't publish a duplicate.
+- Pricing-rule fixes: "₹0" removed from old #3; "for Free" removed from old #9 (there is a 14-day free trial, not a free tier). Old #10 "Without a Payment Gateway Account" dropped until the owner confirms how Razorpay onboarding works for educators.
 
-## A. New posts (distinct keywords)
+| # | Phase | Title | Primary keyword | Type | Status |
+|---|---|---|---|---|---|
+| 1 | Academy building | How to Create an Online Academy Without a Developer: Live in One Evening | how to create online academy without developer | REFRESH `blog/online-coaching-academy-without-coding` | Planned |
+| 2 | Academy building | How to Build Your Own Coaching App in India Without Coding (2026 Guide) | how to make coaching app without coding | NEW | Planned |
+| 3 | Academy building | From WhatsApp Groups to Your Own Online Academy: A Step-by-Step Move | whatsapp group to online academy | NEW | Planned |
+| 4 | Academy building | What Is an Online Academy? Meaning, Types and How It Works (2026) | what is an online academy | NEW (pillar) | Planned |
+| 5 | Course creation | How to Create Your First Online Course in India: Videos, PDFs and Tests in One Place | how to create online course india | NEW | Planned |
+| 6 | Course creation | How to Price Your Online Course in India (+ Revenue Calculator) | online course pricing india | REFRESH `blog/how-to-price-online-courses-india` + calculator | Planned |
+| 7 | Course creation | How to Write a Course Description That Sells (with Examples) | how to write a course description | NEW | Planned |
+| 8 | Brand & website | How to Get a Domain Name for Your Coaching Institute and Connect It to Your Academy | domain name for coaching institute | NEW (link `lms-with-custom-domain-for-coaching-india`) | Planned |
+| 9 | Brand & website | How to Create a Coaching Institute Website Without WordPress or a Developer | coaching institute website without wordpress | NEW | Planned |
+| 10 | Brand & website | White-Label App for Educators in India: What It Means and How to Get One | white label app for teachers india | NEW (link the app-cost post) | Planned |
+| 11 | Brand & website | How to Name Your Coaching Institute or Online Academy (+ Name Ideas) | coaching institute name ideas | NEW (later: free name-generator tool) | Planned |
+| 12 | Payments & selling | How to Accept UPI Payments for Online Courses in India | upi payment for online courses | NEW how-to (link `best-upi-payment-gateway-for-online-courses`) | Planned |
+| 13 | Payments & selling | How to Sell Your First Online Course in India: From Zero to Your First ₹10,000 | how to sell online courses in india | REFRESH `blog/how-to-sell-courses-online-in-india` | Planned |
+| 14 | Payments & selling | Online Course Launch Plan: A 30-Day Checklist for Educators | online course launch plan | NEW | Planned |
+| 15 | Marketing | Meta Ads for Coaching Institutes in India: Facebook and Instagram Guide (2026) | meta ads for coaching institute | NEW | Planned |
+| 16 | Marketing | Online Academy SEO: The Beginner's Guide for Indian Educators (2026) | online academy seo / seo for coaching institute | DONE | **Live 2026-10-24** (add "SEO for coaching institutes" as a secondary keyword) |
+| 17 | Marketing | Google Business Profile for Coaching Centres: Local SEO Guide | google business profile for coaching centre | NEW | Planned |
+| 18 | Marketing | How to Get Students Without Paid Ads: Organic Growth Playbook for Educators | get students online without ads | REFRESH `blog/how-to-get-paid-students-for-online-coaching-free` | Planned |
+| 19 | Growth & income | How Much Do Online Educators Earn in India? (+ Income Calculator) | online coaching income india | REFRESH `blog/how-much-can-you-earn-teaching-online-india` + calculator | Planned |
+| 20 | Growth & income | How to Grow Your Online Coaching from 50 to 1,000 Students | grow online coaching students | NEW (link `how-to-get-first-500-students-for-coaching-app`) | Planned |
+| 21 | Growth & income | Live Classes Online: YouTube Live vs Zoom vs a Built-in Live Room | youtube live vs zoom for teachers | NEW (link `how-to-conduct-live-classes-on-mobile-apps`) | Planned |
 
-| # | Working title | Primary keyword | Lang | Pillar | Shopify model | Status |
-|---|---|---|---|---|---|---|
-| 1 | Online Academy SEO: The Beginner's Guide for Indian Educators (2026) | online academy seo | EN | Marketing | Ecommerce SEO guide | **Live 2026-10-24** |
-| 2 | Coaching Website Ko Google Par Rank Kaise Karein: SEO Guide (2026) | coaching website google par rank kaise kare | Hinglish | Marketing | — | Next |
-| 3 | What Is an Online Academy? Meaning, Types and How It Works (2026) | what is an online academy | EN | Start | What is ecommerce | Next |
-| 4 | Meta Ads for Coaching Institutes: Facebook and Instagram Guide (2026) | meta ads for coaching institute | EN | Marketing | — | Next |
-| 5 | Facebook Aur Instagram Par Coaching Ki Ads Kaise Chalayein (2026) | instagram par coaching ads kaise chalaye | Hinglish | Marketing | — | Planned |
-| 6 | Google Search Console for Educators: Read It in 15 Minutes a Week | google search console for educators | EN | Marketing | — | Planned |
-| 7 | Google Business Profile for Coaching Centres: Local SEO Guide | google business profile for coaching centre | EN | Marketing | — | Planned |
-| 8 | Google Ads for Coaching Institutes in India (2026) | google ads for coaching institute | EN | Marketing | — | Planned |
-| 9 | How to Write a Course Description That Sells (with Examples) | how to write a course description | EN | Sell | Product description guide | Planned |
-| 10 | Online Course Launch Plan: A 30-Day Checklist for Educators | online course launch plan | EN | Sell | Launch checklist | Planned |
-| 11 | Free Lesson to Paid Student: A Conversion Playbook for Educators | free course to paid conversion | EN | Grow | — | Planned |
-| 12 | How to Name Your Coaching Institute or Online Academy (+ name ideas) | coaching institute name ideas | EN | Brand | Business name generator | Planned (pair with a free name-generator tool) |
-| 13 | Best Domain Name for a Coaching Institute: .in or .com? | domain name for coaching institute | EN | Brand | Domain guide | Planned |
-| 14 | Meta Pixel and Google Tag Manager for a Course Website | meta pixel for online course website | EN | Marketing | — | Planned |
-| 15 | Student Referral Program for Coaching: Grow Through Word of Mouth | student referral program coaching | EN | Grow | — | Planned |
-| 16 | AI Tools to Run and Market an Online Academy (2026) | ai tools for online academy | EN | Grow | AI tools for ecommerce | Planned, keep distinct from best-ai-tools-for-teachers-india (teaching) by focusing on running/marketing |
-| 17 | Course Ka Description Aur Title Kaise Likhein Jo Google Par Aaye | course description kaise likhe | Hinglish | Sell | — | Planned |
-| 18 | Skill Course Online Kaise Bechein: Yoga, Music, Spoken English (2026) | skill course online kaise beche | Hinglish | Sell | — | Planned |
-| 19 | Online Academy Business Blueprint: From First Course to ₹1 Lakh a Month (illustrative) | online academy business blueprint | EN | Start | Ecommerce business blueprint | Planned, differentiate from online-coaching-business-plan-2026 or merge into it |
-| 20 | Course Price Calculator for Indian Educators (tool page) | course price calculator india | EN | Tool | Profit margin calculator | Planned (tool, not essay) |
+20 to do (15 new, 5 refreshes) + 1 live.
 
-## B. Refresh into v3 instead of new (overlap with an existing URL)
+Suggested order (search demand first): 13, 6, 12, 1, 15, 4, 5, 2, 19, 3, then the rest. Refreshes first where Search Console already shows impressions with low CTR.
 
-| Earlier idea | Existing post to refresh |
-|---|---|
-| Online academy kaise banaye bina developer | blog/online-coaching-academy-without-coding, blog/how-to-start-online-academy-in-5-steps |
-| How to build own coaching app without coding | blogs/hinglish/apna-coaching-app-kaise-banaye-free |
-| Coaching website kaise banaye | blogs/hinglish/apni-coaching-ki-website-kaise-banaye-free |
-| How to price your online course | blog/how-to-price-online-courses-india, blogs/hinglish/online-coaching-course-price-kaise-decide-kare |
-| Sell your first online course | blog/how-to-sell-courses-online-in-india |
-| UPI payments for online courses | blog/best-upi-payment-gateway-for-online-courses |
-| White-label app for educators | blog/white-label-coaching-app-development-cost-india |
-| Online coaching income | blog/how-much-can-you-earn-teaching-online-india |
-| 50 to 1,000 students | blog/how-to-get-first-500-students-for-coaching-app, blog/how-to-get-paid-students-for-online-coaching-free |
-| Live class: YouTube Live vs Zoom | blog/how-to-conduct-live-classes-on-mobile-apps |
-| SEO strategies for course creators ("skip SEO") | blog/seo-strategies-for-online-course-creators: its "skip SEO" stance contradicts the new positioning; refresh it to point to post #1, or 301 it there |
-
-Refresh priority (from Search Console: high impressions, low CTR): best-upi-payment-gateway-for-online-courses, online-tuition-class-kaise-shuru-kare-aur-paise-kamaye, how-to-sell-courses-online-in-india, apni-coaching-ki-website-kaise-banaye-free.
+Legacy posts to fix later:
+- `blog/seo-strategies-for-online-course-creators` argues "skip SEO", which contradicts the new positioning. Refresh it to point to #16, or 301 it there (owner to decide).
+- Hinglish posts stay live as they are; no new Hinglish posts are planned.

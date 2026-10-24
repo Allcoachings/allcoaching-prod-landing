@@ -1,6 +1,6 @@
 ---
 name: academy-guide-blog
-description: Write AllCoaching "guide" blog posts the way Shopify's blog grew Shopify, re-engineered for Indian educators. Teaches educators to build, sell, market and grow their OWN online academy (marketplace is secondary), in the Shopify-style v3 reading layout (Inter, three-column grid, sticky "On this page", CTA cards) with branded, Apple-style graphics (real Studio screenshots in MacBook/iPhone frames, real Google/YouTube/Instagram/WhatsApp marks, lavender canvas, heavy black + electric-blue headlines). Built to be eligible for every search surface at once: Google rankings, AI Overviews and AI Mode, featured snippets, People Also Ask, rich meta descriptions, Google Images/Discover, ChatGPT Search, Perplexity, Gemini and Claude. Use for any new AllCoaching blog post, any "Shopify-style" or "guide" blog, blog graphics/illustrations, refreshing an old post into the new layout, or planning the educator-growth content calendar.
+description: Write AllCoaching "guide" blog posts (English only from 2026-10-24) the way Shopify's blog grew Shopify, re-engineered for Indian educators. Teaches educators to build, sell, market and grow their OWN online academy (marketplace is secondary), in the Shopify-style v3 reading layout (Inter, three-column grid, sticky "On this page", CTA cards) with branded, Apple-style graphics (real Studio screenshots in MacBook/iPhone frames, real Google/YouTube/Instagram/WhatsApp marks, lavender canvas, heavy black + electric-blue headlines). Built to be eligible for every search surface at once: Google rankings, AI Overviews and AI Mode, featured snippets, People Also Ask, rich meta descriptions, Google Images/Discover, ChatGPT Search, Perplexity, Gemini and Claude. Use for any new AllCoaching blog post, any "Shopify-style" or "guide" blog, blog graphics/illustrations, refreshing an old post into the new layout, or planning the educator-growth content calendar.
 ---
 
 # AllCoaching guide blog (v3) — the Shopify playbook for educators
@@ -157,4 +157,4 @@ Then screenshot the page at 1440 and 390 px (no horizontal scroll, TOC highlight
 
 ## 7. Content roadmap
 
-The educator-growth calendar (deduplicated against existing posts) is in `roadmap.md` next to this file. Update its status column as posts ship.
+The educator-growth calendar (20 English posts, deduplicated against existing posts, with REFRESH items that reuse existing URLs) is in `roadmap.md` next to this file. All new posts are written in English. Update its status column as posts ship.
