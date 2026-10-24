@@ -16,7 +16,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 
 def defined_classes():
     classes = set()
-    for fn in ['brand.css', 'styles.css']:
+    for fn in ['brand.css', 'styles.css', 'blog-v3.css']:
         p = os.path.join(ROOT, fn)
         if not os.path.exists(p):
             continue

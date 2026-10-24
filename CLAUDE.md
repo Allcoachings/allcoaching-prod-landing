@@ -4,7 +4,7 @@ This repo is the static marketing site + blog for **AllCoaching** (AllCoaching T
 
 ## Load context first
 - **Company context (canonical):** invoke the `allcoaching` skill (`.claude/skills/allcoaching/SKILL.md`) whenever working on anything AllCoaching — product, pricing, brand, blog, strategy. It is the source of truth; don't contradict it.
-- **Writing a blog post:** use the `blog-post` skill (house style, 6-schema JSON-LD scaffold, registration flow).
+- **Writing a blog post:** use the `academy-guide-blog` skill (2026-10-24, default for new posts: Shopify-style v3 layout in `blog-v3.css`, branded graphics generator, all-surfaces SEO/AI checklist, content roadmap). The older `blog-post` skill stays the JSON-LD field reference and covers legacy essay-layout posts.
 - **AI-search/GEO decisions:** use the `ai-search-geo` skill.
 
 ## Non-negotiable facts (summary — full detail in the allcoaching skill)
@@ -17,6 +17,7 @@ This repo is the static marketing site + blog for **AllCoaching** (AllCoaching T
 - **Competitor pricing:** naming a rival's price is a claim about them. State the source per figure, show their transaction fee next to the fixed cost (Learnyst and Edmingle take 0%, we take 10% down to 5%), and never round up. Classplus now lists prices on its own site (classplusapp.com/new-web, checked 2026-10-17: ₹29,999 for 1 year, ₹39,999 for 2 years; GST, sales fee, renewal and trial not stated) — cite that page and date, never invent its fees.
 - **Voice:** say *educator* (not creator/user), *studio* (not dashboard). No exclamation marks, no "#1 platform" claims, no fabricated stats — ₹ ranges only, illustrative figures marked as illustrative.
 - **Website look (2026-10-09, current, owner-approved):** homepage and /onboarding use a light, Edmingle-inspired theme: white/pastel background, electric blue `#2B44FF` accent with cyan light-ray graphics, Inter Tight headlines mixing weight 200 and 700, and the original Instrument Serif italic "AllCoaching" wordmark (nav and footer). It now applies site-wide (all pages and blogs via `brand.css` v2); the full guideline is at `/brand` (`brand.html`). Keep new pages consistent with it.
+- **Blog guide layout (2026-10-24, owner-requested):** new blog posts use the Shopify-style v3 reading layout (`blog-v3.css`, body text in Inter, headlines Inter weight 330, black pill buttons, electric blue accent) with the Instrument Serif wordmark kept; in-article graphics follow the owner's creatives (lavender canvas, heavy Inter Tight headline with one electric-blue phrase, white pill cards, Studio screenshots in MacBook/iPhone frames, real tool logos).
 - **Fonts:** Instrument Serif (italic display) + Inter Tight + JetBrains Mono. **Fraunces is NOT a brand font.** Electric blue `#2B44FF` is the only brand accent; ochre `#C58B43` is retired.
 - **Contact email:** contact@allcoaching.in (old gmail must never reappear).
 
