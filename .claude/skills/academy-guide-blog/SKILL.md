@@ -157,4 +157,4 @@ Then screenshot the page at 1440 and 390 px (no horizontal scroll, TOC highlight
 
 ## 7. Content roadmap
 
-The educator-growth calendar (20 English posts, deduplicated against existing posts, with REFRESH items that reuse existing URLs) is in `roadmap.md` next to this file. All new posts are written in English. Update its status column as posts ship.
+The full site + content plan (product pages, use-case pages, compare hub, free tools, blog hubs, 6-month plan) modelled on Shopify's sitemap is in `site-plan.md`. The educator-growth calendar (20 English posts, deduplicated against existing posts, with REFRESH items that reuse existing URLs) is in `roadmap.md` next to this file. All new posts are written in English. Update its status column as posts ship.
