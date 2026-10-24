@@ -26,7 +26,7 @@ def replace_ld(html, sid, obj):
         except ValueError:
             continue
         if cur.get('@type') == obj['@type']:
-            return html[:m.start(2)] + '\n  ' + json.dumps(obj, ensure_ascii=False) + '\n  ' + html[m.end(2):]
+            return html[:m.start(2)] + '\n  ' + json.dumps(obj, ensure_ascii=False, separators=(',', ':')) + '\n  ' + html[m.end(2):]
     sys.exit(f'missing JSON-LD block with "@type":"{obj["@type"]}" ({sid})')
 
 
@@ -42,13 +42,14 @@ def main(path):
     html = replace_ld(html, 'ld-faq', faq_obj)
 
     steps = soup.select('#howto-steps > li')
-    h2 = soup.select_one('#steps h2')
+    sec = soup.select_one('#howto-steps').find_parent('section') if soup.select_one('#howto-steps') else None
+    h2 = sec.find('h2') if sec else None
     howto = {"@context": "https://schema.org", "@type": "HowTo", "@id": canon + '#howto',
              "name": clean(h2.get_text()) if h2 else 'Steps',
-             "description": clean(soup.select_one('#steps p').get_text()) if soup.select_one('#steps p') else '',
+             "description": clean(sec.find('p').get_text()) if sec and sec.find('p') else '',
              "totalTime": soup.select_one('#howto-steps').get('data-total-time', 'P90D'),
              "step": [{"@type": "HowToStep", "position": i + 1, "name": clean(li.b.get_text()),
-                       "text": clean(li.span.get_text()), "url": canon + '#steps'} for i, li in enumerate(steps)]}
+                       "text": clean(li.span.get_text()), "url": canon + '#' + (sec.get('id', 'steps') if sec else 'steps')} for i, li in enumerate(steps)]}
     html = replace_ld(html, 'ld-howto', howto)
 
     gl = soup.select_one('#glossary')

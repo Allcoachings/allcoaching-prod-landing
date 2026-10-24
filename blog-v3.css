@@ -251,3 +251,15 @@ body.v3 footer{margin-top:96px}
 .v3-body .v3-byline a,.v3-body .v3-sidecta a{text-decoration:none;color:#000}
 .v3-body .v3-sidecta a{text-decoration:none;font-weight:600}
 .v3-body .v3-byline a{font-weight:600}
+.v3-checked{display:inline-flex;align-items:center;gap:8px;margin:20px auto 0;padding:8px 16px;border:1.5px solid var(--v3-blue);border-radius:999px;font:600 14px/1.2 var(--v3-font);color:var(--v3-blue)}
+.v3-checked::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--v3-blue)}
+/* option cards for comparison posts */
+.v3-opt{margin:28px 0;border:1px solid var(--v3-line);border-radius:20px;padding:24px 28px}
+.v3-opt.us{border:2px solid var(--v3-blue);background:#F7F8FF}
+.v3-opt h3{margin:0 0 6px!important;font:600 26px/1.2 var(--v3-font)!important;color:#000}
+.v3-opt .tag{display:inline-block;margin:0 0 14px;font:600 12px/1 var(--v3-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--v3-blue)}
+.v3-opt dl{display:grid;grid-template-columns:150px 1fr;gap:8px 16px;margin:0;font-size:17px;line-height:1.45}
+.v3-opt dt{color:#000;font-weight:600}
+.v3-opt dd{margin:0}
+@media (max-width:640px){.v3-opt{padding:20px}.v3-opt dl{grid-template-columns:1fr}.v3-opt dt{margin-top:8px}}
+.v3-note{margin:24px 0;padding:16px 20px;border-left:3px solid #000;background:#FAFAF8;font-size:16px;line-height:1.5}

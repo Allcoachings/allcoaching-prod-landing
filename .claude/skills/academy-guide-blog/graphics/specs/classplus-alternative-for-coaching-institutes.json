@@ -1,0 +1,179 @@
+{
+ "slug": "classplus-alternative-for-coaching-institutes",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "lines": [
+   "Looking for a",
+   "*Classplus alternative?*"
+  ],
+  "sub": "Six options, compared fairly",
+  "options": [
+   "Graphy",
+   "Learnyst",
+   "Edmingle",
+   "Teachmint",
+   "AppX",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *what you need*"
+  ],
+  "rows": [
+   {
+    "need": "You want your own website and app, built yourself",
+    "pick": "AllCoaching",
+    "why": "Own domain and Android + iOS app on every plan, 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You sell above ₹2.3 lakh a year and want a flat price",
+    "pick": "Classplus (stay)",
+    "why": "Classplus lists ₹29,999 a year; ask about GST and any fee on sales",
+    "icon": "chart"
+   },
+   {
+    "need": "You are a creator selling to your own audience",
+    "pick": "Graphy",
+    "why": "Creator-focused course selling with published plans",
+    "icon": "users"
+   },
+   {
+    "need": "Your academy is mostly mock tests",
+    "pick": "Learnyst",
+    "why": "Strong test-series engine for exam prep",
+    "icon": "check"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Entry price, *as published*"
+  ],
+  "rows": [
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter)",
+    "published": true
+   },
+   {
+    "name": "Graphy",
+    "price": 24999,
+    "label": "₹24,999/yr",
+    "fee": "+10% a sale or ₹10 (Launch)",
+    "published": true
+   },
+   {
+    "name": "Classplus",
+    "price": 29999,
+    "label": "₹29,999/yr",
+    "fee": "Fee on sales not stated",
+    "published": true
+   },
+   {
+    "name": "Teachmint",
+    "price": 0,
+    "label": "Price not listed",
+    "fee": "Book a demo",
+    "published": false
+   },
+   {
+    "name": "AppX",
+    "price": 0,
+    "label": "Price not listed",
+    "fee": "Free demo first",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "What you pay *as you grow*"
+  ],
+  "competitors": [
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed price, sales fee not stated"
+   },
+   {
+    "name": "Graphy",
+    "plans": [
+     [
+      24999,
+      0.1
+     ],
+     [
+      49999,
+      0.075
+     ],
+     [
+      99999,
+      0.05
+     ]
+    ],
+    "note": "Graphy: ₹10 minimum fee per sale not included"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Switch in *four calm steps*"
+  ],
+  "steps": [
+   [
+    "Build your academy",
+    "Start the 14-day trial and upload one course"
+   ],
+   [
+    "Run both side by side",
+    "Keep current students where they are"
+   ],
+   [
+    "Move new admissions",
+    "Send new students to your own website and app"
+   ],
+   [
+    "Close the old plan",
+    "Only after the last batch finishes"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Still running",
+   "*batches like this?*"
+  ],
+  "tapes": [
+   "Live class on another app",
+   "Fees on UPI screenshots",
+   "Notes in Drive",
+   "Doubts on WhatsApp",
+   "Tests on Google Forms"
+  ],
+  "note": [
+   "Too many",
+   "tools!"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android + iOS app",
+   "Live classes, unlimited",
+   "UPI and card checkout",
+   "Tests and notes in one place"
+  ]
+ }
+}
