@@ -1,0 +1,277 @@
+{
+ "slug": "accept-upi-payments-for-online-courses",
+ "dir": "blog",
+ "title": "How to Accept UPI Payments for Online Courses in India",
+ "description": "Accept UPI payments for online courses in 8 steps: pick a payment route, finish PAN and bank KYC, link checkout to course access and test it on a student's phone.",
+ "og_description": "A step-by-step guide for Indian educators: the three ways to collect UPI for a course, the KYC documents to keep ready, what a ₹1,999 UPI sale really costs on a gateway, and how to make access open on its own.",
+ "keywords": [
+  "upi payment for online courses",
+  "accept upi payments for online courses",
+  "how to accept upi payments for courses",
+  "collect course fees by upi",
+  "upi payment for online coaching",
+  "payment gateway kyc for tutors",
+  "upi charges for course sellers",
+  "upi limit for course fees",
+  "sell online course with upi india",
+  "upi checkout for online academy"
+ ],
+ "h1": "How to Accept UPI Payments for Online Courses in India (2026 Guide)",
+ "dek": "A step-by-step guide for educators who teach online: the three ways to collect UPI, the documents to keep ready for KYC, what each sale costs, and how to make course access open on its own after a student pays.",
+ "category": "Sell courses",
+ "date_published": "2026-10-25",
+ "date_modified": "2026-10-25",
+ "checked": "October 2026",
+ "cover_alt": "How to accept UPI payments for online courses: a UPI checkout for a Hindi-medium SSC maths course, with payment received and course access opened",
+ "audience": "Indian educators, tutors and coaching institute owners who sell online courses and want to collect fees by UPI",
+ "intro": [
+  "<strong>To accept UPI payment for online courses, you need three things: a payment route that verifies each payment, a KYC-approved account that pays out to your bank, and a link between that payment and the student's course access.</strong> The simplest reliable setup is a checkout on your own course page, run through a payment gateway such as Razorpay, that opens the course the moment UPI confirms.",
+  "Most educators start differently. You teach SSC maths in Hindi on YouTube, students message you on WhatsApp, and you send a UPI QR code. It works for ten students. At fifty, you are matching screenshots to bank entries at midnight and adding people to groups by hand.",
+  "This guide is the how-to. To compare gateways and their charges side by side, read our <a href=\"/blog/best-upi-payment-gateway-for-online-courses\">UPI payment gateway comparison for online courses</a>."
+ ],
+ "takeaways": [
+  "<strong>There are three ways to collect UPI for a course:</strong> a personal UPI QR, a gateway payment link, or a checkout built into your academy. Only the last one opens course access on its own.",
+  "<strong>Bank-to-bank UPI has zero MDR, but gateways charge a platform fee.</strong> Razorpay's standard rate is 2% plus 18% GST on that fee, with ₹0 setup and ₹0 maintenance (checked October 2026).",
+  "<strong>An individual educator can complete Razorpay KYC with a personal PAN and a bank account with IFSC</strong>, verified through CKYC or DigiLocker, with video KYC as the fallback.",
+  "<strong>UPI has transaction limits.</strong> RBI described the general cap as ₹1 lakh per transaction and proposed ₹5 lakh for payments to hospitals and educational institutions in December 2023; very high fees may need instalments or cards.",
+  "<strong>Test every checkout from a budget Android phone on mobile data</strong> before you announce a batch, because that is how many of your students will pay.",
+  "<strong>On AllCoaching, UPI and card checkout is part of every plan</strong>, payouts reach your bank automatically through Razorpay, and you keep 90–100% of each sale depending on the plan."
+ ],
+ "sections": [
+  {
+   "id": "what-it-means",
+   "h2": "What does accepting UPI payments for online courses mean?",
+   "toc": "What it means",
+   "html": "<p>Accepting UPI payment for online courses means a student pays your course fee from any UPI app, such as Google Pay, PhonePe or Paytm, and the money reaches your bank account with a record that links the payment to that student and that course. UPI moves the money; a payment gateway or platform verifies it and settles it to you.</p>\n      <p>Three parties are involved, and it helps to keep them apart:</p>\n      <ul>\n        <li><strong>UPI</strong> is the real-time bank-to-bank network run by NPCI. </li>\n        <li><strong>The payment gateway</strong> (also called a payment aggregator) is the company that accepts payments on your behalf, confirms them and settles the money to your bank. Razorpay, for example, describes itself as an RBI-authorised payment aggregator.<sup><a href=\"#ref-1\">[1]</a></sup></li>\n        <li><strong>Your course platform</strong> is where the student actually buys: your website, app or academy. It decides what happens after payment, such as opening the course.</li>\n      </ul>\n      {{fig:upi-payment-flow|How a UPI payment for an online course flows: student pays in a UPI app, UPI moves the money, the gateway confirms the order and settles to the educator bank account|Four steps from a student's UPI app to your bank account. The third step is where course access should open.}}\n      "
+  },
+  {
+   "id": "three-ways",
+   "h2": "3 ways to accept UPI payment for online courses",
+   "toc": "3 ways to collect UPI",
+   "html": "<p>You can collect UPI for a course through a personal UPI QR, a gateway payment link, or a checkout built into your academy. They differ less in how the student pays and more in what happens after.</p>\n      <h3>1. A personal UPI ID or QR code</h3>\n      <p>You share your UPI QR on WhatsApp, the student pays and sends a screenshot. Nothing to set up, which is why almost everyone starts here. The cost is your time: you check every payment, add each student by hand, and course money mixes with household money.</p>\n      <h3>2. A gateway payment link</h3>\n      <p>After KYC with a gateway, you create a payment link for each course and share it. Razorpay states that its Payment Links let you accept payments without a website or app.<sup><a href=\"#ref-6\">[6]</a></sup> Every payment is verified and recorded, and students can pay by UPI or card. Course access, though, is still a separate job you do by hand.</p>\n      <h3>3. Checkout inside your own academy</h3>\n      <p>The student pays on your course page or app, and the platform enrols them once the payment is confirmed. This is how online shops work, and it grows with you.</p>\n      {{fig:three-ways-to-collect-upi|Three ways to collect UPI payment for online courses compared: personal UPI QR is manual, a gateway payment link is partly automatic, checkout in your own academy opens access automatically|The difference is what happens after the student pays.}}\n      <div class=\"v3-table\"><table>\n        <thead><tr><th></th><th>Personal UPI QR</th><th>Gateway payment link</th><th>Checkout in your academy</th></tr></thead>\n        <tbody>\n          <tr><td>Setup</td><td>None</td><td>Gateway KYC</td><td>Platform setup and KYC</td></tr>\n          <tr><td>Proof of payment</td><td>Student's screenshot</td><td>Gateway record</td><td>Gateway record, linked to the student</td></tr>\n          <tr><td>Course access</td><td>You add each student</td><td>You add each student</td><td>Opens on its own</td></tr>\n          <tr><td>Cards as well as UPI</td><td>No</td><td>Yes</td><td>Yes</td></tr>\n          <tr><td>Best for</td><td>Your first few students</td><td>One-off workshops</td><td>Courses and batches you sell for months</td></tr>\n        </tbody>\n        <caption>General comparison. Exact features depend on the gateway or platform.</caption>\n      </table></div>\n      <p>When we talk to educators who move to AllCoaching, the setup we hear about most often is the first one: a UPI QR in a WhatsApp group and a notebook of who paid. It simply grew one batch at a time.</p>"
+  },
+  {
+   "id": "what-you-need",
+   "h2": "What do you need before you accept UPI payments?",
+   "toc": "What you need",
+   "html": "<p>Before a gateway can pay you, it must verify who you are and which bank account is yours. This is know-your-customer (KYC) checking. Keep these ready before you sign up.</p>\n      {{fig:kyc-checklist|Documents an individual educator needs before payment gateway KYC to accept UPI payments for online courses: personal PAN, bank account with IFSC, Aadhaar-linked mobile, website link, GSTIN if available|For an individual without a registered business, based on Razorpay's KYC documentation.}}\n      <p>For an individual or unregistered business, Razorpay's documentation lists:<sup><a href=\"#ref-2\">[2]</a></sup></p>\n      <ul>\n        <li><strong>Proof of identity and address</strong>, auto-fetched from your Central KYC (CKYC) record. If that fails, you share Aadhaar details through DigiLocker or upload a photo ID.</li>\n        <li><strong>Bank details</strong>: account number and IFSC are mandatory. If the bank check fails, you are asked for proof such as a video of a cancelled cheque.</li>\n        <li><strong>Your personal PAN</strong>, which Razorpay uses to look up your details.<sup><a href=\"#ref-3\">[3]</a></sup></li>\n      </ul>\n      <p>A GSTIN is not always needed. Razorpay's setup flow has an \"I don't have a GSTIN\" option.<sup><a href=\"#ref-3\">[3]</a></sup> If you run a registered proprietorship, the list grows: Razorpay asks for two business proofs, such as a GST certificate, Udyam (MSME) certificate or shop and establishment certificate.<sup><a href=\"#ref-2\">[2]</a></sup></p>\n      {{q:Can I use my savings account for course payments?|Gateways ask for an account in your or your business's name and verify it with a small test deposit. A separate account only for course fees makes tax work easier at year end; ask your CA which type suits you.}}"
+  },
+  {
+   "id": "step-by-step",
+   "h2": "How to accept UPI payments for online courses: 8 steps",
+   "toc": "The 8 steps",
+   "html": "<p>Here is the full setup, in the order that avoids rework. Most educators can finish it in a few days, and much of that is waiting for KYC.</p>\n      {{steps}}\n      <h3>Step 5 in detail: connect payment to access</h3>\n      <p>If a payment does not enrol the student automatically, every sale becomes a manual task: find the payment, find the student, add them, send the link. With built-in checkout, the payment confirmation itself opens the course. Our guide on <a href=\"/blog/automate-student-onboarding-for-coaching-app\">automating student onboarding</a> covers what should happen in the minutes after a payment.</p>\n      <h3>Step 7 in detail: test like a student</h3>\n      <p>Buy your own course from a budget Android phone on mobile data, not from your laptop on office Wi-Fi. Try Google Pay, then PhonePe, then Paytm. Check that the payment shows in your records, the course opens, and the confirmation reads well in your students' language, whether that is a Hindi-medium NEET batch or a spoken-English class for working adults.</p>\n      {{cta}}"
+  },
+  {
+   "id": "costs",
+   "h2": "How much does it cost to accept UPI payments for courses?",
+   "toc": "What it costs",
+   "html": "<p>UPI itself costs the merchant nothing on bank-to-bank payments, but the gateway that verifies and settles the payment charges a platform fee. On Razorpay's standard pricing, that fee is 2% of each payment plus 18% GST on the fee, with no setup fee and no yearly maintenance charge.<sup><a href=\"#ref-1\">[1]</a></sup></p>\n      <p>Razorpay's own pricing page explains the split: there is zero MDR (merchant discount rate) on standard bank-to-bank UPI, \"however, a standard platform or technology fee of 2% will be applied\" for its dashboard, reporting and infrastructure.<sup><a href=\"#ref-1\">[1]</a></sup> Cashfree lists a platform fee from 1.95% on its standard payment modes and says it charges zero setup fees.<sup><a href=\"#ref-5\">[5]</a></sup> Rates change, so check the live page before you sign up.</p>\n      <p>For one illustrative ₹1,999 course sold by UPI on that standard rate, the fee is ₹39.98 plus ₹7.20 GST, and ₹1,951.82 is settled to you. Income tax and any GST on your own course fee are separate.</p>\n      {{fig:upi-fee-maths|Illustrative fee maths for a ₹1,999 UPI payment for an online course: zero MDR, a 2% gateway platform fee of ₹39.98, GST of ₹7.20 on the fee, and ₹1,951.82 settled to the educator|Illustrative. Razorpay's standard rates, checked October 2026.}}\n      <p>A gateway on its own gives you payments, not a website, an app or course delivery. If you use a course platform, add its price too. On AllCoaching, plans are Starter ₹6,999, Growth ₹12,999 and Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee on sales, or Scale at ₹99,999 a year with a 0% platform fee, which you buy through \"Contact us\" on the <a href=\"/pricing\">pricing page</a>. All prices exclude GST. To choose a price students will actually pay, read <a href=\"/blog/how-to-price-online-courses-india\">how to price online courses in India</a>.</p>"
+  },
+  {
+   "id": "limits",
+   "h2": "Is there a UPI limit on course fees?",
+   "toc": "UPI limits",
+   "html": "<p>Yes. UPI has per-transaction limits, so a very high course fee may not go through in a single UPI payment. In December 2023, the Reserve Bank of India said the UPI transaction limit was capped at ₹1 lakh, except for a few categories, and proposed raising the limit for payments to hospitals and educational institutions to ₹5 lakh per transaction.<sup><a href=\"#ref-4\">[4]</a></sup></p>\n      <div class=\"v3-quote\">\n        <p>\"To encourage the use of UPI for medical and educational services, it is proposed to enhance the limit for payments to hospitals and educational institutions from ₹1 lakh to ₹5 lakh per transaction.\"</p>\n        <cite>Reserve Bank of India, Statement on Developmental and Regulatory Policies, 8 December 2023</cite>\n      </div>\n      <p>Whether the higher limit applies to your academy depends on how your gateway classifies your business, so ask your gateway rather than assume it. Most SSC courses, UPSC test series or yoga programmes cost far less than ₹1 lakh. For an expensive year-long programme, offer instalments or card and net banking alongside UPI.</p>"
+  },
+  {
+   "id": "gst",
+   "h2": "Do you need GST registration to accept UPI payments?",
+   "toc": "GST and UPI",
+   "html": "<p>Not always to start. Razorpay's sign-up flow lets eligible applicants continue without a GSTIN.<sup><a href=\"#ref-3\">[3]</a></sup> Whether you must register for GST, and whether GST applies to your course fees, is a tax question that depends on your turnover and how you teach, not on the payment method.</p>\n      <p>Decide before launch whether your listed price includes GST and say so on the course page. Note that the 18% GST in the fee maths above is charged on the gateway's fee, not on your course price.<sup><a href=\"#ref-1\">[1]</a></sup> For the rules on coaching fees, read our guides on <a href=\"/blog/gst-for-coaching-institutes-india\">GST for coaching institutes</a> and <a href=\"/blog/online-tutor-gst-income-tax-india\">GST and income tax for online tutors</a>, and confirm your case with a chartered accountant.</p>"
+  },
+  {
+   "id": "checkout-tips",
+   "h2": "How to make UPI checkout work on students' phones",
+   "toc": "Checkout tips",
+   "html": "<p>A UPI checkout works best when it takes one tap from the course page, opens the student's UPI app directly, and confirms access on the same screen. Most of your students will pay on a phone, often a budget Android phone on mobile data, so design for that first.</p>\n      <ul>\n        <li><strong>Share a course page link, not a QR image.</strong> A student cannot scan a QR on the phone they are paying from.</li>\n        <li><strong>Show the price, what is included and the validity before the pay button.</strong> \"₹1,999 · 120 lessons · Hindi medium · valid till the 2026 exam\" answers the questions that otherwise arrive on WhatsApp.</li>\n        <li><strong>Keep the page light.</strong> A heavy page on a slow connection loses students. Our <a href=\"/blog/how-to-create-landing-page-for-online-course\">course landing page guide</a> covers the layout.</li>\n        <li><strong>Write confirmation messages in your teaching language.</strong> A Hindi-medium student should see what to do next in Hindi or simple English.</li>\n        <li><strong>Put the link where students already are.</strong> YouTube descriptions, a pinned WhatsApp message, your Instagram bio. If students are reluctant to install an app, see <a href=\"/blog/students-wont-download-coaching-app-whatsapp\">what to do when students won't download your app</a>.</li>\n      </ul>\n      {{fig:before-after-upi|Before and after: collecting UPI screenshots on WhatsApp compared with UPI checkout on your own academy where access opens on its own|Moving from screenshots on WhatsApp to a checkout that confirms itself. Logos belong to their owners.}}"
+  },
+  {
+   "id": "mistakes",
+   "h2": "Common UPI payment mistakes course sellers make",
+   "toc": "Common mistakes",
+   "html": "<p>The most common mistake is treating a payment screenshot as proof of payment. Screenshots can be old or edited, and checking each one does not scale. Use payments your gateway has verified.</p>\n      {{fig:upi-payment-mistakes|Common UPI payment mistakes when selling online courses, such as screenshots as proof and personal accounts, and what to do instead|Five habits that cost time, and the fix for each.}}\n      <div class=\"v3-pair\">\n        <div class=\"yes\"><h4>Do</h4><p>Collect through a gateway or platform checkout. Keep a separate bank account for course fees. Publish a short refund policy before the batch starts. Share one course link everywhere. Test on a budget phone before every launch.</p></div>\n        <div class=\"no\"><h4>Avoid</h4><p>Accepting screenshots as proof. Mixing fees with personal spending. Deciding refunds case by case on WhatsApp. Posting a QR image as your only way to pay. Launching a batch without a test payment.</p></div>\n      </div>\n      <p>One more: do not leave payment records only inside a chat app. When a parent asks for a receipt in March, or your CA asks for a year of sales, you want a record you can export.</p>"
+  },
+  {
+   "id": "on-allcoaching",
+   "h2": "How UPI payments work on AllCoaching",
+   "toc": "On AllCoaching",
+   "html": "<p>On AllCoaching, UPI and card checkout is part of every plan, and payouts reach your bank account automatically through Razorpay. You build your academy, set a price on each course, and students pay on your own academy website or Android app (iOS app on Pro and Scale). You still verify your identity and bank account during setup, because that is how regulated payments work in India.</p>\n      <p>The path is the one this guide describes: sign up, choose a plan, upload your course, connect your domain and start selling. We built checkout into every plan because the educators we work with did not start teaching to match screenshots. Every plan starts with a 14-day free trial with no card needed, and you keep 90–100% of each sale depending on the plan. For the full picture of selling online, read <a href=\"/blog/how-to-sell-courses-online-in-india\">how to sell courses online in India</a> and our guide to an <a href=\"/blog/lms-with-custom-domain-for-coaching-india\">LMS with your own domain</a>.</p>\n      {{fig:academy-upi-checkout|AllCoaching Studio on a laptop and phone with UPI and card checkout, automatic course access and Razorpay payouts on every plan|AllCoaching Studio preview · sample data.}}"
+  }
+ ],
+ "steps": {
+  "name": "How to accept UPI payments for online courses in India",
+  "description": "Set up UPI payments for an online course: choose a payment route, complete KYC, price the course, connect payment to access, test and share the link.",
+  "total_time": "P3D",
+  "items": [
+   [
+    "Choose how students will pay",
+    "Pick one route: a personal UPI QR, a gateway payment link, or checkout built into your academy. For a course you will sell for months, choose a checkout that is linked to course access."
+   ],
+   [
+    "Keep your KYC documents ready",
+    "Have your personal PAN, a bank account with IFSC in your name, the mobile number linked to your Aadhaar, your course page link, and your GSTIN only if you have one."
+   ],
+   [
+    "Complete KYC with your gateway or platform",
+    "Sign up, choose registered or unregistered business, confirm your PAN, finish the CKYC or DigiLocker check, and add your bank account for the small verification deposit."
+   ],
+   [
+    "Price each course in rupees",
+    "Set one clear price per course or batch, decide whether GST is included, and show the price, contents and validity on the course page."
+   ],
+   [
+    "Connect payment to course access",
+    "Make sure a confirmed payment enrols the student in the right course automatically, so you never add students by hand."
+   ],
+   [
+    "Write a refund and support policy",
+    "Publish a short refund policy and one support contact before the first sale, so payment questions have a clear answer."
+   ],
+   [
+    "Test with a real payment",
+    "Buy your own course from a budget Android phone on mobile data with two or three UPI apps, then check the record, the access and the confirmation message."
+   ],
+   [
+    "Share the course link and reconcile monthly",
+    "Put one course link in YouTube, WhatsApp and Instagram, then match payouts in your bank to sales once a month and export the records."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "Can I accept UPI payments for online courses without a website?",
+   "Yes. You can use a personal QR code or a gateway payment link; Razorpay says its Payment Links work without a website or app. Course access then stays manual, so a checkout on your own course page saves time as you grow."
+  ],
+  [
+   "Is UPI free for course sellers in India?",
+   "Bank-to-bank UPI carries zero MDR, but payment gateways charge a platform fee for verifying and settling payments. Razorpay's standard rate is 2% plus 18% GST on that fee, with no setup or maintenance charge (checked October 2026)."
+  ],
+  [
+   "What documents do I need to accept UPI payments as an individual tutor?",
+   "For an individual without a registered business, Razorpay asks for your personal PAN and a bank account number with IFSC; identity and address are fetched from your CKYC record, with DigiLocker, a photo ID upload or video KYC as fallbacks. A GSTIN is needed only if you have one."
+  ],
+  [
+   "Do I need GST registration to accept UPI payments for my courses?",
+   "Not to start on Razorpay, which offers a route for eligible applicants without a GSTIN. Whether you must register for GST, and whether GST applies to your course fees, depends on your turnover and situation, so confirm it with a chartered accountant."
+  ],
+  [
+   "Is there a maximum amount a student can pay by UPI for a course?",
+   "Yes. In December 2023 the RBI said the general UPI limit was ₹1 lakh per transaction and proposed ₹5 lakh for payments to hospitals and educational institutions. For higher fees, offer instalments or let students pay by card or net banking."
+  ],
+  [
+   "Is it safe to collect course fees on my personal UPI ID?",
+   "It works for a few students, but screenshots can be edited, each student is added by hand, and course money mixes with personal money. A gateway or platform checkout gives verified records and can open access automatically."
+  ],
+  [
+   "How do students pay by UPI on AllCoaching?",
+   "Students pay with UPI or a card on your own academy website or app, course access opens after payment, and payouts reach your bank automatically through Razorpay. UPI checkout is part of every plan: Starter, Growth and Pro carry a 10%, 7.5% or 5% platform fee, and Scale has a 0% platform fee."
+  ],
+  [
+   "Which UPI payment gateway is best for online courses?",
+   "It depends on your fees, volume and the features you need. Our separate UPI payment gateway comparison for online courses looks at the options side by side; this guide covers the setup steps."
+  ]
+ ],
+ "glossary": [
+  [
+   "upi",
+   "UPI (Unified Payments Interface)",
+   "India's real-time bank-to-bank payment network run by NPCI, used through apps such as Google Pay, PhonePe and Paytm."
+  ],
+  [
+   "payment-gateway",
+   "Payment gateway",
+   "A company that accepts online payments for a business, verifies each one and settles the money to the business's bank account. Razorpay, for example, is authorised by the RBI as a payment aggregator."
+  ],
+  [
+   "mdr",
+   "MDR (merchant discount rate)",
+   "The charge a merchant's bank takes on a digital payment. Bank-to-bank UPI and RuPay debit card payments carry zero MDR."
+  ],
+  [
+   "platform-fee",
+   "Platform fee",
+   "A percentage a gateway or course platform keeps from each payment for its service. It is separate from MDR and usually attracts GST."
+  ],
+  [
+   "kyc",
+   "KYC (know your customer)",
+   "The identity and bank-account checks a payment company must complete before it can pay money out to you."
+  ],
+  [
+   "ckyc",
+   "CKYC (Central KYC)",
+   "A central registry of verified KYC records, maintained by CERSAI, that payment companies can look up with your PAN, so you upload fewer documents."
+  ],
+  [
+   "settlement",
+   "Settlement",
+   "The transfer of collected payments, minus fees, from the gateway to your bank account on the gateway's settlement cycle."
+  ]
+ ],
+ "references": [
+  "Razorpay, \"Payment Gateway Pricing\". <a href=\"https://razorpay.com/pricing/\" target=\"_blank\" rel=\"noopener nofollow\">razorpay.com/pricing</a>, checked October 2026.",
+  "Razorpay Docs, \"KYC Documents for Companies and Businesses\". <a href=\"https://razorpay.com/docs/payments/business-types-kyc-documents/\" target=\"_blank\" rel=\"noopener nofollow\">razorpay.com/docs</a>, checked October 2026.",
+  "Razorpay Docs, \"Set up a Razorpay Account\". <a href=\"https://razorpay.com/docs/payments/set-up/\" target=\"_blank\" rel=\"noopener nofollow\">razorpay.com/docs</a>, checked October 2026.",
+  "Reserve Bank of India, \"Statement on Developmental and Regulatory Policies\", 8 December 2023. <a href=\"https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56889\" target=\"_blank\" rel=\"noopener nofollow\">rbi.org.in</a>, checked October 2026.",
+  "Cashfree Payments, \"Payment Gateway Charges\". <a href=\"https://www.cashfree.com/payment-gateway-charges/\" target=\"_blank\" rel=\"noopener nofollow\">cashfree.com</a>, checked October 2026.",
+  "Razorpay Docs, \"About Payment Links\". <a href=\"https://razorpay.com/docs/payments/payment-links/\" target=\"_blank\" rel=\"noopener nofollow\">razorpay.com/docs</a>, checked October 2026."
+ ],
+ "citations": [
+  "https://razorpay.com/pricing/",
+  "https://razorpay.com/docs/payments/business-types-kyc-documents/",
+  "https://razorpay.com/docs/payments/set-up/",
+  "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56889",
+  "https://www.cashfree.com/payment-gateway-charges/",
+  "https://razorpay.com/docs/payments/payment-links/"
+ ],
+ "about": [
+  {
+   "name": "Unified Payments Interface",
+   "sameAs": "https://en.wikipedia.org/wiki/Unified_Payments_Interface"
+  },
+  {
+   "name": "Payment gateway",
+   "sameAs": "https://en.wikipedia.org/wiki/Payment_gateway"
+  },
+  {
+   "name": "Know your customer",
+   "sameAs": "https://en.wikipedia.org/wiki/Know_your_customer"
+  },
+  {
+   "name": "Online course"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "National Payments Corporation of India",
+   "url": "https://www.npci.org.in",
+   "type": "Organization"
+  },
+  {
+   "name": "Reserve Bank of India",
+   "url": "https://www.rbi.org.in",
+   "type": "GovernmentOrganization"
+  },
+  {
+   "name": "Razorpay",
+   "url": "https://razorpay.com"
+  },
+  {
+   "name": "Cashfree Payments",
+   "url": "https://www.cashfree.com"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/best-upi-payment-gateway-for-online-courses",
+  "/blog/how-to-price-online-courses-india",
+  "/blog/gst-for-coaching-institutes-india",
+  "/blog/how-to-sell-courses-online-in-india"
+ ],
+ "author_note": "This guide walks through the steps in plain words, with every outside fact linked to its source and dated."
+}
