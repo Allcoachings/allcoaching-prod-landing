@@ -27,7 +27,7 @@
    {
     "need": "Solo educator who wants own website and app",
     "pick": "AllCoaching",
-    "why": "Own domain and Android + iOS app on every plan; add teachers later",
+    "why": "Own domain and Android app (iOS on Pro) on every plan; add teachers later",
     "icon": "globe",
     "us": true
    },
@@ -214,7 +214,7 @@
   "checks": [
    "Separate teacher logins",
    "Courses and batches together",
-   "Website + Android + iOS app",
+   "Website + Android app (iOS on Pro)",
    "UPI and card checkout",
    "Live classes, unlimited"
   ]

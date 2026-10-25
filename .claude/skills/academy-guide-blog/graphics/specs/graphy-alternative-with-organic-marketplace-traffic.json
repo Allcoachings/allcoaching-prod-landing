@@ -24,7 +24,7 @@
    {
     "need": "You want Google, YouTube and a listing working together",
     "pick": "AllCoaching",
-    "why": "Own domain, own Android + iOS app and a marketplace listing on every plan",
+    "why": "Own domain, own Android app (iOS on Pro) and a marketplace listing on every plan",
     "icon": "search",
     "us": true
    },
@@ -144,7 +144,7 @@
   ],
   "checks": [
    "Your own domain for Google",
-   "Your own Android + iOS app",
+   "Your own Android app (iOS on Pro)",
    "UPI checkout from any link",
    "Meta Pixel and GTM",
    "Marketplace listing too"

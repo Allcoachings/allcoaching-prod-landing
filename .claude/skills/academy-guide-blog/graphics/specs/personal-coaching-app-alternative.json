@@ -22,7 +22,7 @@
    {
     "need": "Own app and website, built and changed by you",
     "pick": "AllCoaching",
-    "why": "Android + iOS app and own domain on every plan, 14-day free trial",
+    "why": "Android app (iOS on Pro) and own domain on every plan, 14-day free trial",
     "icon": "globe",
     "us": true
    },
@@ -192,7 +192,7 @@
    "*Your academy.*"
   ],
   "checks": [
-   "Your own Android + iOS app",
+   "Your own Android app (iOS on Pro)",
    "Website on your domain",
    "Live classes, unlimited",
    "UPI and card checkout",

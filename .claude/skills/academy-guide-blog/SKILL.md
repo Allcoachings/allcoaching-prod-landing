@@ -22,12 +22,12 @@ Reference implementation (read it before writing a new post):
 - **Tagline in graphics and lockups:** "The academy platform for educators".
 - **The automated path (repeat it, in this order):** sign up → choose a plan → upload your course → connect your domain → start selling. Payments, student access, apps and hosting run on their own.
 - **Headline lines that are approved:** "Build your own LMS. In just a few clicks." · "One login. Your whole academy." · "Your knowledge deserves its own academy." · "Your domain. Your brand. Your students." · "Focus on teaching. We handle the tech." · "Your LMS shouldn't feel like a tech project."
-- **What the educator owns:** academy website on their own domain, their own white-label Android and iOS app, their brand (logo, colours, theme), their student data (exportable).
+- **What the educator owns:** academy website on their own domain, their own white-label Android app (iOS on Pro and Scale), their brand (logo, colours, theme), their student data (exportable).
 - **What runs underneath:** courses (video, PDF, tests), unlimited live classes (YouTube Live, Zoom, built-in room), UPI/card checkout with automatic Razorpay payouts, Meta Pixel + Google Tag Manager, plugins.
 - **Marketplace = supporting discovery**, never the headline: "your courses can also be discovered on the AllCoaching app".
 - **The enemy is complexity, not competitors:** WordPress + 9 plugins, WhatsApp + Drive + Zoom + Excel, agency-built apps you cannot change. Show the stitched-together mess, then one login.
 - **Who it is for:** exam educators (NEET, JEE, SSC, banking, UPSC, state PSC, CUET, CLAT, CAT) and skill educators (yoga, spoken English, marketing, vastu, music, coding, the Vedas). Use both kinds of examples.
-- **Price truth:** 14-day free trial, no card; then Starter ₹6,999 / Growth ₹12,999 / Pro ₹24,999 per year excl. GST; platform fee 10% / 7.5% / 5% (keep 90–95%). Never "free forever", "₹0", "one-time", "cheapest". Say "Plans from ₹6,999/year + GST".
+- **Price truth (2026-10-25):** 14-day free trial, no card; then Starter ₹6,999 / Growth ₹12,999 / Pro ₹24,999 per year excl. GST with a 10% / 7.5% / 5% platform fee, or **Scale ₹59,999/year at 0% commission** (via WhatsApp +91 98899 77262). Own Android app on every plan; **iOS app on Pro and Scale only**. Keep 90–100%. Never "free forever", "₹0", "one-time", "cheapest". Say "Plans from ₹6,999/year + GST".
 
 ### Studio v5 (product design shared by the owner, 2026-10-24)
 The educator app is called the **studio** and looks like Shopify admin: sidebar with Dashboard, Transactions, Content (Videos, PDFs, Test series), Courses, Free content, Live, Community, Discount, Analytics; Workspace: Own branding, Notifications, Referrals, Settings. Screenshots live in `graphics/studio-*.jpg` (sample educator "Anika Mehta", sample numbers).

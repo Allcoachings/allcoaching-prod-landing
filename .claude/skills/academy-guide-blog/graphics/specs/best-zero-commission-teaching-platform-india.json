@@ -24,16 +24,17 @@
   "sub": "A 0% plan pays off only once sales cover its fixed fee.",
   "rows": [
    {
-    "need": "You sell above about ₹14.4 lakh a year and want 0%",
-    "pick": "Learnyst Professional",
-    "why": "0% transaction fees; ₹8,099/month billed annually, taxes extra",
-    "icon": "trend"
+    "need": "You sell above ₹7 lakh a year and want 0%",
+    "pick": "AllCoaching Scale",
+    "why": "0% fee; ₹59,999/yr + GST, own website and apps included",
+    "icon": "trend",
+    "us": true
    },
    {
-    "need": "You run a large community business with high sales",
-    "pick": "TagMango Ultimate",
-    "why": "Zero commission at ₹30,000/month + GST; gateway from 1.9%",
-    "icon": "users"
+    "need": "You need DRM test series at 0%",
+    "pick": "Learnyst Professional",
+    "why": "0% transaction fees; ₹8,099/month billed annually, taxes extra",
+    "icon": "chart"
    },
    {
     "need": "You sell to students abroad in dollars",
@@ -42,10 +43,10 @@
     "icon": "globe"
    },
    {
-    "need": "You want to pay less upfront while you grow",
-    "pick": "AllCoaching",
-    "why": "Not zero-commission: ₹6,999/yr + 10%, down to 5% on Pro",
-    "icon": "chart",
+    "need": "You sell less than ₹7 lakh a year",
+    "pick": "AllCoaching Starter to Pro",
+    "why": "₹6,999/yr + 10%, down to 5% on Pro; costs less than any 0% plan",
+    "icon": "users",
     "us": true
    }
   ]
@@ -58,9 +59,9 @@
   "rows": [
    {
     "name": "AllCoaching",
-    "price": 6999,
-    "label": "₹6,999/yr",
-    "fee": "+10% platform fee: not zero-commission",
+    "price": 59999,
+    "label": "₹59,999/yr",
+    "fee": "Scale, 0%; GST extra, apps included",
     "published": true
    },
    {
@@ -193,14 +194,14 @@
    "small print"
   ],
   "right_title": [
-   "Pay as",
-   "*you grow.*"
+   "Zero commission,",
+   "*apps included.*"
   ],
   "checks": [
-   "From ₹6,999 a year + GST",
-   "Fee drops to 5% on Pro",
+   "Scale: ₹59,999 a year + GST",
+   "0% platform fee on sales",
    "Own domain included",
-   "Own Android + iOS app",
+   "Own Android and iOS app",
    "14-day free trial, no card"
   ]
  }

@@ -36,7 +36,7 @@
    {
     "need": "Apni website aur iOS app khud banana hai",
     "pick": "AllCoaching",
-    "why": "Har plan mein apna domain aur Android + iOS app, 14 din free trial",
+    "why": "Har plan mein apna domain aur Android app (iOS Pro par), 14 din free trial",
     "icon": "globe",
     "us": true
    },
@@ -142,7 +142,7 @@
   "checks": [
    "Plans ₹6,999/saal + GST se",
    "Apne domain par website",
-   "Apna Android + iOS app",
+   "Apna Android app (iOS Pro par)",
    "Unlimited live classes",
    "14 din trial, card nahi"
   ]

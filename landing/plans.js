@@ -2,7 +2,7 @@
  * Live plans for /landing pages. Plans change on the server, so no page hardcodes a price:
  *   <div data-plans></div>        → filled with one card per plan (CTA opens the checkout)
  *   <span data-from></span>       → "₹6,999" (cheapest plan today)
- *   <span data-keep-range></span> → "90–95%"
+ *   <span data-keep-range></span> → "90–100%"
  * Reads GET login/onboarding/pricing through the same-origin proxy (/acapi/proxy.php).
  * If the call fails, plan cards are replaced by one button that opens the checkout, where the
  * educator still sees live prices.

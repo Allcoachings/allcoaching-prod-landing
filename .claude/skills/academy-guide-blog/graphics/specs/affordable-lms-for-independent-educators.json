@@ -29,7 +29,7 @@
     "icon": "chart"
    },
    {
-    "need": "You want your own website and Android + iOS app",
+    "need": "You want your own website and Android app (iOS on Pro)",
     "pick": "AllCoaching",
     "why": "Both on every plan from ₹6,999/yr + a fee only when you sell; 14-day free trial",
     "icon": "globe",
@@ -201,7 +201,7 @@
   ],
   "checks": [
    "Website on your domain",
-   "Your own Android + iOS app",
+   "Your own Android app (iOS on Pro)",
    "Live classes, unlimited",
    "UPI and card checkout",
    "Fee only when you sell"

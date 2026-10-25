@@ -25,7 +25,7 @@
    {
     "need": "Apni website aur app khud banana hai",
     "pick": "AllCoaching",
-    "why": "Har plan mein apna domain aur Android + iOS app, 14 din free trial",
+    "why": "Har plan mein apna domain aur Android app (iOS Pro par), 14 din free trial",
     "icon": "globe",
     "us": true
    },
@@ -195,7 +195,7 @@
   ],
   "checks": [
    "Apne domain par website",
-   "Apna Android + iOS app",
+   "Apna Android app (iOS Pro par)",
    "Unlimited live classes",
    "UPI aur card checkout",
    "Tests aur notes ek jagah"

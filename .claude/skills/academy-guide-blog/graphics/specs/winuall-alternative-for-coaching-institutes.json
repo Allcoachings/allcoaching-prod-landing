@@ -24,7 +24,7 @@
    {
     "need": "Rebuild your own website and app yourself",
     "pick": "AllCoaching",
-    "why": "Own domain, Android + iOS app and teacher logins on every plan",
+    "why": "Own domain, Android app (iOS on Pro) and teacher logins on every plan",
     "icon": "globe",
     "us": true
    },
@@ -178,7 +178,7 @@
   ],
   "checks": [
    "Website on your domain",
-   "Your own Android + iOS app",
+   "Your own Android app (iOS on Pro)",
    "Separate teacher logins",
    "UPI and card checkout",
    "Your data, exportable"

@@ -27,7 +27,7 @@
    {
     "need": "You want your own app, brand and student list",
     "pick": "Own academy",
-    "why": "AllCoaching: own domain and Android + iOS app on every plan, 14-day free trial",
+    "why": "AllCoaching: own domain and Android app (iOS on Pro) on every plan, 14-day free trial",
     "icon": "globe",
     "us": true
    },
@@ -97,7 +97,7 @@
   ],
   "checks": [
    "Website on your domain",
-   "Your own Android + iOS app",
+   "Your own Android app (iOS on Pro)",
    "Live classes, unlimited",
    "UPI and card checkout",
    "Tests and notes in one place"

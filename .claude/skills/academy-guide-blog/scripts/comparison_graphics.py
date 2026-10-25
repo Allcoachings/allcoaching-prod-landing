@@ -23,7 +23,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from brand_graphics import *  # noqa
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', '..'))
-AC_PLANS = [(6999, 0.10, 'Starter'), (12999, 0.075, 'Growth'), (24999, 0.05, 'Pro')]
+AC_PLANS = [(6999, 0.10, 'Starter'), (12999, 0.075, 'Growth'), (24999, 0.05, 'Pro'), (59999, 0.0, 'Scale')]
 
 
 def inr(n):
@@ -178,7 +178,7 @@ def cost(sp):
         b += f'<rect x="{lx}" y="{y0 - 50}" width="26" height="8" rx="4" fill="{col}"/>' + text(lx + 36, y0 - 41, name, 18, INK, 600)
         lx += 60 + len(name) * 11
     notes = [cm.get('note') for cm in c['competitors'] if cm.get('note')]
-    notes.append('AllCoaching: Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%. GST extra.')
+    notes.append('AllCoaching: Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%, Scale ₹59,999 + 0%. GST extra.')
     for k, n in enumerate(notes[-6:]):
         b += text(60, H - 24 - (len(notes[-6:]) - k) * 24 + 10, n, 15, MUTED)
     b += signature(W, H)

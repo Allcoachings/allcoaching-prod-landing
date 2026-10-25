@@ -9,7 +9,7 @@
  "verdict": {
   "title": ["Pick by *what you need next*"],
   "rows": [
-   {"need": "Your own academy, app and prices, with UPI checkout", "pick": "AllCoaching", "why": "Own domain and Android + iOS app on every plan, from ₹6,999/yr + 10%", "icon": "globe", "us": true},
+   {"need": "Your own academy, app and prices, with UPI checkout", "pick": "AllCoaching", "why": "Own domain and Android app (iOS on Pro) on every plan, from ₹6,999/yr + 10%", "icon": "globe", "us": true},
    {"need": "Your main product is mock tests", "pick": "Learnyst", "why": "Test-series focus; Launcher ₹10,000/yr + 10%, or 0% fee on monthly plans", "icon": "check"},
    {"need": "You also sell sessions and webinars", "pick": "Exly", "why": "Starter: no yearly fee + 10%; app add-on from ₹60,000/yr", "icon": "message"},
    {"need": "You have no audience yet, or sell worldwide", "pick": "Udemy (keep)", "why": "Global marketplace with its own learners; revenue share set by Udemy's terms", "icon": "users"}
@@ -49,6 +49,6 @@
   "tapes": ["One listing among many", "Marketplace price rules", "Can I reach past students?", "Someone else's brand", "Notes on Telegram"],
   "note": ["Whose", "students?"],
   "right_title": ["One login.", "*Your academy.*"],
-  "checks": ["Website on your domain", "Your own Android + iOS app", "Your prices, in rupees", "UPI and card checkout", "Student list you can export"]
+  "checks": ["Website on your domain", "Your own Android app (iOS on Pro)", "Your prices, in rupees", "UPI and card checkout", "Student list you can export"]
  }
 }
