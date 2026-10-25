@@ -5,7 +5,7 @@ Then: python .claude/skills/academy-guide-blog/scripts/export_graphics.py assets
 
 Competitor figures come only from .claude/skills/academy-guide-blog/data/competitors.json (checked 24 Oct 2026).
 Store fees: Google Play Console Help (US$25 one-time) and Apple Developer enrollment (US$99 a year), checked Oct 2026.
-AllCoaching year-one maths: plan price + platform fee on sales, before GST and gateway charges (illustrative).
+AllCoaching year-one maths: plan price + platform fee on sales, before GST (illustrative).
 """
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'scripts'))
@@ -180,10 +180,10 @@ for i, ((n, p, f), t) in enumerate(zip(plans, tot)):
     b += text(100, y + 64, n, 32, BLUE if hl else INK, 800, font=F_HEAD, ls=-1)
     b += text(470, y + 64, inr(p), 28, INK, 600, 'end', F_HEAD)
     pct = ('%g' % (f * 100)) + '%'
-    b += text(760, y + 64, f'{pct} = {inr(f * SALES)}', 26, INK, 500, 'end', F_HEAD)
+    b += text(760, y + 64, (f'{pct} = {inr(f * SALES)}' if f else '0% = no fee'), 26, INK, 500, 'end', F_HEAD)
     b += text(1110, y + 64, inr(t), 32, BLUE if hl else INK, 800, 'end', F_HEAD, -1)
 b += text(60, 860, 'Pro is lowest from ₹4.8 lakh to ₹15 lakh of yearly sales; Scale is lowest above ₹15 lakh.', 20, INK, 600)
-b += text(60, H - 28, 'Illustrative. Before GST and payment gateway charges.', 16, MUTED) + signature(W, H)
+b += text(60, H - 28, 'Illustrative. Plan price and platform fee only, before GST.', 16, MUTED) + signature(W, H)
 save('year-one-cost', svg(W, H, b, 'Illustrative year-one cost of a coaching app with website on AllCoaching plans at ₹5 lakh of sales'))
 
 # 8. vendor questions ------------------------------------------------------------------------------

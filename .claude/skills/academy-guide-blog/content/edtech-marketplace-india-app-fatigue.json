@@ -1,0 +1,283 @@
+{
+ "slug": "edtech-marketplace-india-app-fatigue",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "EdTech App Fatigue: Why Students Won't Install Your App",
+ "description": "App fatigue is why students skip one more coaching app. Build a web-first academy on your own domain, offer an optional app, keep one login and cut your tool stack.",
+ "og_description": "Students won't download one more coaching app: low storage, data limits, shared phones and too many education apps. The fix is a web-first academy on your own domain with an optional app.",
+ "keywords": [
+  "edtech app fatigue india",
+  "app fatigue online education",
+  "students won't download coaching app",
+  "too many education apps",
+  "coaching app vs website",
+  "web-first online academy",
+  "coaching academy on own domain",
+  "optional coaching app for students",
+  "why students uninstall coaching apps"
+ ],
+ "h1": "EdTech App Fatigue: Why Students Won't Install One More Coaching App, and What to Build Instead",
+ "dek": "Students in India already juggle a school app, YouTube, WhatsApp, Telegram and a test app on a phone that is nearly full. Here is why the install step loses them, and how a web-first academy on your own domain, with an optional app, wins them back.",
+ "category": "Start an academy",
+ "date_published": "2026-04-25",
+ "date_modified": "2026-10-25",
+ "checked": "25 Oct 2026",
+ "cover_alt": "EdTech app fatigue: a student phone crowded with coaching apps and a storage warning, next to one academy link on your own domain",
+ "audience": "Indian educators, tutors, exam mentors, skill teachers and coaching institute owners whose students resist installing apps",
+ "author_note": "We rewrote this guide in October 2026: the earlier version argued that one marketplace app was the cure for app fatigue, but what we see with educators is that students follow a teacher they trust to a link that simply opens; outside facts link to their sources and example figures are marked as illustrative.",
+ "intro": [
+  "<strong>App fatigue is the reluctance students feel to download, sign up for and keep one more app, and in Indian online education it shows up as students who never get past your install step.</strong> The fix for an educator is not a better app pitch. It is an academy that works in the browser on your own domain first, with your own app offered to the students who want it.",
+  "Picture a Class 12 NEET student in Gaya. Her phone has 64 GB of storage, a school app, YouTube, WhatsApp, Telegram, two test-series apps and an app from a teacher she tried last year. Her monthly data pack runs out around the 20th. You send her a link to your new biology batch and the first thing it asks is to install another app. She closes it and goes back to YouTube.",
+  "This guide explains what app fatigue is, why students won't download a coaching app, what it costs you, and how to build around it: a coaching app vs website comparison, a web-first academy path, when to offer the app, how to cut the tool stack and a seven-step plan. If you are still deciding what an academy is, start with <a href=\"/blog/what-is-an-online-academy\">what an online academy is</a>."
+ ],
+ "takeaways": [
+  "<strong>App fatigue is real:</strong> students resist installing one more app because of low storage, data limits, shared phones, repeated sign-ups and too many alerts.",
+  "<strong>The install step is the leak:</strong> every extra step between your link and your lesson loses some students, and an app store visit is a big step.",
+  "<strong>Web first, app optional:</strong> let a student open your link, watch a free lesson and pay by UPI in the browser; offer your app after purchase to daily learners.",
+  "<strong>Your own domain builds trust</strong> that an unknown app link cannot: students see your name, not a download prompt.",
+  "<strong>Fewer tools beat more apps:</strong> move lessons, notes, tests, live classes and payments into one academy and keep WhatsApp for reminders.",
+  "<strong>On AllCoaching:</strong> sign up, choose a plan, upload your course, connect your domain and start selling, with your own Android app on every plan and iOS on Pro and Scale, after a 14-day free trial with no card."
+ ],
+ "sections": [
+  {
+   "id": "what-is-app-fatigue",
+   "h2": "What is app fatigue in online education?",
+   "toc": "What is app fatigue?",
+   "html": "<p><strong>App fatigue in online education is the tiredness and resistance students feel when every teacher, test series and school asks them to install a separate app, each with its own sign-up, OTP, notifications and storage cost.</strong> The result is that many students stop installing new learning apps at all, even from teachers they like.</p>\n      {{fig:what-app-fatigue-looks-like|What edtech app fatigue looks like: a student phone crowded with coaching apps, a storage warning, repeated OTPs, data limits and too many alerts|One student, one phone, a separate app for every teacher. Illustrative.}}\n      <p>It is easy to dismiss this as a minor annoyance. It is not, for one reason: the student decides whether to try you at the exact moment you ask for the install. If that moment feels like work, she leaves before she has seen a single minute of your teaching.</p>\n      <h3>How app fatigue shows up for an educator</h3>\n      <ul>\n        <li><strong>Link clicks without sign-ups.</strong> Students tap the link in your YouTube description, land on an app store page and never install.</li>\n        <li><strong>Installs without purchases.</strong> They install, hit a sign-up screen, and never return.</li>\n        <li><strong>Uninstalls after the batch.</strong> When storage runs low, your app is the first to go once the course ends, along with your next-batch announcements.</li>\n        <li><strong>\"Sir, please send on WhatsApp.\"</strong> Students ask for PDFs and links on WhatsApp because that is the app they already open fifty times a day.</li>\n      </ul>\n      <p>If the last point is your daily reality, our guide on <a href=\"/blog/students-wont-download-coaching-app-whatsapp\">students who won't download your app and only want WhatsApp</a> goes deeper into that specific habit.</p>"
+  },
+  {
+   "id": "why-students-wont-download",
+   "h2": "Why students won't download one more coaching app",
+   "toc": "Why students skip apps",
+   "html": "<p><strong>Students won't download a coaching app mainly because of low phone storage, limited data, shared family phones, low trust in an unknown app, alert overload and not yet knowing whether the teacher is worth it.</strong> None of these is about your teaching, and each has a fix that does not need the student to install anything first.</p>\n      {{fig:why-students-skip|Why students won't download a coaching app: low storage, data limits, shared phones, low trust, too many alerts and not being sure yet, with the fix for each|Six reasons students skip the install, and what each one asks of you.}}\n      <h3>1. Storage on budget phones</h3>\n      <p>Many students prepare for NEET, SSC or state exams on entry-level Android phones. When storage fills up, the phone itself nudges them to delete things: Google's Android Help page on freeing up storage has a section headed \"Uninstall apps you don't use\".<sup><a href=\"#ref-1\">1</a></sup> A coaching app that has not earned a daily habit yet is an easy candidate.</p>\n      <h3>2. Data limits</h3>\n      <p>Google says this plainly in its guidance for app developers: \"Users often avoid downloading apps that seem too large, particularly in emerging markets where devices connect to spotty 2G and 3G networks or work on plans with data limits.\"<sup><a href=\"#ref-2\">2</a></sup> A student on a daily data pack weighs every download against tonight's lecture.</p>\n      <h3>3. Shared phones</h3>\n      <p>In many homes, a younger student studies on a parent's phone or a sibling's. Installing apps on someone else's phone needs permission. Opening a link in the browser does not.</p>\n      <h3>4. Low trust in an unknown app</h3>\n      <p>A link that asks for an install from an app the student has never heard of feels risky, especially when it then asks for a phone number. A web page that clearly carries your name, photo and course on your own domain feels like the teacher they already know from YouTube.</p>\n      <h3>5. Too many alerts</h3>\n      <p>Every app on the phone competes for attention with notifications. Students who feel buried in alerts start muting or deleting apps, not adding them.</p>\n      <h3>6. They are not sure about you yet</h3>\n      <p>This is the biggest one. A student who has watched two of your YouTube videos is curious, not committed. Asking for an install before she has seen your course is asking for commitment too early. Let her try you first.</p>"
+  },
+  {
+   "id": "cost-to-educator",
+   "h2": "What app fatigue costs an educator",
+   "toc": "What it costs you",
+   "html": "<p><strong>App fatigue costs an educator enrolments at the install step, and with them part of the marketing effort that brought each student to the link.</strong> You pay for traffic, whether in reels, YouTube effort or ads, and then lose part of it before the student ever sees your course page.</p>\n      {{fig:install-step|Illustrative comparison of an app-first and a web-first path from one shared link to a paid enrolment, showing where the install step loses students|Two paths from the same link. Bar widths are illustrative, not measured data.}}\n      <h3>Lost at the install step</h3>\n      <p>Think of the path from your link to a paid enrolment as a set of steps. In an app-first path the student taps your link, goes to an app store, installs, signs up with an OTP, then finds and buys the course. In a web-first path she taps the link, sees the course page, watches the free lesson, signs up and pays. Both paths have a sign-up, but only one asks for an install before the student has seen anything. Every step loses some people; the install is usually the expensive one.</p>\n      <h3>Wasted marketing spend</h3>\n      <p>If you run Meta ads, the cost per click is the same whether the click ends in an app store or on your course page. Sending paid clicks to a course page that opens immediately gives each click a better chance. Our guide to <a href=\"/blog/meta-ads-for-coaching-institutes\">Meta ads for coaching institutes</a> covers how to measure that with the Meta Pixel.</p>\n      <p>When educators move their academy to us, the change we hear about first is rarely the website itself. It is that they can send one link and stop answering the same five questions every evening.</p>"
+  },
+  {
+   "id": "coaching-app-vs-website",
+   "h2": "Coaching app vs website: which do students actually use?",
+   "toc": "Coaching app vs website",
+   "html": "<p><strong>Students use both, at different moments: a website on your own domain is better for the first visit, search and sharing, and an app is better for daily learners in a long batch.</strong> So the question is not app or website. It is which one you put first.</p>\n      {{fig:app-vs-website|Coaching app vs website compared for Indian educators: first visit, Google search, low-storage phones, daily learners, WhatsApp sharing and maintenance|What each does best. General comparison.}}\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Question</th><th>App only</th><th>Web first, app optional</th></tr></thead>\n          <tbody>\n            <tr><td>A student's first visit</td><td>Install before seeing anything</td><td>Course page opens from one link</td></tr>\n            <tr><td>Being found on Google</td><td>App screens do not appear in search</td><td>Course and topic pages can rank</td></tr>\n            <tr><td>Low-storage or shared phones</td><td>Often skipped</td><td>Nothing to install to start</td></tr>\n            <tr><td>Daily learners in a long batch</td><td>One tap away, works well</td><td>Your own app is offered to them too</td></tr>\n            <tr><td>Sharing in WhatsApp or YouTube</td><td>Link to a store listing</td><td>Link straight to the course</td></tr>\n            <tr><td>Who looks after updates</td><td>Whoever built the app</td><td>The platform, underneath</td></tr>\n          </tbody>\n          <caption>General comparison for a single educator or a small institute. On AllCoaching, your own Android app is on every plan and the iOS app on Pro and Scale.</caption>\n        </table>\n      </div>\n      <p>A website also has a quiet advantage: search. Your course pages and topic pages can be found on Google by students who have never heard of you, while the screens inside an app cannot. That is why our <a href=\"/blog/lms-with-custom-domain-for-coaching-india\">guide to running an LMS on your own domain</a> treats the domain as the foundation, not an extra.</p>\n      {{q:Should I stop offering an app?|No. Students in a long batch, or on a daily test series, often prefer an app because it is one tap away and remembers where they stopped. Keep the app, but stop making it the front door. Let the website be the front door and offer the app inside, after the student has bought.}}"
+  },
+  {
+   "id": "web-first-academy",
+   "h2": "The fix: a web-first academy on your own domain",
+   "toc": "Web-first academy",
+   "html": "<p><strong>A web-first academy is one where a student can go from your link to your course page, a free lesson, UPI checkout and learning entirely in the browser, on your own domain, without installing anything.</strong> The app is still there for students who want it, but nobody has to install it to start.</p>\n      {{fig:web-first-path|Web-first academy path that avoids app fatigue: one link, course page, UPI checkout and learning in the browser, with an optional own Android app|One link, no install. Studio preview · sample data.}}\n      <h3>What the student sees</h3>\n      <ol>\n        <li><strong>Your link</strong>, for example youracademy.in/neet-biology, in your YouTube description, Instagram bio or WhatsApp message.</li>\n        <li><strong>Your course page</strong> with your photo, the syllabus, the language, validity, the price and a free lesson.</li>\n        <li><strong>UPI or card checkout</strong> on the same page. Access opens on its own once the payment goes through.</li>\n        <li><strong>Lessons, PDFs, tests and live classes</strong> in the browser, on any phone or laptop.</li>\n      </ol>\n      <h3>Why the web is enough for most first visits</h3>\n      <p>The browser is already installed on every phone, it does not ask for storage, and a link from a teacher the student follows feels familiar. The web has also grown up: Google's web.dev describes Progressive Web Apps as web apps that reach \"any web user on any device with a single codebase\".<sup><a href=\"#ref-3\">3</a></sup></p>\n      <h3>How AllCoaching handles it</h3>\n      <p>AllCoaching works like Shopify, for coaching: you sign up, choose a plan, upload your course, connect your domain and start selling. Payments, student access, apps and hosting run on their own. Your academy website runs on your own domain on every plan, students pay by UPI or card with automatic Razorpay payouts, and live classes are unlimited through YouTube Live, Zoom or the built-in live room. Our walkthrough on <a href=\"/blog/online-coaching-academy-without-coding\">creating an online academy without a developer</a> shows the build in one evening, and <a href=\"/blog/accept-upi-payments-for-online-courses\">accepting UPI payments for online courses</a> covers the checkout side.</p>\n      {{cta}}"
+  },
+  {
+   "id": "optional-app",
+   "h2": "Offer your own app, but make it optional",
+   "toc": "Make the app optional",
+   "html": "<p><strong>Offer your own app after a student has bought, to the students who learn with you every day, and never make it a condition of trying you.</strong> An optional app keeps its strengths (one tap, a home-screen icon in your name) without becoming the step that loses new students.</p>\n      {{fig:optional-app|Who is happy with a web academy and who will want a coaching app: make the app optional to avoid app fatigue|Two groups, one academy underneath.}}\n      <h3>Who is happy on the web</h3>\n      <p>A student trying your free lesson, someone buying a short crash course, anyone on a nearly full phone and anyone studying on a family phone. For these students the browser is not a compromise. It is the easiest way in.</p>\n      <h3>Who will want your app</h3>\n      <p>A student on a daily test series, someone in a year-long batch with a live class every evening, a learner who studies on the bus and anyone who simply asks for one. For them an app in your name is a convenience worth the storage, and by then they trust you.</p>\n      <h3>How to offer it without pressure</h3>\n      <ul>\n        <li>Mention the app on the thank-you message after purchase, not on the course page.</li>\n        <li>Say what it is for: \"Daily tests are quicker in the app.\" Not: \"Download our app to continue.\"</li>\n        <li>Keep every lesson reachable in the browser, so a student who deletes the app before exams can still study.</li>\n      </ul>\n      <p>On AllCoaching, every plan includes your own white-label Android app with your name and logo, and the iOS app is included on Pro and Scale. The website and the app run on the same academy, so you upload a lesson once.</p>\n      <p>If you already have an app that nobody installs, read <a href=\"/blog/coaching-app-no-downloads-what-to-do\">what to do when no one downloads your coaching app</a>. The short version: the problem is usually the front door, not the app.</p>"
+  },
+  {
+   "id": "fewer-tools",
+   "h2": "Too many education apps: cut the tool stack to one academy",
+   "toc": "Cut the tool stack",
+   "html": "<p><strong>The other side of app fatigue is tool fatigue: lessons on YouTube, notes in Drive, tests in a separate app, fees and links on WhatsApp and updates on Instagram.</strong> Moving the teaching into one academy and keeping the other tools only for reach makes life simpler for students and for you.</p>\n      {{fig:tools-vs-one-academy|Too many education apps and tools for one batch (WhatsApp, YouTube, Google Drive, Instagram, a test app) versus one academy link with lessons, live classes, checkout, your domain and your own app|Five places to check, or one link. Logos belong to their owners.}}\n      <div class=\"v3-pair\">\n        <div class=\"yes\"><h4>Keep</h4><p>YouTube for free lessons that bring new students. Instagram for reels and updates. WhatsApp for short reminders with one link. Each of these points to your academy.</p></div>\n        <div class=\"no\"><h4>Move into the academy</h4><p>Paid lessons, PDF notes, tests, live class links, fee collection and student access. Anything a student has to hunt for across apps belongs in one place.</p></div>\n      </div>\n      <p>Every AllCoaching plan includes unlimited videos via YouTube, so the lessons you already record can sit inside your course without a separate video host. Meta Pixel and Google Tag Manager are included too, so you can see which posts and ads bring students who buy.</p>\n      <div class=\"v3-quote\">\n        <p>\"Students do not get tired of good teachers. They get tired of hunting for the link, the PDF and the test across five apps.\"</p>\n        <cite>Amit Ratan, Founder &amp; CEO, AllCoaching</cite>\n      </div>"
+  },
+  {
+   "id": "how-to-fix",
+   "h2": "How to beat app fatigue in your academy: 7 steps",
+   "toc": "7 steps to fix it",
+   "html": "<p><strong>Measure where students drop, put your academy on your own domain, make the first lesson free on the web, take UPI on the course page, offer the app after purchase, cut the tool stack and send one link everywhere.</strong> Most educators can do the first four in a week.</p>\n      {{steps}}\n      {{fig:seven-steps|Seven steps to beat edtech app fatigue: measure drop-off, own domain, free web lesson, UPI checkout, optional app, fewer tools, one link|The seven steps at a glance.}}\n      <h3>Steps 3 and 4: a free lesson and a price on one page</h3>\n      <p>A free lesson in the browser lets a student judge your teaching before committing. The price, validity and language on the same page answer the questions she would otherwise send on WhatsApp. If you have not set your price yet, see <a href=\"/blog/how-to-price-online-courses-india\">how to price online courses in India</a>, and if your first course is not ready, start with <a href=\"/blog/create-your-first-online-course-india\">creating your first online course</a>.</p>"
+  },
+  {
+   "id": "what-to-tell-students",
+   "h2": "What to tell students who won't install anything",
+   "toc": "What to tell students",
+   "html": "<p><strong>Tell them they do not have to: send one link that opens in the browser, explain that the app is optional and say what they get in it.</strong> The message matters, because students have learned to ignore \"download our app\".</p>\n      <h3>Messages you can adapt</h3>\n      <ul>\n        <li><strong>For a new student:</strong> \"The first chapter is free. Open youracademy.in/neet-biology on your phone, no app needed.\"</li>\n        <li><strong>After purchase:</strong> \"Your course is live in your account on the website. If you take the daily test, the app is quicker, but everything works without it.\"</li>\n        <li><strong>To a parent:</strong> \"Your child can study from any browser. No app has to be installed on your phone.\"</li>\n      </ul>\n      {{q:Is a marketplace app the answer to app fatigue?|It can help a little with discovery, because a student who already has one app can browse many teachers. AllCoaching courses can also be discovered on the AllCoaching app. But students still decide based on a teacher they trust, and most of your students will come from your own YouTube, Instagram and WhatsApp. Build your own academy as the base; treat any marketplace listing as a bonus.}}\n      <p>For the full launch plan, from course outline to first paid batch, continue with <a href=\"/blog/how-to-start-online-academy-in-5-steps\">how to start an online academy in 5 steps</a>.</p>"
+  },
+  {
+   "id": "cost",
+   "h2": "What a web-first academy with an optional app costs",
+   "toc": "What it costs",
+   "html": "<p><strong>On AllCoaching every plan starts with a 14-day free trial with no card needed, then one yearly plan: Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 with a 10%, 7.5% or 5% platform fee, or Scale ₹99,999 with a 0% platform fee.</strong> Prices exclude GST.</p>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Plan</th><th>Yearly price (excl. GST)</th><th>Platform fee on sales</th><th>Your own apps</th></tr></thead>\n          <tbody>\n            <tr><td>Starter</td><td>₹6,999</td><td>10%</td><td>Android</td></tr>\n            <tr><td>Growth</td><td>₹12,999</td><td>7.5%</td><td>Android</td></tr>\n            <tr><td>Pro</td><td>₹24,999</td><td>5%</td><td>Android and iOS, plus a premium theme</td></tr>\n            <tr><td>Scale</td><td>₹99,999</td><td>0%</td><td>Android and iOS, everything in Pro</td></tr>\n          </tbody>\n          <caption>AllCoaching plans, October 2026. Every plan includes a website on your own domain, unlimited live classes, unlimited videos via YouTube and UPI and card checkout.</caption>\n        </table>\n      </div>\n      <p>Scale is bought through <a href=\"https://api.whatsapp.com/send/?phone=919889977262\" target=\"_blank\" rel=\"noopener\">Contact us</a>. As an illustration before GST, Pro costs less than Scale below about ₹15 lakh of yearly sales and Scale costs less above it. Before you choose, check on the <a href=\"/pricing\">pricing page</a> how payment gateway charges for UPI and cards apply to your plan.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to beat app fatigue in your online academy",
+  "description": "Seven steps for an Indian educator to stop losing students at the install step: a web-first academy on your own domain, with your own app offered as an option.",
+  "total_time": "P14D",
+  "items": [
+   [
+    "Count where students drop",
+    "For one week, note how many people tap your link, reach the course page, install (if you use an app-first path), sign up and pay."
+   ],
+   [
+    "Put your academy on your own domain",
+    "Connect a short domain such as youracademy.in so every link students see carries your name and opens in the browser."
+   ],
+   [
+    "Make the first lesson free on the web",
+    "Let any student watch one full lesson in the browser, without installing anything or paying."
+   ],
+   [
+    "Take UPI on the course page",
+    "Show the price, validity and language on the course page and let students pay by UPI or card there, with access opening automatically."
+   ],
+   [
+    "Offer the app after purchase",
+    "Mention your own app in the thank-you message for daily learners, and keep every lesson reachable in the browser."
+   ],
+   [
+    "Cut the tool stack",
+    "Move paid lessons, notes, tests, live class links and fees into the academy; keep YouTube, Instagram and WhatsApp for reach and reminders."
+   ],
+   [
+    "Send one link everywhere",
+    "Put the same academy link in your YouTube descriptions, Instagram bio, WhatsApp messages and Telegram channel, then recount the drop-off after two weeks."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "What is app fatigue in online education?",
+   "App fatigue is the reluctance students feel to download, sign up for and keep yet another learning app. In India it is driven by low phone storage, data limits, shared family phones, repeated OTP sign-ups and too many notifications, so many students stop installing new coaching apps."
+  ],
+  [
+   "Why won't students download my coaching app?",
+   "Usually because of storage, data, a shared phone, low trust in an unknown app, alert overload, or because they are not yet sure about you. None of these is about your teaching. Let them try a free lesson in the browser first and offer the app later."
+  ],
+  [
+   "Is a coaching website better than a coaching app?",
+   "For the first visit, yes: a website on your own domain opens from one link, needs no install and can be found on Google. For daily learners in a long batch an app is convenient. The best setup is web first with your own app as an option."
+  ],
+  [
+   "How do I sell courses to students who won't install an app?",
+   "Send one link to a course page on your own domain with a free lesson, the price and UPI or card checkout on the same page. Access opens automatically after payment, and the student studies in the browser."
+  ],
+  [
+   "Do I still need my own coaching app?",
+   "It helps for students who study with you every day, such as a daily test series or a year-long batch. Offer it after purchase and keep every lesson available on the web. On AllCoaching your own Android app is on every plan and the iOS app on Pro and Scale."
+  ],
+  [
+   "What is a web-first academy?",
+   "A web-first academy is an online academy where a student can find your course, watch a free lesson, pay and learn entirely in the browser on your own domain, with an app offered as an optional extra rather than a requirement."
+  ],
+  [
+   "How do I reduce the number of apps my students need?",
+   "Move paid lessons, PDF notes, tests, live class links and fee collection into one academy. Keep YouTube, Instagram and WhatsApp for free content, updates and reminders that point to your academy link."
+  ],
+  [
+   "How much does a web-first academy cost on AllCoaching?",
+   "There is a 14-day free trial with no card needed. Then Starter is ₹6,999, Growth ₹12,999 and Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee, or Scale ₹99,999 a year with a 0% platform fee, all excluding GST."
+  ],
+  [
+   "Is a marketplace app the answer to app fatigue?",
+   "Only partly. A marketplace app can help students discover teachers, but students mostly buy from a teacher they already trust. Build your own academy on your own domain as the base and treat any marketplace listing as extra discovery."
+  ]
+ ],
+ "glossary": [
+  [
+   "app-fatigue",
+   "App fatigue",
+   "The reluctance users feel to install, sign up for and keep one more app; in online education, students who stop installing new coaching apps."
+  ],
+  [
+   "install-step",
+   "Install step",
+   "The point in a student's path where they must download an app before they can see or buy a course."
+  ],
+  [
+   "web-first-academy",
+   "Web-first academy",
+   "An online academy that works fully in the browser on the educator's own domain, with an app offered as an option."
+  ],
+  [
+   "custom-domain",
+   "Custom domain",
+   "Your own web address, such as youracademy.in, connected to your academy instead of a platform's address."
+  ],
+  [
+   "white-label-app",
+   "White-label app",
+   "A student app that carries your academy's name and logo, built and maintained on a platform's technology."
+  ],
+  [
+   "progressive-web-app",
+   "Progressive Web App (PWA)",
+   "A website built with modern web technology so it can behave like an app, including being installable from the browser."
+  ],
+  [
+   "drop-off",
+   "Drop-off",
+   "The share of students who leave at a given step between your link and a paid enrolment."
+  ],
+  [
+   "tool-stack",
+   "Tool stack",
+   "The set of separate apps and services an educator uses to teach and sell, such as YouTube, Drive, WhatsApp and a test app."
+  ]
+ ],
+ "references": [
+  "Android Help, \"Free up storage on your Android device\" (section \"Uninstall apps you don't use\"), <a href=\"https://support.google.com/android/answer/7431795\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "Android Developers, \"Reduce your app size\", <a href=\"https://developer.android.com/topic/performance/reduce-apk-size\" target=\"_blank\" rel=\"noopener nofollow\">developer.android.com</a>, checked October 2026.",
+  "web.dev (Google), \"What are Progressive Web Apps?\", <a href=\"https://web.dev/articles/what-are-pwas\" target=\"_blank\" rel=\"noopener nofollow\">web.dev</a>, checked October 2026.",
+  "AllCoaching pricing, <a href=\"/pricing\">allcoaching.in/pricing</a>, October 2026."
+ ],
+ "citations": [
+  "https://support.google.com/android/answer/7431795",
+  "https://developer.android.com/topic/performance/reduce-apk-size",
+  "https://web.dev/articles/what-are-pwas",
+  "https://allcoaching.in/pricing"
+ ],
+ "about": [
+  {
+   "name": "App fatigue"
+  },
+  {
+   "name": "Online academy"
+  },
+  {
+   "name": "Progressive web app",
+   "sameAs": "https://en.wikipedia.org/wiki/Progressive_web_app"
+  },
+  {
+   "name": "Learning management system",
+   "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
+  },
+  {
+   "name": "Domain name",
+   "sameAs": "https://en.wikipedia.org/wiki/Domain_name"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "Android",
+   "url": "https://www.android.com"
+  },
+  {
+   "name": "Google Play",
+   "url": "https://play.google.com"
+  },
+  {
+   "name": "YouTube",
+   "url": "https://www.youtube.com"
+  },
+  {
+   "name": "WhatsApp",
+   "url": "https://www.whatsapp.com"
+  },
+  {
+   "name": "Razorpay",
+   "url": "https://razorpay.com"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/students-wont-download-coaching-app-whatsapp",
+  "/blog/coaching-app-no-downloads-what-to-do",
+  "/blog/online-coaching-academy-without-coding",
+  "/blog/what-is-an-online-academy"
+ ]
+}

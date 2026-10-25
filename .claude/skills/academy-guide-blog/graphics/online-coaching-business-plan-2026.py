@@ -141,10 +141,10 @@ for i, (t, v, s) in enumerate(cards):
         b += f'<rect x="{x}" y="250" width="340" height="340" rx="28" fill="none" stroke="{BLUE}" stroke-width="3"/>'
     b += eyebrow(x + 32, 306, t, BLUE if hl else MUTED)
     b += text(x + 32, 420, v, 76 if hl else 60, BLUE if hl else INK, 800, font=F_HEAD, ls=-2.5)
-    b += text(x + 32, 480, s, 19, MUTED)
-for x in (412, 792):
-    b += f'<circle cx="{x - 6}" cy="420" r="22" fill="#fff" stroke="{LINE}" stroke-width="2"/>'
-b += text(406, 432, '÷', 32, INK, 800, 'middle', F_HEAD) + text(786, 432, '=', 32, INK, 800, 'middle', F_HEAD)
+    b += text(x + 32, 480, s, 17 if i == 1 else 19, MUTED)
+for x in (420, 800):
+    b += f'<circle cx="{x}" cy="420" r="22" fill="#fff" stroke="{LINE}" stroke-width="2"/>'
+b += text(420, 431, '÷', 30, INK, 800, 'middle', F_HEAD) + text(800, 431, '=', 32, INK, 800, 'middle', F_HEAD)
 b += f'<rect x="60" y="650" width="1100" height="96" rx="24" fill="{BLUE_TINT}"/>'
 b += text(92, 708, 'Break-even students = fixed costs ÷ what you keep per sale', 26, INK, 700, font=F_HEAD, ls=-0.5)
 b += text(60, H - 28, 'Illustrative figures, before income tax.', 16, MUTED) + signature(W, H)
@@ -154,15 +154,15 @@ save('break-even', svg(W, H, b, 'Online coaching break-even calculation: ₹60,3
 W, H = 1220, 940
 b = headline(60, 100, ['Your first *90 days*'], 54)
 b += lines(62, 168, ['From a written plan to a first paid batch.'], 22)
-phases = [('Days 1–14', 'Build in the free trial', ['Sign up, build the academy,', 'upload your first course,', 'connect your domain']),
-          ('Days 15–30', 'Launch to your audience', ['YouTube, Instagram and', 'WhatsApp, a free demo,', 'open the first batch']),
+phases = [('Days 1–14', 'Build in the free trial', ['Sign up, build the', 'academy, upload a', 'course, connect', 'your domain']),
+          ('Days 15–30', 'Launch to your audience', ['Announce on YouTube,', 'Instagram, WhatsApp;', 'run a free demo, open', 'the first batch']),
           ('Days 31–60', 'Build the content engine', ['Weekly free classes,', 'add the test series,', 'collect reviews']),
-          ('Days 61–90', 'Test and adjust', ['Small Meta ads test,', 'measure cost per', 'enrolment, review prices'])]
+          ('Days 61–90', 'Test and adjust', ['Small Meta ads test,', 'measure cost per', 'enrolment, review', 'your prices'])]
 b += f'<rect x="100" y="268" width="1020" height="4" rx="2" fill="{LINE}"/>'
 for i, (d, t, s) in enumerate(phases):
     x = 60 + i * 280
     b += f'<circle cx="{x + 40}" cy="270" r="20" fill="{BLUE if i == 0 else NAVY_TILE}"/>' + text(x + 40, 278, str(i + 1), 20, '#fff', 800, 'middle', F_HEAD)
-    b += white_panel(x, 320, 260, 420, 26)
+    b += white_panel(x, 320, 260, 400, 26)
     b += eyebrow(x + 26, 372, d)
     tl = t.split(' ')
     mid = (len(tl) + 1) // 2
@@ -205,7 +205,7 @@ save('risks', svg(W, H, b, 'Risks in an online coaching business plan and how to
 # 10. academy promo -----------------------------------------------------------------------
 W, H = 1220, 1000
 b = lockup(60, 54, 0.8)
-b += headline(60, 250, ['Write the plan.', '*We run the*', '*tech.*'], 62)
+b += headline(60, 250, ['Write the plan.', '*We run*', '*the tech.*'], 62)
 b += lines(64, 440, ['Sign up, choose a plan, upload your', 'course, connect your domain and', 'start selling.'], 24, MUTED, 1.4)
 b += laptop(560, 120, 520, 'studio-desktop.jpg')
 b += phone(1010, 220, 170, 'studio-mobile.jpg')
