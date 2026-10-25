@@ -1,0 +1,209 @@
+{
+ "slug": "why-educators-are-leaving-subscription-platforms",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Fixed fee or",
+   "*pay as you sell?*"
+  ],
+  "sub": "Why educators leave subscription platforms",
+  "options": [
+   "Classplus",
+   "Edmingle",
+   "Learnyst",
+   "Exly",
+   "Teachmint",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *your sales*"
+  ],
+  "rows": [
+   {
+    "need": "You are new, or your sales come in exam seasons",
+    "pick": "Small plan + fee",
+    "why": "AllCoaching from ₹6,999/yr + 10%; own domain and app included",
+    "icon": "trend",
+    "us": true
+   },
+   {
+    "need": "You sell well above ₹2.3 lakh a year, steadily",
+    "pick": "A fixed-fee plan",
+    "why": "Classplus lists ₹29,999 a year; ask about GST and any fee on sales",
+    "icon": "chart"
+   },
+   {
+    "need": "You want no upfront fee and do not need an app yet",
+    "pick": "Pure commission",
+    "why": "Exly Starter: no upfront fee + 10%; app is an add-on",
+    "icon": "tag"
+   },
+   {
+    "need": "Mostly mock tests, high and steady sales",
+    "pick": "Learnyst Professional",
+    "why": "0% transaction fees, ₹8,099/month billed annually, taxes extra",
+    "icon": "check"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Entry price, *as published*"
+  ],
+  "sub": "Lowest plan on each official pricing page, per year",
+  "rows": [
+   {
+    "name": "Exly",
+    "price": 0,
+    "label": "No upfront fee",
+    "fee": "+10% commission (Starter); app is an add-on",
+    "published": true
+   },
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter)",
+    "published": true
+   },
+   {
+    "name": "Learnyst",
+    "price": 10000,
+    "label": "₹10,000/yr",
+    "fee": "+10% of sales (Launcher), taxes extra",
+    "published": true
+   },
+   {
+    "name": "Classplus",
+    "price": 29999,
+    "label": "₹29,999/yr",
+    "fee": "Fee on sales and GST not stated",
+    "published": true
+   },
+   {
+    "name": "Edmingle",
+    "price": 89988,
+    "label": "₹89,988/yr",
+    "fee": "₹7,499/month billed annually, taxes extra",
+    "published": true
+   },
+   {
+    "name": "Teachmint",
+    "price": 0,
+    "label": "Price not listed",
+    "fee": "Book a demo",
+    "published": false
+   },
+   {
+    "name": "Graphy",
+    "price": 0,
+    "label": "Not confirmed",
+    "fee": "Check rupee plans on graphy.com",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "Which model *costs less, when*"
+  ],
+  "competitors": [
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed price; fee on sales not stated"
+   },
+   {
+    "name": "Learnyst",
+    "plans": [
+     [
+      10000,
+      0.1
+     ],
+     [
+      97188,
+      0
+     ]
+    ],
+    "note": "Learnyst: Launcher or Professional (annual), taxes extra"
+   },
+   {
+    "name": "Exly",
+    "plans": [
+     [
+      0,
+      0.1
+     ],
+     [
+      30000,
+      0.06
+     ],
+     [
+      108000,
+      0.03
+     ]
+    ],
+    "note": "Exly: Starter, Pro or Premium; app and website add-ons not included"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Switch in *four calm steps*"
+  ],
+  "steps": [
+   [
+    "Check your renewal",
+    "Note the date and ask about notice and export"
+   ],
+   [
+    "Build your academy",
+    "Start the 14-day trial and upload one course"
+   ],
+   [
+    "Move new admissions",
+    "Send new students to your own website and app"
+   ],
+   [
+    "Close the old plan",
+    "Only after the last batch finishes"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Paying before",
+   "*your first sale?*"
+  ],
+  "tapes": [
+   "Full fee paid upfront",
+   "Renewal price not stated",
+   "GST extra or included?",
+   "App is an add-on",
+   "Same fee in a quiet month"
+  ],
+  "note": [
+   "Hard to plan",
+   ""
+  ],
+  "right_title": [
+   "Pay mostly",
+   "*when you sell.*"
+  ],
+  "checks": [
+   "Plans from ₹6,999/year + GST",
+   "Fee only on sales",
+   "Own domain and app included",
+   "Prices published upfront",
+   "14-day trial, no card"
+  ]
+ }
+}

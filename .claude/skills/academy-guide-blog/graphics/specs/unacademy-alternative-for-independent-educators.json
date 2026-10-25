@@ -1,0 +1,106 @@
+{
+ "slug": "unacademy-alternative-for-independent-educators",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Unacademy",
+   "alternative for",
+   "*your own brand?*"
+  ],
+  "sub": "Stay, build your own academy, or both",
+  "options": [
+   "Keep teaching on Unacademy",
+   "Another edtech brand",
+   "YouTube + WhatsApp",
+   "Another academy platform",
+   "AllCoaching"
+  ],
+  "stamp": "Terms checked 24 Oct 2026"
+ },
+ "verdict": {
+  "title": [
+   "Pick by *what you want to own*"
+  ],
+  "sub": "There is no single best path. Start from what you want next.",
+  "rows": [
+   {
+    "need": "You want your own app, brand and student list",
+    "pick": "Own academy",
+    "why": "AllCoaching: own domain and Android app (iOS on Pro) on every plan, 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You want a large audience under a known brand",
+    "pick": "Stay on Unacademy",
+    "why": "Reach comes with the brand; educator terms are not published on its website",
+    "icon": "users"
+   },
+   {
+    "need": "You want reach now and your own name too",
+    "pick": "Do both",
+    "why": "Teach on the platform and build your academy on the side, if your agreement allows",
+    "icon": "layers"
+   },
+   {
+    "need": "You mainly want to grow an audience first",
+    "pick": "YouTube first",
+    "why": "Free to start; add your own academy when viewers ask how to buy",
+    "icon": "play"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Start *without leaving first*"
+  ],
+  "sub": "Build on the side, if your agreement allows",
+  "steps": [
+   [
+    "Read your agreement",
+    "Check exclusivity and content clauses first"
+   ],
+   [
+    "Build your academy",
+    "14-day trial, your domain, your app"
+   ],
+   [
+    "Bring your followers",
+    "Share your link on YouTube and WhatsApp"
+   ],
+   [
+    "Grow your own way",
+    "Keep both, or move fully when ready"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Your students",
+   "*scattered like this?*"
+  ],
+  "tapes": [
+   "Live class on YouTube",
+   "Notes in Drive links",
+   "Fees on UPI screenshots",
+   "Doubts in WhatsApp groups",
+   "Mocks on Google Forms"
+  ],
+  "note": [
+   "Too many",
+   "tools"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android app (iOS on Pro)",
+   "Live classes, unlimited",
+   "UPI and card checkout",
+   "Tests and notes in one place"
+  ]
+ }
+}

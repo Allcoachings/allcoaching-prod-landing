@@ -5,6 +5,8 @@ description: Write or edit AllCoaching long-form editorial blog posts in the est
 
 # AllCoaching Blog Post Skill
 
+> **New posts (from 2026-10-24) use the `academy-guide-blog` skill:** Shopify-style v3 guide layout (`blog-v3.css`), teach-first writing, branded Apple-style graphics and the all-surfaces SEO/AI checklist. Use this skill for the JSON-LD field reference and for editing legacy essay-layout posts. Where the two disagree (voice, "never call it an LMS", "distribution-first thesis"), `academy-guide-blog` and CLAUDE.md win.
+
 Use this skill when the user asks you to **write a new blog post** for `/blog/` or **edit/review an existing one** to match the house style. All posts are standalone HTML files in `blog/` — no CMS, no shared layout. Each post is self-contained.
 
 ## ⚡ Quickstart intake protocol — keyword + context → full blog

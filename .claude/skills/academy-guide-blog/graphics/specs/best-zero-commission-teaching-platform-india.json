@@ -1,0 +1,208 @@
+{
+ "slug": "best-zero-commission-teaching-platform-india",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Is zero commission",
+   "*really cheaper?*"
+  ],
+  "sub": "0% teaching platforms, prices checked",
+  "options": [
+   "Learnyst",
+   "TagMango",
+   "Kajabi",
+   "Thinkific",
+   "Teachable",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *your sales*"
+  ],
+  "sub": "A 0% plan pays off only once sales cover its fixed fee.",
+  "rows": [
+   {
+    "need": "You sell above ₹14 lakh and want the lowest 0% price",
+    "pick": "Learnyst Professional",
+    "why": "0% fees; ₹8,099/month billed annually (₹97,188/yr), taxes extra",
+    "icon": "chart"
+   },
+   {
+    "need": "You want 0% with your own website and apps",
+    "pick": "AllCoaching Scale",
+    "why": "0% fee; ₹99,999/yr + GST, own Android and iOS app included",
+    "icon": "trend",
+    "us": true
+   },
+   {
+    "need": "You sell to students abroad in dollars",
+    "pick": "Kajabi, Thinkific, Teachable",
+    "why": "0% platform fee plans in US dollars; processing fees apply",
+    "icon": "globe"
+   },
+   {
+    "need": "You sell less than ₹14 lakh a year",
+    "pick": "AllCoaching Starter to Pro",
+    "why": "₹6,999/yr + 10%, down to 5% on Pro; costs less than any 0% plan",
+    "icon": "users",
+    "us": true
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Upfront price of *a 0% plan*"
+  ],
+  "sub": "Yearly price of the lowest 0% (or lowest-commission) plan, before GST",
+  "rows": [
+   {
+    "name": "Learnyst",
+    "price": 97188,
+    "label": "₹97,188/yr",
+    "fee": "Professional, 0%; ₹8,099/month billed annually",
+    "published": true
+   },
+   {
+    "name": "AllCoaching",
+    "price": 99999,
+    "label": "₹99,999/yr",
+    "fee": "Scale, 0%; GST extra, apps included",
+    "published": true
+   },
+   {
+    "name": "Exly",
+    "price": 108000,
+    "label": "₹1,08,000/yr",
+    "fee": "Premium, 3% commission (not zero)",
+    "published": true
+   },
+   {
+    "name": "TagMango",
+    "price": 360000,
+    "label": "₹3,60,000/yr",
+    "fee": "Ultimate, 0%; ₹30,000/month + GST",
+    "published": true
+   },
+   {
+    "name": "Kajabi",
+    "price": 0,
+    "label": "Priced in USD",
+    "fee": "Basic $143/month billed annually, 0%",
+    "published": false
+   },
+   {
+    "name": "Thinkific",
+    "price": 0,
+    "label": "Priced in USD",
+    "fee": "Start $82/month billed annually",
+    "published": false
+   },
+   {
+    "name": "Teachable",
+    "price": 0,
+    "label": "Priced in USD",
+    "fee": "Builder $69/month billed annually, 0%",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "Fixed fee vs *percentage*"
+  ],
+  "sub": "Plan price + fee on sales, lowest-cost plan at each level, before GST",
+  "levels": [
+   0,
+   500000,
+   1000000,
+   2000000,
+   5000000
+  ],
+  "competitors": [
+   {
+    "name": "Learnyst 0%",
+    "plans": [
+     [
+      97188,
+      0
+     ]
+    ],
+    "note": "Learnyst: Professional billed annually, 0%, taxes extra"
+   },
+   {
+    "name": "Exly Premium",
+    "plans": [
+     [
+      108000,
+      0.03
+     ]
+    ],
+    "note": "Exly: Premium ₹1,08,000/yr + 3%"
+   },
+   {
+    "name": "TagMango Ultimate",
+    "plans": [
+     [
+      360000,
+      0
+     ]
+    ],
+    "note": "TagMango: Ultimate ₹30,000/month + GST, gateway from 1.9%"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Decide in *four steps*"
+  ],
+  "sub": "One honest sales estimate is all you need",
+  "steps": [
+   [
+    "Estimate sales",
+    "Last year's sales or a cautious guess"
+   ],
+   [
+    "Convert fees",
+    "Turn every percentage into rupees"
+   ],
+   [
+    "Add the extras",
+    "Gateway charges, GST and add-ons"
+   ],
+   [
+    "Test in a trial",
+    "Sell to a few real students first"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Before you pick",
+   "*a 0% plan*"
+  ],
+  "tapes": [
+   "Fee due before first sale?",
+   "Gateway charges extra?",
+   "Billed in dollars?",
+   "Branded app an add-on?",
+   "Own domain an add-on?"
+  ],
+  "note": [
+   "Read the",
+   "small print"
+  ],
+  "right_title": [
+   "Zero commission,",
+   "*apps included.*"
+  ],
+  "checks": [
+   "Scale: ₹99,999 a year + GST",
+   "0% platform fee on sales",
+   "Own domain included",
+   "Own Android and iOS app",
+   "14-day free trial, no card"
+  ]
+ }
+}

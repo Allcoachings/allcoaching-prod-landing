@@ -1,0 +1,204 @@
+{
+ "slug": "classplus-ka-best-alternative-kaunsa-hai",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Classplus ka best",
+   "*alternative kaunsa?*"
+  ],
+  "sub": "Chhe options, fair comparison",
+  "options": [
+   "Graphy",
+   "Learnyst",
+   "Edmingle",
+   "Teachmint",
+   "AppX",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Zaroorat dekh kar *chuniye*"
+  ],
+  "rows": [
+   {
+    "need": "Apni website aur app khud banana hai",
+    "pick": "AllCoaching",
+    "why": "Har plan mein apna domain aur Android app (iOS Pro par), 14 din free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "Saal ki ₹2.3 lakh se zyada sales, flat price chahiye",
+    "pick": "Classplus (rahiye)",
+    "why": "₹29,999 saal listed; GST aur sales fee ke baare mein poochhiye",
+    "icon": "chart"
+   },
+   {
+    "need": "Aap creator ho, apni audience ko bechte ho",
+    "pick": "Graphy",
+    "why": "Creator-focused selling; rupee plans graphy.com par check kariye",
+    "icon": "users"
+   },
+   {
+    "need": "Academy mein zyada tar mock tests hain",
+    "pick": "Learnyst",
+    "why": "Test-series focus; Launcher ₹10,000/saal + 10%, ya monthly plans par 0% fee",
+    "icon": "check"
+   }
+  ],
+  "sub": "Koi ek best option nahi. Apni zaroorat se shuru kariye."
+ },
+ "prices": {
+  "title": [
+   "Entry price, *jaisa published*"
+  ],
+  "sub": "Har official pricing page ka sabse chhota plan, saal ke hisaab se",
+  "rows": [
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter)",
+    "published": true
+   },
+   {
+    "name": "Learnyst",
+    "price": 10000,
+    "label": "₹10,000/yr",
+    "fee": "+10% of sales (Launcher), taxes extra",
+    "published": true
+   },
+   {
+    "name": "Classplus",
+    "price": 29999,
+    "label": "₹29,999/yr",
+    "fee": "Fee on sales and GST not stated",
+    "published": true
+   },
+   {
+    "name": "Edmingle",
+    "price": 89988,
+    "label": "₹89,988/yr",
+    "fee": "₹7,499/month billed annually, taxes extra",
+    "published": true
+   },
+   {
+    "name": "Graphy",
+    "price": 0,
+    "label": "Not confirmed",
+    "fee": "Check rupee plans on graphy.com",
+    "published": false
+   },
+   {
+    "name": "Teachmint",
+    "price": 0,
+    "label": "Price not listed",
+    "fee": "Book a demo",
+    "published": false
+   },
+   {
+    "name": "AppX",
+    "price": 0,
+    "label": "Price not listed",
+    "fee": "Free demo first",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "Badhne par *kitna kharcha*"
+  ],
+  "competitors": [
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed price; fee on sales not stated"
+   },
+   {
+    "name": "Learnyst",
+    "plans": [
+     [
+      10000,
+      0.1
+     ],
+     [
+      97188,
+      0
+     ]
+    ],
+    "note": "Learnyst: Launcher or Professional (annual), taxes extra"
+   },
+   {
+    "name": "Edmingle",
+    "plans": [
+     [
+      89988,
+      0
+     ]
+    ],
+    "note": "Edmingle: Core billed annually; fee on sales not stated"
+   }
+  ],
+  "sub": "Plan price + sales fee, har level par sabse sasta plan, GST se pehle"
+ },
+ "switch": {
+  "title": [
+   "Chaar *aasaan steps* mein switch"
+  ],
+  "sub": "Dono saath chalaiye, kisi student ka access na jaaye",
+  "steps": [
+   [
+    "Academy banaiye",
+    "14 din ka trial shuru karke ek course upload kariye"
+   ],
+   [
+    "Dono saath chalaiye",
+    "Current students jahan hain wahin rahein"
+   ],
+   [
+    "Naye admissions",
+    "Naye students ko apni website aur app par bhejiye"
+   ],
+   [
+    "Purana plan band",
+    "Sirf aakhri batch khatam hone ke baad"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Abhi bhi batches",
+   "*aise chal rahe hain?*"
+  ],
+  "tapes": [
+   "Live class kisi aur app par",
+   "Fees UPI screenshots par",
+   "Notes Drive mein",
+   "Doubts WhatsApp par",
+   "Tests Google Forms par"
+  ],
+  "note": [
+   "Itne saare",
+   "tools"
+  ],
+  "right_title": [
+   "Ek login.",
+   "*Aapki academy.*"
+  ],
+  "checks": [
+   "Apne domain par website",
+   "Apna Android app (iOS Pro par)",
+   "Unlimited live classes",
+   "UPI aur card checkout",
+   "Tests aur notes ek jagah"
+  ]
+ }
+}

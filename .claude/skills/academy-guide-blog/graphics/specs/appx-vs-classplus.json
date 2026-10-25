@@ -1,0 +1,145 @@
+{
+ "slug": "appx-vs-classplus",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "lines": [
+   "AppX or",
+   "*Classplus?*"
+  ],
+  "sub": "Plus a self-serve third option",
+  "options": [
+   "AppX",
+   "Classplus",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *what you need*"
+  ],
+  "rows": [
+   {
+    "need": "You want a team to set up your app for you",
+    "pick": "AppX",
+    "why": "Says setup in under 48 hours; price given after a free demo",
+    "icon": "users"
+   },
+   {
+    "need": "You want a listed flat yearly price",
+    "pick": "Classplus",
+    "why": "Lists ₹29,999 a year; ask about GST, fees on sales and renewal",
+    "icon": "chart"
+   },
+   {
+    "need": "You want to build your own website and app yourself",
+    "pick": "AllCoaching",
+    "why": "Own domain and Android app (iOS on Pro) on every plan, 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You are still unsure",
+    "pick": "Ask for quotes",
+    "why": "Get year-one total, renewal and fees in writing from each",
+    "icon": "check"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Entry price, *as published*"
+  ],
+  "sub": "Lowest plan on each official site, per year",
+  "rows": [
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter), GST extra",
+    "published": true
+   },
+   {
+    "name": "Classplus",
+    "price": 29999,
+    "label": "₹29,999/yr",
+    "fee": "Fee on sales, GST and renewal not stated",
+    "published": true
+   },
+   {
+    "name": "AppX",
+    "price": 0,
+    "label": "Price not listed",
+    "fee": "Free demo first",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "Classplus vs AllCoaching *as you grow*"
+  ],
+  "competitors": [
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed 1-year price; fee on sales not stated. AppX: no price listed"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Move later in *four calm steps*"
+  ],
+  "steps": [
+   [
+    "Build your academy",
+    "Start the 14-day trial and upload one course"
+   ],
+   [
+    "Run both side by side",
+    "Keep current students where they are"
+   ],
+   [
+    "Move new admissions",
+    "Send new students to your own website and app"
+   ],
+   [
+    "Close the old plan",
+    "Only after the last batch finishes"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Still running",
+   "*coaching like this?*"
+  ],
+  "tapes": [
+   "Live class on another app",
+   "Fees on UPI screenshots",
+   "Notes in Drive",
+   "Doubts on WhatsApp",
+   "Student list in Excel"
+  ],
+  "note": [
+   "Too many",
+   "tools"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android app (iOS on Pro)",
+   "Live classes, unlimited",
+   "UPI and card checkout",
+   "Change it yourself, any time"
+  ]
+ }
+}

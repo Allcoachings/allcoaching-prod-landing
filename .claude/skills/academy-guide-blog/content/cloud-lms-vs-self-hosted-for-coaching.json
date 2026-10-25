@@ -1,0 +1,253 @@
+{
+ "slug": "cloud-lms-vs-self-hosted-for-coaching",
+ "dir": "blogs/en",
+ "lang": "en-IN",
+ "title": "Cloud LMS vs Self-Hosted for Coaching (2026): Which to Pick",
+ "description": "Cloud LMS or WordPress with Tutor LMS or LearnDash for your coaching? Published prices, who runs hosting, security and payments, and when self-hosting is the better call.",
+ "og_description": "Self-hosting gives you full control, and also the hosting, security, updates and payment setup. A fair 2026 comparison of a cloud LMS and WordPress + Tutor LMS or LearnDash for Indian coaching institutes, with prices from official sites.",
+ "keywords": [
+  "cloud lms vs self hosted for coaching",
+  "self hosted lms for coaching india",
+  "cloud lms india 2026",
+  "wordpress lms vs cloud lms",
+  "tutor lms vs cloud lms",
+  "learndash for coaching institute",
+  "moodle vs cloud lms",
+  "cloud lms cost comparison india",
+  "lms hosting decision for coaching institutes",
+  "best lms for coaching institute india"
+ ],
+ "h1": "Cloud LMS vs Self-Hosted LMS for Coaching (2026): Costs, Control and Who Does the Work",
+ "dek": "A fair comparison of a cloud LMS and a self-hosted setup such as WordPress with Tutor LMS or LearnDash, for Indian coaching institutes and tutors. Prices from each official site, dated, and a clear answer on when self-hosting is worth it.",
+ "category": "Compare",
+ "date_published": "2026-05-19",
+ "date_modified": "2026-10-24",
+ "checked": "24 Oct 2026",
+ "cover_alt": "Cloud LMS or self-hosted for coaching: AllCoaching compared with WordPress plus Tutor LMS, LearnDash and Moodle, prices checked 24 Oct 2026",
+ "audience": "Coaching institute owners, tutors and independent educators in India choosing between a cloud LMS and a self-hosted LMS",
+ "intro": [
+  "<strong>For most coaching institutes and tutors, a cloud LMS is the better choice, because the platform runs the hosting, security, updates, apps and payment setup while you teach.</strong> A self-hosted LMS, such as WordPress with the Tutor LMS or LearnDash plugin, gives you full control of the code and the server, and it also makes all of that work yours. Self-hosting is worth it when you already have a developer, already run a busy WordPress site, or must keep data on servers you control.",
+  "We are AllCoaching, a cloud LMS, so read this knowing who wrote it. To keep it fair, the plugin prices below come from each vendor's own pricing page, in US dollars exactly as published, with the date we checked them. We also say plainly where self-hosting is the better call.",
+  "The short version of the trade-off: self-hosting is cheaper on software and more flexible, but you buy your own hosting, keep plugins and WordPress updated, secure the site, connect your own payment gateway, and build a mobile app separately if you want one. A cloud LMS bundles those jobs into one plan."
+ ],
+ "takeaways": [
+  "<strong>A cloud LMS runs the servers, updates, security and app builds for you;</strong> a self-hosted LMS runs on hosting you rent and manage yourself.",
+  "<strong>Tutor LMS has a free core plugin</strong> and Pro plans from $199 a year for one site (or $499 for a lifetime licence), in US dollars, excluding taxes (tutorlms.com/pricing, checked 24 Oct 2026).",
+  "<strong>LearnDash is sold as a bundle from $350 for one site;</strong> its pricing page does not say whether that is yearly or paid once (checked 24 Oct 2026).",
+  "<strong>Self-hosting costs more than the plugin:</strong> hosting, domain, SSL, a payment gateway account, backups and someone to update and fix the site.",
+  "<strong>AllCoaching starts at ₹6,999 a year</strong> plus a 10% fee on sales (Starter), with Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5% and Scale ₹99,999 + 0%; GST extra, 14-day free trial with no card.",
+  "<strong>Every AllCoaching plan includes your own domain and your own Android app (iOS app on Pro and Scale),</strong> which a WordPress LMS does not give you on its own.",
+  "<strong>Self-hosting wins</strong> when you need custom code, already have WordPress traffic and a developer, or must host data on your own servers."
+ ],
+ "sections": [
+  {
+   "id": "quick-answer",
+   "h2": "The short answer: who should run your LMS?",
+   "toc": "The short answer",
+   "html": "<p>The real choice is not cloud versus server. It is whether you want to run software or spend that time teaching. Pick the row that sounds like you.</p>\n      {{fig:verdict|Cloud LMS or self-hosted for coaching, by need: teach without running servers, AllCoaching; developer and custom code, WordPress with Tutor LMS or LearnDash; data on your own servers, Moodle self-hosted; existing WordPress site with traffic, add an LMS plugin|Pick the row that sounds like you. The rest of this guide explains each choice.}}\n      <p>If you are a NEET, JEE or SSC educator with one or two teachers and no developer, the first row is almost always you. If you run a training company with an IT team, read the self-hosted sections closely, because they may suit you better.</p>"
+  },
+  {
+   "id": "how-we-compared",
+   "h2": "How we compared cloud and self-hosted LMS options",
+   "toc": "How we compared",
+   "html": "<p>We compared a cloud LMS (AllCoaching, with Learnyst and Edmingle as other Indian cloud options) against the two most common self-hosted routes for small academies: WordPress with an LMS plugin, and an open-source LMS such as Moodle on your own server. We looked at six things a coaching owner pays for or depends on.</p>\n      <ol>\n        <li><strong>Price you can see before you start</strong>, taken only from each vendor's own pricing page.</li>\n        <li><strong>Who runs hosting, updates and security</strong>, because that is where self-hosted time and money go.</li>\n        <li><strong>Payments</strong>: whether UPI and card checkout come ready, or you connect a gateway yourself.</li>\n        <li><strong>Mobile app</strong>: whether your students get an Android and iOS app in your name.</li>\n        <li><strong>Control and ownership</strong>: your domain, your code, your student data and how you export it.</li>\n        <li><strong>Who it is built for</strong>: a coaching business, a WordPress site owner, or a university IT team.</li>\n      </ol>\n      <div class=\"v3-note\"><strong>Disclosure:</strong> AllCoaching publishes this guide, and AllCoaching is a cloud LMS. Competitor figures link to their official pages and carry the date we checked them (24 Oct 2026). Plugin prices are in US dollars as published and exclude Indian GST; we have not converted them. Prices change; check the source before you decide. If you spot an error, write to contact@allcoaching.in and we will correct it.</div>"
+  },
+  {
+   "id": "what-it-means",
+   "h2": "What self-hosted and cloud LMS actually mean",
+   "toc": "What each one means",
+   "html": "<p>A self-hosted LMS is learning software you install on a server you rent, and you are responsible for keeping it running. A cloud LMS is learning software the vendor runs for you; you log in through a browser and your students use the website and app.</p>\n      <h3>Self-hosted: you own the server and the work</h3>\n      <p>The most common self-hosted setup for a small academy is WordPress plus an LMS plugin. Tutor LMS and LearnDash are two of the best known. Larger institutions sometimes run Moodle or Open edX, which are open-source LMS platforms built for universities and big training teams. In every case you pick the hosting, install the software, and keep it secure and updated.</p>\n      <p>That brings real freedom. You can edit any code, add any plugin, pick any theme and move hosts when you like. Nobody can change your pricing or switch off a feature you depend on.</p>\n      <h3>Cloud: the platform runs it, you teach</h3>\n      <p>With a cloud LMS, the vendor runs the servers, applies updates, handles security and keeps the checkout working. You build your courses, set prices and teach. The trade is that you work inside the features the platform offers, and you pay a plan price, sometimes with a fee on sales.</p>\n      {{q:Is self-hosting the same as owning my academy?|Not quite. Self-hosting means you own the server and the code. Owning your academy means students know your brand, your domain and your app, and you can export your student data. A good cloud LMS gives you the second without the first.}}\n      <h3>The jobs that move to you when you self-host</h3>\n      <p>Here is the honest list. None of these is hard on its own. Together they become a second job.</p>\n      <ul>\n        <li><strong>Hosting</strong>: choosing a plan with enough capacity for exam-day logins and renewing it every year.</li>\n        <li><strong>Updates</strong>: WordPress core, the theme, the LMS plugin and every add-on, tested so one update does not break another.</li>\n        <li><strong>Security</strong>: SSL, logins, backups, malware checks and restoring the site if something goes wrong.</li>\n        <li><strong>Payments</strong>: opening a gateway account such as Razorpay, connecting it to the plugin and testing UPI and card checkout.</li>\n        <li><strong>Video</strong>: hosting lectures somewhere that can handle hundreds of students at once.</li>\n        <li><strong>Mobile app</strong>: a separate project if you want one in your name.</li>\n      </ul>\n      {{fig:before-after|Before and after: a self-hosted LMS with hosting renewals, plugin updates, SSL, payment gateway setup and a separate app project, compared with one cloud academy login with your own domain, app, live classes and checkout|Self-hosting gives you control and these jobs. A cloud LMS takes the jobs off your list.}}"
+  },
+  {
+   "id": "alternatives",
+   "h2": "The options, side by side: AllCoaching, Tutor LMS, LearnDash and Moodle",
+   "toc": "The options",
+   "html": "<p>Here is each option as its own company describes it, with the published price, what to check, and who it suits best.</p>\n      <div class=\"v3-opt us\"><span class=\"tag\">Our platform · disclosure</span><h3>1. AllCoaching (cloud LMS)</h3><dl><dt>Good at</dt><dd>An academy you build yourself, like Shopify for coaching: sign up, choose a plan, upload your course, connect your domain and start selling. Hosting, updates, payments, student access and your own Android app (iOS app on Pro and Scale) run underneath.</dd><dt>Published price</dt><dd>Starter ₹6,999/yr + 10% on sales, Growth ₹12,999/yr + 7.5%, Pro ₹24,999/yr + 5%, Scale ₹99,999/yr + 0%; GST extra. <a href=\"/pricing\">Pricing</a><sup><a href=\"#ref-4\">[4]</a></sup></dd><dt>Free trial</dt><dd>14 days, no card needed.</dd><dt>Check</dt><dd>You work within the features the platform offers; you cannot edit its code or install your own plugins. The percentage on sales grows as you sell.</dd><dt>Best for</dt><dd>Coaching institutes and tutors who want their own brand without running servers.</dd></dl></div>\n      <div class=\"v3-opt\"><h3>2. WordPress + Tutor LMS (self-hosted)</h3><dl><dt>Good at</dt><dd>A WordPress LMS plugin with a free core and Pro add-ons such as a course builder, quizzes, native eCommerce and AI Studio. Its page says the full core is free to use.</dd><dt>Published price</dt><dd>Free core plugin; Pro Individual $199 a year for one site (or $499 for a lifetime licence), Business $399 a year for up to 10 sites, Agency $799 a year. \"Prices in USD &amp; exclude VAT/Taxes.\"<sup><a href=\"#ref-1\">[1]</a></sup></dd><dt>Free trial</dt><dd>No trial; free core plus a 30-day money-back guarantee on Pro.</dd><dt>Check</dt><dd>Hosting, domain, SSL, payment gateway fees and any mobile app are separate. It supports Razorpay among its gateways, which you connect yourself.</dd><dt>Best for</dt><dd>Educators who already run WordPress, or have a developer, and want full control.</dd></dl></div>\n      <div class=\"v3-opt\"><h3>3. WordPress + LearnDash (self-hosted)</h3><dl><dt>Good at</dt><dd>A WordPress LMS for building, selling and certifying courses, with quizzes, memberships and group seats.</dd><dt>Published price</dt><dd>Sold as a bundle (Give, The Events Calendar, LearnDash and Kadence): $350 for 1 site, $599 for 10 sites, up to $999 for 100 sites. The page does not say whether these prices are yearly or paid once.<sup><a href=\"#ref-2\">[2]</a></sup></dd><dt>Free trial</dt><dd>Not stated; a live demo is offered.</dd><dt>Check</dt><dd>Ask whether the price renews every year. Hosting, payment gateway and any app are separate.</dd><dt>Best for</dt><dd>WordPress sites selling certified professional courses.</dd></dl></div>\n      <div class=\"v3-opt\"><h3>4. Moodle or Open edX (self-hosted open source)</h3><dl><dt>Good at</dt><dd>Open-source LMS platforms used by universities and large training teams, with deep course, grading and reporting features.</dd><dt>Published price</dt><dd>Open-source software you install yourself; your costs are hosting, setup and the people who run it.</dd><dt>Check</dt><dd>Who will install, upgrade and secure it, and how you will take payments and offer a mobile app.</dd><dt>Best for</dt><dd>Institutions with an IT team, or rules that require data on their own servers.</dd></dl></div>\n      <div class=\"v3-opt\"><h3>5. Other Indian cloud LMS: Learnyst and Edmingle</h3><dl><dt>Good at</dt><dd>Learnyst focuses on courses, mock tests and live classes; Edmingle calls itself an \"AI-powered LMS purpose-built for professional training and skilling businesses\".</dd><dt>Published price</dt><dd>Learnyst Launcher ₹10,000/yr + 10% of sales, or Professional ₹8,999/month (₹8,099/month billed annually) with 0% transaction fees, taxes extra.<sup><a href=\"#ref-5\">[5]</a></sup> Edmingle Core ₹7,499/month billed annually, taxes extra; fee on sales not stated.<sup><a href=\"#ref-6\">[6]</a></sup></dd><dt>Check</dt><dd>Which plan includes a branded app in your name, and under whose developer account the app is published.</dd><dt>Best for</dt><dd>Test-series academies (Learnyst) and training businesses with many batches (Edmingle).</dd></dl></div>\n      <p>We have not drawn a price chart that mixes US-dollar plugin prices with rupee plans, because the self-hosted total depends on your hosting and developer costs, which no vendor publishes for you.</p>"
+  },
+  {
+   "id": "comparison-table",
+   "h2": "Cloud LMS vs self-hosted: comparison table",
+   "toc": "Comparison table",
+   "html": "<p>The table puts the published facts and the division of work next to each other. \"Not stated\" means the official page did not say.</p>\n      <div class=\"v3-table\"><table>\n        <thead><tr><th></th><th>AllCoaching (cloud)</th><th>WordPress + Tutor LMS</th><th>WordPress + LearnDash</th><th>Moodle (self-hosted)</th></tr></thead>\n        <tbody>\n          <tr><td>Software price</td><td>₹6,999 a year + 10% (Starter)</td><td>Free core; Pro from $199 a year</td><td>From $350 (1 site); period not stated</td><td>Open source</td></tr>\n          <tr><td>Hosting</td><td>Included</td><td>You buy it</td><td>You buy it</td><td>You buy it</td></tr>\n          <tr><td>Updates and security</td><td>Run by AllCoaching</td><td>You or your developer</td><td>You or your developer</td><td>You or your IT team</td></tr>\n          <tr><td>UPI and card checkout</td><td>Built in, automatic Razorpay payouts</td><td>Connect a gateway yourself</td><td>Connect a gateway yourself</td><td>Set up yourself</td></tr>\n          <tr><td>Own Android app (iOS app on Pro and Scale)</td><td>Yes, every plan</td><td>Separate project</td><td>Separate project</td><td>Separate setup</td></tr>\n          <tr><td>Edit the code</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>\n          <tr><td>Taxes</td><td>18% GST extra</td><td>Prices exclude VAT/taxes</td><td>Not stated</td><td>n/a</td></tr>\n        </tbody>\n        <caption>Sources: tutorlms.com/pricing, liquidweb.com/software/learndash, allcoaching.in/pricing, checked 24 Oct 2026. Plugin prices in US dollars as published.</caption>\n      </table></div>\n      <p>For a wider list of platforms, see our <a href=\"/blog/best-lms-for-coaching-institutes-india\">best LMS for coaching institutes in India</a> comparison.</p>"
+  },
+  {
+   "id": "cost",
+   "h2": "What a cloud LMS and a self-hosted LMS really cost",
+   "toc": "Real cost",
+   "html": "<p>A self-hosted LMS costs the plugin price plus hosting, a domain, payment gateway fees, any paid add-ons and the time of whoever keeps it running. A cloud LMS costs its plan price plus any fee on sales. The second is easier to predict because it is all on one pricing page.</p>\n      <h3>The self-hosted bill, line by line</h3>\n      <ul>\n        <li><strong>LMS plugin</strong>: Tutor LMS core is free and Pro starts at $199 a year; LearnDash starts at $350 for one site.</li>\n        <li><strong>Hosting</strong>: quoted by your hosting company, and it should be sized for exam-day traffic, not a quiet Tuesday.</li>\n        <li><strong>Domain and SSL</strong>: yearly renewals.</li>\n        <li><strong>Payment gateway</strong>: your gateway's own fee on each payment.</li>\n        <li><strong>Video hosting</strong>: a separate service if you do not want lectures on your own server.</li>\n        <li><strong>Developer time</strong>: for setup, updates and the evening a plugin update breaks checkout.</li>\n        <li><strong>Mobile app</strong>: a separate build if you want one. Our guide to <a href=\"/blog/white-label-coaching-app-development-cost-india\">white-label coaching app development cost</a> explains the options.</li>\n      </ul>\n      <p>We have not put rupee figures on hosting or developer time, because they vary by provider and city and nobody publishes a standard price. Ask for written quotes before you decide.</p>\n      <h3>The cloud bill, at different sales levels</h3>\n      <p>For the cloud side, the chart adds each published plan price to its published fee on sales at five sales levels, and picks the lowest-cost plan each time.</p>\n      {{fig:cost|Total yearly cost at ₹0 to ₹10 lakh of sales from published prices for three cloud LMS options: AllCoaching, Learnyst and Edmingle|Before GST. Self-hosted options are not charted because their total depends on your hosting and developer costs.}}\n      {{cost_table}}\n      <p><strong>The honest reading:</strong> up to ₹10 lakh of sales a year, AllCoaching's plan plus fee is the lowest cloud total in this chart. Above about ₹13 lakh, Edmingle Core's flat price is lower on paper (its page does not state a fee on sales), and above about ₹14.4 lakh, Learnyst Professional with 0% transaction fees is lower; AllCoaching's own 0% plan, Scale, is ₹99,999 a year. A self-hosted LMS can cost less again in software, but only if you value your own or your developer's time at close to zero. Use our <a href=\"/pricing#finder\">plan finder</a> to run your own numbers.</p>\n      {{cta}}"
+  },
+  {
+   "id": "choose",
+   "h2": "Which one fits your coaching business",
+   "toc": "Which one fits you",
+   "html": "<h3>Solo tutor or new coaching (no developer)</h3>\n      <p>Choose a cloud LMS. Your scarcest resource is time, and every hour spent on plugin updates is an hour not spent on lectures or marketing. Our guide to starting an <a href=\"/blog/online-coaching-academy-without-coding\">online coaching academy without coding</a> walks through the first week.</p>\n      <h3>Growing institute with a few teachers</h3>\n      <p>A cloud LMS still usually wins, because you need separate teacher logins, reliable live classes and a checkout that works on exam-result day. Make sure the platform lets you connect your own domain; see <a href=\"/blog/lms-with-custom-domain-for-coaching-india\">LMS with a custom domain for coaching</a>.</p>\n      <h3>You already run a WordPress site with steady traffic</h3>\n      <p>Adding Tutor LMS or LearnDash to that site can make sense, especially if a developer already maintains it. Plan for payments early; our guide to the <a href=\"/blog/best-upi-payment-gateway-for-online-courses\">best UPI payment gateway for online courses</a> covers the options.</p>\n      <h3>University, large training company or strict data rules</h3>\n      <p>Self-hosting Moodle or Open edX is reasonable when an IT team already runs servers and policy requires data in-house. The cost is a team, not a plugin.</p>\n      <h3>Video-heavy courses</h3>\n      <p>Whichever way you go, decide where lectures will live. Read <a href=\"/blog/secure-video-hosting-for-educational-content\">secure video hosting for educational content</a> before you upload your first batch.</p>"
+  },
+  {
+   "id": "switch",
+   "h2": "How to move from a self-hosted LMS to a cloud LMS",
+   "toc": "How to move",
+   "html": "<p>The safe way to move is to build the new academy first and run both side by side. Current students finish on the old site; new admissions go to the new one.</p>\n      {{fig:switch|Four steps to move from a self-hosted WordPress LMS to a cloud LMS: build your academy, run both side by side, point new admissions to the new academy, then retire the old hosting|Nobody loses access, and nobody pays twice.}}\n      {{steps}}\n      <p>When educators ask us whether to install WordPress or sign up for a cloud LMS, our first question is always the same: who will fix the site at 11 pm before a mock test? If the answer is you, start with the cloud and keep your evenings for teaching. The full checklist, including messages to send students, is in <a href=\"/blog/switch-coaching-apps-without-losing-students\">how to switch coaching apps without losing students</a>.</p>"
+  }
+ ],
+ "steps": {
+  "total_time": "P30D",
+  "items": [
+   [
+    "Build your academy on the cloud LMS",
+    "Start the 14-day trial, connect your domain or a subdomain, and upload one complete course with its demo lesson."
+   ],
+   [
+    "Run both side by side",
+    "Keep current students on your self-hosted site until their batch or validity ends, so nobody loses access."
+   ],
+   [
+    "Point new admissions to the new academy",
+    "Change the buy buttons on your old site, YouTube and WhatsApp to your new academy and app links."
+   ],
+   [
+    "Export records and retire the old hosting",
+    "Download student and payment records from WordPress, keep a backup, then let the hosting and plugin licence lapse at renewal."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "Is a self-hosted LMS cheaper than a cloud LMS for coaching?",
+   "Only in software. Tutor LMS has a free core and Pro from $199 a year, but you also pay for hosting, domain, SSL, payment gateway fees and the time to keep it running. A cloud LMS such as AllCoaching starts at ₹6,999 a year plus a fee on sales and includes those jobs."
+  ],
+  [
+   "What is the biggest hidden cost of a self-hosted LMS?",
+   "Time. Someone has to update WordPress, the theme and every plugin, keep backups, fix security issues and keep payments working. If that person is you, it comes out of teaching hours; if it is a developer, it is a recurring bill."
+  ],
+  [
+   "Which is more secure, a cloud LMS or a self-hosted LMS?",
+   "Neither is secure by default. A self-hosted LMS is as secure as the person maintaining it. A cloud LMS puts that job on the vendor, so ask how it handles updates, backups and data export before you sign up."
+  ],
+  [
+   "Is AllCoaching cloud or self-hosted?",
+   "AllCoaching is a cloud LMS. It runs the hosting, updates, payments, student access and your own Android app (iOS app on Pro and Scale), while you build and brand the academy yourself on your own domain."
+  ],
+  [
+   "When is a self-hosted LMS the right choice for a coaching business?",
+   "When you already have a developer or IT team, already run a WordPress site with traffic, need custom code, or must keep data on your own servers. For most solo tutors and small institutes, a cloud LMS saves more time than it costs."
+  ],
+  [
+   "What do Tutor LMS and LearnDash cost?",
+   "Tutor LMS has a free core plugin and Pro plans from $199 a year for one site, or $499 for a lifetime licence, excluding taxes. LearnDash is sold as a bundle from $350 for one site, and its page does not say whether that is yearly. Both prices are in US dollars, checked 24 Oct 2026."
+  ],
+  [
+   "Does a cloud LMS lock me in?",
+   "It can if you cannot export your data. Before you choose any cloud LMS, check that you can download student lists and payment records and connect your own domain, so students follow your brand if you ever move."
+  ],
+  [
+   "Can I move from WordPress to a cloud LMS without losing students?",
+   "Yes. Build the new academy, keep current students on WordPress until their batch ends, send new admissions to the new academy, then export records and let the old hosting lapse."
+  ]
+ ],
+ "glossary": [
+  [
+   "cloud-lms",
+   "Cloud LMS",
+   "A learning management system the vendor hosts and maintains; you and your students use it through a browser or app."
+  ],
+  [
+   "self-hosted-lms",
+   "Self-hosted LMS",
+   "A learning management system you install on a server you rent or own, and keep updated and secure yourself."
+  ],
+  [
+   "lms-plugin",
+   "LMS plugin",
+   "An add-on such as Tutor LMS or LearnDash that turns a WordPress website into a course platform."
+  ],
+  [
+   "payment-gateway",
+   "Payment gateway",
+   "A service such as Razorpay that accepts UPI and card payments on your site and settles them to your bank account."
+  ],
+  [
+   "custom-domain",
+   "Custom domain",
+   "Your own web address, such as youracademy.in, connected to your academy instead of a platform subdomain."
+  ],
+  [
+   "platform-fee",
+   "Platform fee",
+   "A percentage a cloud platform keeps from each sale. AllCoaching's is 10%, 7.5% or 5% depending on the plan."
+  ]
+ ],
+ "references": [
+  "Tutor LMS pricing, <a href=\"https://tutorlms.com/pricing/\" target=\"_blank\" rel=\"noopener nofollow\">tutorlms.com/pricing</a>, checked 24 Oct 2026 (US dollars, excluding VAT/taxes).",
+  "LearnDash pricing (redirects from learndash.com/pricing), <a href=\"https://www.liquidweb.com/software/learndash/#pricing\" target=\"_blank\" rel=\"noopener nofollow\">liquidweb.com/software/learndash</a>, checked 24 Oct 2026.",
+  "AllCoaching features: own domain, own Android app (iOS app on Pro and Scale), unlimited live classes and UPI checkout on every plan, <a href=\"/pricing\">allcoaching.in/pricing</a>.",
+  "AllCoaching pricing, <a href=\"/pricing\">allcoaching.in/pricing</a>.",
+  "Learnyst pricing, <a href=\"https://www.learnyst.com/pricing\" target=\"_blank\" rel=\"noopener nofollow\">learnyst.com/pricing</a>, checked 24 Oct 2026 (prices shown in ₹ for Indian visitors).",
+  "Edmingle India pricing, <a href=\"https://www.edmingle.com/in/pricing/\" target=\"_blank\" rel=\"noopener nofollow\">edmingle.com/in/pricing</a>, checked 24 Oct 2026."
+ ],
+ "citations": [
+  "https://tutorlms.com/pricing/",
+  "https://www.liquidweb.com/software/learndash/#pricing",
+  "https://www.learnyst.com/pricing",
+  "https://www.edmingle.com/in/pricing/",
+  "https://allcoaching.in/pricing"
+ ],
+ "about": [
+  {
+   "name": "Learning management system",
+   "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
+  },
+  {
+   "name": "Cloud computing",
+   "sameAs": "https://en.wikipedia.org/wiki/Cloud_computing"
+  },
+  {
+   "name": "Software as a service",
+   "sameAs": "https://en.wikipedia.org/wiki/Software_as_a_service"
+  },
+  {
+   "name": "Test preparation",
+   "sameAs": "https://en.wikipedia.org/wiki/Test_preparation"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "WordPress",
+   "url": "https://wordpress.org",
+   "type": "SoftwareApplication"
+  },
+  {
+   "name": "Tutor LMS",
+   "url": "https://tutorlms.com",
+   "type": "SoftwareApplication"
+  },
+  {
+   "name": "LearnDash",
+   "url": "https://www.learndash.com",
+   "type": "SoftwareApplication"
+  },
+  {
+   "name": "Moodle",
+   "url": "https://moodle.org",
+   "type": "SoftwareApplication"
+  },
+  {
+   "name": "Learnyst",
+   "url": "https://www.learnyst.com"
+  },
+  {
+   "name": "Edmingle",
+   "url": "https://edmingle.com"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/best-lms-for-coaching-institutes-india",
+  "/blog/online-coaching-academy-without-coding",
+  "/blog/white-label-coaching-app-development-cost-india",
+  "/blog/lms-with-custom-domain-for-coaching-india"
+ ]
+}

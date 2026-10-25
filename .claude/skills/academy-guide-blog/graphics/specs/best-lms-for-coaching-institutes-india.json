@@ -1,0 +1,242 @@
+{
+ "slug": "best-lms-for-coaching-institutes-india",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Which LMS fits",
+   "*your institute?*"
+  ],
+  "sub": "11 options, ranked by use case",
+  "options": [
+   "Classplus",
+   "Learnyst",
+   "Edmingle",
+   "Exly + TagMango",
+   "WordPress LMS",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Best LMS *by use case*"
+  ],
+  "sub": "There is no single best LMS. Start from how you teach.",
+  "rows": [
+   {
+    "need": "You want your own website and app, built yourself",
+    "pick": "AllCoaching",
+    "why": "Own domain and Android app (iOS on Pro) on every plan, 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "Your academy is mostly mock tests",
+    "pick": "Learnyst",
+    "why": "Test-series focus; Launcher ₹10,000/yr + 10%, or 0% fee on monthly plans",
+    "icon": "check"
+   },
+   {
+    "need": "You run a training business with batches and branches",
+    "pick": "Edmingle",
+    "why": "Built for training businesses; from ₹7,499/month billed annually",
+    "icon": "layers"
+   },
+   {
+    "need": "You sell above ₹2.3 lakh a year and want a flat price",
+    "pick": "Classplus",
+    "why": "Lists ₹29,999 a year; ask about GST and any fee on sales",
+    "icon": "chart"
+   },
+   {
+    "need": "You already run a WordPress site",
+    "pick": "Tutor LMS or LearnDash",
+    "why": "USD plugins; hosting, gateway and upkeep are yours",
+    "icon": "puzzle"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Entry price, *as published*"
+  ],
+  "sub": "Lowest plan on each official pricing page, per year, checked 24 Oct 2026",
+  "rows": [
+   {
+    "name": "Exly",
+    "price": 0,
+    "label": "No upfront fee",
+    "fee": "+10% commission (Starter)",
+    "published": true
+   },
+   {
+    "name": "TagMango",
+    "price": 0,
+    "label": "No fixed fee",
+    "fee": "+10% commission (Basic), + GST",
+    "published": true
+   },
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter), GST extra",
+    "published": true
+   },
+   {
+    "name": "Learnyst",
+    "price": 10000,
+    "label": "₹10,000/yr",
+    "fee": "+10% of sales (Launcher), taxes extra",
+    "published": true
+   },
+   {
+    "name": "Classplus",
+    "price": 29999,
+    "label": "₹29,999/yr",
+    "fee": "Fee on sales and GST not stated",
+    "published": true
+   },
+   {
+    "name": "Edmingle",
+    "price": 89988,
+    "label": "₹89,988/yr",
+    "fee": "₹7,499/month billed annually, taxes extra",
+    "published": true
+   },
+   {
+    "name": "Graphy",
+    "price": 0,
+    "label": "Not confirmed",
+    "fee": "Check rupee plans on graphy.com",
+    "published": false
+   },
+   {
+    "name": "Teachmint",
+    "price": 0,
+    "label": "Price not listed",
+    "fee": "Book a demo",
+    "published": false
+   },
+   {
+    "name": "AppX",
+    "price": 0,
+    "label": "Price not listed",
+    "fee": "Free demo first",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "What you pay *as you grow*"
+  ],
+  "sub": "Plan price + fee on sales, lowest-cost plan at each level, before GST",
+  "competitors": [
+   {
+    "name": "Exly",
+    "plans": [
+     [
+      0,
+      0.1
+     ],
+     [
+      30000,
+      0.06
+     ],
+     [
+      108000,
+      0.03
+     ]
+    ],
+    "note": "Exly: Starter, Pro or Premium; app and website are add-ons"
+   },
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed price; fee on sales not stated"
+   },
+   {
+    "name": "Learnyst",
+    "plans": [
+     [
+      10000,
+      0.1
+     ],
+     [
+      97188,
+      0
+     ]
+    ],
+    "note": "Learnyst: Launcher or Professional (annual), taxes extra"
+   },
+   {
+    "name": "Edmingle",
+    "plans": [
+     [
+      89988,
+      0
+     ]
+    ],
+    "note": "Edmingle: Core billed annually; fee on sales not stated"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Choose and move in *four steps*"
+  ],
+  "sub": "Test with real students before you commit",
+  "steps": [
+   [
+    "Shortlist two",
+    "Match your main product and sales level"
+   ],
+   [
+    "Test one course",
+    "Use the trial with a few real students"
+   ],
+   [
+    "Run both",
+    "Keep current students where they are"
+   ],
+   [
+    "Move admissions",
+    "Close the old plan after the last batch"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Still running",
+   "*batches like this?*"
+  ],
+  "tapes": [
+   "Live class on another app",
+   "Fees on UPI screenshots",
+   "Notes in Drive",
+   "Doubts on WhatsApp",
+   "Tests on Google Forms"
+  ],
+  "note": [
+   "Too many",
+   "tools"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android app (iOS on Pro)",
+   "Live classes, unlimited",
+   "UPI and card checkout",
+   "Tests and notes in one place"
+  ]
+ }
+}

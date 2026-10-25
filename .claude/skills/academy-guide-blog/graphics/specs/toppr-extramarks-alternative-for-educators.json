@@ -1,0 +1,165 @@
+{
+ "slug": "toppr-extramarks-alternative-for-educators",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Moving on from",
+   "*Toppr or Extramarks?*"
+  ],
+  "sub": "Your options as a K-12 teacher",
+  "options": [
+   "Toppr",
+   "Extramarks",
+   "Vedantu",
+   "Classplus",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *what you want*"
+  ],
+  "sub": "Steady pay, or your own name on your teaching.",
+  "rows": [
+   {
+    "need": "You want your own K-12 tuition brand that parents pay directly",
+    "pick": "AllCoaching",
+    "why": "Own domain and Android app (iOS on Pro) on every plan, 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You want steady pay without marketing yourself",
+    "pick": "Teach for a platform",
+    "why": "For example Vedantu; check pay, hours and whether you may teach your own batches",
+    "icon": "users"
+   },
+   {
+    "need": "Your school already uses Extramarks",
+    "pick": "Keep it in class",
+    "why": "It is a school product; sell your own tuition separately, after checking school rules",
+    "icon": "book"
+   },
+   {
+    "need": "You sell above ₹2.3 lakh a year and want a flat price",
+    "pick": "Classplus",
+    "why": "Lists ₹29,999 a year; ask about GST and any fee on sales",
+    "icon": "chart"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "What each path *costs you*"
+  ],
+  "sub": "Lowest yearly plan on each official site, checked 24 Oct 2026",
+  "rows": [
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter), GST extra",
+    "published": true
+   },
+   {
+    "name": "Classplus",
+    "price": 29999,
+    "label": "₹29,999/yr",
+    "fee": "Fee on sales and GST not stated",
+    "published": true
+   },
+   {
+    "name": "Vedantu",
+    "price": 0,
+    "label": "Not a paid plan",
+    "fee": "You apply to teach; it pays you",
+    "published": false
+   },
+   {
+    "name": "Extramarks",
+    "price": 0,
+    "label": "Price not listed",
+    "fee": "No educator plan listed",
+    "published": false
+   },
+   {
+    "name": "Toppr",
+    "price": 0,
+    "label": "Not verifiable",
+    "fee": "toppr.com did not respond",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "Your own academy, *cost as you grow*"
+  ],
+  "sub": "Plan price + fee on sales, lowest-cost plan at each level, before GST",
+  "competitors": [
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed price; fee on sales not stated"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Launch in *four steps*"
+  ],
+  "sub": "Keep your current teaching while your academy grows",
+  "steps": [
+   [
+    "Set up your brand",
+    "Start the trial, add your logo and domain"
+   ],
+   [
+    "Add one course",
+    "One subject, chapter by chapter"
+   ],
+   [
+    "Add tests and doubts",
+    "Chapter tests and a weekly live class"
+   ],
+   [
+    "Share with parents",
+    "Send your own website and app link"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Still running",
+   "*tuition like this?*"
+  ],
+  "tapes": [
+   "Notes on WhatsApp groups",
+   "Fees by UPI screenshot",
+   "Tests on Google Forms",
+   "Class links sent every day",
+   "Parents call for updates"
+  ],
+  "note": [
+   "Too many",
+   "tools"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android app (iOS on Pro)",
+   "Live classes, unlimited",
+   "Chapter tests and notes",
+   "UPI and card checkout"
+  ]
+ }
+}

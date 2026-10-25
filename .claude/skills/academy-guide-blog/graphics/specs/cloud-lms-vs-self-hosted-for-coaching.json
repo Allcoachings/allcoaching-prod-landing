@@ -1,0 +1,134 @@
+{
+ "slug": "cloud-lms-vs-self-hosted-for-coaching",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Cloud LMS or",
+   "*self-hosted?*"
+  ],
+  "sub": "Who runs hosting, security and payments",
+  "options": [
+   "Tutor LMS",
+   "LearnDash",
+   "Moodle",
+   "Learnyst",
+   "Edmingle",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *who does the work*"
+  ],
+  "rows": [
+   {
+    "need": "You want to teach, not run servers",
+    "pick": "AllCoaching (cloud)",
+    "why": "Hosting, updates, app and checkout handled; own domain on every plan",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You have a developer and want full code control",
+    "pick": "WordPress + Tutor LMS",
+    "why": "Free core, Pro from $199/yr (USD); hosting and payments are yours",
+    "icon": "puzzle"
+   },
+   {
+    "need": "You sell certified courses on an existing WordPress site",
+    "pick": "WordPress + LearnDash",
+    "why": "Bundle from $350 for 1 site (USD); ask if it renews yearly",
+    "icon": "book"
+   },
+   {
+    "need": "Policy says data must stay on your own servers",
+    "pick": "Moodle (self-hosted)",
+    "why": "Open source; needs an IT team to install, update and secure",
+    "icon": "server"
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "Cloud LMS cost *as you grow*"
+  ],
+  "competitors": [
+   {
+    "name": "Learnyst",
+    "plans": [
+     [
+      10000,
+      0.1
+     ],
+     [
+      97188,
+      0
+     ]
+    ],
+    "note": "Learnyst: Launcher or Professional (annual), taxes extra"
+   },
+   {
+    "name": "Edmingle",
+    "plans": [
+     [
+      89988,
+      0
+     ]
+    ],
+    "note": "Edmingle: Core billed annually; fee on sales not stated"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Move in *four calm steps*"
+  ],
+  "steps": [
+   [
+    "Build your academy",
+    "Start the 14-day trial and upload one course"
+   ],
+   [
+    "Run both side by side",
+    "Current students stay on WordPress"
+   ],
+   [
+    "Move new admissions",
+    "Point buy buttons to your new academy"
+   ],
+   [
+    "Retire old hosting",
+    "Export records, then let it lapse"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Still running",
+   "*your own server?*"
+  ],
+  "tapes": [
+   "Hosting renewal due",
+   "Plugin update broke checkout",
+   "SSL and backups on you",
+   "Payment gateway to set up",
+   "App is a separate project"
+  ],
+  "note": [
+   "A second",
+   "job"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android app (iOS on Pro)",
+   "Hosting and updates handled",
+   "UPI and card checkout",
+   "Live classes, unlimited"
+  ]
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "slug": "is-it-better-to-build-own-app-or-join-marketplace",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Own app or",
+   "*marketplace?*"
+  ],
+  "sub": "Three paths for Indian educators",
+  "options": [
+   "Udemy",
+   "Vedantu",
+   "Testbook",
+   "Classplus",
+   "AppX",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *what you want to own*"
+  ],
+  "rows": [
+   {
+    "need": "You want your own brand, prices and student list",
+    "pick": "Own academy (AllCoaching)",
+    "why": "Own domain and Android app (iOS on Pro) on every plan, plus marketplace discovery",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You are new and have no audience yet",
+    "pick": "A marketplace first",
+    "why": "Test demand on someone else's audience, then build your own",
+    "icon": "search"
+   },
+   {
+    "need": "You want income without doing marketing",
+    "pick": "Teach for a big platform",
+    "why": "The platform sets the terms; check if you may run your own academy",
+    "icon": "users"
+   },
+   {
+    "need": "Large institute, big budget, custom features",
+    "pick": "App built for you",
+    "why": "Done-for-you setup; ask the yearly cost and who can change the app",
+    "icon": "phone"
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "What owning *costs as you grow*"
+  ],
+  "competitors": [
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed one-year price; fee on sales not stated"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Start your own, *keep teaching*"
+  ],
+  "sub": "Your current income continues while your academy grows",
+  "steps": [
+   [
+    "Build your academy",
+    "Start the 14-day trial and upload one course"
+   ],
+   [
+    "Keep teaching",
+    "Stay on your current platform for now"
+   ],
+   [
+    "Bring your audience",
+    "Share your own website and app link"
+   ],
+   [
+    "Add discovery",
+    "Also appear on the AllCoaching app"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Teaching under",
+   "*someone else's name?*"
+  ],
+  "tapes": [
+   "Students know the platform",
+   "Price set for you",
+   "Batch chats on WhatsApp",
+   "Notes in Drive",
+   "Fees on UPI screenshots"
+  ],
+  "note": [
+   "Whose students?",
+   ""
+  ],
+  "right_title": [
+   "Your academy.",
+   "*Your students.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android app (iOS on Pro)",
+   "Your prices, your list",
+   "UPI and card checkout",
+   "Marketplace discovery too"
+  ]
+ }
+}

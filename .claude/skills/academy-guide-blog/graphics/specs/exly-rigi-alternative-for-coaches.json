@@ -1,0 +1,222 @@
+{
+ "slug": "exly-rigi-alternative-for-coaches",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "lines": [
+   "Exly or Rigi",
+   "*alternative?*"
+  ],
+  "sub": "Five options for coaches, compared fairly",
+  "options": [
+   "Exly",
+   "TagMango",
+   "Graphy",
+   "Kajabi",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *what you need*"
+  ],
+  "rows": [
+   {
+    "need": "You want your own website, app and structured courses",
+    "pick": "AllCoaching",
+    "why": "Own domain and Android app (iOS on Pro) on every plan, 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You sell sessions to followers, under ₹5 lakh a year, no app",
+    "pick": "Exly Starter (stay)",
+    "why": "No upfront fee, 10% commission",
+    "icon": "users"
+   },
+   {
+    "need": "Your product is a paid community",
+    "pick": "TagMango",
+    "why": "Community and automation; Basic has no fixed fee + 10%",
+    "icon": "message"
+   },
+   {
+    "need": "Your clients pay in dollars, worldwide",
+    "pick": "Kajabi",
+    "why": "USD plans with 0% revenue share and a 14-day trial",
+    "icon": "globe"
+   },
+   {
+    "need": "You were on Rigi",
+    "pick": "Move now",
+    "why": "rigi.club now shows a short-video app; export your records",
+    "icon": "arrow"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Entry price, *as published*"
+  ],
+  "sub": "Lowest plan on each official pricing page",
+  "rows": [
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter); own app included",
+    "published": true
+   },
+   {
+    "name": "Exly",
+    "price": 0,
+    "label": "No upfront fee",
+    "fee": "+10% commission (Starter); app add-on from ₹60,000/yr",
+    "published": true
+   },
+   {
+    "name": "TagMango",
+    "price": 0,
+    "label": "No fixed fee",
+    "fee": "+10% (Basic, up to 200 students); domain ₹24,999/yr",
+    "published": true
+   },
+   {
+    "name": "Kajabi",
+    "price": 0,
+    "label": "In US dollars",
+    "fee": "$143/month billed annually, 0% revenue share",
+    "published": false
+   },
+   {
+    "name": "Graphy",
+    "price": 0,
+    "label": "Not confirmed",
+    "fee": "Check rupee plans on graphy.com from India",
+    "published": false
+   },
+   {
+    "name": "Rigi",
+    "price": 0,
+    "label": "No coach product",
+    "fee": "Site now shows a short-video app",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "What you pay *as you grow*"
+  ],
+  "competitors": [
+   {
+    "name": "Exly",
+    "plans": [
+     [
+      0,
+      0.1
+     ],
+     [
+      30000,
+      0.06
+     ],
+     [
+      108000,
+      0.03
+     ]
+    ],
+    "note": "Exly: Starter, Pro or Premium as listed, no app add-on"
+   },
+   {
+    "name": "Exly + app",
+    "plans": [
+     [
+      60000,
+      0.1
+     ],
+     [
+      90000,
+      0.06
+     ],
+     [
+      168000,
+      0.03
+     ]
+    ],
+    "note": "Exly + app: plus mobile app add-on at its lowest listed ₹60,000/yr"
+   },
+   {
+    "name": "TagMango",
+    "plans": [
+     [
+      24999,
+      0.1
+     ],
+     [
+      84999,
+      0.055
+     ],
+     [
+      204999,
+      0.035
+     ],
+     [
+      384999,
+      0
+     ]
+    ],
+    "note": "TagMango: plan + ₹24,999/yr Freedom Setup for a custom domain; + GST"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Switch in *four calm steps*"
+  ],
+  "steps": [
+   [
+    "Export your records",
+    "Client list, payments and content first"
+   ],
+   [
+    "Build your academy",
+    "Start the 14-day trial, add one programme"
+   ],
+   [
+    "Move new sales",
+    "Change your bio link to your own website and app"
+   ],
+   [
+    "Close the old plan",
+    "After the last cohort finishes"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Still selling",
+   "*like this?*"
+  ],
+  "tapes": [
+   "App is an add-on",
+   "Website is an add-on",
+   "Branding is an add-on",
+   "Sessions, not programmes",
+   "Rigi is now a video app"
+  ],
+  "note": [
+   "Add-ons",
+   "add up"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android app (iOS on Pro)",
+   "Courses, tests and notes",
+   "Unlimited live classes",
+   "UPI and card checkout"
+  ]
+ }
+}

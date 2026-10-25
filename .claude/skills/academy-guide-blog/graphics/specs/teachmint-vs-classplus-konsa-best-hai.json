@@ -1,0 +1,150 @@
+{
+ "slug": "teachmint-vs-classplus-konsa-best-hai",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Teachmint vs",
+   "Classplus:",
+   "*konsa best hai?*"
+  ],
+  "sub": "Do platforms, ek teesra option",
+  "options": [
+   "Teachmint",
+   "Classplus",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Kaam dekh kar *chuniye*"
+  ],
+  "sub": "Koi ek best option nahi. Apni zaroorat se shuru kariye.",
+  "rows": [
+   {
+    "need": "School ya classroom tools chahiye",
+    "pick": "Teachmint",
+    "why": "Teachmint X classroom device; price listed nahi, demo book kariye",
+    "icon": "home"
+   },
+   {
+    "need": "Coaching app chahiye, sales ₹2.3 lakh se kaafi upar",
+    "pick": "Classplus",
+    "why": "₹29,999 saal listed; GST, sales fee, renewal poochhiye",
+    "icon": "chart"
+   },
+   {
+    "need": "Apni website aur iOS app khud banana hai",
+    "pick": "AllCoaching",
+    "why": "Har plan mein apna domain aur Android app (iOS Pro par), 14 din free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "Abhi pakka nahi",
+    "pick": "Pehle trial aur demo",
+    "why": "Ek course bech kar dekhiye, phir saal ka plan chuniye",
+    "icon": "check"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Entry price, *jaisa published*"
+  ],
+  "sub": "Har official pricing page ka sabse chhota plan, saal ke hisaab se",
+  "rows": [
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/saal",
+    "fee": "+10% sales par (Starter), GST alag",
+    "published": true
+   },
+   {
+    "name": "Classplus",
+    "price": 29999,
+    "label": "₹29,999/saal",
+    "fee": "2 saal ₹39,999; sales fee aur GST nahi likha",
+    "published": true
+   },
+   {
+    "name": "Teachmint",
+    "price": 0,
+    "label": "Price listed nahi",
+    "fee": "Demo book kariye",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "Badhne par *kitna kharcha*"
+  ],
+  "sub": "Plan price + sales fee, har level par sabse sasta plan, GST se pehle",
+  "competitors": [
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed 1-year price; fee on sales not stated. Teachmint: no published price"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Chaar *aasaan steps* mein switch"
+  ],
+  "sub": "Dono saath chalaiye, kisi student ka access na jaaye",
+  "steps": [
+   [
+    "Academy banaiye",
+    "14 din ka trial shuru karke ek course upload kariye"
+   ],
+   [
+    "Dono saath chalaiye",
+    "Current students jahan hain wahin rahein"
+   ],
+   [
+    "Naye admissions",
+    "Naye students ko apni website aur app par bhejiye"
+   ],
+   [
+    "Purana plan band",
+    "Sirf aakhri batch khatam hone ke baad"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Price pata chala",
+   "*demo ke baad?*"
+  ],
+  "tapes": [
+   "Price listed nahi",
+   "GST alag ya included?",
+   "Renewal kitne ka?",
+   "iOS app listed nahi",
+   "Sales par fee?"
+  ],
+  "note": [
+   "Itne sawaal",
+   ""
+  ],
+  "right_title": [
+   "Price pehle.",
+   "*Academy aapki.*"
+  ],
+  "checks": [
+   "Plans ₹6,999/saal + GST se",
+   "Apne domain par website",
+   "Apna Android app (iOS Pro par)",
+   "Unlimited live classes",
+   "14 din trial, card nahi"
+  ]
+ }
+}

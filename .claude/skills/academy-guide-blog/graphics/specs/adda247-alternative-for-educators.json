@@ -1,0 +1,106 @@
+{
+ "slug": "adda247-alternative-for-educators",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Adda247",
+   "alternative for",
+   "*your own brand?*"
+  ],
+  "sub": "Stay, relaunch under your own name, or both",
+  "options": [
+   "Stay at Adda247",
+   "Testbook Partner Faculty",
+   "Your own YouTube channel",
+   "Another academy platform",
+   "AllCoaching"
+  ],
+  "stamp": "Terms checked 24 Oct 2026"
+ },
+ "verdict": {
+  "title": [
+   "Pick by *what you want next*"
+  ],
+  "sub": "There is no single best path. Start with your contract.",
+  "rows": [
+   {
+    "need": "You want to sell under your own name",
+    "pick": "Own academy",
+    "why": "AllCoaching: own domain and Android app (iOS on Pro) on every plan, 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You want a big audience and a team around you",
+    "pick": "Stay at Adda247",
+    "why": "Reach in many languages; educator terms are not published on its website",
+    "icon": "users"
+   },
+   {
+    "need": "You want another big brand to sell for you",
+    "pick": "Testbook Partner",
+    "why": "Testbook says it handles marketing, promotions and technology; pay not published",
+    "icon": "trend"
+   },
+   {
+    "need": "You want an audience before you launch",
+    "pick": "YouTube first",
+    "why": "Grow under your own name, then open your academy when you are ready",
+    "icon": "play"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Relaunch *under your name*"
+  ],
+  "sub": "Your method moves with you; your contract decides the files",
+  "steps": [
+   [
+    "Read your contract",
+    "Notice, exclusivity and content terms"
+   ],
+   [
+    "Build your academy",
+    "14-day trial, your domain, your app"
+   ],
+   [
+    "Create fresh content",
+    "A test series first, then a course"
+   ],
+   [
+    "Announce your address",
+    "Tell the aspirants who follow you"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Going solo",
+   "*like this?*"
+  ],
+  "tapes": [
+   "Classes on YouTube Live",
+   "PDFs in Drive folders",
+   "Fees on UPI screenshots",
+   "Mocks on Google Forms",
+   "Doubts on WhatsApp"
+  ],
+  "note": [
+   "Too many",
+   "tools"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android app (iOS on Pro)",
+   "Test series and notes",
+   "UPI and card checkout",
+   "Live classes, unlimited"
+  ]
+ }
+}
