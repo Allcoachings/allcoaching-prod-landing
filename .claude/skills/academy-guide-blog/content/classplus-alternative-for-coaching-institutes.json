@@ -175,7 +175,7 @@
   "Graphy pricing, <a href=\"https://graphy.com/pricing\" target=\"_blank\" rel=\"noopener nofollow\">graphy.com/pricing</a>, checked 24 Oct 2026; the page showed non-Indian prices from our connection, so rupee plans are not quoted here.",
   "Learnyst pricing, <a href=\"https://www.learnyst.com/pricing\" target=\"_blank\" rel=\"noopener nofollow\">learnyst.com/pricing</a>, checked 24 Oct 2026 (prices shown in ₹ for Indian visitors).",
   "Teachmint website, <a href=\"https://www.teachmint.com\" target=\"_blank\" rel=\"noopener nofollow\">teachmint.com</a>, checked 24 Oct 2026.",
-  "AppX website and FAQ, <a href=\"https://appx.in\" target=\"_blank\" rel=\"noopener nofollow\">appx.in</a>, checked 24 Oct 2026.",
+  "AppX website and FAQ, <a href=\"https://appx.co.in\" target=\"_blank\" rel=\"noopener nofollow\">appx.co.in</a>, checked 24 Oct 2026.",
   "Edmingle India pricing, <a href=\"https://www.edmingle.com/in/pricing/\" target=\"_blank\" rel=\"noopener nofollow\">edmingle.com/in/pricing</a>, checked 24 Oct 2026.",
   "AllCoaching pricing, <a href=\"/pricing\">allcoaching.in/pricing</a>."
  ],
@@ -191,8 +191,8 @@
    "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
   },
   {
-   "name": "Coaching centres in India",
-   "sameAs": "https://en.wikipedia.org/wiki/Coaching_centres_in_India"
+   "name": "Test preparation",
+   "sameAs": "https://en.wikipedia.org/wiki/Test_preparation"
   },
   {
    "name": "Educational technology",
@@ -225,7 +225,7 @@
   },
   {
    "name": "AppX",
-   "url": "https://appx.in"
+   "url": "https://appx.co.in"
   },
   {
    "name": "AllCoaching",

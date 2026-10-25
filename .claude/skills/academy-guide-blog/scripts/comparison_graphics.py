@@ -68,7 +68,7 @@ def cover(sp):
     b += lines(84, 330 + 80 * len(c['lines']) + 14, [c.get('sub', '')], 28, MUTED)
     stamp_y = 330 + 80 * len(c['lines']) + 70
     b += (f'<rect x="80" y="{stamp_y}" width="380" height="54" rx="27" fill="#fff" stroke="{BLUE}" stroke-width="2"/>' +
-          icon('check', 98, stamp_y + 13, 28, BLUE, 2) + text(138, stamp_y + 35, f'Prices checked {sp["checked"]}', 21, BLUE, 700))
+          icon('check', 98, stamp_y + 13, 28, BLUE, 2) + text(138, stamp_y + 35, c.get('stamp', f'Prices checked {sp["checked"]}'), 21, BLUE, 700))
     opts = c['options']
     gap = min(104, 560 / max(1, len(opts)))
     ph = 130 + gap * len(opts)
@@ -179,8 +179,8 @@ def cost(sp):
         lx += 60 + len(name) * 11
     notes = [cm.get('note') for cm in c['competitors'] if cm.get('note')]
     notes.append('AllCoaching: Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%. GST extra.')
-    for k, n in enumerate(notes[-4:]):
-        b += text(60, H - 118 + k * 24, n, 15, MUTED)
+    for k, n in enumerate(notes[-6:]):
+        b += text(60, H - 24 - (len(notes[-6:]) - k) * 24 + 10, n, 15, MUTED)
     b += signature(W, H)
     return svg(W, H, b, 'Total yearly cost at different sales levels, from published prices')
 
