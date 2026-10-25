@@ -1,0 +1,285 @@
+{
+ "slug": "online-coaching-academy-without-coding",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "How to Create an Online Academy Without a Developer (2026)",
+ "description": "How to create an online academy without a developer in one evening: pick a template, brand it, build your first course, add UPI checkout and connect your domain.",
+ "og_description": "A hands-on, one-evening plan for Indian educators: the no-code building blocks, what you do not need, developer vs no-code on cost, time and control, and fixes for common launch-night blockers.",
+ "keywords": [
+  "how to create online academy without developer",
+  "online coaching academy without coding",
+  "build online academy no code",
+  "create coaching website without developer",
+  "no-code LMS india",
+  "online academy in one evening",
+  "build your own LMS",
+  "coaching academy website builder",
+  "white-label coaching app without coding",
+  "developer vs no-code academy"
+ ],
+ "h1": "How to Create an Online Academy Without a Developer: Live in One Evening",
+ "dek": "A hands-on plan for Indian educators who teach well but do not code: what to prepare, the 6 pm to 10 pm build, the no-code building blocks, what you can skip, and how to fix the things that go wrong on launch night.",
+ "category": "Start an academy",
+ "date_published": "2026-04-25",
+ "date_modified": "2026-10-25",
+ "checked": "25 Oct 2026",
+ "cover_alt": "How to create an online academy without a developer in one evening: an illustrative 6 pm to 10 pm plan with the AllCoaching studio on a laptop and phone",
+ "audience": "Indian educators, tutors, exam mentors, skill teachers and coaching institute owners with no technical background",
+ "author_note": "We wrote this guide because the most common thing educators tell us is that the technology, not the teaching, kept them from starting; outside facts are linked to their sources and example timings are marked as illustrative.",
+ "intro": [
+  "<strong>You can create an online academy without a developer by using a no-code academy platform: sign up, pick a template, add your brand, build your first course from ready-made blocks, set up UPI checkout and connect your own domain.</strong> If your first module is already recorded, the build itself fits into one evening.",
+  "Picture a chemistry teacher in Lucknow with eighteen years of NEET and Class 12 batches behind him. Every time he thinks about going online, the same words stop him: app development, payment gateway, hosting, backend, developer. His teaching is ready. The technology, he assumes, is not something he can do himself.",
+  "This guide is for that teacher, and for the spoken English coach, the SSC maths educator and the yoga teacher in the same position. It is the hands-on version: what to have ready, an illustrative 6 pm to 10 pm plan, the six no-code building blocks, what you do not need, an honest developer vs no-code comparison and the fixes for common launch-night blockers. If you want the bigger picture first, read <a href=\"/blog/what-is-an-online-academy\">what an online academy is</a>; for the full launch plan from course idea to first sale, see <a href=\"/blog/how-to-start-online-academy-in-5-steps\">how to start an online academy in 5 steps</a>."
+ ],
+ "takeaways": [
+  "<strong>No code, no developer:</strong> a no-code academy platform gives you the website, course builder, checkout, hosting and student app as blocks you fill in.",
+  "<strong>One evening is realistic for the build</strong> (illustrative 6 pm to 10 pm) if your first module, logo, domain name, price and PAN and bank details are ready beforehand.",
+  "<strong>Six building blocks:</strong> template and theme, your brand, course builder, payments, your domain and your app.",
+  "<strong>What you skip:</strong> servers, WordPress plugins to keep updated, payment code, a separate video host and app code.",
+  "<strong>A developer still helps</strong> for custom software beyond what any platform offers, or integrations with your own systems.",
+  "<strong>On AllCoaching:</strong> a 14-day free trial with no card, then plans from ₹6,999 a year plus GST, with your own Android app on every plan and the iOS app on Pro and Scale."
+ ],
+ "sections": [
+  {
+   "id": "one-evening",
+   "h2": "Can you really create an online academy in one evening?",
+   "toc": "Is one evening real?",
+   "html": "<p><strong>Yes, the build can fit into one evening, because a no-code platform has already built the website, checkout, hosting and app; you only fill in your content and settings.</strong> What does not fit into one evening is recording a full course, so record your first module before you start.</p>\n      <p>Ten years ago, an online academy meant a website, video hosting, a payment integration and an app, each wired together by someone technical. Today the same parts come ready-made. An academy platform works like Shopify does for shops: you sign up, choose a plan, upload your course, connect your domain and start selling, while payments, student access, apps and hosting run on their own.</p>\n      <p>So the honest answer has two halves. The software part (an academy that looks like yours, takes payments and gives students access) is an evening's work. The teaching part (lessons, notes, tests) takes as long as it takes, and that is the part only you can do.</p>\n      <p>When educators set up an academy with us, the step that runs over time is almost never the software. It is the course upload, because people try to put a whole year of lectures in on day one. Launch with one module and add the rest weekly.</p>"
+  },
+  {
+   "id": "prepare",
+   "h2": "What to prepare before you start building",
+   "toc": "Prepare first",
+   "html": "<p><strong>Have six things ready before the evening: one recorded module, its PDF notes and a test, a logo and two colours, a domain name, your PAN and bank details, and a price for the course.</strong> With these on your laptop, the evening is about clicking, not deciding.</p>\n      {{fig:what-to-prepare|Checklist to prepare before you create an online academy without a developer: a recorded module, PDF notes and a test, logo and colours, a domain name, PAN and bank details, and a course price|Six things that make the evening go smoothly.}}\n      <ul>\n        <li><strong>One recorded module.</strong> Four to eight lessons of 8 to 20 minutes each, recorded on a phone with a clip-on mic. If your lessons are already on YouTube, that counts.</li>\n        <li><strong>PDF notes and one test.</strong> A chapter PDF and a short test for the same module. Exam students expect both.</li>\n        <li><strong>Logo, two colours and a photo of you.</strong> A clear photo and two lines on who you teach build more trust than an expensive logo. Do not spend weeks here.</li>\n        <li><strong>A domain name.</strong> Something short like youracademy.in, bought from any registrar in your own name and email, so it stays yours.</li>\n        <li><strong>PAN and bank details.</strong> Any payment gateway verifies your identity and bank account before it settles money to you. Our guide to <a href=\"/blog/accept-upi-payments-for-online-courses\">accepting UPI payments for online courses</a> lists what to keep ready.</li>\n        <li><strong>A price.</strong> Decide it before you sit down. Our guide on <a href=\"/blog/how-to-price-online-courses-india\">how to price online courses in India</a> covers the methods.</li>\n      </ul>"
+  },
+  {
+   "id": "evening-plan",
+   "h2": "How to create an online academy without a developer: the 6 pm to 10 pm plan",
+   "toc": "The 6 pm to 10 pm plan",
+   "html": "<p><strong>Sign up, pick a template, add your brand, build your first course, set up payments, connect your domain, then test, publish and share.</strong> In that order, each block takes 15 minutes to an hour.</p>\n      {{steps}}\n      {{fig:evening-timeline|Illustrative one-evening plan to create an online academy without a developer: sign up at 6 pm, template, brand, first course, payments, domain, then test and publish by 10 pm|An illustrative evening for one educator with one recorded module. Your timings will differ.}}\n      <p>The times are illustrative. Some educators finish the brand in ten minutes and spend two hours on the course; others do the reverse. What matters is the order. Branding before the course means your course pages already look like yours as you build them. Payments before the domain means that by the time your address is live, students can buy. Testing last means you see the academy exactly as a student will.</p>"
+  },
+  {
+   "id": "building-blocks",
+   "h2": "The no-code building blocks of an online academy",
+   "toc": "No-code building blocks",
+   "html": "<p><strong>A no-code academy is six blocks: a template and theme, your brand, a course builder, payments, your domain and your app.</strong> In each one you make choices on a screen, and the platform runs the technical work underneath.</p>\n      {{fig:building-blocks|Six no-code building blocks of an online academy: template and theme, your brand, course builder, payments, your domain and your app, with what you do and what runs on its own|What you set up in each block, and what runs on its own.}}\n      <h3>1. Template and theme</h3>\n      <p>Choose a website template for your academy home page and course pages, then change sections, text and images. This replaces designing and coding a website. On AllCoaching, customisable themes and templates are included on every plan, and Pro adds a premium website template.</p>\n      <h3>2. Your brand</h3>\n      <p>Upload your logo, set two colours, add your photo and a short \"about\" paragraph. The brand carries across the website, course pages and student app, so students see your academy's name, not a platform's.</p>\n      <h3>3. Course builder</h3>\n      <p>This is where \"Build your own LMS. In just a few clicks.\" becomes literal. You create a course, then drag in its parts in syllabus order: video lessons, PDF notes, tests and live classes. Mark one lesson as the free demo. Every AllCoaching plan includes unlimited videos via YouTube and unlimited live classes through YouTube Live, Zoom or the built-in live room, with no hour caps.</p>\n      <h3>4. Payments</h3>\n      <p>Set the course price and complete the payment details the studio asks for. Students then pay by UPI or card at checkout, their access opens automatically, and payouts reach your bank automatically through Razorpay. You never write payment code or match screenshots on WhatsApp again.</p>\n      <h3>5. Your domain</h3>\n      <p>Point the domain you bought to your academy by adding the records your platform shows you at your registrar. It is a copy-and-paste job, and our guide to an <a href=\"/blog/lms-with-custom-domain-for-coaching-india\">LMS with a custom domain</a> walks through it with the common errors.</p>\n      <h3>6. Your app</h3>\n      <p>Students who come back daily prefer an app. On AllCoaching every plan includes your own white-label Android app with your name and logo, and the iOS app is included on Pro and Scale. You do not write or maintain app code.</p>\n      {{fig:studio-build|The AllCoaching studio used to create an online academy without code: courses, live classes, own branding and transactions in one login|All six blocks live in one studio. Studio preview · sample data.}}\n      <p>We built the studio so that the evening plan in this guide is realistic: every block above is a screen you fill in, not a project you hand to someone. Meta Pixel and Google Tag Manager are included too, so the ads and posts you run later can be measured.</p>\n      {{cta}}"
+  },
+  {
+   "id": "dont-need",
+   "h2": "What you do not need to create an online academy",
+   "toc": "What you do not need",
+   "html": "<p><strong>You do not need a developer, a server or hosting plan, WordPress and a stack of plugins, payment gateway code, a separate video host or app code.</strong> You still need your content, your PAN and bank details for payment verification, a domain and a few hours.</p>\n      {{fig:dont-need|What you do not need to create an online academy without a developer: a developer, a server, WordPress plugins, payment code, a separate video host or app code, and what replaces each|The old checklist, and what replaces each line on a no-code platform.}}\n      <h3>No WordPress and plugins to keep alive</h3>\n      <p>Many educators first try a WordPress site with an LMS plugin, a payment plugin, a video plugin and a security plugin. It can work, but each piece is software someone has to update. WordPress's own documentation advises: \"Always make sure you have a current backup of your site before updating your plugins. Sometimes problems can happen during the update process.\" It also notes that site problems can be \"caused by a conflict with different WordPress plugins\".<sup><a href=\"#ref-1\">1</a></sup> That is fine for a developer; it is a second job for a teacher.</p>\n      {{fig:wordpress-vs-one-login|WordPress with LMS, payment, video and security plugins compared with one no-code online academy login that handles hosting, courses, checkout, domain and app|The stitched-together build many educators start with, and the one-login version.}}\n      <h3>No app to build from scratch</h3>\n      <p>Building your own app from scratch means more than code. Publishing on Google Play needs a developer account with a US$25 registration fee, paid once,<sup><a href=\"#ref-2\">2</a></sup> and Apple's Developer Program has an annual fee of 99 USD.<sup><a href=\"#ref-3\">3</a></sup> Then come store reviews, updates for new phone versions and bug fixes, usually by the developer who built it. With a white-label academy app, the app is part of your plan instead of a separate project.</p>\n      <h3>No separate tools for each job</h3>\n      <p>The other common setup is no website at all: fees on WhatsApp, notes in Drive, a new Zoom link every day and students in Excel. If that is where you are today, our guide to <a href=\"/blog/migrate-offline-coaching-to-online-zero-cost\">moving offline coaching online</a> shows how to move it into one place.</p>"
+  },
+  {
+   "id": "developer-vs-no-code",
+   "h2": "Hiring a developer vs a no-code academy: cost, time and control",
+   "toc": "Developer vs no-code",
+   "html": "<p><strong>A developer gives you custom software on their timeline and your budget; a no-code academy gives you a working academy tonight for a published yearly price, with you making every change yourself.</strong> For one educator selling courses, no-code is usually the faster and more predictable route.</p>\n      {{fig:dev-vs-nocode|Hiring a developer versus a no-code online academy compared on time to go live, upfront cost, ongoing upkeep, who makes changes, student apps, domain and data|Illustrative comparison. Developer quotes vary widely by scope and city.}}\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>What changes</th><th>Hire a developer</th><th>No-code academy (AllCoaching)</th></tr></thead>\n          <tbody>\n            <tr><td>Time to go live</td><td>Weeks to months (illustrative)</td><td>One evening to a week (illustrative)</td></tr>\n            <tr><td>Upfront cost</td><td>A project quote for website, LMS, payments and apps</td><td>14-day free trial, then from ₹6,999 a year + GST</td></tr>\n            <tr><td>Ongoing cost</td><td>Hosting, maintenance, store accounts, fixes</td><td>Yearly plan + a 10%, 7.5%, 5% or 0% platform fee</td></tr>\n            <tr><td>Who makes changes</td><td>The developer, on their schedule</td><td>You, in the studio</td></tr>\n            <tr><td>Student apps</td><td>Built, published and updated by the developer</td><td>Own Android app on every plan; iOS on Pro and Scale</td></tr>\n            <tr><td>Domain and data</td><td>Depends on the contract</td><td>Your own domain; student data exportable</td></tr>\n          </tbody>\n          <caption>Developer column is illustrative; get written quotes for your own scope. Payment gateway charges apply on both routes.</caption>\n        </table>\n      </div>\n      <h3>What the no-code route costs</h3>\n      <p>On AllCoaching, every plan starts with a 14-day free trial and no card is needed to start. After that you choose one yearly plan (prices exclude GST): Starter ₹6,999 with a 10% platform fee, Growth ₹12,999 with 7.5%, Pro ₹24,999 with 5%, or Scale ₹99,999 with a 0% platform fee, bought through <a href=\"https://api.whatsapp.com/send/?phone=919889977262\" target=\"_blank\" rel=\"noopener\">Contact us</a>. As an illustration before GST, Pro costs less than Scale below about ₹15 lakh of yearly sales and Scale costs less above it. Full details are on the <a href=\"/pricing\">pricing page</a>.</p>\n      <p>On either route the payment gateway charges per sale. Razorpay's standard plan, for example, lists a 2% fee per successful transaction with 18% GST on that fee (checked October 2026).<sup><a href=\"#ref-4\">4</a></sup> Count it in both columns.</p>\n      <h3>What the developer route costs</h3>\n      <p>We are not going to put a number on it, because quotes for \"website plus LMS plus app\" vary too widely to be useful. Ask at least three developers for a written quote that covers the website, course access, payments, Android and iOS apps, hosting, and a full year of maintenance and updates. Our breakdown of <a href=\"/blog/white-label-coaching-app-development-cost-india\">white-label coaching app development costs in India</a> lists the line items to ask about.</p>"
+  },
+  {
+   "id": "when-developer",
+   "h2": "When you might still want a developer",
+   "toc": "When to hire a developer",
+   "html": "<p><strong>Hire a developer when you need software no academy platform offers, such as a custom integration with your institute's own systems or a feature unique to your teaching method.</strong> For selling courses, tests and live classes under your own brand, you do not.</p>\n      <ul>\n        <li><strong>Custom integrations.</strong> A large institute that already runs its own admissions software or ERP may want student records to flow between systems automatically.</li>\n        <li><strong>A one-of-a-kind learning tool.</strong> An interactive simulator, a custom practice engine or a special exam interface is real software work.</li>\n        <li><strong>An in-house tech team already exists.</strong> If you already pay developers, building on your own stack may make sense, as long as you budget for upkeep.</li>\n        <li><strong>A fully custom design.</strong> Templates and themes cover most needs. If you want a design no template allows, a designer (not necessarily a developer) can help, and the premium template on AllCoaching's Pro plan may already be enough.</li>\n      </ul>\n      <p>What you do not need a developer for: the website, the course structure, checkout, the domain, the student app and day-to-day changes.</p>\n      {{q:I already paid an agency for an app that no student uses. Should I start again?|Not from zero. Your lessons, notes, tests and student list are the valuable part, and they move with you. Set up the no-code academy during the free trial, upload your best module, connect your domain and send existing students one link. Our guide on <a href=\"/blog/students-wont-download-coaching-app-whatsapp\">students who only want WhatsApp</a> covers how to bring them across.}}"
+  },
+  {
+   "id": "blockers",
+   "h2": "Common blockers on launch night, and how to fix them",
+   "toc": "Blockers and fixes",
+   "html": "<p><strong>Most launch-night problems are a domain that has not updated yet, payments still being verified, videos set to public, a blurry logo, too much content to upload and a test purchase that fails.</strong> Each has a quick fix, and none needs a developer.</p>\n      {{fig:blockers|Common blockers when you create an online academy in one evening and the fix for each: domain not showing, payments verifying, public videos, blurry logo, too much to upload, failed test purchase|Six blockers we see often, and what to do instead of waiting.}}\n      <ul>\n        <li><strong>Your domain does not open the academy yet.</strong> Domain changes usually take effect within minutes to a few hours and occasionally up to a day or two. Recheck that you copied each value exactly, with no extra spaces, then wait. Share the link tomorrow if you have to.</li>\n        <li><strong>Payments are still being verified.</strong> Gateway verification can take longer than an evening. Publish the academy with the free demo lesson visible, collect interest, and open sales once payments are active.</li>\n        <li><strong>A paid lesson plays for anyone on YouTube.</strong> Set lesson videos to unlisted on YouTube so they do not show in search or on your channel, and keep public videos for free lessons that bring new students in.</li>\n        <li><strong>The logo looks blurry.</strong> Upload a larger, square PNG with a transparent background instead of a screenshot or a WhatsApp-compressed image.</li>\n        <li><strong>The upload is taking all night.</strong> Stop at one complete module with its PDF and test. Publish, then add a module every week.</li>\n        <li><strong>The test purchase fails.</strong> Try again with UPI from a different app, check that payments are active, then message support with a screenshot of the error.</li>\n      </ul>\n      {{q:I am not good with technology at all. Will I really manage this alone?|If you can use WhatsApp and pay by UPI, you can fill in the blocks in this guide; the screens ask for things you already know, like your course name, price and photo. Take it slower than the plan: one block per evening for a week is still a launch. And during the free trial you can reach us at contact@allcoaching.in when something is unclear.}}"
+  },
+  {
+   "id": "first-week",
+   "h2": "After tonight: what to do in the first week",
+   "toc": "The first week",
+   "html": "<p><strong>In the first week, buy your own course on a cheap Android phone, share one link everywhere your students already are, run a free live demo class and write down every question students ask.</strong> The academy is built; now it needs students.</p>\n      <ul>\n        <li><strong>Share one link.</strong> YouTube descriptions and pinned comments, your Instagram bio, WhatsApp groups and your Telegram channel.</li>\n        <li><strong>Teach one live demo class.</strong> Teach one topic properly, then explain the course and share the link at the end. Our guide to <a href=\"/blog/how-to-conduct-live-classes-on-mobile-apps\">running live classes from a mobile phone</a> covers the setup.</li>\n        <li><strong>Fix your course page from real questions.</strong> Validity, language, doubt support and refunds are the usual ones. Answer them on the page.</li>\n        <li><strong>Start being found.</strong> A few helpful pages about your exam or skill bring students from Google over time. Start with our <a href=\"/blog/seo-for-online-academy-beginners-guide\">online academy SEO guide for beginners</a>.</li>\n      </ul>\n      <p>For the full plan from here to your first paid batch, including course structure and launch week, continue with <a href=\"/blog/how-to-start-online-academy-in-5-steps\">how to start an online academy in 5 steps</a>.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to create an online academy without a developer in one evening",
+  "description": "An illustrative 6 pm to 10 pm plan for an Indian educator to build an online academy on a no-code platform, from sign-up to a published course.",
+  "total_time": "PT4H",
+  "items": [
+   [
+    "Sign up and start the free trial (6:00 pm)",
+    "Create your academy account on a no-code academy platform. On AllCoaching the 14-day free trial needs no card."
+   ],
+   [
+    "Pick a template and theme (6:15 pm)",
+    "Choose a website template for your home and course pages, then edit the sections, text and images."
+   ],
+   [
+    "Add your brand (6:45 pm)",
+    "Upload your logo, set two colours, and add your photo and a short paragraph on who you teach."
+   ],
+   [
+    "Build your first course (7:15 pm)",
+    "Create the course and add video lessons, PDF notes and a test in syllabus order. Mark one lesson as the free demo."
+   ],
+   [
+    "Set up payments (8:15 pm)",
+    "Set the course price and complete the payment details, so students can pay by UPI or card and get access automatically."
+   ],
+   [
+    "Connect your domain (8:45 pm)",
+    "At your domain registrar, add the records your platform shows you, copying each value exactly, so youracademy.in opens your academy."
+   ],
+   [
+    "Test, publish and share (9:15 pm)",
+    "Buy your own course once on a phone, fix anything confusing, publish, and share one link with your students."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "How do I create an online academy without a developer?",
+   "Use a no-code academy platform. Sign up, pick a template, add your logo and colours, build your first course from videos, PDF notes and tests, set up UPI and card checkout, connect your own domain, then test and publish. No coding is needed at any step."
+  ],
+  [
+   "Can I build an online coaching academy without coding?",
+   "Yes. No-code academy platforms provide the website, course builder, checkout, hosting and student app as ready-made blocks. You choose options and upload content; the platform runs the technical work underneath."
+  ],
+  [
+   "How long does it take to create an online academy without a developer?",
+   "The build can fit into one evening, roughly four hours in an illustrative plan, if your first module, logo, domain name, price and payment details are ready. Recording a full course takes longer, so launch with one module and add the rest weekly."
+  ],
+  [
+   "Do I need WordPress to create a coaching website?",
+   "No. A no-code academy platform gives you a website from templates, connected to your own domain, with courses and checkout built in. WordPress can work, but you then manage hosting, plugins and their updates yourself."
+  ],
+  [
+   "What is a no-code LMS?",
+   "A no-code LMS is a learning management system you set up by choosing options and dragging in content, without writing code. On AllCoaching you build your own LMS with courses, tests, notes, live classes and payments, then make it your brand with your logo, colours and domain."
+  ],
+  [
+   "How much does it cost to create an online academy without a developer in India?",
+   "On AllCoaching there is a 14-day free trial with no card, then a yearly plan: Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 with a 10%, 7.5% or 5% platform fee, or Scale ₹99,999 with 0%, all excluding GST. Add your domain renewal and payment gateway charges."
+  ],
+  [
+   "Can I get my own coaching app without a developer?",
+   "Yes, with a white-label academy platform. On AllCoaching every plan includes your own Android app with your name and logo, and the iOS app is included on Pro and Scale, so you do not write or maintain app code."
+  ],
+  [
+   "When should I hire a developer for my online academy?",
+   "Hire one when you need software no platform offers, such as a custom integration with your institute's own admissions system or a unique learning tool. For selling courses, tests and live classes under your own brand, a no-code platform covers it."
+  ],
+  [
+   "Can I take payments by UPI without any coding?",
+   "Yes. On a no-code academy platform you set the price and complete your payment details; students then pay by UPI or card at checkout and their access opens automatically. On AllCoaching, payouts reach your bank automatically through Razorpay."
+  ]
+ ],
+ "glossary": [
+  [
+   "no-code-platform",
+   "No-code platform",
+   "Software that lets you build and run a website, store or academy by choosing options and dragging in content, without writing code."
+  ],
+  [
+   "no-code-lms",
+   "No-code LMS",
+   "A learning management system you set up yourself through screens and drag and drop: courses, tests, notes, live classes and student access, with no developer."
+  ],
+  [
+   "website-template",
+   "Website template",
+   "A ready-made page design for your academy's home and course pages that you edit with your own text, images and colours."
+  ],
+  [
+   "course-builder",
+   "Course builder",
+   "The part of an academy platform where you create a course and add video lessons, PDF notes, tests and live classes in order."
+  ],
+  [
+   "custom-domain",
+   "Custom domain",
+   "Your own web address, such as youracademy.in, connected to your academy website instead of a platform's address."
+  ],
+  [
+   "white-label-app",
+   "White-label app",
+   "A student app that carries your academy's name and logo, built and maintained on a platform's technology."
+  ],
+  [
+   "wordpress-plugin",
+   "WordPress plugin",
+   "An add-on that extends a WordPress site, such as an LMS, payment or security plugin; each one needs updating and can conflict with others."
+  ],
+  [
+   "payment-gateway",
+   "Payment gateway",
+   "The service that collects UPI, card and net-banking payments online and settles them to your bank account for a per-transaction charge."
+  ]
+ ],
+ "references": [
+  "WordPress.org Documentation, \"Manage Plugins\" (Updating Plugins; Troubleshooting), <a href=\"https://wordpress.org/documentation/article/manage-plugins/\" target=\"_blank\" rel=\"noopener nofollow\">wordpress.org</a>, checked October 2026.",
+  "Play Console Help, \"Get started with Play Console\" (registration fee), <a href=\"https://support.google.com/googleplay/android-developer/answer/6112435\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "Apple Developer Help, \"Enrollment\" (program fees), <a href=\"https://developer.apple.com/support/enrollment/\" target=\"_blank\" rel=\"noopener nofollow\">developer.apple.com</a>, checked October 2026.",
+  "Razorpay pricing, <a href=\"https://razorpay.com/pricing/\" target=\"_blank\" rel=\"noopener nofollow\">razorpay.com/pricing</a>, standard plan, checked October 2026.",
+  "AllCoaching pricing, <a href=\"/pricing\">allcoaching.in/pricing</a>, October 2026."
+ ],
+ "citations": [
+  "https://wordpress.org/documentation/article/manage-plugins/",
+  "https://support.google.com/googleplay/android-developer/answer/6112435",
+  "https://developer.apple.com/support/enrollment/",
+  "https://razorpay.com/pricing/",
+  "https://allcoaching.in/pricing"
+ ],
+ "about": [
+  {
+   "name": "Online academy"
+  },
+  {
+   "name": "No-code development platform",
+   "sameAs": "https://en.wikipedia.org/wiki/No-code_development_platform"
+  },
+  {
+   "name": "Learning management system",
+   "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
+  },
+  {
+   "name": "Domain name",
+   "sameAs": "https://en.wikipedia.org/wiki/Domain_name"
+  },
+  {
+   "name": "Unified Payments Interface",
+   "sameAs": "https://en.wikipedia.org/wiki/Unified_Payments_Interface"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "WordPress",
+   "url": "https://wordpress.org"
+  },
+  {
+   "name": "Google Play",
+   "url": "https://play.google.com"
+  },
+  {
+   "name": "Apple Developer Program",
+   "url": "https://developer.apple.com"
+  },
+  {
+   "name": "Razorpay",
+   "url": "https://razorpay.com"
+  },
+  {
+   "name": "YouTube",
+   "url": "https://www.youtube.com"
+  },
+  {
+   "name": "Zoom",
+   "url": "https://zoom.us"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/how-to-start-online-academy-in-5-steps",
+  "/blog/what-is-an-online-academy",
+  "/blog/lms-with-custom-domain-for-coaching-india",
+  "/blog/accept-upi-payments-for-online-courses"
+ ]
+}

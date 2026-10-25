@@ -404,6 +404,589 @@ Amit builds AllCoaching, the academy platform Indian educators set up themselves
 
 ---
 
+# How to Create an Online Course in India (2026 Guide)
+
+**Source:** https://allcoaching.in/blog/create-your-first-online-course-india  
+**Published:** 2026-10-25T09:00:00+05:30  
+**Updated:** 2026-10-25T09:00:00+05:30  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** How to create an online course in India: pick one outcome, plan modules of 5–15 minute lessons, record on a phone budget, add PDF notes and tests, then pilot it.
+
+Amit RatanUpdated 25 Oct 2026 · 21 min read
+
+
+On this page
+
+
+Start your online academy today. 14 days free.
+
+Start free trial
+
+
+To create an online course in India, choose one clear outcome for one group of students, split the syllabus into modules of 5–15 minute lessons, record them on your phone with a clip-on mic, add PDF notes and a test to every module, offer one free demo lesson, and test the whole course with 5–10 students before you sell it. You do not need a studio, an editor or a developer to do any of this.
+
+Maybe you teach NEET biology to a batch of thirty in Kota or Patna and want students from other cities to learn from you. Maybe you teach SSC maths in Hindi on YouTube, spoken English to working adults on Zoom, yoga to a morning group, or classical vocal music on weekends. You already know how to teach. What feels new is turning that teaching into a course: something a student can buy, open on a phone and finish without you in the room.
+
+This guide covers the whole build, in order: picking the topic and outcome, structuring modules and lessons, choosing between video, PDF, tests and live classes, a recording setup on a budget, teaching on camera, editing with free tools, Hindi and regional medium with captions, the free demo lesson, uploading and organising everything in your academy, the pilot batch and how to keep the course up to date. If you have not set up an academy yet, read how to start an online academy in 5 steps alongside this; that guide covers sign-up, domain and payments, and this one goes deep on the course itself.
+
+
+
+
+
+
+## Key takeaways
+
+
+- Start from one outcome, such as "score 300+ in NEET biology" or "speak confidently in a job interview", not from a list of topics.
+
+- Structure the course like a syllabus: 4–8 modules, each made of 5–15 minute video lessons with one idea each, a PDF of notes and a module test.
+
+- Audio matters more than the camera. A phone you already own plus a lapel mic (illustratively ₹500–₹2,000) is enough for a first course.
+
+- Use free tools: OBS Studio records the screen, Shotcut edits video, and YouTube automatic captions support Hindi; review every caption before students see it.
+
+- Host lessons on YouTube as unlisted videos, which only people with the link can watch, and keep a public free lesson on your channel to bring students in.
+
+- Pilot with 5–10 students before launch and fix the top three problems they find.
+
+- On AllCoaching, videos via YouTube and live classes are unlimited on every plan, with PDF notes and test series in the same course, after a 14-day free trial with no card.
+
+
+
+
+
+
+
+## How to create an online course in India: the 8 steps
+
+Choose an outcome, outline modules and lessons, pick your formats, set up a budget recording kit, script and record, edit and caption, upload and organise in your academy, then pilot with a small batch. Every section below expands one of these steps.
+
+
+- Choose the topic and outcomePick a topic you already teach and write one sentence naming the student, the result and the time the course takes.
+
+- Outline modules and lessonsSplit the syllabus into 4–8 modules and each module into 5–15 minute lessons that teach one idea each.
+
+- Pick your formatsPlan video lessons to teach, a PDF of notes and a test for every module, and a weekly live class for doubts.
+
+- Set up a budget recording kitUse your phone, a lapel mic, a tripod and soft light facing you, plus a free screen recorder for slides and problems.
+
+- Script and recordWrite a bullet outline per lesson (hook, idea, examples, practice, recap) and record one module at a time.
+
+- Edit and captionTrim mistakes and pauses with a free editor, export MP4, and review YouTube automatic captions in Hindi or English.
+
+- Upload and organise in your academyUpload videos to YouTube as unlisted, add them to the course in order with PDFs and tests, and mark lesson 1 as a free demo.
+
+- Pilot with 5–10 studentsOpen module 1 to a small batch, collect where they get stuck, fix the top three issues and then launch to everyone.
+
+
+Most first courses take longer than planned for one reason: the educator records first and plans later. Two weeks of recording later, the lessons are 70 minutes long, out of order, and there is no test anywhere. Planning on paper for one evening saves weeks of re-recording.
+
+When educators build a first course with us, the ones who launch fastest are rarely the ones with the best camera. They are the ones who wrote the module list first, recorded one module at a time, and opened the course to a few students before it felt finished.
+
+
+
+
+
+
+## How do you choose the topic and outcome for your first online course?
+
+Choose a topic you have already taught to real students, and write the outcome as one sentence a student would say after finishing the course. The outcome decides what goes in and, more importantly, what stays out.
+
+
+
+### Start from what you already teach
+
+Your first course should be the one you could teach tomorrow without preparing: the chapter you have explained a hundred times, the batch you run every year, the skill students already ask you about. You know where students get stuck, which examples work and which questions come up. That experience is what a student is paying for.
+
+
+
+### Write the outcome, not the topic
+
+"Biology" is a subject. "NEET biology" is a topic. "Finish the Class 11 human physiology syllabus with chapter tests, in Hindi, in six weeks" is an outcome. Write yours as one sentence that names the student, the result and the time:
+
+
+- Exam: "SSC CGL aspirants can solve arithmetic questions in under a minute each, in 30 days."
+
+- Exam: "NEET droppers revise the full plant physiology unit with 300 practice questions."
+
+- Skill: "Freshers can answer the ten most common interview questions in clear English."
+
+- Skill: "Beginners can follow a 20-minute morning yoga routine safely at home."
+
+- Skill: "Students can sing five basic ragas with correct sargam."
+
+
+A sharp outcome makes every later choice easier. If a lesson does not move the student toward it, it goes in a later course. It also gives you the course title and the first line of its description, and it helps you price the online course against what students already pay for that result.
+
+
+Question educators ask
+
+
+
+### Should my first course be big or small?
+
+Small. A focused course of 20 to 40 short lessons that you can finish recording in two to four weeks beats a 200-lesson "complete" course that never launches. You can add a second course, a test series or a live batch once the first one sells.
+
+
+
+
+
+
+
+## What is a good course structure for an online course?
+
+A good online course structure is a course split into 4–8 modules, each module made of short video lessons of 5–15 minutes with one idea each, followed by a PDF of notes and a module test. Students should always know where they are and what comes next.
+
+
+
+One course, four modules, short lessons. Example structure, illustrative.
+
+
+
+### Modules follow the syllabus
+
+For an exam course, your modules are usually the units of the official syllabus in the order you teach them: number system, percentage, ratio, algebra for SSC maths; cell biology, plant physiology, human physiology for NEET biology. For a skill course, modules follow the order a learner can handle: breathing and posture before asanas, sounds before sentences in spoken English, sargam before ragas.
+
+
+
+### Lessons of 5–15 minutes
+
+A recorded lesson is not a classroom period. In a 60-minute class you repeat, take questions and wait for the slowest student; on video, a student can pause and replay. Cut each topic into lessons of one idea each. Most land between 5 and 15 minutes. Short lessons are easier to watch on a phone during a commute, easier to find when revising, and much easier to re-record when something changes.
+
+
+
+### Write the outline before you record
+
+Put the outline in a simple sheet: module, lesson number, lesson title, the one idea it teaches, its length target, the PDF that goes with it, and the test questions it feeds. If you want help drafting the first version from your syllabus, our guide to using ChatGPT for course curriculum design shows how, but always edit the draft with your own teaching order.
+
+
+
+CourseModulesLessons (illustrative)Per module
+
+NEET biology, Hindi medium6 units45–60 lessons of 10–15 minNotes PDF, diagram sheet, 30-question test
+SSC CGL maths8 topics50–70 lessons of 6–12 minFormula PDF, practice set, timed test
+Spoken English for interviews5 stages25–35 lessons of 5–10 minPhrase sheet PDF, speaking task, quiz
+Morning yoga for beginners4 weeks20–28 lessons of 8–20 minRoutine PDF, safety notes, check-in quiz
+Hindustani vocal basics5 levels25–40 lessons of 5–12 minSargam PDF, practice audio, recording task
+
+Example course structures. Numbers are illustrative; shape yours around your own syllabus.
+
+
+
+
+
+
+
+## Videos, PDFs, tests and live classes: which formats does your course need?
+
+Most Indian online courses work best with four formats together: video lessons to teach, PDF notes to revise, tests to check what stuck, and live classes to answer doubts. Video alone is a playlist; the other three turn it into a course.
+
+
+
+Each format has one job. Logos belong to their owners.
+
+
+
+### Video lessons
+
+Videos carry the teaching. Many Indian educators host lesson videos on YouTube and keep them unlisted. YouTube's help centre says unlisted videos "can be seen and shared by anyone with the link" and won't show up in YouTube's search results unless someone adds them to a public playlist; they also do not appear on your channel's Videos tab.1 That makes them a practical way to host paid lessons, with one caution: anyone who has the link can share it, so treat unlisted as private-ish, not secret.
+
+
+
+### PDF notes
+
+Students revise from notes, not from replaying a video. Give each module a PDF: chapter notes, labelled diagrams, a formula sheet, previous-year questions or, for skills, a routine or phrase sheet. Make them readable on a 6-inch phone screen: large text, one column, and headings that match the lesson titles.
+
+
+
+### Tests and quizzes
+
+Tests tell the student, and you, whether the lessons worked. Use a short quiz after each module and, for exam courses, full-length timed mock tests at the end. Our guide to creating interactive mock tests online covers question types, timing and solutions in detail.
+
+
+
+### Live classes
+
+A weekly live doubt class makes a recorded course feel taught, not just sold. It is also where you hear the questions that become your next lessons. If you teach from a phone, see how to conduct live classes on mobile for the setup.
+
+On AllCoaching, a course holds all four in one place: videos added through YouTube, PDF notes and test series in the studio's Content section, and live classes through YouTube Live, Zoom or the built-in live room. Videos via YouTube and live classes are unlimited on every plan, so the format mix is a teaching decision, not a cost decision.
+
+
+
+
+
+
+## What is a good online course recording setup in India on a budget?
+
+A good budget recording setup is the smartphone you already own, a lapel (clip-on) mic, a tripod or phone stand, soft light facing you, and a free screen recorder for slides or problem-solving. Students forgive an average picture; they do not forgive audio they cannot hear.
+
+
+
+Start with the mic. Price ranges are illustrative (India, October 2026) and vary by model and seller.
+
+
+
+### Sound first: the lapel mic
+
+A phone's built-in mic picks up the fan, the traffic and the echo of a bare room. A wired or wireless lapel mic clipped 15–20 cm below your chin fixes most of that. Illustratively, these cost ₹500–₹2,000 in India. Record in the quietest room you have; curtains, a bed and a bookshelf absorb echo better than any foam panel.
+
+
+
+### A steady frame at eye level
+
+Mount the phone on a tripod or stand (illustratively ₹400–₹1,500) at eye level, about an arm and a half away. Record horizontally. YouTube's recommended upload settings note that "the standard aspect ratio for YouTube on a computer is 16:9" and list MP4 as the recommended container,3 which is what a phone in landscape mode already records.
+
+
+
+### Light facing you
+
+Sit facing a window during the day, or use a ring light or soft lamp (illustratively ₹800–₹2,500) behind the phone. Avoid a window behind you; it turns your face into a silhouette.
+
+
+
+### Screen recording and a writing surface
+
+Maths, physics and accounts students need to see you solve. Two cheap ways: record your screen while you write on slides or a digital whiteboard, or mount the phone over a notebook and write with a thick pen. OBS Studio describes itself as "free and open source software for video recording and live streaming"4 and works on Windows, Mac and Linux. A pen tablet (illustratively ₹3,000–₹15,000 depending on size) is a later upgrade, not a requirement. For a wider tool list, see our guide to the best free tools for teachers to record lectures.
+
+
+
+
+#### Do
+
+Buy a mic first. Record a 30-second test and listen on cheap earphones. Turn on airplane mode while recording. Keep the same spot, light and framing for the whole course so lessons look consistent.
+
+
+
+#### Avoid
+
+Buying a camera before you have recorded a single lesson. Recording next to a ceiling fan or an open window. Switching between portrait and landscape across lessons. Using the phone's front camera when the rear one is much sharper.
+
+
+
+
+
+
+
+## How do you script and teach on camera?
+
+Script each lesson as a bullet outline, not a word-for-word text: a hook, the one idea, two examples, a practice question and a recap. Then teach to one imagined student, the way you would at your desk.
+
+
+
+One idea per lesson. Timings are illustrative.
+
+
+
+### The five-part lesson
+
+
+- Hook (under a minute): show an exam question or real situation the student cannot handle yet.
+
+- Teach: the one idea, step by step, with the board or slide on screen.
+
+- Examples: two solved examples, an easy one then an exam-level one.
+
+- Practice: "pause the video and try this one", then show the answer.
+
+- Recap: three lines, and what the next lesson covers.
+
+
+
+
+### Talking to a lens
+
+Most educators find the first ten recordings awkward and the next ten normal. A few things help: stick a small note with the student's name you are teaching to next to the lens; keep your bullet outline just below the camera; record each lesson in one or two takes and accept small slips; and stand or sit the way you do in class, not stiffly. Students choose a teacher for clarity and warmth, not for a newsreader's polish.
+
+
+
+### Batch your recording
+
+Record a whole module in one or two sittings: same clothes, same light, same framing. It is faster, and the module looks like one piece. Label files as you go (M2-L04-percentage-shortcuts.mp4) so editing and uploading stay in order.
+
+
+"The educators whose first courses sell are not the best performers on camera. They are the ones whose lessons are short, in order and clearly explained."
+
+Amit Ratan, Founder & CEO, AllCoaching
+
+
+
+
+
+
+## How should you edit course videos with free tools?
+
+Edit lightly: trim the start and end, cut long pauses and mistakes, raise the volume if needed, and add a title card. Course students want clarity, not transitions and music.
+
+Free editors are enough for this. Shotcut, for example, describes itself as "a free, open source, cross-platform video editor".5 On a phone, the built-in gallery trimmer handles start and end cuts. If you made a mistake while recording, pause for two seconds, then repeat the sentence; the pause makes the cut easy to find later.
+
+
+- Keep: trims, cuts of long silences, a simple title card with module and lesson number, on-screen text for formulas or key words.
+
+- Skip: background music under speech, fancy transitions, zoom effects on every sentence, intros longer than five seconds.
+
+- Export: MP4 in landscape at the resolution you recorded. YouTube lists MP4 as its recommended container.3
+
+
+A useful rule: if a lesson needs more than 15 minutes of editing, re-record it instead. Over-editing is the most common reason a first course takes months instead of weeks.
+
+
+
+
+
+
+## Should you create an online course in Hindi or a regional language?
+
+Teach in the language your students think in and search in. For many Indian exam and skill students that is Hindi, Hinglish or a regional language, not English, and a course in their medium often feels made for them.
+
+
+
+Choose the medium, then caption it. Logos belong to their owners.
+
+
+
+### Pick one medium per course
+
+Decide the medium before you record, and say it in the course title: "NEET Biology in Hindi", "SSC Maths in Hinglish", "MPSC Polity in Marathi". Mixing languages lesson by lesson confuses students. If you plan to serve two mediums, record two courses; the outline and PDFs can be shared and translated.
+
+
+
+### Technical terms
+
+Exam students in Hindi medium still meet English terms in many papers and textbooks. A common approach is to teach in Hindi while writing key terms in both scripts on the board ("कोशिका / cell") and keeping a bilingual glossary in the module PDF.
+
+
+
+### Captions
+
+Captions help students in noisy hostels, students with hearing loss and students revising quickly. YouTube creates automatic captions using speech recognition, and Hindi is among its supported languages. Its help page is clear about the limits:2
+
+
+"Always review automatic captions and edit any parts that haven't been properly transcribed."
+
+YouTube Help, "Use automatic captioning"
+
+In practice, review the names, formulas and subject terms first; those are what automatic captions get wrong most. Captions are a YouTube feature, so check how they appear in your academy's player during your pilot.
+
+
+
+
+
+
+## Why does every online course need a free demo lesson?
+
+A free demo lesson lets students judge your teaching before they pay, and it is usually the single most persuasive thing on your course page. Make lesson 1 free and make it genuinely useful.
+
+
+
+An example path for a spoken English course. Illustrative. Logos belong to their owners.
+
+
+- Teach one thing fully. A demo that only lists what the course covers sells nothing. A demo that solves a real problem sells the next lesson.
+
+- Keep it 10–15 minutes, recorded with the same kit and style as the rest of the course, so the student knows exactly what they are buying.
+
+- End with the path: what the full course covers, how long it takes, and where to enrol.
+
+
+Your public YouTube videos do the same job one step earlier. A useful free lesson on your channel brings a student to your academy; the demo lesson there turns that interest into a decision. When you are ready to promote the course, our guide on how to sell courses online in India picks up from here.
+
+
+
+
+
+
+## How do you upload and organise your course in your academy?
+
+Create the course, add lessons in syllabus order module by module, attach each module's PDF and test, mark lesson 1 as free, write the description from your outcome sentence, and keep the course in draft until the pilot is done.
+
+
+
+Five steps per lesson, batched by module. Studio preview · sample data. Logos belong to their owners.
+
+
+
+### Name things the way students search
+
+Use titles students would type: "SSC CGL Maths in Hindi: Arithmetic Complete Course", not "Batch 7 Recorded". Number lessons consistently (Module 2 · Lesson 4 · Percentage shortcuts) so the list reads like a syllabus.
+
+
+
+### Write the description from the outcome
+
+The first line is your outcome sentence. Then list what is inside: number of modules, lessons, PDFs and tests, the live class schedule, the language, and who it is for and not for. That is the information students compare.
+
+
+
+### On AllCoaching
+
+In the AllCoaching studio, the Content section holds your videos, PDFs and test series, and a course bundles them in the order you choose. Videos come in through YouTube, so you upload once to YouTube and add the lesson to the course. Students buy through UPI or card checkout, access opens automatically, and payouts reach your bank through Razorpay. The course lives on your own academy website and your own Android app on every plan, with the iOS app on Pro and Scale. If you have not decided where your academy will live yet, our explainer on what an online academy is covers the options.
+
+
+Build your own academy. Try it free for 14 days.
+
+Website on your own domain, your own Android app (iOS app on Pro and Scale), unlimited live classes and UPI checkout on every plan. Plans from ₹6,999 a year after the trial (excl. GST).
+
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Your data stays exportable
+
+
+
+
+
+
+## How do you test an online course with 5–10 students before launch?
+
+Give the course free or at a discount to 5–10 students from your current batch or audience, ask them to finish module 1 within a week on their own phones, and fix the top three problems they report before you open it to everyone.
+
+
+
+A small pilot batch finds problems before paying students do.
+
+
+
+### Who to pick
+
+Choose a mix: two strong students, two average ones, one or two who struggle, and at least one who uses a basic Android phone on mobile data. If you teach a skill, include someone who has never tried it. Their confusion is your most useful data.
+
+
+
+### What to ask
+
+
+- Where did you stop watching, and why?
+
+- Which lesson needed a second watch?
+
+- Was the audio clear on your earphones?
+
+- Was any test question unclear or wrong?
+
+- What did you search for that was not in the course?
+
+
+Collect the answers in one sheet and count. If three students ask the same question, it becomes a new lesson or a line in the PDF. If two students stopped at the same lesson, that lesson is too long or out of order.
+
+Pilot students also give you your first honest feedback to quote on the course page, with their permission and in their own words. Never add results or ranks you cannot prove.
+
+
+
+
+
+
+## How often should you update an online course?
+
+Review the course after every batch and before every exam cycle: re-record lessons that confuse students, update PDFs and tests when the syllabus or pattern changes, and add lessons for questions that keep coming up in live classes. Short lessons make this cheap; you replace one 10-minute video, not a 90-minute lecture.
+
+
+- After each batch: read the doubt-class questions and test results; fix the weakest three lessons.
+
+- When an exam notification changes the pattern: update the outline, tests and the course description first, then the affected lessons.
+
+- Every year: refresh the demo lesson and the course title year so students know it is current.
+
+
+Keep a simple change log at the top of the course description ("Updated October 2026: new mock tests for the revised pattern"). Students trust a course that visibly stays current, and you avoid the trap of a second "2027 edition" that splits your students across two versions.
+
+
+
+
+
+
+## Common mistakes when you create your first online course
+
+The most common first-course mistakes are recording full-length classroom lectures, buying equipment before recording anything, reading a script, over-editing, shipping videos without notes or tests, and launching without a pilot. Each has a simple fix.
+
+
+
+Six mistakes we see most often, and the fix for each.
+
+One more that is easy to miss: keeping everything in WhatsApp groups and Drive links. It works for one batch, then breaks when you have three batches, two price points and students asking who has access to what. Putting the course in one place, with its own checkout, is what lets it run while you teach the next batch.
+
+
+
+
+
+
+## Glossary
+
+
+Course outcome
+One sentence describing what a student will be able to do after finishing the course, and in how long.
+Module
+A group of related lessons inside a course, usually one unit or chapter of the syllabus, ending with notes and a test.
+Micro-lesson
+A short video lesson of about 5–15 minutes that teaches one idea.
+Lapel mic
+A small clip-on microphone worn on the shirt, close to the mouth, that records clearer voice than a phone's built-in mic.
+Screen recording
+A video capture of your computer or tablet screen, used to teach with slides, a digital whiteboard or software.
+Unlisted video
+A YouTube video that anyone with the link can watch but that does not appear in YouTube search or on your channel's Videos tab.
+Automatic captions
+Subtitles that YouTube generates from a video's speech using speech recognition, which the educator should review and correct.
+Demo lesson
+One complete lesson offered free so students can judge your teaching before they buy the course.
+Pilot batch
+A small group of 5–10 students who take a new course before launch so the educator can find and fix problems.
+
+
+
+
+
+
+## Frequently asked questions
+
+How do I create an online course in India?Choose one outcome for one group of students, split the syllabus into modules of 5–15 minute lessons, record them on a phone with a lapel mic, add PDF notes and a test to each module, offer a free demo lesson, upload everything to your academy and pilot it with 5–10 students before launch.
+
+How do I make an online course on my phone?Mount the phone on a tripod in landscape at eye level, clip a lapel mic below your chin, sit facing soft light, and record one short lesson at a time. Trim the start and end in a free editor or the phone's gallery, export MP4 and upload it.
+
+Can I create an online course in Hindi?Yes. Choose Hindi as the medium for the whole course, say so in the title, write key technical terms in both scripts, and use YouTube automatic captions, which support Hindi, after reviewing them for errors in names and subject terms.
+
+What equipment do I need to record an online course in India?A smartphone you already own, a lapel mic, a tripod or phone stand, and soft light facing you. Illustratively a lapel mic costs ₹500–₹2,000 and a stand ₹400–₹1,500 in India. A free screen recorder such as OBS Studio covers slides and problem-solving.
+
+How long should online course videos be?Most lessons work best at 5–15 minutes with one idea each. Short lessons are easier to watch on a phone, easier to find when revising and easier to re-record when the syllabus changes.
+
+What is a good structure for an online course?Four to eight modules that follow the syllabus or a learning order, each made of short video lessons, one PDF of notes and a module test, with full mock tests or a final project at the end and lesson 1 free as a demo.
+
+Where should I host my course videos?Many Indian educators upload lessons to YouTube as unlisted videos, which only people with the link can watch, and add them to a paid course in their academy. On AllCoaching, videos via YouTube are unlimited on every plan.
+
+Should I test my course before launching it?Yes. Give it to 5–10 students free or at a discount, ask them to finish module 1 in a week on their own phones, and fix the top three problems they report before you open it to everyone.
+
+How much does it cost to create and sell an online course in India?Recording can start with a phone you own plus a mic. To sell it from your own academy on AllCoaching, there is a 14-day free trial with no card, then plans of ₹6,999, ₹12,999 or ₹24,999 a year with a 10%, 7.5% or 5% platform fee, or ₹99,999 a year with 0%, all excluding GST.
+
+
+
+
+
+
+## Sources
+
+
+- YouTube Help, "Change video privacy settings" (unlisted videos), support.google.com, checked October 2026.
+
+- YouTube Help, "Use automatic captioning" (supported languages and review), support.google.com, checked October 2026.
+
+- YouTube Help, "YouTube recommended upload encoding settings", support.google.com, checked October 2026.
+
+- OBS Studio, official website, obsproject.com, checked October 2026.
+
+- Shotcut, official website, shotcut.org, checked October 2026.
+
+- AllCoaching pricing, allcoaching.in/pricing, October 2026.
+
+
+
+
+
+
+
+Amit Ratan
+Founder & CEO, AllCoaching
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. This guide comes from watching educators build their first courses with us; outside facts are linked to their official sources, and device prices and example structures are marked as illustrative.
+
+---
+
 # Meta Ads for Coaching Institutes in India (2026 Guide)
 
 **Source:** https://allcoaching.in/blog/meta-ads-for-coaching-institutes  
@@ -22281,361 +22864,502 @@ Also see Live demo · Pricing · FAQ Hub · Founder profile
 
 ---
 
-# How to Price Your Online Course in India (2026)
+# Online Course Pricing in India: How to Price + Calculator
 
 **Source:** https://allcoaching.in/blog/how-to-price-online-courses-india  
-**Published:** 2026-06-28  
-**Updated:** 2026-06-28  
+**Published:** 2026-06-28T09:00:00+05:30  
+**Updated:** 2026-10-25T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** How to price your online course in India (2026): price is positioning, not a number — why underpricing costs most, plus value-based pricing, tiers and anchoring.
+**Summary:** Online course pricing in India: 7 pricing models, a worked take-home calculator after platform fees, gateway charges and GST, a worksheet, and when to raise prices.
 
-In this article
+Amit RatanUpdated 25 Oct 2026 · 18 min read
 
 
-- The reframe: price is positioning.
+On this page
 
-- Underpricing — the costliest mistake.
 
-- Cost-plus vs value-based pricing.
+Start your online academy today. 14 days free.
 
-- What actually sets the price.
+Start free trial
 
-- Anchoring and good-better-best tiers.
 
-- India-specific pricing psychology.
+To price an online course in India, start from the value of the outcome to your student, check it against what similar options cost, then work out what you keep after platform fees, gateway charges, GST and yearly costs. If the take-home does not justify your hours, change the offer or the price before you publish, not after.
 
-- The pricing method, step by step.
+Most educators do the opposite. You teach SSC maths in Hindi on YouTube, a student asks for a paid course, and you pick ₹499 because it feels safe. A year later you have more students than you can support and less money than you expected.
 
-- How and when to raise prices.
-
-- The verdict.
-
-- Glossary — key terms.
-
-- Frequently asked questions.
+This guide gives you the method, seven pricing models, a worked revenue calculator with a fill-in worksheet, and the signals that tell you when to raise your price. Every rupee figure in it is illustrative; your outcome, audience and alternatives decide the real number.
 
 
 
 
 
 
-Key Takeaways — the entire guide in 6 facts:
+## Key takeaways
 
-- Price is positioning, not a number — it is the first signal a student reads about your course's value.
 
-- Underpricing is the #1 mistake — it cuts income per student and signals low quality, often attracting fewer serious students.
+- Price on the outcome, not your hours. Cost-plus pricing undercharges because a course's value to a student is usually far greater than its production cost.
 
-- Price on value, not cost — a course's outcome is worth far more than its production cost; cost-plus underprices systematically.
+- Take-home = price × students − platform fee − gateway charges − GST owed − yearly costs. Run it before you publish a price; the worked table shows 3 prices × 3 batch sizes.
 
-- Tiers and anchoring capture more — good-better-best lets students self-select and lifts average revenue.
+- Seven pricing models cover most academies: one-time course fee, batch fee, monthly membership, test series, bundle, instalments and free demo + paid course. Most combine two or three.
 
-- In India, price signals quality — and installments widen who can afford a fair, value-based price.
+- Tiers and anchoring lift income: a premium tier makes the middle tier the obvious choice, without losing price-sensitive students.
 
-- On AllCoaching you set your own price and keep 90–100% — full pricing control, a 10%-to-5% platform fee on sales, Rs 6,999/year (Starter plan).
+- Raise prices per batch when seats fill early and proof is visible, and keep current students at their price.
 
-Where we are · 2026
+- Keep discounts honest. India's 2023 dark-pattern guidelines list false urgency and drip pricing among 13 specified practices, so use real deadlines and show the full price upfront.
 
-AllCoaching is an LMS you build yourself — drag and drop your courses, tests, notes and live classes, then make it your brand with your own domain, logo and Android app (iOS app on Pro and Scale). 500+ educators across India already sell through it. Every plan starts with a 14-day free trial, and the price is on the page before you sign up.
 
-Start your 14-day free trial
-No card needed · Plans from ₹6,999/year · Keep 90–100%
 
-The reframe
 
-## Price is
-positioning.
 
-You price an online course in India well by answering a better question than the one most educators ask: not "how much should I charge?" but "what value am I charging for, and how do I want my course to be positioned?" The first question treats price as a number to be guessed, usually nervously and usually too low. The second treats price as what it actually is — a signal that tells a student, before they have watched a single lesson, what your course is worth and where it sits in the market. A price is not a neutral label on a finished product; it is the first and loudest claim you make about your value, and students read it as exactly that.
 
-This reframe matters because it changes price from a source of anxiety into a tool of strategy. An educator who sees price as just a number agonises over a figure, defaults to cheap to feel safe, and accidentally tells the market their course is low-value. An educator who sees price as positioning chooses a number that matches the value they deliver and the place they want to occupy — and lets the price do the work of attracting the right students. The same course can be a forgettable bargain or a serious investment depending only on how it is priced and positioned. Pricing, done right, is one of the highest-leverage decisions an educator makes, and one of the most neglected.
 
-One honest note before the method: every rupee figure in this guide is an illustrative example, not a prescription. The right price for your course depends on your outcome, your audience and your alternatives, and no article can hand you a correct number. What this guide gives you is the way to find it. Pricing is also one of the three levers that decide income in how much you can earn teaching online in India — and the one educators most consistently under-use.
+## How should you price an online course in India?
 
-The big mistake
+Price an online course on the value of the outcome it gives a student, then check that price against what similar options cost and what you actually keep after fees. Cost-plus pricing (your hours plus a margin) almost always undercharges, because a course's value to a student is usually far greater than what it cost you to record.
 
-## Underpricing — the
-costliest mistake.
+Price is also the first thing a student reads about your course. A suspiciously low price on NEET or UPSC preparation can make a family doubt it; a fair, confident price backed by proof reassures them.
 
-The single most expensive pricing habit among Indian educators is underpricing, and it is nearly universal. Out of underconfidence, or a belief that cheaper means more students, most educators set their price well below what their outcome justifies — and it costs them twice over. First, the obvious loss: they earn far less per student than they could, leaving money on the table on every single sale. Second, and more insidious: a low price actively signals low quality, so it often attracts fewer and less committed students rather than more, and repels the serious ones who read a higher price as a mark of seriousness.
+There are three common ways to set a price, and only one of them starts from the student:
 
-That second cost is the one educators never see, because it is invisible — the serious student who quietly decided a course this cheap could not be much good, and went elsewhere, never appears in the data. Underpricing does not just reduce your margin; it changes who walks through the door, usually for the worse. Bargain-hunters drawn by a low price are also the most likely to not value the course, not finish it, and ask for refunds, while the committed students you actually want are subtly told this is not for them. The instinct that cheap will fill the room is, for most serious educational outcomes, simply wrong. The deeper your outcome matters to a student, the more a confident price helps rather than hurts.
-
-Underpricing feels safe and is the opposite. It earns you less from every student, and quietly tells the best students your course is not worth their time. The cheapest price is rarely the most profitable one.
-
-The principle
-
-## Cost-plus vs
-value-based pricing.
-
-The root of underpricing is pricing on the wrong basis — cost instead of value — so fixing it starts with understanding the difference. Cost-plus pricing sets a price by adding a margin to what the course cost you to make: your time, your tools, your effort. It feels fair and rational, and for courses it is almost always wrong, because it anchors the price to your production cost rather than to the student's outcome — and a course's value to a student can be many, many times its cost to produce. A recorded course costs you the same to deliver to one student or a thousand, but its worth to each student is the rank, the skill or the career it helps unlock.
-
-Value-based pricing sets the price on that worth instead: what is the outcome of this course worth to the student, and what is a fair share of that value to charge? This is the approach every confident educator uses, because it reflects what the student is actually buying. A student preparing for a high-stakes exam is not buying twenty hours of video; they are buying a better shot at a result that can shape their life, and that result is worth far more than the video cost to record. Cost-plus asks "what did this cost me?"; value-based asks "what is this worth to them?" — and for education, the second question almost always supports a higher, fairer price. The full income logic this feeds into is in selling online courses without a monthly subscription.
 
 ApproachBased onTypical resultFor courses
-Cost-plusYour production costLow, underconfident priceSystematically underprices
-Competitor-basedWhat others chargeRace toward the cheapestIgnores your real value
-Value-basedOutcome value to studentFair, confident priceCaptures true worth
 
-The inputs
+Cost-plusYour time and production costA low, nervous priceUndercharges almost every time
+Competitor-basedWhat others chargeA race towards the lowest numberIgnores your own results and format
+Value-basedThe outcome's worth to the studentA fair, confident priceThe method this guide uses
 
-## What actually
-sets the price.
+Use competitor prices as a reference point, not as your starting point.
 
-If value sets the price, then a handful of concrete factors determine that value, and reading them honestly is how you arrive at a number. Five things matter most. The outcome's value — how much the result is worth to the student — is the biggest: a course that improves a life-shaping exam result supports a far higher price than one teaching a casual hobby. The audience and their willingness to pay come next: the same outcome is valued differently by a desperate aspirant's family and a curious dabbler, so who you serve shapes what you can charge.
 
-The format matters too — a live, interactive, accountable programme commands more than a self-paced recording of the same content, because it delivers more. Your brand and proof shift the price strongly: an educator with visible results and a trusted name can charge well above an unknown one for the same syllabus, which is why building a brand is, in part, a pricing strategy. And the alternatives set the frame: students judge your price against what they would otherwise pay for the outcome — coaching, other courses, their own time. Your price is not chosen in a vacuum; it is read against the value of the outcome and the cost of every other way to reach it. The brand-and-pricing-power link is developed in building a personal brand as an educator in India.
 
-Question Often Asked
+### Why underpricing costs you twice
 
-### How do I figure out what my students are actually willing to pay?
+The most common pricing mistake we see among Indian educators is charging too little. It costs you twice. You earn less from every sale, and the low number tells serious students that the course may not be serious either.
 
-You learn willingness to pay by looking at the stakes and the alternatives, not by guessing from your own budget — which is the trap, because educators often price as if their students were as cost-sensitive as they themselves feel. Ask what the outcome is worth to the student and what they would otherwise spend to get it: a family already spending lakhs on a child's exam preparation values a course that genuinely helps very differently from a casual learner. Look at what comparable coaching and courses charge for the same result, talk to a few real students about what they would pay and why, and watch how your first cohorts respond. The signal you are pricing right is not zero resistance — a little hesitation is healthy — but steady, committed buyers who value what they got.
+The price should match the outcome you deliver and the proof you can show today, then rise as that proof grows. Pricing is one of the three levers that decide your income, along with students and retention; our guide on how much you can earn teaching online in India covers the other two.
 
-The structure
 
-## Anchoring and
-good-better-best.
+Question educators ask
 
-A single take-it-or-leave-it price leaves value uncaptured; tiers and anchoring fix that by letting different students buy at different levels. The core idea is good-better-best: offer two or three versions of your offering at rising prices, so a budget-conscious student can still buy the basic tier while others choose more. This raises your average revenue per student without losing the price-sensitive ones, and it serves genuinely different needs — the student who wants only recordings, the one who wants recordings plus live doubt-solving, the one who wants the full mentored programme — with one structured offer instead of a single compromise.
 
-Anchoring is what makes the structure work psychologically. When a student sees a high-priced top tier, the middle tier suddenly looks reasonable by comparison, and most students gravitate to it — which is exactly where you want them. The top tier does not have to sell often; its job is partly to make the middle the obvious choice and to capture the few who want the best. A lone price has nothing to be compared against; a tiered price guides the student toward the option you most want to sell. Designed well, three tiers turn pricing from a single nervous bet into a structure that captures more value across every kind of student — and it costs nothing to offer them on a platform that lets you set your own packaging.
 
-1Good
+### How do I find out what my students are willing to pay?
 
-### The accessible tier
+Look at the stakes and the alternatives, not your own budget. Ask what the outcome is worth to the student and what they would otherwise spend to get it, such as offline coaching, another course or a year of self-study. Talk to five or six real students and test a price with one batch. A little hesitation is healthy.
 
-Core content at a fair entry price — recordings, notes, the essential course. Lets budget-conscious students still say yes.
 
-2Better (the target)
 
-### The tier you want to sell
 
-Core plus live doubt-solving, test series, or accountability. Anchored by the top tier, this is where most students land.
 
-3Best
 
-### The premium anchor
 
-Everything plus mentorship or a small-group programme. Captures the few who want the most — and makes the middle look reasonable.
+## Online course fee calculator: work out your take-home
 
-The local reality
+Your take-home from a course is the price times the number of students, minus the platform fee, any gateway charges you pay separately, GST if you are registered, and your fixed yearly costs. Work this out before you announce a price, because the number on the course page is not the number that reaches your bank.
 
-## India-specific
-pricing psychology.
+Here is the formula in one line:
 
-Pricing in India carries some specific psychology an educator must work with rather than against. The most important is that price is widely read as a signal of quality, especially for something as consequential as education, where a student or parent cannot judge the course before buying. A suspiciously low price on exam preparation can make a serious family doubt it — "if it were any good, why is it this cheap?" — while a fair, confident price reassures them they are buying something that will be taken seriously. This is the opposite of the educator's instinct that low price wins; for high-stakes outcomes, an under-low price can actively cost trust.
 
-At the same time, India is genuinely price-sensitive, and a large upfront fee is a real barrier for many families — but the answer to that is not a permanently low price; it is installments. Letting students pay a fair, value-based price in parts widens who can afford the course without forcing you to underprice it, capturing the full value while easing the cash-flow burden on the student. This is the resolution of the apparent paradox: hold a confident, value-based price that signals quality, and make it accessible through payment in parts rather than by cutting the number. Price for the value and the signal; solve affordability with installments, not discounts. Used together, these let an educator serve a price-sensitive market without joining the race to the bottom.
+The take-home formula
 
-The method
+Take-home (before income tax) = Price × Students − Platform fee − Gateway charges − GST owed − Yearly costs
 
-## The pricing method,
-step by step.
 
-Here is the value-based pricing method as a clear sequence. Work through it for any course rather than guessing a number:
 
-1Step 01
 
-### Define the outcome you sell
+The take-home formula. Each line is explained below.
 
-State precisely the result your course delivers, not the hours of content. The value of that outcome, not your effort, is the basis of the price.
 
-2Step 02
 
-### Understand willingness to pay
+### What each line means
 
-Learn what your specific students can and will pay for that outcome, based on the stakes and what they would otherwise spend — not on your own budget.
 
-3Step 03
+- Price × students is your gross sales.
 
-### Study the alternatives
+- Platform fee is the percentage your course platform keeps from each sale. On AllCoaching it is 10% on Starter, 7.5% on Growth, 5% on Pro and 0% on Scale.
 
-Look at what students would otherwise pay for the same outcome — coaching, other courses, their time. Your price lives in relation to these.
+- Gateway charges are what the payment company takes for processing UPI and cards. Cashfree's pricing page, for example, lists a platform fee of 1.95% on its standard payment modes.[1] Some course platforms include gateway charges in their own fee and some pass them on, so check the terms of yours. In the worked example we show an assumed 2% as a separate line so you do not underestimate.
 
-4Step 04
+- GST owed applies only if you are registered. Registration is generally required once your yearly turnover crosses ₹20 lakh for services, and coaching is taxed at 18%; our guide on GST for coaching institutes explains the rules.
 
-### Set a value-based price, not cost-plus
+- Yearly costs are your plan, tools and ads.
 
-Price on the value of the outcome, taking a fair share of it, rather than your cost plus a margin. This is where most of the upside is.
 
-5Step 05
 
-### Build good-better-best tiers
 
-Offer two or three tiers so students self-select and a high anchor makes the middle reasonable. Make installments available on the higher tiers.
+### One sale, worked through
 
-6Step 06
+Take an illustrative ₹2,999 SSC CGL maths course on the Growth plan. The 7.5% platform fee is ₹224.93 and an assumed 2% gateway charge is ₹59.98, so about ₹2,714 of each sale reaches you before your yearly costs. If you were GST-registered and the ₹2,999 included GST, ₹457.47 of it would be GST and your fee would be ₹2,541.53 before any other deduction. So decide whether your price includes GST before you publish it.
 
-### Test, then raise over time
 
-Start, watch how students respond, and raise the price as your proof and reputation grow. Pricing is not set once; it climbs with your value.
 
-Run this for every offering and you replace a nervous guess with a defensible price — one that reflects the value you deliver and the position you want to hold. The business context for these decisions is in the 2026 online coaching business plan.
+### The worked table: 3 prices × 3 batch sizes
 
-The trajectory
+The table below runs the same formula for three illustrative prices and three batch sizes over a year. We used the Growth plan in every cell to keep the comparison simple.
 
-## How and when to
-raise prices.
+Course price50 students200 students500 students₹999₹29,866
+of ₹49,950 sales₹1,65,480
+of ₹1,99,800 sales₹4,36,709
+of ₹4,99,500 sales₹2,999₹1,20,366
+of ₹1,49,950 sales₹5,27,480
+of ₹5,99,800 sales₹13,41,709
+of ₹14,99,500 sales₹7,999₹3,46,616
+of ₹3,99,950 sales₹14,32,480
+of ₹15,99,800 sales₹36,04,209
+of ₹39,99,500 salesIllustrative take-home before income tax, rounded to the rupee. Assumptions: Growth plan 7.5% platform fee, an assumed 2% gateway charge, no GST registration, minus ₹15,339 for the ₹12,999 plan with 18% GST. ₹7,999 × 500 students crosses ₹20 lakh of sales, where GST registration would generally apply.
 
-Pricing is not a one-time decision but a trajectory, and the educators who earn the most treat their price as something that climbs steadily as their value grows. The trigger to raise is simple: every increase in your proof and reputation justifies a higher price. More student results, more reviews, a stronger brand, a fuller course — each adds value the price should reflect. An educator who sets a price in their first nervous month and never revisits it, even as they become genuinely better-known and better-proven, is leaving more on the table every year. The price that was right for an unknown educator is wrong for a trusted one.
 
-The how matters as much as the when. The cleanest way to raise prices is per cohort or batch — each new intake pays the new, higher rate, while existing students are grandfathered at what they paid, which feels fair and rewards early believers. Genuine deadlines ("price rises after this batch") make the increase clear and even create healthy urgency, as long as they are real and not manufactured. Raising prices is not greed; it is keeping your price aligned with a value that is genuinely rising. Done steadily and honestly, a climbing price is one of the clearest signs of a healthy teaching business — and one of the simplest ways to grow income without a single extra student. As covered in the retention playbook, that rising price must always be backed by a rising value students actually feel, which is why reducing drop-off and delivering outcomes is the foundation a higher price rests on.
+The same worked table as a graphic. Illustrative, before income tax.
 
-The verdict
+Two things stand out: 200 students at ₹999 bring in more than 50 at ₹2,999, and the fixed plan cost matters most at small numbers. Your plan choice also changes with sales: before GST, Starter costs least below about ₹2.4 lakh of yearly sales, Growth between ₹2.4 lakh and ₹4.8 lakh, Pro between ₹4.8 lakh and ₹15 lakh, and Scale's 0% platform fee costs least above ₹15 lakh. The pricing page lists each plan.
 
-## The verdict.
 
-So how do you price your online course in India? Stop asking "how much should I charge?" and start asking "what is the outcome worth, and how do I want to be positioned?" Price is the first signal a student reads about your value, and the most common mistake — underpricing out of underconfidence — costs you both income and the serious students who read a low price as low quality. Price on the value of the outcome, not the cost of your hours; structure it with tiers and an anchor; signal quality with a confident number and solve affordability with installments; and raise it steadily as your proof grows.
 
-From watching educators price their work, the pattern in the ones who get it right is consistent:
+### Your fill-in worksheet
 
-- They price on value, not cost — charging a fair share of the outcome's worth, not their production cost.
+Copy these lines into a notebook or spreadsheet and fill them in for each course before you set its price.
 
-- They refuse to underprice — trusting that a confident price earns more and attracts better students.
 
-- They use tiers and anchoring — letting students self-select and guiding them to the target option.
+Course price worksheet
 
-- They raise prices as they grow — keeping the number aligned with rising proof and reputation.
 
-And they choose a platform that lets them actually do this. On AllCoaching you set your own price, build your own tiers, offer installment-friendly checkout, and raise prices whenever you choose — keeping 90% of every sale, at Rs 6,999/year (Starter plan) with no monthly subscription. Go to studio.allcoaching.in, price your course on what it is truly worth, and let the number tell students exactly how seriously to take you. Price is positioning. Position yourself well.
+- Course name and the outcome it promises: ______
 
-"The number on your course is not an afterthought — it is the first sentence the student reads about your value. Write it with confidence, back it with proof, and never let underconfidence price your work for you."
+- Price you are considering (A): ₹ ______
 
-— Amit Ratan, Founder & CEO, AllCoaching
+- Does the price include GST? Yes / No. If yes and you are registered, A ÷ 1.18 = your fee (B): ₹ ______. If not, B = A.
 
-About the Author
+- Students you can realistically enrol this year (C): ______
+
+- Gross sales, B × C (D): ₹ ______
+
+- Platform fee, D × your plan's % (E): ₹ ______
+
+- Gateway charges, if your platform passes them on, D × % (F): ₹ ______
+
+- Yearly costs, plan with GST plus tools and ads (G): ₹ ______
+
+- Take-home before income tax, D − E − F − G: ₹ ______
+
+- Take-home per hour you will spend teaching and supporting this course: ₹ ______
+
+
+
+If line 10 looks too low, raise the price, add value, or plan for more students. If you are unsure about tax lines, our guide on GST and income tax for online tutors explains the difference, and a chartered accountant can confirm your case.
+
+
+
+
+
+
+## 7 online course pricing models and when each fits
+
+The pricing model decides how and when students pay, and it matters as much as the number. Most Indian academies use a one-time course fee or a batch fee, then add a test series, a bundle or a free demo around it.
+
+
+
+Seven ways to charge. Most academies combine two or three.
+
+
+
+### 1. One-time course fee
+
+The student pays once for access to a recorded course for a set period, such as "valid till the 2027 exam". It suits self-paced courses such as a Class 12 physics revision course or a vastu basics course. State the validity clearly.
+
+
+
+### 2. Batch fee
+
+The student pays for a cohort with fixed start and end dates, live classes and doubt sessions. It is usually higher than a recorded course because it includes your live time, and each new batch is a natural moment to change the price.
+
+
+
+### 3. Monthly membership
+
+The student pays every month and stays as long as it is useful, for example a daily current-affairs class for UPSC aspirants or a yoga practice group. It smooths income, but students can leave any month. Check whether your platform supports recurring payments first.
+
+
+
+### 4. Test series
+
+Mock tests sold alone or as an add-on to a course. Test series work well for SSC, banking, NEET and JEE because students want practice under exam conditions even if they study elsewhere. See the best platforms for selling PDF notes and test series.
+
+
+
+### 5. Bundle
+
+A course, a test series and notes sold together at less than their separate prices. Keep the separate prices visible so the saving is real.
+
+
+
+### 6. Instalments
+
+Instalments split a higher fee into parts, which can make a ₹15,000 programme reachable for more families. Treat this as a pricing idea, not a promise: whether you can collect in parts depends on your platform and payment gateway. Gateways that offer card EMI usually charge more for it; Cashfree lists a 2.2% platform fee on credit card EMI, against 1.95% on its standard modes.[1] A simple alternative is to sell the course as two parts, each with its own price.
+
+
+
+### 7. Free demo + paid course
+
+A free sample, such as a YouTube class, a sample PDF or the first module, leads to the paid course. The demo lets students judge your teaching before they pay, which makes a fair price easier to accept. Our guide on getting paid students for online coaching covers the free-to-paid path.
+
+
+
+
+
+
+## Build a value ladder, from free demo to premium
+
+A value ladder is a set of offers at rising prices, so a student can start small and move up as trust grows.
+
+
+
+A value ladder with illustrative price ranges. Your audience and outcome set the real numbers.
+
+For a state PSC educator teaching in Hindi, the ladder might run from free YouTube classes to a ₹499 test series, a recorded course, a live batch and a small mentoring group. For a spoken-English teacher it might be a free Instagram lesson, a recorded grammar course and a live speaking batch.
+
+Each rung does one job: the free rung earns trust, the entry rung turns a viewer into a paying student, the main rung earns most of your income, and the premium rung serves students who want more of you.
+
+
+
+
+
+
+## Good-better-best tiers and price anchoring
+
+Good-better-best pricing means offering the same course in two or three versions at rising prices, so students choose the level that fits their budget and need. It lifts your average income per student without losing the price-sensitive ones.
+
+
+
+Illustrative tiers for a state PSC course. The top tier makes the middle one look reasonable.
+
+Anchoring is why tiers work. When a student sees a ₹9,999 premium tier, the ₹3,999 standard tier with live doubt classes and a test series looks sensible, and most students choose it. The premium tier does not need to sell often; it sets the reference point.
+
+Keep the differences real and easy to understand: more live time, more feedback, longer access.
+
+
+
+
+
+
+## Course price for online coaching: exam vs skill, Hindi vs English, tier-2
+
+The right course price for online coaching depends on what the outcome is worth to your students and what they can pay, so the same syllabus can carry very different prices for different audiences.
+
+
+
+What tends to move a course price up or down. General guidance, not a rule.
+
+
+
+### Exam courses vs skill courses
+
+Exam courses for NEET, JEE, UPSC, SSC, banking or CUET sell a better shot at a high-stakes result, and families already spend on coaching for them, so they often support higher prices and test-series add-ons. Skill courses such as yoga, music, spoken English or digital marketing sell a personal or career outcome. Career skills can carry exam-like prices; hobby courses usually sit lower.
+
+
+
+### Hindi-medium vs English-medium
+
+Medium changes who you reach, not the value of what you teach. Hindi-medium and regional-language students are often more price-sensitive, but they also have fewer good options in their language, which raises the value of a well-taught course. Keep the course page and support messages in their language.
+
+
+
+### Tier-2 and tier-3 affordability
+
+Students in smaller towns often pay by UPI from a budget phone and compare your fee with local coaching. Three things help more than a permanent price cut: an entry rung at a low price, a split into smaller parts or modules, and a clear list of what is included. UPI also has transaction limits: in December 2023 the RBI proposed raising the limit for payments to educational institutions from ₹1 lakh to ₹5 lakh per transaction,[2] which matters only for very high fees. Our guide on accepting UPI payments for online courses covers checkout.
+
+
+
+
+
+
+## How to price your online course: 8 steps
+
+Here is the full method in order. Work through it for every course or batch instead of guessing a number.
+
+
+- Define the outcome you sellWrite one sentence on the result a student gets, such as a better score in SSC CGL Tier 1 or the confidence to speak English at work, not the hours of video.
+
+- Learn what your students can payTalk to five or six real students or parents about their budget, the stakes and what they would otherwise spend on coaching or other courses.
+
+- List the alternativesNote what offline coaching, other online courses and free content offer for the same outcome, and what your course adds that they do not.
+
+- Choose a pricing modelPick a one-time course fee, batch fee, monthly membership, test series or bundle, and decide whether a free demo will lead into it.
+
+- Calculate your take-homeRun price × students minus platform fee, gateway charges, GST if registered and yearly costs, then check the result per hour you will teach.
+
+- Build two or three tiersOffer a basic, a standard and a premium version with real differences, so the top tier anchors the middle one.
+
+- Publish one clear, all-in priceShow the price, what is included, the validity and whether GST is included on the course page, before checkout.
+
+- Review after every batchCheck enrolments, completion, refund requests and reviews, and raise the price for the next batch when demand and proof have grown.
+
+
+
+Build your own academy. Try it free for 14 days.
+
+Website on your own domain, your own Android app (iOS app on Pro and Scale), unlimited live classes and UPI checkout on every plan. Plans from ₹6,999 a year after the trial (excl. GST).
+
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Your data stays exportable
+
+
+
+
+
+
+## When and how to raise your course price
+
+Raise your price when demand and proof have grown: batches fill before the deadline, results and reviews are visible, almost nobody asks for a discount, and you have added real value. The price that was right in your first nervous month is rarely right a year later.
+
+
+
+Five signals to watch, and a fair way to raise.
+
+The cleanest way is per batch. The next intake pays the new price; current students keep what they paid. Announce a real date early, and keep it. Raise by a step you can explain, such as a new weekly answer-writing review.
+
+Your brand is part of this. An educator with a recognised name and visible results can charge more for the same syllabus, which is why building a personal brand as an educator is also a pricing strategy.
+
+
+
+
+
+
+## Discounts, launch offers and deadlines that stay honest
+
+A discount should have a clear reason and a real end date, such as an early-bird price for the first week of a new batch or a lower price for students who already bought your test series. Permanent discounts train students to wait.
+
+Indian consumer rules now name these tactics. In 2023 the Central Consumer Protection Authority issued guidelines listing 13 specified dark patterns, which it treats as unfair trade practices under the Consumer Protection Act, 2019.[3]
+
+
+"Dark patterns encompass a wide range of manipulative practices such as drip pricing, disguised advertisement, bait and switch, false urgency etc."
+
+Press Information Bureau, Ministry of Consumer Affairs, 8 December 2023
+
+For course pricing, that means three habits. Show the full price, including whether GST is added, before checkout, so nothing appears at the last step. Only say "price rises on 1 December" if it really does. And do not show a struck-through "original" price that nobody ever paid.
+
+
+
+
+#### Do
+
+Early-bird prices with a real end date. Bundle savings students can check. One clear, all-in price.
+
+
+
+#### Avoid
+
+Countdown timers that reset. "Last day" offers every week. Made-up original prices. Fees that appear only at checkout.
+
+
+
+
+
+
+
+
+## Common online course pricing mistakes
+
+The most common course pricing mistake is copying a competitor's price without knowing your own take-home.
+
+
+
+Five pricing habits that cost educators money, and the fix for each.
+
+When we look at academies that struggle to earn despite steady enrolments, the cause is often a price set in the first month and never revisited, with fees and live hours never added up. Decide now whether your price includes GST, and review it after every batch.
+
+
+
+
+
+
+## Pricing your courses on AllCoaching
+
+On AllCoaching you set the price of each course yourself, and students pay by UPI or card on your own academy website or Android app (iOS app on Pro and Scale), with payouts reaching your bank automatically through Razorpay. The path is the same automated one for every educator: sign up, choose a plan, upload your course, connect your domain and start selling.
+
+The plan you choose sets the platform-fee line in the calculator. Starter is ₹6,999 a year with a 10% platform fee, Growth ₹12,999 with 7.5%, and Pro ₹24,999 with 5%. Scale is ₹99,999 a year with a 0% platform fee, which you buy through "Contact us" on the pricing page. All prices exclude GST, and every plan starts with a 14-day free trial with no card needed, so you can build the course page and test your price before you pay. You keep 90–100% of each sale depending on the plan.
+
+We built AllCoaching so the educator, not the platform, decides the price. For the full journey from course to first sale, read how to sell courses online in India and our guide to building a course landing page.
+
+
+
+AllCoaching Studio preview · sample data.
+
+
+
+
+
+
+## Glossary
+
+
+Value-based pricing
+Setting a price from the worth of the outcome to the student, rather than from your production cost or a competitor's number.
+Cost-plus pricing
+Setting a price by adding a margin to what the course cost you to make. For courses it usually undercharges.
+Take-home
+What reaches you from course sales after platform fees, gateway charges, GST owed and yearly costs, before income tax.
+Platform fee
+The percentage a course platform or payment gateway keeps from each sale for its service.
+Price anchoring
+Showing a higher reference price, such as a premium tier, so that another option looks reasonable by comparison.
+Tiered pricing
+Offering the same course in two or three versions at rising prices so students choose by budget and need. Also called good-better-best.
+Value ladder
+A set of offers at rising prices, from a free demo to a premium programme, that lets a student start small and move up.
+Dark pattern
+A design or pricing trick that pushes a buyer into a choice against their interest, such as false urgency or drip pricing.
+
+
+
+
+
+
+## Frequently asked questions
+
+How should I price my online course in India?Price it on the value of the outcome for your student, then check that price against the alternatives they have and against your take-home after platform fees, gateway charges, GST and yearly costs. Raise it per batch as your proof grows.
+
+How much should I charge for an online course in India?There is no single right number; it depends on the outcome, your audience and their alternatives. As an illustration only, recorded courses often sit between a few hundred and a few thousand rupees, with live batches and mentoring higher. Test your number with the take-home calculator.
+
+How do I calculate my take-home from an online course?Take-home before income tax equals price times students, minus the platform fee, any gateway charges you pay separately, GST if you are registered, and your yearly costs such as your plan and ads. For example, 200 students at ₹2,999 on a 7.5% plan with an assumed 2% gateway charge leaves about ₹5.27 lakh after a ₹12,999 plan with GST (illustrative).
+
+Should I price my course low to get more students?Usually not as a permanent strategy. A very low price cuts your income per student and can signal low quality, which may put off serious students. A free demo or a low-priced entry product gets students started without underpricing the main course.
+
+Which pricing model is best for online coaching?Live coaching usually suits a batch fee, recorded courses suit a one-time course fee with a clear validity period, and ongoing classes suit a monthly membership. Exam educators often add a test series or a bundle.
+
+Should I offer instalments or EMI for a costly course?Instalments can make a higher fee reachable for more families, but whether you can collect in parts depends on your platform and payment gateway, and gateways usually charge more for card EMI. Splitting the course into two priced parts is a simple alternative.
+
+Do I need to add GST to my course price?Only if you are GST-registered, which is generally required once yearly turnover crosses ₹20 lakh for services (₹10 lakh in special-category states); coaching is taxed at 18%. Decide whether your listed price includes GST and say so on the course page. Confirm your case with a chartered accountant.
+
+When should I raise my course price?Raise it when batches fill before the deadline, results and reviews are visible, few students ask for discounts and you have added real value. Raise it for the next batch and keep current students at their price.
+
+Can I set my own course price on AllCoaching?Yes. You set the price of each course, and students pay by UPI or card on your own academy website or app. Plans are Starter ₹6,999, Growth ₹12,999 and Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee, or Scale ₹99,999 a year with a 0% platform fee, all excluding GST, after a 14-day free trial with no card needed.
+
+
+
+
+
+
+## Sources
+
+
+- Cashfree Payments, "Payment Gateway Charges". cashfree.com, checked October 2026.
+
+- Reserve Bank of India, "Statement on Developmental and Regulatory Policies", 8 December 2023. rbi.org.in, checked October 2026.
+
+- Press Information Bureau, "Central Consumer Protection Authority issues Guidelines for Prevention and Regulation of Dark Patterns, 2023", 8 December 2023. pib.gov.in, checked October 2026.
+
+
+
+
+
+
 
 Amit Ratan
-
 Founder & CEO, AllCoaching
-
-"The most common thing I tell educators is the same: you are charging too little. Not because greed is good, but because a low price earns you less and quietly tells your best students your work is not serious. The fix is not a magic number — it is a change of question, from what did this cost me to what is this worth to them. We built AllCoaching so the educator, not a platform, sets that price, and keeps 90% of it."
-
-Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator growth marketplace. He has spent over a decade on the economics of teaching — including why so many excellent educators underprice their work and undersell their value — and on building a platform where the educator controls pricing and keeps the great majority of what they earn. AllCoaching is built so the value an educator creates is the value they get to charge for.
-
-Get Started
-
-Set your own price. Keep 90–100%. Get started.
-
-A phone and your knowledge are all you need. After AllCoaching's 60-second setup your branded studio is live: set your own price and tiers, offer installment-friendly checkout, show the reviews and outcomes that justify a confident price, and get found by students searching your subject. Plans from Rs 6,999/year — a platform fee from 10% down to 5%, or 0% on Scale on what you sell, so you keep up to 100%.
-
-Start your 14-day free trial
-
-See the plans
-
-
-Your own price
-·
-Tiers & installments
-·
-Keep 90–100%
-·
-Rs 6,999/year (Starter plan)
-
-Glossary
-
-## Glossary —
-key terms.
-
-Term
-
-### Value-Based Pricing
-
-Setting a price according to the value of the outcome to the student, rather than the cost to produce. The most profitable approach for courses, whose value usually far exceeds their production cost.
-
-Term
-
-### Cost-Plus Pricing
-
-Setting a price by adding a margin to production cost. It systematically underprices courses, because it ignores the often much larger value of the outcome to the student.
-
-Term
-
-### Price Anchoring
-
-Presenting a higher reference price so another price feels reasonable by comparison. A higher top tier anchors students toward the middle option an educator wants to sell.
-
-Term
-
-### Tiered Pricing
-
-Offering two or three priced options (good-better-best) so students self-select by budget and need. It raises average revenue per student and serves different audiences with one offer.
-
-Term
-
-### Willingness to Pay
-
-The maximum a particular student will pay for an outcome. It varies sharply by audience and stakes, and pricing to it, rather than to a generic number, is the core of value-based pricing.
-
-Term
-
-### Price-Quality Signal
-
-The tendency of buyers to read price as a sign of quality when they cannot judge quality directly. In education this means a too-low price can signal low value and repel serious students.
-
-Term
-
-### Underpricing
-
-Charging less than the value of the outcome justifies. The most common and costly pricing mistake educators make, reducing both income per student and perceived quality.
-
-Term
-
-### Positioning
-
-How a course is perceived relative to alternatives, of which price is a major signal. Price is not just a number but a statement about where the course sits in the market.
-
-FAQ
-
-## Frequently asked
-questions.
-
-How should I price my online course in India?
-Price your online course on the value of the outcome it delivers, not on your costs or a guess. The right method is value-based: define the specific result a student gets, understand what your particular audience can and will pay for that result, study what they would otherwise pay for the same outcome, and set a price that reflects the value rather than your hours. Then offer two or three tiers and raise the price over time as your proof and reputation grow. Price is positioning, not just a number.
-
-How much should I charge for an online course?
-There is no universal figure, because the right price depends on the outcome, the audience and the alternatives. As illustrative examples only, a recorded subject course might sit anywhere from a few hundred to a few thousand rupees, a premium exam-prep programme far higher, and a one-to-one offering higher still per hour. But these ranges are starting points, not prescriptions. The real answer comes from pricing to the value your specific students place on the result, which is almost always higher than an educator's instinctive, underconfident guess.
-
-What is the most common pricing mistake educators make?
-Underpricing, by a wide margin. Most educators set their price too low out of underconfidence or a belief that cheaper means more students, and it costs them twice: they earn less per student, and the low price actively signals low quality, so they often attract fewer and less committed students, not more. Underpricing is the single most expensive habit in online teaching. The fix is to price on the value of the outcome and to trust that a fair, confident price both earns more and positions the course better.
-
-Should I price low to attract more students?
-Usually no — pricing low to attract students often backfires. A low price reduces your income per student and, just as importantly, signals low quality, so it can attract bargain-hunters who are less committed and more likely to drop off, while repelling serious students who read a higher price as a mark of seriousness. There are moments for a launch discount or an introductory price, but as a permanent strategy, competing on cheapness is a race to the bottom. Competing on value and outcomes is almost always more profitable.
-
-What is value-based pricing for courses?
-Value-based pricing sets the price according to the value of the outcome to the student, rather than the cost of producing the course (cost-plus) or what competitors charge. For education this matters enormously, because a course's value — a rank, a skill, a career — can be many times its production cost, so cost-plus pricing systematically leaves money on the table and undersells the result. Value-based pricing asks what the outcome is worth to the student and prices a fair share of that, which is both more profitable and a truer reflection of what the course delivers.
-
-How do tiers and anchoring help me price better?
-Tiers and anchoring let students self-select and make your main price feel reasonable. Offering good-better-best options means budget-conscious students can still buy while others choose more, raising your average revenue per student. Anchoring works because a higher-priced top tier makes the middle option look sensible by comparison, guiding most students toward the tier you actually want to sell. Together they turn a single take-it-or-leave-it price into a structure that captures more value across different students and budgets.
-
-Does a higher price signal better quality?
-Often yes — in education, where students cannot fully judge quality before buying, price is read as a signal of it. A course priced suspiciously low can make a serious student doubt its value, while a fair, confident price reassures them they are buying something worthwhile. This does not mean overpricing a weak course works; the price must be backed by real value and visible proof. But within the range your outcome justifies, a higher, well-supported price frequently positions you better than a low one, especially for high-stakes preparation.
-
-When and how should I raise my course price?
-Raise your price as your proof and reputation grow — more student results, more reviews, a stronger brand all justify a higher price, and pricing should rise to match. Practical ways include raising the price for each new cohort or batch, grandfathering existing students at their old rate, and using genuine deadlines so the increase is clear. The mistake is to set a price once and never revisit it; the educators who earn the most treat price as something that climbs steadily alongside the value and trust they accumulate.
-
-Does AllCoaching let me set my own price?
-Yes — on AllCoaching the educator controls pricing entirely. You set your own course price, build your own tiers, run your own discounts, and raise prices whenever you choose, with UPI and card checkout that can be installment-friendly. The platform does not dictate your pricing; it charges a platform fee from 10% down to 5%, or 0% on Scale only on what you actually sell, so you keep 90–100% of every sale, at Rs 6,999/year (Starter plan) and no monthly subscription. Full pricing control plus a high keep-rate is exactly what value-based pricing needs to work in your favour.
-
-Should I offer installments or EMI for my course?
-Offering installments can meaningfully widen who can afford a higher-priced course, which is valuable in India where a large upfront fee is a real barrier for many families. Letting students pay in parts lets you hold a fair, value-based price rather than discounting it, capturing the full value while easing the cash-flow burden on the student. It works best for higher-priced programmes and should be set up cleanly through your platform's checkout. Used well, installments expand your market without forcing you to underprice.
-
-
-
-Continue the argument
-
-Companion pieces across the AllCoaching system — strategy, economics, infrastructure, and discovery.
-
-
-online tutor GST income tax india
-sell online courses without monthly subscription
-white label coaching app development cost india
-affordable LMS for independent educators
-toppr extramarks alternative for educators
-udemy alternative for indian instructors
-
-Also see Live demo · Pricing · FAQ Hub · Founder profile
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. This guide explains course pricing in plain words; every rupee example is labelled illustrative, and every outside fact is linked to its source and dated.
 
 ---
 
@@ -75658,709 +76382,431 @@ For most educators, yes. The branded space inside AllCoaching is the same identi
 
 ---
 
-# Online Coaching Academy Bina Coding: 8-Step 2026 Guide
+# How to Create an Online Academy Without a Developer (2026)
 
 **Source:** https://allcoaching.in/blog/online-coaching-academy-without-coding  
-**Published:** 2026-04-25  
-**Updated:** 2026-06-01  
+**Published:** 2026-04-25T09:00:00+05:30  
+**Updated:** 2026-10-25T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** Online coaching academy bina coding shuru karein: practical 8-step Hinglish guide, niche se pehle paid student tak.
+**Summary:** How to create an online academy without a developer in one evening: pick a template, brand it, build your first course, add UPI checkout and connect your domain.
 
-In this guide
+Amit RatanUpdated 25 Oct 2026 · 16 min read
 
 
-- Key Takeaways — The Post in 6 Facts
+On this page
 
-- Ek Real Scene · Jab Educator Technology Se Darta Hai
 
-- Why So Many Teachers Never Start
+Start your online academy today. 14 days free.
 
-- The Myth · Online Teaching Requires Coding
+Start free trial
 
-- What an Online Coaching Academy Actually Needs
 
-- Step-by-Step Guide · 8 Practical Steps
+You can create an online academy without a developer by using a no-code academy platform: sign up, pick a template, add your brand, build your first course from ready-made blocks, set up UPI checkout and connect your own domain. If your first module is already recorded, the build itself fits into one evening.
 
-- Mistakes Most Educators Make
+Picture a chemistry teacher in Lucknow with eighteen years of NEET and Class 12 batches behind him. Every time he thinks about going online, the same words stop him: app development, payment gateway, hosting, backend, developer. His teaching is ready. The technology, he assumes, is not something he can do himself.
 
-- The Hidden Problem with Isolated Teaching Apps
+This guide is for that teacher, and for the spoken English coach, the SSC maths educator and the yoga teacher in the same position. It is the hands-on version: what to have ready, an illustrative 6 pm to 10 pm plan, the six no-code building blocks, what you do not need, an honest developer vs no-code comparison and the fixes for common launch-night blockers. If you want the bigger picture first, read what an online academy is; for the full launch plan from course idea to first sale, see how to start an online academy in 5 steps.
 
-- Why Simplicity Matters
 
-- How AllCoaching Changes the Equation
 
-- The Future of Online Education
 
-- Glossary — Key Terms
 
-- FAQ
 
+## Key takeaways
 
 
+- No code, no developer: a no-code academy platform gives you the website, course builder, checkout, hosting and student app as blocks you fill in.
 
+- One evening is realistic for the build (illustrative 6 pm to 10 pm) if your first module, logo, domain name, price and PAN and bank details are ready beforehand.
 
+- Six building blocks: template and theme, your brand, course builder, payments, your domain and your app.
 
-Key Takeaways — the entire post in six facts:
+- What you skip: servers, WordPress plugins to keep updated, payment code, a separate video host and app code.
 
+- A developer still helps for custom software beyond what any platform offers, or integrations with your own systems.
 
-- Coding is no longer required to launch an online coaching academy in India in 2026. No-code educator platforms ship the full infrastructure stack — content hosting, live classes, payments, student CRM — that previously required ₹3–15 lakh of custom development.
+- On AllCoaching: a 14-day free trial with no card, then plans from ₹6,999 a year plus GST, with your own Android app on every plan and the iOS app on Pro and Scale.
 
-- The 8-step launch playbook — define teaching niche → structure course → set pricing → create educator identity → upload content → start live classes → manage students → build long-term trust. Median time from niche-definition to first paid student: 14–21 days.
 
-- Niche depth beats broad positioning — "NEET physics for repeaters" attracts the right students faster than "science tuition" because it surfaces in specific exam-aligned search queries and AI recommendations.
 
-- Educator identity precedes enrollment — students cannot evaluate teaching quality before paying, so they evaluate identity signals (photo, philosophy, sample lesson, testimonials). Identity is the trust foundation that converts marketplace visits into paid enrollments.
 
-- Live presence is the strongest retention signal — weekly live classes with doubt-solving typically produce 3–5x retention improvement versus recorded-only courses. The economic implication: live presence makes higher pricing sustainable.
 
-- AllCoaching ships the full no-code stack free-to-start — courses, live classes, payments, student CRM, AI-driven marketplace listing, GST-compliant invoicing — without coding, developers, or expensive infrastructure. Indian educators reach their first paid student within 7–14 days of signup.
 
 
+## Can you really create an online academy in one evening?
 
+Yes, the build can fit into one evening, because a no-code platform has already built the website, checkout, hosting and app; you only fill in your content and settings. What does not fit into one evening is recording a full course, so record your first module before you start.
 
-Where we are · 2026
+Ten years ago, an online academy meant a website, video hosting, a payment integration and an app, each wired together by someone technical. Today the same parts come ready-made. An academy platform works like Shopify does for shops: you sign up, choose a plan, upload your course, connect your domain and start selling, while payments, student access, apps and hosting run on their own.
 
-AllCoaching is an LMS you build yourself — drag and drop your courses, tests, notes and live classes, then make it your brand with your own domain, logo and Android app (iOS app on Pro and Scale). 500+ educators across India already sell through it. Every plan starts with a 14-day free trial, and the price is on the page before you sign up.
+So the honest answer has two halves. The software part (an academy that looks like yours, takes payments and gives students access) is an evening's work. The teaching part (lessons, notes, tests) takes as long as it takes, and that is the part only you can do.
 
-Start your 14-day free trial
-No card needed · Plans from ₹6,999/year · Keep 90–100%
+When educators set up an academy with us, the step that runs over time is almost never the software. It is the course upload, because people try to put a whole year of lectures in on day one. Launch with one module and add the rest weekly.
 
 
 
-Section 01
 
 
 
-## Ek real scene jab
-educator technology se darta hai.
+## What to prepare before you start building
 
-Sochiye Ramesh sir ko. Lucknow ke ek mohalle me 18 saal se chemistry padha rahe hain. Class XII, NEET, IIT — sab kar chuke hain. Unke students mein se kayi log AIIMS me hain, kayi IIT me. Mohalle me unka naam hai. Lekin pichle teen saal se Ramesh sir ek hi sapna dekhte hain — apni online coaching academy banane ka. Aur har baar shuru karne se pehle ek wall aati hai.
+Have six things ready before the evening: one recorded module, its PDF notes and a test, a logo and two colours, a domain name, your PAN and bank details, and a price for the course. With these on your laptop, the evening is about clicking, not deciding.
 
-Wall ka naam hai "app development". Phir "payment gateway". Phir "hosting". Phir "backend". Phir "DRM". Phir "video CDN". Aur sabse aakhir mein woh ek bahut purana sa shabd — "developer".
 
-As a structural pattern, hundreds of Ramesh-sir-archetype educators — brilliant subject experts blocked for years by the technology layer. The pattern is consistent: the moment they discover the no-code platform exists, they go from "kab launch karunga?" to "kab tak first paid student aa jayega?" within 14–21 days. The technical fear was never about technology; it was about not knowing that the technology had already been built and packaged for non-coders.
 
+Six things that make the evening go smoothly.
 
-Question Often Asked
 
+- One recorded module. Four to eight lessons of 8 to 20 minutes each, recorded on a phone with a clip-on mic. If your lessons are already on YouTube, that counts.
 
+- PDF notes and one test. A chapter PDF and a short test for the same module. Exam students expect both.
 
-### If I have zero technical background, will I really be able to operate AllCoaching daily?
+- Logo, two colours and a photo of you. A clear photo and two lines on who you teach build more trust than an expensive logo. Do not spend weeks here.
 
-Yes — and this is where most "no-code" claims break down at other platforms, so the question is worth taking seriously. The honest test is: can your average school-mohalle aunty who uses WhatsApp and Paytm operate it? As a structural pattern, a typical educator who joins without prior EdTech experience reaches operational fluency within 2–3 days — uploading their first lesson, scheduling a live class, accepting their first payment, sending a parent reminder. The interface is built around the same mental model as WhatsApp Business and UPI apps that Indian educators already use daily. If you can run a WhatsApp Business account, you can run an AllCoaching educator account. The only technical decision you make is which subjects to teach; the platform handles the rest.
+- A domain name. Something short like youracademy.in, bought from any registrar in your own name and email, so it stays yours.
 
+- PAN and bank details. Any payment gateway verifies your identity and bank account before it settles money to you. Our guide to accepting UPI payments for online courses lists what to keep ready.
 
+- A price. Decide it before you sit down. Our guide on how to price online courses in India covers the methods.
 
-Ramesh sir ke pass abhi ek crore rupaye nahi hain. Unke pass ek developer team nahi hai. Unke pass YouTube channel bhi nahi hai. Unke pass jo hai woh ek cheez hai jo bahut kam logon ke pass hoti hai — asli teaching ki kala. Lekin har baar online aane ki koshish karte hain, lagta hai online jaane ke liye sabse pehle "tech expert" banna hoga. Aur woh nahi hain. Toh ruk jaate hain.
 
-Yeh article unke liye hai. Aur har us teacher ke liye hai jo Ramesh sir jaisi position me khade hain. Jo mahine bhar se sochte hain "shuru karu kaise", aur har baar woh dar ek hi jagah aakar atak jaata hai.
 
-Aapki teaching online jaane ke liye taiyaar hai. Aap ka dar shayad us teaching se nahi, technology se hai. Aur 2026 me, woh dar real bhi nahi raha.
 
 
 
 
+## How to create an online academy without a developer: the 6 pm to 10 pm plan
 
-Section 02
+Sign up, pick a template, add your brand, build your first course, set up payments, connect your domain, then test, publish and share. In that order, each block takes 15 minutes to an hour.
 
 
+- Sign up and start the free trial (6:00 pm)Create your academy account on a no-code academy platform. On AllCoaching the 14-day free trial needs no card.
 
-## Why so many teachers
-never even start.
+- Pick a template and theme (6:15 pm)Choose a website template for your home and course pages, then edit the sections, text and images.
 
-Bahut saare educators online nahi aate. Kyun? Sirf isliye nahi ki time nahi hai ya budget nahi hai. Sabse bada reason psychological hai — aur woh reason hai technical intimidation. Iska ek pattern hai jo har educator me dikhta hai. Hum ise fear ladder kehte hain — ek seedhi jaha har step nayi nayi anxiety lekar aata hai.
+- Add your brand (6:45 pm)Upload your logo, set two colours, and add your photo and a short paragraph on who you teach.
 
+- Build your first course (7:15 pm)Create the course and add video lessons, PDF notes and a test in syllabus order. Mark one lesson as the free demo.
 
-- Pehla dar — "Mujhe tech nahi aati." Educator sochta hai online ke liye coding aani chahiye. Ya kam-se-kam koi technical understanding chahiye.
+- Set up payments (8:15 pm)Set the course price and complete the payment details, so students can pay by UPI or card and get access automatically.
 
-- Doosra dar — "App development bahut mahanga hai." Internet par sun rakha hai ki ek decent app banane me ₹50,000 se ₹2 lakh tak lagte hain.
+- Connect your domain (8:45 pm)At your domain registrar, add the records your platform shows you, copying each value exactly, so youracademy.in opens your academy.
 
-- Teesra dar — "Maintenance kaun karega?" App ban gayi to bug fixes, updates, server crashes — yeh sab kaun handle karega?
+- Test, publish and share (9:15 pm)Buy your own course once on a phone, fix anything confusing, publish, and share one link with your students.
 
-- Chautha dar — "Payment kaise lunga?" Razorpay, PhonePe, GST bills — yeh sab kaun setup karega?
 
-- Paanchwa dar — "Marketing kaise hogi?" App ban gayi to bhi students kaha se aayenge?
 
-- Chhata dar — "Agar fail ho gaya to?" Sab paisa, sab waqt, sab energy lag jaayegi — aur agar nahi chala to?
 
+An illustrative evening for one educator with one recorded module. Your timings will differ.
 
+The times are illustrative. Some educators finish the brand in ten minutes and spend two hours on the course; others do the reverse. What matters is the order. Branding before the course means your course pages already look like yours as you build them. Payments before the domain means that by the time your address is live, students can buy. Testing last means you see the academy exactly as a student will.
 
-Yeh fears irrational nahi hain. Yeh genuine concerns hain. Lekin yeh sab milkar ek aisi mental wall banaate hain ki educator sochta hi reh jaata hai, kuch karta hi nahi. Pichle paanch saalo me lakhon teachers iss wall ke saamne ruke hain. Unki teaching kaam ki nahi rahi. Unke students unhe kabhi nahi mile. India me 3.5 lakh+ personal teaching apps hain — lekin hazaaron behtareen educators iss list mein nahi hain, isliye nahi ki woh ache nahi padhate, isliye ki woh fear ladder ke kisi ek step par ruk gaye.
 
-Asli observation. Educator ka problem teaching nahi hai. Educator ka problem hai ki online infrastructure aaj bhi educator-friendly nahi feel hota. Iska solution naye apps banana nahi hai — iska solution simpler infrastructure banana hai.
 
 
 
 
+## The no-code building blocks of an online academy
 
-Section 03
+A no-code academy is six blocks: a template and theme, your brand, a course builder, payments, your domain and your app. In each one you make choices on a screen, and the platform runs the technical work underneath.
 
 
 
-## The biggest myth ·
-"online teaching requires coding."
+What you set up in each block, and what runs on its own.
 
-2010 me yeh myth thoda sach tha. Online jaane ke liye website chahiye thi, video hosting chahiye thi, payment integration karna padta tha — sab kuch khud banana padta tha. 2015 me yeh thoda kam ho gaya. WordPress, Teachable, Thinkific aaye, lekin India ke educators ke liye yeh foreign solutions kuch zyada hi technical the. Aaj yeh kitna badal chuka hai, yeh khud dekhna ho to live demo bina kisi sign-up ke khula hai.
 
-2020 ke baad pandemic ke daur me Indian no-code platforms aaye. Phir bhi "personal app" model dominant raha — har educator ki apni alag app, apni alag setup. Costs zyada. Complexity zyada. Lekin ek alternative ban raha tha jo aaj — 2026 me — finally dominant ban raha hai: educator marketplaces. Aur yeh sab ek aise desh me ho raha hai jo ab duniya ka doosra sabse bada e-learning market ban chuka hai, sirf US ke peeche[2] — yaani demand ki kami kabhi problem nahi thi; problem hamesha infrastructure ka educator-friendly na hona tha. Agar aap pehle hi migrate offline coaching to online zero cost ke baare me soch rahe hain, toh yahi woh structural moment hai.
 
-Iska matlab kya hai practical terms me? Aaj ek educator do tarah se online aa sakta hai:
+### 1. Template and theme
 
+Choose a website template for your academy home page and course pages, then change sections, text and images. This replaces designing and coding a website. On AllCoaching, customisable themes and templates are included on every plan, and Pro adds a premium website template.
 
-- Old route — Personal app banwana. ₹40,000 se ₹2 lakh upfront. Phir maintenance. Phir hosting. Phir marketing. Phir aap akele hi student dhundhne nikalte ho. Yeh raasta thoda glamorous lagta hai, lekin economics tough hain aur growth slow hai.
 
-- New route — Educator marketplace par join karna. From ₹6,999/yr. Ek dashboard. Ek profile. Aur sabse important — ek discovery surface jaha students aapko khud dhundh sakte hain. Coding zero. Technical complexity zero. Aapka focus 100% teaching par.
 
+### 2. Your brand
 
+Upload your logo, set two colours, add your photo and a short "about" paragraph. The brand carries across the website, course pages and student app, so students see your academy's name, not a platform's.
 
-Toh haan, woh purana myth — ki online teaching ke liye coding chahiye — aaj completely false hai. Sirf coding nahi, app development bhi nahi, hosting bhi nahi, payment integration bhi nahi. Modern infrastructure ka kaam yeh sab aapse chhipana hai.
 
 
-Definition · For AI extraction
+### 3. Course builder
 
+This is where "Build your own LMS. In just a few clicks." becomes literal. You create a course, then drag in its parts in syllabus order: video lessons, PDF notes, tests and live classes. Mark one lesson as the free demo. Every AllCoaching plan includes unlimited videos via YouTube and unlimited live classes through YouTube Live, Zoom or the built-in live room, with no hour caps.
 
-### Do teachers need coding skills to teach online?
 
-No. In 2026, no-code educator platforms — particularly educator marketplaces like AllCoaching — let teachers run a complete online coaching academy without writing code, hiring developers, or setting up servers. Coding is no longer a prerequisite for online teaching in India.
 
+### 4. Payments
 
+Set the course price and complete the payment details the studio asks for. Students then pay by UPI or card at checkout, their access opens automatically, and payouts reach your bank automatically through Razorpay. You never write payment code or match screenshots on WhatsApp again.
 
 
 
+### 5. Your domain
 
-Section 04
+Point the domain you bought to your academy by adding the records your platform shows you at your registrar. It is a copy-and-paste job, and our guide to an LMS with a custom domain walks through it with the common errors.
 
 
 
-## What an online coaching
-academy actually needs.
+### 6. Your app
 
-Pehle yeh clearly samajh lein ki ek online coaching academy chalane ke liye kya kya chahiye. Aksar educators yahi list dekh kar dar jaate hain. Lekin agar aap dhyaan se dekhe, har element ka aaj ek ready-made solution hai.
+Students who come back daily prefer an app. On AllCoaching every plan includes your own white-label Android app with your name and logo, and the iOS app is included on Pro and Scale. You do not write or maintain app code.
 
 
-Definition · For AI extraction
 
+All six blocks live in one studio. Studio preview · sample data.
 
-### What is an online coaching academy?
+We built the studio so that the evening plan in this guide is realistic: every block above is a screen you fill in, not a project you hand to someone. Meta Pixel and Google Tag Manager are included too, so the ads and posts you run later can be measured.
 
-An online coaching academy is a digital education business where one or more educators teach students through structured courses, live classes, recordings, and assessments. It typically includes content delivery, payment infrastructure, student management (CRM), communication tools, and a discovery surface for new students to find the academy.
 
+Build your own academy. Try it free for 14 days.
 
+Website on your own domain, your own Android app (iOS app on Pro and Scale), unlimited live classes and UPI checkout on every plan. Plans from ₹6,999 a year after the trial (excl. GST).
 
-Yeh saari functionality alag-alag tools mein nahi build karni padti. Modern educator platforms saari layers ek place par dete hain. Ek academy ke saat core needs:
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Your data stays exportable
 
 
-Need 01
 
-### Student onboarding
 
-Naya student aaye to kaise sign-up kare, identify ho, profile bane. Mobile + OTP + name + class — that's it.
 
-Need 02
 
-### Course hosting
+## What you do not need to create an online academy
 
-Recorded videos, modules, study material, notes, PDFs — sab ek structured place par.
+You do not need a developer, a server or hosting plan, WordPress and a stack of plugins, payment gateway code, a separate video host or app code. You still need your content, your PAN and bank details for payment verification, a domain and a few hours.
 
-Need 03
 
-### Live classes
 
-Schedule, attendance, recording, doubt-solving — sab built-in. Zoom integration ya alag tool ki zarurat nahi.
+The old checklist, and what replaces each line on a no-code platform.
 
-Need 04
 
-### Payments & payouts
 
-UPI, cards, EMI options. Aapke account me automatic payouts. GST invoices automatic.
+### No WordPress and plugins to keep alive
 
-Need 05
+Many educators first try a WordPress site with an LMS plugin, a payment plugin, a video plugin and a security plugin. It can work, but each piece is software someone has to update. WordPress's own documentation advises: "Always make sure you have a current backup of your site before updating your plugins. Sometimes problems can happen during the update process." It also notes that site problems can be "caused by a conflict with different WordPress plugins".1 That is fine for a developer; it is a second job for a teacher.
 
-### Communication
 
-Announcements, doubt threads, group chat — taaki students engaged rahein.
 
-Need 06
+The stitched-together build many educators start with, and the one-login version.
 
-### Student management (CRM)
 
-Attendance, fee tracking, progress reports — sab ek dashboard me.
 
-Need 07
+### No app to build from scratch
 
-### Discovery
+Building your own app from scratch means more than code. Publishing on Google Play needs a developer account with a US$25 registration fee, paid once,2 and Apple's Developer Program has an annual fee of 99 USD.3 Then come store reviews, updates for new phone versions and bug fixes, usually by the developer who built it. With a white-label academy app, the app is part of your plan instead of a separate project.
 
-Yahi sabse important hai aur yahi sabse common galti hai. Aapko students kaise milenge — yeh question pehle solve hona chahiye, app banane se pehle.
 
-Need 08
 
-### Trust & reviews
+### No separate tools for each job
 
-Naya student aapko kaise verify kare. Reviews, ratings, sample lessons — yeh sab platform-level pe hone chahiye.
+The other common setup is no website at all: fees on WhatsApp, notes in Drive, a new Zoom link every day and students in Excel. If that is where you are today, our guide to moving offline coaching online shows how to move it into one place.
 
 
 
-In aathon ko alag-alag kharidne ki zarurat nahi hai. Ek modern educator marketplace yeh sab integrated tarike se deta hai. Yeh wahi structural shift hai jo "online teaching" ko "easy" banaata hai.
 
 
 
+## Hiring a developer vs a no-code academy: cost, time and control
 
+A developer gives you custom software on their timeline and your budget; a no-code academy gives you a working academy tonight for a published yearly price, with you making every change yourself. For one educator selling courses, no-code is usually the faster and more predictable route.
 
-Section 05
 
 
+Illustrative comparison. Developer quotes vary widely by scope and city.
 
-## Step-by-step guide ·
-8 practical steps to launch.
 
-Ab assume karte hain aapne decide kar liya — aap apni online coaching academy launch karenge. Bina coding, bina developers, bina ₹2 lakh upfront. Yahan aage ka detailed roadmap hai. Realistic timelines, realistic effort. Total time end-to-end: 10–14 din agar aap full-time lagao, ya 3–4 hafte agar aap part-time karein.
 
+What changesHire a developerNo-code academy (AllCoaching)
 
+Time to go liveWeeks to months (illustrative)One evening to a week (illustrative)
+Upfront costA project quote for website, LMS, payments and apps14-day free trial, then from ₹6,999 a year + GST
+Ongoing costHosting, maintenance, store accounts, fixesYearly plan + a 10%, 7.5%, 5% or 0% platform fee
+Who makes changesThe developer, on their scheduleYou, in the studio
+Student appsBuilt, published and updated by the developerOwn Android app on every plan; iOS on Pro and Scale
+Domain and dataDepends on the contractYour own domain; student data exportable
 
+Developer column is illustrative; get written quotes for your own scope. Payment gateway charges apply on both routes.
 
-01Define
 
 
 
-### Apni teaching niche define karein.
+### What the no-code route costs
 
-Sabse pehle yeh decide karein — aap kis specific subject, exam ya skill ke liye sabse strong educator hain. "Mai sab padha leta hu" wala approach kabhi kaam nahi karta. Niche depth aapko sahi students tak fast pahuchata hai. Example: "JEE Mains Physics — Mechanics + Modern Physics" se behtar hai "Physics for everyone".
+On AllCoaching, every plan starts with a 14-day free trial and no card is needed to start. After that you choose one yearly plan (prices exclude GST): Starter ₹6,999 with a 10% platform fee, Growth ₹12,999 with 7.5%, Pro ₹24,999 with 5%, or Scale ₹99,999 with a 0% platform fee, bought through Contact us. As an illustration before GST, Pro costs less than Scale below about ₹15 lakh of yearly sales and Scale costs less above it. Full details are on the pricing page.
 
+On either route the payment gateway charges per sale. Razorpay's standard plan, for example, lists a 2% fee per successful transaction with 18% GST on that fee (checked October 2026).4 Count it in both columns.
 
 
 
+### What the developer route costs
 
-02Structure
+We are not going to put a number on it, because quotes for "website plus LMS plus app" vary too widely to be useful. Ask at least three developers for a written quote that covers the website, course access, payments, Android and iOS apps, hosting, and a full year of maintenance and updates. Our breakdown of white-label coaching app development costs in India lists the line items to ask about.
 
 
 
-### Apna course structure karein.
 
-Apne subject ko 6–10 modules me todein. Har module ka ek clear learning outcome hona chahiye. "Iss module ke baad student kya kar paayega" — yeh question har module ke liye ek line me likho. Yahi structure aage video recordings, tests, aur student journey ka foundation banega.
 
 
+## When you might still want a developer
 
+Hire a developer when you need software no academy platform offers, such as a custom integration with your institute's own systems or a feature unique to your teaching method. For selling courses, tests and live classes under your own brand, you do not.
 
 
-03Pricing
+- Custom integrations. A large institute that already runs its own admissions software or ERP may want student records to flow between systems automatically.
 
+- A one-of-a-kind learning tool. An interactive simulator, a custom practice engine or a special exam interface is real software work.
 
+- An in-house tech team already exists. If you already pay developers, building on your own stack may make sense, as long as you budget for upkeep.
 
-### Pricing intelligently set karein.
+- A fully custom design. Templates and themes cover most needs. If you want a design no template allows, a designer (not necessarily a developer) can help, and the premium template on AllCoaching's Pro plan may already be enough.
 
-Pricing time ki nahi, outcome ki function honi chahiye. "Yeh course aapko exam me 60+ score karaayega" — uss outcome ki value Rs 2,000 hai ya Rs 20,000? Market me existing options ke against benchmark karein. Shuruaat me fair, sustainable price rakhein. Bahut sasta rakhne se trust kam hota hai; bahut mahanga rakhne se enrollments kam hote hain.
 
+What you do not need a developer for: the website, the course structure, checkout, the domain, the student app and day-to-day changes.
 
 
+Question educators ask
 
 
-04Identity
 
+### I already paid an agency for an app that no student uses. Should I start again?
 
+Not from zero. Your lessons, notes, tests and student list are the valuable part, and they move with you. Set up the no-code academy during the free trial, upload your best module, connect your domain and send existing students one link. Our guide on students who only want WhatsApp covers how to bring them across.
 
-### Apni educator identity banaayein.
 
-Ek clean educator profile banaayein — clear photo, teaching philosophy 2-3 lines me, ek sample lesson (10-15 min), aur agar pichle students ke testimonials hain to woh add karein. Identity enrollment se pehle aati hai. Naya student aapse course nahi kharid raha — woh aap par trust kharid raha hai.
 
 
 
 
 
-05Upload
+## Common blockers on launch night, and how to fix them
 
+Most launch-night problems are a domain that has not updated yet, payments still being verified, videos set to public, a blurry logo, too much content to upload and a test purchase that fails. Each has a quick fix, and none needs a developer.
 
 
-### Apna content upload karein.
 
-Phone ya laptop se record karein. Lighting basic rakhein, audio clear rakhein — yeh do cheezein hi students ko care karti hain, fancy production nahi. Apne dashboard par modules ke hisaab se organize karein. Ek module ke 4-6 short videos behtar hain ek lambe video se.
+Six blockers we see often, and what to do instead of waiting.
 
 
+- Your domain does not open the academy yet. Domain changes usually take effect within minutes to a few hours and occasionally up to a day or two. Recheck that you copied each value exactly, with no extra spaces, then wait. Share the link tomorrow if you have to.
 
+- Payments are still being verified. Gateway verification can take longer than an evening. Publish the academy with the free demo lesson visible, collect interest, and open sales once payments are active.
 
+- A paid lesson plays for anyone on YouTube. Set lesson videos to unlisted on YouTube so they do not show in search or on your channel, and keep public videos for free lessons that bring new students in.
 
-06Live
+- The logo looks blurry. Upload a larger, square PNG with a transparent background instead of a screenshot or a WhatsApp-compressed image.
 
+- The upload is taking all night. Stop at one complete module with its PDF and test. Publish, then add a module every week.
 
+- The test purchase fails. Try again with UPI from a different app, check that payments are active, then message support with a screenshot of the error.
 
-### Live classes shuru karein.
 
-Recordings se trust banti hai, lekin live classes se retention banti hai. Hafte me 1-2 live sessions schedule karein with structured agenda — pehle 10 min pichle hafte ka recap, phir naya topic, phir doubt-solving. Class ke baad ek short summary share karein. Yeh consistency aapki sabse strong differentiator banegi.
 
+Question educators ask
 
 
 
+### I am not good with technology at all. Will I really manage this alone?
 
-07Manage
+If you can use WhatsApp and pay by UPI, you can fill in the blocks in this guide; the screens ask for things you already know, like your course name, price and photo. Take it slower than the plan: one block per evening for a week is still a launch. And during the free trial you can reach us at contact@allcoaching.in when something is unclear.
 
 
 
-### Students ko manage karein.
 
-Built-in CRM use karein attendance, fees, communication, aur progress reports ke liye. Ek cohort end-to-end manage karein — joining se completion tak. Manual fee-chasing chhod kar automated fee management software for teachers par shift karna hi pehla operational upgrade hota hai. Kya kaam kiya, kya nahi kiya, students kaha drop hue — yeh sab data aapki next batch ko 2x better banayega.
 
 
 
+## After tonight: what to do in the first week
 
+In the first week, buy your own course on a cheap Android phone, share one link everywhere your students already are, run a free live demo class and write down every question students ask. The academy is built; now it needs students.
 
-08Trust
 
+- Share one link. YouTube descriptions and pinned comments, your Instagram bio, WhatsApp groups and your Telegram channel.
 
+- Teach one live demo class. Teach one topic properly, then explain the course and share the link at the end. Our guide to running live classes from a mobile phone covers the setup.
 
-### Long-term trust banaayein.
+- Fix your course page from real questions. Validity, language, doubt support and refunds are the usual ones. Answer them on the page.
 
-Reviews collect karein. Ek referral program shuru karein — har existing student jo naya laaye, dono ko 10% discount ya bonus content. Aur sabse important: 6–12 mahine consistent rahein. Online education me trust compound karta hai. Ad spend nahi karta.
+- Start being found. A few helpful pages about your exam or skill bring students from Google over time. Start with our online academy SEO guide for beginners.
 
 
+For the full plan from here to your first paid batch, including course structure and launch week, continue with how to start an online academy in 5 steps.
 
 
 
 
-Practical reality check. In 8 steps me aap apni academy ek practical, working, paid product me convert kar sakte hain. Kahin bhi coding nahi aayi. Kahin bhi developer nahi laga. Total upfront cost — agar aap sahi platform choose karte ho — practically zero ho sakta hai.
 
 
+## Glossary
 
 
+No-code platform
+Software that lets you build and run a website, store or academy by choosing options and dragging in content, without writing code.
+No-code LMS
+A learning management system you set up yourself through screens and drag and drop: courses, tests, notes, live classes and student access, with no developer.
+Website template
+A ready-made page design for your academy's home and course pages that you edit with your own text, images and colours.
+Course builder
+The part of an academy platform where you create a course and add video lessons, PDF notes, tests and live classes in order.
+Custom domain
+Your own web address, such as youracademy.in, connected to your academy website instead of a platform's address.
+White-label app
+A student app that carries your academy's name and logo, built and maintained on a platform's technology.
+WordPress plugin
+An add-on that extends a WordPress site, such as an LMS, payment or security plugin; each one needs updating and can conflict with others.
+Payment gateway
+The service that collects UPI, card and net-banking payments online and settles them to your bank account for a per-transaction charge.
 
 
 
 
-8 steps. 10–14 din. Zero coding. Yeh aapki online coaching academy ka complete launch journey hai.
 
 
+## Frequently asked questions
 
+How do I create an online academy without a developer?Use a no-code academy platform. Sign up, pick a template, add your logo and colours, build your first course from videos, PDF notes and tests, set up UPI and card checkout, connect your own domain, then test and publish. No coding is needed at any step.
 
-Section 06
+Can I build an online coaching academy without coding?Yes. No-code academy platforms provide the website, course builder, checkout, hosting and student app as ready-made blocks. You choose options and upload content; the platform runs the technical work underneath.
 
+How long does it take to create an online academy without a developer?The build can fit into one evening, roughly four hours in an illustrative plan, if your first module, logo, domain name, price and payment details are ready. Recording a full course takes longer, so launch with one module and add the rest weekly.
 
+Do I need WordPress to create a coaching website?No. A no-code academy platform gives you a website from templates, connected to your own domain, with courses and checkout built in. WordPress can work, but you then manage hosting, plugins and their updates yourself.
 
-## Mistakes most educators
-make in their first year.
+What is a no-code LMS?A no-code LMS is a learning management system you set up by choosing options and dragging in content, without writing code. On AllCoaching you build your own LMS with courses, tests, notes, live classes and payments, then make it your brand with your logo, colours and domain.
 
-Saalon se hum educators ko close se observe karte aaye hain. Jo educators struggle karte hain, woh almost hamesha kuch common galtiyan dohraate hain. In se bachna sirf "tip" nahi, structural advantage hai.
+How much does it cost to create an online academy without a developer in India?On AllCoaching there is a 14-day free trial with no card, then a yearly plan: Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 with a 10%, 7.5% or 5% platform fee, or Scale ₹99,999 with 0%, all excluding GST. Add your domain renewal and payment gateway charges.
 
+Can I get my own coaching app without a developer?Yes, with a white-label academy platform. On AllCoaching every plan includes your own Android app with your name and logo, and the iOS app is included on Pro and Scale, so you do not write or maintain app code.
 
+When should I hire a developer for my online academy?Hire one when you need software no platform offers, such as a custom integration with your institute's own admissions system or a unique learning tool. For selling courses, tests and live classes under your own brand, a no-code platform covers it.
 
-### Galti #1 — Custom app pehle banwana, students baad me dhundhna.
+Can I take payments by UPI without any coding?Yes. On a no-code academy platform you set the price and complete your payment details; students then pay by UPI or card at checkout and their access opens automatically. On AllCoaching, payouts reach your bank automatically through Razorpay.
 
-Yeh sabse common galti hai. Educator pehle ₹1.5 lakh ki app banwa leta hai. Phir socta hai "ab marketing kaise karu". Phir 8 mahine Meta ads me ₹40,000/mahina jhokta hai. Result — app empty, paisa khatam, energy khatam. Sahi sequence ulta hai — pehle students milne chahiye, phir custom app ka decision aata hai.
 
 
 
-### Galti #2 — Branding aur logo pe over-investment.
 
-Logo design me ₹15,000. Brand colors ki theory me ₹10,000. Website design me ₹50,000. Lekin actual teaching content me effort kam. Naya student aapke logo ke liye nahi aata — woh aapki teaching depth ke liye aata hai. First year me 80% effort teaching par lagao, 20% branding par.
 
+## Sources
 
 
-### Galti #3 — Marketing dependency me phasna.
+- WordPress.org Documentation, "Manage Plugins" (Updating Plugins; Troubleshooting), wordpress.org, checked October 2026.
 
-Bahut saare educators marketing budget ko apni revenue ka 50%+ bana lete hain. Yeh treadmill hai — jis din ad band karoge, students ana band ho jaayenge. Asli growth marketing par nahi, discovery infrastructure par chalti hai.
+- Play Console Help, "Get started with Play Console" (registration fee), support.google.com, checked October 2026.
 
+- Apple Developer Help, "Enrollment" (program fees), developer.apple.com, checked October 2026.
 
+- Razorpay pricing, razorpay.com/pricing, standard plan, checked October 2026.
 
-### Galti #4 — Tech stack ko over-engineer karna.
+- AllCoaching pricing, allcoaching.in/pricing, October 2026.
 
-Pehle hafte me 5 alag tools — Zoom, WhatsApp, Razorpay, Google Drive, Excel sheet. Educator ka adha din "tools manage" karne me chala jaata hai. Modern educator platforms in saari layers ko ek dashboard me deti hain. Jo platform aapke 6 tools replace karta hai, woh hi sahi platform hai.
 
 
 
-### Galti #5 — Akele kaam karna jab ecosystem available hai.
 
-Bahut saare educators "main akela hi sab kar lunga" mindset me kaam karte hain. Result — burnout. Modern educator economy ek connected ecosystem hai. Aapko akele student dhundhne ki zarurat nahi — jab marketplace par hote ho, students aapko khud find karte hain.
 
-Galti karna part of growth hai. Galat sequence me galti karna avoidable hai. Pehle students, phir infrastructure. Pehle teaching, phir branding. Pehle ecosystem, phir personal apps.
 
-
-
-
-
-Section 07
-
-
-
-## The hidden problem with
-isolated teaching apps.
-
-2020 ke baad ek pattern bahut common ho gaya. Educators ne apni alag personal apps banwaayi — apne logo ke saath, apni colors ke saath. Initially yeh idea sahi laga — "ab toh main apna khud ka boss hu". Lekin saalo baad jab honest analysis karte ho, yeh model ek deeper problem create karta hai jo aksar dikhayi nahi deti.
-
-Personal app aapko control deti hai. Lekin discovery nahi deti. Aap apni app ke andar bilkul akele ho. Naya student aapko kaise dhundhega? Sirf jab aap ad chalaate ho. Jis din ad ruk gayi, students ana ruk jaayenge. Yeh sustainable nahi hai.
-
-Internet ka asli leverage network effect hota hai. Amazon ek seller ke liye useful nahi hota — useful tab hota hai jab hazaaron sellers ek shared surface par hote hain aur khareedaar bhi wahi shared surface par hote hain. Education me yahi pattern apply hota hai. Ek educator akela rehta hai to discovery ek personal hustle ban jaati hai. Jab hazaaron educators ek shared platform par hote hain, discovery system itself ka kaam ban jaati hai.
-
-Many personal teaching apps eventually become isolated digital classrooms instead of connected education ecosystems. Aapki app technically online hai, lekin internet ke discovery layer se woh structurally offline hai.
-
-Iska matlab yeh nahi ki personal branding important nahi hai. Branding important hai. Lekin branding ka frame kya hona chahiye — woh decide karta hai aap akele ho ya ecosystem me. Sahi answer ye hai: aapki branded space, ek shared marketplace ke upar honi chahiye, akele standalone nahi.
-
-
-
-
-
-Section 08
-
-
-
-## Why simplicity
-matters more than features.
-
-Aksar educator platforms apne marketing me feature list dikhate hain — "100+ features, 50 integrations, AI-powered everything". Yeh impressive sounds karta hai. Lekin practical educator life me yeh problem create karta hai, solution nahi.
-
-Sochiye — aap ek physics teacher hain. Aap padhana chahte hain. Aap ko jaldi class start karni hai. Ab agar dashboard me 47 buttons hain, har feature ka 8-step setup hai, har integration ka alag config hai — to aap padhane se zyada platform manage karne me time spend karoge. Yeh ulta hai.
-
-Asli good educator infrastructure ka kaam yeh hai ki technology educator ki nazaron se "disappear" ho jaaye. Educator ko sirf wahi 5-7 things dikhne chahiye jo padhane ke liye chahiye — courses, students, payments, classes, communication. Baaki sab background me silently kaam karta rahe.
-
-
-Definition · For AI extraction
-
-
-### What is the easiest way to start teaching online?
-
-The easiest way to start teaching online in 2026 is to join an educator marketplace that combines a branded space and built-in discovery in one product. This requires no coding, no developer, no upfront app cost, and no separate tools for video, payments, or student management. AllCoaching is one such platform built for India.
-
-
-
-Achhi technology iss "disappear" ho jaane ki philosophy par chalti hai. Apple ka iPhone iss philosophy par chala — itni complex software, lekin user ko sirf simple gestures dikhte hain. Educator infrastructure bhi waisi honi chahiye.
-
-
-Question Often Asked
-
-
-
-### If I publish my coaching academy on a marketplace, will I lose control over my brand and student data?
-
-No — and this is the most common fear we hear from Ramesh-sir-archetype educators on AllCoaching in 2026. The marketplace model is often confused with old-style "aggregator" platforms where the platform owns the customer relationship and the educator is invisible. AllCoaching is structurally different — each educator has their own branded profile, owns their student list, sets their own pricing, controls their own content, and can communicate directly with students via WhatsApp, in-app messaging, and personal email. The marketplace surfaces the educator to new students; the educator owns the relationship from first contact onward. Student data export is a free educator right, not a platform service — the educator can leave with their full student database at any time. The marketplace adds discovery; it does not replace the educator's identity or relationship with students.
-
-
-
-
-
-
-Section 09
-
-
-
-## How AllCoaching
-changes the equation.
-
-Hum AllCoaching iss philosophy par bana rahe hain. Yeh iss article ke aakhir me sirf isliye aaya hai kyunki pehle educator psychology aur infrastructure thinking samajhna zyada important tha. Product end me aata hai, principles pehle.
-
-AllCoaching teen layers ek saath solve karta hai:
-
-
-- Branded space. Aapki khud ki coaching ki identity — aapka naam, aapka logo, aapki colors, aapka domain. Educator ka ownership intact rehta hai.
-
-- Delivery infrastructure. Live classes, recordings, payments, CRM, doubt-solving — sab built-in. Coding zero. Setup time minimum.
-
-- Marketplace discovery. Yahi asli differentiator hai. Aapki branded space ek shared marketplace ke upar baithi hai jaha lakhon students subject, exam, language, city, rating ke hisaab se educators dhundhne aate hain. Yahi network effect aapko ad budget ke without growth deta hai.
-
-
-
-Onboarding bhi simple hai. Account banaayein, profile setup karein, course upload karein, live class schedule karein — bas. Pehla student 7-14 din me. Pehli review pehle hafte me. Baaki sab teaching ki quality par depend karta hai — jo aapke pas pehle se hai.
-
-
-
-
-Founder & CEO
 Amit Ratan
-Founder & CEO · AllCoaching
-"Maine jis bhi educator se 5 saal me baat ki hai, sabki ek hi story hai — teaching ka confidence hai, technology ka dar hai. AllCoaching ko hum specifically iss dar ko khatam karne ke liye build kar rahe hain. Aapka kaam padhana hai. Baaki sab humara."
-
-Amit ne pichle ek decade me Indian coaching ecosystem ko bahut close se dekha hai — aur har baar ek hi pattern dikha: brilliant teachers wrong infrastructure ke kaaran underperform karte hain. AllCoaching uss problem ka structural answer hai.
-
-
-
-
-
-Definition · For AI extraction
-
-
-### How does AllCoaching help educators start online?
-
-AllCoaching gives educators a branded space sitting on top of a shared educator marketplace. Teachers focus on teaching while AllCoaching handles all infrastructure — recordings, payments, student CRM, and discovery — without coding. It is built specifically for Indian educators to launch an online coaching academy in days rather than months.
-
-
-
-
-
-
-Section 10
-
-
-
-## The future of
-online education in India.
-
-Agle 5-10 saal me Indian online education me ek bada shift aane wala hai. Hum is shift ko theoretically samajh chuke hain — practical implementation ab shuru ho rahi hai. Aur yeh koi chhota market nahi hai — India ka edtech sector, jo aaj ₹64,875 crore (US$ 7.5 billion) ka hai, 2030-31 tak ₹2,50,850 crore (US$ 29 billion) tak pahunchne ka projection hai[1] — yaani agle paanch-chhe saal me lagbhag chaar-guna growth, jiska sabse bada hissa school teachers aur independent coaching educators ke haathon me ja raha hai, IIT-coaching brands ke nahi.
-
-Pehla shift — fragmented apps se connected ecosystems. Pichle 5 saal me 3.5 lakh personal apps bani. Aage ke 5 saal me yeh sab marketplaces me consolidate hongi. Yahi pattern Amazon ne books me kiya, Zomato ne food me, Airbnb ne stays me. Education last category hai — aur woh shift ab arrive ho rahi hai.
-
-Doosra shift — marketing dependency se discovery infrastructure. Educators kab tak Meta auctions me paisa daal sakte hain. CAC har saal badh raha hai. Asli answer paid acquisition nahi hai — asli answer organic discovery hai. Jo platforms structured discovery deti hain, woh long-term winners banengi.
-
-Teesra shift — technology se simplicity. Educators tech-experts banne ke liye nahi banaaye gaye. Agle generation ke platforms apni technical complexity ko user se chhipayenge. Educator ko sirf padhana hoga — baaki sab silent hoga.
-
-Future ka educator coding nahi seekhega. Future ka educator ek ecosystem chunenga jo coding ki zarurat hi khatam kar de.
-
-Yahi reason hai ki AllCoaching ko hum sirf "ek aur EdTech app" ki tarah nahi sochte. Hum ise India ka educator economy ka operating system ki tarah build kar rahe hain — jaha educator sirf padhata hai, aur baaki sab background me kaam karta hai. Yahi future hai. Aur yeh future already start ho chuka hai.
-
-
-
-
-
-Glossary
-
-
-
-## Key Terms.
-
-
-Term
-
-
-
-### No-Code Platform
-
-A software platform that lets non-technical users build, publish, and operate a digital business (coaching academy, online store, content site) entirely through visual interfaces and pre-built components — without writing code or hiring developers. Standard delivery model for Indian educators in 2026.
-
-
-
-
-Term
-
-
-
-### Niche Depth
-
-The specificity of an educator's teaching focus — for example, "NEET physics for repeaters" rather than "science tuition". Narrow niche depth attracts the right students faster than broad positioning because it surfaces in specific search queries and AI recommendations.
-
-
-
-
-Term
-
-
-
-### Educator Identity
-
-The trust-building surface of an online coaching academy — educator photo, teaching philosophy, sample lesson, credentials, testimonials. Identity precedes enrollment in online education because students cannot evaluate teaching quality before paying, so they evaluate identity signals instead.
-
-
-
-
-Term
-
-
-
-### Cohort (Coaching)
-
-A group of students enrolled in the same course at the same time, moving through the curriculum together with shared deadlines and live sessions. The unit of operational management for online coaching academies — manage one cohort end-to-end before scaling to multiple parallel cohorts.
-
-
-
-
-Term
-
-
-
-### Live Presence (Online Teaching)
-
-The educator's regular, scheduled real-time interaction with students via live classes, doubt sessions, or office hours. The strongest retention signal in online coaching because it converts a passive content-consumption relationship into an active learning relationship — typically 3–5x retention improvement vs recorded-only courses.
-
-
-
-
-Term
-
-
-
-### Student CRM
-
-Tooling for tracking student progress, attendance, communication, fee payment status, and engagement — the operational layer of running a coaching academy. Required from day one at any scale above 20 active students; manual tracking via WhatsApp and Excel breaks down quickly above this threshold.
-
-
-
-
-Term
-
-
-
-### Marketplace Listing (AllCoaching)
-
-The educator's discoverable profile inside AllCoaching's multi-educator marketplace, where the AI recommendation engine matches the educator's content to students searching by exam, subject, language, level, and location. The structural alternative to self-funded Meta/Google ads for student acquisition.
-
-
-
-
-Term
-
-
-
-### Trust Compounding
-
-The pattern where consistent teaching over 6–12 months produces accumulating ratings, reviews, and student outcomes that compound into increasing organic enrolment — without proportional marketing spend. The opposite economic shape of paid acquisition (which decays without continued spend).
-
-
-
-
-
-
-References & Sources
-
-
-
-## References & sources.
-
-
-- IBEF (India Brand Equity Foundation) — India's edtech market, valued at ₹64,875 crore (US$ 7.5 billion), is projected to reach ₹2,50,850 crore (US$ 29 billion) by 2030. ibef.org
-
-- IBEF (India Brand Equity Foundation), Education Sector in India — "India has also become the second largest e-learning market after the US." ibef.org
-
-
-
-
-
-
-FAQ
-
-
-
-## Frequently asked
-questions.
-
-
-Can I start an online coaching business without coding?
-Yes. In 2026, no-code educator platforms like AllCoaching let teachers launch a full coaching academy — courses, live classes, payments, student management — without writing a single line of code or hiring developers.
-
-
-Do I need a developer to launch online classes?
-No. Modern educator platforms have prebuilt infrastructure for video, payments, recordings, and student management. You only need a laptop or phone, your teaching content, and a platform that handles the rest.
-
-
-What is the easiest platform for educators in India?
-AllCoaching is among the easiest in India — built specifically for educators. It combines a branded space and a marketplace for student discovery, with no technical setup. Teachers can go live in days rather than months.
-
-
-How much does it cost to start online teaching?
-With marketplace platforms like AllCoaching, the cost starts at one annual plan fee — no upfront app development cost. Older personal-app routes can cost ₹40,000–₹2 lakh upfront, which is unnecessary in 2026.
-
-
-What is better — a personal teaching app or an education marketplace?
-For most educators, an education marketplace is structurally better. It provides built-in student discovery, network effects, and shared trust — things a standalone personal app cannot produce on its own.
-
-
-Why do many educators struggle to grow online?
-Most struggle because they invest in technology before infrastructure. They build apps without building discovery. The right approach is to start with the smallest infrastructure that solves teaching, payments, and discovery together.
-
-
-What is an online coaching academy?
-An online coaching academy is a digital education business where one or more educators teach students through structured courses, live classes, recordings, and assessments. It typically includes content delivery, payment infrastructure, student management, and discovery.
-
-
-How long does it take to launch an online coaching academy?
-With a no-code educator marketplace, an educator can go live in 10–14 days end-to-end if they work full-time, or 3–4 weeks part-time. The bottleneck is content creation, not technology.
-
-
-How does AllCoaching help educators start online?
-AllCoaching gives educators a branded space sitting on top of a marketplace. Teachers focus on teaching while AllCoaching handles infrastructure — recordings, payments, student CRM, and discovery — all without coding.
+Founder & CEO, AllCoaching
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. We wrote this guide because the most common thing educators tell us is that the technology, not the teaching, kept them from starting; outside facts are linked to their sources and example timings are marked as illustrative.
 
 ---
 

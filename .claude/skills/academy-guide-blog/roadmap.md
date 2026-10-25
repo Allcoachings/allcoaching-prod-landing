@@ -11,21 +11,21 @@ How the list was made:
 
 | # | Phase | Title | Primary keyword | Type | Status |
 |---|---|---|---|---|---|
-| 1 | Academy building | How to Create an Online Academy Without a Developer: Live in One Evening | how to create online academy without developer | REFRESH `blog/online-coaching-academy-without-coding` | Planned |
+| 1 | Academy building | How to Create an Online Academy Without a Developer: Live in One Evening | how to create online academy without developer | REFRESH `blog/online-coaching-academy-without-coding` | **Live 2026-10-25** (`blog/online-coaching-academy-without-coding`) |
 | 2 | Academy building | How to Build Your Own Coaching App in India Without Coding (2026 Guide) | how to make coaching app without coding | NEW | Planned |
 | 3 | Academy building | From WhatsApp Groups to Your Own Online Academy: A Step-by-Step Move | whatsapp group to online academy | NEW | Planned |
-| 4 | Academy building | What Is an Online Academy? Meaning, Types and How It Works (2026) | what is an online academy | NEW (pillar) | **Written 2026-10-25** (`blog/what-is-an-online-academy`) |
-| 5 | Course creation | How to Create Your First Online Course in India: Videos, PDFs and Tests in One Place | how to create online course india | NEW | Planned |
-| 6 | Course creation | How to Price Your Online Course in India (+ Revenue Calculator) | online course pricing india | REFRESH `blog/how-to-price-online-courses-india` + calculator | Planned |
+| 4 | Academy building | What Is an Online Academy? Meaning, Types and How It Works (2026) | what is an online academy | NEW (pillar) | **Live 2026-10-25** (`blog/what-is-an-online-academy`) |
+| 5 | Course creation | How to Create Your First Online Course in India: Videos, PDFs and Tests in One Place | how to create online course india | NEW | **Live 2026-10-25** (`blog/create-your-first-online-course-india`) |
+| 6 | Course creation | How to Price Your Online Course in India (+ Revenue Calculator) | online course pricing india | REFRESH `blog/how-to-price-online-courses-india` + calculator | **Live 2026-10-25** (`blog/how-to-price-online-courses-india`) |
 | 7 | Course creation | How to Write a Course Description That Sells (with Examples) | how to write a course description | NEW | Planned |
 | 8 | Brand & website | How to Get a Domain Name for Your Coaching Institute and Connect It to Your Academy | domain name for coaching institute | NEW (link `lms-with-custom-domain-for-coaching-india`) | Planned |
 | 9 | Brand & website | How to Create a Coaching Institute Website Without WordPress or a Developer | coaching institute website without wordpress | NEW | Planned |
 | 10 | Brand & website | White-Label App for Educators in India: What It Means and How to Get One | white label app for teachers india | NEW (link the app-cost post) | Planned |
 | 11 | Brand & website | How to Name Your Coaching Institute or Online Academy (+ Name Ideas) | coaching institute name ideas | NEW (later: free name-generator tool) | Planned |
-| 12 | Payments & selling | How to Accept UPI Payments for Online Courses in India | upi payment for online courses | NEW how-to (link `best-upi-payment-gateway-for-online-courses`) | **Written 2026-10-25** (`blog/accept-upi-payments-for-online-courses`) |
-| 13 | Payments & selling | How to Sell Your First Online Course in India: From Zero to Your First ₹10,000 | how to sell online courses in india | REFRESH `blog/how-to-sell-courses-online-in-india` | Planned |
+| 12 | Payments & selling | How to Accept UPI Payments for Online Courses in India | upi payment for online courses | NEW how-to (link `best-upi-payment-gateway-for-online-courses`) | **Live 2026-10-25** (`blog/accept-upi-payments-for-online-courses`) |
+| 13 | Payments & selling | How to Sell Your First Online Course in India: From Zero to Your First ₹10,000 | how to sell online courses in india | REFRESH `blog/how-to-sell-courses-online-in-india` | **Live 2026-10-25** (`blog/how-to-sell-courses-online-in-india`) |
 | 14 | Payments & selling | Online Course Launch Plan: A 30-Day Checklist for Educators | online course launch plan | NEW | Planned |
-| 15 | Marketing | Meta Ads for Coaching Institutes in India: Facebook and Instagram Guide (2026) | meta ads for coaching institute | NEW | **Written 2026-10-25** (`blog/meta-ads-for-coaching-institutes`) |
+| 15 | Marketing | Meta Ads for Coaching Institutes in India: Facebook and Instagram Guide (2026) | meta ads for coaching institute | NEW | **Live 2026-10-25** (`blog/meta-ads-for-coaching-institutes`) |
 | 16 | Marketing | Online Academy SEO: The Beginner's Guide for Indian Educators (2026) | online academy seo / seo for coaching institute | DONE | **Live 2026-10-24** (add "SEO for coaching institutes" as a secondary keyword) |
 | 17 | Marketing | Google Business Profile for Coaching Centres: Local SEO Guide | google business profile for coaching centre | NEW | Planned |
 | 18 | Marketing | How to Get Students Without Paid Ads: Organic Growth Playbook for Educators | get students online without ads | REFRESH `blog/how-to-get-paid-students-for-online-coaching-free` | Planned |

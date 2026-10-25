@@ -1,0 +1,281 @@
+{
+ "slug": "how-to-price-online-courses-india",
+ "dir": "blog",
+ "title": "Online Course Pricing in India: How to Price + Calculator",
+ "description": "Online course pricing in India: 7 pricing models, a worked take-home calculator after platform fees, gateway charges and GST, a worksheet, and when to raise prices.",
+ "og_description": "How to price your online course in India: value-based pricing, seven pricing models, a worked revenue calculator for 3 prices and 3 batch sizes, a fill-in worksheet, honest discounts and when to raise your price.",
+ "keywords": [
+  "online course pricing india",
+  "how to price online course",
+  "how to price your online course in india",
+  "course price for online coaching",
+  "how much to charge for online course india",
+  "online course fee calculator",
+  "online course revenue calculator",
+  "course pricing models",
+  "batch fee for online coaching",
+  "when to raise course price"
+ ],
+ "h1": "How to Price Your Online Course in India (+ Revenue Calculator)",
+ "dek": "A step-by-step guide for educators: how to set a price on value, seven pricing models, a worked calculator that shows what you keep after fees and GST, and when to raise your price.",
+ "category": "Sell courses",
+ "date_published": "2026-06-28",
+ "date_modified": "2026-10-25",
+ "checked": "October 2026",
+ "cover_alt": "How to price an online course in India: a worked revenue calculator showing take-home after platform fee, gateway charges and plan cost",
+ "audience": "Indian educators, tutors and coaching institute owners deciding how much to charge for an online course or batch",
+ "intro": [
+  "<strong>To price an online course in India, start from the value of the outcome to your student, check it against what similar options cost, then work out what you keep after platform fees, gateway charges, GST and yearly costs.</strong> If the take-home does not justify your hours, change the offer or the price before you publish, not after.",
+  "Most educators do the opposite. You teach SSC maths in Hindi on YouTube, a student asks for a paid course, and you pick ₹499 because it feels safe. A year later you have more students than you can support and less money than you expected.",
+  "This guide gives you the method, seven pricing models, a worked revenue calculator with a fill-in worksheet, and the signals that tell you when to raise your price. Every rupee figure in it is illustrative; your outcome, audience and alternatives decide the real number."
+ ],
+ "takeaways": [
+  "<strong>Price on the outcome, not your hours.</strong> Cost-plus pricing undercharges because a course's value to a student is usually far greater than its production cost.",
+  "<strong>Take-home = price × students − platform fee − gateway charges − GST owed − yearly costs.</strong> Run it before you publish a price; the worked table shows 3 prices × 3 batch sizes.",
+  "<strong>Seven pricing models cover most academies:</strong> one-time course fee, batch fee, monthly membership, test series, bundle, instalments and free demo + paid course. Most combine two or three.",
+  "<strong>Tiers and anchoring lift income:</strong> a premium tier makes the middle tier the obvious choice, without losing price-sensitive students.",
+  "<strong>Raise prices per batch</strong> when seats fill early and proof is visible, and keep current students at their price.",
+  "<strong>Keep discounts honest.</strong> India's 2023 dark-pattern guidelines list false urgency and drip pricing among 13 specified practices, so use real deadlines and show the full price upfront."
+ ],
+ "sections": [
+  {
+   "id": "how-to-price",
+   "h2": "How should you price an online course in India?",
+   "toc": "How to price a course",
+   "html": "<p>Price an online course on the value of the outcome it gives a student, then check that price against what similar options cost and what you actually keep after fees. Cost-plus pricing (your hours plus a margin) almost always undercharges, because a course's value to a student is usually far greater than what it cost you to record.</p>\n      <p>Price is also the first thing a student reads about your course. A suspiciously low price on NEET or UPSC preparation can make a family doubt it; a fair, confident price backed by proof reassures them.</p>\n      <p>There are three common ways to set a price, and only one of them starts from the student:</p>\n      <div class=\"v3-table\"><table>\n        <thead><tr><th>Approach</th><th>Based on</th><th>Typical result</th><th>For courses</th></tr></thead>\n        <tbody>\n          <tr><td>Cost-plus</td><td>Your time and production cost</td><td>A low, nervous price</td><td>Undercharges almost every time</td></tr>\n          <tr><td>Competitor-based</td><td>What others charge</td><td>A race towards the lowest number</td><td>Ignores your own results and format</td></tr>\n          <tr><td>Value-based</td><td>The outcome's worth to the student</td><td>A fair, confident price</td><td>The method this guide uses</td></tr>\n        </tbody>\n        <caption>Use competitor prices as a reference point, not as your starting point.</caption>\n      </table></div>\n      <h3>Why underpricing costs you twice</h3>\n      <p>The most common pricing mistake we see among Indian educators is charging too little. It costs you twice. You earn less from every sale, and the low number tells serious students that the course may not be serious either.</p>\n      <p>The price should match the outcome you deliver and the proof you can show today, then rise as that proof grows. Pricing is one of the three levers that decide your income, along with students and retention; our guide on <a href=\"/blog/how-much-can-you-earn-teaching-online-india\">how much you can earn teaching online in India</a> covers the other two.</p>\n      {{q:How do I find out what my students are willing to pay?|Look at the stakes and the alternatives, not your own budget. Ask what the outcome is worth to the student and what they would otherwise spend to get it, such as offline coaching, another course or a year of self-study. Talk to five or six real students and test a price with one batch. A little hesitation is healthy.}}"
+  },
+  {
+   "id": "calculator",
+   "h2": "Online course fee calculator: work out your take-home",
+   "toc": "Revenue calculator",
+   "html": "<p>Your take-home from a course is the price times the number of students, minus the platform fee, any gateway charges you pay separately, GST if you are registered, and your fixed yearly costs. Work this out before you announce a price, because the number on the course page is not the number that reaches your bank.</p>\n      <p>Here is the formula in one line:</p>\n      <div class=\"v3-opt us\">\n        <p class=\"tag\">The take-home formula</p>\n        <p><strong>Take-home (before income tax) = Price × Students − Platform fee − Gateway charges − GST owed − Yearly costs</strong></p>\n      </div>\n      {{fig:take-home-formula|Online course pricing formula: price times students minus platform fee, gateway charges, GST and yearly costs equals take-home|The take-home formula. Each line is explained below.}}\n      <h3>What each line means</h3>\n      <ul>\n        <li><strong>Price × students</strong> is your gross sales.</li>\n        <li><strong>Platform fee</strong> is the percentage your course platform keeps from each sale. On AllCoaching it is 10% on Starter, 7.5% on Growth, 5% on Pro and 0% on Scale.</li>\n        <li><strong>Gateway charges</strong> are what the payment company takes for processing UPI and cards. Cashfree's pricing page, for example, lists a platform fee of 1.95% on its standard payment modes.<sup><a href=\"#ref-1\">[1]</a></sup> Some course platforms include gateway charges in their own fee and some pass them on, so check the terms of yours. In the worked example we show an assumed 2% as a separate line so you do not underestimate.</li>\n        <li><strong>GST owed</strong> applies only if you are registered. Registration is generally required once your yearly turnover crosses ₹20 lakh for services, and coaching is taxed at 18%; our guide on <a href=\"/blog/gst-for-coaching-institutes-india\">GST for coaching institutes</a> explains the rules.</li>\n        <li><strong>Yearly costs</strong> are your plan, tools and ads.</li>\n      </ul>\n      <h3>One sale, worked through</h3>\n      <p>Take an illustrative ₹2,999 SSC CGL maths course on the Growth plan. The 7.5% platform fee is ₹224.93 and an assumed 2% gateway charge is ₹59.98, so about ₹2,714 of each sale reaches you before your yearly costs. If you were GST-registered and the ₹2,999 included GST, ₹457.47 of it would be GST and your fee would be ₹2,541.53 before any other deduction. So decide whether your price includes GST before you publish it.</p>\n      <h3>The worked table: 3 prices × 3 batch sizes</h3>\n      <p>The table below runs the same formula for three illustrative prices and three batch sizes over a year. We used the Growth plan in every cell to keep the comparison simple.</p>\n      <div class=\"v3-table\"><table><thead><tr><th>Course price</th><th>50 students</th><th>200 students</th><th>500 students</th></tr></thead><tbody><tr><td>₹999</td><td>₹29,866 <br>of ₹49,950 sales</td><td>₹1,65,480 <br>of ₹1,99,800 sales</td><td>₹4,36,709 <br>of ₹4,99,500 sales</td></tr><tr><td>₹2,999</td><td>₹1,20,366 <br>of ₹1,49,950 sales</td><td>₹5,27,480 <br>of ₹5,99,800 sales</td><td>₹13,41,709 <br>of ₹14,99,500 sales</td></tr><tr><td>₹7,999</td><td>₹3,46,616 <br>of ₹3,99,950 sales</td><td>₹14,32,480 <br>of ₹15,99,800 sales</td><td>₹36,04,209 <br>of ₹39,99,500 sales</td></tr></tbody><caption>Illustrative take-home before income tax, rounded to the rupee. Assumptions: Growth plan 7.5% platform fee, an assumed 2% gateway charge, no GST registration, minus ₹15,339 for the ₹12,999 plan with 18% GST. ₹7,999 × 500 students crosses ₹20 lakh of sales, where GST registration would generally apply.</caption></table></div>\n      {{fig:take-home-table|Online course fee calculator table: illustrative take-home at ₹999, ₹2,999 and ₹7,999 for 50, 200 and 500 students|The same worked table as a graphic. Illustrative, before income tax.}}\n      <p>Two things stand out: 200 students at ₹999 bring in more than 50 at ₹2,999, and the fixed plan cost matters most at small numbers. Your plan choice also changes with sales: before GST, Starter costs least below about ₹2.4 lakh of yearly sales, Growth between ₹2.4 lakh and ₹4.8 lakh, Pro between ₹4.8 lakh and ₹15 lakh, and Scale's 0% platform fee costs least above ₹15 lakh. The <a href=\"/pricing\">pricing page</a> lists each plan.</p>\n      <h3>Your fill-in worksheet</h3>\n      <p>Copy these lines into a notebook or spreadsheet and fill them in for each course before you set its price.</p>\n      <div class=\"v3-opt\">\n        <p class=\"tag\">Course price worksheet</p>\n        <ol>\n          <li>Course name and the outcome it promises: ______</li>\n          <li>Price you are considering (A): ₹ ______</li>\n          <li>Does the price include GST? Yes / No. If yes and you are registered, A ÷ 1.18 = your fee (B): ₹ ______. If not, B = A.</li>\n          <li>Students you can realistically enrol this year (C): ______</li>\n          <li>Gross sales, B × C (D): ₹ ______</li>\n          <li>Platform fee, D × your plan's % (E): ₹ ______</li>\n          <li>Gateway charges, if your platform passes them on, D × % (F): ₹ ______</li>\n          <li>Yearly costs, plan with GST plus tools and ads (G): ₹ ______</li>\n          <li>Take-home before income tax, D − E − F − G: ₹ ______</li>\n          <li>Take-home per hour you will spend teaching and supporting this course: ₹ ______</li>\n        </ol>\n      </div>\n      <p>If line 10 looks too low, raise the price, add value, or plan for more students. If you are unsure about tax lines, our guide on <a href=\"/blog/online-tutor-gst-income-tax-india\">GST and income tax for online tutors</a> explains the difference, and a chartered accountant can confirm your case.</p>"
+  },
+  {
+   "id": "pricing-models",
+   "h2": "7 online course pricing models and when each fits",
+   "toc": "7 pricing models",
+   "html": "<p>The pricing model decides how and when students pay, and it matters as much as the number. Most Indian academies use a one-time course fee or a batch fee, then add a test series, a bundle or a free demo around it.</p>\n      {{fig:pricing-models|Seven online course pricing models in India: one-time course fee, batch fee, monthly membership, test series, bundle, instalments, free demo plus paid course|Seven ways to charge. Most academies combine two or three.}}\n      <h3>1. One-time course fee</h3>\n      <p>The student pays once for access to a recorded course for a set period, such as \"valid till the 2027 exam\". It suits self-paced courses such as a Class 12 physics revision course or a vastu basics course. State the validity clearly.</p>\n      <h3>2. Batch fee</h3>\n      <p>The student pays for a cohort with fixed start and end dates, live classes and doubt sessions. It is usually higher than a recorded course because it includes your live time, and each new batch is a natural moment to change the price.</p>\n      <h3>3. Monthly membership</h3>\n      <p>The student pays every month and stays as long as it is useful, for example a daily current-affairs class for UPSC aspirants or a yoga practice group. It smooths income, but students can leave any month. Check whether your platform supports recurring payments first.</p>\n      <h3>4. Test series</h3>\n      <p>Mock tests sold alone or as an add-on to a course. Test series work well for SSC, banking, NEET and JEE because students want practice under exam conditions even if they study elsewhere. See the <a href=\"/blog/best-platform-for-selling-pdf-notes-and-test-series\">best platforms for selling PDF notes and test series</a>.</p>\n      <h3>5. Bundle</h3>\n      <p>A course, a test series and notes sold together at less than their separate prices. Keep the separate prices visible so the saving is real.</p>\n      <h3>6. Instalments</h3>\n      <p>Instalments split a higher fee into parts, which can make a ₹15,000 programme reachable for more families. Treat this as a pricing idea, not a promise: whether you can collect in parts depends on your platform and payment gateway. Gateways that offer card EMI usually charge more for it; Cashfree lists a 2.2% platform fee on credit card EMI, against 1.95% on its standard modes.<sup><a href=\"#ref-1\">[1]</a></sup> A simple alternative is to sell the course as two parts, each with its own price.</p>\n      <h3>7. Free demo + paid course</h3>\n      <p>A free sample, such as a YouTube class, a sample PDF or the first module, leads to the paid course. The demo lets students judge your teaching before they pay, which makes a fair price easier to accept. Our guide on <a href=\"/blog/how-to-get-paid-students-for-online-coaching-free\">getting paid students for online coaching</a> covers the free-to-paid path.</p>"
+  },
+  {
+   "id": "value-ladder",
+   "h2": "Build a value ladder, from free demo to premium",
+   "toc": "Value ladder",
+   "html": "<p>A value ladder is a set of offers at rising prices, so a student can start small and move up as trust grows.</p>\n      {{fig:value-ladder|Online course value ladder: free demo, test series, recorded course, live batch and mentorship with illustrative price ranges|A value ladder with illustrative price ranges. Your audience and outcome set the real numbers.}}\n      <p>For a state PSC educator teaching in Hindi, the ladder might run from free YouTube classes to a ₹499 test series, a recorded course, a live batch and a small mentoring group. For a spoken-English teacher it might be a free Instagram lesson, a recorded grammar course and a live speaking batch.</p>\n      <p>Each rung does one job: the free rung earns trust, the entry rung turns a viewer into a paying student, the main rung earns most of your income, and the premium rung serves students who want more of you.</p>"
+  },
+  {
+   "id": "tiers",
+   "h2": "Good-better-best tiers and price anchoring",
+   "toc": "Tiers and anchoring",
+   "html": "<p>Good-better-best pricing means offering the same course in two or three versions at rising prices, so students choose the level that fits their budget and need. It lifts your average income per student without losing the price-sensitive ones.</p>\n      {{fig:good-better-best|Good-better-best course pricing tiers: basic, standard and premium with the middle tier as the anchored choice|Illustrative tiers for a state PSC course. The top tier makes the middle one look reasonable.}}\n      <p>Anchoring is why tiers work. When a student sees a ₹9,999 premium tier, the ₹3,999 standard tier with live doubt classes and a test series looks sensible, and most students choose it. The premium tier does not need to sell often; it sets the reference point.</p>\n      <p>Keep the differences real and easy to understand: more live time, more feedback, longer access.</p>"
+  },
+  {
+   "id": "audience",
+   "h2": "Course price for online coaching: exam vs skill, Hindi vs English, tier-2",
+   "toc": "Price by audience",
+   "html": "<p>The right course price for online coaching depends on what the outcome is worth to your students and what they can pay, so the same syllabus can carry very different prices for different audiences.</p>\n      {{fig:price-by-audience|Factors that move an online course price up or down in India: exam stakes, live classes, proof, audience budget and alternatives|What tends to move a course price up or down. General guidance, not a rule.}}\n      <h3>Exam courses vs skill courses</h3>\n      <p>Exam courses for NEET, JEE, UPSC, SSC, banking or CUET sell a better shot at a high-stakes result, and families already spend on coaching for them, so they often support higher prices and test-series add-ons. Skill courses such as yoga, music, spoken English or digital marketing sell a personal or career outcome. Career skills can carry exam-like prices; hobby courses usually sit lower.</p>\n      <h3>Hindi-medium vs English-medium</h3>\n      <p>Medium changes who you reach, not the value of what you teach. Hindi-medium and regional-language students are often more price-sensitive, but they also have fewer good options in their language, which raises the value of a well-taught course. Keep the course page and support messages in their language.</p>\n      <h3>Tier-2 and tier-3 affordability</h3>\n      <p>Students in smaller towns often pay by UPI from a budget phone and compare your fee with local coaching. Three things help more than a permanent price cut: an entry rung at a low price, a split into smaller parts or modules, and a clear list of what is included. UPI also has transaction limits: in December 2023 the RBI proposed raising the limit for payments to educational institutions from ₹1 lakh to ₹5 lakh per transaction,<sup><a href=\"#ref-2\">[2]</a></sup> which matters only for very high fees. Our guide on <a href=\"/blog/accept-upi-payments-for-online-courses\">accepting UPI payments for online courses</a> covers checkout.</p>\n"
+  },
+  {
+   "id": "steps",
+   "h2": "How to price your online course: 8 steps",
+   "toc": "The 8 steps",
+   "html": "<p>Here is the full method in order. Work through it for every course or batch instead of guessing a number.</p>\n      {{steps}}\n      {{cta}}"
+  },
+  {
+   "id": "raise-price",
+   "h2": "When and how to raise your course price",
+   "toc": "When to raise prices",
+   "html": "<p>Raise your price when demand and proof have grown: batches fill before the deadline, results and reviews are visible, almost nobody asks for a discount, and you have added real value. The price that was right in your first nervous month is rarely right a year later.</p>\n      {{fig:raise-price-signals|Five signals it is time to raise your online course price, and how to raise it for the next batch|Five signals to watch, and a fair way to raise.}}\n      <p>The cleanest way is per batch. The next intake pays the new price; current students keep what they paid. Announce a real date early, and keep it. Raise by a step you can explain, such as a new weekly answer-writing review.</p>\n      <p>Your brand is part of this. An educator with a recognised name and visible results can charge more for the same syllabus, which is why building a <a href=\"/blog/personal-brand-for-educators-india\">personal brand as an educator</a> is also a pricing strategy.</p>"
+  },
+  {
+   "id": "discounts",
+   "h2": "Discounts, launch offers and deadlines that stay honest",
+   "toc": "Discounts and offers",
+   "html": "<p>A discount should have a clear reason and a real end date, such as an early-bird price for the first week of a new batch or a lower price for students who already bought your test series. Permanent discounts train students to wait.</p>\n      <p>Indian consumer rules now name these tactics. In 2023 the Central Consumer Protection Authority issued guidelines listing 13 specified dark patterns, which it treats as unfair trade practices under the Consumer Protection Act, 2019.<sup><a href=\"#ref-3\">[3]</a></sup></p>\n      <div class=\"v3-quote\">\n        <p>\"Dark patterns encompass a wide range of manipulative practices such as drip pricing, disguised advertisement, bait and switch, false urgency etc.\"</p>\n        <cite>Press Information Bureau, Ministry of Consumer Affairs, 8 December 2023</cite>\n      </div>\n      <p>For course pricing, that means three habits. Show the full price, including whether GST is added, before checkout, so nothing appears at the last step. Only say \"price rises on 1 December\" if it really does. And do not show a struck-through \"original\" price that nobody ever paid.</p>\n      <div class=\"v3-pair\">\n        <div class=\"yes\"><h4>Do</h4><p>Early-bird prices with a real end date. Bundle savings students can check. One clear, all-in price.</p></div>\n        <div class=\"no\"><h4>Avoid</h4><p>Countdown timers that reset. \"Last day\" offers every week. Made-up original prices. Fees that appear only at checkout.</p></div>\n      </div>\n"
+  },
+  {
+   "id": "mistakes",
+   "h2": "Common online course pricing mistakes",
+   "toc": "Pricing mistakes",
+   "html": "<p>The most common course pricing mistake is copying a competitor's price without knowing your own take-home.</p>\n      {{fig:pricing-mistakes|Common online course pricing mistakes in India and what to do instead|Five pricing habits that cost educators money, and the fix for each.}}\n      <p>When we look at academies that struggle to earn despite steady enrolments, the cause is often a price set in the first month and never revisited, with fees and live hours never added up. Decide now whether your price includes GST, and review it after every batch.</p>"
+  },
+  {
+   "id": "on-allcoaching",
+   "h2": "Pricing your courses on AllCoaching",
+   "toc": "On AllCoaching",
+   "html": "<p>On AllCoaching you set the price of each course yourself, and students pay by UPI or card on your own academy website or Android app (iOS app on Pro and Scale), with payouts reaching your bank automatically through Razorpay. The path is the same automated one for every educator: sign up, choose a plan, upload your course, connect your domain and start selling.</p>\n      <p>The plan you choose sets the platform-fee line in the calculator. Starter is ₹6,999 a year with a 10% platform fee, Growth ₹12,999 with 7.5%, and Pro ₹24,999 with 5%. Scale is ₹99,999 a year with a 0% platform fee, which you buy through \"Contact us\" on the <a href=\"/pricing\">pricing page</a>. All prices exclude GST, and every plan starts with a 14-day free trial with no card needed, so you can build the course page and test your price before you pay. You keep 90–100% of each sale depending on the plan.</p>\n      <p>We built AllCoaching so the educator, not the platform, decides the price. For the full journey from course to first sale, read <a href=\"/blog/how-to-sell-courses-online-in-india\">how to sell courses online in India</a> and our guide to <a href=\"/blog/how-to-create-landing-page-for-online-course\">building a course landing page</a>.</p>\n      {{fig:academy-course-pricing|AllCoaching Studio on a laptop and phone: set your own course price, UPI and card checkout and Razorpay payouts on every plan|AllCoaching Studio preview · sample data.}}"
+  }
+ ],
+ "steps": {
+  "name": "How to price your online course in India",
+  "description": "Set an online course price on value: define the outcome, learn what students pay, compare alternatives, choose a model, calculate take-home, build tiers, publish clearly and review each batch.",
+  "total_time": "P7D",
+  "items": [
+   [
+    "Define the outcome you sell",
+    "Write one sentence on the result a student gets, such as a better score in SSC CGL Tier 1 or the confidence to speak English at work, not the hours of video."
+   ],
+   [
+    "Learn what your students can pay",
+    "Talk to five or six real students or parents about their budget, the stakes and what they would otherwise spend on coaching or other courses."
+   ],
+   [
+    "List the alternatives",
+    "Note what offline coaching, other online courses and free content offer for the same outcome, and what your course adds that they do not."
+   ],
+   [
+    "Choose a pricing model",
+    "Pick a one-time course fee, batch fee, monthly membership, test series or bundle, and decide whether a free demo will lead into it."
+   ],
+   [
+    "Calculate your take-home",
+    "Run price × students minus platform fee, gateway charges, GST if registered and yearly costs, then check the result per hour you will teach."
+   ],
+   [
+    "Build two or three tiers",
+    "Offer a basic, a standard and a premium version with real differences, so the top tier anchors the middle one."
+   ],
+   [
+    "Publish one clear, all-in price",
+    "Show the price, what is included, the validity and whether GST is included on the course page, before checkout."
+   ],
+   [
+    "Review after every batch",
+    "Check enrolments, completion, refund requests and reviews, and raise the price for the next batch when demand and proof have grown."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "How should I price my online course in India?",
+   "Price it on the value of the outcome for your student, then check that price against the alternatives they have and against your take-home after platform fees, gateway charges, GST and yearly costs. Raise it per batch as your proof grows."
+  ],
+  [
+   "How much should I charge for an online course in India?",
+   "There is no single right number; it depends on the outcome, your audience and their alternatives. As an illustration only, recorded courses often sit between a few hundred and a few thousand rupees, with live batches and mentoring higher. Test your number with the take-home calculator."
+  ],
+  [
+   "How do I calculate my take-home from an online course?",
+   "Take-home before income tax equals price times students, minus the platform fee, any gateway charges you pay separately, GST if you are registered, and your yearly costs such as your plan and ads. For example, 200 students at ₹2,999 on a 7.5% plan with an assumed 2% gateway charge leaves about ₹5.27 lakh after a ₹12,999 plan with GST (illustrative)."
+  ],
+  [
+   "Should I price my course low to get more students?",
+   "Usually not as a permanent strategy. A very low price cuts your income per student and can signal low quality, which may put off serious students. A free demo or a low-priced entry product gets students started without underpricing the main course."
+  ],
+  [
+   "Which pricing model is best for online coaching?",
+   "Live coaching usually suits a batch fee, recorded courses suit a one-time course fee with a clear validity period, and ongoing classes suit a monthly membership. Exam educators often add a test series or a bundle."
+  ],
+  [
+   "Should I offer instalments or EMI for a costly course?",
+   "Instalments can make a higher fee reachable for more families, but whether you can collect in parts depends on your platform and payment gateway, and gateways usually charge more for card EMI. Splitting the course into two priced parts is a simple alternative."
+  ],
+  [
+   "Do I need to add GST to my course price?",
+   "Only if you are GST-registered, which is generally required once yearly turnover crosses ₹20 lakh for services (₹10 lakh in special-category states); coaching is taxed at 18%. Decide whether your listed price includes GST and say so on the course page. Confirm your case with a chartered accountant."
+  ],
+  [
+   "When should I raise my course price?",
+   "Raise it when batches fill before the deadline, results and reviews are visible, few students ask for discounts and you have added real value. Raise it for the next batch and keep current students at their price."
+  ],
+  [
+   "Can I set my own course price on AllCoaching?",
+   "Yes. You set the price of each course, and students pay by UPI or card on your own academy website or app. Plans are Starter ₹6,999, Growth ₹12,999 and Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee, or Scale ₹99,999 a year with a 0% platform fee, all excluding GST, after a 14-day free trial with no card needed."
+  ]
+ ],
+ "glossary": [
+  [
+   "value-based-pricing",
+   "Value-based pricing",
+   "Setting a price from the worth of the outcome to the student, rather than from your production cost or a competitor's number."
+  ],
+  [
+   "cost-plus-pricing",
+   "Cost-plus pricing",
+   "Setting a price by adding a margin to what the course cost you to make. For courses it usually undercharges."
+  ],
+  [
+   "take-home",
+   "Take-home",
+   "What reaches you from course sales after platform fees, gateway charges, GST owed and yearly costs, before income tax."
+  ],
+  [
+   "platform-fee",
+   "Platform fee",
+   "The percentage a course platform or payment gateway keeps from each sale for its service."
+  ],
+  [
+   "price-anchoring",
+   "Price anchoring",
+   "Showing a higher reference price, such as a premium tier, so that another option looks reasonable by comparison."
+  ],
+  [
+   "tiered-pricing",
+   "Tiered pricing",
+   "Offering the same course in two or three versions at rising prices so students choose by budget and need. Also called good-better-best."
+  ],
+  [
+   "value-ladder",
+   "Value ladder",
+   "A set of offers at rising prices, from a free demo to a premium programme, that lets a student start small and move up."
+  ],
+  [
+   "dark-pattern",
+   "Dark pattern",
+   "A design or pricing trick that pushes a buyer into a choice against their interest, such as false urgency or drip pricing."
+  ]
+ ],
+ "references": [
+  "Cashfree Payments, \"Payment Gateway Charges\". <a href=\"https://www.cashfree.com/payment-gateway-charges/\" target=\"_blank\" rel=\"noopener nofollow\">cashfree.com</a>, checked October 2026.",
+  "Reserve Bank of India, \"Statement on Developmental and Regulatory Policies\", 8 December 2023. <a href=\"https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56889\" target=\"_blank\" rel=\"noopener nofollow\">rbi.org.in</a>, checked October 2026.",
+  "Press Information Bureau, \"Central Consumer Protection Authority issues Guidelines for Prevention and Regulation of Dark Patterns, 2023\", 8 December 2023. <a href=\"https://pib.gov.in/PressReleasePage.aspx?PRID=1983994\" target=\"_blank\" rel=\"noopener nofollow\">pib.gov.in</a>, checked October 2026."
+ ],
+ "citations": [
+  "https://www.cashfree.com/payment-gateway-charges/",
+  "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56889",
+  "https://pib.gov.in/PressReleasePage.aspx?PRID=1983994"
+ ],
+ "about": [
+  {
+   "name": "Pricing strategies",
+   "sameAs": "https://en.wikipedia.org/wiki/Pricing_strategies"
+  },
+  {
+   "name": "Value-based pricing",
+   "sameAs": "https://en.wikipedia.org/wiki/Value-based_pricing"
+  },
+  {
+   "name": "Online course"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "Reserve Bank of India",
+   "url": "https://www.rbi.org.in",
+   "type": "GovernmentOrganization"
+  },
+  {
+   "name": "Central Consumer Protection Authority",
+   "type": "GovernmentOrganization"
+  },
+  {
+   "name": "Cashfree Payments",
+   "url": "https://www.cashfree.com"
+  },
+  {
+   "name": "Razorpay",
+   "url": "https://razorpay.com"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/how-to-sell-courses-online-in-india",
+  "/blog/accept-upi-payments-for-online-courses",
+  "/blog/how-much-can-you-earn-teaching-online-india",
+  "/blog/gst-for-coaching-institutes-india"
+ ],
+ "author_note": "This guide explains course pricing in plain words; every rupee example is labelled illustrative, and every outside fact is linked to its source and dated."
+}

@@ -1,0 +1,319 @@
+{
+ "slug": "create-your-first-online-course-india",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "How to Create an Online Course in India (2026 Guide)",
+ "description": "How to create an online course in India: pick one outcome, plan modules of 5–15 minute lessons, record on a phone budget, add PDF notes and tests, then pilot it.",
+ "og_description": "A step-by-step guide for Indian educators to create a first online course: outcome, modules and lessons, a budget recording kit, scripting, free editing tools, Hindi captions, a free demo lesson and a pilot batch.",
+ "keywords": [
+  "how to create online course india",
+  "how to make online course",
+  "create online course in hindi",
+  "online course recording setup india",
+  "course structure for online course",
+  "first online course",
+  "how to record online course on phone",
+  "online course modules and lessons",
+  "video pdf and test course",
+  "free demo lesson for online course"
+ ],
+ "h1": "How to Create Your First Online Course in India: Videos, PDFs and Tests in One Place",
+ "dek": "A practical guide for Indian educators: choose one outcome, plan modules of short lessons, record on a phone budget, add PDF notes, tests and live classes, caption in Hindi or your regional language, and pilot the course with 5–10 students before launch.",
+ "category": "Create a course",
+ "date_published": "2026-10-25",
+ "date_modified": "2026-10-25",
+ "checked": "25 Oct 2026",
+ "cover_alt": "How to create your first online course in India: plan modules and lessons, record on a phone budget, add PDF notes, tests and live classes, shown with the AllCoaching studio",
+ "audience": "Indian educators, tutors, exam mentors, skill teachers and coaching institute owners creating their first online course",
+ "author_note": "This guide comes from watching educators build their first courses with us; outside facts are linked to their official sources, and device prices and example structures are marked as illustrative.",
+ "intro": [
+  "<strong>To create an online course in India, choose one clear outcome for one group of students, split the syllabus into modules of 5–15 minute lessons, record them on your phone with a clip-on mic, add PDF notes and a test to every module, offer one free demo lesson, and test the whole course with 5–10 students before you sell it.</strong> You do not need a studio, an editor or a developer to do any of this.",
+  "Maybe you teach NEET biology to a batch of thirty in Kota or Patna and want students from other cities to learn from you. Maybe you teach SSC maths in Hindi on YouTube, spoken English to working adults on Zoom, yoga to a morning group, or classical vocal music on weekends. You already know how to teach. What feels new is turning that teaching into a course: something a student can buy, open on a phone and finish without you in the room.",
+  "This guide covers the whole build, in order: picking the topic and outcome, structuring modules and lessons, choosing between video, PDF, tests and live classes, a recording setup on a budget, teaching on camera, editing with free tools, Hindi and regional medium with captions, the free demo lesson, uploading and organising everything in your academy, the pilot batch and how to keep the course up to date. If you have not set up an academy yet, read <a href=\"/blog/how-to-start-online-academy-in-5-steps\">how to start an online academy in 5 steps</a> alongside this; that guide covers sign-up, domain and payments, and this one goes deep on the course itself."
+ ],
+ "takeaways": [
+  "<strong>Start from one outcome,</strong> such as \"score 300+ in NEET biology\" or \"speak confidently in a job interview\", not from a list of topics.",
+  "<strong>Structure the course like a syllabus:</strong> 4–8 modules, each made of 5–15 minute video lessons with one idea each, a PDF of notes and a module test.",
+  "<strong>Audio matters more than the camera.</strong> A phone you already own plus a lapel mic (illustratively ₹500–₹2,000) is enough for a first course.",
+  "<strong>Use free tools:</strong> OBS Studio records the screen, Shotcut edits video, and YouTube automatic captions support Hindi; review every caption before students see it.",
+  "<strong>Host lessons on YouTube as unlisted videos,</strong> which only people with the link can watch, and keep a public free lesson on your channel to bring students in.",
+  "<strong>Pilot with 5–10 students</strong> before launch and fix the top three problems they find.",
+  "<strong>On AllCoaching,</strong> videos via YouTube and live classes are unlimited on every plan, with PDF notes and test series in the same course, after a 14-day free trial with no card."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "h2": "How to create an online course in India: the 8 steps",
+   "toc": "The 8 steps",
+   "html": "<p><strong>Choose an outcome, outline modules and lessons, pick your formats, set up a budget recording kit, script and record, edit and caption, upload and organise in your academy, then pilot with a small batch.</strong> Every section below expands one of these steps.</p>\n      {{steps}}\n      <p>Most first courses take longer than planned for one reason: the educator records first and plans later. Two weeks of recording later, the lessons are 70 minutes long, out of order, and there is no test anywhere. Planning on paper for one evening saves weeks of re-recording.</p>\n      <p>When educators build a first course with us, the ones who launch fastest are rarely the ones with the best camera. They are the ones who wrote the module list first, recorded one module at a time, and opened the course to a few students before it felt finished.</p>"
+  },
+  {
+   "id": "topic-outcome",
+   "h2": "How do you choose the topic and outcome for your first online course?",
+   "toc": "Topic and outcome",
+   "html": "<p><strong>Choose a topic you have already taught to real students, and write the outcome as one sentence a student would say after finishing the course.</strong> The outcome decides what goes in and, more importantly, what stays out.</p>\n      <h3>Start from what you already teach</h3>\n      <p>Your first course should be the one you could teach tomorrow without preparing: the chapter you have explained a hundred times, the batch you run every year, the skill students already ask you about. You know where students get stuck, which examples work and which questions come up. That experience is what a student is paying for.</p>\n      <h3>Write the outcome, not the topic</h3>\n      <p>\"Biology\" is a subject. \"NEET biology\" is a topic. \"Finish the Class 11 human physiology syllabus with chapter tests, in Hindi, in six weeks\" is an outcome. Write yours as one sentence that names the student, the result and the time:</p>\n      <ul>\n        <li><strong>Exam:</strong> \"SSC CGL aspirants can solve arithmetic questions in under a minute each, in 30 days.\"</li>\n        <li><strong>Exam:</strong> \"NEET droppers revise the full plant physiology unit with 300 practice questions.\"</li>\n        <li><strong>Skill:</strong> \"Freshers can answer the ten most common interview questions in clear English.\"</li>\n        <li><strong>Skill:</strong> \"Beginners can follow a 20-minute morning yoga routine safely at home.\"</li>\n        <li><strong>Skill:</strong> \"Students can sing five basic ragas with correct sargam.\"</li>\n      </ul>\n      <p>A sharp outcome makes every later choice easier. If a lesson does not move the student toward it, it goes in a later course. It also gives you the course title and the first line of its description, and it helps you <a href=\"/blog/how-to-price-online-courses-india\">price the online course</a> against what students already pay for that result.</p>\n      {{q:Should my first course be big or small?|Small. A focused course of 20 to 40 short lessons that you can finish recording in two to four weeks beats a 200-lesson \"complete\" course that never launches. You can add a second course, a test series or a live batch once the first one sells.}}"
+  },
+  {
+   "id": "course-structure",
+   "h2": "What is a good course structure for an online course?",
+   "toc": "Course structure",
+   "html": "<p><strong>A good online course structure is a course split into 4–8 modules, each module made of short video lessons of 5–15 minutes with one idea each, followed by a PDF of notes and a module test.</strong> Students should always know where they are and what comes next.</p>\n      {{fig:course-structure|Course structure for an online course: NEET biology in Hindi split into four modules, each with short video lessons, PDF notes and a module test, with lesson 1 as a free demo|One course, four modules, short lessons. Example structure, illustrative.}}\n      <h3>Modules follow the syllabus</h3>\n      <p>For an exam course, your modules are usually the units of the official syllabus in the order you teach them: number system, percentage, ratio, algebra for SSC maths; cell biology, plant physiology, human physiology for NEET biology. For a skill course, modules follow the order a learner can handle: breathing and posture before asanas, sounds before sentences in spoken English, sargam before ragas.</p>\n      <h3>Lessons of 5–15 minutes</h3>\n      <p>A recorded lesson is not a classroom period. In a 60-minute class you repeat, take questions and wait for the slowest student; on video, a student can pause and replay. Cut each topic into lessons of one idea each. Most land between 5 and 15 minutes. Short lessons are easier to watch on a phone during a commute, easier to find when revising, and much easier to re-record when something changes.</p>\n      <h3>Write the outline before you record</h3>\n      <p>Put the outline in a simple sheet: module, lesson number, lesson title, the one idea it teaches, its length target, the PDF that goes with it, and the test questions it feeds. If you want help drafting the first version from your syllabus, our guide to <a href=\"/blog/using-chatgpt-for-course-curriculum-design\">using ChatGPT for course curriculum design</a> shows how, but always edit the draft with your own teaching order.</p>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Course</th><th>Modules</th><th>Lessons (illustrative)</th><th>Per module</th></tr></thead>\n          <tbody>\n            <tr><td>NEET biology, Hindi medium</td><td>6 units</td><td>45–60 lessons of 10–15 min</td><td>Notes PDF, diagram sheet, 30-question test</td></tr>\n            <tr><td>SSC CGL maths</td><td>8 topics</td><td>50–70 lessons of 6–12 min</td><td>Formula PDF, practice set, timed test</td></tr>\n            <tr><td>Spoken English for interviews</td><td>5 stages</td><td>25–35 lessons of 5–10 min</td><td>Phrase sheet PDF, speaking task, quiz</td></tr>\n            <tr><td>Morning yoga for beginners</td><td>4 weeks</td><td>20–28 lessons of 8–20 min</td><td>Routine PDF, safety notes, check-in quiz</td></tr>\n            <tr><td>Hindustani vocal basics</td><td>5 levels</td><td>25–40 lessons of 5–12 min</td><td>Sargam PDF, practice audio, recording task</td></tr>\n          </tbody>\n          <caption>Example course structures. Numbers are illustrative; shape yours around your own syllabus.</caption>\n        </table>\n      </div>"
+  },
+  {
+   "id": "formats",
+   "h2": "Videos, PDFs, tests and live classes: which formats does your course need?",
+   "toc": "Videos, PDFs, tests, live",
+   "html": "<p><strong>Most Indian online courses work best with four formats together: video lessons to teach, PDF notes to revise, tests to check what stuck, and live classes to answer doubts.</strong> Video alone is a playlist; the other three turn it into a course.</p>\n      {{fig:formats|The four formats of an online course: video lessons via YouTube, PDF notes, tests and live classes, and what each one does for the student|Each format has one job. Logos belong to their owners.}}\n      <h3>Video lessons</h3>\n      <p>Videos carry the teaching. Many Indian educators host lesson videos on YouTube and keep them unlisted. YouTube's help centre says unlisted videos \"can be seen and shared by anyone with the link\" and won't show up in YouTube's search results unless someone adds them to a public playlist; they also do not appear on your channel's Videos tab.<sup><a href=\"#ref-1\">1</a></sup> That makes them a practical way to host paid lessons, with one caution: anyone who has the link can share it, so treat unlisted as private-ish, not secret.</p>\n      <h3>PDF notes</h3>\n      <p>Students revise from notes, not from replaying a video. Give each module a PDF: chapter notes, labelled diagrams, a formula sheet, previous-year questions or, for skills, a routine or phrase sheet. Make them readable on a 6-inch phone screen: large text, one column, and headings that match the lesson titles.</p>\n      <h3>Tests and quizzes</h3>\n      <p>Tests tell the student, and you, whether the lessons worked. Use a short quiz after each module and, for exam courses, full-length timed mock tests at the end. Our guide to <a href=\"/blog/how-to-create-interactive-mock-tests-online\">creating interactive mock tests online</a> covers question types, timing and solutions in detail.</p>\n      <h3>Live classes</h3>\n      <p>A weekly live doubt class makes a recorded course feel taught, not just sold. It is also where you hear the questions that become your next lessons. If you teach from a phone, see <a href=\"/blog/how-to-conduct-live-classes-on-mobile-apps\">how to conduct live classes on mobile</a> for the setup.</p>\n      <p>On AllCoaching, a course holds all four in one place: videos added through YouTube, PDF notes and test series in the studio's Content section, and live classes through YouTube Live, Zoom or the built-in live room. Videos via YouTube and live classes are unlimited on every plan, so the format mix is a teaching decision, not a cost decision.</p>"
+  },
+  {
+   "id": "recording-setup",
+   "h2": "What is a good online course recording setup in India on a budget?",
+   "toc": "Recording setup",
+   "html": "<p><strong>A good budget recording setup is the smartphone you already own, a lapel (clip-on) mic, a tripod or phone stand, soft light facing you, and a free screen recorder for slides or problem-solving.</strong> Students forgive an average picture; they do not forgive audio they cannot hear.</p>\n      {{fig:recording-kit|Budget online course recording setup in India: smartphone, lapel mic, tripod, ring light, free screen recorder and a writing pad, with illustrative price ranges|Start with the mic. Price ranges are illustrative (India, October 2026) and vary by model and seller.}}\n      <h3>Sound first: the lapel mic</h3>\n      <p>A phone's built-in mic picks up the fan, the traffic and the echo of a bare room. A wired or wireless lapel mic clipped 15–20 cm below your chin fixes most of that. Illustratively, these cost ₹500–₹2,000 in India. Record in the quietest room you have; curtains, a bed and a bookshelf absorb echo better than any foam panel.</p>\n      <h3>A steady frame at eye level</h3>\n      <p>Mount the phone on a tripod or stand (illustratively ₹400–₹1,500) at eye level, about an arm and a half away. Record horizontally. YouTube's recommended upload settings note that \"the standard aspect ratio for YouTube on a computer is 16:9\" and list MP4 as the recommended container,<sup><a href=\"#ref-3\">3</a></sup> which is what a phone in landscape mode already records.</p>\n      <h3>Light facing you</h3>\n      <p>Sit facing a window during the day, or use a ring light or soft lamp (illustratively ₹800–₹2,500) behind the phone. Avoid a window behind you; it turns your face into a silhouette.</p>\n      <h3>Screen recording and a writing surface</h3>\n      <p>Maths, physics and accounts students need to see you solve. Two cheap ways: record your screen while you write on slides or a digital whiteboard, or mount the phone over a notebook and write with a thick pen. OBS Studio describes itself as \"free and open source software for video recording and live streaming\"<sup><a href=\"#ref-4\">4</a></sup> and works on Windows, Mac and Linux. A pen tablet (illustratively ₹3,000–₹15,000 depending on size) is a later upgrade, not a requirement. For a wider tool list, see our guide to the <a href=\"/blog/best-free-tools-for-teachers-to-record-lectures\">best free tools for teachers to record lectures</a>.</p>\n      <div class=\"v3-pair\">\n        <div class=\"yes\"><h4>Do</h4><p>Buy a mic first. Record a 30-second test and listen on cheap earphones. Turn on airplane mode while recording. Keep the same spot, light and framing for the whole course so lessons look consistent.</p></div>\n        <div class=\"no\"><h4>Avoid</h4><p>Buying a camera before you have recorded a single lesson. Recording next to a ceiling fan or an open window. Switching between portrait and landscape across lessons. Using the phone's front camera when the rear one is much sharper.</p></div>\n      </div>"
+  },
+  {
+   "id": "on-camera",
+   "h2": "How do you script and teach on camera?",
+   "toc": "Teaching on camera",
+   "html": "<p><strong>Script each lesson as a bullet outline, not a word-for-word text: a hook, the one idea, two examples, a practice question and a recap.</strong> Then teach to one imagined student, the way you would at your desk.</p>\n      {{fig:lesson-anatomy|Anatomy of a 12-minute online course lesson: hook, teach one idea, solved examples, practice question and recap, with illustrative timings|One idea per lesson. Timings are illustrative.}}\n      <h3>The five-part lesson</h3>\n      <ol>\n        <li><strong>Hook (under a minute):</strong> show an exam question or real situation the student cannot handle yet.</li>\n        <li><strong>Teach:</strong> the one idea, step by step, with the board or slide on screen.</li>\n        <li><strong>Examples:</strong> two solved examples, an easy one then an exam-level one.</li>\n        <li><strong>Practice:</strong> \"pause the video and try this one\", then show the answer.</li>\n        <li><strong>Recap:</strong> three lines, and what the next lesson covers.</li>\n      </ol>\n      <h3>Talking to a lens</h3>\n      <p>Most educators find the first ten recordings awkward and the next ten normal. A few things help: stick a small note with the student's name you are teaching to next to the lens; keep your bullet outline just below the camera; record each lesson in one or two takes and accept small slips; and stand or sit the way you do in class, not stiffly. Students choose a teacher for clarity and warmth, not for a newsreader's polish.</p>\n      <h3>Batch your recording</h3>\n      <p>Record a whole module in one or two sittings: same clothes, same light, same framing. It is faster, and the module looks like one piece. Label files as you go (M2-L04-percentage-shortcuts.mp4) so editing and uploading stay in order.</p>\n      <div class=\"v3-quote\">\n        <p>\"The educators whose first courses sell are not the best performers on camera. They are the ones whose lessons are short, in order and clearly explained.\"</p>\n        <cite>Amit Ratan, Founder &amp; CEO, AllCoaching</cite>\n      </div>"
+  },
+  {
+   "id": "editing",
+   "h2": "How should you edit course videos with free tools?",
+   "toc": null,
+   "html": "<p><strong>Edit lightly: trim the start and end, cut long pauses and mistakes, raise the volume if needed, and add a title card.</strong> Course students want clarity, not transitions and music.</p>\n      <p>Free editors are enough for this. Shotcut, for example, describes itself as \"a free, open source, cross-platform video editor\".<sup><a href=\"#ref-5\">5</a></sup> On a phone, the built-in gallery trimmer handles start and end cuts. If you made a mistake while recording, pause for two seconds, then repeat the sentence; the pause makes the cut easy to find later.</p>\n      <ul>\n        <li><strong>Keep:</strong> trims, cuts of long silences, a simple title card with module and lesson number, on-screen text for formulas or key words.</li>\n        <li><strong>Skip:</strong> background music under speech, fancy transitions, zoom effects on every sentence, intros longer than five seconds.</li>\n        <li><strong>Export:</strong> MP4 in landscape at the resolution you recorded. YouTube lists MP4 as its recommended container.<sup><a href=\"#ref-3\">3</a></sup></li>\n      </ul>\n      <p>A useful rule: if a lesson needs more than 15 minutes of editing, re-record it instead. Over-editing is the most common reason a first course takes months instead of weeks.</p>"
+  },
+  {
+   "id": "language",
+   "h2": "Should you create an online course in Hindi or a regional language?",
+   "toc": "Hindi, regional and captions",
+   "html": "<p><strong>Teach in the language your students think in and search in.</strong> For many Indian exam and skill students that is Hindi, Hinglish or a regional language, not English, and a course in their medium often feels made for them.</p>\n      {{fig:language-captions|Creating an online course in Hindi, Hinglish, a regional language or English, and adding YouTube automatic captions, then reviewing them before publishing|Choose the medium, then caption it. Logos belong to their owners.}}\n      <h3>Pick one medium per course</h3>\n      <p>Decide the medium before you record, and say it in the course title: \"NEET Biology in Hindi\", \"SSC Maths in Hinglish\", \"MPSC Polity in Marathi\". Mixing languages lesson by lesson confuses students. If you plan to serve two mediums, record two courses; the outline and PDFs can be shared and translated.</p>\n      <h3>Technical terms</h3>\n      <p>Exam students in Hindi medium still meet English terms in many papers and textbooks. A common approach is to teach in Hindi while writing key terms in both scripts on the board (\"कोशिका / cell\") and keeping a bilingual glossary in the module PDF.</p>\n      <h3>Captions</h3>\n      <p>Captions help students in noisy hostels, students with hearing loss and students revising quickly. YouTube creates automatic captions using speech recognition, and Hindi is among its supported languages. Its help page is clear about the limits:<sup><a href=\"#ref-2\">2</a></sup></p>\n      <div class=\"v3-quote\">\n        <p>\"Always review automatic captions and edit any parts that haven't been properly transcribed.\"</p>\n        <cite>YouTube Help, \"Use automatic captioning\"</cite>\n      </div>\n      <p>In practice, review the names, formulas and subject terms first; those are what automatic captions get wrong most. Captions are a YouTube feature, so check how they appear in your academy's player during your pilot.</p>"
+  },
+  {
+   "id": "demo-lesson",
+   "h2": "Why does every online course need a free demo lesson?",
+   "toc": null,
+   "html": "<p><strong>A free demo lesson lets students judge your teaching before they pay, and it is usually the single most persuasive thing on your course page.</strong> Make lesson 1 free and make it genuinely useful.</p>\n      {{fig:demo-funnel|How a free demo lesson sells an online course: a public YouTube lesson leads to the free demo lesson in the academy, then the course page and a UPI checkout|An example path for a spoken English course. Illustrative. Logos belong to their owners.}}\n      <ul>\n        <li><strong>Teach one thing fully.</strong> A demo that only lists what the course covers sells nothing. A demo that solves a real problem sells the next lesson.</li>\n        <li><strong>Keep it 10–15 minutes,</strong> recorded with the same kit and style as the rest of the course, so the student knows exactly what they are buying.</li>\n        <li><strong>End with the path:</strong> what the full course covers, how long it takes, and where to enrol.</li>\n      </ul>\n      <p>Your public YouTube videos do the same job one step earlier. A useful free lesson on your channel brings a student to your academy; the demo lesson there turns that interest into a decision. When you are ready to promote the course, our guide on <a href=\"/blog/how-to-sell-courses-online-in-india\">how to sell courses online in India</a> picks up from here.</p>"
+  },
+  {
+   "id": "upload",
+   "h2": "How do you upload and organise your course in your academy?",
+   "toc": "Upload and organise",
+   "html": "<p><strong>Create the course, add lessons in syllabus order module by module, attach each module's PDF and test, mark lesson 1 as free, write the description from your outcome sentence, and keep the course in draft until the pilot is done.</strong></p>\n      {{fig:workflow|Online course workflow from recording to upload: script, record, edit, upload to YouTube as unlisted, then add the lesson to a course in the AllCoaching studio|Five steps per lesson, batched by module. Studio preview · sample data. Logos belong to their owners.}}\n      <h3>Name things the way students search</h3>\n      <p>Use titles students would type: \"SSC CGL Maths in Hindi: Arithmetic Complete Course\", not \"Batch 7 Recorded\". Number lessons consistently (Module 2 · Lesson 4 · Percentage shortcuts) so the list reads like a syllabus.</p>\n      <h3>Write the description from the outcome</h3>\n      <p>The first line is your outcome sentence. Then list what is inside: number of modules, lessons, PDFs and tests, the live class schedule, the language, and who it is for and not for. That is the information students compare.</p>\n      <h3>On AllCoaching</h3>\n      <p>In the AllCoaching studio, the Content section holds your videos, PDFs and test series, and a course bundles them in the order you choose. Videos come in through YouTube, so you upload once to YouTube and add the lesson to the course. Students buy through UPI or card checkout, access opens automatically, and payouts reach your bank through Razorpay. The course lives on your own academy website and your own Android app on every plan, with the iOS app on Pro and Scale. If you have not decided where your academy will live yet, our explainer on <a href=\"/blog/what-is-an-online-academy\">what an online academy is</a> covers the options.</p>\n      {{cta}}"
+  },
+  {
+   "id": "pilot",
+   "h2": "How do you test an online course with 5–10 students before launch?",
+   "toc": "Pilot with 5–10 students",
+   "html": "<p><strong>Give the course free or at a discount to 5–10 students from your current batch or audience, ask them to finish module 1 within a week on their own phones, and fix the top three problems they report before you open it to everyone.</strong></p>\n      {{fig:pilot-checklist|Pilot test checklist for a new online course: what 5 to 10 pilot students do and what the educator checks before launch|A small pilot batch finds problems before paying students do.}}\n      <h3>Who to pick</h3>\n      <p>Choose a mix: two strong students, two average ones, one or two who struggle, and at least one who uses a basic Android phone on mobile data. If you teach a skill, include someone who has never tried it. Their confusion is your most useful data.</p>\n      <h3>What to ask</h3>\n      <ul>\n        <li>Where did you stop watching, and why?</li>\n        <li>Which lesson needed a second watch?</li>\n        <li>Was the audio clear on your earphones?</li>\n        <li>Was any test question unclear or wrong?</li>\n        <li>What did you search for that was not in the course?</li>\n      </ul>\n      <p>Collect the answers in one sheet and count. If three students ask the same question, it becomes a new lesson or a line in the PDF. If two students stopped at the same lesson, that lesson is too long or out of order.</p>\n      <p>Pilot students also give you your first honest feedback to quote on the course page, with their permission and in their own words. Never add results or ranks you cannot prove.</p>"
+  },
+  {
+   "id": "updating",
+   "h2": "How often should you update an online course?",
+   "toc": "Updating the course",
+   "html": "<p><strong>Review the course after every batch and before every exam cycle: re-record lessons that confuse students, update PDFs and tests when the syllabus or pattern changes, and add lessons for questions that keep coming up in live classes.</strong> Short lessons make this cheap; you replace one 10-minute video, not a 90-minute lecture.</p>\n      <ul>\n        <li><strong>After each batch:</strong> read the doubt-class questions and test results; fix the weakest three lessons.</li>\n        <li><strong>When an exam notification changes the pattern:</strong> update the outline, tests and the course description first, then the affected lessons.</li>\n        <li><strong>Every year:</strong> refresh the demo lesson and the course title year so students know it is current.</li>\n      </ul>\n      <p>Keep a simple change log at the top of the course description (\"Updated October 2026: new mock tests for the revised pattern\"). Students trust a course that visibly stays current, and you avoid the trap of a second \"2027 edition\" that splits your students across two versions.</p>"
+  },
+  {
+   "id": "mistakes",
+   "h2": "Common mistakes when you create your first online course",
+   "toc": null,
+   "html": "<p><strong>The most common first-course mistakes are recording full-length classroom lectures, buying equipment before recording anything, reading a script, over-editing, shipping videos without notes or tests, and launching without a pilot.</strong> Each has a simple fix.</p>\n      {{fig:mistakes|Six common mistakes when creating a first online course and the fix for each: long lectures, buying gear first, reading a script, over-editing, videos only and launching untested|Six mistakes we see most often, and the fix for each.}}\n      <p>One more that is easy to miss: keeping everything in WhatsApp groups and Drive links. It works for one batch, then breaks when you have three batches, two price points and students asking who has access to what. Putting the course in one place, with its own checkout, is what lets it run while you teach the next batch.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to create an online course in India",
+  "description": "Eight steps for an Indian educator to create a first online course with video lessons, PDF notes, tests and live classes.",
+  "total_time": "P21D",
+  "items": [
+   [
+    "Choose the topic and outcome",
+    "Pick a topic you already teach and write one sentence naming the student, the result and the time the course takes."
+   ],
+   [
+    "Outline modules and lessons",
+    "Split the syllabus into 4–8 modules and each module into 5–15 minute lessons that teach one idea each."
+   ],
+   [
+    "Pick your formats",
+    "Plan video lessons to teach, a PDF of notes and a test for every module, and a weekly live class for doubts."
+   ],
+   [
+    "Set up a budget recording kit",
+    "Use your phone, a lapel mic, a tripod and soft light facing you, plus a free screen recorder for slides and problems."
+   ],
+   [
+    "Script and record",
+    "Write a bullet outline per lesson (hook, idea, examples, practice, recap) and record one module at a time."
+   ],
+   [
+    "Edit and caption",
+    "Trim mistakes and pauses with a free editor, export MP4, and review YouTube automatic captions in Hindi or English."
+   ],
+   [
+    "Upload and organise in your academy",
+    "Upload videos to YouTube as unlisted, add them to the course in order with PDFs and tests, and mark lesson 1 as a free demo."
+   ],
+   [
+    "Pilot with 5–10 students",
+    "Open module 1 to a small batch, collect where they get stuck, fix the top three issues and then launch to everyone."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "How do I create an online course in India?",
+   "Choose one outcome for one group of students, split the syllabus into modules of 5–15 minute lessons, record them on a phone with a lapel mic, add PDF notes and a test to each module, offer a free demo lesson, upload everything to your academy and pilot it with 5–10 students before launch."
+  ],
+  [
+   "How do I make an online course on my phone?",
+   "Mount the phone on a tripod in landscape at eye level, clip a lapel mic below your chin, sit facing soft light, and record one short lesson at a time. Trim the start and end in a free editor or the phone's gallery, export MP4 and upload it."
+  ],
+  [
+   "Can I create an online course in Hindi?",
+   "Yes. Choose Hindi as the medium for the whole course, say so in the title, write key technical terms in both scripts, and use YouTube automatic captions, which support Hindi, after reviewing them for errors in names and subject terms."
+  ],
+  [
+   "What equipment do I need to record an online course in India?",
+   "A smartphone you already own, a lapel mic, a tripod or phone stand, and soft light facing you. Illustratively a lapel mic costs ₹500–₹2,000 and a stand ₹400–₹1,500 in India. A free screen recorder such as OBS Studio covers slides and problem-solving."
+  ],
+  [
+   "How long should online course videos be?",
+   "Most lessons work best at 5–15 minutes with one idea each. Short lessons are easier to watch on a phone, easier to find when revising and easier to re-record when the syllabus changes."
+  ],
+  [
+   "What is a good structure for an online course?",
+   "Four to eight modules that follow the syllabus or a learning order, each made of short video lessons, one PDF of notes and a module test, with full mock tests or a final project at the end and lesson 1 free as a demo."
+  ],
+  [
+   "Where should I host my course videos?",
+   "Many Indian educators upload lessons to YouTube as unlisted videos, which only people with the link can watch, and add them to a paid course in their academy. On AllCoaching, videos via YouTube are unlimited on every plan."
+  ],
+  [
+   "Should I test my course before launching it?",
+   "Yes. Give it to 5–10 students free or at a discount, ask them to finish module 1 in a week on their own phones, and fix the top three problems they report before you open it to everyone."
+  ],
+  [
+   "How much does it cost to create and sell an online course in India?",
+   "Recording can start with a phone you own plus a mic. To sell it from your own academy on AllCoaching, there is a 14-day free trial with no card, then plans of ₹6,999, ₹12,999 or ₹24,999 a year with a 10%, 7.5% or 5% platform fee, or ₹99,999 a year with 0%, all excluding GST."
+  ]
+ ],
+ "glossary": [
+  [
+   "course-outcome",
+   "Course outcome",
+   "One sentence describing what a student will be able to do after finishing the course, and in how long."
+  ],
+  [
+   "module",
+   "Module",
+   "A group of related lessons inside a course, usually one unit or chapter of the syllabus, ending with notes and a test."
+  ],
+  [
+   "micro-lesson",
+   "Micro-lesson",
+   "A short video lesson of about 5–15 minutes that teaches one idea."
+  ],
+  [
+   "lapel-mic",
+   "Lapel mic",
+   "A small clip-on microphone worn on the shirt, close to the mouth, that records clearer voice than a phone's built-in mic."
+  ],
+  [
+   "screen-recording",
+   "Screen recording",
+   "A video capture of your computer or tablet screen, used to teach with slides, a digital whiteboard or software."
+  ],
+  [
+   "unlisted-video",
+   "Unlisted video",
+   "A YouTube video that anyone with the link can watch but that does not appear in YouTube search or on your channel's Videos tab."
+  ],
+  [
+   "automatic-captions",
+   "Automatic captions",
+   "Subtitles that YouTube generates from a video's speech using speech recognition, which the educator should review and correct."
+  ],
+  [
+   "demo-lesson",
+   "Demo lesson",
+   "One complete lesson offered free so students can judge your teaching before they buy the course."
+  ],
+  [
+   "pilot-batch",
+   "Pilot batch",
+   "A small group of 5–10 students who take a new course before launch so the educator can find and fix problems."
+  ]
+ ],
+ "references": [
+  "YouTube Help, \"Change video privacy settings\" (unlisted videos), <a href=\"https://support.google.com/youtube/answer/157177\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "YouTube Help, \"Use automatic captioning\" (supported languages and review), <a href=\"https://support.google.com/youtube/answer/6373554\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "YouTube Help, \"YouTube recommended upload encoding settings\", <a href=\"https://support.google.com/youtube/answer/1722171\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "OBS Studio, official website, <a href=\"https://obsproject.com/\" target=\"_blank\" rel=\"noopener nofollow\">obsproject.com</a>, checked October 2026.",
+  "Shotcut, official website, <a href=\"https://www.shotcut.org/\" target=\"_blank\" rel=\"noopener nofollow\">shotcut.org</a>, checked October 2026.",
+  "AllCoaching pricing, <a href=\"/pricing\">allcoaching.in/pricing</a>, October 2026."
+ ],
+ "citations": [
+  "https://support.google.com/youtube/answer/157177",
+  "https://support.google.com/youtube/answer/6373554",
+  "https://support.google.com/youtube/answer/1722171",
+  "https://obsproject.com/",
+  "https://www.shotcut.org/",
+  "https://allcoaching.in/pricing"
+ ],
+ "about": [
+  {
+   "name": "Online course"
+  },
+  {
+   "name": "Instructional design",
+   "sameAs": "https://en.wikipedia.org/wiki/Instructional_design"
+  },
+  {
+   "name": "Educational technology",
+   "sameAs": "https://en.wikipedia.org/wiki/Educational_technology"
+  },
+  {
+   "name": "Learning management system",
+   "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
+  },
+  {
+   "name": "Closed captioning",
+   "sameAs": "https://en.wikipedia.org/wiki/Closed_captioning"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "YouTube",
+   "url": "https://www.youtube.com"
+  },
+  {
+   "name": "OBS Studio",
+   "url": "https://obsproject.com",
+   "type": "SoftwareApplication"
+  },
+  {
+   "name": "Shotcut",
+   "url": "https://www.shotcut.org",
+   "type": "SoftwareApplication"
+  },
+  {
+   "name": "Zoom",
+   "url": "https://zoom.us"
+  },
+  {
+   "name": "Razorpay",
+   "url": "https://razorpay.com"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/how-to-start-online-academy-in-5-steps",
+  "/blog/what-is-an-online-academy",
+  "/blog/how-to-price-online-courses-india",
+  "/blog/how-to-sell-courses-online-in-india"
+ ]
+}
