@@ -137,6 +137,7 @@ def build(cpath):
     url = f'{SITE}/{d}/{slug}'
     cover = f'{SITE}/assets/blog/{slug}/cover.webp'
     gtm, header, foot, band = shell_parts()
+    author_note = c.get('author_note', 'AllCoaching wrote this comparison, so we link every competitor figure to its official source and say where another option fits better.')
     date_p, date_m = c['date_published'], c.get('date_modified', '2026-10-24')
 
     toc = [(s['id'], s['toc']) for s in c['sections'] if s.get('toc')] + [('faq', c.get('faq_toc', 'FAQ'))]
@@ -192,7 +193,7 @@ def build(cpath):
                            "description": "14-day free trial with no card needed, then Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 per year (excl. GST) with a 10%, 7.5% or 5% platform fee on sales, or Scale ₹99,999 per year with 0% platform fee (zero commission)."},
                 "featureList": ["Academy website on your own connected domain", "Own white-label Android app (iOS app on Pro and Scale)", "Zero-commission Scale plan (0% platform fee)", "Unlimited live classes via YouTube Live, Zoom or the built-in live room",
                                 "Unlimited videos via YouTube", "Courses, PDF notes and test series", "UPI and card checkout with automatic Razorpay payouts",
-                                "Meta Pixel and Google Tag Manager", "Free customizable themes and templates", "Student data export", "Marketplace discovery on the AllCoaching app"],
+                                "Meta Pixel and Google Tag Manager", "Free customizable themes and templates", "Student data export"],
                 "provider": {"@id": "https://allcoaching.in/#organization"}, "countriesSupported": "IN"}
 
     def ld(o):
@@ -330,7 +331,7 @@ def build(cpath):
       <div>
         <b><a href="/author/amit-ratan">Amit Ratan</a></b>
         <span>Founder &amp; CEO, AllCoaching</span>
-        <p>Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. AllCoaching wrote this comparison, so we link every competitor figure to its official source and say where another option fits better.</p>
+        <p>Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. {author_note}</p>
       </div>
     </div>
   </article>
