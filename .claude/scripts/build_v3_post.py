@@ -128,7 +128,7 @@ def cost_table(slug):
                    ''.join(f'<td>{cg.inr(cg.comp_cost(x["plans"], v))}</td>' for x in comps) + '</tr>' for v in levels)
     notes = ' '.join(x['note'] + '.' for x in comps if x.get('note'))
     return (f'<div class="v3-table"><table><thead><tr>{head}</tr></thead><tbody>{rows}</tbody>'
-            f'<caption>Plan price + published fee on sales, cheapest plan per row, before GST. {H.escape(notes)}</caption></table></div>')
+            f'<caption>Plan price + published fee on sales, lowest-cost plan per row, before GST. {H.escape(notes)}</caption></table></div>')
 
 
 def build(cpath):

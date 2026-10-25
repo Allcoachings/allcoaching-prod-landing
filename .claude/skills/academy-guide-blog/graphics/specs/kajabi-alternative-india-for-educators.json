@@ -1,0 +1,199 @@
+{
+ "slug": "kajabi-alternative-india-for-educators",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "lines": [
+   "Need a Kajabi",
+   "*alternative in India?*"
+  ],
+  "sub": "Five options, compared fairly",
+  "options": [
+   "Kajabi",
+   "Exly",
+   "TagMango",
+   "Graphy",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *what you need*"
+  ],
+  "rows": [
+   {
+    "need": "You want your own website and app, with UPI checkout in rupees",
+    "pick": "AllCoaching",
+    "why": "Own domain and Android + iOS app on every plan, from ₹6,999/yr + 10%",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You sell sessions and webinars and want automation",
+    "pick": "Exly or TagMango",
+    "why": "No yearly fee on entry plans, 10% commission; app and domain are add-ons",
+    "icon": "message"
+   },
+   {
+    "need": "You are a creator selling to your own audience",
+    "pick": "Graphy",
+    "why": "Creator-focused course selling; check its rupee plans on graphy.com",
+    "icon": "users"
+   },
+   {
+    "need": "You sell worldwide in dollars and use funnels daily",
+    "pick": "Kajabi (stay)",
+    "why": "0% revenue share; from US$143 a month billed annually",
+    "icon": "chart"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Entry price, *as published*"
+  ],
+  "sub": "Lowest plan on each official page. US-dollar prices are not converted.",
+  "rows": [
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter)",
+    "published": true
+   },
+   {
+    "name": "Exly",
+    "price": 0,
+    "label": "No yearly fee",
+    "fee": "+10% commission (Starter); app add-on extra",
+    "published": true
+   },
+   {
+    "name": "TagMango",
+    "price": 0,
+    "label": "No fixed fee",
+    "fee": "+10% (Basic, up to 200 students), + GST",
+    "published": true
+   },
+   {
+    "name": "Kajabi",
+    "price": 0,
+    "label": "US$143/mo",
+    "fee": "Basic billed annually, in US dollars; 0% revenue share",
+    "published": false
+   },
+   {
+    "name": "Graphy",
+    "price": 0,
+    "label": "Not confirmed",
+    "fee": "Check rupee plans on graphy.com",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "What you pay *as you grow*"
+  ],
+  "sub": "Rupee plans only: plan price + fee on sales, lowest-cost plan at each level, before GST",
+  "competitors": [
+   {
+    "name": "Exly",
+    "plans": [
+     [
+      0,
+      0.1
+     ],
+     [
+      30000,
+      0.06
+     ],
+     [
+      108000,
+      0.03
+     ]
+    ],
+    "note": "Exly: Starter, Pro or Premium; app add-on from ₹60,000/yr not included"
+   },
+   {
+    "name": "TagMango",
+    "plans": [
+     [
+      0,
+      0.1
+     ],
+     [
+      60000,
+      0.055
+     ],
+     [
+      180000,
+      0.035
+     ],
+     [
+      360000,
+      0
+     ]
+    ],
+    "note": "TagMango: Basic to Ultimate, + GST; ₹24,999/yr domain setup not included"
+   }
+  ],
+  "levels": [
+   50000,
+   100000,
+   300000,
+   500000,
+   1000000
+  ]
+ },
+ "switch": {
+  "title": [
+   "Switch in *four calm steps*"
+  ],
+  "steps": [
+   [
+    "Build your academy",
+    "Start the 14-day trial and upload one course"
+   ],
+   [
+    "Run both side by side",
+    "Keep current Kajabi members where they are"
+   ],
+   [
+    "Move new admissions",
+    "Send Indian students to your own website and app"
+   ],
+   [
+    "Close the old plan",
+    "Only after current access periods end"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Still selling",
+   "*like this?*"
+  ],
+  "tapes": [
+   "Paying in US dollars",
+   "Can my students pay by UPI?",
+   "App only on the top plan",
+   "Doubts on WhatsApp",
+   "Live class links on Zoom"
+  ],
+  "note": [
+   "Too many",
+   "tools"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android + iOS app",
+   "Live classes, unlimited",
+   "UPI and card checkout",
+   "Prices in rupees"
+  ]
+ }
+}

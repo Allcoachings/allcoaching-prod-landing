@@ -1,0 +1,55 @@
+{
+ "slug": "teachable-thinkific-alternative-india",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "lines": ["Teachable or Thinkific", "*alternative in India?*"],
+  "sub": "UPI checkout and rupee plans, compared fairly",
+  "options": ["Teachable", "Thinkific", "Learnyst", "Edmingle", "Graphy", "AllCoaching"]
+ },
+ "verdict": {
+  "title": ["Pick by *where students pay*"],
+  "rows": [
+   {"need": "Your students are in India and pay by UPI", "pick": "AllCoaching", "why": "Own domain, Android + iOS app and UPI checkout on every plan, from ₹6,999/yr + 10%", "icon": "globe", "us": true},
+   {"need": "Your academy is mostly mock tests", "pick": "Learnyst", "why": "Test-series focus; Launcher ₹10,000/yr + 10%, or 0% fee on monthly plans", "icon": "check"},
+   {"need": "You run a training business with batches and branches", "pick": "Edmingle", "why": "Plans from ₹7,499 a month billed annually, taxes extra", "icon": "layers"},
+   {"need": "Most of your buyers are abroad and pay in dollars", "pick": "Teachable or Thinkific (stay)", "why": "Global payments; Teachable from US$29, Thinkific from US$82 a month billed annually", "icon": "chart"}
+  ]
+ },
+ "prices": {
+  "title": ["Entry price, *as published*"],
+  "sub": "Lowest plan on each official page. US-dollar prices are not converted.",
+  "rows": [
+   {"name": "AllCoaching", "price": 6999, "label": "₹6,999/yr", "fee": "+10% on sales (Starter)", "published": true},
+   {"name": "Learnyst", "price": 10000, "label": "₹10,000/yr", "fee": "+10% of sales (Launcher), taxes extra", "published": true},
+   {"name": "Edmingle", "price": 89988, "label": "₹89,988/yr", "fee": "₹7,499/month billed annually, taxes extra", "published": true},
+   {"name": "Teachable", "price": 0, "label": "US$29/mo", "fee": "Starter billed annually, in US dollars; +7.5% fee", "published": false},
+   {"name": "Thinkific", "price": 0, "label": "US$82/mo", "fee": "Start billed annually, in US dollars; app add-on extra", "published": false},
+   {"name": "Graphy", "price": 0, "label": "Not confirmed", "fee": "Check rupee plans on graphy.com", "published": false}
+  ]
+ },
+ "cost": {
+  "title": ["What you pay *as you grow*"],
+  "sub": "Rupee plans only: plan price + fee on sales, lowest-cost plan at each level, before GST",
+  "levels": [50000, 100000, 300000, 500000, 1000000, 1500000],
+  "competitors": [
+   {"name": "Learnyst", "plans": [[10000, 0.1], [97188, 0]], "note": "Learnyst: Launcher or Professional (annual), taxes extra"},
+   {"name": "Edmingle", "plans": [[89988, 0]], "note": "Edmingle: Core billed annually; fee on sales not stated"}
+  ]
+ },
+ "switch": {
+  "title": ["Move in *four calm steps*"],
+  "steps": [
+   ["Build your academy", "Start the 14-day trial and upload one course"],
+   ["Run both side by side", "Existing students keep their access"],
+   ["Move new admissions", "Send Indian students to your own website and app"],
+   ["Close the old plan", "Only after access periods end"]
+  ]
+ },
+ "before_after": {
+  "left_title": ["Still selling", "*like this?*"],
+  "tapes": ["Platform bill in US dollars", "Can students pay by UPI?", "Branded app is an add-on", "Product cap reached", "Doubts on WhatsApp"],
+  "note": ["Too many", "tools"],
+  "right_title": ["One login.", "*Your academy.*"],
+  "checks": ["Website on your domain", "Your own Android + iOS app", "Live classes, unlimited", "UPI and card checkout", "Prices in rupees"]
+ }
+}

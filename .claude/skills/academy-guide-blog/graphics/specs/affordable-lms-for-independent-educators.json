@@ -1,0 +1,210 @@
+{
+ "slug": "affordable-lms-for-independent-educators",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Which LMS is",
+   "*really affordable?*"
+  ],
+  "sub": "Nine options, total cost compared",
+  "options": [
+   "Exly",
+   "Learnyst",
+   "Classplus",
+   "TagMango",
+   "Edmingle",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Affordable for *what you need*"
+  ],
+  "rows": [
+   {
+    "need": "You need only a checkout page and expect small sales",
+    "pick": "Exly Starter",
+    "why": "No upfront fee, 10% commission; an app is an add-on from ₹60,000 a year",
+    "icon": "chart"
+   },
+   {
+    "need": "You want your own website and Android + iOS app",
+    "pick": "AllCoaching",
+    "why": "Both on every plan from ₹6,999/yr + a fee only when you sell; 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You sell above ₹2.3 lakh a year and want a flat price",
+    "pick": "Classplus",
+    "why": "Lists ₹29,999 a year; ask about GST, any fee on sales and iOS",
+    "icon": "check"
+   },
+   {
+    "need": "Your income is mostly mock tests",
+    "pick": "Learnyst",
+    "why": "Test-series focus; Launcher ₹10,000/yr + 10%, or 0% fee on monthly plans",
+    "icon": "check"
+   },
+   {
+    "need": "Most of your students pay in dollars",
+    "pick": "Teachable or Kajabi",
+    "why": "US-dollar plans; check card processing and transaction fees",
+    "icon": "users"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Entry price, *as published*"
+  ],
+  "sub": "Lowest plan on each official pricing page, per year, in rupees",
+  "rows": [
+   {
+    "name": "Exly",
+    "price": 0,
+    "label": "No upfront fee",
+    "fee": "+10% commission on Starter",
+    "published": false
+   },
+   {
+    "name": "TagMango",
+    "price": 0,
+    "label": "No fixed fee",
+    "fee": "+10% on Basic, up to 200 students",
+    "published": false
+   },
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter), GST extra",
+    "published": true
+   },
+   {
+    "name": "Learnyst",
+    "price": 10000,
+    "label": "₹10,000/yr",
+    "fee": "+10% of sales (Launcher), taxes extra",
+    "published": true
+   },
+   {
+    "name": "Classplus",
+    "price": 29999,
+    "label": "₹29,999/yr",
+    "fee": "Fee on sales and GST not stated",
+    "published": true
+   },
+   {
+    "name": "Graphy",
+    "price": 0,
+    "label": "Not confirmed in ₹",
+    "fee": "Check rupee plans on graphy.com",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "What you pay *in a year*"
+  ],
+  "sub": "Plan price + fee on sales, lowest-cost plan at each level, before GST",
+  "competitors": [
+   {
+    "name": "Exly",
+    "plans": [
+     [
+      0,
+      0.1
+     ],
+     [
+      30000,
+      0.06
+     ],
+     [
+      108000,
+      0.03
+     ]
+    ],
+    "note": "Exly: Starter, Pro or Premium; app add-on (from ₹60,000/yr) not included"
+   },
+   {
+    "name": "Learnyst",
+    "plans": [
+     [
+      10000,
+      0.1
+     ],
+     [
+      97188,
+      0
+     ]
+    ],
+    "note": "Learnyst: Launcher or Professional (annual), taxes extra"
+   },
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed price; fee on sales not stated"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Choose in *four steps*"
+  ],
+  "sub": "Do the sums before you pay anything",
+  "steps": [
+   [
+    "Estimate your sales",
+    "Be honest about the first year"
+   ],
+   [
+    "List your must-haves",
+    "Domain, app, live classes, tests"
+   ],
+   [
+    "Add up the total",
+    "Plan + fee + add-ons + GST"
+   ],
+   [
+    "Test on a free trial",
+    "Build one course before you pay"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "The plan price",
+   "*is not the bill*"
+  ],
+  "tapes": [
+   "App add-on, every year",
+   "Domain setup fee",
+   "Fee on every sale",
+   "GST on top",
+   "Hosting and plugins"
+  ],
+  "note": [
+   "Add it",
+   "all up"
+  ],
+  "right_title": [
+   "One plan.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android + iOS app",
+   "Live classes, unlimited",
+   "UPI and card checkout",
+   "Fee only when you sell"
+  ]
+ }
+}

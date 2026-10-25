@@ -1,0 +1,139 @@
+{
+ "slug": "classplus-vs-graphy-vs-allcoaching",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "lines": [
+   "Classplus, Graphy",
+   "*or AllCoaching?*"
+  ],
+  "sub": "Three platforms, compared fairly",
+  "options": [
+   "Classplus",
+   "Graphy",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *what you run*"
+  ],
+  "rows": [
+   {
+    "need": "You want your own website and app, built yourself",
+    "pick": "AllCoaching",
+    "why": "Own domain and Android + iOS app on every plan, 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "Established institute selling above ₹2.3 lakh a year",
+    "pick": "Classplus",
+    "why": "Lists ₹29,999 a year; ask about GST, fees on sales and renewal",
+    "icon": "chart"
+   },
+   {
+    "need": "Creator selling to an audience you already have",
+    "pick": "Graphy",
+    "why": "Creator-focused, 14-day trial; check its rupee plans on graphy.com",
+    "icon": "users"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Entry price, *as published*"
+  ],
+  "sub": "Lowest plan on each official pricing page, per year",
+  "rows": [
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter), GST extra",
+    "published": true
+   },
+   {
+    "name": "Classplus",
+    "price": 29999,
+    "label": "₹29,999/yr",
+    "fee": "Fee on sales, GST and renewal not stated",
+    "published": true
+   },
+   {
+    "name": "Graphy",
+    "price": 0,
+    "label": "Not confirmed",
+    "fee": "Check rupee plans on graphy.com",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "Classplus vs AllCoaching *as you grow*"
+  ],
+  "competitors": [
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed 1-year price; fee on sales not stated. Graphy: rupee prices not confirmed"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Switch in *four calm steps*"
+  ],
+  "steps": [
+   [
+    "Build your academy",
+    "Start the 14-day trial and upload one course"
+   ],
+   [
+    "Run both side by side",
+    "Keep current students where they are"
+   ],
+   [
+    "Move new admissions",
+    "Send new students to your own website and app"
+   ],
+   [
+    "Close the old plan",
+    "Only after the last batch finishes"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Still teaching",
+   "*like this?*"
+  ],
+  "tapes": [
+   "Live class on another app",
+   "Fees on UPI screenshots",
+   "Notes in Drive",
+   "Doubts on WhatsApp",
+   "Student list in Excel"
+  ],
+  "note": [
+   "Too many",
+   "tools!"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android + iOS app",
+   "Live classes, unlimited",
+   "UPI and card checkout",
+   "Tests and notes in one place"
+  ]
+ }
+}

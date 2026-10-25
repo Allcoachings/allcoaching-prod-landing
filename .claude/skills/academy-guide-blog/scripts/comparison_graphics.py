@@ -157,7 +157,7 @@ def cost(sp):
     step = 25000 if raw <= 200000 else 50000
     mx = step * 4 * -(-raw // (step * 4))
     mx = max(mx, step * 4)
-    b = headline(60, 96, c['title'], 48) + lines(62, 146, [c.get('sub', 'Plan price + fee on sales, cheapest plan at each level, before GST')], 22)
+    b = headline(60, 96, c['title'], 48) + lines(62, 146, [c.get('sub', 'Plan price + fee on sales, lowest-cost plan at each level, before GST')], 22)
     for g in range(5):
         yy = y0 + ch - ch * g / 4
         b += f'<line x1="{x0}" y1="{yy}" x2="{x0 + cw}" y2="{yy}" stroke="{LINE}" stroke-width="2"/>' + text(x0 - 14, yy + 6, lakh(mx * g / 4), 15, MUTED, anchor='end')

@@ -1,0 +1,153 @@
+{
+ "slug": "graphy-alternative-with-organic-marketplace-traffic",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "A Graphy alternative",
+   "*students can find?*"
+  ],
+  "sub": "Four channels, compared fairly",
+  "options": [
+   "Graphy",
+   "Udemy",
+   "Exly",
+   "Kajabi",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *how students find you*"
+  ],
+  "rows": [
+   {
+    "need": "You want Google, YouTube and a listing working together",
+    "pick": "AllCoaching",
+    "why": "Own domain, own Android + iOS app and a marketplace listing on every plan",
+    "icon": "search",
+    "us": true
+   },
+   {
+    "need": "You want a big marketplace that already has shoppers",
+    "pick": "Udemy",
+    "why": "Your course lives on Udemy's site; check its revenue share first",
+    "icon": "users"
+   },
+   {
+    "need": "You sell to followers you already have",
+    "pick": "Exly",
+    "why": "WhatsApp and email automation; Starter has no upfront fee + 10%",
+    "icon": "message"
+   },
+   {
+    "need": "Your Google and YouTube traffic already works",
+    "pick": "Graphy (stay)",
+    "why": "Ask Graphy which discovery features your plan includes",
+    "icon": "chart"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Entry price, *as published*"
+  ],
+  "sub": "Lowest plan on each official page, or what we could not verify",
+  "rows": [
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter), GST extra",
+    "published": true
+   },
+   {
+    "name": "Exly",
+    "price": 0,
+    "label": "No upfront fee",
+    "fee": "+10% commission (Starter); app add-on from ₹60,000/yr",
+    "published": true
+   },
+   {
+    "name": "Udemy",
+    "price": 0,
+    "label": "Not a paid plan",
+    "fee": "Revenue share set by Udemy; not verified",
+    "published": false
+   },
+   {
+    "name": "Kajabi",
+    "price": 0,
+    "label": "In US dollars",
+    "fee": "$143/month billed annually, 0% revenue share",
+    "published": false
+   },
+   {
+    "name": "Graphy",
+    "price": 0,
+    "label": "Not confirmed",
+    "fee": "Check rupee plans on graphy.com from India",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "AllCoaching cost *as you grow*"
+  ],
+  "sub": "Starter, Growth or Pro, whichever costs less at each level, before GST",
+  "competitors": []
+ },
+ "switch": {
+  "title": [
+   "Switch and *keep your traffic*"
+  ],
+  "sub": "Change links in order, so every visitor lands somewhere that works",
+  "steps": [
+   [
+    "Build on your domain",
+    "Start the 14-day trial and upload one course"
+   ],
+   [
+    "Run both side by side",
+    "Current students stay on Graphy for now"
+   ],
+   [
+    "Point every link",
+    "YouTube, Instagram and WhatsApp go to your academy"
+   ],
+   [
+    "Close the old plan",
+    "When the Graphy term ends"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "One link,",
+   "*waiting for traffic?*"
+  ],
+  "tapes": [
+   "Only one sales page",
+   "No app for YouTube viewers",
+   "Ads for every student",
+   "No page per exam or subject",
+   "Not on any marketplace"
+  ],
+  "note": [
+   "Where are",
+   "students?"
+  ],
+  "right_title": [
+   "Found in",
+   "*more places.*"
+  ],
+  "checks": [
+   "Your own domain for Google",
+   "Your own Android + iOS app",
+   "UPI checkout from any link",
+   "Meta Pixel and GTM",
+   "Marketplace listing too"
+  ]
+ }
+}

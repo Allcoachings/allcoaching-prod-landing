@@ -1,0 +1,105 @@
+{
+ "slug": "physics-wallah-alternative-for-educators",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Physics Wallah",
+   "alternative for",
+   "*teachers?*"
+  ],
+  "sub": "Teach for a big brand, build your own, or both",
+  "options": [
+   "Keep teaching for PW",
+   "Another edtech brand",
+   "YouTube + WhatsApp",
+   "An app agency",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *what you want*"
+  ],
+  "sub": "There is no single best path. Start from what you want next.",
+  "rows": [
+   {
+    "need": "You want your own brand, app and student list",
+    "pick": "Own academy",
+    "why": "AllCoaching: own domain and Android + iOS app on every plan, 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You want students supplied and a regular payout",
+    "pick": "Teach for PW",
+    "why": "Reach and a set batch; pay and terms come in your offer, not on its website",
+    "icon": "users"
+   },
+   {
+    "need": "You want reach now and a name of your own later",
+    "pick": "Do both",
+    "why": "Teach for a brand and build your academy on the side, if your contract allows",
+    "icon": "layers"
+   },
+   {
+    "need": "You want someone else to build the app for you",
+    "pick": "An app agency",
+    "why": "Ask the yearly cost, any fee on sales and who can change the app after launch",
+    "icon": "puzzle"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Start *while you still teach*"
+  ],
+  "sub": "Build on the side first, if your contract allows",
+  "steps": [
+   [
+    "Read your contract",
+    "Check exclusivity and content clauses first"
+   ],
+   [
+    "Build your academy",
+    "14-day trial, your domain, your app"
+   ],
+   [
+    "Launch to your audience",
+    "YouTube, Instagram and WhatsApp first"
+   ],
+   [
+    "Grow at your pace",
+    "Keep both, or move fully when ready"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Side batches",
+   "*still run like this?*"
+  ],
+  "tapes": [
+   "Live class on another app",
+   "Fees on UPI screenshots",
+   "Notes in Drive",
+   "Doubts on WhatsApp",
+   "Tests on Google Forms"
+  ],
+  "note": [
+   "Too many",
+   "tools"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android + iOS app",
+   "Live classes, unlimited",
+   "UPI and card checkout",
+   "Tests and notes in one place"
+  ]
+ }
+}
