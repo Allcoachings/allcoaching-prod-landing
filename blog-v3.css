@@ -264,3 +264,14 @@ body.v3 footer{margin-top:96px}
 @media (max-width:640px){.v3-opt{padding:20px}.v3-opt dl{grid-template-columns:1fr}.v3-opt dt{margin-top:8px}}
 .v3-note{margin:24px 0;padding:16px 20px;border-left:3px solid #000;background:#FAFAF8;font-size:16px;line-height:1.5}
 .v3-refs a,.v3-refs li{overflow-wrap:anywhere;word-break:break-word}
+/* 2026-10-25 fixes: round author/byline photos (beat body.v3 img height:auto + flex stretch) */
+body.v3 .v3-author img{width:72px;height:72px;min-width:72px;aspect-ratio:1/1;border-radius:50%;object-fit:cover;align-self:flex-start}
+body.v3 .v3-byline img{width:56px;height:56px;min-width:56px;aspect-ratio:1/1;border-radius:50%;object-fit:cover;align-self:flex-start}
+body.v3 .v3-logo img{width:34px;height:34px}
+/* left rail: TOC scrolls, CTA card always fully visible */
+@media (min-width:861px){
+  .v3-left{display:flex;flex-direction:column;overflow:hidden}
+  .v3-left .v3-toc{min-height:0;overflow-y:auto;scrollbar-width:thin}
+  .v3-left .v3-sidecta{flex:none;margin-top:32px}
+  .v3-left .v3-sidecta p{font-size:24px}
+}

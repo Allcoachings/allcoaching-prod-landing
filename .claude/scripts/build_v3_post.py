@@ -243,7 +243,7 @@ def build(cpath):
   <link rel="preload" as="image" href="/assets/blog/{slug}/cover.webp" fetchpriority="high" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=IBM+Plex+Mono:wght@500;600&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/brand.css?v=20261015" />
-  <link rel="stylesheet" href="/blog-v3.css?v=20261024b" />
+  <link rel="stylesheet" href="/blog-v3.css?v=20261025a" />
 
   <!-- Schema 1/6: Article -->
 {ld(article)}
