@@ -24,17 +24,17 @@
   "sub": "A 0% plan pays off only once sales cover its fixed fee.",
   "rows": [
    {
-    "need": "You sell above ₹7 lakh a year and want 0%",
-    "pick": "AllCoaching Scale",
-    "why": "0% fee; ₹59,999/yr + GST, own website and apps included",
-    "icon": "trend",
-    "us": true
+    "need": "You sell above ₹14 lakh and want the lowest 0% price",
+    "pick": "Learnyst Professional",
+    "why": "0% fees; ₹8,099/month billed annually (₹97,188/yr), taxes extra",
+    "icon": "chart"
    },
    {
-    "need": "You need DRM test series at 0%",
-    "pick": "Learnyst Professional",
-    "why": "0% transaction fees; ₹8,099/month billed annually, taxes extra",
-    "icon": "chart"
+    "need": "You want 0% with your own website and apps",
+    "pick": "AllCoaching Scale",
+    "why": "0% fee; ₹99,999/yr + GST, own Android and iOS app included",
+    "icon": "trend",
+    "us": true
    },
    {
     "need": "You sell to students abroad in dollars",
@@ -43,7 +43,7 @@
     "icon": "globe"
    },
    {
-    "need": "You sell less than ₹7 lakh a year",
+    "need": "You sell less than ₹14 lakh a year",
     "pick": "AllCoaching Starter to Pro",
     "why": "₹6,999/yr + 10%, down to 5% on Pro; costs less than any 0% plan",
     "icon": "users",
@@ -58,17 +58,17 @@
   "sub": "Yearly price of the lowest 0% (or lowest-commission) plan, before GST",
   "rows": [
    {
-    "name": "AllCoaching",
-    "price": 59999,
-    "label": "₹59,999/yr",
-    "fee": "Scale, 0%; GST extra, apps included",
-    "published": true
-   },
-   {
     "name": "Learnyst",
     "price": 97188,
     "label": "₹97,188/yr",
     "fee": "Professional, 0%; ₹8,099/month billed annually",
+    "published": true
+   },
+   {
+    "name": "AllCoaching",
+    "price": 99999,
+    "label": "₹99,999/yr",
+    "fee": "Scale, 0%; GST extra, apps included",
     "published": true
    },
    {
@@ -198,7 +198,7 @@
    "*apps included.*"
   ],
   "checks": [
-   "Scale: ₹59,999 a year + GST",
+   "Scale: ₹99,999 a year + GST",
    "0% platform fee on sales",
    "Own domain included",
    "Own Android and iOS app",

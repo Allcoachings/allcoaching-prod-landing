@@ -47,11 +47,11 @@ The founding argument, in order (manifesto chapters at /manifesto):
 ## 3. Pricing truth (⚠️ money claim — get this exactly right)
 **Confirmed model (2026-10-07; supersedes free-forever, flat-10%, one-time and "Pro ~₹999/month" — all wrong now):**
 - **14-day free trial on every plan** — sign up, build the academy, then pick a plan. It is a *trial*, **not a free tier**: there is no free-forever plan. **No card is needed to start the trial** (user-confirmed 2026-10-07). Still unconfirmed: what happens to the academy when a trial lapses — don't claim it.
-- **Four annual plans (owner, 2026-10-25; prices exclude GST):** **Starter ₹6,999/yr** (10% platform fee, keep 90%, 512 GB, 1080p, own Android app) · **Growth ₹12,999/yr** (7.5%, keep 92.5%, 1 TB, 1080p, own Android app) · **Pro ₹24,999/yr** (5%, keep 95%, 3 TB, 4K, premium website template worth ₹10,000, own Android **and iOS** app) · **Scale ₹59,999/yr** (**0% platform fee, keep 100%**, everything in Pro incl. iOS app; bought by contacting WhatsApp +91 98899 77262, not self-serve). "Zero commission" is true only of Scale.
+- **Four annual plans (owner, 2026-10-25; prices exclude GST):** **Starter ₹6,999/yr** (10% platform fee, keep 90%, 512 GB, 1080p, own Android app) · **Growth ₹12,999/yr** (7.5%, keep 92.5%, 1 TB, 1080p, own Android app) · **Pro ₹24,999/yr** (5%, keep 95%, 3 TB, 4K, premium website template worth ₹10,000, own Android **and iOS** app) · **Scale ₹99,999/yr** (**0% platform fee, keep 100%**, everything in Pro incl. iOS app; bought through a branded "Contact us" CTA that opens WhatsApp +91 98899 77262; never label the CTA "WhatsApp"; not self-serve). "Zero commission" is true only of Scale.
 - **Every plan:** own connected custom domain, website templates, unlimited videos via YouTube, unlimited live classes via YouTube Live, own white-label Android app (iOS app on Pro and Scale only), free customizable themes/templates, plugins (Zoom, Razorpay, YouTube & more), Meta Pixel + GTM, marketplace discovery, UPI/card checkout, student CRM, separate teacher logins, data export.
 - Upgrades apply on payment with paid value credited; downgrades via support at next renewal; a non-renewed academy goes offline to students but content/data stay exportable. No setup fee, no monthly bill.
 - **Never** position as "cheap/cheapest LMS". The register is *simple, transparent, self-driven*: one predictable yearly plan.
-- Cost breakevens (illustrative, pre-GST): Starter is lowest below ~₹2.4L/yr sales, Growth ₹2.4–4.8L, Pro ₹4.8–7L, Scale (0%) above ₹7L. Live pricing page: **/pricing** (`/plans` 301s there).
+- Cost breakevens (illustrative, pre-GST): Starter is lowest below ~₹2.4L/yr sales, Growth ₹2.4–4.8L, Pro ₹4.8–15L, Scale (0%) above ₹15L. Live pricing page: **/pricing** (`/plans` 301s there).
 - Money in ₹ only (lakhs/crores, e.g. `₹4.8L`, `₹1.2Cr`) — never `$` / "INR" / "rupees". Use **ranges**, never fabricated exact stats.
 
 ## 4. Product / feature scope (don't over-claim)
@@ -86,7 +86,7 @@ Full system is the `brand-system` memory + repo `brand.css`; the essentials:
 
 ## 9. Guardrails (non-negotiable)
 - **Never fabricate** stats, cohort sizes, student anecdotes, sources, or `sameAs` URLs — YMYL topic; fabrication breaks trust and suppresses AI citation.
-- **Always** state pricing per §3: 14-day free trial, then one of four annual plans (Scale via WhatsApp). Never "free forever", "₹0 to start", "free tier", "flat 10%", "one-time fee" or "daily payouts". **Payouts (owner, 2026-10-17):** payouts are automatic through Razorpay; do NOT highlight payout speed (no "T+3", "paid in 3 days", "money in 3 days") as a selling point anywhere. **Traction:** 500+ educators already selling (confirmed 2026-10-15) — never claim "thousands of educators" on AllCoaching.
+- **Always** state pricing per §3: 14-day free trial, then one of four annual plans (Scale by contacting us). Never "free forever", "₹0 to start", "free tier", "flat 10%", "one-time fee" or "daily payouts". **Payouts (owner, 2026-10-17):** payouts are automatic through Razorpay; do NOT highlight payout speed (no "T+3", "paid in 3 days", "money in 3 days") as a selling point anywhere. **Traction:** 500+ educators already selling (confirmed 2026-10-15) — never claim "thousands of educators" on AllCoaching.
 - **Commit/push only when the user explicitly asks** — stage, verify, then stop and wait.
 - Keep the free vs paid vs unverified feature boundary (§4) exact.
 - New keyword/blog work must be **distinct from existing content** — verify before writing.
