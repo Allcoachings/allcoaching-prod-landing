@@ -1,0 +1,307 @@
+{
+ "slug": "white-label-coaching-app-development-cost-india",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "White Label Coaching App Development Cost in India (2026)",
+ "description": "White label coaching app development cost in India: custom build vs white-label vendor vs academy platform, store fees, published vendor prices and what to ask.",
+ "og_description": "An honest 2026 cost guide for Indian educators: the three ways to get a coaching app, every cost line from build to store accounts, sourced vendor prices, a year-one worksheet and the questions to ask before you sign.",
+ "keywords": [
+  "white label coaching app development cost india",
+  "coaching app development cost",
+  "cost to build coaching app india",
+  "white label app for teachers price",
+  "coaching app price india",
+  "custom coaching app vs white label",
+  "google play developer account fee",
+  "apple developer program fee india",
+  "branded coaching app cost",
+  "coaching app vendor questions"
+ ],
+ "h1": "White Label Coaching App Development Cost in India: An Honest 2026 Guide",
+ "dek": "What a coaching app really costs, line by line: custom development, white-label vendors and academy platforms compared, the Google and Apple store fees, published vendor prices with sources, and the questions to ask before you sign.",
+ "category": "Start an academy",
+ "date_published": "2026-05-14",
+ "date_modified": "2026-10-25",
+ "checked": "October 2026",
+ "cover_alt": "White label coaching app development cost in India: custom build, white-label vendor and academy platform compared",
+ "audience": "Indian educators, tutors and coaching institute owners pricing a branded coaching app for Android and iOS",
+ "author_note": "AllCoaching sells an academy platform with its own app, so this guide links every competitor and app-store figure to its official page, says \"not stated\" where a vendor does not publish a number, and labels our own worked examples as illustrative.",
+ "intro": [
+  "<strong>A white label coaching app in India can cost anything from a yearly plan priced in thousands of rupees to a custom build quoted entirely by scope, because \"coaching app\" covers three different things: a custom app built for you, a white-label vendor's app with your brand on it, and an academy platform that includes your own app with a website and checkout.</strong> The honest answer depends on which of the three you buy and on the costs that sit outside the first quote.",
+  "Picture a NEET biology teacher in Patna with 300 students on WhatsApp and YouTube. In one week she gets three quotes: an agency build, a white-label vendor's yearly fee and an academy platform's plan with an Android app included. They look impossible to compare, and none shows the full year.",
+  "This guide makes them comparable: the three routes, every cost line, the Google and Apple fees, what vendors publish (checked October 2026), a year-one worksheet and the questions to ask. Where a vendor publishes no figure, we say \"not stated\", and our own rupee examples are marked illustrative."
+ ],
+ "takeaways": [
+  "<strong>Three routes, three cost shapes:</strong> a custom build is quoted by scope, a white-label vendor charges setup and yearly fees, and an academy platform charges a yearly plan plus a fee on sales.",
+  "<strong>Eight cost lines belong in every budget:</strong> design and build, store accounts, hosting, video and live classes, payments, website and domain, maintenance and marketing.",
+  "<strong>Store fees are small but fixed:</strong> Google Play charges a US$25 one-time registration fee and Apple's Developer Program costs US$99 a year.",
+  "<strong>Published app prices vary widely</strong> (checked 24 Oct 2026): Classplus lists ₹29,999 for 1 year, TagMango a ₹74,999 + GST branded-apps setup on top of a plan, and Exly a mobile-app add-on from ₹60,000 a year.",
+  "<strong>Ask for the full year in writing:</strong> renewal price, fee on each sale, GST, which apps are included, whose developer account and how you export your data.",
+  "<strong>On AllCoaching</strong> every plan includes a website on your own domain and your own Android app; the iOS app is on Pro (₹24,999 a year) and Scale. Plans start at ₹6,999 a year + GST after a 14-day free trial."
+ ],
+ "sections": [
+  {
+   "id": "quick-answer",
+   "toc": "The short answer",
+   "h2": "How much does a white label coaching app cost in India?",
+   "html": "<p><strong>A coaching app costs what its route costs: a custom build is priced by an agency's scope, a white-label vendor charges a setup fee and a yearly licence or app add-on, and an academy platform includes the app in a yearly plan with a percentage fee on sales.</strong> Depending on the product, app-store fees, payment gateway charges and GST can add to any of these, and so does your own marketing.</p>\n      <p>Published examples: Classplus lists ₹29,999 for one year,<sup><a href=\"#ref-6\">[6]</a></sup> TagMango a ₹74,999 + GST branded-apps setup on top of a plan,<sup><a href=\"#ref-7\">[7]</a></sup> and Exly a mobile app add-on from ₹60,000 a year.<sup><a href=\"#ref-8\">[8]</a></sup> Custom agencies quote by scope, so we do not invent a figure for them.</p>\n      <p>The useful question is what the first full year and year two will cost. And if you are unsure you need an app at all, read <a href=\"/blog/what-is-an-online-academy\">what an online academy is</a>: the app is one part of it, beside a website, courses and checkout.</p>"
+  },
+  {
+   "id": "three-routes",
+   "toc": "Custom vs white-label vs platform",
+   "h2": "Custom development vs white-label vendor vs academy platform",
+   "html": "<p><strong>Custom development gives you software made only for you, a white-label vendor gives you its existing app under your brand, and an academy platform lets you build the app, website and courses yourself from one studio.</strong> They differ less in the app itself than in who pays for changes, who controls the listing and what you pay every year.</p>\n      {{fig:three-routes|Coaching app development cost in India: custom build vs white-label vendor vs academy platform compared|The three routes compared on upfront cost, yearly cost, changes and ownership.}}\n      <div class=\"v3-table\"><table>\n        <thead><tr><th></th><th>Custom build</th><th>White-label vendor</th><th>Academy platform</th></tr></thead>\n        <tbody>\n          <tr><td>Who builds it</td><td>An agency or freelance developer</td><td>The vendor, from its existing app</td><td>You, from templates and blocks</td></tr>\n          <tr><td>Upfront cost</td><td>Build quote by scope, often in stages</td><td>Setup fee where the vendor charges one</td><td>A free trial, then a yearly plan</td></tr>\n          <tr><td>Yearly cost</td><td>Hosting, maintenance, updates, store fees</td><td>Licence or app add-on, plus any fee on sales</td><td>Plan price plus a fee on sales</td></tr>\n          <tr><td>Changes</td><td>A paid developer task each time</td><td>Whatever the vendor's roadmap offers</td><td>You make them in the studio</td></tr>\n          <tr><td>Website and checkout</td><td>Separate build, or extra scope</td><td>Sometimes included, sometimes an add-on</td><td>Usually included</td></tr>\n          <tr><td>Best for</td><td>Unique features or deep integrations</td><td>Institutes that want a vendor to run it</td><td>Educators who want to run it themselves</td></tr>\n        </tbody>\n        <caption>General comparison. Individual vendors and agencies differ, so check each written offer.</caption>\n      </table></div>\n      <h3>Custom development</h3>\n      <p>An agency designs and builds Android and iOS apps, an admin panel, a backend and usually a website. You pay for the build, then for hosting, fixes and the updates Google and Apple require each year. In return, you get features no ready-made product offers. Ask in writing who owns the code and store listings after you pay.</p>\n      <h3>White-label vendor</h3>\n      <p>A white-label coaching app is a vendor's existing product with your name, logo and colours applied. Many institutes share the same underlying software, which is why it costs less than a custom build. The cost questions are the setup fee, yearly licence, any percentage on sales, iOS and renewal.</p>\n      <h3>Academy platform</h3>\n      <p>An academy platform works like Shopify does for shops: sign up, choose a plan, upload your course, connect your domain and start selling, while payments, access, apps and hosting run underneath. Our guide to <a href=\"/blog/online-coaching-academy-without-coding\">creating an online academy without a developer</a> walks through that build in one evening.</p>"
+  },
+  {
+   "id": "cost-components",
+   "toc": "Every cost line",
+   "h2": "What goes into coaching app development cost",
+   "html": "<p><strong>A coaching app budget has eight lines: design and build, app-store accounts, hosting and backend, video and live classes, payments, website and domain, maintenance and updates, and marketing.</strong> Most first quotes price only the first line, so ask every vendor or agency to fill in all eight for a full year.</p>\n      {{fig:cost-stack|Coaching app development cost components: design and build, store accounts, hosting, video, payments, domain, maintenance and marketing|The eight lines of a coaching app budget. Ask for all of them, for a full year.}}\n      <h3>1. Design and build</h3>\n      <p>Student screens (courses, tests, live classes, PDFs, payments), an admin panel and the backend. On a custom build this is the biggest line; with a white-label vendor it becomes a setup fee; on an academy platform it is part of the plan, because the app already exists.</p>\n      <h3>2. App-store accounts</h3>\n      <p>An app is published under a developer account. Google charges once and Apple every year (figures below). Who owns that account matters more than the fee.</p>\n      <h3>3. Hosting and backend</h3>\n      <p>Servers, logins and backups. A custom build pays a cloud provider and someone to watch it; vendors and platforms include it, so ask about limits such as storage.</p>\n      <h3>4. Video and live classes</h3>\n      <p>Video is heavy to host and stream, so some products cap storage. Live classes need a live room or YouTube Live or Zoom. Ask whether live hours are capped.</p>\n      <h3>5. Payments</h3>\n      <p>Students in India pay mostly by UPI and cards through a payment gateway that charges for processing, and some products add their own percentage on each sale. Ask whether the gateway charge sits inside that fee or on top. Our guide on <a href=\"/blog/accept-upi-payments-for-online-courses\">accepting UPI payments for online courses</a> explains the checkout side.</p>\n      <h3>6. Website and domain</h3>\n      <p>Students usually find you through Google, YouTube or a shared link before installing anything, so the app needs a website on your own domain beside it. Some vendors sell it as an add-on; see our guide to an <a href=\"/blog/lms-with-custom-domain-for-coaching-india\">LMS with a custom domain</a>.</p>\n      <h3>7. Maintenance and updates</h3>\n      <p>Apps are never finished. Google Play requires that from 31 August 2026 new apps and app updates target Android 16 (API level 36) or higher.<sup><a href=\"#ref-5\">[5]</a></sup> On a custom build, someone must make and test those updates every year; on a vendor or platform they are part of the service.</p>\n      <h3>8. Marketing</h3>\n      <p>An app does not bring students by itself. Ads, YouTube, WhatsApp and your time cost money in every route; if a vendor sells a marketing package, ask what share is actual ad spend. Our guide to <a href=\"/blog/meta-ads-for-coaching-institutes\">Meta ads for coaching institutes</a> covers running ads yourself.</p>"
+  },
+  {
+   "id": "store-fees",
+   "toc": "Google Play and Apple fees",
+   "h2": "App store fees: Google Play and the Apple Developer Program",
+   "html": "<p><strong>Google Play charges a US$25 one-time registration fee for a developer account, and the Apple Developer Program costs US$99 a year.</strong> These are the only fixed fees the stores themselves charge to publish; everything else in an app budget comes from the developer, vendor or platform.</p>\n      <div class=\"v3-quote\">\n        <p>\"There is a US$25 one-time registration fee.\"</p>\n        <cite>Google Play Console Help, checked October 2026<sup><a href=\"#ref-1\">[1]</a></sup></cite>\n      </div>\n      <p>Apple's enrolment page states the Apple Developer Program annual fee as 99 USD, in local currency where available, and asks organisations for a D-U-N-S Number, which is free in most jurisdictions.<sup><a href=\"#ref-3\">[3]</a></sup> If your academy enrols as a company rather than an individual, start the D-U-N-S request early.</p>\n      {{fig:store-accounts|Google Play US$25 one-time and Apple Developer Program US$99 a year: app store fees for a coaching app|The fixed store fees, and the rules that come with them.}}\n      <h3>The rules that cost time, not money</h3>\n      <p>Google Play asks personal developer accounts created after 13 November 2023 to run a closed test with at least 12 testers who stay opted in for at least 14 days before the app can go live.<sup><a href=\"#ref-2\">[2]</a></sup> For an educator publishing alone, that means two weeks and twelve real testers, so plan it before launch day.</p>\n      <p>Apple's App Review Guidelines matter for white-label apps in particular. Guideline 4.2.6 reads:</p>\n      <div class=\"v3-quote\">\n        <p>\"Apps created from a commercialized template or app generation service will be rejected unless they are submitted directly by the provider of the app's content.\"</p>\n        <cite>Apple App Review Guidelines 4.2.6, checked October 2026<sup><a href=\"#ref-4\">[4]</a></sup></cite>\n      </div>\n      <p>This is why the developer-account question belongs in every vendor checklist. Some vendors publish under their own account; Learnyst's pricing page says its apps are on the Play Store and App Store under Learnyst's developer account.<sup><a href=\"#ref-9\">[9]</a></sup> Others ask you to open your own. Neither is wrong, but it decides whose name appears as publisher and what happens if you leave.</p>\n      {{q:Do I pay the Google Play and Apple fees if I use a white-label vendor?|It depends on whose developer account the app is published under. If it is your own account, you pay Google's US$25 once and Apple's US$99 every year. If the vendor publishes under its own account, its price usually covers the store side. Ask the vendor which applies before you sign.}}"
+  },
+  {
+   "id": "published-prices",
+   "toc": "What vendors publish",
+   "h2": "White label app for teachers: what vendors publish (October 2026)",
+   "html": "<p><strong>Only some coaching app vendors publish prices, and the ones that do price different things: a full plan, a one-time branded-app setup, a yearly app add-on or a monthly subscription.</strong> The table lists what each official pricing page said when checked on 24 October 2026, with \"not stated\" where the page gives no figure.</p>\n      {{fig:published-prices|Published white label coaching app prices in India: Classplus, TagMango, Exly, Learnyst and AllCoaching, checked October 2026|What vendors' own pricing pages say. Not a like-for-like comparison.}}\n      <div class=\"v3-table\"><table>\n        <thead><tr><th>Vendor</th><th>Published price for a branded app</th><th>Fee on sales</th><th>GST</th></tr></thead>\n        <tbody>\n          <tr><td>Classplus<sup><a href=\"#ref-6\">[6]</a></sup></td><td>₹29,999 for 1 year or ₹39,999 for 2 years; plan cards list an Android app and website, iOS not listed</td><td>Not stated</td><td>Not stated</td></tr>\n          <tr><td>TagMango<sup><a href=\"#ref-7\">[7]</a></sup></td><td>Branded Apps Stack ₹74,999 one-time setup (Play Store and iOS apps) on top of a plan; Freedom Setup (custom domain) ₹24,999 a year</td><td>10% (Basic) to 3.5% (Advanced); zero on Ultimate, ₹30,000 a month</td><td>+ GST</td></tr>\n          <tr><td>Exly<sup><a href=\"#ref-8\">[8]</a></sup></td><td>Mobile app (iOS and Android) add-on from ₹60,000 a year; custom website add-on from ₹60,000 a year</td><td>10%, 6% or 3% by plan</td><td>Not stated</td></tr>\n          <tr><td>Learnyst<sup><a href=\"#ref-9\">[9]</a></sup></td><td>Branded Android app from Premium (₹14,999 a month); Android and iOS from Business (₹49,999 a month), billed monthly</td><td>0% on subscription plans; 10% on Launcher</td><td>+ taxes</td></tr>\n          <tr><td>Edmingle<sup><a href=\"#ref-10\">[10]</a></sup></td><td>Branded Android app from Prime (₹14,999 a month); iOS from Power (₹29,999 a month), billed annually</td><td>Not stated</td><td>+ taxes</td></tr>\n          <tr><td>AllCoaching</td><td>Own Android app and website on every plan from ₹6,999 a year; iOS app on Pro (₹24,999 a year) and Scale (₹99,999 a year)</td><td>10%, 7.5%, 5%, or 0% on Scale</td><td>+ GST</td></tr>\n        </tbody>\n        <caption>Figures from each vendor's official pricing page, checked 24 October 2026 (AllCoaching: our own pricing page). Plans include different things, so compare the whole offer, not one number.</caption>\n      </table></div>\n      <p>Three things stand out. \"Branded app\" rarely means Android and iOS at the lowest price. The per-sale fee matters more than the headline as sales grow. And many pages do not state GST or renewal, so ask.</p>\n      <p>Some vendors publish no prices at all and sell through a demo. AppX, for example, shows no prices on its site and offers a free personalised demo instead.<sup><a href=\"#ref-11\">[11]</a></sup> That is a legitimate way to sell, but it means you only see the number after a sales conversation, so bring the questions in this guide to it.</p>"
+  },
+  {
+   "id": "hidden-costs",
+   "toc": "Hidden costs",
+   "h2": "Hidden costs to check in year one and year two",
+   "html": "<p><strong>The costs that surprise educators are rarely hidden on purpose; they sit in places a first quote does not cover: renewal, the fee on each sale, GST, an iOS add-on, store accounts, design changes and data export.</strong> Ask about each one before you sign, and get the answers in writing.</p>\n      {{fig:hidden-costs|Hidden costs in a white label coaching app contract and what to ask for instead|Common surprises after signing, and what to ask for instead.}}\n      <ul>\n        <li><strong>Renewal price.</strong> A discounted first year is common. Ask what year two costs and whether the contract caps any increase.</li>\n        <li><strong>Fee on each sale.</strong> A percentage on every sale grows with your success. At ₹10 lakh of yearly sales, every 1% is ₹10,000 (illustrative).</li>\n        <li><strong>Gateway charges.</strong> Ask whether the gateway's processing charge is included in the product's fee or added on top.</li>\n        <li><strong>GST.</strong> A price \"+ GST\" is 18% higher in your bank statement. If a page does not say, ask.</li>\n        <li><strong>The iOS app.</strong> Many families use iPhones. Check whether iOS is included or sits on a higher plan.</li>\n        <li><strong>Changes and limits.</strong> A new theme may be self-service or a paid request; storage and live classes may be capped.</li>\n        <li><strong>Leaving.</strong> Ask how you export students, payments and content, in what format, and whether it costs anything. Switching later is possible but disruptive; our guide on <a href=\"/blog/switch-coaching-apps-without-losing-students\">switching coaching apps without losing students</a> explains why.</li>\n      </ul>\n      <p>An earlier version of this article quoted large \"real cost\" ranges for white-label contracts. We removed them because we could not tie them to published sources. Ask every vendor for a written, itemised twelve-month quote plus renewal instead.</p>"
+  },
+  {
+   "id": "year-one",
+   "toc": "Year-one worksheet",
+   "h2": "Cost to build a coaching app in India: a year-one worksheet",
+   "html": "<p><strong>Year-one cost = setup fee + yearly plan or licence + fee on sales × your expected sales + store accounts + domain + GST on the above + marketing.</strong> Fill it in for each quote with the same expected sales, and the three routes become comparable.</p>\n      <div class=\"v3-opt us\">\n        <p class=\"tag\">The year-one formula</p>\n        <p><strong>Year one = Setup + Plan or licence + (Fee % × Sales) + Store accounts + Domain + GST + Marketing</strong></p>\n      </div>\n      <div class=\"v3-table\"><table>\n        <thead><tr><th>Line</th><th>Quote A</th><th>Quote B</th><th>Quote C</th></tr></thead>\n        <tbody>\n          <tr><td>Setup or build fee</td><td></td><td></td><td></td></tr>\n          <tr><td>Plan, licence or app add-on (12 months)</td><td></td><td></td><td></td></tr>\n          <tr><td>Fee on sales × expected sales</td><td></td><td></td><td></td></tr>\n          <tr><td>Gateway charges, if separate</td><td></td><td></td><td></td></tr>\n          <tr><td>Google Play and Apple accounts, if yours</td><td></td><td></td><td></td></tr>\n          <tr><td>Website and domain</td><td></td><td></td><td></td></tr>\n          <tr><td>GST on the above</td><td></td><td></td><td></td></tr>\n          <tr><td>Year-two renewal (ask now)</td><td></td><td></td><td></td></tr>\n        </tbody>\n        <caption>Copy this table for your own quotes. Use the same expected sales in every column.</caption>\n      </table></div>\n      <h3>Worked example on AllCoaching plans</h3>\n      <p>Here is the same formula for an illustrative academy selling ₹5 lakh of courses in a year on each AllCoaching plan, counting only the plan price and platform fee, before GST. There is no setup fee, and the website and Android app are included on every plan.</p>\n      {{fig:year-one-cost|Illustrative year-one cost of a coaching app with website on AllCoaching plans at ₹5 lakh of sales|Illustrative: plan price plus platform fee at ₹5 lakh of sales, before GST.}}\n      <div class=\"v3-table\"><table>\n        <thead><tr><th>Plan</th><th>Plan price</th><th>Platform fee on ₹5 lakh</th><th>Year one (before GST)</th></tr></thead>\n        <tbody>\n          <tr><td>Starter</td><td>₹6,999</td><td>10% = ₹50,000</td><td>₹56,999</td></tr>\n          <tr><td>Growth</td><td>₹12,999</td><td>7.5% = ₹37,500</td><td>₹50,499</td></tr>\n          <tr><td>Pro (adds the iOS app)</td><td>₹24,999</td><td>5% = ₹25,000</td><td>₹49,999</td></tr>\n          <tr><td>Scale (adds 0% fee)</td><td>₹99,999</td><td>0% = no fee</td><td>₹99,999</td></tr>\n        </tbody>\n        <caption>Illustrative. Starter is lowest below ₹2.4 lakh of yearly sales, Growth from ₹2.4 to ₹4.8 lakh, Pro from ₹4.8 to ₹15 lakh, Scale above ₹15 lakh.</caption>\n      </table></div>\n      <p>At low sales the fixed price matters most; as sales grow, the percentage matters more. Our guide on <a href=\"/blog/how-to-price-online-courses-india\">how to price online courses in India</a> shows how to work out your expected sales and take-home.</p>"
+  },
+  {
+   "id": "vendor-questions",
+   "toc": "Questions to ask",
+   "h2": "12 questions to ask a coaching app vendor before you sign",
+   "html": "<p><strong>Ask about money, apps, ownership and support, and get every answer in writing for a full year.</strong> A vague answer is itself useful information.</p>\n      {{fig:vendor-questions|Twelve questions to ask a white label coaching app vendor before you sign|Twelve questions. Ask each vendor the same ones.}}\n      <ol>\n        <li>What is the price for the first year, and what is the renewal price?</li>\n        <li>Is there a setup or onboarding fee, and is it refundable?</li>\n        <li>What percentage, if any, do you keep from each sale, and are gateway charges inside that fee or on top?</li>\n        <li>Is GST included in the prices you quoted, or extra?</li>\n        <li>Are both the Android and iOS apps included on this plan?</li>\n        <li>Whose Google Play and Apple developer account is the app published under?</li>\n        <li>Who pays the store fees and handles app review and yearly updates?</li>\n        <li>Is a website included with the app?</li>\n        <li>Can the website and checkout use my own domain?</li>\n        <li>Can I export students, payments and content at any time, and in what format?</li>\n        <li>Who makes design and content changes, and how fast?</li>\n        <li>What does support cover, and are live classes, video storage or students capped?</li>\n      </ol>"
+  },
+  {
+   "id": "steps",
+   "toc": "Budget in 7 steps",
+   "h2": "How to budget for a white label coaching app: 7 steps",
+   "html": "<p>Use this order whether you are starting fresh or replacing an app you already pay for.</p>\n      {{steps}}\n      {{cta}}"
+  },
+  {
+   "id": "when-custom",
+   "toc": "When custom is worth it",
+   "h2": "When custom app development is worth the cost",
+   "html": "<p><strong>Custom development is worth it when you need features no ready-made product offers, deep integration with systems you already run, or an engineering team you will keep employed.</strong> For most educators selling courses, tests and live batches, a ready product covers the job and the money is better spent on content and marketing.</p>\n      <div class=\"v3-pair\">\n        <div class=\"yes\"><h4>Custom makes sense if</h4><p>You need a feature no product offers, such as a unique adaptive practice engine. You must connect to your own school or ERP systems. You have budget for a team to maintain the app every year.</p></div>\n        <div class=\"no\"><h4>Think twice if</h4><p>You mainly sell recorded courses, test series and live batches. You have no one to manage updates. You are paying for an app before you have paying students.</p></div>\n      </div>\n      <p>When we talk to educators who paid for a custom app, the regret we hear most is not the build cost. It is that every later change needed a developer. If you commission one, budget for yearly updates and keep the store accounts in your name.</p>\n      <p>Earlier in the journey? Start with the course, not the app. See our guides to <a href=\"/blog/create-your-first-online-course-india\">creating your first online course</a> and <a href=\"/blog/how-to-start-online-academy-in-5-steps\">starting an online academy in 5 steps</a> cover what to build first.</p>"
+  },
+  {
+   "id": "on-allcoaching",
+   "toc": "On AllCoaching",
+   "h2": "What a coaching app costs on AllCoaching",
+   "html": "<p><strong>On AllCoaching, the app is part of the plan: every plan includes your own white-label Android app and a website on your own domain, and the iOS app is included on Pro and Scale.</strong> There is no separate build or setup project; you sign up, choose a plan, upload your course, connect your domain and start selling, while payments, student access, apps and hosting run on their own.</p>\n      <p>Every plan starts with a 14-day free trial with no card needed. After it, Starter is ₹6,999 a year with a 10% platform fee, Growth ₹12,999 with 7.5% and Pro ₹24,999 with 5% plus a premium theme. Scale is ₹99,999 a year with a 0% platform fee, bought through \"Contact us\" on the <a href=\"/pricing\">pricing page</a>. Prices exclude GST, and you keep 90–100% of each sale depending on the plan.</p>\n      <p>Every plan also includes unlimited live classes (YouTube Live, Zoom or the built-in room), unlimited video via YouTube, UPI and card checkout with automatic Razorpay payouts, Meta Pixel, Google Tag Manager and free themes.</p>\n      {{fig:academy-app-promo|AllCoaching Studio on a laptop and phone: own Android app on every plan, iOS on Pro and Scale, website on your own domain|AllCoaching Studio preview · sample data. Logos belong to their owners.}}\n      <p>We built it this way because the story we hear most is an educator who paid for an app and had nothing left for marketing. For the full journey to a first sale, read <a href=\"/blog/how-to-sell-courses-online-in-india\">how to sell courses online in India</a>.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to budget for a white label coaching app in India",
+  "description": "Budget for a coaching app by deciding what you need, choosing a route, collecting itemised quotes, adding store, payment and GST costs, comparing year one and year two, checking ownership and testing before you pay.",
+  "total_time": "P14D",
+  "items": [
+   [
+    "Decide what you actually need",
+    "List the must-haves: Android, iOS, website, live classes, tests, PDFs and checkout. Mark anything unique to your teaching."
+   ],
+   [
+    "Choose a route",
+    "Pick custom development only for unique features; otherwise compare white-label vendors and academy platforms."
+   ],
+   [
+    "Collect itemised quotes",
+    "Ask each vendor or agency for a written twelve-month quote that covers all eight cost lines, including renewal."
+   ],
+   [
+    "Add store, payment and GST costs",
+    "Add Google Play's US$25 and Apple's US$99 a year if the accounts are yours, gateway charges if separate, and GST."
+   ],
+   [
+    "Compare year one and year two",
+    "Run the year-one formula for each quote at the same expected sales, then repeat with the renewal price."
+   ],
+   [
+    "Check ownership and exit",
+    "Confirm whose developer account the app uses, whether your domain is yours, and how you export your data."
+   ],
+   [
+    "Test before you pay",
+    "Use a free trial or demo to build one real course page and check the student app on a budget phone."
+   ]
+  ]
+ },
+ "glossary": [
+  [
+   "white-label-app",
+   "White-label coaching app",
+   "An existing coaching app that a vendor rebrands with an educator's name, logo and colours; the underlying software is shared and maintained by the vendor."
+  ],
+  [
+   "custom-app",
+   "Custom app development",
+   "Building an app specifically for one client, usually by an agency, priced by the scope of features and maintained under a separate contract."
+  ],
+  [
+   "academy-platform",
+   "Academy platform",
+   "A service where educators build their own academy (website, courses, checkout and app) themselves from one studio, with hosting and payments run underneath."
+  ],
+  [
+   "developer-account",
+   "Developer account",
+   "The Google Play or Apple account an app is published under; it decides whose name appears as publisher and who controls the store listing."
+  ],
+  [
+   "setup-fee",
+   "Setup fee",
+   "A one-time charge some vendors make to configure, brand or publish an app before the yearly plan starts."
+  ],
+  [
+   "platform-fee",
+   "Platform fee",
+   "The percentage of each sale a course platform keeps for its service; ask each platform whether gateway charges sit inside it or on top."
+  ],
+  [
+   "target-api-level",
+   "Target API level",
+   "The Android version an app is built for; Google Play raises the minimum over time, so apps need regular updates to stay publishable."
+  ]
+ ],
+ "faq": [
+  [
+   "How much does a white label coaching app cost in India?",
+   "It depends on the route. Checked 24 October 2026: Classplus lists ₹29,999 for 1 year, TagMango a ₹74,999 + GST branded-apps setup on top of a plan, and Exly an app add-on from ₹60,000 a year. AllCoaching includes an Android app in every plan from ₹6,999 a year + GST."
+  ],
+  [
+   "How much does it cost to develop a coaching app from scratch in India?",
+   "Agencies quote custom apps by scope, so there is no standard published price. Ask for a written quote covering both apps, admin panel, backend, website, hosting and a year of updates, then add store fees and GST."
+  ],
+  [
+   "What is the Google Play developer account fee?",
+   "Google Play charges a US$25 one-time registration fee, according to Play Console Help, checked October 2026. New personal accounts must also run a closed test with at least 12 testers for at least 14 days before publishing."
+  ],
+  [
+   "How much does the Apple Developer Program cost?",
+   "The Apple Developer Program costs US$99 a year, charged in local currency where available. Organisations enrol with a D-U-N-S Number, which is free in most jurisdictions."
+  ],
+  [
+   "Do I own a white-label coaching app?",
+   "You usually own your brand, content and student data, but not the vendor's software. Ask whose developer account the app is published under and how you export your data, and get both answers in writing."
+  ],
+  [
+   "Does a coaching app need an iOS version?",
+   "If many of your students or their parents use iPhones, yes. Check whether iOS is included or sits on a higher plan; on AllCoaching the iOS app is included on Pro and Scale."
+  ],
+  [
+   "What should I ask a coaching app vendor before signing?",
+   "Ask the renewal price, any setup fee, the fee on each sale, whether gateway charges and GST are included, which apps are included, whose developer account is used, and how you export your data."
+  ],
+  [
+   "What does a coaching app cost on AllCoaching?",
+   "After a 14-day free trial: Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee, or Scale ₹99,999 with 0%, all excluding GST. Every plan includes your own Android app and website; Pro and Scale add iOS."
+  ]
+ ],
+ "references": [
+  "Google, \"Play Console Help: Get started with Play Console\" (registration fee). <a href=\"https://support.google.com/googleplay/android-developer/answer/6112435?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "Google, \"Play Console Help: App testing requirements for new personal developer accounts\". <a href=\"https://support.google.com/googleplay/android-developer/answer/14151465?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "Apple, \"Apple Developer Program enrollment\". <a href=\"https://developer.apple.com/support/enrollment/\" target=\"_blank\" rel=\"noopener nofollow\">developer.apple.com</a>, checked October 2026.",
+  "Apple, \"App Review Guidelines\", guideline 4.2.6. <a href=\"https://developer.apple.com/app-store/review/guidelines/\" target=\"_blank\" rel=\"noopener nofollow\">developer.apple.com</a>, checked October 2026.",
+  "Android Developers, \"Meet Google Play's target API level requirement\". <a href=\"https://developer.android.com/google/play/requirements/target-sdk\" target=\"_blank\" rel=\"noopener nofollow\">developer.android.com</a>, checked October 2026.",
+  "Classplus, plans page. <a href=\"https://classplusapp.com/new-web\" target=\"_blank\" rel=\"noopener nofollow\">classplusapp.com/new-web</a>, checked 24 October 2026.",
+  "TagMango, pricing. <a href=\"https://tagmango.com/pricing\" target=\"_blank\" rel=\"noopener nofollow\">tagmango.com/pricing</a>, checked 24 October 2026.",
+  "Exly, pricing. <a href=\"https://exlyapp.com/pricing\" target=\"_blank\" rel=\"noopener nofollow\">exlyapp.com/pricing</a>, checked 24 October 2026.",
+  "Learnyst, pricing. <a href=\"https://www.learnyst.com/pricing\" target=\"_blank\" rel=\"noopener nofollow\">learnyst.com/pricing</a>, checked 24 October 2026.",
+  "Edmingle, India pricing. <a href=\"https://www.edmingle.com/in/pricing/\" target=\"_blank\" rel=\"noopener nofollow\">edmingle.com/in/pricing</a>, checked 24 October 2026.",
+  "AppX, home page (no published prices; free personalised demo). <a href=\"https://appx.co.in/\" target=\"_blank\" rel=\"noopener nofollow\">appx.co.in</a>, checked 24 October 2026."
+ ],
+ "citations": [
+  "https://support.google.com/googleplay/android-developer/answer/6112435?hl=en",
+  "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+  "https://developer.apple.com/support/enrollment/",
+  "https://developer.apple.com/app-store/review/guidelines/",
+  "https://developer.android.com/google/play/requirements/target-sdk",
+  "https://classplusapp.com/new-web",
+  "https://tagmango.com/pricing",
+  "https://exlyapp.com/pricing",
+  "https://www.learnyst.com/pricing",
+  "https://www.edmingle.com/in/pricing/",
+  "https://appx.co.in/"
+ ],
+ "about": [
+  {
+   "name": "Mobile app development",
+   "sameAs": "https://en.wikipedia.org/wiki/Mobile_app_development"
+  },
+  {
+   "name": "White-label product",
+   "sameAs": "https://en.wikipedia.org/wiki/White-label_product"
+  },
+  {
+   "name": "Learning management system",
+   "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "Google Play",
+   "url": "https://play.google.com",
+   "type": "Organization"
+  },
+  {
+   "name": "Apple App Store",
+   "url": "https://www.apple.com/app-store/",
+   "type": "Organization"
+  },
+  {
+   "name": "Classplus",
+   "url": "https://classplusapp.com"
+  },
+  {
+   "name": "TagMango",
+   "url": "https://tagmango.com"
+  },
+  {
+   "name": "Exly",
+   "url": "https://exlyapp.com"
+  },
+  {
+   "name": "Learnyst",
+   "url": "https://www.learnyst.com"
+  },
+  {
+   "name": "Edmingle",
+   "url": "https://www.edmingle.com"
+  },
+  {
+   "name": "AppX",
+   "url": "https://appx.co.in"
+  },
+  {
+   "name": "Razorpay",
+   "url": "https://razorpay.com"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/online-coaching-academy-without-coding",
+  "/blog/how-to-start-online-academy-in-5-steps",
+  "/blog/how-to-price-online-courses-india",
+  "/blog/personal-coaching-app-alternative"
+ ]
+}
