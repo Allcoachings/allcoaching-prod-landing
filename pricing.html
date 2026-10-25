@@ -595,36 +595,43 @@ footer > .wrap{position:relative}
 @media (max-width:380px){.nav .lockup span{font-size:21px}.nav .lockup img{width:28px;height:28px}.nav-cta .btn{padding:8px 12px;font-size:13.5px}.nav .wrap{gap:12px}}
 @media (prefers-reduced-motion:reduce){.blob,.px-final .rays2,.px-pill i{animation:none!important}}
 
-/* Scale plan (0% commission), added 2026-10-25 */
-.plan-scale{margin-top:26px;display:grid;grid-template-columns:1.05fr 1fr .9fr;gap:34px;align-items:center;padding:40px 44px;border-radius:28px;color:#fff;position:relative;overflow:hidden;
-  background:radial-gradient(90% 140% at 100% 0%,rgba(34,195,245,.28) 0%,rgba(34,195,245,0) 55%),radial-gradient(120% 160% at 0% 100%,#2B44FF 0%,#1A2FD9 30%,#0A0F3D 75%);box-shadow:0 30px 60px -30px rgba(10,15,61,.7)}
-.plan-scale::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(100deg,rgba(255,255,255,0) 0 26px,rgba(255,255,255,.045) 26px 28px);pointer-events:none}
-.plan-scale > *{position:relative}
-.ps-badge{display:inline-block;font:700 11.5px/1 var(--mono,monospace);letter-spacing:.1em;text-transform:uppercase;background:#fff;color:#2B44FF;padding:7px 12px;border-radius:999px}
-.plan-scale h3{font-size:34px;font-weight:700;letter-spacing:-.02em;margin:14px 0 6px;color:#fff}
-.ps-for{color:rgba(255,255,255,.78);font-size:15px;line-height:1.5;margin:0 0 16px}
-.ps-price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
-.ps-price .amt{font-size:44px;font-weight:700;letter-spacing:-.03em;color:#fff}
-.ps-price .per,.ps-price .gst{color:rgba(255,255,255,.65);font-size:14px}
-.ps-zero{margin-top:16px;display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:18px;padding:12px 16px}
-.ps-zero > b{font-size:46px;line-height:1;font-weight:800;letter-spacing:-.04em;background:linear-gradient(135deg,#fff,#9EE6FF);-webkit-background-clip:text;background-clip:text;color:transparent}
-.ps-zero span{font-size:14px;line-height:1.35;color:rgba(255,255,255,.85)}
-.ps-zero span b{color:#fff}
-.ps-feat{list-style:none;margin:0;padding:0;display:grid;gap:12px}
-.ps-feat li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;line-height:1.45;color:rgba(255,255,255,.85)}
-.ps-feat li b{color:#fff}
-.ps-feat .tick{flex-shrink:0;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.18);color:#9EF0C9}
-.ps-feat .tick svg{width:12px;height:12px}
-.ps-cta{display:flex;flex-direction:column;gap:10px}
-.ps-contact{display:flex;align-items:center;justify-content:space-between;gap:14px;background:#fff;color:#2B44FF!important;font-family:'Inter Tight',sans-serif;font-weight:700;font-size:18px;letter-spacing:-.01em;padding:10px 10px 10px 28px;border-radius:999px;text-decoration:none;box-shadow:0 18px 40px -16px rgba(126,224,255,.75),0 0 0 1px rgba(255,255,255,.6) inset;transition:transform .2s,box-shadow .2s}
-.ps-contact i{flex:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:#2B44FF;color:#fff;transition:transform .25s}
+/* Scale plan (0% commission), added 2026-10-25, premium card */
+.plan-scale{margin-top:30px;position:relative;border-radius:30px;padding:1.5px;background:linear-gradient(135deg,#9EE6FF 0%,#2B44FF 30%,rgba(43,68,255,.25) 60%,#9EE6FF 100%);box-shadow:0 40px 80px -40px rgba(10,15,61,.85),0 0 0 1px rgba(43,68,255,.08)}
+.ps-in{position:relative;overflow:hidden;border-radius:28.5px;display:grid;grid-template-columns:.95fr 1.45fr;gap:44px;padding:46px 48px;color:#fff;
+  background:radial-gradient(70% 90% at 100% 0%,rgba(126,224,255,.22) 0%,rgba(126,224,255,0) 60%),radial-gradient(90% 120% at 0% 100%,rgba(43,68,255,.55) 0%,rgba(43,68,255,0) 60%),linear-gradient(160deg,#0B1240 0%,#070A26 100%)}
+.ps-in::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(105deg,rgba(255,255,255,0) 0 30px,rgba(255,255,255,.035) 30px 31px);pointer-events:none}
+.ps-in::after{content:"";position:absolute;width:520px;height:520px;right:-160px;top:-260px;border-radius:50%;background:radial-gradient(circle,rgba(126,224,255,.25),rgba(126,224,255,0) 65%);pointer-events:none}
+.ps-in > *{position:relative;z-index:1}
+.ps-badge{display:inline-flex;align-items:center;gap:8px;font:700 11px/1 'JetBrains Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:#CFF4FF;padding:8px 13px;border-radius:999px;background:rgba(126,224,255,.1);border:1px solid rgba(126,224,255,.35)}
+.ps-badge i{width:7px;height:7px;border-radius:50%;background:#7FE0FF;box-shadow:0 0 10px #7FE0FF}
+.ps-in h3{font-family:'Inter Tight',sans-serif;font-size:44px;font-weight:700;letter-spacing:-.035em;margin:18px 0 8px;color:#fff}
+.ps-for{color:rgba(255,255,255,.72);font-size:15px;line-height:1.55;margin:0 0 22px;max-width:30ch}
+.ps-price{display:flex;align-items:baseline;gap:8px}
+.ps-price .amt{font-family:'Inter Tight',sans-serif;font-size:52px;font-weight:700;letter-spacing:-.04em;color:#fff;line-height:1}
+.ps-price .per{color:rgba(255,255,255,.6);font-size:15px}
+.ps-gst{color:rgba(255,255,255,.5);font-size:13px;margin-top:6px}
+.ps-zero{margin:22px 0 24px;display:flex;align-items:center;gap:16px;border-radius:20px;padding:14px 18px;background:linear-gradient(135deg,rgba(255,255,255,.12),rgba(255,255,255,.04));border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(6px)}
+.ps-zero > b{font-family:'Inter Tight',sans-serif;font-size:50px;line-height:1;font-weight:800;letter-spacing:-.05em;background:linear-gradient(135deg,#fff 20%,#7FE0FF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ps-zero span{font-size:14px;line-height:1.4;color:rgba(255,255,255,.8)}
+.ps-zero strong{color:#fff}
+.ps-contact{display:flex;align-items:center;justify-content:space-between;gap:14px;background:#fff;color:#2B44FF!important;font-family:'Inter Tight',sans-serif;font-weight:700;font-size:18px;letter-spacing:-.01em;padding:9px 9px 9px 28px;border-radius:999px;text-decoration:none;box-shadow:0 18px 40px -16px rgba(126,224,255,.8);transition:transform .2s,box-shadow .2s}
+.ps-contact i{flex:none;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:#2B44FF;color:#fff;transition:transform .25s}
 .ps-contact i svg{width:20px;height:20px}
-.ps-contact:hover{transform:translateY(-2px);box-shadow:0 22px 46px -14px rgba(126,224,255,.95),0 0 0 1px #fff inset}
+.ps-contact:hover{transform:translateY(-2px);box-shadow:0 24px 50px -14px rgba(126,224,255,1)}
 .ps-contact:hover i{transform:translateX(3px)}
 .ps-contact:focus-visible{outline:3px solid #9EE6FF;outline-offset:3px}
-.ps-num{text-align:center;color:rgba(255,255,255,.85)!important;font-weight:500;font-size:14px;text-decoration:none;letter-spacing:.02em}
-.ps-cta p{margin:0;text-align:center;font-size:12.5px;line-height:1.45;color:rgba(255,255,255,.6)}
-@media (max-width:980px){.plan-scale{grid-template-columns:1fr;max-width:520px;margin-left:auto;margin-right:auto;padding:30px 24px;gap:22px}}
+.ps-note{margin:12px 0 0;text-align:center;font-size:12.5px;color:rgba(255,255,255,.55)}
+.ps-right{border-left:1px solid rgba(255,255,255,.1);padding-left:44px;align-self:center}
+.ps-head{font-family:'Inter Tight',sans-serif;font-size:20px;font-weight:600;letter-spacing:-.015em;margin:0 0 22px;color:#fff}
+.ps-groups{display:grid;grid-template-columns:1fr 1fr;gap:26px 32px}
+.ps-feat{list-style:none;margin:0;padding:0;display:grid;gap:11px;align-content:start}
+.ps-feat li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;line-height:1.45;color:rgba(255,255,255,.82)}
+.ps-feat li.sep{font:700 10.5px/1 'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:#7FE0FF;margin-bottom:2px}
+.ps-feat li b{color:#fff}
+.ps-feat .tick{flex-shrink:0;width:20px;height:20px;border-radius:50%;display:grid;place-items:center;background:rgba(126,224,255,.16);color:#7FE0FF;margin-top:1px}
+.ps-feat .tick svg{width:11px;height:11px}
+@media (max-width:980px){.ps-in{grid-template-columns:1fr;padding:32px 24px;gap:30px}.ps-right{border-left:0;padding-left:0;border-top:1px solid rgba(255,255,255,.1);padding-top:28px}.plan-scale{max-width:560px;margin-left:auto;margin-right:auto}}
+@media (max-width:560px){.ps-groups{grid-template-columns:1fr}.ps-in h3{font-size:38px}.ps-price .amt{font-size:44px}}
 </style>
 <script src="/assets/attribution.js?v=1" defer></script>
 </head>
@@ -746,7 +753,6 @@ footer > .wrap{position:relative}
           <li class="sep">Grow &amp; automate</li>
           <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Plugins: Zoom, Razorpay, YouTube &amp; more</span></li>
           <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Meta Pixel &amp; Google Tag Manager</span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Marketplace discovery</span></li>
         </ul>
         <a href="https://studio.allcoaching.in/" class="btn btn-ghost btn-block">Start 14-day free trial</a>
         <p class="credit">Upgrade any time — what you paid is credited</p>
@@ -773,7 +779,6 @@ footer > .wrap{position:relative}
           <li class="sep">Grow &amp; automate</li>
           <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Plugins: Zoom, Razorpay, YouTube &amp; more</span></li>
           <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Meta Pixel &amp; Google Tag Manager</span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Marketplace discovery</span></li>
         </ul>
         <a href="https://studio.allcoaching.in/" class="btn btn-accent btn-block">Start 14-day free trial</a>
         <p class="credit">₹6,999 credited if you upgrade from Starter</p>
@@ -800,7 +805,6 @@ footer > .wrap{position:relative}
           <li class="sep">Grow &amp; automate</li>
           <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Plugins: Zoom, Razorpay, YouTube &amp; more</span></li>
           <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Meta Pixel &amp; Google Tag Manager</span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Marketplace discovery</span></li>
         </ul>
         <a href="https://studio.allcoaching.in/" class="btn btn-accent btn-block">Start 14-day free trial</a>
         <p class="credit">₹6,999 credited if you upgrade from Starter</p>
@@ -809,24 +813,45 @@ footer > .wrap{position:relative}
 
 
     <div class="plan-scale reveal" id="scale">
+      <div class="ps-in">
       <div class="ps-left">
-        <span class="ps-badge">New · Zero commission</span>
+        <span class="ps-badge"><i></i>Zero commission · Premium</span>
         <h3>Scale</h3>
-        <p class="ps-for">For an academy that already sells well. Pay one yearly price and keep every rupee of every sale.</p>
-        <div class="ps-price"><span class="amt">₹99,999</span><span class="per">/ year</span><span class="gst">+ GST</span></div>
-        <div class="ps-zero"><b>0%</b><span>platform fee<br/>You keep <b>100%</b> of every sale</span></div>
-      </div>
-      <ul class="ps-feat">
-        <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Everything in Pro</b>: 3 TB storage, 4K video, premium theme</span></li>
-        <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Your own Android &amp; iOS app</b>, white-label</span></li>
-        <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> videos and live classes</span></li>
-        <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Your own domain, plugins, Meta Pixel &amp; GTM</span></li>
-        <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Costs less than Pro once you sell more than <b>₹15 lakh a year</b></span></li>
-      </ul>
-      <div class="ps-cta">
+        <p class="ps-for">For an academy that already sells well. One yearly price, and every rupee of every sale stays yours.</p>
+        <div class="ps-price"><span class="amt">₹99,999</span><span class="per">/ year</span></div>
+        <div class="ps-gst">+ GST · billed yearly</div>
+        <div class="ps-zero"><b>0%</b><span>platform fee<br/>You keep <strong>100%</strong> of every sale</span></div>
         <a href="https://api.whatsapp.com/send/?phone=919889977262&amp;text=Hi%20AllCoaching%2C%20I%27d%20like%20the%20Scale%20plan%20(0%25%20commission)." target="_blank" rel="noopener" class="ps-contact" data-track="contact" data-where="pricing-scale"><span>Contact us</span><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a>
-        <a href="tel:+919889977262" class="ps-num">or call +91 98899 77262</a>
-        <p>Scale is set up with you personally. Contact us and our team will move your academy to 0% commission.</p>
+        <p class="ps-note">Scale is set up with you personally by our team.</p>
+      </div>
+      <div class="ps-right">
+        <p class="ps-head">Everything in Pro, with no cut of your sales</p>
+        <div class="ps-groups">
+        <ul class="ps-feat">
+          <li class="sep">Video &amp; live</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> videos via YouTube</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> live classes via YouTube Live</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>3 TB</b> storage &amp; streaming · <b>4K</b></span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Built-in live room, <b>unlimited</b></span></li>
+        </ul>
+        <ul class="ps-feat">
+          <li class="sep">Your brand</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Your own Android &amp; iOS app</b>, white-label</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Premium theme</b> (₹10,000 value) + all templates</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Your own domain, connected</span></li>
+        </ul>
+        <ul class="ps-feat">
+          <li class="sep">Grow &amp; automate</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Plugins: Zoom, Razorpay, YouTube &amp; more</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Meta Pixel &amp; Google Tag Manager</span></li>
+        </ul>
+        <ul class="ps-feat">
+          <li class="sep">Your earnings</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>0% platform fee</b>, you keep 100%</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Costs less than Pro once you sell more than <b>₹15 lakh a year</b></span></li>
+        </ul>
+        </div>
+      </div>
       </div>
     </div>
 
@@ -860,7 +885,7 @@ footer > .wrap{position:relative}
       <div class="ic reveal"><div class="ico"><svg><use href="#i-test"/></svg></div><h4>Test series</h4><p>Mock tests with auto-scoring and ranks.</p></div>
       <div class="ic reveal"><div class="ico"><svg><use href="#i-rupee"/></svg></div><h4>UPI &amp; card checkout</h4><p>Access opens the moment a student pays.</p></div>
       <div class="ic reveal"><div class="ico"><svg><use href="#i-users"/></svg></div><h4>Student CRM &amp; teachers</h4><p>Your student list, plus separate logins for every teacher.</p></div>
-      <div class="ic reveal"><div class="ico"><svg><use href="#i-check"/></svg></div><h4>Marketplace discovery</h4><p>Students searching your exam and subject can find you.</p></div>
+      
       <div class="ic reveal"><div class="ico"><svg><use href="#i-export"/></svg></div><h4>Your data stays yours</h4><p>Students, content and payments are exportable.</p></div>
     </div>
   </div>
@@ -1119,7 +1144,7 @@ footer > .wrap{position:relative}
   <a href="https://studio.allcoaching.in/" class="btn btn-accent">Start free trial</a>
 </div>
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "@id": "https://allcoaching.in/#studio", "name": "AllCoaching Studio", "applicationCategory": "EducationalApplication", "operatingSystem": "Web, Android, iOS", "offers": [{"@type": "Offer", "name": "Starter Plan (annual)", "price": "6999", "priceCurrency": "INR", "description": "14-day free trial, then billed yearly; prices exclude GST. 10% platform fee (keep 90%), unlimited videos via YouTube, unlimited live classes via YouTube Live, 512 GB storage, 1080p, unlimited built-in live room, your own white-label Android app, customizable themes and templates, own domain, plugins (Zoom, Razorpay, YouTube), Meta Pixel and Google Tag Manager, marketplace discovery.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing"}, {"@type": "Offer", "name": "Growth Plan (annual)", "price": "12999", "priceCurrency": "INR", "description": "14-day free trial, then billed yearly; prices exclude GST. 7.5% platform fee (keep 92.5%), unlimited videos via YouTube, unlimited live classes via YouTube Live, 1 TB storage, 1080p, unlimited built-in live room, your own white-label Android app, customizable themes and templates, own domain, plugins (Zoom, Razorpay, YouTube), Meta Pixel and Google Tag Manager, marketplace discovery.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing"}, {"@type": "Offer", "name": "Pro Plan (annual)", "price": "24999", "priceCurrency": "INR", "description": "14-day free trial, then billed yearly; prices exclude GST. 5% platform fee (keep 95%), unlimited videos via YouTube, unlimited live classes via YouTube Live, 3 TB storage, 4K, unlimited built-in live room, your own white-label Android and iOS app, customizable themes and templates, premium theme, own domain, plugins (Zoom, Razorpay, YouTube), Meta Pixel and Google Tag Manager, marketplace discovery.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing"}, {"@type": "Offer", "name": "Scale Plan (annual, 0% commission)", "price": "99999", "priceCurrency": "INR", "description": "Billed yearly; price excludes GST. 0% platform fee (keep 100% of every sale). Everything in Pro: unlimited videos via YouTube, unlimited live classes, 3 TB storage, 4K, premium theme, your own white-label Android and iOS app, own domain, plugins, Meta Pixel and Google Tag Manager, marketplace discovery. Available by contacting AllCoaching (+91 98899 77262).", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing#scale"}], "publisher": {"@type": "Organization", "name": "AllCoaching", "url": "https://allcoaching.in/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "@id": "https://allcoaching.in/#studio", "name": "AllCoaching Studio", "applicationCategory": "EducationalApplication", "operatingSystem": "Web, Android, iOS", "offers": [{"@type": "Offer", "name": "Starter Plan (annual)", "price": "6999", "priceCurrency": "INR", "description": "14-day free trial, then billed yearly; prices exclude GST. 10% platform fee (keep 90%), unlimited videos via YouTube, unlimited live classes via YouTube Live, 512 GB storage, 1080p, unlimited built-in live room, your own white-label Android app, customizable themes and templates, own domain, plugins (Zoom, Razorpay, YouTube), Meta Pixel and Google Tag Manager.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing"}, {"@type": "Offer", "name": "Growth Plan (annual)", "price": "12999", "priceCurrency": "INR", "description": "14-day free trial, then billed yearly; prices exclude GST. 7.5% platform fee (keep 92.5%), unlimited videos via YouTube, unlimited live classes via YouTube Live, 1 TB storage, 1080p, unlimited built-in live room, your own white-label Android app, customizable themes and templates, own domain, plugins (Zoom, Razorpay, YouTube), Meta Pixel and Google Tag Manager.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing"}, {"@type": "Offer", "name": "Pro Plan (annual)", "price": "24999", "priceCurrency": "INR", "description": "14-day free trial, then billed yearly; prices exclude GST. 5% platform fee (keep 95%), unlimited videos via YouTube, unlimited live classes via YouTube Live, 3 TB storage, 4K, unlimited built-in live room, your own white-label Android and iOS app, customizable themes and templates, premium theme, own domain, plugins (Zoom, Razorpay, YouTube), Meta Pixel and Google Tag Manager.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing"}, {"@type": "Offer", "name": "Scale Plan (annual, 0% commission)", "price": "99999", "priceCurrency": "INR", "description": "Billed yearly; price excludes GST. 0% platform fee (keep 100% of every sale). Everything in Pro: unlimited videos via YouTube, unlimited live classes, 3 TB storage, 4K, premium theme, your own white-label Android and iOS app, own domain, plugins, Meta Pixel and Google Tag Manager, marketplace discovery. Available by contacting AllCoaching.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing#scale"}], "publisher": {"@type": "Organization", "name": "AllCoaching", "url": "https://allcoaching.in/"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://allcoaching.in/"}, {"@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://allcoaching.in/pricing"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "@id": "https://allcoaching.in/pricing#faq", "mainEntity": [{"@type": "Question", "name": "How much does AllCoaching cost for an Indian educator in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "AllCoaching has four annual plans. Starter is ₹6,999 a year with a 10% platform fee, so you keep 90% of every sale. Growth is ₹12,999 a year at 7.5%, keeping 92.5%. Pro is ₹24,999 a year at 5%, keeping 95%, with a premium theme and your own iOS app. Scale is ₹99,999 a year with a 0% platform fee, so you keep 100%; you get it by contacting us. Every plan includes unlimited YouTube video and live classes and your own Android app. Most educators start with Starter and upgrade later. Prices exclude GST, and there is no sales call or demo required to sign up. Every plan starts with a 14-day free trial."}}, {"@type": "Question", "name": "Is there a zero-commission plan?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Scale is ₹99,999 a year plus GST with a 0% platform fee, so you keep 100% of every sale, and it includes everything in Pro, including your own Android and iOS app. It costs less than Pro once your yearly sales pass about ₹15 lakh. Contact us to move to Scale."}}, {"@type": "Question", "name": "How does AllCoaching work?", "acceptedAnswer": {"@type": "Answer", "text": "It works the way Shopify works for an online store, built for coaching: you sign up, choose a plan, upload your course, connect your domain and start selling. Payments, course access, your apps and hosting then run automatically. There is no developer, sales call or demo involved."}}, {"@type": "Question", "name": "Do I get my own Android and iOS app?", "acceptedAnswer": {"@type": "Answer", "text": "Your own white-label Android app comes with every plan, in your name, logo and colours, alongside your website. Your own iOS app comes with Pro and Scale. Your courses are also listed in the AllCoaching app for marketplace discovery."}}, {"@type": "Question", "name": "Which plugins and marketing tools are included?", "acceptedAnswer": {"@type": "Answer", "text": "Every plan includes plugins for Zoom, Razorpay and YouTube, with more being added, plus Meta Pixel and Google Tag Manager so you can track sign-ups and run ads to your academy. You switch them on from the studio."}}, {"@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every plan comes with a 14-day free trial, so you can set up your academy, add a course and see your website before you pay, and no card is needed to start. When the trial ends, pick Starter, Growth or Pro to continue, or contact us for Scale."}}, {"@type": "Question", "name": "Which plan should I start with?", "acceptedAnswer": {"@type": "Answer", "text": "Most educators start with Starter at ₹6,999 a year. It already includes unlimited YouTube video and live classes, your own white-label Android app, customizable themes, your own domain, plugins and marketing tools and 512 GB storage. Move up for more storage, 4K video, or once a lower platform fee saves you more than the higher plan costs."}}, {"@type": "Question", "name": "Is my own domain included on Starter?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every plan, including Starter, lets you connect your own domain from the studio. You buy the domain name from any registrar, usually about ₹600 to ₹1,200 a year, so it stays in your name. Until you connect one, your academy runs on a free allcoaching.in address."}}, {"@type": "Question", "name": "What is the premium theme on Pro?", "acceptedAnswer": {"@type": "Answer", "text": "Pro includes a premium theme worth ₹10,000, a more polished design for an established academy. Starter and Growth use the free themes and templates, which are fully customizable, include course pages, faculty profiles and an enquiry form, and work with your own domain."}}, {"@type": "Question", "name": "Do I need a developer or a sales call to set up?", "acceptedAnswer": {"@type": "Answer", "text": "No. You sign up, choose a plan, upload a course, connect your domain, set up payment and publish, all by yourself from the studio. There is no sales call, no demo dependency and no technical team required."}}, {"@type": "Question", "name": "Where will students find and use my courses?", "acceptedAnswer": {"@type": "Answer", "text": "Students can buy from your own website and study in your own white-label Android app (and iOS app on Pro and Scale), or on the web. Your courses can also be discovered on the AllCoaching marketplace by students searching for your exam or subject."}}, {"@type": "Question", "name": "What happens if I upgrade, downgrade or don't renew?", "acceptedAnswer": {"@type": "Answer", "text": "An upgrade takes effect as soon as payment clears, and what you already paid this year is credited. To move to a lower plan, contact support and it applies from your next renewal. If you don't renew, your academy goes offline to students, but your content and data stay exportable."}}, {"@type": "Question", "name": "Is marketplace discovery included on every plan?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. AI-driven marketplace discovery - where students search by exam, subject, language and city and find you without ad spend - is included on every plan. It is not an upgrade."}}, {"@type": "Question", "name": "Are live classes metered separately on top of the plan price?", "acceptedAnswer": {"@type": "Answer", "text": "No. Live classes are unlimited on every plan, on YouTube Live, Zoom or the built-in AllCoaching live room. There is no per-hour charge."}}, {"@type": "Question", "name": "Can I export my data and leave anytime?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Your student list, course content, payment history and analytics are exportable at any time in standard formats, in line with data-portability rights under the DPDP Act 2023. Nothing is locked - you keep ownership of your brand, your students and your content."}}, {"@type": "Question", "name": "Are there any other charges?", "acceptedAnswer": {"@type": "Answer", "text": "Prices exclude GST, which is added at checkout. Payment-gateway charges on student payments are separate and shown to you. There is no setup fee, no monthly bill and no separate charge for your domain connection or marketplace listing."}}]}</script>
 
