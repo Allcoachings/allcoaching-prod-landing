@@ -14,7 +14,7 @@
     <managingEditor>contact@allcoaching.in (Amit Ratan)</managingEditor>
     <webMaster>contact@allcoaching.in (Amit Ratan)</webMaster>
     <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-    <lastBuildDate>Sun, 25 Oct 2026 16:40:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 17:29:58 +0000</lastBuildDate>
     <category>Education</category>
     <category>EdTech</category>
     <category>India</category>
@@ -43,6 +43,19 @@
       <category>Indian Online Education</category>
       <category>Educator Marketplace</category>
       <enclosure url="https://allcoaching.in/assets/blog/accept-upi-payments-for-online-courses/cover.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>How to Create an Online Course in India (2026 Guide)</title>
+      <link>https://allcoaching.in/blog/create-your-first-online-course-india</link>
+      <guid isPermaLink="true">https://allcoaching.in/blog/create-your-first-online-course-india</guid>
+      <description>How to create an online course in India: pick one outcome, plan modules of 5–15 minute lessons, record on a phone budget, add PDF notes and tests, then pilot it.</description>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching.in/assets/blog/create-your-first-online-course-india/cover.webp" type="image/webp" />
     </item>
     <item>
       <title>Meta Ads for Coaching Institutes in India (2026 Guide)</title>
@@ -708,17 +721,17 @@
       <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/coaching-centre-library-safety-norms-avoid-sealing-india.webp" type="image/webp" />
     </item>
     <item>
-      <title>How to Price Your Online Course in India (2026)</title>
+      <title>Online Course Pricing in India: How to Price + Calculator</title>
       <link>https://allcoaching.in/blog/how-to-price-online-courses-india</link>
       <guid isPermaLink="true">https://allcoaching.in/blog/how-to-price-online-courses-india</guid>
-      <description>How to price your online course in India (2026): price is positioning, not a number — why underpricing costs most, plus value-based pricing, tiers and anchoring.</description>
+      <description>Online course pricing in India: 7 pricing models, a worked take-home calculator after platform fees, gateway charges and GST, a worksheet, and when to raise prices.</description>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
       <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
       <atom:author><name>Amit Ratan</name></atom:author>
       <category>EdTech</category>
       <category>Indian Online Education</category>
       <category>Educator Marketplace</category>
-      <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/how-to-price-online-courses-india.webp" type="image/webp" />
+      <enclosure url="https://allcoaching.in/assets/blog/how-to-price-online-courses-india/cover.webp" type="image/webp" />
     </item>
     <item>
       <title>Online CUET Coaching Platform for Educators (2026)</title>
@@ -1709,17 +1722,17 @@
       <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/edtech-marketplace-india-app-fatigue.webp" type="image/webp" />
     </item>
     <item>
-      <title>Online Coaching Academy Bina Coding: 8-Step 2026 Guide</title>
+      <title>How to Create an Online Academy Without a Developer (2026)</title>
       <link>https://allcoaching.in/blog/online-coaching-academy-without-coding</link>
       <guid isPermaLink="true">https://allcoaching.in/blog/online-coaching-academy-without-coding</guid>
-      <description>Online coaching academy bina coding shuru karein: practical 8-step Hinglish guide, niche se pehle paid student tak.</description>
+      <description>How to create an online academy without a developer in one evening: pick a template, brand it, build your first course, add UPI checkout and connect your domain.</description>
       <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
       <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
       <atom:author><name>Amit Ratan</name></atom:author>
       <category>EdTech</category>
       <category>Indian Online Education</category>
       <category>Educator Marketplace</category>
-      <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/online-coaching-academy-without-coding.webp" type="image/webp" />
+      <enclosure url="https://allcoaching.in/assets/blog/online-coaching-academy-without-coding/cover.webp" type="image/webp" />
     </item>
   </channel>
 </rss>
