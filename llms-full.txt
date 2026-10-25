@@ -68163,771 +68163,498 @@ Most educators sign up, upload their first recorded lecture, set pricing, and be
 
 ---
 
-# How to Start an Online Academy in 5 Steps (2026): One Login
+# How to Start an Online Academy in 5 Steps (2026 Guide)
 
 **Source:** https://allcoaching.in/blog/how-to-start-online-academy-in-5-steps  
-**Published:** 2026-05-11  
-**Updated:** 2026-06-01  
+**Published:** 2026-05-11T09:00:00+05:30  
+**Updated:** 2026-10-25T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** Start an online academy in 5 steps on one educator OS — no code, no developer, no 9-tool stack.
+**Summary:** How to start an online academy in India in 5 steps: plan your first course, sign up, upload it, connect your own domain and start selling with UPI checkout.
 
-In This Article
+Amit RatanUpdated 25 Oct 2026 · 18 min read
 
 
-- The Honest Truth About Starting an Online Academy
+On this page
 
-- Key Takeaways — The Post in 6 Facts
 
-- The 5-Steps-vs-17-Steps Snapshot
+Start your online academy today. 14 days free.
 
-- What Is an Educator OS?
+Start free trial
 
-- Step 1 — Define Your Brand & Student Persona
 
-- Step 2 — Sign Up on the Educator OS (One Login)
+To start an online academy, you need five steps: plan one course for one clear group of students, sign up on an academy platform and choose a plan, upload that course, connect your own domain, and start selling through a checkout that takes UPI and cards. Done in that order, a single educator can go from idea to first paid student in a couple of weeks.
 
-- Step 3 — Build & Publish Your Multi-Format Catalog
+Maybe you teach SSC maths in Hindi and your YouTube channel is growing. Maybe you run a NEET biology batch from a rented room, or you teach spoken English to working adults over Zoom in the evenings. Students already trust you. But fees arrive as screenshots on WhatsApp, notes live in Drive links, and nobody is sure who paid for which batch.
 
-- Step 4 — Activate AI Marketplace Distribution
+This guide walks through the five steps with the sub-steps inside each: what to prepare, which plan to pick, how to structure the first course, how to connect a domain, how payments and access work, and what to do in launch week. If you are still deciding whether you need one at all, start with what an online academy is, then come back here.
 
-- Step 5 — Run Automated Operations from One Dashboard
 
-- Why One Login Changes Everything
 
-- AllCoaching IS the Educator OS
 
-- The Strategic Conclusion
 
-- Glossary — Key Terms
 
-- FAQ
+## Key takeaways
 
 
+- Five steps start an online academy: plan your academy, sign up and choose a plan, upload your course, connect your domain, and start selling.
 
+- Plan one course first. One exam or skill, one language, one group of students, and one free demo lesson beat ten half-built courses.
 
+- A course is modules of video lessons, PDF notes and tests, with live doubt classes on top. YouTube videos can stay unlisted so only enrolled students see them.
 
+- Your own domain takes two DNS records at your registrar. Register it in your own name so the address stays yours.
 
-You can find a hundred "how to start an online academy" guides on the internet right now, and almost every one of them will give you the same answer — 17 steps, 9 different SaaS tools, 5 separate logins, and a six-month timeline that ends in something that barely works. The honest answer is much simpler. You can start a complete online academy in five steps. You can do it in days, not months. You can do it without writing a line of code, without hiring a developer, and without juggling a stack of integrations that you will spend the next two years regretting. And you can do all of it from a single login on a single platform that was built specifically for educators.
+- Selling means a checkout, not WhatsApp screenshots: students pay by UPI or card, access opens automatically, and the payout reaches your bank.
 
-This is not a productivity hack or a marketing tagline. It is a structural shift in how online academies actually get launched in 2026 — from a multi-tool stitched stack to a unified educator operating system where every step happens inside one environment. And the timing matters, because the market underneath this shift is moving fast: India's edtech market — valued at roughly ₹64,875 crore (US$ 7.5 billion) in the most recent estimate[1] — is projected to grow to ₹2,50,850 crore (US$ 29 billion) by 2030[1], which means the educators who internalize this shift now launch faster, spend almost nothing on year-one infrastructure, and reach their first paying student inside two weeks. The educators who don't, spend ₹15 to 40 lakh on a custom build and arrive at a worse academy nine months later.
+- On AllCoaching the path is automated: a 14-day free trial with no card, then plans from ₹6,999 a year plus GST, with your own Android app on every plan and iOS on Pro and Scale.
 
-This article is the modern, eye-level playbook for that shift — the five real steps, in order, inside one educator OS. No fluff, no fake checklists, no "build your own LMS" detours. Just the architecture that actually compounds, told the way it should be told to an educator who wants to launch this month, not next year. As a structural pattern, the median time from signup to first paid student is 7–14 days for educators who follow the structured 5-step sequence — against 3–9 months for educators stitching their own stack across multiple SaaS tools.
 
 
 
 
 
-Key Takeaways — the entire post in six facts:
 
+## How to start an online academy: the 5 steps at a glance
 
-- An online academy launches in 5 steps in 2026, not 17 — Step 1: educator identity. Step 2: signup. Step 3: content upload. Step 4: marketplace activation. Step 5: automated operations. Median signup-to-first-paid-student time: 7–14 days.
+Plan your academy, sign up and choose a plan, upload your course, connect your domain, and start selling. Those five steps are the whole launch. Everything else in this guide sits inside one of them.
 
-- The stitched-stack anti-pattern wastes ₹15–40 lakh and 6–9 months versus the educator OS approach. Multiple SaaS tools, multiple logins, integration costs, drift between systems — the operational tax that 90% of "how to start" guides assume away.
 
-- Educator identity is the under-budgeted Day 1 asset — photo, teaching philosophy, sample lesson, credentials. Students cannot evaluate teaching quality before paying; they evaluate identity signals instead. Get this right in Step 1 or every later step underperforms.
+- Plan your academyWrite down what you teach, to whom and in which language, then plan one first course as modules of video lessons, PDF notes and tests, with one free demo lesson.
 
-- Marketplace listing activation in Step 4 is the structural alternative to self-funded Meta/Google ads. The platform surfaces the educator to students searching by exam, subject, language, and location once your profile is active.
+- Sign up and choose a planCreate your academy on a platform with a free trial, build it during the trial, then choose the plan that fits your expected yearly sales.
 
-- Multi-format content beats single-format launches — combine PDFs, video lessons, test series, and at least one live class on Day 1. Multi-format learners retain 3–5x better than single-format learners and pay 2–3x more on average.
+- Upload your courseAdd videos in syllabus order, one PDF per chapter and tests, mark the demo lesson as free, set the price and publish after a test purchase.
 
-- AllCoaching IS the educator OS the playbook describes — one login, all 5 steps in one environment, from ₹6,999 a year, GST-compliant invoicing, AI marketplace included. Removes the entire "which tools should I integrate?" question.
+- Connect your domainBuy a domain in your own name, add the TXT and CNAME records your platform shows you, and add your logo and colours.
 
+- Start sellingShare one course link on YouTube, Instagram and WhatsApp, run a free live demo class, and let UPI and card checkout open access automatically.
 
 
 
-Where we are · 2026
 
-AllCoaching is an LMS you build yourself — drag and drop your courses, tests, notes and live classes, then make it your brand with your own domain, logo and Android app (iOS app on Pro and Scale). 500+ educators across India already sell through it. Every plan starts with a 14-day free trial, and the price is on the page before you sign up.
+The five steps in order. The timeline is illustrative for one educator with one course.
 
-Start your 14-day free trial
-No card needed · Plans from ₹6,999/year · Keep 90–100%
+Older guides to starting an online academy list fifteen or more steps: buy hosting, install WordPress, pick an LMS plugin, add a payment plugin, set up a video host, wire up email, build an app. Each of those is still a real job. The difference in 2026 is that an academy platform does most of them for you, so the steps left are the ones only you can do: deciding what to teach, recording it and telling students about it.
 
+When educators set up an academy with us, the slowest step is almost never the software. It is Step 1: deciding what the first course is and recording the demo lesson. So that is where we start.
 
 
 
 
-5
-Steps to launch — not 17
 
 
-1
-Login — not 5+
+## What do you need before you start an online academy?
 
+You need one topic you teach well, a syllabus for one course, one demo lesson, a phone with a clip-on mic, PAN and a bank account for payments, a domain name, a simple logo and a few hours a week. You do not need a developer, a studio or a big budget.
 
-0
-Lines of code
 
 
-₹6,999
-Upfront platform cost
+Eight things. Most educators already have six.
 
+Two items catch people out. The first is payment KYC: any payment gateway will ask for identity and bank details before it settles money to you, so keep your PAN, bank account and address proof ready. Our guide to accepting UPI payments for online courses lists the documents. The second is the domain: buy it yourself, in your own name, rather than letting a vendor or agency hold it.
 
+If today your academy runs on a mix of WhatsApp, Drive, Zoom and Excel, you already have the most important things: students and content. Starting an online academy is mostly moving them into one place.
 
 
 
-"Stop assembling an academy from nine tools. Start launching one from a single educator OS. The difference shows up on day one — and compounds for the next decade."
+The stitched-together setup most educators start with, and the one-login version. Logos belong to their owners.
 
-— The principle behind every modern academy launch
 
 
 
 
 
+## Step 1: Plan your academy and your first course
 
-## The 5-Steps-vs-17-Steps Snapshot
+Before you sign up anywhere, write down what you teach, to whom, in which language, and what your first course will contain. This one page decides your course title, your price, your website copy and the students who find you.
 
-Before walking through the actual five steps, it is worth being clear about what they replace. The traditional online academy launch — the version most blogs and edtech advisors still describe — is a 12 to 18 month exercise in stitching together separate tools, paying separate vendors, and managing separate logins. It looks roughly like this on the right side of the table below:
 
 
+### Answer four questions on one page
 
 
-The Old Way (17 steps · 9 tools · 5 logins)
+- What do you teach? The exam, subject or skill, and the level. "Competitive exams" is too broad; "SSC CGL Quant" is a course.
 
-Buy domain → set up website → choose LMS → integrate payments → set up WhatsApp tool → buy hosting → configure CDN → wire up email automation → set up CRM → configure analytics → integrate course player → set up live class tool → configure SMS gateway → set up ad accounts → write SEO content → hire developer → fix bugs forever. Year-one cost: ₹15–40 lakh. Time to first student: 6–12 months.
+- For whom? Class 12 droppers, working adults, Class 10 board students, first-time job seekers.
 
+- In which language? English, Hindi, Hinglish or a regional language. Many students search in the language they want to be taught in.
 
+- Why you? Your method, your results with past batches, or a format others do not offer.
 
-The New Way (5 steps · 1 OS · 1 login)
 
-Define brand & persona → sign up on educator OS → publish multi-format catalog → activate AI marketplace distribution → run automated operations from one dashboard. Year-one fixed cost: ₹6,999 (Starter plan), after a 14-day free trial. Time to first student: 7–14 days. Same academy, structurally better outcomes, with AI marketplace discovery built in.
+Specific beats general. "I teach competitive exam preparation" gives a student nothing to search for. "Hindi-medium NEET biology for Class 12 repeaters, with chapter-wise PDF notes and weekly tests" tells them exactly who it is for, and gives Google words to match. The same works for skills: "Spoken English for interview preparation, for freshers in tier-2 cities" is a course people can picture buying.
 
 
 
+### Pick one first course, not ten
 
+Choose the course you have already taught to real students, and build it as modules: video lessons in syllabus order, a PDF for each chapter, and a test at the end of each module. Exam students expect timed mock tests and solutions; skill students expect practice tasks and feedback.
 
-The asymmetry is not subtle. The 17-step path is what existed before integrated educator platforms made it obsolete — and most online-academy advice is still being written as if the 17-step path were the only option. It is not. The five-step path is now the default for every educator launching in India in 2026 who is not specifically committed, with reason, to building a custom platform from scratch. The parallel migration story — moving an existing offline coaching practice online without paying for a build — is covered in our companion guide on migrating offline coaching to online at zero cost; the no-code pattern that powers both is unpacked in build an online coaching academy without coding.
 
 
+One course, four modules, one free demo lesson. Example structure, illustrative.
 
-· · ·
 
 
+### Record a demo lesson
 
+Your demo lesson is the one free lesson every student sees before paying. Make it 10 to 20 minutes, teach one real concept fully, and end with what the full course covers. Students cannot judge your teaching from a price; they judge it from this lesson. For recording on a phone with good audio, see our guide to running classes from a mobile phone.
 
 
-## What Is an Educator OS?
 
-The shift the rest of this article describes only makes sense once one term is precise. An "educator OS" is not jargon. It is a specific, useful idea that captures why launching an online academy in 2026 is structurally different from launching one in 2020. Once you internalize this term, the five steps that follow stop sounding like a marketing pitch and start sounding like the only sensible way to do this.
+### Set a price range
 
+Look at what students in your exam or skill already pay, then decide where your course sits. A recorded course, a test series and a live batch usually sit at different prices. Our guide on how to price online courses in India covers the methods, including launch pricing for your first batch.
 
-Operational Definition
 
+Question educators ask
 
 
-### Educator OS — A Unified Operating System for an Online Teaching Business
 
-An educator OS is a single platform with one login that combines content hosting, multi-format course delivery, student onboarding, payments, communication, AI-driven discovery, marketplace distribution, and analytics — all integrated by default. Every step that used to require a separate SaaS tool happens in the same environment. The educator's team is no longer the integration layer. The platform is.
+### I have only two hours a week. Can I still start an online academy?
 
+Yes, with a slower timeline. An illustrative plan: week one, write the one-page plan and sign up; week two, record the demo lesson and two more lessons; week three, upload the first module with its PDF and test, and connect your domain; week four, share the link and run one live demo class. Launch with one finished module and add the next each week, rather than waiting until the whole course is recorded.
 
 
-The contrast with a traditional approach is immediate. A traditional setup means each tool stores its own version of the student, payment data lives in one system, content access in another, communication in a third, analytics in a fourth — and the educator's coordinator stitches them together with spreadsheets and prayers. A unified educator OS means one student record, one payment event, one access trigger, one analytics surface — all sharing the same data and triggering each other natively.
 
 
-"Launching an online academy on a stitched SaaS stack is like running a coffee shop where the espresso machine, the cashier, the milk fridge, and the receipt printer all need to be operated by different people who don't speak to each other. The OS approach is one machine, one person, one workflow."
 
 
 
-Why this matters for the rest of the article: every step that follows is a step inside one educator OS. You do not navigate to five different vendors. You do not manage five different bills. You do not own the integration burden. You log in once and run a complete academy from a single dashboard. That is the shift. Now to the steps themselves.
+## Step 2: Sign up and choose a plan
 
+Sign up on an academy platform, use the free trial to build your academy, and choose the plan that fits your expected yearly sales. Signing up takes minutes; the plan choice decides what you pay as you grow.
 
 
 
-"Code and media are permissionless leverage. They're the leverage behind the new fortunes."
+### Start with the free trial
 
-— Naval Ravikant, "How to Get Rich (Without Getting Lucky)", 2018
+On AllCoaching every plan starts with a 14-day free trial, and no card is needed to start. Use those days to do Steps 3 and 4: upload your first module, add your logo and colours, and connect your domain. By the end of the trial you know what the academy looks like with your content in it, not a demo account.
 
 
-An educator OS is precisely this kind of permissionless leverage applied to teaching — every educator on AllCoaching inherits the same content infrastructure, payment processing, AI discovery, and analytics that would otherwise take ₹15–40 lakh and a year to build privately. The leverage is the architecture.
 
-· · ·
+### Compare plans by total cost, not sticker price
 
+Academy platforms charge in two ways: a plan price, and sometimes a fee on each sale. Add both before you compare. Here is how AllCoaching's four yearly plans work (prices exclude GST):
 
 
 
+PlanPrice per yearPlatform fee on salesYou keepStudent apps
 
-## Step 1 — Define Your Brand & Student Persona
+Starter₹6,99910%90%Own Android app
+Growth₹12,9997.5%92.5%Own Android app
+Pro₹24,9995%95%Own Android and iOS apps
+Scale₹99,9990%100%Own Android and iOS apps
 
+Every plan includes your website on your own domain, unlimited live classes, unlimited videos via YouTube, UPI and card checkout, Meta Pixel and Google Tag Manager. Scale is bought through Contact us, not self-serve. Payment gateway charges are separate.
 
-1
 
-Foundational Step · 60–90 minutes
+Which plan costs least depends on how much you sell in a year. Before GST, and as an illustration: Starter costs least below about ₹2.4 lakh of yearly sales, Growth between about ₹2.4 lakh and ₹4.8 lakh, Pro between about ₹4.8 lakh and ₹15 lakh, and Scale above about ₹15 lakh. A new educator usually starts on Starter or Growth and upgrades later; on AllCoaching an upgrade applies on payment with the unused value of your current plan credited. Scale is bought by contacting us. Full details are on the pricing page.
 
 
+Build your own academy. Try it free for 14 days.
 
-### Get Specific About What You Teach and Who You Teach It To
+Website on your own domain, your own Android app (iOS app on Pro and Scale), unlimited live classes and UPI checkout on every plan. Plans from ₹6,999 a year after the trial (excl. GST).
 
-Before you sign up on any platform — before you upload a single PDF — answer four questions on a single page. What do you teach (subject, exam, level, topics)? For whom (class level, exam target, learning stage)? In which language (English, Hindi, Hinglish, regional)? What is your differentiated value (pedagogy, format strength, track record)? This page is your academy's positioning. Everything that follows is built on top of it.
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Your data stays exportable
 
 
 
 
-This step looks soft, but it is operationally the most consequential decision in the entire launch. Specificity is no longer a marketing nicety in 2026 — it is a discovery requirement. AI recommendation systems and AI search engines surface educators who match precise student intent, not educators with generic descriptions. An academy that positions as "I teach competitive exam preparation" will not be surfaced. An academy that positions as "I teach Hindi-medium NEET biology with chapter-wise PDF notes, weekly chapter tests, and a full-length mock series for Class 12 repeaters" will be.
 
 
-Do this in 90 minutes. Open a blank document. Write four short paragraphs answering the four questions above. Do not aim for perfect — aim for specific. You will refine this over months as you see which segments respond. But you must enter Step 2 with a written persona, not a vague intent. Educators who skip this step launch generic academies that AI systems cannot meaningfully recommend.
+## Step 3: Upload your first course
 
+Create the course, add its videos, PDF notes and tests in syllabus order, mark one lesson as the free demo, set the price and publish. Keep it in draft until a friend or past student has gone through it once.
 
 
-If you teach NEET, decide which subject and which class. If you teach UPSC, decide which optional subject and which language medium. If you teach K-12, decide which class and which board. The discipline of narrowness is not a constraint — it is what makes the rest of the academy discoverable, payable, and scalable. Generic positioning is the single most expensive mistake new educators make in 2026.
 
+Courses in the studio bundle videos, PDFs and tests. Studio preview · sample data.
 
 
-· · ·
 
+### Videos: record once, host on YouTube
 
+Record lessons of 8 to 20 minutes, one concept each. Long recordings of a full classroom lecture are harder to watch on a phone and harder to find later. On AllCoaching, videos are added through YouTube, with no limit on the number. You can keep them unlisted: YouTube's help centre says unlisted videos "can be seen and shared by anyone with the link" and do not appear in search results or on your channel's Videos tab.1 Your free YouTube videos stay public and bring new students in.
 
 
 
-## Step 2 — Sign Up on the Educator OS (One Login)
+### PDF notes and tests
 
+Add one PDF per chapter: notes, formula sheets, practice questions or previous-year papers. Then add tests. For exam students, a chapter test after each module and full-length timed mocks at the end are what they expect.
 
-2
 
-The Setup Moment · 15–30 minutes
 
+### Live classes
 
+Most Indian academies mix recorded lessons with live sessions: a weekly doubt class, a revision marathon before the exam, or a full live batch. Every AllCoaching plan includes unlimited live classes through YouTube Live, Zoom or the built-in live room, so you can schedule them alongside the recorded course.
 
-### Create Your Educator Profile on AllCoaching — Phone Number, OTP, Done
 
-Visit studio.allcoaching.in, enter your phone number, verify with OTP, and create your educator profile. Add your name, photo, exam category, subject focus, language preference, and a short bio drawn from Step 1. The complete academy infrastructure — content hosting, payment gateway, course player, communication automation, AI recommendations, marketplace listing, analytics — is provisioned automatically the moment your profile is live.
 
+### Name, price and description
 
+Use the course title students would search for ("SSC CGL Quant in Hindi: Complete Course"), say who it is for in the first line of the description, list what is inside (number of lessons, PDFs and tests), and set the price you decided in Step 1. Then buy your own course once as a test before you share it.
 
 
-This is the moment that, in the old 17-step path, used to consume the next two to four months. Domain registration. LMS subscription. Payment gateway integration. Hosting setup. CDN configuration. WhatsApp Business API onboarding. Each of those was a separate vendor relationship, a separate bill, a separate set of credentials, a separate point of failure. On the educator OS, all of it disappears into a single sign-up flow that takes less time than ordering food.
 
 
-What You Get on Day One
 
 
+## Step 4: Connect your domain and make it your brand
 
-### Full Academy Infrastructure, Provisioned Automatically
+Buy a domain such as youracademy.in in your own name, add the DNS records your platform shows you at your registrar, then add your logo and colours. From then on, every link you share carries your name, not a platform's.
 
-Secure content hosting, multi-format course delivery, integrated UPI/card/EMI payments, automated student onboarding, batch and access management, WhatsApp + SMS + push communication, AI recommendation engine, marketplace listing, GST-compliant invoicing, and engagement analytics. All from one login. All included by default. No code, no integrations, no developer.
 
 
+Two DNS records at your registrar. Record names and values are illustrative and differ by platform.
 
-The educator who invests time in this step beyond the basic sign-up is the educator who tightens their persona — refining the bio, adding portfolio screenshots, listing relevant teaching experience, and tagging the profile with the specific exam categories and language preferences from Step 1. Profile depth is what AI systems read when deciding which educators to recommend. Twenty extra minutes here is worth thousands of organic impressions over the months that follow.
 
 
+### Choose and buy the domain
 
-· · ·
+Pick something short that students can type after hearing it once: your name, your academy's name, or your subject plus a word. A .in or .com address both work. Buy it from any registrar, in your own name and with your own email, so it stays yours if you ever change platforms.
 
 
 
+### Add the DNS records
 
+Your academy platform shows the exact records to add, usually a TXT record that proves you own the domain and a CNAME record that points it at the academy. Log in to your registrar, open DNS settings, and copy the values exactly. The change usually takes effect within minutes to a few hours, and occasionally up to a day or two. Our guide to an LMS with a custom domain covers the details and common errors.
 
-## Step 3 — Build & Publish Your Multi-Format Catalog
 
 
-3
+### Brand the academy
 
-The Build Step · 1–3 days
+Add your logo, two brand colours and a theme. A clear photo of you and a short paragraph on who you teach do more for trust than any design. On AllCoaching, every plan includes customisable themes and your own white-label Android app with your name and logo; the iOS app is included on Pro and Scale.
 
+Google's own SEO starter guide notes that parts of a URL can appear in search results as breadcrumbs, and suggests including "words in the URL that may be useful for users".2 So name course pages plainly, such as youracademy.in/ssc-cgl-quant-hindi.
 
 
-### Upload Across Multiple Formats Under a Unified Profile
 
-Modern Indian students do not buy single-format content. They buy PDF notes, handwritten notes, chapter-wise test series, full-length mock tests, MCQ banks, recorded video courses, live class schedules, and bundled course packages — all from the same educator. Upload across at least three formats on day one. Tag every piece with exam category, subject, language, level, and price.
 
 
 
+## Step 5: Start selling
 
-The strategic insight most online academy advice misses is that multi-format catalogs are not just a revenue diversification — they are a discovery and retention multiplier. A student who finds your test series may also enroll in your recorded course; a student who likes your PDFs is far more likely to commit to your live classes. Each format becomes a discovery surface for the others. The educator who launches with one format leaves most of their lifetime value on the table from day one.
+Share one link to your course everywhere your students already are, and let the checkout do the rest: the student pays by UPI or card, access opens, and the money reaches your bank. Your job in launch week is to bring people to the link and answer their questions.
 
 
-Recommended Day-One Catalog
 
+### How a sale works
 
 
-### Three Formats Minimum, Five Ideal
 
-Minimum: 1 chapter PDF set + 1 chapter test series + 1 sample recorded class. Ideal: add 1 bundled course package and 1 scheduled live class series. Pricing tiers: entry-level standalone content (₹99–999), mid-tier bundles (₹2,000–15,000), premium live programs (₹15,000+). This three-tier architecture serves every student budget level and creates discovery surfaces across price ranges.
+Four things happen on every sale, none of which need you. Logos belong to their owners.
 
+Indian students pay by UPI first. NPCI data reported in October 2026 showed 24.07 billion UPI transactions worth ₹29.37 lakh crore in September 2026 alone.3 If your checkout takes UPI, almost every student can pay in a few taps. On AllCoaching, UPI and card checkout and automatic Razorpay payouts are built in.
 
+Gateways charge per transaction. Razorpay's standard plan, for example, lists a 2% platform fee per successful domestic transaction, with GST on that fee (checked October 2026).4 Count this alongside your academy plan when you work out what each sale earns you. The full setup is in our guide to accepting UPI payments for online courses.
 
-The honest constraint here is that producing five content formats sounds operationally expensive — and on a stitched SaaS stack, it is. Different tools for video, PDFs, tests, live classes, bundles. Different access controls. Different analytics. On an educator OS, all five formats live under one profile, share one set of access controls, and surface in one analytics dashboard. The operational tax that historically prevented small educators from competing on catalog breadth simply does not exist anymore.
 
-Publish what you have, even if it is not perfect. The catalog improves through engagement signals, not through pre-launch perfection. Educators who ship in day three and iterate based on what students actually buy outperform educators who polish in private for three months and ship a "complete" academy that turns out to be slightly off-target. For the monetization architecture across PDF notes, test series, and bundled mocks specifically, see our breakdown of the best platform for selling PDF notes and test series.
 
+### Launch week
 
 
-· · ·
 
+What to check before you share the link, and what to do in launch week. Logos belong to their owners.
 
 
+- Test first. Buy your own course, open it on an inexpensive Android phone, and fix anything confusing.
 
+- Add tracking. Every AllCoaching plan includes Meta Pixel and Google Tag Manager, so you can see which posts and ads bring sales.
 
-## Step 4 — Activate AI Marketplace Distribution
+- Share the link. YouTube descriptions and pinned comments, your Instagram bio, your WhatsApp groups and channel, and your Telegram group if you have one.
 
+- Run a free live demo class. Teach one topic properly, then explain the course and share the link at the end.
 
-4
+- Reply to everything. The first students ask about validity, language, doubt support and refunds. Their questions tell you what your course page is missing.
 
-The Distribution Step · Automatic + 30 minutes of curation
 
 
+Question educators ask
 
-### Tag Your Content for AI Discovery — and the Marketplace Does the Rest
 
-The moment your catalog goes live, AllCoaching's AI recommendation engine begins indexing it against student search and behavior signals. Your role: ensure every course, every PDF, every test series is tagged precisely for exam category, subject, language, level, and content format. The platform handles the rest — surfacing your content to relevant students through the marketplace's recommendation engine, search, and AI-driven personalization layer.
 
+### My students only use WhatsApp and do not want to install another app. What do I do?
 
+Keep WhatsApp for conversation and send students to the website link for payment and lessons. The website works in the phone's browser, and the app can come later once they see the value. Our guide on students who only want WhatsApp has practical scripts.
 
 
-This is the step that fundamentally changes the economics of an online academy. India is now the second-largest e-learning market in the world after the United States[2], with the online education segment growing at a CAGR of nearly 20%[2] — which means student demand is not the constraint; discoverability is. On a self-funded custom-app trajectory, every student is a student you paid to acquire — through Meta ads, Google ads, YouTube reach campaigns, and Instagram content. Typical year-one paid acquisition cost for an isolated academy: ₹6 to 25 lakh. On the educator OS marketplace, every student the AI recommendation engine surfaces to your content is a student you did not pay to reach. Marketing dependency is replaced by content quality and tagging discipline. The structural reason a marketplace outperforms an isolated app for individual educators is unpacked in the EdTech marketplace and app fatigue argument for India, and the discovery mechanics themselves in our guide to SEO strategies for online course creators.
 
 
-"The biggest advantage an educator OS gives you is not just selling content — it is being discovered without massive marketing spend. Quality compounds. Marketing budget burns. Over five years, the difference is the difference between a teaching career and a marketing career."
 
 
 
-Three operational consequences follow from activating marketplace distribution:
+## What to do in the first 30 days after launch
 
+In the first month, collect feedback from your first students, improve the course page, publish free content that leads to the course, and start tracking where sales come from. Growth after launch comes from steady, repeated work, not one big announcement.
 
-- Better discoverability for the right students. A student looking for Hindi-medium NEET biology test series finds Hindi-medium NEET biology educators — not the educators with the largest ad budgets in unrelated categories.
 
-- Reduced marketing dependency. The educator's job becomes producing high-quality, well-tagged content. The platform's job becomes surfacing it. Most of the customer acquisition workload that traditional academies carry independently is absorbed into the marketplace itself.
 
-- Scalable reach without ad-spend escalation. Adding the 1,000th student does not cost 10x what the 100th student cost. The recommendation engine scales reach as the platform scales — a structural property no individual academy subscription can replicate.
+### Improve from real questions
 
+Write down every question your first students ask before and after buying. Add the answers to your course description and FAQ. If several students drop off at the same lesson, re-record it.
 
 
-The educator who tags rigorously in this step compounds visibility quarter over quarter. The educator who tags lazily — generic categories, missing language tags, vague subject labels — is functionally invisible to the recommendation engine no matter how good the underlying content is. This is the highest-leverage 30 minutes in the entire launch.
 
+### Make your academy findable on Google
 
-Question Often Asked
+Write a few helpful pages around your exam or skill, link them to your course, and keep the titles plain. Expect it to take time: Google's SEO starter guide says some changes "might take effect in a few hours, others could take several months".2 Our online academy SEO guide for beginners shows where to start.
 
 
 
-### What if I have only 2 hours per week to build my online academy — can I still launch in 14 days?
+### Try a small ad test
 
-Yes — with discipline. As a structural pattern, the realistic 2-hours-per-week launch timeline lands at 21–28 days to first paid student rather than 7–14 days, but the launch is fully feasible. The disciplined sequence: Week 1 (2 hours) — complete Step 1 educator identity and Step 2 signup. Week 2 (2 hours) — record and upload 3 video lessons + 1 PDF (Step 3). Week 3 (2 hours) — set pricing, configure payment, schedule one live class (Step 4). Week 4 (2 hours) — activate marketplace listing with rigorous tagging (Step 5). The first paid student typically arrives in Week 4 or early Week 5. The pitfall to avoid: don't try to perfect Step 1 across all 4 weeks — get to Step 5 even with imperfect Step 1, then iterate. Launched-imperfect outperforms unlaunched-perfect by an infinite margin.
+Once the Pixel has recorded a few visits and sales, a small Meta ad budget pointed at your demo lesson or live demo class can show you which message works. Start small and measure cost per sale, not likes. See Meta ads for coaching institutes for a step-by-step setup.
 
 
 
+### Plan the second product
 
-· · ·
+When the first course sells, add the obvious next purchase: a test series for the same exam, a crash course before the exam date, or the next level of the skill. For more ways to move YouTube viewers to paid courses, read how to sell courses online in India.
 
 
 
 
 
-## Step 5 — Run Automated Operations from One Dashboard
 
+## Common mistakes when starting an online academy
 
-5
+The mistakes that slow a launch are teaching everyone, building ten courses before selling one, skipping the free demo, waiting to be perfect, letting someone else own your domain, and collecting fees on WhatsApp. Each has a simple fix.
 
-The Operations Step · Automatic — your only job is to teach
 
 
+Six mistakes that slow a launch, and what to do instead.
 
-### Onboarding, Payments, Communication, Analytics — All on Autopilot
 
-Once Steps 1–4 are done, the academy is live and discoverable. Step 5 is where most educators expect chaos and instead get silence. Onboarding, payments, course access, batch assignment, communication, drop-off prediction, and engagement analytics all run automatically from a single educator login. You teach. The OS handles the rest.
+- Teaching everyone. A general "all competitive exams" academy is hard to search for and hard to trust. Start with one exam or skill and one language.
 
+- Ten courses on day one. One finished course you can sell this month is worth more than ten outlines. Add the next course when the first one sells.
 
+- No free demo lesson. Students cannot judge your teaching from a price tag. Give them one full lesson.
 
+- Waiting to be perfect. Launch with one finished module and improve with real feedback. A launched course teaches you more than a polished draft.
 
-This is the part of the playbook that distinguishes an academy that scales from one that drowns. Most coaching businesses lose 12 to 25 percent of their paid signups in the first 14 days purely to operational friction — students who paid, never figured out how to access content, and silently disappeared. Automated operations close that gap structurally, not through better staff, better WhatsApp templates, or longer working hours.
+- Domain in a vendor's name. If an agency or platform owns your web address, you cannot easily leave. Register it yourself.
 
+- Selling only on WhatsApp. Payment screenshots and manual group adds do not scale and leave no clean record. Send every student to checkout.
 
-What Runs Automatically
 
 
+Question educators ask
 
-### The Full Operational Stack on Autopilot
 
-Lead capture and routing, instant communication on form submission, frictionless UPI/card/EMI payments, payment-linked auto-enrollment, instant course access, automated welcome sequences, multi-channel class reminders, AI-powered drop-off detection, engagement nudges, doubt-channel routing, and decision-useful analytics. All from one dashboard. All without human intervention beyond the educator's actual teaching work. See the full operational playbook in our student onboarding automation guide.
 
+### I already teach offline. Should I move my batches online too?
 
+Many coaching centres run both: classroom batches continue, and an online academy adds recorded backups, online test series and batches for students in other cities. Start with one subject or one batch online, then expand. Our guide to moving offline coaching online covers the switch step by step.
 
-The practical consequence is dramatic. An educator on a unified OS can run a 1,000-student academy with the operational overhead of a 100-student academy. An educator on a stitched SaaS stack spends a meaningful chunk of every working day on integration tax and operational firefighting — chasing payments, debugging access, manually granting course unlocks, retyping student details across systems. The OS removes that overhead entirely. Your only operational job becomes the quality of your teaching.
 
-That is Step 5. That is also why this is the entire launch — five steps, one login, complete academy. Anything more elaborate than this in 2026 is either nostalgia for the old way or a vendor selling unnecessary infrastructure.
 
 
 
-· · ·
 
 
+## How much does it cost to start an online academy in India?
 
+Starting an online academy costs a platform plan, any platform fee on sales, payment gateway charges, a yearly domain and GST, plus your own time and basic recording gear. There is no development bill when you use an academy platform.
 
 
-## Why One Login Changes Everything
+- Platform plan: on AllCoaching, ₹6,999, ₹12,999, ₹24,999 or ₹99,999 a year after the 14-day free trial, excluding GST.
 
-Step back from the five-step playbook for a moment and look at what is structurally different about it. The substantive change is not that you skip work. The work you do is the work that matters — defining your brand, building your catalog, surfacing your content. The change is that you do all of that work inside one environment instead of across nine. And that single shift turns out to compound in ways that are not visible at first.
+- Platform fee on sales: 10%, 7.5%, 5% or 0% on AllCoaching, depending on the plan.
 
+- Payment gateway: a per-transaction charge, such as Razorpay's 2% standard fee plus GST on that fee.4
 
-The Compounding Advantages
+- Domain: a yearly renewal at your registrar.
 
+- Gear: a clip-on mic and a phone stand cover most needs at the start; a ring light helps if you record on camera.
 
+- GST: on platform bills, and on your own course fees if you are registered. Check the rules with your accountant.
 
-### What Disappears When the Login Count Goes from 9 to 1
 
-Integration tax disappears. No staff time spent moving data between tools. Subscription bloat disappears. Eight to twelve separate SaaS bills become one revenue share. Operational chaos disappears. One student record means no inconsistencies, no duplicate enrollments, no missed access. Migration risk disappears. No need to ever rebuild the academy on a different stack as you scale. Defensibility appears. Ratings, reviews, and AI-discovery signals compound inside one ecosystem instead of fragmenting across five.
+Write these lines into one sheet before you launch, with your expected sales for the year. It takes ten minutes and tells you which plan to choose and what price your course needs.
 
 
 
-This is the deepest reason the educator OS architecture wins over time. It is not about saving money in year one — though it does. It is not about launching faster — though it does. It is that every operational and strategic advantage of an integrated platform compounds, while every disadvantage of a stitched stack also compounds. Three years in, the educator on a unified OS is operating a fundamentally different business from the educator who chose to stitch their own.
 
-The educator who recognizes this early and chooses one login over nine is not just launching faster. They are choosing the architecture that will define the next decade of their teaching business. The honest side-by-side of where each major Indian platform sits on the tool-versus-ecosystem spectrum is in our Classplus vs Graphy vs AllCoaching comparison.
 
 
-Question Often Asked
+## Glossary
 
 
+Online academy
+An educator's or institute's own branded school on the internet, where students buy courses, learn, take tests and attend live classes.
+Demo lesson
+One full lesson given free so students can judge your teaching before they pay for the course.
+Custom domain
+Your own web address, such as youracademy.in, connected to your academy website instead of a platform's address.
+DNS record
+A setting at your domain registrar that tells the internet where your domain points. Connecting an academy usually needs a TXT record and a CNAME record.
+Unlisted video
+A YouTube video that anyone with the link can watch but that does not appear in search results or on your channel page.
+White-label app
+A student app that carries your academy's name and logo, built on a platform's technology.
+Platform fee
+A percentage of each sale that an academy platform keeps, in addition to or instead of a plan price.
+Payment gateway
+The service that collects UPI, card and net-banking payments online and settles them to your bank account, for a per-transaction charge.
+Meta Pixel
+A tracking code from Meta added to your website so you can measure which Facebook and Instagram ads lead to visits and sales.
 
-### If I already have a stitched stack working (WordPress + WooCommerce + Vimeo + Mailchimp + Zoom + Razorpay), should I migrate to an educator OS?
 
-Honest answer: depends on your current scale and integration pain. Below 200 active students, almost always migrate — the operational overhead of maintaining 6 tools across 6 logins consumes 10–20 hours per month that an educator OS reclaims for teaching. The migration takes 2–4 weeks of parallel running, retains your existing student community, and the productivity reclaim pays back within the first quarter. Above 1,000 active students with deeply customised integrations, the migration calculus is different — the switching cost can be substantial, and a hybrid approach (migrate new student acquisition to AllCoaching marketplace while keeping existing student data in the legacy stack) often serves better than full migration. As a structural pattern, institutes routinely save ₹2–6 lakh per year in tooling cost plus 120–240 hours of operational time after migration — the question is rarely whether to migrate, only when.
 
 
 
 
-· · ·
+## Frequently asked questions
 
+How do I start an online academy?Start an online academy in five steps: plan one course for one clear group of students, sign up on an academy platform and choose a plan, upload the course with videos, PDF notes and tests, connect your own domain, and start selling through a checkout that takes UPI and cards.
 
+How do I start an online academy in India with no technical skills?Use an academy platform that handles the website, app, payments and hosting for you. You add your content, connect a domain by copying two DNS records at your registrar, and share your course link. No coding or developer is needed.
 
+How long does it take to start an online academy?Signing up takes minutes. Most of the time goes into planning and recording your first course. One educator with one course can usually launch within one to two weeks; with only a few hours a week, plan for about a month.
 
+How much does it cost to start an online academy in India?Add the platform plan, any platform fee on sales, payment gateway charges, a yearly domain and GST. On AllCoaching, after a 14-day free trial with no card, plans cost ₹6,999, ₹12,999 or ₹24,999 a year with a 10%, 7.5% or 5% fee on sales, or ₹99,999 a year with 0%, all excluding GST.
 
-## AllCoaching IS the Educator OS
+What should my first online course include?Video lessons in syllabus order, one PDF of notes per chapter, a test after each module, and one free demo lesson. Exam courses should add full-length timed mock tests; skill courses should add practice tasks.
 
-Throughout this article, "educator OS" has been described as a category of platform. The honest note is that this category is, in 2026, primarily occupied by one platform built specifically for Indian educators: AllCoaching. The five-step playbook above is not a generic framework — it is the actual operational sequence inside AllCoaching, designed from first principles around how independent educators and coaching institutes in India actually launch and scale. The wider context is worth holding in view: India's overall education market is projected to expand to US$ 313 billion by FY30, up from US$ 117 billion in FY23[3] — a near-tripling that the educators who build on the right architecture early are positioned to capture, while those who pick the wrong infrastructure spend the same decade fighting their own stack. If you teach in a tightly regulated category, pair this with our primer on Indian edtech laws and regulations for teachers before you scale.
+Do I need my own domain for an online academy?It is strongly recommended. A domain such as youracademy.in is the one link you share everywhere, and if it is registered in your own name it stays yours even if you change platforms later.
 
+Can I use YouTube videos in my paid online course?Yes. Many educators upload lessons to YouTube as unlisted videos, which only people with the link can see, and add them to the paid course. Public YouTube videos then work as free lessons that bring new students to the academy.
 
-Login
+How do students pay in an online academy?Through a checkout on your academy website or app. The student pays by UPI or card, the payment gateway confirms it, course access opens automatically, and the money is settled to your bank account.
 
+Do I need a mobile app for my online academy?A website on your own domain is enough to start, and it works in any phone browser. An app with your name helps students come back daily. On AllCoaching every plan includes your own Android app, and the iOS app is included on Pro and Scale.
 
 
-### One Sign-In · Phone-Number OTP
 
-Sign up at studio.allcoaching.in with one phone number. No password setup, no email confirmation friction, no developer involvement. Your full academy provisions automatically.
 
 
 
+## Sources
 
 
-Content
+- YouTube Help, "Change video privacy settings" (unlisted videos), support.google.com, checked October 2026.
 
+- Google Search Central, "SEO Starter Guide", developers.google.com, checked October 2026.
 
+- NPCI data for September 2026 as reported by StartupTalky, "UPI Transaction Volume Dips 1.8% MoM to 24.07 Billion in September 2026", 5 October 2026, startuptalky.com, checked October 2026. Monthly figures are published by NPCI at npci.org.in.
 
-### Multi-Format Catalog Under One Profile
+- Razorpay pricing, razorpay.com/pricing, standard plan, checked October 2026.
 
-Sell PDFs, handwritten notes, test series, mocks, MCQ banks, recorded courses, live classes, and bundles — under a unified educator profile, with consistent payments, access controls, and analytics across all formats.
+- AllCoaching pricing, allcoaching.in/pricing, October 2026.
 
 
 
 
 
-AI
 
-
-
-### AI-Driven Marketplace Discovery — Built In
-
-Every educator on AllCoaching benefits from the platform's growing student base by default. The AI recommendation engine surfaces your content to relevant students based on exam category, language, level, and engagement signals — without paid acquisition.
-
-
-
-
-
-Operations
-
-
-
-### End-to-End Automated Operations
-
-Onboarding, payments, course access, batch management, communication, drop-off detection, and engagement analytics — all integrated, all running automatically. Your operational job becomes teaching, not coordinating.
-
-
-
-
-
-Economics
-
-
-
-### From ₹6,999/yr · Up to 100% Revenue to Educator
-
-No monthly subscription, no development cost, no infrastructure bill. Revenue-share model that aligns the platform's success with the educator's. The capital you would have spent on a custom academy stays in your business.
-
-
-
-
-
-"AllCoaching is what every Indian educator launching in 2026 needs an online academy to actually be — one login, full infrastructure, AI marketplace discovery, automated operations, and economics that align the platform with the educator. The five-step playbook in this article is not a framework. It is what happens when you sign up."
-
-
-
-For 99% of independent educators, coaching teachers, and coaching institutes launching or scaling in 2026, AllCoaching is structurally the right architecture for the academy. The 1% exception — educators who have already independently built a 50,000+ engaged following and have the capital and team to build a custom platform — is rare enough that it is the exception that proves the rule. For everyone else, AllCoaching is the educator OS the academy should be built on. The wider strategic context — why the 2026 coaching business plan begins with distribution rather than tooling — is covered in our companion guide on the online coaching business plan for 2026.
-
-
-
-· · ·
-
-
-
-
-
-## The Strategic Conclusion
-
-At the start of this article, we asked a simple question: how do you start an online academy in five steps? Now, with the full architectural picture in view, we can answer it precisely. You do not start by buying a domain and configuring an LMS. You do not start by hiring a developer or comparing nine SaaS tools. You do not start by writing a 27-page launch checklist. You start by recognizing that the entire launch is now one login away.
-
-The educators we see launching successful academies in 2026 share a clear pattern. They have:
-
-
-- Stopped writing 17-step launch plans built for a 2020 SaaS-stitched world.
-
-- Adopted a single educator OS instead of stitching together their own infrastructure.
-
-- Defined their persona with discipline so AI recommendation systems actually surface them.
-
-- Published multi-format catalogs from day one instead of polishing single-format launches for months.
-
-- Activated marketplace distribution instead of self-funding ₹6–25 lakh in year-one paid acquisition.
-
-- Trusted automated operations instead of building a coordinator team to do what software does better.
-
-
-
-The future of online academies in India is not 17 steps and nine tools. It is five steps and one login. The educators who recognize this early launch faster, spend almost nothing on infrastructure, and reach their first paying student inside two weeks. AllCoaching exists to give every Indian educator access to that architecture from day one — one login, full educator OS, AI marketplace discovery, automated operations, one predictable annual plan fee. Your job is to teach. Everything else is provisioned.
-
-If you have read this far, the next concrete action is simple. Stop planning. Stop comparing tools. Stop writing checklists. Sign up at studio.allcoaching.in. Define your persona. Publish your first three pieces of content. Tag them precisely. Watch the marketplace begin surfacing them within days. That is how an online academy starts in 2026.
-
-
-
-
-"Every great teaching career used to start with a domain registration. The good ones now start with a single OTP login. The architecture has changed. The educators who change with it will define the next decade."
-
-— Amit Ratan, Founder & CEO, AllCoaching
-
-
-
-
-
-
-About the Author
 
 Amit Ratan
-
 Founder & CEO, AllCoaching
-
-"The educators who launch in 2026 will not assemble academies from nine tools. They will provision them from one login. AllCoaching exists to make that the default — not the exception."
-
-Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator growth marketplace. He has spent over a decade studying what separates online academies that compound from those that drown — and the architectural shifts that make compounding the default. AllCoaching is built around a single conviction: in the modern teaching economy, the platform an academy runs on is the most consequential strategic decision in the entire business.
-
-
-
-
-
-
-Get Started
-
-Launch your online academy this week — five steps, one login, zero code.
-
-Stop assembling academies from nine SaaS tools and five separate logins. Sign up on AllCoaching's educator OS — full infrastructure, AI marketplace discovery, automated operations, and 90% educator revenue share, all from one phone-number login. Define your brand, publish your catalog, tag for AI discovery, and let the operations run themselves. That is how an online academy starts in 2026.
-
-
-
-
-Sign Up — Educator OS
-
-
-
-See the plans
-
-
-
-
-From ₹6,999/yr
-·
-90% revenue
-·
-No lock-in
-·
-Automatic payouts
-
-
-
-
-
-
-
-## Glossary — Key Terms
-
-
-Term
-
-
-
-### Educator Operating System (Educator OS)
-
-A single integrated software platform that bundles every component required to run an online academy — content hosting, live classes, payments, CRM, marketplace discovery, GST invoicing — under one login. Contrasts with the stitched-stack approach of using 5–8 separate SaaS tools that drift out of sync.
-
-
-
-
-Term
-
-
-
-### 5-Step Launch Playbook
-
-AllCoaching's structured online academy launch sequence — Step 1: Define brand and student persona. Step 2: Sign up on the educator OS. Step 3: Build and publish multi-format catalog. Step 4: Activate AI marketplace distribution. Step 5: Run automated operations from one dashboard. Median time from Step 1 to first paid student: 7–14 days.
-
-
-
-
-Term
-
-
-
-### Online Academy
-
-An educator's branded online teaching operation including multiple courses, structured cohorts, recurring live classes, and a student community — distinct from a one-off course or a single video channel. The unit of business operation for serious Indian educators in 2026.
-
-
-
-
-Term
-
-
-
-### Stitched Stack (Anti-Pattern)
-
-The operational pattern where an educator runs their online academy across 5–8 separate SaaS tools. Adds ₹50,000–₹3,00,000 per year in integration cost plus 10–20 hours/month of tooling time. The problem an Educator OS solves.
-
-
-
-
-Term
-
-
-
-### Time to First Paid Student
-
-The elapsed time between platform signup and first paid student enrollment. On AllCoaching, median time is 7–14 days; on a custom-built or LMS-stitched architecture, median time is 3–9 months. The single most under-appreciated launch metric.
-
-
-
-
-Term
-
-
-
-### Educator Identity (Profile)
-
-The trust-building surface — educator photo, teaching philosophy, sample lesson, credentials, testimonials. The single most important first-day asset in an online academy launch because students cannot evaluate teaching quality before paying.
-
-
-
-
-Term
-
-
-
-### Marketplace Listing Activation
-
-The Step 5 action that makes the educator's content discoverable to students searching across the AllCoaching marketplace by exam, subject, language, level, and location. The structural replacement for self-funded Meta/Google ads in the early-stage launch phase.
-
-
-
-
-Term
-
-
-
-### Launch Velocity
-
-The pace at which an educator goes from signup to operational academy. High launch velocity (7–14 days) compounds momentum — early enrollments validate the offering, generate testimonials, and feed AI recommendation rankings. Slow launch velocity (3–6 months) loses momentum that no later marketing can fully recover.
-
-
-
-
-
-
-References & Sources
-
-
-
-## References & sources.
-
-
-- IBEF (India Brand Equity Foundation) — India's edtech market valued at Rs. 64,875 crore (US$ 7.5 billion), projected to reach Rs. 2,50,850 crore (US$ 29 billion) by 2030 (IAMAI–Grant Thornton Bharat report). ibef.org
-
-- IBEF — India is the second-largest e-learning market after the US; the online education segment is growing at a CAGR of nearly 20%. ibef.org
-
-- IBEF — India's overall education market is projected to reach US$ 313 billion by FY30, up from US$ 117 billion in FY23. ibef.org
-
-
-
-
-
-
-
-
-## Frequently Asked Questions
-
-
-
-
-How can I start an online academy in 5 steps?
-You can start a complete online academy in 2026 in five steps inside a single educator operating system: (1) define your educator brand and student persona, (2) sign up on the educator OS with one login, (3) build and publish your multi-format catalog, (4) activate AI marketplace distribution, and (5) run automated operations from one dashboard. AllCoaching is built specifically for this five-step path — no code, no integrations, one predictable annual plan fee, with AI-driven student discovery and automated operations as default infrastructure.
-
-
-
-
-What is an educator OS?
-An educator OS is a unified operating system for running an online teaching business — a single platform with one login that combines content hosting, multi-format course delivery, student onboarding, payments, communication, AI-driven discovery, marketplace distribution, and analytics. Instead of stitching together five or more separate SaaS tools, the educator OS is one integrated environment where every step happens in the same place. AllCoaching is built as exactly this — an educator OS with marketplace distribution built in.
-
-
-
-
-Can I start an online academy without coding or development?
-Yes. In 2026, no Indian educator should write a line of code or hire a developer to launch an online academy. A modern educator OS like AllCoaching ships every layer of the academy as default infrastructure — content hosting, payments, login, course access, communication, AI recommendations, and analytics. Educators sign up, upload content, and become discoverable to students within hours. Custom-built academies typically cost ₹15 to 40 lakh in development plus ongoing maintenance — a cost that produces no advantage over the integrated platform path for 99% of educators.
-
-
-
-
-How much does it cost to start an online academy in India in 2026?
-It depends entirely on the architecture you choose. Building a custom online academy app typically costs ₹15 to 40 lakh in year one (development, hosting, marketing, operations, maintenance). Running on an educator OS like AllCoaching can compress that to one predictable annual plan fee, with a revenue-share model that aligns the platform's success with the educator's. For most independent educators and coaching institutes in India, the OS path produces dramatically better year-one unit economics and a much shorter time to first paying student.
-
-
-
-
-What can I sell on my online academy?
-On AllCoaching's educator OS you can sell PDF notes, handwritten notes, chapter-wise test series, full-length mock tests, MCQ banks, recorded video courses, live online classes, doubt-resolution sessions, and bundled course packages combining multiple formats — all under a unified educator profile with consistent payment processing, student access controls, and analytics. The multi-format catalog approach produces dramatically better lifetime value than single-format selling because each format becomes a discovery surface for the others.
-
-
-
-
-How long does it take to launch an online academy on an educator OS?
-Most educators publish their first content and become discoverable within 30 to 60 minutes of sign-up on AllCoaching. The full five-step launch — brand definition, sign-up, catalog build, marketplace activation, and operations setup — typically takes one to three working days for a focused educator. The first paid student usually arrives within 7 to 14 days as the AI recommendation engine begins surfacing the new academy to relevant searches. Compare this to a custom-built academy, which takes 3 to 9 months from kickoff to first student.
-
-
-
-
-Why is one login better than multiple SaaS tools?
-Multiple SaaS tools means each tool stores its own version of the student record, and the educator's team becomes the integration layer. One login means student identity, payments, content access, communication, and analytics all share the same data and trigger each other natively. The first scales infinitely; the second breaks at every growth threshold. Educators who launch on a unified educator OS in 2026 also avoid 8 to 12 separate monthly SaaS bills, which together typically run ₹40,000 to ₹1.5 lakh per month for an independent academy.
-
-
-
-
-How does AI help my online academy get discovered?
-AI is the new discovery substrate. Conversational AI tools (ChatGPT, Gemini, Perplexity), Google AI Overviews, and platform-native recommendation engines now surface educators based on structured signals — exam category, language, content format, ratings, engagement quality. AllCoaching's AI recommendation engine matches students to your content based on their actual learning need, so your academy becomes discoverable to relevant students without paid acquisition. This is the single most valuable thing an educator OS gives you that no isolated app can replicate.
-
-
-
-
-What is the difference between AllCoaching and a traditional LMS?
-A traditional LMS is a tool — it gives you content hosting, dashboards, and payment integration but leaves student discovery entirely to the educator. AllCoaching is an educator OS plus a marketplace — it ships everything an LMS does, plus AI-driven student discovery, marketplace distribution, automated onboarding, and engagement analytics, all integrated by default. The difference between a tool and an OS-with-marketplace is small in marketing copy and enormous in long-term educator outcomes — over a multi-year horizon, marketplace participation produces dramatically better unit economics than isolated LMS operation.
-
-
-
-
-Can I scale my online academy from 100 to 10,000 students on the same platform?
-Yes, and this is precisely what an educator OS is designed for. AllCoaching scales from a single-educator launch to multi-thousand-student academies on the same login, the same dashboard, the same content profile. Automated onboarding, AI-driven discovery, payment processing, batch management, and engagement analytics all scale natively as your academy grows. There is no platform migration, no rebuild, no operational rebuild as you scale — the architecture is designed for educators who plan to grow over multiple years inside one ecosystem.
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. This is the step-by-step setup guide we wish every educator had on day one; outside facts are linked to their sources and example figures are marked as illustrative.
 
 ---
 
