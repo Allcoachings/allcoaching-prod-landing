@@ -1,0 +1,222 @@
+{
+ "slug": "best-platforms-for-individual-course-creators-vs-institutes",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Solo vs institute",
+  "lines": [
+   "Solo educator",
+   "or institute?",
+   "*Which platform fits?*"
+  ],
+  "sub": "Nine platforms, compared fairly",
+  "options": [
+   "Exly",
+   "Graphy",
+   "Classplus",
+   "Edmingle",
+   "AppX",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *how you teach*"
+  ],
+  "sub": "Solo educators and institutes need different things.",
+  "rows": [
+   {
+    "need": "Solo educator who wants own website and app",
+    "pick": "AllCoaching",
+    "why": "Own domain and Android + iOS app on every plan; add teachers later",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "Solo coach selling sessions from a checkout page",
+    "pick": "Exly",
+    "why": "No upfront fee on Starter, 10% commission; app is an add-on",
+    "icon": "chart"
+   },
+   {
+    "need": "Creator with a large YouTube or Instagram audience",
+    "pick": "Graphy",
+    "why": "Creator-focused; check its rupee plans on graphy.com from India",
+    "icon": "users"
+   },
+   {
+    "need": "Institute with many batches or branches",
+    "pick": "Edmingle",
+    "why": "Branch management published; from ₹7,499/month billed annually",
+    "icon": "check"
+   },
+   {
+    "need": "Institute that wants one flat yearly price",
+    "pick": "Classplus",
+    "why": "Lists ₹29,999 a year; ask about GST, fees on sales and iOS",
+    "icon": "check"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Entry price, *as published*"
+  ],
+  "sub": "Lowest plan on each official pricing page, per year, in rupees",
+  "rows": [
+   {
+    "name": "Exly",
+    "price": 0,
+    "label": "No upfront fee",
+    "fee": "+10% commission (Starter) · solo",
+    "published": false
+   },
+   {
+    "name": "TagMango",
+    "price": 0,
+    "label": "No fixed fee",
+    "fee": "+10% (Basic, up to 200 students) · solo",
+    "published": false
+   },
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "+10% on sales (Starter) · both",
+    "published": true
+   },
+   {
+    "name": "Learnyst",
+    "price": 10000,
+    "label": "₹10,000/yr",
+    "fee": "+10% (Launcher), taxes extra · both",
+    "published": true
+   },
+   {
+    "name": "Classplus",
+    "price": 29999,
+    "label": "₹29,999/yr",
+    "fee": "Fee on sales not stated · institutes",
+    "published": true
+   },
+   {
+    "name": "Edmingle",
+    "price": 89988,
+    "label": "₹89,988/yr",
+    "fee": "₹7,499/month billed annually · institutes",
+    "published": true
+   },
+   {
+    "name": "Graphy",
+    "price": 0,
+    "label": "Not confirmed in ₹",
+    "fee": "Check graphy.com from India · solo",
+    "published": false
+   },
+   {
+    "name": "AppX",
+    "price": 0,
+    "label": "Price not listed",
+    "fee": "Free demo first · institutes",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "What you pay *as you grow*"
+  ],
+  "sub": "Plan price + fee on sales, lowest-cost plan at each level, before GST",
+  "competitors": [
+   {
+    "name": "Exly",
+    "plans": [
+     [
+      0,
+      0.1
+     ],
+     [
+      30000,
+      0.06
+     ],
+     [
+      108000,
+      0.03
+     ]
+    ],
+    "note": "Exly: Starter, Pro or Premium; app add-on (from ₹60,000/yr) not included"
+   },
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed price; fee on sales not stated"
+   },
+   {
+    "name": "Edmingle",
+    "plans": [
+     [
+      89988,
+      0
+     ]
+    ],
+    "note": "Edmingle: Core billed annually, taxes extra; fee on sales not stated"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "From solo to *institute*"
+  ],
+  "sub": "Grow on one platform instead of moving",
+  "steps": [
+   [
+    "Build your academy",
+    "Your domain, your app, one course"
+   ],
+   [
+    "Add a teacher",
+    "With their own login and batch"
+   ],
+   [
+    "Organise batches",
+    "By class, subject or time slot"
+   ],
+   [
+    "One institute brand",
+    "On the website and the app"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Growing a team",
+   "*like this?*"
+  ],
+  "tapes": [
+   "Teachers share one login",
+   "A WhatsApp group per batch",
+   "Fees tracked in Excel",
+   "Recordings on Drive",
+   "Tests on Google Forms"
+  ],
+  "note": [
+   "Every new",
+   "teacher adds more"
+  ],
+  "right_title": [
+   "One academy.",
+   "*Every teacher.*"
+  ],
+  "checks": [
+   "Separate teacher logins",
+   "Courses and batches together",
+   "Website + Android + iOS app",
+   "UPI and card checkout",
+   "Live classes, unlimited"
+  ]
+ }
+}

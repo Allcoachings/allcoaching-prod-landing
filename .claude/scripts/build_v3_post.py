@@ -122,7 +122,7 @@ def cost_table(slug):
         return f'{cg.inr(p + f * sales)} ({n})'
 
     def label(v):
-        return '₹0' if v == 0 else (f'₹{v / 100000:g} lakh' if v >= 100000 else cg.inr(v))
+        return 'No sales yet' if v == 0 else (f'₹{v / 100000:g} lakh' if v >= 100000 else cg.inr(v))
     head = '<th>Your sales in a year</th><th>AllCoaching (best plan)</th>' + ''.join(f'<th>{H.escape(x["name"])}</th>' for x in comps)
     rows = ''.join('<tr><td>' + label(v) + '</td><td>' + best_ac(v) + '</td>' +
                    ''.join(f'<td>{cg.inr(cg.comp_cost(x["plans"], v))}</td>' for x in comps) + '</tr>' for v in levels)

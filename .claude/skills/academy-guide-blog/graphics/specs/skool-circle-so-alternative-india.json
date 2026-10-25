@@ -1,0 +1,53 @@
+{
+ "slug": "skool-circle-so-alternative-india",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "lines": ["Skool or Circle", "alternative for", "*study groups?*"],
+  "sub": "Four options for India, compared fairly",
+  "options": ["Skool", "Circle.so", "TagMango", "AllCoaching"]
+ },
+ "verdict": {
+  "title": ["Pick by *what members pay for*"],
+  "rows": [
+   {"need": "A study batch with live classes, tests and notes", "pick": "AllCoaching", "why": "Own app and domain, unlimited live classes, UPI checkout; from ₹6,999/yr + 10%", "icon": "video", "us": true},
+   {"need": "Course plus community, priced in rupees", "pick": "TagMango", "why": "Basic: no fixed fee + 10%, up to 200 students; domain setup ₹24,999/yr", "icon": "users"},
+   {"need": "A gamified discussion feed is the product", "pick": "Skool (stay)", "why": "US$9 a month + 10% (Hobby) or US$99 + 2.9% (Pro)", "icon": "message"},
+   {"need": "A large branded hub with events", "pick": "Circle.so (stay)", "why": "From US$89 a month on annual billing, taxes excluded", "icon": "calendar"}
+  ]
+ },
+ "prices": {
+  "title": ["Entry price, *as published*"],
+  "sub": "Lowest plan on each official page. US-dollar prices are not converted.",
+  "rows": [
+   {"name": "AllCoaching", "price": 6999, "label": "₹6,999/yr", "fee": "+10% on sales (Starter)", "published": true},
+   {"name": "TagMango", "price": 0, "label": "No fixed fee", "fee": "+10% (Basic, up to 200 students), + GST", "published": true},
+   {"name": "Skool", "price": 0, "label": "US$9/mo", "fee": "Hobby, in US dollars; +10% transaction fee", "published": false},
+   {"name": "Circle.so", "price": 0, "label": "US$89/mo", "fee": "Professional, annual billing, in US dollars; taxes excluded", "published": false}
+  ]
+ },
+ "cost": {
+  "title": ["What you pay *as you grow*"],
+  "sub": "Rupee plans only: plan price + fee on sales, lowest-cost plan at each level, before GST",
+  "levels": [50000, 100000, 300000, 500000, 1000000],
+  "competitors": [
+   {"name": "TagMango", "plans": [[0, 0.10], [60000, 0.055], [180000, 0.035], [360000, 0]], "note": "TagMango: Basic to Ultimate, + GST; Basic capped at 200 students"},
+   {"name": "TagMango + domain", "plans": [[24999, 0.10], [84999, 0.055], [204999, 0.035], [384999, 0]], "note": "TagMango + domain: adds the ₹24,999/yr Freedom Setup"}
+  ]
+ },
+ "switch": {
+  "title": ["Move in *four calm steps*"],
+  "steps": [
+   ["Build your academy", "Start the 14-day trial and set up your first batch"],
+   ["Run both side by side", "Current members keep their access"],
+   ["New members", "Send them to your own website and app"],
+   ["Close the old plan", "Only after paid periods end"]
+  ]
+ },
+ "before_after": {
+  "left_title": ["Still running", "*your group like this?*"],
+  "tapes": ["Community bill in US dollars", "Leaderboard, not progress", "Doubts lost in the feed", "Tests on Google Forms", "Class links on WhatsApp"],
+  "note": ["Too many", "tools"],
+  "right_title": ["One login.", "*Your academy.*"],
+  "checks": ["Live classes, unlimited", "Weekly tests and notes", "Your own Android + iOS app", "UPI and card checkout", "Website on your domain"]
+ }
+}

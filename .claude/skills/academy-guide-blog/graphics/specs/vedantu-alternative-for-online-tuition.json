@@ -1,0 +1,105 @@
+{
+ "slug": "vedantu-alternative-for-online-tuition",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "eyebrow": "Honest comparison",
+  "lines": [
+   "Vedantu",
+   "alternative for",
+   "*your own tuition?*"
+  ],
+  "sub": "Teach with a brand, run your own, or both",
+  "options": [
+   "Keep teaching with Vedantu",
+   "Another edtech brand",
+   "WhatsApp + UPI",
+   "A tuition franchise",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *how you want to teach*"
+  ],
+  "sub": "There is no single best path. Start from what you want next.",
+  "rows": [
+   {
+    "need": "You want your own batches, fees and student list",
+    "pick": "Own academy",
+    "why": "AllCoaching: own domain and Android + iOS app on every plan, 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "You want students found for you in set hours",
+    "pick": "Teach with Vedantu",
+    "why": "Its teacher page asks for 3+ hours a day between 4 and 10 PM IST",
+    "icon": "users"
+   },
+   {
+    "need": "You want steady hours and a batch of your own",
+    "pick": "Do both",
+    "why": "Teach with a brand and run one batch on the side, if your agreement allows",
+    "icon": "layers"
+   },
+   {
+    "need": "You teach a handful of home students",
+    "pick": "Start small",
+    "why": "WhatsApp and UPI work for a few students; move to one login as you grow",
+    "icon": "message"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Start *with one batch*"
+  ],
+  "sub": "No need to give anything up first",
+  "steps": [
+   [
+    "Read your agreement",
+    "Check exclusivity or outside-tuition rules"
+   ],
+   [
+    "Build your academy",
+    "14-day trial, your domain, your app"
+   ],
+   [
+    "Start one batch",
+    "Schedule, notes, a test and your fee"
+   ],
+   [
+    "Grow at your pace",
+    "Add batches as seats fill"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Tuition batches",
+   "*still run like this?*"
+  ],
+  "tapes": [
+   "Classes on a video app",
+   "Fees on UPI screenshots",
+   "Homework on WhatsApp",
+   "Notes in Drive",
+   "Marks in a notebook"
+  ],
+  "note": [
+   "Too many",
+   "tools"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Website on your domain",
+   "Your own Android + iOS app",
+   "Live classes, unlimited",
+   "UPI and card checkout",
+   "Tests and notes in one place"
+  ]
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "slug": "personal-coaching-app-alternative",
+ "checked": "24 Oct 2026",
+ "cover": {
+  "lines": [
+   "Your own coaching app:",
+   "*which way to get it?*"
+  ],
+  "sub": "Four options, compared fairly",
+  "options": [
+   "Agency-built app",
+   "App builders",
+   "WhatsApp + Telegram",
+   "AllCoaching"
+  ]
+ },
+ "verdict": {
+  "title": [
+   "Pick by *how you want to build*"
+  ],
+  "rows": [
+   {
+    "need": "Own app and website, built and changed by you",
+    "pick": "AllCoaching",
+    "why": "Android + iOS app and own domain on every plan, 14-day free trial",
+    "icon": "globe",
+    "us": true
+   },
+   {
+    "need": "A fully custom design, with budget for upkeep",
+    "pick": "Agency-built app",
+    "why": "Quoted by scope; get code ownership and maintenance in writing",
+    "icon": "puzzle"
+   },
+   {
+    "need": "A vendor-provided app on a flat yearly plan",
+    "pick": "App builder",
+    "why": "Classplus lists ₹29,999/yr; AppX quotes after a demo",
+    "icon": "phone"
+   },
+   {
+    "need": "Testing a first batch at zero cost",
+    "pick": "WhatsApp + Telegram",
+    "why": "Free and familiar; no checkout or course library",
+    "icon": "message"
+   }
+  ]
+ },
+ "prices": {
+  "title": [
+   "Your own app, *as published*"
+  ],
+  "sub": "Lowest plan or add-on that includes a branded app, per year",
+  "rows": [
+   {
+    "name": "AllCoaching",
+    "price": 6999,
+    "label": "₹6,999/yr",
+    "fee": "Android + iOS, +10% on sales (Starter)",
+    "published": true
+   },
+   {
+    "name": "Classplus",
+    "price": 29999,
+    "label": "₹29,999/yr",
+    "fee": "Android listed; iOS, GST, fee not stated",
+    "published": true
+   },
+   {
+    "name": "Exly",
+    "price": 60000,
+    "label": "₹60,000/yr",
+    "fee": "App add-on, + plan commission",
+    "published": true
+   },
+   {
+    "name": "Learnyst",
+    "price": 161988,
+    "label": "₹1,61,988/yr",
+    "fee": "Premium, branded Android, taxes extra",
+    "published": true
+   },
+   {
+    "name": "Edmingle",
+    "price": 179988,
+    "label": "₹1,79,988/yr",
+    "fee": "Prime, branded Android, taxes extra",
+    "published": true
+   },
+   {
+    "name": "AppX",
+    "price": 0,
+    "label": "Price not listed",
+    "fee": "Free demo first",
+    "published": false
+   },
+   {
+    "name": "Agency",
+    "price": 0,
+    "label": "Quoted by scope",
+    "fee": "Plus upkeep and hosting",
+    "published": false
+   }
+  ]
+ },
+ "cost": {
+  "title": [
+   "Your own app *as you grow*"
+  ],
+  "competitors": [
+   {
+    "name": "Classplus",
+    "plans": [
+     [
+      29999,
+      0
+     ]
+    ],
+    "note": "Classplus: listed price, Android app listed; fee on sales not stated"
+   },
+   {
+    "name": "Exly + app",
+    "plans": [
+     [
+      60000,
+      0.1
+     ],
+     [
+      90000,
+      0.06
+     ],
+     [
+      168000,
+      0.03
+     ]
+    ],
+    "note": "Exly: plan + mobile app add-on from ₹60,000/yr; GST not stated"
+   },
+   {
+    "name": "Learnyst Premium",
+    "plans": [
+     [
+      161988,
+      0
+     ]
+    ],
+    "note": "Learnyst: Premium billed annually, branded Android; taxes extra"
+   }
+  ]
+ },
+ "switch": {
+  "title": [
+   "Move in *four calm steps*"
+  ],
+  "steps": [
+   [
+    "Build your academy",
+    "Start the 14-day trial and upload one course"
+   ],
+   [
+    "Run both side by side",
+    "Keep current students on the old app"
+   ],
+   [
+    "Move new admissions",
+    "Send new students to your own website and app"
+   ],
+   [
+    "Close the old app",
+    "Only after the last batch finishes"
+   ]
+  ]
+ },
+ "before_after": {
+  "left_title": [
+   "Own app,",
+   "*still stitched?*"
+  ],
+  "tapes": [
+   "Changes need the agency",
+   "Fees on UPI screenshots",
+   "Live class on another app",
+   "Doubts on WhatsApp",
+   "No website to match"
+  ],
+  "note": [
+   "Too many",
+   "pieces"
+  ],
+  "right_title": [
+   "One login.",
+   "*Your academy.*"
+  ],
+  "checks": [
+   "Your own Android + iOS app",
+   "Website on your domain",
+   "Live classes, unlimited",
+   "UPI and card checkout",
+   "Change it yourself, any time"
+  ]
+ }
+}
