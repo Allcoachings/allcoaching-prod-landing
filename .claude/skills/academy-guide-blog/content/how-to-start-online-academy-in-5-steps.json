@@ -1,0 +1,288 @@
+{
+ "slug": "how-to-start-online-academy-in-5-steps",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "How to Start an Online Academy in 5 Steps (2026 Guide)",
+ "description": "How to start an online academy in India in 5 steps: plan your first course, sign up, upload it, connect your own domain and start selling with UPI checkout.",
+ "og_description": "A practical 5-step guide for Indian educators: plan one course, sign up and pick a plan, upload videos, notes and tests, connect your domain, then sell with UPI checkout. Checklists, costs and mistakes to avoid.",
+ "keywords": [
+  "how to start an online academy",
+  "start online academy in india",
+  "online academy setup steps",
+  "how to start online coaching academy",
+  "online academy checklist",
+  "connect domain to online academy",
+  "first online course structure",
+  "how to sell courses online india",
+  "online academy cost india",
+  "launch online academy"
+ ],
+ "h1": "How to Start an Online Academy in 5 Steps (2026)",
+ "dek": "A practical guide for Indian educators: plan one course, sign up and choose a plan, upload your videos, notes and tests, connect your own domain and start selling with UPI checkout. With checklists, real costs and the mistakes that slow a launch.",
+ "category": "Start an academy",
+ "date_published": "2026-05-11",
+ "date_modified": "2026-10-25",
+ "checked": "25 Oct 2026",
+ "cover_alt": "How to start an online academy in 5 steps: plan your academy, sign up and choose a plan, upload your course, connect your domain and start selling, shown with the AllCoaching studio",
+ "audience": "Indian educators, tutors, exam mentors, skill teachers and coaching institute owners starting an online academy",
+ "author_note": "This is the step-by-step setup guide we wish every educator had on day one; outside facts are linked to their sources and example figures are marked as illustrative.",
+ "intro": [
+  "<strong>To start an online academy, you need five steps: plan one course for one clear group of students, sign up on an academy platform and choose a plan, upload that course, connect your own domain, and start selling through a checkout that takes UPI and cards.</strong> Done in that order, a single educator can go from idea to first paid student in a couple of weeks.",
+  "Maybe you teach SSC maths in Hindi and your YouTube channel is growing. Maybe you run a NEET biology batch from a rented room, or you teach spoken English to working adults over Zoom in the evenings. Students already trust you. But fees arrive as screenshots on WhatsApp, notes live in Drive links, and nobody is sure who paid for which batch.",
+  "This guide walks through the five steps with the sub-steps inside each: what to prepare, which plan to pick, how to structure the first course, how to connect a domain, how payments and access work, and what to do in launch week. If you are still deciding whether you need one at all, start with <a href=\"/blog/what-is-an-online-academy\">what an online academy is</a>, then come back here."
+ ],
+ "takeaways": [
+  "<strong>Five steps start an online academy:</strong> plan your academy, sign up and choose a plan, upload your course, connect your domain, and start selling.",
+  "<strong>Plan one course first.</strong> One exam or skill, one language, one group of students, and one free demo lesson beat ten half-built courses.",
+  "<strong>A course is modules of video lessons, PDF notes and tests,</strong> with live doubt classes on top. YouTube videos can stay unlisted so only enrolled students see them.",
+  "<strong>Your own domain takes two DNS records</strong> at your registrar. Register it in your own name so the address stays yours.",
+  "<strong>Selling means a checkout, not WhatsApp screenshots:</strong> students pay by UPI or card, access opens automatically, and the payout reaches your bank.",
+  "<strong>On AllCoaching the path is automated:</strong> a 14-day free trial with no card, then plans from ₹6,999 a year plus GST, with your own Android app on every plan and iOS on Pro and Scale."
+ ],
+ "sections": [
+  {
+   "id": "five-steps",
+   "h2": "How to start an online academy: the 5 steps at a glance",
+   "toc": "The 5 steps",
+   "html": "<p><strong>Plan your academy, sign up and choose a plan, upload your course, connect your domain, and start selling.</strong> Those five steps are the whole launch. Everything else in this guide sits inside one of them.</p>\n      {{steps}}\n      {{fig:roadmap|The 5-step roadmap to start an online academy: plan your academy, sign up and choose a plan, upload your course, connect your domain, start selling, with an illustrative timeline|The five steps in order. The timeline is illustrative for one educator with one course.}}\n      <p>Older guides to starting an online academy list fifteen or more steps: buy hosting, install WordPress, pick an LMS plugin, add a payment plugin, set up a video host, wire up email, build an app. Each of those is still a real job. The difference in 2026 is that an academy platform does most of them for you, so the steps left are the ones only you can do: deciding what to teach, recording it and telling students about it.</p>\n      <p>When educators set up an academy with us, the slowest step is almost never the software. It is Step 1: deciding what the first course is and recording the demo lesson. So that is where we start.</p>"
+  },
+  {
+   "id": "before-you-start",
+   "h2": "What do you need before you start an online academy?",
+   "toc": "What you need first",
+   "html": "<p><strong>You need one topic you teach well, a syllabus for one course, one demo lesson, a phone with a clip-on mic, PAN and a bank account for payments, a domain name, a simple logo and a few hours a week.</strong> You do not need a developer, a studio or a big budget.</p>\n      {{fig:what-you-need|Checklist of what you need before you start an online academy: a topic, a syllabus, a demo lesson, a phone and mic, PAN and bank account, a domain name, a logo and a few hours a week|Eight things. Most educators already have six.}}\n      <p>Two items catch people out. The first is payment KYC: any payment gateway will ask for identity and bank details before it settles money to you, so keep your PAN, bank account and address proof ready. Our guide to <a href=\"/blog/accept-upi-payments-for-online-courses\">accepting UPI payments for online courses</a> lists the documents. The second is the domain: buy it yourself, in your own name, rather than letting a vendor or agency hold it.</p>\n      <p>If today your academy runs on a mix of WhatsApp, Drive, Zoom and Excel, you already have the most important things: students and content. Starting an online academy is mostly moving them into one place.</p>\n      {{fig:before-after|Before: fees on WhatsApp, notes as Drive links, a new Zoom link every day and students in Excel. After: one online academy login with UPI checkout, courses, live classes and records|The stitched-together setup most educators start with, and the one-login version. Logos belong to their owners.}}"
+  },
+  {
+   "id": "step-1",
+   "h2": "Step 1: Plan your academy and your first course",
+   "toc": "Step 1: Plan",
+   "html": "<p><strong>Before you sign up anywhere, write down what you teach, to whom, in which language, and what your first course will contain.</strong> This one page decides your course title, your price, your website copy and the students who find you.</p>\n      <h3>Answer four questions on one page</h3>\n      <ul>\n        <li><strong>What do you teach?</strong> The exam, subject or skill, and the level. \"Competitive exams\" is too broad; \"SSC CGL Quant\" is a course.</li>\n        <li><strong>For whom?</strong> Class 12 droppers, working adults, Class 10 board students, first-time job seekers.</li>\n        <li><strong>In which language?</strong> English, Hindi, Hinglish or a regional language. Many students search in the language they want to be taught in.</li>\n        <li><strong>Why you?</strong> Your method, your results with past batches, or a format others do not offer.</li>\n      </ul>\n      <p>Specific beats general. \"I teach competitive exam preparation\" gives a student nothing to search for. \"Hindi-medium NEET biology for Class 12 repeaters, with chapter-wise PDF notes and weekly tests\" tells them exactly who it is for, and gives Google words to match. The same works for skills: \"Spoken English for interview preparation, for freshers in tier-2 cities\" is a course people can picture buying.</p>\n      <h3>Pick one first course, not ten</h3>\n      <p>Choose the course you have already taught to real students, and build it as modules: video lessons in syllabus order, a PDF for each chapter, and a test at the end of each module. Exam students expect timed mock tests and solutions; skill students expect practice tasks and feedback.</p>\n      {{fig:first-course|How to structure the first course of an online academy: four modules with video lessons, PDF notes, chapter tests, full mocks and a free demo lesson|One course, four modules, one free demo lesson. Example structure, illustrative.}}\n      <h3>Record a demo lesson</h3>\n      <p>Your demo lesson is the one free lesson every student sees before paying. Make it 10 to 20 minutes, teach one real concept fully, and end with what the full course covers. Students cannot judge your teaching from a price; they judge it from this lesson. For recording on a phone with good audio, see our guide to <a href=\"/blog/how-to-conduct-live-classes-on-mobile-apps\">running classes from a mobile phone</a>.</p>\n      <h3>Set a price range</h3>\n      <p>Look at what students in your exam or skill already pay, then decide where your course sits. A recorded course, a test series and a live batch usually sit at different prices. Our guide on <a href=\"/blog/how-to-price-online-courses-india\">how to price online courses in India</a> covers the methods, including launch pricing for your first batch.</p>\n      {{q:I have only two hours a week. Can I still start an online academy?|Yes, with a slower timeline. An illustrative plan: week one, write the one-page plan and sign up; week two, record the demo lesson and two more lessons; week three, upload the first module with its PDF and test, and connect your domain; week four, share the link and run one live demo class. Launch with one finished module and add the next each week, rather than waiting until the whole course is recorded.}}"
+  },
+  {
+   "id": "step-2",
+   "h2": "Step 2: Sign up and choose a plan",
+   "toc": "Step 2: Sign up",
+   "html": "<p><strong>Sign up on an academy platform, use the free trial to build your academy, and choose the plan that fits your expected yearly sales.</strong> Signing up takes minutes; the plan choice decides what you pay as you grow.</p>\n      <h3>Start with the free trial</h3>\n      <p>On AllCoaching every plan starts with a 14-day free trial, and no card is needed to start. Use those days to do Steps 3 and 4: upload your first module, add your logo and colours, and connect your domain. By the end of the trial you know what the academy looks like with your content in it, not a demo account.</p>\n      <h3>Compare plans by total cost, not sticker price</h3>\n      <p>Academy platforms charge in two ways: a plan price, and sometimes a fee on each sale. Add both before you compare. Here is how AllCoaching's four yearly plans work (prices exclude GST):</p>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Plan</th><th>Price per year</th><th>Platform fee on sales</th><th>You keep</th><th>Student apps</th></tr></thead>\n          <tbody>\n            <tr><td>Starter</td><td>₹6,999</td><td>10%</td><td>90%</td><td>Own Android app</td></tr>\n            <tr><td>Growth</td><td>₹12,999</td><td>7.5%</td><td>92.5%</td><td>Own Android app</td></tr>\n            <tr><td>Pro</td><td>₹24,999</td><td>5%</td><td>95%</td><td>Own Android and iOS apps</td></tr>\n            <tr><td>Scale</td><td>₹99,999</td><td>0%</td><td>100%</td><td>Own Android and iOS apps</td></tr>\n          </tbody>\n          <caption>Every plan includes your website on your own domain, unlimited live classes, unlimited videos via YouTube, UPI and card checkout, Meta Pixel and Google Tag Manager. Scale is bought through Contact us, not self-serve. Payment gateway charges are separate.</caption>\n        </table>\n      </div>\n      <p>Which plan costs least depends on how much you sell in a year. Before GST, and as an illustration: Starter costs least below about ₹2.4 lakh of yearly sales, Growth between about ₹2.4 lakh and ₹4.8 lakh, Pro between about ₹4.8 lakh and ₹15 lakh, and Scale above about ₹15 lakh. A new educator usually starts on Starter or Growth and upgrades later; on AllCoaching an upgrade applies on payment with the unused value of your current plan credited. Scale is bought by <a href=\"https://api.whatsapp.com/send/?phone=919889977262\" target=\"_blank\" rel=\"noopener\">contacting us</a>. Full details are on the <a href=\"/pricing\">pricing page</a>.</p>\n      {{cta}}"
+  },
+  {
+   "id": "step-3",
+   "h2": "Step 3: Upload your first course",
+   "toc": "Step 3: Upload",
+   "html": "<p><strong>Create the course, add its videos, PDF notes and tests in syllabus order, mark one lesson as the free demo, set the price and publish.</strong> Keep it in draft until a friend or past student has gone through it once.</p>\n      {{fig:studio-upload|Uploading the first course of an online academy in the AllCoaching studio: create a course, add YouTube videos, PDFs and tests, share a free demo lesson and publish|Courses in the studio bundle videos, PDFs and tests. Studio preview · sample data.}}\n      <h3>Videos: record once, host on YouTube</h3>\n      <p>Record lessons of 8 to 20 minutes, one concept each. Long recordings of a full classroom lecture are harder to watch on a phone and harder to find later. On AllCoaching, videos are added through YouTube, with no limit on the number. You can keep them unlisted: YouTube's help centre says unlisted videos \"can be seen and shared by anyone with the link\" and do not appear in search results or on your channel's Videos tab.<sup><a href=\"#ref-1\">1</a></sup> Your free YouTube videos stay public and bring new students in.</p>\n      <h3>PDF notes and tests</h3>\n      <p>Add one PDF per chapter: notes, formula sheets, practice questions or previous-year papers. Then add tests. For exam students, a chapter test after each module and full-length timed mocks at the end are what they expect.</p>\n      <h3>Live classes</h3>\n      <p>Most Indian academies mix recorded lessons with live sessions: a weekly doubt class, a revision marathon before the exam, or a full live batch. Every AllCoaching plan includes unlimited live classes through YouTube Live, Zoom or the built-in live room, so you can schedule them alongside the recorded course.</p>\n      <h3>Name, price and description</h3>\n      <p>Use the course title students would search for (\"SSC CGL Quant in Hindi: Complete Course\"), say who it is for in the first line of the description, list what is inside (number of lessons, PDFs and tests), and set the price you decided in Step 1. Then buy your own course once as a test before you share it.</p>"
+  },
+  {
+   "id": "step-4",
+   "h2": "Step 4: Connect your domain and make it your brand",
+   "toc": "Step 4: Your domain",
+   "html": "<p><strong>Buy a domain such as youracademy.in in your own name, add the DNS records your platform shows you at your registrar, then add your logo and colours.</strong> From then on, every link you share carries your name, not a platform's.</p>\n      {{fig:domain-connection|How to connect your own domain to an online academy: buy the domain, add TXT and CNAME DNS records at the registrar, then wait for it to go live|Two DNS records at your registrar. Record names and values are illustrative and differ by platform.}}\n      <h3>Choose and buy the domain</h3>\n      <p>Pick something short that students can type after hearing it once: your name, your academy's name, or your subject plus a word. A .in or .com address both work. Buy it from any registrar, in your own name and with your own email, so it stays yours if you ever change platforms.</p>\n      <h3>Add the DNS records</h3>\n      <p>Your academy platform shows the exact records to add, usually a TXT record that proves you own the domain and a CNAME record that points it at the academy. Log in to your registrar, open DNS settings, and copy the values exactly. The change usually takes effect within minutes to a few hours, and occasionally up to a day or two. Our guide to an <a href=\"/blog/lms-with-custom-domain-for-coaching-india\">LMS with a custom domain</a> covers the details and common errors.</p>\n      <h3>Brand the academy</h3>\n      <p>Add your logo, two brand colours and a theme. A clear photo of you and a short paragraph on who you teach do more for trust than any design. On AllCoaching, every plan includes customisable themes and your own white-label Android app with your name and logo; the iOS app is included on Pro and Scale.</p>\n      <p>Google's own SEO starter guide notes that parts of a URL can appear in search results as breadcrumbs, and suggests including \"words in the URL that may be useful for users\".<sup><a href=\"#ref-2\">2</a></sup> So name course pages plainly, such as <em>youracademy.in/ssc-cgl-quant-hindi</em>.</p>"
+  },
+  {
+   "id": "step-5",
+   "h2": "Step 5: Start selling",
+   "toc": "Step 5: Start selling",
+   "html": "<p><strong>Share one link to your course everywhere your students already are, and let the checkout do the rest: the student pays by UPI or card, access opens, and the money reaches your bank.</strong> Your job in launch week is to bring people to the link and answer their questions.</p>\n      <h3>How a sale works</h3>\n      {{fig:payment-flow|Online academy payment flow: the student taps buy, pays by UPI or card, course access opens automatically and the payout reaches the educator's bank through Razorpay|Four things happen on every sale, none of which need you. Logos belong to their owners.}}\n      <p>Indian students pay by UPI first. NPCI data reported in October 2026 showed 24.07 billion UPI transactions worth ₹29.37 lakh crore in September 2026 alone.<sup><a href=\"#ref-3\">3</a></sup> If your checkout takes UPI, almost every student can pay in a few taps. On AllCoaching, UPI and card checkout and automatic Razorpay payouts are built in.</p>\n      <p>Gateways charge per transaction. Razorpay's standard plan, for example, lists a 2% platform fee per successful domestic transaction, with GST on that fee (checked October 2026).<sup><a href=\"#ref-4\">4</a></sup> Count this alongside your academy plan when you work out what each sale earns you. The full setup is in our guide to <a href=\"/blog/accept-upi-payments-for-online-courses\">accepting UPI payments for online courses</a>.</p>\n      <h3>Launch week</h3>\n      {{fig:launch-checklist|Online academy launch week checklist: test purchase, mobile check, demo lesson and tracking, then share on YouTube, Instagram and WhatsApp and run a live demo class|What to check before you share the link, and what to do in launch week. Logos belong to their owners.}}\n      <ul>\n        <li><strong>Test first.</strong> Buy your own course, open it on an inexpensive Android phone, and fix anything confusing.</li>\n        <li><strong>Add tracking.</strong> Every AllCoaching plan includes Meta Pixel and Google Tag Manager, so you can see which posts and ads bring sales.</li>\n        <li><strong>Share the link.</strong> YouTube descriptions and pinned comments, your Instagram bio, your WhatsApp groups and channel, and your Telegram group if you have one.</li>\n        <li><strong>Run a free live demo class.</strong> Teach one topic properly, then explain the course and share the link at the end.</li>\n        <li><strong>Reply to everything.</strong> The first students ask about validity, language, doubt support and refunds. Their questions tell you what your course page is missing.</li>\n      </ul>\n      {{q:My students only use WhatsApp and do not want to install another app. What do I do?|Keep WhatsApp for conversation and send students to the website link for payment and lessons. The website works in the phone's browser, and the app can come later once they see the value. Our guide on <a href=\"/blog/students-wont-download-coaching-app-whatsapp\">students who only want WhatsApp</a> has practical scripts.}}"
+  },
+  {
+   "id": "after-launch",
+   "h2": "What to do in the first 30 days after launch",
+   "toc": "First 30 days",
+   "html": "<p><strong>In the first month, collect feedback from your first students, improve the course page, publish free content that leads to the course, and start tracking where sales come from.</strong> Growth after launch comes from steady, repeated work, not one big announcement.</p>\n      <h3>Improve from real questions</h3>\n      <p>Write down every question your first students ask before and after buying. Add the answers to your course description and FAQ. If several students drop off at the same lesson, re-record it.</p>\n      <h3>Make your academy findable on Google</h3>\n      <p>Write a few helpful pages around your exam or skill, link them to your course, and keep the titles plain. Expect it to take time: Google's SEO starter guide says some changes \"might take effect in a few hours, others could take several months\".<sup><a href=\"#ref-2\">2</a></sup> Our <a href=\"/blog/seo-for-online-academy-beginners-guide\">online academy SEO guide for beginners</a> shows where to start.</p>\n      <h3>Try a small ad test</h3>\n      <p>Once the Pixel has recorded a few visits and sales, a small Meta ad budget pointed at your demo lesson or live demo class can show you which message works. Start small and measure cost per sale, not likes. See <a href=\"/blog/meta-ads-for-coaching-institutes\">Meta ads for coaching institutes</a> for a step-by-step setup.</p>\n      <h3>Plan the second product</h3>\n      <p>When the first course sells, add the obvious next purchase: a test series for the same exam, a crash course before the exam date, or the next level of the skill. For more ways to move YouTube viewers to paid courses, read <a href=\"/blog/how-to-sell-courses-online-in-india\">how to sell courses online in India</a>.</p>"
+  },
+  {
+   "id": "mistakes",
+   "h2": "Common mistakes when starting an online academy",
+   "toc": "Mistakes to avoid",
+   "html": "<p><strong>The mistakes that slow a launch are teaching everyone, building ten courses before selling one, skipping the free demo, waiting to be perfect, letting someone else own your domain, and collecting fees on WhatsApp.</strong> Each has a simple fix.</p>\n      {{fig:mistakes|Six common mistakes when starting an online academy and the fix for each: pick one exam or skill, launch one course, add a free demo, publish then improve, own your domain, use a checkout|Six mistakes that slow a launch, and what to do instead.}}\n      <ul>\n        <li><strong>Teaching everyone.</strong> A general \"all competitive exams\" academy is hard to search for and hard to trust. Start with one exam or skill and one language.</li>\n        <li><strong>Ten courses on day one.</strong> One finished course you can sell this month is worth more than ten outlines. Add the next course when the first one sells.</li>\n        <li><strong>No free demo lesson.</strong> Students cannot judge your teaching from a price tag. Give them one full lesson.</li>\n        <li><strong>Waiting to be perfect.</strong> Launch with one finished module and improve with real feedback. A launched course teaches you more than a polished draft.</li>\n        <li><strong>Domain in a vendor's name.</strong> If an agency or platform owns your web address, you cannot easily leave. Register it yourself.</li>\n        <li><strong>Selling only on WhatsApp.</strong> Payment screenshots and manual group adds do not scale and leave no clean record. Send every student to checkout.</li>\n      </ul>\n      {{q:I already teach offline. Should I move my batches online too?|Many coaching centres run both: classroom batches continue, and an online academy adds recorded backups, online test series and batches for students in other cities. Start with one subject or one batch online, then expand. Our guide to <a href=\"/blog/migrate-offline-coaching-to-online-zero-cost\">moving offline coaching online</a> covers the switch step by step.}}"
+  },
+  {
+   "id": "cost",
+   "h2": "How much does it cost to start an online academy in India?",
+   "toc": "What it costs",
+   "html": "<p><strong>Starting an online academy costs a platform plan, any platform fee on sales, payment gateway charges, a yearly domain and GST, plus your own time and basic recording gear.</strong> There is no development bill when you use an academy platform.</p>\n      <ul>\n        <li><strong>Platform plan:</strong> on AllCoaching, ₹6,999, ₹12,999, ₹24,999 or ₹99,999 a year after the 14-day free trial, excluding GST.</li>\n        <li><strong>Platform fee on sales:</strong> 10%, 7.5%, 5% or 0% on AllCoaching, depending on the plan.</li>\n        <li><strong>Payment gateway:</strong> a per-transaction charge, such as Razorpay's 2% standard fee plus GST on that fee.<sup><a href=\"#ref-4\">4</a></sup></li>\n        <li><strong>Domain:</strong> a yearly renewal at your registrar.</li>\n        <li><strong>Gear:</strong> a clip-on mic and a phone stand cover most needs at the start; a ring light helps if you record on camera.</li>\n        <li><strong>GST:</strong> on platform bills, and on your own course fees if you are registered. Check the rules with your accountant.</li>\n      </ul>\n      <p>Write these lines into one sheet before you launch, with your expected sales for the year. It takes ten minutes and tells you which plan to choose and what price your course needs.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to start an online academy in 5 steps",
+  "description": "Five steps for an Indian educator to start an online academy, from planning the first course to the first sale.",
+  "total_time": "P14D",
+  "items": [
+   [
+    "Plan your academy",
+    "Write down what you teach, to whom and in which language, then plan one first course as modules of video lessons, PDF notes and tests, with one free demo lesson."
+   ],
+   [
+    "Sign up and choose a plan",
+    "Create your academy on a platform with a free trial, build it during the trial, then choose the plan that fits your expected yearly sales."
+   ],
+   [
+    "Upload your course",
+    "Add videos in syllabus order, one PDF per chapter and tests, mark the demo lesson as free, set the price and publish after a test purchase."
+   ],
+   [
+    "Connect your domain",
+    "Buy a domain in your own name, add the TXT and CNAME records your platform shows you, and add your logo and colours."
+   ],
+   [
+    "Start selling",
+    "Share one course link on YouTube, Instagram and WhatsApp, run a free live demo class, and let UPI and card checkout open access automatically."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "How do I start an online academy?",
+   "Start an online academy in five steps: plan one course for one clear group of students, sign up on an academy platform and choose a plan, upload the course with videos, PDF notes and tests, connect your own domain, and start selling through a checkout that takes UPI and cards."
+  ],
+  [
+   "How do I start an online academy in India with no technical skills?",
+   "Use an academy platform that handles the website, app, payments and hosting for you. You add your content, connect a domain by copying two DNS records at your registrar, and share your course link. No coding or developer is needed."
+  ],
+  [
+   "How long does it take to start an online academy?",
+   "Signing up takes minutes. Most of the time goes into planning and recording your first course. One educator with one course can usually launch within one to two weeks; with only a few hours a week, plan for about a month."
+  ],
+  [
+   "How much does it cost to start an online academy in India?",
+   "Add the platform plan, any platform fee on sales, payment gateway charges, a yearly domain and GST. On AllCoaching, after a 14-day free trial with no card, plans cost ₹6,999, ₹12,999 or ₹24,999 a year with a 10%, 7.5% or 5% fee on sales, or ₹99,999 a year with 0%, all excluding GST."
+  ],
+  [
+   "What should my first online course include?",
+   "Video lessons in syllabus order, one PDF of notes per chapter, a test after each module, and one free demo lesson. Exam courses should add full-length timed mock tests; skill courses should add practice tasks."
+  ],
+  [
+   "Do I need my own domain for an online academy?",
+   "It is strongly recommended. A domain such as youracademy.in is the one link you share everywhere, and if it is registered in your own name it stays yours even if you change platforms later."
+  ],
+  [
+   "Can I use YouTube videos in my paid online course?",
+   "Yes. Many educators upload lessons to YouTube as unlisted videos, which only people with the link can see, and add them to the paid course. Public YouTube videos then work as free lessons that bring new students to the academy."
+  ],
+  [
+   "How do students pay in an online academy?",
+   "Through a checkout on your academy website or app. The student pays by UPI or card, the payment gateway confirms it, course access opens automatically, and the money is settled to your bank account."
+  ],
+  [
+   "Do I need a mobile app for my online academy?",
+   "A website on your own domain is enough to start, and it works in any phone browser. An app with your name helps students come back daily. On AllCoaching every plan includes your own Android app, and the iOS app is included on Pro and Scale."
+  ]
+ ],
+ "glossary": [
+  [
+   "online-academy",
+   "Online academy",
+   "An educator's or institute's own branded school on the internet, where students buy courses, learn, take tests and attend live classes."
+  ],
+  [
+   "demo-lesson",
+   "Demo lesson",
+   "One full lesson given free so students can judge your teaching before they pay for the course."
+  ],
+  [
+   "custom-domain",
+   "Custom domain",
+   "Your own web address, such as youracademy.in, connected to your academy website instead of a platform's address."
+  ],
+  [
+   "dns-record",
+   "DNS record",
+   "A setting at your domain registrar that tells the internet where your domain points. Connecting an academy usually needs a TXT record and a CNAME record."
+  ],
+  [
+   "unlisted-video",
+   "Unlisted video",
+   "A YouTube video that anyone with the link can watch but that does not appear in search results or on your channel page."
+  ],
+  [
+   "white-label-app",
+   "White-label app",
+   "A student app that carries your academy's name and logo, built on a platform's technology."
+  ],
+  [
+   "platform-fee",
+   "Platform fee",
+   "A percentage of each sale that an academy platform keeps, in addition to or instead of a plan price."
+  ],
+  [
+   "payment-gateway",
+   "Payment gateway",
+   "The service that collects UPI, card and net-banking payments online and settles them to your bank account, for a per-transaction charge."
+  ],
+  [
+   "meta-pixel",
+   "Meta Pixel",
+   "A tracking code from Meta added to your website so you can measure which Facebook and Instagram ads lead to visits and sales."
+  ]
+ ],
+ "references": [
+  "YouTube Help, \"Change video privacy settings\" (unlisted videos), <a href=\"https://support.google.com/youtube/answer/157177\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "Google Search Central, \"SEO Starter Guide\", <a href=\"https://developers.google.com/search/docs/fundamentals/seo-starter-guide\" target=\"_blank\" rel=\"noopener nofollow\">developers.google.com</a>, checked October 2026.",
+  "NPCI data for September 2026 as reported by StartupTalky, \"UPI Transaction Volume Dips 1.8% MoM to 24.07 Billion in September 2026\", 5 October 2026, <a href=\"https://startuptalky.com/upi-transactions-september-2026/\" target=\"_blank\" rel=\"noopener nofollow\">startuptalky.com</a>, checked October 2026. Monthly figures are published by NPCI at <a href=\"https://www.npci.org.in/what-we-do/upi/product-statistics\" target=\"_blank\" rel=\"noopener nofollow\">npci.org.in</a>.",
+  "Razorpay pricing, <a href=\"https://razorpay.com/pricing/\" target=\"_blank\" rel=\"noopener nofollow\">razorpay.com/pricing</a>, standard plan, checked October 2026.",
+  "AllCoaching pricing, <a href=\"/pricing\">allcoaching.in/pricing</a>, October 2026."
+ ],
+ "citations": [
+  "https://support.google.com/youtube/answer/157177",
+  "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+  "https://startuptalky.com/upi-transactions-september-2026/",
+  "https://razorpay.com/pricing/",
+  "https://allcoaching.in/pricing"
+ ],
+ "about": [
+  {
+   "name": "Online academy"
+  },
+  {
+   "name": "Learning management system",
+   "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
+  },
+  {
+   "name": "Educational technology",
+   "sameAs": "https://en.wikipedia.org/wiki/Educational_technology"
+  },
+  {
+   "name": "Domain name",
+   "sameAs": "https://en.wikipedia.org/wiki/Domain_name"
+  },
+  {
+   "name": "Unified Payments Interface",
+   "sameAs": "https://en.wikipedia.org/wiki/Unified_Payments_Interface"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "YouTube",
+   "url": "https://www.youtube.com"
+  },
+  {
+   "name": "Zoom",
+   "url": "https://zoom.us"
+  },
+  {
+   "name": "Razorpay",
+   "url": "https://razorpay.com"
+  },
+  {
+   "name": "National Payments Corporation of India",
+   "url": "https://www.npci.org.in"
+  },
+  {
+   "name": "Google Search Central",
+   "url": "https://developers.google.com/search"
+  },
+  {
+   "name": "Meta",
+   "url": "https://www.meta.com"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/what-is-an-online-academy",
+  "/blog/accept-upi-payments-for-online-courses",
+  "/blog/seo-for-online-academy-beginners-guide",
+  "/blog/lms-with-custom-domain-for-coaching-india"
+ ]
+}
