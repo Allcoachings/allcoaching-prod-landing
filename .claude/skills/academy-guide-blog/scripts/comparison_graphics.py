@@ -132,7 +132,10 @@ def prices(sp):
         y = 200 + i * 92
         us = r['name'] == 'AllCoaching'
         b += text(60, y + 42, r['name'], 25, BLUE if us else INK, 800, font=F_HEAD, ls=-0.6)
-        if r.get('published'):
+        if r.get('published') and r['price'] == 0:
+            b += text(300, y + 44, r['label'], 23, INK, 700, font=F_HEAD)
+            b += text(300, y + 70, r.get('fee', ''), 16, MUTED)
+        elif r.get('published'):
             w = max(70, 480 * r['price'] / mx)
             b += f'<rect x="300" y="{y + 12}" width="{w}" height="46" rx="14" fill="{BLUE if us else "#C9CEDD"}"/>'
             b += text(300 + w + 16, y + 44, r['label'], 23, INK, 700, font=F_HEAD)
