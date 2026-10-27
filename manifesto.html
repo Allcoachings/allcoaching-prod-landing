@@ -2,6 +2,7 @@
 <html lang="en-IN" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
+  <script>document.documentElement.classList.add("js")</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Brand theme — adapts to OS light/dark + iOS/Android/Windows surfaces -->
   <meta name="theme-color" content="#2B44FF" media="(prefers-color-scheme: light)" />
@@ -19,9 +20,9 @@
   </script>
   <!-- End Google Tag Manager -->
 
-  <title>The AllCoaching Manifesto — The Operating System of Education</title>
-  <meta name="description" content="The AllCoaching Manifesto: why every educator deserves their own branded academy, built by themselves in a few clicks, and still found by new students." />
-  <meta name="keywords" content="AllCoaching manifesto, operating system of education, Amit Ratan founder, build your own LMS, white-label academy India, educator marketplace India" />
+  <title>The AllCoaching Manifesto: Power Back to India's Educators</title>
+  <meta name="description" content="Education's next revolution will come from a million independent academies, not a bigger platform. Our manifesto on giving power back to India's educators." />
+  <meta name="keywords" content="AllCoaching manifesto, operating system of education, educator-owned academy, independent educators India, Amit Ratan founder, build your own LMS, white-label academy India" />
   <meta name="author" content="Amit Ratan, Founder &amp; CEO, AllCoaching" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <link rel="canonical" href="https://allcoaching.in/manifesto" />
@@ -31,93 +32,334 @@
   <link rel="manifest" href="/manifest.webmanifest" />
 
   <meta property="og:title" content="The AllCoaching Manifesto — The Operating System of Education" />
-  <meta property="og:description" content="Every educator deserves their own academy, built by themselves. Their brand, their students, and a marketplace that helps them get found." />
+  <meta property="og:description" content="Education's next revolution won't come from a bigger platform. It will come from a million independent academies, each owned by the educator who teaches in it." />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://allcoaching.in/manifesto" />
-  <meta property="og:image" content="https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp?v=manifesto" />
-  <meta property="og:image:alt" content="Indian educator teaching online from their own academy — AllCoaching manifesto cover" />
-  <meta property="og:image:width" content="1600" />
-  <meta property="og:image:height" content="900" />
+  <meta property="og:image" content="https://allcoaching.in/assets/manifesto/og.png?v=20261027" />
+  <meta property="og:image:alt" content="The AllCoaching Manifesto: education's next revolution, a million independent academies" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta property="og:site_name" content="AllCoaching" />
   <meta property="og:locale" content="en_IN" />
   <meta property="article:author" content="Amit Ratan" />
   <meta property="article:published_time" content="2026-04-25" />
-  <meta property="article:modified_time" content="2026-10-15" />
+  <meta property="article:modified_time" content="2026-10-27" />
   <meta property="article:section" content="Manifesto" />
-  <meta property="og:updated_time" content="2026-10-15T11:00:00+05:30" />
-  <meta name="article:modified_time" content="2026-10-15" />
+  <meta property="og:updated_time" content="2026-10-27T11:00:00+05:30" />
+  <meta name="article:modified_time" content="2026-10-27" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="The AllCoaching Manifesto — Operating System of Education" />
-  <meta name="twitter:description" content="Every educator deserves their own academy, built by themselves in a few clicks. Read why, and what the operating system of education looks like." />
-  <meta name="twitter:image" content="https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp?v=manifesto" />
-  <meta name="twitter:image:alt" content="Indian educator conducting online teaching — AllCoaching manifesto" />
+  <meta name="twitter:title" content="The AllCoaching Manifesto — Power Back to India's Educators" />
+  <meta name="twitter:description" content="Not a bigger platform. A million independent academies, each owned by the educator who teaches in it. Read the AllCoaching manifesto." />
+  <meta name="twitter:image" content="https://allcoaching.in/assets/manifesto/og.png?v=20261027" />
+  <meta name="twitter:image:alt" content="The AllCoaching Manifesto: a million independent academies, each owned by its educator" />
   <meta name="twitter:site" content="@allcoachings" />
+  <meta name="twitter:creator" content="@allamitk" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://allcoaching-store.b-cdn.net" crossorigin />
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-  <link rel="preload" as="image" href="https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp?v=manifesto" fetchpriority="high" />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="./assets/manifesto/academy.webp?v=20261027" fetchpriority="high" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./dist/tw.min.css?v=20260702" />
   <link rel="stylesheet" href="./styles.css?v=20260702" />
   <link rel="stylesheet" href="./brand.css?v=20261015" />
 
   <style>
     /* ============================================================
-       Manifesto page — keep ONLY manifesto-specific components.
-       Typography, .kicker, .h-mast, .h-chap, .h-mani, .pull, .epi,
-       .stat-row, .cmp (use cmp-h4/cmp-r4), .hband, .toc, .orn, .drop-cap,
-       .brand-pill, .mast-dark, .founder — all defined in brand.css.
+       Manifesto v3 (2026-10-27) — futuristic long-form.
+       Everything is scoped under .mf so the shared header/footer
+       from brand.css stay untouched.
     ============================================================ */
+    .mf{--blue:#2B44FF;--blue-d:#1A2FD9;--sky:#E8F0FF;--cyan:#22C3F5;--navy:#0A0F3D;--navy2:#070A26;--ink:#14161F;--ink2:#3F4559;--ink3:#626880;--line:#E6E8F0;--mist:#F6F8FC;--bod:#A9B5FF;--ease:cubic-bezier(.2,.7,.2,1);
+      font-family:'Inter Tight',system-ui,sans-serif;color:var(--ink);font-size:18px;line-height:1.75;letter-spacing:-.005em;overflow-x:clip}
+    .mf .lt{font-weight:200}.mf .bd{font-weight:700}
+    .mf p{margin:0 0 1.25em;color:var(--ink2)}
+    .mf p strong,.mf li strong{color:var(--ink);font-weight:600}
+    .mf a.inl{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+    .mf-eb{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--blue)}
 
-    /* Problem / entity card — manifesto-specific */
-    .pcard{ border:1px solid #E6E8F0; border-radius:16px; padding:1.5rem; background:#fff; transition:border-color .25s, transform .25s, box-shadow .25s; }
-    .pcard:hover{ border-color:#2B44FF; transform:translateY(-3px); box-shadow:0 28px 50px -28px rgba(43,68,255,.25); }
-    .pcard .pin{ font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:#1A2FD9; }
-    .pcard .role{ font-family:'Inter Tight',sans-serif; font-size: 11.5px; font-weight: 600; color:#4A5063; margin-top:.3rem; }
-    .pcard h3{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:1.25rem; font-weight:400; color:#14161F; line-height:1.25; margin-top:.5rem; letter-spacing:-.015em; }
-    .pcard p{ font-size:14.5px; color:#4A5063; line-height:1.7; margin-top:.65rem; }
-    .pcard p + p{ margin-top: .65rem; }
+    /* ---------- HERO ---------- */
+    .mf-hero{position:relative;overflow:hidden;isolation:isolate;color:#fff;text-align:center;
+      background:radial-gradient(110% 80% at 50% -10%,#1C2A8F 0%,#0A0F3D 52%,#070A26 100%);padding:104px 20px 150px}
+    .mf-grid{position:absolute;left:-60%;right:-60%;bottom:-2%;height:62%;z-index:-2;
+      background-image:linear-gradient(rgba(122,140,255,.28) 1px,transparent 1px),linear-gradient(90deg,rgba(122,140,255,.28) 1px,transparent 1px);
+      background-size:60px 60px;transform:perspective(520px) rotateX(64deg);transform-origin:50% 100%;
+      -webkit-mask-image:linear-gradient(to top,#000 0%,rgba(0,0,0,.55) 45%,transparent 90%);mask-image:linear-gradient(to top,#000 0%,rgba(0,0,0,.55) 45%,transparent 90%);
+      animation:mfGrid 5s linear infinite}
+    @keyframes mfGrid{to{background-position:0 60px,0 0}}
+    .mf-rays{position:absolute;left:0;right:0;bottom:0;height:52%;z-index:-1;opacity:.95;
+      background:repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 16px,rgba(255,255,255,.07) 16px 18px),
+        radial-gradient(60% 100% at 50% 120%,#4FD2FA 0%,#22C3F5 12%,#2B7BFF 30%,#2B44FF 48%,rgba(43,68,255,0) 75%);
+      background-size:200% 100%,100% 100%;animation:mfShimmer 18s linear infinite}
+    @keyframes mfShimmer{from{background-position:0 0,0 0}to{background-position:-400px 0,0 0}}
+    .mf-stars{position:absolute;inset:0;z-index:-1;pointer-events:none}
+    .mf-stars i{position:absolute;width:3px;height:3px;border-radius:50%;background:#C9D2FF;box-shadow:0 0 8px rgba(154,168,255,.9);opacity:.25;animation:mfTw 4.5s ease-in-out infinite}
+    .mf-stars i.b{width:4px;height:4px;background:#fff}
+    @keyframes mfTw{0%,100%{opacity:.18;transform:scale(.8)}50%{opacity:1;transform:scale(1.25)}}
+    .mf-hero .wrap{max-width:1000px;margin:0 auto;position:relative}
+    .mf-tag{display:inline-flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:center;border:1px solid rgba(169,181,255,.35);background:rgba(255,255,255,.05);border-radius:999px;padding:7px 16px;font-family:'JetBrains Mono',monospace;font-size:11.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#C9D2FF}
+    .mf-tag i{width:7px;height:7px;border-radius:50%;background:#A9B5FF;box-shadow:0 0 0 4px rgba(169,181,255,.18)}
+    .mf-h1{font-family:'Inter Tight',system-ui,sans-serif!important;font-style:normal!important;font-size:clamp(34px,5.6vw,72px);line-height:1.06;letter-spacing:-.04em;margin:28px auto 26px;color:#fff;max-width:980px}
+    .mf-h1 .lt{color:rgba(255,255,255,.9)}
+    .mf-h1 .bd{background:linear-gradient(92deg,#fff 0%,#fff 35%,#A9B5FF 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+    .mf-hero .lede{max-width:680px;margin:0 auto;color:rgba(255,255,255,.8);font-size:clamp(17px,1.7vw,20px);line-height:1.65}
+    .mf-ideo{margin-top:34px;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:#C9D2FF}
+    .mf-ideo span{display:inline-block;padding:0 10px}
+    .mf-by{display:inline-flex;align-items:center;gap:14px;margin-top:34px;padding:10px 18px 10px 10px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);text-align:left}
+    .mf-by img{width:44px;height:44px;border-radius:50%;object-fit:cover;object-position:center 20%;box-shadow:0 0 0 2px rgba(169,181,255,.6)}
+    .mf-by b{display:block;font-size:15px;font-weight:700;color:#fff;line-height:1.2}
+    .mf-by span{display:block;font-size:13px;color:rgba(255,255,255,.72);line-height:1.3}
+    .mf-meta{margin-top:16px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.66)}
+    .mf-cue{position:absolute;left:50%;bottom:34px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.8);text-decoration:none}
+    .mf-cue i{width:1px;height:38px;background:linear-gradient(#fff,rgba(255,255,255,0));animation:mfCue 2.2s var(--ease) infinite;transform-origin:top}
+    @keyframes mfCue{0%{transform:scaleY(0)}60%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
 
-    /* Manifesto numbered points (inside dark band) */
-    .mp{ display:flex; gap:1.25rem; padding:1.25rem 0; border-top:1px solid rgba(255,255,255,.08); }
-    .mp:first-child{ border-top:0; }
-    .mp .mp-n{ font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:700; letter-spacing:.14em; color:#5B6CFF; min-width:36px; padding-top:6px; }
-    .mp h4{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:1.2rem; font-weight:400; color:#fff; line-height:1.3; letter-spacing:-.012em; }
-    .mp p{ color:rgba(248,250,252,.7); font-size:15px; line-height:1.7; margin-top:.45rem; font-weight:400; }
+    /* ---------- SECTIONS ---------- */
+    .mf-sec{position:relative;padding:112px 22px}
+    .mf-sec.mist{background:var(--mist)}
+    .mf-col{max-width:720px;margin:0 auto}
+    .mf-wide{max-width:880px;margin:0 auto}
+    .mf-ch{display:flex;align-items:center;gap:14px;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--ink3)}
+    .mf-ch b{color:var(--blue);font-weight:700}
+    .mf-ch::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),rgba(230,232,240,0))}
+    .mf-h2{font-family:'Inter Tight',system-ui,sans-serif!important;font-style:normal!important;font-size:clamp(30px,4.3vw,52px);line-height:1.08;letter-spacing:-.038em;color:var(--ink);margin:20px 0 34px}
+    .mf-h2 .bd{color:var(--ink)}
+    .mf-h2 .ac{color:var(--blue);font-weight:700}
+    .mf-lede{font-size:clamp(19px,1.9vw,22px)!important;line-height:1.6!important;color:var(--ink)!important}
+    .mf-h3{font-family:'Inter Tight',system-ui,sans-serif;font-size:22px;font-weight:700;letter-spacing:-.02em;color:var(--ink);margin:44px 0 12px;line-height:1.25}
+    blockquote.mf-q{margin:52px 0;padding:6px 0 6px 28px;border-left:2px solid var(--blue);font-family:'Instrument Serif','Times New Roman',serif!important;font-style:italic!important;font-size:clamp(25px,3vw,34px);line-height:1.28;color:var(--ink);letter-spacing:-.01em}
+    blockquote.mf-q em{color:var(--blue);font-style:italic}
+    .mf-note{margin:40px 0;padding:26px 28px;border-radius:18px;background:#fff;border:1px solid var(--line);box-shadow:0 30px 60px -40px rgba(23,40,160,.35)}
+    .mf-sec.mist .mf-note{background:#fff}
+    .mf-note .mf-eb{margin-bottom:10px}
+    .mf-note p:last-child{margin-bottom:0}
+    .mf-kranti{margin:46px 0 0;padding:30px;border-radius:20px;background:var(--navy);color:#fff;position:relative;overflow:hidden}
+    .mf-kranti::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 16px,rgba(169,181,255,.07) 16px 18px),radial-gradient(70% 120% at 100% 0%,rgba(43,68,255,.55),rgba(43,68,255,0) 70%);pointer-events:none}
+    .mf-kranti p{position:relative;color:rgba(255,255,255,.82)!important;margin:0}
+    .mf-kranti p + p{margin-top:12px}
+    .mf-kranti strong{color:#fff!important}
+    .mf-kranti .mf-eb{position:relative;color:var(--bod);margin-bottom:12px}
 
-    .manifesto-band{
-      background: radial-gradient(120% 80% at 100% 0%, #1A2580 0%, #0A0F3D 60%, #060A2B 100%);
-      color:#fff; padding: 4.5rem 1.5rem; position:relative; overflow:hidden;
+    /* ---------- FIGURES ---------- */
+    .mf-fig{margin:48px auto;max-width:880px}
+    .mf-fig img{display:block;width:100%;height:auto;border-radius:20px;border:1px solid rgba(169,181,255,.22);box-shadow:0 40px 80px -40px rgba(10,15,61,.55)}
+    .mf-fig figcaption{margin-top:14px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);line-height:1.6}
+    .mf-dark .mf-fig figcaption{color:rgba(255,255,255,.66)}
+    .mf-hero .mf-fig{max-width:980px;margin:52px auto 0}
+    .mf-hero .mf-fig img{border-color:rgba(169,181,255,.35);box-shadow:0 50px 100px -40px rgba(43,68,255,.6)}
+    .mf-hero .mf-fig figcaption{color:rgba(255,255,255,.7);text-align:center}
+
+    /* ---------- PAINS ---------- */
+    .pains{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:44px 0 10px}
+    .pain{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;transition:border-color .25s,transform .25s,box-shadow .25s}
+    .pain:hover{border-color:var(--blue);transform:translateY(-3px);box-shadow:0 28px 50px -30px rgba(43,68,255,.35)}
+    .pain .n{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--blue-d)}
+    .pain h4{font-size:17.5px;font-weight:700;letter-spacing:-.02em;color:var(--ink);margin:10px 0 8px;line-height:1.25}
+    .pain p{font-size:15px!important;line-height:1.65!important;margin:0!important}
+
+    /* ---------- TABLE ---------- */
+    .cmpw{margin:44px 0 36px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:18px;background:#fff}
+    table.cmp3{width:100%;min-width:560px;border-collapse:collapse;font-size:15px;line-height:1.45}
+    .cmp3 th,.cmp3 td{padding:14px 16px;text-align:left;border-top:1px solid var(--line);vertical-align:middle}
+    .cmp3 thead th{border-top:0;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);font-weight:700;background:var(--mist)}
+    .cmp3 thead th.us{color:var(--blue)}
+    .cmp3 td{color:var(--ink2)}
+    .cmp3 td.c{font-weight:600;white-space:nowrap}
+    .cmp3 .y{color:#0F7A3A}.cmp3 .no{color:#B42318}.cmp3 .p{color:#8A5A00}
+    .cmp3 td.us{background:rgba(43,68,255,.05);color:var(--blue-d)}
+
+    /* ---------- DARK CHAPTER ---------- */
+    .mf-dark{background:radial-gradient(120% 70% at 100% 0%,#1A2580 0%,#0A0F3D 48%,#070A26 100%);color:#fff;overflow:hidden}
+    .mf-dark::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(122,140,255,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(122,140,255,.07) 1px,transparent 1px);background-size:48px 48px;-webkit-mask-image:radial-gradient(70% 60% at 50% 30%,#000,transparent);mask-image:radial-gradient(70% 60% at 50% 30%,#000,transparent)}
+    .mf-dark > *{position:relative}
+    .mf-dark p{color:rgba(255,255,255,.78)}
+    .mf-dark p strong{color:#fff}
+    .mf-dark .mf-ch{color:rgba(255,255,255,.62)}
+    .mf-dark .mf-ch b{color:var(--bod)}
+    .mf-dark .mf-ch::after{background:linear-gradient(90deg,rgba(255,255,255,.18),rgba(255,255,255,0))}
+    .mf-dark .mf-h2,.mf-dark .mf-h2 .bd{color:#fff}
+    .mf-dark .mf-h2 .ac{color:var(--bod)}
+    .mf-dark .mf-lede{color:#fff!important}
+    .mf-dark blockquote.mf-q{color:#fff;border-color:var(--bod)}
+    .mf-dark blockquote.mf-q em{color:var(--bod)}
+    .mf-dark .mf-h3{color:#fff}
+    .mf-dark .mf-eb{color:var(--bod)}
+
+    /* ---------- OS STACK ---------- */
+    .os{margin:56px auto 30px;max-width:760px;perspective:1400px}
+    .os-in{transform:rotateX(14deg);transform-style:preserve-3d}
+    .os-top{position:relative;border-radius:18px;padding:20px 24px;background:#fff;color:var(--ink);display:flex;align-items:center;gap:16px;box-shadow:0 30px 60px -20px rgba(43,68,255,.6),0 0 0 1px rgba(255,255,255,.4);margin-bottom:18px}
+    .os-top .dot{flex:none;width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,#5B6CFF,#2B44FF);display:grid;place-items:center;color:#fff}
+    .os-top .dot svg{width:22px;height:22px}
+    .os-top b{display:block;font-size:18px;letter-spacing:-.02em}
+    .os-top span{display:block;font-size:14px;color:var(--ink2);line-height:1.45}
+    .os-top .you{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);white-space:nowrap}
+    .os-runs{display:flex;align-items:center;gap:12px;margin:0 0 12px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--bod)}
+    .os-runs::before,.os-runs::after{content:"";flex:1;height:1px;background:repeating-linear-gradient(90deg,rgba(169,181,255,.6) 0 6px,transparent 6px 12px);background-size:24px 1px;animation:mfDash 1.6s linear infinite}
+    @keyframes mfDash{to{background-position:24px 0}}
+    .os-l{position:relative;overflow:hidden;display:grid;grid-template-columns:54px 110px 1fr;align-items:center;gap:14px;padding:16px 20px;margin-top:10px;border-radius:14px;
+      background:linear-gradient(90deg,rgba(43,68,255,.34),rgba(43,68,255,.10));border:1px solid rgba(169,181,255,.32);
+      box-shadow:0 0 0 1px rgba(43,68,255,.12),0 18px 40px -24px rgba(43,68,255,.9),inset 0 1px 0 rgba(255,255,255,.08)}
+    .os-l::after{content:"";position:absolute;top:0;bottom:0;left:-40%;width:40%;background:linear-gradient(90deg,transparent,rgba(169,181,255,.28),transparent);animation:mfSweep 6s ease-in-out infinite;animation-delay:var(--d,0s)}
+    @keyframes mfSweep{0%,55%{left:-40%}85%,100%{left:110%}}
+    .os-l .li{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.14em;color:var(--bod)}
+    .os-l b{font-size:20px;font-weight:700;letter-spacing:-.02em;color:#fff}
+    .os-l span{font-size:14.5px;line-height:1.5;color:rgba(255,255,255,.8)}
+    .os-base{margin-top:14px;border-radius:14px;padding:16px 20px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#fff;
+      background:linear-gradient(90deg,#1A2FD9,#2B44FF,#1A2FD9);box-shadow:0 26px 60px -18px rgba(43,68,255,.95)}
+    .os-base small{display:block;font-size:10px;color:rgba(255,255,255,.75);margin-bottom:4px;letter-spacing:.2em}
+    .js .os .os-l,.js .os .os-top,.js .os .os-base{opacity:0;transform:translateY(24px);transition:opacity .7s var(--ease),transform .7s var(--ease);transition-delay:var(--t,0s)}
+    .js .os.in .os-l,.js .os.in .os-top,.js .os.in .os-base{opacity:1;transform:none}
+
+    /* ---------- PATH ---------- */
+    .path{list-style:none;padding:0;margin:44px 0 40px;display:grid;grid-template-columns:repeat(5,1fr);gap:12px;position:relative;counter-reset:st}
+    .path::before{content:"";position:absolute;left:8%;right:8%;top:21px;height:2px;background:rgba(255,255,255,.12)}
+    .path::after{content:"";position:absolute;left:8%;top:21px;height:2px;width:0;background:linear-gradient(90deg,#A9B5FF,#5B6CFF);box-shadow:0 0 12px rgba(169,181,255,.8);transition:width 1.8s var(--ease)}
+    .path.in::after{width:84%}
+    .path li{position:relative;text-align:center;font-size:15px;line-height:1.4;color:#fff;font-weight:600}
+    .path li i{display:grid;place-items:center;margin:0 auto 14px;width:44px;height:44px;border-radius:50%;background:#0A0F3D;border:1px solid rgba(169,181,255,.5);font-style:normal;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;color:var(--bod);position:relative;z-index:1}
+    .path li:last-child i{background:#2B44FF;color:#fff;border-color:#2B44FF;box-shadow:0 0 0 6px rgba(43,68,255,.25)}
+
+    /* ---------- ECONOMICS ---------- */
+    .shift{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:44px 0}
+    .shift div{border:1px solid var(--line);border-radius:16px;padding:20px 18px;background:#fff}
+    .shift b{display:block;font-family:'JetBrains Mono',monospace;font-size:clamp(22px,2.4vw,28px);font-weight:700;color:var(--blue);letter-spacing:-.03em;line-height:1.1}
+    .shift span{display:block;margin-top:10px;font-size:14px;line-height:1.5;color:var(--ink2)}
+    .keep{margin:40px 0 14px;border:1px solid var(--line);border-radius:20px;background:#fff;padding:12px 22px 18px}
+    .keep-r{display:grid;grid-template-columns:120px 1fr 92px;gap:16px;align-items:center;padding:14px 0;border-top:1px solid var(--line)}
+    .keep-r:first-child{border-top:0}
+    .keep-r .pl b{display:block;font-size:16px;font-weight:700;letter-spacing:-.01em;color:var(--ink)}
+    .keep-r .pl span{display:block;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--ink3);margin-top:2px}
+    .keep-r .bar{height:12px;border-radius:99px;background:var(--mist);overflow:hidden;position:relative}
+    .keep-r .bar i{position:absolute;left:0;top:0;bottom:0;width:var(--w);border-radius:99px;background:linear-gradient(90deg,#9AA8FF,#2B44FF);transform-origin:left;transition:transform 1.4s var(--ease)}
+    .js .keep .bar i{transform:scaleX(0)}
+    .js .keep.in .bar i{transform:scaleX(1)}
+    .keep-r .pc{text-align:right;font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:var(--ink)}
+    .keep-r .pc small{display:block;font-weight:400;font-size:11px;color:var(--ink3)}
+    .keep-r .ex{grid-column:2 / 4;font-size:13px;line-height:1.5;color:var(--ink3);margin-top:-6px}
+    .keep-r .ex a{color:var(--blue);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+    .fine{font-size:13.5px!important;line-height:1.6!important;color:var(--ink3)!important}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 34px;padding:0;list-style:none}
+    .chips li{font-size:13.5px;font-weight:600;color:var(--blue-d);background:var(--sky);border-radius:999px;padding:6px 13px;line-height:1.3}
+
+    /* ---------- TIMELINE ---------- */
+    .tl{position:relative;margin:50px 0 10px;padding-left:44px}
+    .tl-line{position:absolute;left:13px;top:8px;bottom:8px;width:2px;background:var(--line);border-radius:2px}
+    .tl-fill{position:absolute;left:0;top:0;width:100%;height:0;border-radius:2px;background:linear-gradient(#5B6CFF,#2B44FF);box-shadow:0 0 14px rgba(43,68,255,.6)}
+    .tl-s{position:relative;padding:0 0 48px}
+    .tl-s:last-child{padding-bottom:0}
+    .tl-s::before{content:"";position:absolute;left:-39px;top:6px;width:18px;height:18px;border-radius:50%;background:#fff;border:2px solid var(--blue);box-shadow:0 0 0 6px rgba(43,68,255,.12)}
+    .tl-s.next::before{background:var(--sky)}
+    .tl-s.far::before{background:var(--blue);box-shadow:0 0 0 6px rgba(43,68,255,.18),0 0 24px rgba(43,68,255,.7);animation:mfPulse 2.6s ease-in-out infinite}
+    @keyframes mfPulse{0%,100%{box-shadow:0 0 0 6px rgba(43,68,255,.18),0 0 18px rgba(43,68,255,.5)}50%{box-shadow:0 0 0 12px rgba(43,68,255,.08),0 0 32px rgba(43,68,255,.9)}}
+    .tl-s .when{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--blue)}
+    .tl-s .st{display:inline-block;margin-left:10px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);border:1px solid var(--line);border-radius:99px;padding:2px 9px;vertical-align:2px}
+    .tl-s h3{font-size:clamp(22px,2.4vw,28px);font-weight:700;letter-spacing:-.03em;color:var(--ink);margin:8px 0 14px;line-height:1.2}
+    .tl-s ul{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:10px}
+    .tl-s li{position:relative;padding:14px 16px 14px 44px;border:1px solid var(--line);border-radius:14px;background:#fff;font-size:15.5px;line-height:1.55;color:var(--ink2)}
+    .tl-s li::before{content:"";position:absolute;left:17px;top:21px;width:10px;height:10px;border-radius:3px;background:var(--blue);transform:rotate(45deg)}
+    .tl-s.now li::before{background:#0F7A3A;border-radius:50%;transform:none}
+
+    /* ---------- TENETS ---------- */
+    .tenets{display:grid;grid-template-columns:1fr 1fr;gap:0 40px;margin-top:44px}
+    .tn{display:flex;gap:18px;padding:24px 0;border-top:1px solid rgba(255,255,255,.1)}
+    .tn .n{flex:none;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:.12em;color:var(--bod);width:30px;padding-top:4px}
+    .tn h3{font-size:19px;font-weight:700;letter-spacing:-.02em;color:#fff;line-height:1.3;margin:0}
+    .tn p{font-size:15.5px!important;line-height:1.7!important;margin:8px 0 0!important}
+    .tn.new .n::after{content:"New";display:block;margin-top:6px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6)}
+    .sign{margin-top:56px;padding-top:30px;border-top:1px solid rgba(255,255,255,.14);display:flex;align-items:center;gap:16px}
+    .sign img{width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:center 20%;box-shadow:0 0 0 2px rgba(169,181,255,.6)}
+    .sign b{display:block;font-size:17px;color:#fff;font-weight:700}
+    .sign span{display:block;font-size:14px;color:rgba(255,255,255,.72)}
+
+    /* ---------- FINAL ---------- */
+    .mf-final{position:relative;overflow:hidden;isolation:isolate;background:#0A0F3D;color:#fff;text-align:center;padding:130px 22px 140px}
+    .mf-final .rays2{position:absolute;inset:0;z-index:-1;opacity:.95;
+      background:repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 16px,rgba(255,255,255,.06) 16px 18px),
+        radial-gradient(70% 90% at 50% 120%,#22C3F5 0%,#2B7BFF 22%,#2B44FF 42%,rgba(43,68,255,0) 72%);
+      background-size:200% 100%,100% 100%;animation:mfShimmer 18s linear infinite}
+    .mf-final h2{font-family:'Inter Tight',system-ui,sans-serif!important;font-style:normal!important;font-size:clamp(32px,5vw,62px);line-height:1.06;letter-spacing:-.04em;margin:20px auto 22px;max-width:900px;color:#fff}
+    .mf-final h2 .lt{color:rgba(255,255,255,.88)}
+    .mf-final p{max-width:640px;margin:0 auto;color:rgba(255,255,255,.82);font-size:18px;line-height:1.65}
+    .mf-final .mf-eb{color:#C9D2FF}
+    .mf-cta{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:36px}
+    .mf-btn{display:inline-flex;align-items:center;gap:10px;height:54px;padding:0 26px;border-radius:12px;font-size:16px;font-weight:700;text-decoration:none;transition:transform .2s var(--ease),box-shadow .2s var(--ease),background .2s}
+    .mf-btn svg{width:17px;height:17px}
+    .mf-btn.pri{background:#fff;color:#0A0F3D;box-shadow:0 20px 40px -16px rgba(169,181,255,.9)}
+    .mf-btn.pri:hover{transform:translateY(-2px)}
+    .mf-btn.sec{color:#fff;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.04)}
+    .mf-btn.sec:hover{background:rgba(255,255,255,.1)}
+    .mf-btn:focus-visible,.rail a:focus-visible,.mf-cue:focus-visible{outline:3px solid #A9B5FF;outline-offset:3px}
+    .mf-small{margin-top:18px!important;font-family:'JetBrains Mono',monospace;font-size:12px!important;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.75)!important}
+
+    /* ---------- CHAPTER RAIL ---------- */
+    .rail{position:fixed;left:24px;top:50%;z-index:60;width:212px;transform:translate(-12px,-50%);opacity:0;pointer-events:none;transition:opacity .35s var(--ease),transform .35s var(--ease);
+      background:rgba(255,255,255,.9);-webkit-backdrop-filter:saturate(180%) blur(14px);backdrop-filter:saturate(180%) blur(14px);border:1px solid var(--line);border-radius:16px;padding:16px 14px 14px;box-shadow:0 20px 50px -30px rgba(20,22,31,.35);display:none}
+    .rail.on{opacity:1;pointer-events:auto;transform:translate(0,-50%)}
+    .rail p{margin:0 0 10px 4px;font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#626880}
+    .rail .rl{position:relative}
+    .rail ol{list-style:none;margin:0;padding:0}
+    .rail .rl::before{content:"";position:absolute;left:9px;top:6px;bottom:6px;width:1px;background:#E6E8F0}
+    .rail .rf{position:absolute;left:9px;top:6px;width:1px;height:0;background:#2B44FF;box-shadow:0 0 8px rgba(43,68,255,.7);transition:height .3s}
+    .rail a{position:relative;display:flex;gap:10px;align-items:baseline;padding:5px 4px 5px 24px;font-size:13px;line-height:1.3;color:#4A5063;text-decoration:none;border-radius:8px}
+    .rail a::before{content:"";position:absolute;left:6px;top:10px;width:7px;height:7px;border-radius:50%;background:#fff;border:1px solid #C5CADB}
+    .rail a span{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#7A8094}
+    .rail a:hover{color:#14161F}
+    .rail a.act{color:#14161F;font-weight:700}
+    .rail a.act span{color:#2B44FF}
+    .rail a.act::before,.rail a.done::before{background:#2B44FF;border-color:#2B44FF}
+    .rail a.act::before{box-shadow:0 0 0 4px rgba(43,68,255,.18)}
+    @media (min-width:1360px){.rail{display:block}}
+
+    /* ---------- REVEAL ---------- */
+    .js .mf .rv{opacity:0;transform:translateY(22px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+    .js .mf .rv.in{opacity:1;transform:none}
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width:900px){
+      .pains{grid-template-columns:1fr 1fr}
+      .shift{grid-template-columns:1fr 1fr}
+      .tenets{grid-template-columns:1fr}
+      .path{grid-template-columns:1fr;gap:0;text-align:left}
+      .path::before,.path::after{left:21px;right:auto;top:22px;bottom:22px;width:2px;height:auto}
+      .path::after{height:0;bottom:auto;transition:height 1.8s var(--ease)}
+      .path.in::after{width:2px;height:calc(100% - 44px)}
+      .path li{display:flex;align-items:center;gap:16px;text-align:left;padding:8px 0}
+      .path li i{margin:0;flex:none}
     }
-    .manifesto-band::before{
-      content:"\201C"; position:absolute; left:-30px; top:-90px;
-      font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:280px; line-height:1; color:rgba(91,108,255,.08); pointer-events:none;
+    @media (max-width:640px){
+      .mf{font-size:17px}
+      .mf-sec{padding:80px 20px}
+      .mf-hero{padding:72px 18px 130px}
+      .pains,.shift{grid-template-columns:1fr}
+      .os-in{transform:none}
+      .os-l{grid-template-columns:auto 1fr;gap:6px 12px;padding:14px 16px}
+      .os-l span{grid-column:1 / -1}
+      .mf-ideo{font-size:10.5px;letter-spacing:.14em}
+      .mf-ideo span{padding:0 5px}
+      .os-top{flex-wrap:wrap}
+      .os-top .you{margin-left:60px}
+      .keep{padding:8px 16px 14px}
+      .keep-r{grid-template-columns:1fr auto;gap:8px 12px}
+      .keep-r .bar{grid-column:1 / -1;grid-row:2}
+      .keep-r .ex{grid-column:1 / -1}
+      .tl{padding-left:36px}
+      .tl-s::before{left:-31px}
+      .tl-line{left:9px}
+      blockquote.mf-q{padding-left:20px;margin:40px 0}
+      .mf-note,.mf-kranti{padding:22px 20px}
+      .mf-final{padding:96px 20px 110px}
+      .mf-btn{width:100%;justify-content:center}
+      .mf-by{border-radius:18px}
     }
 
-    /* Feature list — manifesto-specific */
-    .fitem{ display:grid; grid-template-columns: 110px 1fr; gap:1.25rem; padding:1.6rem 0; border-top:1px solid #E6E8F0; align-items:start; }
-    .fitem:first-child{ border-top:0; }
-    .fitem .ftag{ font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; padding:5px 10px; background:#E8F0FF; color:#1A2FD9; border-radius:6px; display:inline-block; white-space:nowrap; }
-    .fitem h4{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-size:1.18rem; font-weight:400; color:#14161F; letter-spacing:-.015em; }
-    .fitem p{ font-size:14.5px; color:#4A5063; line-height:1.7; margin-top:.4rem; }
-
-    /* Mobile adjustments for manifesto-specific components */
-    @media (max-width: 720px){
-      .fitem{ grid-template-columns: 1fr; gap:.5rem; }
+    @media (prefers-reduced-motion:reduce){
+      .mf *,.mf *::before,.mf *::after,.rail{animation:none!important;transition:none!important}
+      .js .mf .rv,.js .os .os-l,.js .os .os-top,.js .os .os-base{opacity:1!important;transform:none!important}
+      .js .keep .bar i{transform:none!important}
+      .path::after{width:84%!important}
+      .mf-stars i{opacity:.6}
     }
-
-    /* Brand display headings → Instrument Serif italic 400 (never bold) */
-    .h-mast,.h-chap,.h-mani,.h-display,.h-sec,.font-display,.grad-text{font-family:'Instrument Serif','Times New Roman',serif !important;font-style:italic;font-weight:400;}
-
-    /* Accessibility — honour reduced-motion preference */
-    @media (prefers-reduced-motion: reduce){
-      .reveal{ opacity:1; transform:none; transition:none; }
-      .pcard,.pcard:hover{ transform:none; transition:none; }
-      .float-y{ animation:none; }
-      .pulse-ring{ animation:none; }
-      .progress{ transition:none; }
-    }
+    @media (prefers-reduced-motion:reduce) and (max-width:900px){.path::after{width:2px!important;height:calc(100% - 44px)!important}}
   </style>
 
   <!-- Schema 1/4: Article (extended) — the manifesto itself -->
@@ -127,16 +369,16 @@
     "@type":["Article","OpinionNewsArticle"],
     "@id":"https://allcoaching.in/manifesto#article",
     "headline":"The AllCoaching Manifesto — The Operating System of Education",
-    "alternativeHeadline":"Why every educator deserves their own academy, built by themselves, and still found by new students",
-    "description":"The long-form manifesto by founder Amit Ratan explaining why AllCoaching exists — 8 chapters covering why owning your academy was the right dream sold the wrong way, the educator's trap, the student's side, why Big EdTech isn't your friend, the false choice between ownership and reach, and the Operating System of Education: build your own LMS in a few clicks, make it your brand, and be found on a shared marketplace.",
-    "image":{"@type":"ImageObject","url":"https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp","width":1600,"height":900,"creator":{"@type":"Organization","name":"AllCoaching"},"copyrightNotice":"© 2026 AllCoaching","license":"https://allcoaching.in/terms","creditText":"AllCoaching","acquireLicensePage":"https://allcoaching.in/contact"},
+    "alternativeHeadline":"Education's next revolution won't come from a bigger platform. It will come from a million independent academies.",
+    "description":"The long-form manifesto by founder Amit Ratan on giving power back to India's educators: how education came to be owned by buildings, agencies and platforms; the right dream sold the wrong way; the educator's trap; the student's side; why Big EdTech is not the educator's friend; the false choice between ownership and reach; the Operating System of Education (Build, Brand, Sell, Reach, Own); the economics of educator-owned academies; beliefs for the next decade; and ten tenets.",
+    "image":{"@type":"ImageObject","url":"https://allcoaching.in/assets/manifesto/og.png","width":1200,"height":630,"creator":{"@type":"Organization","name":"AllCoaching"},"copyrightNotice":"© 2026 AllCoaching","license":"https://allcoaching.in/terms","creditText":"AllCoaching","acquireLicensePage":"https://allcoaching.in/contact"},
     "author":{"@id":"https://allcoaching.in/author/amit-ratan#person"},
     "publisher":{"@id":"https://allcoaching.in/#organization"},
     "datePublished":"2026-04-25",
-    "dateModified":"2026-10-15",
+    "dateModified":"2026-10-27",
     "mainEntityOfPage":{"@id":"https://allcoaching.in/manifesto#webpage"},
     "articleSection":"Manifesto",
-    "wordCount":2800,
+    "wordCount":5350,
     "inLanguage":"en-IN",
     "about":[
       {"@type":"Thing","name":"Learning Management System","sameAs":"https://en.wikipedia.org/wiki/Learning_management_system"},
@@ -147,13 +389,13 @@
       {"@type":"Organization","name":"AllCoaching","@id":"https://allcoaching.in/#organization"}
     ],
     "mentions":[
-      {"@type":"Thing","name":"App Fatigue","sameAs":"https://en.wikipedia.org/wiki/Subscription_fatigue"},
       {"@type":"Thing","name":"Indian Online Education","sameAs":"https://en.wikipedia.org/wiki/Education_in_India"},
+      {"@type":"Thing","name":"Coaching centre","sameAs":"https://en.wikipedia.org/wiki/Cram_school"},
       {"@type":"Thing","name":"COVID-19 pandemic in India","sameAs":"https://en.wikipedia.org/wiki/COVID-19_pandemic_in_India"}
     ],
     "isPartOf":{"@type":"WebSite","@id":"https://allcoaching.in/#website","name":"AllCoaching","url":"https://allcoaching.in/"},
     "speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","h2","blockquote"]},
-    "keywords":"AllCoaching manifesto, operating system of education, Amit Ratan founder, build your own LMS, white-label academy India, educator marketplace India"
+    "keywords":"AllCoaching manifesto, operating system of education, educator-owned academy, independent educators India, Amit Ratan founder, build your own LMS, white-label academy India"
   }
   </script>
 
@@ -169,9 +411,9 @@
     "isPartOf":{"@type":"WebSite","@id":"https://allcoaching.in/#website","name":"AllCoaching","url":"https://allcoaching.in/"},
     "mainEntity":{"@id":"https://allcoaching.in/manifesto#article"},
     "about":{"@id":"https://allcoaching.in/#organization"},
-    "primaryImageOfPage":{"@type":"ImageObject","url":"https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp","copyrightNotice":"© 2026 AllCoaching","license":"https://allcoaching.in/terms","creditText":"AllCoaching","acquireLicensePage":"https://allcoaching.in/contact"},
+    "primaryImageOfPage":{"@type":"ImageObject","url":"https://allcoaching.in/assets/manifesto/academy.webp","copyrightNotice":"© 2026 AllCoaching","license":"https://allcoaching.in/terms","creditText":"AllCoaching","acquireLicensePage":"https://allcoaching.in/contact"},
     "datePublished":"2026-04-25",
-    "dateModified":"2026-10-15"
+    "dateModified":"2026-10-27"
   }
   </script>
 
@@ -216,14 +458,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="i-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></symbol>
-  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57a1.1 1.1 0 0 0-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4c-1.76 0-3.49-.47-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.38a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.83 9.83 0 0 1 9.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41Z"/></symbol>
-  <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.6 3.6 12 3.6 12 3.6s-7.6 0-9.4.5A3 3 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 0 0 2.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.8.5-5.8.5-5.8s0-4-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></symbol>
-  <symbol id="i-telegram" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.2-1.86 8.77c-.14.62-.51.77-1.03.48l-2.85-2.1-1.37 1.32c-.15.15-.28.28-.57.28l.2-2.9 5.27-4.77c.23-.2-.05-.32-.36-.12l-6.52 4.1-2.81-.88c-.61-.19-.62-.61.13-.9l10.99-4.24c.51-.19.96.12.78.96z"/></symbol>
-  <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M24 12a12 12 0 1 0-13.88 11.86v-8.39H7.08V12h3.04V9.36c0-3 1.79-4.67 4.53-4.67 1.31 0 2.68.24 2.68.24v2.95h-1.51c-1.49 0-1.96.93-1.96 1.87V12h3.33l-.53 3.47h-2.8v8.39A12 12 0 0 0 24 12z"/></symbol>
-  <symbol id="i-instagram" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.72-2.13 1.38A5.85 5.85 0 0 0 .63 4.14c-.3.76-.5 1.64-.56 2.9C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.9.3.79.72 1.46 1.38 2.13.67.66 1.34 1.08 2.13 1.38.76.3 1.64.5 2.9.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.9-.56.79-.3 1.46-.72 2.13-1.38.66-.67 1.08-1.34 1.38-2.13.3-.76.5-1.64.56-2.9.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.9a5.85 5.85 0 0 0-1.38-2.13A5.85 5.85 0 0 0 19.86.63c-.76-.3-1.64-.5-2.9-.56C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zm0 10.16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></symbol>
-  <symbol id="i-x" viewBox="0 0 24 24"><path fill="currentColor" d="M18.244 2h3.308l-7.227 8.26L22.5 22h-6.8l-5.31-6.96L4.3 22H.99l7.73-8.83L1.5 2h6.97l4.8 6.34L18.244 2zm-1.16 18h1.83L7.02 3.9H5.06l12.02 16.1z"/></symbol>
 </svg>
 
 <!-- ================= NAV ================= -->
@@ -235,301 +470,454 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </div>
 </header>
 
-<!-- ================= MASTHEAD ================= -->
-<header class="mast-dark pt-32 md:pt-36 pb-12 md:pb-16">
-  <div class="max-w-3xl mx-auto px-5 md:px-6 relative z-10">
-    <div class="flex items-center gap-3 mb-12">
-      <span class="brand-pill">AllCoaching</span>
-      <span class="text-[12px] tracking-[.12em] uppercase text-[#A9AEBD]">The Operating System of Education</span>
+<!-- ================= CHAPTER RAIL (desktop) ================= -->
+<nav class="rail" id="rail" aria-label="Manifesto chapters">
+  <p>Chapters</p>
+  <div class="rl"><i class="rf" id="rail-fill" aria-hidden="true"></i><ol>
+    <li><a href="#prologue"><span>00</span>Prologue</a></li>
+    <li><a href="#ch1"><span>01</span>How education was owned</a></li>
+    <li><a href="#ch2"><span>02</span>The right dream</a></li>
+    <li><a href="#ch3"><span>03</span>The educator's trap</a></li>
+    <li><a href="#ch4"><span>04</span>The student's side</a></li>
+    <li><a href="#ch5"><span>05</span>Big EdTech</a></li>
+    <li><a href="#ch6"><span>06</span>The false choice</a></li>
+    <li><a href="#ch7"><span>07</span>The operating system</a></li>
+    <li><a href="#ch8"><span>08</span>The economic shift</a></li>
+    <li><a href="#ch9"><span>09</span>The next decade</a></li>
+    <li><a href="#ch10"><span>10</span>The manifesto</a></li>
+    <li><a href="#join"><span>&rarr;</span>Join the movement</a></li>
+  </ol></div>
+</nav>
+
+<main class="mf" id="manifesto">
+
+<!-- ================= HERO / PROLOGUE MAST ================= -->
+<section class="mf-hero" aria-labelledby="mf-title">
+  <div class="mf-stars" id="mf-stars" aria-hidden="true"></div>
+  <div class="mf-grid" aria-hidden="true"></div>
+  <div class="mf-rays" aria-hidden="true"></div>
+  <div class="wrap">
+    <span class="mf-tag"><i aria-hidden="true"></i>The AllCoaching Manifesto</span>
+    <h1 class="mf-h1" id="mf-title"><span class="lt">Education's next revolution won't come from a bigger platform.</span> <span class="bd">It will come from a million independent academies.</span></h1>
+    <p class="lede">For decades, the people who teach India have built everything except the thing they stand inside. This is our case for handing the keys back: every educator running an academy of their own, under their own name, with the technology running quietly underneath.</p>
+    <div class="mf-ideo"><span>Build</span>&middot;<span>Brand</span>&middot;<span>Sell</span>&middot;<span>Reach</span>&middot;<span>Own</span><br/>The Operating System of Education</div>
+    <div class="mf-by">
+      <img src="./assets/amit-ratan-2026.webp" alt="Amit Ratan" width="44" height="44" decoding="async" />
+      <div><b>Amit Ratan</b><span>Founder &amp; CEO, AllCoaching</span></div>
     </div>
-    <p class="kicker">About Us · Our Story · Why We Exist</p>
-    <h1 class="h-mast font-display mt-5">
-      Every Educator Deserves<br/>
-      Their Own Academy.<br/>
-      <span class="grad-text">Built by Themselves.</span>
-    </h1>
-    <p class="mt-6 text-[1.1rem] md:text-[1.18rem] leading-[1.7] text-[#4A5063] max-w-2xl">
-      For years, an educator who wanted their own online academy had two bad options: pay an agency lakhs and wait months for an app nobody found, or hand their name and students to a big platform. We built AllCoaching so an educator can build their own LMS in a few clicks, put their own brand on it, and still be found by new students.
-    </p>
-    <div class="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3 pt-5 border-t border-[#E6E8F0]">
-      <span class="text-[12px] text-[#7A8094]"><strong class="text-[#14161F] font-semibold">Category:</strong> LMS for educators</span>
-      <span class="text-[12px] text-[#7A8094]"><strong class="text-[#14161F] font-semibold">Belief:</strong> Your academy, your brand, built by you</span>
-      <span class="text-[12px] text-[#7A8094]"><strong class="text-[#14161F] font-semibold">Purpose:</strong> Level the playing field for independent educators</span>
-    </div>
-    <div class="mt-8 flex items-center gap-3 text-[12px] text-[#7A8094] tracking-[.06em]">
-      <span class="inline-block w-10 h-px bg-[#E6E8F0]"></span>
-      <span>Read the full manifesto</span>
+    <div class="mf-meta">Updated 27 October 2026 &middot; About 25 minutes to read</div>
+    <figure class="mf-fig">
+      <img src="./assets/manifesto/academy.webp?v=20261027" width="1200" height="720" fetchpriority="high" decoding="async" alt="Illustration: a single educator stands on a glowing academy of their own with light rising from it, linked to their own website on the sample domain youracademy.in and their own academy app on a phone, labelled your domain, your logo, your students and your own app." />
+      <figcaption>Every educator an institution. Illustration; youracademy.in is a sample domain.</figcaption>
+    </figure>
+  </div>
+  <a class="mf-cue" href="#prologue">Begin<i aria-hidden="true"></i></a>
+</section>
+
+<!-- ================= 00 · PROLOGUE ================= -->
+<section class="mf-sec" id="prologue" data-ch>
+  <div class="mf-col">
+    <div class="mf-ch rv"><b>00</b>Prologue</div>
+    <h2 class="mf-h2 rv"><span class="lt">The quiet</span> <span class="bd">kranti.</span></h2>
+    <p class="mf-lede rv">Every few years, Indian education is promised a revolution. A new app, a new platform, a bigger brand on a bigger hoarding. And every few years, the people who actually teach end up holding a little less of what they built.</p>
+    <p class="rv">We think the real revolution has not happened yet. When it comes, it will not look like one giant company teaching everyone. It will look like the opposite. A physics teacher in a small town, a tutor who teaches in Hindi, an exam mentor with a loyal batch, a subject expert who has never written a line of code. Each of them running an academy of their own, under their own name, as professional as anything a large brand could put on a screen.</p>
+    <p class="rv">Not one platform with a million teachers on it. <strong>A million academies, each owned by the person who teaches in it.</strong></p>
+    <p class="rv">India has an estimated 3.5 lakh independent educators who teach for a living: coaching-institute owners, home tutors, exam mentors, subject and skill teachers. Between them they hold more knowledge than any company ever will. Most of them teach on borrowed ground. Someone else's building, someone else's app, someone else's platform. They have the knowledge. What they have rarely had is the infrastructure, and the control over it.</p>
+    <blockquote class="mf-q rv">Teaching has always been powerful in India. <em>Owning</em> the teaching has rarely been in the teacher's hands.</blockquote>
+    <p class="rv">This manifesto is about changing that. It is long, because the problem is old and the change we are arguing for is large. It sets out how education came to be owned by everyone except the teacher, why the obvious fixes failed, what we believe should replace them, and what we are building at AllCoaching to make it ordinary.</p>
+    <p class="rv">We call it the Operating System of Education. <strong>You build the academy. We run everything beneath it.</strong></p>
+    <p class="rv">We are not neutral about any of this. We are on the educator's side. If that makes this a manifesto rather than a brochure, good. A brochure describes a product. A manifesto describes the world you want, and then holds you to it.</p>
+  </div>
+</section>
+
+<!-- ================= 01 · HOW EDUCATION WAS OWNED ================= -->
+<section class="mf-sec mist" id="ch1" data-ch>
+  <div class="mf-col">
+    <div class="mf-ch rv"><b>01</b>How education was owned</div>
+    <h2 class="mf-h2 rv"><span class="lt">Every era moved the keys</span> <span class="bd">further from the teacher.</span></h2>
+    <p class="mf-lede rv">Before saying what we believe, we have to be honest about how we got here. Look at the last few decades of Indian teaching as three eras, and a pattern appears.</p>
+  </div>
+
+  <div class="mf-wide">
+    <figure class="mf-fig rv">
+      <img src="./assets/manifesto/eras.webp?v=20261027" width="1200" height="600" loading="lazy" decoding="async" alt="Illustration of four eras of Indian teaching and who held the keys: the building era, a rented coaching centre where the landlord held the keys; the app era, a locked app whose key sits with a vendor; the platform era, teachers reduced to tiles on a tall platform tower; and the network of independent academies, where the educator holds the keys." />
+      <figcaption>Who holds the keys, era by era. Our reading of history, drawn as an illustration.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mf-col">
+    <h3 class="mf-h3 rv">The building era: the walls owned the business</h3>
+    <p class="rv">For a generation, a teaching career began with a room. A hall above a sweet shop, a rented floor near the railway station, a board painted by hand and a bench that seated more students than it was built for. The teacher could be brilliant, but the reach of that brilliance was set by geography: how far a student could cycle, which city had an exam culture, which family could afford a hostel in a coaching town.</p>
+    <p class="rv">Those who grew did it by renting more space, in more expensive places, under bigger hoardings. Rent rose before income did. The best location, not the best lesson, decided who was found first. A great teacher in the wrong lane stayed small. In the building era, <strong>the landlord and the location owned the business, and the teacher paid for both.</strong></p>
+
+    <h3 class="mf-h3 rv">The app era: someone else held the keys</h3>
+    <p class="rv">Then the classroom closed, and everything moved into a phone. Almost overnight an educator needed a website, an app, a payment page and a way to stream classes. Most did not have a developer, so they hired someone who did. Agencies arrived with quotes, demos and setup fees. They built the app, held the code, managed the store listing and billed for every change.</p>
+    <p class="rv">The educator's name was on the icon. The keys were in someone else's pocket. Want a new course page? Raise a ticket. Want to change a price? Wait for the developer. Want to leave? Start again from nothing. In the app era, <strong>the vendor owned the controls, and the teacher paid for those too.</strong></p>
+
+    <h3 class="mf-h3 rv">The platform era: the teacher became supply</h3>
+    <p class="rv">The third era looked like a rescue. Large EdTech platforms offered reach, polish and a ready audience. Many good teachers joined them, and some did well for a while. But slowly, the teacher's own name became smaller than the platform's. Students enrolled with the brand, not the person. Recordings, reviews and student lists stayed with the platform. Prices, promotion and visibility were decided somewhere else.</p>
+    <p class="rv">In the platform era, <strong>the platform owned the student relationship. The teacher became inventory</strong>, a face on a thumbnail inside someone else's catalogue.</p>
+
+    <blockquote class="mf-q rv">Three eras, three owners: the landlord, the agency, the platform. Each brought something real. <em>Each moved a little more power away from the person doing the teaching.</em></blockquote>
+
+    <p class="rv">The room gave students a place to gather. The app took teaching beyond the city. The platform brought scale. We are not dismissing any of it. We are pointing at what each era cost: a little more of the educator's control, a little more of their margin, a little more of their name.</p>
+    <p class="rv">We think the fourth era turns that around. Not by going back to the room, and not by building a bigger platform, but by giving every educator the infrastructure that only large institutions used to have, and leaving the ownership with them.</p>
+
+    <div class="mf-kranti rv">
+      <span class="mf-eb">What we mean by revolution</span>
+      <p><strong>Not louder marketing. Not a bigger platform.</strong> A kranti in who owns the means of teaching: the brand, the students, the price, the data and the decisions.</p>
+      <p>When those sit with the educator, everything else in Indian education starts to rearrange itself around good teaching instead of around rent, vendors and ad budgets.</p>
     </div>
   </div>
-</header>
+</section>
 
-<!-- ================= EPIGRAPH ================= -->
-<aside class="epi">
-  <p>"An educator should be able to build their own academy as easily as they teach a class. Their name on the door, their students inside, and nobody standing between them."</p>
-  <cite>— The AllCoaching Founding Principle</cite>
-</aside>
-
-<!-- ================= COVER IMAGE ================= -->
-<div class="max-w-4xl mx-auto px-5 md:px-6 mt-10 mb-2">
-  <figure class="overflow-hidden rounded-2xl shadow-lg">
-    <img src="https://allcoaching-store.b-cdn.net/blog-images/Online-teaching.webp?v=manifesto" alt="Indian educator teaching online from their own branded academy built on AllCoaching" width="1600" height="900" loading="eager" decoding="async" class="w-full h-auto object-cover"  fetchpriority="high" />
-  </figure>
-</div>
-
-<!-- ================= ARTICLE ================= -->
-<main class="article-body">
-  <div class="max-w-3xl mx-auto px-5 md:px-6">
-
-    <!-- ============ TOC ============ -->
-    <nav class="toc">
-      <p class="toc-l">What you'll read in this manifesto</p>
-      <ol>
-        <li><a href="#ch1">The Right Dream, Sold the Wrong Way — Why "own your academy" was never the mistake</a></li>
-        <li><a href="#ch2">The Educator's Trap — Developer, marketer, payments desk, and teacher last</a></li>
-        <li><a href="#ch3">The Student's Side — Great teachers, hidden behind walls</a></li>
-        <li><a href="#ch4">Why Big EdTech is not your friend</a></li>
-        <li><a href="#ch5">The False Choice — Ownership or reach, never both</a></li>
-        <li><a href="#ch6">AllCoaching — The Operating System of Education</a></li>
-        <li><a href="#ch7">What AllCoaching does differently</a></li>
-        <li><a href="#ch8">The Manifesto — Our promise to every educator</a></li>
-      </ol>
-    </nav>
-
-    <!-- ============ CHAPTER 01 ============ -->
-    <section id="ch1" class="py-14 md:py-16 border-b border-[#E6E8F0]">
-      <p class="kicker">Chapter 01</p>
-      <h2 class="h-chap font-display mt-3">The Right Dream, Sold the Wrong Way —<br/><span class="accent-blue">why "own your academy" was never the mistake.</span></h2>
-
-      <p class="mt-7 drop-cap">In March 2020, when classrooms went dark, Indian educators were handed an idea: <strong>build your own academy online. Your name. Your students. Your income.</strong> Zoom calls became classrooms, WhatsApp groups became study halls, and a wave of app-building companies promised every teacher a branded app of their own.</p>
-
-      <p>The dream was right. An educator <em>should</em> own their brand, their students and their income. What went wrong was how it was sold.</p>
-
-      <p>Owning an academy usually meant calling a sales team, sitting through a demo, signing a quote, paying a setup fee, and then waiting weeks while somebody else built the app. Every change needed a support ticket. Every new feature had a price. The educator owned the logo on the screen, but not the controls behind it.</p>
-
-      <p>And once the app went live, most educators were left alone with it. No students arrived on their own. The app was a <em>mohalle ki coaching</em> centre that had gone digital, but stayed just as invisible, just as local, just as limited.</p>
-
-      <div class="pull"><p>"The problem was never that educators wanted their own academy. The problem was that someone else held the keys to it, and nobody helped students find the door."</p></div>
-
-      <p>So the lesson of those years is not "stop building your own academy." It is this: <strong>an educator should be able to build it themselves, in minutes, without a developer, and it should not leave them alone once it is live.</strong> That is the idea this manifesto is built on.</p>
-
-      <div class="stat-row mt-10">
-        <div class="stat-cell"><div class="stat-num">3.5L+</div><div class="stat-lab">Independent educators in India who teach for a living</div></div>
-        <div class="stat-cell"><div class="stat-num">4</div><div class="stat-lab">Steps to a live academy: start trial, add content, add your brand, start selling</div></div>
-        <div class="stat-cell"><div class="stat-num">0</div><div class="stat-lab">Developers, sales calls or demos needed to set it up</div></div>
-        <div class="stat-cell"><div class="stat-num">90–100%</div><div class="stat-lab">Of every sale the educator keeps, depending on plan</div></div>
-      </div>
-    </section>
-
-    <!-- ============ CHAPTER 02 ============ -->
-    <section id="ch2" class="py-14 md:py-16 border-b border-[#E6E8F0]">
-      <p class="kicker">Chapter 02</p>
-      <h2 class="h-chap font-display mt-3">The Educator's Trap —<br/><span class="accent-blue">developer, marketer, payments desk, and teacher last.</span></h2>
-
-      <p class="mt-7">Here is what nobody told the educators who went online: <strong>having an academy and running an academy are two completely different jobs.</strong> The companies that built their apps were paid when the app was delivered. Everything after that was the educator's problem.</p>
-
-      <p>So educators did what entrepreneurs do. They tried everything.</p>
-
-      <p><strong>They became entertainers.</strong> Social media rewards content that is dramatic or amusing, so educators began chasing views instead of teaching depth. A chemistry teacher who spent years mastering reaction mechanisms now spent hours scripting 60-second reels. <strong>Quality of instruction fell in proportion to the pressure to perform for an algorithm.</strong></p>
-
-      <div class="pull"><p>"Every rupee spent on Instagram ads is a rupee not spent on a better curriculum. Every hour making reels is an hour not spent preparing a better class."</p></div>
-
-      <p><strong>They spent on marketing instead of education.</strong> Without anything bringing students to them, acquisition became a paid game. A small educator with, say, ₹10,000 a month for ads was competing for the same eyeballs as companies spending crores. That was never a fair fight.</p>
-
-      <p><strong>They became technically dependent.</strong> Payment gateways that failed at checkout, video hosting that cost more as they grew, app updates that needed a developer, support requests that landed on the educator's own phone. Every teacher became an accidental startup founder, without the funding, team or tools.</p>
-
-      <p><strong>They faced hidden costs at every turn.</strong> Setup fees. Feature unlocks. Transaction cuts. Annual maintenance. Charges that only appeared after signing. What started as "your own platform" carried a cost structure most educators never saw clearly until it was too late.</p>
-
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
-        <div class="pcard"><span class="pin">Pain 01</span><h3>Someone else holds the keys</h3><p>The academy carries your name, but every change goes through a sales rep, a developer or a support ticket. Ownership in name, dependency in practice.</p></div>
-        <div class="pcard"><span class="pin">Pain 02</span><h3>Teaching replaced by performing</h3><p>Algorithm-driven reach rewards entertainment, not instruction. The best educators aren't always the most viral, but the feed rewards virality, not pedagogy.</p></div>
-        <div class="pcard"><span class="pin">Pain 03</span><h3>Marketing budget eating quality</h3><p>Every rupee spent on paid acquisition is taken from curriculum, better tools or a co-teacher. Educators are forced to choose between growing and teaching well.</p></div>
-        <div class="pcard"><span class="pin">Pain 04</span><h3>Technical burden</h3><p>Payments, video hosting, app updates, logins. Educators end up running a tech company they never signed up for, with no tech team behind them.</p></div>
-        <div class="pcard"><span class="pin">Pain 05</span><h3>Hidden costs and opaque cuts</h3><p>Setup fees, feature unlocks, gateway cuts and renewal surprises quietly eat into the margin of every sale.</p></div>
-        <div class="pcard"><span class="pin">Pain 06</span><h3>Alone after launch</h3><p>A standalone academy is visible only to people who already know you exist. No shared discovery, no network, no new students arriving on their own.</p></div>
-      </div>
-    </section>
-
-    <!-- ============ CHAPTER 03 ============ -->
-    <section id="ch3" class="py-14 md:py-16 border-b border-[#E6E8F0]">
-      <p class="kicker">Chapter 03</p>
-      <h2 class="h-chap font-display mt-3">The Student's Side —<br/><span class="accent-blue">great teachers, hidden behind walls.</span></h2>
-
-      <p class="mt-7">We spend most of our time talking about educators. But the student's side of this story is just as broken.</p>
-
-      <p>Consider a student in Patna preparing for SSC CGL. They have heard about a good reasoning teacher from a friend. They go looking. They find a reel, then a Telegram channel, then an app link that asks them to download, register, verify an OTP and trust a payment page they have never seen before. Then they do it again for the maths teacher. And again for the English teacher.</p>
-
-      <div class="pull"><p>"The best teacher in India is invisible if students can't find them, and unconvincing if what they do find doesn't look like a real academy."</p></div>
-
-      <p>Two things decide whether that student enrols. First, <strong>can they find the teacher at all?</strong> Second, <strong>when they arrive, does it feel like a real academy they can trust</strong>: a proper website, a clear course page, a familiar way to pay, an app with the teacher's name on it?</p>
-
-      <p>Most independent educators fail on one or both. Not because their teaching is poor, but because what surrounds the teaching is broken. A course that a student never finds, or finds and does not trust, is not a content failure. <strong>It is an infrastructure failure.</strong></p>
-
-      <div class="hband">
-        <p><strong>A simple question that exposes everything:</strong> How does a student in Jaipur, looking for the best biology teacher for NEET, find a teacher who has 800 YouTube subscribers and no ad budget? Today, mostly, they don't. They end up with whoever advertised most, not whoever taught best. And if they do find the right teacher, they land on a WhatsApp number and a UPI ID instead of an academy.</p>
-      </div>
-
-      <p>Fixing this means giving every educator two things at once: <strong>a professional academy under their own name</strong>, and <strong>a way to be found by students who don't know them yet.</strong></p>
-    </section>
-
-    <!-- ============ CHAPTER 04 ============ -->
-    <section id="ch4" class="py-14 md:py-16 border-b border-[#E6E8F0]">
-      <p class="kicker">Chapter 04</p>
-      <h2 class="h-chap font-display mt-3">Why Big EdTech<br/><span class="accent-blue">is not your friend.</span></h2>
-
-      <p class="mt-7">The case for joining a giant EdTech platform sounds reasonable: reach, infrastructure, brand trust, students handed to you. Why not just join them?</p>
-
-      <p>Because what those platforms offer educators is <strong>not partnership. It is absorption.</strong></p>
-
-      <p><strong>Your brand disappears.</strong> Students enrol with the platform, not with you. If you leave, they keep the students, the reviews and the data. You leave with nothing you can carry.</p>
-
-      <p><strong>Your content becomes their asset.</strong> The lectures, notes and question banks you created are used to sell the next batch, with or without you.</p>
-
-      <p><strong>Your income is never fully yours.</strong> Revenue splits are rarely transparent, and the platform takes the larger share because it controls discovery.</p>
-
-      <p><strong>Your growth is capped by their algorithm.</strong> The platform promotes what grows platform revenue. You are competing with your own platform's interests.</p>
-
-      <div class="cmp-scroll mt-10">
-      <div class="cmp">
-        <div class="cmp-h4">
-          <span>What you want</span><span>Agency-built app</span><span>Big EdTech</span><span>AllCoaching</span>
-        </div>
-        <div class="cmp-r4"><span>Your own brand: domain, logo, app</span><span class="ic-y">✓</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r4"><span>Build and change it yourself, no developer</span><span class="ic-n">✗</span><span class="ic-p">±</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r4"><span>Start without a sales call or demo</span><span class="ic-n">✗</span><span class="ic-p">±</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r4"><span>Discovery beyond your own followers</span><span class="ic-n">✗</span><span class="ic-p">±</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r4"><span>Keep your student relationships</span><span class="ic-y">✓</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r4"><span>Fees published before you start</span><span class="ic-p">±</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
-        <div class="cmp-r4"><span>Export your courses, students and data</span><span class="ic-p">±</span><span class="ic-n">✗</span><span class="ic-y">✓</span></div>
-      </div>
-      </div>
-
-      <p class="mt-8">An agency-built app gives you a brand but no control and no reach. A big EdTech platform gives you reach but takes your brand. Indian educators have been stuck between these two bad choices for years. <strong>There is a third way.</strong></p>
-    </section>
-
-    <!-- ============ CHAPTER 05 ============ -->
-    <section id="ch5" class="py-14 md:py-16 border-b border-[#E6E8F0]">
-      <p class="kicker">Chapter 05</p>
-      <h2 class="h-chap font-display mt-3">The False Choice —<br/><span class="accent-blue">ownership or reach, never both.</span></h2>
-
-      <p class="mt-7">For half a decade, every option in Indian EdTech asked educators to give something up. Own your academy, and accept that you are on your own. Join a platform, and accept that you are a listing on someone else's shelf.</p>
-
-      <p>We think that choice was never real. It came from how the tools were built, not from anything educators needed.</p>
-
-      <div class="pull"><p>"Ownership and reach are not opposites. They only looked that way because nobody built one product that gave an educator both."</p></div>
-
-      <p>Look at how good shopkeepers work. A shop owner has their own signboard, their own counter, their own regular customers who come straight to them. They also sit in a market where new customers walk past every day. Nobody asks them to choose between their own shop and the market. The shop is theirs. The market brings footfall.</p>
-
-      <p>Educators deserve the same. <strong>Their own academy, on their own domain, under their own name, built and run by them.</strong> And alongside it, <strong>a shared marketplace where students who are looking for a teacher can find them</strong>, so that every new educator who joins makes it easier for every other educator to be discovered.</p>
-
-      <p>That is the layer Indian education has been missing. Not another app. Not another platform. A foundation that lets each educator build their own academy, and connects all of them.</p>
-    </section>
-
-    <!-- ============ CHAPTER 06 ============ -->
-    <section id="ch6" class="py-14 md:py-16 border-b border-[#E6E8F0]">
-      <p class="kicker">Chapter 06</p>
-      <h2 class="h-chap font-display mt-3">AllCoaching —<br/><span class="grad-text">The Operating System of Education.</span></h2>
-
-      <p class="mt-7">We describe AllCoaching as <strong>the Operating System of Education</strong> deliberately. Not an app-building agency. Not a platform that rents you a shelf. An operating system.</p>
-
-      <p>An operating system doesn't decide what you build on it. It gives you everything underneath, so you can build exactly what you want. That is what AllCoaching is for an educator: <strong>you build your academy, we run everything beneath it.</strong></p>
-
-      <div class="hband">
-        <p><strong>The AllCoaching premise is simple:</strong> any educator in India should be able to build their own LMS in a few clicks. Drag and drop courses, tests, notes and live classes. Add their logo and colours, connect their own domain, publish their own Android app (iOS app on Pro and Scale). Take payments by UPI or card. And be listed on the AllCoaching marketplace so new students can find them. No developer, no sales call, no demo to book.</p>
-      </div>
-
-      <p>This means two paths, from one account, and the educator chooses how far to go:</p>
-
-      <p><strong>Your own academy.</strong> A white-label academy that carries your name: a website on your own domain like <em>youracademy.in</em>, your own Android app (iOS app on Pro and Scale), your logo and colours throughout. Students see your brand, not ours. You set it up yourself, change it whenever you want, and you can export your courses, students and data at any time.</p>
-
-      <p><strong>The marketplace.</strong> Your courses are also listed on the AllCoaching app on Android, iOS and web, where students who are looking for a teacher can discover you. It works alongside your own academy. It does not replace it.</p>
-
-      <p>Our economics are tied to the educator's success. One yearly plan with a published price, and a platform fee only when a student pays, from 10% down to 5%, or 0% on Scale depending on the plan. When educators sell more, we earn more. <strong>That is not marketing language. It is our business model.</strong></p>
-    </section>
-
-    <!-- ============ CHAPTER 07 ============ -->
-    <section id="ch7" class="py-14 md:py-16 border-b border-[#E6E8F0]">
-      <p class="kicker">Chapter 07</p>
-      <h2 class="h-chap font-display mt-3">What AllCoaching<br/><span class="accent-blue">does differently.</span></h2>
-
-      <p class="mt-7">Principles are cheap. Execution is everything. Here is how AllCoaching answers each problem in this manifesto, with mechanics rather than promises.</p>
-
-      <div class="mt-8">
-        <div class="fitem"><span class="ftag">Build</span><div><h4>Your own LMS in a few clicks, built by you</h4><p>Courses, lessons, PDF notes, test series and live classes go into one studio. You arrange everything by dragging and dropping and set your own price for every course. If you can use WhatsApp, you can build your academy. No code, no developer.</p></div></div>
-        <div class="fitem"><span class="ftag">Brand</span><div><h4>Students see your name, not ours</h4><p>Your logo and colours across the academy. Your own domain, connected on every plan. Your own Android app (iOS app on Pro and Scale) with your name on the student's home screen. This is a white-label academy, and the brand you build stays yours.</p></div></div>
-        <div class="fitem"><span class="ftag">Self-serve</span><div><h4>No sales call, no demo, no waiting</h4><p>Start a 14-day free trial with no card needed, build your academy, and publish it yourself. Nobody to book a call with, nobody to wait for. When you are ready, pick Starter, Growth or Pro.</p></div></div>
-        <div class="fitem"><span class="ftag">Sell</span><div><h4>Get paid while you teach</h4><p>Students pay by UPI or card and get access instantly. You keep 90% to 95% of every sale, depending on your plan.</p></div></div>
-        <div class="fitem"><span class="ftag">Discovery</span><div><h4>Found by students who don't know you yet</h4><p>Your courses are also listed on the AllCoaching app for students on Android, iOS and web. Every educator who joins makes the marketplace more useful for students, and every student who joins makes it more useful for educators. Your own academy and the shared marketplace work together.</p></div></div>
-        <div class="fitem"><span class="ftag">Ownership</span><div><h4>Your students and your data stay yours</h4><p>Your courses, your student list and your data can always be exported. If you build a reputation on AllCoaching, you carry it with you. We give you the foundation. What you build on it is yours.</p></div></div>
-        <div class="fitem"><span class="ftag">Economics</span><div><h4>Prices published before you start</h4><p>One yearly plan, priced in the open, with no setup fee. The bigger the plan, the smaller our cut, from 10% down to 5%, or 0% on Scale. What we take and what you keep is written down before you sign up, not discovered after.</p></div></div>
-        <div class="fitem"><span class="ftag">Freedom</span><div><h4>An educator's main job is to teach</h4><p>When the building, the payments and the technology are handled, the educator gets back the scarcest thing they have: time to prepare exceptional classes. Better classes produce better results. Better results produce better reviews. Better reviews bring more students. That is the cycle AllCoaching is designed to start.</p></div></div>
-      </div>
-    </section>
-
-    <div class="orn">✦ &nbsp;&nbsp; ✦ &nbsp;&nbsp; ✦</div>
-
-    <!-- ============ FROM THE FOUNDER ============ -->
-    <section class="py-14 md:py-16">
-      <p class="kicker">From the Founder</p>
-      <h2 class="h-chap font-display mt-3 mb-8">A note from the person<br/>who started this.</h2>
-
-      <div class="founder">
-        <div class="photo-wrap" style="width:180px; height:180px; border-radius:50%; box-shadow:0 0 0 4px #F7F8FC,0 0 0 7px #5B6CFF,0 0 0 8px rgba(43,68,255,.35),0 0 0 14px rgba(91,108,255,.16),0 22px 50px -10px rgba(43,68,255,.45);">
-          <img src="./assets/amit-ratan-2026.webp" alt="Amit Ratan, Founder & CEO of AllCoaching" loading="lazy" decoding="async" width="180" height="180" style="object-position:center 20%;" />
-        </div>
-        <div class="relative z-10">
-          <div class="founder-eyebrow" style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#1A2FD9;margin:0;">About the Author</div>
-          <div class="founder-name" style="font-family:'Instrument Serif','Times New Roman',serif;font-style:italic;font-weight:400;font-size:clamp(1.95rem,3.2vw,2.5rem);color:#14161F;letter-spacing:-.025em;line-height:1;margin:.5rem 0 0;">Amit Ratan</div>
-          <div class="founder-role" style="font-family:'Inter Tight',sans-serif;font-weight:700;color:#1A2FD9;font-size:1.02rem;letter-spacing:.008em;margin:.35rem 0 0;">Founder &amp; CEO, AllCoaching</div>
-
-          <p class="founder-quote">"I didn't start AllCoaching to build apps for educators. I started it so educators could build their own, and so the people who taught me, and millions like them, finally had an internet that worked for them, not against them."</p>
-
-          <p class="founder-bio">Amit has spent the last decade close to India's coaching ecosystem, watching extraordinary teachers be ground down by technology they didn't control and economics they couldn't escape. AllCoaching is his answer: a foundation on which any educator can build their own academy, under their own name, and still be found.</p>
-        </div>
-      </div>
-    </section>
-
+<!-- ================= 02 · RIGHT DREAM ================= -->
+<section class="mf-sec" id="ch2" data-ch>
+  <div class="mf-col">
+    <div class="mf-ch rv"><b>02</b>The right dream, sold the wrong way</div>
+    <h2 class="mf-h2 rv"><span class="lt">"Own your academy"</span> <span class="bd">was never the mistake.</span></h2>
+    <p class="mf-lede rv">When classrooms went dark in 2020, Indian educators were handed an idea: build your own academy online. Your name. Your students. Your income.</p>
+    <p class="rv">Video calls became classrooms, WhatsApp groups became study halls, and a wave of app-building companies promised every teacher a branded app of their own. Teachers who had never thought of themselves as business owners suddenly were.</p>
+    <p class="rv"><strong>The dream was right.</strong> An educator should own their brand, their students and their income. What went wrong was how it was sold.</p>
+    <p class="rv">Owning an academy usually meant calling a sales team, sitting through a demo, negotiating a quote, paying a setup fee, and then waiting weeks while somebody else built the thing. Every change needed a support ticket. Every new feature came with a price. The educator owned the logo on the screen, but not the controls behind it.</p>
+    <p class="rv">And once the app went live, most educators were left alone with it. No students arrived on their own. The app was a <em>mohalle ki coaching</em> centre that had gone digital, but stayed just as invisible, just as local, just as limited. It had moved online without gaining any of the internet's reach.</p>
+    <blockquote class="mf-q rv">The problem was never that educators wanted their own academy. The problem was that <em>someone else held the keys</em>, and nobody helped students find the door.</blockquote>
+    <p class="rv">Many educators drew the wrong lesson from those years. Some decided that owning an academy was a vanity project, that the only realistic path was to join a large platform and accept its terms. Others kept paying for an app they could not change, because starting over felt worse.</p>
+    <p class="rv">The real lesson is different. It is not "stop building your own academy." It is this: <strong>an educator should be able to build it themselves, in minutes, without a developer, and it should not leave them alone once it is live.</strong> Ownership without control is a costume. Control without reach is a locked room. The educator needs both, and needs them without asking anyone's permission.</p>
+    <p class="rv">That is the idea this manifesto is built on.</p>
   </div>
+</section>
+
+<!-- ================= 03 · EDUCATOR'S TRAP ================= -->
+<section class="mf-sec mist" id="ch3" data-ch>
+  <div class="mf-col">
+    <div class="mf-ch rv"><b>03</b>The educator's trap</div>
+    <h2 class="mf-h2 rv"><span class="lt">Developer, marketer, payments desk.</span> <span class="bd">Teacher last.</span></h2>
+    <p class="mf-lede rv">Here is what nobody told the educators who went online: having an academy and running an academy are two completely different jobs.</p>
+    <p class="rv">The companies that built their apps were paid when the app was delivered. Everything after that was the educator's problem. So educators did what entrepreneurs do. They tried everything.</p>
+    <p class="rv"><strong>They became entertainers.</strong> Social feeds reward what is dramatic or amusing, so educators began chasing views instead of teaching depth. A chemistry teacher who spent years mastering reaction mechanisms now spent evenings scripting sixty-second reels. The quality of instruction fell in proportion to the pressure to perform for an algorithm.</p>
+    <p class="rv"><strong>They spent on marketing instead of education.</strong> With nothing bringing students to them, acquisition became a paid game. A small educator with a modest monthly ad budget was bidding for the same attention as companies spending crores. That was never a fair fight, and it was never a contest of who teaches better.</p>
+    <blockquote class="mf-q rv">Every rupee spent on ads is a rupee not spent on a better curriculum. <em>Every hour making reels is an hour not spent preparing a better class.</em></blockquote>
+    <p class="rv"><strong>They became technically dependent.</strong> Checkout pages that failed at the worst moment, video hosting that cost more as they grew, app updates that needed a developer, login problems that landed on the educator's own phone at eleven at night. Every teacher became an accidental startup founder, without the funding, the team or the tools.</p>
+    <p class="rv"><strong>They met hidden costs at every turn.</strong> Setup fees. Paid add-ons. Transaction cuts. Annual maintenance. Charges that only appeared after signing. What started as "your own platform" carried a cost structure most educators never saw clearly until it was too late to walk away.</p>
+  </div>
+
+  <div class="mf-wide">
+    <div class="pains">
+      <div class="pain rv"><span class="n">Pain 01</span><h4>Someone else holds the keys</h4><p>The academy carries your name, but every change goes through a sales rep, a developer or a support ticket. Ownership in name, dependency in practice.</p></div>
+      <div class="pain rv"><span class="n">Pain 02</span><h4>Performing replaces teaching</h4><p>Algorithm-driven reach rewards entertainment, not instruction. The best educators are not always the most viral, and the feed rewards virality, not pedagogy.</p></div>
+      <div class="pain rv"><span class="n">Pain 03</span><h4>Marketing eats quality</h4><p>Every rupee spent on paid acquisition is taken from curriculum, better tools or a co-teacher. Educators are forced to choose between growing and teaching well.</p></div>
+      <div class="pain rv"><span class="n">Pain 04</span><h4>The tech burden</h4><p>Payments, video, app updates, logins. Educators end up running a technology company they never signed up for, with no technology team behind them.</p></div>
+      <div class="pain rv"><span class="n">Pain 05</span><h4>Hidden costs, opaque cuts</h4><p>Setup fees, paid add-ons, gateway cuts and renewal surprises quietly eat into the margin of every sale.</p></div>
+      <div class="pain rv"><span class="n">Pain 06</span><h4>Alone after launch</h4><p>A standalone academy is visible only to people who already know you exist. No shared discovery, no network, no new students arriving on their own.</p></div>
+    </div>
+  </div>
+
+  <div class="mf-col" style="margin-top:40px">
+    <p class="rv">The cost of the trap is not only money. It is attention. Teaching well needs long, unbroken hours: reading, preparing, solving, rehearsing an explanation until it lands. The trap breaks those hours into pieces and hands them to vendors, feeds and spreadsheets.</p>
+    <p class="rv">Over time it changes who succeeds. Not the most patient teacher, not the clearest explainer, but the one who can best tolerate being a part-time developer and a full-time marketer. <strong>That is a selection system that filters out exactly the people students need most.</strong> Any revolution in Indian education has to start by switching it off.</p>
+  </div>
+</section>
+
+<!-- ================= 04 · STUDENT'S SIDE ================= -->
+<section class="mf-sec" id="ch4" data-ch>
+  <div class="mf-col">
+    <div class="mf-ch rv"><b>04</b>The student's side</div>
+    <h2 class="mf-h2 rv"><span class="lt">Great teachers,</span> <span class="bd">hidden behind walls.</span></h2>
+    <p class="mf-lede rv">We spend most of this manifesto talking about educators. But the student's side of the story is just as broken, and in the end it is the reason any of this matters.</p>
+    <p class="rv">Consider a student in Patna preparing for SSC CGL. A friend has mentioned a good reasoning teacher. The student goes looking. They find a reel, then a Telegram channel, then an app link that asks them to download, register, verify an OTP and trust a payment page they have never seen before. Then they do it again for the maths teacher. And again for English. Each step is a place where a nervous student, spending a family's money, can decide not to trust what they see.</p>
+    <blockquote class="mf-q rv">The best teacher in India is <em>invisible</em> if students cannot find them, and <em>unconvincing</em> if what they find does not look like a real academy.</blockquote>
+    <p class="rv">Two things decide whether that student enrols. First: <strong>can they find the teacher at all?</strong> Second: <strong>when they arrive, does it feel like a real academy they can trust?</strong> A proper website, a clear course page, a familiar way to pay, an app with the teacher's name on it.</p>
+    <p class="rv">Most independent educators fail on one or both. Not because their teaching is weak, but because what surrounds the teaching is broken. A course that a student never finds, or finds and does not trust, is not a content failure. <strong>It is an infrastructure failure.</strong></p>
+    <div class="mf-note rv">
+      <span class="mf-eb">A question that exposes everything</span>
+      <p>How does a student in Jaipur, looking for the best biology teacher for NEET, find a teacher with a small YouTube channel and no ad budget? Today, mostly, they don't. They end up with whoever advertised most, not whoever taught best. And if they do find the right teacher, they often land on a WhatsApp number and a UPI ID instead of an academy.</p>
+    </div>
+    <p class="rv">There is a quieter cost too. When discovery is bought, students learn to judge teachers by production value and follower counts. Prices drift up to pay for the ads. The family in a small town ends up paying for a marketing budget, not for better teaching.</p>
+    <p class="rv">Fixing this means giving every educator two things at once: <strong>a professional academy under their own name</strong>, and <strong>a way to be found by students who don't know them yet.</strong> One without the other fails the student as surely as it fails the teacher.</p>
+  </div>
+</section>
+
+<!-- ================= 05 · BIG EDTECH ================= -->
+<section class="mf-sec mist" id="ch5" data-ch>
+  <div class="mf-col">
+    <div class="mf-ch rv"><b>05</b>Big EdTech is not the educator's friend</div>
+    <h2 class="mf-h2 rv"><span class="lt">Not partnership.</span> <span class="bd">Absorption.</span></h2>
+    <p class="mf-lede rv">The case for joining a giant EdTech platform sounds reasonable: reach, infrastructure, brand trust, students handed to you. Why not just join?</p>
+    <p class="rv">Let us be precise about what we are arguing. This is not about any one company, and it is not about the people inside them, many of whom care deeply about students. <strong>It is about a model.</strong> A model in which the platform is the brand and the educator is supply. Once you see the model, its outcomes stop being surprising.</p>
+    <p class="rv"><strong>Your brand disappears.</strong> Students enrol with the platform, not with you. If you leave, the students, the reviews and the history stay behind. You leave with nothing you can carry.</p>
+    <p class="rv"><strong>Your content becomes their asset.</strong> The lectures, notes and question banks you created keep selling the next batch, with or without you.</p>
+    <p class="rv"><strong>Your income is never fully yours.</strong> Revenue splits are rarely transparent, and the platform takes the larger share because it controls discovery.</p>
+    <p class="rv"><strong>Your growth is capped by their algorithm.</strong> The platform promotes whatever grows platform revenue. Some days that is you. Many days it is not. You are competing with your own platform's interests.</p>
+    <blockquote class="mf-q rv">A platform that owns the student relationship will always, in the end, <em>optimise for itself</em>. That is not malice. It is gravity.</blockquote>
+  </div>
+
+  <div class="mf-wide">
+    <div class="cmpw rv" role="region" aria-label="Comparison of academy models" tabindex="0">
+      <table class="cmp3">
+        <thead><tr><th scope="col">What an educator needs</th><th scope="col">Typical agency-built app</th><th scope="col">Typical big platform</th><th scope="col" class="us">AllCoaching</th></tr></thead>
+        <tbody>
+          <tr><td>Your own brand: domain, logo, app</td><td class="c y">Yes</td><td class="c no">No</td><td class="c us">Yes</td></tr>
+          <tr><td>Build and change it yourself, no developer</td><td class="c no">No</td><td class="c p">Partly</td><td class="c us">Yes</td></tr>
+          <tr><td>Start without a sales call or demo</td><td class="c no">No</td><td class="c p">Partly</td><td class="c us">Yes</td></tr>
+          <tr><td>Discovery beyond your own followers</td><td class="c no">No</td><td class="c p">Partly</td><td class="c us">Yes</td></tr>
+          <tr><td>Keep your student relationships</td><td class="c y">Yes</td><td class="c no">No</td><td class="c us">Yes</td></tr>
+          <tr><td>Fees published before you start</td><td class="c p">Partly</td><td class="c no">No</td><td class="c us">Yes</td></tr>
+          <tr><td>Export your courses, students and data</td><td class="c p">Partly</td><td class="c no">No</td><td class="c us">Yes</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="mf-col">
+    <p class="rv">An agency-built app gives you a brand, but no control and no reach. A big platform gives you reach, but takes your brand. Indian educators have been stuck between these two models for years, told that this is simply how the market works. <strong>There is a third way</strong>, and it starts by noticing that the choice itself was manufactured.</p>
+  </div>
+</section>
+
+<!-- ================= 06 · FALSE CHOICE ================= -->
+<section class="mf-sec" id="ch6" data-ch>
+  <div class="mf-col">
+    <div class="mf-ch rv"><b>06</b>The false choice</div>
+    <h2 class="mf-h2 rv"><span class="lt">Ownership or reach.</span> <span class="bd">Never both, they said.</span></h2>
+    <p class="mf-lede rv">For half a decade, every option in Indian EdTech asked educators to give something up. Own your academy, and accept that you are on your own. Join a platform, and accept that you are a listing on someone else's shelf.</p>
+    <p class="rv">We think that choice was never real. It came from how the tools were built and how they made money, not from anything educators or students needed.</p>
+    <blockquote class="mf-q rv">Ownership and reach are not opposites. They only looked that way because <em>nobody built one thing</em> that gave an educator both.</blockquote>
+    <p class="rv">Look at how good shopkeepers work. A shop owner has their own signboard, their own counter, their own regular customers who come straight to them. They also sit in a market where new customers walk past every day. Nobody asks them to choose between their shop and the market. The shop is theirs. The market brings footfall. And the more good shops a market has, the more people come to it, which helps every shop in it.</p>
+    <p class="rv">Educators deserve the same arrangement. <strong>Their own academy, on their own domain, under their own name, built and run by them.</strong> And alongside it, <strong>a shared marketplace where students who are looking for a teacher can find them</strong>, so that every educator who joins makes it a little easier for every other educator to be discovered.</p>
+    <figure class="mf-fig rv">
+      <img src="./assets/manifesto/network.webp?v=20261027" width="1200" height="760" loading="lazy" decoding="async" alt="Illustration of a constellation of independent academies linked to one another, with students as small points of light travelling between them and the AllCoaching app drawn as a faint shared discovery layer underneath. Labelled examples include the sample domain youracademy.in, Physics in Hindi medium, NEET Biology, SSC Reasoning and Spoken English." />
+      <figcaption>The academy is the star; discovery is the sky around it. Illustration with sample labels.</figcaption>
+    </figure>
+    <p class="rv">Notice the order. The academy comes first. Discovery supports it. A marketplace that replaces the academy is just another platform. A marketplace that sends students <em>to</em> academies is a public good for teachers.</p>
+    <p class="rv">That is the layer Indian education has been missing. Not another app. Not another platform. A foundation that lets each educator build their own academy, and quietly connects all of them.</p>
+  </div>
+</section>
+
+<!-- ================= 07 · OPERATING SYSTEM ================= -->
+<section class="mf-sec mf-dark" id="ch7" data-ch>
+  <div class="mf-col">
+    <div class="mf-ch rv"><b>07</b>The Operating System of Education</div>
+    <h2 class="mf-h2 rv"><span class="lt">You build the academy.</span> <span class="bd">We run everything beneath it.</span></h2>
+    <p class="mf-lede rv">We describe AllCoaching as the Operating System of Education deliberately. Not an app-building agency. Not a platform that rents you a shelf. An operating system.</p>
+    <figure class="mf-fig rv">
+      <img src="./assets/manifesto/os-stack.webp?v=20261027" width="1200" height="700" loading="lazy" decoding="async" alt="Isometric illustration of the Operating System of Education: the educator's academy sits on top, above five glowing layers labelled Build, Brand, Sell, Reach and Own, which rest on a base that runs payments, access, apps and hosting on its own." />
+      <figcaption>You build on top. Everything beneath runs on its own.</figcaption>
+    </figure>
+    <p class="rv">An operating system does not decide what you build on it. It does the invisible work underneath, so that you can build exactly what you want on top. Nobody thinks about the operating system on their phone while they are calling their mother. That is the point. It is there so that the important thing can happen without friction.</p>
+    <p class="rv">For an educator, the important thing is teaching. So AllCoaching is built as layers that run underneath every academy, the same way for a single tutor and for a multi-teacher institute.</p>
+  </div>
+
+  <div class="os" id="os" role="img" aria-label="The AllCoaching operating system stack: your academy on top, then five layers beneath it: Build, Brand, Sell, Reach and Own, all resting on payments, access, apps and hosting run by AllCoaching.">
+    <div class="os-in">
+      <div class="os-top" style="--t:0s">
+        <span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg></span>
+        <div><b>Your academy</b><span>Your name on the door. You teach, you decide.</span></div>
+        <span class="you">You build</span>
+      </div>
+      <div class="os-runs">AllCoaching runs beneath</div>
+      <div class="os-l" style="--t:.12s;--d:0s"><span class="li">L1</span><b>Build</b><span>A drag-and-drop LMS: courses, recorded lessons, PDF notes, test series and live classes. No code.</span></div>
+      <div class="os-l" style="--t:.24s;--d:.5s"><span class="li">L2</span><b>Brand</b><span>Your logo, colours and own domain. Your own Android app on every plan; iOS app on Pro and Scale.</span></div>
+      <div class="os-l" style="--t:.36s;--d:1s"><span class="li">L3</span><b>Sell</b><span>UPI and card checkout. Access granted automatically. Payouts through Razorpay.</span></div>
+      <div class="os-l" style="--t:.48s;--d:1.5s"><span class="li">L4</span><b>Reach</b><span>Marketplace listing on the AllCoaching app, plus Meta Pixel and Google Tag Manager for your own campaigns.</span></div>
+      <div class="os-l" style="--t:.6s;--d:2s"><span class="li">L5</span><b>Own</b><span>Your students, courses and data stay yours, and can be exported at any time.</span></div>
+      <div class="os-base" style="--t:.72s"><small>Runs on its own</small>Payments &middot; Access &middot; Apps &middot; Hosting</div>
+    </div>
+  </div>
+
+  <div class="mf-col">
+    <h3 class="mf-h3 rv">Build</h3>
+    <p class="rv">Courses, lessons, PDF notes, test series and live classes go into one studio. You arrange them by dragging and dropping, and set your own price for every course. Videos are unlimited through YouTube. Live classes are unlimited too, on YouTube Live, Zoom or the built-in live room. If you can use WhatsApp, you can build your academy.</p>
+    <h3 class="mf-h3 rv">Brand</h3>
+    <p class="rv">Students see your name, not ours. Your logo and colours across the academy, a website on your own domain like <em>youracademy.in</em>, and your own white-label Android app on every plan, with the iOS app on Pro and Scale. Free customisable themes and templates, and a premium website template on Pro.</p>
+    <h3 class="mf-h3 rv">Sell</h3>
+    <p class="rv">Students pay by UPI or card and get access on their own, without you checking screenshots or adding anyone by hand. Payouts are handled automatically through Razorpay. You keep 90&ndash;100% of every sale, depending on your plan.</p>
+    <h3 class="mf-h3 rv">Reach</h3>
+    <p class="rv">Your courses can also be listed on the AllCoaching marketplace app on Android, iOS and web, where students who are looking for a teacher can discover you. Meta Pixel and Google Tag Manager are built in, so the campaigns you run for your own brand can be measured properly. The marketplace supports your academy. It never replaces it.</p>
+    <h3 class="mf-h3 rv">Own</h3>
+    <p class="rv">Your courses, your student list and your data can always be exported. If you build a reputation on AllCoaching, you carry it with you. We give you the foundation. What you build on it is yours.</p>
+
+    <h3 class="mf-h3 rv" style="margin-top:64px">The automated path</h3>
+    <p class="rv">The test of an operating system is how little it asks of you. Here is everything an educator does to go from idea to academy:</p>
+  </div>
+
+  <div class="mf-wide">
+    <ol class="path" id="path">
+      <li><i>01</i>Sign up</li>
+      <li><i>02</i>Choose a plan</li>
+      <li><i>03</i>Upload your course</li>
+      <li><i>04</i>Connect your domain</li>
+      <li><i>05</i>Start selling</li>
+    </ol>
+  </div>
+
+  <div class="mf-col">
+    <p class="rv">That is the whole list. <strong>Payments, access, apps and hosting run on their own.</strong> No sales call, no demo to book, no agency, no technical team. Every plan starts with a 14-day free trial, and no card is needed to start it.</p>
+    <p class="rv">This is what we mean when we say AllCoaching works like Shopify, for coaching. A shopkeeper does not build a payment network to sell online. An educator should not have to build an LMS to teach online. They should build an academy, and let the infrastructure be infrastructure.</p>
+    <blockquote class="mf-q rv">Our economics are tied to the educator's success. When educators sell more, we earn more. <em>That is not a slogan. It is the business model.</em></blockquote>
+  </div>
+</section>
+
+<!-- ================= 08 · ECONOMIC SHIFT ================= -->
+<section class="mf-sec" id="ch8" data-ch>
+  <div class="mf-col">
+    <div class="mf-ch rv"><b>08</b>The economic shift</div>
+    <h2 class="mf-h2 rv"><span class="lt">What changes when educators own</span> <span class="bd">the means of teaching.</span></h2>
+    <p class="mf-lede rv">Revolutions are usually described in speeches. This one is easier to see in a ledger.</p>
+    <p class="rv">In every earlier era, the educator's economics were set by someone else: the rent the landlord asked, the quote the agency sent, the split the platform decided. Costs were discovered after signing. Margins were whatever was left. When the educator owns the academy and the terms are written down in advance, four things change at once.</p>
+  </div>
+
+  <div class="mf-wide">
+    <div class="shift">
+      <div class="rv"><b>90&ndash;100%</b><span>Of every sale stays with the educator, depending on the plan.</span></div>
+      <div class="rv"><b>1 plan</b><span>One published yearly plan. No setup fee, no monthly bill.</span></div>
+      <div class="rv"><b>Before</b><span>Prices are published before anyone signs up, not discovered after.</span></div>
+      <div class="rv"><b>Export</b><span>Courses, students and data can be exported at any time.</span></div>
+    </div>
+  </div>
+
+  <div class="mf-col">
+    <p class="rv"><strong>The educator keeps most of what they earn.</strong> A platform fee applies only when a student pays, and it gets smaller as the plan gets bigger. On Scale there is no platform fee at all.</p>
+  </div>
+
+  <div class="mf-wide">
+    <div class="keep" id="keep" role="table" aria-label="Share of each sale the educator keeps, by plan">
+      <div class="keep-r" role="row">
+        <div class="pl" role="cell"><b>Starter</b><span>₹6,999/yr</span></div>
+        <div class="bar" role="cell" aria-label="Keep 90%"><i style="--w:90%"></i></div>
+        <div class="pc" role="cell">Keep 90%<small>10% fee</small></div>
+        <div class="ex" role="cell">Own Android app, website on your domain</div>
+      </div>
+      <div class="keep-r" role="row">
+        <div class="pl" role="cell"><b>Growth</b><span>₹12,999/yr</span></div>
+        <div class="bar" role="cell" aria-label="Keep 92.5%"><i style="--w:92.5%"></i></div>
+        <div class="pc" role="cell">Keep 92.5%<small>7.5% fee</small></div>
+        <div class="ex" role="cell">Own Android app, website on your domain</div>
+      </div>
+      <div class="keep-r" role="row">
+        <div class="pl" role="cell"><b>Pro</b><span>₹24,999/yr</span></div>
+        <div class="bar" role="cell" aria-label="Keep 95%"><i style="--w:95%"></i></div>
+        <div class="pc" role="cell">Keep 95%<small>5% fee</small></div>
+        <div class="ex" role="cell">Own Android and iOS apps, premium website template</div>
+      </div>
+      <div class="keep-r" role="row">
+        <div class="pl" role="cell"><b>Scale</b><span>₹99,999/yr</span></div>
+        <div class="bar" role="cell" aria-label="Keep 100%"><i style="--w:100%"></i></div>
+        <div class="pc" role="cell">Keep 100%<small>0% fee</small></div>
+        <div class="ex" role="cell">Everything in Pro with a 0% commission plan. Arranged through our team: <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener">Contact us</a></div>
+      </div>
+    </div>
+    <p class="fine rv">All plans are billed yearly. Prices exclude GST. Every plan starts with a 14-day free trial, no card needed to start. Full details on <a class="inl" href="/pricing">the pricing page</a>.</p>
+  </div>
+
+  <div class="mf-col">
+    <p class="rv" style="margin-top:30px"><strong>The cost is one predictable yearly plan.</strong> Not a setup fee followed by maintenance charges, not a bill that grows each time a feature is switched on. Every plan includes:</p>
+    <ul class="chips rv">
+      <li>Website on your own domain</li><li>Own white-label Android app</li><li>Unlimited videos via YouTube</li><li>Unlimited live classes</li><li>Themes and templates</li><li>Zoom, Razorpay and YouTube plugins</li><li>Meta Pixel and Google Tag Manager</li><li>Marketplace discovery</li><li>Data export</li>
+    </ul>
+    <p class="rv"><strong>Prices are published before sign-up.</strong> This sounds like a small thing. It is not. When the price is public, the educator can plan, compare and decide alone, at midnight, without being sold to. A published price is a form of respect: it assumes the educator can do their own arithmetic.</p>
+    <p class="rv"><strong>Data is exportable.</strong> This is the quiet clause that makes all the others honest. If an educator can leave with their courses, students and data, then we have to keep earning their stay. A platform you cannot leave does not need to be good. One you can leave does.</p>
+    <blockquote class="mf-q rv">When the educator owns the academy, every rupee saved on rent, vendors and opaque cuts can go back into <em>the one thing students pay for: better teaching.</em></blockquote>
+    <p class="rv">This is the economic heart of the revolution. Not lower prices for their own sake. We are not, and will never position ourselves as, the low-cost option. What changes is <strong>who keeps the value</strong>. Under borrowed ground, value leaks to whoever holds the keys. On owned ground, it compounds for the person doing the work, and through them, for the students they teach.</p>
+  </div>
+</section>
+
+<!-- ================= 09 · NEXT DECADE ================= -->
+<section class="mf-sec mist" id="ch9" data-ch>
+  <div class="mf-col">
+    <div class="mf-ch rv"><b>09</b>The next decade</div>
+    <h2 class="mf-h2 rv"><span class="lt">Every educator</span> <span class="bd">an institution.</span></h2>
+    <p class="mf-lede rv">A manifesto should be clear about the line between what exists and what it hopes for. So here it is, drawn plainly.</p>
+    <p class="rv">What follows under <strong>Today</strong> is true now. What follows under <strong>Next</strong> and <strong>The decade ahead</strong> is belief and direction: the world we think Indian education is moving towards, and the world we intend to help build. None of it is a product announcement.</p>
+
+    <div class="tl" id="tl">
+      <div class="tl-line" aria-hidden="true"><div class="tl-fill" id="tl-fill"></div></div>
+
+      <div class="tl-s now rv">
+        <span class="when">Today</span><span class="st">True now</span>
+        <h3>An educator can own an academy in an afternoon.</h3>
+        <p>The tools that once needed an agency and a quote are now self-serve. That alone is a break from every era before it.</p>
+        <ul>
+          <li>Sign up, choose a plan, upload a course, connect a domain and start selling, with no sales call, demo or developer.</li>
+          <li>The academy carries the educator's name: a website on their own domain, their own Android app on every plan, and the iOS app on Pro and Scale.</li>
+          <li>The educator keeps 90&ndash;100% of every sale, on a price published before sign-up.</li>
+          <li>500+ educators are already selling on AllCoaching.</li>
+        </ul>
+      </div>
+
+      <div class="tl-s next rv">
+        <span class="when">Next</span><span class="st">Belief &amp; direction</span>
+        <h3>The small-town academy stops looking small.</h3>
+        <p>We believe the gap between a single teacher and a large institution will close, not because the institutions shrink, but because the teacher's infrastructure grows up.</p>
+        <ul>
+          <li><strong>Every educator an institution.</strong> One teacher with the systems that only big institutes used to afford: admissions, payments, classes, records, an app, a website, all running together.</li>
+          <li><strong>A teacher in a small town runs an academy as professional as the biggest brands.</strong> The student cannot tell from the screen whether the academy has one teacher or a hundred. They can only tell whether the teaching is good.</li>
+          <li><strong>Technology disappears into the background.</strong> Setting up, getting paid and giving access become as unremarkable as electricity. The teacher only teaches.</li>
+          <li><strong>Students choose teachers by quality, not ad budget.</strong> As more good academies are discoverable side by side, reputation earned in the classroom starts to outweigh reach bought in a feed.</li>
+        </ul>
+      </div>
+
+      <div class="tl-s far rv">
+        <span class="when">The decade ahead</span><span class="st">Belief &amp; direction</span>
+        <h3>A network of academies, not a handful of giants.</h3>
+        <p>Ten years from now, we believe Indian education will look less like a few towers and more like a city: millions of independent academies, each with its own door, connected by shared streets.</p>
+        <ul>
+          <li><strong>Education as a network of independent academies.</strong> Not a few giant platforms deciding who is seen, but a mesh of educator-owned academies where students move freely to whoever teaches them best.</li>
+          <li><strong>Regional and Hindi-medium educators become national names.</strong> The finest teacher of a subject in Hindi, Bengali, Tamil or Marathi should be reachable by every student who learns in that language, wherever they live.</li>
+          <li><strong>AI as the educator's assistant, never their replacement.</strong> We believe new tools should take the drudgery off a teacher's desk so they have more time to teach, and that the relationship between a student and a teacher should stay human. This is a belief about how such tools should be used, not a feature we are announcing.</li>
+          <li><strong>An educator's brand and students belong to the educator, for life.</strong> A reputation built over decades should never be stranded inside someone else's product. It should move with the teacher, the way a degree or a good name does.</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="rv" style="margin-top:48px">None of this happens because one company wills it. It happens because enough educators decide, one academy at a time, that they will no longer teach on borrowed ground. Our job is to make that decision easy, and to keep the infrastructure honest while they make it.</p>
+  </div>
+</section>
+
+<!-- ================= 10 · THE MANIFESTO ================= -->
+<section class="mf-sec mf-dark" id="ch10" data-ch>
+  <div class="mf-wide">
+    <div class="mf-ch rv"><b>10</b>The manifesto</div>
+    <h2 class="mf-h2 rv"><span class="lt">Our promise to every educator</span> <span class="bd">who ever deserved more.</span></h2>
+    <p class="mf-lede rv" style="max-width:720px">Seven beliefs we were founded on, and three we are adding as we look at the decade ahead. Hold us to all ten.</p>
+
+    <div class="tenets">
+      <div class="tn rv"><span class="n">01</span><div><h3>We believe teaching is a vocation, not a startup.</h3><p>An educator should never have to become a developer, a marketer or a payments desk to run an academy. The technology should disappear so the teaching can come first.</p></div></div>
+      <div class="tn rv"><span class="n">02</span><div><h3>We believe every educator should own their academy.</h3><p>Their name on the website, their logo on the app, their students in their list, their data exportable at any time. An educator's brand is not a listing on someone else's shelf.</p></div></div>
+      <div class="tn rv"><span class="n">03</span><div><h3>We believe an educator should be able to build it themselves.</h3><p>No sales call, no demo, no agency, no waiting. If an educator can teach a class, they can build their academy in a few clicks, and change it whenever they want.</p></div></div>
+      <div class="tn rv"><span class="n">04</span><div><h3>We believe ownership and reach should not be a trade-off.</h3><p>An educator should have their own academy and still be found by students who don't know them yet. Every educator who joins AllCoaching makes the marketplace stronger for every other educator.</p></div></div>
+      <div class="tn rv"><span class="n">05</span><div><h3>We believe a student should find the best teacher, not just the most advertised one.</h3><p>The best biology teacher in Kanpur should be reachable by a student in Kochi. Distance and ad budgets should stop deciding who gets found. Merit should.</p></div></div>
+      <div class="tn rv"><span class="n">06</span><div><h3>We believe prices should be published before anyone signs up.</h3><p>What we charge and what the educator keeps is written down in the open. One yearly plan, a fee only when a student pays, and no surprises after the fact.</p></div></div>
+      <div class="tn rv"><span class="n">07</span><div><h3>We are honest about what we are building and what it will take.</h3><p>AllCoaching is not a magic solution. Having your own academy doesn't guarantee overnight success. What it guarantees is a fair foundation, one where your success depends on the quality of your teaching, not on your budget or technical skills. We give you the tools. The rest is yours to win.</p></div></div>
+      <div class="tn new rv"><span class="n">08</span><div><h3>We believe technology should be invisible.</h3><p>The best infrastructure is the kind nobody notices. If an educator is thinking about servers, app stores or payment gateways, we have not done our job yet.</p></div></div>
+      <div class="tn new rv"><span class="n">09</span><div><h3>We believe an educator's students belong to the educator.</h3><p>The relationship between a teacher and the students they taught is not inventory. It is not ours to keep, sell or redirect. It goes wherever the educator goes.</p></div></div>
+      <div class="tn new rv"><span class="n">10</span><div><h3>We believe reach should be earned by teaching, not bought.</h3><p>Advertising will always exist, and educators are free to use it. But a teacher who teaches well should be able to grow without outbidding anyone. Good teaching should be the strongest signal there is.</p></div></div>
+    </div>
+
+    <div class="sign rv">
+      <img src="./assets/amit-ratan-2026.webp" alt="Amit Ratan, Founder &amp; CEO of AllCoaching" width="56" height="56" loading="lazy" decoding="async" />
+      <div><b>Amit Ratan</b><span>Founder &amp; CEO, AllCoaching &middot; for everyone who teaches</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= JOIN THE MOVEMENT ================= -->
+<section class="mf-final" id="join" data-ch>
+  <div class="rays2" aria-hidden="true"></div>
+  <div class="rv">
+    <span class="mf-eb">Join the movement</span>
+    <h2><span class="lt">The revolution is not a platform.</span> <span class="bd">It is you, with an academy of your own.</span></h2>
+    <p>Every academy that goes live under an educator's own name is one more piece of the network we have described. Build yours. Put your name on the door. Let the infrastructure be infrastructure, and spend your hours where they matter: teaching.</p>
+    <div class="mf-cta">
+      <a href="https://studio.allcoaching.in/" target="_blank" rel="noopener" class="mf-btn pri">Start your 14-day free trial <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a href="/pricing" class="mf-btn sec">See pricing</a>
+    </div>
+    <p class="mf-small">14 days free &middot; No card needed</p>
+  </div>
+</section>
+
 </main>
 
-<!-- ============ CHAPTER 08 · MANIFESTO BAND ============ -->
-<section class="manifesto-band" id="ch8">
-  <div class="max-w-3xl mx-auto px-2 md:px-4 relative z-10">
-    <p class="kicker" style="color:#5B6CFF;">Chapter 08 · The Manifesto</p>
-    <h2 class="h-mani font-display mt-4">Our promise to every educator<br/><span style="color:#5B6CFF;">who ever deserved more.</span></h2>
-
-    <div class="mt-10">
-      <div class="mp"><span class="mp-n">01</span><div><h4>We believe teaching is a vocation, not a startup.</h4><p>An educator should never have to become a developer, a marketer or a payments desk to run an academy. The technology should disappear so the teaching can come first.</p></div></div>
-      <div class="mp"><span class="mp-n">02</span><div><h4>We believe every educator should own their academy.</h4><p>Their name on the website, their logo on the app, their students in their list, their data exportable at any time. An educator's brand is not a listing on someone else's shelf.</p></div></div>
-      <div class="mp"><span class="mp-n">03</span><div><h4>We believe an educator should be able to build it themselves.</h4><p>No sales call, no demo, no agency, no waiting. If an educator can teach a class, they can build their academy in a few clicks, and change it whenever they want.</p></div></div>
-      <div class="mp"><span class="mp-n">04</span><div><h4>We believe ownership and reach should not be a trade-off.</h4><p>An educator should have their own academy and still be found by students who don't know them yet. Every educator who joins AllCoaching makes the marketplace stronger for every other educator.</p></div></div>
-      <div class="mp"><span class="mp-n">05</span><div><h4>We believe a student should find the best teacher, not just the most advertised one.</h4><p>The best biology teacher in Kanpur should be reachable by a student in Kochi. Distance and ad budgets should stop deciding who gets found. Merit should.</p></div></div>
-      <div class="mp"><span class="mp-n">06</span><div><h4>We believe prices should be published before anyone signs up.</h4><p>What we charge and what the educator keeps is written down in the open. One yearly plan, a fee only when a student pays, and no surprises after the fact.</p></div></div>
-      <div class="mp"><span class="mp-n">07</span><div><h4>We are honest about what we are building and what it will take.</h4><p>AllCoaching is not a magic solution. Having your own academy doesn't guarantee overnight success. What it guarantees is a fair foundation, one where your success depends on the quality of your teaching, not on your budget or technical skills. We give you the tools. The rest is yours to win.</p></div></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ CTA ============ -->
-<section class="py-24 md:py-28 relative overflow-hidden bg-white">
-  <div class="absolute inset-0 -z-0" style="background:radial-gradient(50% 40% at 25% 50%, rgba(43,68,255,.10), transparent 70%), radial-gradient(40% 35% at 75% 60%, rgba(43,68,255,.10), transparent 70%);"></div>
-  <div class="max-w-2xl mx-auto px-5 text-center relative">
-    <p class="kicker">Build Yours</p>
-    <h2 class="h-mani font-display mt-3">Build your own LMS.<br/><span class="grad-text">In just a few clicks.</span></h2>
-    <p class="mt-5 text-[1.05rem] text-[#4A5063] leading-relaxed">
-      AllCoaching is open to every independent educator, coaching institute and subject expert in India. Drag in your courses, put your brand on it, and start selling. Your own academy, and a marketplace that helps new students find you.
-    </p>
-    <div class="mt-9 flex flex-wrap justify-center gap-3">
-      <a href="https://studio.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
-        Start free for 14 days
-        <svg class="w-4 h-4"><use href="#i-arrow"/></svg>
-      </a>
-      <a href="/pricing" class="btn btn-secondary btn-lg">See the plans</a>
-    </div>
-    <div class="mt-6 text-xs text-[#7A8094]">No card needed · Set it up yourself · Keep 90–100% of every sale</div>
-  </div>
-</section>
-
-<!-- ============ FOOTER ============ -->
+<!-- Footer -->
 <footer>
   <div class="foot-wrap">
     <div class="foot-grid">
@@ -546,6 +934,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
           <a class="ig" href="https://www.instagram.com/allcoachings/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 01-1.38-.9 3.7 3.7 0 01-.9-1.38c-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63a5.8 5.8 0 00-2.1 1.37A5.8 5.8 0 00.63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.37 2.1.64.65 1.31 1.06 2.1 1.37.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.8 5.8 0 002.1-1.37 5.8 5.8 0 001.37-2.1c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.8 5.8 0 00-1.37-2.1A5.8 5.8 0 0019.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zm0 10.16A4 4 0 1116 12a4 4 0 01-4 4zm6.41-11.85a1.44 1.44 0 101.44 1.44 1.44 1.44 0 00-1.44-1.44z"/></svg></a>
           <a class="fb" href="https://www.facebook.com/allcoaching.in" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 10-13.88 11.86v-8.39H7.08V12h3.04V9.36c0-3 1.79-4.67 4.53-4.67 1.31 0 2.68.24 2.68.24v2.95h-1.51c-1.49 0-1.96.93-1.96 1.87V12h3.33l-.53 3.47h-2.8v8.39A12 12 0 0024 12z"/></svg></a>
           <a class="x" href="https://x.com/allcoachings" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.244 2h3.308l-7.227 8.26L22.5 22h-6.8l-5.31-6.96L4.3 22H.99l7.73-8.83L1.5 2h6.97l4.8 6.34L18.244 2zm-1.16 18h1.83L7.02 3.9H5.06l12.02 16.1z"/></svg></a>
+          <a class="gp" href="https://play.google.com/store/apps/details?id=org.student.allcoaching" target="_blank" rel="noopener" aria-label="Android app on Google Play"><svg viewBox="0 0 24 24"><path d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg></a>
+          <a class="as" href="https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866" target="_blank" rel="noopener" aria-label="iOS app on the App Store"><svg viewBox="0 0 24 24"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg></a>
         </div>
       </div>
       <div class="foot-col"><h4>Product</h4><a href="/start">Start</a><a href="/demo/">Live demo</a><a href="/#features">Features</a><a href="/#marketplace">Marketplace</a><a href="/pricing#finder">Calculator</a><a href="/pricing">Pricing</a><a href="/vs/">Compare</a></div>
@@ -554,7 +944,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
       <div class="foot-col"><h4>Students</h4><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching">Android App</a><a href="https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866">iOS App</a><a href="/#students">Find Educators</a><a href="https://t.me/allcoaching">Telegram</a></div>
     </div>
     <div class="foot-bottom">
-      <div>&copy; <span id="yr">2026</span> AllCoaching &middot; Made in India</div>
+      <div>&copy; <span id="yr">2026</span> AllCoaching Technology (Prop. Amit Kumar) &middot; Made in India</div>
       <div>The Operating System of Education &middot; One educator at a time.</div>
     </div>
   </div>
@@ -582,6 +972,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
   if(bg&&mn) bg.addEventListener('click',function(){mn.classList.add('open');});
   if(mc&&mn) mc.addEventListener('click',function(){mn.classList.remove('open');});
   if(mn) mn.addEventListener('click',function(e){ if(e.target===mn||e.target.tagName==='A') mn.classList.remove('open'); });
+})();
+</script>
+<script>
+(function(){
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // hero: a field of academies lighting up (deterministic positions)
+  var sf=document.getElementById('mf-stars');
+  if(sf){ var s=7, r=function(){ s=(s*9301+49297)%233280; return s/233280; }, html='';
+    for(var i=0;i<90;i++){ html+='<i class="'+(r()>.85?'b':'')+'" style="left:'+(r()*100).toFixed(2)+'%;top:'+(r()*78).toFixed(2)+'%;animation-delay:'+(r()*4.5).toFixed(2)+'s"></i>'; }
+    sf.innerHTML=html; }
+  // scroll reveal
+  var els=document.querySelectorAll('.mf .rv, #os, #path, #keep');
+  if('IntersectionObserver' in window&&!reduce){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+    els.forEach(function(el){io.observe(el)});
+  } else els.forEach(function(el){el.classList.add('in')});
+  // chapter rail + timeline fill
+  var rail=document.getElementById('rail'), rf=document.getElementById('rail-fill'), links=rail?rail.querySelectorAll('a'):[], secs=document.querySelectorAll('[data-ch]');
+  var hero=document.querySelector('.mf-hero'), tl=document.getElementById('tl'), fill=document.getElementById('tl-fill'), ft=document.querySelector('footer');
+  function tick(){
+    var vh=innerHeight, mid=vh*.4, act=-1;
+    secs.forEach(function(s,i){ if(s.getBoundingClientRect().top<=mid) act=i; });
+    links.forEach(function(a,i){ a.classList.toggle('act',i===act); a.classList.toggle('done',i<act); });
+    if(rf&&links.length){ var al=links[Math.max(act,0)]; rf.style.height=act<0?'0px':(al.offsetTop+10-6)+'px'; }
+    if(rail){ var hb=hero?hero.getBoundingClientRect().bottom:0, fb=ft?ft.getBoundingClientRect().top:1e9; rail.classList.toggle('on', hb<vh*.3 && fb>vh*.75); }
+    if(tl&&fill){ if(reduce){ fill.style.height='100%'; } else { var r=tl.getBoundingClientRect(), p=(vh*.6-r.top)/r.height; p=Math.max(0,Math.min(1,p)); fill.style.height=(p*100)+'%'; } }
+  }
+  addEventListener('scroll',tick,{passive:true}); addEventListener('resize',tick); tick();
 })();
 </script>
 </body>
