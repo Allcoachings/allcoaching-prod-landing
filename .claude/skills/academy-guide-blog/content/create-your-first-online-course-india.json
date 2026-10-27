@@ -21,7 +21,7 @@
  "dek": "A practical guide for Indian educators: choose one outcome, plan modules of short lessons, record on a phone budget, add PDF notes, tests and live classes, caption in Hindi or your regional language, and pilot the course with 5–10 students before launch.",
  "category": "Create a course",
  "date_published": "2026-10-25",
- "date_modified": "2026-10-25",
+ "date_modified": "2026-10-27",
  "checked": "25 Oct 2026",
  "cover_alt": "How to create your first online course in India: plan modules and lessons, record on a phone budget, add PDF notes, tests and live classes, shown with the AllCoaching studio",
  "audience": "Indian educators, tutors, exam mentors, skill teachers and coaching institute owners creating their first online course",
@@ -99,7 +99,7 @@
    "id": "upload",
    "h2": "How do you upload and organise your course in your academy?",
    "toc": "Upload and organise",
-   "html": "<p><strong>Create the course, add lessons in syllabus order module by module, attach each module's PDF and test, mark lesson 1 as free, write the description from your outcome sentence, and keep the course in draft until the pilot is done.</strong></p>\n      {{fig:workflow|Online course workflow from recording to upload: script, record, edit, upload to YouTube as unlisted, then add the lesson to a course in the AllCoaching studio|Five steps per lesson, batched by module. Studio preview · sample data. Logos belong to their owners.}}\n      <h3>Name things the way students search</h3>\n      <p>Use titles students would type: \"SSC CGL Maths in Hindi: Arithmetic Complete Course\", not \"Batch 7 Recorded\". Number lessons consistently (Module 2 · Lesson 4 · Percentage shortcuts) so the list reads like a syllabus.</p>\n      <h3>Write the description from the outcome</h3>\n      <p>The first line is your outcome sentence. Then list what is inside: number of modules, lessons, PDFs and tests, the live class schedule, the language, and who it is for and not for. That is the information students compare.</p>\n      <h3>On AllCoaching</h3>\n      <p>In the AllCoaching studio, the Content section holds your videos, PDFs and test series, and a course bundles them in the order you choose. Videos come in through YouTube, so you upload once to YouTube and add the lesson to the course. Students buy through UPI or card checkout, access opens automatically, and payouts reach your bank through Razorpay. The course lives on your own academy website and your own Android app on every plan, with the iOS app on Pro and Scale. If you have not decided where your academy will live yet, our explainer on <a href=\"/blog/what-is-an-online-academy\">what an online academy is</a> covers the options.</p>\n      {{cta}}"
+   "html": "<p><strong>Create the course, add lessons in syllabus order module by module, attach each module's PDF and test, mark lesson 1 as free, write the description from your outcome sentence, and keep the course in draft until the pilot is done.</strong></p>\n      {{fig:workflow|Online course workflow from recording to upload: script, record, edit, upload to YouTube as unlisted, then add the lesson to a course in the AllCoaching studio|Five steps per lesson, batched by module. Studio preview · sample data. Logos belong to their owners.}}\n      <h3>Name things the way students search</h3>\n      <p>Use titles students would type: \"SSC CGL Maths in Hindi: Arithmetic Complete Course\", not \"Batch 7 Recorded\". Number lessons consistently (Module 2 · Lesson 4 · Percentage shortcuts) so the list reads like a syllabus.</p>\n      <h3>Write the description from the outcome</h3>\n      <p>The first line is your outcome sentence. Then list what is inside: number of modules, lessons, PDFs and tests, the live class schedule, the language, and who it is for and not for. That is the information students compare.</p>\n      <h3>On AllCoaching</h3>\n      <p>In the AllCoaching studio, the Content section holds your videos, PDFs and test series, and a course bundles them in the order you choose. Videos come in through YouTube, so you upload once to YouTube and add the lesson to the course. Students buy through UPI or card checkout, access opens automatically, and payouts reach your bank through Razorpay. The course lives on your own academy website and your own Android app on every plan, with the iOS app on Pro. If you have not decided where your academy will live yet, our explainer on <a href=\"/blog/what-is-an-online-academy\">what an online academy is</a> covers the options.</p>\n      {{cta}}"
   },
   {
    "id": "pilot",
@@ -194,7 +194,7 @@
   ],
   [
    "How much does it cost to create and sell an online course in India?",
-   "Recording can start with a phone you own plus a mic. To sell it from your own academy on AllCoaching, there is a 7-day free trial with no card, then plans of ₹6,999, ₹12,999 or ₹24,999 a year with a 10%, 7.5% or 5% platform fee, or ₹99,999 a year with 0%, all excluding GST."
+   "Recording can start with a phone you own plus a mic. To sell it from your own academy on AllCoaching, there is a 7-day free trial with no card, then monthly plans with 0% commission from ₹3,999 a month, or yearly plans of ₹6,999, ₹12,999 or ₹24,999 with a 10%, 7.5% or 5% platform fee, all excluding GST."
   ]
  ],
  "glossary": [

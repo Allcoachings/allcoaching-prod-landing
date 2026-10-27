@@ -100,7 +100,7 @@ for i, (t, you, auto, ic) in enumerate(blocks):
     b += f'<line x1="{x + 30}" y1="{y + 260}" x2="{x + 320}" y2="{y + 260}" stroke="{LINE}" stroke-width="2"/>'
     b += eyebrow(x + 30, y + 296, 'Runs on its own', MUTED)
     b += text(x + 30, y + 328, auto, 19, INK, 500)
-b += text(60, H - 28, 'On AllCoaching the iOS app is included on Pro and Scale.', 16, MUTED)
+b += text(60, H - 28, 'On AllCoaching the iOS app is included on Pro.', 16, MUTED)
 b += signature(W, H)
 save('building-blocks', svg(W, H, b, 'Six no-code building blocks of an online academy: template, brand, course builder, payments, domain and app'))
 
@@ -158,7 +158,7 @@ for i, (t, fix) in enumerate(nope):
     b += arrow(f'M598 {y + 48} H 652', BLUE, 3)
     b += white_panel(670, y, 490, 96, 22)
     b += check_row(702, y + 56, fix, 22)
-b += text(60, H - 28, 'iOS app on AllCoaching Pro and Scale. Payment gateway verification still needs your PAN and bank details.', 16, MUTED)
+b += text(60, H - 28, 'iOS app on AllCoaching Pro. Payment gateway verification still needs your PAN and bank details.', 16, MUTED)
 b += signature(W, H)
 save('dont-need', svg(W, H, b, 'What you do not need to create an online academy: a developer, a server, WordPress plugins, payment code, a separate video host or app code'))
 
@@ -172,7 +172,7 @@ b += f'<rect x="780" y="206" width="364" height="688" rx="20" fill="{BLUE_TINT}"
 for x, t in cols:
     b += eyebrow(x if x != 800 else 812, 246, t, BLUE if x == 800 else MUTED)
 rows = [('Time to go live', 'Weeks to months', 'One evening to a week'),
-        ('Upfront cost', 'A project quote', 'Plan from ₹6,999/yr + GST'),
+        ('Upfront cost', 'A project quote', 'From ₹3,999/mo + GST'),
         ('Ongoing upkeep', 'Updates, fixes, renewals', 'Handled by the platform'),
         ('Who makes changes', 'The developer', 'You, in the studio'),
         ('Student apps', 'Built by the developer', 'Android on every plan'),

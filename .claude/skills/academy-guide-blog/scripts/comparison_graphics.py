@@ -23,7 +23,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from brand_graphics import *  # noqa
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', '..'))
-AC_PLANS = [(6999, 0.10, 'Starter'), (12999, 0.075, 'Growth'), (24999, 0.05, 'Pro'), (99999, 0.0, 'Scale')]
+# (yearly price, fee, name, max yearly sales or None). Monthly 0% plans = 12 x monthly price, capped at 12x their monthly sales limit.
+AC_PLANS = [(6999, 0.10, 'Starter', None), (12999, 0.075, 'Growth', None), (24999, 0.05, 'Pro', None),
+            (47988, 0.0, 'Starter monthly', 600000), (71988, 0.0, 'Growth monthly', 1800000), (95988, 0.0, 'Pro monthly', None)]
 
 
 def inr(n):
@@ -53,7 +55,7 @@ def lakh(n):
 
 
 def ac_cost(sales):
-    return min(p + f * sales for p, f, _ in AC_PLANS)
+    return min(p + f * sales for p, f, _, cap in AC_PLANS if cap is None or sales <= cap)
 
 
 def comp_cost(plans, sales):
@@ -178,7 +180,7 @@ def cost(sp):
         b += f'<rect x="{lx}" y="{y0 - 50}" width="26" height="8" rx="4" fill="{col}"/>' + text(lx + 36, y0 - 41, name, 18, INK, 600)
         lx += 60 + len(name) * 11
     notes = [cm.get('note') for cm in c['competitors'] if cm.get('note')]
-    notes.append('AllCoaching: Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%, Scale ₹99,999 + 0%. GST extra.')
+    notes.append('AllCoaching: Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%, or monthly at 0% commission from ₹3,999. GST extra.')
     for k, n in enumerate(notes[-6:]):
         b += text(60, H - 24 - (len(notes[-6:]) - k) * 24 + 10, n, 15, MUTED)
     b += signature(W, H)

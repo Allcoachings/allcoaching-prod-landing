@@ -42,7 +42,7 @@
     if (p.storage_bytes) pts.push(gb(p.storage_bytes) + ' storage · ' + (/4k/i.test(p.video_max || '') ? '4K' : esc(p.video_max || '1080p')));
     if (p.premium_template) pts.push('Premium theme (₹10,000 value)');
     // On every plan (pricing truth 2026-10-20).
-    pts.push('Unlimited live classes &amp; videos', 'Your own Android &amp; iOS app', 'Domain, themes, Zoom, Razorpay, Pixel &amp; GTM');
+    pts.push('Unlimited live classes &amp; videos', p.key === 'pro' ? 'Your own Android &amp; iOS app' : 'Your own Android app', 'Domain, themes, Zoom, Razorpay, Pixel &amp; GTM');
     var tag = featured ? '<span class="tag">Most popular</span>' : p.key === 'pro' ? '<span class="tag bv">Best value</span>' : '';
     return '<div class="plan' + (featured ? ' ft' : '') + '">' + tag +
       '<span class="pn">' + esc(p.label || p.key) + '</span>' +

@@ -132,7 +132,7 @@ for i, (n, p, tot, what, note, hl) in enumerate(opts):
     b += text(x + 32, 580, 'in sales', 20, c2)
     b += text(x + 32, 630, note, 19, c2, 600)
 b += white_panel(60, 700, 1100, 90, 22)
-b += lines(92, 738, ['Before platform fee, payment gateway charges and taxes. On AllCoaching you keep 90–95% after the', 'platform fee (10% on Starter, 7.5% on Growth, 5% on Pro), or 100% on Scale. Plan price is separate.'], 18, INK, 1.45)
+b += lines(92, 738, ['Before platform fee, payment gateway charges and taxes. On AllCoaching you keep 90–95% after the', 'platform fee on yearly plans (10%, 7.5% or 5%), or 100% on the monthly plans. Plan price is separate.'], 18, INK, 1.45)
 b += text(60, H - 28, 'Illustrative figures, not a forecast.', 16, MUTED)
 b += signature(W, H)
 save('first-10000-maths', svg(W, H, b, 'Illustrative maths for a first ₹10,000: 20 students at ₹499, 10 at ₹999 or 5 at ₹1,999'))
@@ -295,9 +295,9 @@ b += lines(64, 430, ['Sign up, choose a plan, upload your', 'course, connect you
 b += laptop(600, 130, 500, 'studio-desktop.jpg')
 b += phone(1030, 230, 160, 'studio-mobile.jpg')
 for k, (lab, ic, sub) in enumerate([('Own domain', 'globe', 'Every plan'), ('UPI checkout', 'card', 'Razorpay'), ('Live classes', 'video', 'Unlimited'),
-                                     ('Meta Pixel', 'chart', 'Plus GTM'), ('Your app', 'phone', 'iOS on Pro, Scale')]):
+                                     ('Meta Pixel', 'chart', 'Plus GTM'), ('Your app', 'phone', 'iOS on Pro')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
+b += text(640, 890, 'From ₹3,999/month + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 b += text(600, 112, 'AllCoaching Studio preview · sample data', 14, MUTED)
 save('sell-on-your-academy', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: own domain, UPI checkout, unlimited live classes, Meta Pixel and your own app'))
