@@ -12,7 +12,7 @@
  *     vertical: 'competitive',  // studio vertical id (competitive|entrance|school|skills)
  *     plan: 'starter',          // default plan
  *     coupon: '',               // activation code applied automatically (campaign offers)
- *     trial: true,              // offer the 14-day free trial next to buying
+ *     trial: true,              // offer the 7-day free trial next to buying
  *     plans: ['growth'],        // optional: only these plans can be bought (offer pages)
  *     bonus: ''                 // optional: extra line under the plan, e.g. a free theme
  *   };
@@ -906,7 +906,7 @@
       '<div class="ck-tot"><span>Today</span><span id="ck-amt"></span></div>' +
       '<p class="ck-fine" id="ck-note">You’ll see the final amount, including any tax, on the payment screen before you pay.</p>' +
       '<button type="button" class="ck-btn" id="ck-pay">Continue to secure payment</button>' +
-      (TRIAL_OK ? '<div class="ck-or">or</div><button type="button" class="ck-btn sec" id="ck-trial">Start 14-day free trial instead</button>' : '') +
+      (TRIAL_OK ? '<div class="ck-or">or</div><button type="button" class="ck-btn sec" id="ck-trial">Start 7-day free trial instead</button>' : '') +
       '<div class="ck-trust"><span>Razorpay: UPI, cards, netbanking</span><span>Upgrade any time, paid value credited</span></div>';
     var radios = body.querySelectorAll('input[name="ck-plan"]');
     for (var i = 0; i < radios.length; i++) radios[i].addEventListener('change', function () {
@@ -1169,14 +1169,14 @@
     var tier = (paid && paid.tier) || (trial ? 'starter' : S.plan);
     var P = PLANS[tier] || PLANS[S.plan];
     var ready = !!window.AC_HANDOFF_READY && !!(S.auth && S.auth.key);
-    var title = trial ? 'Your 14-day trial has started'
+    var title = trial ? 'Your 7-day trial has started'
       : realPay ? 'Payment received. Welcome aboard.'
       : 'Your studio is open';
     var sub = trial ? 'Nothing was charged. Your studio is ready for your first course.'
       : 'Your ' + P.label + ' plan is active for one year.';
     var rows = [];
     if (S.academy) rows.push(['Academy', esc(S.academy)]);
-    rows.push(['Plan', esc(P.label) + (trial ? ' · 14-day trial' : ' · 1 year')]);
+    rows.push(['Plan', esc(P.label) + (trial ? ' · 7-day trial' : ' · 1 year')]);
     if (realPay && paid.amountPaise) rows.push(['Paid', rs(paid.amountPaise)]);
     if (paid && paid.paymentId) rows.push(['Payment id', '<code>' + esc(paid.paymentId) + '</code>']);
     if (S.phone) rows.push(['Studio login', '+91 ' + esc(S.phone.slice(0, 5) + ' ' + S.phone.slice(5))]);

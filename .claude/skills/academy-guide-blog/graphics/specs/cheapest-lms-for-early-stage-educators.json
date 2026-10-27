@@ -27,7 +27,7 @@
    {
     "need": "You have no course yet and want to test the idea",
     "pick": "A free trial first",
-    "why": "Build before you pay: 14 days on AllCoaching (no card), 30 on Thinkific",
+    "why": "Build before you pay: 7 days on AllCoaching (no card), 30 on Thinkific",
     "icon": "check"
    },
    {
@@ -75,7 +75,7 @@
     "name": "AllCoaching",
     "price": 6999,
     "label": "₹6,999/yr",
-    "fee": "After a 14-day free trial, no card; +10% on sales",
+    "fee": "After a 7-day free trial, no card; +10% on sales",
     "published": true
    },
    {
@@ -170,7 +170,7 @@
   "steps": [
    [
     "Start a free trial",
-    "14 days on AllCoaching, no card needed"
+    "7 days on AllCoaching, no card needed"
    ],
    [
     "Build one course",

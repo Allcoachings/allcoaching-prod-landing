@@ -62,7 +62,7 @@ Counted from the slugs: "business" 147, "how-to" 132, "AI" 95, "marketing" 79, "
 
 ### B1. Message house (use on every page)
 - **Promise:** Build your own academy in a few clicks: your website, your app, your brand.
-- **Proof points:** own domain and own Android + iOS app on every plan; unlimited live classes and videos via YouTube; UPI/card payments with automatic Razorpay payouts; Meta Pixel + Google Tag Manager; keep 90–95% of every sale; 14-day free trial, no card; 500+ educators already selling.
+- **Proof points:** own domain and own Android + iOS app on every plan; unlimited live classes and videos via YouTube; UPI/card payments with automatic Razorpay payouts; Meta Pixel + Google Tag Manager; keep 90–95% of every sale; 7-day free trial, no card; 500+ educators already selling.
 - **Enemy:** complexity. WordPress + plugins, WhatsApp + Drive + Zoom + Excel, agency-built apps you cannot change.
 - **Next step:** Start free trial (studio.allcoaching.in).
 

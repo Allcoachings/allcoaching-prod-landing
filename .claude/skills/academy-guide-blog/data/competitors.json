@@ -69,7 +69,7 @@
           "fee_on_sales": "0% transaction fee (US page)"
         }
       ],
-      "free_trial": "14 days (US page: 'Start Your 14-Day Free Trial Today'); an embedded block in the same page data says 'No credit card required'",
+      "free_trial": "14 days (US page: 'Start Your 7-day Free Trial Today'); an embedded block in the same page data says 'No credit card required'",
       "gst_or_tax_note": "not stated",
       "notes": "INDIA PRICES NOT VERIFIED TODAY: graphy.com/pricing geo-redirects our (non-Indian) connection to graphy.com/us/pricing/, and graphy.com/in/pricing/ redirects too. The same page's server-rendered data contains conflicting INR figures: (a) a hidden India block 'Launch ₹1,999 per month *billed annually, 10% per sale or ₹10 whichever is higher' and 'Rise ₹9,999 per month *billed annually, 5% per sale or ₹10 whichever is higher', '*iOS app is available as a paid add-on'; (b) SEO meta description 'Launch plan ₹1,999 per month, growth plan ₹4,200 per month and rise plan ₹8,400 per month'; (c) hero 'oldPrice' 'Rs. 24999'. vs/graphy.html (17 Oct 2026) recorded Launch ₹24,999/yr 10%, Grow ₹49,999/yr 7.5%, Rise ₹99,999/yr 5% (or ₹10 if higher) — none of (a)-(c) matches that three-plan set. Do not publish INR Graphy plan prices until re-checked from an Indian IP."
     },
@@ -501,7 +501,7 @@
           "fee_on_sales": "0% revenue share; 'Deepest discounted Kajabi Payments rate'"
         }
       ],
-      "free_trial": "14 days free; 30-day money-back guarantee",
+      "free_trial": "7 days free; 30-day money-back guarantee",
       "gst_or_tax_note": "not stated",
       "notes": "FAQ: standard card processing fee for Kajabi Payments differs by country; an additional processing fee applies if a third-party processor is used where Kajabi Payments is offered. Branded App Store app on Pro."
     },
@@ -853,7 +853,7 @@
           "fee_on_sales": "2.9% transaction fee"
         }
       ],
-      "free_trial": "14-day free trial (page meta: 'Get started for $9/month with a 14-day free trial. Cancel anytime.')",
+      "free_trial": "7-day free trial (page meta: 'Get started for $9/month with a 7-day free trial. Cancel anytime.')",
       "gst_or_tax_note": "not stated",
       "notes": "Yearly billing advertised as '2 months free!'."
     },

@@ -27,7 +27,7 @@ Reference implementation (read it before writing a new post):
 - **Marketplace = supporting discovery**, never the headline: "your courses can also be discovered on the AllCoaching app".
 - **The enemy is complexity, not competitors:** WordPress + 9 plugins, WhatsApp + Drive + Zoom + Excel, agency-built apps you cannot change. Show the stitched-together mess, then one login.
 - **Who it is for:** exam educators (NEET, JEE, SSC, banking, UPSC, state PSC, CUET, CLAT, CAT) and skill educators (yoga, spoken English, marketing, vastu, music, coding, the Vedas). Use both kinds of examples.
-- **Price truth (2026-10-25):** 14-day free trial, no card; then Starter ₹6,999 / Growth ₹12,999 / Pro ₹24,999 per year excl. GST with a 10% / 7.5% / 5% platform fee, or **Scale ₹99,999/year at 0% commission** (contact us: +91 98899 77262; CTA label is "Contact us", never "WhatsApp"). Own Android app on every plan; **iOS app on Pro and Scale only**. Keep 90–100%. Never "free forever", "₹0", "one-time", "cheapest". Say "Plans from ₹6,999/year + GST".
+- **Price truth (2026-10-25):** 7-day free trial, no card; then Starter ₹6,999 / Growth ₹12,999 / Pro ₹24,999 per year excl. GST with a 10% / 7.5% / 5% platform fee, or **Scale ₹99,999/year at 0% commission** (contact us: +91 98899 77262; CTA label is "Contact us", never "WhatsApp"). Own Android app on every plan; **iOS app on Pro and Scale only**. Keep 90–100%. Never "free forever", "₹0", "one-time", "cheapest". Say "Plans from ₹6,999/year + GST".
 
 ### Studio v5 (product design shared by the owner, 2026-10-24)
 The educator app is called the **studio** and looks like Shopify admin: sidebar with Dashboard, Transactions, Content (Videos, PDFs, Test series), Courses, Free content, Live, Community, Discount, Analytics; Workspace: Own branding, Notifications, Referrals, Settings. Screenshots live in `graphics/studio-*.jpg` (sample educator "Anika Mehta", sample numbers).
@@ -44,7 +44,7 @@ The educator app is called the **studio** and looks like Shopify admin: sidebar 
 | Pillar guides on head terms ("What is ecommerce", "Ecommerce SEO", "Business blueprint", "AI tools for ecommerce") | Pillars: "What is an online academy", "Online academy SEO", "Online coaching business blueprint", "AI tools to run an online academy", "Meta ads for coaching" |
 | One consistent, calm reading template on every post | `blog-v3.css` layout on every new post |
 | Product appears as the obvious next step, 3–5 soft CTAs, never the topic | Promo strip, left CTA card, 1–2 inline CTA cards, final dark band. Product named in 1–3 body paragraphs, by mechanism |
-| Free trial CTA everywhere ("Start for free") | "Start free trial" → studio.allcoaching.in, "14 days free · No card needed" |
+| Free trial CTA everywhere ("Start for free") | "Start free trial" → studio.allcoaching.in, "7 days free · No card needed" |
 | Clean product screenshots on soft gradient panels | Studio screenshots in Apple-style device frames on the lavender canvas |
 | Free tools as SEO magnets (business name generator, logo maker, calculators) | Build: academy name generator, course price calculator, title-tag/SERP preview tool, earnings calculator, syllabus-to-course outline tool |
 | Encyclopedia/glossary pages for every term | Glossary section in every post (+ later a /glossary hub) |

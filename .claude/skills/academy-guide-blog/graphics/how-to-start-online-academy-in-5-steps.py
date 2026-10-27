@@ -19,7 +19,7 @@ def save(name, doc):
 
 
 STEPS = [('Plan your academy', 'One exam or skill, one first course', 'list'),
-         ('Sign up, choose a plan', '14-day free trial, no card', 'users'),
+         ('Sign up, choose a plan', '7-day free trial, no card', 'users'),
          ('Upload your course', 'Videos, PDF notes, tests, live', 'play'),
          ('Connect your domain', 'youracademy.in, logo, colours', 'globe'),
          ('Start selling', 'UPI checkout, share one link', 'trend')]

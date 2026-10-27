@@ -228,5 +228,5 @@ for k, (lab, ic, sub) in enumerate([('Website', 'globe', 'Your domain'), ('Andro
                                      ('UPI & cards', 'card', 'Every plan'), ('Scale', 'star', '0% fee')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '14 days free · no card needed', 21, MUTED)
+b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('academy-income', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: own website, own Android app, unlimited live classes, UPI checkout and a 0% fee Scale plan'))

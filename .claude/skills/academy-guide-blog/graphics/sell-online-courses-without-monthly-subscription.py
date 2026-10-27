@@ -195,7 +195,7 @@ save('costs-that-stay', svg(W, H, b, 'Costs that remain when you sell online cou
 # 7. decision guide -----------------------------------------------------------------------------------
 W, H = 1220, 960
 b = headline(60, 100, ['Pick the model by', '*your stage*'], 52)
-stages = [('sparkle', 'Testing an idea', 'Under ₹1L a year', 'Pay per sale, or Starter', 'Use the 14-day trial first'),
+stages = [('sparkle', 'Testing an idea', 'Under ₹1L a year', 'Pay per sale, or Starter', 'Use the 7-day trial first'),
           ('trend', 'Growing', '₹1L – ₹5L a year', 'Starter or Growth', 'Annual plan, fee 10% → 7.5%'),
           ('users', 'Established', '₹5L – ₹15L a year', 'Pro (5%)', 'Compare with monthly 0% plans'),
           ('trophy', 'Large', 'Above ₹15L a year', 'A 0% plan', 'Scale, or another annual 0% plan')]
@@ -233,5 +233,5 @@ for k, (lab, ic, sub) in enumerate([('Your domain', 'globe', 'Website'), ('Andro
                                      ('UPI & cards', 'card', 'Razorpay'), ('Meta Pixel', 'chart', '+ GTM')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '14 days free · no card needed', 21, MUTED)
+b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('academy-annual-plan', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: one annual plan with your own domain, Android app, unlimited live classes and UPI checkout'))

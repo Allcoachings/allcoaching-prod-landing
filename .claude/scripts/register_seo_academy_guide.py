@@ -20,7 +20,7 @@ llms = (f"- [{head}]({url}): A step-by-step SEO guide for Indian educators who r
         "measuring impressions, clicks, CTR and average position in Search Console; free tools (Search Console, Google Trends, Keyword Planner, Business Profile, YouTube search, PageSpeed Insights); common mistakes; and a 90-day plan (foundation, content, authority). "
         "Cited facts: 96.55% of pages get no Google organic traffic (Ahrefs, Dec 2023); the first organic result averages 27.6% CTR, about 10x the tenth (Backlinko, updated Apr 2025); "
         "first-party: the AllCoaching blog grew from 183 clicks in July 2026 to 1,094 in September 2026 in Search Console. "
-        "AllCoaching works like Shopify for coaching: sign up, choose a plan, upload a course, connect your domain, start selling; own domain, own Android and iOS app, Google Tag Manager and Meta Pixel on every plan; 14-day free trial with no card, then plans from ₹6,999/year excl. GST. By Amit Ratan.")
+        "AllCoaching works like Shopify for coaching: sign up, choose a plan, upload a course, connect your domain, start selling; own domain, own Android and iOS app, Google Tag Manager and Meta Pixel on every plan; 7-day free trial with no card, then plans from ₹6,999/year excl. GST. By Amit Ratan.")
 
 
 def esc_xml(s):

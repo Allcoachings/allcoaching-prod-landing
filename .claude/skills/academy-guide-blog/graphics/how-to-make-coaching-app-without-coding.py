@@ -99,7 +99,7 @@ save('app-needs', svg(W, H, b, 'What a coaching app needs: student login, course
 W, H = 1220, 1000
 b = headline(60, 100, ['Your app in *six steps*'], 56)
 b += lines(62, 150, ['No code at any step. Payments, access and hosting run on their own.'], 22)
-st = [('Sign up', 'Start the 14-day free trial, no card', 'check'), ('Choose a plan', 'Android on all, iOS on Pro and Scale', 'tag'),
+st = [('Sign up', 'Start the 7-day free trial, no card', 'check'), ('Choose a plan', 'Android on all, iOS on Pro and Scale', 'tag'),
       ('Upload your course', 'Videos via YouTube, PDFs, tests', 'layers'), ('Brand it', 'Academy name, logo and colours', 'sparkle'),
       ('Connect your domain', 'youracademy.in for the website', 'globe'), ('Share with students', 'Link on YouTube, WhatsApp, Instagram', 'users')]
 for i, (t, s, ic) in enumerate(st):
@@ -153,7 +153,7 @@ for i, (n, p, fee, ios) in enumerate(plans):
     b += check_row(x + 26, 520, 'Android app', 20)
     b += check_row(x + 26, 590, 'iOS app', 20, ios)
     b += check_row(x + 26, 660, 'Unlimited live', 20)
-b += text(60, 810, 'All plans start with a 14-day free trial, no card. Scale is bought through "Contact us".', 18, INK, 600)
+b += text(60, 810, 'All plans start with a 7-day free trial, no card. Scale is bought through "Contact us".', 18, INK, 600)
 b += text(60, 840, 'Prices exclude GST. Fee = platform fee on each sale.', 16, MUTED)
 b += signature(W, H)
 save('plans-apps', svg(W, H, b, 'Which coaching app comes with which AllCoaching plan: own Android app on every plan, iOS app on Pro and Scale'))

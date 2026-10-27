@@ -225,5 +225,5 @@ for k, (lab, ic, sub) in enumerate([('Your price', 'tag', 'Per course'), ('UPI &
                                      ('Website', 'globe', 'Your domain'), ('Your app', 'phone', 'Android')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '14 days free · no card needed', 21, MUTED)
+b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('academy-course-pricing', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: set your own course price, UPI and card checkout and Razorpay payouts on every plan'))

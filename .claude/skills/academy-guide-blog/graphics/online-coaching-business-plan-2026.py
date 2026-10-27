@@ -171,7 +171,7 @@ for i, (d, t, s) in enumerate(phases):
 b += f'<rect x="60" y="780" width="1100" height="80" rx="22" fill="{BLUE_TINT}"/>'
 b += text(92, 830, 'Goal for day 90: your break-even number of students, and one channel you can measure.', 22, INK, 600)
 b += text(60, H - 28, 'A guide, not a rule. Time it to your exam calendar.', 16, MUTED) + signature(W, H)
-save('first-90-days', svg(W, H, b, 'First 90 days of an online coaching business: build the academy in the 14-day trial, launch to your audience, build the content engine, test ads and review'))
+save('first-90-days', svg(W, H, b, 'First 90 days of an online coaching business: build the academy in the 7-day trial, launch to your audience, build the content engine, test ads and review'))
 
 # 8. metrics ------------------------------------------------------------------------------
 W, H = 1220, 900
@@ -214,5 +214,5 @@ for k, (lab, ic, sub) in enumerate([('Website', 'globe', 'Your domain'), ('Your 
                                      ('UPI & cards', 'card', 'Razorpay payouts'), ('Ads tracking', 'chart', 'Pixel + GTM')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '14 days free · no card needed', 21, MUTED)
+b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('academy-plan', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: your own academy website, Android app, live classes and UPI checkout for your online coaching business'))
