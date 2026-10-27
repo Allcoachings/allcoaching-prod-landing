@@ -1,0 +1,291 @@
+{
+ "slug": "how-to-make-coaching-app-without-coding",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "How to Make a Coaching App Without Coding (India, 2026)",
+ "description": "How to make a coaching app without coding in India: compare agency, app builder and academy platform, see what the app needs, and launch your own branded app in 6 steps.",
+ "og_description": "A step-by-step guide for Indian educators who want their own coaching app without a developer: three routes compared, the eight features students expect, branding, Android and iOS, getting students to install it, costs and mistakes.",
+ "keywords": [
+  "how to make coaching app without coding",
+  "make your own coaching app",
+  "create coaching app for free trial",
+  "white label coaching app",
+  "coaching app for teachers",
+  "own android app for coaching institute",
+  "coaching app cost india",
+  "no code app for coaching",
+  "how to get students to install coaching app",
+  "coaching app android and ios"
+ ],
+ "h1": "How to Build Your Own Coaching App in India Without Coding (2026 Guide)",
+ "dek": "You want an app with your name on it, like the big exam brands, without hiring a developer. This guide compares the three ways to get one, lists what a coaching app actually needs, and walks through launching your own branded app in six steps, from sign-up to the first student install.",
+ "category": "Start an academy",
+ "date_published": "2026-10-27",
+ "date_modified": "2026-10-27",
+ "checked": "27 Oct 2026",
+ "cover_alt": "How to make a coaching app without coding in India: your own branded Android app with courses, tests, live classes and payments, shown with the AllCoaching studio",
+ "audience": "Indian educators, tutors, exam mentors, skill teachers and coaching institute owners who want their own branded coaching app without hiring a developer",
+ "author_note": "This guide comes from helping educators set up their own branded academies and apps; app store rules are linked to Google's and Apple's official pages, and timings and example paths are marked as illustrative.",
+ "intro": [
+  "<strong>To make a coaching app without coding, use an academy platform that includes a white-label app: sign up, choose a plan, upload your courses, PDFs and tests, add your academy name, logo and colours, connect your domain, and share the app with your students.</strong> The platform builds, hosts and updates the app; you only fill it with your teaching.",
+  "Perhaps you teach SSC maths in Hindi to a few thousand YouTube subscribers, run an offline NEET batch in Lucknow, or teach spoken English or yoga to working adults over Zoom. Your students keep asking for one place to find the recordings, the notes and the test link. You look at the big exam brands, each with its own app, and think: I want that, with my name on it. Then you hear what a developer would charge, how long it takes, and that someone has to keep it updated.",
+  "This guide is about the app itself. It compares the three honest routes (an agency or freelancer, a no-code app builder, and an academy platform with an app included), lists the features a coaching app for teachers really needs, walks through the six steps to your own branded app, explains Android versus iOS, and shows how to get students to install it from YouTube, WhatsApp and Instagram. If your main goal is the academy website rather than the app, read <a href=\"/blog/online-coaching-academy-without-coding\">how to create an online academy without a developer</a> alongside this one."
+ ],
+ "takeaways": [
+  "<strong>You do not need to code or hire a developer</strong> to get your own coaching app; an academy platform with a white-label app builds, hosts and updates it for you.",
+  "<strong>Three routes exist:</strong> an agency or freelancer builds a custom app to your scope, a generic no-code app builder leaves courses and checkout to you, and an academy platform includes the app with your courses, tests, live classes and payments.",
+  "<strong>A coaching app needs eight basics:</strong> student login, course library, video lessons, PDF notes, tests, live classes, UPI and card payments, and your own brand.",
+  "<strong>Store rules are fixed costs of doing it yourself:</strong> Google Play charges a US$25 one-time registration fee, and Apple's Developer Program costs 99 USD a year.",
+  "<strong>Students install apps they have a reason to open.</strong> Send them from YouTube, WhatsApp and Instagram to a free demo lesson first, then to the app.",
+  "<strong>On AllCoaching,</strong> your own white-label Android app is on every plan and the iOS app is on Pro and Scale, after a 14-day free trial with no card; plans run from ₹6,999 a year plus GST."
+ ],
+ "sections": [
+  {
+   "id": "short-answer",
+   "h2": "Can you really make a coaching app without coding?",
+   "toc": "The short answer",
+   "html": "<p><strong>Yes. Most Indian educators who have their own app today did not write a line of code; they used a platform that already had the app built and filled it with their own content and brand.</strong> What you choose is not whether to code, but who builds and maintains the app for you.</p>\n      <p>A coaching app looks simple from the outside: a login screen, a list of courses, videos, PDFs and a test. Underneath, it needs a server, video playback that works on slow mobile data, a payment flow that confirms UPI payments and opens access, a way to add new lessons without releasing a new app version, and regular updates so it keeps working on new Android and iOS versions. Writing all of that yourself is a software project, not a teaching task.</p>\n      <p>That is why no-code routes exist. In each of them the hard parts are built once and shared, and you work through forms and buttons: upload a video, set a price, choose a colour. The differences between routes come down to three questions: who builds the app, who can change it next month, and what else you still have to stitch together around it.</p>\n      <p>Educators we work with often start with the wrong question, \"which app should I build?\", when the useful one is \"where will my students learn, pay and come back every week?\" The app is the front door. The course library, tests, live classes and checkout behind it are what make it worth opening.</p>"
+  },
+  {
+   "id": "three-routes",
+   "h2": "Three ways to build a coaching app: agency, no-code builder or academy platform",
+   "toc": "Three routes compared",
+   "html": "<p><strong>You can hire an agency or freelancer to build a custom app, assemble one yourself in a general no-code app builder, or use an academy platform where a white-label coaching app comes with your LMS.</strong> Each fits a different educator.</p>\n      {{fig:three-routes|Three ways to make a coaching app compared: an agency or freelancer custom build, a no-code app builder, and an academy platform with a white-label coaching app included|Same goal, different work for you. Example comparison; times are illustrative.}}\n      <h3>1. Hire an agency or freelancer (custom build)</h3>\n      <p>A developer team designs and codes an app to your specification. You get exactly what you asked for, and you pay for every part of it: design, build, testing, store publishing, hosting, and then every change and update after launch. Quotes vary so widely with scope that a single number is misleading; our guide to <a href=\"/blog/white-label-coaching-app-development-cost-india\">white label coaching app development cost in India</a> lists the line items to ask about and what vendors publish. The catch most educators meet later is not the first invoice but the second: a new feature, a broken payment flow or an Android update means another ticket and another wait.</p>\n      <h3>2. Use a no-code app builder</h3>\n      <p>General app builders let you drag screens together without code. They are built for every kind of business, so a coaching app is something you assemble: you design the screens, then find a way to add a course library, video playback, tests, a checkout that opens access after payment, and a website. That can work for a simple content app, but educators usually discover that the hard parts of a coaching app are exactly the ones a generic builder leaves to them.</p>\n      <h3>3. Use an academy platform with a white-label app</h3>\n      <p>An academy platform (an LMS made for educators) gives you courses, tests, live classes, payments and a website as one system, and the student app is part of it. A <strong>white label coaching app</strong> means the app carries your academy's name, logo and colours, not the platform's. You change content and settings yourself in the platform's studio, and new lessons appear in the app without a new release. The trade-off: you work within what the platform offers rather than designing every screen from scratch.</p>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th></th><th>Agency or freelancer</th><th>No-code app builder</th><th>Academy platform with app</th></tr></thead>\n          <tbody>\n            <tr><td>Who builds it</td><td>A developer team</td><td>You, screen by screen</td><td>The platform; you fill it in</td></tr>\n            <tr><td>Who changes it later</td><td>The developer</td><td>You</td><td>You, in the studio</td></tr>\n            <tr><td>Courses, tests, live classes</td><td>Built to order</td><td>Usually add-ons or workarounds</td><td>Included</td></tr>\n            <tr><td>Payments and access</td><td>Built to order</td><td>Often a separate tool</td><td>Included</td></tr>\n            <tr><td>Website</td><td>Separate project</td><td>Sometimes</td><td>Included, on your domain</td></tr>\n            <tr><td>Cost shape</td><td>Project quote plus upkeep</td><td>Builder plan plus add-ons</td><td>Yearly plan plus a fee on sales</td></tr>\n          </tbody>\n          <caption>A general comparison of the three routes. Check any specific provider's current terms before you choose.</caption>\n        </table>\n      </div>\n      <p>If you want to see more options side by side, including running a batch on WhatsApp and Telegram with no app at all, our comparison of <a href=\"/blog/personal-coaching-app-alternative\">personal coaching app alternatives</a> covers four routes and when each fits.</p>"
+  },
+  {
+   "id": "what-app-needs",
+   "h2": "What does a coaching app for teachers need?",
+   "toc": "What the app needs",
+   "html": "<p><strong>A coaching app for teachers needs eight basics: student login, a course library, video lessons, PDF notes, tests, live classes, UPI and card payments, and your own brand.</strong> Everything else is a later decision.</p>\n      {{fig:app-needs|What a coaching app for teachers needs: student login, course library, video lessons, PDF notes, tests, live classes, UPI payments and your own brand|The eight basics students expect on day one. Studio preview · sample data.}}\n      <ol>\n        <li><strong>Student login:</strong> each student has an account that remembers what they bought and where they stopped.</li>\n        <li><strong>Course library:</strong> courses split into modules in syllabus order, so a student always knows what comes next.</li>\n        <li><strong>Video lessons:</strong> recorded lessons that play smoothly on a basic Android phone on mobile data.</li>\n        <li><strong>PDF notes:</strong> chapter notes, formula sheets and previous-year questions readable on a 6-inch screen.</li>\n        <li><strong>Tests:</strong> chapter quizzes and timed mock tests with answers, the part exam students return to most.</li>\n        <li><strong>Live classes:</strong> a weekly doubt class or revision session, so the course feels taught, not just sold.</li>\n        <li><strong>Payments:</strong> UPI and card checkout that opens the course automatically once the payment succeeds.</li>\n        <li><strong>Your brand:</strong> your academy name, logo and colours, so students know whose app they installed.</li>\n      </ol>\n      <p>On AllCoaching all eight sit in one studio. Videos come in through YouTube and are unlimited on every plan, PDF notes and test series live in the Content section, live classes run through YouTube Live, Zoom or the built-in live room with no hour caps, and UPI or card checkout opens access on its own, with payouts through Razorpay. The same courses appear on your academy website and in your app. For the course itself, our guide to <a href=\"/blog/create-your-first-online-course-india\">creating your first online course</a> covers structure, recording and tests in detail.</p>\n      {{q:What about push notifications, chat and other extras?|Treat extras such as push notifications, in-app chat or doubt forums as questions to ask before you choose any provider, not as reasons to delay launch. Check what is included in your plan today, in writing. Students stay for clear lessons, regular tests and a teacher who shows up live, not for the number of features.}}"
+  },
+  {
+   "id": "six-steps",
+   "h2": "How to make a coaching app without coding: 6 steps",
+   "toc": "The 6 steps",
+   "html": "<p><strong>Sign up and start the free trial, choose a plan, upload your first course, brand the academy with your name, logo and colours, connect your domain, and share the app with your students.</strong> Payments, student access, apps and hosting then run on their own.</p>\n      {{fig:six-steps|How to make a coaching app without coding in six steps: sign up, choose a plan, upload your course, brand it, connect your domain and share with students|Six steps, no code at any of them. Plans from ₹6,999/year + GST after the free trial.}}\n      {{steps}}\n      <h3>Step 1: Sign up and start the trial</h3>\n      <p>Create your account and start the 14-day free trial; no card is needed to start. Use the trial to build for real, not to browse: upload one module, set a price and walk through the checkout as a student would.</p>\n      <h3>Step 2: Choose a plan</h3>\n      <p>The plan decides which apps you get and the fee on each sale. Your own white-label Android app is on every plan; the iOS app is on Pro and Scale. More on choosing in the <a href=\"#android-ios\">Android and iOS section</a> below.</p>\n      <h3>Step 3: Upload your first course</h3>\n      <p>Add one complete course before you think about the app's look: videos in syllabus order (uploaded to YouTube as unlisted, which YouTube's help centre says anyone with the link can watch but which does not show in search results<sup><a href=\"#ref-6\">6</a></sup>), a PDF of notes per module, a module test and lesson 1 marked free as a demo. An app with one excellent course beats an app with ten empty ones.</p>\n      <h3>Step 4: Brand it</h3>\n      <p>Add your academy name, logo and colours in the studio's branding settings. They carry across the app, the website and the course pages. The next section covers how to choose them.</p>\n      <h3>Step 5: Connect your domain</h3>\n      <p>Point a domain such as youracademy.in to your academy website. Every AllCoaching plan includes connecting your own domain. The website matters for an app: it is where a student lands from a YouTube link, watches the demo lesson and decides to install.</p>\n      <h3>Step 6: Share the app with your students</h3>\n      <p>Start with the students you already have: your current batch, your WhatsApp group, your YouTube subscribers. The <a href=\"#install\">install section</a> below shows where to put the link and what to say.</p>\n      {{cta}}"
+  },
+  {
+   "id": "brand",
+   "h2": "How do you brand a white label coaching app?",
+   "toc": "Branding your app",
+   "html": "<p><strong>Brand a white label coaching app with four decisions made before you open the studio: an academy name students can say and type, a square logo that reads at icon size, one main colour plus one accent, and a domain that matches the name.</strong></p>\n      {{fig:brand-kit|Branding a white label coaching app: academy name, square logo, brand colours and your own domain, shown on a phone|Decide the brand kit once, use it everywhere. Studio preview · sample data.}}\n      <h3>The academy name</h3>\n      <p>Use the name students already know you by. If your YouTube channel is \"Sharma Sir Maths\", the app should not be called something new and clever; students search for the name they know. Keep it short enough to fit under an app icon on a phone home screen, and check the matching domain is available before you settle on it.</p>\n      <h3>The logo</h3>\n      <p>An app icon is small. A logo with a long name written across it turns into a smudge at icon size. Make a square version: an initial, a simple mark or a short word on a solid colour. Test it by shrinking it to the size of a fingernail on your own phone screen.</p>\n      <h3>Colours</h3>\n      <p>Pick one main colour for buttons and headings and one accent. Check that white text is readable on your main colour; very light yellows and pastels often fail on a bright phone screen outdoors.</p>\n      <h3>Consistency</h3>\n      <p>Use the same name, logo and colours on your app, website, YouTube channel art, Instagram profile and WhatsApp display picture. When a student taps a link and sees the same face and name they followed on YouTube, they trust the install.</p>"
+  },
+  {
+   "id": "android-ios",
+   "h2": "Do you need an Android app, an iOS app or both?",
+   "toc": "Android and iOS",
+   "html": "<p><strong>Start with Android: for most Indian coaching students, especially in tier-2 and tier-3 cities, an Android phone is the device they study on.</strong> Add iOS when a meaningful share of your students, often working adults, CAT or CLAT aspirants and students abroad, ask for it.</p>\n      {{fig:plans-apps|Which coaching app comes with which AllCoaching plan: own Android app on Starter, Growth, Pro and Scale, iOS app on Pro and Scale|Prices exclude GST. Fee is the platform fee on each sale.}}\n      <h3>What the stores require if you publish yourself</h3>\n      <p>If you build an app yourself or through an agency, you deal with the stores directly. Google Play's help centre states:</p>\n      <div class=\"v3-quote\">\n        <p>\"There is a US$25 one-time registration fee.\"</p>\n        <cite>Google Play Console Help<sup><a href=\"#ref-1\">1</a></sup></cite>\n      </div>\n      <p>Google also asks personal developer accounts created after 13 November 2023 to run a closed test with at least 12 testers for at least 14 days before the app can go live.<sup><a href=\"#ref-2\">2</a></sup> Apple's Developer Program costs 99 USD a year.<sup><a href=\"#ref-3\">3</a></sup> And apps need regular updates: Google Play requires new apps and app updates to target a recent Android API level,<sup><a href=\"#ref-5\">5</a></sup> so an app nobody maintains eventually cannot ship updates.</p>\n      <p>Apple's guidelines matter for template-based apps in particular. Guideline 4.2.6 reads: \"Apps created from a commercialized template or app generation service will be rejected unless they are submitted directly by the provider of the app's content.\"<sup><a href=\"#ref-4\">4</a></sup> Whichever provider you choose, ask whose developer account the app is published under and what happens to it if you leave.</p>\n      <h3>Which AllCoaching plan includes which app</h3>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Plan</th><th>Price per year</th><th>Platform fee</th><th>Android app</th><th>iOS app</th></tr></thead>\n          <tbody>\n            <tr><td>Starter</td><td>₹6,999</td><td>10%</td><td>Yes</td><td>No</td></tr>\n            <tr><td>Growth</td><td>₹12,999</td><td>7.5%</td><td>Yes</td><td>No</td></tr>\n            <tr><td>Pro</td><td>₹24,999</td><td>5%</td><td>Yes</td><td>Yes</td></tr>\n            <tr><td>Scale</td><td>₹99,999 (via Contact us)</td><td>0%</td><td>Yes</td><td>Yes</td></tr>\n          </tbody>\n          <caption>AllCoaching plans, October 2026. Prices exclude GST. Every plan also includes a website on your own domain and unlimited live classes.</caption>\n        </table>\n      </div>\n      <p>Every plan includes the website as well as the app, so a student on an iPhone can still learn from your academy website on Starter and Growth while you grow into Pro.</p>"
+  },
+  {
+   "id": "install",
+   "h2": "How do you get students to install your coaching app?",
+   "toc": "Getting installs",
+   "html": "<p><strong>Give students a reason before you ask for the install: send them from YouTube, WhatsApp and Instagram to a free demo lesson on your academy website, and ask them to install the app once they have something to come back to.</strong> \"Download my app\" alone rarely works; \"the notes and test for today's class are in the app\" does.</p>\n      {{fig:install-path|How students find and install a coaching app: links from YouTube, WhatsApp and Instagram lead to the academy website and free demo lesson, then the app and checkout|One link, everywhere your students already are. Example path, illustrative. Logos belong to their owners.}}\n      <h3>From YouTube</h3>\n      <p>Put your academy link in the first two lines of every video description and in a pinned comment. At the end of a useful free video, say exactly what the student gets in the app: \"the PDF of these 20 questions and a timed test are free inside the app\". A specific reason converts better than a general request.</p>\n      <h3>From WhatsApp</h3>\n      <p>Your existing batch group is the fastest first 50 installs. Move one thing into the app and announce it: this week's notes, the mock test, or the live class link. Keep the group for announcements and point every announcement to the app. Many students resist leaving WhatsApp at first; move them with content, not with rules.</p>\n      <h3>From Instagram</h3>\n      <p>Use the bio link for your academy website, and stories with a link sticker on days you post a new test or live class. Reels bring new people; the bio link turns the interested ones into students.</p>\n      <h3>In class</h3>\n      <p>If you teach offline, give the first five minutes of one class to installing together: students open the link, log in, and open the free lesson while you are in the room. Educators we work with often find this single step does more than a week of posts.</p>\n      <p>For the next stage, our guide on <a href=\"/blog/how-to-get-first-500-students-for-coaching-app\">how to get your first 500 students for a coaching app</a> covers content, referrals from existing students and paid ads in more depth.</p>"
+  },
+  {
+   "id": "cost",
+   "h2": "How much does a coaching app cost in India?",
+   "toc": "Coaching app cost",
+   "html": "<p><strong>The cost of a coaching app in India depends on the route: a custom build is quoted by scope and needs ongoing upkeep, while an academy platform charges a published yearly plan plus a fee on each sale.</strong> Compare the full year, not the first payment.</p>\n      <p>We do not put a single number on agency builds here, because quotes for \"app plus website plus LMS plus payments\" vary too much to be useful. Our <a href=\"/blog/white-label-coaching-app-development-cost-india\">coaching app development cost guide</a> breaks down the eight cost lines (design and build, store accounts, hosting, video and live classes, payments, website and domain, maintenance and marketing) and the questions to ask any vendor.</p>\n      <p>On AllCoaching the app is part of the plan, not a separate project. After a 14-day free trial with no card, plans are Starter ₹6,999, Growth ₹12,999 and Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee on sales, or Scale at ₹99,999 a year with a 0% platform fee, which you buy through Contact us. Prices exclude GST. Which plan costs least overall depends on your yearly sales (before GST): Starter below about ₹2.4 lakh, Growth from ₹2.4 to ₹4.8 lakh, Pro from ₹4.8 to ₹15 lakh, and Scale above ₹15 lakh. See <a href=\"/pricing\">AllCoaching pricing</a> for the full plan details.<sup><a href=\"#ref-7\">7</a></sup></p>\n      {{q:Can I create a coaching app for free?|You can build and test one free during a trial. On AllCoaching every plan starts with a 14-day free trial, no card needed, which is enough to upload a course, brand the academy and try the app with a few students. After the trial you choose one of the annual plans; there is no free tier.}}\n      <p>Payment gateway charges sit on top of any platform. If you are new to collecting fees online, our guide to <a href=\"/blog/accept-upi-payments-for-online-courses\">accepting UPI payments for online courses</a> explains how checkout, gateway fees and payouts work.</p>"
+  },
+  {
+   "id": "mistakes",
+   "h2": "Common mistakes when making a coaching app",
+   "toc": "Mistakes to avoid",
+   "html": "<p><strong>The most common coaching app mistakes are launching the app before there is content, chasing features instead of the basics, ignoring the website, choosing a name students do not recognise, going quiet after launch, and not checking how to take your data with you.</strong></p>\n      {{fig:mistakes|Six common mistakes when making a coaching app without coding and the fix for each|Six mistakes we see most often, and the fix for each.}}\n      <ul>\n        <li><strong>App before content.</strong> An empty app gets uninstalled. Upload one complete course with notes and tests before you share the link.</li>\n        <li><strong>Ten features, no plan.</strong> Start with the eight basics above. Add more only when students ask for something twice.</li>\n        <li><strong>No website.</strong> Links from YouTube and Instagram open in a browser. Without a website and a demo lesson, the student has nothing to see before installing.</li>\n        <li><strong>An unclear app name.</strong> Use the name students already follow, not a new brand they have never heard of.</li>\n        <li><strong>Launch and forget.</strong> A weekly live class and a new test every week give students a reason to open the app. Without them, installs turn into uninstalls.</li>\n        <li><strong>No way to leave.</strong> Before you sign with anyone, ask how you export your students and content. On AllCoaching your content and student data stay exportable.</li>\n      </ul>\n      <div class=\"v3-quote\">\n        <p>\"Students do not open an app because it exists. They open it because today's notes, today's test and today's class are inside.\"</p>\n        <cite>Amit Ratan, Founder &amp; CEO, AllCoaching</cite>\n      </div>"
+  },
+  {
+   "id": "when-custom",
+   "h2": "When is a custom-built coaching app worth it?",
+   "toc": null,
+   "html": "<p><strong>A custom app is worth it when you need software no platform offers, such as a unique learning tool, deep integration with your institute's own systems, or a design you must control screen by screen, and you have the budget and a team to maintain it.</strong></p>\n      <p>Large multi-centre institutes sometimes reach that point. For an individual educator or a small institute starting out, it usually makes sense to launch on a platform first, learn what your students actually use, and only then decide whether anything is missing. If you later outgrow it, having your content and student data exportable keeps that option open.</p>\n      <p>If you are still deciding what kind of business you are building, our explainer on <a href=\"/blog/what-is-an-online-academy\">what an online academy is</a> shows how the website, app, courses and payments fit together.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to make a coaching app without coding",
+  "description": "Six steps for an Indian educator to launch an own-brand coaching app on an academy platform without writing code.",
+  "total_time": "P7D",
+  "items": [
+   [
+    "Sign up and start the free trial",
+    "Create your account and start the 14-day free trial; no card is needed to start."
+   ],
+   [
+    "Choose a plan",
+    "Pick the plan that fits your sales and apps: own Android app on every plan, iOS app on Pro and Scale."
+   ],
+   [
+    "Upload your first course",
+    "Add videos via YouTube in syllabus order, a PDF of notes and a test per module, and mark lesson 1 as a free demo."
+   ],
+   [
+    "Brand it",
+    "Add your academy name, a square logo and your colours so the app and website carry your brand."
+   ],
+   [
+    "Connect your domain",
+    "Point your own domain, such as youracademy.in, to your academy website."
+   ],
+   [
+    "Share the app with your students",
+    "Post the link on YouTube, WhatsApp and Instagram and install it together with your current batch."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "How can I make a coaching app without coding?",
+   "Use an academy platform that includes a white-label app. Sign up, choose a plan, upload your courses, PDFs and tests, add your academy name, logo and colours, connect your domain and share the app with your students. The platform builds, hosts and updates the app."
+  ],
+  [
+   "Can I create a coaching app for free?",
+   "You can build and test one during a free trial. On AllCoaching every plan starts with a 14-day free trial with no card needed; after that you choose an annual plan from ₹6,999 a year plus GST. There is no free tier."
+  ],
+  [
+   "What is a white label coaching app?",
+   "A white label coaching app is a student app built and maintained by a platform but published with your academy's name, logo and colours, so students see your brand rather than the platform's."
+  ],
+  [
+   "What features should a coaching app have?",
+   "Student login, a course library, video lessons, PDF notes, tests, live classes, UPI and card payments, and your own brand. Add extras only when students ask for them."
+  ],
+  [
+   "Do I need an Android app or an iOS app for my coaching institute?",
+   "Start with Android, since most Indian coaching students study on Android phones. Add iOS when enough of your students ask for it. On AllCoaching the own Android app is on every plan and the iOS app is on Pro and Scale."
+  ],
+  [
+   "How much does it cost to make a coaching app in India?",
+   "A custom build is quoted by scope plus upkeep, so compare full-year quotes. On AllCoaching the app comes with the plan: Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 a year with a 10%, 7.5% or 5% fee on sales, or Scale ₹99,999 a year at 0%, all excluding GST."
+  ],
+  [
+   "How long does it take to launch a coaching app without coding?",
+   "On an academy platform, the setup itself can fit into a few evenings once your first course is recorded. Recording the course usually takes longer than building the app."
+  ],
+  [
+   "How do I get students to download my coaching app?",
+   "Give them a reason first. Link to a free demo lesson from YouTube descriptions, WhatsApp groups and your Instagram bio, move notes and tests into the app, and install it together with your current batch in class."
+  ]
+ ],
+ "glossary": [
+  [
+   "white-label-app",
+   "White-label app",
+   "An app built and maintained by a platform but published under your academy's name, logo and colours."
+  ],
+  [
+   "no-code",
+   "No-code",
+   "Building software through forms, settings and drag and drop instead of writing programming code."
+  ],
+  [
+   "lms",
+   "LMS (learning management system)",
+   "Software that holds courses, lessons, tests and student progress, and controls who can access what."
+  ],
+  [
+   "app-builder",
+   "App builder",
+   "A general tool for assembling an app from ready-made screens and blocks, not specific to teaching."
+  ],
+  [
+   "developer-account",
+   "Developer account",
+   "The account on Google Play or the Apple Developer Program that an app is published under."
+  ],
+  [
+   "platform-fee",
+   "Platform fee",
+   "The percentage a platform keeps from each sale, on top of a yearly plan where one applies."
+  ],
+  [
+   "demo-lesson",
+   "Demo lesson",
+   "A free lesson that lets students judge your teaching before they buy or install."
+  ],
+  [
+   "custom-domain",
+   "Custom domain",
+   "Your own web address, such as youracademy.in, connected to your academy website."
+  ]
+ ],
+ "references": [
+  "Google, \"Play Console Help: Get started with Play Console\" (registration fee). <a href=\"https://support.google.com/googleplay/android-developer/answer/6112435?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "Google, \"Play Console Help: App testing requirements for new personal developer accounts\". <a href=\"https://support.google.com/googleplay/android-developer/answer/14151465?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "Apple, \"Apple Developer Program enrollment\". <a href=\"https://developer.apple.com/support/enrollment/\" target=\"_blank\" rel=\"noopener nofollow\">developer.apple.com</a>, checked October 2026.",
+  "Apple, \"App Review Guidelines\", guideline 4.2.6. <a href=\"https://developer.apple.com/app-store/review/guidelines/\" target=\"_blank\" rel=\"noopener nofollow\">developer.apple.com</a>, checked October 2026.",
+  "Android Developers, \"Meet Google Play's target API level requirement\". <a href=\"https://developer.android.com/google/play/requirements/target-sdk\" target=\"_blank\" rel=\"noopener nofollow\">developer.android.com</a>, checked October 2026.",
+  "YouTube Help, \"Change video privacy settings\" (unlisted videos). <a href=\"https://support.google.com/youtube/answer/157177\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "AllCoaching pricing, <a href=\"/pricing\">allcoaching.in/pricing</a>, October 2026."
+ ],
+ "citations": [
+  "https://support.google.com/googleplay/android-developer/answer/6112435?hl=en",
+  "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+  "https://developer.apple.com/support/enrollment/",
+  "https://developer.apple.com/app-store/review/guidelines/",
+  "https://developer.android.com/google/play/requirements/target-sdk",
+  "https://support.google.com/youtube/answer/157177",
+  "https://allcoaching.in/pricing"
+ ],
+ "about": [
+  {
+   "name": "Mobile app"
+  },
+  {
+   "name": "No-code development platform",
+   "sameAs": "https://en.wikipedia.org/wiki/No-code_development_platform"
+  },
+  {
+   "name": "White-label product",
+   "sameAs": "https://en.wikipedia.org/wiki/White-label_product"
+  },
+  {
+   "name": "Learning management system",
+   "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
+  },
+  {
+   "name": "Educational technology",
+   "sameAs": "https://en.wikipedia.org/wiki/Educational_technology"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "Google Play",
+   "url": "https://play.google.com"
+  },
+  {
+   "name": "Apple App Store",
+   "url": "https://www.apple.com/app-store/"
+  },
+  {
+   "name": "YouTube",
+   "url": "https://www.youtube.com"
+  },
+  {
+   "name": "WhatsApp",
+   "url": "https://www.whatsapp.com"
+  },
+  {
+   "name": "Instagram",
+   "url": "https://www.instagram.com"
+  },
+  {
+   "name": "Zoom",
+   "url": "https://zoom.us"
+  },
+  {
+   "name": "Razorpay",
+   "url": "https://razorpay.com"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/online-coaching-academy-without-coding",
+  "/blog/white-label-coaching-app-development-cost-india",
+  "/blog/how-to-get-first-500-students-for-coaching-app",
+  "/blog/create-your-first-online-course-india"
+ ]
+}

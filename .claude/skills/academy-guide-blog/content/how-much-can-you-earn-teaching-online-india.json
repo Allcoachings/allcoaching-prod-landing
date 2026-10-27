@@ -1,0 +1,291 @@
+{
+ "slug": "how-much-can-you-earn-teaching-online-india",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "How Much Can You Earn Teaching Online in India? (2026)",
+ "description": "How much can you earn teaching online in India? Students × price, minus platform fee, plan cost and ads. Free income calculator, 3 worked examples and tax notes.",
+ "og_description": "Online coaching income in India worked out honestly: the take-home formula, a free income calculator, three illustrative educators, what platform fees and plan costs do to your income, and where GST and income tax come in.",
+ "keywords": [
+  "how much can you earn teaching online india",
+  "online coaching income india",
+  "online tutor earnings india",
+  "earning from online courses",
+  "how to calculate course revenue",
+  "platform fee vs subscription",
+  "online teaching income calculator",
+  "how much do online educators earn in india",
+  "online course income india",
+  "take-home from online courses"
+ ],
+ "h1": "How Much Do Online Educators Earn in India? (+ Income Calculator)",
+ "dek": "There is no honest average, but there is an honest formula. Work out your own online coaching income: students × price, minus the platform fee, your plan and your ads, then GST and income tax. With a free calculator and three illustrative educators.",
+ "category": "Grow your income",
+ "date_published": "2026-06-22",
+ "date_modified": "2026-10-27",
+ "checked": "27 Oct 2026",
+ "cover_alt": "How much can you earn teaching online in India: an online coaching income calculator showing gross sales, platform fee, plan cost, ads and take-home",
+ "audience": "Indian educators, tutors, exam mentors, skill teachers and coaching institute owners estimating their online teaching income",
+ "author_note": "Every rupee figure in this guide is illustrative and labelled so; tax rules are linked to official sources, and AllCoaching plan prices are from our own pricing page.",
+ "intro": [
+  "<strong>How much you can earn teaching online in India depends on four numbers you can work out today: how many students pay you in a year, what each pays, what share your platform takes, and what you spend on your plan, ads and tools.</strong> Income = students × price × (1 − platform fee) − plan cost − ads and tools. GST and income tax come after that, depending on your turnover and income.",
+  "Nobody publishes a reliable average for Indian online educators, and any single figure would describe almost no one. An SSC maths teacher in Hindi with a YouTube channel, a spoken English coach on Instagram and a three-teacher coaching institute in Lucknow can all be teaching online and earning wildly different amounts. What they share is the arithmetic.",
+  "This guide gives you that arithmetic. You will get the formula, a calculator you can use on this page, three worked examples (all illustrative), the effect of platform fees versus plan cost, the five levers that move the number, and where GST and income tax fit in. If you are still choosing what to sell, start with <a href=\"/blog/what-is-an-online-academy\">what an online academy is</a>, then come back with your own numbers."
+ ],
+ "takeaways": [
+  "<strong>Online teaching income is a formula, not a salary:</strong> students × price × (1 − platform fee) − plan cost − ads and tools, before GST and income tax.",
+  "<strong>There is no honest national average</strong> for online tutor earnings in India; this guide uses illustrative numbers you can replace with your own.",
+  "<strong>Platform fee vs subscription:</strong> a percentage fee grows with your sales, a plan price does not, so the lowest-cost plan changes as you grow.",
+  "<strong>On AllCoaching (prices excl. GST),</strong> Starter (₹6,999 + 10%) costs least below ₹2.4 lakh of yearly sales, Growth (₹12,999 + 7.5%) from ₹2.4 to ₹4.8 lakh, Pro (₹24,999 + 5%) from ₹4.8 to ₹15 lakh, and Scale (₹99,999 + 0%) above ₹15 lakh.",
+  "<strong>Students are usually the hardest number to move,</strong> so a free demo lesson, a test series and a next-level course often add more than a price cut.",
+  "<strong>GST registration is generally required above ₹20 lakh of turnover for services</strong> (₹10 lakh in special-category states), and income tax applies to your net income; check the official portals or a CA.",
+  "<strong>Every AllCoaching plan starts with a 14-day free trial,</strong> no card needed, so you can build the academy before you pick a plan."
+ ],
+ "sections": [
+  {
+   "id": "formula",
+   "h2": "How do you calculate online course revenue and take-home?",
+   "toc": "The income formula",
+   "html": "<p><strong>Multiply paying students by the price to get gross sales, take off the platform fee, then subtract your plan price and what you spend on ads and tools; what is left is your take-home before tax.</strong> That is the whole method. Every section below adds detail to one part of it.</p>\n      {{fig:income-formula|Online coaching income formula for India: students times price minus platform fee, plan price, ads and tools, then GST and income tax, equals take-home|Five parts, one number to plan your year on. Method only, not a promise of income.}}\n      {{steps}}\n      <h3>Why gross sales is the wrong number to celebrate</h3>\n      <p>Gross sales is what students paid. Take-home is what you keep. The gap between them is the platform fee, the plan, your ad spend and your tools, and later GST and income tax. An educator who plans the year on gross sales usually feels poorer than expected by Diwali, because the costs were real all along and simply were not counted.</p>\n      <p>Educators we work with often find the gap is smaller than they feared when the plan matches their sales, and larger than they expected when they paid for ads without tracking what came back. Both are fixable once the numbers are written down.</p>"
+  },
+  {
+   "id": "calculator",
+   "h2": "Online coaching income calculator",
+   "toc": "Income calculator",
+   "html": "<p><strong>Enter how many students you expect in a year, your price, your yearly ads and tools budget, and a plan; the calculator shows gross sales, the platform fee, the plan price, your take-home before tax and which AllCoaching plan costs least at that sales level.</strong> It starts with the SSC maths example used later in this guide.</p>\n      <div class=\"v3-calc\" id=\"v3-calc\">\n        <p class=\"v3-calc-h\">Online coaching income calculator</p>\n        <div class=\"v3-calc-in\">\n          <label for=\"v3-calc-students\">Paying students in a year<input type=\"number\" id=\"v3-calc-students\" min=\"0\" step=\"1\" value=\"280\" inputmode=\"numeric\" /></label>\n          <label for=\"v3-calc-price\">Price per student (₹)<input type=\"number\" id=\"v3-calc-price\" min=\"0\" step=\"1\" value=\"1499\" inputmode=\"numeric\" /></label>\n          <label for=\"v3-calc-ads\">Ads and tools in a year (₹)<input type=\"number\" id=\"v3-calc-ads\" min=\"0\" step=\"1\" value=\"36000\" inputmode=\"numeric\" /></label>\n          <label for=\"v3-calc-plan\">AllCoaching plan<select id=\"v3-calc-plan\">\n            <option value=\"0\">Starter · ₹6,999 · 10%</option>\n            <option value=\"1\" selected>Growth · ₹12,999 · 7.5%</option>\n            <option value=\"2\">Pro · ₹24,999 · 5%</option>\n            <option value=\"3\">Scale · ₹99,999 · 0%</option>\n          </select></label>\n        </div>\n        <div class=\"v3-calc-out\" aria-live=\"polite\">\n          <div class=\"v3-calc-row\"><span>Gross sales</span><b id=\"v3-calc-gross\">₹4,19,720</b></div>\n          <div class=\"v3-calc-row\"><span id=\"v3-calc-fee-l\">Platform fee (7.5%)</span><b id=\"v3-calc-fee\">− ₹31,479</b></div>\n          <div class=\"v3-calc-row\"><span>Plan price (yearly, excl. GST)</span><b id=\"v3-calc-cost\">− ₹12,999</b></div>\n          <div class=\"v3-calc-row\"><span>Ads and tools</span><b id=\"v3-calc-adsv\">− ₹36,000</b></div>\n          <div class=\"v3-calc-row tot\"><span>Take-home before tax</span><b id=\"v3-calc-take\">₹3,39,242</b></div>\n        </div>\n        <p class=\"v3-calc-best\" id=\"v3-calc-best\">At ₹4,19,720 of sales, Growth is the lowest-cost plan: ₹44,478 a year in plan price and platform fee. That is the plan you picked.</p>\n        <div class=\"v3-calc-plans\" id=\"v3-calc-plans\" aria-label=\"Yearly cost of each plan at these sales\"></div>\n        <p class=\"v3-calc-note\">Illustrative. Plan prices exclude GST (18% GST applies on the plan). Before income tax, GST on your own fees if you are registered, and any payment gateway charges. Scale is bought through Contact us on the <a href=\"/pricing\">pricing page</a>.</p>\n      </div>\n      <script>\n      (function () {\n        var P = [['Starter', 6999, 0.10], ['Growth', 12999, 0.075], ['Pro', 24999, 0.05], ['Scale', 99999, 0]];\n        var root = document.getElementById('v3-calc');\n        if (!root) return;\n        function el(id) { return document.getElementById(id); }\n        function num(id) { var v = parseFloat(el(id).value); return isFinite(v) && v > 0 ? v : 0; }\n        function inr(v) {\n          var n = Math.round(Math.abs(v)), s = String(n), out = s;\n          if (s.length > 3) {\n            var head = s.slice(0, -3), tail = s.slice(-3), parts = [];\n            while (head.length > 2) { parts.unshift(head.slice(-2)); head = head.slice(0, -2); }\n            if (head) parts.unshift(head);\n            out = parts.join(',') + ',' + tail;\n          }\n          return (v < 0 && n > 0 ? '− ' : '') + '₹' + out;\n        }\n        function cost(p, g) { return p[1] + p[2] * g; }\n        function pct(f) { return (Math.round(f * 1000) / 10) + '%'; }\n        function run() {\n          var st = Math.floor(num('v3-calc-students')), pr = num('v3-calc-price'), ad = num('v3-calc-ads');\n          var g = st * pr, sel = P[parseInt(el('v3-calc-plan').value, 10)] || P[1];\n          var fee = g * sel[2], take = g - fee - sel[1] - ad;\n          el('v3-calc-gross').textContent = inr(g);\n          el('v3-calc-fee-l').textContent = 'Platform fee (' + pct(sel[2]) + ')';\n          el('v3-calc-fee').textContent = fee > 0 ? '− ' + inr(fee) : '₹0';\n          el('v3-calc-cost').textContent = '− ' + inr(sel[1]);\n          el('v3-calc-adsv').textContent = ad > 0 ? '− ' + inr(ad) : '₹0';\n          el('v3-calc-take').textContent = inr(take);\n          var low = Math.min.apply(null, P.map(function (p) { return Math.round(cost(p, g)); }));\n          var best = P.filter(function (p) { return Math.round(cost(p, g)) === low; });\n          var names = best.map(function (p) { return p[0]; }).join(' and ');\n          var msg = 'At ' + inr(g) + ' of sales, ' + names + (best.length > 1 ? ' cost the same and are the lowest-cost plans: ' : ' is the lowest-cost plan: ') + inr(low) + ' a year in plan price and platform fee. ';\n          var diff = Math.round(cost(sel, g)) - low;\n          msg += diff > 0 ? 'Your pick, ' + sel[0] + ', costs ' + inr(diff) + ' more at this level.' : 'That is the plan you picked.';\n          if (best.some(function (p) { return p[0] === 'Scale'; })) msg += ' Scale is bought through Contact us.';\n          el('v3-calc-best').textContent = msg;\n          var box = el('v3-calc-plans');\n          box.textContent = '';\n          P.forEach(function (p) {\n            var c = Math.round(cost(p, g)), d = document.createElement('div');\n            d.className = c === low ? 'v3-calc-plan on' : 'v3-calc-plan';\n            [p[0] + ' · ' + pct(p[2]), inr(c) + ' cost', inr(g - c - ad) + ' kept'].forEach(function (t) {\n              var sp = document.createElement('span');\n              sp.textContent = t;\n              d.appendChild(sp);\n            });\n            box.appendChild(d);\n          });\n        }\n        root.addEventListener('input', run);\n        root.addEventListener('change', run);\n        run();\n      })();\n      </script>\n      <p>Two tips for using it honestly. First, enter the students you can realistically reach this year, not the size of your YouTube channel; a channel with 50,000 subscribers might produce a few hundred buyers or a few dozen. Second, run it three times: a cautious case, a likely case and a good case. If the cautious case still covers your costs, you are ready to launch. For setting the price itself, use our guide on <a href=\"/blog/how-to-price-online-courses-india\">how to price online courses in India</a>.</p>"
+  },
+  {
+   "id": "fee-vs-plan",
+   "h2": "Platform fee vs subscription: what do they do to your take-home?",
+   "toc": "Platform fee vs subscription",
+   "html": "<p><strong>A platform fee is a percentage of every sale, so it grows as you sell more; a subscription or plan price is fixed, so it matters most when sales are small.</strong> The right plan is the one with the lowest total of the two at the sales you actually expect.</p>\n      <p>AllCoaching combines both in four annual plans, priced before GST: Starter ₹6,999 with a 10% platform fee, Growth ₹12,999 with 7.5%, Pro ₹24,999 with 5%, and Scale ₹99,999 with a 0% platform fee, so you keep 90–100% of every sale depending on the plan. The table shows what each plan costs in a year at five sales levels.</p>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Your sales in a year</th><th>Starter (₹6,999 + 10%)</th><th>Growth (₹12,999 + 7.5%)</th><th>Pro (₹24,999 + 5%)</th><th>Scale (₹99,999 + 0%)</th></tr></thead>\n          <tbody>\n            <tr><td>₹1 lakh</td><td><strong>₹16,999</strong></td><td>₹20,499</td><td>₹29,999</td><td>₹99,999</td></tr>\n            <tr><td>₹3 lakh</td><td>₹36,999</td><td><strong>₹35,499</strong></td><td>₹39,999</td><td>₹99,999</td></tr>\n            <tr><td>₹6 lakh</td><td>₹66,999</td><td>₹57,999</td><td><strong>₹54,999</strong></td><td>₹99,999</td></tr>\n            <tr><td>₹10 lakh</td><td>₹1,06,999</td><td>₹87,999</td><td><strong>₹74,999</strong></td><td>₹99,999</td></tr>\n            <tr><td>₹25 lakh</td><td>₹2,56,999</td><td>₹2,00,499</td><td>₹1,49,999</td><td><strong>₹99,999</strong></td></tr>\n          </tbody>\n          <caption>Yearly cost of each plan = plan price + platform fee on sales, before GST. Lowest cost per row in bold. Illustrative sales levels.</caption>\n        </table>\n      </div>\n      {{fig:plan-breakeven|Platform fee vs subscription chart: yearly cost of AllCoaching Starter, Growth, Pro and Scale plans against yearly sales, with breakevens at ₹2.4 lakh, ₹4.8 lakh and ₹15 lakh|Where each plan becomes the lowest-cost one. Prices exclude GST.}}\n      <h3>The breakevens in one line each</h3>\n      <ul>\n        <li><strong>Below ₹2.4 lakh</strong> of yearly sales, Starter costs least.</li>\n        <li><strong>₹2.4 lakh to ₹4.8 lakh,</strong> Growth costs least.</li>\n        <li><strong>₹4.8 lakh to ₹15 lakh,</strong> Pro costs least, and it also adds the iOS app and a premium website template.</li>\n        <li><strong>Above ₹15 lakh,</strong> Scale costs least because there is no platform fee at all. Scale is not self-serve; you buy it through Contact us on the <a href=\"/pricing\">pricing page</a>.</li>\n      </ul>\n      <p>Every plan includes your own white-label Android app, a website on your own domain, unlimited videos via YouTube and unlimited live classes through YouTube Live, Zoom or the built-in live room, so the plan choice is mostly a cost decision. The iOS app is on Pro and Scale only. Upgrades take effect on payment, with the unexpired value of your current plan credited.</p>\n      {{q:Is a 0% commission plan always better?|No. A 0% platform fee only saves money once the fee you would otherwise pay is larger than the difference in plan price. On AllCoaching, Pro costs less than Scale below ₹15 lakh of yearly sales. Below that, paying a 5% fee on Pro leaves you with more than paying ₹99,999 for Scale.}}"
+  },
+  {
+   "id": "examples",
+   "h2": "How much do online tutors earn in India? Three illustrative examples",
+   "toc": "Three worked examples",
+   "html": "<p><strong>These three educators are illustrative, not real people or averages: an SSC maths educator teaching in Hindi on YouTube, a spoken English coach growing on Instagram, and a small coaching institute moving its batches online.</strong> Each uses the plan that costs least at its sales level.</p>\n      {{fig:three-educators|Online tutor earnings in India, three illustrative examples: SSC maths educator in Hindi on the Growth plan, spoken English educator on Starter, coaching institute on Scale, with take-home before tax|Illustrative, yearly, before GST and income tax.}}\n      <h3>1. Exam educator teaching SSC maths in Hindi on YouTube</h3>\n      <p>She posts free problem-solving videos on YouTube and sells a full SSC CGL arithmetic course for ₹1,499 on her own academy. Illustratively, 280 students buy in a year: <strong>₹4,19,720</strong> of sales. At that level Growth costs least. The 7.5% fee is ₹31,479 and the plan is ₹12,999. She spends ₹36,000 a year on a mic, editing software, a thumbnail tool and some promotion. Take-home before tax: <strong>₹3,39,242</strong>.</p>\n      <p>Her free videos stay public on her channel, while course lessons can sit on YouTube as unlisted videos, which YouTube says \"can be seen and shared by anyone with the link\"<sup><a href=\"#ref-1\">1</a></sup> but do not show in search. If her sales pass ₹4.8 lakh next year, Pro becomes the lower-cost plan.</p>\n      <h3>2. Skill educator teaching spoken English on Instagram</h3>\n      <p>He posts short speaking tips as reels and sells a six-week interview English course at ₹1,999. Illustratively, 100 working adults buy in a year: <strong>₹1,99,900</strong> of sales, so Starter costs least. The 10% fee is ₹19,990 and the plan is ₹6,999. He runs Meta ads at about ₹2,000 a month, ₹24,000 a year; Meta lets advertisers set a daily or lifetime budget, so this spend can be capped.<sup><a href=\"#ref-4\">4</a></sup> Take-home before tax: <strong>₹1,48,911</strong>.</p>\n      <h3>3. Small coaching institute moving its batches online</h3>\n      <p>A three-teacher institute runs live foundation batches at ₹8,000 a student. Illustratively, 300 students join across batches in a year: <strong>₹24,00,000</strong> of sales. Above ₹15 lakh, Scale costs least: ₹99,999 and no platform fee. On Pro the same year would cost ₹1,44,999 (₹1,20,000 in fees plus the plan). With ₹1,50,000 on ads and tools, take-home before tax is <strong>₹21,50,001</strong>, before the institute pays its teachers.</p>\n      <p>At this turnover, GST registration generally applies (the threshold is ₹20 lakh for most service providers), so the institute must decide whether ₹8,000 includes GST or is charged plus GST. That single choice changes take-home noticeably; our guide on <a href=\"/blog/online-tutor-gst-income-tax-india\">GST and income tax for online tutors</a> walks through it.</p>\n      <div class=\"v3-quote\">\n        <p>\"No average will tell you what you can earn. Your own students, your own price and the plan that fits your sales will.\"</p>\n        <cite>Amit Ratan, Founder &amp; CEO, AllCoaching</cite>\n      </div>"
+  },
+  {
+   "id": "formats",
+   "h2": "Earning from online courses: which formats earn what?",
+   "toc": "Formats and income",
+   "html": "<p><strong>Recorded courses and test series scale with how many students you reach; live batches and one-to-one sessions earn more per student but are limited by your hours.</strong> Most steady online incomes mix at least two.</p>\n      {{fig:formats-scale|Earning from online courses in India: free demo, test series, recorded course, live batch and one-to-one, with illustrative price ranges and what each format scales with|Illustrative price ranges, not market data.}}\n      <p>A recorded course is built once and sold many times, so its income depends on reach. A live batch commands a higher price because students get you in real time, but you can only run so many batches a week. One-to-one pays the most per hour and the least per week. A test series is cheap to buy and easy to add, which makes it a common second purchase for exam students.</p>\n      <p>The practical move for most educators is a ladder: a free demo lesson to earn trust, a recorded course as the main product, a test series as an add-on, and a live batch for students who want more. If you have not built the first course yet, our guide to <a href=\"/blog/create-your-first-online-course-india\">creating your first online course</a> covers it step by step.</p>"
+  },
+  {
+   "id": "levers",
+   "h2": "How can you increase your online teaching income?",
+   "toc": "Five revenue levers",
+   "html": "<p><strong>Five levers move online teaching income: price, conversion, repeat courses, test series and live batches.</strong> Change one at a time and compare take-home, not sales, after each batch.</p>\n      {{fig:revenue-levers|Five levers to increase online teaching income in India: price, conversion, repeat courses, test series and live batches|Move one lever at a time.}}\n      <h3>1. Price</h3>\n      <p>Price for the outcome a student is buying, such as clearing a cut-off or speaking confidently in an interview, not for your hours. In the SSC example, ₹1,699 instead of ₹1,499 at the same 280 students adds ₹56,000 of sales. Raise prices for the next batch, never for students who already paid.</p>\n      <h3>2. Conversion</h3>\n      <p>Conversion is the share of interested students who buy. A free demo lesson, a clear course page and easy checkout lift it. Students in India mostly pay by UPI, which NPCI reports processes billions of transactions every month,<sup><a href=\"#ref-2\">2</a></sup> so a checkout that opens a UPI app in one tap removes a real drop-off point.</p>\n      <h3>3. Repeat courses</h3>\n      <p>Your next student is often your last one. A level 2 course, the next exam stage or an advanced batch sells to people who already trust you, with no ad spend.</p>\n      <h3>4. Test series</h3>\n      <p>A test series is a low-price add-on many exam students buy alongside a course. Illustratively, if 100 of the 280 SSC students add a ₹499 test series, that is ₹49,900 more in sales. Our guide to <a href=\"/blog/how-to-create-interactive-mock-tests-online\">creating mock tests online</a> shows how to build one.</p>\n      <h3>5. Live batches</h3>\n      <p>A live batch with weekly doubt classes is the premium rung. Live classes are unlimited on every AllCoaching plan, so adding one changes your hours, not your plan cost. For more on getting the students themselves, read <a href=\"/blog/how-to-sell-courses-online-in-india\">how to sell courses online in India</a>.</p>\n      {{cta}}"
+  },
+  {
+   "id": "costs",
+   "h2": "What costs reduce your take-home?",
+   "toc": "Costs that cut income",
+   "html": "<p><strong>Five costs come between your sales and your income: the platform fee, the plan price, payment gateway charges where they apply, ads and tools, and taxes.</strong> Most surprises come from the ones nobody wrote down.</p>\n      <ul>\n        <li><strong>Platform fee:</strong> 10%, 7.5%, 5% or 0% on AllCoaching, depending on the plan.</li>\n        <li><strong>Plan price:</strong> paid once a year, plus 18% GST on the plan.</li>\n        <li><strong>Payment gateway charges:</strong> gateways such as Razorpay publish their charges on their pricing pages;<sup><a href=\"#ref-3\">3</a></sup> check whether and how they apply to your plan before you price.</li>\n        <li><strong>Ads and tools:</strong> Meta or Google ads, a mic, editing and design apps, a thumbnail tool.</li>\n        <li><strong>Taxes:</strong> GST if you are registered, and income tax on your net income.</li>\n      </ul>\n      {{fig:income-mistakes|Common mistakes Indian educators make when calculating online teaching income, such as treating sales as income and forgetting fees, and what to do instead|Five habits that make income look bigger than it is.}}\n      <p>The simplest protection is a one-page sheet: monthly sales, fees, plan, ads and tools, and what you set aside for tax. Update it on the first of every month and recheck which plan costs least once a year, at renewal.</p>"
+  },
+  {
+   "id": "tax",
+   "h2": "What about GST and income tax on online coaching income?",
+   "toc": "GST and income tax",
+   "html": "<p><strong>GST and income tax are separate questions: GST depends on your yearly turnover, and income tax depends on your net income after business expenses.</strong> You can be below the GST threshold and still owe income tax.</p>\n      <p>As of 2026, GST registration is generally required once aggregate turnover from services crosses ₹20 lakh a year (₹10 lakh in special-category states), and private coaching above that is commonly taxed at 18%. The GST portal is the official place to check registration and rates.<sup><a href=\"#ref-5\">5</a></sup> Income tax applies to your net taxable income under the slab you fall in, and returns are filed on the Income Tax Department's e-filing portal.<sup><a href=\"#ref-6\">6</a></sup></p>\n      <p>This guide does not give tax advice. Rules, thresholds and schemes change, and your situation may differ, so read the official portals and speak to a chartered accountant before you file. Our longer explainer on <a href=\"/blog/online-tutor-gst-income-tax-india\">GST and income tax for online tutors in India</a> covers the basics in plain language.</p>"
+  },
+  {
+   "id": "allcoaching",
+   "h2": "Where AllCoaching fits",
+   "toc": "Where AllCoaching fits",
+   "html": "<p><strong>AllCoaching works like Shopify, for coaching: sign up, choose a plan, upload your course, connect your domain and start selling, while payments, student access, apps and hosting run on their own.</strong> The pricing is published before you sign up, which is what makes the calculator above possible.</p>\n      {{fig:academy-income|AllCoaching Studio on a laptop and phone: own academy website, own Android app, unlimited live classes, UPI and card checkout, and a 0% fee Scale plan|Studio preview · sample data.}}\n      <p>Every plan starts with a 14-day free trial with no card needed. Build the academy, add a course, and use the calculator with your real price before you choose Starter, Growth, Pro or Scale. All plans and inclusions are on the <a href=\"/pricing\">pricing page</a>.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to calculate your online coaching income",
+  "description": "Seven steps for an Indian educator to estimate yearly take-home from online courses, from students and price to platform fee, plan cost, ads and tax.",
+  "total_time": "PT30M",
+  "items": [
+   [
+    "Estimate paying students",
+    "Write down how many students you can realistically get to pay you in the next 12 months, from your current audience and new students."
+   ],
+   [
+    "Set your price",
+    "Choose the price per student for your main course, batch or test series, based on the outcome it delivers."
+   ],
+   [
+    "Work out gross sales",
+    "Multiply students by price. Add other products such as a test series as separate lines."
+   ],
+   [
+    "Subtract the platform fee",
+    "Take off your platform's percentage of sales: 10%, 7.5%, 5% or 0% on AllCoaching depending on the plan."
+   ],
+   [
+    "Subtract plan, ads and tools",
+    "Take off the yearly plan price and what you will spend on ads, a mic, editing and design tools."
+   ],
+   [
+    "Check the lowest-cost plan",
+    "Compare plans at your sales level: Starter below ₹2.4 lakh, Growth to ₹4.8 lakh, Pro to ₹15 lakh, Scale above."
+   ],
+   [
+    "Set aside GST and income tax",
+    "Check whether your turnover needs GST registration and set aside income tax on net income, using official portals or a CA."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "How much can you earn teaching online in India?",
+   "There is no reliable average. Your income is students × price × (1 − platform fee), minus your plan, ads and tools, before GST and income tax. For example, an illustrative 280 students at ₹1,499 on a 7.5% plan with ₹36,000 of ads and tools leaves about ₹3.39 lakh a year before tax."
+  ],
+  [
+   "How do I calculate revenue from an online course?",
+   "Multiply paying students by the price to get gross sales. Subtract the platform fee, the yearly plan price and your ads and tools to get take-home before tax. Then check GST registration and set aside income tax on your net income."
+  ],
+  [
+   "Is a platform fee better than a subscription for online courses?",
+   "It depends on your sales. A percentage fee costs little when sales are small and more as they grow, while a fixed plan price costs the same either way. On AllCoaching, Starter costs least below ₹2.4 lakh of yearly sales, Growth to ₹4.8 lakh, Pro to ₹15 lakh and Scale above ₹15 lakh."
+  ],
+  [
+   "Which AllCoaching plan should I choose for my income level?",
+   "Pick the plan with the lowest plan price plus platform fee at the sales you expect: Starter (₹6,999 + 10%) below ₹2.4 lakh, Growth (₹12,999 + 7.5%) from ₹2.4 to ₹4.8 lakh, Pro (₹24,999 + 5%) from ₹4.8 to ₹15 lakh, and Scale (₹99,999, 0% fee) above ₹15 lakh. Prices exclude GST."
+  ],
+  [
+   "Do online tutors need to pay GST in India?",
+   "GST registration is generally required once aggregate turnover from services crosses ₹20 lakh a year, or ₹10 lakh in special-category states. Below that, most small tutors do not charge GST. Check the GST portal or a chartered accountant for your case."
+  ],
+  [
+   "Do I pay income tax on online teaching income?",
+   "Yes, if your net taxable income is above the basic exemption limit. Income tax applies to your income after business expenses, separately from GST, and returns are filed on the Income Tax Department's e-filing portal."
+  ],
+  [
+   "What is the fastest way to increase online coaching income?",
+   "Usually more students rather than a lower price: a free demo lesson, a clear course page and easy UPI checkout raise conversion. Then add a test series or a next-level course for students who already trust you."
+  ],
+  [
+   "Can I try AllCoaching before choosing a plan?",
+   "Yes. Every plan starts with a 14-day free trial and no card is needed to start. You can build your academy and add a course, then choose Starter, Growth or Pro, or contact us for Scale."
+  ]
+ ],
+ "glossary": [
+  [
+   "gross-sales",
+   "Gross sales",
+   "The total students paid you in a period: number of paying students multiplied by price, before any fees or costs."
+  ],
+  [
+   "take-home",
+   "Take-home",
+   "What you keep from sales after the platform fee, plan price, ads and tools, before GST and income tax."
+  ],
+  [
+   "platform-fee",
+   "Platform fee",
+   "The percentage of each sale a course platform keeps. On AllCoaching it is 10%, 7.5%, 5% or 0% depending on the plan."
+  ],
+  [
+   "plan-price",
+   "Plan price",
+   "The fixed yearly amount paid for a platform plan, regardless of sales. AllCoaching plan prices exclude GST."
+  ],
+  [
+   "breakeven",
+   "Breakeven",
+   "The sales level at which two plans cost the same in a year; above it the plan with the lower fee costs less in a year."
+  ],
+  [
+   "conversion-rate",
+   "Conversion rate",
+   "The share of interested students, such as demo-lesson viewers, who go on to buy a course."
+  ],
+  [
+   "gst-threshold",
+   "GST registration threshold",
+   "The yearly aggregate turnover above which GST registration is generally required: ₹20 lakh for most service providers, ₹10 lakh in special-category states."
+  ],
+  [
+   "test-series",
+   "Test series",
+   "A set of mock tests sold on its own or alongside a course, common for exam preparation."
+  ]
+ ],
+ "references": [
+  "YouTube Help, \"Change video privacy settings\" (unlisted videos), <a href=\"https://support.google.com/youtube/answer/157177\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "National Payments Corporation of India, \"UPI Product Statistics\", <a href=\"https://www.npci.org.in/what-we-do/upi/product-statistics\" target=\"_blank\" rel=\"noopener nofollow\">npci.org.in</a>, checked October 2026.",
+  "Razorpay, \"Pricing\", <a href=\"https://razorpay.com/pricing/\" target=\"_blank\" rel=\"noopener nofollow\">razorpay.com</a>, checked October 2026.",
+  "Meta Business Help Centre (ad budgets), <a href=\"https://www.facebook.com/business/help\" target=\"_blank\" rel=\"noopener nofollow\">facebook.com/business/help</a>, checked October 2026.",
+  "Goods and Services Tax Network, GST portal, <a href=\"https://www.gst.gov.in/\" target=\"_blank\" rel=\"noopener nofollow\">gst.gov.in</a>, checked October 2026.",
+  "Income Tax Department, e-filing portal, <a href=\"https://www.incometax.gov.in/iec/foportal/\" target=\"_blank\" rel=\"noopener nofollow\">incometax.gov.in</a>, checked October 2026.",
+  "AllCoaching pricing, <a href=\"/pricing\">allcoaching.in/pricing</a>, October 2026."
+ ],
+ "citations": [
+  "https://support.google.com/youtube/answer/157177",
+  "https://www.npci.org.in/what-we-do/upi/product-statistics",
+  "https://razorpay.com/pricing/",
+  "https://www.facebook.com/business/help",
+  "https://www.gst.gov.in/",
+  "https://www.incometax.gov.in/iec/foportal/",
+  "https://allcoaching.in/pricing"
+ ],
+ "about": [
+  {
+   "name": "Online coaching income"
+  },
+  {
+   "name": "E-learning (theory)",
+   "sameAs": "https://en.wikipedia.org/wiki/E-learning_(theory)"
+  },
+  {
+   "name": "Revenue",
+   "sameAs": "https://en.wikipedia.org/wiki/Revenue"
+  },
+  {
+   "name": "Break-even (economics)",
+   "sameAs": "https://en.wikipedia.org/wiki/Break-even_(economics)"
+  },
+  {
+   "name": "Goods and Services Tax (India)",
+   "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "YouTube",
+   "url": "https://www.youtube.com"
+  },
+  {
+   "name": "Instagram",
+   "url": "https://www.instagram.com"
+  },
+  {
+   "name": "Meta",
+   "url": "https://www.facebook.com/business"
+  },
+  {
+   "name": "Razorpay",
+   "url": "https://razorpay.com"
+  },
+  {
+   "name": "National Payments Corporation of India",
+   "url": "https://www.npci.org.in"
+  },
+  {
+   "name": "Goods and Services Tax Network",
+   "url": "https://www.gst.gov.in"
+  },
+  {
+   "name": "Income Tax Department",
+   "url": "https://www.incometax.gov.in",
+   "type": "GovernmentOrganization"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/how-to-price-online-courses-india",
+  "/blog/how-to-sell-courses-online-in-india",
+  "/blog/what-is-an-online-academy",
+  "/blog/online-tutor-gst-income-tax-india"
+ ]
+}
