@@ -4,6 +4,7 @@
   --blue:#2B44FF;--blue-d:#1A2FD9;--sky:#EEF2FF;--ink:#0F1220;--ink2:#4A5063;--ink3:#8A90A2;--line:#ECEEF4;--green:#16A34A;--navy:#0A0F3D}
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
+html{overflow-x:clip}
 body{margin:0;font-family:var(--ui);color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased;overflow-x:hidden;line-height:1.5}
 img{display:block;max-width:100%;height:auto}
 a{color:inherit}

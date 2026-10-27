@@ -1765,3 +1765,22 @@ footer > *{position:relative}
 .lp-h1,.lp-h2{font-family:var(--ui)!important;font-style:normal!important;font-weight:700!important;letter-spacing:-.03em!important;line-height:1.1!important}
 .lp-h1 em,.lp-h2 em{font-style:normal!important;color:var(--blue)!important}
 h1.font-display .font-display,h1.font-display span,.h-mast span,.h-chap span{font-family:inherit!important;font-style:normal!important}
+
+/* ===== Unified main nav on topbar pages (2026-10-27) ===== */
+.topbar .tb-links{display:flex;gap:28px;margin-left:28px;margin-right:auto;align-items:center}
+.topbar .tb-links a{font-size:15px;font-weight:500;color:var(--ink-1,#14161F);padding:5px 0;text-decoration:none}
+.topbar .tb-links a::after{display:none}
+.topbar .tb-links a:hover,.topbar .tb-links a[aria-current="page"]{color:#2B44FF}
+.topbar.simple .tb-links + .actions{margin-left:0}
+@media (max-width:980px){.topbar .tb-links{display:none}.topbar.simple .tb-links + .actions{margin-left:auto}}
+/* consistent text colour and headline font on core pages */
+.legal-prose p,.legal p{color:#4A5063}
+
+/* ===== Unified type on core pages (body.uni, 2026-10-27): Inter Tight headlines, light + bold, blue emphasis ===== */
+body.uni .h-mast,body.uni .h-chap,body.uni .h-mani,body.uni .h-display,body.uni .h-sec,body.uni h1.font-display,body.uni h2.font-display,body.uni h3.font-display,body.uni .h1.font-display,
+body.uni .stat-num,body.uni .cat-num,body.uni .vs-name,body.uni .vs-divider,body.uni .verdict-num,body.uni .math-total .val,body.uni .math-total .lbl{font-family:'Inter Tight',Inter,system-ui,sans-serif!important;font-style:normal!important;letter-spacing:-.03em!important}
+body.uni .h-mast,body.uni .h-chap,body.uni .h-mani,body.uni h1.font-display,body.uni h2.font-display{font-weight:300!important}
+body.uni .grad-text,body.uni .h-mast em,body.uni .h-chap em,body.uni .h-mani em{font-family:inherit!important;font-style:normal!important;font-weight:700!important;color:#2B44FF!important;-webkit-text-fill-color:#2B44FF!important;background:none!important}
+body.uni .stat-num,body.uni .cat-num,body.uni .verdict-num,body.uni .math-total .val{font-weight:700!important}
+body.uni .vs-name{font-weight:700!important}
+body.uni .text-\[\#7A8094\]{color:#7A8094!important}
