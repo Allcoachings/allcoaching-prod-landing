@@ -25,7 +25,7 @@
    {
     "need": "Own website and app, with a free trial first",
     "pick": "AllCoaching",
-    "why": "14 days free, no card; then from ₹6,999/yr + GST",
+    "why": "7 days free, no card; then from ₹6,999/yr + GST",
     "icon": "globe",
     "us": true
    },
@@ -73,7 +73,7 @@
     "name": "AllCoaching",
     "price": 6999,
     "label": "₹6,999/yr",
-    "fee": "+10% on sales, after a 14-day free trial",
+    "fee": "+10% on sales, after a 7-day free trial",
     "published": true
    },
    {
@@ -155,7 +155,7 @@
   "steps": [
    [
     "Build in the trial",
-    "Start the 14-day free trial and upload one course"
+    "Start the 7-day free trial and upload one course"
    ],
    [
     "Run both side by side",

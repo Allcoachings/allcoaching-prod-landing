@@ -22,7 +22,7 @@
    {
     "need": "Own app and website, built and changed by you",
     "pick": "AllCoaching",
-    "why": "Android app (iOS on Pro) and own domain on every plan, 14-day free trial",
+    "why": "Android app (iOS on Pro) and own domain on every plan, 7-day free trial",
     "icon": "globe",
     "us": true
    },
@@ -155,7 +155,7 @@
   "steps": [
    [
     "Build your academy",
-    "Start the 14-day trial and upload one course"
+    "Start the 7-day trial and upload one course"
    ],
    [
     "Run both side by side",

@@ -95,7 +95,7 @@ def expand(htm, c):
 
     htm = re.sub(r'\{\{fig:(.*?)\}\}', fig, htm)
     htm = re.sub(r'\{\{q:(.*?)\}\}', q, htm, flags=re.S)
-    cta = ('<div class="v3-cta">\n        <p class="t">Build your own academy. <em>Try it free for 14 days.</em></p>\n'
+    cta = ('<div class="v3-cta">\n        <p class="t">Build your own academy. <em>Try it free for 7 days.</em></p>\n'
            '        <p class="s">Website on your own domain, your own Android app (iOS app on Pro and Scale), unlimited live classes and UPI checkout on every plan. Plans from ₹6,999 a year after the trial (excl. GST).</p>\n'
            '        <div class="row"><a href="https://studio.allcoaching.in/" class="v3-btn">Start free trial</a><a href="/pricing" class="v3-btn ghost">See plans</a></div>\n'
            '        <small>No card needed · Cancel anytime in the trial · Your data stays exportable</small>\n      </div>')
@@ -190,7 +190,7 @@ def build(cpath):
                 "operatingSystem": "Web, Android, iOS",
                 "description": "AllCoaching works like Shopify for coaching: sign up, choose a plan, upload a course, connect your own domain and start selling, with payments, student access, apps and hosting handled automatically.",
                 "offers": {"@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "6999", "highPrice": "99999", "offerCount": "4",
-                           "description": "14-day free trial with no card needed, then Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 per year (excl. GST) with a 10%, 7.5% or 5% platform fee on sales, or Scale ₹99,999 per year with 0% platform fee (zero commission)."},
+                           "description": "7-day free trial with no card needed, then Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 per year (excl. GST) with a 10%, 7.5% or 5% platform fee on sales, or Scale ₹99,999 per year with 0% platform fee (zero commission)."},
                 "featureList": ["Academy website on your own connected domain", "Own white-label Android app (iOS app on Pro and Scale)", "Zero-commission Scale plan (0% platform fee)", "Unlimited live classes via YouTube Live, Zoom or the built-in live room",
                                 "Unlimited videos via YouTube", "Courses, PDF notes and test series", "UPI and card checkout with automatic Razorpay payouts",
                                 "Meta Pixel and Google Tag Manager", "Free customizable themes and templates", "Student data export"],
@@ -283,7 +283,7 @@ def build(cpath):
       </ol>
     </nav>
     <div class="v3-sidecta">
-      <p>Start your online academy today. <b>14 days free.</b></p>
+      <p>Start your online academy today. <b>7 days free.</b></p>
       <a href="https://studio.allcoaching.in/">Start free trial {ARROW}</a>
     </div>
   </aside>
@@ -297,7 +297,7 @@ def build(cpath):
       <summary>On this page</summary>
       <ol></ol>
     </details>
-    <div class="v3-sidecta-m"><div class="v3-sidecta"><p>Start your online academy today. <b>14 days free.</b></p><a href="https://studio.allcoaching.in/">Start free trial {ARROW}</a></div></div>
+    <div class="v3-sidecta-m"><div class="v3-sidecta"><p>Start your online academy today. <b>7 days free.</b></p><a href="https://studio.allcoaching.in/">Start free trial {ARROW}</a></div></div>
 
     <section id="intro">
       {intro}

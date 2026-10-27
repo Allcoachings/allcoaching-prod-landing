@@ -37,7 +37,7 @@
   "<strong>Store fees are small but fixed:</strong> Google Play charges a US$25 one-time registration fee and Apple's Developer Program costs US$99 a year.",
   "<strong>Published app prices vary widely</strong> (checked 24 Oct 2026): Classplus lists ₹29,999 for 1 year, TagMango a ₹74,999 + GST branded-apps setup on top of a plan, and Exly a mobile-app add-on from ₹60,000 a year.",
   "<strong>Ask for the full year in writing:</strong> renewal price, fee on each sale, GST, which apps are included, whose developer account and how you export your data.",
-  "<strong>On AllCoaching</strong> every plan includes a website on your own domain and your own Android app; the iOS app is on Pro (₹24,999 a year) and Scale. Plans start at ₹6,999 a year + GST after a 14-day free trial."
+  "<strong>On AllCoaching</strong> every plan includes a website on your own domain and your own Android app; the iOS app is on Pro (₹24,999 a year) and Scale. Plans start at ₹6,999 a year + GST after a 7-day free trial."
  ],
  "sections": [
   {
@@ -104,7 +104,7 @@
    "id": "on-allcoaching",
    "toc": "On AllCoaching",
    "h2": "What a coaching app costs on AllCoaching",
-   "html": "<p><strong>On AllCoaching, the app is part of the plan: every plan includes your own white-label Android app and a website on your own domain, and the iOS app is included on Pro and Scale.</strong> There is no separate build or setup project; you sign up, choose a plan, upload your course, connect your domain and start selling, while payments, student access, apps and hosting run on their own.</p>\n      <p>Every plan starts with a 14-day free trial with no card needed. After it, Starter is ₹6,999 a year with a 10% platform fee, Growth ₹12,999 with 7.5% and Pro ₹24,999 with 5% plus a premium theme. Scale is ₹99,999 a year with a 0% platform fee, bought through \"Contact us\" on the <a href=\"/pricing\">pricing page</a>. Prices exclude GST, and you keep 90–100% of each sale depending on the plan.</p>\n      <p>Every plan also includes unlimited live classes (YouTube Live, Zoom or the built-in room), unlimited video via YouTube, UPI and card checkout with automatic Razorpay payouts, Meta Pixel, Google Tag Manager and free themes.</p>\n      {{fig:academy-app-promo|AllCoaching Studio on a laptop and phone: own Android app on every plan, iOS on Pro and Scale, website on your own domain|AllCoaching Studio preview · sample data. Logos belong to their owners.}}\n      <p>We built it this way because the story we hear most is an educator who paid for an app and had nothing left for marketing. For the full journey to a first sale, read <a href=\"/blog/how-to-sell-courses-online-in-india\">how to sell courses online in India</a>.</p>"
+   "html": "<p><strong>On AllCoaching, the app is part of the plan: every plan includes your own white-label Android app and a website on your own domain, and the iOS app is included on Pro and Scale.</strong> There is no separate build or setup project; you sign up, choose a plan, upload your course, connect your domain and start selling, while payments, student access, apps and hosting run on their own.</p>\n      <p>Every plan starts with a 7-day free trial with no card needed. After it, Starter is ₹6,999 a year with a 10% platform fee, Growth ₹12,999 with 7.5% and Pro ₹24,999 with 5% plus a premium theme. Scale is ₹99,999 a year with a 0% platform fee, bought through \"Contact us\" on the <a href=\"/pricing\">pricing page</a>. Prices exclude GST, and you keep 90–100% of each sale depending on the plan.</p>\n      <p>Every plan also includes unlimited live classes (YouTube Live, Zoom or the built-in room), unlimited video via YouTube, UPI and card checkout with automatic Razorpay payouts, Meta Pixel, Google Tag Manager and free themes.</p>\n      {{fig:academy-app-promo|AllCoaching Studio on a laptop and phone: own Android app on every plan, iOS on Pro and Scale, website on your own domain|AllCoaching Studio preview · sample data. Logos belong to their owners.}}\n      <p>We built it this way because the story we hear most is an educator who paid for an app and had nothing left for marketing. For the full journey to a first sale, read <a href=\"/blog/how-to-sell-courses-online-in-india\">how to sell courses online in India</a>.</p>"
   }
  ],
  "steps": {
@@ -210,7 +210,7 @@
   ],
   [
    "What does a coaching app cost on AllCoaching?",
-   "After a 14-day free trial: Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee, or Scale ₹99,999 with 0%, all excluding GST. Every plan includes your own Android app and website; Pro and Scale add iOS."
+   "After a 7-day free trial: Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee, or Scale ₹99,999 with 0%, all excluding GST. Every plan includes your own Android app and website; Pro and Scale add iOS."
   ]
  ],
  "references": [

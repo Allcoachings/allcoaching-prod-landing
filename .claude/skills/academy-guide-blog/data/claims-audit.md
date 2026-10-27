@@ -113,7 +113,7 @@ Verdicts: **confirmed** (the official page supports it today), **contradicted** 
 
 - teachable-thinkific-alternative-india: "pays ₹0 up front" breaks CLAUDE.md (no free tier; Starter is ₹6,999/yr).
 - vedantu-, winuall-, kajabi-, spayee-learnyst-, exly-rigi-, skool-circle- posts: "no monthly subscription" / "bills only after you earn" / "pays nothing in a month with no sales" sit awkwardly with the ₹6,999 annual plan. The CLAUDE.md wording is "one predictable annual plan".
-- skool-circle-so-alternative-india: "a platform take only 10%" is fine, but "no card required just to sign up" should read "no card needed to start the 14-day trial".
+- skool-circle-so-alternative-india: "a platform take only 10%" is fine, but "no card required just to sign up" should read "no card needed to start the 7-day trial".
 
 ## Tally
 

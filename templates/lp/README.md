@@ -9,7 +9,7 @@ ad → allcoaching.in/landing/<page>
      → CTA opens the checkout (/assets/checkout.js): plan on the left, checkout on the right
         1. mobile number + OTP          (POST login/, login/verify)
         2. name + academy name          (PATCH login/update)
-        3. plan → Razorpay, or 14-day trial
+        3. plan → Razorpay, or 7-day trial
                                         (claim → pay/checkout → Razorpay → pay/verify, or claim → trial)
      → studio.allcoaching.in (signed in via /handoff once that studio build is live, else /login)
 ```

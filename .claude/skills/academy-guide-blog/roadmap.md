@@ -7,7 +7,7 @@ How the list was made:
 - English/Hinglish pairs that became the same post were merged: pricing (old 5+6), UPI (10+11), Meta ads (13+14), SEO (15+16). SEO is already live.
 - Four freed slots went to distinct topics no post covers: What is an online academy, course description, academy name ideas, 30-day launch plan, Google Business Profile.
 - Every title was checked against `blog/`, `blogs/en/`, `blogs/hinglish/`. Where an English post already targets the keyword, the item is a **REFRESH**: rewrite that post into the v3 layout at its existing URL (keeps rankings), don't publish a duplicate.
-- Pricing-rule fixes: "₹0" removed from old #3; "for Free" removed from old #9 (there is a 14-day free trial, not a free tier). Old #10 "Without a Payment Gateway Account" dropped until the owner confirms how Razorpay onboarding works for educators.
+- Pricing-rule fixes: "₹0" removed from old #3; "for Free" removed from old #9 (there is a 7-day free trial, not a free tier). Old #10 "Without a Payment Gateway Account" dropped until the owner confirms how Razorpay onboarding works for educators.
 
 | # | Phase | Title | Primary keyword | Type | Status |
 |---|---|---|---|---|---|

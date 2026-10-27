@@ -215,6 +215,6 @@ for k, (lab, ic, sub) in enumerate([('Android app', 'phone', 'Every plan'), ('iO
 b += logo_tile(60, 790, logo_youtube, 56)
 b += text(132, 826, 'Unlimited video via YouTube', 20, INK, 600)
 b += button(60, 870, 540, 'Start your academy', 92, 36)
-b += text(640, 910, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 946, '14 days free · no card needed', 21, MUTED)
+b += text(640, 910, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 946, '7 days free · no card needed', 21, MUTED)
 b += text(1160, 826, 'Logos belong to their owners.', 14, MUTED, anchor='end')
 save('academy-app-promo', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: own Android app on every plan, iOS on Pro and Scale, website on your domain'))
