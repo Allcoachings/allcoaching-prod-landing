@@ -6,11 +6,1032 @@
 > Site: https://allcoaching.in | Educator product: https://studio.allcoaching.in
 
 This file is the canonical full-text concatenation of all AllCoaching long-form essays for AI training crawlers.
-Generated: 2026-10-25 | Source: 23 blog posts
+Generated: 2026-10-27 | Source: 23 blog posts
 
 Approved crawlers: GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-User, Claude-SearchBot, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, Bytespider, Amazonbot, CCBot, cohere-ai, Mistral-AI-User, meta-externalagent.
 
 See also: https://allcoaching.in/llms.txt (summary index) and https://allcoaching.in/sitemap.xml (URL list).
+
+---
+
+# How to Make a Coaching App Without Coding (India, 2026)
+
+**Source:** https://allcoaching.in/blog/how-to-make-coaching-app-without-coding  
+**Published:** 2026-10-27T09:00:00+05:30  
+**Updated:** 2026-10-27T09:00:00+05:30  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** How to make a coaching app without coding in India: compare agency, app builder and academy platform, see what the app needs, and launch your own branded app in 6 steps.
+
+Amit RatanUpdated 27 Oct 2026 · 19 min read
+
+
+On this page
+
+
+Start your online academy today. 14 days free.
+
+Start free trial
+
+
+To make a coaching app without coding, use an academy platform that includes a white-label app: sign up, choose a plan, upload your courses, PDFs and tests, add your academy name, logo and colours, connect your domain, and share the app with your students. The platform builds, hosts and updates the app; you only fill it with your teaching.
+
+Perhaps you teach SSC maths in Hindi to a few thousand YouTube subscribers, run an offline NEET batch in Lucknow, or teach spoken English or yoga to working adults over Zoom. Your students keep asking for one place to find the recordings, the notes and the test link. You look at the big exam brands, each with its own app, and think: I want that, with my name on it. Then you hear what a developer would charge, how long it takes, and that someone has to keep it updated.
+
+This guide is about the app itself. It compares the three honest routes (an agency or freelancer, a no-code app builder, and an academy platform with an app included), lists the features a coaching app for teachers really needs, walks through the six steps to your own branded app, explains Android versus iOS, and shows how to get students to install it from YouTube, WhatsApp and Instagram. If your main goal is the academy website rather than the app, read how to create an online academy without a developer alongside this one.
+
+
+
+
+
+
+## Key takeaways
+
+
+- You do not need to code or hire a developer to get your own coaching app; an academy platform with a white-label app builds, hosts and updates it for you.
+
+- Three routes exist: an agency or freelancer builds a custom app to your scope, a generic no-code app builder leaves courses and checkout to you, and an academy platform includes the app with your courses, tests, live classes and payments.
+
+- A coaching app needs eight basics: student login, course library, video lessons, PDF notes, tests, live classes, UPI and card payments, and your own brand.
+
+- Store rules are fixed costs of doing it yourself: Google Play charges a US$25 one-time registration fee, and Apple's Developer Program costs 99 USD a year.
+
+- Students install apps they have a reason to open. Send them from YouTube, WhatsApp and Instagram to a free demo lesson first, then to the app.
+
+- On AllCoaching, your own white-label Android app is on every plan and the iOS app is on Pro and Scale, after a 14-day free trial with no card; plans run from ₹6,999 a year plus GST.
+
+
+
+
+
+
+
+## Can you really make a coaching app without coding?
+
+Yes. Most Indian educators who have their own app today did not write a line of code; they used a platform that already had the app built and filled it with their own content and brand. What you choose is not whether to code, but who builds and maintains the app for you.
+
+A coaching app looks simple from the outside: a login screen, a list of courses, videos, PDFs and a test. Underneath, it needs a server, video playback that works on slow mobile data, a payment flow that confirms UPI payments and opens access, a way to add new lessons without releasing a new app version, and regular updates so it keeps working on new Android and iOS versions. Writing all of that yourself is a software project, not a teaching task.
+
+That is why no-code routes exist. In each of them the hard parts are built once and shared, and you work through forms and buttons: upload a video, set a price, choose a colour. The differences between routes come down to three questions: who builds the app, who can change it next month, and what else you still have to stitch together around it.
+
+Educators we work with often start with the wrong question, "which app should I build?", when the useful one is "where will my students learn, pay and come back every week?" The app is the front door. The course library, tests, live classes and checkout behind it are what make it worth opening.
+
+
+
+
+
+
+## Three ways to build a coaching app: agency, no-code builder or academy platform
+
+You can hire an agency or freelancer to build a custom app, assemble one yourself in a general no-code app builder, or use an academy platform where a white-label coaching app comes with your LMS. Each fits a different educator.
+
+
+
+Same goal, different work for you. Example comparison; times are illustrative.
+
+
+
+### 1. Hire an agency or freelancer (custom build)
+
+A developer team designs and codes an app to your specification. You get exactly what you asked for, and you pay for every part of it: design, build, testing, store publishing, hosting, and then every change and update after launch. Quotes vary so widely with scope that a single number is misleading; our guide to white label coaching app development cost in India lists the line items to ask about and what vendors publish. The catch most educators meet later is not the first invoice but the second: a new feature, a broken payment flow or an Android update means another ticket and another wait.
+
+
+
+### 2. Use a no-code app builder
+
+General app builders let you drag screens together without code. They are built for every kind of business, so a coaching app is something you assemble: you design the screens, then find a way to add a course library, video playback, tests, a checkout that opens access after payment, and a website. That can work for a simple content app, but educators usually discover that the hard parts of a coaching app are exactly the ones a generic builder leaves to them.
+
+
+
+### 3. Use an academy platform with a white-label app
+
+An academy platform (an LMS made for educators) gives you courses, tests, live classes, payments and a website as one system, and the student app is part of it. A white label coaching app means the app carries your academy's name, logo and colours, not the platform's. You change content and settings yourself in the platform's studio, and new lessons appear in the app without a new release. The trade-off: you work within what the platform offers rather than designing every screen from scratch.
+
+
+
+Agency or freelancerNo-code app builderAcademy platform with app
+
+Who builds itA developer teamYou, screen by screenThe platform; you fill it in
+Who changes it laterThe developerYouYou, in the studio
+Courses, tests, live classesBuilt to orderUsually add-ons or workaroundsIncluded
+Payments and accessBuilt to orderOften a separate toolIncluded
+WebsiteSeparate projectSometimesIncluded, on your domain
+Cost shapeProject quote plus upkeepBuilder plan plus add-onsYearly plan plus a fee on sales
+
+A general comparison of the three routes. Check any specific provider's current terms before you choose.
+
+
+If you want to see more options side by side, including running a batch on WhatsApp and Telegram with no app at all, our comparison of personal coaching app alternatives covers four routes and when each fits.
+
+
+
+
+
+
+## What does a coaching app for teachers need?
+
+A coaching app for teachers needs eight basics: student login, a course library, video lessons, PDF notes, tests, live classes, UPI and card payments, and your own brand. Everything else is a later decision.
+
+
+
+The eight basics students expect on day one. Studio preview · sample data.
+
+
+- Student login: each student has an account that remembers what they bought and where they stopped.
+
+- Course library: courses split into modules in syllabus order, so a student always knows what comes next.
+
+- Video lessons: recorded lessons that play smoothly on a basic Android phone on mobile data.
+
+- PDF notes: chapter notes, formula sheets and previous-year questions readable on a 6-inch screen.
+
+- Tests: chapter quizzes and timed mock tests with answers, the part exam students return to most.
+
+- Live classes: a weekly doubt class or revision session, so the course feels taught, not just sold.
+
+- Payments: UPI and card checkout that opens the course automatically once the payment succeeds.
+
+- Your brand: your academy name, logo and colours, so students know whose app they installed.
+
+
+On AllCoaching all eight sit in one studio. Videos come in through YouTube and are unlimited on every plan, PDF notes and test series live in the Content section, live classes run through YouTube Live, Zoom or the built-in live room with no hour caps, and UPI or card checkout opens access on its own, with payouts through Razorpay. The same courses appear on your academy website and in your app. For the course itself, our guide to creating your first online course covers structure, recording and tests in detail.
+
+
+Question educators ask
+
+
+
+### What about push notifications, chat and other extras?
+
+Treat extras such as push notifications, in-app chat or doubt forums as questions to ask before you choose any provider, not as reasons to delay launch. Check what is included in your plan today, in writing. Students stay for clear lessons, regular tests and a teacher who shows up live, not for the number of features.
+
+
+
+
+
+
+
+## How to make a coaching app without coding: 6 steps
+
+Sign up and start the free trial, choose a plan, upload your first course, brand the academy with your name, logo and colours, connect your domain, and share the app with your students. Payments, student access, apps and hosting then run on their own.
+
+
+
+Six steps, no code at any of them. Plans from ₹6,999/year + GST after the free trial.
+
+
+- Sign up and start the free trialCreate your account and start the 14-day free trial; no card is needed to start.
+
+- Choose a planPick the plan that fits your sales and apps: own Android app on every plan, iOS app on Pro and Scale.
+
+- Upload your first courseAdd videos via YouTube in syllabus order, a PDF of notes and a test per module, and mark lesson 1 as a free demo.
+
+- Brand itAdd your academy name, a square logo and your colours so the app and website carry your brand.
+
+- Connect your domainPoint your own domain, such as youracademy.in, to your academy website.
+
+- Share the app with your studentsPost the link on YouTube, WhatsApp and Instagram and install it together with your current batch.
+
+
+
+
+### Step 1: Sign up and start the trial
+
+Create your account and start the 14-day free trial; no card is needed to start. Use the trial to build for real, not to browse: upload one module, set a price and walk through the checkout as a student would.
+
+
+
+### Step 2: Choose a plan
+
+The plan decides which apps you get and the fee on each sale. Your own white-label Android app is on every plan; the iOS app is on Pro and Scale. More on choosing in the Android and iOS section below.
+
+
+
+### Step 3: Upload your first course
+
+Add one complete course before you think about the app's look: videos in syllabus order (uploaded to YouTube as unlisted, which YouTube's help centre says anyone with the link can watch but which does not show in search results6), a PDF of notes per module, a module test and lesson 1 marked free as a demo. An app with one excellent course beats an app with ten empty ones.
+
+
+
+### Step 4: Brand it
+
+Add your academy name, logo and colours in the studio's branding settings. They carry across the app, the website and the course pages. The next section covers how to choose them.
+
+
+
+### Step 5: Connect your domain
+
+Point a domain such as youracademy.in to your academy website. Every AllCoaching plan includes connecting your own domain. The website matters for an app: it is where a student lands from a YouTube link, watches the demo lesson and decides to install.
+
+
+
+### Step 6: Share the app with your students
+
+Start with the students you already have: your current batch, your WhatsApp group, your YouTube subscribers. The install section below shows where to put the link and what to say.
+
+
+Build your own academy. Try it free for 14 days.
+
+Website on your own domain, your own Android app (iOS app on Pro and Scale), unlimited live classes and UPI checkout on every plan. Plans from ₹6,999 a year after the trial (excl. GST).
+
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Your data stays exportable
+
+
+
+
+
+
+## How do you brand a white label coaching app?
+
+Brand a white label coaching app with four decisions made before you open the studio: an academy name students can say and type, a square logo that reads at icon size, one main colour plus one accent, and a domain that matches the name.
+
+
+
+Decide the brand kit once, use it everywhere. Studio preview · sample data.
+
+
+
+### The academy name
+
+Use the name students already know you by. If your YouTube channel is "Sharma Sir Maths", the app should not be called something new and clever; students search for the name they know. Keep it short enough to fit under an app icon on a phone home screen, and check the matching domain is available before you settle on it.
+
+
+
+### The logo
+
+An app icon is small. A logo with a long name written across it turns into a smudge at icon size. Make a square version: an initial, a simple mark or a short word on a solid colour. Test it by shrinking it to the size of a fingernail on your own phone screen.
+
+
+
+### Colours
+
+Pick one main colour for buttons and headings and one accent. Check that white text is readable on your main colour; very light yellows and pastels often fail on a bright phone screen outdoors.
+
+
+
+### Consistency
+
+Use the same name, logo and colours on your app, website, YouTube channel art, Instagram profile and WhatsApp display picture. When a student taps a link and sees the same face and name they followed on YouTube, they trust the install.
+
+
+
+
+
+
+## Do you need an Android app, an iOS app or both?
+
+Start with Android: for most Indian coaching students, especially in tier-2 and tier-3 cities, an Android phone is the device they study on. Add iOS when a meaningful share of your students, often working adults, CAT or CLAT aspirants and students abroad, ask for it.
+
+
+
+Prices exclude GST. Fee is the platform fee on each sale.
+
+
+
+### What the stores require if you publish yourself
+
+If you build an app yourself or through an agency, you deal with the stores directly. Google Play's help centre states:
+
+
+"There is a US$25 one-time registration fee."
+
+Google Play Console Help1
+
+Google also asks personal developer accounts created after 13 November 2023 to run a closed test with at least 12 testers for at least 14 days before the app can go live.2 Apple's Developer Program costs 99 USD a year.3 And apps need regular updates: Google Play requires new apps and app updates to target a recent Android API level,5 so an app nobody maintains eventually cannot ship updates.
+
+Apple's guidelines matter for template-based apps in particular. Guideline 4.2.6 reads: "Apps created from a commercialized template or app generation service will be rejected unless they are submitted directly by the provider of the app's content."4 Whichever provider you choose, ask whose developer account the app is published under and what happens to it if you leave.
+
+
+
+### Which AllCoaching plan includes which app
+
+
+
+PlanPrice per yearPlatform feeAndroid appiOS app
+
+Starter₹6,99910%YesNo
+Growth₹12,9997.5%YesNo
+Pro₹24,9995%YesYes
+Scale₹99,999 (via Contact us)0%YesYes
+
+AllCoaching plans, October 2026. Prices exclude GST. Every plan also includes a website on your own domain and unlimited live classes.
+
+
+Every plan includes the website as well as the app, so a student on an iPhone can still learn from your academy website on Starter and Growth while you grow into Pro.
+
+
+
+
+
+
+## How do you get students to install your coaching app?
+
+Give students a reason before you ask for the install: send them from YouTube, WhatsApp and Instagram to a free demo lesson on your academy website, and ask them to install the app once they have something to come back to. "Download my app" alone rarely works; "the notes and test for today's class are in the app" does.
+
+
+
+One link, everywhere your students already are. Example path, illustrative. Logos belong to their owners.
+
+
+
+### From YouTube
+
+Put your academy link in the first two lines of every video description and in a pinned comment. At the end of a useful free video, say exactly what the student gets in the app: "the PDF of these 20 questions and a timed test are free inside the app". A specific reason converts better than a general request.
+
+
+
+### From WhatsApp
+
+Your existing batch group is the fastest first 50 installs. Move one thing into the app and announce it: this week's notes, the mock test, or the live class link. Keep the group for announcements and point every announcement to the app. Many students resist leaving WhatsApp at first; move them with content, not with rules.
+
+
+
+### From Instagram
+
+Use the bio link for your academy website, and stories with a link sticker on days you post a new test or live class. Reels bring new people; the bio link turns the interested ones into students.
+
+
+
+### In class
+
+If you teach offline, give the first five minutes of one class to installing together: students open the link, log in, and open the free lesson while you are in the room. Educators we work with often find this single step does more than a week of posts.
+
+For the next stage, our guide on how to get your first 500 students for a coaching app covers content, referrals from existing students and paid ads in more depth.
+
+
+
+
+
+
+## How much does a coaching app cost in India?
+
+The cost of a coaching app in India depends on the route: a custom build is quoted by scope and needs ongoing upkeep, while an academy platform charges a published yearly plan plus a fee on each sale. Compare the full year, not the first payment.
+
+We do not put a single number on agency builds here, because quotes for "app plus website plus LMS plus payments" vary too much to be useful. Our coaching app development cost guide breaks down the eight cost lines (design and build, store accounts, hosting, video and live classes, payments, website and domain, maintenance and marketing) and the questions to ask any vendor.
+
+On AllCoaching the app is part of the plan, not a separate project. After a 14-day free trial with no card, plans are Starter ₹6,999, Growth ₹12,999 and Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee on sales, or Scale at ₹99,999 a year with a 0% platform fee, which you buy through Contact us. Prices exclude GST. Which plan costs least overall depends on your yearly sales (before GST): Starter below about ₹2.4 lakh, Growth from ₹2.4 to ₹4.8 lakh, Pro from ₹4.8 to ₹15 lakh, and Scale above ₹15 lakh. See AllCoaching pricing for the full plan details.7
+
+
+Question educators ask
+
+
+
+### Can I create a coaching app for free?
+
+You can build and test one free during a trial. On AllCoaching every plan starts with a 14-day free trial, no card needed, which is enough to upload a course, brand the academy and try the app with a few students. After the trial you choose one of the annual plans; there is no free tier.
+
+
+Payment gateway charges sit on top of any platform. If you are new to collecting fees online, our guide to accepting UPI payments for online courses explains how checkout, gateway fees and payouts work.
+
+
+
+
+
+
+## Common mistakes when making a coaching app
+
+The most common coaching app mistakes are launching the app before there is content, chasing features instead of the basics, ignoring the website, choosing a name students do not recognise, going quiet after launch, and not checking how to take your data with you.
+
+
+
+Six mistakes we see most often, and the fix for each.
+
+
+- App before content. An empty app gets uninstalled. Upload one complete course with notes and tests before you share the link.
+
+- Ten features, no plan. Start with the eight basics above. Add more only when students ask for something twice.
+
+- No website. Links from YouTube and Instagram open in a browser. Without a website and a demo lesson, the student has nothing to see before installing.
+
+- An unclear app name. Use the name students already follow, not a new brand they have never heard of.
+
+- Launch and forget. A weekly live class and a new test every week give students a reason to open the app. Without them, installs turn into uninstalls.
+
+- No way to leave. Before you sign with anyone, ask how you export your students and content. On AllCoaching your content and student data stay exportable.
+
+
+
+"Students do not open an app because it exists. They open it because today's notes, today's test and today's class are inside."
+
+Amit Ratan, Founder & CEO, AllCoaching
+
+
+
+
+
+
+## When is a custom-built coaching app worth it?
+
+A custom app is worth it when you need software no platform offers, such as a unique learning tool, deep integration with your institute's own systems, or a design you must control screen by screen, and you have the budget and a team to maintain it.
+
+Large multi-centre institutes sometimes reach that point. For an individual educator or a small institute starting out, it usually makes sense to launch on a platform first, learn what your students actually use, and only then decide whether anything is missing. If you later outgrow it, having your content and student data exportable keeps that option open.
+
+If you are still deciding what kind of business you are building, our explainer on what an online academy is shows how the website, app, courses and payments fit together.
+
+
+
+
+
+
+## Glossary
+
+
+White-label app
+An app built and maintained by a platform but published under your academy's name, logo and colours.
+No-code
+Building software through forms, settings and drag and drop instead of writing programming code.
+LMS (learning management system)
+Software that holds courses, lessons, tests and student progress, and controls who can access what.
+App builder
+A general tool for assembling an app from ready-made screens and blocks, not specific to teaching.
+Developer account
+The account on Google Play or the Apple Developer Program that an app is published under.
+Platform fee
+The percentage a platform keeps from each sale, on top of a yearly plan where one applies.
+Demo lesson
+A free lesson that lets students judge your teaching before they buy or install.
+Custom domain
+Your own web address, such as youracademy.in, connected to your academy website.
+
+
+
+
+
+
+## Frequently asked questions
+
+How can I make a coaching app without coding?Use an academy platform that includes a white-label app. Sign up, choose a plan, upload your courses, PDFs and tests, add your academy name, logo and colours, connect your domain and share the app with your students. The platform builds, hosts and updates the app.
+
+Can I create a coaching app for free?You can build and test one during a free trial. On AllCoaching every plan starts with a 14-day free trial with no card needed; after that you choose an annual plan from ₹6,999 a year plus GST. There is no free tier.
+
+What is a white label coaching app?A white label coaching app is a student app built and maintained by a platform but published with your academy's name, logo and colours, so students see your brand rather than the platform's.
+
+What features should a coaching app have?Student login, a course library, video lessons, PDF notes, tests, live classes, UPI and card payments, and your own brand. Add extras only when students ask for them.
+
+Do I need an Android app or an iOS app for my coaching institute?Start with Android, since most Indian coaching students study on Android phones. Add iOS when enough of your students ask for it. On AllCoaching the own Android app is on every plan and the iOS app is on Pro and Scale.
+
+How much does it cost to make a coaching app in India?A custom build is quoted by scope plus upkeep, so compare full-year quotes. On AllCoaching the app comes with the plan: Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 a year with a 10%, 7.5% or 5% fee on sales, or Scale ₹99,999 a year at 0%, all excluding GST.
+
+How long does it take to launch a coaching app without coding?On an academy platform, the setup itself can fit into a few evenings once your first course is recorded. Recording the course usually takes longer than building the app.
+
+How do I get students to download my coaching app?Give them a reason first. Link to a free demo lesson from YouTube descriptions, WhatsApp groups and your Instagram bio, move notes and tests into the app, and install it together with your current batch in class.
+
+
+
+
+
+
+## Sources
+
+
+- Google, "Play Console Help: Get started with Play Console" (registration fee). support.google.com, checked October 2026.
+
+- Google, "Play Console Help: App testing requirements for new personal developer accounts". support.google.com, checked October 2026.
+
+- Apple, "Apple Developer Program enrollment". developer.apple.com, checked October 2026.
+
+- Apple, "App Review Guidelines", guideline 4.2.6. developer.apple.com, checked October 2026.
+
+- Android Developers, "Meet Google Play's target API level requirement". developer.android.com, checked October 2026.
+
+- YouTube Help, "Change video privacy settings" (unlisted videos). support.google.com, checked October 2026.
+
+- AllCoaching pricing, allcoaching.in/pricing, October 2026.
+
+
+
+
+
+
+
+Amit Ratan
+Founder & CEO, AllCoaching
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. This guide comes from helping educators set up their own branded academies and apps; app store rules are linked to Google's and Apple's official pages, and timings and example paths are marked as illustrative.
+
+---
+
+# WhatsApp Group to Online Academy: Step-by-Step Guide (2026)
+
+**Source:** https://allcoaching.in/blog/whatsapp-group-to-online-academy  
+**Published:** 2026-10-27T09:00:00+05:30  
+**Updated:** 2026-10-27T09:00:00+05:30  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** Move a paid coaching batch from WhatsApp groups to your own online academy: audit your tools, upload old notes as a course, add UPI checkout, set a switch-over date.
+
+Amit RatanUpdated 27 Oct 2026 · 20 min read
+
+
+On this page
+
+
+Start your online academy today. 14 days free.
+
+Start free trial
+
+
+To move a paid coaching batch from a WhatsApp group to your own online academy, list every tool the batch uses today, set up the academy, upload your old lessons and notes as one organised course, add UPI and card checkout, announce a switch-over date to your students with a clear message, keep the WhatsApp group only for announcements, and personally follow up with anyone who has not moved. Done in that order, most batches move in two to four weeks without losing students.
+
+Perhaps this is your week. Admissions come through a Google Form. Fees arrive on UPI and the proof arrives as a screenshot in your personal chat. The Zoom link goes into the group every evening. Notes sit in a Drive folder that three people have edit access to. A new student joins in the third month and asks for everything from the first two. None of this is wrong; it is how a huge number of Indian educators started teaching online, because WhatsApp is where students already are.
+
+The trouble starts when the batch grows. This guide names the problems honestly, then gives you an eight-step migration plan, ready-to-send message templates for your students, a four-week timeline and the mistakes to avoid. It is written for exam educators (SSC, NEET, JEE, banking, state PSC) and skill educators (spoken English, yoga, music, coding) alike, and it works the same way if your batch lives on Telegram.
+
+
+
+
+
+
+## Key takeaways
+
+
+- WhatsApp is good at conversation, not at running a paid course: it has no checkout, no course library in order, no tests and no record of who has paid.
+
+- The biggest hidden cost is fee checking by hand: matching UPI screenshots to bank entries, then adding each student and resending old links, every batch.
+
+- Links leak: Google Drive's "anyone with the link" setting and YouTube unlisted videos can both be opened by anyone the link is forwarded to.
+
+- Do not delete the group. Keep WhatsApp for reminders and alerts, and move fees, lessons, notes, tests and live class links into your academy.
+
+- Pick one switch-over date, announce it about two weeks ahead, honour what current students already paid, and follow up one by one.
+
+- Students do not have to install anything: your academy website opens in the phone's browser, and your own Android app is there for those who want it.
+
+- On AllCoaching you sign up, choose a plan, upload your course, connect your domain and start selling, after a 14-day free trial with no card.
+
+
+
+
+
+
+
+## How do you move from a WhatsApp group to your own online academy?
+
+Audit what you use, set up the academy, upload old content as a course, set a price with UPI checkout, invite current students, keep WhatsApp for announcements, switch over on a fixed date, then follow up. Each step below has its own section.
+
+
+- Audit what you useList every tool, piece of content, student and fee the batch runs on today in one sheet.
+
+- Set up your academySign up, choose a plan, add your name and logo, and connect your own domain.
+
+- Upload old content as a courseRebuild Drive and YouTube material into modules with lessons in order, PDF notes, tests and a free demo lesson.
+
+- Set a price and UPI checkoutKeep your current fee, add UPI and card checkout, and test one real payment with a friend.
+
+- Invite existing studentsSend a clear announcement with one date and one link, and honour what current students already paid.
+
+- Keep WhatsApp for announcementsMake the group admin-only or use a Channel for reminders, alerts and links back to the academy.
+
+- Switch over on a fixed dateAfter the date, new fees, notes and live class links are only in the academy.
+
+- Follow up one by oneMessage or call every student who has not signed in, and review the move after a month.
+
+
+The order matters. Educators who announce first and build later end up sending half-finished links to a whole batch. Educators who build quietly for a week, test a payment with a friend and only then announce usually move most of their students in the first few days.
+
+When educators move a batch to AllCoaching, the part they worry about most is students. The part that actually takes time is the content: turning two years of Drive folders and forwarded PDFs into modules a new student can follow. Plan your week around that.
+
+
+
+
+
+
+## What are the problems with running paid coaching on WhatsApp groups?
+
+The main WhatsApp coaching problems are manual fee checks, links that can be forwarded to anyone, new students who cannot see old notes, group size limits that split a batch, phone numbers visible to every member and no way to track progress. Each one is small with 20 students and painful with 200.
+
+
+
+The stitched-together setup on the left, one academy on the right. Illustrative. Logos belong to their owners.
+
+
+
+### 1. Fees are checked by hand
+
+A student pays on UPI, sends a screenshot, and you open your bank app to match the amount and the name. Then you note it in a sheet and add the student to the group. A screenshot is a picture, not a payment record; it can be old, cropped or for a different amount, and you only find out when you check. At the end of the month, "who has not paid" becomes a scroll through chats.
+
+
+
+### 2. Links travel further than you want
+
+Paid material on WhatsApp usually means a Drive link or a YouTube link. Google's own help page describes the "Anyone with the link" setting plainly: "Anyone on the internet who has the link can open the file without signing in to a Google Account."1 YouTube says unlisted videos "can be seen and shared by anyone with the link".2 Once a link is in a group, any member can forward it to a friend who never paid.
+
+
+
+### 3. New students cannot see the old notes
+
+A WhatsApp group is a timeline, not a library. A student who joins in month three finds PDFs, links and voice notes buried hundreds of messages up, if they can see them at all, and asks you to resend everything. You end up re-posting the same material for every late joiner.
+
+
+
+### 4. Groups have a size limit
+
+WhatsApp groups have a member cap, and big batches end up split into "Batch A" and "Batch B" groups that you post into twice. Telegram channels avoid the cap but bring the same link-sharing and fee problems.
+
+
+
+### 5. Members can see each other's phone numbers
+
+In a regular group, members can generally see each other's numbers. For a batch of teenagers or working adults who do not know each other, that is personal information shared more widely than anyone intended, and it is also how your students get spam from strangers who joined the group.
+
+
+
+### 6. You cannot see progress
+
+You cannot tell who watched yesterday's recording, who opened the PDF or who skipped the last three tests. Without that, you only find a weak student when the exam result arrives.
+
+
+
+Problem on WhatsAppWhat it costs youWhat fixes it in an academy
+
+UPI screenshotsEvenings matching payments by handUPI or card checkout that opens access after payment
+Forwardable linksPaid notes reach people who did not payLessons and PDFs inside a login
+Buried old notesResending material to every late joinerA course with modules in order
+Group size limitPosting the same thing in two groupsOne course for any number of students
+Visible phone numbersStudents' numbers shared with strangersStudents sign in to your academy; the group becomes announcement-only
+No progress trackingWeak students found too lateTests with scores and a student list
+
+The six problems in one table.
+
+
+
+
+
+
+
+## When should you move students from WhatsApp to an app or academy?
+
+Move when you spend more time managing the batch than teaching it: when fee checks take more than an evening a month, when you post the same thing in two groups, or when you want to sell a recorded course to students you will never meet. If you teach one small batch of friends' children, WhatsApp may be all you need for now.
+
+Signs it is time:
+
+
+- You have more than one group for the same course.
+
+- You have found your paid PDFs in a group you did not create.
+
+- Students ask "sir, can you send the old notes again" every week.
+
+- You want to sell last year's recordings as a course, not just run a live batch.
+
+- You want students from other cities to find and pay you without a phone call.
+
+
+The usual worry is that students will not want another app. They do not need one. Your academy is a website first, and it opens in the phone's browser from a link you send on WhatsApp. If that worry is the main thing stopping you, read our guide on what to do when students won't download your coaching app and just want WhatsApp; it covers that question in detail. This guide is about the move itself.
+
+
+
+
+
+
+## Step 1: Audit what your batch runs on today
+
+Before you build anything, write down every tool the batch uses, every piece of content you have, every student and what each student has paid for. This list becomes your migration checklist.
+
+
+
+Give each tool a new home. WhatsApp stays, for announcements. Example audit, illustrative. Logos belong to their owners.
+
+Make four lists in one sheet:
+
+
+- Tools: WhatsApp or Telegram groups, Google Forms, UPI ID or QR, Zoom or Meet, Drive folders, YouTube playlists, any Excel or notebook you track fees in.
+
+- Content: recorded classes, PDFs, PYQs, test papers, formula sheets, voice notes worth keeping. Mark each one keep, redo or drop.
+
+- Students: name, phone, batch, what they paid for and until when.
+
+- Dues: who owes what today, so nobody is surprised after the move.
+
+
+The student list is the one to get right. Every promise you made ("this fee covers until March") must still be true after the move.
+
+
+
+
+
+
+## Step 2: Set up your online academy
+
+An online academy is your own website (and optionally your own app) where students buy your courses, watch lessons, download notes, take tests and join live classes under your name. Setting one up today takes hours, not months.
+
+If the idea is new to you, our explainer on what an online academy is covers the options. On AllCoaching the path is fixed and self-serve: sign up, choose a plan, upload your course, connect your domain and start selling. Payments, student access, apps and hosting run on their own. Every plan starts with a 14-day free trial with no card needed, which is enough time to build the academy and test it with a few students before you announce anything.
+
+
+- Name and brand: use the name students already know, the one on your WhatsApp group or YouTube channel. Add your logo and colours.
+
+- Domain: connect your own domain (youracademy.in) so the link you share looks like yours. Every AllCoaching plan includes connecting your own domain.
+
+- App: every plan includes your own white-label Android app; the iOS app is on Pro and Scale. Students who prefer the browser can skip the app entirely.
+
+
+
+
+
+
+
+## Step 3: Upload your old WhatsApp content as one organised course
+
+Do not copy your Drive folder as it is. Rebuild it as a course: modules that follow the syllabus, lessons in teaching order, a PDF of notes and a test for each module, and lesson 1 free as a demo. The structure is what a late joiner was missing on WhatsApp.
+
+
+
+### Sort before you upload
+
+Group your recorded classes by topic, not by date. A two-hour live class recording from last year is often better split into three or four shorter lessons. Rename files the way students search: "Module 2 · Lesson 3 · Percentage shortcuts", not "class 14 final final.mp4". Our guide on how to create your first online course in India covers module structure, lesson length and PDFs in detail.
+
+
+
+### Videos via YouTube
+
+Many educators already have class recordings on YouTube. On AllCoaching, videos come in through YouTube and are unlimited on every plan, so you add each lesson to the course in order instead of posting links into a chat. PDFs and test series sit in the studio's Content section, inside the same course.
+
+
+
+### Live classes inside the course
+
+Instead of pasting a Zoom link into the group every evening, schedule the live class inside the course. AllCoaching includes unlimited live classes on every plan, through YouTube Live, Zoom or the built-in live room. If you teach from a phone, see how to conduct live classes on mobile.
+
+
+Question educators ask
+
+
+
+### Do I have to upload everything before I switch?
+
+No. Upload the current module, the notes students use most and the demo lesson first. Add older material module by module after the switch-over. Students care far more that this week's class and notes are in the academy than that everything from last year is.
+
+
+
+
+
+
+
+## Step 4: How do you collect fees online for coaching instead of UPI screenshots?
+
+Set a price on the course and let students pay through UPI or card checkout on your academy; access opens after the payment, so there is no screenshot to check and no one to add by hand. UPI is the system students already use, run by the National Payments Corporation of India (NPCI).4
+
+
+
+The same payment, without the evening of checking. Illustrative.
+
+
+
+### Price the course the way you price the batch
+
+Start with the fee students already pay you, for the same duration and the same material. A move is not the moment to change your price and your platform at once. If the academy adds recorded lessons, tests and notes that the WhatsApp batch never had, you can review the price for the next batch. Our guide on how to price online courses in India covers that decision.
+
+
+
+### Test one real payment first
+
+Before you announce anything, ask a friend or family member to buy the course with UPI. Check that the payment goes through, that access opens and that the confirmation makes sense to a student. On AllCoaching, students pay through UPI or card checkout and payouts reach your bank automatically through Razorpay. For the details of gateways, KYC and fees, read how to accept UPI payments for online courses.
+
+
+
+### Students who already paid
+
+Do not charge a student twice. Students who paid you on UPI for the current batch keep what they paid for. Decide how you will give them access before you announce; if you are not sure how to do it in your setup, ask during your trial. Many educators simply let the current batch finish its paid period and move every new enrolment and renewal to checkout.
+
+
+
+
+
+
+## Step 5: Invite your existing students (message templates)
+
+Send one clear announcement to the group about two weeks before the switch-over date, then short personal messages to anyone who has not moved. Every message needs one date, one link, what changes, what stays and a way to ask questions.
+
+
+
+A good announcement is short and specific. Sample batch and dates. Logos belong to their owners.
+
+Copy these and change the names, dates and link. They are written in plain English for Indian students and parents; translate them into your teaching language if your batch reads Hindi or a regional language more comfortably.
+
+
+Template 1 · Group announcement
+
+Hello everyone. From 1 December, our SSC Maths batch moves to our own academy: youracademy.in. What changes: fees are paid by UPI or card on the course page, and all lessons, PDFs, tests and the live class link are in one place, including everything from earlier months. What stays: this group, for reminders and quick updates. If you have already paid for November, you keep your access. Questions? Reply here or message me directly.
+
+
+
+Template 2 · Reminder, three days before
+
+Reminder: from Monday, the live class link and new notes will be only on youracademy.in. Please open the link today, sign in, and check that you can see Module 1. If something does not work, send me a message and I will help you before Monday.
+
+
+
+Template 3 · Personal follow-up
+
+Hi Riya, I noticed you have not signed in to the new academy yet. Everything from our batch is there now, including the PDFs you asked for last week. Here is the link: youracademy.in. Do you want me to call for two minutes and help you set it up?
+
+
+
+Template 4 · Reply to a new enquiry
+
+Thank you for asking about the batch. You can see the syllabus, watch a free demo lesson and enrol here: youracademy.in. Payment is by UPI or card, and access opens straight after. Class reminders are shared in our WhatsApp group, which I will add you to once you have enrolled.
+
+
+For parents of school students, send the announcement to the parent as well. Parents pay the fee, and a clear message about where the money goes builds more trust than a UPI ID in a chat.
+
+
+
+
+
+
+## Step 6: Keep WhatsApp as your announcement channel
+
+Do not delete the group. Turn it into an announcement space for class reminders, new lesson alerts and exam dates, and keep fees, lessons, notes, tests and live links in the academy. WhatsApp is still where your students reply fastest.
+
+
+
+Move the teaching and the money. Keep the chat. Logos belong to their owners.
+
+You have three options on WhatsApp:
+
+
+- Keep the group, and change its settings so only admins can send messages. Students still see every reminder; the chat stops burying your posts.
+
+- Use a Community if you run several batches, with one announcement group for all of them.
+
+- Start a WhatsApp Channel for public updates and free tips that bring new students in. WhatsApp says that as a channel admin "your phone number and profile photo won't be shown to followers", and that following a channel "won't reveal your phone number to the admin or other followers".3 That solves the phone-number problem for your public audience.
+
+
+Our guide on WhatsApp Channels for coaching educators in India covers setting one up and what to post. Whichever you choose, every message should end with a link back to your academy, because the academy is where the student acts.
+
+
+
+
+
+
+## Step 7: Set a switch-over date and keep it
+
+Choose one date after which new fees, new notes and live class links are only in the academy, announce it about two weeks ahead, and keep it. A date turns "we are moving sometime" into something students act on.
+
+
+
+Work back from the switch-over date. Timing is illustrative; a small batch can move in two weeks.
+
+
+- Pick a natural break: the start of a new month, a new module or a new batch. Avoid the week before an exam.
+
+- Run both for a short overlap: for the last week before the date, post new material in both places with a note that the group copy stops on the date.
+
+- On the date, stop posting files in the group. Post the reminder and the link instead. If you keep sharing PDFs in the chat "just this once", students learn that they never need to move.
+
+
+
+
+
+
+
+## Step 8: Follow up with students who have not moved
+
+After the switch-over date, check your student list in the academy against your audit sheet and message every student who has not signed in, one by one. Most students who have not moved are confused, not unwilling.
+
+The common reasons are simple: they missed the announcement, the link opened in an in-app browser, they forgot which phone number they used, or a parent pays and has not seen the message. A two-minute call fixes most of them. Educators we work with often find that the last few students move only after a personal message, not a group reminder.
+
+After the first month, check three things: fees arrive without screenshots, late joiners find old notes on their own, and fewer questions reach your personal chat. If all three hold, the move worked.
+
+
+
+
+
+
+## Does the same plan work for moving from Telegram to a course platform?
+
+Yes. A Telegram group or channel has the same gaps as WhatsApp for a paid course: no checkout, no structured course and files that can be forwarded, so the same eight steps apply. The only difference is the announcement channel you keep.
+
+Telegram is popular with exam educators because channels hold large audiences and large files. That is useful for free content and announcements. It is weaker for paid content, because anyone in the channel can forward a PDF out of it. Move the paid course, test series and live classes to your academy, and keep the channel for free tips and links. If you are following the news about Telegram access for educators and students in India, our update on the Telegram ban and what it means for educators explains the situation and why owning your student list matters.
+
+
+
+
+
+
+## What does it cost to sell courses from your own academy instead of a WhatsApp group?
+
+On AllCoaching, every plan starts with a 14-day free trial with no card, then one annual plan: Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee on sales, or Scale at ₹99,999 a year with a 0% platform fee. Prices exclude GST.
+
+
+
+PlanYearly price (excl. GST)Platform feeUsually lowest total cost when yearly sales are
+
+Starter₹6,99910% (keep 90%)Below ₹2.4 lakh
+Growth₹12,9997.5% (keep 92.5%)₹2.4–4.8 lakh
+Pro₹24,9995% (keep 95%), iOS app included₹4.8–15 lakh
+Scale₹99,999 (via Contact us)0% (keep 100%), iOS app includedAbove ₹15 lakh
+
+Breakevens are illustrative and calculated before GST. See allcoaching.in/pricing for current plans.5
+
+
+To choose, estimate the fees your WhatsApp batches collected over the last year and pick the row it falls in. Every plan includes your own domain, your own Android app, unlimited videos via YouTube, unlimited live classes and UPI checkout, so the choice is about your sales, not about features you will miss. Upgrades take effect on payment with the unexpired value credited.
+
+
+Build your own academy. Try it free for 14 days.
+
+Website on your own domain, your own Android app (iOS app on Pro and Scale), unlimited live classes and UPI checkout on every plan. Plans from ₹6,999 a year after the trial (excl. GST).
+
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Your data stays exportable
+
+
+
+
+
+
+## Common mistakes when moving a WhatsApp batch online
+
+The most common mistakes are moving overnight, charging students who already paid, deleting the group, uploading a messy Drive folder as it is, never setting a switch-over date and not following up. Each has a simple fix.
+
+
+
+Six mistakes and their fixes.
+
+
+"The batch does not move because the academy is better. It moves because the educator gives one date, one link and a personal message to every student who needs it."
+
+Amit Ratan, Founder & CEO, AllCoaching
+
+
+
+
+
+
+## Glossary
+
+
+Online academy
+An educator's own website, and optionally app, where students buy courses, watch lessons, download notes, take tests and join live classes under the educator's brand.
+Switch-over date
+The fixed day after which new fees, notes and live class links are shared only in the academy, not in the WhatsApp group.
+Announcement group
+A WhatsApp group set so that only admins can send messages, used for reminders and alerts rather than discussion.
+WhatsApp Channel
+A one-way broadcast tool on WhatsApp where admins post updates to followers, and phone numbers are not shown between admins and followers.
+UPI checkout
+A payment step on a course page where the student pays through UPI or card and course access opens after the payment succeeds.
+Anyone with the link
+A sharing setting, used by Google Drive, under which anyone who has the URL can open the file, including people it was forwarded to.
+Unlisted video
+A YouTube video that does not appear in search or on the channel page but can be watched and shared by anyone with the link.
+Migration audit
+A list of every tool, piece of content, student and payment a batch uses, made before moving it to an academy.
+
+
+
+
+
+
+## Frequently asked questions
+
+How do I move my coaching batch from a WhatsApp group to an online academy?List the tools, content and students you have, set up the academy, upload old lessons and notes as one organised course, add UPI checkout, announce a switch-over date about two weeks ahead, keep the WhatsApp group for announcements and personally follow up with students who have not moved.
+
+Can I sell courses from a WhatsApp group?You can collect UPI payments and share links in a group, but WhatsApp has no checkout, no course library and no record of who paid. Most educators sell from their own academy page and use the WhatsApp group to share the link and send reminders.
+
+What are the main problems with running coaching on WhatsApp?Manual fee checks from UPI screenshots, Drive and YouTube links that can be forwarded to anyone, new students who cannot find old notes, group size limits that split a batch, phone numbers visible to all members and no way to track progress or test scores.
+
+Will my students need to download a new app?No. Your academy works as a website in the phone's browser, opened from a link you send on WhatsApp. On AllCoaching every plan also includes your own Android app, and the iOS app is on Pro and Scale, for students who prefer an app.
+
+How do I collect fees online for coaching instead of UPI screenshots?Put a price on the course and let students pay through UPI or card checkout on your academy. Access opens after payment, so there is nothing to match by hand. On AllCoaching, payouts reach your bank automatically through Razorpay.
+
+What should I do about students who already paid me on UPI?Honour what they paid. Let them keep access for the period they paid for and move them to checkout only at their next renewal. Decide how you will give them access before you announce the move.
+
+Should I delete my WhatsApp group after moving?No. Keep it for class reminders, new lesson alerts and exam dates, and consider making it admin-only. Fees, lessons, notes, tests and live class links should live in the academy.
+
+Does this work for a Telegram group or channel?Yes. Telegram has the same gaps for a paid course, so the same steps apply: move the paid course, tests and live classes to your academy and keep the Telegram channel for free tips and announcements.
+
+How long does it take to move a batch from WhatsApp to an online academy?Two to four weeks is typical: about a week to audit and set up, a week to upload content and test payments, then an announcement period of about two weeks before the switch-over date. A small batch can move faster.
+
+How much does an online academy cost on AllCoaching?Every plan starts with a 14-day free trial with no card. Then Starter is ₹6,999, Growth ₹12,999 and Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee, or Scale is ₹99,999 a year with a 0% platform fee. Prices exclude GST.
+
+
+
+
+
+
+## Sources
+
+
+- Google Drive Help, "Share and manage access to files and folders in Google Drive", support.google.com, checked October 2026.
+
+- YouTube Help, "Change video privacy settings" (unlisted videos), support.google.com, checked October 2026.
+
+- WhatsApp Blog, "Introducing WhatsApp Channels. A Private Way to Follow What Matters", blog.whatsapp.com, checked October 2026.
+
+- National Payments Corporation of India (NPCI), official website, npci.org.in, checked October 2026.
+
+- AllCoaching pricing, allcoaching.in/pricing, October 2026.
+
+
+
+
+
+
+
+Amit Ratan
+Founder & CEO, AllCoaching
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. This guide comes from helping educators move paid batches off WhatsApp and Telegram groups; outside facts are linked to their official sources, and every batch size, date and price in the examples is illustrative.
 
 ---
 
@@ -24403,369 +25424,424 @@ Also see Live demo · Pricing · FAQ Hub · Founder profile
 # How Much Can You Earn Teaching Online in India? (2026)
 
 **Source:** https://allcoaching.in/blog/how-much-can-you-earn-teaching-online-india  
-**Published:** 2026-06-22  
-**Updated:** 2026-06-22  
+**Published:** 2026-06-22T09:00:00+05:30  
+**Updated:** 2026-10-27T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** How much can you earn teaching online in India? Income is a formula, not a salary: students reached x price x the share you keep. The honest 2026 math.
+**Summary:** How much can you earn teaching online in India? Students × price, minus platform fee, plan cost and ads. Free income calculator, 3 worked examples and tax notes.
 
-In this article
+Amit RatanUpdated 27 Oct 2026 · 15 min read
 
 
-- The reframe: income is a formula, not a salary.
+On this page
 
-- The online teaching income formula.
 
-- What you charge — pricing by format.
+Start your online academy today. 14 days free.
 
-- How many students you can actually reach.
+Start free trial
 
-- The keep-rate — the hidden multiplier.
 
-- Three worked examples (illustrative).
+How much you can earn teaching online in India depends on four numbers you can work out today: how many students pay you in a year, what each pays, what share your platform takes, and what you spend on your plan, ads and tools. Income = students × price × (1 − platform fee) − plan cost − ads and tools. GST and income tax come after that, depending on your turnover and income.
 
-- How earning varies by exam niche.
+Nobody publishes a reliable average for Indian online educators, and any single figure would describe almost no one. An SSC maths teacher in Hindi with a YouTube channel, a spoken English coach on Instagram and a three-teacher coaching institute in Lucknow can all be teaching online and earning wildly different amounts. What they share is the arithmetic.
 
-- What quietly erodes your income.
+This guide gives you that arithmetic. You will get the formula, a calculator you can use on this page, three worked examples (all illustrative), the effect of platform fees versus plan cost, the five levers that move the number, and where GST and income tax fit in. If you are still choosing what to sell, start with what an online academy is, then come back with your own numbers.
 
-- How to grow the number.
 
-- The verdict.
 
-- Glossary — key terms.
 
-- Frequently asked questions.
 
 
+## Key takeaways
 
 
+- Online teaching income is a formula, not a salary: students × price × (1 − platform fee) − plan cost − ads and tools, before GST and income tax.
 
+- There is no honest national average for online tutor earnings in India; this guide uses illustrative numbers you can replace with your own.
 
-Key Takeaways — the entire guide in 6 facts:
+- Platform fee vs subscription: a percentage fee grows with your sales, a plan price does not, so the lowest-cost plan changes as you grow.
 
-- Income is a formula, not a salary — students reached × price per student × the percentage you keep after the platform's cut.
+- On AllCoaching (prices excl. GST), Starter (₹6,999 + 10%) costs least below ₹2.4 lakh of yearly sales, Growth (₹12,999 + 7.5%) from ₹2.4 to ₹4.8 lakh, Pro (₹24,999 + 5%) from ₹4.8 to ₹15 lakh, and Scale (₹99,999 + 0%) above ₹15 lakh.
 
-- The range is enormous — from a few thousand a month as side income to several lakhs a month at scale; the average is meaningless, the math is not.
+- Students are usually the hardest number to move, so a free demo lesson, a test series and a next-level course often add more than a price cut.
 
-- The keep-rate is the hidden multiplier — a subscription-plus-commission platform can halve your take-home; keeping 90% protects it.
+- GST registration is generally required above ₹20 lakh of turnover for services (₹10 lakh in special-category states), and income tax applies to your net income; check the official portals or a CA.
 
-- Recorded courses scale, live batches command price, test series add volume — the top earners combine all three.
+- Every AllCoaching plan starts with a 14-day free trial, no card needed, so you can build the academy before you pick a plan.
 
-- Students are usually the binding constraint, not price — which is why discovery (a marketplace) is the lever that moves income.
 
-- On AllCoaching you keep 90–100% at Rs 6,999/year (Starter plan) — a 10%-to-5% platform fee on sales only, plus marketplace discovery to grow the student count.
 
-Where we are · 2026
 
-AllCoaching is an LMS you build yourself — drag and drop your courses, tests, notes and live classes, then make it your brand with your own domain, logo and Android app (iOS app on Pro and Scale). 500+ educators across India already sell through it. Every plan starts with a 14-day free trial, and the price is on the page before you sign up.
 
-Start your 14-day free trial
-No card needed · Plans from ₹6,999/year · Keep 90–100%
 
-The reframe
 
-## Income is a formula,
-not a salary.
+## How do you calculate online course revenue and take-home?
 
-An independent educator in India can earn anywhere from a few thousand rupees a month as a side income to several lakhs a month at scale teaching online — but the figure is not a salary, it is the product of three numbers you control: how many students you reach, what you charge per student, and what percentage of that you actually keep after the platform's cut. That is the honest answer to "how much can you earn teaching online in India," and it begins by refusing the way the question is usually asked. Most educators ask it as if there is a market rate — a wage that online teaching pays, the way a school pays a monthly salary. There isn't. There is only the formula, and your income is whatever you make the three numbers add up to.
+Multiply paying students by the price to get gross sales, take off the platform fee, then subtract your plan price and what you spend on ads and tools; what is left is your take-home before tax. That is the whole method. Every section below adds detail to one part of it.
 
-This matters because the wrong mental model leads to the wrong worry. An educator who thinks of online income as a salary asks "is the rate good enough?" — and waits for someone to offer it. An educator who understands the formula asks "which of my three numbers is smallest, and how do I move it?" — and gets to work. The first is passive and usually disappointed; the second is in control. The entire purpose of this breakdown is to put you in the second position: to hand you the formula, show you the realistic range of each input, and let you compute your own number instead of trusting an average that describes no one.
 
-One honest note before the math. Every rupee figure in this guide is an illustrative example, not a guaranteed income or a measured average — the inputs are reasonable, clearly labelled, and meant for you to replace with your own. We will not quote a fabricated "the average online tutor earns X" statistic, because that number would describe a fiction. What we will do is show you the arithmetic, transparently, so the figure you walk away with is yours. The related practical playbook on turning that potential into actual enrolments is in how to get paid students for online coaching free.
 
-The mechanism
+Five parts, one number to plan your year on. Method only, not a promise of income.
 
-## The income
-formula.
 
-The online teaching income formula has exactly three inputs, and naming them is the most useful thing this guide can do. Monthly income = students reached × price per student × keep-rate. A teacher who reaches 100 students, charges ₹1,000, and keeps 90% earns ₹90,000 that month; change any one number and the whole result moves. The formula is almost embarrassingly simple — and that simplicity is exactly why it is powerful, because it tells you precisely where to look when the number is too small.
+- Estimate paying studentsWrite down how many students you can realistically get to pay you in the next 12 months, from your current audience and new students.
 
-The three levers
+- Set your priceChoose the price per student for your main course, batch or test series, based on the outcome it delivers.
 
-Students reached — how many paying learners you actually get in front of. Usually the hardest of the three, and usually the real constraint.
-Price per student — what each pays, set by format and niche. The lever educators most often under-use.
-Keep-rate — the percentage left after the platform's cut. The lever educators most often forget exists, and the one a platform decides for you.
+- Work out gross salesMultiply students by price. Add other products such as a test series as separate lines.
 
-Notice what the formula reveals: two of your three income levers are set the moment you choose a platform. The platform's commission decides your keep-rate, and the platform's discovery — whether it brings you students or leaves you to find them all yourself — decides how high your student count can realistically go. Only the price is fully yours from day one. This is why the choice of where you teach is not a logistics decision; it is an income decision, and most educators make it without doing this multiplication. We will take the three inputs one at a time.
+- Subtract the platform feeTake off your platform's percentage of sales: 10%, 7.5%, 5% or 0% on AllCoaching depending on the plan.
 
-Lever one — price
+- Subtract plan, ads and toolsTake off the yearly plan price and what you will spend on ads, a mic, editing and design tools.
 
-## What you charge —
-pricing by format.
+- Check the lowest-cost planCompare plans at your sales level: Starter below ₹2.4 lakh, Growth to ₹4.8 lakh, Pro to ₹15 lakh, Scale above.
 
-What you can charge depends mostly on the format you sell, because each format has a different price ceiling and a different scale ceiling. The four common formats — recorded courses, live batches, ranked test series, and one-to-one — are not competitors; they are a portfolio, and the highest-earning educators run several at once. The illustrative ranges below are typical, vary widely by niche and reputation, and are meant as a starting point for your own pricing, not as fixed rates.
+- Set aside GST and income taxCheck whether your turnover needs GST registration and set aside income tax on net income, using official portals or a CA.
 
-FormatIllustrative priceScales withIncome shape
-Recorded course₹500 – ₹3,000Reach (unlimited)Make once, sell many
-Live batch₹2,000 – ₹15,000Your time + seatsPremium, capped by hours
-Ranked test series₹300 – ₹1,500VolumeLow price, high count
-One-to-one₹300 – ₹1,500 / hrYour hours onlyHighest rate, least scale
 
-The strategic point hidden in that table is the difference between scaling with reach and scaling with hours. A recorded course is a scalable product — you build it once and its income is limited only by how many students you can reach, not by how many hours you have. One-to-one is the opposite: the rate is high, but you can only sell the hours in a day. Most educators start with their hours because it feels safe, and then discover their income is capped by the clock. The escape is to move at least part of your catalogue into formats that scale with reach instead of time.
 
-Question Often Asked
 
-### Should I price low to get more students, or high to earn more per student?
+### Why gross sales is the wrong number to celebrate
 
-Neither extreme — price to the value your specific students get, not to be the cheapest. Underpricing is the most common and most expensive mistake Indian educators make, because a low price both reduces income per student and signals low quality, so you often get fewer students at a worse margin. A higher price paired with visible proof of outcomes usually earns more in total than a discount, since students preparing for a high-stakes exam are buying a result, not the lowest sticker. Run the formula both ways with your real reach before assuming cheaper means more.
+Gross sales is what students paid. Take-home is what you keep. The gap between them is the platform fee, the plan, your ad spend and your tools, and later GST and income tax. An educator who plans the year on gross sales usually feels poorer than expected by Diwali, because the costs were real all along and simply were not counted.
 
-Lever two — students
+Educators we work with often find the gap is smaller than they feared when the plan matches their sales, and larger than they expected when they paid for ads without tracking what came back. Both are fixable once the numbers are written down.
 
-## How many students
-you can reach.
 
-The student count is, for most educators, the number that actually decides income — and the one they have least honestly estimated. It is easy to fantasise about a price; it is harder to admit how many paying students you can really reach this cycle. Your reachable students come from two pools: the audience you already have (your past students, your WhatsApp groups, your YouTube or Instagram following) and the new students a platform's discovery can bring you (learners searching for what you teach who have never heard your name). The first pool is finite; the second is where growth lives.
 
-This is the lever the formula quietly punishes you for ignoring. An educator with a brilliant course and a fair price still earns little if only thirty people ever see it — the math will not save a product nobody can find. That is the structural reason a marketplace matters more than a standalone app for income: a standalone app gives you a shop, but a shop with no street outside it sells to no one. Discovery is not marketing polish; it is the second multiplier in your income, and a platform that surfaces you to students searching by exam, subject and language is adding to a number that ad spend would otherwise cost you to grow. The deeper treatment of why discovery beats raw tooling is in the case for a zero-commission teaching platform.
 
-A fair price on a great course still earns nothing if thirty people see it. The student count is usually the binding constraint — which is why where you are found matters as much as what you charge.
 
-Lever three — keep-rate
 
-## The keep-rate —
-the hidden multiplier.
+## Online coaching income calculator
 
-The keep-rate is the percentage of each sale you actually keep after the platform takes its cut, and it is the lever educators most often forget exists — which is exactly why it quietly costs them the most. You can do everything else right — great teaching, fair price, real reach — and still take home far less than you earned, because a platform structure decided your keep-rate before you sold anything. The difference between keeping 90% and keeping 50% is not a detail; on the same sales it is the difference between one income and half of it.
+Enter how many students you expect in a year, your price, your yearly ads and tools budget, and a plan; the calculator shows gross sales, the platform fee, the plan price, your take-home before tax and which AllCoaching plan costs least at that sales level. It starts with the SSC maths example used later in this guide.
 
-The erosion takes two shapes, and many platforms use both. The first is a fixed subscription — a monthly or annual fee you pay whether or not you sell, which is heaviest precisely when income is low or seasonal, as it is across exam cycles. The second is a commission — a percentage of every sale. A platform charging both takes a cut at the door and a cut on every transaction, and the educator, focused on gross sales, often never computes the net. AllCoaching's model is deliberately the opposite: a platform fee from 10% down to 5%, or 0% on Scale on paid sales only, no monthly subscription — you keep 90–100%, settled to your bank automatically. The full argument for why subscriptions misalign with educator income is in selling online courses without a monthly subscription.
 
-On ₹1,00,000 of salesSubscription + 30%AllCoaching Starter (10% fee)Difference
-Platform takes₹30,000 + fixed fee₹10,000The gap is your income
-You keep (approx.)~₹70,000 − fee₹90,000≈ ₹20,000+ more
-Cost in a no-sale monthThe subscription₹0You pay a platform fee only when you earn
+Online coaching income calculator
 
-The numbers above are illustrative, but the structural point is exact: the keep-rate is the one income lever a platform sets for you, so it is the one to interrogate before you commit. When you compare where to teach, do not compare features — compare what you keep on a realistic year of sales, including the months you sell little. That single calculation reorders most platform decisions.
 
-The math, worked
+Paying students in a year
+Price per student (₹)
+Ads and tools in a year (₹)
+AllCoaching plan
+Starter · ₹6,999 · 10%
+Growth · ₹12,999 · 7.5%
+Pro · ₹24,999 · 5%
+Scale · ₹99,999 · 0%
 
-## Three worked examples
-(illustrative).
 
-Here is the formula applied to three realistic situations. Every figure is an illustrative example, not a promise or an average — the point is the method, so replace the inputs with yours and the output becomes your own estimate. All three assume a 90% keep-rate, because that is the model this guide argues for.
 
-1The side-income tutor
+Gross sales₹4,19,720
+Platform fee (7.5%)− ₹31,479
+Plan price (yearly, excl. GST)− ₹12,999
+Ads and tools− ₹36,000
+Take-home before tax₹3,39,242
 
-### ~₹27,000 a month
+At ₹4,19,720 of sales, Growth is the lowest-cost plan: ₹44,478 a year in plan price and platform fee. That is the plan you picked.
 
-Sells a recorded subject course at ₹1,000 to 30 students in a month. 30 × ₹1,000 × 90% = ₹27,000 from one product, alongside a full-time job. Built once, it can keep selling next month with no extra hours.
 
-2The full-time solo educator
+Illustrative. Plan prices exclude GST (18% GST applies on the plan). Before income tax, GST on your own fees if you are registered, and any payment gateway charges. Scale is bought through Contact us on the pricing page.
 
-### ~₹1,35,000 a month
 
-Runs a live batch at ₹5,000 for 20 students (₹1,00,000 in sales) and sells a ₹500 test series to 100 students (₹50,000) — keeping 90% across ₹1,50,000 of sales is ≈ ₹1,35,000 in a month, from two formats that reinforce each other.
 
-3The scaled educator
+Two tips for using it honestly. First, enter the students you can realistically reach this year, not the size of your YouTube channel; a channel with 50,000 subscribers might produce a few hundred buyers or a few dozen. Second, run it three times: a cautious case, a likely case and a good case. If the cautious case still covers your costs, you are ready to launch. For setting the price itself, use our guide on how to price online courses in India.
 
-### ~₹5,40,000 a month
 
-Sells a ₹2,000 recorded course to 200 students reached through marketplace discovery (₹4,00,000 in sales) plus a ₹3,000 live batch for 60 students (₹1,80,000) plus a test series — keeping 90% across roughly ₹6,00,000 of sales is ≈ ₹5,40,000. Reach, not hours, is what changed.
 
-The progression from the first example to the third is not mostly about working harder — it is about moving the two levers the platform controls. The side-income tutor and the scaled educator could be the same person a year apart, having done two things: raised the student count through discovery, and protected the keep-rate by not surrendering it to commissions and subscriptions. Across the educators we have watched grow on AllCoaching, that is the pattern almost every time — the teaching was always good; the income changed when the formula's controllable levers moved.
 
-Niche effects
 
-## How earning varies
-by exam niche.
 
-The exam or subject you teach changes two of the three inputs at once — the price students will pay and the size of the audience you can reach — and the two often pull in opposite directions. High-stakes, high-fee preparation such as NEET, JEE, UPSC, banking and CA tends to support higher prices, because the student is buying a result whose value to them is large; broad school subjects, languages and skills reach much larger audiences at lower prices. Neither is automatically the better income — and that surprises people who assume the prestigious exam always pays more.
+## Platform fee vs subscription: what do they do to your take-home?
 
-The reason is the formula again. A small, high-price niche (say, a specialised UPSC optional) and a large, low-price niche (say, Class 10 mathematics) can land on the same income from opposite directions — one through price, the other through volume. What you should not do is choose a niche by its headline price alone, or chase a "high-paying" subject you cannot teach distinctively. Your income is maximised by matching your price to what your specific students genuinely value, and your niche to what you can teach better than most — then letting reach do the rest. The exam-specific economics for one common case are worked through in how to teach SSC online and earn money in India.
+A platform fee is a percentage of every sale, so it grows as you sell more; a subscription or plan price is fixed, so it matters most when sales are small. The right plan is the one with the lowest total of the two at the sales you actually expect.
 
-The leaks
+AllCoaching combines both in four annual plans, priced before GST: Starter ₹6,999 with a 10% platform fee, Growth ₹12,999 with 7.5%, Pro ₹24,999 with 5%, and Scale ₹99,999 with a 0% platform fee, so you keep 90–100% of every sale depending on the plan. The table shows what each plan costs in a year at five sales levels.
 
-## What quietly
-erodes your income.
 
-The gap between what you sell and what you keep is where most online teaching income silently disappears, and naming the leaks is the first step to plugging them. These four erode the number most:
 
-Leak 01 — Subscriptions you pay in slow months
+Your sales in a yearStarter (₹6,999 + 10%)Growth (₹12,999 + 7.5%)Pro (₹24,999 + 5%)Scale (₹99,999 + 0%)
 
-A fixed monthly or annual platform fee is heaviest when income is low or seasonal. Across exam cycles, you can pay for the tool in the very months you sell least — a cost that has nothing to do with how much you earn.
+₹1 lakh₹16,999₹20,499₹29,999₹99,999
+₹3 lakh₹36,999₹35,499₹39,999₹99,999
+₹6 lakh₹66,999₹57,999₹54,999₹99,999
+₹10 lakh₹1,06,999₹87,999₹74,999₹99,999
+₹25 lakh₹2,56,999₹2,00,499₹1,49,999₹99,999
 
-Leak 02 — High commissions on every sale
+Yearly cost of each plan = plan price + platform fee on sales, before GST. Lowest cost per row in bold. Illustrative sales levels.
 
-A large percentage cut on each transaction quietly halves a healthy income. Educators track gross sales and rarely compute the net, so the erosion is invisible until the bank balance disagrees with the dashboard.
 
-Leak 03 — Ad spend to find students
 
-If a platform brings you no students, you pay again — in money and time — to find them yourself. Paid acquisition that does not compound is a recurring tax on income that marketplace discovery removes.
 
-Leak 04 — Slow, delayed payouts
+Where each plan becomes the lowest-cost one. Prices exclude GST.
 
-Waiting weeks for settlement is not a direct fee, but it strains cash flow and hides your real position. Automatic settlement keeps your income visible and usable rather than locked in a pipeline.
 
-None of these leaks is about how well you teach — they are all structural, decided by the model you operate inside. That is the quietly good news: you can lift your net income substantially without acquiring a single new student or raising a single price, simply by moving to a structure that does not charge you in slow months, does not take a third of every sale, does not leave you to buy your own students, and pays you daily. The honest income number is always the net one.
 
-The growth
+### The breakevens in one line each
 
-## How to grow
-the number.
 
-Growing online teaching income is, by the formula, a matter of moving the three levers deliberately rather than hoping the total rises. There is a clean order to it: protect the keep-rate first because it is the fastest gain, grow the student count next because it is the largest, and compound with retention last because it is the most durable. Done in that order, the number climbs without you simply working more hours.
+- Below ₹2.4 lakh of yearly sales, Starter costs least.
 
-The most underrated of the three is the last. A returning student is income earned without acquisition cost — the student who comes back for the next subject, the next test series, the next year costs nothing to win again, which is why retention quietly raises your average revenue per student and your stability at the same time. An educator whose income depends entirely on new sales every month is on a treadmill; an educator with a catalogue, a returning base and a brand students trust is compounding. The brand half of that equation — being the educator a student chooses again and refers — is covered in building a personal brand as an educator in India, and the full business view in the 2026 online coaching business plan.
+- ₹2.4 lakh to ₹4.8 lakh, Growth costs least.
 
-Question Often Asked
+- ₹4.8 lakh to ₹15 lakh, Pro costs least, and it also adds the iOS app and a premium website template.
 
-### What is the single fastest way to increase my online teaching income?
+- Above ₹15 lakh, Scale costs least because there is no platform fee at all. Scale is not self-serve; you buy it through Contact us on the pricing page.
 
-Raise your keep-rate — it is the only lever that increases income instantly, with no new students and no new products. Moving from a high-commission or subscription-plus-commission platform to a flat-10%, no-subscription model can lift your take-home by a fifth or more on the same sales, the day you switch. Growing the student count and the price are real levers too, but they take time and effort; the keep-rate is a one-time structural decision whose gain shows up immediately and then every month after. It is the rare improvement that is both the easiest and among the largest.
 
-The verdict
+Every plan includes your own white-label Android app, a website on your own domain, unlimited videos via YouTube and unlimited live classes through YouTube Live, Zoom or the built-in live room, so the plan choice is mostly a cost decision. The iOS app is on Pro and Scale only. Upgrades take effect on payment, with the unexpired value of your current plan credited.
 
-## The verdict.
 
-So the honest answer to "how much can you earn teaching online in India" is: as much as your three numbers multiply to — and two of them are decided by where you choose to teach. There is no salary, no ceiling someone else sets, and no average that describes your situation. There is a formula — students × price × keep-rate — and an income that is exactly what you make those inputs add up to. The educators who earn the most are not the ones who found a magic rate; they are the ones who stopped treating income as a wage and started moving the levers.
+Question educators ask
 
-From years of watching Indian educators build real incomes online, the pattern in the ones who succeed is consistent:
 
-- They protect the keep-rate — refusing subscriptions and high commissions, keeping 90% of what they sell.
 
-- They grow the student count through discovery — being found on a marketplace, not buying every learner with ads.
+### Is a 0% commission plan always better?
 
-- They sell formats that scale — a recorded course for reach, a live batch for price, a test series for volume.
+No. A 0% platform fee only saves money once the fee you would otherwise pay is larger than the difference in plan price. On AllCoaching, Pro costs less than Scale below ₹15 lakh of yearly sales. Below that, paying a 5% fee on Pro leaves you with more than paying ₹99,999 for Scale.
 
-- They compound with retention — turning a one-time sale into a returning student and a durable income.
 
-You can start computing your own number today, for free. Take a phone, go to studio.allcoaching.in, set up a branded studio in about a minute, price your first product, and let the marketplace surface it to students searching for exactly what you teach — keeping 90% of every sale, paid to your bank automatically. The formula has been true all along. The only question is which of your three numbers you move first.
 
-"Stop asking what online teaching pays. It does not pay a wage — it multiplies three numbers you control. Protect what you keep, grow who you reach, and the income is simply the arithmetic."
 
-— Amit Ratan, Founder & CEO, AllCoaching
 
-About the Author
+
+
+## How much do online tutors earn in India? Three illustrative examples
+
+These three educators are illustrative, not real people or averages: an SSC maths educator teaching in Hindi on YouTube, a spoken English coach growing on Instagram, and a small coaching institute moving its batches online. Each uses the plan that costs least at its sales level.
+
+
+
+Illustrative, yearly, before GST and income tax.
+
+
+
+### 1. Exam educator teaching SSC maths in Hindi on YouTube
+
+She posts free problem-solving videos on YouTube and sells a full SSC CGL arithmetic course for ₹1,499 on her own academy. Illustratively, 280 students buy in a year: ₹4,19,720 of sales. At that level Growth costs least. The 7.5% fee is ₹31,479 and the plan is ₹12,999. She spends ₹36,000 a year on a mic, editing software, a thumbnail tool and some promotion. Take-home before tax: ₹3,39,242.
+
+Her free videos stay public on her channel, while course lessons can sit on YouTube as unlisted videos, which YouTube says "can be seen and shared by anyone with the link"1 but do not show in search. If her sales pass ₹4.8 lakh next year, Pro becomes the lower-cost plan.
+
+
+
+### 2. Skill educator teaching spoken English on Instagram
+
+He posts short speaking tips as reels and sells a six-week interview English course at ₹1,999. Illustratively, 100 working adults buy in a year: ₹1,99,900 of sales, so Starter costs least. The 10% fee is ₹19,990 and the plan is ₹6,999. He runs Meta ads at about ₹2,000 a month, ₹24,000 a year; Meta lets advertisers set a daily or lifetime budget, so this spend can be capped.4 Take-home before tax: ₹1,48,911.
+
+
+
+### 3. Small coaching institute moving its batches online
+
+A three-teacher institute runs live foundation batches at ₹8,000 a student. Illustratively, 300 students join across batches in a year: ₹24,00,000 of sales. Above ₹15 lakh, Scale costs least: ₹99,999 and no platform fee. On Pro the same year would cost ₹1,44,999 (₹1,20,000 in fees plus the plan). With ₹1,50,000 on ads and tools, take-home before tax is ₹21,50,001, before the institute pays its teachers.
+
+At this turnover, GST registration generally applies (the threshold is ₹20 lakh for most service providers), so the institute must decide whether ₹8,000 includes GST or is charged plus GST. That single choice changes take-home noticeably; our guide on GST and income tax for online tutors walks through it.
+
+
+"No average will tell you what you can earn. Your own students, your own price and the plan that fits your sales will."
+
+Amit Ratan, Founder & CEO, AllCoaching
+
+
+
+
+
+
+## Earning from online courses: which formats earn what?
+
+Recorded courses and test series scale with how many students you reach; live batches and one-to-one sessions earn more per student but are limited by your hours. Most steady online incomes mix at least two.
+
+
+
+Illustrative price ranges, not market data.
+
+A recorded course is built once and sold many times, so its income depends on reach. A live batch commands a higher price because students get you in real time, but you can only run so many batches a week. One-to-one pays the most per hour and the least per week. A test series is cheap to buy and easy to add, which makes it a common second purchase for exam students.
+
+The practical move for most educators is a ladder: a free demo lesson to earn trust, a recorded course as the main product, a test series as an add-on, and a live batch for students who want more. If you have not built the first course yet, our guide to creating your first online course covers it step by step.
+
+
+
+
+
+
+## How can you increase your online teaching income?
+
+Five levers move online teaching income: price, conversion, repeat courses, test series and live batches. Change one at a time and compare take-home, not sales, after each batch.
+
+
+
+Move one lever at a time.
+
+
+
+### 1. Price
+
+Price for the outcome a student is buying, such as clearing a cut-off or speaking confidently in an interview, not for your hours. In the SSC example, ₹1,699 instead of ₹1,499 at the same 280 students adds ₹56,000 of sales. Raise prices for the next batch, never for students who already paid.
+
+
+
+### 2. Conversion
+
+Conversion is the share of interested students who buy. A free demo lesson, a clear course page and easy checkout lift it. Students in India mostly pay by UPI, which NPCI reports processes billions of transactions every month,2 so a checkout that opens a UPI app in one tap removes a real drop-off point.
+
+
+
+### 3. Repeat courses
+
+Your next student is often your last one. A level 2 course, the next exam stage or an advanced batch sells to people who already trust you, with no ad spend.
+
+
+
+### 4. Test series
+
+A test series is a low-price add-on many exam students buy alongside a course. Illustratively, if 100 of the 280 SSC students add a ₹499 test series, that is ₹49,900 more in sales. Our guide to creating mock tests online shows how to build one.
+
+
+
+### 5. Live batches
+
+A live batch with weekly doubt classes is the premium rung. Live classes are unlimited on every AllCoaching plan, so adding one changes your hours, not your plan cost. For more on getting the students themselves, read how to sell courses online in India.
+
+
+Build your own academy. Try it free for 14 days.
+
+Website on your own domain, your own Android app (iOS app on Pro and Scale), unlimited live classes and UPI checkout on every plan. Plans from ₹6,999 a year after the trial (excl. GST).
+
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Your data stays exportable
+
+
+
+
+
+
+## What costs reduce your take-home?
+
+Five costs come between your sales and your income: the platform fee, the plan price, payment gateway charges where they apply, ads and tools, and taxes. Most surprises come from the ones nobody wrote down.
+
+
+- Platform fee: 10%, 7.5%, 5% or 0% on AllCoaching, depending on the plan.
+
+- Plan price: paid once a year, plus 18% GST on the plan.
+
+- Payment gateway charges: gateways such as Razorpay publish their charges on their pricing pages;3 check whether and how they apply to your plan before you price.
+
+- Ads and tools: Meta or Google ads, a mic, editing and design apps, a thumbnail tool.
+
+- Taxes: GST if you are registered, and income tax on your net income.
+
+
+
+
+Five habits that make income look bigger than it is.
+
+The simplest protection is a one-page sheet: monthly sales, fees, plan, ads and tools, and what you set aside for tax. Update it on the first of every month and recheck which plan costs least once a year, at renewal.
+
+
+
+
+
+
+## What about GST and income tax on online coaching income?
+
+GST and income tax are separate questions: GST depends on your yearly turnover, and income tax depends on your net income after business expenses. You can be below the GST threshold and still owe income tax.
+
+As of 2026, GST registration is generally required once aggregate turnover from services crosses ₹20 lakh a year (₹10 lakh in special-category states), and private coaching above that is commonly taxed at 18%. The GST portal is the official place to check registration and rates.5 Income tax applies to your net taxable income under the slab you fall in, and returns are filed on the Income Tax Department's e-filing portal.6
+
+This guide does not give tax advice. Rules, thresholds and schemes change, and your situation may differ, so read the official portals and speak to a chartered accountant before you file. Our longer explainer on GST and income tax for online tutors in India covers the basics in plain language.
+
+
+
+
+
+
+## Where AllCoaching fits
+
+AllCoaching works like Shopify, for coaching: sign up, choose a plan, upload your course, connect your domain and start selling, while payments, student access, apps and hosting run on their own. The pricing is published before you sign up, which is what makes the calculator above possible.
+
+
+
+Studio preview · sample data.
+
+Every plan starts with a 14-day free trial with no card needed. Build the academy, add a course, and use the calculator with your real price before you choose Starter, Growth, Pro or Scale. All plans and inclusions are on the pricing page.
+
+
+
+
+
+
+## Glossary
+
+
+Gross sales
+The total students paid you in a period: number of paying students multiplied by price, before any fees or costs.
+Take-home
+What you keep from sales after the platform fee, plan price, ads and tools, before GST and income tax.
+Platform fee
+The percentage of each sale a course platform keeps. On AllCoaching it is 10%, 7.5%, 5% or 0% depending on the plan.
+Plan price
+The fixed yearly amount paid for a platform plan, regardless of sales. AllCoaching plan prices exclude GST.
+Breakeven
+The sales level at which two plans cost the same in a year; above it the plan with the lower fee costs less in a year.
+Conversion rate
+The share of interested students, such as demo-lesson viewers, who go on to buy a course.
+GST registration threshold
+The yearly aggregate turnover above which GST registration is generally required: ₹20 lakh for most service providers, ₹10 lakh in special-category states.
+Test series
+A set of mock tests sold on its own or alongside a course, common for exam preparation.
+
+
+
+
+
+
+## Frequently asked questions
+
+How much can you earn teaching online in India?There is no reliable average. Your income is students × price × (1 − platform fee), minus your plan, ads and tools, before GST and income tax. For example, an illustrative 280 students at ₹1,499 on a 7.5% plan with ₹36,000 of ads and tools leaves about ₹3.39 lakh a year before tax.
+
+How do I calculate revenue from an online course?Multiply paying students by the price to get gross sales. Subtract the platform fee, the yearly plan price and your ads and tools to get take-home before tax. Then check GST registration and set aside income tax on your net income.
+
+Is a platform fee better than a subscription for online courses?It depends on your sales. A percentage fee costs little when sales are small and more as they grow, while a fixed plan price costs the same either way. On AllCoaching, Starter costs least below ₹2.4 lakh of yearly sales, Growth to ₹4.8 lakh, Pro to ₹15 lakh and Scale above ₹15 lakh.
+
+Which AllCoaching plan should I choose for my income level?Pick the plan with the lowest plan price plus platform fee at the sales you expect: Starter (₹6,999 + 10%) below ₹2.4 lakh, Growth (₹12,999 + 7.5%) from ₹2.4 to ₹4.8 lakh, Pro (₹24,999 + 5%) from ₹4.8 to ₹15 lakh, and Scale (₹99,999, 0% fee) above ₹15 lakh. Prices exclude GST.
+
+Do online tutors need to pay GST in India?GST registration is generally required once aggregate turnover from services crosses ₹20 lakh a year, or ₹10 lakh in special-category states. Below that, most small tutors do not charge GST. Check the GST portal or a chartered accountant for your case.
+
+Do I pay income tax on online teaching income?Yes, if your net taxable income is above the basic exemption limit. Income tax applies to your income after business expenses, separately from GST, and returns are filed on the Income Tax Department's e-filing portal.
+
+What is the fastest way to increase online coaching income?Usually more students rather than a lower price: a free demo lesson, a clear course page and easy UPI checkout raise conversion. Then add a test series or a next-level course for students who already trust you.
+
+Can I try AllCoaching before choosing a plan?Yes. Every plan starts with a 14-day free trial and no card is needed to start. You can build your academy and add a course, then choose Starter, Growth or Pro, or contact us for Scale.
+
+
+
+
+
+
+## Sources
+
+
+- YouTube Help, "Change video privacy settings" (unlisted videos), support.google.com, checked October 2026.
+
+- National Payments Corporation of India, "UPI Product Statistics", npci.org.in, checked October 2026.
+
+- Razorpay, "Pricing", razorpay.com, checked October 2026.
+
+- Meta Business Help Centre (ad budgets), facebook.com/business/help, checked October 2026.
+
+- Goods and Services Tax Network, GST portal, gst.gov.in, checked October 2026.
+
+- Income Tax Department, e-filing portal, incometax.gov.in, checked October 2026.
+
+- AllCoaching pricing, allcoaching.in/pricing, October 2026.
+
+
+
+
+
+
 
 Amit Ratan
-
 Founder & CEO, AllCoaching
-
-"I have seen educators with the same talent earn five times apart — not because one taught better, but because one kept 90% and was easy to find, while the other gave away a third of every sale and chased students with ads. Income is a formula. We built AllCoaching to put the two levers a platform controls back in the educator's favour: keep 90–100%, and be discovered."
-
-Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator growth marketplace. He has spent over a decade on the real economics of teaching — what educators actually earn, what platforms actually take, and why the best teachers are so often not the best paid — and on building a model where the educator keeps 90–100% and is found on merit. AllCoaching is built so the best educator, not the biggest budget, is the one who earns.
-
-Get Started
-
-Keep 90–100%. Get discovered. Get started.
-
-A phone and your knowledge are all you need. After AllCoaching's 60-second setup your branded studio is live: sell recorded courses, live batches and ranked test series, take UPI payments, and get found by students searching your exam, subject and language. Plans from Rs 6,999/year — a platform fee from 10% down to 5%, or 0% on Scale on what you sell, so you keep up to 100%.
-
-Start your 14-day free trial
-
-See the plans
-
-
-Keep 90–100%
-·
-Rs 6,999/year (Starter plan)
-·
-Automatic payouts
-·
-Found on the marketplace
-
-Glossary
-
-## Glossary —
-key terms.
-
-Term
-
-### Teaching Income Formula
-
-The relationship that determines online teaching income: students reached × price per student × the percentage kept after the platform's cut. It reframes income as three controllable levers rather than a fixed salary.
-
-Term
-
-### Keep-Rate
-
-The percentage of each sale an educator actually keeps after platform fees. On a flat-10% model the keep-rate is 90%; on a high-commission or subscription-plus-commission model it can be far lower. It is the hidden multiplier on income.
-
-Term
-
-### Take Rate (Platform Commission)
-
-The share of a sale a platform keeps — through commission, a fixed subscription, or both. Distinct from the keep-rate, which is what the educator is left with; take rate plus keep-rate together account for the full sale.
-
-Term
-
-### Average Revenue Per Student (ARPS)
-
-The average amount an educator earns per student across all products in a period. Rises when students buy more than one product (a course plus a test series) and is a clearer income signal than headline student count alone.
-
-Term
-
-### Recurring & Repeat Revenue
-
-Income from students who return — the next subject, the next test series, the next year — earned without fresh acquisition cost. It is what turns a one-time sales figure into a stable, compounding income.
-
-Term
-
-### Distribution (Discovery)
-
-How new students find an educator — through a marketplace, search or referral. Because the student count is usually the binding constraint on income, distribution is the lever that most often unlocks growth.
-
-Term
-
-### Scalable Product
-
-A product sold once and delivered to unlimited students without extra educator hours, such as a recorded course. Its income is capped by reach, not by time — distinct from a live batch, whose income is capped by the educator's hours.
-
-Term
-
-### Net Teaching Income
-
-What an educator actually takes home after platform fees, payment costs and any ad spend, as opposed to gross sales. The honest income number is always the net one, which is why the keep-rate and acquisition cost matter so much.
-
-FAQ
-
-## Frequently asked
-questions.
-
-How much can you earn teaching online in India?
-There is no single salary figure — online teaching income in India ranges from a few thousand rupees a month as a side income to several lakhs a month at scale, because it is a formula, not a wage. Your income equals the number of students you reach, multiplied by what each pays, multiplied by the percentage you keep after the platform's cut. The same teacher can earn very differently depending on those three numbers, which is why the honest answer is to run the math for your own situation rather than quote an average.
-
-Can online teaching be a full-time income in India?
-Yes — for many independent educators, online teaching is a full-time income, and for some it exceeds what a salaried teaching job pays. The deciding factors are whether you can reach enough students and how much of each sale you keep. An educator who reaches a few hundred paying students a year and keeps 90% of each sale is in full-time-income territory; the same reach on a platform taking a large cut may only be a side income. The model matters as much as the effort.
-
-How much do online tutors earn per month in India?
-Monthly earnings vary too widely for a meaningful average, but the math is simple to run. As an illustrative example, an educator selling a recorded course at around 2,000 rupees to 50 students in a month, keeping 90%, earns about 90,000 rupees from that one product; a one-to-one tutor doing 60 hours a month at around 600 rupees an hour, keeping 90%, earns around 32,000 rupees. These are illustrative scenarios, not guaranteed income — your figure depends on your price, your reach and your keep-rate.
-
-What pays more — recorded courses, live classes, or test series?
-Each format has a different shape. Recorded courses scale best — you make them once and sell to unlimited students, so income is capped by reach, not by your hours. Live batches command higher prices per student but are capped by your time and batch size. Ranked test series are low-priced but high-volume and pair well with the other two. The highest-earning educators usually combine all three: a recorded course for scale, a live batch for premium, and a test series for volume and retention.
-
-How much commission do teaching platforms take in India?
-It varies widely and is the single biggest hidden factor in your income. Some platforms charge a fixed monthly or annual subscription regardless of sales; some take a percentage commission on every sale; some take both. A platform taking a fixed fee plus a high commission can quietly cut your take-home well below what you assumed. AllCoaching charges a platform fee from 10% down to 5%, or 0% on Scale on paid sales only, with no monthly subscription, so the educator keeps 90–100% — the keep-rate is the lever you most control.
-
-How many students do I need to earn ₹1 lakh a month?
-It depends entirely on your price and keep-rate, which is why the formula matters more than the target. As an illustrative example, keeping 90%, you would reach roughly 1 lakh a month from about 55 students paying 2,000 rupees, or about 110 students paying 1,000 rupees, or around 22 students paying 5,000 rupees for a premium live batch. Lower the price and you need more students; raise it and you need fewer. The number is not fixed — it is whatever your price, reach and keep-rate make it.
-
-Does the exam or subject I teach affect how much I earn?
-Yes — niche affects both the price students will pay and the size of the audience. High-stakes, high-fee preparation such as NEET, JEE, UPSC and banking tends to support higher prices because the outcome is valuable to the student; broad school subjects and skills reach larger audiences at lower prices. Neither is automatically better for income — a high-price small-niche and a low-price large-niche can earn the same. What matters is matching your price to what your specific students value and can pay.
-
-How much does it cost to start earning from online teaching?
-It can cost as little as ₹6,999 a year. On AllCoaching there is no monthly subscription and no card or KYC required to set up a branded studio — you only pay a platform fee from 10% down to 5%, or 0% on Scale when you actually make a sale, so the platform earns only when you do. Your real startup costs are optional: a phone or laptop to record, and your time. The old assumption that you need to spend lakhs on an app or a subscription before earning your first rupee is no longer true.
-
-How does AllCoaching affect how much I earn?
-AllCoaching moves the two levers that decide income — the keep-rate and the student count. You keep 90–100% of every paid sale (10%-to-5% platform fee, no monthly subscription, Rs 6,999/year (Starter plan)), which protects the income you already make; and the AI-driven marketplace surfaces your branded studio to students searching by exam, subject and language, which grows the students you can reach. Higher keep-rate plus more students is, by the formula, higher income — without you spending on a subscription or on ads to find learners.
-
-Is online teaching income reliable or stable in India?
-It becomes stable when it stops depending on constant new sales and starts compounding through retention and repeat purchases. A student who returns for the next subject, the next test series or the next year is income earned without fresh acquisition cost, and a recorded course keeps selling after it is made. Automatic settlement also smooths cash flow compared with waiting weeks for a payout. Online teaching income is variable early and grows more stable as your catalogue, your reviews and your returning students accumulate.
-
-
-
-Continue the argument
-
-Companion pieces across the AllCoaching system — strategy, economics, infrastructure, and discovery.
-
-
-monetize youtube teaching channel via personal app
-online teaching side income for working professionals india
-school teacher side income from online coaching
-how college students can earn teaching online india
-SEO strategies for online course creators
-student progress tracking analytics tools coaching india
-
-Also see Live demo · Pricing · FAQ Hub · Founder profile
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. Every rupee figure in this guide is illustrative and labelled so; tax rules are linked to official sources, and AllCoaching plan prices are from our own pricing page.
 
 ---
 

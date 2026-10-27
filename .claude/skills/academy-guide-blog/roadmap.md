@@ -12,8 +12,8 @@ How the list was made:
 | # | Phase | Title | Primary keyword | Type | Status |
 |---|---|---|---|---|---|
 | 1 | Academy building | How to Create an Online Academy Without a Developer: Live in One Evening | how to create online academy without developer | REFRESH `blog/online-coaching-academy-without-coding` | **Live 2026-10-25** (`blog/online-coaching-academy-without-coding`) |
-| 2 | Academy building | How to Build Your Own Coaching App in India Without Coding (2026 Guide) | how to make coaching app without coding | NEW | Planned |
-| 3 | Academy building | From WhatsApp Groups to Your Own Online Academy: A Step-by-Step Move | whatsapp group to online academy | NEW | Planned |
+| 2 | Academy building | How to Build Your Own Coaching App in India Without Coding (2026 Guide) | how to make coaching app without coding | NEW | **Live 2026-10-27** (`blog/how-to-make-coaching-app-without-coding`) |
+| 3 | Academy building | From WhatsApp Groups to Your Own Online Academy: A Step-by-Step Move | whatsapp group to online academy | NEW | **Live 2026-10-27** (`blog/whatsapp-group-to-online-academy`) |
 | 4 | Academy building | What Is an Online Academy? Meaning, Types and How It Works (2026) | what is an online academy | NEW (pillar) | **Live 2026-10-25** (`blog/what-is-an-online-academy`) |
 | 5 | Course creation | How to Create Your First Online Course in India: Videos, PDFs and Tests in One Place | how to create online course india | NEW | **Live 2026-10-25** (`blog/create-your-first-online-course-india`) |
 | 6 | Course creation | How to Price Your Online Course in India (+ Revenue Calculator) | online course pricing india | REFRESH `blog/how-to-price-online-courses-india` + calculator | **Live 2026-10-25** (`blog/how-to-price-online-courses-india`) |
@@ -29,7 +29,7 @@ How the list was made:
 | 16 | Marketing | Online Academy SEO: The Beginner's Guide for Indian Educators (2026) | online academy seo / seo for coaching institute | DONE | **Live 2026-10-24** (add "SEO for coaching institutes" as a secondary keyword) |
 | 17 | Marketing | Google Business Profile for Coaching Centres: Local SEO Guide | google business profile for coaching centre | NEW | Planned |
 | 18 | Marketing | How to Get Students Without Paid Ads: Organic Growth Playbook for Educators | get students online without ads | REFRESH `blog/how-to-get-paid-students-for-online-coaching-free` | Planned |
-| 19 | Growth & income | How Much Do Online Educators Earn in India? (+ Income Calculator) | online coaching income india | REFRESH `blog/how-much-can-you-earn-teaching-online-india` + calculator | Planned |
+| 19 | Growth & income | How Much Do Online Educators Earn in India? (+ Income Calculator) | online coaching income india | REFRESH `blog/how-much-can-you-earn-teaching-online-india` + calculator | **Live 2026-10-27** (`blog/how-much-can-you-earn-teaching-online-india`) |
 | 20 | Growth & income | How to Grow Your Online Coaching from 50 to 1,000 Students | grow online coaching students | NEW (link `how-to-get-first-500-students-for-coaching-app`) | Planned |
 | 21 | Growth & income | Live Classes Online: YouTube Live vs Zoom vs a Built-in Live Room | youtube live vs zoom for teachers | NEW (link `how-to-conduct-live-classes-on-mobile-apps`) | Planned |
 
