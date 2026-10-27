@@ -1,0 +1,334 @@
+{
+ "slug": "whatsapp-group-to-online-academy",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "WhatsApp Group to Online Academy: Step-by-Step Guide (2026)",
+ "description": "Move a paid coaching batch from WhatsApp groups to your own online academy: audit your tools, upload old notes as a course, add UPI checkout, set a switch-over date.",
+ "og_description": "A step-by-step plan for Indian educators who run paid batches on WhatsApp or Telegram with Google Forms, UPI screenshots, Zoom links and Drive PDFs: audit, set up an academy, upload old content, add UPI checkout, invite students with ready message templates, keep WhatsApp for announcements and follow up.",
+ "keywords": [
+  "whatsapp group to online academy",
+  "sell courses from whatsapp group",
+  "move students from whatsapp to app",
+  "whatsapp coaching problems",
+  "telegram to course platform",
+  "collect fees online for coaching",
+  "whatsapp batch to online course",
+  "upi screenshots coaching fees",
+  "online academy migration plan",
+  "whatsapp announcement message for students"
+ ],
+ "h1": "From WhatsApp Groups to Your Own Online Academy: A Step-by-Step Move",
+ "dek": "A practical plan for educators who run paid batches on WhatsApp or Telegram groups with Google Forms, UPI screenshots, Zoom links and Drive PDFs: what breaks, what to move, the messages to send your students and how to set a switch-over date without losing anyone.",
+ "category": "Start an academy",
+ "date_published": "2026-10-27",
+ "date_modified": "2026-10-27",
+ "checked": "27 Oct 2026",
+ "cover_alt": "Moving a coaching batch from a WhatsApp group to your own online academy: Google Forms, UPI screenshots, Zoom links and Drive PDFs replaced by one academy in the AllCoaching studio",
+ "audience": "Indian educators, tutors and coaching institute owners who run paid batches on WhatsApp or Telegram groups",
+ "author_note": "This guide comes from helping educators move paid batches off WhatsApp and Telegram groups; outside facts are linked to their official sources, and every batch size, date and price in the examples is illustrative.",
+ "intro": [
+  "<strong>To move a paid coaching batch from a WhatsApp group to your own online academy, list every tool the batch uses today, set up the academy, upload your old lessons and notes as one organised course, add UPI and card checkout, announce a switch-over date to your students with a clear message, keep the WhatsApp group only for announcements, and personally follow up with anyone who has not moved.</strong> Done in that order, most batches move in two to four weeks without losing students.",
+  "Perhaps this is your week. Admissions come through a Google Form. Fees arrive on UPI and the proof arrives as a screenshot in your personal chat. The Zoom link goes into the group every evening. Notes sit in a Drive folder that three people have edit access to. A new student joins in the third month and asks for everything from the first two. None of this is wrong; it is how a huge number of Indian educators started teaching online, because WhatsApp is where students already are.",
+  "The trouble starts when the batch grows. This guide names the problems honestly, then gives you an eight-step migration plan, ready-to-send message templates for your students, a four-week timeline and the mistakes to avoid. It is written for exam educators (SSC, NEET, JEE, banking, state PSC) and skill educators (spoken English, yoga, music, coding) alike, and it works the same way if your batch lives on Telegram."
+ ],
+ "takeaways": [
+  "<strong>WhatsApp is good at conversation, not at running a paid course:</strong> it has no checkout, no course library in order, no tests and no record of who has paid.",
+  "<strong>The biggest hidden cost is fee checking by hand:</strong> matching UPI screenshots to bank entries, then adding each student and resending old links, every batch.",
+  "<strong>Links leak:</strong> Google Drive's \"anyone with the link\" setting and YouTube unlisted videos can both be opened by anyone the link is forwarded to.",
+  "<strong>Do not delete the group.</strong> Keep WhatsApp for reminders and alerts, and move fees, lessons, notes, tests and live class links into your academy.",
+  "<strong>Pick one switch-over date,</strong> announce it about two weeks ahead, honour what current students already paid, and follow up one by one.",
+  "<strong>Students do not have to install anything:</strong> your academy website opens in the phone's browser, and your own Android app is there for those who want it.",
+  "<strong>On AllCoaching</strong> you sign up, choose a plan, upload your course, connect your domain and start selling, after a 14-day free trial with no card."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "h2": "How do you move from a WhatsApp group to your own online academy?",
+   "toc": "The 8-step move",
+   "html": "<p><strong>Audit what you use, set up the academy, upload old content as a course, set a price with UPI checkout, invite current students, keep WhatsApp for announcements, switch over on a fixed date, then follow up.</strong> Each step below has its own section.</p>\n      {{steps}}\n      <p>The order matters. Educators who announce first and build later end up sending half-finished links to a whole batch. Educators who build quietly for a week, test a payment with a friend and only then announce usually move most of their students in the first few days.</p>\n      <p>When educators move a batch to AllCoaching, the part they worry about most is students. The part that actually takes time is the content: turning two years of Drive folders and forwarded PDFs into modules a new student can follow. Plan your week around that.</p>"
+  },
+  {
+   "id": "problems",
+   "h2": "What are the problems with running paid coaching on WhatsApp groups?",
+   "toc": "WhatsApp coaching problems",
+   "html": "<p><strong>The main WhatsApp coaching problems are manual fee checks, links that can be forwarded to anyone, new students who cannot see old notes, group size limits that split a batch, phone numbers visible to every member and no way to track progress.</strong> Each one is small with 20 students and painful with 200.</p>\n      {{fig:before-after|Before and after moving a coaching batch from a WhatsApp group to an online academy: Google Form admissions, UPI screenshots, daily Zoom links and Drive notes versus one checkout and course library|The stitched-together setup on the left, one academy on the right. Illustrative. Logos belong to their owners.}}\n      <h3>1. Fees are checked by hand</h3>\n      <p>A student pays on UPI, sends a screenshot, and you open your bank app to match the amount and the name. Then you note it in a sheet and add the student to the group. A screenshot is a picture, not a payment record; it can be old, cropped or for a different amount, and you only find out when you check. At the end of the month, \"who has not paid\" becomes a scroll through chats.</p>\n      <h3>2. Links travel further than you want</h3>\n      <p>Paid material on WhatsApp usually means a Drive link or a YouTube link. Google's own help page describes the \"Anyone with the link\" setting plainly: \"Anyone on the internet who has the link can open the file without signing in to a Google Account.\"<sup><a href=\"#ref-1\">1</a></sup> YouTube says unlisted videos \"can be seen and shared by anyone with the link\".<sup><a href=\"#ref-2\">2</a></sup> Once a link is in a group, any member can forward it to a friend who never paid.</p>\n      <h3>3. New students cannot see the old notes</h3>\n      <p>A WhatsApp group is a timeline, not a library. A student who joins in month three finds PDFs, links and voice notes buried hundreds of messages up, if they can see them at all, and asks you to resend everything. You end up re-posting the same material for every late joiner.</p>\n      <h3>4. Groups have a size limit</h3>\n      <p>WhatsApp groups have a member cap, and big batches end up split into \"Batch A\" and \"Batch B\" groups that you post into twice. Telegram channels avoid the cap but bring the same link-sharing and fee problems.</p>\n      <h3>5. Members can see each other's phone numbers</h3>\n      <p>In a regular group, members can generally see each other's numbers. For a batch of teenagers or working adults who do not know each other, that is personal information shared more widely than anyone intended, and it is also how your students get spam from strangers who joined the group.</p>\n      <h3>6. You cannot see progress</h3>\n      <p>You cannot tell who watched yesterday's recording, who opened the PDF or who skipped the last three tests. Without that, you only find a weak student when the exam result arrives.</p>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Problem on WhatsApp</th><th>What it costs you</th><th>What fixes it in an academy</th></tr></thead>\n          <tbody>\n            <tr><td>UPI screenshots</td><td>Evenings matching payments by hand</td><td>UPI or card checkout that opens access after payment</td></tr>\n            <tr><td>Forwardable links</td><td>Paid notes reach people who did not pay</td><td>Lessons and PDFs inside a login</td></tr>\n            <tr><td>Buried old notes</td><td>Resending material to every late joiner</td><td>A course with modules in order</td></tr>\n            <tr><td>Group size limit</td><td>Posting the same thing in two groups</td><td>One course for any number of students</td></tr>\n            <tr><td>Visible phone numbers</td><td>Students' numbers shared with strangers</td><td>Students sign in to your academy; the group becomes announcement-only</td></tr>\n            <tr><td>No progress tracking</td><td>Weak students found too late</td><td>Tests with scores and a student list</td></tr>\n          </tbody>\n          <caption>The six problems in one table.</caption>\n        </table>\n      </div>"
+  },
+  {
+   "id": "when-to-move",
+   "h2": "When should you move students from WhatsApp to an app or academy?",
+   "toc": "When to move",
+   "html": "<p><strong>Move when you spend more time managing the batch than teaching it: when fee checks take more than an evening a month, when you post the same thing in two groups, or when you want to sell a recorded course to students you will never meet.</strong> If you teach one small batch of friends' children, WhatsApp may be all you need for now.</p>\n      <p>Signs it is time:</p>\n      <ul>\n        <li>You have more than one group for the same course.</li>\n        <li>You have found your paid PDFs in a group you did not create.</li>\n        <li>Students ask \"sir, can you send the old notes again\" every week.</li>\n        <li>You want to sell last year's recordings as a course, not just run a live batch.</li>\n        <li>You want students from other cities to find and pay you without a phone call.</li>\n      </ul>\n      <p>The usual worry is that students will not want another app. They do not need one. Your academy is a website first, and it opens in the phone's browser from a link you send on WhatsApp. If that worry is the main thing stopping you, read our guide on <a href=\"/blog/students-wont-download-coaching-app-whatsapp\">what to do when students won't download your coaching app and just want WhatsApp</a>; it covers that question in detail. This guide is about the move itself.</p>"
+  },
+  {
+   "id": "audit",
+   "h2": "Step 1: Audit what your batch runs on today",
+   "toc": "Step 1: Audit",
+   "html": "<p><strong>Before you build anything, write down every tool the batch uses, every piece of content you have, every student and what each student has paid for.</strong> This list becomes your migration checklist.</p>\n      {{fig:audit-map|Audit of a WhatsApp coaching batch: WhatsApp group, Google Form, UPI screenshots, Zoom links, Drive PDFs, YouTube links and an Excel sheet, each mapped to its place in an online academy|Give each tool a new home. WhatsApp stays, for announcements. Example audit, illustrative. Logos belong to their owners.}}\n      <p>Make four lists in one sheet:</p>\n      <ol>\n        <li><strong>Tools:</strong> WhatsApp or Telegram groups, Google Forms, UPI ID or QR, Zoom or Meet, Drive folders, YouTube playlists, any Excel or notebook you track fees in.</li>\n        <li><strong>Content:</strong> recorded classes, PDFs, PYQs, test papers, formula sheets, voice notes worth keeping. Mark each one keep, redo or drop.</li>\n        <li><strong>Students:</strong> name, phone, batch, what they paid for and until when.</li>\n        <li><strong>Dues:</strong> who owes what today, so nobody is surprised after the move.</li>\n      </ol>\n      <p>The student list is the one to get right. Every promise you made (\"this fee covers until March\") must still be true after the move.</p>"
+  },
+  {
+   "id": "set-up",
+   "h2": "Step 2: Set up your online academy",
+   "toc": "Step 2: Set up the academy",
+   "html": "<p><strong>An online academy is your own website (and optionally your own app) where students buy your courses, watch lessons, download notes, take tests and join live classes under your name.</strong> Setting one up today takes hours, not months.</p>\n      <p>If the idea is new to you, our explainer on <a href=\"/blog/what-is-an-online-academy\">what an online academy is</a> covers the options. On AllCoaching the path is fixed and self-serve: sign up, choose a plan, upload your course, connect your domain and start selling. Payments, student access, apps and hosting run on their own. Every plan starts with a 14-day free trial with no card needed, which is enough time to build the academy and test it with a few students before you announce anything.</p>\n      <ul>\n        <li><strong>Name and brand:</strong> use the name students already know, the one on your WhatsApp group or YouTube channel. Add your logo and colours.</li>\n        <li><strong>Domain:</strong> connect your own domain (youracademy.in) so the link you share looks like yours. Every AllCoaching plan includes connecting your own domain.</li>\n        <li><strong>App:</strong> every plan includes your own white-label Android app; the iOS app is on Pro and Scale. Students who prefer the browser can skip the app entirely.</li>\n      </ul>"
+  },
+  {
+   "id": "upload",
+   "h2": "Step 3: Upload your old WhatsApp content as one organised course",
+   "toc": "Step 3: Upload old content",
+   "html": "<p><strong>Do not copy your Drive folder as it is. Rebuild it as a course: modules that follow the syllabus, lessons in teaching order, a PDF of notes and a test for each module, and lesson 1 free as a demo.</strong> The structure is what a late joiner was missing on WhatsApp.</p>\n      <h3>Sort before you upload</h3>\n      <p>Group your recorded classes by topic, not by date. A two-hour live class recording from last year is often better split into three or four shorter lessons. Rename files the way students search: \"Module 2 · Lesson 3 · Percentage shortcuts\", not \"class 14 final final.mp4\". Our guide on <a href=\"/blog/create-your-first-online-course-india\">how to create your first online course in India</a> covers module structure, lesson length and PDFs in detail.</p>\n      <h3>Videos via YouTube</h3>\n      <p>Many educators already have class recordings on YouTube. On AllCoaching, videos come in through YouTube and are unlimited on every plan, so you add each lesson to the course in order instead of posting links into a chat. PDFs and test series sit in the studio's Content section, inside the same course.</p>\n      <h3>Live classes inside the course</h3>\n      <p>Instead of pasting a Zoom link into the group every evening, schedule the live class inside the course. AllCoaching includes unlimited live classes on every plan, through YouTube Live, Zoom or the built-in live room. If you teach from a phone, see <a href=\"/blog/how-to-conduct-live-classes-on-mobile-apps\">how to conduct live classes on mobile</a>.</p>\n      {{q:Do I have to upload everything before I switch?|No. Upload the current module, the notes students use most and the demo lesson first. Add older material module by module after the switch-over. Students care far more that this week's class and notes are in the academy than that everything from last year is.}}"
+  },
+  {
+   "id": "fees",
+   "h2": "Step 4: How do you collect fees online for coaching instead of UPI screenshots?",
+   "toc": "Step 4: Price and UPI checkout",
+   "html": "<p><strong>Set a price on the course and let students pay through UPI or card checkout on your academy; access opens after the payment, so there is no screenshot to check and no one to add by hand.</strong> UPI is the system students already use, run by the National Payments Corporation of India (NPCI).<sup><a href=\"#ref-4\">4</a></sup></p>\n      {{fig:fee-collection|Collecting coaching fees online: six manual steps with UPI screenshots on WhatsApp versus a two-step UPI or card checkout that opens course access automatically|The same payment, without the evening of checking. Illustrative.}}\n      <h3>Price the course the way you price the batch</h3>\n      <p>Start with the fee students already pay you, for the same duration and the same material. A move is not the moment to change your price and your platform at once. If the academy adds recorded lessons, tests and notes that the WhatsApp batch never had, you can review the price for the next batch. Our guide on <a href=\"/blog/how-to-price-online-courses-india\">how to price online courses in India</a> covers that decision.</p>\n      <h3>Test one real payment first</h3>\n      <p>Before you announce anything, ask a friend or family member to buy the course with UPI. Check that the payment goes through, that access opens and that the confirmation makes sense to a student. On AllCoaching, students pay through UPI or card checkout and payouts reach your bank automatically through Razorpay. For the details of gateways, KYC and fees, read <a href=\"/blog/accept-upi-payments-for-online-courses\">how to accept UPI payments for online courses</a>.</p>\n      <h3>Students who already paid</h3>\n      <p>Do not charge a student twice. Students who paid you on UPI for the current batch keep what they paid for. Decide how you will give them access before you announce; if you are not sure how to do it in your setup, ask during your trial. Many educators simply let the current batch finish its paid period and move every new enrolment and renewal to checkout.</p>"
+  },
+  {
+   "id": "invite",
+   "h2": "Step 5: Invite your existing students (message templates)",
+   "toc": "Step 5: Message templates",
+   "html": "<p><strong>Send one clear announcement to the group about two weeks before the switch-over date, then short personal messages to anyone who has not moved.</strong> Every message needs one date, one link, what changes, what stays and a way to ask questions.</p>\n      {{fig:announcement-message|Template WhatsApp announcement for moving a coaching batch to an online academy, with the switch-over date, academy link, what changes, what stays and reassurance for students who already paid|A good announcement is short and specific. Sample batch and dates. Logos belong to their owners.}}\n      <p>Copy these and change the names, dates and link. They are written in plain English for Indian students and parents; translate them into your teaching language if your batch reads Hindi or a regional language more comfortably.</p>\n      <div class=\"v3-q\">\n        <p class=\"l\">Template 1 · Group announcement</p>\n        <p>Hello everyone. From 1 December, our SSC Maths batch moves to our own academy: youracademy.in. What changes: fees are paid by UPI or card on the course page, and all lessons, PDFs, tests and the live class link are in one place, including everything from earlier months. What stays: this group, for reminders and quick updates. If you have already paid for November, you keep your access. Questions? Reply here or message me directly.</p>\n      </div>\n      <div class=\"v3-q\">\n        <p class=\"l\">Template 2 · Reminder, three days before</p>\n        <p>Reminder: from Monday, the live class link and new notes will be only on youracademy.in. Please open the link today, sign in, and check that you can see Module 1. If something does not work, send me a message and I will help you before Monday.</p>\n      </div>\n      <div class=\"v3-q\">\n        <p class=\"l\">Template 3 · Personal follow-up</p>\n        <p>Hi Riya, I noticed you have not signed in to the new academy yet. Everything from our batch is there now, including the PDFs you asked for last week. Here is the link: youracademy.in. Do you want me to call for two minutes and help you set it up?</p>\n      </div>\n      <div class=\"v3-q\">\n        <p class=\"l\">Template 4 · Reply to a new enquiry</p>\n        <p>Thank you for asking about the batch. You can see the syllabus, watch a free demo lesson and enrol here: youracademy.in. Payment is by UPI or card, and access opens straight after. Class reminders are shared in our WhatsApp group, which I will add you to once you have enrolled.</p>\n      </div>\n      <p>For parents of school students, send the announcement to the parent as well. Parents pay the fee, and a clear message about where the money goes builds more trust than a UPI ID in a chat.</p>"
+  },
+  {
+   "id": "keep-whatsapp",
+   "h2": "Step 6: Keep WhatsApp as your announcement channel",
+   "toc": "Step 6: Keep WhatsApp for news",
+   "html": "<p><strong>Do not delete the group. Turn it into an announcement space for class reminders, new lesson alerts and exam dates, and keep fees, lessons, notes, tests and live links in the academy.</strong> WhatsApp is still where your students reply fastest.</p>\n      {{fig:stays-vs-moves|What stays on WhatsApp after moving a coaching batch to an online academy, such as reminders and alerts, and what moves to the academy, such as fees, lessons, PDFs, tests and live class links|Move the teaching and the money. Keep the chat. Logos belong to their owners.}}\n      <p>You have three options on WhatsApp:</p>\n      <ul>\n        <li><strong>Keep the group,</strong> and change its settings so only admins can send messages. Students still see every reminder; the chat stops burying your posts.</li>\n        <li><strong>Use a Community</strong> if you run several batches, with one announcement group for all of them.</li>\n        <li><strong>Start a WhatsApp Channel</strong> for public updates and free tips that bring new students in. WhatsApp says that as a channel admin \"your phone number and profile photo won't be shown to followers\", and that following a channel \"won't reveal your phone number to the admin or other followers\".<sup><a href=\"#ref-3\">3</a></sup> That solves the phone-number problem for your public audience.</li>\n      </ul>\n      <p>Our guide on <a href=\"/blog/whatsapp-channels-for-coaching-educators-india\">WhatsApp Channels for coaching educators in India</a> covers setting one up and what to post. Whichever you choose, every message should end with a link back to your academy, because the academy is where the student acts.</p>"
+  },
+  {
+   "id": "switch-over",
+   "h2": "Step 7: Set a switch-over date and keep it",
+   "toc": "Step 7: Switch-over date",
+   "html": "<p><strong>Choose one date after which new fees, new notes and live class links are only in the academy, announce it about two weeks ahead, and keep it.</strong> A date turns \"we are moving sometime\" into something students act on.</p>\n      {{fig:migration-timeline|Four-week migration timeline from a WhatsApp group to an online academy: audit, set up and upload, price and checkout, announce, switch-over date and follow-up|Work back from the switch-over date. Timing is illustrative; a small batch can move in two weeks.}}\n      <ul>\n        <li><strong>Pick a natural break:</strong> the start of a new month, a new module or a new batch. Avoid the week before an exam.</li>\n        <li><strong>Run both for a short overlap:</strong> for the last week before the date, post new material in both places with a note that the group copy stops on the date.</li>\n        <li><strong>On the date, stop posting files in the group.</strong> Post the reminder and the link instead. If you keep sharing PDFs in the chat \"just this once\", students learn that they never need to move.</li>\n      </ul>"
+  },
+  {
+   "id": "follow-up",
+   "h2": "Step 8: Follow up with students who have not moved",
+   "toc": "Step 8: Follow up",
+   "html": "<p><strong>After the switch-over date, check your student list in the academy against your audit sheet and message every student who has not signed in, one by one.</strong> Most students who have not moved are confused, not unwilling.</p>\n      <p>The common reasons are simple: they missed the announcement, the link opened in an in-app browser, they forgot which phone number they used, or a parent pays and has not seen the message. A two-minute call fixes most of them. Educators we work with often find that the last few students move only after a personal message, not a group reminder.</p>\n      <p>After the first month, check three things: fees arrive without screenshots, late joiners find old notes on their own, and fewer questions reach your personal chat. If all three hold, the move worked.</p>"
+  },
+  {
+   "id": "telegram",
+   "h2": "Does the same plan work for moving from Telegram to a course platform?",
+   "toc": "Telegram groups",
+   "html": "<p><strong>Yes. A Telegram group or channel has the same gaps as WhatsApp for a paid course: no checkout, no structured course and files that can be forwarded, so the same eight steps apply.</strong> The only difference is the announcement channel you keep.</p>\n      <p>Telegram is popular with exam educators because channels hold large audiences and large files. That is useful for free content and announcements. It is weaker for paid content, because anyone in the channel can forward a PDF out of it. Move the paid course, test series and live classes to your academy, and keep the channel for free tips and links. If you are following the news about Telegram access for educators and students in India, our update on <a href=\"/blog/telegram-ban-india-educators-students\">the Telegram ban and what it means for educators</a> explains the situation and why owning your student list matters.</p>"
+  },
+  {
+   "id": "plan-cost",
+   "h2": "What does it cost to sell courses from your own academy instead of a WhatsApp group?",
+   "toc": "What it costs",
+   "html": "<p><strong>On AllCoaching, every plan starts with a 14-day free trial with no card, then one annual plan: Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee on sales, or Scale at ₹99,999 a year with a 0% platform fee.</strong> Prices exclude GST.</p>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Plan</th><th>Yearly price (excl. GST)</th><th>Platform fee</th><th>Usually lowest total cost when yearly sales are</th></tr></thead>\n          <tbody>\n            <tr><td>Starter</td><td>₹6,999</td><td>10% (keep 90%)</td><td>Below ₹2.4 lakh</td></tr>\n            <tr><td>Growth</td><td>₹12,999</td><td>7.5% (keep 92.5%)</td><td>₹2.4–4.8 lakh</td></tr>\n            <tr><td>Pro</td><td>₹24,999</td><td>5% (keep 95%), iOS app included</td><td>₹4.8–15 lakh</td></tr>\n            <tr><td>Scale</td><td>₹99,999 (via Contact us)</td><td>0% (keep 100%), iOS app included</td><td>Above ₹15 lakh</td></tr>\n          </tbody>\n          <caption>Breakevens are illustrative and calculated before GST. See <a href=\"/pricing\">allcoaching.in/pricing</a> for current plans.<sup><a href=\"#ref-5\">5</a></sup></caption>\n        </table>\n      </div>\n      <p>To choose, estimate the fees your WhatsApp batches collected over the last year and pick the row it falls in. Every plan includes your own domain, your own Android app, unlimited videos via YouTube, unlimited live classes and UPI checkout, so the choice is about your sales, not about features you will miss. Upgrades take effect on payment with the unexpired value credited.</p>\n      {{cta}}"
+  },
+  {
+   "id": "mistakes",
+   "h2": "Common mistakes when moving a WhatsApp batch online",
+   "toc": "Mistakes to avoid",
+   "html": "<p><strong>The most common mistakes are moving overnight, charging students who already paid, deleting the group, uploading a messy Drive folder as it is, never setting a switch-over date and not following up.</strong> Each has a simple fix.</p>\n      {{fig:mistakes|Six common mistakes when moving students from a WhatsApp group to an online academy and the fix for each|Six mistakes and their fixes.}}\n      <div class=\"v3-quote\">\n        <p>\"The batch does not move because the academy is better. It moves because the educator gives one date, one link and a personal message to every student who needs it.\"</p>\n        <cite>Amit Ratan, Founder &amp; CEO, AllCoaching</cite>\n      </div>"
+  }
+ ],
+ "steps": {
+  "name": "How to move a coaching batch from a WhatsApp group to your own online academy",
+  "description": "Eight steps for an Indian educator to move a paid batch from WhatsApp or Telegram groups to an online academy with UPI checkout.",
+  "total_time": "P28D",
+  "items": [
+   [
+    "Audit what you use",
+    "List every tool, piece of content, student and fee the batch runs on today in one sheet."
+   ],
+   [
+    "Set up your academy",
+    "Sign up, choose a plan, add your name and logo, and connect your own domain."
+   ],
+   [
+    "Upload old content as a course",
+    "Rebuild Drive and YouTube material into modules with lessons in order, PDF notes, tests and a free demo lesson."
+   ],
+   [
+    "Set a price and UPI checkout",
+    "Keep your current fee, add UPI and card checkout, and test one real payment with a friend."
+   ],
+   [
+    "Invite existing students",
+    "Send a clear announcement with one date and one link, and honour what current students already paid."
+   ],
+   [
+    "Keep WhatsApp for announcements",
+    "Make the group admin-only or use a Channel for reminders, alerts and links back to the academy."
+   ],
+   [
+    "Switch over on a fixed date",
+    "After the date, new fees, notes and live class links are only in the academy."
+   ],
+   [
+    "Follow up one by one",
+    "Message or call every student who has not signed in, and review the move after a month."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "How do I move my coaching batch from a WhatsApp group to an online academy?",
+   "List the tools, content and students you have, set up the academy, upload old lessons and notes as one organised course, add UPI checkout, announce a switch-over date about two weeks ahead, keep the WhatsApp group for announcements and personally follow up with students who have not moved."
+  ],
+  [
+   "Can I sell courses from a WhatsApp group?",
+   "You can collect UPI payments and share links in a group, but WhatsApp has no checkout, no course library and no record of who paid. Most educators sell from their own academy page and use the WhatsApp group to share the link and send reminders."
+  ],
+  [
+   "What are the main problems with running coaching on WhatsApp?",
+   "Manual fee checks from UPI screenshots, Drive and YouTube links that can be forwarded to anyone, new students who cannot find old notes, group size limits that split a batch, phone numbers visible to all members and no way to track progress or test scores."
+  ],
+  [
+   "Will my students need to download a new app?",
+   "No. Your academy works as a website in the phone's browser, opened from a link you send on WhatsApp. On AllCoaching every plan also includes your own Android app, and the iOS app is on Pro and Scale, for students who prefer an app."
+  ],
+  [
+   "How do I collect fees online for coaching instead of UPI screenshots?",
+   "Put a price on the course and let students pay through UPI or card checkout on your academy. Access opens after payment, so there is nothing to match by hand. On AllCoaching, payouts reach your bank automatically through Razorpay."
+  ],
+  [
+   "What should I do about students who already paid me on UPI?",
+   "Honour what they paid. Let them keep access for the period they paid for and move them to checkout only at their next renewal. Decide how you will give them access before you announce the move."
+  ],
+  [
+   "Should I delete my WhatsApp group after moving?",
+   "No. Keep it for class reminders, new lesson alerts and exam dates, and consider making it admin-only. Fees, lessons, notes, tests and live class links should live in the academy."
+  ],
+  [
+   "Does this work for a Telegram group or channel?",
+   "Yes. Telegram has the same gaps for a paid course, so the same steps apply: move the paid course, tests and live classes to your academy and keep the Telegram channel for free tips and announcements."
+  ],
+  [
+   "How long does it take to move a batch from WhatsApp to an online academy?",
+   "Two to four weeks is typical: about a week to audit and set up, a week to upload content and test payments, then an announcement period of about two weeks before the switch-over date. A small batch can move faster."
+  ],
+  [
+   "How much does an online academy cost on AllCoaching?",
+   "Every plan starts with a 14-day free trial with no card. Then Starter is ₹6,999, Growth ₹12,999 and Pro ₹24,999 a year with a 10%, 7.5% or 5% platform fee, or Scale is ₹99,999 a year with a 0% platform fee. Prices exclude GST."
+  ]
+ ],
+ "glossary": [
+  [
+   "online-academy",
+   "Online academy",
+   "An educator's own website, and optionally app, where students buy courses, watch lessons, download notes, take tests and join live classes under the educator's brand."
+  ],
+  [
+   "switch-over-date",
+   "Switch-over date",
+   "The fixed day after which new fees, notes and live class links are shared only in the academy, not in the WhatsApp group."
+  ],
+  [
+   "announcement-group",
+   "Announcement group",
+   "A WhatsApp group set so that only admins can send messages, used for reminders and alerts rather than discussion."
+  ],
+  [
+   "whatsapp-channel",
+   "WhatsApp Channel",
+   "A one-way broadcast tool on WhatsApp where admins post updates to followers, and phone numbers are not shown between admins and followers."
+  ],
+  [
+   "upi-checkout",
+   "UPI checkout",
+   "A payment step on a course page where the student pays through UPI or card and course access opens after the payment succeeds."
+  ],
+  [
+   "anyone-with-the-link",
+   "Anyone with the link",
+   "A sharing setting, used by Google Drive, under which anyone who has the URL can open the file, including people it was forwarded to."
+  ],
+  [
+   "unlisted-video",
+   "Unlisted video",
+   "A YouTube video that does not appear in search or on the channel page but can be watched and shared by anyone with the link."
+  ],
+  [
+   "migration-audit",
+   "Migration audit",
+   "A list of every tool, piece of content, student and payment a batch uses, made before moving it to an academy."
+  ]
+ ],
+ "references": [
+  "Google Drive Help, \"Share and manage access to files and folders in Google Drive\", <a href=\"https://support.google.com/drive/answer/2494822\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "YouTube Help, \"Change video privacy settings\" (unlisted videos), <a href=\"https://support.google.com/youtube/answer/157177\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked October 2026.",
+  "WhatsApp Blog, \"Introducing WhatsApp Channels. A Private Way to Follow What Matters\", <a href=\"https://blog.whatsapp.com/introducing-whatsapp-channels-a-private-way-to-follow-what-matters\" target=\"_blank\" rel=\"noopener nofollow\">blog.whatsapp.com</a>, checked October 2026.",
+  "National Payments Corporation of India (NPCI), official website, <a href=\"https://www.npci.org.in/\" target=\"_blank\" rel=\"noopener nofollow\">npci.org.in</a>, checked October 2026.",
+  "AllCoaching pricing, <a href=\"/pricing\">allcoaching.in/pricing</a>, October 2026."
+ ],
+ "citations": [
+  "https://support.google.com/drive/answer/2494822",
+  "https://support.google.com/youtube/answer/157177",
+  "https://blog.whatsapp.com/introducing-whatsapp-channels-a-private-way-to-follow-what-matters",
+  "https://www.npci.org.in/",
+  "https://allcoaching.in/pricing"
+ ],
+ "about": [
+  {
+   "name": "Online academy"
+  },
+  {
+   "name": "WhatsApp",
+   "sameAs": "https://en.wikipedia.org/wiki/WhatsApp"
+  },
+  {
+   "name": "Learning management system",
+   "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
+  },
+  {
+   "name": "Unified Payments Interface",
+   "sameAs": "https://en.wikipedia.org/wiki/Unified_Payments_Interface"
+  },
+  {
+   "name": "Online tutoring",
+   "sameAs": "https://en.wikipedia.org/wiki/Online_tutoring"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "WhatsApp",
+   "url": "https://www.whatsapp.com"
+  },
+  {
+   "name": "Telegram",
+   "url": "https://telegram.org"
+  },
+  {
+   "name": "Google Drive",
+   "url": "https://drive.google.com",
+   "type": "SoftwareApplication"
+  },
+  {
+   "name": "Google Forms",
+   "url": "https://www.google.com/forms/about/",
+   "type": "SoftwareApplication"
+  },
+  {
+   "name": "YouTube",
+   "url": "https://www.youtube.com"
+  },
+  {
+   "name": "Zoom",
+   "url": "https://zoom.us"
+  },
+  {
+   "name": "National Payments Corporation of India",
+   "url": "https://www.npci.org.in"
+  },
+  {
+   "name": "Razorpay",
+   "url": "https://razorpay.com"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/students-wont-download-coaching-app-whatsapp",
+  "/blog/accept-upi-payments-for-online-courses",
+  "/blog/create-your-first-online-course-india",
+  "/blog/whatsapp-channels-for-coaching-educators-india"
+ ]
+}
