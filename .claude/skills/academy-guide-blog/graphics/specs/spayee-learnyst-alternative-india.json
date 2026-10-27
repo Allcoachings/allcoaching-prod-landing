@@ -35,9 +35,9 @@
     "icon": "shield"
    },
    {
-    "need": "You sell well above ₹14 lakh a year",
+    "need": "You want 0% fees and DRM protection",
     "pick": "Learnyst Professional",
-    "why": "0% transaction fee, ₹8,099/month billed annually + taxes",
+    "why": "0% transaction fee, DRM, ₹8,099/month billed annually + taxes",
     "icon": "chart"
    },
    {
@@ -187,7 +187,7 @@
    "Your own Android app (iOS on Pro)",
    "Test series and PDF notes",
    "Unlimited live classes",
-   "From ₹6,999/yr + GST"
+   "From ₹3,999/mo + GST"
   ]
  }
 }

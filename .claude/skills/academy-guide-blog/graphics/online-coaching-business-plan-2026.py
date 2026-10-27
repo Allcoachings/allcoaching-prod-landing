@@ -214,5 +214,5 @@ for k, (lab, ic, sub) in enumerate([('Website', 'globe', 'Your domain'), ('Your 
                                      ('UPI & cards', 'card', 'Razorpay payouts'), ('Ads tracking', 'chart', 'Pixel + GTM')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
+b += text(640, 890, 'From ₹3,999/month + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('academy-plan', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: your own academy website, Android app, live classes and UPI checkout for your online coaching business'))

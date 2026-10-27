@@ -35,7 +35,7 @@ for i, (t, ic) in enumerate([('Sign up and choose a plan', 'check'), ('Upload co
 b += text(1010, 120, 'Studio preview · sample data', 15, MUTED)
 b += phone(1030, 140, 300, 'studio-mobile.jpg')
 b += pill_card(830, 330, 300, 'Android app', 'On every plan', 'phone', title_size=26)
-b += pill_card(1250, 620, 300, 'iOS app', 'On Pro and Scale', 'phone', title_size=26)
+b += pill_card(1250, 620, 300, 'iOS app', 'On Pro', 'phone', title_size=26)
 save('cover', svg(1600, 900, b, 'How to make a coaching app without coding in India: courses, tests, live classes and payments in your own branded Android app'))
 
 # 2. three routes -----------------------------------------------------------------
@@ -99,7 +99,7 @@ save('app-needs', svg(W, H, b, 'What a coaching app needs: student login, course
 W, H = 1220, 1000
 b = headline(60, 100, ['Your app in *six steps*'], 56)
 b += lines(62, 150, ['No code at any step. Payments, access and hosting run on their own.'], 22)
-st = [('Sign up', 'Start the 7-day free trial, no card', 'check'), ('Choose a plan', 'Android on all, iOS on Pro and Scale', 'tag'),
+st = [('Sign up', 'Start the 7-day free trial, no card', 'check'), ('Choose a plan', 'Android on all, iOS on Pro', 'tag'),
       ('Upload your course', 'Videos via YouTube, PDFs, tests', 'layers'), ('Brand it', 'Academy name, logo and colours', 'sparkle'),
       ('Connect your domain', 'youracademy.in for the website', 'globe'), ('Share with students', 'Link on YouTube, WhatsApp, Instagram', 'users')]
 for i, (t, s, ic) in enumerate(st):
@@ -139,24 +139,26 @@ save('brand-kit', svg(W, H, b, 'Branding a coaching app: academy name, square lo
 W, H = 1220, 900
 b = headline(60, 100, ['Which app comes with *which plan*'], 52)
 b += lines(62, 150, ['Every plan: website on your own domain + your own Android app.'], 22)
-plans = [('Starter', '₹6,999', '10% fee', False), ('Growth', '₹12,999', '7.5% fee', False),
-         ('Pro', '₹24,999', '5% fee', True), ('Scale', '₹99,999', '0% fee', True)]
-for i, (n, p, fee, ios) in enumerate(plans):
-    x = 60 + i * 280
-    b += white_panel(x, 200, 260, 560, 26)
-    b += eyebrow(x + 26, 246, n)
-    b += text(x + 26, 300, p, 38, INK, 800, font=F_HEAD, ls=-1.2)
-    b += text(x + 26, 330, 'per year + GST', 17, MUTED)
-    b += f'<rect x="{x + 26}" y="350" width="{len(fee) * 10.5 + 30}" height="34" rx="17" fill="{BLUE_TINT}"/>'
-    b += text(x + 41, 373, fee, 17, BLUE, 700, font=F_HEAD)
-    b += check_row(x + 26, 450, 'Website', 20)
-    b += check_row(x + 26, 520, 'Android app', 20)
-    b += check_row(x + 26, 590, 'iOS app', 20, ios)
-    b += check_row(x + 26, 660, 'Unlimited live', 20)
-b += text(60, 810, 'All plans start with a 7-day free trial, no card. Scale is bought through "Contact us".', 18, INK, 600)
-b += text(60, 840, 'Prices exclude GST. Fee = platform fee on each sale.', 16, MUTED)
+plans = [('Starter', '₹3,999', '₹6,999/yr + 10%', 'Monthly: sales up to ₹50,000/month', False),
+         ('Growth', '₹5,999', '₹12,999/yr + 7.5%', 'Monthly: sales up to ₹1.5 lakh/month', False),
+         ('Pro', '₹7,999', '₹24,999/yr + 5%', 'No sales limit', True)]
+for i, (n, p, yearly, lim, ios) in enumerate(plans):
+    x = 60 + i * 370
+    b += white_panel(x, 200, 350, 560, 26)
+    b += eyebrow(x + 28, 246, n)
+    b += text(x + 28, 300, p, 40, INK, 800, font=F_HEAD, ls=-1.2)
+    b += text(x + 28, 330, 'a month + GST, 0% commission', 17, MUTED)
+    b += f'<rect x="{x + 28}" y="350" width="{len('or ' + yearly) * 9.6 + 30}" height="34" rx="17" fill="{BLUE_TINT}"/>'
+    b += text(x + 43, 373, 'or ' + yearly, 16, BLUE, 700, font=F_HEAD)
+    b += check_row(x + 28, 450, 'Website', 20)
+    b += check_row(x + 28, 520, 'Android app', 20)
+    b += check_row(x + 28, 590, 'iOS app', 20, ios)
+    b += check_row(x + 28, 660, 'Unlimited live', 20)
+    b += text(x + 28, 730, lim, 17, MUTED, 600)
+b += text(60, 810, 'All plans start with a 7-day free trial, no card. Monthly plans: 0% commission, no lock-in.', 18, INK, 600)
+b += text(60, 840, 'Prices exclude GST. Yearly fee = platform fee on each sale. Gateway charges are separate.', 16, MUTED)
 b += signature(W, H)
-save('plans-apps', svg(W, H, b, 'Which coaching app comes with which AllCoaching plan: own Android app on every plan, iOS app on Pro and Scale'))
+save('plans-apps', svg(W, H, b, 'Which coaching app comes with which AllCoaching plan: own Android app on every plan, iOS app on Pro'))
 
 # 7. install path ------------------------------------------------------------------
 W, H = 1220, 960

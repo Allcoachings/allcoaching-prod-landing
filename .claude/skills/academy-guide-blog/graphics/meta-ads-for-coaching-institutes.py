@@ -235,7 +235,7 @@ b += f'<g filter="url(#shB)"><rect x="840" y="200" width="320" height="230" rx="
 b += eyebrow(870, 248, 'Cost per enrolment', '#DCE2FF') + text(870, 330, '₹1,250', 54, '#fff', 800, font=F_HEAD, ls=-2) + text(870, 380, 'per paying student', 19, '#fff', opacity=.85)
 b += white_panel(60, 480, 1100, 300, 28)
 b += eyebrow(92, 530, 'Is it worth it? Compare with what you keep')
-rows = [('Course price', '₹4,999'), ('Platform fee on Growth (7.5%)', '− ₹375'), ('You keep before ads', '₹4,624'), ('Cost per enrolment', '− ₹1,250'), ('Left per student', '₹3,374')]
+rows = [('Course price', '₹4,999'), ('Platform fee, yearly Growth (7.5%)', '− ₹375'), ('You keep before ads', '₹4,624'), ('Cost per enrolment', '− ₹1,250'), ('Left per student', '₹3,374')]
 for i, (k, v) in enumerate(rows):
     y = 580 + i * 40
     bold = i in (2, 4)
@@ -265,7 +265,7 @@ b += lines(64, 380, ['Course pages on your domain, UPI', 'checkout and Meta Pixe
 b += laptop(560, 120, 520, 'studio-desktop.jpg')
 b += phone(1010, 220, 170, 'studio-mobile.jpg')
 for k, (lab, ic, sub) in enumerate([('Own domain', 'globe', 'Every plan'), ('Meta Pixel', 'chart', 'Every plan'), ('GTM', 'layers', 'Every plan'),
-                                     ('UPI checkout', 'card', 'Razorpay'), ('Your app', 'phone', 'iOS on Pro, Scale')]):
+                                     ('UPI checkout', 'card', 'Razorpay'), ('Your app', 'phone', 'iOS on Pro')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
 b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)

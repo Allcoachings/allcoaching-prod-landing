@@ -24,15 +24,15 @@
   "sub": "A 0% plan pays off only once sales cover its fixed fee.",
   "rows": [
    {
-    "need": "You sell above ₹14 lakh and want the lowest 0% price",
+    "need": "Your academy is mostly DRM-protected test series",
     "pick": "Learnyst Professional",
     "why": "0% fees; ₹8,099/month billed annually (₹97,188/yr), taxes extra",
     "icon": "chart"
    },
    {
     "need": "You want 0% with your own website and apps",
-    "pick": "AllCoaching Scale",
-    "why": "0% fee; ₹99,999/yr + GST, own Android and iOS app included",
+    "pick": "AllCoaching monthly",
+    "why": "0% commission from ₹3,999/month + GST; iOS app on Pro (₹7,999)",
     "icon": "trend",
     "us": true
    },
@@ -43,9 +43,9 @@
     "icon": "globe"
    },
    {
-    "need": "You sell less than ₹14 lakh a year",
-    "pick": "AllCoaching Starter to Pro",
-    "why": "₹6,999/yr + 10%, down to 5% on Pro; costs less than any 0% plan",
+    "need": "You sell less than about ₹4.7 lakh a year",
+    "pick": "AllCoaching yearly",
+    "why": "₹6,999/yr + 10% or ₹12,999 + 7.5%; costs less than any 0% plan",
     "icon": "users",
     "us": true
    }
@@ -53,22 +53,29 @@
  },
  "prices": {
   "title": [
-   "Upfront price of *a 0% plan*"
+   "Yearly price of *a 0% plan*"
   ],
-  "sub": "Yearly price of the lowest 0% (or lowest-commission) plan, before GST",
+  "sub": "Yearly price of the lowest 0% (or lowest-commission) plan, before GST; monthly plans × 12",
   "rows": [
+   {
+    "name": "AllCoaching",
+    "price": 47988,
+    "label": "₹47,988/yr",
+    "fee": "Starter monthly, 0%; ₹3,999 × 12, sales to ₹50K/month",
+    "published": true
+   },
+   {
+    "name": "AllCoaching Pro",
+    "price": 95988,
+    "label": "₹95,988/yr",
+    "fee": "Pro monthly, 0%; ₹7,999 × 12, no sales limit",
+    "published": true
+   },
    {
     "name": "Learnyst",
     "price": 97188,
     "label": "₹97,188/yr",
     "fee": "Professional, 0%; ₹8,099/month billed annually",
-    "published": true
-   },
-   {
-    "name": "AllCoaching",
-    "price": 99999,
-    "label": "₹99,999/yr",
-    "fee": "Scale, 0%; GST extra, apps included",
     "published": true
    },
    {
@@ -198,11 +205,11 @@
    "*apps included.*"
   ],
   "checks": [
-   "Scale: ₹99,999 a year + GST",
-   "0% platform fee on sales",
+   "Monthly: ₹3,999 to ₹7,999 + GST",
+   "0% commission on sales",
    "Own domain included",
-   "Own Android and iOS app",
-   "7-day free trial, no card"
+   "Own Android app; iOS on Pro",
+   "No lock-in; 7-day free trial"
   ]
  }
 }

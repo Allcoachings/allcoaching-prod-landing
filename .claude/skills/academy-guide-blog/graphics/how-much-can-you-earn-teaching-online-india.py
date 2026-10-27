@@ -5,7 +5,8 @@ Then: python .claude/skills/academy-guide-blog/scripts/export_graphics.py assets
 
 All rupee figures are illustrative and use the same maths as the post and its calculator:
 take-home before tax = students x price x (1 - platform fee) - plan price (ex-GST) - ads and tools.
-Plans: Starter 6,999 + 10%, Growth 12,999 + 7.5%, Pro 24,999 + 5%, Scale 99,999 + 0% (yearly, before GST).
+Plans (before GST): yearly Starter 6,999 + 10%, Growth 12,999 + 7.5%, Pro 24,999 + 5%;
+monthly 0% Starter 3,999 (sales to 50,000/month), Growth 5,999 (to 1.5 lakh/month), Pro 7,999 (no limit), counted x 12.
 """
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'scripts'))
@@ -16,7 +17,17 @@ SLUG = 'how-much-can-you-earn-teaching-online-india'
 OUT = os.path.join(ROOT, 'assets', 'blog', SLUG)
 os.makedirs(OUT, exist_ok=True)
 
-PLANS = [('Starter', 6999, .10), ('Growth', 12999, .075), ('Pro', 24999, .05), ('Scale', 99999, 0.0)]
+PLANS = [('Starter', 6999, .10), ('Growth', 12999, .075), ('Pro', 24999, .05),
+         ('Starter monthly', 47988, 0.0), ('Growth monthly', 71988, 0.0), ('Pro monthly', 95988, 0.0)]
+CAPS = {'Starter monthly': 600000, 'Growth monthly': 1800000}
+
+
+def ok(name, sales):
+    return sales <= CAPS.get(name, float('inf'))
+
+
+def best_cost(sales):
+    return min(c + f * sales for n, c, f in PLANS if ok(n, sales))
 
 
 def save(name, doc):
@@ -55,8 +66,8 @@ def take_home(students, price, plan_name, ads):
 A = take_home(280, 1499, 'Growth', 36000)
 # Scenario B: spoken English, Instagram; 100 x 1,999, Starter, 24,000 ads
 B = take_home(100, 1999, 'Starter', 24000)
-# Scenario C: small institute, live batches; 300 x 8,000, Scale, 1,50,000 ads/tools
-C = take_home(300, 8000, 'Scale', 150000)
+# Scenario C: small institute, live batches; 300 x 8,000, Pro monthly (0%), 1,50,000 ads/tools
+C = take_home(300, 8000, 'Pro monthly', 150000)
 
 # 1. cover --------------------------------------------------------------------------
 b = lockup(72, 60, 1.0)
@@ -82,8 +93,8 @@ save('cover', svg(1600, 900, b, 'How much can you earn teaching online in India:
 W, H = 1220, 900
 b = headline(60, 100, ['Online coaching income', 'is a *formula*'], 52)
 steps = [('users', 'Students × price', 'Your gross sales for the year', BLUE),
-         ('layers', '− Platform fee', '10%, 7.5%, 5% or 0% by plan', NAVY_TILE),
-         ('calendar', '− Plan price', '₹6,999 to ₹99,999 a year, ex-GST', NAVY_TILE),
+         ('layers', '− Platform fee', '10%, 7.5% or 5% yearly; 0% monthly', NAVY_TILE),
+         ('calendar', '− Plan price', 'From ₹3,999 a month or ₹6,999 a year, ex-GST', NAVY_TILE),
          ('trend', '− Ads and tools', 'Meta ads, mic, editing apps', NAVY_TILE),
          ('file', '− GST and income tax', 'Depends on your turnover and income', NAVY_TILE)]
 for i, (ic, t, s, tile) in enumerate(steps):
@@ -98,11 +109,11 @@ b += text(60, H - 28, 'Method, not a promise. Check GST and tax with official so
 save('income-formula', svg(W, H, b, 'Online coaching income formula: students times price minus platform fee, plan price, ads and tools, then GST and income tax equals take-home'))
 
 # 3. plan breakeven chart -------------------------------------------------------------
-W, H = 1220, 960
+W, H = 1220, 1000
 b = headline(60, 100, ['Which plan costs least', 'at *your sales level*'], 52)
-b += lines(62, 214, ['Yearly cost = plan price + platform fee on sales, before GST'], 21)
-X0, X1, Y0, Y1 = 150, 1000, 350, 800
-SMAX, CMAX = 2000000, 220000
+b += lines(62, 214, ['Yearly cost = plan price + platform fee on sales, before GST. Monthly plans × 12.'], 21)
+X0, X1, Y0, Y1 = 140, 820, 330, 780
+SMAX, CMAX = 2500000, 150000
 
 
 def px(s):
@@ -113,36 +124,48 @@ def py(c):
     return Y1 - (Y1 - Y0) * c / CMAX
 
 
-b += white_panel(40, 250, 1140, 640, 28, big=True)
-for c in (0, 50000, 100000, 150000, 200000):
+b += white_panel(40, 250, 1140, 680, 28, big=True)
+for c in (0, 50000, 100000, 150000):
     b += f'<rect x="{X0}" y="{py(c)}" width="{X1 - X0}" height="1.5" fill="{LINE}"/>'
     b += text(X0 - 14, py(c) + 6, '₹0' if c == 0 else f'₹{c / 100000:g}L', 17, MUTED, anchor='end')
-for s in (0, 500000, 1000000, 1500000, 2000000):
-    b += text(px(s), Y1 + 34, '₹0' if s == 0 else f'₹{s / 100000:g}L', 17, MUTED, anchor='middle')
+for s_ in (0, 500000, 1000000, 1500000, 2000000, 2500000):
+    b += text(px(s_), Y1 + 34, '₹0' if s_ == 0 else f'₹{s_ / 100000:g}L', 17, MUTED, anchor='middle')
 b += text((X0 + X1) / 2, Y1 + 66, 'Your sales in a year', 18, INK, 600, 'middle')
-for be in (240000, 480000, 1500000):
-    b += f'<line x1="{px(be)}" y1="{Y0 - 10}" x2="{px(be)}" y2="{Y1}" stroke="{MUTED}" stroke-width="1.5" stroke-dasharray="5 6"/>'
-cols = {'Starter': '#9AA0B4', 'Growth': '#6C7390', 'Pro': '#1B1E2E', 'Scale': '#E5484D'}
+cols = {'Starter': '#B4B9C9', 'Growth': '#6C7390', 'Pro': '#1B1E2E',
+        'Starter monthly': '#22C3F5', 'Growth monthly': '#1590C0', 'Pro monthly': '#0A0F3D'}
 for n, p, f in PLANS:
-    b += f'<line x1="{px(0)}" y1="{py(p)}" x2="{px(SMAX)}" y2="{py(p + f * SMAX)}" stroke="{cols[n]}" stroke-width="3"/>'
-env = [(0, 6999), (240000, 30999), (480000, 48999), (1500000, 99999), (SMAX, 99999)]
-b += '<polyline points="' + ' '.join(f'{px(s):.1f},{py(c):.1f}' for s, c in env) + f'" fill="none" stroke="{BLUE}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity=".35"/>'
-labels = [('Starter', 206999), ('Growth', 162999), ('Pro', 124999), ('Scale', 99999)]
-for n, c in labels:
-    b += f'<circle cx="{X1 + 20}" cy="{py(c) - 6}" r="7" fill="{cols[n]}"/>' + text(X1 + 34, py(c), n, 21, INK, 700, font=F_HEAD)
-bands = [('Starter', '< ₹2.4L', 0, 240000), ('Growth', '₹2.4–4.8L', 240000, 480000), ('Pro', '₹4.8–15L', 480000, 1500000), ('Scale', '> ₹15L', 1500000, SMAX)]
-for n, rng, a, z in bands:
-    cx = (px(a) + px(z)) / 2
-    b += text(cx, Y0 - 50, n, 16, BLUE, 700, 'middle', F_HEAD) + text(cx, Y0 - 30, rng, 14, BLUE, 600, 'middle')
-b += text(60, H - 40, 'Shaded blue line = lowest yearly cost. Breakevens ₹2.4 lakh, ₹4.8 lakh and ₹15 lakh. Prices exclude GST.', 16, MUTED) + signature(W, H)
-save('plan-breakeven', svg(W, H, b, 'Chart of yearly cost by AllCoaching plan against yearly sales: Starter lowest below ₹2.4 lakh, Growth to ₹4.8 lakh, Pro to ₹15 lakh, Scale above ₹15 lakh'))
+    if f:
+        end = min(SMAX, (CMAX - p) / f)
+        b += f'<line x1="{px(0)}" y1="{py(p)}" x2="{px(end):.1f}" y2="{py(p + f * end):.1f}" stroke="{cols[n]}" stroke-width="3"/>'
+    else:
+        end = CAPS.get(n, SMAX)
+        b += f'<line x1="{px(0)}" y1="{py(p)}" x2="{px(end):.1f}" y2="{py(p)}" stroke="{cols[n]}" stroke-width="3" stroke-dasharray="10 7"/>'
+pts = []
+for k in range(0, 501):
+    s_ = SMAX * k / 500
+    pts.append(f'{px(s_):.1f},{py(best_cost(s_)):.1f}')
+b += '<polyline points="' + ' '.join(pts) + f'" fill="none" stroke="{BLUE}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity=".35"/>'
+# legend
+lx = 860
+b += eyebrow(lx, 330, 'Lowest cost by sales')
+bands = [('Starter', '10% fee', 'below ₹2.4L'), ('Growth', '7.5% fee', '₹2.4L to ₹4.7L'),
+         ('Starter monthly', '0% · to ₹50K/mo', '₹4.7L to ₹6L'), ('Pro', '5% fee', '₹6L to ₹9.4L'),
+         ('Growth monthly', '0% · to ₹1.5L/mo', '₹9.4L to ₹18L'), ('Pro monthly', '0% · no limit', 'above ₹18L')]
+for i, (n, sub, rng) in enumerate(bands):
+    y = 380 + i * 70
+    dash = ' stroke-dasharray="10 7"' if 'monthly' in n else ''
+    b += f'<line x1="{lx}" y1="{y - 7}" x2="{lx + 30}" y2="{y - 7}" stroke="{cols[n]}" stroke-width="4"{dash}/>'
+    b += text(lx + 42, y, n if 'monthly' in n else n + ' yearly', 19, INK, 700, font=F_HEAD)
+    b += text(lx + 42, y + 24, rng + ' · ' + sub, 14, MUTED)
+b += text(60, H - 40, 'Solid = yearly plans, dashed = monthly 0% plans (ending at their sales limit). Shaded blue = lowest cost. Illustrative, ex-GST.', 15, MUTED) + signature(W, H)
+save('plan-breakeven', svg(W, H, b, 'Chart of yearly cost by AllCoaching plan against yearly sales: yearly Starter lowest below ₹2.4 lakh, yearly Growth to ₹4.7 lakh, monthly Starter to ₹6 lakh, yearly Pro to ₹9.4 lakh, monthly Growth to ₹18 lakh, monthly Pro above'))
 
 # 4. three illustrative educators ------------------------------------------------------
 W, H = 1220, 1000
 b = headline(60, 100, ['Three educators,', '*three take-homes*'], 52)
 cards = [('play', 'SSC maths, Hindi', 'Grows on YouTube', '280 × ₹1,499', A, 'Growth', 'Ads and tools ₹36,000'),
          ('image', 'Spoken English', 'Grows on Instagram', '100 × ₹1,999', B, 'Starter', 'Meta ads ₹24,000'),
-         ('users', 'Coaching institute', 'Moves live batches online', '300 × ₹8,000', C, 'Scale', 'Ads and tools ₹1,50,000')]
+         ('users', 'Coaching institute', 'Moves live batches online', '300 × ₹8,000', C, 'Pro monthly', 'Ads and tools ₹1,50,000')]
 for k, (ic, t, s, calc, r, pl, ads) in enumerate(cards):
     x = 60 + k * 375
     y = 210
@@ -155,14 +178,14 @@ for k, (ic, t, s, calc, r, pl, ads) in enumerate(cards):
     b += text(x + 28, y + 314, 'Sales ' + inr(r[0]), 19, MUTED)
     b += f'<rect x="{x + 28}" y="{y + 340}" width="294" height="1.5" fill="{LINE}"/>'
     b += eyebrow(x + 28, y + 384, 'Lowest-cost plan')
-    b += text(x + 28, y + 426, pl, 30, BLUE, 800, font=F_HEAD, ls=-1)
+    b += text(x + 28, y + 426, pl if 'monthly' in pl else pl + ' yearly', 30, BLUE, 800, font=F_HEAD, ls=-1)
     b += text(x + 28, y + 460, 'Fee ' + inr(r[1]) + ' + plan ' + inr(r[2]), 18, MUTED)
     b += text(x + 28, y + 490, ads, 18, MUTED)
     b += f'<rect x="{x + 16}" y="{y + 540}" width="318" height="120" rx="20" fill="{BLUE_TINT}"/>'
     b += text(x + 36, y + 584, 'Take-home before tax', 18, INK, 600)
     b += text(x + 36, y + 634, inr(r[3]), 36, BLUE, 800, font=F_HEAD, ls=-1.2)
 b += text(60, H - 40, 'Illustrative, yearly, before GST and income tax. The institute still pays its teachers from this.', 16, MUTED) + signature(W, H)
-save('three-educators', svg(W, H, b, 'Online tutor earnings in India, three illustrative examples: SSC maths educator on Growth, spoken English educator on Starter, coaching institute on Scale'))
+save('three-educators', svg(W, H, b, 'Online tutor earnings in India, three illustrative examples: SSC maths educator on yearly Growth, spoken English educator on yearly Starter, coaching institute on monthly Pro at 0%'))
 
 # 5. revenue levers -------------------------------------------------------------------
 W, H = 1220, 900
@@ -220,13 +243,13 @@ save('income-mistakes', svg(W, H, b, 'Common mistakes when Indian educators calc
 W, H = 1220, 1000
 b = lockup(60, 54, 0.8)
 b += headline(60, 250, ['Keep 90–100%', '*of every sale.*'], 62)
-b += lines(64, 380, ['One yearly plan, a published fee,', 'UPI and card checkout, payouts', 'to your bank through Razorpay.'], 24, MUTED, 1.4)
+b += lines(64, 380, ['Monthly at 0% commission, or yearly', 'with a small fee. UPI and card checkout,', 'payouts to your bank through Razorpay.'], 24, MUTED, 1.4)
 b += laptop(560, 120, 520, 'studio-desktop.jpg')
 b += phone(1010, 220, 170, 'studio-mobile.jpg')
 b += text(560, 520, 'AllCoaching Studio preview · sample data', 14, MUTED)
 for k, (lab, ic, sub) in enumerate([('Website', 'globe', 'Your domain'), ('Android app', 'phone', 'Every plan'), ('Live classes', 'video', 'Unlimited'),
-                                     ('UPI & cards', 'card', 'Every plan'), ('Scale', 'star', '0% fee')]):
+                                     ('UPI & cards', 'card', 'Every plan'), ('Monthly', 'star', '0% commission')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
-save('academy-income', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: own website, own Android app, unlimited live classes, UPI checkout and a 0% fee Scale plan'))
+b += text(640, 890, 'From ₹3,999/month + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
+save('academy-income', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: own website, own Android app, unlimited live classes, UPI checkout and monthly plans at 0% commission'))

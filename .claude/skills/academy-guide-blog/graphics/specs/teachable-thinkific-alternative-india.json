@@ -9,7 +9,7 @@
  "verdict": {
   "title": ["Pick by *where students pay*"],
   "rows": [
-   {"need": "Your students are in India and pay by UPI", "pick": "AllCoaching", "why": "Own domain, Android app (iOS on Pro) and UPI checkout on every plan, from ₹6,999/yr + 10%", "icon": "globe", "us": true},
+   {"need": "Your students are in India and pay by UPI", "pick": "AllCoaching", "why": "Own domain, Android app (iOS on Pro) and UPI checkout on every plan, from ₹3,999/mo at 0%", "icon": "globe", "us": true},
    {"need": "Your academy is mostly mock tests", "pick": "Learnyst", "why": "Test-series focus; Launcher ₹10,000/yr + 10%, or 0% fee on monthly plans", "icon": "check"},
    {"need": "You run a training business with batches and branches", "pick": "Edmingle", "why": "Plans from ₹7,499 a month billed annually, taxes extra", "icon": "layers"},
    {"need": "Most of your buyers are abroad and pay in dollars", "pick": "Teachable or Thinkific (stay)", "why": "Global payments; Teachable from US$29, Thinkific from US$82 a month billed annually", "icon": "chart"}
