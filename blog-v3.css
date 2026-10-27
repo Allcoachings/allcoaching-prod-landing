@@ -52,11 +52,22 @@ body.v3 img{max-width:100%;height:auto;display:block}
 @media (max-width:420px){.v3-logo .word{font-size:22px}.v3-btn{padding:0 16px;font-size:15px}}
 
 /* ---------- promo strip (top of post) ---------- */
-.v3-promo{background:var(--v3-panel);padding:44px 16px 48px;text-align:center}
-.v3-promo h2{margin:0;font:400 32px/1.15 var(--v3-font);letter-spacing:-.01em;text-transform:uppercase}
-.v3-promo p{margin:12px auto 24px;max-width:680px;font-size:15px;line-height:1.45;color:#000}
+.v3-promo{position:relative;overflow:hidden;isolation:isolate;padding:48px 16px 52px;text-align:center;color:#fff;background:#2B44FF}
+.v3-promo::before{content:"";position:absolute;inset:0;z-index:-1;background:
+  repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 14px,rgba(255,255,255,.18) 14px 16px,rgba(255,255,255,0) 16px 34px),
+  linear-gradient(90deg,#4FD2FA 0%,#2B7BFF 16%,#2B44FF 32%,#2B44FF 68%,#2B7BFF 84%,#4FD2FA 100%);
+  background-size:200% 100%,100% 100%;animation:v3-shimmer 16s linear infinite}
+.v3-promo::after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(55% 90% at 50% 50%,rgba(20,32,200,.55) 0%,rgba(20,32,200,0) 100%)}
+@keyframes v3-shimmer{from{background-position:0 0,0 0}to{background-position:-400px 0,0 0}}
+@media (prefers-reduced-motion:reduce){.v3-promo::before{animation:none}}
+.v3-promo h2{margin:0;font:400 32px/1.15 var(--v3-font);letter-spacing:-.01em;text-transform:uppercase;color:#fff}
+.v3-promo p{margin:12px auto 24px;max-width:680px;font-size:15px;line-height:1.45;color:rgba(255,255,255,.92)}
 .v3-promo .row{display:flex;gap:24px;justify-content:center;flex-wrap:wrap}
-@media (max-width:640px){.v3-promo h2{font-size:24px}.v3-promo .row{gap:12px}}
+.v3-promo .v3-btn{background:#fff;color:#000!important;border-color:#fff}
+.v3-promo .v3-btn:hover{background:#0A0F3D;color:#fff!important;border-color:#0A0F3D}
+.v3-promo .v3-btn.ghost{background:transparent;color:#fff!important;border-color:#fff}
+.v3-promo .v3-btn.ghost:hover{background:#fff;color:#000!important}
+@media (max-width:640px){.v3-promo h2{font-size:24px}.v3-promo .row{gap:12px}.v3-promo::before{background-size:200% 100%,260% 100%;background-position:0 0,50% 0}}
 
 /* ---------- hero ---------- */
 .v3-hero{max-width:1260px;margin:0 auto;padding:48px 16px 0;text-align:center}
