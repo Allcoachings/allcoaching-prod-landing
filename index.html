@@ -489,8 +489,19 @@ footer > .wrap{position:relative}
 .sc-bar span{display:inline-flex;align-items:center;gap:6px;margin-left:10px;padding:4px 12px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:12.5px;color:var(--ink-2);font-family:var(--mono)}
 .sc-bar svg{width:12px;height:12px;fill:none;stroke:var(--green);stroke-width:2.2}
 .sc-browser img{display:block;width:100%;height:auto}
-.sc-phone{position:absolute;right:0;bottom:0;width:28%;border-radius:22px;overflow:hidden;border:6px solid #14161F;background:#14161F;box-shadow:0 24px 40px -18px rgba(20,22,31,.55);aspect-ratio:600/1100}
-.sc-phone img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+.sc-phone{position:absolute;right:0;bottom:0;width:29%;aspect-ratio:9/19;padding:4.5px;border-radius:15%/7.2%;background:linear-gradient(145deg,#3a3d46 0%,#1b1d23 35%,#0d0e12 65%,#2b2e36 100%);box-shadow:0 0 0 1px rgba(255,255,255,.08) inset,0 30px 50px -20px rgba(20,22,31,.6),0 10px 18px -10px rgba(20,22,31,.5)}
+.sc-phone .btn-l,.sc-phone .btn-r{position:absolute;width:3px;border-radius:2px;background:linear-gradient(90deg,#2a2c33,#4a4d57)}
+.sc-phone .btn-l{left:-2px;top:20%;height:11%;box-shadow:0 0 0 0 transparent,0 calc(100% + 10px) 0 0 #3a3d46}
+.sc-phone .btn-r{right:-2px;top:26%;height:16%}
+.sc-phone .scr{position:relative;width:100%;height:100%;border-radius:13%/6.3%;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.sc-phone .island{position:absolute;top:2.2%;left:50%;transform:translateX(-50%);width:30%;height:3.4%;border-radius:999px;background:#0a0a0c;z-index:3}
+.sc-phone .sb{flex:none;height:8.2%;display:flex;align-items:center;justify-content:space-between;padding:0 9% 0 11%;color:#14161F;font:600 clamp(6px,.62vw,9.5px)/1 -apple-system,'Inter Tight',sans-serif;background:#fff;z-index:2}
+.sc-phone .si{display:flex;align-items:center;gap:3px}
+.sc-phone .si svg{height:clamp(5px,.5vw,7.5px);width:auto;fill:currentColor}
+.sc-phone img{display:block;width:100%;flex:1;min-height:0;object-fit:cover;object-position:top}
+.sc-phone .home{position:absolute;bottom:1.6%;left:50%;transform:translateX(-50%);width:34%;height:1%;min-height:3px;border-radius:999px;background:rgba(20,22,31,.75);z-index:3}
+.sc-phone::after{content:"";position:absolute;inset:4.5px;border-radius:13%/6.3%;background:linear-gradient(125deg,rgba(255,255,255,.18) 0%,rgba(255,255,255,0) 28%);pointer-events:none}
+
 .sc-meta{display:flex;align-items:center;gap:14px;margin-top:18px}
 .sc-logo{width:52px;height:52px;border-radius:14px;object-fit:cover;flex:none;border:1px solid var(--line)}
 .sc-who{display:flex;flex-direction:column;min-width:0}
@@ -693,7 +704,7 @@ footer > .wrap{position:relative}
       <article class="sc reveal">
         <div class="sc-vis">
           <div class="sc-browser"><div class="sc-bar"><i></i><i></i><i></i><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>www.biolessons.in</span></div><img src="/assets/showcase/bio-desktop.webp" alt="Biology Lessons academy website at www.biolessons.in, showing its courses, built on AllCoaching" width="1600" height="1000" loading="lazy" decoding="async"/></div>
-          <div class="sc-phone"><img src="/assets/showcase/bio-mobile.webp" alt="Biology Lessons academy on a phone" width="600" height="1298" loading="lazy" decoding="async"/></div>
+          <div class="sc-phone"><span class="btn-l" aria-hidden="true"></span><span class="btn-r" aria-hidden="true"></span><div class="scr"><span class="island" aria-hidden="true"></span><div class="sb" aria-hidden="true"><span class="tm">9:41</span><span class="si"><svg viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx=".7"/><rect x="5" y="5.5" width="3" height="6.5" rx=".7"/><rect x="10" y="3" width="3" height="9" rx=".7"/><rect x="15" y="0" width="3" height="12" rx=".7"/></svg><svg viewBox="0 0 16 12"><path d="M8 11.5 5.6 9a3.4 3.4 0 0 1 4.8 0zM3.4 6.8a6.5 6.5 0 0 1 9.2 0l-1.4 1.4a4.5 4.5 0 0 0-6.4 0zM1.2 4.6a9.6 9.6 0 0 1 13.6 0l-1.4 1.4a7.6 7.6 0 0 0-10.8 0z"/></svg><svg viewBox="0 0 26 12"><rect x=".5" y=".5" width="22" height="11" rx="3" fill="none" stroke="currentColor" opacity=".45"/><rect x="2" y="2" width="17" height="8" rx="1.8"/><rect x="23.6" y="4" width="1.6" height="4" rx=".8" opacity=".45"/></svg></span></div><img src="/assets/showcase/bio-mobile.webp" alt="Biology Lessons academy on a phone" width="600" height="1298" loading="lazy" decoding="async"/><span class="home" aria-hidden="true"></span></div></div>
         </div>
         <div class="sc-meta">
           <img class="sc-logo" src="/assets/showcase/bio-logo.webp" alt="Biology Lessons logo" width="56" height="56" loading="lazy"/>
@@ -705,7 +716,7 @@ footer > .wrap{position:relative}
       <article class="sc reveal">
         <div class="sc-vis">
           <div class="sc-browser"><div class="sc-bar"><i></i><i></i><i></i><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>www.chempsi.com</span></div><img src="/assets/showcase/chem-desktop.webp" alt="CHEMPSI academy website at www.chempsi.com, showing its courses, built on AllCoaching" width="1600" height="1000" loading="lazy" decoding="async"/></div>
-          <div class="sc-phone"><img src="/assets/showcase/chem-mobile.webp" alt="CHEMPSI academy on a phone" width="600" height="1298" loading="lazy" decoding="async"/></div>
+          <div class="sc-phone"><span class="btn-l" aria-hidden="true"></span><span class="btn-r" aria-hidden="true"></span><div class="scr"><span class="island" aria-hidden="true"></span><div class="sb" aria-hidden="true"><span class="tm">9:41</span><span class="si"><svg viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx=".7"/><rect x="5" y="5.5" width="3" height="6.5" rx=".7"/><rect x="10" y="3" width="3" height="9" rx=".7"/><rect x="15" y="0" width="3" height="12" rx=".7"/></svg><svg viewBox="0 0 16 12"><path d="M8 11.5 5.6 9a3.4 3.4 0 0 1 4.8 0zM3.4 6.8a6.5 6.5 0 0 1 9.2 0l-1.4 1.4a4.5 4.5 0 0 0-6.4 0zM1.2 4.6a9.6 9.6 0 0 1 13.6 0l-1.4 1.4a7.6 7.6 0 0 0-10.8 0z"/></svg><svg viewBox="0 0 26 12"><rect x=".5" y=".5" width="22" height="11" rx="3" fill="none" stroke="currentColor" opacity=".45"/><rect x="2" y="2" width="17" height="8" rx="1.8"/><rect x="23.6" y="4" width="1.6" height="4" rx=".8" opacity=".45"/></svg></span></div><img src="/assets/showcase/chem-mobile.webp" alt="CHEMPSI academy on a phone" width="600" height="1298" loading="lazy" decoding="async"/><span class="home" aria-hidden="true"></span></div></div>
         </div>
         <div class="sc-meta">
           <img class="sc-logo" src="/assets/showcase/chem-logo.webp" alt="CHEMPSI logo" width="56" height="56" loading="lazy"/>
@@ -717,7 +728,7 @@ footer > .wrap{position:relative}
       <article class="sc reveal">
         <div class="sc-vis">
           <div class="sc-browser"><div class="sc-bar"><i></i><i></i><i></i><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>www.digitekm.com</span></div><img src="/assets/showcase/dig-desktop.webp" alt="DigiteKM academy website at www.digitekm.com, showing its courses, built on AllCoaching" width="1600" height="1000" loading="lazy" decoding="async"/></div>
-          <div class="sc-phone"><img src="/assets/showcase/dig-mobile.webp" alt="DigiteKM academy on a phone" width="600" height="1298" loading="lazy" decoding="async"/></div>
+          <div class="sc-phone"><span class="btn-l" aria-hidden="true"></span><span class="btn-r" aria-hidden="true"></span><div class="scr"><span class="island" aria-hidden="true"></span><div class="sb" aria-hidden="true"><span class="tm">9:41</span><span class="si"><svg viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx=".7"/><rect x="5" y="5.5" width="3" height="6.5" rx=".7"/><rect x="10" y="3" width="3" height="9" rx=".7"/><rect x="15" y="0" width="3" height="12" rx=".7"/></svg><svg viewBox="0 0 16 12"><path d="M8 11.5 5.6 9a3.4 3.4 0 0 1 4.8 0zM3.4 6.8a6.5 6.5 0 0 1 9.2 0l-1.4 1.4a4.5 4.5 0 0 0-6.4 0zM1.2 4.6a9.6 9.6 0 0 1 13.6 0l-1.4 1.4a7.6 7.6 0 0 0-10.8 0z"/></svg><svg viewBox="0 0 26 12"><rect x=".5" y=".5" width="22" height="11" rx="3" fill="none" stroke="currentColor" opacity=".45"/><rect x="2" y="2" width="17" height="8" rx="1.8"/><rect x="23.6" y="4" width="1.6" height="4" rx=".8" opacity=".45"/></svg></span></div><img src="/assets/showcase/dig-mobile.webp" alt="DigiteKM academy on a phone" width="600" height="1298" loading="lazy" decoding="async"/><span class="home" aria-hidden="true"></span></div></div>
         </div>
         <div class="sc-meta">
           <img class="sc-logo" src="/assets/showcase/dig-logo.webp" alt="DigiteKM logo" width="56" height="56" loading="lazy"/>
