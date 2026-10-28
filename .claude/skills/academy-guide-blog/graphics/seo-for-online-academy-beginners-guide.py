@@ -277,7 +277,7 @@ for k, (lab, ic, sub) in enumerate([('Website', 'globe', 'Your domain'), ('Live'
                                      ('Tests', 'check', 'Built in'), ('Your app', 'phone', 'Android & iOS')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · own domain on every plan', 21, MUTED)
+b += text(640, 890, '0% commission on Growth and Pro', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · own domain on every plan', 21, MUTED)
 b += text(560, 520, 'AllCoaching Studio preview · sample data', 14, MUTED)
 save('academy-features', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: website, live classes, payments, tests and your own app in one login'))
 

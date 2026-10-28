@@ -83,7 +83,7 @@ schema_extra:
   operatingSystem: "Web, Android, iOS"
   description: "India's AI-driven educator marketplace explicitly architected to scale for both individual course creators and multi-teacher coaching institutes. Same underlying platform, two distinct operational surfaces — creator-mode for solo educators (simplified onboarding, mobile-first, single-teacher CRM, marketplace AI discovery) and institute-mode for multi-branch operations (teacher roster management, batch scheduling, fee installment cycles, attendance tracking, branch coordination, parent communication, GST/payroll integration). 10% revenue-share, ₹0 upfront."
   url: https://studio.allcoaching.in/
-  image: https://allcoaching-store.b-cdn.net/blog-images/best-platforms-for-individual-course-creators-vs-institutes.webp
+  image: https://allcoaching.in/assets/blog/best-platforms-for-individual-course-creators-vs-institutes/cover.webp
   offers:
   - '@type': Offer
     name: "Creator Mode (Solo Educator) — Free Base"
