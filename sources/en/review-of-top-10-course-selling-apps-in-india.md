@@ -446,7 +446,7 @@ Talk to migration team
       </a>
       <a style="text-decoration:none" href="/blogs/en/best-platforms-for-individual-course-creators-vs-institutes" class="blog-card" aria-label="Read: Best Platforms for Individual Course Creators vs Institutes">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/best-platforms-for-individual-course-creators-vs-institutes.webp" alt="Best Platforms for Individual Course Creators vs Institutes — segmentation guide 2026" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/best-platforms-for-individual-course-creators-vs-institutes/cover.webp" alt="Best Platforms for Individual Course Creators vs Institutes — segmentation guide 2026" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Segmentation · 2026</span>

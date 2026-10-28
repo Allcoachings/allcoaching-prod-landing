@@ -45,6 +45,7 @@ def cover(slug):
     t = re.sub(r'\s*\((?:(?:19|20)\d\d\s*)?Guide\)', '', t)
     t = re.sub(r'\s*\b(?:19|20)\d\d\b', '', t)
     t = re.sub(r'\s*[—:–-]\s*$', '', t)
+    t = re.sub(r'\s+(?:in|for|of)$', '', t)
     t = re.sub(r'\s+', ' ', t).strip()
     rows = wrap(t, 17)
     if len(rows) > 4:

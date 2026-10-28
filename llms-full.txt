@@ -35906,335 +35906,331 @@ Also see Live demo · Pricing · FAQ Hub · Founder profile
 
 ---
 
-# Recorded Lecture Hosting Cheap in India for Teachers (2026)
+# Recorded Lecture Hosting in India: Cheap vs Real Cost (2026)
 
 **Source:** https://allcoaching.in/blog/recorded-lecture-hosting-cheap-india-for-teachers  
-**Published:** 2026-06-06  
-**Updated:** 2026-06-06  
+**Published:** 2026-06-06T09:00:00+05:30  
+**Updated:** 2026-10-29T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** Recorded lecture hosting cheap in India for teachers: the real cost is bandwidth, not storage. The simplest answer is hosting bundled into your plan, with a fixed allowance.
+**Summary:** Recorded lecture hosting for Indian teachers: why delivery, not storage, is the real cost, DIY options compared, and hosting included in a plan with 0% commission.
 
-In this article
+Amit RatanUpdated 29 Oct 2026 · 11 min read
 
 
-- The real question behind "cheap" hosting.
+On this page
 
-- What recorded-lecture hosting actually costs.
 
-- The DIY hosting options, compared.
+Start your online academy today. 7 days free.
 
-- Why DIY hosting adds up.
+Start free trial
 
-- The simple answer: bundled hosting.
 
-- What good lecture hosting needs.
+The lowest-cost way for an Indian teacher to host recorded lectures is to use hosting that is already included in the platform you sell from, with storage and streaming priced into the plan. Buying cheap storage separately looks cheaper on day one, but the bill that grows is delivery, not storage.
 
-- Hosting is a commodity; discovery is the lever.
+Most teachers searching for "cheap video hosting" compare storage prices. Storage is the small cost. The cost that grows is bandwidth: every time a student streams a lecture, the data travels to their phone, and most hosting providers bill for that by the gigabyte. A library of fifty lectures can cost almost nothing to store and still produce a large bill in the month a batch actually watches it.
 
-- The verdict.
-
-- Glossary — key terms.
-
-- Frequently asked questions.
+This guide explains the three parts of a hosting bill, compares the routes Indian teachers use, lists what good lecture hosting needs, and shows what AllCoaching includes in each plan.
 
 
 
 
 
 
-Key Takeaways — the entire guide in 6 facts:
+## Key takeaways
 
-- The real cost of video hosting is bandwidth and delivery, not storage — which is why "cheap storage" plans still produce a growing bill as more students watch.
 
-- Every DIY route has a catch — YouTube unlisted has no real access control, and AWS or Bunny CDN charge per GB so the bill scales with views. Vimeo caps by plan, and an own server adds maintenance and no CDN.
+- Delivery is the real cost: storage is cheap and paid once; bandwidth is billed per GB and grows with every view.
 
-- The genuinely cheapest hosting is bundled — built into a teaching platform, with storage and streaming included in the plan and no per-view bandwidth bill.
+- YouTube unlisted is not for paid lectures: anyone with the link can watch and share it.
 
-- Good lecture hosting needs more than storage — CDN delivery, adaptive streaming, a player, mobile playback, and access control behind a student login.
+- Metered hosting gets dearer as you succeed: AWS, Bunny or Cloudflare Stream and your own server all bill more as students watch more, and you still build the player and logins.
 
-- On AllCoaching, recorded-lecture hosting is included in every plan — 512 GB of storage and 100 GB of streaming a month on Starter (₹6,999/year, 10% fee), 1 TB and 1 TB on Growth (₹7,999/month), 2 TB and 2 TB on Pro (₹14,999/month); Growth and Pro charge 0% commission, and videos via YouTube are unlimited on every plan.
+- Hosting included in a plan keeps cost known: storage and streaming come with the plan, with no per-view bill.
 
-- Hosting is a commodity; discovery is the real lever — once hosting is included, the smart move is to spend money and attention on being found, not on storage.
+- On AllCoaching: Starter ₹6,999 a year (10% per sale) includes 512 GB storage and 100 GB streaming a month; Growth ₹7,999 a month and Pro ₹14,999 a month take 0% commission and include 1 TB and 2 TB of each.
 
-Where we are · 2026
+- Hosting is solved; being found is not: spend the time you save on getting students to your lectures.
 
-AllCoaching is an LMS you build yourself — drag and drop your courses, tests, notes and live classes, then make it your brand with your own domain, logo and Android app (iOS app on Pro). 500+ educators across India already sell through it. Every plan starts with a 7-day free trial, and the price is on the page before you sign up.
 
-Start your 7-day free trial
-No card needed · 0% commission on Growth and Pro · Plans from ₹6,999/year
 
-The reframe
 
-## The real question behind
-"cheap" hosting.
 
-For an Indian teacher, the real cost of hosting recorded lectures is bandwidth and delivery, not storage — which is why the genuinely cheapest option is hosting bundled into your plan, not a discounted storage plan. Most teachers searching for "cheap video hosting" are quietly asking the wrong question, because they are comparing storage prices when storage is almost free. The cost that actually bites comes later, from delivery — and it is invisible until your audience grows.
 
-This matters because the bill on most DIY hosting is not fixed; it scales with views. A teacher can host fifty lectures for almost nothing and then receive a painful bandwidth invoice the month a batch of students actually watches them. The cheap-looking plan was only cheap while nobody was using it. So the right question is not "where is storage cheapest" but "what does hosting cost when my lectures are genuinely watched — and who absorbs that cost".
 
-This guide answers that honestly. It explains what recorded-lecture hosting actually costs (and why), compares the real DIY options for an Indian teacher, and shows why the genuinely cheapest answer is hosting bundled into the platform you sell from, with storage and streaming included in the plan rather than billed per GB. When a teacher asks us where to host their lectures cheaply, the first thing we point out is that they are about to pay separately for a problem that is already solved, while ignoring the one that is not — getting watched.
+## What is the lowest-cost way to host recorded lectures in India?
 
-The economics
+The lowest-cost way is hosting that comes inside the platform you teach and sell on, with storage and streaming included in the plan and no per-view bill. A separate storage plan looks cheaper until students start watching, because delivery is billed on top.
 
-## What lecture hosting
-actually costs.
+Ask a different question than "where is storage lowest-cost". Ask: what will hosting cost when my lectures are actually watched, and who pays for that? On a metered service, you pay more every month your course does well. On a plan with hosting included, the cost stays where you can see it.
 
-Video hosting has three cost components, and they are not equal. Knowing which one dominates is the whole key to hosting cheaply:
+When teachers ask us where to host their lectures cheaply, the first thing we point out is that they are about to pay separately for a problem the platform already solves, while the harder problem, getting students to watch, stays open.
 
-Cost componentWhat it isHow it scalesHow big
+
+
+
+
+
+## What does recorded lecture hosting actually cost?
+
+A hosting bill has three parts: storage, encoding and delivery. Storage and encoding are small; delivery (bandwidth) is the large, recurring part.
+
+
+
+Where a video hosting bill comes from. Bar lengths are illustrative.
+
+CostWhat it isHow it growsSize
 StorageKeeping the video filesWith library sizeSmall
-EncodingConverting to play sizesOne-time per uploadModest
-Bandwidth / deliveryStreaming to studentsWith every viewLarge
+EncodingMaking every quality for every deviceOnce per uploadModest
+Delivery (bandwidth)Streaming to studentsWith every viewLarge
+Public price lists show the gap. Bunny.net, a popular video and CDN provider, lists storage from $0.01 per GB a month per region, while delivery is billed per GB on top: from $0.005 per GB on its volume network, and $0.03 per GB for Asia on its standard network.[1] A lecture is stored once but delivered every time a student watches it, so a popular course can cost far more to deliver than to store.
 
-The lesson is blunt: storage is cheap and one-time; bandwidth is the real, recurring cost, and it grows with your success. Storing a hundred hours of lectures costs very little. But each time a student streams a lecture, the data has to travel to them, and providers bill per GB of that delivery — so a popular course can cost far more to host than a large but quiet one. This is the trap inside "cheap storage" pricing: it advertises the small cost and stays silent about the large one. Real hosting also needs encoding (converting your upload into multiple sizes so it plays on every device) and a Content Delivery Network to make playback fast across India — neither of which raw cheap storage includes. The technical depth of doing this well is covered in secure video hosting for educational content.
+Real hosting also needs encoding into several qualities and a content delivery network (CDN) so playback starts fast across India.[3] Raw storage includes neither. The technical side is covered in secure video hosting for educational content.
 
-The options
 
-## The DIY hosting options,
-compared.
 
-Here is the honest picture of the routes an Indian teacher actually considers, judged on cost reality and the catch each one hides for a paid course:
 
-OptionCost realityThe catch for a paid courseCheap at scale?
-YouTube unlistedFreeNo real access control; distractionsFree but unsafe
-VimeoPaid tiersStorage / feature caps per plan±
-AWS S3 + CloudFrontPay per GBBandwidth bill scales with views✗
-Bunny / Cloudflare StreamLow per-GBStill metered; you build player + access±
-Own serverServer + bandwidthMaintenance, no CDN, scales badly✗
-Bundled platform (AllCoaching)Included in the planHosting + delivery included in the plan✓ 512 GB–2 TB
 
-Read down the "cheap at scale" column and the pattern is clear. The free option (YouTube unlisted) is not safe for paid content, and the safe options (AWS, Bunny, Vimeo, own server) are metered, so they get more expensive precisely as you succeed. Each also leaves you assembling the missing pieces — a player, student accounts, access control — yourself. Only bundled platform hosting holds cost flat while including the whole stack, which is why it is the practical answer for a teacher rather than a video engineer.
 
-The hidden bill
+## YouTube unlisted vs Vimeo vs AWS vs Bunny: which costs least?
 
-## Why DIY hosting
-adds up.
+None of the DIY routes is both safe for paid lectures and flat in cost as views grow. The free option has no real access control, and the safe options are metered.
 
-The headline price of a DIY hosting option is rarely what you end up paying. The real cost is the sum of several pieces that a storage quote leaves out — and most of them grow with your audience, not shrink:
 
-The hidden costs of DIY hosting
 
-- Bandwidth that scales with views — the more your lectures are watched, the larger the monthly bill, so success raises your cost.
-- Encoding and a player — you must convert videos to multiple qualities and embed a working player, or build/buy one.
-- Access control and student accounts — to keep paid lectures paid, you need logins and gating, which raw storage does not provide.
-- Maintenance and time — keys, updates, broken embeds and support eat hours that could go into teaching.
+How each route behaves as students watch more. Summary of each provider's published model; check their pages for current plans.
 
-Question Often Asked
+OptionHow it is pricedThe catch for a paid course
+YouTube unlistedFreeAnyone with the link can watch and share it
+VimeoPlan tiersStorage and feature limits per plan
+AWS S3 + CloudFrontPer GB deliveredBill grows with views; you build the player and logins
+Bunny or Cloudflare StreamLow price per GBStill metered; you build access control
+Your own serverServer + bandwidthUpkeep, no CDN, slow for distant students
+Teaching platform (AllCoaching)Included in the planPlan allowance; extend if you need more
+YouTube's own help page says an unlisted video can be seen and shared by anyone who has the link.[2] That is fine for free lessons. For paid lectures you need playback behind a student login, which a link cannot give you.
 
-### I found a hosting plan for a few hundred rupees a month — is that not cheap enough?
 
-It is cheap until it is not. A low monthly plan usually advertises storage and a bandwidth allowance; the moment your students watch more than the allowance, you pay overage per GB, and a single popular launch can multiply the bill. You also still have to add a player, access control and student accounts yourself. Bundled platform hosting avoids both problems — there is no per-view overage bill (when an allowance runs out you choose whether to extend) and the player and access control are already included — which is why hosting bundled into your plan is usually cheaper in practice than a "cheap" metered plan. The same logic applies to whole platforms, as covered in the truth about zero-commission teaching platforms.
+Question educators ask
 
-The simple answer
 
-## The simple answer:
-bundled hosting.
 
-The genuinely cheapest recorded-lecture hosting is the kind you do not pay for separately at all — because it is bundled into the platform you already teach on. On a bundled model, storage and streaming come with the plan and there is no per-view bandwidth bill. On AllCoaching, Starter (₹6,999/year, 10% fee) includes 512 GB of video storage and 100 GB of streaming a month, Growth (₹7,999/month, 0% commission) 1 TB and 1 TB, and Pro (₹14,999/month, 0% commission) 2 TB and 2 TB; extra space is added from the studio at ₹499 a month per 100 GB of storage or ₹399 per 100 GB of streaming, and videos via YouTube are unlimited on every plan. That is what bundled hosting actually means for the educator: not a marketing slogan, but a hosting cost you know in advance.
+### I found a hosting plan for a few hundred rupees a month. Is that not cheap enough?
 
-Question Often Asked
+It is cheap until students watch more than its bandwidth allowance. After that you pay per GB, and one popular launch can multiply the bill. You still have to add a player, logins and access control yourself. On a plan with hosting included there is no per-view bill, and when an allowance runs out you decide whether to extend.
 
-### How can hosting be bundled — who pays for the storage and bandwidth?
 
-The plan does. On AllCoaching, recorded-lecture hosting is included in every plan — 512 GB of storage and 100 GB of streaming a month on Starter, 1 TB and 1 TB on Growth, 2 TB and 2 TB on Pro — with no separate bandwidth bill. Starter costs ₹6,999 a year plus a 10% fee on paid sales; Growth (₹7,999/month) and Pro (₹14,999/month) charge 0% commission, so you keep 100% of every sale. If you outgrow the allowance, extra space is added from the studio at ₹499 a month per 100 GB of storage or ₹399 per 100 GB of streaming; uploaded video pauses until you extend or the next month starts, so there is never a surprise bill. Compare the subscription logic in selling courses without a monthly subscription.
 
-512 GB
 
-Storage included on Starter (1 TB on Growth, 2 TB on Pro)
 
-100%
 
-Revenue kept on Growth and Pro (0% commission)
 
-10%
+## Why does DIY hosting cost more than the price you see?
 
-Revenue-share, on paid sales only
+Because a storage price leaves out the parts that grow: bandwidth, a player, access control and your own time.
 
-The checklist
 
-## What good lecture
-hosting needs.
 
-Cheap is not the only test — the hosting also has to actually serve lectures well to Indian students on mobile networks. Storage alone fails this; real hosting bundles the pieces below, which is exactly what a teaching platform provides and a bare storage bucket does not:
+What a storage price leaves out.
 
-NeedWhy it mattersRaw storageReal hosting
-CDN deliveryFast start across India✗✓
-Adaptive streamingNo buffering on weak networks✗✓
-Video playerReliable, embedded playback✗✓
-Mobile playbackMost students watch on phones±✓
-Access controlOnly paying students watch✗✓
-No per-view billCost stays flat as you grow✗✓
 
-The point is that "hosting" is not one thing — it is storage plus delivery plus a player plus access control. A cheap storage bucket gives you the least valuable piece and leaves you to build the rest; real lecture hosting bundles all of it. When that bundle is included in the plan on the platform you sell from, you get CDN delivery, a player and access control included and skip the integration work entirely — which matters most if you are coming from a place like monetising a YouTube teaching channel and need real access control for the first time.
+- Bandwidth that grows with views: the more your lectures are watched, the bigger the monthly bill.
 
-The bigger point
+- Encoding and a player: you convert videos into several qualities and embed a working player, or pay for one.
 
-## Hosting is a commodity;
-discovery is the lever.
+- Access control and student accounts: to keep paid lectures paid, you need logins and gating.
 
-Step back and the whole hosting question shrinks. Video hosting has become a commodity — it is cheap or free, and it is almost never the thing standing between a teacher and a successful course. The infrastructure that once cost lakhs to build is now bundled into a platform plan. So spending time hunting for the cheapest storage is optimising a problem that is already solved.
+- Maintenance: API keys, updates and broken embeds take hours you could spend teaching.
 
-The scarce thing — the real lever — is discovery: students actually finding your lectures. A perfectly-hosted course with no audience earns nothing, while an averagely-hosted course in front of the right students earns well. That is why, once hosting is handled inside your plan, the smart move is to redirect the money and attention you would have spent on storage into being found. A marketplace does this by matching students searching for your subject to your studio, which is the structural advantage explained in how the AllCoaching marketplace model solves discovery.
 
-Stop shopping for cheaper storage. Hosting was already free. Put that energy where the real bottleneck is: getting your lectures watched.
 
-The verdict
 
-## The verdict.
 
-So what is the cheapest recorded-lecture hosting in India for a teacher? The kind you do not pay for separately — bundled into the platform you teach on, with storage, streaming, delivery, a player and access control included in the plan rather than a metered bill. DIY storage looks cheaper on day one and becomes expensive on the day you succeed, because it bills you for delivery; bundled hosting holds your hosting cost flat inside your plan. Storage was never the real question — delivery was, and the cheapest delivery is the one already included in your plan.
 
-Across the teachers we work with, the ones who waste the least are not those who found a one-rupee-cheaper storage plan — they are the ones who stopped paying for hosting entirely, bundled it into the platform they sell from, and spent the saved money and attention on getting discovered. The patterns we see in the ones who get this right:
+## How does hosting included in your plan work?
 
-- Judge hosting on delivery, not storage — the recurring cost is bandwidth, and it scales with views.
+The plan pays for storage and streaming, so there is no separate hosting bill and no per-view charge inside your allowance. On AllCoaching every plan includes video storage and streaming, and videos you add from YouTube do not count against any limit.
 
-- Never sell paid lectures off YouTube unlisted — no access control means no real protection.
 
-- Avoid metered hosting for a growing library — a per-GB bill punishes success.
 
-- Choose bundled hosting — storage, streaming, delivery and access control included in the plan.
+Video storage and streaming included in each AllCoaching plan. Prices exclude GST.
 
-- Spend the savings on discovery — hosting is solved; being found is not.
+PlanPrice (+ GST)CommissionVideo storageStreaming a month
+Starter₹6,999 a year10% per sale512 GB100 GB
+Growth₹7,999 a month (₹79,990 a year paid yearly)0%1 TB1 TB
+Pro₹14,999 a month (₹1,49,990 a year paid yearly)0%2 TB2 TB
+Need more? Extend from the studio: ₹499 a month for each extra 100 GB of storage and ₹399 for each extra 100 GB of streaming. When an allowance runs out, only uploaded video pauses until you extend or the next month starts; your website, app, YouTube video and live classes keep running. As an illustrative guide, 100 GB of storage holds about 50 hours of lectures, and 100 GB of streaming is about 100 hours of students watching in 720p.
 
-You can start today. Set up your own branded studio on studio.allcoaching.in, upload your recorded lectures with storage and streaming included in your plan, and stream them access-controlled to your students — then put the money you would have spent on hosting into getting found, because that is the only part of this that was never free.
 
-"Teachers keep shopping for cheaper shelves to store videos no one is watching yet. Storage was never the bill that mattered. Make hosting free, and spend everything you saved on being found."
+Build your own academy. Try it free for 7 days.
 
-— Amit Ratan, Founder & CEO, AllCoaching
+Website on your own domain, your own Android app (iOS app on Pro), unlimited live classes and UPI checkout on every plan. 0% commission on Growth (₹7,999 a month) and Pro (₹14,999 a month), or Starter at ₹6,999 a year (excl. GST).
 
-About the Author
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Your data stays exportable
+
+
+Question educators ask
+
+
+
+### How can hosting be included? Who pays for storage and bandwidth?
+
+The plan does. Hosting is priced into Starter (₹6,999 a year plus 10% of each sale), Growth (₹7,999 a month) and Pro (₹14,999 a month). Growth and Pro take 0% commission, so you keep 100% of every sale. You see the full price before you start.
+
+
+
+
+
+
+
+## What does good lecture hosting need?
+
+Good lecture hosting is storage plus fast delivery, adaptive playback, a player, phone-first viewing and access control, at a cost you know in advance.
+
+
+
+What good lecture hosting needs.
+
+NeedWhy it mattersRaw storageHosting in a teaching platform
+CDN deliveryFast start across IndiaNoYes
+Adaptive streamingLess buffering on weak networksNoYes
+Video playerPlays inside your website and appNoYes
+Access controlOnly paying students watchNoYes
+Known costNo surprise bill as you growNoYes
+Adaptive streaming switches video quality to match each student's connection, so a lecture keeps playing on a weak mobile signal instead of stopping.[4] Most of your students will watch on phones, so this matters more than storage price. If you are moving from a YouTube channel to paid courses, read monetising a YouTube teaching channel with your own app.
+
+
+
+
+
+
+## How to host and sell your recorded lectures
+
+Upload your lectures into a course, set a price, connect your domain and share your academy link. The steps below take a weekend for most teachers.
+
+
+- Start a free trialSign up on studio.allcoaching.in with your mobile number. The trial is 7 days and needs no card.
+
+- Choose a planStarter at ₹6,999 a year plus 10% per sale, or Growth (₹7,999 a month) or Pro (₹14,999 a month) at 0% commission.
+
+- Upload your lecturesUpload recorded lectures into a course in syllabus order, or add lessons from YouTube, which do not count against your storage.
+
+- Set a priceSet the course price and an optional free demo lecture so students can judge your teaching first.
+
+- Connect your domainConnect a domain you own so students buy on your own website and app.
+
+- Share and sellShare your academy link. Students pay by UPI or card and the course opens for them automatically.
+
+
+
+
+
+
+
+## Hosting is a commodity. Discovery is the lever.
+
+Once hosting is included in your plan, the cost that decides your income is not storage but how many students find your lectures. A well-hosted course nobody finds earns nothing.
+
+Put the time you would spend comparing storage plans into being found: a free demo lecture on YouTube, a course page that ranks for your exam, and a clear price. Your courses can also be discovered on the AllCoaching app by students searching your exam or subject, as explained in how the AllCoaching marketplace helps discovery.
+
+Teachers keep shopping for cheaper shelves for videos nobody is watching yet. Storage was never the bill that mattered. Get hosting included in your plan and spend the time you save on being found.
+
+Amit Ratan, Founder & CEO, AllCoaching
+
+
+
+
+
+## The verdict
+
+The lowest-cost recorded lecture hosting for an Indian teacher is the kind you do not buy separately: storage, streaming, a player and access control included in the plan you sell from. DIY storage looks cheaper on day one and costs more on the day you succeed, because it bills you for delivery.
+
+
+- Judge hosting on delivery, not storage.
+
+- Do not sell paid lectures from YouTube unlisted links.
+
+- Avoid per-GB billing for a growing library.
+
+- Choose hosting included in your plan, and pick Growth or Pro for 0% commission once your sales grow (above about ₹7 lakh a year, Growth usually costs less than Starter).
+
+- Spend the time you save on discovery.
+
+
+
+
+
+
+## Glossary
+
+
+Recorded lecture hosting
+Storing and delivering an educator's recorded video lectures so students can stream them online, including delivery, a player and access control.
+Bandwidth (delivery cost)
+The data sent each time a student streams a video. Most providers bill it per GB, so it grows with views.
+Content delivery network (CDN)
+Servers spread across regions that keep copies of a video close to viewers so playback starts fast.
+Adaptive bitrate streaming
+Delivery that switches video quality to match each viewer's connection to reduce buffering.
+Hosting included in the plan
+Video storage and streaming priced into a teaching platform's plan instead of billed separately by usage.
+Access-controlled streaming
+Playing video only for logged-in students who have paid, instead of through an open link.
+Zero commission
+A plan where the platform takes no share of your course sales; on AllCoaching, Growth and Pro.
+
+
+
+
+
+
+## Frequently asked questions
+
+What is the lowest-cost way to host recorded lectures in India?The lowest-cost way is hosting included in the platform you teach and sell on, with storage and streaming priced into the plan and no per-view bill. On AllCoaching, Starter (₹6,999 a year, 10% per sale) includes 512 GB of storage and 100 GB of streaming a month, Growth (₹7,999 a month, 0% commission) 1 TB and 1 TB, and Pro (₹14,999 a month, 0% commission) 2 TB and 2 TB.
+
+Is video hosting expensive because of storage or bandwidth?Bandwidth. Storage is cheap and paid once, but delivery is billed per GB every time a student watches, so a small library watched by many students can cost more than a large library watched by few.
+
+Can I sell paid lectures through YouTube unlisted links?It is the wrong tool for paid lectures. Anyone with an unlisted link can watch and share it, so there is no real access control. Use YouTube for free lessons and host paid lectures behind a student login.
+
+Vimeo, AWS or Bunny: which costs least for course videos?All three are priced by plan tier or by GB delivered, so cost rises with views, and you still build the player, logins and access control. Hosting included in a teaching plan is usually simpler and keeps the cost known.
+
+Does AllCoaching charge separately for storage or bandwidth?Not inside your plan's allowance. Storage and streaming are included in every plan with no per-view bill. If you need more, you extend from the studio at ₹499 a month per extra 100 GB of storage or ₹399 per extra 100 GB of streaming.
+
+What happens when my storage or streaming runs out?Only uploaded video pauses until you extend from the studio or the next month starts. Your website, app, YouTube video and live classes keep running.
+
+How many hours of lectures fit in my plan?As an illustrative guide, 100 GB of storage holds about 50 hours of lectures, so Starter's 512 GB fits roughly 250 hours, Growth's 1 TB about 500 hours and Pro's 2 TB about 1,000 hours. Videos added from YouTube do not count.
+
+Which AllCoaching plan has zero commission?Growth (₹7,999 a month) and Pro (₹14,999 a month) take 0% commission, so you keep 100% of every sale. Starter is ₹6,999 a year with a 10% fee on each sale. Prices exclude GST.
+
+Do I need a CDN to host lectures for students across India?Yes, in practice. A CDN keeps copies of your videos close to students so playback starts fast and buffers less on mobile networks. Hosting inside a teaching platform includes it; a file on a single server does not.
+
+
+
+
+
+
+## Sources
+
+
+- Bunny.net, "Stream pricing", "Storage pricing" and "CDN pricing", bunny.net/pricing, checked October 2026.
+
+- YouTube Help, "Change video privacy settings", support.google.com, checked October 2026.
+
+- Wikipedia, "Content delivery network", en.wikipedia.org, checked October 2026.
+
+- Wikipedia, "Adaptive bitrate streaming", en.wikipedia.org, checked October 2026.
+
+- AllCoaching pricing, allcoaching.in/pricing, October 2026.
+
+
+
+
+
+
 
 Amit Ratan
-
 Founder & CEO, AllCoaching
-
-"The cheapest hosting question is the wrong question. Storage costs almost nothing; delivery is the bill, and discovery is the prize. We built AllCoaching so hosting comes inside the plan and a teacher spends their energy where it actually pays off — being found."
-
-Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator growth marketplace. He has spent over a decade studying the real economics of online teaching infrastructure — and why educators routinely overpay for solved problems like storage while underinvesting in the unsolved one, distribution. AllCoaching bundles hosting into every plan so the educator's effort goes where it matters.
-
-Get Started
-
-Host your lectures from ₹6,999 a year. Keep 100% on Growth and Pro.
-
-Set up your own branded studio on AllCoaching and upload your recorded-lecture library with storage and streaming included in the plan and no per-view bandwidth bill. Delivery, a player and access control are included, and lectures stream behind a student login. Starter is ₹6,999/year with a 10% fee; Growth (₹7,999/month) and Pro (₹14,999/month) charge 0% commission. Hosting, delivery and discovery built in.
-
-Start your 7-day free trial
-
-See the plans
-
-
-₹6,999/year (Starter plan)
-·
-Storage included
-·
-0% commission on Growth and Pro
-·
-Automatic payouts
-
-Glossary
-
-## Glossary —
-key terms.
-
-Term
-
-### Recorded Lecture Hosting
-
-Storing and delivering an educator's recorded video lectures so students can stream them online. Good hosting is more than storage — it includes delivery, a player, mobile support and access control.
-
-Term
-
-### Bandwidth (Delivery Cost)
-
-The data transferred each time a student streams a video. Bandwidth, not storage, is the main cost of video hosting, because most providers charge per GB delivered — so cost rises with views, not with library size.
-
-Term
-
-### Content Delivery Network (CDN)
-
-A network of servers distributed across regions that stores copies of a video close to viewers so playback starts fast and does not buffer. A CDN is essential for smooth lecture playback across India.
-
-Term
-
-### Adaptive Bitrate Streaming
-
-A delivery technique that automatically adjusts video quality to a student's current internet speed, so playback stays smooth on weak mobile networks instead of buffering. It is a core part of good lecture delivery.
-
-Term
-
-### Bundled Hosting
-
-Video hosting included as part of a teaching platform rather than bought separately and billed by usage. Because storage and streaming are included in the plan, the educator pays no separate hosting bill.
-
-Term
-
-### Access-Controlled Streaming
-
-Serving video only to a logged-in, paying student inside a platform, rather than as a shareable file or open link. It ensures only paying students watch and is essential for paid lectures.
-
-Term
-
-### Encoding / Transcoding
-
-Converting an uploaded video into multiple sizes and formats so it plays well on different devices and connection speeds. Encoding is part of real hosting that raw file storage does not provide.
-
-Term
-
-### Revenue Share Model
-
-A monetisation model where the platform takes a percentage of each sale, instead of or alongside a fixed fee. On AllCoaching it is a 10% revenue-share on Starter (0% on Growth and Pro) on paid earnings; the educator keeps 90% on Starter or 100% on Growth and Pro.
-
-FAQ
-
-## Frequently asked
-questions.
-
-What is the cheapest way to host recorded lectures in India?
-The genuinely cheapest way is hosting bundled into the platform you teach on, with storage and streaming included in the plan and no per-view bandwidth bill. DIY routes look cheap at first but charge for delivery as your audience grows. On AllCoaching, recorded-lecture hosting is included in every plan: 512 GB of storage and 100 GB of streaming a month on Starter (₹6,999/year, 10% fee), 1 TB and 1 TB on Growth (₹7,999/month, 0% commission), 2 TB and 2 TB on Pro (₹14,999/month, 0% commission), and videos via YouTube are unlimited on every plan.
-
-Why is video hosting expensive — is it storage or bandwidth?
-It is bandwidth, not storage. Storing a video file is cheap; the cost comes from delivery — every time a student streams a lecture, data has to travel to them, and providers charge per GB of that bandwidth. So a small library watched by many students can cost far more than a large library watched by few. This is why "cheap storage" plans can still produce a surprising bill, and why bundled hosting with no per-view charge is the cheaper model for a growing audience.
-
-Can I host paid course lectures free on YouTube unlisted?
-You can, but it is the wrong tool for a paid course. An unlisted YouTube link has no real access control — anyone with the link can watch and re-share it — and the player nudges viewers toward other videos and distractions. It is fine for free, public content, but for paid lectures you need access-controlled delivery behind a student login. Bundled platform hosting gives you that as part of the plan, which YouTube unlisted does not.
-
-Vimeo vs AWS vs Bunny CDN for course videos — which is cheapest?
-It depends on scale, and all of them are metered. Vimeo charges per plan tier with storage and feature caps; AWS S3 with CloudFront and Bunny or Cloudflare Stream charge per GB of bandwidth, so the bill rises with every view and you still have to assemble the player, access control and student accounts yourself. For a teacher who wants predictable cost and an all-in-one setup, bundled platform hosting with no extra fee (no per-GB bill, with the player and access control included) is usually cheaper and far simpler than stitching these together.
-
-Does AllCoaching charge for video storage or bandwidth?
-Not separately. AllCoaching includes recorded-lecture and course hosting in every plan, with no per-view bandwidth bill: Starter (₹6,999/year, 10% fee) includes 512 GB of storage and 100 GB of streaming a month, Growth (₹7,999/month) 1 TB and 1 TB, and Pro (₹14,999/month) 2 TB and 2 TB. Growth and Pro charge 0% commission, so the educator keeps 100% of every sale. If you need more, extra space is added from the studio at ₹499 a month per 100 GB of storage or ₹399 per 100 GB of streaming; videos via YouTube are unlimited on every plan.
-
-What does "unlimited videos, zero storage cost" actually mean?
-On AllCoaching, unlimited videos means videos via YouTube: you can add as many as you like on every plan. Videos you upload to the studio use the storage and streaming included in your plan (512 GB and 100 GB a month on Starter, 1 TB and 1 TB on Growth, 2 TB and 2 TB on Pro), with no per-GB charge inside that allowance and no per-view bill. When an allowance runs out, uploaded video pauses until you extend from the studio or the next month starts.
-
-Do I need a CDN to host recorded lectures in India?
-Effectively yes. A Content Delivery Network places copies of your video close to students across India so playback starts quickly and does not buffer on mobile networks. Raw storage on a single server, without a CDN, leads to slow, buffering playback for distant students. Good lecture hosting includes CDN-backed delivery and adaptive streaming, which is why bundled platform hosting (where the CDN is already built in) beats hosting a file on a basic server.
-
-How many recorded lectures can I host on AllCoaching?
-As many as fit your plan's storage: 512 GB on Starter, 1 TB on Growth and 2 TB on Pro. As a rough, illustrative guide, 100 GB of storage holds about 50 hours of lectures, so Starter fits roughly 250 hours. You can add storage from the studio at ₹499 a month per 100 GB, and videos via YouTube are unlimited on every plan.
-
-Is cheap storage enough, or do I also need delivery and access control?
-Storage alone is not enough. To serve recorded lectures well you also need CDN-backed delivery and adaptive streaming (so playback is smooth on Indian mobile networks), a video player, mobile support, and access control so only paying students can watch. Cheap raw storage without these leaves you assembling the rest yourself. Real lecture hosting bundles delivery, the player and access control together, which is what a teaching platform provides.
-
-How is bundled lecture hosting sustainable for the platform?
-Because hosting is priced into the plan, not billed by the view. Starter costs ₹6,999 a year plus a 10% fee on paid sales; Growth (₹7,999/month) and Pro (₹14,999/month) charge 0% commission. Each plan includes a fixed storage and streaming allowance, and extra space is prepaid from the studio, so the platform can carry delivery costs without surprise bills for the educator.
-
-
-
-Continue the argument
-
-Companion pieces across the AllCoaching system — strategy, economics, infrastructure, and discovery.
-
-
-how to record UPSC lectures and sell online
-protect course content from piracy for free
-secure video hosting for educational content
-video DRM protection for indian course creators
-student progress tracking analytics tools coaching india
-students wont download coaching app whatsapp
-
-Also see Live demo · Pricing · FAQ Hub · Founder profile
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. This guide explains what recorded lecture hosting really costs, with every outside price linked to its source.
 
 ---
 

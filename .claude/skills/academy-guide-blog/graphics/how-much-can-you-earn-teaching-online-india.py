@@ -76,17 +76,19 @@ b += headline(80, 300, ['What can you earn', '*teaching online?*'], 76)
 b += lines(84, 470, ['Online coaching income in India,', 'worked out with a free calculator.'], 30, MUTED)
 b += check_row(84, 610, 'The take-home formula', 26)
 b += check_row(84, 670, 'Three illustrative educators', 26)
-b += check_row(84, 730, 'Which plan costs least at your sales', 26)
+b += check_row(84, 730, '0% commission on Growth and Pro', 26)
 b += white_panel(990, 150, 540, 600, 32, big=True)
 b += eyebrow(1030, 210, 'Income calculator')
-rows = [('Students', '280'), ('Price', '₹1,499'), ('Gross sales', inr(A[0])), ('Platform fee 10%', '− ' + inr(A[1])),
-        ('Starter plan', '− ' + inr(A[2])), ('Ads and tools', '− ₹36,000')]
+# Cover example on Growth (0% commission, paid yearly): 600 x 1,499, 36,000 ads/tools
+G = take_home(600, 1499, 'Growth', 36000)
+rows = [('Students', '600'), ('Price', '₹1,499'), ('Gross sales', inr(G[0])), ('Commission 0%', '₹0'),
+        ('Growth plan, yearly', '− ' + inr(G[2])), ('Ads and tools', '− ₹36,000')]
 for i, (l, v) in enumerate(rows):
     y = 272 + i * 64
     b += text(1030, y, l, 21, MUTED) + text(1490, y, v, 23, RED if v.startswith('−') else INK, 700, 'end', F_HEAD)
     b += f'<rect x="1030" y="{y + 22}" width="460" height="1.5" fill="{LINE}"/>'
 b += f'<rect x="1014" y="652" width="492" height="78" rx="20" fill="{BLUE_TINT}"/>'
-b += text(1038, 700, 'Take-home', 23, INK, 700, font=F_HEAD) + text(1484, 702, inr(A[3]), 34, BLUE, 800, 'end', F_HEAD, -1)
+b += text(1038, 700, 'Take-home', 23, INK, 700, font=F_HEAD) + text(1484, 702, inr(G[3]), 34, BLUE, 800, 'end', F_HEAD, -1)
 b += text(80, 860, 'Illustrative figures, yearly, before GST and income tax.', 16, MUTED)
 save('cover', svg(1600, 900, b, 'How much can you earn teaching online in India: an income calculator showing gross sales, platform fee, plan cost and take-home'))
 

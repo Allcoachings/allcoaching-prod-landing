@@ -103,7 +103,7 @@ for k, (lab, ic, sub) in enumerate([('Own domain', 'globe', 'Every plan'), ('Cou
                                      ('Tag Manager', 'layers', 'Every plan'), ('UPI checkout', 'card', 'Razorpay')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
+b += text(640, 890, '0% commission on Growth and Pro', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('marketing-foundation', svg(W, H, b, 'AllCoaching Studio on laptop and phone: own domain, course pages, Meta Pixel, Google Tag Manager and UPI checkout'))
 
 # 4. organic channels ----------------------------------------------------------------
