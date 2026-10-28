@@ -235,13 +235,13 @@ b += f'<g filter="url(#shB)"><rect x="840" y="200" width="320" height="230" rx="
 b += eyebrow(870, 248, 'Cost per enrolment', '#DCE2FF') + text(870, 330, '₹1,250', 54, '#fff', 800, font=F_HEAD, ls=-2) + text(870, 380, 'per paying student', 19, '#fff', opacity=.85)
 b += white_panel(60, 480, 1100, 300, 28)
 b += eyebrow(92, 530, 'Is it worth it? Compare with what you keep')
-rows = [('Course price', '₹4,999'), ('Platform fee, yearly Growth (7.5%)', '− ₹375'), ('You keep before ads', '₹4,624'), ('Cost per enrolment', '− ₹1,250'), ('Left per student', '₹3,374')]
+rows = [('Course price', '₹4,999'), ('Commission on Growth or Pro (0%)', '₹0'), ('You keep before ads', '₹4,999'), ('Cost per enrolment', '− ₹1,250'), ('Left per student', '₹3,749')]
 for i, (k, v) in enumerate(rows):
     y = 580 + i * 40
     bold = i in (2, 4)
     b += text(92, y, k, 20, INK, 700 if bold else 400) + text(600, y, v, 20, BLUE if i == 4 else INK, 700 if bold else 500, 'end')
-b += lines(680, 590, ['Fine if teaching each student', 'costs you less than ₹3,374.', 'If not, fix the page or creative', 'before raising the budget.'], 20, MUTED, 1.5)
-b += text(60, H - 28, 'Illustrative numbers, before GST. Meta adds GST to ad charges in India; check your invoice.', 16, MUTED) + signature(W, H)
+b += lines(680, 590, ['Fine if teaching each student', 'costs you less than ₹3,749.', 'If not, fix the page or creative', 'before raising the budget.'], 20, MUTED, 1.5)
+b += text(60, H - 28, 'Illustrative numbers, before GST and gateway charges. Meta adds GST to ad charges in India; check your invoice.', 16, MUTED) + signature(W, H)
 save('cost-per-enrolment', svg(W, H, b, 'Cost per enrolment formula for Meta ads with an illustrative coaching example'))
 
 # 10. mistakes ---------------------------------------------------------------------

@@ -786,7 +786,7 @@ faq:
       </a>
       <a style="text-decoration:none" href="/blogs/hinglish/branded-mobile-app-for-tutors-under-10000-free" class="blog-card" aria-label="Read: Branded Mobile App For Tutors Under 10000 Free">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/branded-mobile-app-for-tutors-under-10000-free.webp" alt="Branded Mobile App For Tutors Under 10000 — AllCoaching free branded studio 2026" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/branded-mobile-app-for-tutors-under-10000-free/cover.webp" alt="Branded Mobile App For Tutors Under 10000 — AllCoaching free branded studio 2026" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Pricing · 2026</span>

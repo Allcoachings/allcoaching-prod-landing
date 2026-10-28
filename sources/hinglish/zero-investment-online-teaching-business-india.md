@@ -750,7 +750,7 @@ faq:
     <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       <a style="text-decoration:none" href="/blogs/hinglish/apna-coaching-app-kaise-banaye-free" class="blog-card" aria-label="Read: Apna Coaching App Kaise Banaye Free">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp" alt="Apna Coaching App Kaise Banaye Free — AllCoaching 2026 founder's mega Hinglish guide" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/apna-coaching-app-kaise-banaye-free/cover.webp" alt="Apna Coaching App Kaise Banaye Free — AllCoaching 2026 founder's mega Hinglish guide" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Founder Guide · Hinglish</span>
@@ -764,7 +764,7 @@ faq:
       </a>
       <a style="text-decoration:none" href="/blogs/hinglish/coaching-marketplace-india-teachers-join-free" class="blog-card" aria-label="Read: Coaching Marketplace India for Teachers Join Free">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/coaching-marketplace-india-teachers-join-free.webp" alt="Coaching Marketplace India for Teachers — Free Join Hinglish guide AllCoaching 2026" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/coaching-marketplace-india-teachers-join-free/cover.webp" alt="Coaching Marketplace India for Teachers — Free Join Hinglish guide AllCoaching 2026" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Platform Economics · Hinglish</span>

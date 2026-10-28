@@ -55,7 +55,11 @@
     growth:  { key: 'growth',  label: 'Growth',  fee: 1299900, keep: '92.5%', fee_pct: '7.5%', storage: '1 TB', video: '1080p', premium: false, meta: '1 TB · 1080p · unlimited live' },
     pro:     { key: 'pro',     label: 'Pro',     fee: 2499900, keep: '95%', fee_pct: '5%', storage: '3 TB', video: '4K', premium: true, meta: '3 TB · 4K · unlimited live · premium theme' }
   };
-  var ORDER = ['starter', 'growth', 'pro'];
+  // Final pricing (owner, 2026-10-28): Starter ₹6,999/yr + 10%; Growth ₹7,999/mo and Pro ₹14,999/mo at
+  // 0% commission. Studio's backend still sells the old yearly Growth (₹12,999, 7.5%) and Pro (₹24,999, 5%),
+  // so this sheet sells only Starter (unchanged) until the backend has the new monthly plans; Growth and
+  // Pro start from the 7-day free trial. Re-add 'growth' and 'pro' here when the backend is live.
+  var ORDER = ['starter'];
   var VERTICALS = ['competitive', 'entrance', 'school', 'skills'];
   // Offer pages can sell a subset of plans (AC_CHECKOUT.plans); ORDER stays the full ladder.
   var SHOWN = ORDER.filter(function (k) { return !(CFG.plans && CFG.plans.length) || CFG.plans.indexOf(k) >= 0; });
@@ -1260,6 +1264,9 @@
       var a = e.target.closest && e.target.closest('[data-checkout]');
       if (!a) return;
       if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+      // Growth and Pro can't be bought here yet (see ORDER): let those buttons go to studio as plain links.
+      var want = a.getAttribute('data-plan');
+      if (want && ORDER.indexOf(want) < 0) return;
       e.preventDefault();
       // A page can let the educator pick their subject first (data-vertical on the button).
       var v = a.getAttribute('data-vertical');

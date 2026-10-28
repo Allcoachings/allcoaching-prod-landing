@@ -96,7 +96,7 @@ def expand(htm, c):
     htm = re.sub(r'\{\{fig:(.*?)\}\}', fig, htm)
     htm = re.sub(r'\{\{q:(.*?)\}\}', q, htm, flags=re.S)
     cta = ('<div class="v3-cta">\n        <p class="t">Build your own academy. <em>Try it free for 7 days.</em></p>\n'
-           '        <p class="s">Website on your own domain, your own Android app (iOS app on Pro), unlimited live classes and UPI checkout on every plan. Plans from ₹6,999 a year after the trial (excl. GST).</p>\n'
+           '        <p class="s">Website on your own domain, your own Android app (iOS app on Pro), unlimited live classes and UPI checkout on every plan. 0% commission on Growth (₹7,999 a month) and Pro (₹14,999 a month), or Starter at ₹6,999 a year (excl. GST).</p>\n'
            '        <div class="row"><a href="https://studio.allcoaching.in/" class="v3-btn">Start free trial</a><a href="/pricing" class="v3-btn ghost">See plans</a></div>\n'
            '        <small>No card needed · Cancel anytime in the trial · Your data stays exportable</small>\n      </div>')
     htm = htm.replace('{{cta}}', cta)
@@ -190,9 +190,9 @@ def build(cpath):
                 "applicationCategory": "EducationalApplication", "applicationSubCategory": "Learning management system for educators",
                 "operatingSystem": "Web, Android, iOS",
                 "description": "AllCoaching works like Shopify for coaching: sign up, choose a plan, upload a course, connect your own domain and start selling, with payments, student access, apps and hosting handled automatically.",
-                "offers": {"@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "3999", "highPrice": "24999", "offerCount": "6",
-                           "description": "7-day free trial with no card needed, then Starter ₹6,999, Growth ₹12,999 or Pro ₹24,999 per year (excl. GST) with a 10%, 7.5% or 5% platform fee on sales, or monthly at 0% commission from ₹3,999 a month (zero commission)."},
-                "featureList": ["Academy website on your own connected domain", "Own white-label Android app (iOS app on Pro)", "Monthly plans with 0% commission from ₹3,999", "Unlimited live classes via YouTube Live, Zoom or the built-in live room",
+                "offers": {"@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "6999", "highPrice": "14999", "offerCount": "3",
+                           "description": "7-day free trial with no card needed, then Starter ₹6,999 a year with a 10% fee on sales, or Growth ₹7,999 a month and Pro ₹14,999 a month at 0% commission (excl. GST). Growth and Pro paid yearly get 2 months free."},
+                "featureList": ["Academy website on your own connected domain", "Own white-label Android app (iOS app on Pro)", "0% commission on Growth (₹7,999 a month) and Pro (₹14,999 a month)", "Unlimited live classes via YouTube Live, Zoom or the built-in live room",
                                 "Unlimited videos via YouTube", "Courses, PDF notes and test series", "UPI and card checkout with automatic Razorpay payouts",
                                 "Meta Pixel and Google Tag Manager", "Free customizable themes and templates", "Student data export"],
                 "provider": {"@id": "https://allcoaching.in/#organization"}, "countriesSupported": "IN"}

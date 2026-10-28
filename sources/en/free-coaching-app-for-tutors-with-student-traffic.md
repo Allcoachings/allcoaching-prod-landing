@@ -96,7 +96,7 @@ schema_extra:
   operatingSystem: "Web, Android, iOS"
   description: "India's free coaching app for tutors with built-in AI marketplace student traffic. Indian aspirants and learners search for tutors on the shared AllCoaching student app across subjects, exams, languages, and levels — and AllCoaching's AI engine routes them to matching tutor profiles organically. ₹0 upfront, no monthly subscription, no contract. 10% revenue-share only on paid earnings — platform earns only when tutor earns. 90% to tutor via Razorpay rails. Includes branded tutor studio, mobile-first setup, course hosting, live class server, payment gateway (UPI/card/EMI), student CRM, GST-compliant invoicing, and anti-piracy video DRM. The structural difference between free hosting apps and free apps with built-in traffic."
   url: https://studio.allcoaching.in/
-  image: https://allcoaching-store.b-cdn.net/blog-images/free-coaching-app-for-tutors-with-student-traffic.webp
+  image: https://allcoaching.in/assets/blog/free-coaching-app-for-tutors-with-student-traffic/cover.webp
   offers:
   - '@type': Offer
     name: "Free Tutor App — Permanently Free Base"
@@ -663,7 +663,7 @@ faq:
     <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       <a style="text-decoration:none" href="/blogs/en/graphy-alternative-with-organic-marketplace-traffic" class="blog-card" aria-label="Read: Graphy Alternative with Organic Marketplace Traffic">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/graphy-alternative-with-organic-marketplace-traffic.webp" alt="Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first 2026" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/graphy-alternative-with-organic-marketplace-traffic/cover.webp" alt="Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first 2026" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Alternative · 2026</span>

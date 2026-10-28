@@ -63,7 +63,7 @@
     "name": "AllCoaching",
     "price": 6999,
     "label": "₹6,999/yr",
-    "fee": "+10% on sales (Starter), GST extra",
+    "fee": "+10% on Starter; 0% on Growth ₹7,999/mo, GST extra",
     "published": true
    },
    {
@@ -208,7 +208,7 @@
    "*Your academy.*"
   ],
   "checks": [
-   "From ₹6,999/yr + GST",
+   "0% commission on Growth, Pro",
    "Website on your domain",
    "Your own Android app (iOS on Pro)",
    "Unlimited live classes",

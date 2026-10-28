@@ -297,7 +297,7 @@ b += f'<g filter="url(#shB)"><rect x="840" y="200" width="320" height="230" rx="
 b += eyebrow(870, 248, 'Cost per enrolment', '#DCE2FF') + text(870, 330, '₹1,500', 54, '#fff', 800, font=F_HEAD, ls=-2) + text(870, 380, 'per paying student', 19, '#fff', opacity=.85)
 b += white_panel(60, 480, 1100, 300, 28)
 b += eyebrow(92, 530, 'Compare with what you keep per sale')
-rows = [('Course price', '₹6,000'), ('Platform fee on Growth (7.5%)', '− ₹450'), ('You keep before marketing', '₹5,550'), ('Cost per enrolment', '− ₹1,500'), ('Left per student', '₹4,050')]
+rows = [('Course price', '₹6,000'), ('Commission on Growth (0%)', '− ₹0'), ('You keep before marketing', '₹6,000'), ('Cost per enrolment', '− ₹1,500'), ('Left per student', '₹4,500')]
 for i, (k, v) in enumerate(rows):
     y = 580 + i * 40
     bold = i in (2, 4)

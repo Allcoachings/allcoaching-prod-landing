@@ -3,9 +3,9 @@
 Run:  python .claude/skills/academy-guide-blog/graphics/online-coaching-business-plan-2026.py
 Then: python .claude/skills/academy-guide-blog/scripts/export_graphics.py assets/blog/online-coaching-business-plan-2026
 
-All rupee figures are illustrative and match the post: Growth plan ₹12,999 + 18% GST, domain ₹1,000, recording kit
-₹8,000, tools ₹6,000, ads test ₹30,000 = ₹60,339 fixed; ₹2,999 course, 7.5% platform fee + assumed 2% gateway charge
-= about ₹2,714 kept per sale; break-even 23 students.
+All rupee figures are illustrative and match the post: Starter plan ₹6,999 + 18% GST, domain ₹1,000, recording kit
+₹8,000, tools ₹6,000, ads test ₹30,000 = ₹53,259 fixed; ₹2,999 course, 10% platform fee + assumed 2% gateway charge
+= about ₹2,639 kept per sale; break-even 21 students. (Final pricing 2026-10-28: Growth/Pro take 0% commission.)
 """
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'scripts'))
@@ -108,7 +108,7 @@ save('channels', svg(W, H, b, 'Marketing channels in an online coaching business
 # 5. cost sheet ---------------------------------------------------------------------------
 W, H = 1220, 960
 b = headline(60, 100, ['Year-one *cost sheet*', 'for an online academy'], 54)
-fixed = [('Growth plan', '₹12,999'), ('GST on plan (18%)', '₹2,340'), ('Domain name', '₹1,000'),
+fixed = [('Starter plan', '₹6,999'), ('GST on plan (18%)', '₹1,260'), ('Domain name', '₹1,000'),
          ('Recording kit', '₹8,000'), ('Design and editing tools', '₹6,000'), ('Meta ads test', '₹30,000')]
 b += white_panel(60, 220, 640, 640, 28, big=True)
 b += eyebrow(96, 276, 'Fixed costs, year one')
@@ -117,10 +117,10 @@ for i, (l, v) in enumerate(fixed):
     b += text(96, y, l, 23, INK, 500) + text(664, y, v, 25, INK, 700, 'end', F_HEAD)
     b += f'<rect x="96" y="{y + 24}" width="568" height="1.5" fill="{LINE}"/>'
 b += f'<rect x="80" y="768" width="600" height="72" rx="20" fill="{BLUE_TINT}"/>'
-b += text(104, 814, 'Fixed total', 25, INK, 700, font=F_HEAD) + text(656, 816, '₹60,339', 36, BLUE, 800, 'end', F_HEAD, -1)
+b += text(104, 814, 'Fixed total', 25, INK, 700, font=F_HEAD) + text(656, 816, '₹53,259', 36, BLUE, 800, 'end', F_HEAD, -1)
 b += white_panel(740, 220, 420, 400, 28)
 b += eyebrow(776, 276, 'Per-sale costs')
-b += text(776, 350, '7.5%', 52, INK, 800, font=F_HEAD, ls=-2) + text(776, 386, 'Platform fee on Growth', 20, MUTED)
+b += text(776, 350, '10%', 52, INK, 800, font=F_HEAD, ls=-2) + text(776, 386, 'Fee on Starter (0% on Growth, Pro)', 20, MUTED)
 b += text(776, 480, '2%', 52, INK, 800, font=F_HEAD, ls=-2) + text(776, 516, 'Gateway charges (assumed,', 20, MUTED)
 b += text(776, 544, 'shown separately)', 20, MUTED)
 b += hand(770, 700, ['Add GST', 'to your plan'], 34, INK, -4)
@@ -130,9 +130,9 @@ save('cost-sheet', svg(W, H, b, 'Online coaching business cost sheet for year on
 # 6. break-even ---------------------------------------------------------------------------
 W, H = 1220, 860
 b = headline(60, 100, ['How many students', 'to *break even?*'], 54)
-cards = [('Fixed costs', '₹60,339', 'Year one, from the cost sheet'),
-         ('Kept per sale', '₹2,714', '₹2,999 − 7.5% fee − 2% gateway'),
-         ('Break-even', '23', 'paid students (22.2, rounded up)')]
+cards = [('Fixed costs', '₹53,259', 'Year one, from the cost sheet'),
+         ('Kept per sale', '₹2,639', '₹2,999 − 10% fee − 2% gateway'),
+         ('Break-even', '21', 'paid students (20.2, rounded up)')]
 for i, (t, v, s) in enumerate(cards):
     x = 60 + i * 380
     hl = i == 2
@@ -148,7 +148,7 @@ b += text(420, 431, '÷', 30, INK, 800, 'middle', F_HEAD) + text(800, 431, '=', 
 b += f'<rect x="60" y="650" width="1100" height="96" rx="24" fill="{BLUE_TINT}"/>'
 b += text(92, 708, 'Break-even students = fixed costs ÷ what you keep per sale', 26, INK, 700, font=F_HEAD, ls=-0.5)
 b += text(60, H - 28, 'Illustrative figures, before income tax.', 16, MUTED) + signature(W, H)
-save('break-even', svg(W, H, b, 'Online coaching break-even calculation: ₹60,339 fixed costs divided by ₹2,714 kept per ₹2,999 sale equals 23 students'))
+save('break-even', svg(W, H, b, 'Online coaching break-even calculation: ₹53,259 fixed costs divided by ₹2,639 kept per ₹2,999 sale equals 21 students'))
 
 # 7. first 90 days ------------------------------------------------------------------------
 W, H = 1220, 940
@@ -185,7 +185,7 @@ for i, (ic, t, s) in enumerate(mets):
     b += pill_card(60, 200 + i * 116, 700, t, s, ic, h=98, tile=BLUE if i == 0 else NAVY_TILE, title_size=26)
 b += white_panel(800, 260, 360, 420, 28, big=True)
 b += eyebrow(832, 316, 'Quick test')
-b += lines(832, 372, ['Keep ₹2,714 a sale?', 'An enrolment from ads', 'at ₹300 pays for itself.', 'At ₹2,500, fix the offer', 'or the course page first.'], 22, INK, 1.6)
+b += lines(832, 372, ['Keep ₹2,639 a sale?', 'An enrolment from ads', 'at ₹300 pays for itself.', 'At ₹2,500, fix the offer', 'or the course page first.'], 22, INK, 1.6)
 b += text(832, 650, 'Illustrative', 18, MUTED)
 b += text(60, H - 28, 'Use the same definitions every month so the numbers compare.', 16, MUTED) + signature(W, H)
 save('metrics', svg(W, H, b, 'Online coaching business metrics to track monthly: enrolments, cost per enrolment, conversion rate, completion rate and repeat purchases'))
@@ -214,5 +214,5 @@ for k, (lab, ic, sub) in enumerate([('Website', 'globe', 'Your domain'), ('Your 
                                      ('UPI & cards', 'card', 'Razorpay payouts'), ('Ads tracking', 'chart', 'Pixel + GTM')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, 'From ₹3,999/month + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
+b += text(640, 890, '0% commission on Growth and Pro', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('academy-plan', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: your own academy website, Android app, live classes and UPI checkout for your online coaching business'))
