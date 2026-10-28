@@ -134,7 +134,7 @@ vend = [('Classplus', '₹29,999 for 1 year', 'Android app + website. Fee on sal
         ('TagMango', '₹74,999 + GST', 'Branded Apps Stack, one-time setup, on top of a plan.', False),
         ('Exly', 'From ₹60,000 a year', 'Mobile app (iOS and Android) add-on to a plan.', False),
         ('Learnyst', '₹14,999 a month', 'Premium, billed monthly + taxes: branded Android app.', False),
-        ('AllCoaching', '₹6,999 a year + GST', 'Own Android app on every plan. iOS on Pro.', True)]
+        ('AllCoaching', '₹6,999 a year + GST', 'Android app on every plan, Starter + 10%. At 0%: Growth ₹7,999/mo.', True)]
 for i, (n, p, note, hl) in enumerate(vend):
     y = 200 + i * 148
     b += white_panel(60, y, 1100, 128, 24, big=hl)
@@ -161,14 +161,15 @@ save('hidden-costs', svg(W, H, b, 'Hidden costs in a white label coaching app co
 
 # 7. year-one cost on AllCoaching plans --------------------------------------------------------------
 W, H = 1220, 1080
-SALES = 500000
-plans = [('Starter', 'Yearly', 6999, 0.10), ('Growth', 'Yearly', 12999, 0.075), ('Pro', 'Yearly · iOS app', 24999, 0.05),
-         ('Starter', 'Monthly ₹3,999 × 12 · sales to ₹50k/mo', 47988, 0.0),
-         ('Growth', 'Monthly ₹5,999 × 12 · sales to ₹1.5L/mo', 71988, 0.0),
-         ('Pro', 'Monthly ₹7,999 × 12 · iOS app, no limit', 95988, 0.0)]
+SALES = 1000000
+plans = [('Starter', 'Yearly · 10% fee on sales', 6999, 0.10),
+         ('Growth', 'Paid yearly (2 months free) · 0% commission', 79990, 0.0),
+         ('Growth', 'Monthly ₹7,999 × 12 · 0% commission', 95988, 0.0),
+         ('Pro', 'Paid yearly · 0% · iOS app and 4K', 149990, 0.0),
+         ('Pro', 'Monthly ₹14,999 × 12 · 0% · iOS app and 4K', 179988, 0.0)]
 tot = [p + f * SALES for _, _, p, f in plans]
 low = min(tot)
-b = headline(60, 100, ['Year-one cost at', '*₹5 lakh of sales*'], 52)
+b = headline(60, 100, ['Year-one cost at', '*₹10 lakh of sales*'], 52)
 b += white_panel(60, 200, 1100, 740, 28, big=True)
 heads = [('Plan', 100, 'start'), ('Plan price', 640, 'end'), ('Fee on sales', 880, 'end'), ('Year one', 1110, 'end')]
 for t_, x, a_ in heads:
@@ -186,9 +187,9 @@ for i, ((n, sub, p, f), t_) in enumerate(zip(plans, tot)):
     pct = ('%g' % (f * 100)) + '%'
     b += text(880, y + 58, (f'{pct} = {inr(f * SALES)}' if f else '0% = no fee'), 24, INK, 500, 'end', F_HEAD)
     b += text(1110, y + 58, inr(t_), 30, BLUE if hl else INK, 800, 'end', F_HEAD, -1)
-b += text(60, 990, 'Below about ₹4 lakh of yearly sales, yearly Starter usually costs least; above that, a monthly 0% plan usually leaves more.', 18, INK, 600)
+b += text(60, 990, 'Below about ₹7 lakh of yearly sales, Starter usually costs least; above that, Growth at 0% commission usually leaves more.', 18, INK, 600)
 b += text(60, H - 28, 'Illustrative. Plan price and platform fee only, before GST. Gateway charges separate.', 16, MUTED) + signature(W, H)
-save('year-one-cost', svg(W, H, b, 'Illustrative year-one cost of a coaching app with website on AllCoaching yearly and monthly plans at ₹5 lakh of sales'))
+save('year-one-cost', svg(W, H, b, 'Illustrative year-one cost of a coaching app with website on AllCoaching plans at ₹10 lakh of sales'))
 
 # 8. vendor questions ------------------------------------------------------------------------------
 W, H = 1220, 920

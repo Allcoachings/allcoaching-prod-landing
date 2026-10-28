@@ -172,7 +172,7 @@ b += f'<rect x="780" y="206" width="364" height="688" rx="20" fill="{BLUE_TINT}"
 for x, t in cols:
     b += eyebrow(x if x != 800 else 812, 246, t, BLUE if x == 800 else MUTED)
 rows = [('Time to go live', 'Weeks to months', 'One evening to a week'),
-        ('Upfront cost', 'A project quote', 'From ₹3,999/mo + GST'),
+        ('Upfront cost', 'A project quote', 'From ₹6,999/yr + GST'),
         ('Ongoing upkeep', 'Updates, fixes, renewals', 'Handled by the platform'),
         ('Who makes changes', 'The developer', 'You, in the studio'),
         ('Student apps', 'Built by the developer', 'Android on every plan'),

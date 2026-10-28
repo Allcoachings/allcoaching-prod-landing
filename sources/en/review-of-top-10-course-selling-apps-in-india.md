@@ -432,7 +432,7 @@ Talk to migration team
     <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       <a style="text-decoration:none" href="/blogs/en/graphy-alternative-with-organic-marketplace-traffic" class="blog-card" aria-label="Read: Graphy Alternative with Organic Marketplace Traffic">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/graphy-alternative-with-organic-marketplace-traffic.webp" alt="Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first 2026" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/graphy-alternative-with-organic-marketplace-traffic/cover.webp" alt="Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first 2026" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Alternative · 2026</span>
@@ -460,7 +460,7 @@ Talk to migration team
       </a>
       <a style="text-decoration:none" href="/blogs/en/free-coaching-app-for-tutors-with-student-traffic" class="blog-card" aria-label="Read: Free Coaching App for Tutors with Student Traffic">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/free-coaching-app-for-tutors-with-student-traffic.webp" alt="Free Coaching App for Tutors with Student Traffic — AllCoaching 2026" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/free-coaching-app-for-tutors-with-student-traffic/cover.webp" alt="Free Coaching App for Tutors with Student Traffic — AllCoaching 2026" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Free + Traffic · 2026</span>

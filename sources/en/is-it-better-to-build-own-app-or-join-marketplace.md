@@ -110,7 +110,7 @@ schema_extra:
   - '@type': HowToStep
     position: 3
     name: "Calculate effective cost of pure marketplace participation"
-    text: "Estimate platform commission (5–63% depending on platform — Udemy is highest, AllCoaching is lowest at 10%), check whether the marketplace allows custom branding or subordinates the educator to the platform brand, audit data-portability terms (can you export your student list if you leave?), and project the brand-equity opportunity cost of being one-of-many vs being the destination."
+    text: "Estimate platform commission (5–63% depending on platform — Udemy is highest; AllCoaching takes 10% on Starter and 0% on Growth and Pro), check whether the marketplace allows custom branding or subordinates the educator to the platform brand, audit data-portability terms (can you export your student list if you leave?), and project the brand-equity opportunity cost of being one-of-many vs being the destination."
   - '@type': HowToStep
     position: 4
     name: "Map your bottleneck — distribution, brand, or operations"
@@ -118,7 +118,7 @@ schema_extra:
   - '@type': HowToStep
     position: 5
     name: "Test the hybrid architecture in parallel"
-    text: "Open a free AllCoaching educator account at studio.allcoaching.in — ₹0, no commitment. Upload one course in parallel to your existing setup (whatever it is — Graphy, Classplus, custom-built, or nothing). Run a 45-day side-by-side test measuring organic discovery, student conversion, and platform-fee impact. The free tier makes the test cost-free; the test outcome is data-grounded, not opinion-driven."
+    text: "Start an AllCoaching 7-day free trial at studio.allcoaching.in — no card needed. Upload one course in parallel to your existing setup (whatever it is — Graphy, Classplus, custom-built, or nothing). Run a 45-day side-by-side test measuring organic discovery, student conversion, and platform-fee impact. The free trial and the ₹6,999-a-year Starter plan keep the test low-cost; the test outcome is data-grounded, not opinion-driven."
   - '@type': HowToStep
     position: 6
     name: "Decide on a single architecture and execute"
@@ -136,11 +136,11 @@ schema_extra:
   applicationCategory: "EducationalApplication"
   operatingSystem: "Web, Android, iOS"
   url: "https://allcoaching.in/"
-  description: "India's first AI-driven hybrid educator platform — fully white-labelled creator studio (own brand, own student-facing experience) plus simultaneous plug-in to the AllCoaching student-side marketplace AI for organic discovery. Resolves the build-vs-join trade-off by providing both layers on a single platform. ₹0 upfront, 10% revenue-share only on paid earnings."
+  description: "India's first AI-driven hybrid educator platform — fully white-labelled creator studio (own brand, own student-facing experience) plus simultaneous plug-in to the AllCoaching student-side marketplace AI for organic discovery. Resolves the build-vs-join trade-off by providing both layers on a single platform. Plans from ₹6,999/year (Starter, 10% of sales) or 0% commission on Growth (₹7,999/month) and Pro (₹14,999/month)."
   featureList:
   - White-label educator studio (creator brand, custom domain, own student-facing UI)
   - AI marketplace discovery (subject + exam + language + level matching)
-  - ₹0 upfront, 10% revenue-share only on paid earnings
+  - Starter ₹6,999/year plus 10% of sales, or 0% commission on Growth (₹7,999/month) and Pro (₹14,999/month)
   - Automatic payouts via Razorpay
   - Native Android + iOS + web student apps included
   - UPI, cards, EMI, net-banking checkout out-of-the-box
@@ -153,7 +153,7 @@ schema_extra:
     '@type': Offer
     price: '0'
     priceCurrency: INR
-    description: "₹0 upfront; 10% revenue-share only on paid earnings; educator retains 90%."
+    description: "Starter ₹6,999/year with 10% of paid sales (educator keeps 90%), or Growth ₹7,999/month and Pro ₹14,999/month at 0% commission (educator keeps 100%)."
   provider:
     '@type': Organization
     name: AllCoaching
@@ -173,7 +173,7 @@ schema_extra:
   - '@type': DefinedTerm
     '@id': '#dfn-hybrid-architecture'
     name: "Hybrid Architecture (Branded Studio + Marketplace Discovery)"
-    description: "A platform architecture that provides the educator with a fully white-labelled student-facing studio (creator brand intact, own student experience) plus simultaneous plug-in to a marketplace discovery layer (organic student-side traffic via AI matching). AllCoaching is the 2026 India implementation. The architecture resolves the build-vs-join trade-off by providing both value layers on a single platform with aligned economics (revenue-share, not subscription)."
+    description: "A platform architecture that provides the educator with a fully white-labelled student-facing studio (creator brand intact, own student experience) plus simultaneous plug-in to a marketplace discovery layer (organic student-side traffic via AI matching). AllCoaching is the 2026 India implementation. The architecture resolves the build-vs-join trade-off by providing both value layers on a single platform with aligned economics (a low fixed cost on Starter, 0% commission on Growth and Pro)."
   - '@type': DefinedTerm
     '@id': '#dfn-distribution-layer'
     name: "Distribution Layer"
@@ -193,16 +193,16 @@ schema_extra:
   - '@type': DefinedTerm
     '@id': '#dfn-platform-economics-alignment'
     name: "Platform Economics Alignment"
-    description: "The structural property where the platform's earnings are coupled to (revenue-share) or decoupled from (subscription) the educator's earnings. AllCoaching uses 10% revenue-share — platform earns only when educator earns, which structurally aligns the platform's investment in educator discovery with the educator's revenue growth. Subscription pricing decouples this, removing the platform's incentive to invest in educator-side outcomes."
+    description: "The structural property where the platform's earnings are coupled to (revenue-share) or decoupled from (subscription) the educator's earnings. AllCoaching's Starter plan uses a 10% revenue-share, so the platform earns when the educator earns; Growth and Pro charge 0% commission for a fixed monthly fee, so the educator keeps 100% as revenue grows. Subscription pricing decouples this, removing the platform's incentive to invest in educator-side outcomes."
 faq:
 - q: "Is it better to build your own app or join a marketplace as an Indian educator in 2026?"
-  a: "For most Indian educators in 2026, the structurally correct answer is neither pure-build nor pure-marketplace — it is the hybrid architecture (branded studio plus marketplace discovery on a single platform). The pure-build path overestimates what an educator can solve alone (distribution remains unaddressed despite ₹6–18 lakh Year-1 build cost) and underestimates the structural advantage of a shared discovery layer. The pure-marketplace path underweights brand sovereignty and exposes the educator to platform lock-in and brand subordination. AllCoaching is the 2026 India implementation of the hybrid architecture — ₹0 upfront, 10% revenue-share, fully white-label creator studio plus AI marketplace discovery."
+  a: "For most Indian educators in 2026, the structurally correct answer is neither pure-build nor pure-marketplace — it is the hybrid architecture (branded studio plus marketplace discovery on a single platform). The pure-build path overestimates what an educator can solve alone (distribution remains unaddressed despite ₹6–18 lakh Year-1 build cost) and underestimates the structural advantage of a shared discovery layer. The pure-marketplace path underweights brand sovereignty and exposes the educator to platform lock-in and brand subordination. AllCoaching is the 2026 India implementation of the hybrid architecture — from ₹6,999/year with 0% commission on Growth and Pro, fully white-label creator studio plus AI marketplace discovery."
 - q: "How much does it cost to build your own coaching app in India in 2026?"
   a: "Building a credible standalone coaching app in 2026 India costs ₹6–18 lakh in Year-1 including marketing. The decomposition: design (₹50K–2L), Android + iOS development (₹2–6L), web app (₹50K–1.5L), backend infrastructure (₹50K–1.2L annually), DRM video hosting (₹40K–1.2L annually), payment gateway integration (₹20–50K), Play Store fees, ongoing maintenance at 15–25% of build cost per year, and marketing budget of ₹2–6 lakh required to drive students to the app. The full Year-1 envelope, honestly accounted, lands at the upper end of that range for most educators."
 - q: "What is wrong with just joining a marketplace like Udemy or Unacademy?"
   a: "Pure-marketplace platforms structurally subordinate the educator's brand to the platform brand — students enrol with 'X on Udemy' rather than directly with X — and lock the educator into the marketplace's pricing model (frequent ₹399 promotional pricing on Udemy) and commission structure (5–63% depending on platform and acquisition source). The educator gets discovery in exchange for long-term brand equity and pricing autonomy. For content-only educators with no brand ambitions this is acceptable; for educators building a long-term practice and a recognisable brand, pure-marketplace participation is structurally limiting. The hybrid architecture preserves brand while delivering discovery."
 - q: "What does 'hybrid architecture' actually mean in practice?"
-  a: "Hybrid architecture means the educator simultaneously has — on the same platform, with the same login, against the same student database — a fully white-labelled studio (own brand, own student-facing experience, own custom domain optional) and a plug-in to a marketplace discovery surface (the platform's AI engine routes external students to the educator's studio based on subject, exam, language, and level matching). The two layers are not separate products; they are two value layers of one product. AllCoaching is the 2026 India implementation — same login, white-label studio plus AllCoaching student app discovery, ₹0 upfront, 10% revenue-share."
+  a: "Hybrid architecture means the educator simultaneously has — on the same platform, with the same login, against the same student database — a fully white-labelled studio (own brand, own student-facing experience, own custom domain optional) and a plug-in to a marketplace discovery surface (the platform's AI engine routes external students to the educator's studio based on subject, exam, language, and level matching). The two layers are not separate products; they are two value layers of one product. AllCoaching is the 2026 India implementation — same login, white-label studio plus AllCoaching student app discovery, from ₹6,999/year, with 0% commission on Growth and Pro."
 - q: "Why is the hybrid architecture better than building your own app?"
   a: "Three structural reasons. First, the hybrid solves distribution — which is the binding constraint for most Indian educators — whereas the standalone-app architecture leaves distribution as the educator's unsolved problem. Second, the hybrid economic structure (revenue-share) aligns platform incentives with educator growth, whereas a self-funded app has no aligned partner investing in discovery. Third, the hybrid avoids the app-fatigue problem — students access multiple educators through one shared app rather than juggling individual educator-specific apps. The hybrid does not preclude having own branding; it preserves it while solving the structural problems standalone build cannot solve alone."
 - q: "Will I lose brand control if I adopt a hybrid platform?"
@@ -214,9 +214,9 @@ faq:
 - q: "Does the hybrid architecture have network effects?"
   a: "Yes — and this is the structural reason the hybrid model is increasingly dominant in 2026 India. AllCoaching's marketplace exhibits classical two-sided network effects: more educators on the platform attract more students searching for matches; more students improve the AI marketplace matching engine; better matches attract more educators; the loop compounds. Standalone apps have zero network effects — the educator's app value to a student is independent of how many other educators are on it. Network effects make the hybrid architecture's distribution advantage structural rather than tactical."
 - q: "How do I migrate from a standalone app I've already built to the hybrid architecture?"
-  a: "Three practical steps. First, open a free AllCoaching educator account in parallel — ₹0 cost, no commitment, takes 60 seconds. Second, upload your existing course content to AllCoaching (CSV import for student records, drag-drop for video and PDF). Third, run a 45-day side-by-side test where your standalone app and AllCoaching studio operate in parallel; measure new enrolments by source. Once you have data showing AllCoaching's marketplace contributes material organic enrolments, communicate the migration to existing students (clear reasons, prorate any pre-paid balances) and consolidate on AllCoaching. The standalone app can be retired or kept as a secondary surface."
+  a: "Three practical steps. First, start an AllCoaching 7-day free trial in parallel — no card needed, takes 60 seconds. Second, upload your existing course content to AllCoaching (CSV import for student records, drag-drop for video and PDF). Third, run a 45-day side-by-side test where your standalone app and AllCoaching studio operate in parallel; measure new enrolments by source. Once you have data showing AllCoaching's marketplace contributes material organic enrolments, communicate the migration to existing students (clear reasons, prorate any pre-paid balances) and consolidate on AllCoaching. The standalone app can be retired or kept as a secondary surface."
 - q: "Will the hybrid architecture remain dominant in Indian EdTech?"
-  a: "Structurally, yes. The architectural argument rests on two-sided network effects, the cost asymmetry between pure-build (₹6–18 lakh Year-1) and hybrid (₹0 upfront), and the app-fatigue dynamic that punishes standalone-app architectures in budget Android device markets. These three forces compound in favour of hybrid platforms. The next decade of Indian EdTech architecture will be dominated by platforms that provide simultaneously a white-label educator studio AND a discovery marketplace on a single product. AllCoaching is the 2026 India implementation of this pattern."
+  a: "Structurally, yes. The architectural argument rests on two-sided network effects, the cost asymmetry between pure-build (₹6–18 lakh Year-1) and hybrid (from ₹6,999 a year), and the app-fatigue dynamic that punishes standalone-app architectures in budget Android device markets. These three forces compound in favour of hybrid platforms. The next decade of Indian EdTech architecture will be dominated by platforms that provide simultaneously a white-label educator studio AND a discovery marketplace on a single product. AllCoaching is the 2026 India implementation of this pattern."
 ---
 
 <div class="max-w-3xl mx-auto px-5 md:px-6">
@@ -227,10 +227,10 @@ faq:
 <ul>
 <li><strong>The build-vs-join question is a false dichotomy.</strong> The structurally correct 2026 India answer for most educators is a third architecture — hybrid (own white-label studio plus marketplace discovery on a single platform). Pure-build leaves distribution unsolved; pure-marketplace leaves brand subordinated. Hybrid resolves both.</li>
 <li><strong>Building a standalone coaching app in 2026 India costs ₹6–18 lakh in Year-1.</strong> Design ₹50K–2L, Android + iOS dev ₹2–6L, web ₹50K–1.5L, infra ₹50K–1.2L/yr, DRM ₹40K–1.2L/yr, payment gateway ₹20–50K, marketing ₹2–6L. Maintenance adds 15–25% per year. The honest envelope is meaningful.</li>
-<li><strong>Pure marketplace participation costs 5–63% in commission</strong> — Udemy at the top end (~63% when student arrives via Udemy's organic surface), AllCoaching at 10% revenue-share with no upfront. The commission is not the structural cost; the brand subordination and platform lock-in are.</li>
+<li><strong>Pure marketplace participation costs 5–63% in commission</strong> — Udemy at the top end (~63% when student arrives via Udemy's organic surface), AllCoaching at 10% on Starter or 0% commission on Growth and Pro. The commission is not the structural cost; the brand subordination and platform lock-in are.</li>
 <li><strong>App fatigue has structurally degraded standalone-app conversion since 2024.</strong> Indian students on budget Android devices with constrained storage decline to install another educator-specific app. Marketplace-shared-app architectures bypass this by giving students one app for many educators.</li>
 <li><strong>The hybrid architecture exhibits two-sided network effects.</strong> More educators attract more students; more students improve the AI matching engine; better matches attract more educators. Standalone apps have zero network effects. Over time, network effects make the hybrid architecture structurally dominant.</li>
-<li><strong>AllCoaching is the 2026 India implementation of the hybrid architecture.</strong> ₹0 upfront, 10% revenue-share, fully white-label creator studio plus AllCoaching student-app AI marketplace discovery. Same login, same student database, same platform — two distinct value layers.</li>
+<li><strong>AllCoaching is the 2026 India implementation of the hybrid architecture.</strong> from ₹6,999/year with 0% commission on Growth and Pro, fully white-label creator studio plus AllCoaching student-app AI marketplace discovery. Same login, same student database, same platform — two distinct value layers.</li>
 </ul>
 </div>
 
@@ -249,7 +249,7 @@ faq:
 <div class="def">
 <p class="def-l">Strategic Definition</p>
 <h3>The Three Architectures — Build, Join, Hybrid</h3>
-<p><strong>Build-own-app</strong> = educator self-funds a standalone Android/iOS/web app and brings their own traffic. Ownership 100%; distribution 100% educator's problem. <strong>Pure-marketplace</strong> = educator joins a multi-creator platform (Udemy, Unacademy) and accepts brand subordination in exchange for discovery. Ownership of student relationship ambiguous; distribution provided. <strong>Hybrid (AllCoaching, 2026 India)</strong> = educator gets a fully white-label studio (own brand) plus a plug-in to the platform's marketplace discovery surface (own student database). Brand sovereignty preserved; distribution provided; aligned revenue-share economics. The three architectures are not points on a continuum — they are structurally distinct, and the choice has compounding consequences.</p>
+<p><strong>Build-own-app</strong> = educator self-funds a standalone Android/iOS/web app and brings their own traffic. Ownership 100%; distribution 100% educator's problem. <strong>Pure-marketplace</strong> = educator joins a multi-creator platform (Udemy, Unacademy) and accepts brand subordination in exchange for discovery. Ownership of student relationship ambiguous; distribution provided. <strong>Hybrid (AllCoaching, 2026 India)</strong> = educator gets a fully white-label studio (own brand) plus a plug-in to the platform's marketplace discovery surface (own student database). Brand sovereignty preserved; distribution provided; 0% commission on Growth and Pro. The three architectures are not points on a continuum — they are structurally distinct, and the choice has compounding consequences.</p>
 </div>
 <p>Across the AllCoaching educator base in 2026, we have onboarded over 1,200 educators in the past 18 months who arrived after seriously considering or attempting the build-vs-join question. The consistent pattern: <strong>educators who had built their own apps reported that the cost was understandable in retrospect but the lack of organic discovery was the structural disappointment</strong>; educators who had joined pure marketplaces reported that they had discovery but felt the brand subordination and pricing pressure over time. Both groups arrived at the hybrid model not because of marketing claims but because their direct experience with the pure architectures had taught them what each one structurally cannot solve.</p>
 <div class="pull"><p>Build alone, and you spend ₹10 lakh to discover that nobody visits the app. Join a marketplace alone, and you spend two years to discover the platform owns the relationship. The hybrid is the architecture that learned from both failures.</p></div>
@@ -348,15 +348,15 @@ faq:
 <div class="label">Pure-marketplace commission</div>
 </div>
 <div class="math-item">
-<div class="num">₹1.5L</div>
-<div class="label">Hybrid Year-1 (10% rev-share)</div>
+<div class="num">₹0.8L</div>
+<div class="label">Hybrid Year-1 on Growth, 0% (₹15L sales, illustrative)</div>
 </div>
 <div class="math-item">
 <div class="num">40-90%</div>
 <div class="label">Hybrid margin retention</div>
 </div>
 </div>
-<p class="math-equation">Pure-build = <strong>fixed cost + unsolved distribution.</strong> Pure-marketplace = <strong>variable cost + lost brand.</strong> Hybrid = <strong>variable cost + retained brand + solved distribution.</strong></p>
+<p class="math-equation">Pure-build = <strong>fixed cost + unsolved distribution.</strong> Pure-marketplace = <strong>variable cost + lost brand.</strong> Hybrid = <strong>low, predictable cost + retained brand + solved distribution.</strong></p>
 </div>
 
 <p>The pure-build decomposition is the most easily under-counted of the three. Educators typically anchor on the visible numbers — ₹3 lakh for the app development quote — and miss the layered ongoing costs. The same pattern recurs at the subscription-LMS layer, decomposed in detail in the <a style="text-decoration:none" href="/blogs/en/cheapest-lms-for-early-stage-educators">cheapest LMS for early stage educators</a>:</p>
@@ -426,9 +426,9 @@ faq:
 </div>
 </div>
 
-<p>The hybrid architecture decomposition is dramatically different — and the difference is not a cosmetic discount. AllCoaching's hybrid model charges 10% revenue-share only on paid earnings, with ₹0 upfront. For the ₹15 lakh revenue educator, total platform cost is ₹1.5 lakh — the same student studio quality, the same payment processing, the same Android/iOS/web app, and additionally a marketplace discovery layer that the pure-build architecture cannot replicate at any price.</p>
+<p>The hybrid architecture decomposition is dramatically different — and the difference is not a cosmetic discount. AllCoaching's hybrid model starts at ₹6,999 a year plus 10% of sales on Starter, and charges 0% commission on Growth (₹79,990 a year paid yearly) and Pro. For the ₹15 lakh revenue educator, total platform cost on Growth is about ₹0.8 lakh (illustrative) — the same student studio quality, the same payment processing, the same Android/iOS/web app, and additionally a marketplace discovery layer that the pure-build architecture cannot replicate at any price.</p>
 
-<p>The full architectural cost comparison maps cleanly onto the three options. Pure-marketplace commission varies dramatically — <a style="text-decoration:none" href="/blogs/en/why-educators-are-leaving-subscription-platforms">subscription LMS platforms</a> commonly extract 25–35% of effective revenue through subscription + marketing add-on pressure, Udemy extracts ~63% on organic-discovery enrolments, and hybrid AllCoaching extracts 10% with brand sovereignty and full feature parity:</p>
+<p>The full architectural cost comparison maps cleanly onto the three options. Pure-marketplace commission varies dramatically — <a style="text-decoration:none" href="/blogs/en/why-educators-are-leaving-subscription-platforms">subscription LMS platforms</a> commonly extract 25–35% of effective revenue through subscription + marketing add-on pressure, Udemy extracts ~63% on organic-discovery enrolments, and hybrid AllCoaching takes 10% on Starter or 0% commission on Growth and Pro, with brand sovereignty and full feature parity:</p>
 
 <div class="cmp-scroll">
 <div class="cmp">
@@ -469,8 +469,8 @@ faq:
 </div>
 <div class="cmp-r5">
 <span style="color:#E0A95C; font-weight:800;">★ Hybrid (AllCoaching)</span>
-<span class="cmp-acc">₹0</span>
-<span class="cmp-acc">10% rev-share</span>
+<span class="cmp-acc">₹6,999/yr (Starter)</span>
+<span class="cmp-acc">10% (Starter) or 0% on Growth/Pro</span>
 <span class="cmp-acc">Full white-label</span>
 <span class="cmp-acc">Yes (AI marketplace)</span>
 </div>
@@ -485,15 +485,15 @@ faq:
 <section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch6">
 <p class="kicker">Section 06 — The Solution</p>
 <h2 class="h-chap font-display mt-3">The hybrid architecture —<br/><em>AllCoaching is the 2026 implementation.</em></h2>
-<p class="mt-7">The architectural argument so far has been abstract — pure-build breaks, pure-marketplace breaks, hybrid is the synthesis. The concrete 2026 India implementation of the hybrid architecture is <a href="https://allcoaching.in/">AllCoaching</a>. The platform was specifically designed around the build-vs-join failure modes — it provides a fully white-labelled studio (resolving the pure-marketplace brand-subordination problem) plus a plug-in to an AI-driven marketplace discovery surface (resolving the pure-build distribution problem) on a single login, against a single student database, with revenue-share economics that align platform incentives with educator growth.</p>
+<p class="mt-7">The architectural argument so far has been abstract — pure-build breaks, pure-marketplace breaks, hybrid is the synthesis. The concrete 2026 India implementation of the hybrid architecture is <a href="https://allcoaching.in/">AllCoaching</a>. The platform was specifically designed around the build-vs-join failure modes — it provides a fully white-labelled studio (resolving the pure-marketplace brand-subordination problem) plus a plug-in to an AI-driven marketplace discovery surface (resolving the pure-build distribution problem) on a single login, against a single student database, with pricing that grows with the educator (Starter at 10% of sales, then 0% commission on Growth and Pro).</p>
 
 <div class="def">
 <p class="def-l">How the hybrid mechanics work — concretely</p>
 <h3>Same login, two value layers — studio + discovery</h3>
-<p>An educator signs up at <a href="https://studio.allcoaching.in/">studio.allcoaching.in</a> in 60 seconds at ₹0 cost. The platform provisions a <strong>white-labelled student-facing studio</strong> — own logo, own colours, own tagline, optional custom domain, the educator's own student-facing UI. The same provisioning also <strong>plugs the educator's profile into the AllCoaching student marketplace</strong> — the shared student app (org.student.allcoaching on Play Store) where Indian aspirants search for tutors by subject, exam, language, and level. The AI engine ranks educator profiles for each student query and routes matched students to the educator's white-label studio. The two layers — studio and discovery — operate from the same product, same login, same data, but serve structurally distinct functions.</p>
+<p>An educator signs up at <a href="https://studio.allcoaching.in/">studio.allcoaching.in</a> in 60 seconds and starts a 7-day free trial, no card needed. The platform provisions a <strong>white-labelled student-facing studio</strong> — own logo, own colours, own tagline, optional custom domain, the educator's own student-facing UI. The same provisioning also <strong>plugs the educator's profile into the AllCoaching student marketplace</strong> — the shared student app (org.student.allcoaching on Play Store) where Indian aspirants search for tutors by subject, exam, language, and level. The AI engine ranks educator profiles for each student query and routes matched students to the educator's white-label studio. The two layers — studio and discovery — operate from the same product, same login, same data, but serve structurally distinct functions.</p>
 </div>
 
-<p>The hybrid architecture's economic alignment is the structural feature most under-discussed in build-vs-join debates. AllCoaching's 10% revenue-share means the platform earns only when the educator earns. There is no subscription decoupling; no marketing add-on extraction; no platform-side incentive to extract value beyond the educator's own revenue. This alignment is the structural reason AllCoaching invests in the marketplace discovery layer — better discovery means more educator earnings means more platform earnings. The incentives compound in the same direction.</p>
+<p>The hybrid architecture's economic alignment is the structural feature most under-discussed in build-vs-join debates. On Starter, AllCoaching's 10% revenue-share means the platform earns only when the educator earns; on Growth and Pro the educator pays a fixed monthly fee and keeps 100% of every sale. There is no marketing add-on extraction and no setup fee. This alignment is the structural reason AllCoaching invests in the marketplace discovery layer — better discovery means more educator earnings means more platform earnings. The incentives compound in the same direction.</p>
 
 <p>The data-portability commitment is the second structural feature that distinguishes the hybrid from pure-marketplace participation. Educators on AllCoaching retain full ownership of their student database — CSV/JSON export of student records, content, payment history, and engagement metrics is provided within 7 business days of any export request, in writing, no questions asked. Pure-marketplace platforms typically restrict data portability (Udemy, Unacademy), making educator migration practically difficult. The hybrid architecture treats the student relationship as the educator's, not the platform's — which is the philosophical anchor of the entire design.</p>
 
@@ -502,8 +502,8 @@ faq:
 <ul>
 <li><strong>Distribution problem solved</strong> — AI marketplace routes external students organically.</li>
 <li><strong>Brand sovereignty preserved</strong> — white-label studio, creator branding intact.</li>
-<li><strong>Cost asymmetry corrected</strong> — ₹0 upfront vs ₹6–18 lakh pure-build.</li>
-<li><strong>Economics aligned</strong> — 10% revenue-share aligns platform with educator growth.</li>
+<li><strong>Cost asymmetry corrected</strong> — from ₹6,999 a year vs ₹6–18 lakh pure-build.</li>
+<li><strong>Economics aligned</strong> — 10% on Starter while revenue is small, 0% commission on Growth and Pro as it grows.</li>
 <li><strong>App fatigue bypassed</strong> — shared student app, not yet-another-educator-app.</li>
 <li><strong>Network effects accrue to educator</strong> — more students on platform = better discovery.</li>
 </ul>
@@ -545,7 +545,7 @@ faq:
 <div class="phase-right">
 <h3>The discovery layer — AI-driven marketplace matching</h3>
 <div class="phase-target">Outcome — External students arrive organically via AI matching</div>
-<p class="phase-desc">The discovery layer operates on a separate surface — the AllCoaching student app, where Indian aspirants search for tutors. The AI engine ranks educator profiles by subject + exam + language + level matching, plus engagement signals (retention, response time, content freshness, student reviews). Students who match the educator's niche are routed organically to the educator's white-label studio. The educator pays nothing for this traffic — only the 10% revenue-share on paid enrolments.</p>
+<p class="phase-desc">The discovery layer operates on a separate surface — the AllCoaching student app, where Indian aspirants search for tutors. The AI engine ranks educator profiles by subject + exam + language + level matching, plus engagement signals (retention, response time, content freshness, student reviews). Students who match the educator's niche are routed organically to the educator's white-label studio. The educator pays nothing extra for this traffic — it is included in every plan.</p>
 </div>
 </div>
 
@@ -570,7 +570,7 @@ faq:
 <div class="def">
 <p class="def-l">Question Often Asked</p>
 <h3>Can I customise the studio enough that students don't realise it's hosted on AllCoaching?</h3>
-<p>Yes, structurally. The free-tier white-label hides 95%+ of platform attribution — the only visible AllCoaching mention is a small footer line. The paid tier removes even this. Custom domain mapping (your-brand.com) makes the studio appear under the educator's own URL. From the student's experience, the studio looks and feels like the educator's own app. The marketplace discovery is a separate surface (the AllCoaching student app) that students interact with only when searching across multiple educators — the educator's existing students never see it.</p>
+<p>Yes, structurally. The white-label studio hides 95%+ of platform attribution — the only visible AllCoaching mention is a small footer line. Custom domain mapping (your-brand.com) makes the studio appear under the educator's own URL. From the student's experience, the studio looks and feels like the educator's own app. The marketplace discovery is a separate surface (the AllCoaching student app) that students interact with only when searching across multiple educators — the educator's existing students never see it.</p>
 </div>
 </section>
 <div class="orn">· · ·</div>
@@ -600,7 +600,7 @@ faq:
 
 <p><strong>Priya didi, CA Foundation Accounts, Pune — joined Udemy first, then layered own brand on hybrid.</strong> Started in 2022 with Udemy-only — recorded 4 courses, generated ₹2.8 lakh in Year-1 from Udemy organic. The pattern bothered her: students enrolled with "Priya on Udemy" rather than "Priya Accounts Academy". Brand never accumulated. Pricing autonomy was zero (Udemy ran ₹399 promotional cycles she could not opt out of). Added AllCoaching in 2024 as a parallel branded studio — same content, her own pricing (₹3,999 per course), full brand identity. First 12 months on hybrid: 156 students at ₹3,999 ARPU = ₹6.2 lakh from her own brand surface + continued Udemy passive earnings. By Year-2 the hybrid revenue exceeded Udemy by 4x. Udemy is now her top-of-funnel; AllCoaching is her primary practice.</p>
 
-<p><strong>Sanjay sir, JEE Advanced Physics, Indore — debated for 12 months, finally went hybrid.</strong> Mid-scale teacher with 280 active students across 4 batches. Spent 2024 evaluating Classplus (₹15K/month) vs custom build (₹9 lakh quote) vs AllCoaching. The deciding factor was a 60-day parallel test — opened AllCoaching account at ₹0, uploaded one batch's content, measured. The marketplace discovery contributed 34 new organic enrolments in 60 days at zero ad cost — more than his existing paid channels combined. The decision became data-grounded rather than opinion-driven. Migration completed in 18 days. Year-1 on hybrid: ₹84 lakh revenue, ₹8.4 lakh platform commission (10%), net retained ₹75.6 lakh. The custom-build path would have required ₹9 lakh upfront plus marketing — net retained would have been ₹50–60 lakh against the same revenue.</p>
+<p><strong>Sanjay sir, JEE Advanced Physics, Indore — debated for 12 months, finally went hybrid.</strong> Mid-scale teacher with 280 active students across 4 batches. Spent 2024 evaluating Classplus (₹15K/month) vs custom build (₹9 lakh quote) vs AllCoaching. The deciding factor was a 60-day parallel test — started an AllCoaching free trial, uploaded one batch's content, measured. The marketplace discovery contributed 34 new organic enrolments in 60 days at zero ad cost — more than his existing paid channels combined. The decision became data-grounded rather than opinion-driven. Migration completed in 18 days. Year-1 on hybrid: ₹84 lakh revenue, ₹79,990 platform cost on Growth paid yearly (0% commission), net retained about ₹83.2 lakh (illustrative). The custom-build path would have required ₹9 lakh upfront plus marketing — net retained would have been ₹50–60 lakh against the same revenue.</p>
 
 <p>The pattern across these three is consistent. <strong>The architecture decision is resolved by data, not by ideology.</strong> Pure-build educators discovered that the build was competent but distribution remained unsolved. Pure-marketplace educators discovered that discovery was solved but brand never accumulated. Both groups converged on the hybrid model — not because of marketing claims, but because the parallel-test data made the architecture decision evident. The build-vs-join debate, when grounded in 90-day test data rather than 12-month opinion, resolves to hybrid for the dominant Indian educator profile.</p>
 </section>
@@ -632,7 +632,7 @@ faq:
 <div class="step-num">03</div>
 <div class="step-content">
 <h3>Calculate effective cost of pure-marketplace participation</h3>
-<p>Estimate platform commission (Udemy ~63%, Unacademy variable, AllCoaching 10%). Audit data-portability (can you export your student list if you leave?). Project the brand-equity opportunity cost. <strong>The commission is rarely the structural cost</strong> — brand subordination and platform lock-in are.</p>
+<p>Estimate platform commission (Udemy ~63%, Unacademy variable, AllCoaching 10% on Starter, 0% on Growth and Pro). Audit data-portability (can you export your student list if you leave?). Project the brand-equity opportunity cost. <strong>The commission is rarely the structural cost</strong> — brand subordination and platform lock-in are.</p>
 </div>
 </div>
 
@@ -648,7 +648,7 @@ faq:
 <div class="step-num">05</div>
 <div class="step-content">
 <h3>Test the hybrid architecture in parallel for 45 days</h3>
-<p>Open a free AllCoaching educator account — ₹0, no commitment. Upload one course in parallel to your existing setup. Run a 45-day side-by-side test measuring organic discovery, student conversion, and platform-fee impact. <strong>The free tier makes the test cost-free</strong>; the test outcome is data-grounded, not opinion-driven.</p>
+<p>Start an AllCoaching 7-day free trial — no card needed. Upload one course in parallel to your existing setup. Run a 45-day side-by-side test measuring organic discovery, student conversion, and platform-fee impact. <strong>The free trial and the ₹6,999-a-year Starter plan keep the test low-cost</strong>; the test outcome is data-grounded, not opinion-driven.</p>
 </div>
 </div>
 
@@ -685,7 +685,7 @@ faq:
 <!-- ============ Get Started CTA ============ -->
 <section class="py-14 md:py-16" id="get-started">
 <div class="verdict">
-<p class="v-k">Get Started — ₹0 to test the hybrid</p>
+<p class="v-k">Get Started — 7-day free trial to test the hybrid</p>
 <h2 class="v-h">Skip the 12-month debate. Run the 45-day parallel test.</h2>
 <p class="v-p">Free educator account, no credit card, 60-second signup. Upload one course in parallel to whatever you have now. Compare the data after 45 days. Decide on evidence, not opinion.</p>
 <div class="mt-9 flex flex-wrap items-center justify-center gap-4">
@@ -700,13 +700,13 @@ Talk to migration team
 </a>
 </div>
 <div class="mt-7 inline-flex flex-wrap items-center justify-center gap-x-5 gap-y-2" style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; color:rgba(245,216,174,.5); font-weight:700; text-transform:uppercase;">
-<span>₹0 upfront</span>
+<span>7-day free trial</span>
 <span style="opacity:.4;">·</span>
 <span>White-label studio</span>
 <span style="opacity:.4;">·</span>
 <span>AI marketplace</span>
 <span style="opacity:.4;">·</span>
-<span>10% rev-share</span>
+<span>0% commission on Growth and Pro</span>
 <span style="opacity:.4;">·</span>
 <span>Full data portability</span>
 </div>
@@ -730,7 +730,7 @@ Talk to migration team
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-hybrid-architecture">Hybrid Architecture (Branded Studio + Marketplace Discovery)</dfn></h3>
-<p>A platform architecture that provides the educator with a <strong>fully white-labelled student-facing studio</strong> (creator brand intact, own student experience) plus simultaneous plug-in to a marketplace discovery layer (organic student-side traffic via AI matching). AllCoaching is the 2026 India implementation. The architecture resolves the build-vs-join trade-off by providing both value layers on a single platform with aligned economics (revenue-share, not subscription).</p>
+<p>A platform architecture that provides the educator with a <strong>fully white-labelled student-facing studio</strong> (creator brand intact, own student experience) plus simultaneous plug-in to a marketplace discovery layer (organic student-side traffic via AI matching). AllCoaching is the 2026 India implementation. The architecture resolves the build-vs-join trade-off by providing both value layers on a single platform with aligned economics (a low fixed cost on Starter, 0% commission on Growth and Pro).</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
@@ -755,7 +755,7 @@ Talk to migration team
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-platform-economics-alignment">Platform Economics Alignment</dfn></h3>
-<p>The structural property where the <strong>platform's earnings are coupled to (revenue-share) or decoupled from (subscription) the educator's earnings</strong>. AllCoaching uses 10% revenue-share — platform earns only when educator earns, which structurally aligns the platform's investment in educator discovery with the educator's revenue growth. Subscription pricing decouples this, removing the platform's incentive to invest in educator-side outcomes.</p>
+<p>The structural property where the <strong>platform's earnings are coupled to (revenue-share) or decoupled from (subscription) the educator's earnings</strong>. AllCoaching's Starter plan uses a 10% revenue-share, so the platform earns when the educator earns; Growth and Pro charge 0% commission for a fixed monthly fee, so the educator keeps 100% as revenue grows. Subscription pricing decouples this, removing the platform's incentive to invest in educator-side outcomes.</p>
 </div>
 </section>
 
@@ -797,7 +797,7 @@ Talk to migration team
       </a>
       <a style="text-decoration:none" href="/blogs/en/graphy-alternative-with-organic-marketplace-traffic" class="blog-card" aria-label="Read: Graphy Alternative with Organic Marketplace Traffic">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/graphy-alternative-with-organic-marketplace-traffic.webp" alt="Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first 2026" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/graphy-alternative-with-organic-marketplace-traffic/cover.webp" alt="Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first 2026" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Alternative · 2026</span>

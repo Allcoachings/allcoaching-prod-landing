@@ -86,7 +86,7 @@ schema_extra:
   operatingSystem: Web, Android, iOS
   description: India's free educator app platform — Indian teachers, coaching institutes, and subject experts launch a complete branded coaching app for ₹0 upfront in 2026. Includes course hosting, live classes with attendance tracking, payment gateway, student CRM, GST-compliant invoicing, marketplace discovery. 60-second onboarding from mobile OTP to live branded studio. Free base plan remains available permanently — paid tiers add custom domain, advanced analytics, and priority support.
   url: https://studio.allcoaching.in/
-  image: https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp
+  image: https://allcoaching.in/assets/blog/apna-coaching-app-kaise-banaye-free/cover.webp
   offers:
   - '@type': Offer
     name: Free Base Plan

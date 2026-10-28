@@ -746,7 +746,7 @@ schema_extra:
     <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       <a style="text-decoration:none" href="/blog/how-to-conduct-live-classes-on-mobile-apps" class="blog-card" aria-label="Read: How to Conduct Live Classes on Mobile Apps">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/how-to-conduct-live-classes-on-mobile-apps.webp" alt="How to conduct live classes on mobile apps — practical guide for Indian coaching educators" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/how-to-conduct-live-classes-on-mobile-apps/cover.webp" alt="How to conduct live classes on mobile apps — practical guide for Indian coaching educators" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Live Classes · 2026</span>

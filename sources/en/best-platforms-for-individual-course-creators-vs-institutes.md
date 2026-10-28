@@ -89,7 +89,7 @@ schema_extra:
     name: "Creator Mode (Solo Educator) — Free Base"
     price: '0'
     priceCurrency: INR
-    description: "Single-teacher creator workflow. Course hosting, live classes, payments, student CRM, marketplace AI discovery. ₹0 upfront, 10% revenue-share only on paid earnings."
+    description: "Single-teacher creator workflow. Course hosting, live classes, payments, student CRM, marketplace AI discovery. Starter ₹6,999/year plus 10% of sales, or 0% commission on Growth (₹7,999/month) and Pro (₹14,999/month)."
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
@@ -108,7 +108,7 @@ schema_extra:
   - "Solo creator: simplified mobile-first onboarding"
   - "Institute: multi-teacher roster + branch management"
   - "Marketplace AI discovery — works for both segments"
-  - "10% revenue-share (no monthly subscription)"
+  - "0% commission on Growth and Pro; Starter at 10% of sales"
   - "Course hosting (PDF, video, audio, test series)"
   - "Live class server with multi-teacher scheduling"
   - "Fee installment cycles with auto-reminders"
@@ -141,7 +141,7 @@ schema_extra:
     item:
       '@type': Thing
       name: "AllCoaching — best fit for both segments"
-      description: "Dual-mode architecture — creator-mode for solo educators, institute-mode for multi-teacher operations. Same underlying marketplace. 10% revenue-share. Built-in AI discovery serves both segments."
+      description: "Dual-mode architecture — creator-mode for solo educators, institute-mode for multi-teacher operations. Same underlying marketplace. 0% commission on Growth and Pro (10% on Starter). Built-in AI discovery serves both segments."
   - '@type': ListItem
     position: 2
     item:
@@ -225,7 +225,7 @@ faq:
 - q: "What is the best platform for individual course creators in India in 2026?"
   a: "For Indian individual course creators in 2026, the best platforms are AllCoaching (revenue-share marketplace with built-in AI discovery) and Graphy (subscription-priced creator website builder with deep customisation). AllCoaching is structurally superior for creators with distribution bottleneck (sub-1K existing audience, finding students harder than producing content) because the AI marketplace provides organic discovery without ad spend. Graphy fits creators with mature audiences (10K+ existing followers) who need website-quality but already have distribution. Both serve solo creators well; the choice depends on whether your bottleneck is finding students or hosting them."
 - q: "What is the best platform for coaching institutes in India in 2026?"
-  a: "For Indian coaching institutes in 2026, the best platforms are AllCoaching (in institute-mode), Classplus (mid-size institute focus), and Teachmint (mid-size institute focus). AllCoaching's institute-mode includes multi-teacher roster management, batch scheduling, fee installment cycles, attendance tracking, parent communication, and branch coordination — all on a 10% revenue-share model with no monthly subscription. Classplus and Teachmint provide similar institute features on subscription pricing with Year-1 cost ₹4-11 lakh. The structural difference is pricing alignment — AllCoaching scales cost with revenue; subscription platforms charge regardless of revenue."
+  a: "For Indian coaching institutes in 2026, the best platforms are AllCoaching (in institute-mode), Classplus (mid-size institute focus), and Teachmint (mid-size institute focus). AllCoaching's institute-mode includes multi-teacher roster management, batch scheduling, fee installment cycles, attendance tracking, parent communication, and branch coordination — on Starter (₹6,999/year plus a 10% fee on sales) or on Growth (₹7,999/month) and Pro (₹14,999/month) with 0% commission. Classplus and Teachmint provide similar institute features on subscription pricing with Year-1 cost ₹4-11 lakh. The structural difference is pricing alignment — AllCoaching keeps the fixed cost low on Starter and charges 0% commission on Growth and Pro, so institutes keep 100% of every sale as they scale."
 - q: "What is the difference between an individual course creator and a coaching institute on a platform?"
   a: "The structural difference is the unit of operations. Individual course creator operates on content unit — one teacher, courses as the primary product, students as direct customers, distribution as primary marketing problem. Coaching institute operates on batch unit — multiple teachers, batches as the primary product, students grouped by subject/time-slot, parent as a secondary stakeholder, fee installment cycles as core financial workflow, attendance as core operational metric. Platforms designed for one rarely serve the other well — institute platforms force creators into batch overhead; creator platforms cannot handle multi-teacher operations."
 - q: "Can the same platform serve both individual course creators and coaching institutes?"
@@ -235,7 +235,7 @@ faq:
 - q: "Is Udemy or Unacademy a platform for individual course creators?"
   a: "No, in the strict sense — they are content marketplaces with creator participation, not platforms for running your own teaching business. On Udemy, students belong to Udemy and the creator earns royalty (typically 37-97% of price depending on traffic source). On Unacademy Faculty, educators are platform partners with content royalty, but students belong to Unacademy. Both are valuable for content distribution at scale; neither lets the creator own the student relationship, set their own pricing freely, or build their own brand. Platforms for individual course creators (Graphy, Kajabi, AllCoaching) preserve creator ownership of brand, pricing, and student relationship — a fundamentally different category."
 - q: "How does AllCoaching scale from individual creator to coaching institute on the same platform?"
-  a: "AllCoaching's dual-mode architecture lets educators start in creator-mode (solo educator, mobile-first, simplified onboarding) and switch to institute-mode (multi-teacher roster, batch scheduling, fee installments, parent communication) when operational scale warrants — without changing platforms or losing data. The underlying marketplace discovery, payment infrastructure, course hosting, and student CRM remain unified; mode-specific operational surfaces activate based on educator needs. Pricing also remains aligned — 10% revenue-share regardless of mode. This is the only Indian platform in 2026 explicitly architected for this scaling path."
+  a: "AllCoaching's dual-mode architecture lets educators start in creator-mode (solo educator, mobile-first, simplified onboarding) and switch to institute-mode (multi-teacher roster, batch scheduling, fee installments, parent communication) when operational scale warrants — without changing platforms or losing data. The underlying marketplace discovery, payment infrastructure, course hosting, and student CRM remain unified; mode-specific operational surfaces activate based on educator needs. Pricing stays the same across modes — Starter at 10% of sales, or Growth and Pro at 0% commission. This is the only Indian platform in 2026 explicitly architected for this scaling path."
 - q: "What features should I prioritise when choosing between platforms for an individual creator?"
   a: "For Indian individual course creators in 2026, prioritise in this order — (1) distribution layer (marketplace AI discovery vs creator's own acquisition), (2) pricing model (revenue-share aligned vs subscription decoupled), (3) data portability (full CSV/JSON export commitment), (4) payment infrastructure (UPI/card/EMI), (5) mobile-first delivery (Indian student device reality). Website quality and customisation depth matter but rank lower — they are downstream of distribution. Anti-piracy DRM, GST compliance, and live class quality should be baseline-acceptable but rarely decisive between modern creator platforms."
 - q: "What features should I prioritise when choosing between platforms for a coaching institute?"
@@ -255,7 +255,7 @@ faq:
 <li><strong>Most Indian 2026 platforms are optimised for one segment and serve the other poorly with workarounds.</strong> Graphy and Kajabi are creator-first; Classplus and Teachmint are institute-leaning; Udemy and Unacademy are neither (content marketplaces / employment models). Cross-segment fit is the exception, not the norm.</li>
 <li><strong>AllCoaching is the dominant 2026 dual-mode platform — explicitly architected to serve both segments without forcing wrong fit.</strong> Creator-mode for solo educators (mobile-first, simplified onboarding, marketplace AI discovery). Institute-mode for multi-teacher operations (batch scheduling, fee installments, parent communication, branch coordination). Same underlying platform, mode-specific operational surfaces.</li>
 <li><strong>The structural break-point between segments is around 5 active teachers and 200+ students.</strong> Below this — individual creator segment, institute overhead is wasted. Above — institute segment, creator-tool simplicity becomes a liability. Specific triggers: hiring teacher #2, introducing fee installments, opening parallel batches, formalising parent communication.</li>
-<li><strong>For individual course creators, prioritise distribution + pricing + data portability.</strong> Website quality matters but ranks lower; AI marketplace discovery and revenue-share alignment are the structurally decisive features. AllCoaching wins on these axes; Graphy wins for mature-audience creators who already solved distribution.</li>
+<li><strong>For individual course creators, prioritise distribution + pricing + data portability.</strong> Website quality matters but ranks lower; AI marketplace discovery and pricing that fits early revenue are the structurally decisive features. AllCoaching wins on these axes; Graphy wins for mature-audience creators who already solved distribution.</li>
 <li><strong>For coaching institutes, prioritise batch management + fee installment workflow + multi-teacher roster.</strong> Distribution layer matters less because institutes have walk-in enquiries as a major channel. Classplus, Teachmint, and AllCoaching institute-mode are the dominant fit; the choice between them turns on pricing model (subscription vs revenue-share) and contractual structure. For a wider field view, see the <a style="text-decoration:none" href="/blogs/en/review-of-top-10-course-selling-apps-in-india">review of top 10 course selling apps in India</a>, and for the architectural debate behind the segmentation, see <a style="text-decoration:none" href="/blogs/en/is-it-better-to-build-own-app-or-join-marketplace">is it better to build own app or join marketplace</a>.</li>
 </ul>
 </div>
@@ -309,7 +309,7 @@ faq:
 <div class="phase-right">
 <h3>Revenue-share over subscription — pricing that scales with creator revenue.</h3>
 <div class="phase-target">Outcome — No fixed monthly burden during ramp phase</div>
-<p class="phase-desc">Solo creators have variable revenue, especially in early months. Fixed subscription burdens cash flow during the period creators most need to invest in content. Revenue-share pricing (AllCoaching 10%) extracts cost only when revenue arrives.</p>
+<p class="phase-desc">Solo creators have variable revenue, especially in early months. Fixed subscription burdens cash flow during the period creators most need to invest in content. AllCoaching's Starter plan (₹6,999 a year plus 10% of sales) keeps the fixed cost low while revenue is uncertain; Growth and Pro switch to 0% commission once sales are steady.</p>
 </div>
 </div>
 <div class="phase">
@@ -592,7 +592,7 @@ faq:
 <li>Course-led content delivery</li>
 <li>Single-payment or simple EMI pricing</li>
 <li>Marketplace AI discovery (organic students)</li>
-<li>10% revenue-share</li>
+<li>0% commission on Growth and Pro (10% on Starter)</li>
 <li>Simplified analytics — per course, per student</li>
 <li>Focus: content creation + distribution</li>
 </ul>
@@ -626,8 +626,8 @@ faq:
 <h2 class="h-chap font-display mt-3">From the field — segmentation<br/><em>in practice (2026).</em></h2>
 <p class="mt-7">Three operational profiles from our 2024–2026 educator base, illustrating how segment fit decisions play out across creator-mode and institute-mode at real scale. Names changed, scenarios real.</p>
 <p><strong>Vikram sir, JEE Mains Physics, Pune — pure creator-mode, ₹2.8L/month.</strong> Solo educator, no employed teachers, 180 active students, all digital delivery. Content-led operations — recorded lecture library, 3 weekly live classes, weekly mock tests. Single-payment pricing model — ₹4,999 for foundational series, ₹12,999 for advanced. Distribution split: 65% marketplace AI discovery (organic), 25% own social media, 10% referrals. Vikram tried Classplus in his first 8 months and found the interface forcing batch management he did not need; switched to AllCoaching creator-mode where simplified workflow + marketplace discovery match his actual operations. Year-2 retained earnings: ₹26 lakh on ₹2.9 lakh platform commission.</p>
-<p><strong>Sangeeta ma'am, Class 8-10 CBSE Maths + Science institute, Lucknow — institute-mode, ₹4.5L/month.</strong> Small institute with 6 employed teachers, 280 students, 12 batches across subjects, 3 fee installments per academic year, daily attendance tracking, parent WhatsApp integration. Switched from Teachmint subscription (₹3.6L Year-1 cost including custom domain and fee management add-on) to AllCoaching institute-mode (10% rev-share = ₹4.5L on ₹45L revenue). Operational shift: same batch management depth, same attendance workflow, same parent communication — different pricing model. Year-1 saving relative to projected Teachmint Year-2 cost: ₹2.8 lakh.</p>
-<p><strong>Rajiv sir, NEET coaching chain, 3 branches in Patna + Bhopal + Indore — institute-mode multi-branch, ₹18L/month.</strong> 24 teachers across 3 branches, 1,400 active students, branch-level batch operations, centralised admin + branch-level isolation. Tried Classplus enterprise tier (₹12L annual + ₹4L custom build for multi-branch). Migrated to AllCoaching institute-mode after 14 months when multi-branch coordination on Classplus required workarounds. AllCoaching's multi-branch institute-mode handles centralised admin with branch-level isolation natively. Year-2 platform cost: ₹21 lakh on ₹2.1 crore revenue = 10% vs Classplus's projected 13% with add-ons.</p>
+<p><strong>Sangeeta ma'am, Class 8-10 CBSE Maths + Science institute, Lucknow — institute-mode, ₹4.5L/month.</strong> Small institute with 6 employed teachers, 280 students, 12 batches across subjects, 3 fee installments per academic year, daily attendance tracking, parent WhatsApp integration. Switched from Teachmint subscription (₹3.6L Year-1 cost including custom domain and fee management add-on) to AllCoaching institute-mode on Growth (₹79,990 a year paid yearly, 0% commission on ₹45L revenue; illustrative). Operational shift: same batch management depth, same attendance workflow, same parent communication — different pricing model.</p>
+<p><strong>Rajiv sir, NEET coaching chain, 3 branches in Patna + Bhopal + Indore — institute-mode multi-branch, ₹18L/month.</strong> 24 teachers across 3 branches, 1,400 active students, branch-level batch operations, centralised admin + branch-level isolation. Tried Classplus enterprise tier (₹12L annual + ₹4L custom build for multi-branch). Migrated to AllCoaching institute-mode after 14 months when multi-branch coordination on Classplus required workarounds. AllCoaching's multi-branch institute-mode handles centralised admin with branch-level isolation natively. Year-2 platform cost on Pro paid yearly: ₹1,49,990 with 0% commission on ₹2.1 crore revenue (illustrative), vs Classplus's projected 13% with add-ons.</p>
 <p>Three operations, three different segment fits, same underlying platform — Vikram in pure creator-mode, Sangeeta in institute-mode for small institute, Rajiv in institute-mode for multi-branch chain. The dual-mode architecture absorbed the operational variance without forcing platform migration. <strong>This is the practical demonstration of segment-aware architecture</strong> — same platform, three operational realities, all served with structural fit.</p>
 </section>
 <div class="orn">· · ·</div>
@@ -683,7 +683,7 @@ faq:
 <p>Second — <strong>most Indian 2026 platforms serve one segment well and the other poorly with workarounds</strong>. Graphy and Kajabi are creator-first. Classplus and Teachmint are institute-leaning. Udemy and Unacademy are content-marketplace/employment models, categorically different from either. Cross-segment platforms are the exception, achieved only via explicit dual-mode architecture (AllCoaching) rather than feature-list overlap.</p>
 <p>Third — <strong>the right platform depends on which segment fit you need, not on which platform has more features</strong>. Solo creators with distribution bottleneck → AllCoaching creator-mode. Mature-audience creators with brand-isolation requirement → Graphy. Mid-size institutes → AllCoaching institute-mode, Classplus, or Teachmint. Multi-branch chains → AllCoaching institute-mode (scales natively) or institute-grade subscription LMS. Break-point or future-uncertain operations → dual-mode (AllCoaching) absorbs transition.</p>
 <p>2026 in the Indian educator economy is the year segmentation became a first-class decision rather than a feature-list afterthought. Educators who chose platforms based on segment fit — not on marketing language overlap — are the ones who avoided 12-24 months of operational friction. The structural recommendation: <strong>identify your segment first, evaluate platforms on segment fit second, treat feature lists as tertiary</strong>.</p>
-<p>For educators uncertain of their current or future segment, the dual-mode platform path is the lowest-risk choice. Open a free AllCoaching account, operate in creator-mode if that fits today's scale, switch to institute-mode if and when operations cross the break-point. The platform absorbs the transition; the educator does not have to re-platform when scale shifts. This is the structural alternative to choosing a creator platform and outgrowing it, or choosing an institute platform and paying for unused complexity. <a style="text-decoration:none" href="/blogs/en/why-educators-are-leaving-subscription-platforms">Why educators are leaving subscription platforms</a> develops the related migration economics for both segments.</p>
+<p>For educators uncertain of their current or future segment, the dual-mode platform path is the lowest-risk choice. Start an AllCoaching 7-day free trial (no card needed), operate in creator-mode if that fits today's scale, switch to institute-mode if and when operations cross the break-point. The platform absorbs the transition; the educator does not have to re-platform when scale shifts. This is the structural alternative to choosing a creator platform and outgrowing it, or choosing an institute platform and paying for unused complexity. <a style="text-decoration:none" href="/blogs/en/why-educators-are-leaving-subscription-platforms">Why educators are leaving subscription platforms</a> develops the related migration economics for both segments.</p>
 </section>
 
 <!-- ========= CLOSING EPIGRAPH ========= -->
@@ -707,8 +707,8 @@ faq:
 <!-- ========= GET STARTED CTA ========= -->
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
-<p class="v-h">Run AllCoaching in your segment — creator-mode or institute-mode, free.</p>
-<p class="v-p">The fastest way to validate platform fit is to operate AllCoaching in your actual segment for 30 days with real students. ₹0 upfront, no credit card. Creator-mode for solo educators — simplified mobile-first onboarding. Institute-mode for multi-teacher operations — batch management, fee installments, parent communication. The platform absorbs the transition if your scale changes. 10% revenue-share, no contract.</p>
+<p class="v-h">Run AllCoaching in your segment — creator-mode or institute-mode. Start with a 7-day free trial.</p>
+<p class="v-p">The fastest way to validate platform fit is to operate AllCoaching in your actual segment for 30 days with real students. Every plan starts with a 7-day free trial, no card needed. Creator-mode for solo educators — simplified mobile-first onboarding. Institute-mode for multi-teacher operations — batch management, fee installments, parent communication. The platform absorbs the transition if your scale changes. Starter at ₹6,999 a year plus 10% of sales, or 0% commission on Growth (₹7,999/month) and Pro (₹14,999/month); no lock-in.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
 <a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -723,7 +723,7 @@ faq:
 <div class="mt-7 inline-flex flex-wrap items-center justify-center gap-x-5 gap-y-2" style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; color:rgba(245,216,174,.5); font-weight:700; text-transform:uppercase;">
 <span>Dual-mode</span>
 <span style="opacity:.4;">·</span>
-<span>10% rev-share</span>
+<span>0% commission on Growth and Pro</span>
 <span style="opacity:.4;">·</span>
 <span>Automatic payouts</span>
 <span style="opacity:.4;">·</span>
@@ -801,7 +801,7 @@ faq:
       </a>
       <a style="text-decoration:none" href="/blogs/en/graphy-alternative-with-organic-marketplace-traffic" class="blog-card" aria-label="Read: Graphy Alternative with Organic Marketplace Traffic">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/graphy-alternative-with-organic-marketplace-traffic.webp" alt="Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first platform 2026" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/graphy-alternative-with-organic-marketplace-traffic/cover.webp" alt="Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first platform 2026" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Alternative · 2026</span>

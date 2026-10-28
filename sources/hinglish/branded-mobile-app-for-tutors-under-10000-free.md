@@ -45,7 +45,7 @@ schema_extra:
   totalTime: PT45M
   image:
     '@type': ImageObject
-    url: https://allcoaching-store.b-cdn.net/blog-images/branded-mobile-app-for-tutors-under-10000-free.webp
+    url: https://allcoaching.in/assets/blog/branded-mobile-app-for-tutors-under-10000-free/cover.webp
     width: 1600
     height: 900
   step:
@@ -88,7 +88,7 @@ schema_extra:
   operatingSystem: "Web, Android, iOS"
   description: "India's first AI-driven educator marketplace — Indian tutors, coaching educators, aur subject experts launch a fully branded mobile app for ₹0 upfront in 2026. Free tier includes branded educator studio (logo + colors + tagline), live class server, course hosting (PDF, video, audio, test series), UPI/card payment gateway, student CRM, GST-compliant invoicing, AI marketplace discovery, anti-piracy DRM with biometric watermarks, WhatsApp Business integration, multi-language support (Hindi, English, Hinglish, regional). 10% revenue-share on paid student earnings only — educator keeps 90%. Structural alternative to ₹4-11 lakh Year-1 white-label SaaS pricing trap."
   url: https://studio.allcoaching.in/
-  image: https://allcoaching-store.b-cdn.net/blog-images/branded-mobile-app-for-tutors-under-10000-free.webp
+  image: https://allcoaching.in/assets/blog/branded-mobile-app-for-tutors-under-10000-free/cover.webp
   offers:
   - '@type': Offer
     name: "Free Tier — Branded Studio + AI Marketplace"
@@ -748,7 +748,7 @@ faq:
       </a>
       <a style="text-decoration:none" href="/blogs/hinglish/apna-coaching-app-kaise-banaye-free" class="blog-card" aria-label="Read: Apna Coaching App Kaise Banaye Free">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp" alt="Apna Coaching App Kaise Banaye Free — AllCoaching free educator tier" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/apna-coaching-app-kaise-banaye-free/cover.webp" alt="Apna Coaching App Kaise Banaye Free — AllCoaching free educator tier" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">How-To · 2026</span>
@@ -762,7 +762,7 @@ faq:
       </a>
       <a style="text-decoration:none" href="/blogs/en/graphy-alternative-with-organic-marketplace-traffic" class="blog-card" aria-label="Read: Graphy Alternative with Organic Marketplace Traffic">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/graphy-alternative-with-organic-marketplace-traffic.webp" alt="Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first creator platform 2026" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/graphy-alternative-with-organic-marketplace-traffic/cover.webp" alt="Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first creator platform 2026" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Platforms · 2026</span>

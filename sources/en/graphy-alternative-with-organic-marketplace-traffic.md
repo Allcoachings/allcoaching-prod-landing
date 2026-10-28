@@ -83,7 +83,7 @@ schema_extra:
   operatingSystem: "Web, Android, iOS"
   description: "India's AI-driven educator marketplace and distribution-first alternative to Graphy. ₹0 upfront, no monthly subscription, 10% revenue-share only on paid earnings (90% to creator). Built-in AI marketplace discovery routes Indian aspirants and learners to creator profiles based on subject, exam, language, and level — organic traffic without ad spend. Includes branded creator studio, course hosting, payment gateway (UPI/card), live class server, student CRM, GST-compliant invoicing, anti-piracy video DRM. The structural alternative for creators whose primary bottleneck is distribution, not website quality."
   url: https://studio.allcoaching.in/
-  image: https://allcoaching-store.b-cdn.net/blog-images/graphy-alternative-with-organic-marketplace-traffic.webp
+  image: https://allcoaching.in/assets/blog/graphy-alternative-with-organic-marketplace-traffic/cover.webp
   offers:
   - '@type': Offer
     name: "Free Base Plan — Revenue-Share Only"

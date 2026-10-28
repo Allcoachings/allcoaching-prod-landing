@@ -1,76 +1,43 @@
 /*!
- * Live plans for /landing pages. Plans change on the server, so no page hardcodes a price:
+ * Plans for /landing pages (owner-approved pricing, 28 Oct 2026):
  *   <div data-plans></div>        → filled with one card per plan (CTA opens the checkout)
- *   <span data-from></span>       → "₹6,999" (cheapest plan today)
- *   <span data-keep-range></span> → "90–100%"
- * Reads GET login/onboarding/pricing through the same-origin proxy (/acapi/proxy.php).
- * If the call fails, plan cards are replaced by one button that opens the checkout, where the
- * educator still sees live prices.
+ *   <span data-from></span>       → "₹6,999" (Starter, per year)
+ *   <span data-keep-range></span> → "100% on Growth and Pro (90% on Starter)"
+ * The plans are static on purpose. The pricing API (login/onboarding/pricing) used to drive these
+ * cards and labelled every price "/year" with a commission (the old per-sale fee plans); Growth and
+ * Pro are now monthly with 0% commission, so live backend figures are no longer shown here. The
+ * checkout in the studio still shows the live price before the educator pays.
  */
 (function () {
   'use strict';
-  var URL_ = '/acapi/proxy.php?p=' + encodeURIComponent('login/onboarding/pricing');
-  var KEY = 'ac_plans_v1';
-  var ORDER = ['starter', 'growth', 'pro'];
+  var PLANS = [
+    { key: 'starter', label: 'Starter', price: '₹6,999', per: '/year + GST', keep: 90,
+      pts: ['Keep <b>90%</b> of every sale (10% per sale)', '512 GB video storage · 100 GB streaming a month', 'Your own Android app'] },
+    { key: 'growth', label: 'Growth', price: '₹7,999', per: '/month + GST', keep: 100,
+      pts: ['<b>0% commission</b> · keep 100% of every sale', '1 TB video storage · 1 TB streaming a month', 'Your own Android app', 'Or ₹79,990 a year (2 months free)'] },
+    { key: 'pro', label: 'Pro', price: '₹14,999', per: '/month + GST', keep: 100,
+      pts: ['<b>0% commission</b> · keep 100% of every sale', '2 TB video storage · 2 TB streaming a month · 4K', 'Your own Android &amp; iOS app', 'Premium theme', 'Or ₹1,49,990 a year (2 months free)'] }
+  ];
+  // On every plan.
+  var ALL = ['Unlimited live classes &amp; YouTube videos', 'Domain, themes, Zoom, Razorpay, Pixel &amp; GTM', 'No launch fee · no sales limit'];
 
-  function rs(paise) { return '₹' + Math.round(paise / 100).toLocaleString('en-IN'); }
-  function gb(b) { var g = b / 1073741824; return g >= 1024 ? (Math.round(g / 102.4) / 10) + ' TB' : Math.round(g) + ' GB'; }
-  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-
-  function cached() {
-    try { var c = JSON.parse(sessionStorage.getItem(KEY) || 'null'); if (c && Date.now() - c.t < 6e5) return c.plans; } catch (e) {}
-    return null;
-  }
-  function load() {
-    var c = cached();
-    if (c) return Promise.resolve(c);
-    return fetch(URL_, { headers: { Accept: 'application/json' }, cache: 'no-store' })
-      .then(function (r) { return r.json(); })
-      .then(function (j) {
-        var plans = ((j && j.data && j.data.plans) || []).filter(function (p) { return p && p.key; });
-        plans.sort(function (a, b) { return ORDER.indexOf(a.key) - ORDER.indexOf(b.key); });
-        if (!plans.length) throw new Error('no plans');
-        try { sessionStorage.setItem(KEY, JSON.stringify({ t: Date.now(), plans: plans })); } catch (e) {}
-        return plans;
-      });
-  }
-  function fee(p) { return p.signup_paise || p.fee_paise || 0; }
   function card(p, featured) {
-    var keep = typeof p.commission_pct === 'number' ? (100 - p.commission_pct) : null;
-    var pts = [];
-    if (keep != null) pts.push('Keep <b>' + keep + '%</b> of every sale');
-    if (p.storage_bytes) pts.push(gb(p.storage_bytes) + ' storage · ' + (/4k/i.test(p.video_max || '') ? '4K' : esc(p.video_max || '1080p')));
-    if (p.premium_template) pts.push('Premium theme (₹10,000 value)');
-    // On every plan (pricing truth 2026-10-20).
-    pts.push('Unlimited live classes &amp; videos', p.key === 'pro' ? 'Your own Android &amp; iOS app' : 'Your own Android app', 'Domain, themes, Zoom, Razorpay, Pixel &amp; GTM');
-    var tag = featured ? '<span class="tag">Most popular</span>' : p.key === 'pro' ? '<span class="tag bv">Best value</span>' : '';
+    var tag = p.key === 'growth' ? '<span class="tag">Most popular</span>' : p.key === 'pro' ? '<span class="tag bv">Best value · Recommended</span>' : '';
+    var pts = p.pts.concat(ALL);
     return '<div class="plan' + (featured ? ' ft' : '') + '">' + tag +
-      '<span class="pn">' + esc(p.label || p.key) + '</span>' +
-      '<div class="pp"><b>' + rs(fee(p)) + '</b><span>/year + GST</span></div>' +
+      '<span class="pn">' + p.label + '</span>' +
+      '<div class="pp"><b>' + p.price + '</b><span>' + p.per + '</span></div>' +
       '<ul>' + pts.map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</ul>' +
-      '<a class="btn' + (featured ? '' : ' ghost') + '" href="https://studio.allcoaching.in/" data-checkout data-plan="' + esc(p.key) + '" data-ev="ob_cta_click" data-where="plan-' + esc(p.key) + '">Choose ' + esc(p.label || p.key) + '</a></div>';
+      '<a class="btn' + (featured ? '' : ' ghost') + '" href="https://studio.allcoaching.in/" data-checkout data-plan="' + p.key + '" data-ev="ob_cta_click" data-where="plan-' + p.key + '">Start free with ' + p.label + '</a></div>';
   }
-  function render(plans) {
-    var min = Math.min.apply(null, plans.map(fee));
-    var keeps = plans.filter(function (p) { return typeof p.commission_pct === 'number'; }).map(function (p) { return 100 - p.commission_pct; });
-    document.querySelectorAll('[data-from]').forEach(function (el) { el.textContent = rs(min); });
-    if (keeps.length) document.querySelectorAll('[data-keep-range]').forEach(function (el) {
-      var lo = Math.min.apply(null, keeps), hi = Math.max.apply(null, keeps);
-      el.textContent = lo === hi ? lo + '%' : lo + '–' + hi + '%';
-    });
+  function render() {
+    document.querySelectorAll('[data-from]').forEach(function (el) { el.textContent = '₹6,999'; });
+    document.querySelectorAll('[data-keep-range]').forEach(function (el) { el.textContent = '100% on Growth and Pro (90% on Starter)'; });
     document.querySelectorAll('[data-plans]').forEach(function (box) {
       var feat = box.getAttribute('data-featured') || 'growth';
-      box.innerHTML = plans.map(function (p) { return card(p, p.key === feat); }).join('');
+      box.innerHTML = PLANS.map(function (p) { return card(p, p.key === feat); }).join('');
       box.classList.add('ready');
     });
   }
-  function fallback() {
-    document.querySelectorAll('[data-from-wrap]').forEach(function (el) { el.style.display = 'none'; });
-    document.querySelectorAll('[data-plans]').forEach(function (box) {
-      box.innerHTML = '<a class="btn" href="https://studio.allcoaching.in/" data-checkout data-ev="ob_cta_click" data-where="plans">See plans and start</a>';
-      box.classList.add('ready', 'fallback');
-    });
-  }
-  function go() { load().then(render, fallback); }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go); else go();
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', render); else render();
 })();

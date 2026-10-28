@@ -4,8 +4,9 @@ Run:  python .claude/skills/academy-guide-blog/graphics/how-to-price-online-cour
 Then: python .claude/skills/academy-guide-blog/scripts/export_graphics.py assets/blog/how-to-price-online-courses-india
 
 All rupee figures are illustrative. The worked numbers use the same assumptions as the table in the post:
-Growth plan (7.5% platform fee), an assumed 2% gateway charge, no GST registration, and the ₹12,999 plan
-plus 18% GST (₹15,338.82) as the yearly fixed cost.
+each cell uses the lower-cost AllCoaching plan at that sales level (final pricing 2026-10-28): Starter (10% platform fee,
+₹6,999 plan + 18% GST = ₹8,258.82) or Growth paid yearly (0% commission, ₹79,990 + 18% GST = ₹94,388.20),
+an assumed 2% gateway charge and no GST registration.
 """
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'scripts'))
@@ -15,8 +16,8 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..',
 OUT = os.path.join(ROOT, 'assets', 'blog', 'how-to-price-online-courses-india')
 os.makedirs(OUT, exist_ok=True)
 
-PLAN = 12999 * 1.18
-FEES = 0.075 + 0.02
+GATEWAY = 0.02
+PLANS = [('Starter', 6999 * 1.18, 0.10), ('Growth', 79990 * 1.18, 0.0)]
 
 
 def save(name, doc):
@@ -41,8 +42,13 @@ def inr(v):
     return '₹' + s
 
 
+def best(p, n):
+    """(take-home, plan name) on whichever plan leaves more."""
+    return max((p * n * (1 - f - GATEWAY) - c, name) for name, c, f in PLANS)
+
+
 def take_home(p, n):
-    return p * n * (1 - FEES) - PLAN
+    return best(p, n)[0]
 
 
 # 1. cover --------------------------------------------------------------------
@@ -54,14 +60,14 @@ b += check_row(84, 670, 'Fees, gateway and GST in one formula', 26)
 b += check_row(84, 730, 'A worksheet you can copy', 26)
 b += white_panel(990, 150, 540, 600, 32, big=True)
 b += eyebrow(1030, 210, 'Revenue calculator')
-rows = [('Course price', '₹2,999'), ('Students', '× 200'), ('Sales', '₹5,99,800'), ('Platform fee 7.5%', '− ₹44,985'),
-        ('Gateway (assumed 2%)', '− ₹11,996'), ('Plan + GST', '− ₹15,339')]
+rows = [('Course price', '₹2,999'), ('Students', '× 500'), ('Sales', inr(2999 * 500)), ('Commission on Growth (0%)', '− ₹0'),
+        ('Gateway (assumed 2%)', '− ' + inr(2999 * 500 * GATEWAY)), ('Growth plan + GST', '− ' + inr(79990 * 1.18))]
 for i, (l, v) in enumerate(rows):
     y = 272 + i * 64
     b += text(1030, y, l, 21, MUTED) + text(1490, y, v, 23, RED if v.startswith('−') else INK, 700, 'end', F_HEAD)
     b += f'<rect x="1030" y="{y + 22}" width="460" height="1.5" fill="{LINE}"/>'
 b += f'<rect x="1014" y="652" width="492" height="78" rx="20" fill="{BLUE_TINT}"/>'
-b += text(1038, 700, 'Take-home', 23, INK, 700, font=F_HEAD) + text(1484, 702, '₹5,27,480', 34, BLUE, 800, 'end', F_HEAD, -1)
+b += text(1038, 700, 'Take-home', 23, INK, 700, font=F_HEAD) + text(1484, 702, inr(take_home(2999, 500)), 34, BLUE, 800, 'end', F_HEAD, -1)
 b += text(80, 860, 'Illustrative figures, before income tax.', 16, MUTED)
 save('cover', svg(1600, 900, b, 'How to price an online course in India with a worked revenue calculator showing take-home after fees'))
 
@@ -69,7 +75,7 @@ save('cover', svg(1600, 900, b, 'How to price an online course in India with a w
 W, H = 1220, 900
 b = headline(60, 100, ['The take-home formula', 'for *any course price*'], 52)
 steps = [('tag', 'Price × students', 'Your gross sales', INK),
-         ('layers', '− Platform fee', '10%, 7.5%, 5% or 0% by plan', RED),
+         ('layers', '− Platform fee', '10% on Starter, 0% on Growth and Pro', RED),
          ('card', '− Gateway charges', 'If charged separately to you', RED),
          ('file', '− GST', 'Only if you are registered', RED),
          ('calendar', '− Yearly costs', 'Plan, tools, ads', RED)]
@@ -87,7 +93,7 @@ save('take-home-formula', svg(W, H, b, 'Online course pricing formula: price tim
 # 3. the worked calculator table --------------------------------------------------------
 W, H = 1220, 920
 b = headline(60, 100, ['Take-home at *3 prices*', 'and 3 batch sizes'], 52)
-b += lines(62, 220, ['Growth plan (7.5% fee) + assumed 2% gateway charge − ₹15,339 plan with GST'], 21)
+b += lines(62, 220, ['Lower-cost plan per cell: Starter (10% fee) or Growth (0%), assumed 2% gateway, plan + GST'], 21)
 prices, counts = [999, 2999, 7999], [50, 200, 500]
 x0, y0, cw, rh = 60, 270, 275, 150
 b += white_panel(x0, y0, 1100, 90 + rh * 3, 28, big=True)
@@ -101,9 +107,9 @@ for i, p in enumerate(prices):
     for j, n in enumerate(counts):
         cx = x0 + 275 + j * cw + cw / 2
         b += text(cx, y + 76, inr(take_home(p, n)), 30, INK, 800, 'middle', F_HEAD, -0.8)
-        b += text(cx, y + 110, 'of ' + inr(p * n) + ' sales', 18, MUTED, anchor='middle')
-b += text(60, H - 64, 'Illustrative. Rounded to the rupee, before income tax. ₹7,999 × 500 crosses ₹20 lakh, so GST registration', 16, MUTED)
-b += text(60, H - 40, 'would generally apply and a lower-fee plan may cost less.', 16, MUTED) + signature(W, H)
+        b += text(cx, y + 110, 'of ' + inr(p * n) + ' · ' + best(p, n)[1], 18, MUTED, anchor='middle')
+b += text(60, H - 64, 'Illustrative. Rounded to the rupee, before income tax. Growth = 0% commission, ₹79,990 paid yearly.', 16, MUTED)
+b += text(60, H - 40, '₹7,999 × 500 crosses ₹20 lakh of sales, so GST registration would generally apply.', 16, MUTED) + signature(W, H)
 save('take-home-table', svg(W, H, b, 'Online course fee calculator table: illustrative take-home at ₹999, ₹2,999 and ₹7,999 for 50, 200 and 500 students'))
 
 # 4. pricing models ----------------------------------------------------------------------
@@ -225,5 +231,5 @@ for k, (lab, ic, sub) in enumerate([('Your price', 'tag', 'Per course'), ('UPI &
                                      ('Website', 'globe', 'Your domain'), ('Your app', 'phone', 'Android')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, 'Plans from ₹6,999/year + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
+b += text(640, 890, '0% commission from ₹7,999/month', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('academy-course-pricing', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: set your own course price, UPI and card checkout and Razorpay payouts on every plan'))

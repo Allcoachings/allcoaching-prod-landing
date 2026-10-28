@@ -685,7 +685,7 @@ schema_extra:
     <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       <a style="text-decoration:none" href="/blogs/hinglish/apna-coaching-app-kaise-banaye-free" class="blog-card" aria-label="Read: Apna Coaching App Kaise Banaye Free — 2026 Mega Guide">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp" alt="Apna coaching app kaise banaye free — AllCoaching 2026 Hinglish mega guide cover" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/apna-coaching-app-kaise-banaye-free/cover.webp" alt="Apna coaching app kaise banaye free — AllCoaching 2026 Hinglish mega guide cover" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Founder's Mega Guide · Hinglish</span>

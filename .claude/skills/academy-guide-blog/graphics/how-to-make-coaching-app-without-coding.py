@@ -110,7 +110,7 @@ for i, (t, s, ic) in enumerate(st):
     b += tile(x + 440, y + 30, ic, 70, i % 2 == 0)
     b += text(x + 30, y + 130, t, 30, INK, 800, font=F_HEAD, ls=-0.9)
     b += text(x + 30, y + 166, s, 19, MUTED)
-b += text(60, H - 28, 'Plans from ₹6,999/year + GST after the free trial.', 16, MUTED)
+b += text(60, H - 28, '0% commission on Growth and Pro. Starter ₹6,999/year + 10%. GST extra.', 16, MUTED)
 b += signature(W, H)
 save('six-steps', svg(W, H, b, 'How to make a coaching app without coding in six steps: sign up, choose a plan, upload your course, brand it, connect your domain and share it with students'))
 
@@ -139,24 +139,24 @@ save('brand-kit', svg(W, H, b, 'Branding a coaching app: academy name, square lo
 W, H = 1220, 900
 b = headline(60, 100, ['Which app comes with *which plan*'], 52)
 b += lines(62, 150, ['Every plan: website on your own domain + your own Android app.'], 22)
-plans = [('Starter', '₹3,999', '₹6,999/yr + 10%', 'Monthly: sales up to ₹50,000/month', False),
-         ('Growth', '₹5,999', '₹12,999/yr + 7.5%', 'Monthly: sales up to ₹1.5 lakh/month', False),
-         ('Pro', '₹7,999', '₹24,999/yr + 5%', 'No sales limit', True)]
-for i, (n, p, yearly, lim, ios) in enumerate(plans):
+plans = [('Starter', '₹6,999', 'a year + GST, 10% per sale', 'Keep 90% of each sale', '512 GB storage, 100 GB streaming', False),
+         ('Growth', '₹7,999', 'a month + GST', '0% commission · keep 100%', '1 TB storage, 1 TB streaming', False),
+         ('Pro', '₹14,999', 'a month + GST', '0% commission · keep 100%', '2 TB + 2 TB streaming, 4K', True)]
+for i, (n, p, per, yearly, lim, ios) in enumerate(plans):
     x = 60 + i * 370
     b += white_panel(x, 200, 350, 560, 26)
     b += eyebrow(x + 28, 246, n)
     b += text(x + 28, 300, p, 40, INK, 800, font=F_HEAD, ls=-1.2)
-    b += text(x + 28, 330, 'a month + GST, 0% commission', 17, MUTED)
-    b += f'<rect x="{x + 28}" y="350" width="{len('or ' + yearly) * 9.6 + 30}" height="34" rx="17" fill="{BLUE_TINT}"/>'
-    b += text(x + 43, 373, 'or ' + yearly, 16, BLUE, 700, font=F_HEAD)
+    b += text(x + 28, 330, per, 17, MUTED)
+    b += f'<rect x="{x + 28}" y="350" width="{len(yearly) * 9.6 + 30}" height="34" rx="17" fill="{BLUE_TINT}"/>'
+    b += text(x + 43, 373, yearly, 16, BLUE, 700, font=F_HEAD)
     b += check_row(x + 28, 450, 'Website', 20)
     b += check_row(x + 28, 520, 'Android app', 20)
     b += check_row(x + 28, 590, 'iOS app', 20, ios)
     b += check_row(x + 28, 660, 'Unlimited live', 20)
     b += text(x + 28, 730, lim, 17, MUTED, 600)
-b += text(60, 810, 'All plans start with a 7-day free trial, no card. Monthly plans: 0% commission, no lock-in.', 18, INK, 600)
-b += text(60, 840, 'Prices exclude GST. Yearly fee = platform fee on each sale. Gateway charges are separate.', 16, MUTED)
+b += text(60, 810, 'All plans start with a 7-day free trial, no card. No sales limit on any plan; monthly billing has no lock-in.', 18, INK, 600)
+b += text(60, 840, 'Prices exclude GST. Growth and Pro: 0% commission, ₹79,990/₹1,49,990 if paid yearly. Gateway charges separate.', 16, MUTED)
 b += signature(W, H)
 save('plans-apps', svg(W, H, b, 'Which coaching app comes with which AllCoaching plan: own Android app on every plan, iOS app on Pro'))
 

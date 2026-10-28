@@ -58,7 +58,7 @@
     "name": "AllCoaching",
     "price": 6999,
     "label": "₹6,999/yr",
-    "fee": "+10% on sales (Starter), GST extra",
+    "fee": "+10% on Starter; 0% on Growth ₹7,999/mo, GST extra",
     "published": true
    },
    {
@@ -95,7 +95,7 @@
   "title": [
    "AllCoaching cost *as you grow*"
   ],
-  "sub": "Starter, Growth or Pro, whichever costs less at each level, before GST",
+  "sub": "Starter, or Growth at 0% paid yearly, whichever costs less, before GST",
   "competitors": []
  },
  "switch": {

@@ -96,7 +96,7 @@ schema_extra:
   operatingSystem: "Web, Android, iOS"
   description: "India's UPSC mentor platform — ex-aspirants, retired civil servants, subject specialists, and full-time UPSC coaches launch a complete online UPSC coaching business from home for ₹0 upfront in 2026. Mobile-first. Includes PDF/note hosting with anti-piracy DRM, mock test engine with auto-grading, mains answer evaluation upload + feedback workflow, live class server, current affairs daily push, UPSC-aspirant CRM, GST-compliant invoicing, AI marketplace discovery targeted at UPSC search queries. Permanently free base plan — platform earns only when mentor earns (10% revenue share on paid earnings, 90% mentor keeps)."
   url: https://studio.allcoaching.in/
-  image: https://allcoaching-store.b-cdn.net/blog-images/how-to-start-online-upsc-coaching-from-home.webp
+  image: https://allcoaching.in/assets/blog/how-to-start-online-upsc-coaching-from-home/cover.webp
   offers:
   - '@type': Offer
     name: "Free Base Plan — Permanent"
@@ -795,7 +795,7 @@ faq:
       </a>
       <a style="text-decoration:none" href="/blogs/hinglish/apna-coaching-app-kaise-banaye-free" class="blog-card" aria-label="Read: Apna Coaching App Kaise Banaye Free">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp" alt="Apna Coaching App Kaise Banaye Free — AllCoaching 2026 Hinglish guide" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/apna-coaching-app-kaise-banaye-free/cover.webp" alt="Apna Coaching App Kaise Banaye Free — AllCoaching 2026 Hinglish guide" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Founder Guide · Hinglish</span>
@@ -809,7 +809,7 @@ faq:
       </a>
       <a style="text-decoration:none" href="/blogs/hinglish/coaching-marketplace-india-teachers-join-free" class="blog-card" aria-label="Read: Coaching Marketplace India for Teachers Join Free">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/coaching-marketplace-india-teachers-join-free.webp" alt="Coaching Marketplace India for Teachers — Free Join Hinglish 2026" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/coaching-marketplace-india-teachers-join-free/cover.webp" alt="Coaching Marketplace India for Teachers — Free Join Hinglish 2026" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Platform Economics · Hinglish</span>

@@ -32,7 +32,8 @@
   /* Which plan the walkthrough buys. Pages that show a single offer (the ad
      landing page) set data-offer="starter"; the homepage shows all three
      plans and walks through Growth. */
-  var ONE = root.getAttribute('data-offer') === 'starter';
+  // Final pricing (2026-10-28): only Starter is still a yearly plan, so the walkthrough always buys Starter.
+  var ONE = true;
   var OFFER = ONE
     ? {n:'Starter', price:'6,999.00', gst:'1,259.82', total:'8,258.82', fee:.10, feeTxt:'10%', keepTxt:'90%', live:'5', idx:0}
     : {n:'Growth', price:'12,999.00', gst:'2,339.82', total:'15,338.82', fee:.075, feeTxt:'7.5%', keepTxt:'92.5%', live:'10', idx:1};

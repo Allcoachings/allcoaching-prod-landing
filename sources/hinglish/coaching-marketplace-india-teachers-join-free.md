@@ -89,7 +89,7 @@ schema_extra:
   operatingSystem: Web, Android, iOS
   description: 'Bharat ka pehla AI-driven coaching marketplace aur zero-upfront educator platform 2026 ke liye. Teachers free me join karein — koi upfront cost nahi, koi credit card nahi, koi lock-in nahi. 30-day free premium trial, phir permanent free base plan. 10% revenue-share sirf paid earnings par. 90% revenue educator ko, GST-compliant invoicing, video DRM, marketplace AI discovery, aur cross-educator network effects. White-label SaaS (Classplus, Teachmint) ke ₹4–11 lakh Year-1 trap ka structural alternative.'
   url: https://studio.allcoaching.in/
-  image: https://allcoaching-store.b-cdn.net/blog-images/coaching-marketplace-india-teachers-join-free.webp
+  image: https://allcoaching.in/assets/blog/coaching-marketplace-india-teachers-join-free/cover.webp
   offers:
   - '@type': Offer
     name: Free Base Plan
@@ -492,7 +492,7 @@ Demo book karein
     <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       <a href="/blogs/hinglish/apna-coaching-app-kaise-banaye-free" class="blog-card" aria-label="Read: Apna Coaching App Kaise Banaye Free — 2026 Mega Guide">
         <div class="blog-card-img">
-          <img src="https://allcoaching-store.b-cdn.net/blog-images/apna-coaching-app-kaise-banaye-free.webp" alt="Apna coaching app kaise banaye free — AllCoaching 2026 Hinglish mega guide cover" loading="lazy" width="1600" height="900" decoding="async" />
+          <img src="https://allcoaching.in/assets/blog/apna-coaching-app-kaise-banaye-free/cover.webp" alt="Apna coaching app kaise banaye free — AllCoaching 2026 Hinglish mega guide cover" loading="lazy" width="1600" height="900" decoding="async" />
         </div>
         <div class="blog-card-body">
           <span class="blog-card-tag">Founder's Mega Guide · Hinglish</span>
