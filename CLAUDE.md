@@ -3,7 +3,7 @@
 This repo is the static marketing site + blog for **AllCoaching** (AllCoaching Technology) — India's educator-first EdTech marketplace. Deploys from GitHub `master`.
 
 ## Load context first
-- **Company context (canonical):** invoke the `allcoaching` skill (`.claude/skills/allcoaching/SKILL.md`) whenever working on anything AllCoaching — product, pricing, brand, blog, strategy. It is the source of truth; don't contradict it.
+- **Company context (canonical, MASTER skill since 2026-10-30):** invoke the `allcoaching` skill (`.claude/skills/allcoaching/SKILL.md` + `references/01–13`: product/studio, pricing, brand/design, voice/claims, ads, social, SEO, tracking, repo/deploy, competitors, growth/scale, decision log, checklists) FIRST for anything AllCoaching — website, blog, ads, creatives, social, pricing, product copy, tracking, strategy. It is the source of truth; don't contradict it, and correct requests that conflict with it.
 - **Writing a blog post:** use the `academy-guide-blog` skill (2026-10-24, default for new posts: Shopify-style v3 layout in `blog-v3.css`, branded graphics generator, all-surfaces SEO/AI checklist, content roadmap). The older `blog-post` skill stays the JSON-LD field reference and covers legacy essay-layout posts.
 - **AI-search/GEO decisions:** use the `ai-search-geo` skill.
 
