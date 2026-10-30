@@ -5,8 +5,8 @@ Then: python3 .claude/skills/academy-guide-blog/scripts/export_graphics.py asset
 
 All cost figures are illustrative: plan price + published fee on sales, before GST and gateway charges.
 Competitor figures come from .claude/skills/academy-guide-blog/data/competitors.json (official pricing pages,
-checked 24 Oct 2026). AllCoaching (final pricing, 2026-10-28): Starter ₹6,999/yr + 10%; Growth ₹7,999/mo or ₹79,990/yr
-and Pro ₹14,999/mo or ₹1,49,990/yr at 0% commission. No sales limits.
+checked 24 Oct 2026). AllCoaching: Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%, or monthly at 0% commission: Starter ₹3,999,
+Growth ₹5,999, Pro ₹7,999. Studio pricing (owner, 2026-10-29): no sales limit on any plan.
 """
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'scripts'))
@@ -17,9 +17,9 @@ SLUG = 'sell-online-courses-without-monthly-subscription'
 OUT = os.path.join(ROOT, 'assets', 'blog', SLUG)
 os.makedirs(OUT, exist_ok=True)
 
-# (yearly cost, fee, name, max yearly sales or None). Monthly billing = 12 x monthly price. No sales limits.
-AC = [(6999, .10, 'Starter', None), (79990, 0, 'Growth, paid yearly', None), (149990, 0, 'Pro, paid yearly', None),
-      (95988, 0, 'Growth monthly', None), (179988, 0, 'Pro monthly', None)]
+# (yearly cost, fee, name, max yearly sales or None). Monthly 0% plans = 12 x monthly price. No sales limits.
+AC = [(6999, .10, 'Starter', None), (12999, .075, 'Growth', None), (24999, .05, 'Pro', None),
+      (47988, 0, 'Starter monthly', None), (71988, 0, 'Growth monthly', None), (95988, 0, 'Pro monthly', None)]
 # chart palette, validated with the dataviz validator (light mode, all checks pass)
 C_AC, C_EXLY, C_LY, C_TM = BLUE, '#C46A00', '#7A3FB8', '#00897B'
 
@@ -40,7 +40,7 @@ b += headline(80, 290, ['Sell courses without', 'a *monthly bill.*'], 74)
 b += lines(84, 440, ['Monthly subscription, pay per sale or one', 'annual plan: what each really costs.'], 30, MUTED)
 b += check_row(84, 590, 'Costs at every sales level, worked out', 26)
 b += check_row(84, 650, 'When pay-per-sale costs less, and when not', 26)
-b += check_row(84, 710, '0% commission plans, monthly or yearly', 26)
+b += check_row(84, 710, 'Yearly and monthly 0% plans, side by side', 26)
 cards = [('calendar', 'Monthly subscription', 'A fixed bill every month', False),
          ('tag', 'Pay per sale', 'A % of every sale, no fixed fee', False),
          ('layers', 'One annual plan', 'One yearly bill + 0–10% on sales', True)]
@@ -135,10 +135,10 @@ series = [(lambda s: 0.10 * s, C_EXLY, 'Exly Starter: 10%, no upfront fee'),
           (ac_best, C_AC, 'AllCoaching: lowest-cost plan for each level')]
 for fn, col, _ in series:
     b += poly(fn, col, 5 if col == C_AC else 3.5)
-# crossover marker near ₹8 lakh (Growth paid yearly at 0% = 10% commission)
-b += f'<circle cx="{X(799900):.1f}" cy="{Y(79990):.1f}" r="9" fill="#fff" stroke="{INK}" stroke-width="3"/>'
-b += text(X(799900) - 10, Y(79990) + 52, 'About ₹8L: Growth at 0% costs', 18, INK, 600)
-b += text(X(799900) - 10, Y(79990) + 76, 'less than a 10% commission', 18, INK, 600)
+# crossover marker near ₹4.8 lakh (monthly Starter at 0% = 10% commission)
+b += f'<circle cx="{X(479880):.1f}" cy="{Y(47988):.1f}" r="9" fill="#fff" stroke="{INK}" stroke-width="3"/>'
+b += text(X(479880) - 10, Y(47988) + 52, 'About ₹4.8L: AllCoaching costs', 18, INK, 600)
+b += text(X(479880) - 10, Y(47988) + 76, 'less than a 10% commission', 18, INK, 600)
 # legend (identity never by colour alone: each line is also named here)
 for i, (_, col, lab) in enumerate(series):
     lx = 90 + (i % 2) * 520
@@ -149,15 +149,18 @@ b += text(60, H - 28, 'exlyapp.com, learnyst.com and tagmango.com pricing pages,
 save('cost-chart', svg(W, H, b, 'Chart: yearly course platform cost at sales from no sales to ₹20 lakh for AllCoaching, Exly Starter, Learnyst Professional billed monthly and TagMango Pro'))
 
 # 5. plan breakevens --------------------------------------------------------------------------------
-W, H = 1220, 700
+W, H = 1220, 1040
 b = headline(60, 100, ['Which plan costs least', 'at *your yearly sales*'], 52)
-segs = [('Starter', 'Yearly · 10% fee', '₹6,999 + 10%', 'Lowest cost at', 'Under ₹7.3L', 'First batches'),
-        ('Growth', '0% commission', '₹79,990/yr or ₹7,999/mo', 'Lowest cost at', 'Above ₹7.3L', 'Keep 100% of every sale'),
-        ('Pro', '0% commission', '₹1,49,990/yr or ₹14,999/mo', 'Choose it for', 'iOS app and 4K', 'Same 0%, 2 TB included')]
-for k, (n, kind, price, lab, rng, who) in enumerate(segs):
+segs = [('Starter', 'Yearly', '₹6,999 + 10%', 'Under ₹2.4L', 'First batches', 'Lowest cost at'),
+        ('Growth', 'Yearly', '₹12,999 + 7.5%', '₹2.4L – ₹4.7L', 'Regular batches', 'Lowest cost at'),
+        ('Starter', 'Monthly · 0%', '₹3,999/mo · ₹47,988/yr', 'Above ₹4.7L', 'No sales limit, keep 100%', 'Lowest cost at'),
+        ('Pro', 'Yearly', '₹24,999 + 5%', '3 TB and 4K', 'Plus a premium theme', 'Choose it for'),
+        ('Growth', 'Monthly · 0%', '₹5,999/mo · ₹71,988/yr', '1 TB, 5 seats', 'Larger library and team', 'Choose it for'),
+        ('Pro', 'Monthly · 0%', '₹7,999/mo · ₹95,988/yr', 'iOS app, 4K', '2 TB, 7 seats', 'Choose it for')]
+for k, (n, kind, price, rng, who, lab) in enumerate(segs):
     x = 60 + (k % 3) * 375
     y = 200 + (k // 3) * 370
-    mo = kind.startswith('0%')
+    mo = kind.startswith('Monthly')
     b += white_panel(x, y, 350, 340, 26, big=mo)
     b += f'<rect x="{x}" y="{y}" width="350" height="12" rx="6" fill="{BLUE if mo else "#AFC3F5"}"/>'
     b += text(x + 28, y + 76, n, 36, INK, 800, font=F_HEAD, ls=-1.2)
@@ -167,10 +170,10 @@ for k, (n, kind, price, lab, rng, who) in enumerate(segs):
     b += text(x + 28, y + 258, rng, 30, BLUE, 800, font=F_HEAD, ls=-0.8)
     b += f'<rect x="{x + 28}" y="{y + 284}" width="294" height="1.5" fill="{LINE}"/>'
     b += text(x + 28, y + 318, who, 19, INK, 500)
-b += text(60, H - 72, 'Plan price + platform fee on sales for 12 months, before GST. No sales limits. Growth billed monthly (no lock-in)', 15, MUTED)
-b += text(60, H - 50, 'passes Starter at about ₹8.9L. Below about ₹7L Starter usually costs least; above that, Growth at 0% leaves more.', 15, MUTED)
+b += text(60, H - 72, 'Plan price + platform fee on sales for 12 months, before GST. Monthly plans: 0% commission, no lock-in, no sales', 15, MUTED)
+b += text(60, H - 50, 'limit. Below about ₹4L a yearly plan usually costs least; above that, a monthly 0% plan usually leaves more.', 15, MUTED)
 b += text(60, H - 28, 'Illustrative maths, not a forecast.', 15, MUTED) + signature(W, H)
-save('plan-breakevens', svg(W, H, b, 'AllCoaching plan breakevens: Starter under about ₹7.3 lakh of yearly sales, Growth at 0% commission above that, Pro at 0% for the iOS app and 4K'))
+save('plan-breakevens', svg(W, H, b, 'AllCoaching plan breakevens: yearly Starter under ₹2.4 lakh, yearly Growth to ₹4.7 lakh, monthly Starter at 0% above that'))
 
 # 6. costs that stay --------------------------------------------------------------------------------
 W, H = 1220, 900
@@ -196,9 +199,9 @@ save('costs-that-stay', svg(W, H, b, 'Costs that remain when you sell online cou
 W, H = 1220, 960
 b = headline(60, 100, ['Pick the model by', '*your stage*'], 52)
 stages = [('sparkle', 'Testing an idea', 'Under ₹1L a year', 'Pay per sale, or Starter', 'Use the 7-day trial first'),
-          ('trend', 'Growing', '₹1L – ₹7L a year', 'Starter', '₹6,999 a year + 10%, no monthly bill'),
-          ('users', 'Established', '₹7L – ₹15L a year', 'Growth at 0%', '₹79,990 paid yearly, keep 100%'),
-          ('trophy', 'Large', 'Above ₹15L a year', 'Growth or Pro at 0%', 'Pro adds the iOS app and 4K')]
+          ('trend', 'Growing', '₹1L – ₹5L a year', 'Starter or Growth', 'Annual plan, fee 10% → 7.5%'),
+          ('users', 'Established', '₹5L – ₹15L a year', 'Monthly 0% plan', 'Starter monthly, ₹47,988 a year'),
+          ('trophy', 'Large', 'Above ₹15L a year', 'A 0% plan', 'Monthly Pro adds iOS and 4K')]
 for i, (ic, st, rng, pick, note) in enumerate(stages):
     y = 200 + i * 162
     b += white_panel(60, y, 1100, 140, 26)
@@ -233,5 +236,5 @@ for k, (lab, ic, sub) in enumerate([('Your domain', 'globe', 'Website'), ('Andro
                                      ('UPI & cards', 'card', 'Razorpay'), ('Meta Pixel', 'chart', '+ GTM')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, '0% commission on Growth and Pro', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
+b += text(640, 890, 'From ₹3,999/month + GST', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('academy-annual-plan', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: monthly or yearly plans with your own domain, Android app, unlimited live classes and UPI checkout'))

@@ -9,18 +9,18 @@
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T3KFKD3G');</script>
 
-  <title>AllCoaching Pricing 2026 — 0% Commission, Your Own App</title>
-  <meta name="description" content="0% commission on Growth ₹7,999/month and Pro ₹14,999/month, or Starter ₹6,999/year at 10%. Your own app, unlimited YouTube video and live. 7 days free." />
+  <title>AllCoaching Pricing 2026 — 0% Commission from ₹3,999/month</title>
+  <meta name="description" content="0% commission from ₹3,999 a month, or yearly plans from ₹6,999 with a small fee per sale. Your own app, unlimited YouTube video and live. 7 days free." />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <link rel="canonical" href="https://allcoaching.in/pricing" />
   <link rel="icon" type="image/webp" href="/assets/fevicon.webp?v=20260707" />
   <link rel="apple-touch-icon" href="/assets/logo/allcoaching-logo.webp?v=20260707" />
 
-  <meta property="og:title" content="AllCoaching Pricing 2026 — 0% Commission, Your Own App" />
-  <meta property="og:description" content="0% commission on Growth ₹7,999/month and Pro ₹14,999/month, or Starter ₹6,999/year at 10%. Your own app, unlimited YouTube video and live. 7 days free." />
+  <meta property="og:title" content="AllCoaching Pricing 2026 — 0% Commission from ₹3,999/month" />
+  <meta property="og:description" content="0% commission from ₹3,999 a month, or yearly plans from ₹6,999 with a small fee per sale. Your own app, unlimited YouTube video and live. 7 days free." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://allcoaching.in/pricing" />
-  <meta property="og:image" content="https://allcoaching.in/demo/assets/shots/studio-desktop.webp?v=b2" />
+  <meta property="og:image" content="https://allcoaching.in/demo/assets/shots/studio-desktop.webp?v=b3" />
   <meta property="og:site_name" content="AllCoaching" />
   <meta property="og:locale" content="en_IN" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="preload" as="image" href="/demo/assets/shots/studio-desktop.webp?v=b2" fetchpriority="high" />
+  <link rel="preload" as="image" href="/demo/assets/shots/studio-desktop.webp?v=b3" fetchpriority="high" />
 
 <style>
 :root{
@@ -636,6 +636,21 @@ footer > .wrap{position:relative}
 .bill-chips{display:inline-flex;gap:8px;margin-top:22px;flex-wrap:wrap;justify-content:center}
 .bill-chips span{font-size:14px;font-weight:600;padding:9px 16px;border-radius:999px;border:1px solid var(--line-2);background:var(--surface);color:var(--ink-2)}
 .bill-chips span.on{background:#2B44FF;border-color:#2B44FF;color:#fff}
+/* billing toggle (same switch as the studio plan screen), 2026-10-29 */
+.bill-tog{display:inline-flex;gap:4px;padding:5px;margin-top:26px;border-radius:999px;background:var(--surface);border:1px solid var(--line-2);box-shadow:0 1px 2px rgba(15,18,32,.04),0 10px 30px -18px rgba(20,30,120,.35)}
+.bill-tog button{display:inline-flex;align-items:center;gap:9px;height:46px;padding:0 22px;border:0;border-radius:999px;background:transparent;font:600 15px/1 var(--ui);color:var(--ink-2);cursor:pointer;transition:background .2s,color .2s,box-shadow .2s}
+.bill-tog button:hover{color:var(--ink-1)}
+.bill-tog button[aria-pressed="true"]{background:#0A0F3D;color:#fff;box-shadow:0 6px 16px -8px rgba(10,15,61,.6)}
+.bill-tog em{font-style:normal;font-size:11.5px;font-weight:700;letter-spacing:.02em;padding:4px 9px;border-radius:999px;background:#E6EAFF;color:#2B44FF}
+.bill-tog button[aria-pressed="true"] em{background:#2B44FF;color:#fff}
+.bill-tog:focus-within{outline:none}
+.bill-tog button:focus-visible{outline:2px solid #2B44FF;outline-offset:2px}
+[data-bill="monthly"] .bill-y,[data-bill="yearly"] .bill-m{display:none!important}
+.bp-swap{animation:bpIn .45s cubic-bezier(.2,.7,.2,1)}
+@keyframes bpIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.cmp-tog{display:flex;justify-content:center;margin:-8px 0 22px}
+@media (max-width:480px){.bill-tog button{padding:0 14px;font-size:14px;height:42px}.bill-tog em{display:none}}
+@media (prefers-reduced-motion:reduce){.bp-swap{animation:none}}
 .bill-chips i{font-style:normal;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#22C3F5;color:#0A0F3D;padding:2px 7px;border-radius:999px;margin-left:6px}
 .bp-head{margin:46px auto 0;max-width:760px;text-align:center;display:flex;flex-direction:column;gap:6px}
 .bp-head .bp-k{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#2B44FF}
@@ -643,11 +658,6 @@ footer > .wrap{position:relative}
 .bp-head span:last-child{font-size:15px;color:var(--ink-2)}
 #bp-y{margin-top:28px}#bp-m{margin-top:28px}
 
-.bill-tog{display:inline-flex;gap:4px;margin-top:22px;padding:5px;border-radius:999px;background:var(--surface);border:1px solid var(--line-2);box-shadow:var(--shadow-sm)}
-.bill-tog button{font:inherit;font-size:14.5px;font-weight:600;border:0;background:transparent;color:var(--ink-2);padding:10px 18px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
-.bill-tog button.on{background:#2B44FF;color:#fff;box-shadow:0 10px 22px -12px rgba(43,68,255,.9)}
-.bill-tog .new{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#22C3F5;color:#0A0F3D;padding:3px 7px;border-radius:999px}
-.bill-tog button:not(.on) .new{background:#E8F0FF;color:#2B44FF}
 .bill-hint{margin-top:14px;font-size:14px;color:var(--ink-3)}
 .bill-hint a{color:#2B44FF;font-weight:600;text-decoration:none}
 .keep.zero{background:#E8F0FF;color:#0F1A6B}
@@ -667,36 +677,7 @@ footer > .wrap{position:relative}
 .zc-t thead th.hl{background:#2B44FF;color:#fff}.zc-t thead th.hl small{color:rgba(255,255,255,.85)}
 .zc-src{text-align:center;font-size:12.5px;color:var(--ink-3);margin-top:14px}
 .fc.over{opacity:.38}
-@media (max-width:640px){.bill-tog{flex-direction:column;border-radius:20px;width:100%}.bill-tog button{justify-content:center}.big-acad{flex-direction:column;align-items:flex-start}}
-.plan-grid.p3{margin-top:40px}
-.plan .gst b{color:#2B44FF}.plan.pro .gst b{color:#fff}
-.yr-strip{margin-top:26px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 26px;border:1px dashed #C9D0E4;border-radius:20px;background:#F7F8FC}
-.yr-strip div{display:flex;flex-direction:column;gap:4px}.yr-strip .k,.bp-k{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#2B44FF}
-.yr-strip b{font-size:20px;color:var(--ink-1)}.yr-strip div>span:last-child{font-size:14.5px;color:var(--ink-2);max-width:760px}
-.wallet{margin-top:44px;display:grid;grid-template-columns:1fr 1.25fr;gap:30px;padding:32px;border-radius:24px;background:radial-gradient(120% 140% at 0% 0%,#1E2A8F 0%,#0A0F3D 70%);color:#fff}
-.wallet .bp-k{color:#7FE3FF}.wallet .w-l b{display:block;font-size:clamp(22px,2.6vw,30px);letter-spacing:-.02em;margin:8px 0 10px;line-height:1.15}.wallet .w-l p{color:rgba(255,255,255,.78);font-size:15px;margin:0}
-.wallet .w-r{display:flex;flex-direction:column;gap:10px}
-.w-row{display:grid;grid-template-columns:1fr auto;gap:2px 14px;padding:13px 16px;border-radius:14px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12)}
-.w-row span{font-size:14px;color:rgba(255,255,255,.8)}.w-row b{font-size:15px;color:#fff;text-align:right}.w-row i{grid-column:1/-1;font-style:normal;font-size:12.5px;color:rgba(255,255,255,.55)}
-.costs{margin-top:30px;background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px 30px 24px}
-.costs-h{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
-.costs-h b{font-size:clamp(20px,2.4vw,28px);letter-spacing:-.02em;color:var(--ink-1)}
-.costs table{width:100%;border-collapse:collapse;font-size:14.5px}
-.costs th,.costs td{text-align:left;padding:13px 12px;border-top:1px solid var(--line);vertical-align:top}
-.costs th{width:22%;color:var(--ink-1);font-weight:600}.costs td{color:var(--ink-2)}.costs td:last-child{color:var(--ink-3,#7A8094)}
-.plan .keep:not(.zero) b{color:#2B44FF}
-.yr-deal{margin-top:8px;font-size:13px;color:var(--ink-2);background:#EEF1FF;border-radius:10px;padding:7px 10px}.yr-deal b{color:#2B44FF}
-.plan.pro .plan .keep:not(.zero) b{color:#2B44FF}
-.yr-deal{background:rgba(255,255,255,.14);color:rgba(255,255,255,.85)}.plan.pro .yr-deal b{color:#fff}
-.feat small{display:block;font-size:12px;color:var(--ink-3,#7A8094)}.plan.pro .feat small{color:rgba(255,255,255,.6)}
-.anchor{font-size:14px;color:var(--ink-3,#7A8094);max-width:720px;margin:10px auto 0}.anchor b{color:var(--ink-1)}
-.trust{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 26px;margin-top:26px;font-size:14px;font-weight:600;color:var(--ink-1)}.trust span{color:var(--ink-2)}
-.deal{margin-top:22px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 28px;border-radius:20px;background:linear-gradient(100deg,#2B44FF,#22C3F5);color:#fff}
-.deal div{display:flex;flex-direction:column;gap:4px}.deal .k{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#DFF7FF}.deal b{font-size:22px}.deal div>span:last-child{font-size:14.5px;color:rgba(255,255,255,.9)}
-.deal .btn{background:#fff!important;color:#2B44FF!important;border:0}
-@media (max-width:760px){.deal{flex-direction:column;align-items:flex-start}}
-@media (max-width:860px){.wallet{grid-template-columns:1fr;padding:24px 18px}}
-@media (max-width:760px){.yr-strip{flex-direction:column;align-items:flex-start}.costs{padding:22px 16px}.costs table,.costs tbody,.costs tr,.costs th,.costs td{display:block;width:auto}.costs th{border-top:1px solid var(--line);padding:12px 0 2px}.costs td{border:0;padding:2px 0}.costs td:last-child{padding-bottom:10px}.w-row{grid-template-columns:1fr}.w-row b{text-align:left}}
+@media (max-width:640px){.big-acad{flex-direction:column;align-items:flex-start}}
 </style>
 <script src="/assets/attribution.js?v=1" defer></script>
 </head>
@@ -747,9 +728,9 @@ footer > .wrap{position:relative}
 <section class="px-hero" id="top">
   <div class="blob b1" aria-hidden="true"></div><div class="blob b2" aria-hidden="true"></div>
   <div class="wrap">
-    <span class="px-pill reveal"><i></i>0% commission on Growth and Pro</span>
-    <h1 class="reveal">0% commission.<br/><span class="bd">Keep 100% of every sale.</span></h1>
-    <p class="lede reveal">AllCoaching works the way Shopify works for an online store: sign up, choose a plan, upload your course, connect your domain and start selling. Unlimited YouTube video and live classes, your own white-label Android app, every integration and no sales limit come with every plan; the iOS app comes with Pro. On Growth and Pro you pay one fixed monthly price and keep 100% of every sale. Just starting? Starter is ₹6,999 a year with a 10% fee only when you sell. Try it all free for 7 days.</p>
+    <span class="px-pill reveal"><i></i>New · 0% commission plans from ₹3,999/month</span>
+    <h1 class="reveal">Sign up. Upload.<br/><span class="bd">Start selling.</span></h1>
+    <p class="lede reveal">AllCoaching works the way Shopify works for an online store: sign up, choose a plan, upload your course, connect your domain and start selling. Unlimited YouTube video and live classes, your own white-label Android app, themes, plugins and marketing tools come with every plan; the iOS app comes with monthly Pro and every yearly plan. Pay monthly and keep 100% of every sale, or pay yearly with a small fee per sale. Try it all free for 7 days.</p>
     <div class="px-cta reveal">
       <a href="https://studio.allcoaching.in/" class="btn btn-accent">Start 7-day free trial <svg><use href="#i-arrow"/></svg></a>
       <a href="#plans" class="btn btn-ghost">See the plans</a>
@@ -758,11 +739,11 @@ footer > .wrap{position:relative}
     <div class="px-path reveal" aria-label="How the free trial works">
       <div class="now"><small>Today</small><b>Start free</b><span>Sign up with Google, no card</span></div>
       <div><small>Days 1–7</small><b>Build &amp; brand</b><span>Add courses, connect your domain</span></div>
-      <div><small>Day 7</small><b>Pick a plan</b><span>Growth ₹7,999/month at 0%, or Starter ₹6,999/year, + GST</span></div>
+      <div><small>Day 7</small><b>Pick a plan</b><span>₹3,999/month at 0%, or ₹6,999/year, + GST</span></div>
     </div>
     <div class="px-stats reveal">
       <div><b>500+</b><span>educators already selling</span></div>
-      <div><b>0%</b><span>commission on Growth and Pro</span></div>
+      <div><b>0%</b><span>commission on monthly plans</span></div>
       <div><b>Unlimited</b><span>YouTube video &amp; live classes</span></div>
     </div>
   </div>
@@ -779,106 +760,208 @@ footer > .wrap{position:relative}
     <div class="ps-grid">
       <div class="ps-card reveal"><div class="ps-pain"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Paying a developer to build and fix your website or app</div><div class="ps-sol"><span class="ic"><svg><use href="#i-layout"/></svg></span><b>Build it yourself, in a few clicks</b><p>Drag and drop your academy. Website and student app come with every plan.</p></div></div>
       <div class="ps-card reveal"><div class="ps-pain"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Collecting fees on WhatsApp and checking payment screenshots</div><div class="ps-sol"><span class="ic"><svg><use href="#i-rupee"/></svg></span><b>Students pay, access opens</b><p>UPI and card checkout. The course unlocks the moment a student pays.</p></div></div>
-      <div class="ps-card reveal"><div class="ps-pain"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Losing a cut of every sale to the platform</div><div class="ps-sol"><span class="ic"><svg><use href="#i-users"/></svg></span><b>Keep 100% of every sale</b><p>Growth and Pro take 0% commission. One fixed price, whatever you sell.</p></div></div>
+      <div class="ps-card reveal"><div class="ps-pain"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Losing a cut of every sale to the platform</div><div class="ps-sol"><span class="ic"><svg><use href="#i-users"/></svg></span><b>Keep 100% of every sale</b><p>Monthly plans take 0% commission. One fixed price, whatever you sell.</p></div></div>
       <div class="ps-card reveal"><div class="ps-pain"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Separate apps for classes, tests, notes and student lists</div><div class="ps-sol"><span class="ic"><svg><use href="#i-live"/></svg></span><b>One studio for everything</b><p>Courses, test series, notes, live classes and your students, in one login.</p></div></div>
       <div class="ps-card reveal"><div class="ps-pain"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Your name hidden behind someone else's brand</div><div class="ps-sol"><span class="ic"><svg><use href="#i-brand"/></svg></span><b>Your brand, your domain</b><p>Your logo and colours on your own domain, like yourname.in, on every plan.</p></div></div>
-      <div class="ps-card reveal"><div class="ps-pain"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Not knowing what you will pay until the bill arrives</div><div class="ps-sol"><span class="ic"><svg><use href="#i-export"/></svg></span><b>Priced in the open</b><p>0% commission on Growth and Pro, or Starter with a small fee per sale. No setup fee, and your data stays yours.</p></div></div>
+      <div class="ps-card reveal"><div class="ps-pain"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Not knowing what you will pay until the bill arrives</div><div class="ps-sol"><span class="ic"><svg><use href="#i-export"/></svg></span><b>Priced in the open</b><p>Monthly at 0% commission, or yearly with a small fee. No setup fee, and your data stays yours.</p></div></div>
     </div>
     <div class="ps-foot reveal"><a href="#plans" class="btn btn-accent">Pick your plan <svg><use href="#i-arrow"/></svg></a></div>
   </div>
 </section>
 
 <!-- PLANS -->
-<section class="plans" id="plans">
+<section class="plans" id="plans" data-bill="monthly">
   <div class="wrap">
     <div class="center reveal">
       <span class="eyebrow">Plans</span>
-      <h2 class="h2">Start small. <em>Grow to 0% commission.</em></h2>
-      <p class="lede">Three plans, every one fully automated. Unlimited YouTube video and live classes, your own white-label app on your own Play Store account, every integration and no sales limit. Growth and Pro take 0% commission, with no lock-in: stop any month.</p>
+      <h2 class="h2">Your academy. <em>Fully in your control.</em></h2>
+      <p class="lede">Your brand, your domain, your own apps, your students and your data. Every plan gives you the full academy: unlimited YouTube video and live classes, your own white-label Android app, themes, plugins and marketing tools, with no sales limit. Choose how you pay: <b>monthly with 0% commission</b>, or <b>yearly</b> with a small fee per sale.</p>
+      <div class="bill-tog" role="group" aria-label="Billing"><button type="button" data-b="monthly" aria-pressed="true">Monthly <em>0% commission</em></button><button type="button" data-b="yearly" aria-pressed="false">Yearly <em>Android + iOS app</em></button></div>
+      <p class="bill-hint">Not sure which suits you? <a href="#finder">The plan finder</a> works it out from your sales.</p>
     </div>
-    <div class="plan-grid p3" id="bp-m">
-      <div class="plan  reveal">
-        <span class="tag">Just starting</span>
+
+    <div class="bp-head bill-m" id="monthly"><span class="bp-k">Monthly · 0% commission</span><b>Every rupee of every sale is yours.</b><span>One fixed monthly price, whatever you sell. Stop any month.</span></div>
+    <div class="plan-grid bp bill-m" id="bp-m">
+      <div class="plan reveal">
+        <span class="tag">For a new academy</span>
         <h3>Starter</h3>
-        <p class="for">The lowest fixed price. Pay a small fee only when you sell.</p>
-        <div class="price"><span class="amt">₹6,999</span><span class="per">/ year</span></div>
-        <div class="gst">+ GST · paid once a year</div>
-        <div class="keep">You keep <b>90%</b> of every sale — 10% fee.<span class="lim">No sales limit</span></div>
+        <p class="for">Launch and sell your first courses, without giving up a share.</p>
+        <div class="price"><span class="amt">₹3,999</span><span class="per">/ month</span></div>
+        <div class="gst">+ GST · billed monthly</div>
+        <div class="keep zero">You keep <b>100%</b> of every sale — <b>0% commission</b>.<span class="lim"><b>No sales limit</b></span></div>
         <ul class="feat">
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> YouTube video &amp; live classes</span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>512 GB</b> video storage <small>about 250 hours of lectures</small></span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>100 GB</b> streaming a month <small>about 100 hours your students watch</small></span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Your own Android app</b></span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>All integrations, own domain, themes</span></li>
+          <li class="sep">Video &amp; live</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> videos via YouTube</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> live classes on YouTube Live or Zoom</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>512 GB</b> storage &amp; streaming · 1080p</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Built-in live classroom, <b>20 hours</b> a month</span></li>
+          <li class="sep">Your brand</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Your own Android app</b>, white-label</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Any 2</b> premium themes + templates</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Your own domain · any 6 ready-made landing pages</span></li>
+          <li class="sep">Grow &amp; automate</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>3 team seats</b> (you + 2)</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Plugins: Zoom, Razorpay, YouTube &amp; more</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Meta Pixel &amp; Google Tag Manager</span></li>
         </ul>
         <a href="https://studio.allcoaching.in/" class="btn btn-ghost btn-block">Start 7-day free trial</a>
-        <p class="credit">Selling more? Move to Growth any time, what you paid is credited.</p>
+        <p class="credit">Move up a plan any time, still 0%.</p>
       </div>
+
       <div class="plan popular reveal">
         <span class="badge">Most popular</span>
-        <span class="tag">0% commission</span>
+        <span class="tag">For a growing academy</span>
         <h3>Growth</h3>
-        <p class="for">Keep every rupee of every sale, with your own Android app.</p>
-        <div class="price"><span class="amt">₹7,999</span><span class="per">/ month</span></div>
-        <div class="gst">+ GST · or pay yearly and get 2 months free</div>
-        <div class="keep zero">You keep <b>100%</b> — <b>0% commission</b>.<span class="lim">No sales limit</span></div>
+        <p class="for">More room to grow, with every rupee of every sale yours.</p>
+        <div class="price"><span class="amt">₹5,999</span><span class="per">/ month</span></div>
+        <div class="gst">+ GST · billed monthly</div>
+        <div class="keep zero">You keep <b>100%</b> of every sale — <b>0% commission</b>.<span class="lim"><b>No sales limit</b></span></div>
         <ul class="feat">
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> YouTube video &amp; live classes</span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>1 TB</b> video storage <small>about 500 hours of lectures</small></span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>1 TB</b> streaming a month <small>about 1,000 hours your students watch</small></span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Your own Android app</b></span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>All integrations, own domain, themes</span></li>
+          <li class="sep">Video &amp; live</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> videos via YouTube</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> live classes on YouTube Live or Zoom</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>1 TB</b> storage &amp; streaming · 1080p</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Built-in live classroom, <b>50 hours</b> a month</span></li>
+          <li class="sep">Your brand</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Your own Android app</b>, white-label</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Any 5</b> premium themes + templates</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Your own domain · any 12 ready-made landing pages</span></li>
+          <li class="sep">Grow &amp; automate</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>5 team seats</b> (you + 4)</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Plugins: Zoom, Razorpay, YouTube &amp; more</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Meta Pixel &amp; Google Tag Manager</span></li>
         </ul>
         <a href="https://studio.allcoaching.in/" class="btn btn-accent btn-block">Start 7-day free trial</a>
-        <p class="credit">Need more video? Extend any month.</p>
+        <p class="credit">Move up to Pro any time, still 0%.</p>
       </div>
+
       <div class="plan pro reveal">
         <span class="badge">Best value · Recommended</span>
-        <span class="tag">0% commission + iOS</span>
+        <span class="tag">For an established academy</span>
         <h3>Pro</h3>
-        <p class="for">Your own Android and iOS app, 4K and a premium theme.</p>
-        <div class="price"><span class="amt">₹14,999</span><span class="per">/ month</span></div>
-        <div class="gst">+ GST · or pay yearly and get 2 months free</div>
-        <div class="keep zero">You keep <b>100%</b> — <b>0% commission</b>.<span class="lim">No sales limit</span></div>
+        <p class="for">Your own Android and iOS app, 4K, every premium theme and 2 TB.</p>
+        <div class="price"><span class="amt">₹7,999</span><span class="per">/ month</span></div>
+        <div class="gst">+ GST · billed monthly</div>
+        <div class="keep zero">You keep <b>100%</b> of every sale — <b>0% commission</b>.<span class="lim"><b>No sales limit</b></span></div>
         <ul class="feat">
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> YouTube video &amp; live classes</span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>2 TB</b> video storage <small>about 1,000 hours of lectures</small></span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>2 TB</b> streaming a month <small>about 2,000 hours your students watch</small></span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Your own Android &amp; iOS app</b> · <b>4K</b></span></li>
-          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Premium theme</b> + all integrations</span></li>
+          <li class="sep">Video &amp; live</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> videos via YouTube</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> live classes on YouTube Live or Zoom</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>2 TB</b> storage &amp; streaming · <b>4K</b></span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Built-in live classroom, <b>90 hours</b> a month</span></li>
+          <li class="sep">Your brand</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Your own Android &amp; iOS app</b>, white-label</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>All</b> premium themes + templates</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Your own domain · all 16 ready-made landing pages</span></li>
+          <li class="sep">Grow &amp; automate</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>7 team seats</b> (you + 6)</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Plugins: Zoom, Razorpay, YouTube &amp; more</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Meta Pixel &amp; Google Tag Manager</span></li>
         </ul>
         <a href="https://studio.allcoaching.in/" class="btn btn-accent btn-block">Start 7-day free trial</a>
-        <p class="credit">Apps publish on your own Play Store and App Store accounts.</p>
+        <p class="credit">Your app on your own Play Store and App Store account.</p>
+      </div>
+
+    </div>
+
+    <div class="bp-head bill-y" id="yearly"><span class="bp-k">Yearly · small fee per sale</span><b>Pay once a year. Run it your way.</b><span>A fixed yearly price, plus a small fee only when you sell. Your own Android and iOS app on every yearly plan.</span></div>
+    <div class="plan-grid bp bill-y" id="bp-y">
+      <div class="plan reveal">
+        <span class="tag">For a new academy</span>
+        <h3>Starter</h3>
+        <p class="for">For an educator launching and finding the first students.</p>
+        <div class="price"><span class="amt">₹6,999</span><span class="per">/ year</span></div>
+        <div class="gst">+ GST</div>
+        <div class="keep">You keep <b>90%</b> of every sale — 10% platform fee.</div>
+        <ul class="feat">
+          <li class="sep">Video &amp; live</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> videos via YouTube</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> live classes on YouTube Live or Zoom</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>512 GB</b> storage &amp; streaming · 1080p</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Built-in live classroom, <b>5 hours</b> a month</span></li>
+          <li class="sep">Your brand</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Your own Android &amp; iOS app</b>, white-label</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Customizable themes &amp; templates</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Your own domain · any 6 ready-made landing pages</span></li>
+          <li class="sep">Grow &amp; automate</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>3 team seats</b> (you + 2)</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Plugins: Zoom, Razorpay, YouTube &amp; more</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Meta Pixel &amp; Google Tag Manager</span></li>
+        </ul>
+        <a href="https://studio.allcoaching.in/" class="btn btn-ghost btn-block">Start 7-day free trial</a>
+        <p class="credit">Upgrade any time — what you paid is credited</p>
+      </div>
+
+      <div class="plan popular reveal">
+        <span class="badge">Most popular</span>
+        <span class="tag">For a growing academy</span>
+        <h3>Growth</h3>
+        <p class="for">More storage and a lower cut as you scale.</p>
+        <div class="price"><span class="amt">₹12,999</span><span class="per">/ year</span></div>
+        <div class="gst">+ GST</div>
+        <div class="keep">You keep <b>92.5%</b> of every sale — 7.5% platform fee.</div>
+        <ul class="feat">
+          <li class="sep">Video &amp; live</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> videos via YouTube</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> live classes on YouTube Live or Zoom</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>1 TB</b> storage &amp; streaming · 1080p</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Built-in live classroom, <b>10 hours</b> a month</span></li>
+          <li class="sep">Your brand</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Your own Android &amp; iOS app</b>, white-label</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Customizable themes &amp; templates</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Your own domain · any 12 ready-made landing pages</span></li>
+          <li class="sep">Grow &amp; automate</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>5 team seats</b> (you + 4)</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Plugins: Zoom, Razorpay, YouTube &amp; more</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Meta Pixel &amp; Google Tag Manager</span></li>
+        </ul>
+        <a href="https://studio.allcoaching.in/" class="btn btn-accent btn-block">Start 7-day free trial</a>
+        <p class="credit">₹6,999 credited if you upgrade from Starter</p>
+      </div>
+
+      <div class="plan pro reveal">
+        <span class="badge">Best value · Recommended</span>
+        <span class="tag">For an established academy</span>
+        <h3>Pro</h3>
+        <p class="for">A 5% fee, 3 TB, 4K video and a premium theme, for an academy that sells every month.</p>
+        <div class="price"><span class="amt">₹24,999</span><span class="per">/ year</span></div>
+        <div class="gst">+ GST</div>
+        <div class="keep">You keep <b>95%</b> of every sale — 5% platform fee.</div>
+        <ul class="feat">
+          <li class="sep">Video &amp; live</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> videos via YouTube</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Unlimited</b> live classes on YouTube Live or Zoom</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>3 TB</b> storage &amp; streaming · <b>4K</b></span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Built-in live classroom, <b>15 hours</b> a month</span></li>
+          <li class="sep">Your brand</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Your own Android &amp; iOS app</b>, white-label</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>Premium theme</b> (₹10,000 value) + all templates</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Your own domain · all 16 ready-made landing pages</span></li>
+          <li class="sep">Grow &amp; automate</li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span><b>7 team seats</b> (you + 6)</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Plugins: Zoom, Razorpay, YouTube &amp; more</span></li>
+          <li><span class="tick"><svg><use href="#i-check"/></svg></span><span>Meta Pixel &amp; Google Tag Manager</span></li>
+        </ul>
+        <a href="https://studio.allcoaching.in/" class="btn btn-accent btn-block">Start 7-day free trial</a>
+        <p class="credit">₹6,999 credited if you upgrade from Starter</p>
       </div>
     </div>
 
-    <div class="trust reveal"><span>✓ 7 days free, no card</span><span>✓ Stop any month</span><span>✓ Your courses, students and data stay yours</span><span>✓ No hidden charges</span></div>
-
-    <div class="deal reveal" id="yearly-offer">
-      <div><span class="k">Yearly offer</span><b>Pay Growth or Pro yearly: 10 months' price for 12.</b><span>Two months free, the same plan.</span></div>
-      <a href="https://studio.allcoaching.in/" class="btn btn-accent">Start 7-day free trial</a>
-    </div>
-
-    <div class="costs reveal" id="all-costs">
-      <div class="costs-h"><span class="bp-k">Every cost, in the open</span><b>What you pay, from app to payment gateway.</b></div>
-      <table>
-<tr><th>Plan price</th><td>Starter yearly. Growth and Pro monthly, or yearly at 10 months' price</td><td>Paid before the period starts. Monthly plans: no lock-in</td></tr>
-<tr><th>GST</th><td>18% on every AllCoaching charge</td><td>Shown on your invoice</td></tr>
-<tr><th>Commission on sales</th><td><b>0%</b> on Growth and Pro</td><td>Starter: 10% per sale</td></tr>
-<tr><th>Student payments</th><td>Paid by UPI or card at your academy checkout</td><td>Gateway charges apply at the gateway's rate. AllCoaching adds nothing on Growth and Pro</td></tr>
-<tr><th>Extend storage</th><td><b>₹499</b> a month for each extra 100 GB</td><td>Prepaid, stop any month</td></tr>
-<tr><th>Extend streaming</th><td><b>₹399</b> for each extra 100 GB</td><td>Prepaid. About 100 hours of student viewing in 720p</td></tr>
-<tr><th>Your apps</th><td>Built in your studio in minutes</td><td>Google Play account $25 once, Apple developer account $99 a year, paid by you to Google and Apple</td></tr>
-<tr><th>Your domain</th><td>Bought by you from any domain seller</td><td>Connected free</td></tr>
-<tr><th>If you stop</th><td>Academy goes offline at the end of your paid month</td><td>30 days to export or come back, then uploaded videos are deleted</td></tr>
-      </table>
-    </div>
 
     <div class="big-acad reveal" id="scale">
-      <div><b>Running a large academy?</b><span>Many teachers, several brands or very high monthly sales? We'll set up a plan around you.</span></div>
-      <a href="https://api.whatsapp.com/send/?phone=919889977262&amp;text=Hi%20AllCoaching%2C%20I%20run%20a%20large%20academy%20and%20want%20to%20discuss%20a%20plan." target="_blank" rel="noopener" class="btn btn-dark">Contact us</a>
+      <div><b>Running a large academy?</b><span>Many teachers, several brands or very high monthly sales? Talk to us and we'll help you pick the right plan.</span></div>
+      <a href="https://api.whatsapp.com/send/?phone=919889977262&amp;text=Hi%20AllCoaching%2C%20I%20run%20a%20large%20academy%20and%20want%20to%20discuss%20a%20plan." target="_blank" rel="noopener" class="btn btn-dark" data-track="contact" data-where="pricing-large">Contact us</a>
     </div>
-    <p class="plans-foot reveal">Prices exclude GST. Every plan starts with a 7-day free trial, no card needed. The trial includes 5 GB of video storage.</p>
+    <p class="plans-foot reveal">Prices exclude 18% GST. No setup fee and no sales limit on any plan. Premium themes are free for your first 2 months. Payment-gateway charges on student payments are separate. Every plan starts with a 7-day free trial, no card needed.</p>
+
+    <div class="launch-strip reveal">
+      <span class="k">How it works</span>
+      <span class="s">Sign up</span><span class="arr">→</span>
+      <span class="s">Choose a plan</span><span class="arr">→</span>
+      <span class="s">Upload your course</span><span class="arr">→</span>
+      <span class="s">Connect your domain</span><span class="arr">→</span>
+      <span class="s">Start selling</span>
+    </div>
   </div>
 </section>
 
@@ -887,17 +970,17 @@ footer > .wrap{position:relative}
   <div class="wrap">
     <div class="center reveal">
       <span class="eyebrow">0% commission, compared</span>
-      <h2 class="h2">More for your money. <em>Your own app included.</em></h2>
-      <p class="lede">Growth and Pro take 0% commission. Monthly prices from each company's own pricing page, all plus taxes. Compare what you get at each level, not just the price.</p>
+      <h2 class="h2">Full control. <em>Your own app included.</em></h2>
+      <p class="lede">Monthly prices from each company's own pricing page, all plus taxes. Compare what you get at each level, not just the price.</p>
     </div>
     <div class="tbl-wrap reveal">
       <table class="cmp zc-t">
-        <thead><tr><th></th><th class="hl">AllCoaching<small>Growth &amp; Pro, 0% commission</small></th><th>Learnyst<small>billed monthly</small></th><th>Edmingle<small>billed monthly</small></th></tr></thead>
+        <thead><tr><th></th><th class="hl">AllCoaching<small>monthly, 0% commission</small></th><th>Learnyst<small>billed monthly</small></th><th>Edmingle<small>billed monthly</small></th></tr></thead>
         <tbody>
-          <tr><td>Entry 0% plan</td><td class="hl"><b>₹7,999</b> (Growth) · your own Android app</td><td>₹8,999 · common app</td><td>₹8,999 · common app</td></tr>
-          <tr><td>Your own branded Android app</td><td class="hl"><b>₹7,999</b> (Growth)</td><td>From ₹14,999</td><td>From ₹17,999</td></tr>
-          <tr><td>Your own branded iOS app</td><td class="hl"><b>₹14,999</b> (Pro)</td><td>₹49,999 (Business)</td><td>₹34,999 (Power, annual commitment)</td></tr>
-          <tr><td>Fee on your sales</td><td class="hl"><b>0% commission</b></td><td>0% on these plans</td><td>Not stated on the page</td></tr>
+          <tr><td>Entry plan</td><td class="hl"><b>₹3,999</b> · your own Android app</td><td>₹8,999 · common app</td><td>₹8,999 · common app</td></tr>
+          <tr><td>Your own branded Android app</td><td class="hl"><b>From ₹3,999</b></td><td>From ₹14,999</td><td>From ₹17,999</td></tr>
+          <tr><td>Your own branded iOS app</td><td class="hl"><b>₹7,999</b> (Pro monthly)</td><td>₹49,999 (Business)</td><td>₹34,999 (Power, annual commitment)</td></tr>
+          <tr><td>Fee on your sales</td><td class="hl"><b>0%</b> on monthly plans</td><td>0% on these plans</td><td>Not stated on the page</td></tr>
           <tr><td>Whose store account the app is on</td><td class="hl"><b>Yours.</b> Publish it yourself, or we do it with your API access</td><td>Learnyst's developer account, per its page</td><td>Not stated on the page</td></tr>
           <tr><td>Free trial</td><td class="hl"><b>7 days, no card</b></td><td>“Get started for free”</td><td>7 days</td></tr>
         </tbody>
@@ -913,12 +996,12 @@ footer > .wrap{position:relative}
     <div class="center reveal">
       <span class="eyebrow">Included on every plan</span>
       <h2 class="h2">Starter already has <em>everything you need to sell.</em></h2>
-      <p class="lede">No feature locks. All of this comes with every plan; only storage, streaming and your iOS app grow with the plan.</p>
+      <p class="lede">No add-on packs. All of this comes with every plan, monthly or yearly.</p>
     </div>
     <div class="incl-grid">
-      <div class="ic reveal"><div class="ico"><svg><use href="#i-phone"/></svg></div><h4>Your own Android app</h4><p>White-label app in your name, logo and colours, on your own store account. Your iOS app comes with Pro.</p></div>
-      <div class="ic reveal"><div class="ico"><svg><use href="#i-play"/></svg></div><h4>Unlimited video</h4><p>Add lessons from YouTube without limits, or upload them to your plan's storage.</p></div>
-      <div class="ic reveal"><div class="ico"><svg><use href="#i-live"/></svg></div><h4>Unlimited live classes</h4><p>Go live as often as you like, on YouTube Live, Zoom or the built-in live room.</p></div>
+      <div class="ic reveal"><div class="ico"><svg><use href="#i-phone"/></svg></div><h4>Your own Android app</h4><p>White-label app in your name, logo and colours, on your own store account. Your iOS app comes with monthly Pro and every yearly plan.</p></div>
+      <div class="ic reveal"><div class="ico"><svg><use href="#i-play"/></svg></div><h4>Unlimited YouTube video</h4><p>Add lessons from YouTube without limits, or upload them to your plan's AllCoaching storage.</p></div>
+      <div class="ic reveal"><div class="ico"><svg><use href="#i-live"/></svg></div><h4>Unlimited live classes</h4><p>Go live as often as you like on YouTube Live or Zoom, plus hours in the built-in live classroom every month.</p></div>
       <div class="ic reveal"><div class="ico"><svg><use href="#i-layout"/></svg></div><h4>Themes &amp; templates</h4><p>Free, fully customizable themes and templates for your academy.</p></div>
       <div class="ic reveal"><div class="ico"><svg><use href="#i-globe"/></svg></div><h4>Your own domain</h4><p>Connect yourname.in from the studio, on Starter too.</p></div>
       <div class="ic reveal"><div class="ico"><svg><use href="#i-brand"/></svg></div><h4>Plugins</h4><p>Zoom, Razorpay, YouTube and more, switched on from the studio.</p></div>
@@ -927,7 +1010,7 @@ footer > .wrap{position:relative}
       <div class="ic reveal"><div class="ico"><svg><use href="#i-rupee"/></svg></div><h4>UPI &amp; card checkout</h4><p>Access opens the moment a student pays.</p></div>
       <div class="ic reveal"><div class="ico"><svg><use href="#i-users"/></svg></div><h4>Student CRM &amp; teachers</h4><p>Your student list, plus separate logins for every teacher.</p></div>
       
-      <div class="ic reveal"><div class="ico"><svg><use href="#i-export"/></svg></div><h4>Your data stays yours</h4><p>Students, content and payments are exportable.</p></div>
+      <div class="ic reveal"><div class="ico"><svg><use href="#i-export"/></svg></div><h4>Your data stays yours</h4><p>Students, content and payments are exportable any time, and for 30 days after you stop.</p></div>
     </div>
   </div>
 </section>
@@ -965,7 +1048,7 @@ footer > .wrap{position:relative}
       <div class="reveal">
         <span class="eyebrow">App &amp; marketplace</span>
         <h3>Your own app, <em>under your own name.</em></h3>
-        <p>Every plan includes your own white-label Android app, in your name, logo and colours, alongside your website; Pro adds your own iOS app. Publish them on your own Play Store and App Store account yourself, or give us API access and we publish them for you. Your courses are also listed in the AllCoaching app, where students already searching for your exam can find and buy them.</p>
+        <p>Every plan includes your own white-label Android app, in your name, logo and colours, alongside your website; monthly Pro and every yearly plan add your own iOS app. Publish them on your own Play Store and App Store account yourself, or give us API access and we publish them for you. Your courses are also listed in the AllCoaching app, where students already searching for your exam can find and buy them.</p>
         <div class="platforms">
           <span><svg><use href="#i-android"/></svg>Android</span>
           <span><svg><use href="#i-apple"/></svg>iOS</span>
@@ -989,7 +1072,7 @@ footer > .wrap{position:relative}
       <div class="show-media reveal">
         <div class="browser">
           <div class="bar"><i></i><i></i><i></i><span class="url">studio.allcoaching.in</span></div>
-          <img src="/demo/assets/shots/studio-desktop.webp?v=b2" alt="The AllCoaching studio where an educator manages courses, students and payments" width="1440" height="900" loading="lazy"/>
+          <img src="/demo/assets/shots/studio-desktop.webp?v=b3" alt="The AllCoaching studio where an educator manages courses, students and payments" width="1440" height="900" loading="lazy"/>
         </div>
       </div>
     </div>
@@ -997,50 +1080,58 @@ footer > .wrap{position:relative}
 </section>
 
 <!-- COMPARE -->
-<section class="compare" id="compare">
+<section class="compare" id="compare" data-bill="monthly">
   <div class="wrap">
     <div class="center reveal">
       <span class="eyebrow">Compare plans</span>
       <h2 class="h2">Every detail, <em>side by side.</em></h2>
     </div>
     <div class="tbl-wrap reveal">
+      <div class="cmp-tog"><div class="bill-tog" role="group" aria-label="Billing in the table"><button type="button" data-b="monthly" aria-pressed="true">Monthly <em>0% commission</em></button><button type="button" data-b="yearly" aria-pressed="false">Yearly <em>Android + iOS app</em></button></div></div>
       <table class="cmp">
         <thead>
-          <tr><th></th><th>Starter<small>₹6,999/yr</small></th><th class="hl">Growth<small>₹7,999/mo</small></th><th>Pro<small>₹14,999/mo</small></th></tr>
+          <tr><th></th><th>Starter<small class="bill-m">₹3,999 a month</small><small class="bill-y">₹6,999 a year</small></th><th class="hl">Growth<small class="bill-m">₹5,999 a month</small><small class="bill-y">₹12,999 a year</small></th><th>Pro<small class="bill-m">₹7,999 a month</small><small class="bill-y">₹24,999 a year</small></th></tr>
         </thead>
         <tbody>
-          <tr class="grp"><td colspan="4">Price &amp; commission</td></tr>
-          <tr><td>Plan price (+ GST)</td><td>₹6,999 a year</td><td class="hl">₹7,999 a month</td><td>₹14,999 a month</td></tr>
-          <tr><td>Paid yearly (2 months free)</td><td>—</td><td class="hl">₹79,990 a year</td><td>₹1,49,990 a year</td></tr>
-          <tr><td>Commission on each sale</td><td>10%</td><td class="hl"><b>0%</b></td><td><b>0%</b></td></tr>
-          <tr><td>You keep</td><td><b>90%</b></td><td class="hl"><b>100%</b></td><td><b>100%</b></td></tr>
-          <tr><td>Sales limit</td><td>None</td><td class="hl">None</td><td>None</td></tr>
+          <tr class="grp bill-m"><td colspan="4">Monthly · 0% commission</td></tr>
+          <tr class="bill-m"><td>Plan price (per month, + GST)</td><td>₹3,999</td><td class="hl">₹5,999</td><td>₹7,999</td></tr>
+          <tr class="bill-m"><td>Commission on each sale</td><td><b>0%</b></td><td class="hl"><b>0%</b></td><td><b>0%</b></td></tr>
+          <tr class="bill-m"><td>Sales limit</td><td>None</td><td class="hl">None</td><td>None</td></tr>
+          <tr class="bill-m"><td>Video storage</td><td>512 GB</td><td class="hl">1 TB</td><td>2 TB</td></tr>
+          <tr class="bill-m"><td>Streaming per month</td><td>512 GB</td><td class="hl">1 TB</td><td>2 TB</td></tr>
+          <tr class="bill-m"><td>Video quality</td><td>1080p</td><td class="hl">1080p</td><td>4K</td></tr>
+          <tr class="bill-m"><td>Built-in live classroom</td><td>20 hours a month</td><td class="hl">50 hours a month</td><td>90 hours a month</td></tr>
+          <tr class="bill-m"><td>Premium themes</td><td>Any 2</td><td class="hl">Any 5</td><td>All</td></tr>
+          <tr class="bill-m"><td>Your own white-label iOS app</td><td class="no">—</td><td class="hl no">—</td><td class="yes">✓</td></tr>
+          <tr class="grp bill-y"><td colspan="4">Yearly · fee per sale</td></tr>
+          <tr class="bill-y"><td>Plan price (per year, + GST)</td><td>₹6,999</td><td class="hl">₹12,999</td><td>₹24,999</td></tr>
+          <tr class="bill-y"><td>Commission on each sale</td><td>10%</td><td class="hl">7.5%</td><td>5%</td></tr>
+          <tr class="bill-y"><td>You keep</td><td><b>90%</b></td><td class="hl"><b>92.5%</b></td><td><b>95%</b></td></tr>
+          <tr class="bill-y"><td>Sales limit</td><td>None</td><td class="hl">None</td><td>None</td></tr>
+          <tr class="bill-y"><td>Video storage</td><td>512 GB</td><td class="hl">1 TB</td><td>3 TB</td></tr>
+          <tr class="bill-y"><td>Streaming per month</td><td>512 GB</td><td class="hl">1 TB</td><td>3 TB</td></tr>
+          <tr class="bill-y"><td>Video quality</td><td>1080p</td><td class="hl">1080p</td><td>4K</td></tr>
+          <tr class="bill-y"><td>Built-in live classroom</td><td>5 hours a month</td><td class="hl">10 hours a month</td><td>15 hours a month</td></tr>
+          <tr class="bill-y"><td>Premium theme</td><td class="no">—</td><td class="hl no">—</td><td>One included (₹10,000 value)</td></tr>
+          <tr class="bill-y"><td>Your own white-label iOS app</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr class="grp"><td colspan="4">Every plan, monthly or yearly</td></tr>
           <tr><td>Setup fee</td><td>None</td><td class="hl">None</td><td>None</td></tr>
-          <tr class="grp"><td colspan="4">Content &amp; video</td></tr>
-          <tr><td>Video storage</td><td>512 GB</td><td class="hl">1 TB</td><td>2 TB</td></tr>
-          <tr><td>Video streaming per month</td><td>100 GB</td><td class="hl">1 TB</td><td>2 TB</td></tr>
-          <tr><td>Extend storage / streaming</td><td>Any month</td><td class="hl">Any month</td><td>Any month</td></tr>
-          <tr><td>Video quality</td><td>1080p</td><td class="hl">1080p</td><td>4K</td></tr>
-          <tr><td>Recorded courses, PDF notes, test series</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
-          <tr><td>Videos via YouTube</td><td>Unlimited</td><td class="hl">Unlimited</td><td>Unlimited</td></tr>
-          <tr><td>Live classes via YouTube Live</td><td>Unlimited</td><td class="hl">Unlimited</td><td>Unlimited</td></tr>
-          <tr><td>Live classes</td><td>Unlimited</td><td class="hl">Unlimited</td><td>Unlimited</td></tr>
-          <tr class="grp"><td colspan="4">Website &amp; brand</td></tr>
-          <tr><td>Customizable themes &amp; templates</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
-          <tr><td>Premium theme (₹10,000 value)</td><td class="no">—</td><td class="hl no">—</td><td class="yes">✓</td></tr>
-          <tr><td>Your own domain, connected</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
-          <tr><td>Your name, logo and colours</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Team seats</td><td>3 (you + 2)</td><td class="hl">5 (you + 4)</td><td>7 (you + 6)</td></tr>
+          <tr><td>Ready-made landing pages</td><td>Any 6</td><td class="hl">Any 12</td><td>All 16</td></tr>
           <tr><td>Your own white-label Android app</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
-          <tr><td>Your own white-label iOS app</td><td class="no">—</td><td class="hl no">—</td><td class="yes">✓</td></tr>
-          <tr class="grp"><td colspan="4">Reach</td></tr>
-          <tr><td>Listed in the AllCoaching app</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
-          <tr><td>AI-driven marketplace discovery</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
-          <tr class="grp"><td colspan="4">Plugins &amp; marketing</td></tr>
-          <tr><td>Plugins: Zoom, Razorpay, YouTube &amp; more</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
-          <tr><td>Meta Pixel &amp; Google Tag Manager</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
-          <tr class="grp"><td colspan="4">Payments &amp; data</td></tr>
-          <tr><td>UPI &amp; card checkout</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
-          <tr><td>Student CRM, separate teacher logins</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Unlimited YouTube video, in your own branded player</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Unlimited live classes on YouTube Live or Zoom</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Unlimited courses, tests and students</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Watermarking, DRM and piracy protection</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Free .allcoaching.in address and your own domain</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Drag-and-drop page builder (up to 100 pages)</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Blog (up to 300 posts, ready for Google)</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Premium themes free for your first 2 months</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Listed in the AllCoaching app (marketplace)</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Plugins: YouTube, Zoom, WhatsApp, Razorpay &amp; more</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Meta Pixel, Google Analytics &amp; Tag Manager</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Coupons and lead forms</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Automatic payouts to your bank</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
           <tr><td>Export your students, content and payments</td><td class="yes">✓</td><td class="hl yes">✓</td><td class="yes">✓</td></tr>
         </tbody>
       </table>
@@ -1055,17 +1146,20 @@ footer > .wrap{position:relative}
       <div>
         <span class="eyebrow">Plan finder · 10 seconds</span>
         <h2>Slide to your yearly sales. <em>We'll pick the plan.</em></h2>
-        <p>Starter: ₹6,999 plus 10% of what you sell. Growth and Pro: the yearly price, 0% commission. The lowest-cost plan for you lights up.</p>
+        <p>Monthly plans: 12 months of the plan price, 0% fee. Yearly plans: plan price + fee on what you sell. The plan that fits your sales lights up.</p>
         <div class="sales" id="salesOut">₹6,00,000</div>
         <label for="sales" style="position:absolute;left:-9999px">Your sales in a year</label>
         <input type="range" id="sales" min="50000" max="4000000" step="10000" value="600000"/>
         <div class="ticks-row"><span>₹50k</span><span>₹10L</span><span>₹20L</span><span>₹40L</span></div>
       </div>
       <div class="f-cards" id="fcards">
-        <div class="fc" data-p="6999" data-f="0.10"><div class="nm">Starter<small>₹6,999 + 10% fee</small></div><div class="v k">—<small>you keep</small></div><div class="v t">—<small>you pay</small></div></div>
-        <div class="fc" data-p="79990" data-f="0"><div class="nm">Growth · paid yearly<small>₹79,990 · 0% commission</small></div><div class="v k">—<small>you keep</small></div><div class="v t">—<small>you pay</small></div></div>
-        <div class="fc" data-p="149990" data-f="0"><div class="nm">Pro · paid yearly<small>₹1,49,990 · 0% commission · iOS app</small></div><div class="v k">—<small>you keep</small></div><div class="v t">—<small>you pay</small></div></div>
-        <p class="f-note">Illustrative maths before GST. Growth and Pro use the yearly price; paid monthly they cost ₹95,988 and ₹1,79,988 a year. Payment-gateway charges on student payments are separate. <span id="pick"></span></p>
+        <div class="fc" data-p="47988" data-f="0"><div class="nm">Starter · monthly<small>₹3,999 × 12 · 0% fee</small></div><div class="v k">—<small>you keep</small></div><div class="v t">—<small>you pay</small></div></div>
+        <div class="fc" data-p="71988" data-f="0"><div class="nm">Growth · monthly<small>₹5,999 × 12 · 0% fee</small></div><div class="v k">—<small>you keep</small></div><div class="v t">—<small>you pay</small></div></div>
+        <div class="fc" data-p="95988" data-f="0"><div class="nm">Pro · monthly<small>₹7,999 × 12 · 0% fee</small></div><div class="v k">—<small>you keep</small></div><div class="v t">—<small>you pay</small></div></div>
+        <div class="fc" data-p="6999" data-f="0.10"><div class="nm">Starter · yearly<small>₹6,999 + 10% fee</small></div><div class="v k">—<small>you keep</small></div><div class="v t">—<small>you pay</small></div></div>
+        <div class="fc" data-p="12999" data-f="0.075"><div class="nm">Growth · yearly<small>₹12,999 + 7.5% fee</small></div><div class="v k">—<small>you keep</small></div><div class="v t">—<small>you pay</small></div></div>
+        <div class="fc" data-p="24999" data-f="0.05"><div class="nm">Pro · yearly<small>₹24,999 + 5% fee</small></div><div class="v k">—<small>you keep</small></div><div class="v t">—<small>you pay</small></div></div>
+        <p class="f-note">Illustrative maths before GST. Monthly plans assume 12 months. No plan has a sales limit. Payment-gateway charges on student payments are separate. <span id="pick"></span></p>
       </div>
     </div>
   </div>
@@ -1081,11 +1175,11 @@ footer > .wrap{position:relative}
     <div class="pol">
       <div class="reveal"><b>7-day free trial</b><p>Try your academy free for 7 days on any plan. Pick a plan when you are ready to continue.</p></div>
       <div class="reveal"><b>GST</b><p>Prices exclude GST, which is added at checkout. Payment-gateway charges on student payments are separate and always shown.</p></div>
-      <div class="reveal"><b>Growth &amp; Pro</b><p>0% commission, billed monthly or yearly. No lock-in on monthly: stop any month, and your plan runs to the end of the month you paid for.</p></div>
-      <div class="reveal"><b>Storage &amp; streaming</b><p>Each plan includes video storage and streaming. Need more? Extend from the studio any month. YouTube video and live classes never count.</p></div>
+      <div class="reveal"><b>Monthly plans</b><p>Billed every month with 0% commission. No lock-in: stop any month, and your plan runs to the end of the month you paid for.</p></div>
+      <div class="reveal"><b>No sales limit</b><p>No plan caps what you sell, monthly or yearly. Sell as much as you can.</p></div>
       <div class="reveal"><b>Upgrades</b><p>Take effect the moment payment clears. What you already paid is credited.</p></div>
       <div class="reveal"><b>Downgrades</b><p>Contact support and the lower plan applies from your next renewal.</p></div>
-      <div class="reveal"><b>If you stop</b><p>The academy goes offline to students at the end of your paid period. You have 30 days to export your data or come back; then uploaded videos are deleted.</p></div>
+      <div class="reveal"><b>If you don't renew</b><p>The academy goes offline to students; you then have 30 days to export your content and data, after which uploaded videos are deleted.</p></div>
     </div>
   </div>
 </section>
@@ -1111,26 +1205,25 @@ footer > .wrap{position:relative}
       <h2 class="h2">Asked before <em>choosing a plan.</em></h2>
     </div>
     <div class="faq-list">
-      <details><summary>How much does AllCoaching cost for an Indian educator in 2026?</summary><p>There are three plans. Growth is ₹7,999 a month and Pro is ₹14,999 a month, both with 0% commission, so you keep 100% of every sale. Starter is ₹6,999 a year with a 10% fee only when you sell. Pay Growth or Pro yearly and you get 2 months free. Every plan includes unlimited YouTube video and live classes, your own Android app and every integration, with no sales limit; Pro adds your own iOS app. Prices exclude GST, and every plan starts with a 7-day free trial.</p></details>
-      <details><summary>Is there a zero-commission plan?</summary><p>Yes. Growth at ₹7,999 a month and Pro at ₹14,999 a month take 0% commission, so you keep 100% of every sale, with no sales limit. Paid yearly they are ₹79,990 and ₹1,49,990. Starter takes a 10% fee per sale. Payment-gateway charges on student payments are separate.</p></details>
-      <details><summary>Is there a sales limit?</summary><p>No. No plan has a sales limit. Growth and Pro take 0% commission whatever you sell, and Starter takes 10% of each sale. What grows with the plan is video storage, streaming and your iOS app.</p></details>
-      <details><summary>Starter or Growth: which costs less?</summary><p>It depends on how much you sell. Below about ₹7 lakh a year, Starter at ₹6,999 plus a 10% fee usually costs less. Above that, Growth at 0% commission usually leaves more in your pocket. The plan finder on this page works it out for your sales.</p></details>
+      <details><summary>How much does AllCoaching cost for an Indian educator in 2026?</summary><p>There are two ways to pay. Monthly plans take 0% commission, so you keep 100% of every sale: Starter is ₹3,999, Growth ₹5,999 and Pro ₹7,999 a month. Yearly plans have a lower fixed fee and a small fee per sale: Starter ₹6,999 a year at 10%, Growth ₹12,999 at 7.5% and Pro ₹24,999 at 5%. No plan has a sales limit. Every plan includes unlimited YouTube video and live classes and your own Android app; your own iOS app comes with monthly Pro and with every yearly plan. Prices exclude GST, and every plan starts with a 7-day free trial.</p></details>
+      <details><summary>Is there a zero-commission plan?</summary><p>Yes. All three monthly plans take 0% commission, so you keep 100% of every sale: Starter at ₹3,999, Growth at ₹5,999 and Pro at ₹7,999 a month, plus GST, with no sales limit. Payment-gateway charges on student payments are separate.</p></details>
+      <details><summary>Is there a limit on how much I can sell?</summary><p>No. None of the plans, monthly or yearly, has a sales limit. What changes between plans is video storage and streaming, video quality, built-in live classroom hours, team seats, landing pages and themes.</p></details>
+      <details><summary>Monthly or yearly: which suits me?</summary><p>It depends on how much you sell. Below about ₹4 lakh a year, yearly Starter at ₹6,999 plus a 10% fee usually suits you. Above that, a monthly plan with 0% commission usually leaves more in your pocket. The plan finder on this page works it out for your sales.</p></details>
       <details><summary>Who publishes my app on the Play Store and App Store?</summary><p>Your app goes on your own Google Play and Apple developer account, so it carries your name. You can publish it yourself, or give us API access to your account and we publish it for you. Google and Apple review every app, and their developer-account fees are paid to them.</p></details>
       <details><summary>How does AllCoaching work?</summary><p>It works the way Shopify works for an online store, built for coaching: you sign up, choose a plan, upload your course, connect your domain and start selling. Payments, course access, your apps and hosting then run automatically. There is no developer, sales call or demo involved.</p></details>
-      <details><summary>Do I get my own Android and iOS app?</summary><p>Your own white-label Android app comes with every plan, in your name, logo and colours, alongside your website. Your own iOS app comes with Pro. The apps go on your own Play Store and App Store developer account: publish them yourself, or give us API access and we publish them for you.</p></details>
+      <details><summary>Do I get my own Android and iOS app?</summary><p>Your own white-label Android app comes with every plan, in your name, logo and colours, alongside your website. Your own iOS app comes with monthly Pro and with every yearly plan. The apps go on your own Play Store and App Store developer account: publish them yourself, or give us API access and we publish them for you.</p></details>
       <details><summary>Which plugins and marketing tools are included?</summary><p>Every plan includes plugins for Zoom, Razorpay and YouTube, with more being added, plus Meta Pixel and Google Tag Manager so you can track sign-ups and run ads to your academy. You switch them on from the studio.</p></details>
-      <details><summary>Is there a free trial?</summary><p>Yes. Every plan comes with a 7-day free trial, so you can set up your academy, add a course and see your website before you pay, and no card is needed to start. When the trial ends, pick Growth or Pro at 0% commission, or Starter at ₹6,999 a year, to continue.</p></details>
-      <details><summary>Which plan should I start with?</summary><p>If you are just starting and expect to sell less than about ₹7 lakh a year, Starter at ₹6,999 a year usually costs least. If you already sell, or want to keep 100% of every sale, start with Growth at ₹7,999 a month and 0% commission; choose Pro for your own iOS app, 4K video and more storage. The plan finder on this page shows the lowest-cost plan for your sales.</p></details>
+      <details><summary>Is there a free trial?</summary><p>Yes. Every plan comes with a 7-day free trial, so you can set up your academy, add a course and see your website before you pay, and no card is needed to start. When the trial ends, pick a monthly plan at 0% commission or a yearly plan to continue.</p></details>
+      <details><summary>Which plan should I start with?</summary><p>If you are just starting and expect to sell less than about ₹4 lakh a year, yearly Starter at ₹6,999 usually suits you. If you already sell, or want to keep 100% of every sale, start with monthly Starter at ₹3,999 and move up as your sales grow. The plan finder on this page shows which plan fits your sales.</p></details>
       <details><summary>Is my own domain included on Starter?</summary><p>Yes. Every plan, including Starter, lets you connect your own domain from the studio. You buy the domain name from any registrar, usually about ₹600 to ₹1,200 a year, so it stays in your name. Until you connect one, your academy runs on a free allcoaching.in address.</p></details>
-      <details><summary>What is the premium theme on Pro?</summary><p>Pro includes a premium theme worth ₹10,000, a more polished design for an established academy. Starter and Growth use the free themes and templates, which are fully customizable, include course pages, faculty profiles and an enquiry form, and work with your own domain.</p></details>
+      <details><summary>Which premium themes come with each plan?</summary><p>Every plan gets premium themes free for the first 2 months. After that, monthly Starter keeps any 2, monthly Growth any 5 and monthly Pro all of them; yearly Pro includes one premium theme worth ₹10,000. Every plan also has the free themes and templates, which are fully customizable, include course pages, faculty profiles and an enquiry form, and work with your own domain.</p></details>
       <details><summary>Do I need a developer or a sales call to set up?</summary><p>No. You sign up, choose a plan, upload a course, connect your domain, set up payment and publish, all by yourself from the studio. There is no sales call, no demo dependency and no technical team required.</p></details>
-      <details><summary>Where will students find and use my courses?</summary><p>Students can buy from your own website and study in your own white-label Android app (and iOS app on Pro), or on the web. Your courses can also be discovered on the AllCoaching marketplace by students searching for your exam or subject.</p></details>
-      <details><summary>What happens if I upgrade, downgrade or don't renew?</summary><p>An upgrade takes effect as soon as payment clears, and what you already paid on Starter is credited. On Growth or Pro paid monthly you can stop any month, and the plan runs to the end of the month you paid for. To move to a lower plan, contact support and it applies from your next billing date. If you stop, your academy goes offline to students at the end of your paid period; you have 30 days to export your data or come back, and then uploaded videos are deleted.</p></details>
-      <details><summary>Is marketplace discovery included on every plan?</summary><p>Yes. AI-driven marketplace discovery - where students search by exam, subject, language and city and find you without ad spend - is included on every plan. It is not an upgrade.</p></details>
-      <details><summary>Are live classes metered separately on top of the plan price?</summary><p>No. Live classes are unlimited on every plan, on YouTube Live, Zoom or the built-in AllCoaching live room. There is no per-hour charge.</p></details>
-      <details><summary>Can I export my data and leave anytime?</summary><p>Yes. Your student list, course content, payment history and analytics are exportable at any time in standard formats, in line with data-portability rights under the DPDP Act 2023. Nothing is locked - you keep ownership of your brand, your students and your content.</p></details>
-      <details><summary>What happens when I reach my storage or streaming limit?</summary><p>Your studio shows how much you have used. When you reach a limit, extend it from the studio in a click: ₹499 a month for each extra 100 GB of storage, or ₹399 for each extra 100 GB of streaming. Until you extend or the next month starts, uploaded video pauses; your website, app, YouTube video and live classes keep running.</p></details>
-      <details><summary>Are there any other charges?</summary><p>Prices exclude GST, which is added at checkout. Payment-gateway charges on student payments are separate and shown to you. If you need more video storage or streaming than your plan includes, you can extend it from the studio: ₹499 a month for each extra 100 GB of storage and ₹399 for each extra 100 GB of streaming. There is no setup fee and no separate charge for your domain connection or marketplace listing.</p></details>
+      <details><summary>Where will students find and use my courses?</summary><p>Students can buy from your own website and study in your own white-label Android app (and iOS app on monthly Pro or any yearly plan), or on the web. Your courses can also be discovered on the AllCoaching marketplace by students searching for your exam or subject.</p></details>
+      <details><summary>What happens if I upgrade, downgrade or don't renew?</summary><p>An upgrade takes effect as soon as payment clears, and what you already paid is credited. On a monthly plan you can stop any month, and the plan runs to the end of the month you paid for. To move a yearly plan to a lower one, contact support and it applies from your next renewal. If you don't renew, your academy goes offline to students; you then have 30 days to export your content and data, after which uploaded videos are deleted.</p></details>
+      <details><summary>Is marketplace discovery included on every plan?</summary><p>Yes. Every plan lists your courses in the AllCoaching app, where students search by exam, subject, language and city. It is not an upgrade. It is extra discovery on top of your own marketing, not a promise of students or sales.</p></details>
+      <details><summary>Are live classes limited?</summary><p>Live classes on YouTube Live or Zoom are unlimited on every plan. The built-in AllCoaching live classroom comes with hours each month: 20, 50 and 90 hours on monthly Starter, Growth and Pro, and 5, 10 and 15 hours on the yearly plans. There is no per-hour charge.</p></details>
+      <details><summary>Can I export my data and leave anytime?</summary><p>Yes. Your student list, course content, payment history and analytics are exportable any time while your plan runs, and for 30 days after you stop, in standard formats, in line with data-portability rights under the DPDP Act 2023. Nothing is locked - you keep ownership of your brand, your students and your content.</p></details>
+      <details><summary>Are there any other charges?</summary><p>Prices exclude GST, which is added at checkout. Payment-gateway charges on student payments are separate and shown to you. There is no setup fee and no separate charge for your domain connection or marketplace listing.</p></details>
     </div>
   </div>
 </section>
@@ -1145,7 +1238,7 @@ footer > .wrap{position:relative}
       <a href="https://studio.allcoaching.in/" class="btn btn-white">Start 7-day free trial <svg><use href="#i-arrow"/></svg></a>
       <a href="/demo/" class="btn btn-line-w">Try the live demo</a>
     </div>
-    <p class="note reveal">7 days free, then 0% commission on Growth ₹7,999/month and Pro ₹14,999/month, or Starter ₹6,999/year · Prices exclude GST</p>
+    <p class="note reveal">7 days free, then 0% commission from ₹3,999 a month, or from ₹6,999 a year · Prices exclude GST</p>
   </div>
 </section>
 
@@ -1192,9 +1285,9 @@ footer > .wrap{position:relative}
   <a href="https://studio.allcoaching.in/" class="btn btn-accent">Start free trial</a>
 </div>
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "@id": "https://allcoaching.in/#studio", "name": "AllCoaching Studio", "applicationCategory": "EducationalApplication", "operatingSystem": "Web, Android, iOS", "offers": [{"@type": "Offer", "name": "Starter Plan (yearly)", "price": "6999", "priceCurrency": "INR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "6999", "priceCurrency": "INR", "unitText": "YEAR"}, "description": "7-day free trial, then billed yearly; price excludes GST. 10% fee on each sale (keep 90%). 512 GB video storage, 100 GB streaming a month, 1080p, your own white-label Android app. Unlimited videos via YouTube, unlimited live classes, own domain, all integrations (Zoom, Razorpay, YouTube, Meta Pixel, Google Tag Manager), no sales limit.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing#plans"}, {"@type": "Offer", "name": "Growth Plan (monthly, 0% commission)", "price": "7999", "priceCurrency": "INR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "7999", "priceCurrency": "INR", "unitText": "MONTH"}, "description": "7-day free trial, then billed monthly (or ₹79,990 a year, 2 months free); price excludes GST. 0% commission (keep 100% of every sale). 1 TB video storage, 1 TB streaming a month, 1080p, your own white-label Android app. Unlimited videos via YouTube, unlimited live classes, own domain, all integrations (Zoom, Razorpay, YouTube, Meta Pixel, Google Tag Manager), no sales limit.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing#plans"}, {"@type": "Offer", "name": "Pro Plan (monthly, 0% commission)", "price": "14999", "priceCurrency": "INR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "14999", "priceCurrency": "INR", "unitText": "MONTH"}, "description": "7-day free trial, then billed monthly (or ₹1,49,990 a year, 2 months free); price excludes GST. 0% commission (keep 100% of every sale). 2 TB video storage, 2 TB streaming a month, 4K, your own white-label Android and iOS app, premium theme. Unlimited videos via YouTube, unlimited live classes, own domain, all integrations (Zoom, Razorpay, YouTube, Meta Pixel, Google Tag Manager), no sales limit.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing#plans"}], "publisher": {"@type": "Organization", "name": "AllCoaching", "url": "https://allcoaching.in/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "@id": "https://allcoaching.in/#studio", "name": "AllCoaching Studio", "applicationCategory": "EducationalApplication", "operatingSystem": "Web, Android, iOS", "offers": [{"@type": "Offer", "name": "Starter Plan (monthly, 0% commission)", "price": "3999", "priceCurrency": "INR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "3999", "priceCurrency": "INR", "unitText": "MONTH"}, "description": "7-day free trial, then billed monthly; price excludes GST. 0% commission (keep 100% of every sale). 512 GB storage and streaming, 1080p, built-in live classroom 20 hours a month, 3 team seats, any 2 premium themes. Unlimited videos via YouTube, unlimited live classes on YouTube Live or Zoom, your own white-label Android app, own domain, no sales limit, plugins, Meta Pixel and Google Tag Manager.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing#plans"}, {"@type": "Offer", "name": "Growth Plan (monthly, 0% commission)", "price": "5999", "priceCurrency": "INR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "5999", "priceCurrency": "INR", "unitText": "MONTH"}, "description": "7-day free trial, then billed monthly; price excludes GST. 0% commission (keep 100% of every sale). 1 TB storage and streaming, 1080p, built-in live classroom 50 hours a month, 5 team seats, any 5 premium themes. Unlimited videos via YouTube, unlimited live classes on YouTube Live or Zoom, your own white-label Android app, own domain, no sales limit, plugins, Meta Pixel and Google Tag Manager.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing#plans"}, {"@type": "Offer", "name": "Pro Plan (monthly, 0% commission)", "price": "7999", "priceCurrency": "INR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "7999", "priceCurrency": "INR", "unitText": "MONTH"}, "description": "7-day free trial, then billed monthly; price excludes GST. 0% commission (keep 100% of every sale). 2 TB storage and streaming, 4K, built-in live classroom 90 hours a month, 7 team seats, all premium themes, own iOS app too. Unlimited videos via YouTube, unlimited live classes on YouTube Live or Zoom, your own white-label Android app, own domain, no sales limit, plugins, Meta Pixel and Google Tag Manager.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing#plans"}, {"@type": "Offer", "name": "Starter Plan (yearly)", "price": "6999", "priceCurrency": "INR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "6999", "priceCurrency": "INR", "unitText": "ANN"}, "description": "7-day free trial, then billed yearly; price excludes GST. 10% fee per sale (keep 90%). 512 GB storage and streaming, 1080p, built-in live classroom 5 hours a month, 3 team seats, own iOS app too. Unlimited videos via YouTube, unlimited live classes on YouTube Live or Zoom, your own white-label Android app, own domain, no sales limit, plugins, Meta Pixel and Google Tag Manager.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing#plans"}, {"@type": "Offer", "name": "Growth Plan (yearly)", "price": "12999", "priceCurrency": "INR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "12999", "priceCurrency": "INR", "unitText": "ANN"}, "description": "7-day free trial, then billed yearly; price excludes GST. 7.5% fee per sale (keep 92.5%). 1 TB storage and streaming, 1080p, built-in live classroom 10 hours a month, 5 team seats, own iOS app too. Unlimited videos via YouTube, unlimited live classes on YouTube Live or Zoom, your own white-label Android app, own domain, no sales limit, plugins, Meta Pixel and Google Tag Manager.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing#plans"}, {"@type": "Offer", "name": "Pro Plan (yearly)", "price": "24999", "priceCurrency": "INR", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "24999", "priceCurrency": "INR", "unitText": "ANN"}, "description": "7-day free trial, then billed yearly; price excludes GST. 5% fee per sale (keep 95%). 3 TB storage and streaming, 4K, built-in live classroom 15 hours a month, 7 team seats, one premium theme (₹10,000 value), own iOS app too. Unlimited videos via YouTube, unlimited live classes on YouTube Live or Zoom, your own white-label Android app, own domain, no sales limit, plugins, Meta Pixel and Google Tag Manager.", "availability": "https://schema.org/InStock", "url": "https://allcoaching.in/pricing#plans"}], "publisher": {"@type": "Organization", "name": "AllCoaching", "url": "https://allcoaching.in/"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://allcoaching.in/"}, {"@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://allcoaching.in/pricing"}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "@id": "https://allcoaching.in/pricing#faq", "mainEntity": [{"@type": "Question", "name": "How much does AllCoaching cost for an Indian educator in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "There are three plans. Growth is ₹7,999 a month and Pro is ₹14,999 a month, both with 0% commission, so you keep 100% of every sale. Starter is ₹6,999 a year with a 10% fee only when you sell. Pay Growth or Pro yearly and you get 2 months free. Every plan includes unlimited YouTube video and live classes, your own Android app and every integration, with no sales limit; Pro adds your own iOS app. Prices exclude GST, and every plan starts with a 7-day free trial."}}, {"@type": "Question", "name": "Is there a zero-commission plan?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Growth at ₹7,999 a month and Pro at ₹14,999 a month take 0% commission, so you keep 100% of every sale, with no sales limit. Paid yearly they are ₹79,990 and ₹1,49,990. Starter takes a 10% fee per sale. Payment-gateway charges on student payments are separate."}}, {"@type": "Question", "name": "Is there a sales limit?", "acceptedAnswer": {"@type": "Answer", "text": "No. No plan has a sales limit. Growth and Pro take 0% commission whatever you sell, and Starter takes 10% of each sale. What grows with the plan is video storage, streaming and your iOS app."}}, {"@type": "Question", "name": "Starter or Growth: which costs less?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on how much you sell. Below about ₹7 lakh a year, Starter at ₹6,999 plus a 10% fee usually costs less. Above that, Growth at 0% commission usually leaves more in your pocket. The plan finder on this page works it out for your sales."}}, {"@type": "Question", "name": "Who publishes my app on the Play Store and App Store?", "acceptedAnswer": {"@type": "Answer", "text": "Your app goes on your own Google Play and Apple developer account, so it carries your name. You can publish it yourself, or give us API access to your account and we publish it for you. Google and Apple review every app, and their developer-account fees are paid to them."}}, {"@type": "Question", "name": "How does AllCoaching work?", "acceptedAnswer": {"@type": "Answer", "text": "It works the way Shopify works for an online store, built for coaching: you sign up, choose a plan, upload your course, connect your domain and start selling. Payments, course access, your apps and hosting then run automatically. There is no developer, sales call or demo involved."}}, {"@type": "Question", "name": "Do I get my own Android and iOS app?", "acceptedAnswer": {"@type": "Answer", "text": "Your own white-label Android app comes with every plan, in your name, logo and colours, alongside your website. Your own iOS app comes with Pro. The apps go on your own Play Store and App Store developer account: publish them yourself, or give us API access and we publish them for you."}}, {"@type": "Question", "name": "Which plugins and marketing tools are included?", "acceptedAnswer": {"@type": "Answer", "text": "Every plan includes plugins for Zoom, Razorpay and YouTube, with more being added, plus Meta Pixel and Google Tag Manager so you can track sign-ups and run ads to your academy. You switch them on from the studio."}}, {"@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every plan comes with a 7-day free trial, so you can set up your academy, add a course and see your website before you pay, and no card is needed to start. When the trial ends, pick Growth or Pro at 0% commission, or Starter at ₹6,999 a year, to continue."}}, {"@type": "Question", "name": "Which plan should I start with?", "acceptedAnswer": {"@type": "Answer", "text": "If you are just starting and expect to sell less than about ₹7 lakh a year, Starter at ₹6,999 a year usually costs least. If you already sell, or want to keep 100% of every sale, start with Growth at ₹7,999 a month and 0% commission; choose Pro for your own iOS app, 4K video and more storage. The plan finder on this page shows the lowest-cost plan for your sales."}}, {"@type": "Question", "name": "Is my own domain included on Starter?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every plan, including Starter, lets you connect your own domain from the studio. You buy the domain name from any registrar, usually about ₹600 to ₹1,200 a year, so it stays in your name. Until you connect one, your academy runs on a free allcoaching.in address."}}, {"@type": "Question", "name": "What is the premium theme on Pro?", "acceptedAnswer": {"@type": "Answer", "text": "Pro includes a premium theme worth ₹10,000, a more polished design for an established academy. Starter and Growth use the free themes and templates, which are fully customizable, include course pages, faculty profiles and an enquiry form, and work with your own domain."}}, {"@type": "Question", "name": "Do I need a developer or a sales call to set up?", "acceptedAnswer": {"@type": "Answer", "text": "No. You sign up, choose a plan, upload a course, connect your domain, set up payment and publish, all by yourself from the studio. There is no sales call, no demo dependency and no technical team required."}}, {"@type": "Question", "name": "Where will students find and use my courses?", "acceptedAnswer": {"@type": "Answer", "text": "Students can buy from your own website and study in your own white-label Android app (and iOS app on Pro), or on the web. Your courses can also be discovered on the AllCoaching marketplace by students searching for your exam or subject."}}, {"@type": "Question", "name": "What happens if I upgrade, downgrade or don't renew?", "acceptedAnswer": {"@type": "Answer", "text": "An upgrade takes effect as soon as payment clears, and what you already paid on Starter is credited. On Growth or Pro paid monthly you can stop any month, and the plan runs to the end of the month you paid for. To move to a lower plan, contact support and it applies from your next billing date. If you stop, your academy goes offline to students at the end of your paid period; you have 30 days to export your data or come back, and then uploaded videos are deleted."}}, {"@type": "Question", "name": "Is marketplace discovery included on every plan?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. AI-driven marketplace discovery - where students search by exam, subject, language and city and find you without ad spend - is included on every plan. It is not an upgrade."}}, {"@type": "Question", "name": "Are live classes metered separately on top of the plan price?", "acceptedAnswer": {"@type": "Answer", "text": "No. Live classes are unlimited on every plan, on YouTube Live, Zoom or the built-in AllCoaching live room. There is no per-hour charge."}}, {"@type": "Question", "name": "Can I export my data and leave anytime?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Your student list, course content, payment history and analytics are exportable at any time in standard formats, in line with data-portability rights under the DPDP Act 2023. Nothing is locked - you keep ownership of your brand, your students and your content."}}, {"@type": "Question", "name": "What happens when I reach my storage or streaming limit?", "acceptedAnswer": {"@type": "Answer", "text": "Your studio shows how much you have used. When you reach a limit, extend it from the studio in a click: ₹499 a month for each extra 100 GB of storage, or ₹399 for each extra 100 GB of streaming. Until you extend or the next month starts, uploaded video pauses; your website, app, YouTube video and live classes keep running."}}, {"@type": "Question", "name": "Are there any other charges?", "acceptedAnswer": {"@type": "Answer", "text": "Prices exclude GST, which is added at checkout. Payment-gateway charges on student payments are separate and shown to you. If you need more video storage or streaming than your plan includes, you can extend it from the studio: ₹499 a month for each extra 100 GB of storage and ₹399 for each extra 100 GB of streaming. There is no setup fee and no separate charge for your domain connection or marketplace listing."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "@id": "https://allcoaching.in/pricing#faq", "mainEntity": [{"@type": "Question", "name": "How much does AllCoaching cost for an Indian educator in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "There are two ways to pay. Monthly plans take 0% commission, so you keep 100% of every sale: Starter is ₹3,999, Growth ₹5,999 and Pro ₹7,999 a month. Yearly plans have a lower fixed fee and a small fee per sale: Starter ₹6,999 a year at 10%, Growth ₹12,999 at 7.5% and Pro ₹24,999 at 5%. No plan has a sales limit. Every plan includes unlimited YouTube video and live classes and your own Android app; your own iOS app comes with monthly Pro and with every yearly plan. Prices exclude GST, and every plan starts with a 7-day free trial."}}, {"@type": "Question", "name": "Is there a zero-commission plan?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All three monthly plans take 0% commission, so you keep 100% of every sale: Starter at ₹3,999, Growth at ₹5,999 and Pro at ₹7,999 a month, plus GST, with no sales limit. Payment-gateway charges on student payments are separate."}}, {"@type": "Question", "name": "Is there a limit on how much I can sell?", "acceptedAnswer": {"@type": "Answer", "text": "No. None of the plans, monthly or yearly, has a sales limit. What changes between plans is video storage and streaming, video quality, built-in live classroom hours, team seats, landing pages and themes."}}, {"@type": "Question", "name": "Monthly or yearly: which suits me?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on how much you sell. Below about ₹4 lakh a year, yearly Starter at ₹6,999 plus a 10% fee usually suits you. Above that, a monthly plan with 0% commission usually leaves more in your pocket. The plan finder on this page works it out for your sales."}}, {"@type": "Question", "name": "Who publishes my app on the Play Store and App Store?", "acceptedAnswer": {"@type": "Answer", "text": "Your app goes on your own Google Play and Apple developer account, so it carries your name. You can publish it yourself, or give us API access to your account and we publish it for you. Google and Apple review every app, and their developer-account fees are paid to them."}}, {"@type": "Question", "name": "How does AllCoaching work?", "acceptedAnswer": {"@type": "Answer", "text": "It works the way Shopify works for an online store, built for coaching: you sign up, choose a plan, upload your course, connect your domain and start selling. Payments, course access, your apps and hosting then run automatically. There is no developer, sales call or demo involved."}}, {"@type": "Question", "name": "Do I get my own Android and iOS app?", "acceptedAnswer": {"@type": "Answer", "text": "Your own white-label Android app comes with every plan, in your name, logo and colours, alongside your website. Your own iOS app comes with monthly Pro and with every yearly plan. The apps go on your own Play Store and App Store developer account: publish them yourself, or give us API access and we publish them for you."}}, {"@type": "Question", "name": "Which plugins and marketing tools are included?", "acceptedAnswer": {"@type": "Answer", "text": "Every plan includes plugins for Zoom, Razorpay and YouTube, with more being added, plus Meta Pixel and Google Tag Manager so you can track sign-ups and run ads to your academy. You switch them on from the studio."}}, {"@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every plan comes with a 7-day free trial, so you can set up your academy, add a course and see your website before you pay, and no card is needed to start. When the trial ends, pick a monthly plan at 0% commission or a yearly plan to continue."}}, {"@type": "Question", "name": "Which plan should I start with?", "acceptedAnswer": {"@type": "Answer", "text": "If you are just starting and expect to sell less than about ₹4 lakh a year, yearly Starter at ₹6,999 usually suits you. If you already sell, or want to keep 100% of every sale, start with monthly Starter at ₹3,999 and move up as your sales grow. The plan finder on this page shows which plan fits your sales."}}, {"@type": "Question", "name": "Is my own domain included on Starter?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every plan, including Starter, lets you connect your own domain from the studio. You buy the domain name from any registrar, usually about ₹600 to ₹1,200 a year, so it stays in your name. Until you connect one, your academy runs on a free allcoaching.in address."}}, {"@type": "Question", "name": "Which premium themes come with each plan?", "acceptedAnswer": {"@type": "Answer", "text": "Every plan gets premium themes free for the first 2 months. After that, monthly Starter keeps any 2, monthly Growth any 5 and monthly Pro all of them; yearly Pro includes one premium theme worth ₹10,000. Every plan also has the free themes and templates, which are fully customizable, include course pages, faculty profiles and an enquiry form, and work with your own domain."}}, {"@type": "Question", "name": "Do I need a developer or a sales call to set up?", "acceptedAnswer": {"@type": "Answer", "text": "No. You sign up, choose a plan, upload a course, connect your domain, set up payment and publish, all by yourself from the studio. There is no sales call, no demo dependency and no technical team required."}}, {"@type": "Question", "name": "Where will students find and use my courses?", "acceptedAnswer": {"@type": "Answer", "text": "Students can buy from your own website and study in your own white-label Android app (and iOS app on monthly Pro or any yearly plan), or on the web. Your courses can also be discovered on the AllCoaching marketplace by students searching for your exam or subject."}}, {"@type": "Question", "name": "What happens if I upgrade, downgrade or don't renew?", "acceptedAnswer": {"@type": "Answer", "text": "An upgrade takes effect as soon as payment clears, and what you already paid is credited. On a monthly plan you can stop any month, and the plan runs to the end of the month you paid for. To move a yearly plan to a lower one, contact support and it applies from your next renewal. If you don't renew, your academy goes offline to students; you then have 30 days to export your content and data, after which uploaded videos are deleted."}}, {"@type": "Question", "name": "Is marketplace discovery included on every plan?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every plan lists your courses in the AllCoaching app, where students search by exam, subject, language and city. It is not an upgrade. It is extra discovery on top of your own marketing, not a promise of students or sales."}}, {"@type": "Question", "name": "Are live classes limited?", "acceptedAnswer": {"@type": "Answer", "text": "Live classes on YouTube Live or Zoom are unlimited on every plan. The built-in AllCoaching live classroom comes with hours each month: 20, 50 and 90 hours on monthly Starter, Growth and Pro, and 5, 10 and 15 hours on the yearly plans. There is no per-hour charge."}}, {"@type": "Question", "name": "Can I export my data and leave anytime?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Your student list, course content, payment history and analytics are exportable any time while your plan runs, and for 30 days after you stop, in standard formats, in line with data-portability rights under the DPDP Act 2023. Nothing is locked - you keep ownership of your brand, your students and your content."}}, {"@type": "Question", "name": "Are there any other charges?", "acceptedAnswer": {"@type": "Answer", "text": "Prices exclude GST, which is added at checkout. Payment-gateway charges on student payments are separate and shown to you. There is no setup fee and no separate charge for your domain connection or marketplace listing."}}]}</script>
 
 <script>
 (function(){
@@ -1212,10 +1305,22 @@ footer > .wrap{position:relative}
       c.classList.remove('best');if(!over&&pay<min){min=pay;best=c}
     });
     best.classList.add('best');
-    pick.textContent=best.querySelector('.nm').firstChild.textContent.trim()+' costs the least at this volume.';
+    pick.textContent=best.querySelector('.nm').firstChild.textContent.trim()+' fits best at this sales level.';
   }
   r.addEventListener('input',calc);calc();
 })();
+</script>
+<script>
+/* Billing toggle: Monthly (0% commission) / Yearly, like the studio plan screen. Both toggles stay in sync. */
+(function(){var secs=[document.getElementById('plans'),document.getElementById('compare')],btns=document.querySelectorAll('.bill-tog button');
+function set(b,anim){secs.forEach(function(x){if(x)x.setAttribute('data-bill',b)});btns.forEach(function(x){x.setAttribute('aria-pressed',x.getAttribute('data-b')===b?'true':'false')});
+var g0=document.getElementById(b==='yearly'?'bp-y':'bp-m');if(g0)g0.querySelectorAll('.reveal').forEach(function(r){r.classList.add('in')});
+if(anim){var g=document.getElementById(b==='yearly'?'bp-y':'bp-m');if(g){g.classList.remove('bp-swap');void g.offsetWidth;g.classList.add('bp-swap')}}
+try{sessionStorage.setItem('ac_bill',b)}catch(e){}}
+btns.forEach(function(x){x.addEventListener('click',function(){set(x.getAttribute('data-b'),true)})});
+var h=location.hash,b0=h==='#yearly'||h==='#bp-y'?'yearly':h==='#monthly'||h==='#bp-m'?'monthly':null;
+if(!b0){try{b0=sessionStorage.getItem('ac_bill')}catch(e){}}set(b0==='yearly'?'yearly':'monthly',false);
+if(h==='#yearly'||h==='#monthly'){var t=document.getElementById('plans');if(t)setTimeout(function(){t.scrollIntoView()},60)}})();
 </script>
 </body>
 </html>

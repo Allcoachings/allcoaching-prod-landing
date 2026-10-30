@@ -273,11 +273,11 @@ b += headline(60, 250, ['One login.', '*Your whole*', '*academy.*'], 64)
 b += lines(64, 440, ['Website, app, live classes, tests', 'and payments. Already built in.'], 24, MUTED, 1.4)
 b += laptop(560, 120, 520, 'studio-desktop.jpg')
 b += phone(1010, 220, 170, 'studio-mobile.jpg')
-for k, (lab, ic, sub) in enumerate([('Website', 'globe', 'Your domain'), ('Live', 'video', 'Unlimited'), ('Payments', 'card', 'UPI & cards'),
-                                     ('Tests', 'check', 'Built in'), ('Your app', 'phone', 'Android & iOS')]):
+for k, (lab, ic, sub) in enumerate([('Website', 'globe', 'Your domain'), ('Live', 'video', 'YouTube & Zoom'), ('Payments', 'card', 'UPI & cards'),
+                                     ('Tests', 'check', 'Built in'), ('Your app', 'phone', 'Own Android app')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, '0% commission on Growth and Pro', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · own domain on every plan', 21, MUTED)
+b += text(640, 890, '0% commission on monthly plans', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · own domain on every plan', 21, MUTED)
 b += text(560, 520, 'AllCoaching Studio preview · sample data', 14, MUTED)
 save('academy-features', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: website, live classes, payments, tests and your own app in one login'))
 

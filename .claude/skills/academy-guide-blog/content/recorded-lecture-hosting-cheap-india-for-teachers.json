@@ -33,7 +33,7 @@
   "<strong>YouTube unlisted is not for paid lectures:</strong> anyone with the link can watch and share it.",
   "<strong>Metered hosting gets dearer as you succeed:</strong> AWS, Bunny or Cloudflare Stream and your own server all bill more as students watch more, and you still build the player and logins.",
   "<strong>Hosting included in a plan keeps cost known:</strong> storage and streaming come with the plan, with no per-view bill.",
-  "<strong>On AllCoaching:</strong> Starter ₹6,999 a year (10% per sale) includes 512 GB storage and 100 GB streaming a month; Growth ₹7,999 a month and Pro ₹14,999 a month take 0% commission and include 1 TB and 2 TB of each.",
+  "<strong>On AllCoaching:</strong> Starter includes 512 GB storage and 512 GB streaming a month, Growth 1 TB of each and Pro 2 TB of each (3 TB on yearly Pro); the monthly plans (₹3,999, ₹5,999 or ₹7,999 a month) take 0% commission, and the yearly plans (₹6,999, ₹12,999 or ₹24,999) take 10%, 7.5% or 5% per sale.",
   "<strong>Hosting is solved; being found is not:</strong> spend the time you save on getting students to your lectures."
  ],
  "sections": [
@@ -53,7 +53,7 @@
    "id": "options",
    "h2": "YouTube unlisted vs Vimeo vs AWS vs Bunny: which costs least?",
    "toc": "The options compared",
-   "html": "<p><strong>None of the DIY routes is both safe for paid lectures and flat in cost as views grow.</strong> The free option has no real access control, and the safe options are metered.</p>\n      {{fig:options|Recorded lecture hosting options compared on cost as views grow: YouTube unlisted, Vimeo, AWS S3 with CloudFront, Bunny or Cloudflare Stream, your own server, and a teaching platform with hosting included|How each route behaves as students watch more. Summary of each provider's published model; check their pages for current plans.}}\n      <div class=\"v3-table\"><table><thead><tr><th>Option</th><th>How it is priced</th><th>The catch for a paid course</th></tr></thead><tbody>\n      <tr><td>YouTube unlisted</td><td>Free</td><td>Anyone with the link can watch and share it</td></tr>\n      <tr><td>Vimeo</td><td>Plan tiers</td><td>Storage and feature limits per plan</td></tr>\n      <tr><td>AWS S3 + CloudFront</td><td>Per GB delivered</td><td>Bill grows with views; you build the player and logins</td></tr>\n      <tr><td>Bunny or Cloudflare Stream</td><td>Low price per GB</td><td>Still metered; you build access control</td></tr>\n      <tr><td>Your own server</td><td>Server + bandwidth</td><td>Upkeep, no CDN, slow for distant students</td></tr>\n      <tr><td>Teaching platform (AllCoaching)</td><td>Included in the plan</td><td>Plan allowance; extend if you need more</td></tr></tbody></table></div>\n      <p>YouTube's own help page says an unlisted video can be seen and shared by anyone who has the link.<sup><a href=\"#ref-2\">[2]</a></sup> That is fine for free lessons. For paid lectures you need playback behind a student login, which a link cannot give you.</p>\n      {{q:I found a hosting plan for a few hundred rupees a month. Is that not cheap enough?|It is cheap until students watch more than its bandwidth allowance. After that you pay per GB, and one popular launch can multiply the bill. You still have to add a player, logins and access control yourself. On a plan with hosting included there is no per-view bill, and when an allowance runs out you decide whether to extend.}}"
+   "html": "<p><strong>None of the DIY routes is both safe for paid lectures and flat in cost as views grow.</strong> The free option has no real access control, and the safe options are metered.</p>\n      {{fig:options|Recorded lecture hosting options compared on cost as views grow: YouTube unlisted, Vimeo, AWS S3 with CloudFront, Bunny or Cloudflare Stream, your own server, and a teaching platform with hosting included|How each route behaves as students watch more. Summary of each provider's published model; check their pages for current plans.}}\n      <div class=\"v3-table\"><table><thead><tr><th>Option</th><th>How it is priced</th><th>The catch for a paid course</th></tr></thead><tbody>\n      <tr><td>YouTube unlisted</td><td>Free</td><td>Anyone with the link can watch and share it</td></tr>\n      <tr><td>Vimeo</td><td>Plan tiers</td><td>Storage and feature limits per plan</td></tr>\n      <tr><td>AWS S3 + CloudFront</td><td>Per GB delivered</td><td>Bill grows with views; you build the player and logins</td></tr>\n      <tr><td>Bunny or Cloudflare Stream</td><td>Low price per GB</td><td>Still metered; you build access control</td></tr>\n      <tr><td>Your own server</td><td>Server + bandwidth</td><td>Upkeep, no CDN, slow for distant students</td></tr>\n      <tr><td>Teaching platform (AllCoaching)</td><td>Included in the plan</td><td>Plan allowance; move up a plan if you need more</td></tr></tbody></table></div>\n      <p>YouTube's own help page says an unlisted video can be seen and shared by anyone who has the link.<sup><a href=\"#ref-2\">[2]</a></sup> That is fine for free lessons. For paid lectures you need playback behind a student login, which a link cannot give you.</p>\n      {{q:I found a hosting plan for a few hundred rupees a month. Is that not cheap enough?|It is cheap until students watch more than its bandwidth allowance. After that you pay per GB, and one popular launch can multiply the bill. You still have to add a player, logins and access control yourself. On a plan with hosting included there is no per-view bill, and if your library outgrows the allowance you move up a plan.}}"
   },
   {
    "id": "hidden-costs",
@@ -65,7 +65,7 @@
    "id": "included-hosting",
    "h2": "How does hosting included in your plan work?",
    "toc": "Hosting included in your plan",
-   "html": "<p><strong>The plan pays for storage and streaming, so there is no separate hosting bill and no per-view charge inside your allowance.</strong> On AllCoaching every plan includes video storage and streaming, and videos you add from YouTube do not count against any limit.</p>\n      {{fig:plans|AllCoaching hosting by plan: Starter 512 GB storage and 100 GB streaming a month for ₹6,999 a year, Growth 1 TB and 1 TB for ₹7,999 a month, Pro 2 TB and 2 TB for ₹14,999 a month, with 0% commission on Growth and Pro|Video storage and streaming included in each AllCoaching plan. Prices exclude GST.}}\n      <div class=\"v3-table\"><table><thead><tr><th>Plan</th><th>Price (+ GST)</th><th>Commission</th><th>Video storage</th><th>Streaming a month</th></tr></thead><tbody>\n      <tr><td>Starter</td><td>₹6,999 a year</td><td>10% per sale</td><td>512 GB</td><td>100 GB</td></tr>\n      <tr><td>Growth</td><td>₹7,999 a month (₹79,990 a year paid yearly)</td><td><strong>0%</strong></td><td>1 TB</td><td>1 TB</td></tr>\n      <tr><td>Pro</td><td>₹14,999 a month (₹1,49,990 a year paid yearly)</td><td><strong>0%</strong></td><td>2 TB</td><td>2 TB</td></tr></tbody></table></div>\n      <p>Need more? Extend from the studio: ₹499 a month for each extra 100 GB of storage and ₹399 for each extra 100 GB of streaming. When an allowance runs out, only uploaded video pauses until you extend or the next month starts; your website, app, YouTube video and live classes keep running. As an illustrative guide, 100 GB of storage holds about 50 hours of lectures, and 100 GB of streaming is about 100 hours of students watching in 720p.</p>\n      {{cta}}\n      {{q:How can hosting be included? Who pays for storage and bandwidth?|The plan does. Hosting is priced into Starter (₹6,999 a year plus 10% of each sale), Growth (₹7,999 a month) and Pro (₹14,999 a month). Growth and Pro take 0% commission, so you keep 100% of every sale. You see the full price before you start.}}"
+   "html": "<p><strong>The plan pays for storage and streaming, so there is no separate hosting bill and no per-view charge inside your allowance.</strong> On AllCoaching every plan includes video storage and streaming, and videos you add from YouTube do not count against any limit.</p>\n      {{fig:plans|AllCoaching hosting by plan: Starter 512 GB storage and 512 GB streaming a month from ₹3,999 a month, Growth 1 TB and 1 TB from ₹5,999 a month, Pro 2 TB and 2 TB for ₹7,999 a month or 3 TB and 3 TB yearly, with 0% commission on every monthly plan|Video storage and streaming included in each AllCoaching plan. Prices exclude GST.}}\n      <div class=\"v3-table\"><table><thead><tr><th>Plan</th><th>Price (+ GST)</th><th>Commission</th><th>Video storage</th><th>Streaming a month</th></tr></thead><tbody>\n      <tr><td>Starter, monthly</td><td>₹3,999 a month</td><td><strong>0%</strong></td><td>512 GB</td><td>512 GB</td></tr>\n      <tr><td>Growth, monthly</td><td>₹5,999 a month</td><td><strong>0%</strong></td><td>1 TB</td><td>1 TB</td></tr>\n      <tr><td>Pro, monthly</td><td>₹7,999 a month</td><td><strong>0%</strong></td><td>2 TB</td><td>2 TB</td></tr>\n      <tr><td>Starter, yearly</td><td>₹6,999 a year</td><td>10% per sale</td><td>512 GB</td><td>512 GB</td></tr>\n      <tr><td>Growth, yearly</td><td>₹12,999 a year</td><td>7.5% per sale</td><td>1 TB</td><td>1 TB</td></tr>\n      <tr><td>Pro, yearly</td><td>₹24,999 a year</td><td>5% per sale</td><td>3 TB</td><td>3 TB</td></tr></tbody></table></div>\n      <p>Need more? Move up a plan from the studio; YouTube video and live classes on YouTube Live or Zoom never count against the allowance. As an illustrative guide, 100 GB of storage holds about 50 hours of lectures, and 100 GB of streaming is about 100 hours of students watching in 720p.</p>\n      {{cta}}\n      {{q:How can hosting be included? Who pays for storage and bandwidth?|The plan does. Hosting is priced into every plan: monthly Starter, Growth and Pro (₹3,999, ₹5,999 and ₹7,999 a month) at 0% commission, so you keep 100% of every sale, or yearly (₹6,999, ₹12,999 and ₹24,999) with a 10%, 7.5% or 5% fee per sale. You see the full price before you start.}}"
   },
   {
    "id": "good-hosting",
@@ -89,7 +89,7 @@
    "id": "verdict",
    "h2": "The verdict",
    "toc": "The verdict",
-   "html": "<p><strong>The lowest-cost recorded lecture hosting for an Indian teacher is the kind you do not buy separately: storage, streaming, a player and access control included in the plan you sell from.</strong> DIY storage looks cheaper on day one and costs more on the day you succeed, because it bills you for delivery.</p>\n      <ul>\n      <li><strong>Judge hosting on delivery, not storage.</strong></li>\n      <li><strong>Do not sell paid lectures from YouTube unlisted links.</strong></li>\n      <li><strong>Avoid per-GB billing for a growing library.</strong></li>\n      <li><strong>Choose hosting included in your plan,</strong> and pick Growth or Pro for 0% commission once your sales grow (above about ₹7 lakh a year, Growth usually costs less than Starter).</li>\n      <li><strong>Spend the time you save on discovery.</strong></li></ul>"
+   "html": "<p><strong>The lowest-cost recorded lecture hosting for an Indian teacher is the kind you do not buy separately: storage, streaming, a player and access control included in the plan you sell from.</strong> DIY storage looks cheaper on day one and costs more on the day you succeed, because it bills you for delivery.</p>\n      <ul>\n      <li><strong>Judge hosting on delivery, not storage.</strong></li>\n      <li><strong>Do not sell paid lectures from YouTube unlisted links.</strong></li>\n      <li><strong>Avoid per-GB billing for a growing library.</strong></li>\n      <li><strong>Choose hosting included in your plan,</strong> and pick a monthly plan for 0% commission once your sales grow (above about ₹4 lakh a year, monthly Starter usually costs less than yearly Starter).</li>\n      <li><strong>Spend the time you save on discovery.</strong></li></ul>"
   }
  ],
  "steps": {
@@ -103,7 +103,7 @@
    ],
    [
     "Choose a plan",
-    "Starter at ₹6,999 a year plus 10% per sale, or Growth (₹7,999 a month) or Pro (₹14,999 a month) at 0% commission."
+    "A monthly plan (₹3,999, ₹5,999 or ₹7,999 a month) at 0% commission, or a yearly plan from ₹6,999 plus 10% per sale."
    ],
    [
     "Upload your lectures",
@@ -126,7 +126,7 @@
  "faq": [
   [
    "What is the lowest-cost way to host recorded lectures in India?",
-   "The lowest-cost way is hosting included in the platform you teach and sell on, with storage and streaming priced into the plan and no per-view bill. On AllCoaching, Starter (₹6,999 a year, 10% per sale) includes 512 GB of storage and 100 GB of streaming a month, Growth (₹7,999 a month, 0% commission) 1 TB and 1 TB, and Pro (₹14,999 a month, 0% commission) 2 TB and 2 TB."
+   "The lowest-cost way is hosting included in the platform you teach and sell on, with storage and streaming priced into the plan and no per-view bill. On AllCoaching, Starter includes 512 GB of storage and 512 GB of streaming a month, Growth 1 TB and 1 TB, and Pro 2 TB and 2 TB (3 TB and 3 TB on yearly Pro). Monthly plans (₹3,999, ₹5,999 or ₹7,999 a month) take 0% commission; yearly plans (₹6,999, ₹12,999 or ₹24,999) take 10%, 7.5% or 5% per sale."
   ],
   [
    "Is video hosting expensive because of storage or bandwidth?",
@@ -142,19 +142,19 @@
   ],
   [
    "Does AllCoaching charge separately for storage or bandwidth?",
-   "Not inside your plan's allowance. Storage and streaming are included in every plan with no per-view bill. If you need more, you extend from the studio at ₹499 a month per extra 100 GB of storage or ₹399 per extra 100 GB of streaming."
+   "Not inside your plan's allowance. Storage and streaming are included in every plan with no per-view bill. If you need more, you move up to a plan with a larger allowance."
   ],
   [
    "What happens when my storage or streaming runs out?",
-   "Only uploaded video pauses until you extend from the studio or the next month starts. Your website, app, YouTube video and live classes keep running."
+   "Move up to a plan with more storage and streaming from the studio. Videos you add from YouTube and live classes on YouTube Live or Zoom do not count against the allowance, and your website and app keep running."
   ],
   [
    "How many hours of lectures fit in my plan?",
-   "As an illustrative guide, 100 GB of storage holds about 50 hours of lectures, so Starter's 512 GB fits roughly 250 hours, Growth's 1 TB about 500 hours and Pro's 2 TB about 1,000 hours. Videos added from YouTube do not count."
+   "As an illustrative guide, 100 GB of storage holds about 50 hours of lectures, so Starter's 512 GB fits roughly 250 hours, Growth's 1 TB about 500 hours, monthly Pro's 2 TB about 1,000 hours and yearly Pro's 3 TB about 1,500 hours. Videos added from YouTube do not count."
   ],
   [
    "Which AllCoaching plan has zero commission?",
-   "Growth (₹7,999 a month) and Pro (₹14,999 a month) take 0% commission, so you keep 100% of every sale. Starter is ₹6,999 a year with a 10% fee on each sale. Prices exclude GST."
+   "The monthly plans (₹3,999, ₹5,999 or ₹7,999 a month) take 0% commission, so you keep 100% of every sale. The yearly plans take a fee on each sale: 10% on Starter (₹6,999 a year), 7.5% on Growth (₹12,999) and 5% on Pro (₹24,999). Prices exclude GST."
   ],
   [
    "Do I need a CDN to host lectures for students across India?",
@@ -195,7 +195,7 @@
   [
    "zero-commission",
    "Zero commission",
-   "A plan where the platform takes no share of your course sales; on AllCoaching, Growth and Pro."
+   "A plan where the platform takes no share of your course sales; on AllCoaching, every monthly plan."
   ]
  ],
  "references": [

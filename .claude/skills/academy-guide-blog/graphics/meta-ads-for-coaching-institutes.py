@@ -235,7 +235,7 @@ b += f'<g filter="url(#shB)"><rect x="840" y="200" width="320" height="230" rx="
 b += eyebrow(870, 248, 'Cost per enrolment', '#DCE2FF') + text(870, 330, '₹1,250', 54, '#fff', 800, font=F_HEAD, ls=-2) + text(870, 380, 'per paying student', 19, '#fff', opacity=.85)
 b += white_panel(60, 480, 1100, 300, 28)
 b += eyebrow(92, 530, 'Is it worth it? Compare with what you keep')
-rows = [('Course price', '₹4,999'), ('Commission on Growth or Pro (0%)', '₹0'), ('You keep before ads', '₹4,999'), ('Cost per enrolment', '− ₹1,250'), ('Left per student', '₹3,749')]
+rows = [('Course price', '₹4,999'), ('Commission, monthly plan (0%)', '₹0'), ('You keep before ads', '₹4,999'), ('Cost per enrolment', '− ₹1,250'), ('Left per student', '₹3,749')]
 for i, (k, v) in enumerate(rows):
     y = 580 + i * 40
     bold = i in (2, 4)
@@ -265,9 +265,9 @@ b += lines(64, 380, ['Course pages on your domain, UPI', 'checkout and Meta Pixe
 b += laptop(560, 120, 520, 'studio-desktop.jpg')
 b += phone(1010, 220, 170, 'studio-mobile.jpg')
 for k, (lab, ic, sub) in enumerate([('Own domain', 'globe', 'Every plan'), ('Meta Pixel', 'chart', 'Every plan'), ('GTM', 'layers', 'Every plan'),
-                                     ('UPI checkout', 'card', 'Razorpay'), ('Your app', 'phone', 'iOS on Pro')]):
+                                     ('UPI checkout', 'card', 'Razorpay'), ('Your app', 'phone', 'iOS: Pro or yearly')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, '0% commission on Growth and Pro', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
+b += text(640, 890, '0% commission on monthly plans', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 b += text(560, 520, 'AllCoaching Studio preview · sample data', 14, MUTED)
 save('academy-ready-for-ads', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: own domain, Meta Pixel, Google Tag Manager, UPI checkout and own app'))

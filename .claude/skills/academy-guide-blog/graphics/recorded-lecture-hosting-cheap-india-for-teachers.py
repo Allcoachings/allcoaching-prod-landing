@@ -3,9 +3,9 @@
 Run:  python .claude/skills/academy-guide-blog/graphics/recorded-lecture-hosting-cheap-india-for-teachers.py
 Then: python .claude/skills/academy-guide-blog/scripts/export_graphics.py assets/blog/recorded-lecture-hosting-cheap-india-for-teachers
 
-Plan facts follow the final pricing (2026-10-28): Starter ₹6,999/yr + 10%, Growth ₹7,999/mo and Pro ₹14,999/mo
-at 0% commission; storage/streaming 512 GB/100 GB, 1 TB/1 TB, 2 TB/2 TB; Extend ₹499 per 100 GB storage a month,
-₹399 per 100 GB streaming. Hour figures are illustrative.
+Plan facts follow the studio pricing (owner, 2026-10-29): monthly at 0% commission Starter ₹3,999, Growth ₹5,999,
+Pro ₹7,999; yearly Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%; storage/streaming 512 GB/512 GB,
+1 TB/1 TB, 2 TB/2 TB (3 TB/3 TB on yearly Pro). Hour figures are illustrative.
 """
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'scripts'))
@@ -28,7 +28,7 @@ b += headline(80, 300, ['Recorded lecture', 'hosting, *the real cost*'], 80)
 b += lines(84, 470, ['Storage is cheap. Delivery is the bill.'], 32, MUTED)
 b += check_row(84, 560, 'Storage and streaming included in every plan', 26)
 b += check_row(84, 620, 'Lectures play behind your students\' login', 26)
-b += check_row(84, 680, '0% commission on Growth and Pro', 26)
+b += check_row(84, 680, '0% commission on monthly plans', 26)
 b += laptop(860, 210, 600, 'studio-desktop.jpg')
 b += phone(1390, 330, 150, 'studio-mobile.jpg')
 b += pill_card(800, 650, 420, 'No per-view bill', 'Hosting priced into your plan', 'video')
@@ -97,9 +97,9 @@ save('hidden-costs', svg(W, H, b, 'Hidden costs of DIY video hosting: bandwidth 
 W, H = 1220, 840
 b = headline(60, 100, ['Hosting *included* in every plan'], 52)
 b += lines(62, 150, ['Video storage and streaming on AllCoaching (prices + GST)'], 22)
-plans = [('Starter', '₹6,999', 'a year · 10% per sale', '512 GB', '100 GB', False),
-         ('Growth', '₹7,999', 'a month · 0% commission', '1 TB', '1 TB', True),
-         ('Pro', '₹14,999', 'a month · 0% commission', '2 TB', '2 TB', True)]
+plans = [('Starter', '₹3,999', 'a month, or ₹6,999/yr + 10%', '512 GB', '512 GB', True),
+         ('Growth', '₹5,999', 'a month, or ₹12,999/yr + 7.5%', '1 TB', '1 TB', True),
+         ('Pro', '₹7,999', 'a month, or ₹24,999/yr + 5%', '2 TB', '2 TB', True)]
 for i, (n, p, per, st, sm, zero) in enumerate(plans):
     x = 60 + i * 372
     b += white_panel(x, 200, 348, 470, 26)
@@ -111,10 +111,10 @@ for i, (n, p, per, st, sm, zero) in enumerate(plans):
     b += text(x + 28, 478, 'Video storage', 17, MUTED) + text(x + 28, 512, st, 30, BLUE, 700, font=F_HEAD)
     b += text(x + 28, 562, 'Streaming a month', 17, MUTED) + text(x + 28, 596, sm, 30, BLUE, 700, font=F_HEAD)
     b += text(x + 28, 640, 'YouTube video: unlimited', 16, MUTED)
-b += text(62, 716, 'Need more? Extend from the studio: ₹499 a month per 100 GB of storage, ₹399 per 100 GB of streaming.', 18, INK, 600)
-b += text(62, 748, 'At a limit only uploaded video pauses; website, app, YouTube video and live classes keep running.', 16, MUTED)
+b += text(62, 716, 'Monthly plans take 0% commission. Yearly Pro includes 3 TB of storage and 3 TB of streaming a month.', 18, INK, 600)
+b += text(62, 748, 'Need more? Move up a plan. YouTube video and live classes on YouTube Live or Zoom do not count.', 16, MUTED)
 b += signature(W, H)
-save('plans', svg(W, H, b, 'AllCoaching hosting by plan: Starter 512 GB storage and 100 GB streaming, Growth 1 TB and 1 TB, Pro 2 TB and 2 TB, with 0% commission on Growth and Pro'))
+save('plans', svg(W, H, b, 'AllCoaching hosting by plan: Starter 512 GB storage and 512 GB streaming, Growth 1 TB and 1 TB, Pro 2 TB and 2 TB, with 0% commission on every monthly plan'))
 
 # 6. checklist -----------------------------------------------------------------
 W, H = 1220, 800

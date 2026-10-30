@@ -7,8 +7,8 @@
   "id": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#FAF8F4",
-  "theme_color": "#C58B43",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2B44FF",
   "lang": "en-IN",
   "dir": "ltr",
   "categories": [
@@ -46,7 +46,7 @@
     {
       "name": "Educator Login",
       "short_name": "Login",
-      "description": "Sign in to your educator dashboard",
+      "description": "Sign in to your educator studio",
       "url": "https://studio.allcoaching.in/"
     },
     {

@@ -24,9 +24,11 @@ from brand_graphics import *  # noqa
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', '..'))
 # (yearly price, fee, name, max yearly sales or None). Monthly 0% plans = 12 x monthly price, capped at 12x their monthly sales limit.
-# Final pricing (owner, 2026-10-28): Starter ₹6,999/yr + 10%; Growth ₹7,999/mo and Pro ₹14,999/mo at 0% commission.
+# Studio pricing (owner, 2026-10-29): monthly Starter ₹3,999 / Growth ₹5,999 / Pro ₹7,999 at 0% commission;
+# yearly Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%. Yearly cost of a monthly plan = 12 x price.
 # Yearly cost uses the paid-yearly price (2 months free). No sales limits, no launch fee.
-AC_PLANS = [(6999, 0.10, 'Starter', None), (79990, 0.0, 'Growth, paid yearly', None), (149990, 0.0, 'Pro, paid yearly', None)]
+AC_PLANS = [(6999, 0.10, 'Starter yearly', None), (12999, 0.075, 'Growth yearly', None), (24999, 0.05, 'Pro yearly', None),
+            (47988, 0.0, 'Starter monthly', None), (71988, 0.0, 'Growth monthly', None), (95988, 0.0, 'Pro monthly', None)]
 
 
 def inr(n):
@@ -181,7 +183,7 @@ def cost(sp):
         b += f'<rect x="{lx}" y="{y0 - 50}" width="26" height="8" rx="4" fill="{col}"/>' + text(lx + 36, y0 - 41, name, 18, INK, 600)
         lx += 60 + len(name) * 11
     notes = [cm.get('note') for cm in c['competitors'] if cm.get('note')]
-    notes.append('AllCoaching: Starter ₹6,999 + 10%, or 0% commission on Growth (₹79,990 paid yearly) and Pro (₹1,49,990). GST extra.')
+    notes.append('AllCoaching: 0% commission monthly from ₹3,999 a month, or yearly from ₹6,999 + 10%. GST extra.')
     for k, n in enumerate(notes[-6:]):
         b += text(60, H - 24 - (len(notes[-6:]) - k) * 24 + 10, n, 15, MUTED)
     b += signature(W, H)

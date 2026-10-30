@@ -27,7 +27,7 @@
    {
     "need": "You want your own website and app, built yourself",
     "pick": "AllCoaching",
-    "why": "Own domain and Android app on every plan; 0% commission on Growth, or ₹6,999/yr + 10%",
+    "why": "Own domain and Android app on every plan; 0% commission monthly from ₹3,999, or ₹6,999/yr + 10%",
     "icon": "globe",
     "us": true
    },
@@ -81,7 +81,7 @@
     "name": "AllCoaching",
     "price": 6999,
     "label": "₹6,999/yr",
-    "fee": "+10% on sales (Starter), GST extra",
+    "fee": "+10% yearly (Starter) · 0% monthly from ₹3,999/mo",
     "published": true
    },
    {
@@ -221,8 +221,8 @@
   ],
   "checks": [
    "Website on your domain",
-   "Your own Android app (iOS on Pro)",
-   "Live classes, unlimited",
+   "Your own Android app (iOS on Pro or yearly)",
+   "Unlimited live on YouTube or Zoom",
    "UPI and card checkout",
    "Tests and notes in one place"
   ]

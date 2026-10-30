@@ -31,8 +31,8 @@
    },
    {
     "need": "You want 0% with your own website and apps",
-    "pick": "AllCoaching Growth",
-    "why": "0% commission at ₹7,999/month + GST; iOS app on Pro (₹14,999)",
+    "pick": "AllCoaching monthly",
+    "why": "0% commission from ₹3,999/month + GST; iOS app on Pro (₹7,999)",
     "icon": "trend",
     "us": true
    },
@@ -43,7 +43,7 @@
     "icon": "globe"
    },
    {
-    "need": "You sell less than about ₹7 lakh a year",
+    "need": "You sell less than about ₹4 lakh a year",
     "pick": "AllCoaching Starter",
     "why": "₹6,999/yr + 10%; costs less than any 0% plan",
     "icon": "users",
@@ -55,13 +55,20 @@
   "title": [
    "Yearly price of *a 0% plan*"
   ],
-  "sub": "Yearly price of the lowest 0% (or lowest-commission) plan, before GST; AllCoaching paid yearly",
+  "sub": "Yearly price of the lowest 0% (or lowest-commission) plan, before GST; AllCoaching monthly × 12",
   "rows": [
    {
     "name": "AllCoaching",
-    "price": 79990,
-    "label": "₹79,990/yr",
-    "fee": "Growth paid yearly, 0%; ₹7,999/month, no sales limit",
+    "price": 47988,
+    "label": "₹47,988/yr",
+    "fee": "Starter monthly, 0%; ₹3,999/month, no sales limit",
+    "published": true
+   },
+   {
+    "name": "AllCoaching Pro",
+    "price": 95988,
+    "label": "₹95,988/yr",
+    "fee": "Pro monthly, 0%; ₹7,999/month, adds iOS app",
     "published": true
    },
    {
@@ -76,13 +83,6 @@
     "price": 108000,
     "label": "₹1,08,000/yr",
     "fee": "Premium, 3% commission (not zero)",
-    "published": true
-   },
-   {
-    "name": "AllCoaching Pro",
-    "price": 149990,
-    "label": "₹1,49,990/yr",
-    "fee": "Pro paid yearly, 0%; ₹14,999/month, adds iOS app",
     "published": true
    },
    {
@@ -205,7 +205,7 @@
    "*apps included.*"
   ],
   "checks": [
-   "Growth ₹7,999 or Pro ₹14,999/month",
+   "Monthly from ₹3,999 to ₹7,999",
    "0% commission: keep 100%",
    "Own domain included",
    "Own Android app; iOS on Pro",

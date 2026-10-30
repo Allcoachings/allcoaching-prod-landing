@@ -103,7 +103,7 @@ for k, (lab, ic, sub) in enumerate([('Own domain', 'globe', 'Every plan'), ('Cou
                                      ('Tag Manager', 'layers', 'Every plan'), ('UPI checkout', 'card', 'Razorpay')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, '0% commission on Growth and Pro', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
+b += text(640, 890, '0% commission on monthly plans', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('marketing-foundation', svg(W, H, b, 'AllCoaching Studio on laptop and phone: own domain, course pages, Meta Pixel, Google Tag Manager and UPI checkout'))
 
 # 4. organic channels ----------------------------------------------------------------
@@ -297,7 +297,7 @@ b += f'<g filter="url(#shB)"><rect x="840" y="200" width="320" height="230" rx="
 b += eyebrow(870, 248, 'Cost per enrolment', '#DCE2FF') + text(870, 330, '₹1,500', 54, '#fff', 800, font=F_HEAD, ls=-2) + text(870, 380, 'per paying student', 19, '#fff', opacity=.85)
 b += white_panel(60, 480, 1100, 300, 28)
 b += eyebrow(92, 530, 'Compare with what you keep per sale')
-rows = [('Course price', '₹6,000'), ('Commission on Growth (0%)', '− ₹0'), ('You keep before marketing', '₹6,000'), ('Cost per enrolment', '− ₹1,500'), ('Left per student', '₹4,500')]
+rows = [('Course price', '₹6,000'), ('Commission, monthly plan (0%)', '− ₹0'), ('You keep before marketing', '₹6,000'), ('Cost per enrolment', '− ₹1,500'), ('Left per student', '₹4,500')]
 for i, (k, v) in enumerate(rows):
     y = 580 + i * 40
     bold = i in (2, 4)
