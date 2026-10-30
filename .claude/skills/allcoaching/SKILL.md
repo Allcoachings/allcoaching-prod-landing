@@ -59,6 +59,8 @@ Every plan: no sales limit, no setup fee, own Android app, unlimited YouTube vid
 **Owner-confirmed 2026-10-30:**
 - **No AI question generation in the studio (yet).** Never say AllCoaching generates questions, quizzes, MCQs, mock tests or test series with AI. Truthful line: educators may draft questions with general AI tools (ChatGPT, Gemini, Claude), must review every one, then build and sell the test series in AllCoaching.
 - **Real features:** test series with all-India rank and percentile, certificates for students, bulk student import (Excel / Google Sheet) and the founder bio as written.
+- **Also real (owner 2026-10-30):** full-screen anti-cheat lock and randomized question order in tests; a course page with SEO meta, schema and checkout is created automatically when a course is saved.
+- **No unsourced performance stats** (e.g. "10–20x faster authoring", "60–110% more repeat attempts", hallucination percentages): describe benefits qualitatively.
 - **The live demo (/demo/) is retired.** Its pages redirect to /start. Never link to or mention a "live demo", "free demo" or "click-through demo" of the product. Point to the 7-day free trial (no card needed to start) and /pricing instead.
 
 **Unverified — do not claim until the owner confirms:** AI recommendation/matching engines, specific DRM standards (Widevine/FairPlay), forensic watermarking, takedown SLAs, instant/same-day payouts, student-traffic numbers, setup-time promises, refund-rate or earnings statistics.
