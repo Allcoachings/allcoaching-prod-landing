@@ -117,3 +117,5 @@ Other repo skills sit on top of this one and must never contradict it: `academy-
 
 ## 10. Keeping this skill true
 When the owner confirms or changes a fact: update §2/§3 here, the matching reference file, `CLAUDE.md` (summary bullets), and add a dated line to `references/12-decision-log.md`. Then run the consistency sweep across the site. Last full review: **2026-10-30**.
+
+**Two copies exist:** this repo copy (`.claude/skills/allcoaching/`, used by Claude Code in the repo) and the owner's **claude.ai account skill "allcoaching"** (uploaded 2026-10-30; used in claude.ai, the Claude app and every Claude Code session). The repo copy is the master. After any change here, zip the `allcoaching/` folder (SKILL.md + references) and give it to the owner to re-upload in claude.ai → Settings → Capabilities → Skills (replace the old one), so both copies stay identical.
