@@ -33800,13 +33800,13 @@ The economics
 ## Why this should be
 included infrastructure.
 
-A decade ago, the capabilities in this guide — automated item generation, an exam-pattern scoring engine, all-India ranking, topic analytics — were enterprise software, sold to large institutes for lakhs a year. The most important shift in 2026 is not that AI got smarter; it is that this entire stack became default infrastructure an individual educator can use without building it. When the marginal cost of generating and delivering a test falls to near zero, charging a premium for it stops making sense.
+A decade ago, the capabilities in this guide — an exam-pattern scoring engine, all-India ranking, topic analytics — were enterprise software, sold to large institutes for lakhs a year. The most important shift in 2026 is not that AI got smarter; it is that this entire stack became default infrastructure an individual educator can use without building it. When the marginal cost of generating and delivering a test falls to near zero, charging a premium for it stops making sense.
 
 That is the model on AllCoaching: the full test portal is included in every plan — no setup fee, no per-test charge — with 0% commission on every monthly plan (from ₹3,999 a month, keep 100%) or a 10%, 7.5% or 5% fee per sale on the yearly plans. The plan price is the cost; there is no extra charge per mock you run. And because tooling alone does not bring students, the same platform adds a marketplace listing, where aspirants browse test series by exam and subject — so the hours saved on authoring are not lost to the harder problem of getting found, the structural point made in how the AllCoaching marketplace model solves discovery. For the wider pricing logic, see the best zero-commission teaching platform in India.
 
-10–20x
+All-India
 
-Faster authoring with AI generation + review
+Rank and percentile on every test, with auto-grading
 
 ₹0
 
