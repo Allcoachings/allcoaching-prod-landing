@@ -7,7 +7,7 @@ Newest first. A newer line always overrides an older one. Add a dated line whene
 - **No AI question generation** in the studio (yet). Educators draft with general AI tools, review, then upload.
 - **Real features confirmed:** test series all-India rank and percentile; certificates (branded, auto-issued, unique ID); bulk student import (Excel/Google Sheet); full-screen anti-cheat lock; randomised question order; course page with SEO, schema and checkout created automatically on save; founder bio as written.
 - **Unsourced performance stats removed** ("10–20x faster authoring", "60–110% more repeat attempts", hallucination percentages). Describe benefits qualitatively.
-- Owner asked for this master skill so every task (site, design, ads, social, scale) stays consistent.
+- Owner asked for this master skill so every task (site, design, ads, social, scale) stays consistent. Uploaded to the owner's claude.ai account the same day (skill "allcoaching"); repo copy is the master, re-upload the zip after every change.
 
 ## 2026-10-29
 - **Studio pricing is FINAL** ("studio wala pricing final hai"): monthly 0% Starter ₹3,999 / Growth ₹5,999 / Pro ₹7,999; yearly Starter ₹6,999 + 10% / Growth ₹12,999 + 7.5% / Pro ₹24,999 + 5%; details per studio compare table; iOS on Pro monthly and every yearly plan; no sales limit. Pricing starts at ₹3,999.
