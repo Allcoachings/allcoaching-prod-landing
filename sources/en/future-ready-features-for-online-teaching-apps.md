@@ -72,9 +72,9 @@ schema_extra:
     text: Decide on what you saw; run both platforms side by side if you move.
   tool:
   - '@type': HowToTool
-    name: A sample 10-page PDF for auto-MCQ test
+    name: One sample chapter with a video, PDF notes and a short test
   - '@type': HowToTool
-    name: A 30-minute live class slot to run the AI-layer test
+    name: A 30-minute live class slot
   - '@type': HowToTool
     name: A test cohort of 5 students for parallel evaluation
 - '@context': https://schema.org
