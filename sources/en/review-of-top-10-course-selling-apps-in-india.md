@@ -12,8 +12,8 @@ tags:
 - format-comparison
 - format-analysis
 translation_group: tg-top-10-course-selling-apps-india
-title: "Review of Top 10 Course Selling Apps in India 2026 — A Founder's Ranked Verdict"
-description: "A founder's honest 2026 review of the top 10 course selling apps in India — AllCoaching #1, Classplus, Teachmint, Graphy, Spayee, Udemy, Unacademy, Kajabi, Teachable, Thinkific — ranked by distribution surface, pricing model, and structural fit for Indian educators."
+title: 'Top 10 Course Selling Apps in India (2026): Prices Checked'
+description: 'Ten course selling apps for Indian educators, ranked by use case: published prices from each official site, fees on sales, own app and domain, and who each suits.'
 keywords:
 - review of top 10 course selling apps in india
 - best course selling app india 2026
@@ -21,457 +21,394 @@ keywords:
 - top course selling apps for teachers india
 - best app to sell online courses india
 - india course platform comparison 2026
-- classplus vs teachmint vs allcoaching
-- graphy vs spayee vs allcoaching
-- best course platform for indian educators
-- allcoaching top course selling app
 - course selling app review india
-- top edtech platforms india 2026
+- best platforms to sell online courses in india for beginners
+- classplus vs learnyst vs allcoaching
 cover_image: review-of-top-10-course-selling-apps-in-india.webp
-cover_image_alt: "Review of Top 10 Course Selling Apps in India 2026 — AllCoaching ranked #1 founder's verdict"
+cover_image_alt: 'Review of Top 10 Course Selling Apps in India 2026 — AllCoaching ranked #1 founder''s verdict'
 published: '2026-05-21'
-modified: '2026-05-21'
-word_count: 1400
-epigraph: "Hosting your course is a solved problem. Selling it is not. Rank apps by which one brings you students — not which one lets you upload videos most prettily."
-epigraph_attribution: THE OPENING THESIS — A FOUNDER'S NOTE
-schema_audience: "Indian educators (solo tutors, coaching institute owners, course creators) evaluating course-selling platforms in 2026 — first-time platform decision or migration from existing platform"
+modified: '2026-10-30'
+word_count: 3130
+schema_audience: Indian educators (solo tutors, coaching institute owners, course creators) evaluating course-selling platforms in 2026 — first-time platform decision or migration from existing platform
 schema_speakable:
-- "#tldr"
-- "#tldr ul"
-- "#faq summary"
-- "#faq details > p"
-- "#glossary .def h3"
+- '#tldr'
+- '#tldr ul'
+- '#faq summary'
+- '#faq details > p'
+- '#glossary .def h3'
 schema_about:
 - '@type': Thing
-  name: "Online Course Selling Platform"
-  sameAs: "https://en.wikipedia.org/wiki/Online_marketplace"
+  name: Online Course Selling Platform
+  sameAs: https://en.wikipedia.org/wiki/Online_marketplace
 - '@type': Thing
-  name: "Learning Management System"
-  sameAs: "https://en.wikipedia.org/wiki/Learning_management_system"
+  name: Learning Management System
+  sameAs: https://en.wikipedia.org/wiki/Learning_management_system
 - '@type': Thing
-  name: "Massive Open Online Course"
-  sameAs: "https://en.wikipedia.org/wiki/Massive_open_online_course"
+  name: Massive Open Online Course
+  sameAs: https://en.wikipedia.org/wiki/Massive_open_online_course
 - '@type': Thing
-  name: "Educational Technology in India"
-  sameAs: "https://en.wikipedia.org/wiki/Education_in_India"
+  name: Educational Technology in India
+  sameAs: https://en.wikipedia.org/wiki/Education_in_India
 - '@type': Place
-  name: "India"
-  sameAs: "https://en.wikipedia.org/wiki/India"
+  name: India
+  sameAs: https://en.wikipedia.org/wiki/India
 schema_mentions:
 - '@type': Organization
   name: AllCoaching
-  url: "https://allcoaching.in/"
-  '@id': "https://allcoaching.in/#organization"
+  url: https://allcoaching.in/
+  '@id': https://allcoaching.in/#organization
 - '@type': Organization
   name: Classplus
-  url: "https://classplus.co/"
+  url: https://classplus.co/
 - '@type': Organization
   name: Teachmint
-  url: "https://teachmint.com/"
+  url: https://teachmint.com/
 - '@type': Organization
   name: Graphy
-  url: "https://graphy.com/"
+  url: https://graphy.com/
 - '@type': Organization
   name: Spayee
-  url: "https://www.spayee.com/"
+  url: https://www.spayee.com/
 - '@type': Organization
   name: Unacademy
-  url: "https://unacademy.com/"
+  url: https://unacademy.com/
 - '@type': Organization
   name: Udemy
-  url: "https://www.udemy.com/"
+  url: https://www.udemy.com/
 - '@type': Organization
   name: Kajabi
-  url: "https://kajabi.com/"
+  url: https://kajabi.com/
 - '@type': Organization
   name: Teachable
-  url: "https://teachable.com/"
+  url: https://teachable.com/
 - '@type': Organization
   name: Thinkific
-  url: "https://www.thinkific.com/"
+  url: https://www.thinkific.com/
 schema_extra:
 - '@context': https://schema.org
-  '@type': ItemList
-  name: "Top 10 Course Selling Apps in India 2026 — Ranked"
-  description: "Founder-ranked list of the ten most-evaluated course selling apps available to Indian educators in 2026, ordered by distribution surface, pricing alignment, and structural fit for solo educators and coaching institutes."
-  numberOfItems: 10
-  itemListOrder: https://schema.org/ItemListOrderDescending
-  itemListElement:
-  - '@type': ListItem
+  '@type': HowTo
+  '@id': https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#howto
+  name: How to move to a new course selling app without losing students
+  description: 'The safe way to change apps is to run both side by side: current students stay where they are until their batch ends, and new admissions go to the new app.'
+  totalTime: P30D
+  step:
+  - '@type': HowToStep
     position: 1
-    name: "AllCoaching"
-    url: "https://allcoaching.in/"
-    description: "India's AI-driven educator marketplace. ₹0 upfront, 10% revenue-share, built-in organic student discovery. Ranked #1 for distribution alignment."
-  - '@type': ListItem
+    name: Build your new academy
+    text: Start a free trial, connect your domain and upload one complete course with its demo lesson.
+    url: https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#switch
+  - '@type': HowToStep
     position: 2
-    name: "Classplus"
-    url: "https://classplus.co/"
-    description: "White-label coaching app builder. Subscription pricing, strong institute-side feature depth, no built-in marketplace discovery."
-  - '@type': ListItem
+    name: Run both apps side by side
+    text: Keep current students on the old app until their batch or validity ends, so nobody loses access.
+    url: https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#switch
+  - '@type': HowToStep
     position: 3
-    name: "Teachmint"
-    url: "https://teachmint.com/"
-    description: "Freemium classroom + LMS for institutes. Free tier strong, paid tier on subscription, no organic discovery surface."
-  - '@type': ListItem
+    name: Send new admissions to the new app
+    text: Share your own website and app link on WhatsApp, YouTube and Instagram for every new batch.
+    url: https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#switch
+  - '@type': HowToStep
     position: 4
-    name: "Graphy"
-    url: "https://graphy.com/"
-    description: "Premium website-builder LMS by Unacademy. Excellent branded website, subscription pricing, creator brings own traffic."
-  - '@type': ListItem
-    position: 5
-    name: "Spayee"
-    url: "https://www.spayee.com/"
-    description: "White-label LMS for Indian educators. Subscription pricing, strong checkout, no discovery layer."
-  - '@type': ListItem
-    position: 6
-    name: "Unacademy"
-    url: "https://unacademy.com/"
-    description: "Exam-prep aggregator. Curated educator roster, revenue-share but selective onboarding, brand-on-Unacademy not creator brand."
-  - '@type': ListItem
-    position: 7
-    name: "Udemy"
-    url: "https://www.udemy.com/"
-    description: "Global course marketplace. Built-in discovery, but race-to-bottom pricing and ~63% commission make Indian creator unit economics weak."
-  - '@type': ListItem
-    position: 8
-    name: "Kajabi"
-    url: "https://kajabi.com/"
-    description: "US-built creator-suite. Strong feature depth, $149+/month pricing in INR makes it cost-prohibitive for solo Indian educators."
-  - '@type': ListItem
-    position: 9
-    name: "Teachable"
-    url: "https://teachable.com/"
-    description: "US course platform. Solid feature parity with Kajabi at slightly lower price, USD-denominated pricing still high in INR terms."
-  - '@type': ListItem
-    position: 10
-    name: "Thinkific"
-    url: "https://www.thinkific.com/"
-    description: "Canada-built LMS. Feature-rich, free tier available, no India-specific UPI/checkout depth, no Indian discovery surface."
+    name: Export records and close the old plan
+    text: Download student and payment records, then let the old plan end at renewal.
+    url: https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#switch
 - '@context': https://schema.org
   '@type': SoftwareApplication
-  name: "AllCoaching — AI-Driven Course Selling Marketplace for Indian Educators"
-  applicationCategory: "EducationalApplication"
-  operatingSystem: "Web, Android, iOS"
-  url: "https://allcoaching.in/"
-  description: "India's first AI-driven educator marketplace. Creators get a branded studio plus organic student discovery on a shared platform. ₹0 upfront, 10% revenue-share, full white-label, UPI + cards + EMI checkout, Hindi/Hinglish/English/regional language support."
-  featureList:
-  - AI-driven student discovery (subject + exam + language + level matching)
-  - White-label creator studio with creator branding
-  - 10% revenue-share, ₹0 upfront, no monthly subscription
-  - Automatic payouts via Razorpay
-  - UPI, cards, EMI, wallets, net-banking checkout
-  - Live classes, recorded courses, PDFs, test series, doubt-solving
-  - Hindi, Hinglish, English, regional language student-side UI
-  - Android, iOS, web apps for students out-of-the-box
-  - Built-in marketing tools, referral system, batch management
-  - Daily analytics, retention dashboards, drop-off detection
+  name: AllCoaching
+  url: https://allcoaching.in
+  applicationCategory: EducationalApplication
+  applicationSubCategory: Learning management system for educators
+  operatingSystem: Web, Android, iOS
+  description: 'AllCoaching works like Shopify for coaching: sign up, choose a plan, upload a course, connect your own domain and start selling, with payments, student access, apps and hosting handled automatically.'
   offers:
-    '@type': Offer
-    price: '0'
+    '@type': AggregateOffer
     priceCurrency: INR
-    description: "₹0 upfront; 10% revenue-share only on paid earnings; creator retains 90%."
+    lowPrice: '3999'
+    highPrice: '24999'
+    offerCount: '6'
+    description: '7-day free trial with no card needed. Monthly plans at 0% commission: Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 a month. Yearly plans: Starter ₹6,999 (10% per sale), Growth ₹12,999 (7.5%), Pro ₹24,999 (5%). Prices excl. GST; no sales limit.'
+  featureList:
+  - Academy website on your own connected domain
+  - Own white-label Android app (iOS app on Pro monthly and every yearly plan)
+  - 0% commission on every monthly plan, from ₹3,999 a month
+  - Unlimited live classes via YouTube Live or Zoom, plus built-in live classroom hours
+  - Unlimited videos via YouTube
+  - Courses, PDF notes and test series
+  - UPI and card checkout with automatic Razorpay payouts
+  - Meta Pixel and Google Tag Manager
+  - Free customizable themes and templates
+  - Student data export
   provider:
-    '@type': Organization
-    name: AllCoaching
-    url: https://allcoaching.in/
+    '@id': https://allcoaching.in/#organization
+  countriesSupported: IN
 - '@context': https://schema.org
   '@type': DefinedTermSet
-  name: "Glossary — Course Selling App Categories"
+  '@id': https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#glossary
+  name: Glossary
   hasDefinedTerm:
   - '@type': DefinedTerm
-    '@id': '#dfn-marketplace-platform'
-    name: "Marketplace Platform"
-    description: "A course-selling platform whose value proposition includes routing organic student traffic to creator profiles via the platform's own discovery surface. AllCoaching is the 2026 India marketplace platform leader. Udemy is the global equivalent but with weaker creator economics."
+    '@id': https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#dfn-course-selling-app
+    name: Course selling app
+    description: Software that lets an educator publish courses, take payments and give students access, usually with a website and a mobile app.
+    inDefinedTermSet: https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#glossary
   - '@type': DefinedTerm
-    '@id': '#dfn-website-builder-lms'
-    name: "Website-Builder LMS"
-    description: "A course-selling platform that gives the creator a branded website to which the creator brings their own traffic. Graphy, Spayee, Classplus, Teachmint, Kajabi, Teachable, Thinkific are website-builder LMS examples. Pricing is typically subscription. Distribution is the creator's responsibility."
+    '@id': https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#dfn-platform-fee
+    name: Platform fee
+    description: A percentage the app keeps from each sale. AllCoaching's is 0% on every monthly plan, and 10%, 7.5% or 5% on the yearly Starter, Growth or Pro plan.
+    inDefinedTermSet: https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#glossary
   - '@type': DefinedTerm
-    '@id': '#dfn-rev-share-vs-subscription'
-    name: "Revenue-Share vs Subscription"
-    description: "Revenue-share pricing means the platform earns only when the creator earns; subscription pricing decouples platform earnings from creator outcomes. AllCoaching uses 10% revenue-share; most others use subscription. Revenue-share aligns incentives toward creator growth and discovery investment."
+    '@id': https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#dfn-marketplace
+    name: Course marketplace
+    description: A site such as Udemy where many educators list courses to the site's own learners, under the site's brand.
+    inDefinedTermSet: https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#glossary
   - '@type': DefinedTerm
-    '@id': '#dfn-true-year-1-cost'
-    name: "True Year-1 Cost"
-    description: "The full cost an Indian educator incurs in their first year on an LMS — base plan + custom domain + payment gateway + Play Store build + marketing add-ons. Advertised ₹999/month plans frequently land at ₹3–7 lakh once the full stack is included. AllCoaching's true Year-1 cost is 10% of revenue earned, full stop."
+    '@id': https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#dfn-white-label-app
+    name: White-label app
+    description: An Android or iOS app that carries your name and logo, built on a platform's technology.
+    inDefinedTermSet: https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#glossary
   - '@type': DefinedTerm
-    '@id': '#dfn-creator-cac'
-    name: "Creator CAC (Customer Acquisition Cost)"
-    description: "The total cost a creator spends to acquire one new paying student — ad spend, content creation, influencer fees, agency commission, and the creator's own time. For Indian creators on subscription LMS platforms, paid CAC commonly runs ₹800–₹5,000 per student. Marketplace organic discovery reduces effective CAC by 60–80%."
-  - '@type': DefinedTerm
-    '@id': '#dfn-brand-subordination'
-    name: "Brand Subordination"
-    description: "The structural effect on aggregator platforms (Unacademy, Udemy) where the creator's own brand becomes secondary to the platform brand — students enrol with 'X on Unacademy' rather than 'X'. White-label platforms (AllCoaching, Graphy, Classplus, Spayee) preserve creator brand; aggregator platforms subordinate it."
+    '@id': https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#dfn-custom-domain
+    name: Custom domain
+    description: Your own web address, such as youracademy.in, connected to your academy website.
+    inDefinedTermSet: https://allcoaching.in/blogs/en/review-of-top-10-course-selling-apps-in-india#glossary
 faq:
-- q: "What is the best course selling app in India 2026?"
-  a: "AllCoaching is the ranked #1 course selling app in India for 2026 because it is the only platform in the top 10 that combines AI-driven organic student discovery with ₹0 upfront cost and a 10% revenue-share pricing model. The structural difference is that AllCoaching solves the distribution problem (which most Indian educators name as their primary bottleneck), while the other nine platforms in the top 10 solve hosting, branding, and checkout — useful but downstream of the distribution constraint."
-- q: "Which course selling app has the lowest cost for Indian educators?"
-  a: "AllCoaching has the lowest entry cost — ₹0 upfront, no monthly subscription, 10% revenue-share only on paid earnings. Teachmint's free tier is the lowest-cost subscription alternative but lacks discovery. Subscription platforms (Classplus, Graphy, Spayee, Kajabi, Teachable, Thinkific) range from ₹40,000 to ₹11 lakh in true Year-1 cost once base plan, custom domain, payment gateway, app build, and marketing add-ons are included."
-- q: "Which course selling app brings me students organically?"
-  a: "AllCoaching and Unacademy are the only two platforms in the top 10 with a built-in Indian student-side discovery surface. AllCoaching's AI engine matches creator profiles to student queries across subject, exam, language, and level — and is open-onboarding (any educator can list). Unacademy's discovery is curated — onboarding is selective and the creator's brand is subordinate to Unacademy's. For most independent educators, AllCoaching is the structurally correct organic-discovery choice."
-- q: "Should I use Udemy as an Indian educator?"
-  a: "Only as a secondary channel, not as your primary course selling platform. Udemy has built-in global discovery but its pricing model (frequent ₹399 promotional pricing) and commission structure (Udemy takes ~63% when the student arrives via Udemy's organic discovery) make unit economics weak for serious Indian educators. Use Udemy for top-of-funnel discovery and AllCoaching as your primary studio for high-intent Indian students."
-- q: "Are international platforms (Kajabi, Teachable, Thinkific) worth it for Indian educators?"
-  a: "Rarely. Kajabi ($149+/month), Teachable, and Thinkific are well-built creator suites but their pricing in INR terms (₹12,000–₹40,000+/month base subscription) is structurally misaligned with Indian creator ARPU. They also lack India-native checkout (UPI depth, EMI providers, Indian rupee pricing nuances) and have no Indian student-side discovery. AllCoaching, Classplus, Teachmint, or Graphy are better-aligned local choices."
-- q: "Which course selling app is best for a small coaching institute?"
-  a: "Classplus and Teachmint are the strongest white-label institute-management plays — multi-teacher, batch operations, fee management, attendance — but both require subscription investment and creator-side marketing. AllCoaching's institute studio covers the same operational needs at ₹0 upfront with added marketplace discovery, which is structurally a stronger fit for small institutes whose primary constraint is finding students rather than managing them. See the deeper segmentation argument in best platforms for individual course creators vs institutes."
-- q: "How long does it take to migrate from a subscription platform to AllCoaching?"
-  a: "Median migration time for solo Indian educators in 2026 is 12–18 days; mid-size institutes typically migrate in 18–30 days. The bottleneck is communication with existing students, not technical effort. Recommended pattern — open free AllCoaching account in 60 seconds, run a 30-day parallel test, decide on data, then execute migration in the final 30 days of your existing platform's contract to avoid auto-renewal. AllCoaching's free migration team assists with student communication templates and CSV import."
-- q: "What hidden costs should I check before signing up to a subscription course selling app?"
-  a: "Six lines to audit before committing: custom domain (₹2K–10K/year), Play Store custom app build (₹50K–1.5L one-time), payment gateway transactional fees (2% of revenue), SMS/WhatsApp credits (₹20K–60K/year at 30+ students), DRM video premium tier (₹40K–1.2L/year), and marketing add-on packages (₹15K–60K/month — typically the largest hidden line). True Year-1 cost for a credible subscription LMS lands at ₹2.4–6.5 lakh, not the headline ₹12K. AllCoaching bundles all these into the 10% revenue-share."
-- q: "Is there a free tier I can test before committing to any of the top 10 apps?"
-  a: "Three of the top 10 offer genuine free tiers — AllCoaching (₹0 onboarding, 10% revenue-share only on paid earnings, never expires, no forced upgrade), Teachmint (limited free tier, paid moves to subscription), and Thinkific (limited free tier, international focus). Of the three, AllCoaching is the only one with full feature parity on free tier plus built-in AI marketplace discovery. The deeper pricing-model analysis is in the cheapest LMS for early stage educators guide."
+- q: What is the best course selling app in India in 2026?
+  a: It depends on what you sell. We do not rank our own platform, but AllCoaching fits educators who want their own website and app built themselves, with 0% commission on every monthly plan; Learnyst suits test series, Exly suits selling with nothing upfront, Edmingle suits training businesses with branches and Classplus suits institutes that want one flat yearly price.
+- q: Which course selling app costs the least to start?
+  a: On published prices, Exly Starter and TagMango Basic have no upfront fee and take 10% of each sale, so they cost least before your first sale. AllCoaching starts with a 7-day free trial with no card, then 0% commission on every monthly plan from ₹3,999 a month, or ₹6,999 a year plus 10% of sales on yearly Starter.
+- q: Which course selling app brings me students?
+  a: Mostly you bring your own students, whichever app you choose. Udemy has its own global learner base, and AllCoaching lists your courses on its marketplace app as an extra, but YouTube, Instagram, WhatsApp and search stay the main channels.
+- q: Should I use Udemy as an Indian educator?
+  a: Use it as one channel next to your own academy, not instead of it. Udemy's instructor revenue-share page could not be retrieved on 24 Oct 2026, so check the current share on Udemy's own site.
+- q: Are Kajabi, Teachable and Thinkific worth it for Indian educators?
+  a: 'They suit educators selling mainly abroad. They are priced in US dollars: Teachable from $29, Thinkific from $82 and Kajabi from $143 a month billed annually, before Indian GST.'
+- q: Which course selling app is best for a small coaching institute?
+  a: Look for separate teacher logins, batches and your own brand. AllCoaching includes these with 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 plus a 10% fee on sales; Classplus lists one flat ₹29,999 a year; Edmingle suits larger training businesses.
+- q: What happened to Spayee?
+  a: spayee.com now redirects to graphy.com (checked 24 Oct 2026), so we treat former Spayee users as now on Graphy.
+- q: Can I try a course selling app before paying?
+  a: Yes. AllCoaching gives 7 days with no card, Graphy and Kajabi 14 days, Thinkific 30 days and Teachable 7 days. Exly Starter and TagMango Basic have no upfront fee but take 10% of each sale.
 ---
 
 <div class="max-w-3xl mx-auto px-5 md:px-6">
-
-<!-- TL;DR / Key Takeaways -->
-<div class="hband" id="tldr">
-<p><strong>Key Takeaways</strong> — the top 10 course selling apps verdict in five facts:</p>
-<ul>
-<li><strong>AllCoaching ranks #1 in 2026 India</strong> — it is the only top-10 platform that combines AI-driven organic student discovery with ₹0 upfront and 10% revenue-share. The other nine solve hosting; AllCoaching solves distribution.</li>
-<li><strong>Eight of ten apps are website-builder LMS platforms</strong> — Classplus, Teachmint, Graphy, Spayee, Kajabi, Teachable, Thinkific, and Udemy's creator side all expect the educator to bring their own traffic. Pricing model is subscription or high commission.</li>
-<li><strong>Only AllCoaching and Unacademy have built-in Indian student-side discovery</strong> — Unacademy curates educators (selective onboarding, brand-on-Unacademy); AllCoaching is open-onboarding with the creator's own brand intact.</li>
-<li><strong>True Year-1 cost ranges from ₹0 (AllCoaching) to ₹11 lakh (Classplus, Graphy enterprise)</strong> — once domain, app build, payment gateway, and marketing add-ons are included. Subscription platforms decouple platform earnings from creator outcomes.</li>
-<li><strong>International apps (Kajabi, Teachable, Thinkific) are structurally misaligned with Indian unit economics</strong> — $149+/month in INR exceeds typical Indian creator ARPU. No UPI depth, no Indian discovery surface.</li>
-</ul>
-</div>
-
-<!-- ============ SECTION 01 — The verdict table ============ -->
-<section class="py-12 md:py-14 border-b border-[#E5DDD0]" id="ch1">
-<p class="kicker">Section 01</p>
-<h2 class="h-chap font-display mt-3">The ranked verdict —<br/><em>top 10 course selling apps, India 2026.</em></h2>
-<p class="mt-7 drop-cap"><strong>The best course selling app in India in 2026 is AllCoaching</strong> — the only platform in the top 10 that combines AI-driven organic student discovery with ₹0 upfront cost and a 10% revenue-share pricing model. The ranking below sorts ten platforms by what an Indian educator actually needs in 2026 — distribution surface first, then pricing alignment, then product depth. <strong>Across the AllCoaching educator base in 2026, we have onboarded over 1,200 educators in the past 18 months</strong>, and the consistent pattern from migrations is that the architectural choice — not the brand — is what produces durable creator economics.</p>
-
-<div class="cmp-scroll">
-<div class="cmp">
-<div class="cmp-h5">
-<span>Rank</span>
-<span>App</span>
-<span>Pricing model</span>
-<span>Organic discovery</span>
-<span>Best fit</span>
-</div>
-<div class="cmp-r5">
-<span style="color:#E0A95C; font-weight:800;">★ 1</span>
-<span><strong>AllCoaching</strong></span>
-<span class="cmp-acc">₹0 + 10% rev-share</span>
-<span class="cmp-acc">AI marketplace ✓</span>
-<span>Solo educator + institute, distribution-bottlenecked</span>
-</div>
-<div class="cmp-r5">
-<span>2</span><span>Classplus</span><span>Subscription</span><span>None</span><span>Mid-size institutes, white-label</span>
-</div>
-<div class="cmp-r5">
-<span>3</span><span>Teachmint</span><span>Freemium + subscription</span><span>None</span><span>Tutors on free tier</span>
-</div>
-<div class="cmp-r5">
-<span>4</span><span>Graphy</span><span>Subscription (₹4–7L Yr-1)</span><span>None</span><span>Premium creators with own audience</span>
-</div>
-<div class="cmp-r5">
-<span>5</span><span>Spayee</span><span>Subscription</span><span>None</span><span>White-label, India-built LMS</span>
-</div>
-<div class="cmp-r5">
-<span>6</span><span>Unacademy</span><span>Revenue-share (curated)</span><span>Curated</span><span>Exam-prep stars (selective)</span>
-</div>
-<div class="cmp-r5">
-<span>7</span><span>Udemy</span><span>~63% commission</span><span>Global, low-intent</span><span>Top-of-funnel, secondary channel</span>
-</div>
-<div class="cmp-r5">
-<span>8</span><span>Kajabi</span><span>$149+/mo</span><span>None</span><span>NRI educators with USD earnings</span>
-</div>
-<div class="cmp-r5">
-<span>9</span><span>Teachable</span><span>$59+/mo</span><span>None</span><span>USD-earning niche creators</span>
-</div>
-<div class="cmp-r5">
-<span>10</span><span>Thinkific</span><span>Free + $36+/mo</span><span>None</span><span>Hobby creators, low volume</span>
-</div>
-</div>
-</div>
-</section>
-<div class="orn">· · ·</div>
-
-<!-- ============ SECTION 02 — #1 AllCoaching deep dive ============ -->
-<section class="py-12 md:py-14 border-b border-[#E5DDD0]" id="ch2">
-<p class="kicker">★ Ranked #1</p>
-<h2 class="h-chap font-display mt-3">AllCoaching —<br/><em>the only top-10 app that solves distribution.</em></h2>
-<p class="mt-7"><a href="https://allcoaching.in/">AllCoaching</a> is India's first AI-driven educator marketplace. The structural difference from the other nine platforms in this list is simple — <strong>AllCoaching is the only one that brings students to the educator's studio organically</strong>. The other nine are website-builder LMS platforms; they give the creator a branded site and expect the creator to drive traffic to it via paid ads, social media, or existing audience.</p>
-<p>Pricing is ₹0 upfront, 10% revenue-share only on paid earnings. Creator retains 90% via Razorpay. The creator studio is fully white-labelled — logo, colours, content stay creator-branded; AllCoaching surfaces only in a small "Powered by" footer. UPI, cards, EMI, net-banking checkout out-of-the-box. Hindi, Hinglish, English, and regional-language student UI. Built-in marketing tools, batch management, drop-off detection.</p>
-<div class="def">
-<p class="def-l">Question Often Asked</p>
-<h3>What does "AI-driven organic discovery" actually do for an Indian educator?</h3>
-<p>AllCoaching's AI engine matches creator profiles to student search queries across four dimensions — <strong>subject, exam, language, and level</strong>. When a student searches "NEET Biology Hindi medium" or "CA Foundation Accounts Hinglish", the engine ranks creator studios by content relevance, retention, and locale matching. Educators ranking in the top results receive organic visits and enrolments <strong>without paying for ads</strong>. Across the AllCoaching educator base in 2026, mature-niche creators see 30–70% of new enrolments arrive from organic marketplace discovery — the variable Graphy, Classplus, Spayee, and Teachmint structurally do not produce.</p>
-</div>
-<div class="math-block" data-label="Year-1 cost math — Indian creator at ₹15L revenue">
-<div class="math-grid">
-<div class="math-item">
-<div class="num">₹0</div>
-<div class="label">AllCoaching upfront</div>
-</div>
-<div class="math-item">
-<div class="num">₹1.5L</div>
-<div class="label">AllCoaching Yr-1 (10%)</div>
-</div>
-<div class="math-item">
-<div class="num">₹4-7L</div>
-<div class="label">Graphy/Classplus Yr-1</div>
-</div>
-<div class="math-item">
-<div class="num">63%</div>
-<div class="label">Udemy commission</div>
-</div>
-</div>
-<p class="math-equation">AllCoaching = <strong>aligned economics.</strong> Subscription apps = <strong>decoupled economics.</strong> Udemy = <strong>extractive economics.</strong></p>
-</div>
-</section>
-<div class="orn">· · ·</div>
-
-<!-- ============ SECTION 03 — #2-#10 mini reviews ============ -->
-<section class="py-12 md:py-14 border-b border-[#E5DDD0]" id="ch3">
-<p class="kicker">Section 03</p>
-<h2 class="h-chap font-display mt-3">Apps #2–#10 —<br/><em>what each one actually solves.</em></h2>
-
-<p class="mt-7"><strong>#2 Classplus</strong> — strongest white-label institute-management depth (multi-teacher, batch, fee, attendance). Subscription Year-1 ₹3–6 lakh. No discovery. Right pick when institute ops are your bottleneck and you already have students.</p>
-
-<p><strong>#3 Teachmint</strong> — freemium classroom + LMS for institutes. Free tier genuinely usable; paid tier subscription. Deeper take in <a href="/blogs/en/free-coaching-app-for-tutors-with-student-traffic">free coaching app for tutors with student traffic</a>.</p>
-
-<p><strong>#4 Graphy</strong> — Unacademy's premium website-builder LMS. Best-in-class website polish; subscription Year-1 ₹4–7 lakh. Right pick for mature creators with 10K+ existing audience. Full breakdown in <a href="/blogs/en/graphy-alternative-with-organic-marketplace-traffic">Graphy alternative with organic marketplace traffic</a>.</p>
-
-<p><strong>#5 Spayee</strong> — India-built white-label LMS. Strong checkout, solid course delivery, no discovery layer. Comparable to Graphy at slightly lower cost.</p>
-
-<p><strong>#6 Unacademy</strong> — exam-prep aggregator with curated educator roster. Selective onboarding (most applications declined); creator becomes "X on Unacademy" — brand subordinated.</p>
-
-<p><strong>#7 Udemy</strong> — global marketplace with low-intent discovery. ~63% commission when student arrives via Udemy. Frequent ₹399 promo pricing erodes ARPU. Secondary channel only. See <a href="/blogs/en/why-educators-are-leaving-subscription-platforms">why educators are leaving subscription platforms</a>.</p>
-
-<p><strong>#8 Kajabi</strong> — US premium creator suite. $149+/month exceeds typical Indian ARPU; no India-native checkout. Right pick only for NRI educators earning in USD.</p>
-
-<p><strong>#9 Teachable</strong> — US platform, parity with Kajabi at slightly lower price. Same INR mismatch. Niche USD-earning creators only.</p>
-
-<p><strong>#10 Thinkific</strong> — Canada-built LMS, generous free tier, clean UX. No Indian discovery, no UPI depth. Hobby creators only; serious Indian educators outgrow it quickly.</p>
-
-<div class="def">
-<p class="def-l">Question Often Asked</p>
-<h3>Can I run AllCoaching alongside another course selling app?</h3>
-<p>Yes — and most serious Indian educators do. The recommended pattern is <strong>AllCoaching as the primary studio (organic discovery + high-intent Indian student base)</strong> and one secondary channel for top-of-funnel — usually Udemy for global low-intent reach or YouTube for content marketing. The ₹0 upfront cost makes parallel testing free; run a 30-day side-by-side and compare enrolment source by platform before consolidating. The deeper architectural argument is unpacked in <a style="text-decoration:none" href="/blogs/en/is-it-better-to-build-own-app-or-join-marketplace">is it better to build own app or join marketplace</a>.</p>
-</div>
-</section>
-<div class="orn">· · ·</div>
-
-<!-- ============ Get Started CTA ============ -->
-<section class="py-14 md:py-16" id="get-started">
-<div class="verdict">
-<p class="v-k">Get Started — ₹0 to publish</p>
-<h2 class="v-h">Skip the ranking. Launch your studio in 60 seconds.</h2>
-<p class="v-p">If you have a phone and one subject you teach well, you have everything needed to start. ₹0 upfront, 10% revenue-share on paid earnings only, built-in AI marketplace traffic.</p>
-<div class="mt-9 flex flex-wrap items-center justify-center gap-4">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
-<span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
-<span class="relative">Launch your free studio</span>
-<svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
-</a>
-<a class="group relative inline-flex items-center justify-center gap-2 no-underline" href="https://allcoaching.in/contact" rel="noopener" style="height:54px; padding:0 24px; border-radius:14px; color:#F5D8AE; font-family:'Inter Tight',sans-serif; font-weight:600; font-size:14.5px; letter-spacing:.005em; text-decoration:none; background:rgba(245,216,174,.04); border:1px solid rgba(245,216,174,.22); box-shadow:0 1px 0 rgba(255,255,255,.05) inset;" target="_blank">
-Talk to migration team
-<svg class="transition-transform group-hover:translate-x-1" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="14"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
-</a>
-</div>
-<div class="mt-7 inline-flex flex-wrap items-center justify-center gap-x-5 gap-y-2" style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; color:rgba(245,216,174,.5); font-weight:700; text-transform:uppercase;">
-<span>₹0 upfront</span>
-<span style="opacity:.4;">·</span>
-<span>AI marketplace discovery</span>
-<span style="opacity:.4;">·</span>
-<span>10% rev-share</span>
-<span style="opacity:.4;">·</span>
-<span>Automatic payouts</span>
-</div>
-</div>
-</section>
-
-<!-- ============ Glossary ============ -->
-<section class="py-12 md:py-14 border-b border-[#E5DDD0]" id="glossary">
-<p class="kicker">Glossary</p>
-<h2 class="h-chap font-display mt-3">Key terms —<br/><em>from this review.</em></h2>
-<div class="def">
-<p class="def-l">Term</p>
-<h3><dfn id="dfn-marketplace-platform">Marketplace Platform</dfn></h3>
-<p>A course-selling platform whose value proposition includes routing <strong>organic student traffic</strong> to creator profiles via the platform's own discovery surface. AllCoaching is the 2026 India marketplace leader; Udemy is the global equivalent with weaker creator economics.</p>
-</div>
-<div class="def">
-<p class="def-l">Term</p>
-<h3><dfn id="dfn-website-builder-lms">Website-Builder LMS</dfn></h3>
-<p>A platform that gives the creator a branded website to which <strong>the creator brings their own traffic</strong>. Graphy, Classplus, Spayee, Teachmint, Kajabi, Teachable, Thinkific are examples. Pricing is typically subscription. Distribution is the creator's responsibility.</p>
-</div>
-<div class="def">
-<p class="def-l">Term</p>
-<h3><dfn id="dfn-rev-share-vs-subscription">Revenue-Share vs Subscription</dfn></h3>
-<p>Revenue-share means the platform <strong>earns only when the creator earns</strong>. AllCoaching uses 10% revenue-share. Subscription pricing (most other apps) decouples platform earnings from creator outcomes — the platform is paid whether or not the creator sells.</p>
-</div>
-<div class="def">
-<p class="def-l">Term</p>
-<h3><dfn id="dfn-true-year-1-cost">True Year-1 Cost</dfn></h3>
-<p>The full cost an Indian educator incurs in their first year — <strong>base plan + custom domain + payment gateway + Play Store build + marketing add-ons</strong>. Advertised "₹999/month" plans frequently land at ₹3–7 lakh once the full stack is included. AllCoaching's true Year-1 cost is 10% of revenue earned, full stop.</p>
-</div>
-<div class="def">
-<p class="def-l">Term</p>
-<h3><dfn id="dfn-creator-cac">Creator CAC (Customer Acquisition Cost)</dfn></h3>
-<p>The total cost a creator spends to acquire one new paying student — <strong>ad spend, content creation, influencer fees, agency commission, and the creator's own time</strong>. For Indian creators on subscription LMS platforms, paid CAC commonly runs ₹800–₹5,000. Marketplace organic discovery reduces effective CAC by 60–80%.</p>
-</div>
-<div class="def">
-<p class="def-l">Term</p>
-<h3><dfn id="dfn-brand-subordination">Brand Subordination</dfn></h3>
-<p>The structural effect on aggregator platforms (Unacademy, Udemy) where the <strong>creator's own brand becomes secondary to the platform brand</strong> — students enrol with "X on Unacademy" rather than "X". White-label platforms (AllCoaching, Graphy, Classplus, Spayee) preserve creator brand; aggregator platforms subordinate it.</p>
-</div>
-</section>
-
-</div>
-
-<!-- ================= RELATED ARTICLES ================= -->
-<section class="py-24 bg-white relative overflow-hidden">
-  <div class="max-w-7xl mx-auto px-5">
-    <p class="kicker">More from AllCoaching Blog</p>
-    <h2 class="h-chap font-display mt-3">Continue <em>reading</em></h2>
-    <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <a style="text-decoration:none" href="/blogs/en/graphy-alternative-with-organic-marketplace-traffic" class="blog-card" aria-label="Read: Graphy Alternative with Organic Marketplace Traffic">
-        <div class="blog-card-img">
-          <img src="https://allcoaching.in/assets/blog/graphy-alternative-with-organic-marketplace-traffic/cover.webp" alt="Graphy Alternative with Organic Marketplace Traffic — AllCoaching distribution-first 2026" loading="lazy" width="1600" height="900" decoding="async" />
-        </div>
-        <div class="blog-card-body">
-          <span class="blog-card-tag">Alternative · 2026</span>
-          <h3>Graphy Alternative with Organic Marketplace Traffic</h3>
-          <p>Why Indian creators are choosing distribution-first platforms in 2026 — the website-vs-marketplace category distinction.</p>
-          <div class="blog-card-meta">
-            <span>By Amit Ratan</span><span class="dot"></span><span>18 min read</span>
-          </div>
-          <div class="blog-card-cta">Read guide</div>
-        </div>
-      </a>
-      <a style="text-decoration:none" href="/blogs/en/best-platforms-for-individual-course-creators-vs-institutes" class="blog-card" aria-label="Read: Best Platforms for Individual Course Creators vs Institutes">
-        <div class="blog-card-img">
-          <img src="https://allcoaching.in/assets/blog/best-platforms-for-individual-course-creators-vs-institutes/cover.webp" alt="Best Platforms for Individual Course Creators vs Institutes — segmentation guide 2026" loading="lazy" width="1600" height="900" decoding="async" />
-        </div>
-        <div class="blog-card-body">
-          <span class="blog-card-tag">Segmentation · 2026</span>
-          <h3>Course Creators vs Institutes — Segmentation Guide</h3>
-          <p>Individual creators and institutes have different platform needs. Eight Indian platforms mapped — and why dual-mode architecture is the structural answer.</p>
-          <div class="blog-card-meta">
-            <span>By Amit Ratan</span><span class="dot"></span><span>19 min read</span>
-          </div>
-          <div class="blog-card-cta">Read guide</div>
-        </div>
-      </a>
-      <a style="text-decoration:none" href="/blogs/en/free-coaching-app-for-tutors-with-student-traffic" class="blog-card" aria-label="Read: Free Coaching App for Tutors with Student Traffic">
-        <div class="blog-card-img">
-          <img src="https://allcoaching.in/assets/blog/free-coaching-app-for-tutors-with-student-traffic/cover.webp" alt="Free Coaching App for Tutors with Student Traffic — AllCoaching 2026" loading="lazy" width="1600" height="900" decoding="async" />
-        </div>
-        <div class="blog-card-body">
-          <span class="blog-card-tag">Free + Traffic · 2026</span>
-          <h3>Free Coaching App for Tutors with Student Traffic</h3>
-          <p>Why "free" without traffic is not actually free — and which 2026 platform delivers both at ₹0 upfront.</p>
-          <div class="blog-card-meta">
-            <span>By Amit Ratan</span><span class="dot"></span><span>17 min read</span>
-          </div>
-          <div class="blog-card-cta">Read guide</div>
-        </div>
-      </a>
+<!-- TOC -->
+    <div class="v3-byline v3-byline-m">
+      <img src="/assets/amit-ratan-2026.webp" alt="Amit Ratan" width="56" height="56" loading="lazy" />
+      <div><b><a href="/author/amit-ratan">Amit Ratan</a></b><span>Updated 29 Oct 2026 · <span class="rt">14 min read</span></span></div>
     </div>
-  </div>
-</section>
+    <details class="v3-toc-m">
+      <summary>On this page</summary>
+      <ol></ol>
+    </details>
+    <div class="v3-sidecta-m"><div class="v3-sidecta"><p>Start your online academy today. <b>7 days free.</b></p><a href="https://studio.allcoaching.in/">Start free trial <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3l5 5-5 5"/></svg></a></div></div>
+
+    <section id="intro">
+      <p><strong>The best course selling app in India depends on what you sell: for your own website and Android app (iOS app on Pro or any yearly plan) built yourself, AllCoaching; for test series, Learnyst; for sessions with nothing paid upfront, Exly; for training businesses with branches, Edmingle; and for one flat yearly price at higher sales, Classplus.</strong> We ranked ten apps against five criteria you can check on each official website, and every price below is from that site, checked on 24 Oct 2026.</p>
+      <p>We are AllCoaching and our app is in this list. Weigh that: we leave it out of the ranking and show it separately, scored on the same criteria. We publish the criteria and the score for each app so you can reweight them: if paying nothing before your first sale matters most to you, Exly ranks higher; if mock tests are your whole business, Learnyst does.</p>
+      <p>This 2026 update also drops apps from last year's list that no longer stand as separate course-selling products, and explains why.</p>
+    </section>
+
+    <div class="v3-keys" id="tldr">
+      <h2>Key takeaways</h2>
+      <ul>
+        <li><strong>Five criteria, all checkable:</strong> rupee price published, fee on sales stated, own domain plus own Android app at entry, start without a sales call, built for Indian educators.</li>
+        <li><strong>Top picks by use case:</strong> AllCoaching (own website and app), Learnyst (test series), Exly (no upfront fee), Edmingle (branches), Classplus (flat yearly price).</li>
+        <li><strong>AllCoaching takes 0% commission on every monthly plan (from ₹3,999 a month),</strong> or yearly Starter is ₹6,999 a year plus 10% only when you sell; GST extra; 7-day free trial, no card.</li>
+        <li><strong>Classplus lists ₹29,999 for 1 year;</strong> GST, any fee on sales and renewal price are not stated on its page (checked 24 Oct 2026).</li>
+        <li><strong>Graphy's rupee prices could not be confirmed</strong> on 24 Oct 2026, and Spayee's website now redirects to Graphy.</li>
+        <li><strong>Udemy is a marketplace, not an app you run;</strong> its revenue share could not be verified on its own page, so we do not quote one.</li>
+      </ul>
+    </div>
+
+
+    <section id="quick-answer">
+      <h2>The short answer: the best course selling app for each kind of educator</h2>
+      <p>No single app is best for every educator. Each row below is a common need and the app that fits it best on published facts.</p>
+      <figure class="v3-fig">
+        <img src="/assets/blog/review-of-top-10-course-selling-apps-in-india/verdict.webp" alt="Best course selling app in India by need: own website and app built yourself, AllCoaching; test series, Learnyst; nothing paid upfront, Exly; training business with branches, Edmingle; flat yearly price at higher sales, Classplus" width="1220" height="970" loading="lazy" decoding="async" />
+        <figcaption>Find your row first. The full ranking and the scores follow.</figcaption>
+      </figure>
+    </section>
+
+    <section id="how-we-ranked">
+      <h2>How we ranked the top 10 course selling apps</h2>
+      <p>We scored each app against five criteria that matter to an Indian educator selling their own courses, using only what each company publishes on its own website.</p>
+      <ol>
+        <li><strong>Rupee price published</strong>, so you can see the cost before talking to anyone.</li>
+        <li><strong>Fee on sales stated</strong>, because a percentage changes the total as you grow.</li>
+        <li><strong>Own domain and own branded Android app on the entry plan</strong>, so students remember your brand.</li>
+        <li><strong>Start without a sales call</strong>: a free trial, a no-upfront-fee plan or free sign-up.</li>
+        <li><strong>Built for Indian educators</strong>: rupee pricing and courses for Indian students.</li>
+      </ol>
+      <p>Apps are ordered by score, then by how many kinds of educators they serve. <strong>We do not rank our own platform.</strong> AllCoaching is shown separately at the end, with its score, so you can compare it on the same criteria. These criteria are our choice; a different reader might weigh price before the first sale or test-series depth more heavily, and the order would change.</p>
+      <div class="v3-note"><strong>Disclosure:</strong> AllCoaching publishes this guide. Competitor figures link to their official pages and carry the date we checked them (24 Oct 2026). Prices change; check the source before you decide. If you spot an error, write to contact@allcoaching.in and we will correct it.</div>
+    </section>
+
+    <section id="scores">
+      <h2>Course selling apps in India: the score table</h2>
+      <p>The table shows how each app scored. "No" means the official website did not show it on 24 Oct 2026, not that the app can never do it.</p>
+      <div class="v3-table"><table>
+        <thead><tr><th></th><th>₹ price published</th><th>Fee on sales stated</th><th>Own domain + own Android app at entry</th><th>Start without a call</th><th>Built for Indian educators</th><th>Score</th></tr></thead>
+        <tbody>
+          <tr><td>Learnyst</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td><td>4</td></tr>
+          <tr><td>Exly</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td><td>4</td></tr>
+          <tr><td>Edmingle</td><td>Yes</td><td>No</td><td>No</td><td>Yes</td><td>Yes</td><td>3</td></tr>
+          <tr><td>TagMango</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>Yes</td><td>3</td></tr>
+          <tr><td>Classplus</td><td>Yes</td><td>No</td><td>Partly</td><td>No</td><td>Yes</td><td>2</td></tr>
+          <tr><td>Teachable</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>2</td></tr>
+          <tr><td>Graphy</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>1</td></tr>
+          <tr><td>AppX</td><td>No</td><td>No</td><td>Partly</td><td>No</td><td>Yes</td><td>1</td></tr>
+          <tr><td>Udemy</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>1</td></tr>
+            <tr><td>AllCoaching (ours, not ranked)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>5</td></tr>
+          </tbody>
+        <caption>Scored from each official website, checked 24 Oct 2026. "Partly": Classplus lists an Android app and website but not iOS; AppX builds branded apps but publishes no plan. Graphy's rupee prices could not be confirmed. Partly counts as no in the score. Learnyst "Get started for free", Edmingle 7-day start, Graphy and Teachable trials, Exly no upfront fee and Udemy free publishing count as starting without a call.</caption>
+      </table></div>
+    </section>
+
+    <section id="ranking">
+      <h2>The top 10 course selling apps in India, reviewed</h2>
+      <p>Each app below is described the way its own company describes it, with the published price, what to check and the use case it suits best. The score is the number of our five criteria it meets on its own website.</p>
+      
+      <div class="v3-opt"><h3>1. Learnyst <small>· meets 4 of 5</small></h3><dl><dt>Good at</dt><dd>Courses, mock tests and live classes with content protection and test series; it pitches "Features required to market and sell your content online across globe".</dd><dt>Published price</dt><dd>Launcher ₹10,000/yr + 10% of sales; Professional ₹8,999/month (₹8,099 billed annually) with 0% transaction fees; higher plans up to ₹49,999/month; taxes extra.<sup><a href="#ref-2">[2]</a></sup></dd><dt>Check</dt><dd>Branded Android from Premium, branded iOS from Business, published under Learnyst's developer account.</dd><dt>Best for</dt><dd>Test series for NEET, JEE, SSC and banking exams.</dd></dl></div>
+      <div class="v3-opt"><h3>2. Exly <small>· meets 4 of 5</small></h3><dl><dt>Good at</dt><dd>Storefront, payments, CRM and WhatsApp and email automation for coaches selling courses, consultations and digital products; "an all-in-one solution to all things business".</dd><dt>Published price</dt><dd>Starter: no upfront fee + 10% commission; Pro ₹30,000/yr + 6%; Premium ₹1,08,000/yr + 3%.<sup><a href="#ref-3">[3]</a></sup></dd><dt>Check</dt><dd>A mobile app is an add-on from ₹60,000 a year; GST and a trial are not stated.</dd><dt>Best for</dt><dd>Coaches selling sessions, cohorts or digital products with nothing paid upfront.</dd></dl></div>
+      <div class="v3-opt"><h3>3. Edmingle <small>· meets 3 of 5</small></h3><dl><dt>Good at</dt><dd>An "AI-powered LMS purpose-built for professional training and skilling businesses", with batches, branches and white-labelled academies.</dd><dt>Published price</dt><dd>Core ₹7,499/month, Prime ₹14,999/month, Power ₹29,999/month, billed annually; taxes extra; 7-day free start.<sup><a href="#ref-4">[4]</a></sup></dd><dt>Check</dt><dd>Fee on sales not stated; branded Android from Prime, branded iOS from Power.</dd><dt>Best for</dt><dd>Training businesses and institutes with several batches or branches.</dd></dl></div>
+      <div class="v3-opt"><h3>4. TagMango <small>· meets 3 of 5</small></h3><dl><dt>Good at</dt><dd>Courses, community and automation for coaches, with an AI add-on stack and optional branded apps.</dd><dt>Published price</dt><dd>Basic: no fixed fee + 10% (up to 200 students); Pro ₹5,000/month + 5.5%; Advanced ₹15,000/month + 3.5%; Ultimate ₹30,000/month with zero commission; all + GST.<sup><a href="#ref-5">[5]</a></sup></dd><dt>Check</dt><dd>Custom domain via a ₹24,999 + GST yearly setup; branded apps ₹74,999 + GST setup; a trial is not stated.</dd><dt>Best for</dt><dd>Community-led coaching programmes.</dd></dl></div>
+      <div class="v3-opt"><h3>5. Classplus <small>· meets 2 of 5</small></h3><dl><dt>Good at</dt><dd>A branded teaching app plus website for coaching businesses; "Get your own brand's teaching app, create your own website &amp; sell courses".</dd><dt>Published price</dt><dd>₹29,999 for 1 year or ₹39,999 for 2 years.<sup><a href="#ref-6">[6]</a></sup></dd><dt>Check</dt><dd>GST, any fee on sales, renewal price and an iOS app are not stated on the pricing page.</dd><dt>Best for</dt><dd>Coaching institutes selling above about ₹2.3 lakh a year that want one flat price.</dd></dl></div>
+      <div class="v3-opt"><h3>6. Teachable (and Kajabi, Thinkific) <small>· meets 2 of 5</small></h3><dl><dt>Good at</dt><dd>International course platforms; Teachable says "Launch, sell, and scale your online business".</dd><dt>Published price</dt><dd>Teachable Starter $39/month ($29 billed annually) + 7.5%; Builder $89/month ($69) with 0%.<sup><a href="#ref-8">[8]</a></sup> Kajabi Basic $179/month ($143 billed annually), 0% revenue share.<sup><a href="#ref-9">[9]</a></sup> Thinkific Start $109/month ($82 billed annually).<sup><a href="#ref-10">[10]</a></sup> US dollars, excluding Indian GST.</dd><dt>Free trial</dt><dd>Teachable 7 days, Kajabi 14 days, Thinkific 30 days.</dd><dt>Check</dt><dd>Card processing fees and whether Indian students can pay by UPI.</dd><dt>Best for</dt><dd>Educators selling mainly to students abroad.</dd></dl></div>
+      <div class="v3-opt"><h3>7. Graphy <small>· meets 1 of 5</small></h3><dl><dt>Good at</dt><dd>An all-in-one platform for creators: website builder, branded mobile apps, digital products and AI sales agents.</dd><dt>Published price</dt><dd>Graphy publishes plans on graphy.com/pricing, but prices are shown by country and we could not confirm the Indian rupee plans on 24 Oct 2026; check the page from India. 7-day free trial.<sup><a href="#ref-7">[7]</a></sup></dd><dt>Check</dt><dd>The rupee price, the fee per sale and which plan includes the iOS app.</dd><dt>Best for</dt><dd>Educators selling to a large YouTube or Instagram audience they already have.</dd></dl></div>
+      <div class="v3-opt"><h3>8. AppX <small>· meets 1 of 5</small></h3><dl><dt>Good at</dt><dd>Branded website and apps (Android, iOS, desktop) set up for you; its site says setup takes "under 48 hours" or "3-5 days".</dd><dt>Published price</dt><dd>Not listed on its website (checked 24 Oct 2026); it starts with a free personalised demo.<sup><a href="#ref-11">[11]</a></sup></dd><dt>Check</dt><dd>The yearly cost, any fee on sales and who can change the app after launch.</dd><dt>Best for</dt><dd>Owners who want a done-for-you setup and are comfortable with a sales process.</dd></dl></div>
+      <div class="v3-opt"><h3>9. Udemy <small>· meets 1 of 5</small></h3><dl><dt>Good at</dt><dd>A global course marketplace where instructors publish courses to Udemy's existing learner base.</dd><dt>Published price</dt><dd>Publishing is not a paid plan. Udemy's instructor revenue-share page could not be retrieved on 24 Oct 2026, so we do not quote a percentage.<sup><a href="#ref-12">[12]</a></sup></dd><dt>Check</dt><dd>The current revenue share on Udemy's own support page, and who sets your course price.</dd><dt>Best for</dt><dd>Reaching learners worldwide alongside your own academy, not instead of it.</dd></dl></div>
+      <p>We publish this list, so we have left our own platform out of the ranking. Here is how it compares on the same five criteria.</p>
+      <div class="v3-opt us"><span class="tag">Our platform · disclosure</span><h3>AllCoaching <small>· our platform, not ranked · meets 5 of 5</small></h3><dl><dt>Good at</dt><dd>An academy you build yourself, like Shopify for coaching: sign up, choose a plan, upload your course, connect your domain and start selling. Website on your own domain, your own Android app (iOS app on Pro or any yearly plan), courses, tests, PDF notes, unlimited live classes on YouTube Live or Zoom and UPI checkout.</dd><dt>Published price</dt><dd>0% commission on monthly plans (Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 a month; keep 100% of every sale), or yearly from ₹6,999 + 10% on sales (Starter); GST extra; 7-day free trial, no card.<sup><a href="#ref-1">[1]</a></sup></dd><dt>Check</dt><dd>At very small sales, a no-upfront-fee app costs less than Starter; above about ₹2.3 lakh a year, Classplus's flat listed price is lower on paper.</dd><dt>Best for</dt><dd>Educators and institutes who want their own website and app, built themselves.</dd></dl></div>
+      <figure class="v3-fig">
+        <img src="/assets/blog/review-of-top-10-course-selling-apps-in-india/prices.webp" alt="Entry prices of top course selling apps in India from official sites, checked 24 Oct 2026: Exly and TagMango no upfront fee, AllCoaching ₹6,999 a year, Learnyst ₹10,000 a year, Classplus ₹29,999 a year, Edmingle ₹89,988 a year billed annually; Graphy and AppX not listed or not confirmed" width="1220" height="1056" loading="lazy" decoding="async" />
+        <figcaption>Lowest plan on each official pricing page, per year, in rupees. US-dollar apps are in the cards above.</figcaption>
+      </figure>
+    </section>
+
+    <section id="changes">
+      <h2>What changed since last year's list</h2>
+      <p>Three names from our earlier list are gone, because their official websites no longer show a separate course-selling product.</p>
+      <ul>
+        <li><strong>Spayee:</strong> spayee.com now redirects to graphy.com (checked 24 Oct 2026).<sup><a href="#ref-13">[13]</a></sup> Educators who used Spayee should look at Graphy, which is in this list.</li>
+        <li><strong>Teachmint:</strong> its website now leads with Teachmint X, an "AI-Powered Connected Classroom Device", and lists no plans or prices; you book a demo.<sup><a href="#ref-14">[14]</a></sup> It fits schools and classrooms more than selling courses online.</li>
+        <li><strong>Unacademy:</strong> it describes itself as "India's largest online learning platform", but we found no public page for educators to sell their own courses on it.<sup><a href="#ref-15">[15]</a></sup></li>
+      </ul>
+      <p>Kajabi and Thinkific now share a card with Teachable, because all three are US-dollar platforms that suit the same educator. We also removed figures from the earlier version that we could not source, such as estimated first-year costs and migration times.</p>
+      <div class="v3-q">
+        <p class="l">Question educators ask</p>
+        <h3>Which course selling app brings me students?</h3>
+        <p>Mostly, you bring your own students from YouTube, Instagram, WhatsApp and search, whichever app you choose. Udemy has its own global learner base. AllCoaching also lists your courses on the AllCoaching marketplace app, which helps discovery, but your own channels remain the main way students find you.</p>
+      </div>
+      <figure class="v3-fig">
+        <img src="/assets/blog/review-of-top-10-course-selling-apps-in-india/before-after.webp" alt="Before and after: selling courses through YouTube links, UPI screenshots, WhatsApp notes and Google Forms tests, compared with one course selling app with your own website, Android app (iOS app on Pro or any yearly plan), live classes and UPI checkout" width="1220" height="940" loading="lazy" decoding="async" />
+        <figcaption>Whichever app you pick, the goal is the same: one place for your courses, students and payments.</figcaption>
+      </figure>
+    </section>
+
+    <section id="cost">
+      <h2>What the top course selling apps cost as you grow</h2>
+      <p>A yearly price is half the story when an app also takes a percentage. The chart adds each published plan price to its published fee at five sales levels and picks each app's lowest-cost plan every time.</p>
+      <figure class="v3-fig">
+        <img src="/assets/blog/review-of-top-10-course-selling-apps-in-india/cost.webp" alt="Total yearly cost at sales up to ₹10 lakh from published prices for AllCoaching, Classplus, Learnyst and TagMango" width="1220" height="940" loading="lazy" decoding="async" />
+        <figcaption>Before GST. Classplus's line is its listed price only; TagMango's leaves out its custom-domain setup.</figcaption>
+      </figure>
+      <div class="v3-table"><table><thead><tr><th>Your sales in a year</th><th>AllCoaching (best plan)</th><th>Classplus</th><th>Learnyst</th><th>TagMango</th></tr></thead><tbody><tr><td>No sales yet</td><td>₹6,999 (Starter yearly)</td><td>₹29,999</td><td>₹10,000</td><td>₹0</td></tr><tr><td>₹1 lakh</td><td>₹16,999 (Starter yearly)</td><td>₹29,999</td><td>₹20,000</td><td>₹10,000</td></tr><tr><td>₹3 lakh</td><td>₹35,499 (Growth yearly)</td><td>₹29,999</td><td>₹40,000</td><td>₹30,000</td></tr><tr><td>₹5 lakh</td><td>₹47,988 (Starter monthly)</td><td>₹29,999</td><td>₹60,000</td><td>₹50,000</td></tr><tr><td>₹10 lakh</td><td>₹47,988 (Starter monthly)</td><td>₹29,999</td><td>₹97,188</td><td>₹1,00,000</td></tr></tbody><caption>Plan price + published fee on sales, lowest-cost plan per row, before GST. Classplus: listed price; fee on sales not stated. Learnyst: Launcher or Professional (annual), taxes extra. TagMango: Basic (up to 200 students) to Ultimate, + GST; domain setup not included.</caption></table></div>
+      <p><strong>The honest reading:</strong> at small sales, TagMango Basic and Exly Starter, with no upfront fee, cost less than any annual plan, though TagMango Basic stops at 200 students. AllCoaching costs less than Classplus up to about ₹2.3 lakh a year; above that, Classplus's flat listed price is lower on paper, before any fees it may charge. Learnyst Launcher stays about ₹3,000 above AllCoaching Starter at low sales, and its 0%-fee Professional plan costs ₹97,188 a year billed annually, with a common rather than branded app; AllCoaching Starter monthly, at 0% commission with your own Android app, is ₹3,999 a month (₹47,988 a year). Run your own numbers in our <a href="/pricing#finder">plan finder</a>.</p>
+      <div class="v3-cta">
+        <p class="t">Build your own academy. <em>Try it free for 7 days.</em></p>
+        <p class="s">Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).</p>
+        <div class="row"><a href="https://studio.allcoaching.in/" class="v3-btn">Start free trial</a><a href="/pricing" class="v3-btn ghost">See plans</a></div>
+        <small>No card needed · Cancel anytime in the trial · Export your data any time</small>
+      </div>
+    </section>
+
+    <section id="choose">
+      <h2>Which course selling app fits your teaching</h2>
+      <h3>Exam educator (NEET, JEE, SSC, banking, UPSC)</h3>
+      <p>Tests, live classes and recorded lectures all matter. Compare Learnyst and AllCoaching, both with test series. See our <a href="/blog/online-neet-coaching-platform-for-educators">online NEET coaching platform guide</a>.</p>
+      <h3>Skill educator (spoken English, yoga, music)</h3>
+      <p>Live batches and a recognisable brand matter most. Read <a href="/blog/online-teaching-platform-for-spoken-english-teachers">the best platform for spoken English teachers</a> and <a href="/blog/how-to-teach-yoga-fitness-classes-online-india">how to teach yoga classes online</a>.</p>
+      <h3>Beginner selling a first course</h3>
+      <p>Start on a free trial or a no-upfront-fee plan, and keep costs low until students pay. Our guide to the <a href="/blogs/en/cheapest-lms-for-early-stage-educators">lowest-risk LMS for early-stage educators</a> compares trials.</p>
+      <h3>Coaching institute</h3>
+      <p>Teacher logins, batches and one brand come first. Compare <a href="/blogs/en/best-platforms-for-individual-course-creators-vs-institutes">platforms for solo educators vs institutes</a> and the <a href="/blog/best-lms-for-coaching-institutes-india">best LMS for coaching institutes</a>.</p>
+      <h3>Already on Udemy</h3>
+      <p>Keep it as one channel and build your own academy next to it. See our <a href="/blog/udemy-alternative-for-indian-instructors">Udemy alternative guide for Indian instructors</a>.</p>
+    </section>
+
+    <section id="switch">
+      <h2>How to move to a new course selling app without losing students</h2>
+      <p>The safe way to change apps is to run both side by side: current students stay where they are until their batch ends, and new admissions go to the new app.</p>
+      <figure class="v3-fig">
+        <img src="/assets/blog/review-of-top-10-course-selling-apps-in-india/switch.webp" alt="Four steps to switch course selling apps: build your academy, run both side by side, move new admissions, close the old plan after the last batch" width="1220" height="640" loading="lazy" decoding="async" />
+        <figcaption>Nobody loses access, and nobody pays twice.</figcaption>
+      </figure>
+      <ol class="v3-steps" id="howto-steps" data-total-time="P30D">
+        <li><b>Build your new academy</b><span>Start a free trial, connect your domain and upload one complete course with its demo lesson.</span></li>
+        <li><b>Run both apps side by side</b><span>Keep current students on the old app until their batch or validity ends, so nobody loses access.</span></li>
+        <li><b>Send new admissions to the new app</b><span>Share your own website and app link on WhatsApp, YouTube and Instagram for every new batch.</span></li>
+        <li><b>Export records and close the old plan</b><span>Download student and payment records, then let the old plan end at renewal.</span></li>
+      </ol>
+      <p>The full checklist, including messages to send students, is in <a href="/blog/switch-coaching-apps-without-losing-students">how to switch coaching apps without losing students</a>.</p>
+    </section>
+
+    <section id="glossary" class="v3-gloss">
+      <h2>Glossary</h2>
+      <dl>
+        <dt><dfn id="dfn-course-selling-app">Course selling app</dfn></dt>
+        <dd>Software that lets an educator publish courses, take payments and give students access, usually with a website and a mobile app.</dd>
+        <dt><dfn id="dfn-platform-fee">Platform fee</dfn></dt>
+        <dd>A percentage the app keeps from each sale. AllCoaching's is 0% on every monthly plan, and 10%, 7.5% or 5% on the yearly Starter, Growth or Pro plan.</dd>
+        <dt><dfn id="dfn-marketplace">Course marketplace</dfn></dt>
+        <dd>A site such as Udemy where many educators list courses to the site's own learners, under the site's brand.</dd>
+        <dt><dfn id="dfn-white-label-app">White-label app</dfn></dt>
+        <dd>An Android or iOS app that carries your name and logo, built on a platform's technology.</dd>
+        <dt><dfn id="dfn-custom-domain">Custom domain</dfn></dt>
+        <dd>Your own web address, such as youracademy.in, connected to your academy website.</dd>
+      </dl>
+    </section>
+
+    <section id="faq" class="v3-faq">
+      <h2>Frequently asked questions</h2>
+      <details open><summary>What is the best course selling app in India in 2026?</summary><p>It depends on what you sell. We do not rank our own platform, but AllCoaching fits educators who want their own website and app built themselves, with 0% commission on every monthly plan; Learnyst suits test series, Exly suits selling with nothing upfront, Edmingle suits training businesses with branches and Classplus suits institutes that want one flat yearly price.</p></details>
+      <details open><summary>Which course selling app costs the least to start?</summary><p>On published prices, Exly Starter and TagMango Basic have no upfront fee and take 10% of each sale, so they cost least before your first sale. AllCoaching starts with a 7-day free trial with no card, then 0% commission on every monthly plan from ₹3,999 a month, or ₹6,999 a year plus 10% of sales on yearly Starter.</p></details>
+      <details open><summary>Which course selling app brings me students?</summary><p>Mostly you bring your own students, whichever app you choose. Udemy has its own global learner base, and AllCoaching lists your courses on its marketplace app as an extra, but YouTube, Instagram, WhatsApp and search stay the main channels.</p></details>
+      <details open><summary>Should I use Udemy as an Indian educator?</summary><p>Use it as one channel next to your own academy, not instead of it. Udemy's instructor revenue-share page could not be retrieved on 24 Oct 2026, so check the current share on Udemy's own site.</p></details>
+      <details open><summary>Are Kajabi, Teachable and Thinkific worth it for Indian educators?</summary><p>They suit educators selling mainly abroad. They are priced in US dollars: Teachable from $29, Thinkific from $82 and Kajabi from $143 a month billed annually, before Indian GST.</p></details>
+      <details open><summary>Which course selling app is best for a small coaching institute?</summary><p>Look for separate teacher logins, batches and your own brand. AllCoaching includes these with 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 plus a 10% fee on sales; Classplus lists one flat ₹29,999 a year; Edmingle suits larger training businesses.</p></details>
+      <details open><summary>What happened to Spayee?</summary><p>spayee.com now redirects to graphy.com (checked 24 Oct 2026), so we treat former Spayee users as now on Graphy.</p></details>
+      <details open><summary>Can I try a course selling app before paying?</summary><p>Yes. AllCoaching gives 7 days with no card, Graphy and Kajabi 14 days, Thinkific 30 days and Teachable 7 days. Exly Starter and TagMango Basic have no upfront fee but take 10% of each sale.</p></details>
+    </section>
+
+    <section id="references" class="v3-refs">
+      <h2>Sources</h2>
+      <ol>
+        <li id="ref-1">AllCoaching pricing, <a href="/pricing">allcoaching.in/pricing</a>.</li>
+        <li id="ref-2">Learnyst pricing, <a href="https://www.learnyst.com/pricing" target="_blank" rel="noopener nofollow">learnyst.com/pricing</a>, checked 24 Oct 2026 (prices shown in ₹ for Indian visitors).</li>
+        <li id="ref-3">Exly pricing, <a href="https://exlyapp.com/pricing" target="_blank" rel="noopener nofollow">exlyapp.com/pricing</a>, checked 24 Oct 2026.</li>
+        <li id="ref-4">Edmingle India pricing, <a href="https://www.edmingle.com/in/pricing/" target="_blank" rel="noopener nofollow">edmingle.com/in/pricing</a>, checked 24 Oct 2026.</li>
+        <li id="ref-5">TagMango pricing, <a href="https://tagmango.com/pricing" target="_blank" rel="noopener nofollow">tagmango.com/pricing</a>, checked 24 Oct 2026.</li>
+        <li id="ref-6">Classplus pricing page, <a href="https://classplusapp.com/new-web" target="_blank" rel="noopener nofollow">classplusapp.com/new-web</a>, checked 24 Oct 2026.</li>
+        <li id="ref-7">Graphy pricing, <a href="https://graphy.com/pricing" target="_blank" rel="noopener nofollow">graphy.com/pricing</a>, checked 24 Oct 2026; the page showed non-Indian prices from our connection, so rupee plans are not quoted here.</li>
+        <li id="ref-8">Teachable pricing, <a href="https://www.teachable.com/pricing" target="_blank" rel="noopener nofollow">teachable.com/pricing</a>, checked 24 Oct 2026 (US dollars).</li>
+        <li id="ref-9">Kajabi pricing, <a href="https://www.kajabi.com/pricing-new" target="_blank" rel="noopener nofollow">kajabi.com/pricing-new</a>, checked 24 Oct 2026 (US dollars).</li>
+        <li id="ref-10">Thinkific pricing, <a href="https://www.thinkific.com/pricing/" target="_blank" rel="noopener nofollow">thinkific.com/pricing</a>, checked 24 Oct 2026 (US dollars).</li>
+        <li id="ref-11">AppX website and FAQ, <a href="https://appx.co.in/" target="_blank" rel="noopener nofollow">appx.co.in</a>, checked 24 Oct 2026.</li>
+        <li id="ref-12">Udemy, <a href="https://www.udemy.com" target="_blank" rel="noopener nofollow">udemy.com</a>; the instructor revenue-share page could not be retrieved on 24 Oct 2026.</li>
+        <li id="ref-13">Spayee, <a href="https://www.spayee.com/" target="_blank" rel="noopener nofollow">spayee.com</a>, redirects to graphy.com (checked 24 Oct 2026).</li>
+        <li id="ref-14">Teachmint website, <a href="https://www.teachmint.com" target="_blank" rel="noopener nofollow">teachmint.com</a>, checked 24 Oct 2026.</li>
+        <li id="ref-15">Unacademy, <a href="https://unacademy.com/" target="_blank" rel="noopener nofollow">unacademy.com</a>, checked 24 Oct 2026; no educator programme page was found.</li>
+      </ol>
+    </section>
+
+    <div class="v3-author" id="about-author">
+      <img src="/assets/amit-ratan-2026.webp" alt="Amit Ratan, Founder and CEO of AllCoaching" width="72" height="72" loading="lazy" />
+      <div>
+        <b><a href="/author/amit-ratan">Amit Ratan</a></b>
+        <span>Founder &amp; CEO, AllCoaching</span>
+        <p>Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. AllCoaching wrote this comparison, so we link every competitor figure to its official source and say where another option fits better.</p>
+      </div>
+    </div>
+  
+</div>
