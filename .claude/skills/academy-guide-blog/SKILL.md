@@ -1,9 +1,20 @@
 ---
 name: academy-guide-blog
-description: Write AllCoaching "guide" blog posts (English only from 2026-10-24) the way Shopify's blog grew Shopify, re-engineered for Indian educators. Teaches educators to build, sell, market and grow their OWN online academy (marketplace is secondary), in the Shopify-style v3 reading layout (Inter, three-column grid, sticky "On this page", CTA cards) with branded, Apple-style graphics (real Studio screenshots in MacBook/iPhone frames, real Google/YouTube/Instagram/WhatsApp marks, lavender canvas, heavy black + electric-blue headlines). Built to be eligible for every search surface at once: Google rankings, AI Overviews and AI Mode, featured snippets, People Also Ask, rich meta descriptions, Google Images/Discover, ChatGPT Search, Perplexity, Gemini and Claude. Use for any new AllCoaching blog post, any "Shopify-style" or "guide" blog, blog graphics/illustrations, refreshing an old post into the new layout, or planning the educator-growth content calendar.
+description: THE blog-writing skill for AllCoaching. Apply it whenever the owner says "blog likho", "post likho", "article" or "guide", or gives a keyword/topic to write, and for refreshing old posts, blog graphics and the content calendar. Writes Shopify-style "guide" posts (English) that teach Indian educators to build, sell, market and grow their OWN academy, in the v3 reading layout (Inter, three-column grid, sticky "On this page", CTA cards) with branded Apple-style graphics (real studio screenshots in MacBook/iPhone frames, real Google/YouTube/Instagram/WhatsApp marks, lavender canvas, black + electric-blue headlines). Built for every search surface at once: Google rankings, featured snippets, People Also Ask, AI Overviews and AI Mode, ChatGPT Search, Perplexity, Gemini and Claude. Always loads the allcoaching master skill first for pricing and claims.
 ---
 
 # AllCoaching guide blog (v3) — the Shopify playbook for educators
+
+## 0. When the owner says "blog likho" — do this, in order
+1. **Load the `allcoaching` master skill first** (pricing, claims register, voice, brand). Nothing in a post may contradict it — no free plan, no AI question generator, no demo, 0% only on monthly plans, 7-day trial no card.
+2. **Pick / confirm the keyword.** If the owner gave a topic, turn it into one primary keyword + 5–10 long-tails. Check it is distinct from existing posts (`blog/`, `blogs/en/`, `blogs/hinglish/` titles and `roadmap.md`); if it overlaps, say which post exists and propose a REFRESH or a distinct angle. If no topic was given, propose the next planned item from `roadmap.md`.
+3. **Outline in chat (short)** only if the topic is new or ambiguous: title (≤60 chars), H1, 8–11 H2 questions, the step procedure, graphics list. Otherwise write straight away.
+4. **Write the post** to every rule in §1–§6 below (answer-first, problem before product, steps → HowTo, FAQ 6–10, glossary, 2–5 cited references, 1–3 product paragraphs, illustrative numbers labelled, English, Indian spelling, author Amit Ratan).
+5. **Build it — depends on where you are:**
+   - **In the repo** (`allcoaching-prod-landing`): write the content as `content/<slug>.json` (same keys as `content/how-to-start-online-academy-in-5-steps.json` — in the claude.ai copy of this skill it is `examples/how-to-start-online-academy-in-5-steps.json`: slug, dir, lang, title, description, og_description, keywords, h1, dek, category, date_published, date_modified, checked, cover_alt, audience, author_note, intro, takeaways, sections, steps, faq, glossary, references, citations, about, mentions, related), make graphics (§5), run `python3 .claude/scripts/build_v3_post.py .claude/skills/academy-guide-blog/content/<slug>.json`, register and validate (§6 "Run before finishing"), screenshot at 1440 and 390 px.
+   - **Outside the repo** (claude.ai / Claude app): deliver the finished post as one document — title, meta description, slug, H1, dek, key takeaways, full body with H2/H3, steps, FAQ, glossary, references, cover + graphic briefs (what each graphic shows), internal-link suggestions — and the same content as a `content/<slug>.json` block so it can be built in the repo later. Say clearly that publishing happens in the repo.
+6. **Self-check** with the `allcoaching` 10-point check + the §6 checklist (banned words, prices, claims, title/description length, FAQ = visible text).
+7. **Stop.** Never commit or push unless the owner asks; when asked, follow the deploy flow in the `allcoaching` skill (`references/09-website-and-repo.md`).
 
 This skill is the default for new AllCoaching blog posts from 2026-10-24. It sits on top of:
 - `allcoaching` skill: product and pricing truth. Never contradict it.
@@ -138,7 +149,7 @@ Every post ships a cover + 6–12 in-article graphics. They are generated, never
 - [ ] Cited statistics + References; at least one quote from an authority (Google docs, official body, named expert).
 - [ ] Named author with Person schema and `sameAs`; first-person experience lines.
 - [ ] Glossary with `<dfn>` (DefinedTermSet) for "what is" retrieval.
-- [ ] Six JSON-LD blocks: Article (+TechArticle, about/mentions with Wikipedia sameAs, speakable, citation, wordCount, audience, isPartOf) · FAQPage · BreadcrumbList · HowTo · SoftwareApplication (AllCoaching, AggregateOffer ₹6,999–₹24,999) · DefinedTermSet.
+- [ ] Six JSON-LD blocks: Article (+TechArticle, about/mentions with Wikipedia sameAs, speakable, citation, wordCount, audience, isPartOf) · FAQPage · BreadcrumbList · HowTo · SoftwareApplication (AllCoaching, AggregateOffer lowPrice 3999, highPrice 24999, offerCount 6, INR) · DefinedTermSet.
 - [ ] Entry in `llms.txt` (dense, entity-rich, top of the English blog list) and rebuilt `llms-full.txt`.
 - [ ] Brand mentions off-site plan: YouTube description, LinkedIn post, Quora/Reddit answer that cites the guide (see `blog-post` repurposing kit).
 

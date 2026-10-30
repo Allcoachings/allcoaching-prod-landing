@@ -3,6 +3,7 @@
 Newest first. A newer line always overrides an older one. Add a dated line whenever the owner confirms or changes something, then update `SKILL.md`, the matching reference file and `CLAUDE.md`.
 
 ## 2026-10-30
+- **Blog skill:** `academy-guide-blog` is THE skill to apply whenever the owner says "blog likho"; it loads this master skill first. Also uploaded to the owner's claude.ai account (repo copy is the master; re-upload the zip after changes).
 - **Live demo retired.** `/demo/` pages redirect to `/start` (noindex); no "live demo", "free demo" or "click-through demo" anywhere. Use the 7-day trial and /pricing.
 - **No AI question generation** in the studio (yet). Educators draft with general AI tools, review, then upload.
 - **Real features confirmed:** test series all-India rank and percentile; certificates (branded, auto-issued, unique ID); bulk student import (Excel/Google Sheet); full-screen anti-cheat lock; randomised question order; course page with SEO, schema and checkout created automatically on save; founder bio as written.
