@@ -14,7 +14,7 @@
   if (window.ACStudioAnim) return;
 
   var IMG = '/landing/img/studio-';
-  var V = '?v=1';
+  var V = '?v=2';
   // key, label, image, zoom origin x/y (%), zoom, click x/y (%)
   var STEPS = [
     ['templates', 'Templates', 52, 80, 1.55, 33, 82],

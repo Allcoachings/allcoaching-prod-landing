@@ -54,7 +54,7 @@ def cover(slug):
     size = 76 if len(rows) <= 3 and max(len(r) for r in rows) <= 17 else 64
     rows[-1] = '*' + rows[-1] + '*'
     hing = d == 'blogs/hinglish'
-    sub = 'Growth aur Pro par 0% commission · 7 din free trial' if hing else '0% commission on Growth and Pro · 7-day free trial'
+    sub = 'Monthly plans par 0% commission · 7 din free trial' if hing else '0% commission on monthly plans · 7-day free trial'
     checks = (['Apni website, apna domain', 'Apna Android app', 'Courses, tests aur live classes'] if hing
               else ['Your website on your own domain', 'Your own Android app', 'Courses, tests and live classes'])
     b = lockup(72, 60, 1.0)

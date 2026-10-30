@@ -134,7 +134,7 @@ vend = [('Classplus', '₹29,999 for 1 year', 'Android app + website. Fee on sal
         ('TagMango', '₹74,999 + GST', 'Branded Apps Stack, one-time setup, on top of a plan.', False),
         ('Exly', 'From ₹60,000 a year', 'Mobile app (iOS and Android) add-on to a plan.', False),
         ('Learnyst', '₹14,999 a month', 'Premium, billed monthly + taxes: branded Android app.', False),
-        ('AllCoaching', '₹6,999 a year + GST', 'Android app on every plan, Starter + 10%. At 0%: Growth ₹7,999/mo.', True)]
+        ('AllCoaching', '₹3,999 a month + GST', 'Android app on every plan, 0% commission. Yearly from ₹6,999 + 10%.', True)]
 for i, (n, p, note, hl) in enumerate(vend):
     y = 200 + i * 148
     b += white_panel(60, y, 1100, 128, 24, big=hl)
@@ -162,11 +162,12 @@ save('hidden-costs', svg(W, H, b, 'Hidden costs in a white label coaching app co
 # 7. year-one cost on AllCoaching plans --------------------------------------------------------------
 W, H = 1220, 1080
 SALES = 1000000
-plans = [('Starter', 'Yearly · 10% fee on sales', 6999, 0.10),
-         ('Growth', 'Paid yearly (2 months free) · 0% commission', 79990, 0.0),
-         ('Growth', 'Monthly ₹7,999 × 12 · 0% commission', 95988, 0.0),
-         ('Pro', 'Paid yearly · 0% · iOS app and 4K', 149990, 0.0),
-         ('Pro', 'Monthly ₹14,999 × 12 · 0% · iOS app and 4K', 179988, 0.0)]
+plans = [('Starter', 'Yearly · 10% fee · Android and iOS app', 6999, 0.10),
+         ('Growth', 'Yearly · 7.5% fee · Android and iOS app', 12999, 0.075),
+         ('Pro', 'Yearly · 5% fee · Android and iOS app, 4K', 24999, 0.05),
+         ('Starter', 'Monthly ₹3,999 × 12 · 0% commission', 47988, 0.0),
+         ('Growth', 'Monthly ₹5,999 × 12 · 0% commission', 71988, 0.0),
+         ('Pro', 'Monthly ₹7,999 × 12 · 0% · iOS app and 4K', 95988, 0.0)]
 tot = [p + f * SALES for _, _, p, f in plans]
 low = min(tot)
 b = headline(60, 100, ['Year-one cost at', '*₹10 lakh of sales*'], 52)
@@ -187,7 +188,7 @@ for i, ((n, sub, p, f), t_) in enumerate(zip(plans, tot)):
     pct = ('%g' % (f * 100)) + '%'
     b += text(880, y + 58, (f'{pct} = {inr(f * SALES)}' if f else '0% = no fee'), 24, INK, 500, 'end', F_HEAD)
     b += text(1110, y + 58, inr(t_), 30, BLUE if hl else INK, 800, 'end', F_HEAD, -1)
-b += text(60, 990, 'Below about ₹7 lakh of yearly sales, Starter usually costs least; above that, Growth at 0% commission usually leaves more.', 18, INK, 600)
+b += text(60, 990, 'Below about ₹4 lakh of yearly sales, yearly Starter usually costs least; above that, a monthly 0% plan usually leaves more.', 18, INK, 600)
 b += text(60, H - 28, 'Illustrative. Plan price and platform fee only, before GST. Gateway charges separate.', 16, MUTED) + signature(W, H)
 save('year-one-cost', svg(W, H, b, 'Illustrative year-one cost of a coaching app with website on AllCoaching plans at ₹10 lakh of sales'))
 
@@ -210,16 +211,16 @@ save('vendor-questions', svg(W, H, b, 'Twelve questions to ask a white label coa
 W, H = 1220, 1000
 b = lockup(60, 54, 0.8)
 b += headline(60, 250, ['Your own app.', '*No build*', '*project.*'], 62)
-b += lines(64, 440, ['Website on your domain and your', 'own Android app on every plan.', 'iOS app on Pro.'], 24, MUTED, 1.4)
+b += lines(64, 440, ['Website on your domain and your', 'own Android app on every plan.', 'iOS app on Pro or yearly plans.'], 24, MUTED, 1.4)
 b += laptop(560, 120, 520, 'studio-desktop.jpg')
 b += phone(1010, 220, 170, 'studio-mobile.jpg')
 b += text(560, 520, 'AllCoaching Studio preview · sample data', 14, MUTED)
-for k, (lab, ic, sub) in enumerate([('Android app', 'phone', 'Every plan'), ('iOS app', 'phone', 'Pro plans'), ('Website', 'globe', 'Your domain'),
+for k, (lab, ic, sub) in enumerate([('Android app', 'phone', 'Every plan'), ('iOS app', 'phone', 'Pro or yearly'), ('Website', 'globe', 'Your domain'),
                                      ('Live classes', 'users', 'Unlimited'), ('UPI & cards', 'card', 'Razorpay payouts')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += logo_tile(60, 790, logo_youtube, 56)
 b += text(132, 826, 'Unlimited video via YouTube', 20, INK, 600)
 b += button(60, 870, 540, 'Start your academy', 92, 36)
-b += text(640, 910, '0% commission on Growth and Pro', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 946, '7 days free · no card needed', 21, MUTED)
+b += text(640, 910, '0% commission on monthly plans', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 946, '7 days free · no card needed', 21, MUTED)
 b += text(1160, 826, 'Logos belong to their owners.', 14, MUTED, anchor='end')
-save('academy-app-promo', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: own Android app on every plan, iOS on Pro, website on your domain'))
+save('academy-app-promo', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: own Android app on every plan, iOS on Pro monthly and every yearly plan, website on your domain'))

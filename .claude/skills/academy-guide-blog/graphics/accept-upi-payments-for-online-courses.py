@@ -193,5 +193,5 @@ for k, (lab, ic, sub) in enumerate([('UPI & cards', 'card', 'Every plan'), ('Acc
                                      ('Website', 'globe', 'Your domain'), ('Your app', 'phone', 'Android')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, '0% commission on Growth and Pro', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
+b += text(640, 890, '0% commission on monthly plans', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('academy-upi-checkout', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: UPI and card checkout, automatic access and Razorpay payouts on every plan'))

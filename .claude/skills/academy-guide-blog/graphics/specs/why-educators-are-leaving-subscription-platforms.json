@@ -24,8 +24,8 @@
   "rows": [
    {
     "need": "You are new, or your sales come in exam seasons",
-    "pick": "Small plan + fee",
-    "why": "AllCoaching: 0% commission on Growth, or ₹6,999/yr + 10%; own domain and app included",
+    "pick": "AllCoaching",
+    "why": "AllCoaching: 0% commission monthly from ₹3,999, or ₹6,999/yr + 10%; own domain and app included",
     "icon": "trend",
     "us": true
    },
@@ -66,7 +66,7 @@
     "name": "AllCoaching",
     "price": 6999,
     "label": "₹6,999/yr",
-    "fee": "+10% on sales (Starter)",
+    "fee": "+10% yearly (Starter) · 0% monthly from ₹3,999/mo",
     "published": true
    },
    {
@@ -199,8 +199,8 @@
    "*of every sale.*"
   ],
   "checks": [
-   "0% commission on Growth and Pro",
-   "Or Starter: a fee only on sales",
+   "0% commission on every monthly plan",
+   "Or yearly: small fee per sale",
    "Own domain and app included",
    "Prices published upfront",
    "7-day trial, no card"

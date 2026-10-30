@@ -9,7 +9,7 @@
  "verdict": {
   "title": ["Pick by *what members pay for*"],
   "rows": [
-   {"need": "A study batch with live classes, tests and notes", "pick": "AllCoaching", "why": "Own app and domain, unlimited live classes, UPI checkout; 0% commission on Growth, or ₹6,999/yr + 10%", "icon": "video", "us": true},
+   {"need": "A study batch with live classes, tests and notes", "pick": "AllCoaching", "why": "Own app and domain, unlimited live classes, UPI checkout; 0% commission monthly from ₹3,999, or ₹6,999/yr + 10%", "icon": "video", "us": true},
    {"need": "Course plus community, priced in rupees", "pick": "TagMango", "why": "Basic: no fixed fee + 10%, up to 200 students; domain setup ₹24,999/yr", "icon": "users"},
    {"need": "A gamified discussion feed is the product", "pick": "Skool (stay)", "why": "US$9 a month + 10% (Hobby) or US$99 + 2.9% (Pro)", "icon": "message"},
    {"need": "A large branded hub with events", "pick": "Circle.so (stay)", "why": "From US$89 a month on annual billing, taxes excluded", "icon": "calendar"}
@@ -19,7 +19,7 @@
   "title": ["Entry price, *as published*"],
   "sub": "Lowest plan on each official page. US-dollar prices are not converted.",
   "rows": [
-   {"name": "AllCoaching", "price": 6999, "label": "₹6,999/yr", "fee": "+10% on sales (Starter)", "published": true},
+   {"name": "AllCoaching", "price": 6999, "label": "₹6,999/yr", "fee": "+10% yearly (Starter) · 0% monthly from ₹3,999/mo", "published": true},
    {"name": "TagMango", "price": 0, "label": "No fixed fee", "fee": "+10% (Basic, up to 200 students), + GST", "published": true},
    {"name": "Skool", "price": 0, "label": "US$9/mo", "fee": "Hobby, in US dollars; +10% transaction fee", "published": false},
    {"name": "Circle.so", "price": 0, "label": "US$89/mo", "fee": "Professional, annual billing, in US dollars; taxes excluded", "published": false}
@@ -48,6 +48,6 @@
   "tapes": ["Community bill in US dollars", "Leaderboard, not progress", "Doubts lost in the feed", "Tests on Google Forms", "Class links on WhatsApp"],
   "note": ["Too many", "tools"],
   "right_title": ["One login.", "*Your academy.*"],
-  "checks": ["Live classes, unlimited", "Weekly tests and notes", "Your own Android app (iOS on Pro)", "UPI and card checkout", "Website on your domain"]
+  "checks": ["Live classes, unlimited", "Weekly tests and notes", "Your own Android app (iOS on Pro or yearly)", "UPI and card checkout", "Website on your domain"]
  }
 }

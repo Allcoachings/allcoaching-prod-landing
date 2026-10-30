@@ -24,7 +24,7 @@
    {
     "need": "You want Google, YouTube and a listing working together",
     "pick": "AllCoaching",
-    "why": "Own domain, own Android app (iOS on Pro) and a marketplace listing on every plan",
+    "why": "Own domain, own Android app (iOS on Pro or yearly) and a marketplace listing on every plan",
     "icon": "search",
     "us": true
    },
@@ -58,7 +58,7 @@
     "name": "AllCoaching",
     "price": 6999,
     "label": "₹6,999/yr",
-    "fee": "+10% on Starter; 0% on Growth ₹7,999/mo, GST extra",
+    "fee": "+10% yearly (Starter) · 0% monthly from ₹3,999/mo",
     "published": true
    },
    {
@@ -95,7 +95,7 @@
   "title": [
    "AllCoaching cost *as you grow*"
   ],
-  "sub": "Starter, or Growth at 0% paid yearly, whichever costs less, before GST",
+  "sub": "Yearly plans, or Starter monthly at 0%, whichever costs less, before GST",
   "competitors": []
  },
  "switch": {
@@ -144,7 +144,7 @@
   ],
   "checks": [
    "Your own domain for Google",
-   "Your own Android app (iOS on Pro)",
+   "Your own Android app (iOS on Pro or yearly)",
    "UPI checkout from any link",
    "Meta Pixel and GTM",
    "Marketplace listing too"

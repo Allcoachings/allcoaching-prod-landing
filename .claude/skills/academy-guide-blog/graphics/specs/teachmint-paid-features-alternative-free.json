@@ -25,7 +25,7 @@
    {
     "need": "Own website and app, with a free trial first",
     "pick": "AllCoaching",
-    "why": "7 days free, no card; then 0% commission on Growth, or ₹6,999/yr + 10%",
+    "why": "7 days free, no card; then 0% commission monthly from ₹3,999, or ₹6,999/yr + 10%",
     "icon": "globe",
     "us": true
    },
@@ -73,7 +73,7 @@
     "name": "AllCoaching",
     "price": 6999,
     "label": "₹6,999/yr",
-    "fee": "+10% on sales, after a 7-day free trial",
+    "fee": "+10% yearly (Starter) · 0% monthly from ₹3,999/mo",
     "published": true
    },
    {
@@ -193,7 +193,7 @@
   ],
   "checks": [
    "Website on your domain",
-   "Your own Android app (iOS on Pro)",
+   "Your own Android app (iOS on Pro or yearly)",
    "Live classes, unlimited",
    "UPI and card checkout",
    "Tests and notes in one place"

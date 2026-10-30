@@ -105,7 +105,7 @@
     [/end class/, 'Ends the class and saves the recording'],
     [/back to classes/, 'Back to all your live classes'],
     [/set up autopay|upgrade/, 'Change plan — demo checkout, nothing is charged'],
-    [/switch to free/, 'Move back to the free plan'],
+    [/switch to free/, 'Move back to the free live-classroom option (sample data)'],
     [/your plan|current plan/, 'The plan you are on right now'],
     [/move to bin|delete/, 'Goes to the bin first — you can restore it'],
     [/^restore$/, 'Bring it back from the bin'],

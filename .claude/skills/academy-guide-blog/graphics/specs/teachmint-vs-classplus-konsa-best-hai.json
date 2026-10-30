@@ -36,7 +36,7 @@
    {
     "need": "Apni website aur iOS app khud banana hai",
     "pick": "AllCoaching",
-    "why": "Har plan mein apna domain aur Android app (iOS Pro par), 7 din free trial",
+    "why": "Har plan mein apna domain aur Android app (iOS Pro ya yearly par), 7 din free trial",
     "icon": "globe",
     "us": true
    },
@@ -58,7 +58,7 @@
     "name": "AllCoaching",
     "price": 6999,
     "label": "₹6,999/saal",
-    "fee": "+10% sales par (Starter), GST alag",
+    "fee": "+10% yearly (Starter) · monthly ₹3,999 par 0%",
     "published": true
    },
    {
@@ -140,10 +140,10 @@
    "*Academy aapki.*"
   ],
   "checks": [
-   "Growth aur Pro par 0% commission",
+   "Monthly plans par 0% commission",
    "Apne domain par website",
-   "Apna Android app (iOS Pro par)",
-   "Unlimited live classes",
+   "Apna Android app (iOS Pro ya yearly par)",
+   "Unlimited live (YouTube/Zoom)",
    "7 din trial, card nahi"
   ]
  }

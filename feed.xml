@@ -14,7 +14,7 @@
     <managingEditor>contact@allcoaching.in (Amit Ratan)</managingEditor>
     <webMaster>contact@allcoaching.in (Amit Ratan)</webMaster>
     <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-    <lastBuildDate>Wed, 28 Oct 2026 11:02:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 00:37:01 +0000</lastBuildDate>
     <category>Education</category>
     <category>EdTech</category>
     <category>India</category>
@@ -136,7 +136,7 @@
       <enclosure url="https://allcoaching.in/assets/blog/best-lms-for-coaching-institutes-india/cover.webp" type="image/webp" />
     </item>
     <item>
-      <title>LMS With Custom Domain: Your Coaching Site Live in Minutes</title>
+      <title>LMS With Custom Domain: Your Coaching Site, Your Domain</title>
       <link>https://allcoaching.in/blog/lms-with-custom-domain-for-coaching-india</link>
       <guid isPermaLink="true">https://allcoaching.in/blog/lms-with-custom-domain-for-coaching-india</guid>
       <description>How an Indian educator puts a full LMS on their own domain in 2026 — two DNS records, automatic HTTPS, and courses, PDFs and test series live in minutes.</description>
@@ -984,7 +984,7 @@
       <title>Multi-Teacher Coaching Platform on Revenue Share (2026)</title>
       <link>https://allcoaching.in/blog/multi-teacher-coaching-platform-rev-share</link>
       <guid isPermaLink="true">https://allcoaching.in/blog/multi-teacher-coaching-platform-rev-share</guid>
-      <description>Multi-teacher coaching platform for institutes with 5+ teachers: plans from Rs 6,999/year, 0% commission on Growth and Pro, no per-seat fee, separate teacher logins.</description>
+      <description>Multi-teacher coaching platform for institutes: 0% commission monthly from Rs 3,999 or yearly from Rs 6,999, team seats included, no per-teacher fee, separate logins.</description>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
       <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
       <atom:author><name>Amit Ratan</name></atom:author>
@@ -1332,19 +1332,6 @@
       <enclosure url="https://allcoaching.in/assets/blog/best-platforms-for-individual-course-creators-vs-institutes/cover.webp" type="image/webp" />
     </item>
     <item>
-      <title>Free Coaching App for Tutors With Student Traffic 2026</title>
-      <link>https://allcoaching.in/blogs/en/free-coaching-app-for-tutors-with-student-traffic</link>
-      <guid isPermaLink="true">https://allcoaching.in/blogs/en/free-coaching-app-for-tutors-with-student-traffic</guid>
-      <description>Looking for a free coaching app for tutors? What actually brings student traffic, and how AllCoaching's AI marketplace routes Indian aspirants to your studio.</description>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
-      <atom:author><name>Amit Ratan</name></atom:author>
-      <category>EdTech</category>
-      <category>Indian Online Education</category>
-      <category>Educator Marketplace</category>
-      <enclosure url="https://allcoaching.in/assets/blog/free-coaching-app-for-tutors-with-student-traffic/cover.webp" type="image/webp" />
-    </item>
-    <item>
       <title>Graphy Alternative With Organic Traffic: 4 Channels (2026)</title>
       <link>https://allcoaching.in/blogs/en/graphy-alternative-with-organic-marketplace-traffic</link>
       <guid isPermaLink="true">https://allcoaching.in/blogs/en/graphy-alternative-with-organic-marketplace-traffic</guid>
@@ -1459,7 +1446,7 @@
       <category>EdTech</category>
       <category>Indian Online Education</category>
       <category>Educator Marketplace</category>
-      <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/best-upi-payment-gateway-for-online-courses.webp" type="image/webp" />
+      <enclosure url="https://allcoaching.in/assets/blog/best-upi-payment-gateway-for-online-courses/cover.webp" type="image/webp" />
     </item>
     <item>
       <title>Coaching Institute Fee Collection &amp; Receipt App (2026)</title>
@@ -1530,7 +1517,7 @@
       <title>How to Conduct Live Classes on Mobile Apps Fast (2026)</title>
       <link>https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps</link>
       <guid isPermaLink="true">https://allcoaching.in/blog/how-to-conduct-live-classes-on-mobile-apps</guid>
-      <description>How to conduct live classes on mobile apps in 2026: skip the ₹3–8 lakh custom build and go live in 5 minutes.</description>
+      <description>How to conduct live classes on mobile apps in 2026: skip the ₹3–8 lakh custom build and go live once your first course is ready.</description>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
       <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
       <atom:author><name>Amit Ratan</name></atom:author>
@@ -1566,10 +1553,10 @@
       <enclosure url="https://allcoaching-store.b-cdn.net/blog-images/using-chatgpt-for-course-curriculum-design.webp" type="image/webp" />
     </item>
     <item>
-      <title>Get First 500 Students for Your Coaching App in 7 Days</title>
+      <title>Get First 500 Students for Your Coaching App (2026)</title>
       <link>https://allcoaching.in/blog/how-to-get-first-500-students-for-coaching-app</link>
       <guid isPermaLink="true">https://allcoaching.in/blog/how-to-get-first-500-students-for-coaching-app</guid>
-      <description>Skip paid ads to get your first 500 students for a coaching app: launch on AllCoaching, publish 10 posts and 10 video classes</description>
+      <description>Get your first 500 students for a coaching app without relying on ads: publish 10 posts and 10 classes, share them where students are, and keep going.</description>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
       <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
       <atom:author><name>Amit Ratan</name></atom:author>
@@ -1759,6 +1746,19 @@
       <category>Indian Online Education</category>
       <category>Educator Marketplace</category>
       <enclosure url="https://allcoaching.in/assets/blog/online-coaching-academy-without-coding/cover.webp" type="image/webp" />
+    </item>
+    <item>
+      <title>Free Coaching App for Tutors With Student Traffic (2026)</title>
+      <link>https://allcoaching.in/blogs/en/free-coaching-app-for-tutors-with-student-traffic</link>
+      <guid isPermaLink="true">https://allcoaching.in/blogs/en/free-coaching-app-for-tutors-with-student-traffic</guid>
+      <description>Free coaching app with student traffic? What is really free, where students come from, and what AllCoaching costs after its 7-day free trial.</description>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[Amit Ratan]]></dc:creator>
+      <atom:author><name>Amit Ratan</name></atom:author>
+      <category>EdTech</category>
+      <category>Indian Online Education</category>
+      <category>Educator Marketplace</category>
+      <enclosure url="https://allcoaching.in/assets/blog/free-coaching-app-for-tutors-with-student-traffic/cover.webp" type="image/webp" />
     </item>
   </channel>
 </rss>

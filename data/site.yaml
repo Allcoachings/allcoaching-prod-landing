@@ -10,8 +10,9 @@ site:
   url: https://allcoaching.in
   tagline: "India's Educator-First Marketplace"
   description: >
-    AllCoaching is India's educator-first marketplace and coaching platform —
-    launch a branded app, sell courses, and grow through AI-driven student discovery.
+    AllCoaching is the LMS Indian educators build themselves — your own academy
+    website and app on your own domain, 0% commission on every monthly plan, and
+    a marketplace listing so new students can find you.
 
 # Default language is the canonical (no path prefix). Others get path prefixes.
 languages:
@@ -35,8 +36,8 @@ languages:
 
 # Brand constants (mirrors brand.css; do not modify without coordinated edits there)
 brand:
-  primary_color: "#C58B43"
-  gradient: ["#E0A95C", "#C58B43", "#8E5F22"]
+  primary_color: "#2B44FF"
+  gradient: ["#5B6CFF", "#2B44FF", "#1A2FD9"]
   fonts:
     display: Instrument Serif
     ui: Inter Tight

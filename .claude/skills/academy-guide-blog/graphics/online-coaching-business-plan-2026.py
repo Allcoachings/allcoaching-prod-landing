@@ -5,7 +5,7 @@ Then: python .claude/skills/academy-guide-blog/scripts/export_graphics.py assets
 
 All rupee figures are illustrative and match the post: Starter plan ₹6,999 + 18% GST, domain ₹1,000, recording kit
 ₹8,000, tools ₹6,000, ads test ₹30,000 = ₹53,259 fixed; ₹2,999 course, 10% platform fee + assumed 2% gateway charge
-= about ₹2,639 kept per sale; break-even 21 students. (Final pricing 2026-10-28: Growth/Pro take 0% commission.)
+= about ₹2,639 kept per sale; break-even 21 students. (Studio pricing 2026-10-29: monthly plans take 0% commission.)
 """
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'scripts'))
@@ -120,7 +120,7 @@ b += f'<rect x="80" y="768" width="600" height="72" rx="20" fill="{BLUE_TINT}"/>
 b += text(104, 814, 'Fixed total', 25, INK, 700, font=F_HEAD) + text(656, 816, '₹53,259', 36, BLUE, 800, 'end', F_HEAD, -1)
 b += white_panel(740, 220, 420, 400, 28)
 b += eyebrow(776, 276, 'Per-sale costs')
-b += text(776, 350, '10%', 52, INK, 800, font=F_HEAD, ls=-2) + text(776, 386, 'Fee on Starter (0% on Growth, Pro)', 20, MUTED)
+b += text(776, 350, '10%', 52, INK, 800, font=F_HEAD, ls=-2) + text(776, 386, 'Fee on yearly Starter (0% monthly)', 20, MUTED)
 b += text(776, 480, '2%', 52, INK, 800, font=F_HEAD, ls=-2) + text(776, 516, 'Gateway charges (assumed,', 20, MUTED)
 b += text(776, 544, 'shown separately)', 20, MUTED)
 b += hand(770, 700, ['Add GST', 'to your plan'], 34, INK, -4)
@@ -214,5 +214,5 @@ for k, (lab, ic, sub) in enumerate([('Website', 'globe', 'Your domain'), ('Your 
                                      ('UPI & cards', 'card', 'Razorpay payouts'), ('Ads tracking', 'chart', 'Pixel + GTM')]):
     b += feature_tile(150 + k * 230, 600, lab, ic, sub, 88)
 b += button(60, 850, 540, 'Start your academy', 92, 36)
-b += text(640, 890, '0% commission on Growth and Pro', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
+b += text(640, 890, '0% commission on monthly plans', 28, INK, 800, font=F_HEAD, ls=-0.8) + text(640, 926, '7 days free · no card needed', 21, MUTED)
 save('academy-plan', svg(W, H, b, 'AllCoaching Studio on a laptop and phone: your own academy website, Android app, live classes and UPI checkout for your online coaching business'))
