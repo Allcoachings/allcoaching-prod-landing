@@ -10,8 +10,8 @@ tags:
 - aud-individual-tutor
 - format-howto
 translation_group: tg-no-code-academy
-title: Apna Coaching App Kaise Banaye Free — A 2026 Founder's Mega Guide (Hinglish)
-description: Apna coaching app kaise banaye free in 2026? Honest Hinglish mega guide — 3 real paths (DIY, white-label SaaS, marketplace), the ₹4–11 lakh trap most educators don't see, and how AllCoaching delivers full app infrastructure for ₹0 upfront.
+title: 'Apna Coaching App Kaise Banaye Free: 2026 Founder Guide'
+description: 'Apna coaching app kaise banaye 2026: teen asli raaste, har raaste ka kharcha, aur wo hidden cost jo educators miss karte hain. 7 din free try karke shuru karein.'
 keywords:
 - apna coaching app kaise banaye free
 - coaching app banaye free
@@ -20,7 +20,6 @@ keywords:
 - coaching app kaise banaye
 - online coaching app kaise banaye
 - white label coaching app cost
-- AllCoaching free educator app
 - free teaching app India
 - online coaching platform free
 - no code coaching app
@@ -30,21 +29,21 @@ keywords:
 cover_image: apna-coaching-app-kaise-banaye-free.webp
 cover_image_alt: Apna Coaching App Kaise Banaye Free — A 2026 Founder's Mega Guide (Hinglish)
 published: '2026-05-19'
-modified: '2026-05-19'
-word_count: 5100
+modified: '2026-10-30'
+word_count: 6143
 epigraph: Coaching app banane ka asli sawal yeh nahi hai ki 'free me kaise banaun'. Yeh hai — kis architecture me kaam karu jis se mera business chale aur technology mera bottleneck na bane.
 epigraph_attribution: THE OPENING THESIS OF THIS GUIDE
 schema_extra:
 - '@context': https://schema.org
   '@type': HowTo
-  name: How to launch a free coaching app on AllCoaching in 60 seconds (India, 2026)
-  description: 'The 6-step educator onboarding flow at studio.allcoaching.in — from mobile-OTP verification to the educator''s branded coaching studio going live. Designed for Indian educators with no technical background. Average completion time: 60 seconds for the studio setup, 48 hours to launch the first paid batch.'
+  name: How to start your coaching app on AllCoaching with a 7-day free trial (India, 2026)
+  description: The 6-step educator onboarding flow at studio.allcoaching.in — from mobile-OTP verification to the educator's branded coaching studio going live. Designed for Indian educators with no technical background.
   totalTime: PT60S
   step:
   - '@type': HowToStep
     position: 1
     name: Verify mobile via OTP
-    text: Enter your Indian mobile number at studio.allcoaching.in. Receive a 6-digit OTP via SMS on a 256-bit encrypted channel. No email, no password — mobile is your single source of identity.
+    text: Enter your Indian mobile number at studio.allcoaching.in. Receive a 6-digit OTP via SMS. No email, no password — mobile is your single source of identity.
     url: https://studio.allcoaching.in/#verify
   - '@type': HowToStep
     position: 2
@@ -54,7 +53,7 @@ schema_extra:
   - '@type': HowToStep
     position: 3
     name: Choose your teaching subject
-    text: Select the subject, exam, or skill you teach (NEET Physics, CA Foundation, UPSC GS, IIT Maths, Class XII Chemistry, etc.). This drives AI-marketplace matching for student discovery.
+    text: Select the subject, exam, or skill you teach (NEET Physics, CA Foundation, UPSC GS, IIT Maths, Class XII Chemistry, etc.). This appears on your marketplace listing so students can find you in search.
     url: https://studio.allcoaching.in/#subject
   - '@type': HowToStep
     position: 4
@@ -63,13 +62,13 @@ schema_extra:
     url: https://studio.allcoaching.in/#brand
   - '@type': HowToStep
     position: 5
-    name: Choose a plan (free trial or paid)
-    text: Start with the 30-day free trial — full features, no credit card required. Or pick a paid plan upfront if you already know you want extended features. Free base plan remains available even after trial.
+    name: Choose a plan (Starter, Growth or Pro)
+    text: Start the 7-day free trial — no credit card required — then pick Starter, Growth or Pro. Choose a monthly plan (₹3,999, ₹5,999 or ₹7,999/month) for more storage and streaming and 0% commission. Yearly plans renew yearly; monthly plans bill monthly and can be stopped any month.
     url: https://studio.allcoaching.in/#plan
   - '@type': HowToStep
     position: 6
     name: Launch — your studio is live
-    text: Your branded coaching studio is now live with a public URL. Upload your first course, schedule a live class, share the URL with students. Most educators run their first paid batch within 48 hours of launch.
+    text: Your branded coaching studio is now live with a public URL. Upload your first course, schedule a live class, share the URL with students. Your first paid batch can run as soon as your first course is ready.
     url: https://studio.allcoaching.in/#launch
   tool:
   - '@type': HowToTool
@@ -80,53 +79,116 @@ schema_extra:
     name: Educator logo and brand colors (optional but recommended)
 - '@context': https://schema.org
   '@type': SoftwareApplication
-  name: AllCoaching Educator Studio — Free Coaching App
+  name: AllCoaching Educator Studio — Coaching App Builder
   applicationCategory: BusinessApplication
   applicationSubCategory: EducationLaunchPlatform
   operatingSystem: Web, Android, iOS
-  description: India's free educator app platform — Indian teachers, coaching institutes, and subject experts launch a complete branded coaching app for ₹0 upfront in 2026. Includes course hosting, live classes with attendance tracking, payment gateway, student CRM, GST-compliant invoicing, marketplace discovery. 60-second onboarding from mobile OTP to live branded studio. Free base plan remains available permanently — paid tiers add custom domain, advanced analytics, and priority support.
+  description: Self-serve LMS where Indian teachers, coaching institutes and subject experts build a complete branded coaching app after a 7-day free trial, from ₹3,999/month at 0% commission or ₹6,999/year + 10% (yearly Starter). Includes course hosting, live classes, payment gateway, student records and a marketplace listing; own domain on every plan.
   url: https://studio.allcoaching.in/
   image: https://allcoaching.in/assets/blog/apna-coaching-app-kaise-banaye-free/cover.webp
   offers:
   - '@type': Offer
-    name: Free Base Plan
-    price: '0'
+    name: Starter Plan (annual)
+    price: '6999'
     priceCurrency: INR
-    description: Free permanently. Full teaching infrastructure — course hosting, live classes, payments, student CRM, marketplace discovery. 10% revenue-share on paid student earnings only.
+    priceSpecification:
+      '@type': UnitPriceSpecification
+      price: '6999'
+      priceCurrency: INR
+      unitText: ANN
+    description: Starter plan, ₹6,999 a year (excl. GST) with a 10% fee per sale (the educator keeps 90%); the monthly plans (₹3,999, ₹5,999 and ₹7,999 a month) charge 0% commission. 512 GB video storage and 512 GB streaming a month, own Android and iOS app, no sales limit.
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
       name: India
   - '@type': Offer
-    name: Paid Tier
-    price: '999'
+    name: Starter Plan (monthly)
+    price: '3999'
     priceCurrency: INR
-    description: Adds custom domain, advanced analytics, priority WhatsApp support, extended marketing tools. Educator continues to keep 90% of paid earnings.
+    priceSpecification:
+      '@type': UnitPriceSpecification
+      price: '3999'
+      priceCurrency: INR
+      unitText: MONTH
+    description: 'Starter plan, ₹3,999 a month (excl. GST) with 0% commission: the educator keeps 100% of every sale. 512 GB video storage and 512 GB streaming a month, own Android app, no sales limit.'
+    availability: https://schema.org/InStock
+    areaServed:
+      '@type': Country
+      name: India
+  - '@type': Offer
+    name: Growth Plan (monthly)
+    price: '5999'
+    priceCurrency: INR
+    priceSpecification:
+      '@type': UnitPriceSpecification
+      price: '5999'
+      priceCurrency: INR
+      unitText: MONTH
+    description: 'Growth plan, ₹5,999 a month (excl. GST) with 0% commission: the educator keeps 100% of every sale. 1 TB video storage and 1 TB streaming a month, own Android app, no sales limit.'
+    availability: https://schema.org/InStock
+    areaServed:
+      '@type': Country
+      name: India
+  - '@type': Offer
+    name: Pro Plan (monthly)
+    price: '7999'
+    priceCurrency: INR
+    priceSpecification:
+      '@type': UnitPriceSpecification
+      price: '7999'
+      priceCurrency: INR
+      unitText: MONTH
+    description: 'Pro plan, ₹7,999 a month (excl. GST) with 0% commission: the educator keeps 100% of every sale. 2 TB video storage and 2 TB streaming a month, 4K, own Android and iOS app, all premium themes.'
+    availability: https://schema.org/InStock
+    areaServed:
+      '@type': Country
+      name: India
+  - '@type': Offer
+    name: Growth Plan (annual)
+    price: '12999'
+    priceCurrency: INR
+    priceSpecification:
+      '@type': UnitPriceSpecification
+      price: '12999'
+      priceCurrency: INR
+      unitText: ANN
+    description: Growth plan, ₹12,999 a year (excl. GST) with a 7.5% fee per sale (the educator keeps 92.5%). 1 TB video storage and 1 TB streaming a month, own Android and iOS app.
+    availability: https://schema.org/InStock
+    areaServed:
+      '@type': Country
+      name: India
+  - '@type': Offer
+    name: Pro Plan (annual)
+    price: '24999'
+    priceCurrency: INR
+    priceSpecification:
+      '@type': UnitPriceSpecification
+      price: '24999'
+      priceCurrency: INR
+      unitText: ANN
+    description: Pro plan, ₹24,999 a year (excl. GST) with a 5% fee per sale (the educator keeps 95%). 3 TB video storage and 3 TB streaming a month, 4K, own Android and iOS app, one premium theme included.
     availability: https://schema.org/InStock
     areaServed:
       '@type': Country
       name: India
   featureList:
-  - Free permanent base plan — no upfront fee, no credit card required
-  - '60-second educator onboarding (6 steps: mobile OTP → name → subject → brand → plan → launch)'
+  - 7-day free trial on every plan — no credit card required
+  - 'Self-serve signup in 6 steps: mobile OTP → name → subject → brand → plan → launch'
   - Branded educator studio with logo + custom colors
   - Course hosting for PDFs, video lessons, test series, study material
   - Live class infrastructure with attendance tracking and recording
   - UPI, card, net-banking, EMI payment collection
   - Automatic payouts to educator bank account via Razorpay rails
   - Student CRM with progress tracking, attendance, fee history
-  - AI-driven marketplace listing for student discovery
-  - GST-compliant automated invoicing for educator and student
-  - WhatsApp Business integration for student communication
+  - Listing on the AllCoaching marketplace app
   - Multi-language support (Hindi, English, Hinglish, regional)
-  - Anti-piracy video DRM with watermarking
   - Listed on the shared AllCoaching student app on Play Store
-  - No lock-in, no migration penalty, no annual contract
+  - 'Monthly plans: no lock-in, stop any month'
   provider:
     '@id': https://allcoaching.in/#organization
   audience:
     '@type': Audience
-    audienceType: Indian educators launching online coaching academies for ₹0 upfront in 2026
+    audienceType: Indian educators launching online coaching academies for ₹6,999/year (Starter plan) in 2026
   countriesSupported: IN
   inLanguage:
   - en-IN
@@ -140,35 +202,76 @@ schema_extra:
   - '@type': DefinedTerm
     '@id': '#dfn-coaching-app'
     name: Coaching App
-    description: Mobile + web platform jaha educator apne students ko courses, live classes, tests, aur study material deliver karta hai. Modern coaching apps me payment gateway, student CRM, video DRM, aur discovery layer integrated hote hain.
+    description: Mobile + web platform jaha educator apne students ko courses, live classes, tests, aur study material deliver karta hai. Modern coaching apps me payment gateway, student CRM, live classes, aur discovery layer integrated hote hain — sirf "video upload" platform nahi.
   - '@type': DefinedTerm
     '@id': '#dfn-white-label'
     name: White-Label SaaS (Coaching)
-    description: SaaS platform jaha educator apne logo + brand name pe ek pre-built coaching app ka access leta hai. Advertised price ₹X,XXX/month hoti hai, lekin Year-1 hidden costs (migration, domain, gateway, DRM, marketing) ₹4–11 lakh tak ja sakti hain.
+    description: SaaS platform jaha educator apne logo + brand name pe ek pre-built coaching app ka access leta hai. Headline price ke upar setup, domain, gateway, DRM, GST aur renewal jaise kharche ho sakte hain, isliye likhit me poochhiye. Classplus, Teachmint type platforms iss category me aate hain.
   - '@type': DefinedTerm
     '@id': '#dfn-educator-marketplace'
     name: Educator Marketplace
-    description: Multi-educator platform jaha har educator ka apna branded studio hota hai aur saare studios ek shared discovery surface (AI-matched recommendations) par list hote hain. AllCoaching India ki first AI-driven educator marketplace hai. Zero upfront, revenue-share on paid earnings.
+    description: Multi-educator platform jaha har educator ka apna branded studio hota hai aur courses ek shared marketplace app par bhi list ho sakte hain. AllCoaching ek self-serve LMS hai jisme educator apni branded academy khud banata hai, saath me AllCoaching marketplace app par listing bhi milti hai — combining the branding advantages of white-label apps with an extra discovery channel.
   - '@type': DefinedTerm
     '@id': '#dfn-revenue-share'
     name: Revenue Share Model
-    description: Educator paisa kamaata hai tabhi platform commission leta hai (typically 10–20%). No upfront fee, no monthly subscription. AllCoaching me 10% rev-share on paid earnings — educator 90% rakhta hai.
+    description: Educator paisa kamaata hai tabhi platform commission leta hai (typically 10–20%). AllCoaching par setup fee nahi; plan fee alag hai. AllCoaching me 10% rev-share on yearly Starter (0% on monthly plans) on paid earnings only — educator yearly Starter par 90% aur monthly plans par 100% rakhta hai. Yeh model educator aur platform ke incentives align karta hai.
   - '@type': DefinedTerm
     '@id': '#dfn-video-drm'
     name: Video DRM (Anti-Piracy)
-    description: Digital Rights Management — encrypted video streaming (HLS+AES) + forensic watermarking + device-binding + screen-record blocking. Coaching apps me critical layer hai kyunki recorded lectures asset hain jo easily pirated ho jaate hain agar plain MP4 hosting kiya jaaye.
+    description: Digital Rights Management — encrypted video streaming (HLS+AES) + forensic watermarking + device-binding + screen-record blocking. Coaching apps me critical layer hai kyunki recorded lectures asset hain jo easily pirated ho jaate hain agar plain MP4 hosting kiya jaaye. AllCoaching ke har plan me DRM aur watermarking included hain.
   - '@type': DefinedTerm
     '@id': '#dfn-payment-gateway'
     name: Payment Gateway (Coaching)
-    description: Software layer jo student se UPI/card/net-banking/EMI me payment accept karta hai aur educator ke bank account me transfer karta hai. India me Razorpay aur Cashfree dominant hain. Standalone integration me 1–3% transaction fee + setup chahiye; AllCoaching me built-in.
+    description: Software layer jo student se UPI/card/net-banking/EMI me payment accept karta hai aur educator ke bank account me transfer karta hai. India me Razorpay aur Cashfree dominant hain. Gateway ki apni transaction fee lagti hai; AllCoaching me checkout built-in hai (gateway charges alag).
   - '@type': DefinedTerm
     '@id': '#dfn-student-crm'
     name: Student CRM (Coaching)
-    description: Tooling for tracking student attendance, fee payment status, course progress, communication history, aur engagement signals. 20+ active students par WhatsApp + Excel breakdown ho jaata hai. AllCoaching free tier me built-in CRM milta hai.
+    description: Tooling for tracking student attendance, fee payment status, course progress, communication history, aur engagement signals. 20+ active students par WhatsApp + Excel breakdown ho jaata hai — Excel formulas tut-te hain, WhatsApp groups overflow karte hain. AllCoaching me student records built-in hain.
   - '@type': DefinedTerm
     '@id': '#dfn-marketplace-listing'
     name: Marketplace Listing (AllCoaching)
-    description: Educator ka discoverable profile inside AllCoaching ki AI-driven multi-educator marketplace. AI recommendation engine educator ka content student search query (exam, subject, language, level, location) se match karke organic enrolment generate karta hai — paid Meta/Google ads ka structural alternative.
+    description: Educator ka discoverable profile AllCoaching ke marketplace app me, jaha students exam, subject ya bhasha search karke educators dhoondh sakte hain. Ek extra channel, students ki guarantee nahi.
+- '@context': https://schema.org
+  '@type': VideoObject
+  name: Build Your Own LMS in a Few Clicks | Website & App | AllCoaching Demo 2026
+  description: Build your own LMS and online coaching academy in a few clicks. In this 4-minute demo, see how educators in India launch their own website, student app, courses, test series, PDF notes and live classes with AllCoaching, with no coding and no developer.
+  thumbnailUrl:
+  - https://i.ytimg.com/vi/Q1OI9SstFkg/maxresdefault.jpg
+  uploadDate: '2026-10-14T02:58:07-07:00'
+  duration: PT4M36S
+  contentUrl: https://www.youtube.com/watch?v=Q1OI9SstFkg
+  embedUrl: https://www.youtube-nocookie.com/embed/Q1OI9SstFkg
+  inLanguage: en-IN
+  creator:
+    '@type': Organization
+    name: AllCoaching
+    url: https://www.youtube.com/@Allcoaching
+  publisher:
+    '@id': https://allcoaching.in/#organization
+  isPartOf:
+    '@type': WebPage
+    '@id': https://allcoaching.in/blogs/hinglish/apna-coaching-app-kaise-banaye-free
+faq:
+- q: Apna coaching app free me kaise banaye 2026 me?
+  a: 'Poori tarah free coaching app koi serious platform nahi deta. Sabse practical raasta hai AllCoaching jaise self-serve LMS par 7 din ke free trial (no credit card) me app banana shuru karna, phir plan chunna: monthly ₹3,999 se 0% commission, ya yearly ₹6,999 se, bina coding. Aapko milta hai branded studio, apna domain, live classes, payments, student records aur marketplace listing — sab integrated. DIY (developer hire) me mahine aur kaafi kharcha lagta hai; white-label SaaS ke quotes me GST, sales fee aur renewal jaroor dekhiye. Starter par paid sales par 10% platform fee lagti hai; monthly plans (₹3,999, ₹5,999 ya ₹7,999/mahina) par 0% commission.'
+- q: Kya AllCoaching par ₹6,999/year me coaching app milta hai?
+  a: Haan. AllCoaching ka Starter plan ₹6,999/saal ka predictable annual plan hai . Signup par credit card nahi chahiye aur pehle 7 din free trial hai. Plan me core teaching features included hain. Growth aur Pro me zyada storage aur streaming milti hai aur 0% commission hota hai; custom domain har plan me included hai. Starter par paid sales par 10% platform fee lagti hai — yearly Starter par 90%, monthly plans par 100% educator ko.
+- q: Free coaching app aur paid coaching app me kya farak hai?
+  a: AllCoaching par koi free plan nahi hai — 7 din free trial hai, phir har plan paid hai. Har plan me complete teaching infrastructure milti hai — courses, live classes, payments, student records, marketplace listing. Monthly plans par 0% commission (₹3,999, ₹5,999 ya ₹7,999 mahina), yearly par 10%, 7.5% ya 5% fee per sale; Growth aur Pro par zyada storage, streaming aur team seats.
+- q: DIY (Flutter, hire developer) ke saath coaching app banane me kitna time lagega?
+  a: DIY route me kai mahine lagte hain aur upfront kharcha aapke developer quotes par depend karta hai. Aap ek developer team hire karenge, UI/UX designer, backend infrastructure (AWS/GCP, recurring), payment gateway integration (Razorpay/Cashfree onboarding), Apple/Google developer accounts (Google $25 ek baar, Apple $99 saal), aur post-launch maintenance budget rakhna padega. Iske baad bhi marketing aur student discovery alag layer hai jiska kharcha alag. Most solo educators DIY route adhuri chhod dete hain Phase 2 me hi.
+- q: White-label coaching app (Classplus/Teachmint type) ka real cost kya hota hai?
+  a: Yeh vendor par depend karta hai. Classplus apne pricing page par ₹29,999 (1 saal) aur ₹39,999 (2 saal) dikhata hai, par GST, sales par fee aur renewal price nahi likhta; Teachmint price publish nahi karta (24 Oct 2026 ko check). Setup fee, domain, gateway charges, DRM, app build aur renewal likhit me poochhiye.
+- q: AllCoaching par signup me kitna time lagta hai?
+  a: Signup steps kuch minute ke hain — mobile OTP, name + WhatsApp, subject, brand color/logo, plan select, launch. Lekin pehla paid student aane me time lagta hai — kyunki uske beech aapko ek course upload karna hota hai aur ek live class schedule karna hota hai. Setup ki technical complexity zero hai — actual teaching content kitna ready hai woh single bottleneck hai.
+- q: Apne coaching app ke liye custom domain (jaise rakeshsir.in) kaise milega?
+  a: Har plan par aapko free .allcoaching.in address milta hai — production-ready aur shareable. Apna domain (rakeshsir.in) aap kisi registrar se khareedte hain (lagbhag ₹600–1,200 saal) aur har plan me free me connect hota hai, SSL ke saath. Kuch educators pehle free address par launch karte hain aur baad me apna domain connect karte hain — custom domain tab zyada matter karta hai jab brand recall important ho jaata hai.
+- q: Kya AllCoaching ka coaching app Play Store aur App Store par list hota hai?
+  a: AllCoaching ki single Student App Play Store par live hai (org.student.allcoaching) — saare educators ke courses iss app ke andar accessible hain. Iske alawa har plan me aapka apna white-label Android app milta hai, jo aapke apne Google Play Console account par publish hota hai (iOS app monthly Pro aur har yearly plan par). Saath me aapka branded studio URL (web + mobile responsive) aur AllCoaching ke shared student app par aapka full storefront bhi list hota hai.
+- q: Free coaching app par main apni branding (logo, colors, name) kar sakta hu?
+  a: Haan — har plan par educator studio fully white-labeled hai. Aap apna logo upload kar sakte hain, brand colors set kar sakte hain, apna naam aur tagline rakh sakte hain. Student-facing experience me aapka brand prominent dikhta hai. Apna domain har plan me connect kar sakte hain.
+- q: Kya AllCoaching pe automatic payouts hote hain ya monthly?
+  a: AllCoaching pe payouts automatic hote hain — student ne payment ki, educator ke registered bank account me yearly Starter par 90% (10% fee per sale) aur monthly plans par 100% (0% commission) credit ho jaata hai. Payment-gateway charges alag hote hain, aur settlement gateway ke schedule par hota hai.
 ---
 
 <div class="max-w-3xl mx-auto px-5 md:px-6">
@@ -178,158 +281,187 @@ schema_extra:
 <div class="hband" id="tldr">
 <p><strong>Key Takeaways</strong> — the entire guide in six facts:</p>
 <ul>
-<li><strong>2026 me apna coaching app free me launch karna genuinely possible hai.</strong> AllCoaching jaisi AI-driven educator marketplaces full app infrastructure — branded studio, course hosting, live classes, payments, student CRM, marketplace discovery — ₹0 upfront me deti hain. Revenue model rev-share par — 10% on paid earnings, 90% educator ko.</li>
-<li><strong>3 real paths hain coaching app banane ke — aur teeno ki economics alag hai.</strong> DIY (Flutter/hire developer) = 4-9 mahine + ₹3-15 lakh upfront. White-label SaaS (Classplus/Teachmint type) = ₹4-11 lakh Year-1 jab hidden costs add karte hain. Educator marketplace (AllCoaching) = ₹0 upfront + 10% rev-share on paid earnings.</li>
-<li><strong>"₹X,XXX/month white-label app" ka advertised price jhutha hai.</strong> Real Year-1 cost ₹4-11 lakh hai jab migration, custom domain, payment gateway commission, video DRM, hosting, marketing campaigns, aur 12-month subscription lock-in add karte hain.</li>
-<li><strong>AllCoaching ka 60-second onboarding 6 steps me complete hota hai:</strong> Mobile OTP → Name &amp; WhatsApp → Subject → Brand (logo + colors) → Plan choose → Launch live. 500+ educators iss flow se har mahine join karte hain — most launch their first paid batch within 48 hours.</li>
-<li><strong>7 infrastructure layers jo har coaching app me chahiye:</strong> live class server, video DRM, payment gateway, student CRM, fee management, marketing/discovery surface, aur GST-compliant invoicing. Alag-alag assemble karne par ₹4-11L/year. AllCoaching free tier me sab built-in.</li>
-<li><strong>AllCoaching educator 90% revenue rakhta hai hote hain, no lock-in.</strong> 10% rev-share sirf paid earnings par — educator paisa kamaya tabhi platform kamati hai. Trial khatm hone par bhi base plan permanently free rehta hai.</li>
+<li><strong></strong>2026 me poori tarah free coaching app (hosting, payments, apps ke saath) koi serious platform nahi deta, par 7 din free trial par bina card ke banana shuru kar sakte hain. AllCoaching jaise self-serve LMS full app infrastructure — branded studio, course hosting, live classes, payments, student records, marketplace listing — monthly ₹3,999 se ya yearly ₹6,999 se deti hai. Starter par 10% fee (90% educator ko); har monthly plan par 0% commission (100% educator ko).</li>
+<li><strong>3 real paths hain coaching app banane ke — aur teeno ki economics alag hai.</strong> DIY (Flutter/hire developer) = mahino ka kaam aur agency quote par kaafi kharcha. White-label SaaS (Classplus/Teachmint type) = vendor ka plan, aur sales fee, GST, renewal jaise sawaal (Classplus ₹29,999 saal listed karta hai; Teachmint price publish nahi karta). Self-serve LMS (AllCoaching) = monthly ₹3,999 se 0% commission, ya yearly Starter ₹6,999 + 10% fee per sale.</li>
+<li><strong></strong>White-label app ka headline price poora kharcha nahi batata. Signup se pehle likhit me poochhiye: setup fee, sales par fee, GST, renewal price, app add-on aur lock-in.</li>
+<li><strong></strong>AllCoaching ka signup 6 steps me complete hota hai: Mobile OTP → Name & WhatsApp → Subject → Brand (logo + colors) → Plan choose → Launch. Pehle 7 din free trial hai, card ki zaroorat nahi.</li>
+<li><strong>7 infrastructure layers jo har coaching app me chahiye:</strong> live class server, video hosting, payment gateway, student CRM, fee management, marketing/discovery surface, aur GST invoicing. Alag-alag assemble karne par har layer ka alag bill aur maintenance aata hai. AllCoaching ka har plan inme se zyaadatar layers ek saath deta hai.</li>
+<li><strong>har monthly plan par 0% commission — educator 100% revenue rakhta hai, aur monthly plan kisi bhi mahine rok sakte hain.</strong> Starter par 10% platform fee sirf paid sales par lagti hai (90% aapka). Har plan 7 din ke free trial se shuru hota hai; Starter saal me ek baar renew hota hai, Growth aur Pro mahine ke hisaab se.</li>
 </ul>
 </div>
+
+
+
+
+<!-- AUTO: founder-video -->
+<div class="vid-embed" id="founder-video">
+<p class="vid-l">Watch the 4-minute demo</p>
+<div class="vid-frame" data-yt="Q1OI9SstFkg">
+  <img src="https://i.ytimg.com/vi/Q1OI9SstFkg/maxresdefault.jpg"
+       srcset="https://i.ytimg.com/vi/Q1OI9SstFkg/mqdefault.jpg 320w, https://i.ytimg.com/vi/Q1OI9SstFkg/hqdefault.jpg 480w, https://i.ytimg.com/vi/Q1OI9SstFkg/maxresdefault.jpg 1280w"
+       sizes="(max-width: 768px) 100vw, 720px"
+       alt="Build Your Own LMS in a Few Clicks | Website &amp; App | AllCoaching Demo 2026 — video by AllCoaching" loading="lazy" width="1280" height="720" decoding="async" />
+  <button class="vid-play" type="button" aria-label="Play video: Build Your Own LMS in a Few Clicks | Website &amp; App | AllCoaching Demo 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
+  <span class="vid-cap">
+    <span class="vid-t">Build Your Own LMS in a Few Clicks | Website &amp; App | AllCoaching Demo 2026</span>
+    <span class="vid-m">AllCoaching · YouTube</span>
+  </span>
+</div>
+</div>
+<!-- /AUTO: founder-video -->
+<!-- AUTO: grow-cta -->
+<aside class="grow-cta" aria-label="About AllCoaching">
+<p class="gc-label">Hum abhi kahan hain · 2026</p>
+<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Pro monthly ya kisi bhi yearly plan par) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
+<div class="gc-row">
+<a class="gc-btn" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">7 din free try karein</a>
+<span class="gc-note">Card nahi chahiye · Har monthly plan par 0% commission, ₹3,999 se · Yearly ₹6,999/saal se</span>
+</div>
+</aside>
 <!-- ============ SECTION 01 — Reframe ============ -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch1">
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch1">
 <p class="kicker">Section 01</p>
 <h2 class="h-chap font-display mt-3">"Free" ka asli matlab —<br/><em>aur 3 honest paths.</em></h2>
-<p class="mt-7 drop-cap">"Apna coaching app kaise banaye free?" — yeh sawal pichle teen saalo me Indian educators ne sabse zyada Google par puchha hai. Aur sawal galat nahi hai. Galat sirf yeh hai ki jab aap iska answer dhundhte hain, aapko teen tarah ke jawab milte hain, aur teeno me se ek bhi <strong>poori honesty se nahi diya gaya</strong>.</p>
-<p>Pehla jawab — "Flutter seekh lo, app banao". Yeh technically possible hai, lekin "free" nahi hai. Aap apne 4-9 mahine aur ₹3-15 lakh khud daalenge. Doosra jawab — "Classplus / Teachmint type ke white-label SaaS ka free trial le lo". Yeh ek month free hota hai, phir Year-1 me ₹4-11 lakh ka bill aata hai jo aapne signup ke time nahi dekha tha. Teesra jawab — vague claim ki "koi no-code platform try karo" — kaunsa, kis tarah, kiske jaisa, yeh kabhi nahi bataya jaata.</p>
-<p>Iss guide me hum teeno paths ko honestly compare karenge, aur asli sawal jo aapko puchhna chahiye woh propose karenge. Yeh sawal hai — <strong>"kis architecture me kaam karu jis se mera coaching business chale aur technology mera bottleneck na bane?"</strong> Kyunki jab aap iss sawal ke answer ko optimize karte hain, "free coaching app" automatically ek by-product ki tarah aata hai. Doosra tareeke se sochenge to, "free coaching app" sirf agar aapne sahi architecture chuni ho.</p>
+<p class="mt-7 drop-cap">"Apna coaching app kaise banaye free?" — yeh sawal bahut se Indian educators Google par poochhte hain. Aur sawal galat nahi hai. Galat sirf yeh hai ki jab aap iska answer dhundhte hain, aapko teen tarah ke jawab milte hain, aur teeno me se ek bhi <strong>poori honesty se nahi diya gaya</strong>.</p>
+<p>Pehla jawab — "Flutter seekh lo, app banao". Yeh technically possible hai, lekin "free" nahi hai. Aap apne mahine aur developer ka kharcha khud daalenge. Doosra jawab — "Classplus / Teachmint type ka white-label SaaS le lo". Inka plan paid hota hai, aur GST, sales fee ya renewal jaise kharche signup ke time saaf nahi dikhte. Teesra jawab — vague claim ki "koi no-code platform try karo" — kaunsa, kis tarah, kiske jaisa, yeh kabhi nahi bataya jaata.</p>
+<p>Iss guide me hum teeno paths ko honestly compare karenge, aur asli sawal jo aapko puchhna chahiye woh propose karenge. Yeh sawal hai — <strong>"kis architecture me kaam karu jis se mera coaching business chale aur technology mera bottleneck na bane?"</strong> Kyunki jab aap iss sawal ka answer sahi chunte hain, to kam risk me shuru karne ka raasta (free trial, chhota published plan) apne aap mil jaata hai.</p>
 <div class="def">
 <p class="def-l">Strategic Definition</p>
 <h3>"Free Coaching App" — Asli Definition</h3>
-<p>A coaching app jaha educator ka <strong>upfront cash outlay ₹0</strong> ho — no signup fee, no monthly subscription, no developer hire, no infrastructure purchase. Platform tabhi kamata hai jab educator kamata hai (revenue-share model). AllCoaching iss definition ko fit karta hai; white-label SaaS aur DIY routes nahi fit karte, kyunki dono me significant upfront ya recurring cash outlay hota hai — chahe woh paisa ho ya 6 mahine ka time.</p>
+<p>Asal me "free" coaching app ka matlab hota hai: shuru karne ke liye card nahi, setup fee nahi, developer nahi, aur ek free trial. AllCoaching par 7 din free trial hai, phir plan: monthly ₹3,999 se 0% commission, ya yearly Starter ₹6,999 + paid sales par 10%. Yeh free tier nahi hai — trial ke baad plan fee lagti hai.</p>
 </div>
-<p>Across the <a style="text-decoration:none" href="/blog/edtech-marketplace-india-app-fatigue">AllCoaching educator base in 2026</a>, we have observed a consistent pattern — <strong>educators jo DIY route ya white-label route lete hain woh Phase 2 me ruk jaate hain</strong>. App ban gayi, lekin students aaye nahi. Kyunki "app banana" sirf 30% problem hai. Baki 70% problem — students kahaan se aayenge — har route me alag tarah se solve hota hai. Aur sirf marketplace route iss problem ko architecture me hi solve karta hai. Yeh structural difference hi pehle 100 educators ka result alag banata hai.</p>
+<p>2026 ka <a style="text-decoration:none" href="/blog/edtech-marketplace-india-app-fatigue">app-fatigue pattern</a> consistent hai — <strong>educators jo DIY route ya white-label route lete hain woh Phase 2 me ruk jaate hain</strong>. App ban gayi, lekin students aaye nahi. Kyunki "app banana" problem ka chhota hissa hai. Bada hissa — students kahaan se aayenge — har route me aapko khud solve karna hota hai. Marketplace listing ek extra channel deti hai, par main kaam aapke content aur audience ka hai.</p>
 <div class="pull"><p>Aapko app banani nahi hai. Aapko ek <em>system</em> banana hai — teaching + payments + discovery — jo automatically chalein. App us system ka ek surface hai, problem nahi.</p></div>
 </section>
 <div class="orn">· · ·</div>
 <!-- ============ SECTION 02 — DIY trap ============ -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch2">
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch2">
 <p class="kicker">Section 02</p>
 <h2 class="h-chap font-display mt-3">Path 1 · DIY —<br/><span class="accent-red">the 6-month timesink.</span></h2>
-<p class="mt-7">DIY route ka pitch glamorous hota hai — "apni khud ki app banwao, koi commission nahi, brand 100% aapka". Reality kuch aur hai. Solo educator jo Flutter ya React Native developer hire karke app banwata hai uska 9 me se 8 baar yeh outcome hota hai: app 4-9 mahine baad bani, launch hui, lekin <strong>marketing layer kabhi solve nahi hua</strong>, aur first 100 paid students aane me 1-2 saal lag gaye. Tab tak educator ne ₹3-15 lakh kharch kar diya hota hai aur energy bhi.</p>
+<p class="mt-7">DIY route ka pitch glamorous hota hai — "apni khud ki app banwao, koi commission nahi, brand 100% aapka". Reality kuch aur hai. Solo educator jo Flutter ya React Native developer hire karke app banwata hai, uske saath aksar yeh hota hai: app mahino baad bani, launch hui, lekin marketing ka sawal waise hi khada raha. Tab tak kaafi paisa aur energy lag chuki hoti hai.</p>
 <p>DIY ka honest cost breakdown teen layers me hota hai:</p>
 <ul>
 <li><strong>Developer hire — ₹50K se ₹2L/month × 4-6 months.</strong> Full-stack Flutter/React Native developer, aur ek backend developer (Node.js/Python). Solo freelancer cheaper hai par delivery slow aur bug-heavy. Agency ki team faster lekin 2-3x mahanga.</li>
-<li><strong>Designer + UX — ₹40K se ₹1.5L total.</strong> Figma designs, mobile + web UI/UX. Bina iske app "homemade" lagti hai aur students trust nahi karte. Skipping this step = 50% conversion drop.</li>
+<li><strong>Designer + UX — ₹40K se ₹1.5L total.</strong> Figma designs, mobile + web UI/UX. Bina iske app "homemade" lagti hai aur students trust nahi karte. Is step ko chhodne se app kam bharosemand lagti hai.</li>
 <li><strong>Infrastructure — ₹15K se ₹50K/month recurring.</strong> AWS/GCP hosting, CDN for videos (BunnyCDN/Cloudflare), Razorpay account, SMS gateway, email service. Year-1 me total ₹1.8-6 lakh sirf infrastructure pe.</li>
 </ul>
-<p>Yeh sab milkar ₹3-15 lakh upfront — aur abhi tak app sirf <em>ban</em> rahi hai. Launch hone ke baad ka marketing budget alag hai — Meta ads, Google ads, influencer marketing, content creation — yeh saari layers educator ke own time + cash se chalengi. Solo educator ke liye yeh sustainable nahi hai. Aur jab app finally chalti hai, tab tak market me 5 naye competitors aa chuke hote hain.</p>
+<p>Yeh sab milkar kaafi bada upfront kharcha hai (apne quotes zaroor lijiye) — aur abhi tak app sirf ban rahi hai. Launch hone ke baad ka marketing budget alag hai — Meta ads, Google ads, influencer marketing, content creation — yeh saari layers educator ke own time + cash se chalengi. Solo educator ke liye yeh sustainable nahi hai. Aur jab app finally chalti hai, tab tak market me 5 naye competitors aa chuke hote hain.</p>
 <div class="def">
 <p class="def-l">Question Often Asked</p>
 <h3>Kya Flutter seekhke main khud apni coaching app bana sakta hu — bina developer hire kiye?</h3>
-<p>Theoretically yes — agar aapke pass 6-12 months full-time hain aur software engineering background hai. Practically no — aap educator hain, developer nahi. Flutter seekhna chhota nahi hai (40-60 hours just basics), aur production-grade coaching app ke liye state management, video streaming, push notifications, in-app payments, analytics — yeh sab ek-ek karke crack karne me 12+ months chahiye. <strong>Yeh 12 mahine teaching ke nahi hain.</strong> Educator ka opportunity cost — student ko teach karne ke 12 mahine + sambandhit ₹4-12 lakh missed revenue — iss route ka asli hidden cost hai jo kabhi calculate nahi hota.</p>
+<p>Theoretically yes — agar aapke pass 6-12 months full-time hain aur software engineering background hai. Practically no — aap educator hain, developer nahi. Flutter seekhna chhota nahi hai (40-60 hours just basics), aur production-grade coaching app ke liye state management, video streaming, push notifications, in-app payments, analytics — yeh sab ek-ek karke crack karne me 12+ months chahiye. <strong>Yeh 12 mahine teaching ke nahi hain.</strong> Educator ka opportunity cost — teaching ke 12 mahine — iss route ka asli hidden cost hai jo kabhi calculate nahi hota.</p>
 </div>
-<p>DIY ke liye sirf ek scenario justified hai — aap large coaching institute hain (5,000+ students), aapke pass dedicated tech team hai, aur aapko absolute customization chahiye. Solo educator ya 50-500 student institutes ke liye yeh route economic suicide hai. <a style="text-decoration:none" href="/blog/white-label-coaching-app-development-cost-india">White-label coaching app development cost India</a> guide me iss math ka line-by-line breakdown hai.</p>
-<div class="pull-red"><p>"Mai khud app banwa lunga" wala thought 99% educators ka phase-1 dream hota hai. Aur 99% educators ka phase-1 grave bhi yahi hota hai.</p></div>
+<p>DIY ke liye sirf ek scenario justified hai — aap large coaching institute hain (5,000+ students), aapke pass dedicated tech team hai, aur aapko absolute customization chahiye. Solo educator ya 50-500 student institutes ke liye yeh route aam taur par bahut mehenga aur dheema padta hai. <a style="text-decoration:none" href="/blog/white-label-coaching-app-development-cost-india">White-label coaching app development cost India</a> guide me iss math ka line-by-line breakdown hai.</p>
+<div class="pull-red"><p>"Mai khud app banwa lunga" wala thought bahut se educators ka pehla sapna hota hai. Aur aksar wahi sabse mehenga mod bhi ban jaata hai.</p></div>
 </section>
 <div class="orn">· · ·</div>
 <!-- ============ SECTION 03 — White-label trap ============ -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch3">
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch3">
 <p class="kicker">Section 03</p>
-<h2 class="h-chap font-display mt-3">Path 2 · White-label SaaS —<br/><em>the ₹4–11 lakh trap.</em></h2>
-<p class="mt-7">White-label SaaS apps ka pitch DIY se zyada smart hota hai. "₹X,XXX/month me apni branded app — coding nahi, time nahi, sirf branding aur content". Aap signup karte hain, free trial chalti hai 14-30 din, phir paid plan start hota hai. Yahaan tak sab clear lagta hai. <strong>Real Year-1 cost ki layers signup ke time nahi dikhti</strong> — sirf invoice aane par dikhti hain.</p>
-<p>White-label SaaS ka honest Year-1 cost decomposition kuch aisa dikhta hai (₹10 lakh annual revenue wale educator ke liye):</p>
+<h2 class="h-chap font-display mt-3">Path 2 · White-label SaaS — hidden costs ka sawal.<em></em></h2>
+<p class="mt-7">White-label SaaS apps ka pitch DIY se zyada smart hota hai. "₹X,XXX/month me apni branded app — coding nahi, time nahi, sirf branding aur content". Aap demo ya signup karte hain, phir paid plan start hota hai. Yahaan tak sab clear lagta hai. <strong>Real Year-1 cost ki layers signup ke time nahi dikhti</strong> — sirf invoice aane par dikhti hain.</p>
+<p>White-label SaaS ka Year-1 cost samajhne ke liye yeh lines dekhiye:</p>
 <div class="math-block" data-label="The Year-1 Math">
 <div class="math-grid">
 <div class="math-item">
-<div class="num">₹X</div>
-<div class="label">Advertised monthly plan</div>
+<div class="num">Plan</div>
+<div class="label">Yearly ya monthly price</div>
 </div>
 <div class="math-item">
-<div class="num">₹4–11L</div>
-<div class="label">Actual Year-1 outlay</div>
+<div class="num">Fee</div>
+<div class="label">Sales par percentage</div>
 </div>
 <div class="math-item">
-<div class="num">7</div>
-<div class="label">Hidden cost layers</div>
+<div class="num">GST</div>
+<div class="label">Included ya alag?</div>
 </div>
 <div class="math-item">
-<div class="num">12 mo</div>
-<div class="label">Subscription lock-in</div>
+<div class="num">Renewal</div>
+<div class="label">Agle saal kitna?</div>
 </div>
 </div>
-<p class="math-equation">Advertised price × 12 = <strong>~₹40K-1.5L.</strong> Real Year-1 = <strong>₹4-11 lakh.</strong></p>
+<p class="math-equation">Headline price sirf shuruaat hai. <strong>Plan + sales fee + GST + renewal + app add-ons</strong> jod kar Year-1 total nikaliye.</p>
 </div>
-<p>Yeh 7 hidden layers kya hain? Pehla — <strong>setup &amp; migration fee</strong> (₹15-50K one-time). Doosra — <strong>custom domain + SSL</strong> (₹3-8K/year + ek-time setup). Teesra — <strong>payment gateway commission</strong> (Razorpay 2% standard, par white-label wallah aksar 1% additional layer charge karta hai). Chautha — <strong>video CDN + DRM</strong> (premium tier me extra ₹15-40K/year). Paanchwa — <strong>custom Play Store app build fee</strong> (₹50K-1.5L one-time). Chhata — <strong>marketing campaigns</strong> (Meta/Google ads jo platform run karta hai aapke behalf par — ₹1.5-5L/year). Saatva — <strong>annual subscription lock-in</strong> (cancel karne par penalty ya credit forfeit).</p>
-<p>Across the AllCoaching educator base, hum dekhte hain ki <strong>educators jo white-label se migrate karke aate hain</strong> woh average ₹6.8 lakh Year-1 cost report karte hain — advertised number ka 8-12x. Yeh number sirf isliye nahi sun-ne ko milta kyunki sales team trial conversion par bonus paati hai, sticker shock par nahi. <a style="text-decoration:none" href="/blog/best-zero-commission-teaching-platform-india">Best zero-commission teaching platform India</a> me iss hidden cost analysis ka detailed financial decomposition diya gaya hai.</p>
-<div class="hband"><p><strong>The honest pattern.</strong> White-label SaaS ki advertised price ₹X,XXX/month sirf landing page ka SEO hook hai. Year-1 real total ₹4-11 lakh ke beech aata hai. Yeh structural feature hai — aksar deliberate misdirection nahi, lekin economically educator ke against jaata hai.</p></div>
+<p>Kaun si lines poochhni hain? Pehla — setup ya migration fee. Doosra — custom domain aur SSL. Teesra — payment gateway charges aur platform ki sales fee. Chautha — video hosting aur DRM kis plan me hai. Paanchwa — branded app ka kharcha aur kis developer account par publish hota hai. Chhata — GST. Saatva — renewal price aur lock-in. Har vendor ka jawab alag hota hai, isliye likhit me lijiye.</p>
+<p>Isliye har quote ko same sales level par jod kar compare kariye. <a style="text-decoration:none" href="/blog/best-zero-commission-teaching-platform-india">Best zero-commission teaching platform India</a> me iss hidden cost analysis ka detailed financial decomposition diya gaya hai.</p>
+<div class="hband"><p><strong></strong>The honest pattern. Headline price aur saal ka poora kharcha alag ho sakte hain. Isme kuch galat nahi, par signup se pehle poora total dekhna aapki zimmedari hai.</p></div>
 </section>
 <div class="orn">· · ·</div>
 <!-- ============ SECTION 04 — Marketplace answer ============ -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch4">
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch4">
 <p class="kicker">Section 04</p>
-<h2 class="h-chap font-display mt-3">Path 3 · Educator marketplace —<br/><span class="accent-blue">production-ready, ₹0.</span></h2>
-<p class="mt-7">Teesra raasta sabse naya hai aur sabse misunderstood. Educator marketplace woh model hai jaha har educator ka apna branded studio hota hai, aur saare studios ek shared discovery surface (AI-matched recommendations) par list hote hain. AllCoaching India ki first AI-driven educator marketplace hai. Architecture ki teen baatein important hain:</p>
+<h2 class="h-chap font-display mt-3">Path 3 · Self-serve LMS —<br/><span class="accent-blue">production-ready, ₹6,999/saal se.</span></h2>
+<p class="mt-7">Teesra raasta sabse naya hai aur sabse misunderstood. Self-serve LMS woh model hai jaha har educator apna branded studio khud banata hai, aur courses ek shared marketplace app par bhi list ho sakte hain. AllCoaching ek self-serve LMS hai jisme educator apni branded academy khud banata hai, saath me AllCoaching marketplace app par listing bhi milti hai. Architecture ki teen baatein important hain:</p>
 <ul>
-<li><strong>Educator ka studio fully branded hota hai.</strong> Logo, colors, subdomain (rakesh-sir.allcoaching.in), tagline, course catalog — sab educator's own. Student-facing experience me AllCoaching ka small footer link sirf 'Powered by' line me dikhata hai.</li>
-<li><strong>Marketplace discovery layer free tier me built-in hai.</strong> AI engine educator ka content (subject, exam, language, level, location) student search queries se match karta hai. Yeh wahi layer hai jo DIY ya white-label me alag se buy karna padti hai (₹1.5-5L/year of Meta/Google ads).</li>
-<li><strong>Revenue-share model — educator paisa kamaya tabhi platform kamati hai.</strong> No upfront fee, no monthly subscription on base plan, no credit card at signup. 10% rev-share on paid student earnings. 90% educator ko via Razorpay rails.</li>
+<li><strong></strong>Educator ka studio fully branded hota hai. Logo, colors, free .allcoaching.in address (ya apna domain), tagline, course catalog — sab educator ka apna.</li>
+<li><strong></strong>Marketplace listing har plan me built-in hai. Students subject, exam ya bhasha search karke AllCoaching marketplace app par aapko dhoondh sakte hain. Yeh ek extra channel hai, students ki guarantee nahi.</li>
+<li><strong>Simple pricing — monthly ₹3,999 se (0% commission), ya yearly ₹6,999 se.</strong> No setup fee, signup par credit card nahi (7 din free trial). Starter par paid sales par 10% platform fee lagti hai; monthly plans (₹3,999, ₹5,999 ya ₹7,999/mahina) par 0% commission. yearly Starter par 90%, monthly plans par 100% educator ko.</li>
 </ul>
-<p>Iska practical matlab kya hai? <strong>Educator ek single login me ek complete coaching business chalata hai — kursi pe baithke, mobile pe.</strong> Saare 7 infrastructure layers (next section me detailed) AllCoaching ke andar built-in. Educator ka focus 100% teaching par — content creation, live classes, student interaction. AllCoaching ka focus 100% infrastructure + discovery par. Yahi role separation educator ko zyada compounding deta hai DIY ya white-label se.</p>
+<p>Iska practical matlab kya hai? <strong>Educator ek single login me ek complete coaching business chalata hai — kursi pe baithke, mobile pe.</strong> Saare 7 infrastructure layers (next section me detailed) AllCoaching ke andar built-in. Educator ka focus 100% teaching par — content creation, live classes, student interaction. AllCoaching ka focus infrastructure par. Yahi role separation educator ko zyada compounding deta hai DIY ya white-label se.</p>
 <div class="def">
 <p class="def-l">Strategic Definition</p>
 <h3>Educator Marketplace</h3>
-<p>Multi-educator platform jaha har educator ka apna branded studio hota hai aur saare studios ek shared discovery surface (AI-matched recommendations) par list hote hain. <strong>AllCoaching India ki first AI-driven educator marketplace hai</strong> — combining the branding advantages of white-label apps with the discovery advantages of platform marketplaces. Zero upfront, revenue-share on paid earnings, no lock-in. (Full glossary entry: see <a href="#dfn-educator-marketplace">below</a>.)</p>
+<p>Multi-educator platform jaha har educator ka apna branded studio hota hai aur courses ek shared marketplace app par bhi list ho sakte hain. <strong>AllCoaching ek self-serve LMS hai jisme educator apni branded academy khud banata hai, saath me AllCoaching marketplace app par listing bhi milti hai</strong> — combining the branding advantages of white-label apps with an extra discovery channel. From ₹3,999/mo or ₹6,999/yr, 0% commission on every monthly plan, monthly plans stop any month. (Full glossary entry: see <a href="#dfn-educator-marketplace">below</a>.)</p>
 </div>
-<p>Yeh model 2026 me dominate isliye kar raha hai kyunki Indian educator market mature ho gaya hai — 3.5 lakh+ isolated personal apps ban gaye hain (each fighting for the same student), aur students "app fatigue" face kar rahe hain. Ek shared marketplace jaha sab educators discoverable hain, student ke liye comparison-friendly hai, aur educator ke liye distribution-free hai. <a style="text-decoration:none" href="/blog/edtech-marketplace-india-app-fatigue">EdTech marketplace India app fatigue</a> me iss thesis ka full architectural analysis hai.</p>
+<p>Yeh model isliye kaam ka hai kyunki bahut saare isolated personal apps ban gaye hain aur students "app fatigue" face kar rahe hain. Ek shared marketplace jaha educators discoverable hain, student ke liye comparison-friendly hai, aur educator ke liye ek extra channel. <a style="text-decoration:none" href="/blog/edtech-marketplace-india-app-fatigue">EdTech marketplace India app fatigue</a> me iss thesis ka full architectural analysis hai.</p>
 </section>
 <div class="orn">· · ·</div>
 <!-- ============ SECTION 05 — 7 infrastructure layers ============ -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch5">
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch5">
 <p class="kicker">Section 05</p>
 <h2 class="h-chap font-display mt-3">7 infrastructure layers<br/><em>jo har coaching app ko chahiye.</em></h2>
-<p class="mt-7">Coaching app banane ki cost samajhne ke liye, pehle yeh samajh lein ki ek production-grade coaching app me kya-kya layers hote hain. Bahut educators sirf "video upload" aur "payment lo" ke beech sochte hain — lekin reality me saat alag layers hain, har ek ka apna cost + complexity. Niche table me dono dikha rahe hain — alag-alag assemble karne ka annual cost, aur AllCoaching ke free tier me kya included hai:</p>
+<p class="mt-7">Coaching app banane ki cost samajhne ke liye, pehle yeh samajh lein ki ek production-grade coaching app me kya-kya layers hote hain. Bahut educators sirf "video upload" aur "payment lo" ke beech sochte hain — lekin reality me saat alag layers hain, har ek ka apna cost + complexity. Niche dikha rahe hain ki kaun si layers alag-alag jodni padti hain, aur AllCoaching ke plan me kya included hai:</p>
 <div class="math-block" data-label="Infrastructure breakdown">
 <div class="math-grid">
 <div class="math-item">
-<div class="num">₹15-50K</div>
+<div class="num">Alag</div>
 <div class="label">Live class server / year</div>
 </div>
 <div class="math-item">
-<div class="num">₹20-60K</div>
+<div class="num">Alag</div>
 <div class="label">Video DRM &amp; CDN / year</div>
 </div>
 <div class="math-item">
-<div class="num">₹0-40K</div>
+<div class="num">Alag</div>
 <div class="label">Payment gateway setup</div>
 </div>
 <div class="math-item">
-<div class="num">₹30-90K</div>
+<div class="num">Alag</div>
 <div class="label">Student CRM / year</div>
 </div>
 <div class="math-item">
-<div class="num">₹40-1.2L</div>
+<div class="num">Alag</div>
 <div class="label">Fee management software</div>
 </div>
 <div class="math-item">
-<div class="num">₹1.5-5L</div>
+<div class="num">Alag</div>
 <div class="label">Marketing &amp; discovery / year</div>
 </div>
 <div class="math-item">
-<div class="num">₹15-40K</div>
+<div class="num">Alag</div>
 <div class="label">GST + invoicing / year</div>
 </div>
 </div>
-<p class="math-equation">Total Year-1 standalone assembly: <strong>₹2.7L–11L.</strong> AllCoaching free tier: <strong>₹0.</strong></p>
+<p class="math-equation">Alag-alag jodne par har layer ka alag bill aur maintenance. AllCoaching ke har plan me built-in: <strong>monthly ₹3,999 se 0% commission, ya yearly ₹6,999 + 10% fee per sale.</strong></p>
 </div>
 <p>Yeh saat layers ko ek-ek karke unpack karte hain:</p>
 <ol>
-<li><strong>Live class server.</strong> Zoom-like infrastructure jaha attendance tracking, recording, doubt-solving, breakout rooms ho. DIY route me Zoom subscription (₹1.2K/month) + custom integration; white-label me usually built-in but premium tier feature. AllCoaching free tier me unlimited live classes + automatic recording included.</li>
-<li><strong>Video DRM &amp; CDN.</strong> HLS+AES encrypted streaming, forensic watermarking, screen-record blocking. Without DRM aapki recorded lectures Telegram pe leak ho jaayengi 30 din me. Premium video CDN + DRM ₹20-60K/year standalone. AllCoaching me included.</li>
-<li><strong>Payment gateway.</strong> UPI/card/net-banking/EMI accept karne ka infrastructure. Razorpay standalone account free me available hai but onboarding 5-7 din, KYC complete karna pad ta hai, GST registration zaruri hai. AllCoaching me pre-integrated — student pay karta hai, educator ke bank account me 90% land hota hai.</li>
-<li><strong>Student CRM.</strong> Attendance, fee payment status, course progress, communication history. 20+ students par WhatsApp + Excel khatm ho jaate hain — Excel formulas tut-te hain, WhatsApp groups overflowing ho jaate hain. Standalone CRM ₹30-90K/year. AllCoaching free tier me built-in.</li>
-<li><strong>Fee management.</strong> Installment tracking, automatic reminders, GST-compliant invoicing, refund processing. <a style="text-decoration:none" href="/blog/automated-fee-management-software-for-teachers">Automated fee management software for teachers</a> guide me detail hai. Manual tracking 100+ students par cripple hota hai — 8-12 hours/week wasted on fee chase. AllCoaching me auto-reminders + invoicing included.</li>
-<li><strong>Marketing &amp; discovery.</strong> Yahi sabse expensive layer hai — aur most underestimated. DIY/white-label me aapko Meta + Google ads chalane padte hain, content marketing, SEO, influencer tie-ups — annual ₹1.5-5L typical. <strong>AllCoaching me yeh layer hi nahi hai</strong> — kyunki marketplace AI students ko aapke profile tak organically pahunchata hai. Yeh structural advantage hai, monetary nahi sirf.</li>
-<li><strong>GST + invoicing.</strong> India me coaching services par 18% GST applicable hai (specific exemptions ke alawa). Manual invoicing chartered accountant ko outsource ya in-house karna ₹15-40K/year. AllCoaching me automatic GST-compliant invoices per transaction generate hote hain.</li>
+<li><strong>Live class server.</strong> Zoom-like infrastructure jaha attendance tracking, recording, doubt-solving, breakout rooms ho. DIY route me Zoom subscription + custom integration; white-label me plan par depend. AllCoaching me har plan me YouTube Live ya Zoom par unlimited live classes, aur built-in live classroom ke monthly hours (monthly plans: 20/50/90 ghante; yearly: 5/10/15) milte hain.</li>
+<li><strong>Video DRM &amp; CDN.</strong> HLS+AES encrypted streaming, forensic watermarking, screen-record blocking. Bina protection ke recorded lectures leak hone ka risk rehta hai. Alag se CDN aur DRM lena mehenga hota hai. AllCoaching ke har plan me DRM aur watermarking included hai; uploaded video ki storage aur streaming plan ke hisaab se hoti hai.</li>
+<li><strong>Payment gateway.</strong> UPI/card/net-banking/EMI accept karne ka infrastructure. Razorpay standalone account free me available hai but onboarding 5-7 din, KYC complete karna pad ta hai, GST registration zaruri hai. AllCoaching me pre-integrated — student pay karta hai, automatic payout se educator ke bank account me monthly plans par 100% aur yearly par 90–95% aata hai (gateway charges alag).</li>
+<li><strong>Student CRM.</strong> Attendance, fee payment status, course progress, communication history. 20+ students par WhatsApp + Excel khatm ho jaate hain — Excel formulas tut-te hain, WhatsApp groups overflowing ho jaate hain. Alag CRM ka alag kharcha hai. AllCoaching me student records included hain.</li>
+<li><strong>Fee management.</strong> Installment tracking, automatic reminders, GST-compliant invoicing, refund processing. <a style="text-decoration:none" href="/blog/automated-fee-management-software-for-teachers">Automated fee management software for teachers</a> guide me detail hai. Manual tracking 100+ students par bahut time leti hai. AllCoaching me fee collection aur student records ek jagah rehte hain.</li>
+<li><strong>Marketing &amp; discovery.</strong> Yahi sabse expensive layer hai — aur most underestimated. Har route me aapko content marketing, SEO, WhatsApp/YouTube ya ads khud chalane padte hain. AllCoaching marketplace listing ek extra channel jodti hai, par marketing aapka kaam rehta hai.</li>
+<li><strong>GST + invoicing.</strong> India me coaching services par 18% GST applicable hai (specific exemptions ke alawa). Invoicing aur GST filing ke liye CA ki madad lagti hai. Apni GST position apne CA se confirm karein; AllCoaching par har payment ka record ek jagah milta hai.</li>
 </ol>
-<p>Total Year-1 standalone assembly cost: <strong>₹2.7 lakh se ₹11 lakh</strong>. AllCoaching free tier me yeh saat layers built-in milti hain — ₹0 upfront, 10% rev-share on paid earnings only. Yeh sirf cost saving nahi hai — yeh time saving hai. DIY route me yeh saari layers wire karne me 3-6 months chahiye. AllCoaching me 60 seconds.</p>
+<p>Alag-alag tools jodne ka total aapke quotes par depend karta hai. AllCoaching ke har plan me zyaadatar layers built-in milti hain — monthly ₹3,999 se 0% commission, ya yearly Starter ₹6,999 + 10%. Yeh sirf cost ki baat nahi — time ki bhi hai. DIY route me yeh layers wire karne me mahine lagte hain; AllCoaching par studio kuch clicks me set hota hai.</p>
 </section>
 <div class="orn">· · ·</div>
-<!-- ============ SECTION 06 — 60-second onboarding (phase components) ============ -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch6">
+<!-- ============ SECTION 06 — onboarding (phase components) ============ -->
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch6">
 <p class="kicker">Section 06</p>
-<h2 class="h-chap font-display mt-3">AllCoaching ka 60-second onboarding —<br/><em>6 steps se branded studio live.</em></h2>
-<p class="mt-7">Theory bahut ho gayi. Ab dekhte hain practically AllCoaching par signup kaise hota hai. Educator setup wizard 6 simple steps me complete hota hai. Most educators iss flow ko 60 seconds me complete kar lete hain — pehla paid student aane me uske baad 24-48 hours lagte hain (kyunki ek course upload + ek live class schedule kar na hota hai).</p>
+<h2 class="h-chap font-display mt-3">AllCoaching ka signup — 6 steps se branded studio.<em></em></h2>
+<p class="mt-7">Theory bahut ho gayi. Ab dekhte hain practically AllCoaching par signup kaise hota hai. Educator setup wizard 6 simple steps me complete hota hai. Yeh flow kuch minute ka hai; pehla paid student kab aayega, yeh aapke course aur audience par depend karta hai.</p>
 <p>Yahaan har step ka breakdown hai — exactly jaisa studio.allcoaching.in par dikhta hai:</p>
 <div class="phase">
 <div class="phase-left">
@@ -344,7 +476,7 @@ schema_extra:
 <h3>Mobile number verify karein.</h3>
 <div class="phase-target">Outcome — Educator identity confirmed</div>
 <p class="phase-desc">Indian mobile number enter karein. 256-bit encrypted channel par 6-digit OTP aata hai instant. No email, no password — mobile aapki single source of identity hai.</p>
-<p>Iska reason hai: India me educators WhatsApp + UPI ke mental model me operate karte hain. Mobile OTP woh familiar pattern hai. Email-password authentication 30% educators ke liye friction tha — iss flow se woh friction zero hai.</p>
+<p>Iska reason hai: India me educators WhatsApp + UPI ke mental model me operate karte hain. Mobile OTP woh familiar pattern hai. Email-password ke mukable yeh kam friction wala hai.</p>
 </div>
 </div>
 <div class="phase">
@@ -360,7 +492,7 @@ schema_extra:
 <h3>Apna naam aur WhatsApp add karein.</h3>
 <div class="phase-target">Outcome — Public-facing educator identity</div>
 <p class="phase-desc">Apna pura naam likhein jaisa aap students ko dikhana chahein. Plus WhatsApp number jo aap student support ke liye use karenge. Yeh dono educator's public-facing identity ka core ban-te hain.</p>
-<p>WhatsApp number zaruri kyun? Kyunki Indian students 87% pe educator se direct contact WhatsApp pe karte hain. AllCoaching iss connection ko built-in deti hai — student studio se ek click pe educator ke WhatsApp pe land karta hai.</p>
+<p>WhatsApp number zaruri kyun? Kyunki zyaadatar Indian students educator se WhatsApp par baat karna pasand karte hain. AllCoaching iss connection ko built-in deti hai — student studio se ek click pe educator ke WhatsApp pe land karta hai.</p>
 </div>
 </div>
 <div class="phase">
@@ -374,9 +506,9 @@ schema_extra:
 </div>
 <div class="phase-right">
 <h3>Apna teaching subject choose karein.</h3>
-<div class="phase-target">Outcome — AI marketplace matching enabled</div>
-<p class="phase-desc">Subject, exam, ya skill select karein (NEET Physics, CA Foundation, UPSC GS, IIT Maths, Class XII Chemistry, etc.). Yahi field AI-marketplace ke matching engine ko drive karti hai — aapke saath relevant students kaise match honge.</p>
-<p>Niche depth matters here. "Sab padha leta hu" wale educator ki marketplace visibility limited rehti hai. "JEE Mains Physics — Mechanics + Modern Physics" type ka specific niche aapko exam-aligned search queries me bahut prominently surface karta hai.</p>
+<div class="phase-target">Outcome — marketplace listing ready</div>
+<p class="phase-desc">Subject, exam, ya skill select karein (NEET Physics, CA Foundation, UPSC GS, IIT Maths, Class XII Chemistry, etc.). Yahi field aapki marketplace listing me dikhti hai, taaki sahi students aapko search me dhoondh sakein.</p>
+<p>Niche depth matters here. "Sab padha leta hu" wale educator ki marketplace visibility limited rehti hai. "JEE Mains Physics — Mechanics + Modern Physics" type ka specific niche search me aapko dhoondhna aasaan banata hai.</p>
 </div>
 </div>
 <div class="phase">
@@ -391,7 +523,7 @@ schema_extra:
 <div class="phase-right">
 <h3>Apne studio ko brand karein.</h3>
 <div class="phase-target">Outcome — White-labeled student experience</div>
-<p class="phase-desc">Apna logo upload karein aur brand colors choose karein. AllCoaching aapke educator studio ko fully white-label kar deta hai — student-facing experience me <strong>aapka brand prominent dikhta hai</strong>, AllCoaching ka logo sirf footer ke 'Powered by' line me chhota dikhata hai.</p>
+<p class="phase-desc">Apna logo upload karein aur brand colors choose karein. AllCoaching aapke educator studio ko fully white-label kar deta hai — student-facing experience me aapka brand prominent dikhta hai.</p>
 <p>Logo nahi hai abhi? Skip kar sakte hain, default placeholder set ho jaata hai. Baad me kabhi bhi educator studio settings se update kar sakte hain. Brand customization is reversible — design choices educator ki own raheti hain.</p>
 </div>
 </div>
@@ -401,14 +533,14 @@ schema_extra:
 <div class="phase-meta">
 <span><strong>Step</strong> Plan</span>
 <span><strong>Time</strong> ~10 seconds</span>
-<span><strong>Input</strong> Free trial / Paid</span>
+<span><strong></strong>Input — plan</span>
 </div>
 </div>
 <div class="phase-right">
-<h3>Plan choose karein — free trial ya paid.</h3>
+<h3>Plan choose karein — Starter, Growth ya Pro, monthly ya yearly.</h3>
 <div class="phase-target">Outcome — Studio access tier locked</div>
-<p class="phase-desc">30-day free trial select karein — full premium features, no credit card. Ya agar aapko advance se pata hai ki aapko paid tier features chahiye, woh select karein. <strong>Free base plan permanently free rehta hai</strong> trial khatm hone ke baad — sirf advanced features (custom domain, advanced analytics) paid tier me hain.</p>
-<p>Free trial signup par credit card nahi maanga jaata. Trial khatm hone par automatic charge nahi hota — aap manually decide karte hain paid pe shift karna hai ya free base plan par chalna hai.</p>
+<p class="phase-desc">Teen plan hain — Starter, Growth aur Pro — monthly ya yearly: monthly ₹3,999, ₹5,999 aur ₹7,999/mahina (sab par 0% commission), ya yearly ₹6,999, ₹12,999 aur ₹24,999/saal (10%, 7.5% ya 5% fee per sale). <strong></strong>Shuru karne ke liye Starter kaafi hai — saare core teaching features aur YouTube Live ya Zoom par unlimited live classes; apna domain har plan me connect kar sakte hain.</p>
+<p>Signup par credit card nahi maanga jaata, aur 7 din ka free trial milta hai. Automatic charge kabhi nahi hota — aap manually decide karte hain Growth/Pro par shift karna hai ya Starter plan par chalte rehna hai.</p>
 </div>
 </div>
 <div class="phase">
@@ -423,138 +555,129 @@ schema_extra:
 <div class="phase-right">
 <h3>Launch — aapka studio live hai.</h3>
 <div class="phase-target">Outcome — Public URL active, ready for students</div>
-<p class="phase-desc">Aapka branded studio ab live hai — ek public URL ke saath jo aap students ko share kar sakte hain. Pehla course upload karein, ek live class schedule karein, URL share karein. <strong>Most educators 48 hours ke andar apna first paid batch run kar lete hain.</strong></p>
-<p>500+ educators har mahine iss flow se join karte hain (educator signup page ka own social proof). Iss number ka matter yeh hai ki onboarding scale par tested hai — edge cases, slow connections, regional language input, sab handle hota hai.</p>
+<p class="phase-desc">Aapka branded studio ab live hai — ek public URL ke saath jo aap students ko share kar sakte hain. Pehla course upload karein, ek live class schedule karein, URL share karein. <strong>Pehla course ready hote hi aap bechna shuru kar sakte hain. Apna Android app aapke Google Play Console account se publish hota hai, aur store review Google karta hai.</strong></p>
 </div>
 </div>
 <div class="callout">
 <span class="callout-label">Honest concession</span>
-        60 seconds setup ka matlab "60 seconds me first paid student" nahi hai. Setup me 60 second — first paid student me 24-48 hours, kyunki uske beech aapko ek course upload + ek live class schedule karna hota hai. Yeh time content creation ka hai, infrastructure ka nahi. Technology bottleneck nahi rehti.
+        Jaldi setup ka matlab "turant paid student" nahi hai. Setup kuch clicks ka hai — pehla paid student aapke course aur audience par depend karta hai. Yeh time content creation ka hai, infrastructure ka nahi. Technology bottleneck nahi rehti.
       </div>
 </section>
 <div class="orn">· · ·</div>
 <!-- ============ SECTION 07 — Free trial reality ============ -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch7">
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch7">
 <p class="kicker">Section 07</p>
-<h2 class="h-chap font-display mt-3">Free trial khatm hone par<br/><span class="accent-blue">kya hota hai?</span></h2>
-<p class="mt-7">Yeh sabse common question hai jo educators puchhte hain signup ke time. Aur valid hai — bahut SaaS platforms par "free trial" sirf signup hook hota hai, 30 din baad credit card auto-charge ho jata hai, cancel karna mushkil hota hai. AllCoaching ka model alag hai aur honestly explain karna important hai.</p>
+<h2 class="h-chap font-display mt-3">AllCoaching free hai ya<br/><span class="accent-blue">baad me paise lagte hain?</span></h2>
+<p class="mt-7">Yeh sabse common question hai jo educators puchhte hain signup ke time. Aur valid hai — bahut SaaS platforms par "free trial" sirf signup hook hota hai, 30 din baad credit card auto-charge ho jata hai, cancel karna mushkil hota hai. AllCoaching ka model seedha hai — har plan 7 din ke free trial se shuru hota hai, card ki zaroorat nahi, aur uske baad aap khud monthly ya yearly plan chunte hain. AllCoaching free nahi hai — yeh honestly batana zaroori hai.</p>
 <div class="def">
 <p class="def-l">Question Often Asked</p>
-<h3>Kya free trial khatm hone par AllCoaching automatic credit card charge karta hai?</h3>
-<p>Nahi. AllCoaching free trial me credit card maanga hi nahi jaata signup ke time. Trial khatm hone par <strong>aap manually choose karte hain</strong> ki paid tier par upgrade karna hai (₹999-4999/month range, advanced features) ya free base plan par continue karna hai (permanently free, core teaching infrastructure included). Most solo educators pehle 6-12 mahine free base plan par hi profitable ho jaate hain — paid features tab matter karte hain jab aap 100+ students ya multi-batch scale par pahuchte hain.</p>
+<h3>Kya AllCoaching baad me automatic credit card charge karta hai?</h3>
+<p>Nahi. AllCoaching signup ke time credit card maanga hi nahi jaata — 7 din ka free trial bina card ke chalta hai, aur trial ke baad plan aap khud chunte hain. Koi auto-upgrade nahi hota — aap khud choose karte hain ki monthly plan (₹3,999, ₹5,999 ya ₹7,999/mahina, sab 0% commission) lena hai ya yearly plan (₹6,999 + 10%, ₹12,999 + 7.5%, ₹24,999 + 5%). Lagbhag ₹4 lakh saalana sales ke upar monthly plan aksar zyada bachata hai (illustrative).</p>
 </div>
-<p>Free base plan me kya included hai aur kya nahi — yeh transparent rehna chahiye:</p>
+<p>Har plan me kya included hai — yeh transparent rehna chahiye:</p>
 <div class="grid sm:grid-cols-2 gap-4 mt-8">
 <div class="gain-card">
-<span class="gc-l">Free tier me included</span>
+<span class="gc-l">Starter plan me included</span>
 <ul>
-<li>Branded educator studio (subdomain)</li>
+<li>Branded educator studio + apna domain connect karna</li>
 <li>Unlimited courses + study material</li>
-<li>Live classes with recording</li>
+<li>Unlimited live classes (YouTube Live ya Zoom)</li>
+<li>512 GB video storage + 512 GB streaming/mahina</li>
 <li>Payment gateway + UPI/card</li>
 <li>Student CRM (attendance, fees, progress)</li>
-<li>AI-marketplace listing &amp; discovery</li>
-<li>GST-compliant invoicing</li>
+<li>AllCoaching marketplace listing</li>
 <li>Automatic payouts via Razorpay</li>
-<li>WhatsApp Business integration</li>
-<li>Anti-piracy video DRM (basic tier)</li>
+<li>7 din free trial, no card</li>
 </ul>
 </div>
 <div class="cost-card">
-<span class="cc-l">Paid tier add-ons</span>
+<span class="cc-l">Growth / Pro me extra</span>
 <ul>
-<li>Custom domain (rakeshsir.in)</li>
-<li>Footer "Powered by" removal</li>
-<li>Advanced analytics dashboard</li>
-<li>Priority WhatsApp support</li>
-<li>Extended marketing campaigns</li>
-<li>Individual Play Store listing</li>
-<li>Premium DRM tier (forensic watermarking)</li>
-<li>Multi-admin team management</li>
-<li>API access for custom integrations</li>
-<li>White-glove migration support</li>
+<li>0% commission — 100% aapka (har monthly plan: ₹3,999, ₹5,999 ya ₹7,999/mahina)</li>
+<li>Storage + streaming: 1 TB + 1 TB (Growth), 2 TB + 2 TB (Pro)</li>
+<li>iOS app, 4K aur premium theme (Pro)</li>
 </ul>
 </div>
 </div>
-<p class="mt-8">Free tier ki philosophy yeh hai — <strong>educator ko apne business ka pehla 6-12 month bina kisi cash outlay ke chalana chahiye</strong>. Iss period me educator validate karta hai ki content kaisa kaam karta hai, students kaise respond karte hain, revenue kaise build hoti hai. Jab proof ho jata hai (typically ₹50K-2L/month revenue), tab paid tier upgrade ek informed decision hota hai — speculation nahi.</p>
+<p class="mt-8">Yearly Starter ki philosophy yeh hai — kam sales par fixed kharcha chhota rahe. Iss period me educator validate karta hai ki content kaisa kaam karta hai, students kaise respond karte hain, revenue kaise build hoti hai. Jab sales badhti hai, tab monthly plan (0% commission) par jaana ek informed decision hota hai — speculation nahi. Rough guide (illustrative, GST se pehle): lagbhag ₹4 lakh saalana sales ke upar monthly plan aksar yearly Starter se zyada bachata hai.</p>
 </section>
 <div class="orn">· · ·</div>
 <!-- ============ SECTION 08 — Cost reality ============ -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch8">
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch8">
 <p class="kicker">Section 08</p>
 <h2 class="h-chap font-display mt-3">Cost reality —<br/><em>aap kya bachate hain.</em></h2>
-<p class="mt-7">Three paths ki side-by-side comparison aakhir me ek table me daalein. Yeh table ek ₹10 lakh annual revenue wale solo educator ke liye representative scenario hai — Year-1 actual cash outlay kya hota hai, aur Year-1 ke end me net retained earnings kya bach-ti hain:</p>
+<p class="mt-7">Three paths ki side-by-side comparison aakhir me ek table me daalein. Yeh table ek ₹10 lakh annual revenue wale solo educator ke liye illustrative scenario hai; DIY aur white-label ke number aapke quotes par depend karte hain:</p>
 <div class="cmp-scroll">
 <div class="cmp">
 <div class="cmp-h4">
 <span>Cost line</span>
 <span>DIY · Flutter / hire dev</span>
 <span>White-label SaaS</span>
-<span style="color:#E0A95C; font-weight:800;">★ AllCoaching</span>
+<span style="color:#5B6CFF; font-weight:700;">★ AllCoaching</span>
 </div>
 <div class="cmp-r4">
 <span>Upfront cash outlay</span>
-<span>₹3–15 lakh</span>
-<span>₹40K–1.5L <em style="opacity:.6;">(advertised)</em></span>
-<span class="cmp-acc">₹0</span>
+<span>Agency quote par (aksar lakhs me)</span>
+<span>Vendor par depend (jaise Classplus ₹29,999/saal listed)</span>
+<span class="cmp-acc">₹3,999/mahina (0%) ya ₹6,999/saal + 10%</span>
 </div>
 <div class="cmp-r4">
 <span>Year-1 hidden infra cost</span>
-<span>₹1.8–6 lakh</span>
-<span>₹4–11 lakh <em style="opacity:.6;">(actual)</em></span>
+<span>Hosting, CDN, gateway alag</span>
+<span>Plan me kya hai, likhit me poochhiye</span>
 <span class="cmp-acc">Included</span>
 </div>
 <div class="cmp-r4">
 <span>Time to launch</span>
 <span>4–9 months</span>
 <span>3–7 days</span>
-<span class="cmp-acc">60 seconds</span>
+<span class="cmp-acc">Studio kuch clicks me</span>
 </div>
 <div class="cmp-r4">
 <span>Discovery / marketing</span>
-<span>Self-funded · ₹1.5–5L/year</span>
-<span>Partial — extra cost</span>
-<span class="cmp-acc">AI marketplace · free</span>
+<span>Aap khud</span>
+<span>Aap khud</span>
+<span class="cmp-acc">Aap khud + marketplace listing</span>
 </div>
 <div class="cmp-r4">
 <span>Revenue retained <em style="opacity:.6;">(₹10L scenario)</em></span>
-<span>~₹0 after costs</span>
-<span>₹–1 to ₹4L <em style="opacity:.6;">(often loss)</em></span>
-<span class="cmp-acc cmp-acc-strong">₹9 lakh · 90%</span>
+<span>Build kharche par depend</span>
+<span>Plan aur sales fee par depend</span>
+<span class="cmp-acc cmp-acc-strong">~₹9.3 lakh · Growth monthly, 0% (illustrative)</span>
 </div>
 <div class="cmp-r4">
 <span>Lock-in</span>
 <span>Sunk cost · developer hire</span>
-<span>12-month subscription</span>
-<span class="cmp-acc">None</span>
+<span>Plan term poochhiye</span>
+<span class="cmp-acc">Monthly: kabhi bhi band</span>
 </div>
 </div>
 </div>
-<p class="mt-8">Yeh number scenario specific hain, lekin pattern consistent rehta hai. <strong>₹10 lakh annual revenue scenario me</strong> AllCoaching educator ₹9 lakh take-home retain karta hai. DIY route me ₹0 (saara revenue cost recover karne me chala jaata hai). White-label route me aksar net loss hota hai pehle Year me. Yeh sirf ek-time difference nahi hai — Year-2, Year-3 me yeh gap widen hoti hai, kyunki AllCoaching ki marketing/discovery layer organic compounding deti hai. <a style="text-decoration:none" href="/blog/affordable-lms-for-independent-educators">Affordable LMS for independent educators</a> guide me iss compounding ki long-run math hai.</p>
-<div class="pull"><p>"Free coaching app" ek result hai — sahi architecture choose karne ka. AllCoaching ka rev-share model iss result ko default banata hai, exception nahi.</p></div>
+<p class="mt-8">Yeh number scenario specific hain, lekin pattern consistent rehta hai. <strong></strong>₹10 lakh annual revenue scenario me AllCoaching ke monthly plan par (0% commission, Growth ₹5,999/mahina yaani ₹71,988/saal) educator lagbhag ₹9.3 lakh retain karta hai, aur yearly Starter par (₹6,999 plan + 10% fee ke baad) lagbhag ₹8.9 lakh (illustrative). DIY aur white-label routes me bacha hua paisa aapke build kharche, plan aur sales fee par depend karta hai, isliye unke quotes isi tarah jod kar dekhiye. <a style="text-decoration:none" href="/blog/affordable-lms-for-independent-educators">Affordable LMS for independent educators</a> guide me iss compounding ki long-run math hai.</p>
+<div class="pull"><p>Kam risk me shuru karna sahi architecture choose karne ka result hai: free trial, published plan aur koi setup fee nahi.</p></div>
 </section>
 <div class="orn">· · ·</div>
 <!-- ============ SECTION 09 — Commandments ============ -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch9">
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch9">
 <p class="kicker">Section 09</p>
 <h2 class="h-chap font-display mt-3">Decision criteria —<br/><em>do's &amp; don'ts.</em></h2>
-<p class="mt-7">Agar aap abhi decide kar rahe hain — kaunsa raasta lena hai — niche 8 commandments aapko clarity denge. Yeh patterns hum AllCoaching ke educator base me bar-bar dekhte hain. Jo educators in 8 par stick karte hain woh 12 mahine me profitable ho jaate hain. Jo nahi karte, woh 18 mahine baad bhi struggle karte hain.</p>
+<p class="mt-7">Agar aap abhi decide kar rahe hain — kaunsa raasta lena hai — niche 8 commandments aapko clarity denge. Yeh patterns hum educators ke saath baar-baar dekhte hain; yeh guarantee nahi, practical salah hai.</p>
 <div class="commandment-list mt-8">
 <div class="cmd do">
 <div class="cmd-icon">+</div>
-<div class="cmd-text"><strong>Pehle marketplace try karein</strong>Free me launch karke 30 din me feedback collect karein. ₹0 risk, full validation.</div>
+<div class="cmd-text"><strong></strong>Pehle ready platform try karein7 din ke free trial me banakar feedback collect karein. Low risk, jaldi validation.</div>
 </div>
 <div class="cmd dont">
 <div class="cmd-icon">—</div>
-<div class="cmd-text"><strong>DIY app pehle din se mat banwayein</strong>4-9 mahine ka commitment validation se pehle = 90% failure rate.</div>
+<div class="cmd-text"><strong>DIY app pehle din se mat banwayein</strong>Mahino ka commitment validation se pehle bahut risky hai.</div>
 </div>
 <div class="cmd do">
 <div class="cmd-icon">+</div>
-<div class="cmd-text"><strong>Branding free tier me hi customize karein</strong>Logo, colors, subdomain — sab free me. Brand recall yahan se hi start hota hai.</div>
+<div class="cmd-text"><strong>Branding Starter plan me hi customize karein</strong>Logo, colors, address — sab pehle din se. Brand recall yahan se hi start hota hai.</div>
 </div>
 <div class="cmd dont">
 <div class="cmd-icon">—</div>
-<div class="cmd-text"><strong>White-label ka advertised price mat believe karein</strong>Year-1 real cost 8-12x hota hai. Invoice tab dikhega.</div>
+<div class="cmd-text"><strong>White-label ka advertised price mat believe karein</strong>Plan, sales fee, GST aur renewal jod kar Year-1 total nikaliye.</div>
 </div>
 <div class="cmd do">
 <div class="cmd-icon">+</div>
@@ -562,179 +685,179 @@ schema_extra:
 </div>
 <div class="cmd dont">
 <div class="cmd-icon">—</div>
-<div class="cmd-text"><strong>Marketing layer ko alag se mat sochiye</strong>AllCoaching me discovery built-in hai. DIY me yahi 70% time + cash le jata hai.</div>
+<div class="cmd-text"><strong></strong>Marketing layer ko pehle din se sochiyeStudents laana har route me aapka kaam hai; marketplace listing sirf ek extra channel hai.</div>
 </div>
 <div class="cmd do">
 <div class="cmd-icon">+</div>
-<div class="cmd-text"><strong>Free trial khatm hone se pehle decide karein</strong>30 din me revenue + retention dekh kar paid tier ka decision lijiye — speculatively nahi.</div>
+<div class="cmd-text"><strong>Upgrade speculatively mat kijiye</strong>Pehle 30 din me revenue + retention dekh kar bade plan ka decision lijiye.</div>
 </div>
 <div class="cmd dont">
 <div class="cmd-icon">—</div>
-<div class="cmd-text"><strong>Custom domain pehle 6 mahine mat lijiye</strong>Brand recall important hai, par baad me. Pehle traction, phir custom domain.</div>
+<div class="cmd-text"><strong>Custom domain pehle 6 mahine mat lijiye</strong>Free .allcoaching.in address se shuru kar sakte hain; apna domain kabhi bhi free me connect hota hai.</div>
 </div>
 </div>
 </section>
 <div class="orn">· · ·</div>
 <!-- ============ SECTION 10 — Real educator stories ============ -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="ch10">
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch10">
 <p class="kicker">Section 10</p>
 <h2 class="h-chap font-display mt-3">From the field —<br/><span class="accent-blue">real educator stories (2026).</span></h2>
-<p class="mt-7">Theory aur math thik hai — lekin real educators ke saath kya hota hai? Across the AllCoaching educator base in 2026, hum hundreds of solo educators dekh chuke hain joinhone se pehle DIY ya white-label ke saath struggle kar rahe the. Teen representative patterns sample karte hain (names changed, scenarios real):</p>
-<p><strong>Rakesh sir, NEET Biology, Patna.</strong> Pehle ek local agency ko ₹1.8 lakh diye Flutter app banwane me. App 7 month me ban-i, launch hui, par marketing budget khatm ho gaya tha. 4 month me 12 paid students. Year-1 net loss ₹1.5 lakh. AllCoaching par migrate kiya — 48 hours me first paid batch live, 60 din me 80+ paid students (marketplace discovery se 70% organic). Year-2 projected revenue ₹14 lakh, net retain ₹12.5 lakh.</p>
-<p><strong>Priya ma'am, UPSC GS, Indore.</strong> White-label SaaS par 8 mahine spend kiya — advertised ₹3.5K/month plan tha, real annual cost ₹6.2 lakh ho gaya custom domain + marketing add-ons + GST setup ke baad. Migration AllCoaching pe 7 din me complete hua (free white-glove migration support). Year-1 cost saving ₹5.8 lakh. Revenue same student base — actually slight up — kyunki marketing layer better.</p>
-<p><strong>Anil sir, CA Foundation, Delhi.</strong> Khud Flutter seekhne ki koshish ki 3 months — pure time waste. AllCoaching ka 60-second onboarding kiya, pehla course upload 6 hours me, pehla paid student 18 hours me. 90 din me 145 paid students (CA Foundation niche depth match). Yeh time ki saving sabse important thi — uss 3 mahine me jo CA students kho diye the, woh wapas aaye.</p>
-<p>Yeh teen patterns ek hi structural truth dikhate hain — <strong>educator ka asli bottleneck technology nahi, time hai</strong>. Aur har raasta jo educator ka time consume karta hai (DIY, white-label setup, marketing) — woh same educator ki teaching opportunity cost increase karta hai. Marketplace route iss equation ko invert karta hai — technology zero time leti hai, isliye educator ka full time teaching aur students par jaata hai.</p>
-<div class="hband"><p><strong>Cross-cutting pattern.</strong> Yeh teeno educators (aur 100+ jaise) AllCoaching join karne ke baad ek consistent line bolte hain — "main pehle se yahan kyon nahi tha?" Yeh question architectural awareness ka hai, not regret. Sahi raasta iss waqt par nahi tha 2 saal pehle. 2026 me hai.</p></div>
+<p class="mt-7">Theory aur math thik hai — lekin real educators ke saath kya hota hai? Teen illustrative scenarios dekhiye (educators hypothetical hain, numbers sirf example hain, promise nahi):</p>
+<p><strong></strong>Rakesh sir, NEET Biology. Agar woh agency se custom app banwate, to build ke mahine aur bill dono pehle aate. Ready platform par woh trial me course bana kar apne existing students ko pehle din se bech sakte hain; app store par app Google review ke baad aata hai.</p>
+<p><strong></strong>Priya ma'am, UPSC GS. Agar unki saalana sales ₹3 lakh hai (illustrative), to AllCoaching yearly Starter par kharcha ₹6,999 + ₹30,000 = ₹36,999 aur Starter monthly par ₹47,988 hoga; is level par yearly Starter kam padta hai. White-label quote ko isi tarah jod kar compare karna chahiye.</p>
+<p><strong></strong>Anil sir, CA Foundation. Agar woh khud Flutter seekhne me 3 mahine lagate, to woh 3 mahine teaching ke nahi hote. Ready platform par signup kuch clicks ka hai, aur unka time course aur students par lagta hai.</p>
+<p>Yeh teen patterns ek hi structural truth dikhate hain — <strong>educator ka asli bottleneck technology nahi, time hai</strong>. Aur har raasta jo educator ka time consume karta hai (DIY, white-label setup, marketing) — woh same educator ki teaching opportunity cost increase karta hai. Ready platform iss equation ko badalta hai — technology kam time leti hai, isliye educator ka zyada time teaching aur students par jaata hai.</p>
+<div class="hband"><p><strong></strong>Cross-cutting pattern. Teeno cases me asli sawal technology nahi, time aur students hain.</p></div>
 </section>
 <div class="orn">· · ·</div>
 <!-- ============ STRATEGIC CONCLUSION ============ -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="conclusion">
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="conclusion">
 <p class="kicker">Strategic Conclusion</p>
 <h2 class="h-chap font-display mt-3">Apna coaching app banane ka<br/><em>asli answer.</em></h2>
 <p class="mt-7">Wapas chal-te hain shuru ke sawal par — "apna coaching app kaise banaye free?" Iss guide ke baad answer specific hai aur teen-layer ka hai:</p>
-<p>Pehla layer — <strong>"free" ka real definition</strong>. Free matlab ₹0 upfront cash outlay + ₹0 monthly subscription. Iss definition par sirf educator marketplace route fit karta hai — DIY (₹3-15L upfront) aur white-label (₹40K-1.5L advertised + ₹4-11L hidden) dono fail karte hain.</p>
-<p>Doosra layer — <strong>raasta choose karne ka criterion</strong>. Aap solo educator hain ya 50-500 student institute? Marketplace route default hai. 5,000+ students wale large institutes aur jin ke pass dedicated tech team hai sirf woh DIY consider karein. White-label SaaS sirf woh educators choose karein jin ke pass clear reason hai paid features upfront chahiye (rare scenario).</p>
-<p>Teesra layer — <strong>execution sequence</strong>. AllCoaching par 60-second onboarding karein → pehla course 24 hours me upload → pehla live class 48 hours me schedule → pehla paid batch 7 din ke andar launch → 30 din pe trial review → 6 mahine pe paid tier decision. Yeh sequence har step par revocable hai — kahi bhi stop kar sakte hain, kahi bhi pivot kar sakte hain.</p>
+<p>Pehla layer — <strong>"free" ka real definition</strong>. Free matlab: 7 din free trial, card nahi, setup fee nahi — phir ek published plan (monthly ₹3,999 se 0% commission, ya yearly ₹6,999 + 10%). Yeh free tier nahi hai; DIY aur white-label routes ke quotes ko bhi isi tarah poora jod kar dekhiye.</p>
+<p>Doosra layer — <strong>raasta choose karne ka criterion</strong>. Aap solo educator hain ya 50-500 student institute? Ready self-serve platform default hai. 5,000+ students wale large institutes aur jin ke pass dedicated tech team hai sirf woh DIY consider karein. White-label SaaS sirf woh educators choose karein jin ke pass clear reason hai paid features upfront chahiye (rare scenario).</p>
+<p>Teesra layer — <strong>execution sequence</strong>. AllCoaching par signup karein → pehla course upload → pehli live class schedule → trial ke andar plan chuniye → pehla paid batch launch → 30 din pe metrics review → baad me plan badalne ka decision. Yeh sequence har step par revocable hai — kahi bhi stop kar sakte hain, kahi bhi pivot kar sakte hain.</p>
 <p>2026 me jo educators thrive kar rahe hain, unka ek consistent pattern hai. Unhone:</p>
 <ul>
-<li><strong>DIY ka "khud app banwa lunga" wala dream chhoda</strong> aur marketplace pe shuru kiya.</li>
+<li><strong></strong>DIY ka "khud app banwa lunga" wala dream chhoda aur ready platform par shuru kiya.</li>
 <li><strong>White-label ki advertised price ko ignore kiya</strong> aur Year-1 real total dekha — phir step back kiya.</li>
-<li><strong>Marketing/discovery ko app banane ka by-product samjha</strong> — woh actual primary problem hai jo architecture me solve hoti hai, baad me bolt-on nahi.</li>
-<li><strong>Free me launch kiya, validate kiya, phir paid tier ka decision liya</strong> — speculation nahi.</li>
+<li><strong></strong>Marketing/discovery ko pehle din se plan kiya — woh actual primary problem hai, baad me bolt-on nahi.</li>
+<li><strong>Starter plan par launch kiya, validate kiya, phir upgrade ka decision liya</strong> — speculation nahi.</li>
 </ul>
-<p>Aapka coaching business kal nahi banega — aaj ban sakta hai. Mobile lijiye, studio.allcoaching.in pe jaayein, 60 seconds me studio live ho jaayega. Pehla paid student 48 hours me aa sakta hai. Yeh hyperbole nahi, observable reality hai jo 500+ educators har mahine demonstrate kar rahe hain.</p>
+<p>Aapka coaching business kal nahi banega — aaj ban sakta hai. Mobile lijiye, studio.allcoaching.in pe jaayein, aur kuch clicks me studio set ho jaayega. Pehla paid student kab aayega, yeh aapke course aur audience par depend karta hai.</p>
 </section>
 <!-- ========= CLOSING EPIGRAPH ========= -->
 <div class="epi" style="margin: 3rem -1.5rem;">
-<p>"Free coaching app banane ka sabse honest answer yeh hai — sahi architecture choose kijiye, free ek by-product banega. AllCoaching ne ye choice educator ke liye default bana di hai."</p>
+<p>"Free coaching app banane ka sabse honest answer yeh hai — poora free kuch nahi hota; sahi architecture chuniye, free trial se shuru kijiye, aur published plan par chaliye."</p>
 <cite>— Amit Ratan, Founder &amp; CEO, AllCoaching</cite>
 </div>
 <!-- ========= FOUNDER SECTION ========= -->
 <div class="founder mt-16" id="about-founder">
-<div class="photo-wrap" style="width:180px; height:180px; border-radius:50%; box-shadow:0 0 0 4px #F5F0E8,0 0 0 7px #E0A95C,0 0 0 8px rgba(197,139,67,.35),0 0 0 14px rgba(224,169,92,.16),0 22px 50px -10px rgba(197,139,67,.45);"><img alt="Amit Ratan — Founder and CEO, AllCoaching" decoding="async" height="180" src="/assets/amit-ratan-2026.webp" style="object-position:center 20%;" width="180"/></div>
+<div class="photo-wrap" style="width:180px; height:180px; border-radius:50%; box-shadow:0 0 0 4px #F7F8FC,0 0 0 7px #5B6CFF,0 0 0 8px rgba(43,68,255,.35),0 0 0 14px rgba(91,108,255,.16),0 22px 50px -10px rgba(43,68,255,.45);"><img alt="Amit Ratan — Founder and CEO, AllCoaching" decoding="async" height="180" src="/assets/amit-ratan-2026.webp" style="object-position:center 20%;" width="180"/></div>
 <div>
 <p class="founder-eyebrow">About the Author</p>
 <p class="founder-name">Amit Ratan</p>
 <p class="founder-role">Founder &amp; CEO, AllCoaching</p>
 <p class="founder-quote">"Coaching businesses are not held back by the quality of their questions. They are held back by the surface on which those questions are attempted. Replace the surface and the same content compounds engagement 4–7x without a single new mock being written."</p>
-<p class="founder-bio">Amit Ratan is the founder and CEO of AllCoaching, India's AI-driven educator growth marketplace. He has spent over a decade studying the operational reasons coaching businesses plateau — and the architectural shifts that allow them to scale smoothly past those plateaus. AllCoaching is built around the conviction that in 2026, the engagement infrastructure of a coaching business — onboarding, communication, content delivery, and most of all, interactive testing — should run itself, so educators can do what they actually signed up for: teach.</p>
+<p class="founder-bio">Amit Ratan is the founder and CEO of AllCoaching, where Indian educators build their own online academy. He has spent over a decade studying the operational reasons coaching businesses plateau — and the architectural shifts that allow them to scale smoothly past those plateaus. AllCoaching is built around the conviction that in 2026, the engagement infrastructure of a coaching business — onboarding, communication, content delivery, and most of all, interactive testing — should run itself, so educators can do what they actually signed up for: teach.</p>
 </div>
 </div>
 <!-- ========= GET STARTED CTA ========= -->
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
-<p class="v-h">Apna coaching app aaj launch karein — free me, 60 seconds me.</p>
-<p class="v-p">Mobile + WhatsApp + ek subject — bus iske bina aapko kuch nahi chahiye. AllCoaching ke 60-second onboarding ke baad aapka branded studio live hoga, aur pehla paid batch 48 hours me run ho sakta hai. ₹0 upfront. 90% revenue educator ko. No lock-in. Aap padhayein. Platform infrastructure, payments, aur discovery handle kare.</p>
+<p class="v-h">Aaj apna branded coaching app banana shuru karein — 7 din free trial, no card.</p>
+<p class="v-p">Sirf ek mobile number chahiye — na credit card, na signup pe KYC, aur 7 din free trial. Signup ke baad aapka branded studio apne public URL ke saath set ho jaata hai. ₹6,999/year (Starter plan) par 10% fee sirf sale par (90% aapka), ya har monthly plan par 0% commission (100% aapka), aur monthly plan kisi bhi mahine rok sakte hain. Aap padhaayein — app, payments aur hosting AllCoaching handle karta hai.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
-<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
+<a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#8FA0FF 0%,#5B6CFF 35%,#2B44FF 70%,#2338E8 100%); color:#FFFFFF; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(20,30,110,.18),0 12px 28px -8px rgba(43,68,255,.55),0 24px 60px -16px rgba(43,68,255,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
-<span class="relative">Free me studio launch karein</span>
+<span class="relative">7 din free try karein</span>
 <svg class="relative transition-transform group-hover:translate-x-1" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
 </a>
-<a class="group relative inline-flex items-center justify-center gap-2 no-underline" href="https://allcoaching.in/contact" onmouseout="this.style.background='rgba(245,216,174,.04)';this.style.borderColor='rgba(245,216,174,.22)';this.style.color='#F5D8AE';this.style.transform='translateY(0)';" onmouseover="this.style.background='rgba(245,216,174,.10)';this.style.borderColor='rgba(224,169,92,.65)';this.style.color='#FBE2B8';this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 24px; border-radius:14px; color:#F5D8AE; font-family:'Inter Tight',sans-serif; font-weight:600; font-size:14.5px; letter-spacing:.005em; text-decoration:none; background:rgba(245,216,174,.04); border:1px solid rgba(245,216,174,.22); box-shadow:0 1px 0 rgba(255,255,255,.05) inset; transition:all .18s ease;" target="_blank">
-          Demo book karein
+<a class="group relative inline-flex items-center justify-center gap-2 no-underline" href="https://api.whatsapp.com/send/?phone=919889977262&amp;text=Mujhe%20apna%20coaching%20app%20free%20me%20launch%20karna%20hai%20%E2%80%94%20thoda%20guide%20karein" onmouseout="this.style.background='rgba(201,212,255,.04)';this.style.borderColor='rgba(201,212,255,.22)';this.style.color='#C9D4FF';this.style.transform='translateY(0)';" onmouseover="this.style.background='rgba(201,212,255,.10)';this.style.borderColor='rgba(91,108,255,.65)';this.style.color='#DCE4FF';this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 24px; border-radius:14px; color:#C9D4FF; font-family:'Inter Tight',sans-serif; font-weight:600; font-size:14.5px; letter-spacing:.005em; text-decoration:none; background:rgba(201,212,255,.04); border:1px solid rgba(201,212,255,.22); box-shadow:0 1px 0 rgba(255,255,255,.05) inset; transition:all .18s ease;" target="_blank">
+          WhatsApp pe poochein
           <svg class="transition-transform group-hover:translate-x-1" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="14"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
 </a>
 </div>
-<div class="mt-7 inline-flex flex-wrap items-center justify-center gap-x-5 gap-y-2" style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; color:rgba(245,216,174,.5); font-weight:700; text-transform:uppercase;">
-<span>Free to start</span>
+<div class="mt-7 inline-flex flex-wrap items-center justify-center gap-x-5 gap-y-2" style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; color:rgba(201,212,255,.5); font-weight:700; text-transform:uppercase;">
+<span>No card, no KYC</span>
 <span style="opacity:.4;">·</span>
-<span>90% revenue</span>
-<span style="opacity:.4;">·</span>
-<span>No lock-in</span>
+<span>0% commission on every monthly plan</span>
 <span style="opacity:.4;">·</span>
 <span>Automatic payouts</span>
+<span style="opacity:.4;">·</span>
+<span>Annual plan, no monthly bill</span>
 </div>
 </div>
 <!-- ========= GLOSSARY ========= -->
-<section class="py-14 md:py-16 border-b border-[#E5DDD0]" id="glossary">
+<section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="glossary">
 <p class="kicker">Glossary</p>
 <h2 class="h-chap font-display mt-3">Key terms —<br/><em>iss guide ke.</em></h2>
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-coaching-app">Coaching App</dfn></h3>
-<p>Mobile + web platform jaha educator apne students ko courses, live classes, tests, aur study material deliver karta hai. Modern coaching apps me <strong>payment gateway, student CRM, video DRM, aur discovery layer integrated</strong> hote hain — sirf "video upload" platform nahi.</p>
+<p>Mobile + web platform jaha educator apne students ko courses, live classes, tests, aur study material deliver karta hai. Modern coaching apps me <strong>payment gateway, student CRM, live classes, aur discovery layer integrated</strong> hote hain — sirf "video upload" platform nahi.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-white-label">White-Label SaaS (Coaching)</dfn></h3>
-<p>SaaS platform jaha educator apne logo + brand name pe ek pre-built coaching app ka access leta hai. Advertised price ₹X,XXX/month hoti hai, lekin <strong>Year-1 hidden costs (migration, domain, gateway, DRM, marketing) ₹4–11 lakh tak ja sakti hain</strong>. Classplus, Teachmint type platforms iss category me aate hain.</p>
+<p>SaaS platform jaha educator apne logo + brand name pe ek pre-built coaching app ka access leta hai. Headline price ke upar setup, domain, gateway, DRM, GST aur renewal jaise kharche ho sakte hain, isliye likhit me poochhiye. Classplus, Teachmint type platforms iss category me aate hain.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-revenue-share">Revenue Share Model</dfn></h3>
-<p>Educator paisa kamaata hai tabhi platform commission leta hai (typically 10–20%). No upfront fee, no monthly subscription. AllCoaching me <strong>10% rev-share on paid earnings only — educator 90% rakhta hai</strong>. Yeh model educator aur platform ke incentives align karta hai.</p>
+<p>Educator paisa kamaata hai tabhi platform commission leta hai (typically 10–20%). AllCoaching par setup fee nahi; plan fee alag hai. AllCoaching me <strong>10% rev-share on yearly Starter (0% on monthly plans) on paid earnings only — educator yearly Starter par 90% aur monthly plans par 100% rakhta hai</strong>. Yeh model educator aur platform ke incentives align karta hai.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-video-drm">Video DRM (Anti-Piracy)</dfn></h3>
-<p>Digital Rights Management — <strong>encrypted video streaming (HLS+AES) + forensic watermarking + device-binding + screen-record blocking</strong>. Coaching apps me critical layer hai kyunki recorded lectures asset hain jo easily pirated ho jaate hain agar plain MP4 hosting kiya jaaye. Standalone DRM ₹20-60K/year; AllCoaching me included.</p>
+<p>Digital Rights Management — <strong>encrypted video streaming (HLS+AES) + forensic watermarking + device-binding + screen-record blocking</strong>. Coaching apps me critical layer hai kyunki recorded lectures asset hain jo easily pirated ho jaate hain agar plain MP4 hosting kiya jaaye. AllCoaching ke har plan me DRM aur watermarking included hain.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-payment-gateway">Payment Gateway (Coaching)</dfn></h3>
-<p>Software layer jo student se UPI/card/net-banking/EMI me payment accept karta hai aur educator ke bank account me transfer karta hai. India me Razorpay aur Cashfree dominant hain. Standalone integration me 1–3% transaction fee + setup chahiye; <strong>AllCoaching me built-in</strong>.</p>
+<p>Software layer jo student se UPI/card/net-banking/EMI me payment accept karta hai aur educator ke bank account me transfer karta hai. India me Razorpay aur Cashfree dominant hain. Gateway ki apni transaction fee lagti hai; AllCoaching me checkout built-in hai (gateway charges alag).</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-student-crm">Student CRM (Coaching)</dfn></h3>
-<p>Tooling for tracking student attendance, fee payment status, course progress, communication history, aur engagement signals. <strong>20+ active students par WhatsApp + Excel breakdown ho jaata hai</strong> — Excel formulas tut-te hain, WhatsApp groups overflow karte hain. AllCoaching free tier me built-in CRM milta hai.</p>
+<p>Tooling for tracking student attendance, fee payment status, course progress, communication history, aur engagement signals. <strong>20+ active students par WhatsApp + Excel breakdown ho jaata hai</strong> — Excel formulas tut-te hain, WhatsApp groups overflow karte hain. AllCoaching me student records built-in hain.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-educator-marketplace">Educator Marketplace</dfn></h3>
-<p>Multi-educator platform jaha har educator ka apna branded studio hota hai aur saare studios ek shared discovery surface (AI-matched recommendations) par list hote hain. <strong>AllCoaching India ki first AI-driven educator marketplace hai</strong> — combining the branding advantages of white-label apps with the discovery advantages of platform marketplaces.</p>
+<p>Multi-educator platform jaha har educator ka apna branded studio hota hai aur courses ek shared marketplace app par bhi list ho sakte hain. <strong>AllCoaching ek self-serve LMS hai jisme educator apni branded academy khud banata hai, saath me AllCoaching marketplace app par listing bhi milti hai</strong> — combining the branding advantages of white-label apps with an extra discovery channel.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-marketplace-listing">Marketplace Listing (AllCoaching)</dfn></h3>
-<p>Educator ka discoverable profile inside AllCoaching ki AI-driven multi-educator marketplace. AI recommendation engine educator ka content student search query (exam, subject, language, level, location) se match karke organic enrolment generate karta hai — <strong>paid Meta/Google ads ka structural alternative</strong>.</p>
+<p>Educator ka discoverable profile AllCoaching ke marketplace app me, jaha students exam, subject ya bhasha search karke educators dhoondh sakte hain. Ek extra channel, students ki guarantee nahi.</p>
 </div>
 </section>
 <!-- ========= FAQ ========= -->
-<section class="py-14 md:py-16" id="faq">
+<section class="py-14 md:py-16 faq" id="faq">
 <p class="kicker">FAQ</p>
 <h2 class="h-chap font-display mt-3">Aksar puche jaane wale<br/><em>sawaal.</em></h2>
 <div class="faq mt-8">
 <details>
 <summary>Apna coaching app free me kaise banaye 2026 me?</summary>
-<p>2026 me apna coaching app free me banane ka sabse practical raasta hai — <strong>AllCoaching jaisi AI-driven educator marketplace par 60-second onboarding</strong> complete karna. ₹0 upfront, no credit card, no coding. Aapko milta hai branded studio, live class server, video DRM, payment gateway, student CRM, aur marketplace discovery — sab integrated. DIY (Flutter/developer hire) me 6 mahine + ₹3-15 lakh lagte hain; white-label SaaS me Year-1 cost ₹4-11 lakh hota hai. Marketplace route me sirf 10% revenue-share paid earnings par.</p>
+<p>Poori tarah free coaching app koi serious platform nahi deta. Sabse practical raasta hai AllCoaching jaise self-serve LMS par 7 din ke free trial (no credit card) me app banana shuru karna, phir plan chunna: monthly ₹3,999 se 0% commission, ya yearly ₹6,999 se, bina coding. Aapko milta hai branded studio, apna domain, live classes, payments, student records aur marketplace listing — sab integrated. DIY (developer hire) me mahine aur kaafi kharcha lagta hai; white-label SaaS ke quotes me GST, sales fee aur renewal jaroor dekhiye. Starter par paid sales par 10% platform fee lagti hai; monthly plans (₹3,999, ₹5,999 ya ₹7,999/mahina) par 0% commission.</p>
 </details>
 <details>
-<summary>Kya AllCoaching par really ₹0 upfront me coaching app milta hai?</summary>
-<p>Haan. <strong>AllCoaching ka educator base plan permanently free hai</strong> — no upfront fee, no monthly subscription on the free tier, no credit card required at signup. 30-day free trial me full premium features unlocked rehte hain. Trial khatm hone par bhi educator base plan free rehta hai — sirf advanced features (advanced analytics, white-label custom domain, priority support) paid tier me hain. Revenue model rev-share par chalta hai — 10% on paid earnings, 90% educator ko.</p>
+<summary>Kya AllCoaching par ₹6,999/year me coaching app milta hai?</summary>
+<p>Haan. <strong>AllCoaching ka Starter plan ₹6,999/saal ka predictable annual plan hai</strong> . Signup par credit card nahi chahiye aur pehle 7 din free trial hai. Plan me core teaching features included hain. Growth aur Pro me zyada storage aur streaming milti hai aur 0% commission hota hai; custom domain har plan me included hai. Starter par paid sales par 10% platform fee lagti hai — yearly Starter par 90%, monthly plans par 100% educator ko.</p>
 </details>
 <details>
 <summary>Free coaching app aur paid coaching app me kya farak hai?</summary>
-<p>Free tier me aapko complete teaching infrastructure milti hai — courses, live classes, payments, student CRM, marketplace discovery. <strong>Paid tier (₹999-4999/month) advanced analytics, custom domain branding, priority WhatsApp support, aur extended marketing tools</strong> deti hai. Most solo educators pehle 6-12 mahine free tier par hi profitable ho jaate hain — paid features tab matter karte hain jab aap 100+ students ya multi-batch scale par pahuchte hain.</p>
+<p>AllCoaching par koi free plan nahi hai — 7 din free trial hai, phir har plan paid hai. Har plan me complete teaching infrastructure milti hai — courses, live classes, payments, student records, marketplace listing. Monthly plans par 0% commission (₹3,999, ₹5,999 ya ₹7,999 mahina), yearly par 10%, 7.5% ya 5% fee per sale; Growth aur Pro par zyada storage, streaming aur team seats.</p>
 </details>
 <details>
 <summary>DIY (Flutter, hire developer) ke saath coaching app banane me kitna time lagega?</summary>
-<p>DIY route me realistic timeline <strong>4-9 mahine hai, aur upfront cost ₹3-15 lakh</strong> hota hai. Aap ek developer team hire karenge (₹50K-₹2L/month × 4-6 months), UI/UX designer (₹40K-₹1L), backend infrastructure setup (AWS/GCP, ₹15-50K/month recurring), payment gateway integration (Razorpay/Cashfree onboarding), Apple/Google Play Store submission (₹10K total), aur post-launch maintenance budget rakhna padega. Iske baad bhi marketing aur student discovery alag layer hai jiska kharcha alag. Most solo educators DIY route adhuri chhod dete hain Phase 2 me hi.</p>
+<p>DIY route me kai mahine lagte hain aur upfront kharcha aapke developer quotes par depend karta hai. Aap ek developer team hire karenge, UI/UX designer, backend infrastructure (AWS/GCP, recurring), payment gateway integration (Razorpay/Cashfree onboarding), Apple/Google developer accounts (Google $25 ek baar, Apple $99 saal), aur post-launch maintenance budget rakhna padega. Iske baad bhi marketing aur student discovery alag layer hai jiska kharcha alag. Most solo educators DIY route adhuri chhod dete hain Phase 2 me hi.</p>
 </details>
 <details>
 <summary>White-label coaching app (Classplus/Teachmint type) ka real cost kya hota hai?</summary>
-<p>White-label SaaS apps ki advertised price ₹X,XXX/month hoti hai — <strong>lekin Year-1 ka real total ₹4-11 lakh ke beech aata hai</strong>. Iss me migration setup fee, custom domain + SSL, payment gateway commission (1-3%), video CDN + DRM, custom app build fee, Play Store listing, marketing campaigns, aur 12-month subscription lock-in shamil hota hai. Aksar educator ko yeh hidden costs sirf invoice ke time pata chalte hain.</p>
+<p>Yeh vendor par depend karta hai. Classplus apne pricing page par ₹29,999 (1 saal) aur ₹39,999 (2 saal) dikhata hai, par GST, sales par fee aur renewal price nahi likhta; Teachmint price publish nahi karta (24 Oct 2026 ko check). Setup fee, domain, gateway charges, DRM, app build aur renewal likhit me poochhiye.</p>
 </details>
 <details>
-<summary>AllCoaching ka 60-second onboarding kya genuinely 60 second me complete hota hai?</summary>
-<p>Setup steps 60 second me complete hote hain — mobile OTP, name + WhatsApp, subject, brand color/logo, plan select, launch. Studio live hone me 60 second. <strong>Lekin pehla paid student aane me 24-48 hours average lagte hain</strong> — kyunki uske beech aapko ek course upload karna hota hai aur ek live class schedule karna hota hai. Setup ki technical complexity zero hai — actual teaching content kitna ready hai woh single bottleneck hai.</p>
+<summary>AllCoaching par signup me kitna time lagta hai?</summary>
+<p>Signup steps kuch minute ke hain — mobile OTP, name + WhatsApp, subject, brand color/logo, plan select, launch. Lekin pehla paid student aane me time lagta hai<strong></strong> — kyunki uske beech aapko ek course upload karna hota hai aur ek live class schedule karna hota hai. Setup ki technical complexity zero hai — actual teaching content kitna ready hai woh single bottleneck hai.</p>
 </details>
 <details>
-<summary>Apne coaching app ke liye custom domain (jaise rakeshsir.in) chahiye to free me milega?</summary>
-<p>Free tier par aapko AllCoaching sub-path URL milta hai jaise allcoaching.in/rakesh-sir — production-ready aur shareable. <strong>Custom domain (rakeshsir.in) paid tier feature hai</strong> — woh ₹999-1499/month plan me available hota hai aur SSL certificate include hota hai. Most solo educators pehle 6-12 mahine free sub-path par hi launch karte hain — custom domain tab matter karta hai jab brand recall important ho jaata hai.</p>
+<summary>Apne coaching app ke liye custom domain (jaise rakeshsir.in) kaise milega?</summary>
+<p>Har plan par aapko free .allcoaching.in address milta hai — production-ready aur shareable. Apna domain (rakeshsir.in) aap kisi registrar se khareedte hain (lagbhag ₹600–1,200 saal) aur har plan me free me connect hota hai, SSL ke saath. Kuch educators pehle free address par launch karte hain aur baad me apna domain connect karte hain — custom domain tab zyada matter karta hai jab brand recall important ho jaata hai.</p>
 </details>
 <details>
 <summary>Kya AllCoaching ka coaching app Play Store aur App Store par list hota hai?</summary>
-<p>AllCoaching ki single Student App Play Store par live hai (org.student.allcoaching) — saare educators ke courses iss app ke andar accessible hain. Individual educator ke liye alag Play Store listing free tier me available nahi hai — woh paid white-label tier feature hai. <strong>Lekin free tier par aapko apna branded studio URL milta hai (web + mobile responsive)</strong>, aur AllCoaching ke shared student app par aapka full storefront list hota hai.</p>
+<p>AllCoaching ki single Student App Play Store par live hai (org.student.allcoaching) — saare educators ke courses iss app ke andar accessible hain. Iske alawa har plan me aapka apna white-label Android app milta hai, jo aapke apne Google Play Console account par publish hota hai (iOS app monthly Pro aur har yearly plan par). <strong>Saath me aapka branded studio URL (web + mobile responsive)</strong> aur AllCoaching ke shared student app par aapka full storefront bhi list hota hai.</p>
 </details>
 <details>
 <summary>Free coaching app par main apni branding (logo, colors, name) kar sakta hu?</summary>
-<p>Haan — <strong>free tier par bhi educator studio fully white-labeled hai</strong>. Aap apna logo upload kar sakte hain, brand colors set kar sakte hain, apna naam aur tagline rakh sakte hain. Student-facing experience me aapka brand prominent dikhta hai. AllCoaching ka logo sirf footer ke 'Powered by AllCoaching' line me chhota dikhata hai (free tier). Custom domain aur footer-removal paid tier features hain.</p>
+<p>Haan — har plan par educator studio fully white-labeled hai. Aap apna logo upload kar sakte hain, brand colors set kar sakte hain, apna naam aur tagline rakh sakte hain. Student-facing experience me aapka brand prominent dikhta hai. Apna domain har plan me connect kar sakte hain.</p>
 </details>
 <details>
 <summary>Kya AllCoaching pe automatic payouts hote hain ya monthly?</summary>
-<p>AllCoaching pe <strong>payouts automatic hote hain</strong> — student ne payment ki, educator ke registered bank account me 90% credit ho jaata hai (10% AllCoaching ka revenue share). Razorpay-powered settlement infrastructure use hota hai. GST-compliant invoices automatic generate hote hain. Automatic payouts ka matter yeh hai ki cash-flow educator ke saath rehta hai — competitor platforms aksar 7-30 day hold rakhte hain jo small institutes ke liye crippling ho sakta hai.</p>
+<p>AllCoaching pe <strong>payouts automatic hote hain</strong> — student ne payment ki, educator ke registered bank account me yearly Starter par 90% (10% fee per sale) aur monthly plans par 100% (0% commission) credit ho jaata hai. Payment-gateway charges alag hote hain, aur settlement gateway ke schedule par hota hai.</p>
 </details>
 </div>
 </section>
@@ -753,7 +876,7 @@ schema_extra:
         <div class="blog-card-body">
           <span class="blog-card-tag">Platform Economics · 2026</span>
           <h3>White Label Coaching App Development Cost in India</h3>
-          <p>The headline is ₹X,XXX/month. The Year-1 truth is ₹4–11 lakh. Line-by-line financial decomposition of every hidden cost layer.</p>
+          <p>What a coaching app really costs in year one, and the questions to ask before you sign.</p>
           <div class="blog-card-meta">
             <span>By Amit Ratan</span><span class="dot"></span><span>20 min read</span>
           </div>
@@ -781,7 +904,7 @@ schema_extra:
         <div class="blog-card-body">
           <span class="blog-card-tag">Platform Economics · 2026</span>
           <h3>EdTech Marketplace India &amp; "App Fatigue"</h3>
-          <p>3.5 lakh personal apps. One student. Zero comparison possible. How India's first EdTech marketplace is fixing fragmented online education.</p>
+          <p>Lots of personal apps, little comparison. How a shared EdTech marketplace helps fragmented online education.</p>
           <div class="blog-card-meta">
             <span>By Amit Ratan</span><span class="dot"></span><span>16 min read</span>
           </div>
