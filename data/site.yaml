@@ -8,7 +8,7 @@ site:
   legal_name: AllCoaching Technology
   domain: allcoaching.in
   url: https://allcoaching.in
-  tagline: "India's Educator-First Marketplace"
+  tagline: "The academy platform for educators"
   description: >
     AllCoaching is the LMS Indian educators build themselves — your own academy
     website and app on your own domain, 0% commission on every monthly plan, and
@@ -66,7 +66,7 @@ social:
 
 # Contact
 contact:
-  email: hello@allcoaching.in
+  email: contact@allcoaching.in
   whatsapp: "+919889977262"
   whatsapp_url: https://api.whatsapp.com/send/?phone=919889977262
 

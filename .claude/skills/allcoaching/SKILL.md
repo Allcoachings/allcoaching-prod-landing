@@ -1,149 +1,119 @@
 ---
 name: allcoaching
 description: >-
-  Canonical context for AllCoaching (allcoaching.in) — India's educator-first EdTech
-  marketplace / own-academy LMS: the full concept (build your own academy with full control, monthly 0% commission from ₹3,999 or yearly plans, 7-day trial), the studio pricing truth, the false-promise list, the
-  "Operating System of Education" ideology/manifesto, brand identity + voice, target
-  audience, competitive positioning, and key company facts. Load this WHENEVER the
-  user mentions AllCoaching, or works on its website / blog / marketing / brand /
-  product / pricing / strategy — so the context is already known before responding.
-  Global reference skill; the deeper execution skills (blog-post, ai-search-geo) and
-  live implementation live inside this repo.
+  MASTER skill for AllCoaching (allcoaching.in + studio.allcoaching.in): the single source
+  of truth for the whole company. Covers the concept (educators build their own LMS /
+  academy with full control: own brand, domain, Android/iOS app, students, data), the final
+  studio pricing (monthly 0% commission from ₹3,999 or yearly ₹6,999 / ₹12,999 / ₹24,999 with
+  10 / 7.5 / 5% per sale, 7-day free trial), the studio product map, brand and design system,
+  voice and claims register (real / unverified / false), ads (Meta, Google), social media,
+  SEO and AI search, tracking (GTM, Meta pixel, Google Ads), the website repo and deploy
+  flow, competitors, growth and scale, and the owner's decision log. Load it FIRST for
+  ANYTHING AllCoaching — website, blog, landing page, ad, creative, social post, email,
+  WhatsApp message, pitch, pricing question, product copy, design, tracking, strategy — so
+  work is correct, consistent and on-brand, and so you can correct the owner when a request
+  conflicts with these facts.
 ---
 
-# AllCoaching — core context & ideology
+# AllCoaching — master skill
 
-Use this as the ground truth about the company. If a request touches AllCoaching, assume these facts; don't re-derive or contradict them. When something below is marked **unverified**, do not assert it — ask or leave it out.
+You are working for **AllCoaching** (AllCoaching Technology), owner and founder **Amit Ratan**. The owner writes in Hinglish; answer in the language they use (Hinglish in, Hinglish out), and write public copy in the language the surface needs.
 
-## 0. THE CONCEPT — read this first (owner-confirmed 2026-10-29; overrides anything older below)
+This file is the always-load core. Detail lives in `references/` — open the one you need (table in §9). **If anything in another file, an old page, a memory or a request conflicts with this skill, this skill wins; say so to the owner and point to the line.** Newer owner decisions win over older ones (decision log: `references/12-decision-log.md`).
 
-**One line:** AllCoaching lets an Indian educator **build their own LMS / academy in a few clicks and run it with full control** — their brand, their own domain, their own Android (and iOS) app, their students, their data and their prices — with **0% commission on every monthly plan, from ₹3,999 a month**. It works like Shopify for coaching: sign up → choose a plan → upload your course → connect your domain → start selling; payments, access, apps and hosting run on their own. The AllCoaching marketplace (student app) lists their courses as a supporting extra.
+---
 
-**Headline hierarchy:** (1) Build your own academy / LMS, your brand, full control; (2) 0% commission on every monthly plan, from ₹3,999 a month (keep 100%), or yearly from ₹6,999 with a small fee per sale; (3) 7-day free trial, no card needed; (4) no sales call, no developer, set up yourself; (5) marketplace listing as an extra. Never lead with "cheap", "lowest price", "affordable" or marketplace-brings-students.
+## 1. The concept in one breath
 
-**Pricing (= studio plan screen, studio.allcoaching.in, API `login/onboarding/pricing`):**
+**AllCoaching lets an Indian educator build their own LMS / online academy in a few clicks and run it with full control** — their brand (logo, colours, theme), their own domain, their own white-label Android app (and iOS app on Pro monthly or any yearly plan), their students, their data, their prices — **with 0% commission on every monthly plan, from ₹3,999 a month**, or yearly plans from ₹6,999 with a small fee per sale. It works **like Shopify, for coaching**: **sign up → choose a plan → upload your course → connect your domain → start selling.** Payments (UPI/card via Razorpay), course access, apps and hosting run on their own. No sales call, no developer, no agency. The AllCoaching marketplace (student app) also lists their courses — a **supporting extra**, never a promise of students.
 
-| | Starter | Growth (Most popular) | Pro (Best value · Recommended) |
+- **Tagline:** *Democratizing Education.* · **Ideology:** *The Operating System of Education.* · **Lockup line:** "The academy platform for educators".
+- **Headline:** "Build your own LMS. In just a few clicks." Approved alternates: "One login. Your whole academy." · "Your knowledge deserves its own academy." · "Your domain. Your brand. Your students." · "Focus on teaching. We handle the tech." · "Your LMS shouldn't feel like a tech project." · Hinglish: "Apna LMS. Apna brand." · "5 jagah ka kaam. Ek login me."
+- **Positioning = FULL CONTROL, never cheap.** The enemy is **complexity** (WordPress + plugins, WhatsApp + Drive + Zoom + Excel, agency-built apps you can't change), not named competitors.
+- **Headline hierarchy (every surface):** (1) your own academy, your brand, full control → (2) 0% commission on every monthly plan from ₹3,999 (keep 100%), or yearly from ₹6,999 + small fee per sale → (3) 7-day free trial, no card needed → (4) set it up yourself, no sales call, no developer → (5) marketplace listing as an extra.
+- **Traction you may state:** 500+ educators already sell on AllCoaching. Showcase academies (owner-approved): Biology Lessons (Dr. Subhash Nair, biolessons.in), CHEMPSI (Anupam Kumar, chempsi.com), DigiteKM (digitekm.com) — names, logos, site screenshots only; never their sales/student numbers, never invented quotes.
+
+## 2. Pricing — FINAL (studio plan screen; owner 2026-10-29 "studio wala pricing final hai")
+
+| | **Starter** | **Growth** · *Most popular* | **Pro** · *Best value · Recommended* |
 |---|---|---|---|
-| **Monthly, 0% commission** (autopay, stop any month) | ₹3,999 | ₹5,999 | ₹7,999 |
-| Monthly: storage / streaming a month | 512 GB / 512 GB | 1 TB / 1 TB | 2 TB / 2 TB, 4K |
-| Monthly: built-in live classroom | 20 h/month | 50 h/month | 90 h/month |
-| Monthly: premium themes · iOS app | any 2 · no | any 5 · no | all · yes |
-| **Yearly, fee per sale** | ₹6,999 + 10% | ₹12,999 + 7.5% | ₹24,999 + 5% |
-| Yearly: storage / streaming a month | 512 GB / 512 GB | 1 TB / 1 TB | 3 TB / 3 TB, 4K |
-| Yearly: built-in live classroom | 5 h/month | 10 h/month | 15 h/month |
-| Yearly: premium theme · iOS app | — · yes | — · yes | one (₹10,000 value) · yes |
-| Team seats · ready-made landing pages | 3 · any 6 | 5 · any 12 | 7 · all 16 |
+| **Monthly — 0% commission, keep 100%** (autopay, stop any month) | **₹3,999/mo** | **₹5,999/mo** | **₹7,999/mo** |
+| storage / streaming per month · quality | 512 GB / 512 GB · 1080p | 1 TB / 1 TB · 1080p | 2 TB / 2 TB · 4K |
+| built-in live classroom | 20 h/mo | 50 h/mo | 90 h/mo |
+| premium themes · own iOS app | any 2 · no | any 5 · no | all · **yes** |
+| **Yearly — fee per sale** | **₹6,999/yr + 10%** | **₹12,999/yr + 7.5%** | **₹24,999/yr + 5%** |
+| storage / streaming per month · quality | 512 GB / 512 GB · 1080p | 1 TB / 1 TB · 1080p | 3 TB / 3 TB · 4K |
+| built-in live classroom | 5 h/mo | 10 h/mo | 15 h/mo |
+| premium theme · own iOS app | — · **yes** | — · **yes** | one (₹10,000 value) · **yes** |
+| team seats · ready-made landing pages | 3 · any 6 | 5 · any 12 | 7 · all 16 |
 
-Every plan: no sales limit, no setup fee, own Android app, unlimited YouTube video (branded player), unlimited live classes on YouTube Live or Zoom, unlimited courses/tests/students, DRM and watermarking, free .allcoaching.in address + own domain connection, drag-and-drop page builder (up to 100 pages), blog (up to 300 posts), premium themes free for the first 2 months, plugins (YouTube, Zoom, WhatsApp, Google Analytics, Meta Pixel, Tag Manager, Play Console, App Store Connect), coupons and lead forms, automatic payouts, marketplace listing. Prices exclude 18% GST; payment-gateway charges on student payments are separate. "0% commission / keep 100%" is true for monthly plans only. Breakeven to quote (illustrative, before GST): below about ₹4 lakh of yearly sales yearly Starter usually suits best; above that a monthly plan.
+**Every plan:** own Android app · no sales limit · no setup fee · unlimited YouTube video (branded player) · unlimited live classes on YouTube Live or Zoom · unlimited courses, tests, students · DRM and watermarking · free `<handle>.allcoaching.in` + own domain · page builder (up to 100 pages) · blog (up to 300 posts) · premium themes free for the first 2 months · plugins (YouTube, Zoom, WhatsApp, GA, Meta Pixel, Tag Manager, Play Console, App Store Connect) · coupons and lead forms · automatic payouts · marketplace listing. Prices **exclude 18% GST**; payment-gateway charges on student payments are separate.
 
-**Where it is sold:** /pricing and the homepage show a Monthly · 0% commission / Yearly toggle (monthly default) and the studio's full compare table; the landing checkout (`assets/checkout.js`) sells the three yearly plans; monthly plans are bought on studio by autopay.
+**Rules:** "0% commission / keep 100% / zero commission" = **monthly plans only** (yearly keeps 90 / 92.5 / 95%). Breakeven to quote (illustrative, before GST): **below about ₹4 lakh of yearly sales yearly Starter usually costs least; above that a monthly plan usually leaves more.** Monthly is sold on studio (autopay); the allcoaching.in landing checkout (`assets/checkout.js`) sells the three yearly plans. Full rules, cost tables, competitor framing: `references/02-pricing.md`.
 
-### The model (every page, post, ad and graphic must match this)
-- AllCoaching = "build your own LMS / academy", fully self-serve, works like Shopify for coaching: sign up → choose a plan → upload your course → connect your domain → start selling. No sales call, no demo dependency, no developer needed. Payments (UPI/card via Razorpay), course access, apps and hosting run on their own.
-- Positioning: FULL CONTROL — your brand (logo, colours), your own domain, your own white-label Android app (iOS per plan rules), your students, your data (exportable), your prices; 0% commission on every monthly plan (keep 100%). Lead with monthly 0% from ₹3,999. Never position as cheap/cheapest/lowest-price.
-- 7-day free trial, no card needed. A trial is NOT a free tier/free plan. There is NO free plan, no "₹0 forever", no one-time fee, no lifetime plan.
-- Marketplace (AllCoaching student app) listing/discovery is a SUPPORTING extra included on every plan — never a promise of students or sales.
-- Apps are published on the educator's OWN Google Play Console / Apple App Store accounts (educator pays Google $25 once / Apple $99 a year; educator publishes, or AllCoaching publishes with API access). Store review is by Google/Apple — never promise approval or timelines.
-- Domain: bought by the educator from any registrar (~₹600–1,200/yr); connecting it is free on every plan; free .allcoaching.in address until then.
-- Video: YouTube video unlimited (branded player); UPLOADED video has plan storage/streaming limits (never say "unlimited storage/hosting"). Live: unlimited on YouTube Live or Zoom; the built-in live classroom has monthly hours (20/50/90 monthly, 5/10/15 yearly). Never "unlimited built-in live room", never "no hour caps" for the built-in room.
-- Payment-gateway charges on student payments are separate (gateway's rate). Payouts to the educator's bank are automatic; never promise "instant"/"T+0"/same-day payouts.
-- Monthly plans: no lock-in, stop any month (runs to end of paid month). Upgrades any time (paid value credited); downgrades via support at renewal. If an educator stops (owner-confirmed 2026-10-29): the academy goes offline to students at the end of the paid period; the educator then has 30 days to export content and data (or come back); after that, uploaded videos are deleted. Never write 'data is never deleted', 'always exportable after you leave' or 'keep access forever'.
+**If an educator stops:** academy goes offline at the end of the paid period → **30 days to export content and data (or come back)** → uploaded videos are deleted. Never say data stays forever.
 
-### Never claim (false promises and retired models)
-- Any free plan / free tier / "free forever" / "₹0 to start" / "₹0 onboarding" / "no upfront cost" (there is a plan fee after the 7-day trial) / "first N educators free" / "200 free slots" / one-time fee / lifetime / "no subscription" as a blanket claim (monthly AND yearly are subscriptions).
-- Old models: marketplace-only revenue share ("we only earn when you earn", "10% revenue share only, no fixed fee", "10–30% marketplace commission"), ₹6,999 one-time, Scale ₹99,999, 14-day trial, Extend packs, sales limits, 2026-10-28 prices (Growth ₹7,999/mo, Pro ₹14,999/mo, ₹79,990, ₹1,49,990, "2 months free", "0% on Growth and Pro"), "iOS on every plan" for monthly Starter/Growth.
-- Guarantees: guaranteed students/income/sales/rankings ("you will earn ₹X", "get students from day one", "guaranteed traffic"), "approved on Play Store in X days", "set up in 5 minutes" as a promise (say "in a few clicks"/"same day" only as typical), "#1", "best platform" as fact, "cheapest", fabricated stats/testimonials, invented features (e.g. AI features not in the studio), "unlimited everything".
-- Illustrative earnings/cost examples are OK only if clearly marked illustrative and computed with the final pricing.
+## 3. Claims register — the fastest way to avoid errors
 
-**Owner-confirmed 2026-10-30:**
-- **No AI question generation in the studio (yet).** Never say AllCoaching generates questions, quizzes, MCQs, mock tests or test series with AI. Truthful line: educators may draft questions with general AI tools (ChatGPT, Gemini, Claude), must review every one, then build and sell the test series in AllCoaching.
-- **Real features:** test series with all-India rank and percentile, certificates for students, bulk student import (Excel / Google Sheet) and the founder bio as written.
-- **Also real (owner 2026-10-30):** full-screen anti-cheat lock and randomized question order in tests; a course page with SEO meta, schema and checkout is created automatically when a course is saved.
-- **No unsourced performance stats** (e.g. "10–20x faster authoring", "60–110% more repeat attempts", hallucination percentages): describe benefits qualitatively.
-- **The live demo (/demo/) is retired.** Its pages redirect to /start. Never link to or mention a "live demo", "free demo" or "click-through demo" of the product. Point to the 7-day free trial (no card needed to start) and /pricing instead.
+**TRUE (say confidently):** own domain · own white-label Android app on every plan · iOS on Pro monthly and every yearly plan (published on the educator's OWN Play Console / App Store account, by them or by AllCoaching with API access; Google $25 once, Apple $99/yr paid by the educator) · 7-day trial no card · UPI/card checkout (Razorpay), automatic payouts · test series with auto-grading, all-India rank and percentile, full-screen anti-cheat lock, randomised question order · certificates (branded, auto-issued, unique ID) · bulk student import (Excel / Google Sheet) · course page with SEO meta, schema and checkout created automatically when a course is saved · Meta Pixel + GTM per academy · team seats · monthly: no lock-in, stop any month · upgrades any time (paid value credited), downgrades via support at renewal · 500+ educators.
 
-**Unverified — do not claim until the owner confirms:** AI recommendation/matching engines, specific DRM standards (Widevine/FairPlay), forensic watermarking, takedown SLAs, instant/same-day payouts, student-traffic numbers, setup-time promises, refund-rate or earnings statistics.
+**UNVERIFIED (don't claim until the owner confirms):** AI recommendation/matching engines · specific DRM standards (Widevine/FairPlay) · forensic watermarking · takedown SLAs · student-traffic numbers · refund-rate or earnings statistics · setup-time promises · studio-v5 design items shown with sample data (discount %, referral %, verification badge, community, storage tiers in mock-ups).
 
-## 1. What AllCoaching is (one line)
-AllCoaching (**allcoaching.in**) is an **educator-first EdTech marketplace** for India's independent educators — coaching-institute owners, tutors, and subject experts. It gives each educator a **branded white-label studio (web + app)** to run their whole teaching business, *plus* a **shared marketplace** so students can discover them. Legal entity: **AllCoaching Technology** (not "Pvt. Ltd."). Founded **2018** in Prayagraj. Category: **EdTech Marketplace**.
+**FALSE / RETIRED (never write, and correct the owner if asked):** any free plan / "free forever" / "₹0 to start" / "no upfront cost" / one-time or lifetime fee / "no subscription" · AI question/quiz/test generation in the studio · live or free product demo (`/demo/` is retired → redirects to /start) · 14-day trial · Scale ₹99,999 · Growth ₹7,999/mo or Pro ₹14,999/mo · ₹79,990 / ₹1,49,990 · "2 months free" · Extend packs ₹499/₹399 · sales limits ₹50,000 / ₹1.5 lakh · "0% on Growth and Pro" · iOS on monthly Starter/Growth · "unlimited storage/hosting" (uploaded video has limits) · "unlimited built-in live room" · instant / T+0 / same-day payouts or payout speed as a selling point · guaranteed students, income, rankings, store approval timelines · "#1", "best platform" as fact, "cheapest", "affordable", "lowest price" · fabricated stats or testimonials · unsourced performance numbers ("10–20x", "60–110%") · marketplace-only revenue share models · "thousands of educators".
 
-- **Tagline:** *Democratizing Education.*
-- **Positioning (ideology):** *The Operating System of Education.*
-- **Positioning (2026-10-24, current headline frame):** AllCoaching is **Shopify for educators** — "The academy platform for educators". The educator builds, brands and grows their OWN academy (own domain website + own Android app, plus iOS on Pro); AllCoaching runs payments, access, apps and hosting underneath; the marketplace is secondary discovery. Owner-approved creative lines: "One login. Your whole academy.", "Your knowledge deserves its own academy.", "Your LMS shouldn't feel like a tech project.", "Focus on teaching. We handle the tech." The enemy is complexity (WordPress + plugins, WhatsApp + Drive + Zoom + Excel), not named competitors. Content mission: teach Indian educators to sell, market (SEO, Meta ads, YouTube) and grow their academy themselves — see the `academy-guide-blog` skill.
-- **Studio v5 (owner-shared design, 2026-10-24):** Shopify-admin-style studio — Dashboard, Transactions, Content (Videos, PDFs, Test series), Courses, Free content, Live, Community, Discount, Analytics, Own branding, Notifications, Referrals, Settings. Its screenshots use sample data; discount codes, referral percentages, verification badge, community and storage tiers shown there are NOT confirmed as shipped — don't claim them publicly until the owner confirms.
-- **Positioning (confirmed 2026-10-09, lead with this):** AllCoaching is an **LMS** — **"Build your own LMS. In just a few clicks."** Drag and drop your academy (courses, tests, notes, live classes, payments), **make it your brand** (logo, colours, own domain, own Android app, plus iOS on Pro), and start selling. Always pair with the **7-day free trial, no card needed**. Marketplace discovery is a supporting feature.
-- **Positioning (2026-10-08, superseded by the line above):** **"Sell your courses online. Your way."** Two ways to sell, one account: (1) list courses on the AllCoaching marketplace, where students on Android, iOS and web discover and buy them; (2) launch a full white-label academy yourself — connect your own domain for your website, publish your own Android and iOS app, and use the built-in marketing tools to sell under your own brand. Plug and play, no developer. Homepage shows NO founding year or city ("no legacy, no place") — keep "2018"/"Prayagraj" off marketing pages (legal/contact/about pages may keep the registered address).
-- **Earlier product line (still valid as support copy):** **"Launch your online academy yourself."** Website on the educator's own domain, the AllCoaching app on Android, iOS and web, live classes, payments and marketplace discovery — all from one login. No WordPress, no separate LMS, no developer, no sales call, no demo dependency.
-- **Founder / voice of the brand:** **Amit Ratan, Founder & CEO** (author of the manifesto and blog byline).
-- **Studio product** (the educator app) lives at **studio.allcoaching.in** — a **separate repo/codebase** (no access from the marketing repo). Marketing site links `Log in` → studio.allcoaching.in/login, `Start free trial` → studio.allcoaching.in.
+Full register with wording: `references/04-voice-and-claims.md`.
 
-## 2. The ideology (the manifesto thesis — *why it exists*; rewritten 2026-10-15)
-**One-line thesis:** *Every educator deserves their own academy, built by themselves.* Own brand (domain, logo, Android app; iOS on Pro) + built self-serve in a few clicks + still found by new students through the shared marketplace. Ownership and reach, without choosing.
+## 4. Voice in five lines
+Calm, confident, editorial; educator-first; honest. Say **educator** (not creator/user), **studio** (not dashboard), **your students**. **No exclamation marks**, no "unlock / maximize / game-changer / onboard (verb)", no hype. Name the pain, then the fix; end each section with one action ("Start free trial"). ₹ only, Indian number format (₹1,49,990, ₹4 lakh), illustrative numbers marked "illustrative". Contact: **contact@allcoaching.in** · WhatsApp **+91 98899 77262**.
 
-The founding argument, in order (manifesto chapters at /manifesto):
-1. **The Right Dream, Sold the Wrong Way** — "own your academy" was never the mistake. What failed was how it was sold: sales calls, demos, setup fees, agencies building it for you, every change a ticket — and then left alone after launch with no students arriving.
-2. **The Educator's Trap** — a good teacher is forced to become developer, marketer and payments desk; every rupee on ads / hour on reels is one not spent on teaching. Pains: someone else holds the keys · performing replaces teaching · marketing eats quality · tech burden · hidden costs · alone after launch.
-3. **The Student's Side** — two things decide an enrolment: *can the student find the teacher*, and *does what they find look like a real academy they trust*. Fix = a professional academy under the educator's name **and** a way to be found.
-4. **Big EdTech is not the educator's friend** — absorption, not partnership: your brand disappears, content becomes their asset, opaque splits, growth capped by their algorithm.
-5. **The False Choice** — Indian EdTech made educators pick ownership (agency-built app, alone) **or** reach (big platform, brandless). The choice was never real. Analogy: a shop with its own signboard that also sits in a busy market.
-6. **The Operating System of Education** — "you build your academy, we run everything beneath it." Two paths, one account: (a) **your own white-label academy** — website on your domain, own Android app, plus iOS on Pro, your logo/colours, built and changed by you, data exportable; (b) **the marketplace** — courses also listed on the AllCoaching app (Android, iOS, web) for discovery. The marketplace supports the academy; it does not replace it.
-7. **What it does differently:** Build (drag-and-drop LMS, no code) · Brand (domain, logo, own Android app, plus iOS on Pro) · Self-serve (7-day trial, no card, no sales call/demo) · Sell (UPI/card, automatic Razorpay payouts, keep 100% on Growth and Pro or 90% on Starter) · Discovery (marketplace) · Ownership (export everything) · Economics (one published yearly plan, fee 10%→5%, or 0% on monthly plans) · Freedom (time back to teach).
+## 5. Look in five lines
+White / mist canvas, **electric blue `#2B44FF` the only accent** (hover `#1A2FD9`, tint `#E8F0FF`), cyan `#22C3F5` only inside light-ray graphics, navy `#0A0F3D` for final CTA band and footer, ink `#14161F`. Type: **Inter Tight** (UI + headlines, setup weight 200 + payoff 700), **Instrument Serif italic** (wordmark, pull quotes only), **JetBrains Mono** (eyebrows). One solid blue button per section. Real studio screenshots captioned "Studio preview · sample data" when data is sample. No ochre, gold, purple, rainbow; Fraunces is not a brand font. Full system: `references/03-brand-and-design.md`.
 
-**Core beliefs (verbatim manifesto tenets, ch. 8):** (1) teaching is a *vocation, not a startup*; (2) every educator should **own** their academy; (3) an educator should be able to **build it themselves** — no sales call, demo, agency or waiting; (4) **ownership and reach should not be a trade-off**; (5) a student should find the *best* teacher, not the *most advertised* one; (6) prices should be **published before anyone signs up**; (7) honest about what it takes — a fair foundation, not a magic solution.
+## 6. How to work with the owner (act like a senior partner)
+1. **Check before you build.** Every request touching price, features, promises or claims → check §2–§3 first. If the request conflicts (e.g. "likho free forever", "14 din trial", "AI se test banta hai", "cheapest LMS"), **say so plainly in Hinglish, give the correct version, and proceed with the correct one** unless the owner explicitly overrides — then record the new decision in `references/12-decision-log.md` and update this file.
+2. **Recommend, don't list.** Give the best option with a one-line reason; mention an alternative only if it's genuinely close.
+3. **Consistency sweep.** A change to price, feature or promise is never one page: grep the repo (pages, blogs, `sources/`, `llms.txt`, schema, ads, skill files, `CLAUDE.md`) and fix every surface — see `references/09-website-and-repo.md` §Sweep.
+4. **Design quality.** Follow the brand system and the ten-second check; prefer real product screenshots; mobile first (works at 320 px, no sideways scroll).
+5. **Measure.** Anything that drives traffic gets UTMs and maps to the event contract (`references/08-tracking.md`). **Never send test events to production Meta/Google** — verify in GTM Preview / Meta Test Events only.
+6. **Git:** never commit or push unless the owner asks; when asked, follow the deploy flow in `references/09-website-and-repo.md`. Never commit `.claude/settings.local.json`.
+7. **Unknowns:** if a fact isn't in this skill, ask the owner (one clear question) or leave it out. Never fill gaps with invented features, numbers or quotes.
 
-**Retired framing (don't reuse):** "personal apps fail / are a burden", "3.5 lakh educators *with personal apps*", "the mall that brings kirana stores together", "List your courses on AllCoaching" as the primary CTA, "Founded 2022". AllCoaching now *sells* the own-brand app and website, so never argue against educators owning one — argue against owning one you can't control or that leaves you alone.
+## 7. Surfaces and where things live
+- **allcoaching.in** — static marketing site + blog (this repo, deploys from GitHub `master`, live ~10 s after merge). Key pages: `/`, `/pricing` (Monthly · 0% / Yearly toggle + full compare table; `/pricing#yearly`), `/start`, `/faq`, `/about`, `/contact`, `/manifesto`, `/brand`, `/press`, `/vs/*`, `/landing/*` (ad landing pages with on-page checkout), `/blog/`, `/blogs/en/`, `/blogs/hinglish/`, legal pages.
+- **studio.allcoaching.in** — the educator app (separate codebase; developer **Sumit**). Onboarding: verify (Google or mobile OTP) → name + academy (free `<handle>.allcoaching.in`) → choose plan (Monthly/Yearly toggle) → checkout (Razorpay, GST 18%, coupon) or 7-day trial → studio. Map: `references/01-product-and-studio.md`.
+- **learn.allcoaching.in** — student web app; also serves educators' own domains. **Marketplace student app:** Android `org.student.allcoaching`, iOS id6758305866.
 
-## 3. Pricing truth (⚠️ money claim — get this exactly right)
-**STUDIO PRICING = FINAL (owner, 2026-10-29: "studio wala pricing final hai"; NEWEST — overrides every pricing bullet below, including the 2026-10-28 one):** allcoaching.in must match the studio plan screen (studio.allcoaching.in, API `login/onboarding/pricing`) in full detail. Pricing starts at ₹3,999. Two billings, same three plans. **Monthly, 0% commission (keep 100%), autopay, stop any month:** Starter ₹3,999 (512 GB storage + 512 GB streaming a month, 1080p, built-in live classroom 20 h/month, 3 team seats, any 6 landing pages, any 2 premium themes, own Android app), Growth ₹5,999 (1 TB + 1 TB, 1080p, 50 h, 5 seats, any 12 pages, any 5 premium themes, Android; badge "Most popular"), Pro ₹7,999 (2 TB + 2 TB, 4K, 90 h, 7 seats, all 16 pages, all premium themes, own Android **and iOS** app; badge "Best value · Recommended"). **Yearly, fee per sale:** Starter ₹6,999 at 10% (512 GB + 512 GB, 1080p, 5 h/month, 3 seats), Growth ₹12,999 at 7.5% (1 TB + 1 TB, 10 h, 5 seats), Pro ₹24,999 at 5% (3 TB + 3 TB, 4K, 15 h, 7 seats, one premium theme worth ₹10,000); **every yearly plan includes the own Android and iOS app** (as the studio shows). Every plan: no sales limit, no setup fee, unlimited YouTube video (branded player), unlimited live classes on YouTube Live or Zoom (the built-in live classroom hours above are separate), unlimited courses/tests/students, DRM and watermarking, marketplace listing, free .allcoaching.in address + own domain, page builder (up to 100 pages), blog (up to 300 posts), premium themes free for the first 2 months, all plugins (YouTube, Zoom, WhatsApp, GA, Meta Pixel, Tag Manager, Play Console, App Store Connect), coupons and lead forms, automatic payouts. "0% commission"/"keep 100%" is true for the **monthly plans only**. Breakeven: below about ₹4 lakh of yearly sales yearly Starter usually costs least, above that a monthly plan. Competitor framing (pricing pages checked 2026-10-24): own branded Android app at 0% from ₹14,999/month on Learnyst and ₹17,999/month on Edmingle vs AllCoaching ₹3,999/month; own iOS app Learnyst ₹49,999, Edmingle ₹34,999 vs AllCoaching Pro monthly ₹7,999. **Removed:** Growth ₹7,999/mo and Pro ₹14,999/mo, ₹79,990 / ₹1,49,990 yearly, "2 months free", Extend packs (₹499/₹399), "0% commission on Growth and Pro", the ₹7 lakh breakeven, and the old monthly sales limits (₹50,000 / ₹1.5 lakh). allcoaching.in landing checkout (`assets/checkout.js`) sells the three yearly plans; monthly plans are bought on studio.
+## 8. Before you hand anything over — the 10-point check
+1. Prices, % and plan features match §2 exactly (monthly vs yearly not mixed; 0% only on monthly).
+2. Nothing from the FALSE list in §3; nothing UNVERIFIED stated as fact.
+3. Trial = "7-day free trial, no card needed" (never a free plan).
+4. Lead message = own academy / full control; marketplace only as extra.
+5. Voice: educator/studio, no "!", no hype words, illustrative numbers marked.
+6. Look: one blue accent, right fonts, real screenshots, mobile OK.
+7. CTA = Start free trial → studio.allcoaching.in (or /pricing); no demo links.
+8. Competitor facts sourced with date (`references/10-competitors.md`), never rounded up.
+9. SEO/schema: titles ≤65 chars, descriptions 50–175, FAQ JSON-LD = visible text verbatim, `llms.txt` in sync.
+10. Tracking/UTMs in place; no test events to production.
 
-**(SUPERSEDED 2026-10-29 by STUDIO PRICING above) 2026-10-28 pricing:** THREE plans. **Starter ₹6,999/year + 10% per sale** (keep 90%; 512 GB video storage, 100 GB streaming/month, own Android app). **Growth ₹7,999/month, 0% commission** (keep 100%; 1 TB + 1 TB streaming/month; own Android app; "Most popular"). **Pro ₹14,999/month, 0% commission** (keep 100%; 2 TB + 2 TB, 4K, own Android + iOS app, premium theme; "Best value · Recommended"). Growth/Pro paid yearly: 2 months free → ₹79,990 / ₹1,49,990. No sales limits, no launch/setup fee, + GST, gateway charges on student payments separate. Extend (prepaid, from the studio): ₹499/month per extra 100 GB storage, ₹399 per extra 100 GB streaming; at a limit only uploaded video pauses (website, app, YouTube video, live classes keep running). Monthly: no lock-in. If an educator stops: offline at end of paid period, 30 days to export/return, then uploaded videos deleted. Apps on the educator's own Play Console/App Store (Google $25 once, Apple $99/yr, paid by the educator). **Zero commission (Growth, Pro) is the headline**; never claim 0% for Starter. Breakeven: below about ₹7 lakh/yr of sales Starter usually costs least; above that Growth (₹79,990/yr paid yearly). Competitor framing (their pricing pages, 2026-10-24): own branded Android app at 0% from ₹14,999/mo (Learnyst Premium) / ₹17,999/mo billed monthly (Edmingle Prime); own iOS app ₹49,999 (Learnyst Business) / ₹34,999 (Edmingle Power). REMOVED: yearly Growth ₹12,999/7.5% and Pro ₹24,999/5%; monthly ₹3,999/₹5,999 and ₹7,999-as-Pro; ₹50,000/₹1.5 lakh sales limits; Scale ₹99,999.
+## 9. Reference map (open what the task needs)
 
-**(SUPERSEDED 2026-10-28 by FINAL above) monthly 0% plans (2026-10-27)** — Starter ₹3,999/mo (sales up to ₹50,000/mo), Growth ₹5,999/mo (up to ₹1.5 lakh/mo), Pro ₹7,999/mo (no limit, Android + iOS app), all 0% commission, + GST, gateway charges separate. Yearly plans unchanged. Scale ₹99,999 is paused and not shown. Full detail in CLAUDE.md.
+| Task | Open |
+|---|---|
+| Product questions, feature copy, onboarding, studio screens, apps, domains, live, tests, APIs | `references/01-product-and-studio.md` |
+| Any price, plan, comparison, cost example, breakeven, checkout, upgrade/stop rules | `references/02-pricing.md` |
+| Design: pages, ads, posters, graphics, tokens, components, logo, screenshots | `references/03-brand-and-design.md` |
+| Copy of any kind; claims; banned words; approved lines; Hinglish | `references/04-voice-and-claims.md` |
+| Meta / Google ads: angles, copy bank, creative specs, funnel, landing pages, UTMs, budgets, testing | `references/05-ads-and-performance.md` |
+| Instagram, YouTube, LinkedIn, X, Facebook, WhatsApp, Telegram; content pillars, calendar, scripts | `references/06-social-media.md` |
+| Blog, SEO, AI search (GEO), schema, `llms.txt`, content roadmap | `references/07-seo-and-content.md` |
+| GTM, Meta pixel/CAPI, GA4, Google Ads conversions, event contract, open tracking fixes | `references/08-tracking.md` |
+| Repo layout, scripts, validation, deploy flow, consistency sweep | `references/09-website-and-repo.md` |
+| Competitor prices and positioning (sourced) | `references/10-competitors.md` |
+| Audience, ICP, funnel, metrics, growth and scale plan, partnerships, retention | `references/11-growth-and-scale.md` |
+| What the owner decided and when (history, retired models) | `references/12-decision-log.md` |
+| Ready-to-run checklists per deliverable | `references/13-checklists.md` |
 
-**Confirmed model (2026-10-07; supersedes free-forever, flat-10%, one-time and "Pro ~₹999/month" — all wrong now):**
-- **7-day free trial on every plan** — sign up, build the academy, then pick a plan. It is a *trial*, **not a free tier**: there is no free-forever plan. **No card is needed to start the trial** (user-confirmed 2026-10-07). Still unconfirmed: what happens to the academy when a trial lapses — don't claim it.
-- **(SUPERSEDED 2026-10-27 for Scale — Scale is paused, not shown.)** **Four annual plans (owner, 2026-10-25; prices exclude GST):** **Starter ₹6,999/yr** (10% platform fee, keep 90%, 512 GB, 1080p, own Android app) · **Growth ₹12,999/yr** (7.5%, keep 92.5%, 1 TB, 1080p, own Android app) · **Pro ₹24,999/yr** (5%, keep 95%, 3 TB, 4K, premium website template worth ₹10,000, own Android **and iOS** app) · **Scale ₹99,999/yr** (**0% platform fee, keep 100%**, everything in Pro incl. iOS app; bought through a branded "Contact us" CTA that opens WhatsApp +91 98899 77262; never label the CTA "WhatsApp"; not self-serve). "Zero commission" is true only of Scale.
-- **Every plan:** own connected custom domain, website templates, unlimited videos via YouTube, unlimited live classes via YouTube Live, own white-label Android app (iOS app on Pro only), free customizable themes/templates, plugins (Zoom, Razorpay, YouTube & more), Meta Pixel + GTM, marketplace discovery, UPI/card checkout, student CRM, separate teacher logins, data export.
-- Upgrades apply on payment with paid value credited; downgrades via support at next renewal; a non-renewed academy goes offline to students but content/data stay exportable. No setup fee, no monthly bill.
-- **Never** position as "cheap/cheapest LMS". The register is *simple, transparent, self-driven*: one predictable yearly plan.
-- Cost breakevens (illustrative, pre-GST, 2026-10-27): below about ₹4 lakh of yearly sales, yearly Starter (₹6,999 + 10%) usually costs least; above that, a monthly 0% plan usually leaves more (Starter ₹47,988/yr up to ₹6 lakh/yr of sales, Growth ₹71,988/yr up to ₹18 lakh, Pro ₹95,988/yr unlimited). Live pricing page: **/pricing** (`/plans` 301s there).
-- Money in ₹ only (lakhs/crores, e.g. `₹4.8L`, `₹1.2Cr`) — never `$` / "INR" / "rupees". Use **ranges**, never fabricated exact stats.
+Other repo skills sit on top of this one and must never contradict it: `academy-guide-blog` (new v3 blog posts + graphics), `ai-search-geo` (GEO strategy), `behavioral-search` (query selection), `blog-post` (legacy essay layout / JSON-LD reference).
 
-## 4. Product / feature scope (don't over-claim)
-- **Included on every plan:** branded studio, academy website from templates, own custom domain, own white-label Android app (iOS app on Pro monthly and every yearly plan), unlimited video via YouTube and **unlimited live classes** (YouTube Live, Zoom or the built-in live room; no hour caps, confirmed 2026-10-21), customizable themes/templates, plugins (Zoom, Razorpay, YouTube), Meta Pixel + GTM, recorded courses, PDF notes, test series, UPI/card payments, student CRM, marketplace discovery, data export. **Multi-teacher institutes** are included (separate teacher logins, batch ownership; the institute handles its own internal teacher pay — no auto-split claim).
-- **Pro only:** premium website template (₹10,000 value), 4K video. There is **no** "paid tier for custom domain / advanced analytics" — that was never true.
-- **Own white-label app, plugins and marketing tools:** on EVERY plan (owner, 2026-10-20; iOS narrowed 2026-10-25): unlimited YouTube video, unlimited YouTube Live, own Android app (the iOS app is on Pro only), customizable themes/templates, plugins (Zoom, Razorpay, YouTube & more), Meta Pixel and GTM. Positioning: "like Shopify, for coaching" — sign up, choose a plan, upload a course, connect a domain, start selling.
-- **How the apps are published (owner, 2026-10-27):** AllCoaching builds the educator's own branded Android app (and iOS app on Pro). The educator can publish it on their **own** Google Play Console / Apple App Store developer account themselves, **or** give AllCoaching API access to that account and the platform handles the publishing. So the app is listed under the educator's own developer account and name, not AllCoaching's. Say "published on your own Play Store / App Store account, by you or by us". Don't promise approval timelines (Google and Apple review it), and the developer-account fees are the educator's (Google Play one-time registration; Apple Developer Program yearly).
-- **UNVERIFIED — do NOT state as free-included:** video DRM / anti-piracy, GST-invoicing. Treat these as *concepts you can explain*, never as confirmed AllCoaching free features.
-
-## 5. Audience & positioning
-- **Audience:** India's ~**3.5 lakh independent educators** — coaching owners, tutors, exam mentors, subject/skill teachers; Hinglish- and regional-language-aware; cost-anxious tier-2/3 included.
-- **Say "educator", not "creator"/"user".** Lead with what the educator gets.
-- **Competitive stance:** the alternative to *both* (a) agency/sales-led app builders (you get a brand but not the controls, and no discovery) *and* (b) Big-EdTech platforms that rent your audience / take large cuts (Classplus, Graphy, Teachmint, Unacademy, Byju's, Udemy, etc.). AllCoaching = own-brand studio **+** shared marketplace network effect, transparent economics (one yearly plan, platform fee 10% → 5%, or 0% on monthly plans; keep 90–100%).
-
-## 6. Brand & voice (apply to any AllCoaching surface)
-Full system is the `brand-system` memory + repo `brand.css`; the essentials:
-- **3 fonts, each one job — Fraunces is NOT a brand font.** Display = **Instrument Serif** *italic, weight 400 only* (headlines, KPI values, wordmark; emphasis via **colour**, never bold). UI = **Inter Tight** (body/buttons/nav; default emphasis 600). Mono = **JetBrains Mono** (numbers, eyebrows, IDs, code).
-- **Colour (2026-10-12, current):** white / soft-mist canvas (`#FFFFFF`, `#F6F8FC`), **electric blue `#2B44FF` is the only brand accent** (hover `#1A2FD9`, tint `#E8F0FF`), cyan `#22C3F5` only inside light-ray graphics, navy `#0A0F3D` for final CTA bands and footers. Ochre and cream are retired. Full guideline: allcoaching.in/brand.
-- **Voice:** calm, confident, editorial (not corporate); educator-first; restraint over decoration. Say **educator / studio / your students** (not creator / dashboard / audience). **Banned:** exclamation marks, "maximize", "onboard" (verb), "unlock", "creator", "#1 platform" ranking claims, stock photos. Confidence from accuracy, not hype.
-- **Logo:** rounded-square gradient pin + wordmark in Instrument Serif italic 400 (always italic). Tagline "Democratizing Education" in mono, cyan on dark / blue on light.
-- Accessibility + reduced-motion always respected; AA contrast.
-
-## 7. Key facts & links
-- Domain **allcoaching.in** · Studio **studio.allcoaching.in** (separate repo).
-- Public contact email: **contact@allcoaching.in** (since 2026-07-08; the old gmail must never reappear). Founder's personal amitpc95@gmail.com appears only on the author page.
-- Socials: LinkedIn `in/allamitk`, X `@allcoachings`, YouTube `@Allcoaching`, Instagram `allcoachings`, Facebook, Telegram.
-- Analytics: **GTM-T3KFKD3G** (no GA4/Ads/Meta IDs committed in the marketing repo). A marketing-site tracking layer (`assets/track.js`) exists on a local unpushed branch.
-- Marketing repo (this machine): `c:\Users\allco\codes\allcoaching-prod-landing`. Static site deployed from GitHub `master`. Discovery files: `sitemap.xml`, `llms.txt`, `llms-full.txt`, `robots.txt` (all AI-citation crawlers allowed, data-resale scrapers blocked).
-
-## 8. When working *in* the marketing repo, defer to these
-- **Skills (project-level, richer):** `blog-post` (house style + HTML component system + 6-schema scaffold + registration) and `ai-search-geo` (GEO/AEO strategy — answer-first, entity-anchored, citation-shaped). Use both when writing/optimizing content.
-- **Active project:** a **daily 2-blog pipeline for July 2026** — 60 AEO full-conversational-query keywords in `.claude/content-calendar-july-2026.md`, all distinct from the existing ~70 blogs; the user assigns a daily task, Claude completes that day's 2 blogs. (See the repo's `MEMORY.md` index.)
-
-## 9. Guardrails (non-negotiable)
-- **Never fabricate** stats, cohort sizes, student anecdotes, sources, or `sameAs` URLs — YMYL topic; fabrication breaks trust and suppresses AI citation.
-- **Always** state pricing per §3 STUDIO PRICING: 7-day free trial, then monthly plans at **0% commission** (keep 100%): **Starter ₹3,999**, **Growth ₹5,999** (Most popular), **Pro ₹7,999** (Best value · Recommended) a month; or yearly with a fee per sale: **Starter ₹6,999 (10%)**, **Growth ₹12,999 (7.5%)**, **Pro ₹24,999 (5%)**. No sales limit, no setup fee, prices + 18% GST, 7-day free trial (no card). Never "free forever", "₹0 to start", "free tier", "flat 10%", "one-time fee" or "daily payouts". **Payouts (owner, 2026-10-17):** payouts are automatic through Razorpay; do NOT highlight payout speed (no "T+3", "paid in 3 days", "money in 3 days") as a selling point anywhere. **Traction:** 500+ educators already selling (confirmed 2026-10-15) — never claim "thousands of educators" on AllCoaching.
-- **Commit/push only when the user explicitly asks** — stage, verify, then stop and wait.
-- Keep the free vs paid vs unverified feature boundary (§4) exact.
-- New keyword/blog work must be **distinct from existing content** — verify before writing.
+## 10. Keeping this skill true
+When the owner confirms or changes a fact: update §2/§3 here, the matching reference file, `CLAUDE.md` (summary bullets), and add a dated line to `references/12-decision-log.md`. Then run the consistency sweep across the site. Last full review: **2026-10-30**.

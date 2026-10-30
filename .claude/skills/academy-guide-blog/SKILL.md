@@ -22,7 +22,7 @@ Reference implementation (read it before writing a new post):
 - **Tagline in graphics and lockups:** "The academy platform for educators".
 - **The automated path (repeat it, in this order):** sign up → choose a plan → upload your course → connect your domain → start selling. Payments, student access, apps and hosting run on their own.
 - **Headline lines that are approved:** "Build your own LMS. In just a few clicks." · "One login. Your whole academy." · "Your knowledge deserves its own academy." · "Your domain. Your brand. Your students." · "Focus on teaching. We handle the tech." · "Your LMS shouldn't feel like a tech project."
-- **What the educator owns:** academy website on their own domain, their own white-label Android app (iOS on Pro), their brand (logo, colours, theme), their student data (exportable).
+- **What the educator owns:** academy website on their own domain, their own white-label Android app (iOS on Pro monthly and every yearly plan), their brand (logo, colours, theme), their student data (exportable).
 - **What runs underneath:** courses (video, PDF, tests), unlimited live classes (YouTube Live, Zoom, built-in room), UPI/card checkout with automatic Razorpay payouts, Meta Pixel + Google Tag Manager, plugins.
 - **Marketplace = supporting discovery**, never the headline: "your courses can also be discovered on the AllCoaching app".
 - **The enemy is complexity, not competitors:** WordPress + 9 plugins, WhatsApp + Drive + Zoom + Excel, agency-built apps you cannot change. Show the stitched-together mess, then one login.
@@ -103,7 +103,7 @@ Every post ships a cover + 6–12 in-article graphics. They are generated, never
 - Real brand marks for the tools being discussed: `logo_google`, `logo_youtube`, `logo_instagram`, `logo_whatsapp` inside white app-icon tiles (`logo_tile`). Add "Logos belong to their owners" in the caption line when used.
 - Handwritten Caveat notes + hand-drawn arrows + beige tape labels only on the problem side ("Plugin conflict again?", "Too many tools!").
 - AllCoaching signature bottom-right on every in-article graphic; full lockup with tagline on cover and promo graphics.
-- Blue CTA button "Start your academy →" only on promo graphics. Price line "Plans from ₹6,999/year + GST".
+- Blue CTA button "Start your academy →" only on promo graphics. Price line "0% commission from ₹3,999/month + GST".
 - Example data is labelled ("Illustrative", "sample data"). Fictional sites use `youracademy.in`.
 
 **How to make them:**
