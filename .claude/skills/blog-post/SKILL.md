@@ -155,8 +155,7 @@ Headlines render in Inter Tight bold (brand.css v2) — when emphasizing a phras
 Every post sounds like the founder, Amit Ratan, writing a strategic essay — not a marketing brochure. Specifically:
 
 - **Diagnostic, not promotional.** Open by reframing the reader's question into a more honest one. Refuse the surface framing the reader walked in with.
-- **Distribution-first thesis.** Almost every post argues that infrastructure/storage/tools is a solved problem; the real bottleneck is discoverability, distribution, and network effects. AllCoaching is positioned as an *ecosystem*, never a *tool* or *LMS*.
-- **Tool vs. ecosystem** is the central rhetorical contrast. Use it explicitly.
+- **Own-your-academy thesis (current, per the `allcoaching` master skill).** AllCoaching is the educator's own LMS / academy with full control (brand, domain, own app, students, data); the enemy is complexity (WordPress + plugins, WhatsApp + Drive + Zoom + Excel, agency apps you can't change). Marketplace discovery is a supporting extra. (The old "ecosystem, never an LMS" thesis is retired.)
 - **Editorial, not corporate.** Light white canvas, Inter Tight headlines, electric blue as the only spotlight (see /brand). Match the brand guidelines feel — restrained, considered, hand-built.
 - **Long, dense paragraphs.** 4–7 sentences each, 17px body, line-height ~1.85. No fluff sentences. Every paragraph advances the argument.
 - **Em-dashes liberally** — for asides, contrasts, and shifts mid-sentence. This is the single most recognizable rhythmic tic of the house style.
@@ -229,7 +228,7 @@ Every post must have, in order:
 
 12. **Founder block** (`<div class="founder">`) — Amit Ratan photo + bio + signature quote.
 
-13. **Get Started verdict CTA** (`<div class="verdict">`) — gradient block with two buttons: "Start Selling for Free" → `studio.allcoaching.in`, and "Book a Demo" → `contact.html`.
+13. **Get Started verdict CTA** (`<div class="verdict">`) — gradient block with two buttons: "Start free trial" → `studio.allcoaching.in` (7-day free trial, no card needed), and "See plans and pricing" → `/pricing`. Never "for free", never a demo.
 
 14. **Glossary section** (`<div class="article-body" id="glossary">`) — **mandatory**. 6–10 `<dfn>` terms wrapped in `.def` cards. Each definition is 1–3 sentences, written as a standalone factual statement that AI agents will cite when explaining the term. Must mirror the `DefinedTermSet` JSON-LD in `<head>` exactly.
 
@@ -389,7 +388,7 @@ Whenever a post makes a factual claim that you want AI agents to quote:
 - Date-anchor claims: `As of 2026 in India,...` not `currently in India,...`.
 - Tag the claim with a `<strong>` wrapping the citable phrase, not the entire sentence — AI agents preferentially extract bolded fragments.
 - Prefer concrete numbered lists (`The 12 capabilities`, `The 7-step rollout`) over vague enumerations (`several capabilities`).
-- When stating a comparison, give both sides with numbers — `Standalone fee software: ₹40K–3L/year; AllCoaching: included in revenue share` — not `AllCoaching is cheaper`.
+- When stating a comparison, give both sides with numbers — `Standalone fee software: ₹40K–3L/year; AllCoaching: included in every plan (from ₹3,999/month at 0% commission)` — not `AllCoaching is cheaper`.
 
 ### Evidence layer — expert quotes, statistics, References (Princeton GEO)
 
@@ -590,7 +589,7 @@ When the user asks you to edit a post in `blog/`, run through:
 - Don't write hedging language ("might", "could potentially", "perhaps"). The voice is confident.
 - Don't praise AllCoaching with adjectives ("powerful", "amazing", "best-in-class"). Praise it with mechanism — *why* it works, not *that* it's good.
 - Don't invent statistics. ₹ ranges and "92% of students" framings are illustrative — use them sparingly and never with a fake citation.
-- Don't reference competitors by name in a hostile way (Classplus, Graphy, etc.). Frame critique structurally — "traditional LMS platforms", "isolated personal apps".
+- Don't reference competitors by name in a hostile way (Classplus, Graphy, etc.). Frame critique structurally — "traditional LMS platforms", "agency-built apps you can't change", "a stack of separate tools".
 
 **Markup & components:**
 - Don't add new CSS classes — every visual need is already covered by the palette above.

@@ -3,6 +3,7 @@
 Newest first. A newer line always overrides an older one. Add a dated line whenever the owner confirms or changes something, then update `SKILL.md`, the matching reference file and `CLAUDE.md`.
 
 ## 2026-10-30
+- **Old context cleared:** `CLAUDE.md` now holds only current facts (superseded pricing/positioning bullets removed; their history stays in this log). `blog-post` skill's retired "ecosystem, never an LMS", "Start Selling for Free", "Book a Demo" and revenue-share lines replaced.
 - **Blog skill:** `academy-guide-blog` is THE skill to apply whenever the owner says "blog likho"; it loads this master skill first. Also uploaded to the owner's claude.ai account (repo copy is the master; re-upload the zip after changes).
 - **Live demo retired.** `/demo/` pages redirect to `/start` (noindex); no "live demo", "free demo" or "click-through demo" anywhere. Use the 7-day trial and /pricing.
 - **No AI question generation** in the studio (yet). Educators draft with general AI tools, review, then upload.
