@@ -1,0 +1,300 @@
+{
+ "slug": "how-to-write-a-course-description",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "How to Write a Course Description That Sells (+ Examples)",
+ "description": "How to write a course description that sells: an outcome-first title, who it is for, what is inside, real proof, price and FAQ, with before-and-after examples.",
+ "og_description": "A 7-step guide for Indian exam and skill educators: write an outcome-first course title, say who it is for, list what is inside in numbers, add real proof, frame the price, answer objections and make the course page findable on Google. With before-and-after examples.",
+ "keywords": [
+  "how to write a course description",
+  "course description examples",
+  "online course description template",
+  "course title ideas",
+  "how to write course sales page",
+  "course page copy for coaching",
+  "course description in hindi",
+  "course page seo",
+  "meta description for course page",
+  "what to include in a course description"
+ ],
+ "h1": "How to Write a Course Description That Sells (with Examples)",
+ "dek": "A practical guide for Indian educators, from NEET and SSC to yoga and spoken English: write an outcome-first title, say who the course is for, list what is inside in numbers, add real proof, frame the price and answer objections. With before-and-after examples you can copy.",
+ "category": "Course creation",
+ "date_published": "2026-10-31",
+ "date_modified": "2026-10-31",
+ "checked": "31 Oct 2026",
+ "cover_alt": "How to write a course description that sells: an illustrative NEET biology course page with an outcome-first title, what is inside in numbers, a free sample lesson and an enrol button",
+ "audience": "Indian educators, exam mentors, skill teachers and coaching institute owners who sell courses online",
+ "author_note": "This guide comes from reading many course pages with educators; outside facts are linked to their sources, and every example course, academy and number is illustrative.",
+ "intro": [
+  "<strong>To write a course description that sells, say who the course is for and what they will be able to do after it, list exactly what is inside in numbers, show real proof that you can teach, state the price honestly and answer the questions students ask before paying.</strong> A student should know in ten seconds whether the course is for them.",
+  "Maybe you teach NEET biology to droppers, SSC CGL maths in Hindi, or spoken English to freshers. Your free videos get views. But the course page says \"Best biology course by an experienced teacher. Join now\", and students either message you on WhatsApp with the same five questions or never buy.",
+  "This guide fixes that page in seven steps, with before-and-after examples for exam and skill courses, a title formula, honest proof when you have no reviews yet, Hindi and Hinglish tips and course page SEO. If the course is not built yet, start with <a href=\"/blog/create-your-first-online-course-india\">how to create your first online course</a>."
+ ],
+ "takeaways": [
+  "<strong>A course description answers five questions:</strong> who is it for, what will I be able to do, what is inside, why trust you, and what does it cost.",
+  "<strong>Write an outcome-first title:</strong> outcome + exam or skill + who + format, such as \"NEET Biology for Droppers: NCERT in 120 Days\", in about 60 characters.",
+  "<strong>Count what is inside</strong> (video lessons, PDFs, tests, live classes, validity, language) instead of using words like \"complete\" or \"best\".",
+  "<strong>Use only real proof:</strong> a free sample lesson, your teaching record and genuine student feedback collected with permission. Never invent reviews or results.",
+  "<strong>Most visitors scan:</strong> in Nielsen's study, 79% of test users scanned any new page and only 16% read word by word.",
+  "<strong>Put a FAQ on the course page</strong> with the questions students already ask you on WhatsApp.",
+  "<strong>On AllCoaching, saving a course creates its page with SEO meta, schema and checkout;</strong> you edit the title, description and price."
+ ],
+ "sections": [
+  {
+   "id": "what-is",
+   "h2": "What is a course description?",
+   "toc": "What it is",
+   "html": "<p><strong>A course description is the text on a course page that tells a student who the course is for, what they will be able to do after it, what is inside, why they should trust the teacher and what it costs.</strong> It is your sales conversation, written down once, so it can happen with every visitor at the same time.</p>\n      <p>Most course descriptions fail in the same way: they describe the teacher's effort (\"carefully designed\", \"complete\", \"best\") instead of the student's result. A student does not buy \"biology classes\". A Class 12 dropper buys \"NCERT Biology finished and revised before NEET, with a test after every chapter\".</p>\n      {{fig:before-after|Course description example before and after: a vague biology course description next to a strong NEET biology description with who it is for, what is inside in numbers, proof and price|The same course, described twice. Example course and numbers are illustrative.}}\n      <p>On the left, the student still does not know who the course is for, which exam or language, how many lessons or tests, or how long access lasts. Every unanswered question is a reason to close the tab.</p>\n      <p>The right side is not wordier; it is specific. Specific copy is also easier for Google and AI search tools to match with what a student typed.</p>"
+  },
+  {
+   "id": "seven-steps",
+   "h2": "How to write a course description in 7 steps",
+   "toc": "The 7 steps",
+   "html": "<p><strong>Name the student and the result, write an outcome-first title, open with who it is for, list what is inside in numbers, add real proof, frame the price with a FAQ, and optimise the page for search with one clear button.</strong> Work in that order; each step feeds the next.</p>\n      {{steps}}\n      {{fig:course-page-anatomy|Anatomy of a course page that sells, with eight numbered parts: outcome-first title, who it is for, price and one button, free sample lesson, outcomes, what is inside, real proof and FAQ|Where each part of the description sits on the page. Illustrative course page.}}\n      <p>Before you write a word, answer one question in one sentence: <em>after this course, what can my student do that they could not do before?</em> \"Understand biology\" is not an answer; \"finish and revise NCERT Biology in 120 days\" is. That sentence becomes your title, first line and meta description.</p>"
+  },
+  {
+   "id": "title",
+   "h2": "How do you write a course title that students click?",
+   "toc": "The course title",
+   "html": "<p><strong>Combine four parts: the outcome, the exam or skill, who it is for, and the format or time, and keep the result to about 60 characters.</strong> The title is read on the course page, in Google results, in WhatsApp link previews and in your app, so it must make sense on its own.</p>\n      {{fig:title-formula|Course title formula for educators: outcome plus exam or skill plus who it is for plus format, with example titles for SSC, NEET, spoken English, Meta ads, yoga and UPSC courses|Four parts, one title. Example titles are illustrative.}}\n      <h3>Exam course titles</h3>\n      <ul>\n        <li><strong>Weak:</strong> \"Maths Batch 2026\". <strong>Strong:</strong> \"Crack SSC CGL Quant: 90-Day Course in Hindi\".</li>\n        <li><strong>Weak:</strong> \"Biology Complete Course\". <strong>Strong:</strong> \"NEET Biology for Droppers: NCERT in 120 Days\".</li>\n      </ul>\n      <h3>Skill course titles</h3>\n      <ul>\n        <li><strong>Weak:</strong> \"English Speaking Course\". <strong>Strong:</strong> \"Spoken English for Interviews: 30 Days, Hinglish\".</li>\n        <li><strong>Weak:</strong> \"Yoga Classes\". <strong>Strong:</strong> \"Yoga for Back Pain: 21-Day Beginner Programme\".</li>\n      </ul>\n      <p>Google's own guidance on title links asks site owners to \"Write descriptive and concise text\" for page titles and to avoid keyword stuffing.<sup><a href=\"#ref-2\">2</a></sup> Repeating \"NEET NEET Biology NEET 2027 best NEET course\" does not help a student or a search engine. Say it once, clearly.</p>\n      {{q:Should I put my own name in the course title?|Only if students already search for you by name, for example because your YouTube channel is well known. Otherwise put the exam or skill first and your name in the byline under the title. On your own academy domain, your brand is already in the address bar and the logo.}}"
+  },
+  {
+   "id": "who-its-for",
+   "h2": "Who is this course for? Write the first two lines",
+   "toc": "Who it is for",
+   "html": "<p><strong>The first two lines under the title should say exactly who the course is for, and ideally who it is not for, in words the student would use about themselves.</strong> Most visitors decide here whether to keep reading.</p>\n      <p>In Jakob Nielsen's study of how people read on the web, \"79 percent of our test users always scanned any new page they came across; only 16 percent read word-by-word.\"<sup><a href=\"#ref-1\">1</a></sup> The same research recommends the inverted pyramid: lead with the conclusion. On a course page, the conclusion is \"this is for you\".</p>\n      <h3>A simple pattern</h3>\n      <p><em>For [who], who want [result] by [time], in [language].</em> Then one line on who should not buy.</p>\n      <ul>\n        <li><strong>NEET:</strong> \"For Class 12 droppers retaking NEET next year who want NCERT Biology finished and revised on time. Not for Class 11 students starting the syllabus.\"</li>\n        <li><strong>Spoken English:</strong> \"For freshers who understand English but freeze when they have to speak it in an interview.\"</li>\n        <li><strong>Yoga:</strong> \"For desk workers with mild lower-back stiffness who are new to yoga. Not a substitute for medical treatment.\"</li>\n      </ul>\n      <p>Saying who a course is not for feels risky, but it builds trust and cuts refund requests. When educators show us course pages that are not converting, the most common gap is this missing line: the teaching is fine, but the student cannot tell whether the course is meant for them.</p>"
+  },
+  {
+   "id": "whats-inside",
+   "h2": "What to include in a course description: videos, PDFs, tests and live classes",
+   "toc": "What is inside",
+   "html": "<p><strong>List what the student gets in numbers: video lessons and their length, PDF notes, tests and mock tests, live classes, validity, language and any certificate.</strong> Numbers let a student compare your course with others in seconds; adjectives do not.</p>\n      {{fig:whats-inside|What to include in a course description in numbers: video lessons, PDF notes, test series, live classes, validity and language, with vague phrases rewritten as specific ones|Replace adjectives with counts. Numbers shown are illustrative.}}\n      <h3>For exam courses</h3>\n      <p>Exam students compare syllabus, tests and validity first. Write the syllabus as plain-text chapters, not an image, and say how many tests there are, whether they are timed and what students see after each. On AllCoaching, test series include auto-grading, all-India rank and percentile, a full-screen anti-cheat lock and random question order, so those are fair to list when your course uses them.</p>\n      <h3>For skill courses</h3>\n      <p>Skill students compare practice and feedback. Say how many practice tasks there are, how feedback works, and what they will be able to do at the end: a 2-minute self-introduction, a running Meta ad campaign, a 20-minute daily yoga routine. If students receive a certificate on completion, say so, and say plainly that it is a completion certificate, not a degree.</p>"
+  },
+  {
+   "id": "proof",
+   "h2": "How to add proof to a course description without fake reviews",
+   "toc": "Real proof",
+   "html": "<p><strong>Use proof you can stand behind: a free sample lesson, your teaching years and record, real feedback from real students collected with their permission, and your free YouTube lessons.</strong> Never invent reviews, ranks, pass rates or \"only 3 seats left\".</p>\n      {{fig:real-proof|Real proof for a course description versus fake proof to avoid: invented reviews, fake urgency and guaranteed selection on one side, a free sample lesson, teaching record and real student messages on the other|Students can tell the difference, and so can regulators.}}\n      <h3>When you have no reviews yet</h3>\n      <p>Every educator starts with zero reviews. A free sample lesson is stronger proof than any review, because the student judges your teaching directly. Make it 10 to 20 minutes, teach one real concept fully, and put it right under the title. Add one honest line about your experience: \"I have taught SSC maths in Patna since 2015\" or \"9 years teaching English to job seekers in Indore\".</p>\n      <h3>Collect real feedback on purpose</h3>\n      <ul>\n        <li>After each chapter test or module, ask one question: \"What has helped you most so far?\"</li>\n        <li>Ask the student before you quote them, and use their first name and city only if they agree.</li>\n        <li>Quote exact words. \"The PYQ discussion after every chapter helped me most\" beats \"Best course ever\".</li>\n        </ul>\n      <h3>What to leave out</h3>\n      <p>Invented reviews, stock photos of \"toppers\", unsourced pass rates and \"guaranteed selection\" mislead students, and in India they can also break consumer-protection rules. The Central Consumer Protection Authority has issued guidelines against misleading advertisements in the coaching sector; our guide to <a href=\"/blog/new-coaching-center-rules-india-2026\">coaching centre rules in India</a> explains what they cover. Mention a past student's result only if it is true, the student agreed, and you say which course they took.</p>"
+  },
+  {
+   "id": "price",
+   "h2": "How to frame the price and answer objections with a course FAQ",
+   "toc": "Price and FAQ",
+   "html": "<p><strong>State the full price with GST next to one enrol button, show what it covers in time or lessons, and answer the five or six questions students ask before paying in a short FAQ on the same page.</strong> Hidden prices and \"DM for fees\" lose students who were ready to buy.</p>\n      <h3>Make the price easy to judge</h3>\n      <ul>\n        <li><strong>Show it.</strong> \"₹2,999 + GST\" on the page, not \"price on request\".</li>\n        <li><strong>Anchor it to what is inside.</strong> \"180 lessons, 38 PDFs, 35 tests, valid till exam day\" makes ₹2,999 easy to weigh. Illustrative: ₹2,999 over 120 days is about ₹25 a day.</li>\n        <li><strong>Keep launch prices honest.</strong> \"₹1,999 until 15 December, then ₹2,999\" is fine if true; a countdown that resets daily is not.</li>\n        <li><strong>One clear next step.</strong> One enrol button; link other products further down.</li>\n      </ul>\n      <p>If you are still deciding the number itself, our guide on <a href=\"/blog/how-to-price-online-courses-india\">how to price online courses in India</a> covers the methods.</p>\n      <h3>Write the FAQ from your WhatsApp inbox</h3>\n      <p>The best course FAQ is already in your phone: pick the six questions students ask most before buying. For most Indian courses they are:</p>\n      <ul>\n        <li>Is the course in Hindi, English or both?</li>\n        <li>How long do I get access, and can I download the PDFs?</li>\n        <li>What if I miss a live class? Are recordings available?</li>\n        <li>Will it work on my phone?</li>\n        <li>I am a beginner. Can I join?</li>\n        <li>What is the refund policy?</li>\n      </ul>\n      <p>Answer each in two or three plain sentences. Every answer on the page is one doubt that no longer stops a sale at 11 pm while you are asleep.</p>\n      {{cta}}"
+  },
+  {
+   "id": "examples",
+   "h2": "Course description examples: before and after",
+   "toc": "Examples",
+   "html": "<p><strong>Here are three course descriptions rewritten with the seven steps: an exam course, a spoken English course and a digital marketing course.</strong> The academies, numbers and prices are illustrative; copy the structure, not the facts.</p>\n      <h3>Example 1: SSC CGL maths (exam, Hindi medium)</h3>\n      <div class=\"v3-pair\">\n        <div class=\"no\"><h4>Before</h4><p>\"SSC Maths Course. Best maths course for SSC by experienced faculty. All topics covered with tricks. Join today and get selected.\"</p></div>\n        <div class=\"yes\"><h4>After</h4><p>\"<strong>Crack SSC CGL Quant: 90-Day Course in Hindi.</strong> For SSC CGL aspirants who find arithmetic slow and want methods that work under Tier 1 time limits. 140 Hindi video lessons, 16 chapter PDFs with previous-year questions, a timed test after every chapter and 15 full mocks with all-India rank. Weekly live doubt class. Access till the Tier 2 exam. Watch the Percentage lesson free before you pay. ₹1,999 + GST.\"</p></div>\n      </div>\n      <p>What changed: a named exam and weakness, counted contents, a free lesson as proof, no promise of selection.</p>\n      <h3>Example 2: Spoken English for interviews (skill, Hinglish)</h3>\n      <div class=\"v3-pair\">\n        <div class=\"no\"><h4>Before</h4><p>\"Spoken English Course. Improve your English and confidence. Easy and fun classes for everyone.\"</p></div>\n        <div class=\"yes\"><h4>After</h4><p>\"<strong>Spoken English for Interviews: 30 Days, Hinglish.</strong> For freshers who understand English but freeze when they have to speak it. In 30 days you will answer 25 common interview questions and speak for two minutes without notes. 30 short lessons explained in Hinglish, 30 speaking tasks with feedback, and 8 live practice classes on Zoom. Recordings if you miss one. ₹1,499 + GST. Watch \"Tell me about yourself\" free.\"</p></div>\n      </div>\n      <p>What changed: \"everyone\" became one group, \"confidence\" became two measurable results, and the language is stated.</p>\n      <h3>Example 3: Meta ads for local businesses (skill, English)</h3>\n      <div class=\"v3-pair\">\n        <div class=\"no\"><h4>Before</h4><p>\"Digital Marketing Masterclass. Learn everything about digital marketing from an industry expert and grow your business.\"</p></div>\n        <div class=\"yes\"><h4>After</h4><p>\"<strong>Meta Ads for Local Shops: Hands-on Course.</strong> For shop and clinic owners who boost posts but cannot tell which ones bring customers. You will run a Meta ad campaign for your own business and read its results. 22 screen-recorded lessons, 6 templates and 4 live reviews of your real campaign. ₹3,499 + GST. No promise of sales; you will know what your ad budget is doing.\"</p></div>\n      </div>\n      <p>None of the strong versions use \"best\", \"guaranteed\" or \"complete\". For a full course page layout around a description like these, see our guide to <a href=\"/blog/how-to-create-landing-page-for-online-course\">creating a landing page for an online course</a>.</p>"
+  },
+  {
+   "id": "hindi-hinglish",
+   "h2": "Should you write your course description in Hindi or Hinglish?",
+   "toc": "Hindi and Hinglish",
+   "html": "<p><strong>Write the description in the language you teach the course in, and keep exam names and common product words such as NEET, SSC CGL, PDF notes, test series and mock test in English.</strong> Students trust a page that sounds like your classes.</p>\n      {{fig:language-hinglish|Writing a course description in English and Hinglish: the same line in both, with exam and product words kept in English|Same promise, two voices. Illustrative lines.}}\n      <p>A Hindi-medium student who watches your Hinglish videos will feel at home with \"120 din me poori NCERT Biology, har chapter ke baad test.\" An English-medium student may not. Match the page to the batch.</p>\n      <ul>\n        <li><strong>Title:</strong> use the words students type into search. Many type in English or Roman Hinglish even when they study in Hindi, so \"NEET Biology for Droppers in Hindi\" often works better than a fully Devanagari title. Check by typing your topic into Google and YouTube and reading the suggestions.</li>\n        <li><strong>Body:</strong> Hinglish in Roman script, Hindi in Devanagari (हिंदी), or English, whichever matches the classes.</li>\n        <li><strong>Separate batches, separate pages:</strong> a Hindi batch and an English batch each get their own page.</li>\n      </ul>\n      <p>For courses in regional languages, our guide to <a href=\"/blog/multi-language-lms-for-regional-indian-languages\">teaching in regional Indian languages</a> covers the setup.</p>"
+  },
+  {
+   "id": "seo",
+   "h2": "Course page SEO: title tag, meta description and URL",
+   "toc": "Course page SEO",
+   "html": "<p><strong>Give each course page a short keyword URL, a title tag of about 60 characters, a unique meta description that summarises the page, and the syllabus and FAQ written as text.</strong> These decide how the page appears on Google and whether students click.</p>\n      {{fig:search-preview|How a course page looks on Google: the URL slug, title tag and meta description of an illustrative NEET biology course, with four labelled parts|Four things you control. Google may still rewrite the title or snippet. Illustrative result.}}\n      <ul>\n        <li><strong>URL:</strong> <em>youracademy.in/neet-biology-droppers-hindi</em>, not <em>youracademy.in/course?id=4821</em>.</li>\n        <li><strong>Title tag:</strong> usually the course title itself, about 60 characters, outcome and exam first.</li>\n        <li><strong>Meta description:</strong> two lines a student would want to read in the results: who it is for, what is inside, and the free lesson. Google describes it as \"a short, relevant summary of what a particular page is about\", and notes that identical descriptions on every page are not helpful.<sup><a href=\"#ref-3\">3</a></sup></li>\n        <li><strong>Page text:</strong> syllabus, outcomes and FAQ as real text, not pasted images.</li>\n      </ul>\n      <p>Above all, write for the student, not the search engine. Google's guidance on helpful content asks whether someone will \"leave feeling they've learned enough about a topic to help achieve their goal\".<sup><a href=\"#ref-4\">4</a></sup> A course description that answers the student's real questions passes that test. For the wider picture, from keywords to linking guides to courses, read our <a href=\"/blog/seo-for-online-academy-beginners-guide\">online academy SEO guide for beginners</a>.</p>\n      <h3>How this works on AllCoaching</h3>\n      <p>On AllCoaching, a course page with SEO meta, schema and checkout is created automatically when you save a course in the studio. You edit the title, description and price; the page, its structured data and the UPI and card checkout follow from what you write. The words are the part only you can write.</p>\n      <p>Every plan starts with a 7-day free trial, and no card is needed to start. After that, the monthly plans take 0% commission on every sale, from ₹3,999 a month, or the yearly plans start at ₹6,999 a year with a small fee per sale. Prices exclude GST, and the full comparison is on the <a href=\"/pricing\">pricing page</a>.</p>"
+  },
+  {
+   "id": "mistakes",
+   "h2": "Common course description mistakes (and a template)",
+   "toc": "Mistakes and template",
+   "html": "<p><strong>The mistakes that cost sales are a vague title, no \"who it is for\" line, adjectives instead of numbers, invented proof, a hidden price, a syllabus pasted as an image and three different buttons.</strong> Each is quick to fix.</p>\n      <ul>\n        <li><strong>\"Best\", \"complete\", \"ultimate\".</strong> Every course says this, so it says nothing. Replace each with a number.</li>\n        <li><strong>Writing for everyone.</strong> \"For all students\" means no student feels addressed.</li>\n        <li><strong>Promising results you do not control.</strong> No rank, selection or income guarantees.</li>\n        <li><strong>Same description on every course.</strong> Students and Google both need each page to be different.</li>\n        </ul>\n      <h3>A fill-in template</h3>\n      <p><em>[Outcome] [exam or skill] for [who]: [format or time]</em><br>\n      For [who], who want [result] by [time]. Not for [who should not buy].<br>\n      After this course you will be able to: [2 or 3 outcomes].<br>\n      Inside: [number] video lessons, [number] PDFs, [number] tests, [live classes], access till [date], taught in [language].<br>\n      Watch [lesson name] free. About me: [one honest line of experience].<br>\n      What students say: [real quote, with permission].<br>\n      Price: ₹[amount] + GST. [One button.]<br>\n      Questions: [5 or 6 FAQs from your inbox].</p>\n      <p>Write it once for your best-selling course, then reuse the structure for every course after it. When you are ready to bring students to the page, our guide to <a href=\"/blog/how-to-sell-courses-online-in-india\">selling courses online in India</a> picks up from here.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to write a course description that sells",
+  "description": "Seven steps for an Indian educator to write a course description and course page that turn visitors into students.",
+  "total_time": "PT3H",
+  "items": [
+   [
+    "Name the student and the result",
+    "Write one sentence: who the course is for and what they can do after it."
+   ],
+   [
+    "Write an outcome-first title",
+    "Combine outcome, exam or skill, who it is for and format, in about 60 characters."
+   ],
+   [
+    "Open with who it is for",
+    "Use the first two lines to say who the course is for and who it is not for."
+   ],
+   [
+    "List what is inside, in numbers",
+    "Count lessons, PDFs, tests, live classes, validity and language instead of using adjectives."
+   ],
+   [
+    "Add real proof",
+    "Offer a free sample lesson, one honest line on your experience and real student feedback shared with permission."
+   ],
+   [
+    "Frame the price and answer objections",
+    "Show the price with GST next to one button and add a FAQ built from questions students already ask."
+   ],
+   [
+    "Optimise the page and publish",
+    "Set a keyword URL, title tag and unique meta description, write the syllabus as text, publish and keep updating."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "How do I write a course description?",
+   "Say who the course is for and what they will be able to do after it, list what is inside in numbers, show real proof such as a free sample lesson and genuine student feedback, state the price with GST, and answer common questions in a short FAQ on the same page."
+  ],
+  [
+   "What should a course description include?",
+   "An outcome-first title, a line on who the course is for, the outcomes, what is inside (video lessons, PDF notes, tests, live classes, validity and language), proof of your teaching, the price and a FAQ. For skill courses, add practice tasks and how students get feedback."
+  ],
+  [
+   "How long should a course description be?",
+   "Long enough to answer a student's questions and no longer. For most Indian exam and skill courses that is about 200 to 500 words of description plus a syllabus list and a FAQ, laid out with headings and bullet points so it can be scanned on a phone."
+  ],
+  [
+   "How do I write a course title?",
+   "Combine the outcome, the exam or skill, who it is for and the format or time, such as NEET Biology for Droppers: NCERT in 120 Days. Keep it to about 60 characters so it is not cut off in search results."
+  ],
+  [
+   "What if my course has no reviews yet?",
+   "Put a free sample lesson under the title, add one honest line about your teaching experience, and link your free YouTube lessons. Then ask every student one question after each module and quote the real answers, with their permission, as they arrive. Never invent reviews."
+  ],
+  [
+   "Should my course description be in Hindi or English?",
+   "Write it in the language you teach the course in. Keep exam names and words like PDF notes, test series and mock test in English, and use the words students actually type into search in the title."
+  ],
+  [
+   "Can I promise results like selection or a rank in my course description?",
+   "No. You do not control a student's result, and misleading claims about results can break consumer-protection rules for coaching in India. Describe what is inside and what the student will practise instead, and only mention a past student's result if it is true and they agreed."
+  ],
+  [
+   "Does the course description help SEO?",
+   "Yes. A specific title, a unique meta description, a short keyword URL and a syllabus and FAQ written as text help Google understand and show the course page for the searches students make."
+  ],
+  [
+   "Does AllCoaching create the course page for me?",
+   "Yes. On AllCoaching a course page with SEO meta, schema and checkout is created automatically when you save a course, and you edit its title, description and price in the studio. Every plan starts with a 7-day free trial with no card needed."
+  ]
+ ],
+ "glossary": [
+  [
+   "course-description",
+   "Course description",
+   "The text on a course page that tells a student who the course is for, what they will be able to do, what is inside, why to trust the teacher and what it costs."
+  ],
+  [
+   "outcome-first-title",
+   "Outcome-first title",
+   "A course title that leads with the result the student gets, followed by the exam or skill, who it is for and the format."
+  ],
+  [
+   "course-page",
+   "Course page",
+   "The web page where a single course is described and sold, with the description, syllabus, price, enrol button and FAQ."
+  ],
+  [
+   "sample-lesson",
+   "Sample lesson",
+   "One full lesson from a paid course given free, so students can judge the teaching before they pay."
+  ],
+  [
+   "social-proof",
+   "Social proof",
+   "Evidence from other people, such as real student feedback, that helps a new student trust a course."
+  ],
+  [
+   "title-tag",
+   "Title tag",
+   "The HTML title of a web page, which search engines often show as the clickable headline in results."
+  ],
+  [
+   "meta-description",
+   "Meta description",
+   "A short summary of a web page, written in its HTML, that search engines may show under the title in results."
+  ],
+  [
+   "url-slug",
+   "URL slug",
+   "The readable last part of a web address, such as neet-biology-droppers-hindi, that names the page."
+  ],
+  [
+   "hinglish",
+   "Hinglish",
+   "A mix of Hindi and English, usually written in Roman script, widely used by Indian students and educators."
+  ]
+ ],
+ "references": [
+  "Jakob Nielsen, Nielsen Norman Group, \"How Users Read on the Web\", <a href=\"https://www.nngroup.com/articles/how-users-read-on-the-web/\" target=\"_blank\" rel=\"noopener nofollow\">nngroup.com</a>, checked October 2026.",
+  "Google Search Central, \"Influencing your title links in search results\", <a href=\"https://developers.google.com/search/docs/appearance/title-link\" target=\"_blank\" rel=\"noopener nofollow\">developers.google.com</a>, checked October 2026.",
+  "Google Search Central, \"Control your snippets in search results\" (meta descriptions), <a href=\"https://developers.google.com/search/docs/appearance/snippet\" target=\"_blank\" rel=\"noopener nofollow\">developers.google.com</a>, checked October 2026.",
+  "Google Search Central, \"Creating helpful, reliable, people-first content\", <a href=\"https://developers.google.com/search/docs/fundamentals/creating-helpful-content\" target=\"_blank\" rel=\"noopener nofollow\">developers.google.com</a>, checked October 2026."
+ ],
+ "citations": [
+  "https://www.nngroup.com/articles/how-users-read-on-the-web/",
+  "https://developers.google.com/search/docs/appearance/title-link",
+  "https://developers.google.com/search/docs/appearance/snippet",
+  "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+ ],
+ "about": [
+  {
+   "name": "Course description"
+  },
+  {
+   "name": "Copywriting",
+   "sameAs": "https://en.wikipedia.org/wiki/Copywriting"
+  },
+  {
+   "name": "Online course"
+  },
+  {
+   "name": "Meta element",
+   "sameAs": "https://en.wikipedia.org/wiki/Meta_element"
+  },
+  {
+   "name": "Search engine optimization",
+   "sameAs": "https://en.wikipedia.org/wiki/Search_engine_optimization"
+  },
+  {
+   "name": "Learning management system",
+   "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "Nielsen Norman Group",
+   "url": "https://www.nngroup.com"
+  },
+  {
+   "name": "Google Search Central",
+   "url": "https://developers.google.com/search"
+  },
+  {
+   "name": "Central Consumer Protection Authority",
+   "url": "https://consumeraffairs.nic.in"
+  },
+  {
+   "name": "YouTube",
+   "url": "https://www.youtube.com"
+  },
+  {
+   "name": "Zoom",
+   "url": "https://zoom.us"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/create-your-first-online-course-india",
+  "/blog/how-to-price-online-courses-india",
+  "/blog/how-to-sell-courses-online-in-india",
+  "/blog/seo-for-online-academy-beginners-guide"
+ ]
+}
