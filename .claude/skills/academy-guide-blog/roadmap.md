@@ -17,9 +17,9 @@ How the list was made:
 | 4 | Academy building | What Is an Online Academy? Meaning, Types and How It Works (2026) | what is an online academy | NEW (pillar) | **Live 2026-10-25** (`blog/what-is-an-online-academy`) |
 | 5 | Course creation | How to Create Your First Online Course in India: Videos, PDFs and Tests in One Place | how to create online course india | NEW | **Live 2026-10-25** (`blog/create-your-first-online-course-india`) |
 | 6 | Course creation | How to Price Your Online Course in India (+ Revenue Calculator) | online course pricing india | REFRESH `blog/how-to-price-online-courses-india` + calculator | **Live 2026-10-25** (`blog/how-to-price-online-courses-india`) |
-| 7 | Course creation | How to Write a Course Description That Sells (with Examples) | how to write a course description | NEW | Planned |
-| 8 | Brand & website | How to Get a Domain Name for Your Coaching Institute and Connect It to Your Academy | domain name for coaching institute | NEW (link `lms-with-custom-domain-for-coaching-india`) | Planned |
-| 9 | Brand & website | How to Create a Coaching Institute Website Without WordPress or a Developer | coaching institute website without wordpress | NEW | Planned |
+| 7 | Course creation | How to Write a Course Description That Sells (with Examples) | how to write a course description | NEW | **Ready 2026-10-31** (`blog/how-to-write-a-course-description`) |
+| 8 | Brand & website | How to Get a Domain Name for Your Coaching Institute and Connect It to Your Academy | domain name for coaching institute | NEW (link `lms-with-custom-domain-for-coaching-india`) | **Ready 2026-10-31** (`blog/domain-name-for-coaching-institute`) |
+| 9 | Brand & website | How to Create a Coaching Institute Website Without WordPress or a Developer | coaching institute website without wordpress | NEW | **Ready 2026-10-31** (`blog/coaching-institute-website-without-wordpress`) |
 | 10 | Brand & website | White-Label App for Educators in India: What It Means and How to Get One | white label app for teachers india | NEW (link the app-cost post) | Planned |
 | 11 | Brand & website | How to Name Your Coaching Institute or Online Academy (+ Name Ideas) | coaching institute name ideas | NEW (later: free name-generator tool) | Planned |
 | 12 | Payments & selling | How to Accept UPI Payments for Online Courses in India | upi payment for online courses | NEW how-to (link `best-upi-payment-gateway-for-online-courses`) | **Live 2026-10-25** (`blog/accept-upi-payments-for-online-courses`) |

@@ -1,0 +1,311 @@
+{
+ "slug": "domain-name-for-coaching-institute",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "Domain Name for Coaching Institute: Choose, Buy, Connect",
+ "description": "How to pick a domain name for your coaching institute: .in or .com, where to buy it, privacy and renewal, DNS records, and how to connect it to your online academy.",
+ "og_description": "A practical guide for Indian educators: choose a short, clear domain name, pick .in, .com, .co.in or .academy, buy it in your own name, protect it with privacy and auto-renew, add the DNS records and connect it to your academy.",
+ "keywords": [
+  "domain name for coaching institute",
+  "how to buy a domain name in india",
+  "coaching institute website domain",
+  ".in vs .com domain for coaching",
+  "connect domain to online academy",
+  "dns records a record cname",
+  "domain name ideas for coaching classes",
+  "domain renewal and auto-renew",
+  "email on your own domain for coaching",
+  "custom domain for online academy"
+ ],
+ "h1": "How to Get a Domain Name for Your Coaching Institute and Connect It to Your Academy",
+ "dek": "A practical guide for Indian educators: choose a short name students can type, pick between .in, .com, .co.in and .academy, buy it in your own name, protect it with privacy and auto-renew, and connect it to your academy with a few DNS records.",
+ "category": "Brand & website",
+ "date_published": "2026-10-31",
+ "date_modified": "2026-10-31",
+ "checked": "31 Oct 2026",
+ "cover_alt": "Domain name for a coaching institute: choose a short name, buy it in your own name and connect it to your academy in the AllCoaching studio",
+ "audience": "Indian educators, tutors, exam mentors, skill teachers and coaching institute owners buying a domain name for their academy",
+ "author_note": "We help educators connect their domains in the studio, so this guide follows the order that causes the fewest problems; outside facts are linked to their sources and example names are illustrative.",
+ "intro": [
+  "<strong>To get a domain name for your coaching institute, shortlist a few short names that are easy to say, check them for hyphens, numbers and trademarks, buy the best one in your own name from any registrar, switch on privacy and auto-renew, then add the DNS records your academy platform shows you.</strong> A typical .in or .com costs about ₹600–1,200 a year. Most of the work is choosing the name; the technical part is a few copied records.",
+  "Maybe you run a NEET biology batch in Patna and students know you as \"Sharma Sir\", or you teach spoken English to working adults over Zoom. Your course link today is a long platform address or a WhatsApp forward. A name like <em>sharmabiology.in</em> is something a parent can hear once on a phone call and type correctly.",
+  "This guide covers the practical side: choosing the name, choosing the ending, buying it safely, keeping it renewed, understanding A, CNAME and TXT records, and connecting it to your academy. If you are still deciding whether your academy should live on its own domain at all, read <a href=\"/blog/lms-with-custom-domain-for-coaching-india\">why an LMS with a custom domain matters</a> first, then come back here."
+ ],
+ "takeaways": [
+  "<strong>A good coaching domain is short, easy to say once, and has no hyphens, numbers or exam year in it.</strong> Your name or your academy's name usually beats a long keyword phrase.",
+  "<strong>.in is a good default for an academy that teaches students in India;</strong> .com suits academies that also teach abroad, and .co.in or .academy work when your first choice is taken.",
+  "<strong>Buy the domain in your own name, with your own email,</strong> from any registrar (GoDaddy, Namecheap, Hostinger, BigRock or another). A typical .in or .com costs about ₹600–1,200 a year.",
+  "<strong>Turn on privacy protection, auto-renew and two-step login</strong> the day you buy. An expired domain takes your website and every shared link down with it.",
+  "<strong>Connecting takes a few DNS records:</strong> a TXT record proves the domain is yours, and a CNAME or A record points it at your academy. It usually works within a few hours; DNS can take up to 24–48 hours.",
+  "<strong>On AllCoaching, connecting your own domain is free on every plan,</strong> HTTPS is switched on for you, and your free <em>handle</em>.allcoaching.in address keeps working after you connect."
+ ],
+ "sections": [
+  {
+   "id": "seven-steps",
+   "h2": "How to get a domain name for your coaching institute: 7 steps",
+   "toc": "The 7 steps",
+   "html": "<p><strong>Shortlist names, check availability, buy in your own name, protect the account, start the connection in your studio, add the DNS records at your registrar, and wait for it to go live.</strong> Each step is explained in detail below.</p>\n      {{steps}}\n      <p>The order matters. Educators who buy first and think later often end up with a name they outgrow in a year, or a domain sitting in an agency's account. When we help educators connect domains, most problems come from two places: the registrar login belongs to someone else, or a DNS record was typed by hand instead of copied. Both are easy to avoid from the start.</p>"
+  },
+  {
+   "id": "what-is",
+   "h2": "What is a domain name, and does a coaching institute need one?",
+   "toc": "What a domain is",
+   "html": "<p><strong>A domain name is your academy's address on the internet, such as <em>sharmabiology.in</em>, which you rent yearly from a registrar and point at your website.</strong> Students type it, search engines index it, and every link you share carries it. It belongs to whoever is named as its registrant, so register it yourself.</p>\n      <p>You do not need a domain on day one. Every AllCoaching academy gets a free address of the form <em>yourname</em>.allcoaching.in the moment it is created, and you can sell from it straight away. Your own domain becomes worth it once you share your link widely, on YouTube, Instagram, posters and WhatsApp. A short name of your own is easier to remember and trust, and it stays yours if you change platforms.</p>\n      <p>Real academies show the pattern. Dr. Subhash Nair's Biology Lessons runs at <em>biolessons.in</em>, CHEMPSI by Anupam Kumar at <em>chempsi.com</em>, and DigiteKM at <em>digitekm.com</em>. Each name is short, says the subject or the brand, and has no hyphens or numbers. The rest of your brand matters too; our guide to <a href=\"/blog/personal-brand-for-educators-india\">building a personal brand as an educator</a> covers the name, face and voice behind the domain.</p>"
+  },
+  {
+   "id": "choose-name",
+   "h2": "How to choose a domain name for your coaching institute",
+   "toc": "Choosing the name",
+   "html": "<p><strong>Choose a name that is short, easy to say once, free of hyphens and numbers, not tied to one exam year, available as a social handle, and not someone else's trademark.</strong> Write three to five candidates, then test each one against those six rules.</p>\n      {{fig:name-checklist|Six tests for a good coaching institute domain name: short, easy to say once, no hyphens or numbers, not tied to one year, free on social media, not a trademark, with illustrative good and bad examples|Six tests for every name on your shortlist. Example names are illustrative.}}\n      <h3>Start from your name, your academy or your subject</h3>\n      <p>Most good coaching domains come from your own name (<em>anitamaam.in</em>), best when students already follow you; your academy's name (<em>rkclasses.in</em>), best when you have a team; or your subject plus a short word (<em>neetbiohub.in</em>), best when the topic should be obvious. Mixing two is fine if the result stays short.</p>\n      <h3>Pass the phone-call test</h3>\n      <p>Say the name to someone over the phone and ask them to type it. If they ask \"with a hyphen?\" or \"the number 4 or the word?\", pick another name. Hindi and regional words in Roman script are fine; choose the spelling most people would guess.</p>\n      <h3>Do not lock it to one exam or year</h3>\n      <p>A name like <em>ssccgl2026.in</em> is out of date in a year, and a name tied to one exam is awkward when you add banking or state PSC batches. Keep exam names for course page addresses, such as <em>youracademy.in/ssc-cgl-maths</em>, and keep the domain itself broader.</p>\n      <h3>Check social handles and trademarks</h3>\n      <p>Before you buy, check that the same name is free on YouTube and Instagram. Then search the name in the <a href=\"https://tmrsearch.ipindia.gov.in/tmrpublicsearch/\" target=\"_blank\" rel=\"noopener nofollow\">IP India public trademark search</a>. If a well-known coaching brand already owns that name, a lookalike domain invites a legal notice and confuses students. When in doubt, ask a trademark lawyer before you print anything.</p>\n      {{q:Should I put my city or exam in the domain name?|Only if you will never outgrow it. A city in the name, such as a Kota or Patna reference, helps a local centre with walk-in students, but it can feel narrow once you teach online across India. An exam name helps search today but limits you later. A short brand name plus clear course page addresses gives you both.}}"
+  },
+  {
+   "id": "choose-ending",
+   "h2": ".in, .com, .co.in or .academy: which ending should you choose?",
+   "toc": "Choosing the ending",
+   "html": "<p><strong>For an academy that teaches students in India, .in is a good default; choose .com if you also teach students abroad, and use .co.in or .academy only when your first choice is taken.</strong> The ending, called a top-level domain or TLD, matters less than the name in front of it.</p>\n      {{fig:tld-compare|Comparison of .in, .com, .co.in and .academy domain endings for a coaching institute, with what each is best for and what to keep in mind|How the four common endings compare for a coaching institute.}}\n      <ul>\n        <li><strong>.in</strong> is India's country-code domain, run by the .IN Registry under NIXI.<sup><a href=\"#ref-3\">3</a></sup> It is short, clearly Indian, and many good names are still available.</li>\n        <li><strong>.com</strong> is the most familiar ending worldwide. It makes sense if you teach NRI students, run a skill course with buyers abroad, or simply find your exact name free.</li>\n        <li><strong>.co.in</strong> is a second-level option under .in. It works, but it is longer to type and say aloud.</li>\n        <li><strong>.academy</strong> is one of the newer generic endings. It says \"school\" at a glance, but some students will not recognise it as a web address. Check the renewal price before you buy.</li>\n      </ul>\n      <p>If both the .in and the .com of your name are free, buying both protects the brand; point the second at the first.</p>"
+  },
+  {
+   "id": "where-to-buy",
+   "h2": "Where to buy a domain name in India, and what it costs",
+   "toc": "Where to buy it",
+   "html": "<p><strong>Buy your domain from any domain registrar, such as GoDaddy, Namecheap, Hostinger or BigRock; a typical .in or .com costs about ₹600–1,200 a year.</strong> The registrar matters less than buying it in your own name and checking the renewal price, not only the first-year offer.</p>\n      <p>For .com, .academy and other generic endings, domains are sold by registrars accredited by ICANN, the body that coordinates the domain system, or by their resellers. ICANN notes there are more than two thousand accredited registrars.<sup><a href=\"#ref-1\">1</a></sup> For .in, registrars are accredited by the .IN Registry. Most well-known Indian and global registrars sell both.</p>\n      {{fig:registrar-checkout|What to set when you buy a domain name for your coaching institute: check the name, register it to your own name and email, turn on privacy protection and auto-renew, and skip hosting add-ons|Five things to set at checkout. Illustrative screen; every registrar's checkout looks a little different.}}\n      <h3>What to set at checkout</h3>\n      <ul>\n        <li><strong>Your name and your email.</strong> The registrant is the legal holder, so never use an agency's or a staff member's details.</li>\n        <li><strong>Privacy protection on,</strong> if your registrar offers it for that ending.</li>\n        <li><strong>Auto-renew on,</strong> with a card or UPI mandate that will not expire soon.</li>\n        <li><strong>Skip the add-ons.</strong> An academy platform already hosts your site and handles HTTPS, so you do not need the registrar's hosting, website builder or SSL certificate.</li>\n      </ul>\n      <h3>What a domain actually costs</h3>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Item</th><th>Typical cost</th><th>Note</th></tr></thead>\n          <tbody>\n            <tr><td>Domain registration (.in or .com)</td><td>About ₹600–1,200 a year</td><td>Typical range; first-year offers and renewal prices differ by registrar</td></tr>\n            <tr><td>Privacy protection</td><td>Varies</td><td>Included by some registrars; check at checkout</td></tr>\n            <tr><td>HTTPS certificate</td><td>Included on AllCoaching</td><td>Switched on for your connected domain</td></tr>\n            <tr><td>Connecting the domain to your academy</td><td>Included on AllCoaching</td><td>Free on every plan</td></tr>\n            <tr><td>Email on your domain</td><td>Optional</td><td>Priced by the email provider you choose</td></tr>\n          </tbody>\n          <caption>Registrar prices change often; check the registrar's own page on the day you buy. Your academy plan is billed separately.</caption>\n        </table>\n      </div>"
+  },
+  {
+   "id": "privacy-renewal",
+   "h2": "Domain privacy, WHOIS and renewal: how to protect your domain",
+   "toc": "Privacy and renewal",
+   "html": "<p><strong>Protect your domain with three settings: privacy protection so your phone and address are not public, auto-renew so it never lapses, and two-step login so nobody else can take over the registrar account.</strong> Losing a domain is far harder to fix than buying one.</p>\n      <h3>WHOIS and privacy</h3>\n      <p>Every domain has registration data, traditionally called WHOIS, that anyone can look up, for example through <a href=\"https://lookup.icann.org/en\" target=\"_blank\" rel=\"noopener nofollow\">ICANN Lookup</a>. Many registrars now hide personal details by default or offer privacy protection, which shows the registrar's contact details in place of yours. Look up your own domain after buying it to see what is visible. Keep the details you give the registrar accurate even when they are hidden, because that is how ownership is proven if there is ever a dispute.</p>\n      <h3>Renewal and auto-renew</h3>\n      <p>A domain is rented, not bought outright. If it expires, your academy website, your course links and any email on the domain stop working, and after a grace period someone else can register it. For .com, .academy and other generic endings, ICANN's Expired Registration Recovery Policy requires registrars to send at least two expiry reminders, roughly one month and one week before the date.<sup><a href=\"#ref-2\">2</a></sup> Those emails go to the registrant's address, which is one more reason to use your own.</p>\n      <ul>\n        <li>Turn on auto-renew and keep a valid payment method on file.</li>\n        <li>Put the expiry date in your phone calendar a month ahead.</li>\n        <li>Turn on two-step login for the registrar account and keep the transfer lock on.</li>\n        <li>If someone else set up your domain, move it to an account in your name now.</li>\n      </ul>"
+  },
+  {
+   "id": "dns-basics",
+   "h2": "DNS basics: A record, CNAME and TXT in plain words",
+   "toc": "DNS basics",
+   "html": "<p><strong>DNS is the internet's address book: it turns your domain into the location of your website, and you control it through a few records on your registrar's DNS page.</strong> To connect an academy you only need to understand three or four record types.</p>\n      {{fig:dns-records|How DNS records connect a coaching institute domain: a TXT record proves ownership, a CNAME or A record points the website to the academy, and an MX record routes email to the mail provider|Each record has one job. Names and values are illustrative; always copy the exact records your studio shows.}}\n      <ul>\n        <li><strong>A record</strong> points a name to a server's numeric IP address. It is often used for the bare domain, such as <em>youracademy.in</em> without www.</li>\n        <li><strong>CNAME record</strong> points a name to another name, such as the address of your academy platform. If the platform's servers change, your record keeps working.</li>\n        <li><strong>TXT record</strong> holds a short line of text. Platforms use it to check that you control the domain before they connect it.</li>\n        <li><strong>MX record</strong> tells the internet where email for your domain should go. It has nothing to do with your website, so leave it alone when you connect your academy.</li>\n      </ul>\n      <h3>Host, value and TTL</h3>\n      <p>Each record has a <em>host</em> (or name), a <em>value</em> (or target) and a <em>TTL</em>, the number of seconds other networks may cache it. The most common mistake is the host field: many registrars add your domain automatically, so typing <em>www.youracademy.in</em> as the host creates <em>www.youracademy.in.youracademy.in</em>. If the registrar shows your domain next to the box, type only <em>www</em> or <em>@</em>, exactly as your platform instructs.</p>\n      <h3>Why changes take time</h3>\n      <p>Networks that cached the old answer keep using it until their copy expires; this delay is called DNS propagation. A change is usually visible within a few hours, and DNS can take up to 24–48 hours to reach every network.</p>"
+  },
+  {
+   "id": "connect",
+   "h2": "How to connect your domain to your AllCoaching academy",
+   "toc": "Connect it to your academy",
+   "html": "<p><strong>In the AllCoaching studio, open Own branding ▸ Domain, choose \"Connect a domain\", type your domain, then copy the records the studio shows into your registrar's DNS page.</strong> The studio checks the records, marks the domain Connected and switches HTTPS on.</p>\n      {{fig:connect-in-studio|How to connect a domain to your academy in the AllCoaching studio: Own branding, Domain, Connect a domain, copy the DNS records to the registrar, then wait for Connected with HTTPS on|The Domain page in the studio. Studio preview · sample data.}}\n      <p>Connecting your own domain is free on every AllCoaching plan, whether you bought it from GoDaddy, Namecheap, Hostinger, BigRock or anywhere else. The studio shows exactly what to copy, typically a TXT record that proves the domain is yours and a record that points it at your academy. Your free <em>handle</em>.allcoaching.in address keeps working after you connect, so links you shared earlier do not break, and you never buy or renew a certificate yourself.</p>\n      <p>Type the domain without https:// at the start, open your registrar's DNS (or \"Manage DNS\") page in another tab, and copy and paste each host and value rather than retyping them.</p>\n      {{fig:after-you-save|What happens after you add DNS records for your coaching institute domain: records spread across networks, the domain is verified and HTTPS turns on, usually within a few hours|What happens after you save. Typical times, not a promise.}}\n      <p>The domain is one part of the academy. On AllCoaching the path is sign up, choose a plan, upload your course, connect your domain and start selling: the same studio runs your courses, tests, live classes, UPI checkout and your own Android app. Every plan starts with a 7-day free trial, no card needed. After that, monthly plans take 0% commission from ₹3,999 a month, or yearly plans start at ₹6,999 a year with a fee per sale; prices exclude GST. See the <a href=\"/pricing\">pricing page</a> for every plan.</p>\n      {{q:I added the records, but my domain still shows an error. What should I check?|First, give it a few hours; DNS can take up to 24–48 hours. Then check the host field for a doubled domain name, make sure there is no old A or CNAME record on the same host pointing somewhere else, and confirm you edited DNS at the company that actually controls it (if your domain uses another provider's nameservers, records must be added there). If it still does not connect, write to contact@allcoaching.in or WhatsApp +91 98899 77262 with your domain name.}}\n      {{cta}}"
+  },
+  {
+   "id": "email",
+   "h2": "Should you set up email on your domain?",
+   "toc": null,
+   "html": "<p><strong>Email on your domain, such as <em>admissions@youracademy.in</em>, is optional but looks more professional on receipts, posters and parent communication.</strong> You set it up with an email provider such as Google Workspace or Zoho Mail, separately from your academy.</p>\n      <p>The email provider gives you MX records (and usually a TXT record for sender verification) to add at your registrar. These sit alongside your website records without conflict, as long as you do not delete one set while adding the other. Compare the providers' own plan pages before you choose.</p>"
+  },
+  {
+   "id": "after-connect",
+   "h2": "After you connect: links, HTTPS and Google",
+   "toc": "After you connect",
+   "html": "<p><strong>Once your domain shows Connected, update every place students find you, and let Google discover the new address through links and your sitemap.</strong> The domain only helps if students actually see it.</p>\n      <ul>\n        <li>Change the link in your YouTube channel, video descriptions and pinned comments.</li>\n        <li>Update your Instagram bio, WhatsApp channel and group descriptions, and Telegram group.</li>\n        <li>Print the new address on posters and visiting cards.</li>\n      </ul>\n      <p>HTTPS matters for trust and for search. Google announced in 2014 that it uses HTTPS as a ranking signal, a \"very lightweight\" one at first.<sup><a href=\"#ref-5\">5</a></sup> More practically, browsers warn students away from pages without it. On AllCoaching it is switched on for your connected domain.</p>\n      <p>If you are moving an older website, such as a WordPress site, ask whoever runs it to redirect each old page permanently to its new address. Google's site-move guidance says that \"301 and other permanent redirects don't cause a loss in PageRank\".<sup><a href=\"#ref-4\">4</a></sup> Then follow our <a href=\"/blog/seo-for-online-academy-beginners-guide\">online academy SEO guide for beginners</a> to get the new pages found. If your students currently live in a WhatsApp group, our guide to <a href=\"/blog/whatsapp-group-to-online-academy\">turning a WhatsApp group into an online academy</a> shows how to move them across.</p>"
+  },
+  {
+   "id": "mistakes",
+   "h2": "Common domain mistakes coaching institutes make",
+   "toc": "Mistakes to avoid",
+   "html": "<p><strong>The costly domain mistakes are letting someone else own it, choosing a name with hyphens, numbers or a year, letting it expire, and breaking email or the website while editing DNS.</strong> Each has a simple fix.</p>\n      {{fig:domain-mistakes|Common domain name mistakes coaching institutes make, such as an agency owning the domain, hyphens and numbers, an exam year in the name, auto-renew off and deleted email records, and what to do instead|Five mistakes we see often, and the fix for each.}}\n      <ul>\n        <li><strong>An agency or relative owns the domain.</strong> Move it into a registrar account in your name.</li>\n        <li><strong>Hyphens and numbers.</strong> Each one has to be explained aloud; choose a cleaner name or ending.</li>\n        <li><strong>An exam year in the name.</strong> Put exams and years in course pages, not the domain.</li>\n        <li><strong>Auto-renew switched off.</strong> A lapsed domain takes your site and email down at once.</li>\n        <li><strong>Deleting records you do not recognise.</strong> MX and TXT records often run your email; leave them.</li>\n        <li><strong>Promoting an empty site.</strong> Build on the free address first, then connect the domain before you promote it.</li>\n      </ul>\n      <p>For the full launch sequence around the domain, from planning the first course to the first sale, see <a href=\"/blog/how-to-start-online-academy-in-5-steps\">how to start an online academy in 5 steps</a>, and for what an academy includes beyond its address, <a href=\"/blog/what-is-an-online-academy\">what an online academy is</a>.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to get a domain name for your coaching institute and connect it to your academy",
+  "description": "Seven steps for an Indian educator to choose, buy, protect and connect a domain name for a coaching institute's online academy.",
+  "total_time": "P2D",
+  "items": [
+   [
+    "Shortlist three to five names",
+    "Build names from your own name, your academy's name or your subject, then test each one: short, easy to say once, no hyphens or numbers, no exam year, free as a social handle, not someone else's trademark."
+   ],
+   [
+    "Check availability and pick the ending",
+    "Search your shortlist at a registrar. Choose .in for an academy teaching students in India or .com if you also teach abroad; use .co.in or .academy only when your first choice is taken."
+   ],
+   [
+    "Buy the domain in your own name",
+    "Register it at any registrar, such as GoDaddy, Namecheap, Hostinger or BigRock, with your own name, email and payment method. Skip hosting, website-builder and SSL add-ons."
+   ],
+   [
+    "Protect the registrar account",
+    "Turn on privacy protection, auto-renew and two-step login, keep the transfer lock on, and note the expiry date in your calendar."
+   ],
+   [
+    "Start the connection in your studio",
+    "In the AllCoaching studio, open Own branding, then Domain, choose Connect a domain and type the domain exactly as you bought it."
+   ],
+   [
+    "Add the DNS records at your registrar",
+    "Open the registrar's DNS page and paste each record the studio shows, usually a TXT record and a CNAME or A record. Leave existing email (MX) records untouched."
+   ],
+   [
+    "Wait for Connected, then share it",
+    "Verification and HTTPS usually complete within a few hours, and DNS can take up to 24–48 hours. Then update your YouTube, Instagram and WhatsApp links to the new address."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "What is a good domain name for a coaching institute?",
+   "A good domain name for a coaching institute is short, easy to say once, and has no hyphens, numbers or exam year in it. Your own name, your academy's name, or your subject plus a short word usually works best, for example a name like sharmabiology.in. Check that it is free as a social handle and is not someone else's trademark."
+  ],
+  [
+   "Should I choose .in or .com for my coaching institute?",
+   "Choose .in if you mainly teach students in India; it is short and clearly Indian. Choose .com if you also teach students abroad or your exact name is free there. Use .co.in or .academy only when your first choice is taken, and buy both .in and .com if you can to protect the brand."
+  ],
+  [
+   "How much does a domain name cost in India?",
+   "A typical .in or .com domain costs about ₹600 to ₹1,200 a year at most registrars. First-year offers are often lower than the renewal price, so check the renewal price before you buy. Newer endings such as .academy can cost more."
+  ],
+  [
+   "Where can I buy a domain name for my coaching institute?",
+   "You can buy it from any domain registrar, such as GoDaddy, Namecheap, Hostinger or BigRock. Register it in your own name with your own email and payment method, and turn on privacy protection and auto-renew at checkout."
+  ],
+  [
+   "Do I need to buy hosting or an SSL certificate with my domain?",
+   "Not if you use an academy platform. The platform hosts your website and handles HTTPS. On AllCoaching, HTTPS is switched on for your connected domain, so you only need to buy the domain itself."
+  ],
+  [
+   "How do I connect my domain to my AllCoaching academy?",
+   "Open the AllCoaching studio, go to Own branding, then Domain, choose Connect a domain and type your domain. Then add the records the studio shows, usually a TXT record and a CNAME or A record, on your registrar's DNS page. The studio verifies them and switches HTTPS on."
+  ],
+  [
+   "How long does it take for a new domain to start working?",
+   "Usually within a few hours of adding the DNS records. Because networks cache old DNS answers, it can take up to 24 to 48 hours to reach every network. Your free allcoaching.in address keeps working in the meantime."
+  ],
+  [
+   "Does connecting my own domain cost extra on AllCoaching?",
+   "No. Connecting your own domain is free on every AllCoaching plan. You pay only your registrar for the domain itself, typically about ₹600 to ₹1,200 a year for a .in or .com."
+  ],
+  [
+   "Can I keep my domain if I change platforms later?",
+   "Yes, if the domain is registered in your name. The domain belongs to the registrant, not to the platform it points at, so you can change its DNS records to point at any other website. This is why you should never let an agency or vendor register it for you."
+  ]
+ ],
+ "glossary": [
+  [
+   "domain-name",
+   "Domain name",
+   "Your academy's address on the internet, such as youracademy.in, rented yearly from a registrar and pointed at your website."
+  ],
+  [
+   "registrar",
+   "Registrar",
+   "A company accredited to sell and manage domain names, such as GoDaddy, Namecheap, Hostinger or BigRock. You buy, renew and edit DNS for your domain there."
+  ],
+  [
+   "tld",
+   "TLD (top-level domain)",
+   "The ending of a domain name, such as .in, .com or .academy. Country-code endings like .in are run by a national registry."
+  ],
+  [
+   "dns",
+   "DNS",
+   "The Domain Name System, the internet's address book that turns a domain name into the location of the server that answers for it."
+  ],
+  [
+   "a-record",
+   "A record",
+   "A DNS record that points a domain or subdomain to a server's numeric IP address."
+  ],
+  [
+   "cname-record",
+   "CNAME record",
+   "A DNS record that points a domain or subdomain to another domain name, such as your academy platform's address."
+  ],
+  [
+   "txt-record",
+   "TXT record",
+   "A DNS record holding a line of text, used by platforms and email providers to verify that you control the domain."
+  ],
+  [
+   "https",
+   "SSL / HTTPS",
+   "The encryption that puts a padlock in the browser's address bar. It needs a certificate, which an academy platform can issue and renew for your connected domain."
+  ],
+  [
+   "dns-propagation",
+   "DNS propagation",
+   "The delay between saving a DNS change and every network seeing it, caused by caching. Usually a few hours; it can take up to 24–48 hours."
+  ],
+  [
+   "whois",
+   "WHOIS",
+   "The public registration data for a domain, such as who holds it and when it expires. Privacy protection hides personal contact details from it."
+  ]
+ ],
+ "references": [
+  "ICANN, \"Registering Domain Names\", <a href=\"https://www.icann.org/resources/pages/register-domain-name-2017-06-20-en\" target=\"_blank\" rel=\"noopener nofollow\">icann.org</a>, checked October 2026.",
+  "ICANN, \"Expired Registration Recovery Policy\", <a href=\"https://www.icann.org/resources/pages/errp-2013-02-28-en\" target=\"_blank\" rel=\"noopener nofollow\">icann.org</a>, section 2.1.1, checked October 2026.",
+  ".IN Registry (National Internet Exchange of India), <a href=\"https://www.registry.in/\" target=\"_blank\" rel=\"noopener nofollow\">registry.in</a>, checked October 2026.",
+  "Google Search Central, \"Site moves and migrations\", <a href=\"https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes\" target=\"_blank\" rel=\"noopener nofollow\">developers.google.com</a>, checked October 2026.",
+  "Google Search Central Blog, \"HTTPS as a ranking signal\", 6 August 2014, <a href=\"https://developers.google.com/search/blog/2014/08/https-as-ranking-signal\" target=\"_blank\" rel=\"noopener nofollow\">developers.google.com</a>, checked October 2026."
+ ],
+ "citations": [
+  "https://www.icann.org/resources/pages/register-domain-name-2017-06-20-en",
+  "https://www.icann.org/resources/pages/errp-2013-02-28-en",
+  "https://www.registry.in/",
+  "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+  "https://developers.google.com/search/blog/2014/08/https-as-ranking-signal"
+ ],
+ "about": [
+  {
+   "name": "Domain name",
+   "sameAs": "https://en.wikipedia.org/wiki/Domain_name"
+  },
+  {
+   "name": "Domain Name System",
+   "sameAs": "https://en.wikipedia.org/wiki/Domain_Name_System"
+  },
+  {
+   "name": ".in",
+   "sameAs": "https://en.wikipedia.org/wiki/.in"
+  },
+  {
+   "name": "Domain name registrar",
+   "sameAs": "https://en.wikipedia.org/wiki/Domain_name_registrar"
+  },
+  {
+   "name": "Online academy"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "ICANN",
+   "url": "https://www.icann.org"
+  },
+  {
+   "name": "National Internet Exchange of India",
+   "url": "https://www.nixi.in"
+  },
+  {
+   "name": "Google Search Central",
+   "url": "https://developers.google.com/search"
+  },
+  {
+   "name": "GoDaddy",
+   "url": "https://www.godaddy.com"
+  },
+  {
+   "name": "Namecheap",
+   "url": "https://www.namecheap.com"
+  },
+  {
+   "name": "Hostinger",
+   "url": "https://www.hostinger.com"
+  },
+  {
+   "name": "BigRock",
+   "url": "https://www.bigrock.in"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/lms-with-custom-domain-for-coaching-india",
+  "/blog/how-to-start-online-academy-in-5-steps",
+  "/blog/personal-brand-for-educators-india",
+  "/blog/seo-for-online-academy-beginners-guide"
+ ]
+}

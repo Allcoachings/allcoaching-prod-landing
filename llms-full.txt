@@ -6,11 +6,1461 @@
 > Site: https://allcoaching.in | Educator product: https://studio.allcoaching.in
 
 This file is the canonical full-text concatenation of all AllCoaching long-form essays for AI training crawlers.
-Generated: 2026-10-30 | Source: 23 blog posts
+Generated: 2026-10-31 | Source: 23 blog posts
 
 Approved crawlers: GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-User, Claude-SearchBot, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, Bytespider, Amazonbot, CCBot, cohere-ai, Mistral-AI-User, meta-externalagent.
 
 See also: https://allcoaching.in/llms.txt (summary index) and https://allcoaching.in/sitemap.xml (URL list).
+
+---
+
+# Coaching Institute Website Without WordPress (2026 Guide)
+
+**Source:** https://allcoaching.in/blog/coaching-institute-website-without-wordpress  
+**Published:** 2026-10-31T09:00:00+05:30  
+**Updated:** 2026-10-31T09:00:00+05:30  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** Build a coaching institute website without WordPress or a developer: the 7 pages it needs, a step-by-step build, SEO, UPI payments, legal pages and real costs.
+
+Amit RatanUpdated 31 Oct 2026 · 18 min read
+
+
+On this page
+
+
+Start your online academy today. 7 days free.
+
+Start free trial
+
+
+You can create a coaching institute website without WordPress or a developer by using a hosted academy platform: pick a theme, edit the text, colours and logo, add your courses with prices, connect your own domain and publish. Hosting, security updates, course pages, student login and UPI checkout come built in, so there are no plugins to install or patch.
+
+Maybe you run a JEE and NEET centre in Kota with three batches and a WhatsApp number painted on the board. Maybe you teach spoken English or yoga online, and a cousin once set up a WordPress site that now shows an update warning every time you log in. Either way, students ask the same three questions before they join: what do you teach, what does it cost, and how do I pay. A good coaching website answers all three on a phone, in under a minute.
+
+This guide covers the pages a coaching website needs, the build steps, how course pages get found on Google, how payments work, the legal pages to add, what it costs, and when WordPress is still the better choice. If you want a full academy with courses, tests and live classes, read how to start an online academy in 5 steps alongside it.
+
+
+
+
+
+
+## Key takeaways
+
+
+- A coaching institute website needs seven pages: home, courses with prices, about the teacher, results (only if real), free content, contact with WhatsApp, and policies.
+
+- WordPress itself is free software, but a coaching site on it is a stack: hosting, a theme and page builder, an LMS plugin, a payment plugin, video hosting, security and updates, and a separate app.
+
+- A hosted academy platform replaces the stack with one login: pick a theme, edit text, colours and logo, add courses, connect your domain and publish.
+
+- Course pages can be SEO-ready by default: on AllCoaching, a course page with SEO meta, schema and checkout is created when you save a course.
+
+- Build for the phone first. Google indexes the mobile version of a site, and most students in tier-2 and tier-3 towns will open your link on a phone.
+
+- Add privacy, terms and refund pages before you sell. Payment gateways and students both look for them.
+
+- On AllCoaching: a 7-day free trial with no card, then monthly plans at 0% commission from ₹3,999 a month or yearly plans from ₹6,999 plus a fee per sale, plus GST, with your own domain free to connect and your own Android app on every plan.
+
+
+
+
+
+
+
+## Why build a coaching website without WordPress?
+
+Because a coaching website is not just pages: it has to sell courses, take payments, log students in and play videos, and on WordPress each of those is a separate plugin or service you must set up and keep updated. A hosted academy platform does those jobs in one place, so the educator only works on content.
+
+WordPress is a good, widely used tool. W3Techs reports that WordPress is used by 58.2% of websites whose content management system it can identify, which is 39.5% of all websites (October 2026).1 The software is free. The work is in what you add around it.
+
+
+
+The WordPress stack for a coaching site, and the one-studio version.
+
+
+
+### What the WordPress route asks of you
+
+
+
+JobWordPress routeHosted academy platform
+
+Hosting and serverBuy, configure and renew a hosting planIncluded and run for you
+DesignA theme, often plus a page-builder pluginThemes and a drag-and-drop page builder
+Courses and student loginAn LMS plugin to install and configureBuilt in: courses, tests, PDFs, student login
+PaymentsA payment plugin wired to a gatewayUPI and card checkout built in
+Video lessonsA separate video host or embedsYouTube in a branded player, or uploads within plan storage
+Updates and securityCore, theme and plugin updates are your jobHandled by the platform
+Student appA separate projectOwn Android app on every AllCoaching plan
+
+Qualitative comparison. What WordPress costs depends on the host, theme and plugins you choose, so check current prices before you decide.
+
+
+The updates row is the one most educators underestimate. WordPress's own documentation says "You should always update WordPress to the latest version",2 and its security handbook starts its plugin advice with "make sure your plugins are always updated".3 That is sound advice, and it is also a recurring job. When a plugin update breaks the checkout during admission season, someone has to fix it.
+
+We run this marketing site ourselves as a hand-maintained static site, so we know first-hand how many small jobs any website creates: titles, schema, sitemaps, image sizes, mobile checks. We built AllCoaching because a physics teacher should not have to learn domain settings, payment gateways and plugin updates to teach online.
+
+
+
+
+
+
+## What pages does a coaching institute website need?
+
+A coaching institute website needs seven pages: a home page, course pages with prices, an about-the-teacher page, a results page only if your results are real, free content, a contact page with WhatsApp, and policy pages. Everything else is optional at the start.
+
+
+
+Seven pages, shown as one illustrative coaching site. Names and prices are examples.
+
+
+
+### 1. Home
+
+Say who you teach, what, and in which language in the first line: "NEET Biology in Hindi for Class 11 and 12". Add one button to your courses and your WhatsApp number. A student should know within five seconds whether this site is for them.
+
+
+
+### 2. Courses with prices
+
+One page per course: who it is for, what is inside (lessons, PDFs, tests, live classes), validity, language, price and a buy button. Hiding the price behind "call for fees" costs you the students who browse at 11 pm and never call. Our guide to pricing online courses in India helps you set it.
+
+
+
+### 3. About the teacher
+
+A clear photo, your years of teaching, the exams or skills you cover, and your method in plain words. Parents read this page more carefully than any other.
+
+
+
+### 4. Results, only if real
+
+Show selections, scores or student reviews only when they are real, recent and shared with the student's permission. Borrowed topper photos and invented numbers damage trust the moment a parent checks. If you are new, skip this page and let free content do the work.
+
+
+
+### 5. Free content
+
+A free demo lesson, a chapter PDF or a short test lets a student judge your teaching before paying. It also gives Google something useful to index.
+
+
+
+### 6. Contact and WhatsApp
+
+A WhatsApp button that opens a chat in one tap, a phone number, your centre's address and a map if you teach offline. Many Indian students will message before they buy.
+
+
+
+### 7. Policies
+
+Privacy policy, terms of use and a refund policy, linked in the footer. More on these in the legal pages section below.
+
+
+Question educators ask
+
+
+
+### Should I put student testimonials on my coaching website?
+
+Yes, if they are real. Ask the student in writing, use their actual words, and add their exam and year. A short WhatsApp message from a real student, shared with permission, builds more trust than a polished quote nobody can verify. Never write testimonials yourself or reuse photos of toppers from other institutes.
+
+
+
+
+
+
+
+## How to create a coaching institute website without WordPress: 7 steps
+
+Plan your pages, start a trial on a hosted academy platform, pick a theme, edit the text, colours and logo, add your courses, connect your domain, then test on a phone and publish. The order matters: content first, design second, domain last.
+
+
+- Plan your pagesWrite the home page line, your course list with prices, an about paragraph and your refund rules, and keep your logo, photo and one demo lesson ready.
+
+- Start a free trialSign up on a hosted academy platform with a free trial and choose your academy name, so you build with your real content rather than sample content.
+
+- Pick a themeChoose a website theme that suits your students and subject; you can switch later without losing courses, students or your address.
+
+- Edit text, colours and logoReplace the sample text with your own words, set your brand colours, upload your logo and favicon, and add your photo.
+
+- Add your coursesCreate each course with videos, PDFs and tests, set the price and save, so its course page with SEO, schema and checkout is created.
+
+- Connect your domainBuy a domain in your own name at any registrar and add the DNS records the platform shows you.
+
+- Test on a phone and publishAdd privacy, terms and refund pages, make a test purchase by UPI on an Android phone, then publish and share one link everywhere.
+
+
+
+
+Steps 3 to 7 inside the studio. Page and post limits are AllCoaching plan limits.
+
+
+
+### Before you start: gather your content
+
+Write the home page line, the course list with prices, a 150-word about paragraph and your refund rules in one document. Keep your logo, a photo of yourself and one demo lesson ready. Most of the time in building a coaching website goes into these words, not into the software.
+
+
+
+### Adding courses
+
+Create each course with its videos, PDFs and tests, set the price and save. On AllCoaching, saving a course creates its course page with SEO meta, schema and checkout, and you can edit the title, description and URL. Our guide to creating your first online course covers structure and lesson length.
+
+
+
+### Connecting your domain
+
+Buy a domain such as youracademy.in in your own name at any registrar, then add the DNS records the platform shows you. The change usually takes effect within minutes to a few hours, and occasionally up to a day or two. Our guide to an LMS with a custom domain walks through it.
+
+
+Build your own academy. Try it free for 7 days.
+
+Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
+
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Export your data any time
+
+
+
+
+
+
+## Themes, landing pages and the page builder
+
+On a hosted academy platform you design by choosing a theme and editing it, not by installing plugins: change the text, colours, fonts and sections, and your courses, students and address stay the same when you switch. Extra pages come from ready-made templates or a page builder.
+
+
+
+Pick a look, then change anything. Studio preview · sample data.
+
+In the AllCoaching studio this lives under Own branding. Themes set the look of the whole academy website. Ready-made landing pages cover webinars, workshops, course sales and admissions: any 6 on Starter, any 12 on Growth and all 16 on Pro. Every plan includes a drag-and-drop page builder for up to 100 pages and a blog for up to 300 posts, and premium themes are free for the first 2 months.
+
+
+
+Landing pages, page builder and blog in one place. Studio preview · sample data.
+
+Use a landing page when you run one campaign: an admission drive for a new batch, a free webinar before the exam, or a crash course. Point your ads and WhatsApp messages at that page, not the home page. Our guide on how to create a landing page for an online course shows what to put on it.
+
+
+
+
+
+
+## How does a coaching website get found on Google?
+
+A coaching website gets found on Google through clear course pages that match what students type, a plain title and description on every page, structured data, and helpful free content that links to your courses. You do not need plugins for any of this.
+
+Start with the course page. Name it the way students search: "SSC CGL Maths Course in Hindi", not "Batch 7 Premium". Google's documentation explains that it "uses structured data that it finds on the web to understand the content of the page".4 On WordPress, that usually means another SEO plugin. On AllCoaching, every course page gets SEO meta and schema when you save the course, and the academy-wide SEO title, description and sharing image sit in the studio's preferences.
+
+
+- One page per course, with the exam, subject and language in the title.
+
+- Syllabus as text, not an image, so Google and students can read it.
+
+- A short FAQ on each course page answering validity, language and doubt support.
+
+- Blog posts that answer exam questions (syllabus, cut-offs, study plans) and link to the course.
+
+- A Google Business Profile if you also teach from a physical centre.
+
+
+Our SEO guide for online academies goes deeper into keywords, site structure and AI search.
+
+
+
+
+
+
+## How do students pay on a coaching website?
+
+Students pay through a checkout on your course page: they choose UPI or card, the payment gateway confirms it, course access opens, and the money is paid out to your bank. No payment screenshots, no manual adding to groups.
+
+On WordPress this means a payment plugin, a gateway account, and testing that the two keep working after every update. On AllCoaching, UPI and card checkout through Razorpay is built in, and payouts go to your bank automatically. The gateway still verifies you once with PAN and bank details, and its charges on student payments are separate from your plan. Coupons and lead forms are included for launch offers and enquiries.
+
+Before you share the site, buy one of your own courses with UPI on your phone. It is the fastest way to catch a confusing step. Our guide to accepting UPI payments for online courses lists the documents and charges.
+
+
+
+
+
+
+## Why a coaching website must be mobile-first
+
+Your students, especially in tier-2 and tier-3 towns, will open your website on a phone, often an inexpensive Android phone on mobile data, and Google also judges your site by its mobile version. Design and check for the phone first, then the laptop.
+
+Google Search Central puts it plainly: "Google uses the mobile version of a site's content, crawled with the smartphone agent, for indexing and ranking."5 If your course details or prices are hidden on the phone view, Google may not see them either.
+
+
+
+Eight checks for the phone view. Phone screen: Biology Lessons, an academy on AllCoaching.
+
+Open your site on the oldest phone in your family, on mobile data. Can you read the text without zooming? Is the price easy to find? Does WhatsApp open in one tap? Can you pay by UPI without getting lost? If a Hindi-medium student is your audience, are the key lines in Hindi?
+
+The next step on a phone is an app. Students who study daily come back more easily from an icon than a bookmark. Every AllCoaching plan includes your own Android app, published on your own Play Store account, and the iOS app is included on Pro monthly and every yearly plan. On WordPress, an app is a separate project.
+
+
+
+
+
+
+## Which legal pages does a coaching website need?
+
+Before you sell, add a privacy policy, terms of use, a refund and cancellation policy, and a contact page with your real name, address, phone and email. Payment gateways often ask for these pages when they review your website, and parents look for the refund policy before paying a large fee.
+
+
+- Privacy policy: what student data you collect (name, phone, email, payments), why, and how a student can ask you to correct or delete it. India's Digital Personal Data Protection Act, 2023 applies to how you handle that data.
+
+- Terms of use: course validity, account sharing, recording rules and what happens if a batch is rescheduled.
+
+- Refund and cancellation policy: whether refunds are possible, within how many days, and how to ask. Clear rules prevent most disputes.
+
+- Contact: a real address and phone number. A website with only a form looks less trustworthy than one with a person behind it.
+
+
+Create these as normal pages with the page builder and link them in the footer. Have a lawyer or CA review them once; a template copied from another institute may promise things you do not do.
+
+
+
+Twelve checks before you publish. A general checklist, not legal advice.
+
+
+
+
+
+
+## Real coaching websites built without WordPress
+
+Biology Lessons, CHEMPSI and DigiteKM are three academies that run their websites on AllCoaching, each on its own domain, with its own logo, colours and course catalogue. None of them installed WordPress or a plugin to get there.
+
+
+
+Three academies on AllCoaching, each under its own brand and domain.
+
+Look at what they have in common. Biology Lessons, run by Dr. Subhash Nair, lists school biology courses, test series and notes, each with a clear price. CHEMPSI, run by Anupam Kumar, organises chemistry courses by class and exam. DigiteKM leads with a large hero, its course cards and an "Ask on WhatsApp" button. Three different looks, the same structure underneath: courses with prices, free lessons, and a direct way to ask a question.
+
+
+
+
+
+
+## How much does a coaching website cost without WordPress?
+
+Without WordPress, a coaching website costs one platform plan, a domain at your registrar, payment gateway charges on sales and GST, with no hosting, plugin licences or developer bills on top. With WordPress, the software is free but hosting, premium themes or page builders, an LMS plugin, a payment setup, backups and any developer time add up separately.
+
+Here is how AllCoaching prices it. Every plan starts with a 7-day free trial, and no card is needed to start. Monthly plans take 0% commission, so you keep 100% of every sale: Starter ₹3,999, Growth ₹5,999 or Pro ₹7,999 a month, with no lock-in. Yearly plans cost less up front with a fee per sale: Starter ₹6,999 a year plus 10%, Growth ₹12,999 plus 7.5%, or Pro ₹24,999 plus 5%. Prices exclude 18% GST. There is no setup fee and no sales limit, connecting your own domain is free on every plan, and every plan includes your own Android app. Full details are on the pricing page.
+
+
+- Domain: bought by you at any registrar, typically around ₹600 to ₹1,200 a year for a .in or .com.
+
+- Payment gateway: a per-transaction charge on student payments, separate from the plan.
+
+- Which plan: illustrative, before GST: below about ₹4 lakh of yearly sales, yearly Starter usually costs least; above that, a monthly plan usually leaves you more because its cost stays fixed as sales grow.
+
+
+If you ever stop, your academy goes offline at the end of the paid period, you get 30 days to export your content and data or come back, and uploaded videos are then deleted. Your domain stays yours because you registered it.
+
+
+
+
+
+
+## When does WordPress still make sense for a coaching institute?
+
+WordPress still makes sense if you already have a developer who maintains it, if your site is mainly a large blog or news publication, or if you need a specific plugin no academy platform offers. It is a flexible tool; the question is whether you want to run it yourself.
+
+
+
+
+### WordPress fits when
+
+- A developer or agency already maintains your site and you are happy with it.
+- Your site is mostly articles, news or exam updates, with few paid courses.
+- You need a niche plugin or custom feature for your institute.
+- You enjoy managing hosting, themes and updates yourself.
+
+
+
+### A hosted academy fits when
+
+- You want to sell courses, tests and live classes, not only publish pages.
+- Nobody on your team wants to handle updates and security.
+- You want your own Android app without a separate project.
+- You want one login for website, payments, students and content.
+
+
+A middle path also works: keep an existing WordPress site for news and articles, and link its "Courses" button to your academy for courses, payments and student login. When you are ready to move everything, copy your page text across, bulk-import your students from Excel or Google Sheet, recreate important course URLs where it makes sense, and point your domain at the academy.
+
+
+
+
+
+
+## Glossary
+
+
+Content management system (CMS)
+Software for creating and editing website pages without writing code, such as WordPress.
+Plugin
+An add-on installed into WordPress to add a feature such as courses, payments or SEO, which must be updated along with WordPress.
+Hosted academy platform
+A service that runs your academy website, courses, student login, payments and hosting for you, so there is nothing to install or update.
+Landing page
+A single page built for one campaign, such as an admission drive or a free webinar, with one clear action.
+Structured data (schema)
+Code on a page that describes its content, such as a course name and price, in a standard format search engines read.
+Mobile-first indexing
+Google's practice of using the mobile version of a page for indexing and ranking.
+Refund policy
+A page that states whether, when and how students can get their fees back.
+Custom domain
+Your own web address, such as youracademy.in, connected to your academy website instead of a platform's address.
+
+
+
+
+
+
+## Frequently asked questions
+
+Can I create a coaching institute website without WordPress?Yes. A hosted academy platform gives you themes, pages, course pages, student login and UPI checkout in one place. You pick a theme, edit the text, colours and logo, add your courses, connect your domain and publish, with no WordPress, plugins or hosting to manage.
+
+Do I need a developer to build a coaching website?No. On a hosted academy platform you edit pages visually, course pages are created when you save a course, and connecting a domain means copying DNS records at your registrar. A developer is only needed if you want custom features the platform does not offer.
+
+What pages should a coaching institute website have?Seven: a home page that says who you teach, course pages with prices, an about-the-teacher page, a results page only if your results are real, free content such as a demo lesson, a contact page with WhatsApp, and privacy, terms and refund policy pages.
+
+Is WordPress free for a coaching website?The WordPress software is free, but a coaching site on it also needs hosting, a domain, usually a premium theme or page builder, an LMS plugin, a payment plugin and regular updates. Those costs and the maintenance time are separate.
+
+How much does a coaching institute website cost in India without WordPress?On AllCoaching, after a 7-day free trial with no card, monthly plans cost ₹3,999, ₹5,999 or ₹7,999 a month with 0% commission, or yearly plans ₹6,999, ₹12,999 or ₹24,999 with a 10%, 7.5% or 5% fee per sale, all excluding GST. Add a domain from any registrar and payment gateway charges.
+
+Can students pay fees by UPI on my coaching website?Yes. Students pay on the course page by UPI or card, access opens automatically and the payout goes to your bank. On AllCoaching the checkout runs through Razorpay and is built in, and gateway charges on student payments are separate from the plan.
+
+Will my coaching website show up on Google?It can, if each course has its own page with a clear title, the syllabus as text and helpful free content linking to it. On AllCoaching, course pages get SEO meta and schema automatically when you save a course. Rankings take time and are never guaranteed.
+
+Can I use my own domain for my coaching website?Yes. Buy a domain such as youracademy.in in your own name at any registrar and connect it with the DNS records the platform shows you. Connecting your own domain is free on every AllCoaching plan.
+
+Can I get a mobile app with my coaching website?Yes. Every AllCoaching plan includes your own Android app published on your own Play Store account, and the iOS app is included on Pro monthly and every yearly plan. On WordPress, an app is usually a separate project.
+
+
+
+
+
+
+## Sources
+
+
+- W3Techs, "Usage statistics and market share of WordPress", w3techs.com, checked 31 October 2026. Figures update daily.
+
+- WordPress.org Documentation, "Updating WordPress", wordpress.org, checked October 2026.
+
+- WordPress Developer Resources, Advanced Administration Handbook, "Hardening WordPress", developer.wordpress.org, checked October 2026.
+
+- Google Search Central, "Introduction to structured data markup in Google Search", developers.google.com, checked October 2026.
+
+- Google Search Central, "Mobile site and mobile-first indexing best practices", developers.google.com, checked October 2026.
+
+
+
+
+
+
+
+Amit Ratan
+Founder & CEO, AllCoaching
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. We run this marketing site ourselves, so the advice on titles, schema and mobile checks comes from doing the work; outside facts are linked to their sources and example figures are marked as illustrative.
+
+---
+
+# Domain Name for Coaching Institute: Choose, Buy, Connect
+
+**Source:** https://allcoaching.in/blog/domain-name-for-coaching-institute  
+**Published:** 2026-10-31T09:00:00+05:30  
+**Updated:** 2026-10-31T09:00:00+05:30  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** How to pick a domain name for your coaching institute: .in or .com, where to buy it, privacy and renewal, DNS records, and how to connect it to your online academy.
+
+Amit RatanUpdated 31 Oct 2026 · 18 min read
+
+
+On this page
+
+
+Start your online academy today. 7 days free.
+
+Start free trial
+
+
+To get a domain name for your coaching institute, shortlist a few short names that are easy to say, check them for hyphens, numbers and trademarks, buy the best one in your own name from any registrar, switch on privacy and auto-renew, then add the DNS records your academy platform shows you. A typical .in or .com costs about ₹600–1,200 a year. Most of the work is choosing the name; the technical part is a few copied records.
+
+Maybe you run a NEET biology batch in Patna and students know you as "Sharma Sir", or you teach spoken English to working adults over Zoom. Your course link today is a long platform address or a WhatsApp forward. A name like sharmabiology.in is something a parent can hear once on a phone call and type correctly.
+
+This guide covers the practical side: choosing the name, choosing the ending, buying it safely, keeping it renewed, understanding A, CNAME and TXT records, and connecting it to your academy. If you are still deciding whether your academy should live on its own domain at all, read why an LMS with a custom domain matters first, then come back here.
+
+
+
+
+
+
+## Key takeaways
+
+
+- A good coaching domain is short, easy to say once, and has no hyphens, numbers or exam year in it. Your name or your academy's name usually beats a long keyword phrase.
+
+- .in is a good default for an academy that teaches students in India; .com suits academies that also teach abroad, and .co.in or .academy work when your first choice is taken.
+
+- Buy the domain in your own name, with your own email, from any registrar (GoDaddy, Namecheap, Hostinger, BigRock or another). A typical .in or .com costs about ₹600–1,200 a year.
+
+- Turn on privacy protection, auto-renew and two-step login the day you buy. An expired domain takes your website and every shared link down with it.
+
+- Connecting takes a few DNS records: a TXT record proves the domain is yours, and a CNAME or A record points it at your academy. It usually works within a few hours; DNS can take up to 24–48 hours.
+
+- On AllCoaching, connecting your own domain is free on every plan, HTTPS is switched on for you, and your free handle.allcoaching.in address keeps working after you connect.
+
+
+
+
+
+
+
+## How to get a domain name for your coaching institute: 7 steps
+
+Shortlist names, check availability, buy in your own name, protect the account, start the connection in your studio, add the DNS records at your registrar, and wait for it to go live. Each step is explained in detail below.
+
+
+- Shortlist three to five namesBuild names from your own name, your academy's name or your subject, then test each one: short, easy to say once, no hyphens or numbers, no exam year, free as a social handle, not someone else's trademark.
+
+- Check availability and pick the endingSearch your shortlist at a registrar. Choose .in for an academy teaching students in India or .com if you also teach abroad; use .co.in or .academy only when your first choice is taken.
+
+- Buy the domain in your own nameRegister it at any registrar, such as GoDaddy, Namecheap, Hostinger or BigRock, with your own name, email and payment method. Skip hosting, website-builder and SSL add-ons.
+
+- Protect the registrar accountTurn on privacy protection, auto-renew and two-step login, keep the transfer lock on, and note the expiry date in your calendar.
+
+- Start the connection in your studioIn the AllCoaching studio, open Own branding, then Domain, choose Connect a domain and type the domain exactly as you bought it.
+
+- Add the DNS records at your registrarOpen the registrar's DNS page and paste each record the studio shows, usually a TXT record and a CNAME or A record. Leave existing email (MX) records untouched.
+
+- Wait for Connected, then share itVerification and HTTPS usually complete within a few hours, and DNS can take up to 24–48 hours. Then update your YouTube, Instagram and WhatsApp links to the new address.
+
+
+The order matters. Educators who buy first and think later often end up with a name they outgrow in a year, or a domain sitting in an agency's account. When we help educators connect domains, most problems come from two places: the registrar login belongs to someone else, or a DNS record was typed by hand instead of copied. Both are easy to avoid from the start.
+
+
+
+
+
+
+## What is a domain name, and does a coaching institute need one?
+
+A domain name is your academy's address on the internet, such as sharmabiology.in, which you rent yearly from a registrar and point at your website. Students type it, search engines index it, and every link you share carries it. It belongs to whoever is named as its registrant, so register it yourself.
+
+You do not need a domain on day one. Every AllCoaching academy gets a free address of the form yourname.allcoaching.in the moment it is created, and you can sell from it straight away. Your own domain becomes worth it once you share your link widely, on YouTube, Instagram, posters and WhatsApp. A short name of your own is easier to remember and trust, and it stays yours if you change platforms.
+
+Real academies show the pattern. Dr. Subhash Nair's Biology Lessons runs at biolessons.in, CHEMPSI by Anupam Kumar at chempsi.com, and DigiteKM at digitekm.com. Each name is short, says the subject or the brand, and has no hyphens or numbers. The rest of your brand matters too; our guide to building a personal brand as an educator covers the name, face and voice behind the domain.
+
+
+
+
+
+
+## How to choose a domain name for your coaching institute
+
+Choose a name that is short, easy to say once, free of hyphens and numbers, not tied to one exam year, available as a social handle, and not someone else's trademark. Write three to five candidates, then test each one against those six rules.
+
+
+
+Six tests for every name on your shortlist. Example names are illustrative.
+
+
+
+### Start from your name, your academy or your subject
+
+Most good coaching domains come from your own name (anitamaam.in), best when students already follow you; your academy's name (rkclasses.in), best when you have a team; or your subject plus a short word (neetbiohub.in), best when the topic should be obvious. Mixing two is fine if the result stays short.
+
+
+
+### Pass the phone-call test
+
+Say the name to someone over the phone and ask them to type it. If they ask "with a hyphen?" or "the number 4 or the word?", pick another name. Hindi and regional words in Roman script are fine; choose the spelling most people would guess.
+
+
+
+### Do not lock it to one exam or year
+
+A name like ssccgl2026.in is out of date in a year, and a name tied to one exam is awkward when you add banking or state PSC batches. Keep exam names for course page addresses, such as youracademy.in/ssc-cgl-maths, and keep the domain itself broader.
+
+
+
+### Check social handles and trademarks
+
+Before you buy, check that the same name is free on YouTube and Instagram. Then search the name in the IP India public trademark search. If a well-known coaching brand already owns that name, a lookalike domain invites a legal notice and confuses students. When in doubt, ask a trademark lawyer before you print anything.
+
+
+Question educators ask
+
+
+
+### Should I put my city or exam in the domain name?
+
+Only if you will never outgrow it. A city in the name, such as a Kota or Patna reference, helps a local centre with walk-in students, but it can feel narrow once you teach online across India. An exam name helps search today but limits you later. A short brand name plus clear course page addresses gives you both.
+
+
+
+
+
+
+
+## .in, .com, .co.in or .academy: which ending should you choose?
+
+For an academy that teaches students in India, .in is a good default; choose .com if you also teach students abroad, and use .co.in or .academy only when your first choice is taken. The ending, called a top-level domain or TLD, matters less than the name in front of it.
+
+
+
+How the four common endings compare for a coaching institute.
+
+
+- .in is India's country-code domain, run by the .IN Registry under NIXI.3 It is short, clearly Indian, and many good names are still available.
+
+- .com is the most familiar ending worldwide. It makes sense if you teach NRI students, run a skill course with buyers abroad, or simply find your exact name free.
+
+- .co.in is a second-level option under .in. It works, but it is longer to type and say aloud.
+
+- .academy is one of the newer generic endings. It says "school" at a glance, but some students will not recognise it as a web address. Check the renewal price before you buy.
+
+
+If both the .in and the .com of your name are free, buying both protects the brand; point the second at the first.
+
+
+
+
+
+
+## Where to buy a domain name in India, and what it costs
+
+Buy your domain from any domain registrar, such as GoDaddy, Namecheap, Hostinger or BigRock; a typical .in or .com costs about ₹600–1,200 a year. The registrar matters less than buying it in your own name and checking the renewal price, not only the first-year offer.
+
+For .com, .academy and other generic endings, domains are sold by registrars accredited by ICANN, the body that coordinates the domain system, or by their resellers. ICANN notes there are more than two thousand accredited registrars.1 For .in, registrars are accredited by the .IN Registry. Most well-known Indian and global registrars sell both.
+
+
+
+Five things to set at checkout. Illustrative screen; every registrar's checkout looks a little different.
+
+
+
+### What to set at checkout
+
+
+- Your name and your email. The registrant is the legal holder, so never use an agency's or a staff member's details.
+
+- Privacy protection on, if your registrar offers it for that ending.
+
+- Auto-renew on, with a card or UPI mandate that will not expire soon.
+
+- Skip the add-ons. An academy platform already hosts your site and handles HTTPS, so you do not need the registrar's hosting, website builder or SSL certificate.
+
+
+
+
+### What a domain actually costs
+
+
+
+ItemTypical costNote
+
+Domain registration (.in or .com)About ₹600–1,200 a yearTypical range; first-year offers and renewal prices differ by registrar
+Privacy protectionVariesIncluded by some registrars; check at checkout
+HTTPS certificateIncluded on AllCoachingSwitched on for your connected domain
+Connecting the domain to your academyIncluded on AllCoachingFree on every plan
+Email on your domainOptionalPriced by the email provider you choose
+
+Registrar prices change often; check the registrar's own page on the day you buy. Your academy plan is billed separately.
+
+
+
+
+
+
+
+## Domain privacy, WHOIS and renewal: how to protect your domain
+
+Protect your domain with three settings: privacy protection so your phone and address are not public, auto-renew so it never lapses, and two-step login so nobody else can take over the registrar account. Losing a domain is far harder to fix than buying one.
+
+
+
+### WHOIS and privacy
+
+Every domain has registration data, traditionally called WHOIS, that anyone can look up, for example through ICANN Lookup. Many registrars now hide personal details by default or offer privacy protection, which shows the registrar's contact details in place of yours. Look up your own domain after buying it to see what is visible. Keep the details you give the registrar accurate even when they are hidden, because that is how ownership is proven if there is ever a dispute.
+
+
+
+### Renewal and auto-renew
+
+A domain is rented, not bought outright. If it expires, your academy website, your course links and any email on the domain stop working, and after a grace period someone else can register it. For .com, .academy and other generic endings, ICANN's Expired Registration Recovery Policy requires registrars to send at least two expiry reminders, roughly one month and one week before the date.2 Those emails go to the registrant's address, which is one more reason to use your own.
+
+
+- Turn on auto-renew and keep a valid payment method on file.
+
+- Put the expiry date in your phone calendar a month ahead.
+
+- Turn on two-step login for the registrar account and keep the transfer lock on.
+
+- If someone else set up your domain, move it to an account in your name now.
+
+
+
+
+
+
+
+## DNS basics: A record, CNAME and TXT in plain words
+
+DNS is the internet's address book: it turns your domain into the location of your website, and you control it through a few records on your registrar's DNS page. To connect an academy you only need to understand three or four record types.
+
+
+
+Each record has one job. Names and values are illustrative; always copy the exact records your studio shows.
+
+
+- A record points a name to a server's numeric IP address. It is often used for the bare domain, such as youracademy.in without www.
+
+- CNAME record points a name to another name, such as the address of your academy platform. If the platform's servers change, your record keeps working.
+
+- TXT record holds a short line of text. Platforms use it to check that you control the domain before they connect it.
+
+- MX record tells the internet where email for your domain should go. It has nothing to do with your website, so leave it alone when you connect your academy.
+
+
+
+
+### Host, value and TTL
+
+Each record has a host (or name), a value (or target) and a TTL, the number of seconds other networks may cache it. The most common mistake is the host field: many registrars add your domain automatically, so typing www.youracademy.in as the host creates www.youracademy.in.youracademy.in. If the registrar shows your domain next to the box, type only www or @, exactly as your platform instructs.
+
+
+
+### Why changes take time
+
+Networks that cached the old answer keep using it until their copy expires; this delay is called DNS propagation. A change is usually visible within a few hours, and DNS can take up to 24–48 hours to reach every network.
+
+
+
+
+
+
+## How to connect your domain to your AllCoaching academy
+
+In the AllCoaching studio, open Own branding ▸ Domain, choose "Connect a domain", type your domain, then copy the records the studio shows into your registrar's DNS page. The studio checks the records, marks the domain Connected and switches HTTPS on.
+
+
+
+The Domain page in the studio. Studio preview · sample data.
+
+Connecting your own domain is free on every AllCoaching plan, whether you bought it from GoDaddy, Namecheap, Hostinger, BigRock or anywhere else. The studio shows exactly what to copy, typically a TXT record that proves the domain is yours and a record that points it at your academy. Your free handle.allcoaching.in address keeps working after you connect, so links you shared earlier do not break, and you never buy or renew a certificate yourself.
+
+Type the domain without https:// at the start, open your registrar's DNS (or "Manage DNS") page in another tab, and copy and paste each host and value rather than retyping them.
+
+
+
+What happens after you save. Typical times, not a promise.
+
+The domain is one part of the academy. On AllCoaching the path is sign up, choose a plan, upload your course, connect your domain and start selling: the same studio runs your courses, tests, live classes, UPI checkout and your own Android app. Every plan starts with a 7-day free trial, no card needed. After that, monthly plans take 0% commission from ₹3,999 a month, or yearly plans start at ₹6,999 a year with a fee per sale; prices exclude GST. See the pricing page for every plan.
+
+
+Question educators ask
+
+
+
+### I added the records, but my domain still shows an error. What should I check?
+
+First, give it a few hours; DNS can take up to 24–48 hours. Then check the host field for a doubled domain name, make sure there is no old A or CNAME record on the same host pointing somewhere else, and confirm you edited DNS at the company that actually controls it (if your domain uses another provider's nameservers, records must be added there). If it still does not connect, write to contact@allcoaching.in or WhatsApp +91 98899 77262 with your domain name.
+
+
+
+Build your own academy. Try it free for 7 days.
+
+Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
+
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Export your data any time
+
+
+
+
+
+
+## Should you set up email on your domain?
+
+Email on your domain, such as admissions@youracademy.in, is optional but looks more professional on receipts, posters and parent communication. You set it up with an email provider such as Google Workspace or Zoho Mail, separately from your academy.
+
+The email provider gives you MX records (and usually a TXT record for sender verification) to add at your registrar. These sit alongside your website records without conflict, as long as you do not delete one set while adding the other. Compare the providers' own plan pages before you choose.
+
+
+
+
+
+
+## After you connect: links, HTTPS and Google
+
+Once your domain shows Connected, update every place students find you, and let Google discover the new address through links and your sitemap. The domain only helps if students actually see it.
+
+
+- Change the link in your YouTube channel, video descriptions and pinned comments.
+
+- Update your Instagram bio, WhatsApp channel and group descriptions, and Telegram group.
+
+- Print the new address on posters and visiting cards.
+
+
+HTTPS matters for trust and for search. Google announced in 2014 that it uses HTTPS as a ranking signal, a "very lightweight" one at first.5 More practically, browsers warn students away from pages without it. On AllCoaching it is switched on for your connected domain.
+
+If you are moving an older website, such as a WordPress site, ask whoever runs it to redirect each old page permanently to its new address. Google's site-move guidance says that "301 and other permanent redirects don't cause a loss in PageRank".4 Then follow our online academy SEO guide for beginners to get the new pages found. If your students currently live in a WhatsApp group, our guide to turning a WhatsApp group into an online academy shows how to move them across.
+
+
+
+
+
+
+## Common domain mistakes coaching institutes make
+
+The costly domain mistakes are letting someone else own it, choosing a name with hyphens, numbers or a year, letting it expire, and breaking email or the website while editing DNS. Each has a simple fix.
+
+
+
+Five mistakes we see often, and the fix for each.
+
+
+- An agency or relative owns the domain. Move it into a registrar account in your name.
+
+- Hyphens and numbers. Each one has to be explained aloud; choose a cleaner name or ending.
+
+- An exam year in the name. Put exams and years in course pages, not the domain.
+
+- Auto-renew switched off. A lapsed domain takes your site and email down at once.
+
+- Deleting records you do not recognise. MX and TXT records often run your email; leave them.
+
+- Promoting an empty site. Build on the free address first, then connect the domain before you promote it.
+
+
+For the full launch sequence around the domain, from planning the first course to the first sale, see how to start an online academy in 5 steps, and for what an academy includes beyond its address, what an online academy is.
+
+
+
+
+
+
+## Glossary
+
+
+Domain name
+Your academy's address on the internet, such as youracademy.in, rented yearly from a registrar and pointed at your website.
+Registrar
+A company accredited to sell and manage domain names, such as GoDaddy, Namecheap, Hostinger or BigRock. You buy, renew and edit DNS for your domain there.
+TLD (top-level domain)
+The ending of a domain name, such as .in, .com or .academy. Country-code endings like .in are run by a national registry.
+DNS
+The Domain Name System, the internet's address book that turns a domain name into the location of the server that answers for it.
+A record
+A DNS record that points a domain or subdomain to a server's numeric IP address.
+CNAME record
+A DNS record that points a domain or subdomain to another domain name, such as your academy platform's address.
+TXT record
+A DNS record holding a line of text, used by platforms and email providers to verify that you control the domain.
+SSL / HTTPS
+The encryption that puts a padlock in the browser's address bar. It needs a certificate, which an academy platform can issue and renew for your connected domain.
+DNS propagation
+The delay between saving a DNS change and every network seeing it, caused by caching. Usually a few hours; it can take up to 24–48 hours.
+WHOIS
+The public registration data for a domain, such as who holds it and when it expires. Privacy protection hides personal contact details from it.
+
+
+
+
+
+
+## Frequently asked questions
+
+What is a good domain name for a coaching institute?A good domain name for a coaching institute is short, easy to say once, and has no hyphens, numbers or exam year in it. Your own name, your academy's name, or your subject plus a short word usually works best, for example a name like sharmabiology.in. Check that it is free as a social handle and is not someone else's trademark.
+
+Should I choose .in or .com for my coaching institute?Choose .in if you mainly teach students in India; it is short and clearly Indian. Choose .com if you also teach students abroad or your exact name is free there. Use .co.in or .academy only when your first choice is taken, and buy both .in and .com if you can to protect the brand.
+
+How much does a domain name cost in India?A typical .in or .com domain costs about ₹600 to ₹1,200 a year at most registrars. First-year offers are often lower than the renewal price, so check the renewal price before you buy. Newer endings such as .academy can cost more.
+
+Where can I buy a domain name for my coaching institute?You can buy it from any domain registrar, such as GoDaddy, Namecheap, Hostinger or BigRock. Register it in your own name with your own email and payment method, and turn on privacy protection and auto-renew at checkout.
+
+Do I need to buy hosting or an SSL certificate with my domain?Not if you use an academy platform. The platform hosts your website and handles HTTPS. On AllCoaching, HTTPS is switched on for your connected domain, so you only need to buy the domain itself.
+
+How do I connect my domain to my AllCoaching academy?Open the AllCoaching studio, go to Own branding, then Domain, choose Connect a domain and type your domain. Then add the records the studio shows, usually a TXT record and a CNAME or A record, on your registrar's DNS page. The studio verifies them and switches HTTPS on.
+
+How long does it take for a new domain to start working?Usually within a few hours of adding the DNS records. Because networks cache old DNS answers, it can take up to 24 to 48 hours to reach every network. Your free allcoaching.in address keeps working in the meantime.
+
+Does connecting my own domain cost extra on AllCoaching?No. Connecting your own domain is free on every AllCoaching plan. You pay only your registrar for the domain itself, typically about ₹600 to ₹1,200 a year for a .in or .com.
+
+Can I keep my domain if I change platforms later?Yes, if the domain is registered in your name. The domain belongs to the registrant, not to the platform it points at, so you can change its DNS records to point at any other website. This is why you should never let an agency or vendor register it for you.
+
+
+
+
+
+
+## Sources
+
+
+- ICANN, "Registering Domain Names", icann.org, checked October 2026.
+
+- ICANN, "Expired Registration Recovery Policy", icann.org, section 2.1.1, checked October 2026.
+
+- .IN Registry (National Internet Exchange of India), registry.in, checked October 2026.
+
+- Google Search Central, "Site moves and migrations", developers.google.com, checked October 2026.
+
+- Google Search Central Blog, "HTTPS as a ranking signal", 6 August 2014, developers.google.com, checked October 2026.
+
+
+
+
+
+
+
+Amit Ratan
+Founder & CEO, AllCoaching
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. We help educators connect their domains in the studio, so this guide follows the order that causes the fewest problems; outside facts are linked to their sources and example names are illustrative.
+
+---
+
+# How to Write a Course Description That Sells (+ Examples)
+
+**Source:** https://allcoaching.in/blog/how-to-write-a-course-description  
+**Published:** 2026-10-31T09:00:00+05:30  
+**Updated:** 2026-10-31T09:00:00+05:30  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** How to write a course description that sells: an outcome-first title, who it is for, what is inside, real proof, price and FAQ, with before-and-after examples.
+
+Amit RatanUpdated 31 Oct 2026 · 17 min read
+
+
+On this page
+
+
+Start your online academy today. 7 days free.
+
+Start free trial
+
+
+To write a course description that sells, say who the course is for and what they will be able to do after it, list exactly what is inside in numbers, show real proof that you can teach, state the price honestly and answer the questions students ask before paying. A student should know in ten seconds whether the course is for them.
+
+Maybe you teach NEET biology to droppers, SSC CGL maths in Hindi, or spoken English to freshers. Your free videos get views. But the course page says "Best biology course by an experienced teacher. Join now", and students either message you on WhatsApp with the same five questions or never buy.
+
+This guide fixes that page in seven steps, with before-and-after examples for exam and skill courses, a title formula, honest proof when you have no reviews yet, Hindi and Hinglish tips and course page SEO. If the course is not built yet, start with how to create your first online course.
+
+
+
+
+
+
+## Key takeaways
+
+
+- A course description answers five questions: who is it for, what will I be able to do, what is inside, why trust you, and what does it cost.
+
+- Write an outcome-first title: outcome + exam or skill + who + format, such as "NEET Biology for Droppers: NCERT in 120 Days", in about 60 characters.
+
+- Count what is inside (video lessons, PDFs, tests, live classes, validity, language) instead of using words like "complete" or "best".
+
+- Use only real proof: a free sample lesson, your teaching record and genuine student feedback collected with permission. Never invent reviews or results.
+
+- Most visitors scan: in Nielsen's study, 79% of test users scanned any new page and only 16% read word by word.
+
+- Put a FAQ on the course page with the questions students already ask you on WhatsApp.
+
+- On AllCoaching, saving a course creates its page with SEO meta, schema and checkout; you edit the title, description and price.
+
+
+
+
+
+
+
+## What is a course description?
+
+A course description is the text on a course page that tells a student who the course is for, what they will be able to do after it, what is inside, why they should trust the teacher and what it costs. It is your sales conversation, written down once, so it can happen with every visitor at the same time.
+
+Most course descriptions fail in the same way: they describe the teacher's effort ("carefully designed", "complete", "best") instead of the student's result. A student does not buy "biology classes". A Class 12 dropper buys "NCERT Biology finished and revised before NEET, with a test after every chapter".
+
+
+
+The same course, described twice. Example course and numbers are illustrative.
+
+On the left, the student still does not know who the course is for, which exam or language, how many lessons or tests, or how long access lasts. Every unanswered question is a reason to close the tab.
+
+The right side is not wordier; it is specific. Specific copy is also easier for Google and AI search tools to match with what a student typed.
+
+
+
+
+
+
+## How to write a course description in 7 steps
+
+Name the student and the result, write an outcome-first title, open with who it is for, list what is inside in numbers, add real proof, frame the price with a FAQ, and optimise the page for search with one clear button. Work in that order; each step feeds the next.
+
+
+- Name the student and the resultWrite one sentence: who the course is for and what they can do after it.
+
+- Write an outcome-first titleCombine outcome, exam or skill, who it is for and format, in about 60 characters.
+
+- Open with who it is forUse the first two lines to say who the course is for and who it is not for.
+
+- List what is inside, in numbersCount lessons, PDFs, tests, live classes, validity and language instead of using adjectives.
+
+- Add real proofOffer a free sample lesson, one honest line on your experience and real student feedback shared with permission.
+
+- Frame the price and answer objectionsShow the price with GST next to one button and add a FAQ built from questions students already ask.
+
+- Optimise the page and publishSet a keyword URL, title tag and unique meta description, write the syllabus as text, publish and keep updating.
+
+
+
+
+Where each part of the description sits on the page. Illustrative course page.
+
+Before you write a word, answer one question in one sentence: after this course, what can my student do that they could not do before? "Understand biology" is not an answer; "finish and revise NCERT Biology in 120 days" is. That sentence becomes your title, first line and meta description.
+
+
+
+
+
+
+## How do you write a course title that students click?
+
+Combine four parts: the outcome, the exam or skill, who it is for, and the format or time, and keep the result to about 60 characters. The title is read on the course page, in Google results, in WhatsApp link previews and in your app, so it must make sense on its own.
+
+
+
+Four parts, one title. Example titles are illustrative.
+
+
+
+### Exam course titles
+
+
+- Weak: "Maths Batch 2026". Strong: "Crack SSC CGL Quant: 90-Day Course in Hindi".
+
+- Weak: "Biology Complete Course". Strong: "NEET Biology for Droppers: NCERT in 120 Days".
+
+
+
+
+### Skill course titles
+
+
+- Weak: "English Speaking Course". Strong: "Spoken English for Interviews: 30 Days, Hinglish".
+
+- Weak: "Yoga Classes". Strong: "Yoga for Back Pain: 21-Day Beginner Programme".
+
+
+Google's own guidance on title links asks site owners to "Write descriptive and concise text" for page titles and to avoid keyword stuffing.2 Repeating "NEET NEET Biology NEET 2027 best NEET course" does not help a student or a search engine. Say it once, clearly.
+
+
+Question educators ask
+
+
+
+### Should I put my own name in the course title?
+
+Only if students already search for you by name, for example because your YouTube channel is well known. Otherwise put the exam or skill first and your name in the byline under the title. On your own academy domain, your brand is already in the address bar and the logo.
+
+
+
+
+
+
+
+## Who is this course for? Write the first two lines
+
+The first two lines under the title should say exactly who the course is for, and ideally who it is not for, in words the student would use about themselves. Most visitors decide here whether to keep reading.
+
+In Jakob Nielsen's study of how people read on the web, "79 percent of our test users always scanned any new page they came across; only 16 percent read word-by-word."1 The same research recommends the inverted pyramid: lead with the conclusion. On a course page, the conclusion is "this is for you".
+
+
+
+### A simple pattern
+
+For [who], who want [result] by [time], in [language]. Then one line on who should not buy.
+
+
+- NEET: "For Class 12 droppers retaking NEET next year who want NCERT Biology finished and revised on time. Not for Class 11 students starting the syllabus."
+
+- Spoken English: "For freshers who understand English but freeze when they have to speak it in an interview."
+
+- Yoga: "For desk workers with mild lower-back stiffness who are new to yoga. Not a substitute for medical treatment."
+
+
+Saying who a course is not for feels risky, but it builds trust and cuts refund requests. When educators show us course pages that are not converting, the most common gap is this missing line: the teaching is fine, but the student cannot tell whether the course is meant for them.
+
+
+
+
+
+
+## What to include in a course description: videos, PDFs, tests and live classes
+
+List what the student gets in numbers: video lessons and their length, PDF notes, tests and mock tests, live classes, validity, language and any certificate. Numbers let a student compare your course with others in seconds; adjectives do not.
+
+
+
+Replace adjectives with counts. Numbers shown are illustrative.
+
+
+
+### For exam courses
+
+Exam students compare syllabus, tests and validity first. Write the syllabus as plain-text chapters, not an image, and say how many tests there are, whether they are timed and what students see after each. On AllCoaching, test series include auto-grading, all-India rank and percentile, a full-screen anti-cheat lock and random question order, so those are fair to list when your course uses them.
+
+
+
+### For skill courses
+
+Skill students compare practice and feedback. Say how many practice tasks there are, how feedback works, and what they will be able to do at the end: a 2-minute self-introduction, a running Meta ad campaign, a 20-minute daily yoga routine. If students receive a certificate on completion, say so, and say plainly that it is a completion certificate, not a degree.
+
+
+
+
+
+
+## How to add proof to a course description without fake reviews
+
+Use proof you can stand behind: a free sample lesson, your teaching years and record, real feedback from real students collected with their permission, and your free YouTube lessons. Never invent reviews, ranks, pass rates or "only 3 seats left".
+
+
+
+Students can tell the difference, and so can regulators.
+
+
+
+### When you have no reviews yet
+
+Every educator starts with zero reviews. A free sample lesson is stronger proof than any review, because the student judges your teaching directly. Make it 10 to 20 minutes, teach one real concept fully, and put it right under the title. Add one honest line about your experience: "I have taught SSC maths in Patna since 2015" or "9 years teaching English to job seekers in Indore".
+
+
+
+### Collect real feedback on purpose
+
+
+- After each chapter test or module, ask one question: "What has helped you most so far?"
+
+- Ask the student before you quote them, and use their first name and city only if they agree.
+
+- Quote exact words. "The PYQ discussion after every chapter helped me most" beats "Best course ever".
+
+
+
+
+### What to leave out
+
+Invented reviews, stock photos of "toppers", unsourced pass rates and "guaranteed selection" mislead students, and in India they can also break consumer-protection rules. The Central Consumer Protection Authority has issued guidelines against misleading advertisements in the coaching sector; our guide to coaching centre rules in India explains what they cover. Mention a past student's result only if it is true, the student agreed, and you say which course they took.
+
+
+
+
+
+
+## How to frame the price and answer objections with a course FAQ
+
+State the full price with GST next to one enrol button, show what it covers in time or lessons, and answer the five or six questions students ask before paying in a short FAQ on the same page. Hidden prices and "DM for fees" lose students who were ready to buy.
+
+
+
+### Make the price easy to judge
+
+
+- Show it. "₹2,999 + GST" on the page, not "price on request".
+
+- Anchor it to what is inside. "180 lessons, 38 PDFs, 35 tests, valid till exam day" makes ₹2,999 easy to weigh. Illustrative: ₹2,999 over 120 days is about ₹25 a day.
+
+- Keep launch prices honest. "₹1,999 until 15 December, then ₹2,999" is fine if true; a countdown that resets daily is not.
+
+- One clear next step. One enrol button; link other products further down.
+
+
+If you are still deciding the number itself, our guide on how to price online courses in India covers the methods.
+
+
+
+### Write the FAQ from your WhatsApp inbox
+
+The best course FAQ is already in your phone: pick the six questions students ask most before buying. For most Indian courses they are:
+
+
+- Is the course in Hindi, English or both?
+
+- How long do I get access, and can I download the PDFs?
+
+- What if I miss a live class? Are recordings available?
+
+- Will it work on my phone?
+
+- I am a beginner. Can I join?
+
+- What is the refund policy?
+
+
+Answer each in two or three plain sentences. Every answer on the page is one doubt that no longer stops a sale at 11 pm while you are asleep.
+
+
+Build your own academy. Try it free for 7 days.
+
+Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
+
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Export your data any time
+
+
+
+
+
+
+## Course description examples: before and after
+
+Here are three course descriptions rewritten with the seven steps: an exam course, a spoken English course and a digital marketing course. The academies, numbers and prices are illustrative; copy the structure, not the facts.
+
+
+
+### Example 1: SSC CGL maths (exam, Hindi medium)
+
+
+
+
+#### Before
+
+"SSC Maths Course. Best maths course for SSC by experienced faculty. All topics covered with tricks. Join today and get selected."
+
+
+
+#### After
+
+"Crack SSC CGL Quant: 90-Day Course in Hindi. For SSC CGL aspirants who find arithmetic slow and want methods that work under Tier 1 time limits. 140 Hindi video lessons, 16 chapter PDFs with previous-year questions, a timed test after every chapter and 15 full mocks with all-India rank. Weekly live doubt class. Access till the Tier 2 exam. Watch the Percentage lesson free before you pay. ₹1,999 + GST."
+
+
+What changed: a named exam and weakness, counted contents, a free lesson as proof, no promise of selection.
+
+
+
+### Example 2: Spoken English for interviews (skill, Hinglish)
+
+
+
+
+#### Before
+
+"Spoken English Course. Improve your English and confidence. Easy and fun classes for everyone."
+
+
+
+#### After
+
+"Spoken English for Interviews: 30 Days, Hinglish. For freshers who understand English but freeze when they have to speak it. In 30 days you will answer 25 common interview questions and speak for two minutes without notes. 30 short lessons explained in Hinglish, 30 speaking tasks with feedback, and 8 live practice classes on Zoom. Recordings if you miss one. ₹1,499 + GST. Watch "Tell me about yourself" free."
+
+
+What changed: "everyone" became one group, "confidence" became two measurable results, and the language is stated.
+
+
+
+### Example 3: Meta ads for local businesses (skill, English)
+
+
+
+
+#### Before
+
+"Digital Marketing Masterclass. Learn everything about digital marketing from an industry expert and grow your business."
+
+
+
+#### After
+
+"Meta Ads for Local Shops: Hands-on Course. For shop and clinic owners who boost posts but cannot tell which ones bring customers. You will run a Meta ad campaign for your own business and read its results. 22 screen-recorded lessons, 6 templates and 4 live reviews of your real campaign. ₹3,499 + GST. No promise of sales; you will know what your ad budget is doing."
+
+
+None of the strong versions use "best", "guaranteed" or "complete". For a full course page layout around a description like these, see our guide to creating a landing page for an online course.
+
+
+
+
+
+
+## Should you write your course description in Hindi or Hinglish?
+
+Write the description in the language you teach the course in, and keep exam names and common product words such as NEET, SSC CGL, PDF notes, test series and mock test in English. Students trust a page that sounds like your classes.
+
+
+
+Same promise, two voices. Illustrative lines.
+
+A Hindi-medium student who watches your Hinglish videos will feel at home with "120 din me poori NCERT Biology, har chapter ke baad test." An English-medium student may not. Match the page to the batch.
+
+
+- Title: use the words students type into search. Many type in English or Roman Hinglish even when they study in Hindi, so "NEET Biology for Droppers in Hindi" often works better than a fully Devanagari title. Check by typing your topic into Google and YouTube and reading the suggestions.
+
+- Body: Hinglish in Roman script, Hindi in Devanagari (हिंदी), or English, whichever matches the classes.
+
+- Separate batches, separate pages: a Hindi batch and an English batch each get their own page.
+
+
+For courses in regional languages, our guide to teaching in regional Indian languages covers the setup.
+
+
+
+
+
+
+## Course page SEO: title tag, meta description and URL
+
+Give each course page a short keyword URL, a title tag of about 60 characters, a unique meta description that summarises the page, and the syllabus and FAQ written as text. These decide how the page appears on Google and whether students click.
+
+
+
+Four things you control. Google may still rewrite the title or snippet. Illustrative result.
+
+
+- URL: youracademy.in/neet-biology-droppers-hindi, not youracademy.in/course?id=4821.
+
+- Title tag: usually the course title itself, about 60 characters, outcome and exam first.
+
+- Meta description: two lines a student would want to read in the results: who it is for, what is inside, and the free lesson. Google describes it as "a short, relevant summary of what a particular page is about", and notes that identical descriptions on every page are not helpful.3
+
+- Page text: syllabus, outcomes and FAQ as real text, not pasted images.
+
+
+Above all, write for the student, not the search engine. Google's guidance on helpful content asks whether someone will "leave feeling they've learned enough about a topic to help achieve their goal".4 A course description that answers the student's real questions passes that test. For the wider picture, from keywords to linking guides to courses, read our online academy SEO guide for beginners.
+
+
+
+### How this works on AllCoaching
+
+On AllCoaching, a course page with SEO meta, schema and checkout is created automatically when you save a course in the studio. You edit the title, description and price; the page, its structured data and the UPI and card checkout follow from what you write. The words are the part only you can write.
+
+Every plan starts with a 7-day free trial, and no card is needed to start. After that, the monthly plans take 0% commission on every sale, from ₹3,999 a month, or the yearly plans start at ₹6,999 a year with a small fee per sale. Prices exclude GST, and the full comparison is on the pricing page.
+
+
+
+
+
+
+## Common course description mistakes (and a template)
+
+The mistakes that cost sales are a vague title, no "who it is for" line, adjectives instead of numbers, invented proof, a hidden price, a syllabus pasted as an image and three different buttons. Each is quick to fix.
+
+
+- "Best", "complete", "ultimate". Every course says this, so it says nothing. Replace each with a number.
+
+- Writing for everyone. "For all students" means no student feels addressed.
+
+- Promising results you do not control. No rank, selection or income guarantees.
+
+- Same description on every course. Students and Google both need each page to be different.
+
+
+
+
+### A fill-in template
+
+[Outcome] [exam or skill] for [who]: [format or time]
+
+For [who], who want [result] by [time]. Not for [who should not buy].
+
+After this course you will be able to: [2 or 3 outcomes].
+
+Inside: [number] video lessons, [number] PDFs, [number] tests, [live classes], access till [date], taught in [language].
+
+Watch [lesson name] free. About me: [one honest line of experience].
+
+What students say: [real quote, with permission].
+
+Price: ₹[amount] + GST. [One button.]
+
+Questions: [5 or 6 FAQs from your inbox].
+
+Write it once for your best-selling course, then reuse the structure for every course after it. When you are ready to bring students to the page, our guide to selling courses online in India picks up from here.
+
+
+
+
+
+
+## Glossary
+
+
+Course description
+The text on a course page that tells a student who the course is for, what they will be able to do, what is inside, why to trust the teacher and what it costs.
+Outcome-first title
+A course title that leads with the result the student gets, followed by the exam or skill, who it is for and the format.
+Course page
+The web page where a single course is described and sold, with the description, syllabus, price, enrol button and FAQ.
+Sample lesson
+One full lesson from a paid course given free, so students can judge the teaching before they pay.
+Social proof
+Evidence from other people, such as real student feedback, that helps a new student trust a course.
+Title tag
+The HTML title of a web page, which search engines often show as the clickable headline in results.
+Meta description
+A short summary of a web page, written in its HTML, that search engines may show under the title in results.
+URL slug
+The readable last part of a web address, such as neet-biology-droppers-hindi, that names the page.
+Hinglish
+A mix of Hindi and English, usually written in Roman script, widely used by Indian students and educators.
+
+
+
+
+
+
+## Frequently asked questions
+
+How do I write a course description?Say who the course is for and what they will be able to do after it, list what is inside in numbers, show real proof such as a free sample lesson and genuine student feedback, state the price with GST, and answer common questions in a short FAQ on the same page.
+
+What should a course description include?An outcome-first title, a line on who the course is for, the outcomes, what is inside (video lessons, PDF notes, tests, live classes, validity and language), proof of your teaching, the price and a FAQ. For skill courses, add practice tasks and how students get feedback.
+
+How long should a course description be?Long enough to answer a student's questions and no longer. For most Indian exam and skill courses that is about 200 to 500 words of description plus a syllabus list and a FAQ, laid out with headings and bullet points so it can be scanned on a phone.
+
+How do I write a course title?Combine the outcome, the exam or skill, who it is for and the format or time, such as NEET Biology for Droppers: NCERT in 120 Days. Keep it to about 60 characters so it is not cut off in search results.
+
+What if my course has no reviews yet?Put a free sample lesson under the title, add one honest line about your teaching experience, and link your free YouTube lessons. Then ask every student one question after each module and quote the real answers, with their permission, as they arrive. Never invent reviews.
+
+Should my course description be in Hindi or English?Write it in the language you teach the course in. Keep exam names and words like PDF notes, test series and mock test in English, and use the words students actually type into search in the title.
+
+Can I promise results like selection or a rank in my course description?No. You do not control a student's result, and misleading claims about results can break consumer-protection rules for coaching in India. Describe what is inside and what the student will practise instead, and only mention a past student's result if it is true and they agreed.
+
+Does the course description help SEO?Yes. A specific title, a unique meta description, a short keyword URL and a syllabus and FAQ written as text help Google understand and show the course page for the searches students make.
+
+Does AllCoaching create the course page for me?Yes. On AllCoaching a course page with SEO meta, schema and checkout is created automatically when you save a course, and you edit its title, description and price in the studio. Every plan starts with a 7-day free trial with no card needed.
+
+
+
+
+
+
+## Sources
+
+
+- Jakob Nielsen, Nielsen Norman Group, "How Users Read on the Web", nngroup.com, checked October 2026.
+
+- Google Search Central, "Influencing your title links in search results", developers.google.com, checked October 2026.
+
+- Google Search Central, "Control your snippets in search results" (meta descriptions), developers.google.com, checked October 2026.
+
+- Google Search Central, "Creating helpful, reliable, people-first content", developers.google.com, checked October 2026.
+
+
+
+
+
+
+
+Amit Ratan
+Founder & CEO, AllCoaching
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. This guide comes from reading many course pages with educators; outside facts are linked to their sources, and every example course, academy and number is illustrative.
 
 ---
 
