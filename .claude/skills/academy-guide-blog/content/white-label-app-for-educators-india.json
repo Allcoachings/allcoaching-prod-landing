@@ -1,0 +1,293 @@
+{
+ "slug": "white-label-app-for-educators-india",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "White Label App for Teachers in India: How to Get One (2026)",
+ "description": "A white label app for teachers in India is your own branded app, published under your own developer account. What it means, what to check and how to get one.",
+ "og_description": "What a white-label app really means for an Indian educator: your name and icon, published under your own Google Play and App Store account. Compare it with marketplace and agency-built apps, ask seven questions before you choose, and follow seven steps to get one.",
+ "keywords": [
+  "white label app for teachers india",
+  "white label app for educators",
+  "what is a white label app",
+  "white label coaching app meaning",
+  "own app for coaching institute",
+  "white label vs marketplace app",
+  "publish app on own google play account",
+  "google play closed test 12 testers",
+  "ios app for coaching institute",
+  "branded app for online academy"
+ ],
+ "h1": "White-Label App for Educators in India: What It Means and How to Get One",
+ "dek": "A plain guide for Indian educators: what \"white-label\" really means, how it differs from a marketplace app or an agency build, the seven questions to ask before you choose, and the steps to get your own branded app on Google Play and the App Store.",
+ "category": "Brand & website",
+ "date_published": "2026-11-01",
+ "date_modified": "2026-11-01",
+ "checked": "24 Oct 2026",
+ "cover_alt": "White-label app for educators in India: your own branded app, published under your own developer account and built from the AllCoaching studio",
+ "audience": "Indian educators, tutors, exam mentors, skill teachers and coaching institute owners who want their own branded app for students",
+ "author_note": "We publish educators' apps on their own developer accounts, so this guide is written from that side of the process; store rules are linked to Google's and Apple's own pages, and competitor prices to their pricing pages with the date we checked.",
+ "intro": [
+  "<strong>A white-label app for teachers is an app built on a platform's ready software but carrying your name, icon and colours, and published under your own Google Play and App Store developer account, so students install \"your app\", not the platform's.</strong> You get your own app without building one from scratch. What makes it truly yours is whose account it is published under and how much you can change yourself.",
+  "Maybe you teach NEET chemistry in Hindi and your students keep asking, \"Sir, app kab aayega?\" Or you run a spoken English batch and a parent wants to find you on the Play Store by name. A white-label app is how most Indian educators get there: the platform supplies the video player, tests, live classes and payments; your brand sits on top.",
+  "The word is used loosely, though: some \"white-label\" apps sit under a vendor's account, others cannot be changed without a ticket. This guide explains what it should mean and how to get one. For the money side, read our <a href=\"/blog/white-label-coaching-app-development-cost-india\">white label coaching app development cost guide</a>."
+ ],
+ "takeaways": [
+  "<strong>A white-label app is ready-made app software carrying your name, icon and colours,</strong> so students see your academy on their phone, not the platform's.",
+  "<strong>The most important question is whose developer account the app is published under.</strong> The store shows that account's name as the developer, and Apple lists your legal name or your company as the seller.",
+  "<strong>A marketplace app puts you beside other educators; an agency-built app is yours but every change is paid work;</strong> a white-label app sits in between, with your brand and a panel you control.",
+  "<strong>Ask seven questions before you choose:</strong> developer account, self-editing, data export, iOS, store review, yearly cost and what happens if you leave.",
+  "<strong>The stores charge their own fees:</strong> Google Play US$25 once and the Apple Developer Program US$99 a year, and new personal Play accounts must run a closed test with at least 12 testers for 14 days.",
+  "<strong>On AllCoaching, every plan includes your own white-label Android app,</strong> with iOS on Pro monthly and every yearly plan, published on your own developer account by you or by us with API access."
+ ],
+ "sections": [
+  {
+   "id": "what-is",
+   "h2": "What is a white-label app for educators?",
+   "toc": "What white-label means",
+   "html": "<p><strong>A white-label app for educators is an app built on a platform's shared software that is rebranded with your academy's name, icon, colours and content, and published under your own developer account.</strong> Students download it by your name and never need to know which platform runs it. You rent the software; the brand, the store listing and the students are yours.</p>\n      <p>The term comes from retail, where one maker's product is sold under other companies' labels. In software it means one codebase, many brands. For an educator, that brings three benefits.</p>\n      <ul>\n        <li><strong>Your brand on the home screen.</strong> The icon, the name under it and the splash screen all say your academy.</li>\n        <li><strong>No app project.</strong> No developers to hire; the platform maintains the software for every academy at once.</li>\n        <li><strong>One system behind it.</strong> The courses, tests and payments that run your website also run the app.</li>\n      </ul>\n      <p>It does <em>not</em> mean you own the code. You own your brand, content and student data. What decides your real control is <a href=\"#developer-account\">whose developer account the app sits in</a>.</p>"
+  },
+  {
+   "id": "three-options",
+   "h2": "White-label app vs marketplace app vs custom-built app",
+   "toc": "Three kinds of app",
+   "html": "<p><strong>A marketplace app lists you beside other educators under the platform's brand, an agency-built app is made only for you but every change is paid work, and a white-label app gives you your own branded app with a panel you control.</strong> All three can work; they suit different stages and budgets.</p>\n      {{fig:three-ways|White-label app vs marketplace app vs agency-built app for educators in India: name and icon, developer account, who can change it, updates, upfront build and which students appear|How the three kinds of app compare. A qualitative guide; check each provider's own terms.}}\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th></th><th>Marketplace app</th><th>White-label app</th><th>Agency-built (custom) app</th></tr></thead>\n          <tbody>\n            <tr><td>Name students see</td><td>The platform's</td><td>Yours</td><td>Yours</td></tr>\n            <tr><td>Published under</td><td>The platform's account</td><td>Your account, or the vendor's (ask)</td><td>Your account, or the agency's (ask)</td></tr>\n            <tr><td>Who changes it</td><td>The platform</td><td>You, from a panel</td><td>The agency, as paid work</td></tr>\n            <tr><td>Software updates and store policy</td><td>The platform</td><td>The platform</td><td>You pay the agency</td></tr>\n            <tr><td>Upfront cost</td><td>None to list</td><td>No build project; a plan fee</td><td>A build project, then maintenance</td></tr>\n            <tr><td>Best for</td><td>Extra discovery</td><td>Most solo educators and institutes</td><td>Unusual features no platform offers</td></tr>\n          </tbody>\n          <caption>A qualitative comparison. Terms differ between providers.</caption>\n        </table>\n      </div>\n      <p>A marketplace listing is a useful extra, not a home: your course sits next to other educators' courses. Our guide on <a href=\"/blogs/en/is-it-better-to-build-own-app-or-join-marketplace\">whether to build your own app or join a marketplace</a> goes deeper on that trade-off.</p>\n      <p>A custom app makes sense when you need something no platform has and can fund its upkeep every year. For everyone else, a white-label app gives the same result on the student's phone. Our guide to <a href=\"/blog/how-to-make-coaching-app-without-coding\">making a coaching app without coding</a> compares the build options in detail.</p>"
+  },
+  {
+   "id": "developer-account",
+   "h2": "Whose developer account is the app published under?",
+   "toc": "Whose account",
+   "html": "<p><strong>Ask this first: a white-label app should be published under your own Google Play and Apple developer accounts, because the account holder is the name stores show as the developer and the one who controls the listing.</strong> If the app sits in a vendor's account, the brand on the icon is yours but the listing is not.</p>\n      {{fig:store-listing|Illustrative app store listing for a white-label app for teachers: Developer: Your Academy when published on your own account, versus a vendor's name when published on the vendor's account|The developer line shows whose account published the app. Illustrative listings, not real apps.}}\n      <p>Apple is explicit about this. If you enrol in the Apple Developer Program as an individual, your personal legal name is listed as the seller on the App Store; if you enrol as an organisation, the legal entity name appears as the seller.<sup><a href=\"#ref-3\">3</a></sup> Apple's App Review Guidelines also push white-label apps towards the educator's own account. Guideline 4.2.6 reads:</p>\n      <div class=\"v3-quote\">\n        <p>\"Apps created from a commercialized template or app generation service will be rejected unless they are submitted directly by the provider of the app's content.\"</p>\n        <cite>Apple App Review Guidelines 4.2.6, checked November 2026<sup><a href=\"#ref-4\">[4]</a></sup></cite>\n      </div>\n      <p>For an academy, \"the provider of the app's content\" is you. Not every vendor works this way. Learnyst's pricing page, for example, notes that its apps are available on the stores under Learnyst's developer account.<sup><a href=\"#ref-5\">5</a></sup> That is a legitimate model, but it means the publisher name and the listing stay with the vendor if you move.</p>\n      <p>When educators come to us from an agency-built app, the first thing we ask is which Play Console account the app sits in, and the answer is not always clear to them. Find out before you sign, and get the answer in writing.</p>\n      {{q:Can I move my app from a vendor's account to my own later?|Sometimes, but it is not automatic. Google Play and Apple both have app transfer processes, and they need the current account holder to start them. If the vendor will not, you may have to publish a new app under your own account and ask students to install it again. That is why the account question belongs before you choose, not after.}}"
+  },
+  {
+   "id": "before-you-choose",
+   "h2": "What to check before you choose a white-label app",
+   "toc": "What to check",
+   "html": "<p><strong>Before you choose a white-label app provider, ask seven questions: whose developer account, can you change it yourself, can you export your data, is iOS included, who handles store review, what it costs every year, and what happens if you leave.</strong> Ask every provider the same seven, including us.</p>\n      {{fig:choose-checklist|Seven questions to ask before choosing a white-label app for teachers in India: developer account, self-editing, data export, iOS, store review, yearly cost and what happens if you leave|Seven questions for every white-label app provider.}}\n      <ol>\n        <li><strong>Whose developer account?</strong> Yours is best; the listing and developer name stay with you.</li>\n        <li><strong>Can you change it yourself?</strong> Logo, colours, courses and prices should change from a panel, not by ticket.</li>\n        <li><strong>Can you export your data?</strong> Students, purchases and content; ask in which format and for how long after you stop.</li>\n        <li><strong>Is iOS included?</strong> It is often on a higher plan. Ask which plan, at what price.</li>\n        <li><strong>Who handles store review?</strong> Someone must submit builds, answer rejections and keep up with store policy changes.</li>\n        <li><strong>What does it cost every year?</strong> Plan, fee per sale, store fees, renewal and GST.</li>\n        <li><strong>What if you leave?</strong> What happens to the app, the listing and your data, and how long you have.</li>\n      </ol>\n      <p>Also watch for promises no provider can keep. Google and Apple review every new app, so nobody can guarantee approval or a launch date; a provider who does is guessing.</p>"
+  },
+  {
+   "id": "steps",
+   "h2": "How to get a white-label app for your academy: 7 steps",
+   "toc": "The 7 steps",
+   "html": "<p><strong>Decide what the app must do, choose a provider with the seven questions, open your own developer accounts, set your brand, line up testers if Google asks for them, publish on your own account, then pass store review and share the link.</strong> Each step is short; the waiting is mostly on the store side.</p>\n      {{steps}}\n      <p>In our experience, the steps that take longest are 3 and 5: an organisation account waiting on its D-U-N-S Number, or a new personal Play account without twelve testers ready. Start both early, while you are still uploading courses.</p>"
+  },
+  {
+   "id": "store-rules",
+   "h2": "Google Play and App Store: fees, testing and review",
+   "toc": "Store fees and rules",
+   "html": "<p><strong>Google Play charges a US$25 one-time registration fee and the Apple Developer Program costs US$99 a year; both are paid by whoever owns the developer account, and both stores review your app before students can install it.</strong> These rules are the same whichever platform builds your app.</p>\n      {{fig:store-rules|App store fees and rules for a white label app for teachers in India: Google Play US$25 once, Apple Developer Program US$99 a year, closed test with 12 testers for 14 days for new personal Play accounts|The store side, set by Google and Apple.}}\n      <div class=\"v3-quote\">\n        <p>\"There is a US$25 one-time registration fee.\"</p>\n        <cite>Google Play Console Help, checked November 2026<sup><a href=\"#ref-1\">[1]</a></sup></cite>\n      </div>\n      <h3>The closed test for new personal Play accounts</h3>\n      <p>Google requires developers with personal Play Console accounts created after 13 November 2023 to run a closed test with at least 12 testers who have been opted in continuously for at least 14 days before they can apply for production access.<sup><a href=\"#ref-2\">2</a></sup> For an educator, those twelve testers can be colleagues, a few loyal students or family members with Android phones. The rule is for personal accounts; organisation accounts instead have to give a D-U-N-S Number when they register.<sup><a href=\"#ref-7\">7</a></sup></p>\n      <h3>Apple's annual fee and enrolment</h3>\n      <p>Apple states the Apple Developer Program annual fee as 99 USD, in local currency where available, and asks organisations for a D-U-N-S Number during enrolment.<sup><a href=\"#ref-3\">3</a></sup> Because the fee is yearly, put the renewal date in your calendar so your iOS app stays available.</p>\n      <h3>Review takes the time it takes</h3>\n      <p>Both stores review new apps, and updates can be reviewed too. The timing is decided by Google and Apple, not by your platform. Plan your launch announcement for after the app is live, not on a fixed date.</p>"
+  },
+  {
+   "id": "allcoaching",
+   "h2": "How a white-label app works on AllCoaching",
+   "toc": "On AllCoaching",
+   "html": "<p><strong>On AllCoaching, the studio builds your own white-label Android app on every plan, and your iOS app on Pro monthly and every yearly plan, from the brand you set in Own branding; the app is published on your own Google Play and App Store accounts, by you or by us with API access you grant.</strong> There is no separate app project to buy.</p>\n      {{fig:how-it-works|How a white-label app for educators works on AllCoaching: set your brand in Own branding, the studio builds the app, publish it on your own developer account, then Google and Apple review it|The App page under Own branding in the studio. Studio preview · sample data.}}\n      <p>The app runs on the same academy as your website, so a student who buys a course on your site finds it in the app, with the same test series, live classes and notes. You change your name, icon or colours in the studio, not through a developer. The Google Play Console and App Store Connect plugins connect your developer accounts, and you pay the store fees directly to Google and Apple: US$25 once for Play, US$99 a year for Apple.</p>\n      {{fig:android-ios-by-plan|AllCoaching plans and white-label apps for teachers: own Android app on every plan, own iOS app on Pro monthly and every yearly plan, with monthly and yearly prices excluding GST|Which plans include the Android and iOS app. Prices exclude 18% GST.}}\n      <p>Every plan starts with a 7-day free trial, no card needed. After that, the monthly plans take <strong>0% commission</strong>: Starter ₹3,999, Growth ₹5,999 or Pro ₹7,999 a month, and you keep 100% of each sale. The yearly plans cost ₹6,999, ₹12,999 or ₹24,999 a year with a 10%, 7.5% or 5% fee per sale, and every yearly plan includes the iOS app. No plan has a sales limit or a setup fee; prices exclude GST. The path is the same as for the whole academy: sign up, choose a plan, upload your course, connect your domain and start selling. See the <a href=\"/pricing\">pricing page</a> for every feature by plan.</p>\n      {{cta}}"
+  },
+  {
+   "id": "price-check",
+   "h2": "Which plan includes your own Android or iOS app on other Indian platforms?",
+   "toc": "Prices compared",
+   "html": "<p><strong>On the two Indian LMS platforms below, a branded Android app starts on plans of ₹14,999–₹17,999 a month billed monthly, and an iOS app on plans of ₹34,999–₹49,999 a month; on AllCoaching, your own Android app is on every plan from ₹3,999 a month and iOS from ₹7,999 a month or any yearly plan.</strong> The table shows each platform's own figures with the fee on sales beside them.</p>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Platform</th><th>Own branded Android app from</th><th>Own iOS app from</th><th>Fee on sales</th></tr></thead>\n          <tbody>\n            <tr><td>Learnyst<sup><a href=\"#ref-5\">[5]</a></sup></td><td>Premium, ₹14,999 a month billed monthly (₹13,499 billed annually)</td><td>Business, ₹49,999 a month billed monthly (₹44,999 billed annually)</td><td>0% on these plans; + taxes</td></tr>\n            <tr><td>Edmingle<sup><a href=\"#ref-6\">[6]</a></sup></td><td>Prime, ₹17,999 a month billed monthly (₹14,999 billed annually)</td><td>Power, ₹34,999 a month billed monthly (₹29,999 billed annually)</td><td>Not stated on the page; + taxes</td></tr>\n            <tr><td>AllCoaching</td><td>Every plan: Starter monthly ₹3,999 a month, or Starter yearly ₹6,999 a year + 10% per sale</td><td>Pro monthly ₹7,999 a month, or every yearly plan from ₹6,999 a year + 10% per sale</td><td>0% on monthly plans; 10%, 7.5% or 5% on yearly plans; + GST</td></tr>\n          </tbody>\n          <caption>From each platform's official pricing page, checked 24 October 2026 (AllCoaching: our own pricing page). Plans include different things and both pages add conditions; check them before you decide.</caption>\n        </table>\n      </div>\n      <p>Both pages carry conditions worth reading. Learnyst's notes say its apps are published under Learnyst's developer account, and Edmingle marks some app features as available on annual commitment. Compare the whole offer, not only the price line. For a full year-one budget, including agency builds and store fees, see our <a href=\"/blog/white-label-coaching-app-development-cost-india\">white label coaching app cost guide</a>, and for app-led platforms see our <a href=\"/blog/personal-coaching-app-alternative\">personal coaching app alternatives</a>.</p>"
+  },
+  {
+   "id": "android-or-ios",
+   "h2": "Do you need an Android app, an iOS app or both?",
+   "toc": null,
+   "html": "<p><strong>Start with Android if most of your students use Android phones; add iOS when a real share of your students or their parents use iPhones.</strong> Look at your own students before deciding, not at national averages.</p>\n      <p>Ask in your WhatsApp group which phone students use, or check the device report in your website analytics. A course for working professionals or NRI students can have a very different mix from a NEET batch in a tier-2 city. Your website works on every phone meanwhile.</p>"
+  },
+  {
+   "id": "mistakes",
+   "h2": "Common white-label app mistakes educators make",
+   "toc": "Mistakes to avoid",
+   "html": "<p><strong>The costly white-label mistakes are letting the app sit in someone else's developer account, signing without a data export, assuming iOS is included, accepting a ticket for every change, and leaving the twelve testers until launch week.</strong> Each one has a simple fix.</p>\n      {{fig:mistakes|Common white-label app mistakes educators make, such as an app on a vendor's account, no data export, iOS coming soon, every change as a ticket and no plan for 12 testers, with what to do instead|Five mistakes we see often, and the fix for each.}}\n      <p>One more belongs on the list: <strong>promising students a launch date.</strong> Store review sets the timing, so announce the app once it is live in the store.</p>"
+  },
+  {
+   "id": "after-launch",
+   "h2": "After your app is live: updates and installs",
+   "toc": "After launch",
+   "html": "<p><strong>Once your app is live, keep the brand consistent across the app, website and social channels, and give students a clear reason and a direct link to install it.</strong> An app nobody installs does nothing for your academy.</p>\n      <ul>\n        <li>Put the store link in your YouTube descriptions, Instagram bio and WhatsApp group description.</li>\n        <li>Keep your website on your own domain as the address you print and share; our guide to <a href=\"/blog/domain-name-for-coaching-institute\">choosing a domain name for your coaching institute</a> covers that part.</li>\n      </ul>\n      <p>Many students already have more apps than they use, so the reason matters more than the reminder: tests with all-India rank, live class notifications and every note in one place. Our guide on <a href=\"/blog/how-to-get-first-500-students-for-coaching-app\">getting your first 500 students for a coaching app</a> covers the install side step by step, and <a href=\"/blog/edtech-marketplace-india-app-fatigue\">why students resist new apps</a> explains the habit you are working against.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to get a white-label app for your academy",
+  "description": "Seven steps for an Indian educator to get a white-label app with their own name and icon, published under their own Google Play and App Store developer accounts.",
+  "total_time": "P14D",
+  "items": [
+   [
+    "Decide what the app must do",
+    "List what students will use it for, such as recorded courses, test series, live classes and notes, and check whether most of your students use Android or iPhone."
+   ],
+   [
+    "Choose a provider with the seven questions",
+    "Ask each white-label app provider whose developer account the app is published under, whether you can change it yourself, how data export works, which plan includes iOS, who handles store review, the yearly cost and what happens if you leave."
+   ],
+   [
+    "Open your own developer accounts",
+    "Register a Google Play Console account (US$25 once) and, if you need iOS, enrol in the Apple Developer Program (US$99 a year). Choose personal or organisation; organisation accounts need a D-U-N-S Number."
+   ],
+   [
+    "Set your brand",
+    "Add your academy name, icon and colours in the provider's panel. On AllCoaching this is Own branding, then App, in the studio."
+   ],
+   [
+    "Line up testers if Google asks for them",
+    "If your Play account is personal and new, run a closed test with at least 12 testers who stay opted in for at least 14 days before you apply for production access."
+   ],
+   [
+    "Publish on your own account",
+    "Publish the build yourself, or connect your Play Console and App Store Connect accounts so the provider can publish on your behalf with API access."
+   ],
+   [
+    "Pass store review, then share the link",
+    "Google and Apple review the app on their own timeline. Once it is live, share the store link on YouTube, Instagram and WhatsApp."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "What is a white label app for teachers?",
+   "A white label app for teachers is an app built on a platform's ready-made software but branded with the teacher's own name, icon and colours, and published under the teacher's own Google Play and App Store developer accounts. Students install it as the teacher's app, while the platform maintains the software."
+  ],
+  [
+   "Is a white-label app the same as having my own app?",
+   "On the student's phone, yes: it carries your name and icon. The difference is ownership of the software. You own your brand, content and student data, while the platform owns and maintains the code. Publishing under your own developer account keeps the store listing in your name."
+  ],
+  [
+   "Whose name appears as the developer of a white-label app?",
+   "The name of the developer account the app is published under. If it is your own account, the store shows your name or your academy's; on the App Store, Apple lists your legal name or your organisation's legal name as the seller. If a vendor publishes it under its own account, the vendor's name appears."
+  ],
+  [
+   "Do I need my own Google Play developer account?",
+   "To have the app listed under your name, yes. Google Play charges a US$25 one-time registration fee. You can register as a personal or an organisation account; organisation accounts need a D-U-N-S Number."
+  ],
+  [
+   "Why does Google ask for 12 testers before my app goes live?",
+   "Google requires personal Play Console accounts created after 13 November 2023 to run a closed test with at least 12 testers who stay opted in for at least 14 days before applying for production access. Colleagues, loyal students or family members with Android phones can be your testers."
+  ],
+  [
+   "Does AllCoaching include a white-label app on every plan?",
+   "Yes. Every AllCoaching plan includes your own white-label Android app. The iOS app is included on Pro monthly and every yearly plan. Monthly plans start at ₹3,999 a month with 0% commission, and yearly plans at ₹6,999 a year with a fee per sale; prices exclude GST."
+  ],
+  [
+   "Can AllCoaching publish the app for me?",
+   "Yes. The app is published on your own Google Play and App Store developer accounts, either by you or by AllCoaching with API access you grant through the Play Console and App Store Connect plugins. You pay the store fees directly to Google and Apple."
+  ],
+  [
+   "How long does app store approval take?",
+   "Google and Apple decide the timing, and no provider can promise an approval date. If you have a new personal Play account, add at least 14 days for the closed test. Announce your app once it is live in the store."
+  ],
+  [
+   "What happens to my app if I stop using the platform?",
+   "The store listing stays in your developer account, but the app depends on the platform to work. On AllCoaching, if you stop, your academy goes offline at the end of the paid period and you get 30 days to export your content and data or come back; after that, uploaded videos are deleted."
+  ]
+ ],
+ "glossary": [
+  [
+   "white-label-app",
+   "White-label app",
+   "An app built on a platform's shared software and rebranded with an educator's own name, icon and colours, usually published under the educator's own developer account."
+  ],
+  [
+   "marketplace-app",
+   "Marketplace app",
+   "One app, under the platform's brand, that lists many educators' courses side by side."
+  ],
+  [
+   "developer-account",
+   "Developer account",
+   "The account with Google Play or Apple that publishes an app. Its holder is shown as the app's developer or seller and controls the store listing."
+  ],
+  [
+   "play-console",
+   "Google Play Console",
+   "Google's console for publishing and managing Android apps on Google Play. Registration costs US$25 once."
+  ],
+  [
+   "app-store-connect",
+   "App Store Connect",
+   "Apple's tool for submitting and managing apps on the App Store, used with an Apple Developer Program membership."
+  ],
+  [
+   "closed-test",
+   "Closed test",
+   "A Google Play testing track open only to invited testers. New personal Play accounts must run one with at least 12 testers for 14 days before production."
+  ],
+  [
+   "store-review",
+   "Store review",
+   "Google's and Apple's check of an app against their policies before it is published. Timing is decided by the store."
+  ],
+  [
+   "duns",
+   "D-U-N-S Number",
+   "A unique business identifier from Dun &amp; Bradstreet that Google and Apple ask organisations for when they register a developer account."
+  ]
+ ],
+ "references": [
+  "Google, \"Play Console Help: Get started with Play Console\" (registration fee). <a href=\"https://support.google.com/googleplay/android-developer/answer/6112435?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked November 2026.",
+  "Google, \"Play Console Help: App testing requirements for new personal developer accounts\". <a href=\"https://support.google.com/googleplay/android-developer/answer/14151465?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked November 2026.",
+  "Apple, \"Apple Developer Program enrollment\" (seller name, annual fee, D-U-N-S). <a href=\"https://developer.apple.com/support/enrollment/\" target=\"_blank\" rel=\"noopener nofollow\">developer.apple.com</a>, checked November 2026.",
+  "Apple, \"App Review Guidelines\", guideline 4.2.6. <a href=\"https://developer.apple.com/app-store/review/guidelines/\" target=\"_blank\" rel=\"noopener nofollow\">developer.apple.com</a>, checked November 2026.",
+  "Learnyst, pricing. <a href=\"https://www.learnyst.com/pricing\" target=\"_blank\" rel=\"noopener nofollow\">learnyst.com/pricing</a>, checked 24 October 2026.",
+  "Edmingle, India pricing. <a href=\"https://www.edmingle.com/in/pricing/\" target=\"_blank\" rel=\"noopener nofollow\">edmingle.com/in/pricing</a>, checked 24 October 2026.",
+  "Google, \"Play Console Help: Required information to create a Play Console developer account\". <a href=\"https://support.google.com/googleplay/android-developer/answer/13628312?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked November 2026."
+ ],
+ "citations": [
+  "https://support.google.com/googleplay/android-developer/answer/6112435?hl=en",
+  "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+  "https://developer.apple.com/support/enrollment/",
+  "https://developer.apple.com/app-store/review/guidelines/",
+  "https://www.learnyst.com/pricing",
+  "https://www.edmingle.com/in/pricing/",
+  "https://support.google.com/googleplay/android-developer/answer/13628312?hl=en"
+ ],
+ "about": [
+  {
+   "name": "White-label product",
+   "sameAs": "https://en.wikipedia.org/wiki/White-label_product"
+  },
+  {
+   "name": "Mobile app",
+   "sameAs": "https://en.wikipedia.org/wiki/Mobile_app"
+  },
+  {
+   "name": "Google Play",
+   "sameAs": "https://en.wikipedia.org/wiki/Google_Play"
+  },
+  {
+   "name": "App Store",
+   "sameAs": "https://en.wikipedia.org/wiki/App_Store_(Apple)"
+  },
+  {
+   "name": "Online academy"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "Google Play Console",
+   "url": "https://play.google.com/console"
+  },
+  {
+   "name": "Apple Developer Program",
+   "url": "https://developer.apple.com/programs/"
+  },
+  {
+   "name": "Learnyst",
+   "url": "https://www.learnyst.com"
+  },
+  {
+   "name": "Edmingle",
+   "url": "https://www.edmingle.com"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/white-label-coaching-app-development-cost-india",
+  "/blog/how-to-make-coaching-app-without-coding",
+  "/blog/how-to-get-first-500-students-for-coaching-app",
+  "/blog/domain-name-for-coaching-institute"
+ ]
+}
