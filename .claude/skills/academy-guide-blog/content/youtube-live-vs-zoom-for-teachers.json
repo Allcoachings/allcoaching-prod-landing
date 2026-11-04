@@ -1,0 +1,284 @@
+{
+ "slug": "youtube-live-vs-zoom-for-teachers",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "YouTube Live vs Zoom for Teachers: Which to Use (2026)",
+ "description": "YouTube Live vs Zoom for teachers, compared: audience size, chat and breakout rooms, paid-only access, recordings, free-tier limits, and which to use for each class.",
+ "og_description": "An honest comparison of YouTube Live, Zoom and a built-in live classroom for Indian teachers: who can join, interaction, privacy for paid batches, recordings, low-bandwidth students, free-tier limits checked on their own pages, a decision table and a setup kit.",
+ "keywords": [
+  "youtube live vs zoom for teachers",
+  "best app for live classes india",
+  "zoom vs youtube live for online classes",
+  "live class platform for coaching",
+  "youtube live for teachers",
+  "zoom free tier 40 minute limit",
+  "how to take live classes online",
+  "unlisted youtube live for paid class",
+  "obs studio for teachers",
+  "built-in live classroom lms"
+ ],
+ "h1": "YouTube Live vs Zoom vs a Built-in Live Room: Which Should Teachers Use?",
+ "dek": "An honest comparison for Indian educators: audience size, interaction, privacy for paid batches, recordings, low-bandwidth students and free-tier limits, then a decision table for every kind of class and a setup kit that works with any of them.",
+ "category": "Growth & income",
+ "date_published": "2026-11-04",
+ "date_modified": "2026-11-04",
+ "checked": "4 Nov 2026",
+ "cover_alt": "YouTube Live vs Zoom for teachers vs a built-in live room inside your own academy, compared on reach, two-way interaction and paid-only access",
+ "audience": "Indian teachers, tutors and coaching institute owners choosing a platform for live online classes, from free public sessions to paid batches",
+ "author_note": "We run live classes through YouTube Live, Zoom and our own built-in classroom for educators every week, so this guide compares all three from the teacher's side; every YouTube and Zoom fact links to their own pages, checked 4 November 2026.",
+ "intro": [
+  "<strong>For most teachers, YouTube Live is best for free public classes and large webinars, Zoom is best for small sessions where students need to speak, and a built-in live room inside your own academy is best for paid batches, because only enrolled students can join and attendance and recordings stay in the course.</strong> Most educators end up using two of the three, each for a different job.",
+  "Maybe you teach Class 12 physics in Hindi and your free YouTube lives get a few hundred viewers, but your paid batch is still a Zoom link on WhatsApp. Or you teach spoken English and the free Zoom call cuts you off mid-sentence. The question is not which tool is better; it is which tool fits this class.",
+  "This guide compares the three on audience, interaction, privacy, recordings, low-bandwidth students and cost, using YouTube's and Zoom's own pages, then gives a decision table and a setup kit. If you mainly teach from a phone, read our companion guide on <a href=\"/blog/how-to-conduct-live-classes-on-mobile-apps\">how to conduct live classes on mobile apps</a>; this one is the decision guide."
+ ],
+ "takeaways": [
+  "<strong>YouTube Live reaches the most people</strong> and suits free public classes and webinars; to go live you need a verified channel and no live streaming restrictions in the past 90 days.",
+  "<strong>Zoom is built for two-way talk:</strong> microphones, cameras, chat and breakout rooms. Its free Basic plan allows 40 minutes and 100 participants per meeting, with local recording only (zoom.us/pricing, checked 4 Nov 2026).",
+  "<strong>An unlisted YouTube live is not private:</strong> YouTube says unlisted videos can be seen and shared by anyone with the link, so it does not protect a paid batch.",
+  "<strong>A built-in live room inside your academy</strong> admits only enrolled students and adds attendance, recordings, each student's name watermarked on the video and captions in Hindi, Punjabi and English.",
+  "<strong>Choose by the job:</strong> free public class or webinar → YouTube Live; small interactive session or doubt session → Zoom or the built-in room; paid batch → the built-in room.",
+  "<strong>Sound matters more than the camera.</strong> A wired mic, light in front of you, a stable connection and a 10-minute test run fix most problems on any platform.",
+  "<strong>On AllCoaching every plan includes unlimited live classes on YouTube Live or Zoom</strong>, plus built-in live classroom hours by plan: 20, 50 or 90 hours a month on monthly plans and 5, 10 or 15 on yearly plans."
+ ],
+ "sections": [
+  {
+   "id": "short-answer",
+   "h2": "YouTube Live vs Zoom for teachers: the short answer",
+   "toc": "The short answer",
+   "html": "<p><strong>YouTube Live is a broadcast: one teacher, any number of viewers, chat as the only way back. Zoom is a meeting: everyone can unmute, share a screen and split into rooms, but the group is smaller and the free tier is short. A built-in live room is a classroom inside your own academy: it is made for the students who paid.</strong></p>\n      {{fig:three-way|YouTube Live vs Zoom vs a built-in live room compared for teachers: best use, who can join, free-tier limit, recording, attendance and student name watermark|The three side by side. Summary of YouTube Help and zoom.us/pricing, checked 4 Nov 2026; built-in room as seen in the AllCoaching studio. Logos belong to their owners; Zoom is shown by name only.}}\n      <p>The question we hear most from educators setting up their academy is \"YouTube or Zoom?\". The honest answer is usually \"both, for different classes\". A free Sunday revision class for anyone preparing for NEET wants reach, so it belongs on YouTube. A 25-student paid batch wants attendance and a door that only opens for those 25, so it does not.</p>\n      <p>The rest of this guide goes factor by factor, so you can make the call for your own subject, batch size and students.</p>"
+  },
+  {
+   "id": "audience",
+   "h2": "Audience size: how many students can join each one?",
+   "toc": "Audience size",
+   "html": "<p><strong>YouTube Live is a broadcast built for large audiences, which is why it suits free public classes and webinars; Zoom's free Basic plan allows 100 participants per meeting, and so does its Pro plan.</strong><sup><a href=\"#ref-5\">5</a></sup> Zoom's pricing page lists 300 participants on its Business plan and mentions a Large Meeting add-on for bigger groups.</p>\n      <p>Audience also means discovery. A public YouTube live can appear on your channel, in search and in recommendations, so a strong free class can bring students who have never heard of you. A Zoom meeting is invisible to anyone without the link; you bring every participant yourself, usually from a WhatsApp group or Instagram.</p>\n      <ul>\n        <li><strong>Hundreds or thousands of viewers, mostly listening:</strong> YouTube Live.</li>\n        <li><strong>Up to around 100, and they need to talk:</strong> Zoom.</li>\n        <li><strong>Your paid batch, whatever its size:</strong> a live room that checks enrolment before it lets anyone in.</li>\n      </ul>\n      <p>If your free classes are the top of your funnel, our guide to <a href=\"/blog/how-to-get-paid-students-for-online-coaching-free\">getting paid students for online coaching without ads</a> shows how to turn those viewers into enrolments.</p>"
+  },
+  {
+   "id": "interaction",
+   "h2": "Interaction: chat, polls, breakout rooms and whiteboard",
+   "toc": "Interaction",
+   "html": "<p><strong>Zoom gives students a voice and a camera, plus breakout rooms and whiteboards even on the free tier; YouTube Live gives them a chat box and a delay, so questions arrive a few seconds after you finish the sentence.</strong> For a doubt session, that difference decides everything.</p>\n      <p>Zoom's pricing page lists breakout rooms and three editable whiteboards on the free Basic plan; polling is listed on Pro and higher plans, not on Basic.<sup><a href=\"#ref-5\">5</a></sup> Students can raise a hand, unmute to ask a doubt, or work in small groups and come back.</p>\n      <p>On YouTube, the gap between you speaking and students seeing it is called latency. YouTube offers three settings when you stream with an encoder.</p>\n      <div class=\"v3-quote\">\n        <p>\"Most viewers of an ultra-low latency stream will experience latency less than 5 seconds.\"</p>\n        <cite>YouTube Help, Understand live streaming latency, checked 4 Nov 2026<sup><a href=\"#ref-3\">[3]</a></sup></cite>\n      </div>\n      <p>For low latency, YouTube says most viewers see a delay of less than 10 seconds, and neither low nor ultra-low latency supports 4K.<sup><a href=\"#ref-3\">3</a></sup> Webcam and mobile streams are always set up for interactivity, so you cannot choose a latency for them. For a class, pick ultra-low latency if you take questions in chat, and normal latency for a lecture where quality matters more than replies.</p>\n      {{q:Can I run a doubt session on YouTube Live?|You can, through chat, and it works for quick questions. For doubts that need a student to explain their working or share a photo of their notebook, a meeting-style room such as Zoom or a built-in live classroom is easier, because the student can speak.}}"
+  },
+  {
+   "id": "privacy",
+   "h2": "Privacy and paid access: who can actually join your class?",
+   "toc": "Privacy and paid access",
+   "html": "<p><strong>A public YouTube live is open to everyone, an unlisted one is open to anyone who has the link, and a Zoom meeting is open to anyone with the link and passcode; only a live room that checks enrolment keeps a paid batch paid.</strong> This is the factor most teachers discover late, usually when the link turns up in a Telegram channel.</p>\n      <div class=\"v3-quote\">\n        <p>\"Unlisted videos and playlists can be seen and shared by anyone with the link.\"</p>\n        <cite>YouTube Help, Change video privacy settings, checked 4 Nov 2026<sup><a href=\"#ref-4\">[4]</a></sup></cite>\n      </div>\n      <p>The same page says people you share an unlisted video with do not need a Google account to watch it, and that private videos can only be seen by you and the people you choose.<sup><a href=\"#ref-4\">4</a></sup> Private works for a handful of known accounts, but you add and remove people by hand, which does not scale to a batch that changes every month.</p>\n      {{fig:access-matrix|Live class privacy for teachers: YouTube public is open to all, YouTube unlisted and a forwarded link can leak, YouTube private and a Zoom meeting are managed by hand, a built-in live room admits enrolled students only|Who can join each kind of live class. Summary of YouTube Help, checked 4 Nov 2026.}}\n      <div class=\"v3-pair\">\n        <div class=\"yes\"><h4>Fine on an open link</h4><p>Free sample classes, orientation sessions, a free chapter, a webinar for parents, an Instagram or YouTube audience you want to grow.</p></div>\n        <div class=\"no\"><h4>Needs a locked door</h4><p>Paid batches, test discussions, premium doubt sessions and anything a student paid for. Here, access should follow enrolment, not a link.</p></div>\n      </div>"
+  },
+  {
+   "id": "recordings",
+   "h2": "Recordings and students on low bandwidth",
+   "toc": "Recordings and data",
+   "html": "<p><strong>A YouTube live is saved to your channel once it ends, Zoom's free tier records only to your own computer, and a built-in live room saves the recording inside the academy where enrolled students can rewatch it.</strong><sup><a href=\"#ref-5\">5</a></sup> Where the recording lives decides whether a student who missed class can catch up without you sending files around.</p>\n      <p>On Zoom's free tier, a local recording means a large video file on your laptop that you then upload somewhere and share. That is fine once a week; it gets heavy with three batches a day.</p>\n      <h3>Students on slow mobile data</h3>\n      <p>Many of your students join from a phone on mobile data, in a hostel or a small town. A broadcast is lighter on them than a meeting: on YouTube a student only receives video and can lower the quality in the player, while in a meeting every camera that stays on uses upload and download on both sides.</p>\n      <ul>\n        <li><strong>In meetings,</strong> ask students to keep cameras off unless they are speaking.</li>\n        <li><strong>Teach with large, clear slides</strong> or a dark-on-white board, so a low-quality stream is still readable.</li>\n        <li><strong>Always offer the recording</strong> for students whose connection drops; for many, the replay is the real class.</li>\n      </ul>"
+  },
+  {
+   "id": "cost",
+   "h2": "What each one costs: free-tier limits and eligibility",
+   "toc": "Cost and limits",
+   "html": "<p><strong>YouTube Live costs nothing but has eligibility rules; Zoom's free Basic plan limits every meeting to 40 minutes and 100 participants; a built-in live room comes with an academy plan.</strong> Here are the rules as each company states them, checked on 4 November 2026.</p>\n      <h3>YouTube Live eligibility</h3>\n      <div class=\"v3-quote\">\n        <p>\"To live stream, you need to have no live streaming restrictions in the past 90 days and you need to verify your channel.\"</p>\n        <cite>YouTube Help, Get started with live streaming, checked 4 Nov 2026<sup><a href=\"#ref-1\">[1]</a></sup></cite>\n      </div>\n      <p>The same page says you must be at least 16 years old to live stream.<sup><a href=\"#ref-1\">1</a></sup> Going live from a phone has extra requirements: YouTube's mobile page asks for at least 50 subscribers, a verified channel, live streaming turned on, no restrictions in the last 90 days, and an Android 8.0+ or iOS 8+ device, and says you may need to wait 24 hours before your first live stream.<sup><a href=\"#ref-2\">2</a></sup> So enable live streaming at least a day before your first class, and if your channel is new, start from a laptop with a webcam or an encoder instead of the phone.</p>\n      <h3>Zoom's free tier</h3>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Zoom plan (as listed)</th><th>Meeting length</th><th>Participants</th><th>Recording</th></tr></thead>\n          <tbody>\n            <tr><td>Basic (free)</td><td>40 minutes per meeting</td><td>100 per meeting</td><td>Local</td></tr>\n            <tr><td>Pro (paid)</td><td>30 hours</td><td>100 per meeting</td><td>Local and 10 GB cloud (per licence)</td></tr>\n          </tbody>\n          <caption>From zoom.us/pricing, checked 4 Nov 2026. Paid prices vary by region and billing; check the page in your own currency before you buy.</caption>\n        </table>\n      </div>\n      <p>A 40-minute cap is enough for a short doubt session, but a 90-minute coaching class would need three separate meetings and three links. If Zoom is your main classroom, budget for a paid plan.</p>"
+  },
+  {
+   "id": "built-in-room",
+   "h2": "What a built-in live classroom inside your academy adds",
+   "toc": "Built-in live room",
+   "html": "<p><strong>A built-in live classroom runs inside your own academy, so the class opens only for students enrolled in that course, attendance is recorded, the recording stays in the course, and each student's name is watermarked on the video.</strong> It solves the paid-access problem that open links cannot.</p>\n      {{fig:built-in-room|Built-in live classroom inside an online academy: paid-only access for enrolled students, attendance, recordings saved for revision, each student's name watermarked on the video and captions in Hindi, Punjabi and English|What the AllCoaching built-in live classroom adds, as seen in the studio. Illustrative screen.}}\n      <ul>\n        <li><strong>Paid-only access:</strong> students join from their course, after logging in, so a forwarded link does not let a stranger in.</li>\n        <li><strong>Attendance:</strong> you can see who joined each class without taking a roll call.</li>\n        <li><strong>Recordings:</strong> each class is saved for revision inside the same course.</li>\n        <li><strong>Name watermark:</strong> each student's own name appears on the video, so a reshared screen recording shows whose account it came from.</li>\n        <li><strong>Captions:</strong> in Hindi, Punjabi and English, useful for noisy rooms, low volume and revision.</li>\n      </ul>\n      <p>On AllCoaching, every plan includes unlimited live classes on YouTube Live or Zoom through the built-in integrations, plus built-in live classroom hours by plan: Starter, Growth and Pro monthly plans include 20, 50 and 90 hours a month, and the yearly plans 5, 10 and 15 hours a month. So you can keep free classes on YouTube, run doubt sessions on Zoom, and put the paid batch in the built-in room, all from one studio.</p>\n      {{fig:hours-by-plan|Built-in live classroom hours by AllCoaching plan: monthly Starter 20, Growth 50 and Pro 90 hours a month; yearly Starter 5, Growth 10 and Pro 15 hours a month|Built-in live classroom hours a month by plan. YouTube Live and Zoom classes are unlimited on every plan.}}\n      <p>Every plan starts with a 7-day free trial, no card needed. After that, monthly plans take 0% commission, from ₹3,999 a month, or yearly plans start at ₹6,999 a year with a fee per sale; prices exclude GST. The <a href=\"/pricing\">pricing page</a> lists every plan.</p>\n      {{cta}}"
+  },
+  {
+   "id": "decision",
+   "h2": "Which to use: free class, paid batch, doubt session or webinar",
+   "toc": "Decision table",
+   "html": "<p><strong>Use YouTube Live for free public classes and large webinars, Zoom for small sessions where students must speak, and a built-in live room for paid batches; a doubt session can go to Zoom or the built-in room depending on whether it is paid.</strong> The table below covers the classes most educators run.</p>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Kind of class</th><th>Use</th><th>Why</th></tr></thead>\n          <tbody>\n            <tr><td>Free public class or free chapter</td><td>YouTube Live (public)</td><td>Reach and discovery; the recording keeps working on your channel</td></tr>\n            <tr><td>Large webinar or orientation for parents</td><td>YouTube Live</td><td>Many viewers, mostly listening; questions in chat</td></tr>\n            <tr><td>Small free class with discussion</td><td>Zoom</td><td>Students can unmute; fine within the free tier's 40 minutes</td></tr>\n            <tr><td>Paid batch, daily or weekly</td><td>Built-in live room</td><td>Enrolled students only, attendance, recording in the course, name watermark</td></tr>\n            <tr><td>Paid doubt session</td><td>Built-in room, or Zoom with the link shared only inside the course</td><td>Two-way talk, and the session stays behind enrolment</td></tr>\n            <tr><td>Group activity, speaking practice</td><td>Zoom (breakout rooms)</td><td>Small groups, then back together</td></tr>\n          </tbody>\n          <caption>A starting point, not a rule. Check limits on each platform's own page before you plan a series.</caption>\n        </table>\n      </div>\n      {{fig:decision-tree|Decision tree for teachers choosing a live class platform: free classes with hundreds of viewers on YouTube Live, small free classes on Zoom, doubt sessions on Zoom with access control, paid batches in a built-in live room|Two questions decide most cases: is it paid, and do students need to speak? The mix shown is illustrative.}}\n      <p>A pattern that works for many educators: a free weekly class on YouTube Live brings new students, a paid batch runs in the academy, and the free class ends with one clear link to the course. Our <a href=\"/blog/online-course-launch-plan\">30-day online course launch plan</a> shows how to schedule those free lives around a launch.</p>"
+  },
+  {
+   "id": "setup",
+   "h2": "How to set up your first live class: 7 steps",
+   "toc": "Setup in 7 steps",
+   "html": "<p><strong>Decide the job of the class, check the platform's eligibility and limits, fix sound and light, set up your camera and screen in the app or OBS, set access, do a test run, then go live and file the recording.</strong> None of it needs expensive equipment.</p>\n      {{steps}}\n      {{fig:setup-kit|Live class setup kit for teachers: microphone, lighting, camera at eye level, stable internet, OBS Studio, a second screen for chat, a backup hotspot and a test run|The setup kit, in order of importance. Sound first, then light, then picture.}}\n      <h3>OBS basics</h3>\n      <p>OBS Studio is a free, open-source app for Windows, macOS and Linux that combines your camera, screen and microphone into one stream. Its <a href=\"https://obsproject.com/kb/quick-start-guide\" target=\"_blank\" rel=\"noopener nofollow\">quick start guide</a> explains that you begin with a blank scene and add sources such as a webcam, a window or an image, and that an auto-configuration wizard sets it up on first launch. For a class, make two scenes: \"Board\" (screen or document camera with your face in a corner) and \"Face\" (camera only) for the start and the end.</p>\n      <p>To stream to YouTube, copy the stream key from YouTube Studio's live control room and paste it in OBS under Settings, Stream. Treat the stream key like a password: anyone who has it can broadcast to your channel. Zoom does not need OBS; share your screen from inside the meeting.</p>\n      <h3>Mic, lighting and internet</h3>\n      <ul>\n        <li><strong>Mic:</strong> a wired lapel mic or a USB mic close to your mouth beats any built-in laptop mic. Students forgive a soft picture; they leave over bad sound.</li>\n        <li><strong>Lighting:</strong> face a window or a soft lamp; never sit with a window behind you.</li>\n        <li><strong>Internet:</strong> use a cable or sit near the router, close other apps, and keep a charged phone hotspot as backup.</li>\n      </ul>\n      <p>If you are recording a full course alongside your live classes, our guide to <a href=\"/blog/create-your-first-online-course-india\">creating your first online course in India</a> covers planning lessons and recording them well.</p>"
+  },
+  {
+   "id": "mistakes",
+   "h2": "Common live class mistakes teachers make",
+   "toc": "Mistakes to avoid",
+   "html": "<p><strong>The common mistakes are running a paid class on an unlisted or forwarded link, planning a long class on a free tier with a time limit, going live without a test, spending on a camera before a mic, and having no plan for the recording.</strong> Each one is easy to fix.</p>\n      {{fig:mistakes|Common live class mistakes with YouTube Live and Zoom: paid class on an unlisted link, a 2-hour class on free Zoom, going live untested, a bad mic, no recording plan, and what to do instead|Five mistakes and their fixes.}}\n      <ul>\n        <li><strong>Paid class on an open link.</strong> Put paid batches behind enrolment.</li>\n        <li><strong>Ignoring the time limit.</strong> Check the free tier's meeting length before you announce a 90-minute class.</li>\n        <li><strong>No test run.</strong> Ten minutes alone, on the same device and network, the day before.</li>\n        <li><strong>Camera first, mic later.</strong> Fix sound first.</li>\n        <li><strong>No recording plan.</strong> Decide before the class where the replay will live, and add it to the course the same day.</li>\n      </ul>\n      <p>None of these tools will fill a batch on their own. What you control is a class that is easy to join, easy to hear, and easy to rewatch, behind the right door.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to set up a live online class as a teacher",
+  "description": "Seven steps to choose a platform and run a live class on YouTube Live, Zoom or a built-in live room, from eligibility to the recording.",
+  "total_time": "P1D",
+  "items": [
+   [
+    "Decide the job of the class",
+    "Write down whether the class is free or paid, how many students you expect and whether they need to speak. Free and large points to YouTube Live, small and interactive to Zoom, paid to a live room that checks enrolment."
+   ],
+   [
+    "Check eligibility and limits",
+    "For YouTube, verify your channel and turn on live streaming at least a day early; mobile streaming has extra requirements. For Zoom, check the meeting length and participant limit of your plan."
+   ],
+   [
+    "Fix sound and light",
+    "Use a wired lapel or USB mic close to your mouth, face a window or a soft lamp, and put the camera at eye level."
+   ],
+   [
+    "Set up camera and screen",
+    "In OBS Studio, make a Board scene with your screen and a small camera window, and a Face scene; paste your YouTube stream key under Settings, Stream. In Zoom or a built-in room, use screen share."
+   ],
+   [
+    "Set access",
+    "Use public for free classes. For paid batches, schedule the class inside the course so only enrolled students can join, and never post the link in open groups."
+   ],
+   [
+    "Do a test run",
+    "Go live alone for ten minutes on the same device and network, watch it on a phone on mobile data, and check sound, slides and chat."
+   ],
+   [
+    "Go live, then file the recording",
+    "Start on time, take questions at fixed points, end with one clear next step, and add the recording to the course the same day."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "Which is better for teachers, YouTube Live or Zoom?",
+   "Neither is better for every class. YouTube Live is better for free public classes and large webinars because it reaches more people. Zoom is better for small sessions where students need to speak, share a screen or work in breakout rooms. For paid batches, a live room that admits only enrolled students is safer than either open link."
+  ],
+  [
+   "What is the best app for live classes in India?",
+   "The best app depends on the class. For free reach, YouTube Live; for small interactive sessions, Zoom; for paid batches, a live classroom inside your own academy that checks enrolment, records attendance and saves the recording in the course."
+  ],
+  [
+   "How long can a free Zoom meeting last?",
+   "Zoom's pricing page lists the free Basic plan at 40 minutes per meeting and 100 participants per meeting, with local recording, checked on 4 November 2026. Paid plans list longer meetings."
+  ],
+  [
+   "What do I need to go live on YouTube?",
+   "YouTube says you need a verified channel and no live streaming restrictions in the past 90 days, and you must be at least 16. To stream from a phone, YouTube also asks for at least 50 subscribers, and you may need to wait 24 hours before your first live stream."
+  ],
+  [
+   "Is an unlisted YouTube live safe for a paid class?",
+   "No. YouTube says unlisted videos can be seen and shared by anyone with the link, and viewers do not need a Google account. A paid batch needs a room that checks whether the student is enrolled."
+  ],
+  [
+   "Can students ask questions on YouTube Live?",
+   "Yes, through live chat. Choose ultra-low latency in YouTube Studio when you stream with an encoder, so most viewers see the class with a delay of less than 5 seconds and questions arrive sooner."
+  ],
+  [
+   "Do I need OBS to teach live?",
+   "No. You can go live on YouTube from a webcam or phone, and share your screen directly in Zoom. OBS Studio is useful when you want to combine your screen, camera and slides into one YouTube stream."
+  ],
+  [
+   "Does AllCoaching support YouTube Live and Zoom?",
+   "Yes. Every AllCoaching plan includes unlimited live classes on YouTube Live or Zoom, plus built-in live classroom hours: 20, 50 or 90 hours a month on monthly plans and 5, 10 or 15 hours a month on yearly plans."
+  ],
+  [
+   "What does a built-in live classroom add over Zoom?",
+   "It runs inside your academy, so only students enrolled in the course can join. It records attendance, saves the recording in the course, watermarks each student's name on the video and offers captions in Hindi, Punjabi and English."
+  ]
+ ],
+ "glossary": [
+  [
+   "rtmp",
+   "RTMP",
+   "Real-Time Messaging Protocol, the common way an encoder such as OBS sends a live video stream to a platform like YouTube."
+  ],
+  [
+   "stream-key",
+   "Stream key",
+   "A private code from the streaming platform that tells it which channel your encoder is broadcasting to. Anyone with it can stream to your channel, so keep it secret."
+  ],
+  [
+   "encoder",
+   "Encoder",
+   "Software or hardware that turns your camera, screen and microphone into a live stream. OBS Studio is a free software encoder."
+  ],
+  [
+   "obs",
+   "OBS Studio",
+   "A free, open-source app for recording and live streaming that combines scenes and sources such as a webcam, a screen and images."
+  ],
+  [
+   "unlisted",
+   "Unlisted",
+   "A YouTube privacy setting where a video or live stream does not appear in search or on your channel, but anyone with the link can watch and share it."
+  ],
+  [
+   "breakout-room",
+   "Breakout room",
+   "A smaller sub-meeting inside a video meeting where a few participants work together before returning to the main room."
+  ],
+  [
+   "latency",
+   "Latency",
+   "The delay between something happening in front of your camera and viewers seeing it. Lower latency makes live chat feel closer to a conversation."
+  ],
+  [
+   "bitrate",
+   "Bitrate",
+   "The amount of video data sent each second. A higher bitrate looks sharper but needs a faster, steadier connection."
+  ],
+  [
+   "local-recording",
+   "Local recording",
+   "A meeting recording saved as a file on the host's own computer rather than in the cloud."
+  ]
+ ],
+ "references": [
+  "YouTube, \"Get started with live streaming\", YouTube Help. <a href=\"https://support.google.com/youtube/answer/2474026?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked 4 November 2026.",
+  "YouTube, \"Create a live stream on mobile\", YouTube Help. <a href=\"https://support.google.com/youtube/answer/9228390?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked 4 November 2026.",
+  "YouTube, \"Understand live streaming latency\", YouTube Help. <a href=\"https://support.google.com/youtube/answer/7444635?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked 4 November 2026.",
+  "YouTube, \"Change video privacy settings\", YouTube Help. <a href=\"https://support.google.com/youtube/answer/157177?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked 4 November 2026.",
+  "Zoom, \"Plans &amp; Pricing\". <a href=\"https://zoom.us/pricing\" target=\"_blank\" rel=\"noopener nofollow\">zoom.us/pricing</a>, checked 4 November 2026."
+ ],
+ "citations": [
+  "https://support.google.com/youtube/answer/2474026?hl=en",
+  "https://support.google.com/youtube/answer/9228390?hl=en",
+  "https://support.google.com/youtube/answer/7444635?hl=en",
+  "https://support.google.com/youtube/answer/157177?hl=en",
+  "https://zoom.us/pricing",
+  "https://obsproject.com/kb/quick-start-guide"
+ ],
+ "about": [
+  {
+   "name": "Live streaming",
+   "sameAs": "https://en.wikipedia.org/wiki/Live_streaming"
+  },
+  {
+   "name": "YouTube",
+   "sameAs": "https://en.wikipedia.org/wiki/YouTube"
+  },
+  {
+   "name": "Zoom (software)",
+   "sameAs": "https://en.wikipedia.org/wiki/Zoom_(software)"
+  },
+  {
+   "name": "Online learning",
+   "sameAs": "https://en.wikipedia.org/wiki/Online_learning_in_higher_education"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "YouTube Live",
+   "url": "https://www.youtube.com/"
+  },
+  {
+   "name": "Zoom",
+   "url": "https://zoom.us/"
+  },
+  {
+   "name": "OBS Studio",
+   "url": "https://obsproject.com/",
+   "type": "SoftwareApplication"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/how-to-conduct-live-classes-on-mobile-apps",
+  "/blog/create-your-first-online-course-india",
+  "/blog/online-course-launch-plan",
+  "/blog/how-to-get-paid-students-for-online-coaching-free"
+ ]
+}

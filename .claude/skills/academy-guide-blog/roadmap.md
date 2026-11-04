@@ -28,10 +28,10 @@ How the list was made:
 | 15 | Marketing | Meta Ads for Coaching Institutes in India: Facebook and Instagram Guide (2026) | meta ads for coaching institute | NEW | **Live 2026-10-25** (`blog/meta-ads-for-coaching-institutes`) |
 | 16 | Marketing | Online Academy SEO: The Beginner's Guide for Indian Educators (2026) | online academy seo / seo for coaching institute | DONE | **Live 2026-10-24** (add "SEO for coaching institutes" as a secondary keyword) |
 | 17 | Marketing | Google Business Profile for Coaching Centres: Local SEO Guide | google business profile for coaching centre | NEW | **Live 2026-11-01** (`blog/google-business-profile-for-coaching-centre`) |
-| 18 | Marketing | How to Get Students Without Paid Ads: Organic Growth Playbook for Educators | get students online without ads | REFRESH `blog/how-to-get-paid-students-for-online-coaching-free` | Planned |
+| 18 | Marketing | How to Get Students Without Paid Ads: Organic Growth Playbook for Educators | get students online without ads | REFRESH `blog/how-to-get-paid-students-for-online-coaching-free` | **Live 2026-11-04** (`blog/how-to-get-paid-students-for-online-coaching-free`) |
 | 19 | Growth & income | How Much Do Online Educators Earn in India? (+ Income Calculator) | online coaching income india | REFRESH `blog/how-much-can-you-earn-teaching-online-india` + calculator | **Live 2026-10-27** (`blog/how-much-can-you-earn-teaching-online-india`) |
-| 20 | Growth & income | How to Grow Your Online Coaching from 50 to 1,000 Students | grow online coaching students | NEW (link `how-to-get-first-500-students-for-coaching-app`) | Planned |
-| 21 | Growth & income | Live Classes Online: YouTube Live vs Zoom vs a Built-in Live Room | youtube live vs zoom for teachers | NEW (link `how-to-conduct-live-classes-on-mobile-apps`) | Planned |
+| 20 | Growth & income | How to Grow Your Online Coaching from 50 to 1,000 Students | grow online coaching students | NEW (link `how-to-get-first-500-students-for-coaching-app`) | **Live 2026-11-04** (`blog/grow-online-coaching-students`) |
+| 21 | Growth & income | Live Classes Online: YouTube Live vs Zoom vs a Built-in Live Room | youtube live vs zoom for teachers | NEW (link `how-to-conduct-live-classes-on-mobile-apps`) | **Live 2026-11-04** (`blog/youtube-live-vs-zoom-for-teachers`) |
 
 20 to do (15 new, 5 refreshes) + 1 live.
 
