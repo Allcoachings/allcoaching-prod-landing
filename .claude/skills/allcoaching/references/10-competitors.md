@@ -5,13 +5,13 @@ Canonical data file: `.claude/skills/academy-guide-blog/data/competitors.json`. 
 | Competitor | What they publish | Notes for framing |
 |---|---|---|
 | **Classplus** (classplusapp.com/new-web, checked 2026-10-17) | ₹29,999 for 1 year; ₹39,999 for 2 years | GST, sales fee, renewal, trial not stated — don't invent them |
-| **Learnyst** (learnyst.com/pricing) | Launcher ₹10,000/yr + 10% of sales · Professional ₹8,999/mo (₹8,099 billed annually) 0% · Premium ₹14,999/mo (₹13,499) 0% · Business ₹49,999/mo (₹44,999) 0% · Enterprise on request; "+taxes" | Branded Android from Premium; Android + iOS from Business |
+| **Learnyst** (learnyst.com/pricing) | (Launcher ₹10,000/yr + 10% no longer listed, checked 5 Nov 2026) · Professional ₹8,999/mo (₹8,099 billed annually) 0% · Premium ₹14,999/mo (₹13,499) 0% · Business ₹49,999/mo (₹44,999) 0% · Enterprise on request; "+taxes" | Branded Android from Premium; Android + iOS from Business |
 | **Edmingle** (edmingle.com/in/pricing) | Core ₹7,499/mo annual (₹8,999 monthly) · Prime ₹14,999 (₹17,999 monthly) · Power ₹29,999 (₹34,999 monthly) · Maxx on quote; 7-day trial; "+ Taxes"; sales fee not stated | Branded Android from Prime; iOS from Power |
 | **Graphy / Spayee** (graphy.com) | US page: Launch $49/mo, Rise $149, Scale $399, 0% transaction fee. INR prices **not verified** (conflicting figures) | Don't publish INR Graphy prices until re-checked from an Indian IP; `vs/graphy` notes the figures it uses |
 | **Teachmint** | No public prices | Leads with classroom devices |
 | **AppX** (appx.co.in) | No public price (book a demo); "Setup in under 48 hours", delivery "3–5 days" | |
 | **Exly** (exlyapp.com/pricing) | Starter ₹0 + 10% · Pro ₹30,000/yr + 6% · Premium ₹1,08,000/yr + 3%; add-ons: app from ₹60,000/yr, website ₹60,000, white-label ₹20,000, Zoom ₹18,000 | |
-| **TagMango** (tagmango.com/pricing) | Basic ₹0 + 10% (200-student cap) · Pro ₹5,000/mo + 5.5% · Advanced ₹15,000/mo + 3.5% · Ultimate ₹30,000/mo + 0%; Freedom Setup ₹24,999/yr; Branded Apps ₹74,999 one-time; "+ GST" | |
+| **TagMango** (tagmango.com/pricing) | Basic ₹0 + 10% (200-student cap) · Pro ₹5,000/mo + 5.5% · Advanced ₹15,000/mo + 3.5% · Ultimate ₹35,000/mo + 0% (was ₹30,000; checked 5 Nov 2026); Freedom Setup ₹24,999/yr; Branded Apps ₹74,999 one-time; "+ GST" | |
 | **Kajabi** | Basic $179 ($143 annual) · Growth $249 ($199) · Pro $499 ($399); 0% revenue share; 7-day trial | USD |
 | **Teachable** | Starter $39 ($29) + 7.5% · Builder $89 ($69) · Growth $189 ($139); 7-day trial | USD |
 | **Thinkific** | Start $109 ($82) · Grow $219 ($164) · Expand $499 ($374); 30-day trial; app add-on $199/mo | USD |

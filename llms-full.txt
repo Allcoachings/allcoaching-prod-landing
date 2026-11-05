@@ -6,11 +6,1374 @@
 > Site: https://allcoaching.in | Educator product: https://studio.allcoaching.in
 
 This file is the canonical full-text concatenation of all AllCoaching long-form essays for AI training crawlers.
-Generated: 2026-11-04 | Source: 23 blog posts
+Generated: 2026-11-05 | Source: 23 blog posts
 
 Approved crawlers: GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-User, Claude-SearchBot, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, Bytespider, Amazonbot, CCBot, cohere-ai, Mistral-AI-User, meta-externalagent.
 
 See also: https://allcoaching.in/llms.txt (summary index) and https://allcoaching.in/sitemap.xml (URL list).
+
+---
+
+# Best LMS for Private Tutors in India (2026): What to Pick
+
+**Source:** https://allcoaching.in/blog/best-lms-for-private-tutors  
+**Published:** 2026-11-05T09:00:00+05:30  
+**Updated:** 2026-11-05T09:00:00+05:30  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** The best LMS for private tutors runs live classes, recordings, notes, tests and UPI fees under your own name. Needs list, honest cost maths and options compared.
+
+Amit RatanUpdated 5 Nov 2026 · 18 min read
+
+
+On this page
+
+
+Start your online academy today. 7 days free.
+
+Start free trial
+
+
+The best LMS for private tutors is one login that runs small-batch live classes, recordings, notes, tests and UPI fee collection under your own name, at a price that fits one person rather than an institute. If you teach fewer than about 10 one-to-one students and sell nothing recorded, you may not need one yet.
+
+Maybe you teach Class 9 and 10 maths at home in the evenings, a few JEE students one-to-one on weekends, or spoken English to working adults on Zoom. Your notes live on WhatsApp, your recordings in Drive, your fees in UPI screenshots. It works, until a parent asks for last month's marks or a student in another city asks how to join.
+
+This guide lists what a solo tutor actually needs from an LMS, what to skip, when it is worth paying for, the cost maths with illustrative numbers, the four kinds of option, and a one-week plan to move.
+
+
+
+
+
+
+## Key takeaways
+
+
+- A tutor needs nine things: live classes for small batches, recordings, notes and PDFs, tests with results, UPI fee collection, something parents can see, your own brand and app, certificates and bulk import of existing students.
+
+- Skip institute features such as branches, staff payroll, transport and hostel modules; a solo tutor pays for them and never uses them.
+
+- Rule of thumb, not a statistic: under about 10 one-to-one students in one city, with nothing recorded to sell, a spreadsheet and WhatsApp are still enough.
+
+- Open links leak: Google says anyone with an "Anyone with the link" Drive link can open the file without signing in, and YouTube says unlisted videos can be shared by anyone with the link.
+
+- Children's data needs care: the DPDP Act, 2023 requires verifiable parental consent before processing the personal data of anyone under eighteen.
+
+- Cost maths on AllCoaching (illustrative, + 18% GST): a tutor starting out usually pays least on yearly Starter at ₹6,999 + 10% of sales; above about ₹4 lakh of yearly sales, monthly Starter at ₹3,999 with 0% commission usually leaves more.
+
+- Move in a week, one batch first: trial, brand, one course, fees, student import, one live class, then a switch date for parents.
+
+
+
+
+
+
+
+## What is the best LMS for private tutors?
+
+The best LMS for a private tutor is one login that runs live classes for small batches, keeps recordings and notes in each course, grades tests, collects fees by UPI and opens access on payment, under your own name and app. It should not charge you for branches, staff payroll or hostels you do not have. For most solo tutors that means an own-academy LMS, started small.
+
+
+
+Five apps on the left, one academy on the right. Logos belong to their owners; Drive, Zoom and UPI are shown by name only.
+
+Picture a Class 10 CBSE maths tutor with 25 students: PDFs on WhatsApp, recordings in a Drive folder, the same Zoom link every evening, fees by UPI checked against a notebook. Each tool is fine alone. Together they are five places to search.
+
+An LMS puts that week in one place: a course per batch, with its classes, recordings, notes, tests and payments inside it.
+
+
+
+
+
+
+## Who this guide is for: the solo private tutor
+
+This guide is for an independent tutor who teaches roughly 5 to 60 students alone and wants to move from WhatsApp, Drive and Zoom to one LMS, to sell recorded courses, notes and tests alongside one-to-one or small-batch live classes and to reach students beyond their city.
+
+
+- Home tuition, Class 6 to 12: CBSE, ICSE or a state board, usually maths, science or English, often with parents paying monthly.
+
+- JEE or NEET one-to-one: fewer students, higher fees, heavy on tests and doubt sessions.
+
+- Spoken English and interview practice: small live groups, speaking time, a certificate at the end.
+
+- Music, art or coding for kids: weekly classes, practice videos, parents watching progress.
+
+
+If your main problem today is keeping track of who owes you money, start with our guide to the best app for home tutors to manage students and fees; this one is about the teaching platform. If you have not taught online yet, read how to become an online tutor in India first. And if you run a centre with staff and branches, the LMS guide for coaching institutes fits you better.
+
+
+
+
+
+
+## What a private tutor actually needs from an LMS
+
+A private tutor needs nine things from an LMS: live classes for small batches, recordings, notes and PDFs, tests with results, fee collection by UPI, something parents can see, your own brand and app, certificates for skill courses, and bulk import of the students you already have. Check these nine and ignore the rest of the feature list.
+
+
+
+The nine needs. Numbers 1 to 5 are daily work; 6 to 9 decide whether the platform grows with you.
+
+
+
+NeedWhy a tutor needs itWhat to check
+
+Live classesMost private tuition is still live, 1:1 or 4 to 15 studentsZoom or YouTube Live inside the course, or a built-in room; who can join
+RecordingsAbsent students and revision before examsRecording saved inside the course, not on your laptop
+Notes and PDFsYour notes are a product in themselvesOrganised by chapter, visible only to enrolled students
+Tests with resultsParents judge progress by marksAuto-grading, negative marking, rank, topic-wise results
+Fees by UPINo more matching screenshotsCheckout with UPI and cards; access opens on payment; payouts to your bank
+Parent visibilityThe parent pays, the child studiesWhat a parent can see, and how you share it
+Own brand and appStudents should remember your nameYour logo and domain; an Android app in your name
+CertificatesSpoken English, music and coding students want proofAuto-issued on completion, with a unique ID
+Bulk importYou already have studentsUpload from Excel or Google Sheet in one go
+
+A checklist for a solo tutor, not a full LMS feature list.
+
+
+One thing worth knowing about free links: Google's Drive help says that with "Anyone with the link", anyone on the internet who has the link can open the file without signing in to a Google account.2 That is fine for a free worksheet and a problem for notes that parents paid for.
+
+
+
+
+
+
+## What big-institute LMSs sell that a tutor does not need
+
+Institute software is built for many teachers, branches and staff, so much of its price pays for multi-branch reports, staff roles and payroll, transport and hostel modules, biometric attendance and admission desks; a solo tutor uses none of these. Paying for them does not make your classes better.
+
+
+
+
+#### Worth paying for as a tutor
+
+Courses with video, PDF and tests; live classes; UPI checkout that opens access; your own website and app; certificates; student import; a clear monthly or yearly price.
+
+
+
+#### Usually not needed yet
+
+Multiple branches, ten staff roles, teacher salary modules, transport and hostel, front-desk admission CRM, timetable engines for 40 classrooms, a sales call before you can see the price.
+
+
+Institute systems also assume an admin who configures everything. A tutor sets things up on a Sunday, so pick something you can set up yourself, without a developer.
+
+
+Question educators ask
+
+
+
+### Do I need team seats as a solo tutor?
+
+Not at the start. A second seat helps later, when a family member handles fees or an assistant uploads tests, so it is a nice extra rather than a reason to choose a platform.
+
+
+
+
+
+
+
+## Can parents see their child's progress?
+
+Parents want three things: attendance, test marks and whether the fee is paid. Most LMSs give the student a login with their results, and many tutors simply share that login or send a short monthly summary; check exactly what a platform shows before you promise parents anything.
+
+For school-age students the parent is the buyer, so parent updates are part of the product. A simple routine works on any platform: one message after each test with the score and what to practise, and one monthly note on attendance.
+
+There is also a legal reason to be careful with children's data. India's Digital Personal Data Protection Act, 2023 defines a child as anyone who has not completed eighteen years, and says that before processing a child's personal data the data fiduciary must obtain the verifiable consent of a parent or lawful guardian.1 Its provisions are coming into force in phases, so check the current rules, but the habit is easy: collect students' details from parents, with their agreement, and keep them inside one system instead of scattered across phones.
+
+
+"A Data Fiduciary shall not undertake tracking or behavioural monitoring of children or targeted advertising directed at children."
+
+Digital Personal Data Protection Act, 2023, Section 9(3), as published by MeitY[1]
+
+For marketing, the safe line is to advertise to parents, not to the children you teach.
+
+
+
+
+
+
+## When an LMS is not worth it yet
+
+As a rule of thumb, not a statistic: if you teach fewer than about 10 students, all one-to-one, all in your city, and you have nothing recorded to sell, a spreadsheet and WhatsApp are still enough. An LMS starts paying for itself when you have batches, notes or tests you can sell more than once, or students outside your city.
+
+The reasoning: with under ten one-to-one students you know every parent, fees are a handful of UPI payments and nothing you make is reused, so there is little admin for an LMS to save. Our home-tutor guide puts the point where a diary breaks at roughly 15 to 25 students; that is when chasing fees and resending notes starts eating teaching time.
+
+The line moves earlier if any of these are true:
+
+
+- You want to sell something that is not your hour: a recorded chapter course, a notes pack, a test series for board exams or JEE.
+
+- You teach students in other cities who find you online and pay before they meet you.
+
+- Your notes or recordings are being forwarded to students who never paid.
+
+- Parents keep asking for marks and you rebuild the same report by hand every month.
+
+
+If none apply, wait, and spend the month writing better notes.
+
+
+
+
+
+
+## The honest cost maths: illustrative platform fee vs revenue
+
+On AllCoaching, a tutor just starting usually pays least on yearly Starter at ₹6,999 a year plus 10% of each sale; once sales through the academy pass about ₹4 lakh a year, monthly Starter at ₹3,999 a month with 0% commission usually leaves more. Prices exclude 18% GST. The table uses three illustrative tutors.
+
+
+
+Illustrative tutors, platform cost for a year before GST and payment-gateway charges.
+
+
+
+Illustrative tutorSales through the academy in a yearStarter yearly (₹6,999 + 10%)Starter monthly (₹3,999 × 12, 0%)Lower
+
+A: 6 students × ₹2,000 × 10 months₹1,20,000₹18,999 (15.8% of sales)₹47,988 (40%)Yearly Starter
+B: 20 students × ₹2,500 × 10 months₹5,00,000₹56,999 (11.4%)₹47,988 (9.6%)Monthly Starter
+C: 40 students × ₹3,000 × 10 months₹12,00,000₹1,26,999 (10.6%)₹47,988 (4%)Monthly Starter
+
+Illustrative. Platform cost only, before 18% GST on the plan fee and payment-gateway charges on student payments. The fee per sale counts on payments made through your academy. Breakeven between the two Starter plans is about ₹4.1 lakh a year.
+
+
+Two notes make the table honest. First, at Tutor B's level the yearly Growth plan (₹12,999 + 7.5%) comes to ₹50,499 and yearly Pro (₹24,999 + 5%) to ₹49,999, both close to monthly Starter, so choose by what you need: storage, live-room hours, or an iOS app. Second, GST is added on top: ₹6,999 plus 18% GST is about ₹8,259.
+
+Also price the time it replaces: three evenings a month of resending notes and matching payments, at your hourly rate. For a deeper look at fees on sales and add-ons across platforms, see what an LMS really costs an independent educator; for setting your own fees, our online course pricing guide has a calculator.
+
+
+
+
+
+
+## Your options by type: from WhatsApp to your own academy
+
+A private tutor has four kinds of option: a spreadsheet with WhatsApp, a tutoring marketplace, a course tool with a shared app or a fee on each sale, and an own-academy LMS; they differ most in who owns the student relationship and whose name the student sees.
+
+
+
+A summary by type, not a ranking. Individual platforms differ; check each one's own page.
+
+
+
+### 1. Spreadsheet + WhatsApp + Drive + Zoom
+
+Pros: little or no cost, everyone already uses it, nothing to learn. Cons: notes travel freely, fees are matched by hand, there is no test analysis, and nothing works when you are not there. Fine below the rule-of-thumb line above.
+
+
+
+### 2. Tutoring marketplaces
+
+Directories and apps where parents search for tutors and the platform sends enquiries. Pros: enquiries you would not get alone. Cons: the platform owns the listing, the reviews and often the relationship; many charge for leads, memberships or a share of fees. Read the tutor terms first.
+
+
+
+### 3. Course tools with a shared app or a fee per sale
+
+These let you sell courses and sessions with little upfront cost, in exchange for a fee on each sale; some put your course inside the platform's common app rather than one in your name. Two Indian examples publish their numbers. Exly lists its Starter plan with no annual upfront fee and 10% commission, Pro at ₹30,000 billed annually with 6%, and a mobile app add-on at ₹60,000 a year (exlyapp.com/pricing, checked 5 Nov 2026). TagMango lists Basic with zero fixed fee, 10% commission and a 200-student limit, and Pro at ₹5,000 + GST a month with 5.5% commission (tagmango.com/pricing, checked 5 Nov 2026). Pros: quick to start. Cons: the fee grows with your sales, and an app or custom domain can be a paid add-on.
+
+
+
+### 4. An own-academy LMS
+
+Your own website on your own domain, your own app, and your courses, tests, live classes and payments inside it. Pros: students see your name, the student list is yours, paid content stays behind a login. Cons: a plan fee from the start, and you bring your own students; no platform does the marketing for you.
+
+If you already run a batch on WhatsApp, our step-by-step guide to moving a WhatsApp group to an online academy covers the student messages in detail.
+
+
+
+
+
+
+## How AllCoaching fits a private tutor
+
+AllCoaching gives a private tutor their own academy: a website on your own domain and your own Android app on every plan, with courses that hold video, PDFs and tests, live classes and UPI checkout in one studio. It works like Shopify for coaching: sign up, choose a plan, upload your course, connect your domain and start selling.
+
+
+
+AllCoaching Studio preview · sample data.
+
+For the tutor's nine needs: live classes run on YouTube Live or Zoom from inside the course, unlimited on every plan, plus built-in live classroom hours (20, 50 or 90 hours a month on monthly plans and 5, 10 or 15 on yearly plans). Test series have auto-grading, all-India rank and percentile, a full-screen anti-cheat lock and random question order. Certificates are branded, auto-issued and carry a unique ID. You can bulk-import your students from Excel or a Google Sheet. Students pay by UPI or card, with automatic Razorpay payouts to your bank. The iOS app comes on Pro monthly and every yearly plan. For parents, use the update routine above.
+
+Pricing is published: a 7-day free trial with no card needed, then monthly plans at 0% commission (Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 a month) or yearly plans with a fee per sale (Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%), all + 18% GST. A tutor just starting usually fits yearly Starter; move to monthly when your sales pass about ₹4 lakh a year. More than 500 educators already sell on AllCoaching. The pricing page lists every plan.
+
+
+Build your own academy. Try it free for 7 days.
+
+Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
+
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Export your data any time
+
+
+
+
+
+
+## How to move your tuition onto an LMS in one week: 7 steps
+
+Start a trial and set up your brand, upload one batch's notes, recordings and a test, set fees and payouts, import your students, run one live class from the course, then tell parents the switch date. Keep WhatsApp as an announcement channel; move the teaching.
+
+
+- Start a trial and name your academySign up, choose your academy name and web address, and note what each plan includes before the trial ends.
+
+- Add your brand and first courseUpload your logo and colours, then create one course for one batch, for example Class 10 Maths 2026-27.
+
+- Upload notes, recordings and one testAdd chapter-wise PDFs, last month's recordings and one chapter test with marks, so the course is useful on day one.
+
+- Set fees and connect payoutsSet the monthly or course fee, connect your payout account, and make one small test payment yourself.
+
+- Import your studentsClean your student sheet (name, class, phone, parent contact) and bulk-import it from Excel or Google Sheet.
+
+- Run one live class from the courseSchedule the next class inside the course on Zoom, YouTube Live or a built-in room, and add the recording the same day.
+
+- Tell parents and set a switch dateSend one WhatsApp message with the academy link, how to log in and the date after which notes and links move there.
+
+
+
+
+A week that fits around evening classes. Move one batch first, then the rest.
+
+Keep free material public and paid material behind the login. If you publish your own Android app on Google Play, Google charges a US$25 one-time registration fee for the developer account, and says personal developer accounts must complete specific app testing requirements before distributing apps on Google Play.5
+
+For live classes, do not plan a 90-minute batch on a free tier: Zoom's pricing page lists 40 minutes and 100 participants per meeting on the free Basic plan, with local recording only.3 Our comparison of YouTube Live vs Zoom for teachers covers which to use for which class, and the online tuition app guide for Class 10 and 12 CBSE teachers shows how to plan a board-exam year around it.
+
+
+
+
+
+
+## Mistakes private tutors make when choosing an LMS
+
+The common mistakes are buying institute software, paying before you have enough students, keeping paid notes on open links, letting a marketplace own your students, and moving every batch overnight. Each has a simple fix.
+
+
+
+Five mistakes and their fixes.
+
+
+- Buying for ten teachers when you are one. Pay for courses, tests, live and payments, not branches and payroll.
+
+- Paying too early. Below about 10 one-to-one students with nothing to sell, wait. When you start, start on a small yearly plan.
+
+- Paid notes on open links. YouTube says unlisted videos can be seen and shared by anyone with the link;4 Drive links set to "Anyone with the link" behave the same way. Put paid content behind enrolment.
+
+- Letting the platform own the relationship. If students only know you through someone else's app, its rules decide your business.
+
+- Moving everyone at once. Move one batch, fix what breaks, then set one switch date for the rest.
+
+
+Move one batch well and keep teaching the way parents already trust; that is the hard part done.
+
+
+
+
+
+
+## Glossary
+
+
+LMS (learning management system)
+Software that holds your courses, classes, notes, tests and students in one place, with logins and access control.
+Own-academy LMS
+An LMS that runs on your own website and app under your brand, so students see your name and the student list stays yours.
+Tutoring marketplace
+A platform where parents and students search for tutors; it usually controls the listing, reviews and first contact.
+Fee per sale
+A percentage the platform keeps from each payment made through your academy, on top of or instead of a fixed plan fee.
+UPI
+Unified Payments Interface, India's real-time bank-to-bank payment system used through apps such as Google Pay, PhonePe and Paytm.
+Payment gateway
+The service that processes online payments at checkout, such as Razorpay, and charges its own fee on each payment.
+Bulk import
+Adding many students at once by uploading a spreadsheet instead of typing each one.
+Test series
+A set of exam-pattern tests with automatic grading and results such as rank, percentile and topic-wise scores.
+Verifiable parental consent
+Consent from a parent or lawful guardian, obtained in a checkable way, which the DPDP Act, 2023 requires before processing a child's personal data.
+
+
+
+
+
+
+## Frequently asked questions
+
+What is the best LMS for private tutors in India?For most private tutors, the best LMS is one that runs live classes, recordings, notes, tests and UPI fee collection in one login under your own name, without charging for institute features like branches and staff payroll. An own-academy LMS on a small yearly plan suits a tutor starting out; compare total cost at your real sales level.
+
+Do private tutors really need an LMS?Not always. As a rule of thumb, a tutor with fewer than about 10 one-to-one students in one city and nothing recorded to sell can manage with a spreadsheet and WhatsApp. An LMS becomes worth it when you have batches, notes or tests to sell more than once, or students in other cities.
+
+How much does an LMS cost for a tutor?It depends on the plan and your sales. On AllCoaching, yearly Starter is ₹6,999 a year plus 10% of each sale and monthly Starter is ₹3,999 a month with 0% commission, both plus 18% GST, after a 7-day free trial with no card needed. Below about ₹4 lakh of yearly sales the yearly plan usually costs less.
+
+Can parents see their child's progress on an LMS?Most LMSs show results to the student's login, and many tutors share that login with parents or send a monthly summary of attendance and test marks. Check what a platform shows parents before you promise it, and collect a child's details from the parent with their agreement.
+
+Can I take live classes on an LMS?Yes. Many LMSs connect to Zoom or YouTube Live, and some have a built-in live room. AllCoaching includes unlimited live classes on YouTube Live or Zoom on every plan, plus built-in live classroom hours by plan.
+
+Can I collect tuition fees by UPI through an LMS?Yes. An LMS with a payment gateway lets students or parents pay by UPI or card at checkout, and access opens after payment. On AllCoaching, payments go through Razorpay and payouts go to your bank automatically; gateway charges on student payments are separate.
+
+How do I move my existing students onto an LMS?Clean your student list in a sheet, bulk-import it, move one batch first, and send parents one message with the link, how to log in and a switch date. Keep WhatsApp for announcements while teaching moves into the course.
+
+Should a tutor join a tutoring marketplace or build their own academy?A marketplace can bring enquiries, but the platform usually owns the listing and the relationship and may charge for leads or a share of fees. Your own academy keeps your name and student list, but you bring the students. Many tutors use a marketplace for enquiries and their own academy for teaching.
+
+Can I get my own app as a private tutor?Yes. On AllCoaching every plan includes your own Android app, and the iOS app comes on Pro monthly and every yearly plan. Apps are published on your own developer accounts; Google Play charges a one-time US$25 registration fee.
+
+
+
+
+
+
+## Sources
+
+
+- Ministry of Electronics and Information Technology, "The Digital Personal Data Protection Act, 2023" (No. 22 of 2023), Sections 2(f) and 9. meity.gov.in, checked 5 November 2026.
+
+- Google, "Share and manage access to files and folders in Google Drive", Google Drive Help. support.google.com, checked 5 November 2026.
+
+- Zoom, "Plans & Pricing". zoom.us/pricing, checked 5 November 2026.
+
+- YouTube, "Change video privacy settings", YouTube Help. support.google.com, checked 5 November 2026.
+
+- Google, "Get started with Play Console", Play Console Help. support.google.com, checked 5 November 2026.
+
+
+
+
+
+
+
+Amit Ratan
+Founder & CEO, AllCoaching
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. We set up academies for independent tutors every week, and most of them arrive from the same mix of WhatsApp, Drive, Zoom and UPI screenshots, so this guide is written from that move; competitor prices link to their own pages, checked 5 November 2026.
+
+---
+
+# Best Platform to Sell Online Courses in India 2026: 9 Vetted
+
+**Source:** https://allcoaching.in/blog/best-platform-to-sell-online-courses-in-india  
+**Published:** 2026-11-05T09:00:00+05:30  
+**Updated:** 2026-11-05T09:00:00+05:30  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** The best platform to sell online courses in India depends on who owns the student. 4 platform types, 9 prices with fee per sale, and yearly cost at ₹2L and ₹10L.
+
+Amit RatanUpdated 5 Nov 2026 · 19 min read
+
+
+On this page
+
+
+Start your online academy today. 7 days free.
+
+Start free trial
+
+
+The best platform to sell online courses in India depends on who you want to own the student: a marketplace finds students but keeps them, a course-selling app gives you a storefront in its system, an own-academy LMS puts your brand, domain and app first, and a DIY stack leaves every part to you. Pick the type first, then compare price and fee per sale.
+
+Maybe you teach SSC maths in Hindi and your YouTube lives get a few hundred viewers, or you run a NEET batch of 500 students on WhatsApp and Google Drive. Either way, the first real decision is not which app has the most features. It is where your course will live, and whose students they will be in five years.
+
+This guide explains the four types of platform, puts nine options' prices and fees per sale side by side from their official pages, works out a year's cost at two sales levels, and ends with seven steps to choose and start selling. If you have not built your course yet, start with our guide on how to sell courses online in India.
+
+
+
+
+
+
+## Key takeaways
+
+
+- There are four types of platform: marketplaces (Udemy-style), course-selling apps (Classplus, Graphy, Exly-type), own-academy LMS platforms (AllCoaching, Learnyst, Edmingle) and DIY stacks (WordPress + an LMS plugin, Teachable, Thinkific).
+
+- Ownership is the real difference: on a marketplace the platform owns the student; in your own academy or DIY stack you do; course-selling apps sit in between.
+
+- Always read the fee next to the price: Exly lists 10%, 6% or 3% per sale, Teachable Starter 7.5%, while Classplus and Edmingle do not state a fee (official pages, checked 5 Nov 2026).
+
+- Illustrative yearly cost at ₹2 lakh of sales ranged from ₹20,000 to ₹1,07,988 on the rupee platforms we checked, before GST and gateway charges.
+
+- The gateway fee comes on top: Razorpay's standard India pricing lists 2% per successful domestic transaction, with 18% GST on the fee.
+
+- A marketplace is right when you have no audience and want to test a topic; once students come to you, sell from your own academy.
+
+- AllCoaching takes 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 + 10% per sale, + GST, with your own domain and Android app on every plan and a 7-day free trial.
+
+
+
+
+
+
+
+## The best platform to sell online courses in India: the short answer
+
+There is no single best platform to sell online courses in India; there are four kinds of platform, and the right one depends on who you want to own the student. A marketplace finds students for you but keeps them, a course-selling app gives you a storefront inside its system, an own-academy LMS puts your brand, domain and app first, and a DIY stack gives you everything to build and maintain yourself.
+
+"Where should I sell my course?" is really three questions: who will find my students, how much of each sale will I keep, and what happens to my students if I leave. Each type answers them differently.
+
+
+
+Who usually holds each piece on each type of platform. A general pattern; check each platform's terms.
+
+
+- No audience yet, testing a topic: a marketplace is a fair place to start.
+
+- You have a YouTube channel, a WhatsApp group or a batch of students: sell from your own academy, where the students stay yours.
+
+- A coaching institute with teachers and test series: an own-academy LMS with team seats and your own app.
+
+- A developer on hand and time to maintain it: a DIY stack can work.
+
+
+
+
+
+
+
+## How we checked these platforms
+
+We read every price in this guide from the company's own pricing page on 5 November 2026, wrote down the fee per sale next to the price, and left a figure out wherever the page did not show it clearly. We did not round any price up or down, and we did not convert dollar prices to rupees, because exchange rates move.
+
+AllCoaching is one of the options here, so every competitor figure links to its source, "not stated" means the page did not say, and where another type fits better, we say so.
+
+Two pages could not be used as published. Udemy's instructor revenue share article returned an access check when we tried to open it, so we do not quote a percentage for Udemy.11 Graphy's pricing page showed different rupee figures in different places from our connection, so we do not quote a rupee price for Graphy.10 If either matters to you, open the page yourself from India before you decide.
+
+
+
+
+
+
+## The 4 types of online course platforms in India
+
+Online course platforms in India fall into four types: marketplaces, course-selling apps, own-academy LMS platforms and DIY stacks. They differ less in features than in who the student belongs to, whose name the student sees, and how the money reaches you.
+
+
+
+### 1. Marketplaces (Udemy-style)
+
+A marketplace is a large catalogue where students browse many teachers' courses. You upload, the marketplace brings traffic, runs the checkout and pays you a revenue share. The student's account, reviews and usually the pricing rules belong to the marketplace, so if you leave, your students stay behind.
+
+
+
+### 2. Course-selling apps and storefronts (Classplus, Graphy, Exly-type)
+
+These platforms give you a store or an app inside their system, a checkout, and tools to sell courses, tests or sessions. The student is yours to market to, but your own branded app, your own domain or a white-label setup is often a higher tier or a paid add-on. Exly, for example, lists a mobile app add-on starting at ₹60,000 a year and a custom website add-on starting at ₹60,000 a year on its pricing page.6
+
+
+
+### 3. Own-academy LMS (AllCoaching, Learnyst, Edmingle)
+
+An own-academy LMS builds an academy that carries your name: a website on your domain, your logo and colours, courses, test series and live classes, and on many plans an app in your name. The student enrols with your academy. Payment usually reaches you through a gateway account in your name, and your student list can be exported. They differ mostly in price, fee per sale and which plan includes the app.
+
+
+
+### 4. DIY stacks (WordPress + an LMS plugin, Teachable, Thinkific)
+
+A DIY stack means you assemble the parts: a WordPress site, hosting, an LMS plugin such as Tutor LMS, a payment gateway, a video host, and an app built separately if you want one. Global course builders like Teachable and Thinkific do much of the assembly for you but are priced in US dollars. Full control comes with full responsibility: if a plugin update breaks checkout on launch night, you fix it.
+
+
+Question educators ask
+
+
+
+### Is Udemy or my own website better for selling courses in India?
+
+Udemy is better for finding your first students without an audience, because it brings the traffic. Your own website or academy is better once students already come to you from YouTube, Instagram or WhatsApp, because they enrol with you, you set the price, and you can sell to them again.
+
+
+
+
+
+
+
+## Who owns the student, the brand, the payout and the data
+
+On a marketplace the platform owns the student relationship; on an own-academy LMS or a DIY stack you do; course-selling apps sit in between, depending on the plan. These four questions matter more over five years than any single feature.
+
+
+
+Who usually holds itMarketplaceCourse-selling appOwn-academy LMSDIY stack
+
+The student accountPlatformYou, inside their systemYouYou
+The brand students seePlatform first, you secondShared; own app or domain often extraYours: domain, logo, appYours
+The price and payoutPlatform rules and revenue shareYou set it; platform fee per sale on many plansYou set it; fixed fee, with or without a fee per saleYou set it; you pay each tool
+Student data and exportLimitedVaries by planExportableYours, on your server
+
+A general pattern, not a promise for any one plan. Read each platform's terms on export and ownership before you sign up.
+
+
+The question we hear most often from educators moving to their own academy is not about features. It is "my students are on someone else's app; how do I bring them over?" Starting in the right place is easier than moving later.
+
+
+
+
+
+
+## Online course platforms in India: price and fee per sale, side by side
+
+The price on a pricing page is only half the cost; the other half is the fee taken from each sale. The table puts both next to each other for nine options, as each official page showed them on 5 November 2026.
+
+
+
+Platform (type)Lowest listed priceFee on each saleSource, checked 5 Nov 2026
+
+Udemy (marketplace)No plan feeRevenue share set by Udemy; page not retrieved, so not quotedsupport.udemy.com
+Classplus (course-selling app)₹29,999 for 1 year; ₹39,999 for 2 yearsNot statedclassplusapp.com/new-web
+Exly (course-selling app)Starter: no fixed fee; Pro ₹30,000 a year; Premium ₹1,08,000 a year10% · 6% · 3%exlyapp.com/pricing
+AllCoaching (own academy)Monthly from ₹3,999 a month; yearly from ₹6,999 a year; + 18% GST0% on monthly plans · 10%, 7.5% or 5% on yearlyallcoaching.in/pricing
+Learnyst (own academy)Professional ₹8,999 a month + taxes0% transaction fees listedlearnyst.com/pricing
+Edmingle (own academy)Core ₹7,499 a month billed annually (₹8,999 billed monthly) + taxesNot statededmingle.com/in/pricing
+Teachable (DIY, US dollars)Starter $29 a month billed annually ($39 monthly)7.5% on Starter; 0% on Builder and above with Teachable Paymentsteachable.com/pricing
+Thinkific (DIY, US dollars)Start $82 a month billed annually ($109 monthly)Payment processing (Thinkific Payments at 2.9%)thinkific.com/pricing
+Tutor LMS on WordPress (DIY)Free core; Pro Individual $199 a year, 1 site; hosting extraNone stated; gateway fees applytutorlms.com/pricing
+
+Each company's official pricing page, checked 5 Nov 2026. "Not stated" means the page did not say. Taxes extra where stated. Payment-gateway charges on student payments are separate unless a page says they are included.
+
+
+
+
+The same nine options as a chart: listed price on the left, fee on each sale on the right. Sources in the table above.
+
+
+
+### What the table does not show
+
+
+- Classplus shows ₹29,999 for one year against a struck-out ₹34,999; the page does not mention GST, a fee per sale or a trial.7
+
+- Learnyst lists its rupee prices "+ taxes"; a branded Android app is listed from Premium (₹14,999 a month), and branded Android and iOS apps from Business (₹49,999 a month).4
+
+- TagMango, another course-selling platform, lists Basic at zero fixed fee and 10% commission, which its page says includes the Indian payment gateway, up to Ultimate at ₹35,000 a month + GST with zero commission.9
+
+- Add-ons change the total: Exly's mobile app starts at ₹60,000 a year6 and Thinkific's branded mobile app is a $199 a month add-on.3
+
+
+For a deeper look at the own-academy group alone, our guide to the best LMS for coaching institutes in India compares eleven LMS options by use case, and the zero-commission teaching platform comparison covers only plans that take 0% per sale.
+
+
+
+
+
+
+## What it costs in a year at ₹2 lakh and ₹10 lakh of sales
+
+At ₹2 lakh of course sales a year, a plan with a low fixed fee and a percentage usually costs least; at ₹10 lakh, a fixed fee with 0% per sale usually leaves you more. The table shows the lowest-cost plan on each platform from its published prices; it is illustrative, before GST and gateway charges, and plans include different things.
+
+
+
+PlatformAt ₹2 lakh of sales a yearAt ₹10 lakh of sales a year
+
+AllCoaching₹26,999 (Starter yearly: ₹6,999 + 10%)₹47,988 (Starter monthly: 12 × ₹3,999, 0%)
+Exly₹20,000 (Starter: 10%)₹90,000 (Pro: ₹30,000 + 6%)
+TagMango₹20,000 (Basic: 10%, gateway included)₹1,00,000 (Basic: 10%, gateway included)
+Classplus₹29,999 + any fee per sale (not stated)₹29,999 + any fee per sale (not stated)
+Edmingle₹89,988 (Core: 12 × ₹7,499 billed annually); fee not stated₹89,988; fee not stated
+Learnyst₹1,07,988 (Professional: 12 × ₹8,999, 0%)₹1,07,988
+Teachable (US dollars)$348 + ₹15,000 (Starter: $29 × 12 + 7.5%)$828 (Builder: $69 × 12, 0% with Teachable Payments)
+
+Illustrative, worked out from each official pricing page on 5 Nov 2026. Before GST (AllCoaching prices + 18% GST) and before gateway charges, except TagMango, whose page says its commission includes the Indian gateway. Udemy and Graphy are left out because their figures could not be confirmed.
+
+
+
+
+The rupee-priced options from the table as bars. Illustrative, before GST and gateway charges.
+
+
+
+### Add the payment gateway on top
+
+Every UPI or card payment also passes through a payment gateway with its own fee. Razorpay's standard India pricing lists a platform fee of 2% per successful transaction on domestic payment methods, up to 3% on international cards, no setup fee and no annual maintenance charge, with 18% GST on Razorpay's fee.1 At ₹2 lakh of sales that is about ₹4,000 plus GST on the fee; at ₹10 lakh, about ₹20,000 plus GST.
+
+
+
+One ₹1,000 sale, four fee levels. Illustrative; gateway rate from Razorpay's standard India pricing, checked 5 Nov 2026.
+
+On AllCoaching the line between the two billing options sits at about ₹4 lakh of sales a year: below it, yearly Starter usually costs least; above it, a monthly plan at 0% usually leaves more (illustrative, before GST). To see how course price and batch size change this, read how to price online courses in India; the LMS cost guide for independent educators runs the maths at more sales levels.
+
+
+
+
+
+
+## Which type of platform fits which educator
+
+Start from where your students come from today: with no audience, a marketplace can find your first buyers; with any audience of your own, sell from your own academy so the students stay with you. Here is how that plays out for four common educators.
+
+
+
+Two questions decide most cases: do you have an audience, and how do you teach? Plan suggestions are illustrative.
+
+
+
+### A beginner with a YouTube audience
+
+Say you teach spoken English or Excel on YouTube with a few thousand subscribers. Your viewers already know your face, so they do not need a marketplace to find you; they need a link in the description that opens your course. An own academy with a small fixed fee fits, and at low sales a yearly plan with a fee per sale usually costs less than a monthly one. Our guide on how to sell courses online in India walks through the first ₹10,000.
+
+
+
+### An exam coach with 500 students
+
+A NEET, SSC or banking coach with 500 students needs test series with rank, a live classroom, recordings and an app students open every day. At this size a fee per sale adds up quickly, so a 0% plan usually leaves more, and the branded app should be in the plan you can afford.
+
+
+
+### A skill educator selling cohorts and workshops
+
+Yoga, music, vastu or digital marketing educators often sell a mix of live cohorts, recorded courses and one-to-one sessions. A storefront can suit sessions and bookings; once the recorded course is the main product, an own academy keeps it under your domain.
+
+
+
+### A coaching institute
+
+An institute with several teachers needs team logins, an iOS app for some students, bigger video storage and a website parents trust. Compare the own-academy plan that includes iOS, not just the starting price. If you are leaving an existing app, our Classplus alternative guide covers switching without losing students.
+
+
+
+### When a marketplace really is the right choice
+
+A marketplace is the honest answer when you have no audience and want to test whether anyone will pay for a topic, and it can run alongside your own academy for discovery. The marketplace owns the student and sets the share, so plan to bring your best students to your own academy over time. Our Udemy alternative guide explains how to keep both.
+
+
+
+
+
+
+## Selling from your own academy on AllCoaching
+
+AllCoaching is an own-academy platform: you sign up, choose a plan, upload your course, connect your domain and start selling, with your own website, your own Android app on every plan, and an iOS app on Pro monthly and every yearly plan. Students enrol with your academy, pay by UPI or card through Razorpay, and payouts go to your bank automatically.
+
+
+
+AllCoaching Studio preview · sample data.
+
+Pricing is published and set up yourself, with no sales call. Every plan starts with a 7-day free trial, no card needed. Monthly plans take 0% commission: Starter ₹3,999, Growth ₹5,999 and Pro ₹7,999 a month. Yearly plans have a lower fixed fee and a fee per sale: Starter ₹6,999 a year + 10%, Growth ₹12,999 + 7.5% and Pro ₹24,999 + 5%. Prices exclude 18% GST, there is no sales limit and no setup fee, and gateway charges on student payments are separate. The pricing page lists what each plan includes.
+
+Every plan includes test series with all-India rank and percentile, an anti-cheat full-screen lock and random question order, branded certificates, bulk student import from Excel or Google Sheet, and a course page with SEO, schema and checkout created when you save a course. More than 500 educators already sell on AllCoaching; your courses can also be discovered on the AllCoaching app as an extra. If you stop, your academy goes offline at the end of the paid period and you get 30 days to export your content and data.
+
+
+Build your own academy. Try it free for 7 days.
+
+Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
+
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Export your data any time
+
+
+
+
+
+
+## How to choose a platform and start selling: 7 steps
+
+Know where your students come from, estimate a year of sales, pick the type of platform, compare two or three on total cost, check ownership, test one real course in a free trial, then launch to the audience you already have. The whole decision fits in a week.
+
+
+- Write down where your students come fromList your audience today: YouTube subscribers, Instagram followers, a WhatsApp group, a classroom batch or none yet. This decides whether you need a platform that finds students or one that keeps them.
+
+- Estimate a year of salesMultiply a realistic number of students by your course price, for example 100 students at ₹1,999. Use it only to compare costs; it is not a target.
+
+- Pick the type of platformNo audience: start on a marketplace. Your own audience: an own-academy LMS. Sessions and workshops: a course-selling storefront can fit. A developer on hand: a DIY stack.
+
+- Compare two or three on total costFor each, add the yearly price, the fee per sale at your estimated sales, the gateway fee, GST and any add-on such as an app or a custom domain.
+
+- Check who owns whatConfirm you can use your own domain, publish an app in your name, set your own prices and export your students and content.
+
+- Test one real course in a free trialUpload one module, connect UPI checkout, and buy it yourself on a phone on mobile data. Fix anything that would make a student give up.
+
+- Launch to the audience you haveShare the course link with your YouTube, Instagram and WhatsApp audience, then review sales and costs after 90 days and adjust the plan.
+
+
+Step 6 is where most problems show up: buy your own course by UPI on a basic Android phone on mobile data. If you would not finish that journey, neither will your students.
+
+
+
+
+
+
+## Common mistakes when choosing where to sell online courses
+
+The common mistakes are choosing by the headline price, ignoring the fee per sale, letting students live only on someone else's app, having no export plan, and paying in dollars for students who pay in rupees. Each one is easy to avoid before you start and hard to fix later.
+
+
+
+Five mistakes and what to do instead.
+
+
+- Choosing by headline price. Work out the total for a year at your expected sales, as in the table above.
+
+- Ignoring the fee per sale. 10% of ₹10 lakh is ₹1 lakh a year. Write the fee next to every price you compare.
+
+- Students live on their app. Prefer your own domain and app, so a later move does not mean every student reinstalling.
+
+- No export plan. Ask how you export students and content before you pay, not when you leave.
+
+- Dollar plan, rupee students. A USD plan moves with the exchange rate; you still need UPI checkout and GST invoices.
+
+
+We built AllCoaching after watching educators spend more evenings stitching tools together than teaching. Choose the platform that gives those evenings back.
+
+
+
+
+
+
+## Glossary
+
+
+Revenue share
+The part of each sale a platform pays to the educator, with the platform keeping the rest. Common on marketplaces, where the platform sets the split.
+Commission (fee per sale)
+A percentage of each sale that the platform takes, on top of or instead of a fixed subscription price.
+Payment gateway
+The service that takes a student's UPI, card or netbanking payment and passes the money to the seller's account, for a fee per transaction. Razorpay is one example.
+MDR
+Merchant discount rate: the fee a merchant pays on each card or digital payment. Gateways usually show it as a percentage of the transaction.
+Settlement
+The transfer of collected payments, minus fees, from the payment gateway to the seller's bank account.
+White-label
+A product built by one company but shown under another's name, such as an app published with the educator's logo and name instead of the platform's.
+LMS
+Learning management system: software to host courses, tests and live classes, enrol students and track their progress.
+Course marketplace
+A platform where many teachers list courses in one catalogue and students buy from the platform, which brings traffic and keeps the student relationship.
+Own academy
+An online academy that runs on the educator's own brand and domain, often with its own app, where students enrol directly with the educator.
+
+
+
+
+
+
+## Frequently asked questions
+
+What is the best platform to sell online courses in India?There is no single best platform. A marketplace suits a beginner with no audience, a course-selling app suits educators selling sessions and small products, an own-academy LMS suits educators who want their own brand, domain and app, and a DIY stack suits those with a developer. Choose the type first, then compare total yearly cost at your expected sales.
+
+Where can I sell online courses in India without commission?Several own-academy platforms publish 0% fee plans. AllCoaching takes 0% commission on every monthly plan, from ₹3,999 a month plus GST, and Learnyst lists 0% transaction fees on its Professional plan at ₹8,999 a month plus taxes, checked on 5 November 2026. Payment-gateway charges still apply on every platform.
+
+Is Udemy good for Indian teachers?Udemy can be good for finding first students without an audience, because it brings the traffic. The trade-off is that Udemy owns the student relationship and sets the revenue share. Many educators use a marketplace to test a topic and then sell from their own academy.
+
+How much does it cost to sell online courses in India?It depends on the platform and your sales. Illustratively, at ₹2 lakh of sales a year, the lowest-cost plan on the rupee platforms we checked ranged from ₹20,000 to ₹1,07,988 before GST and gateway charges. Add a gateway fee of about 2% per payment on top.
+
+What is the difference between a marketplace and my own academy?On a marketplace, students buy from the platform's catalogue, the platform runs checkout and pays you a share, and the student account belongs to the platform. In your own academy, students enrol on your website or app, you set the price, the money reaches your account, and you can export your student list.
+
+Can I sell online courses on my own website in India?Yes. An own-academy LMS gives you a course website on your own domain with UPI and card checkout, or you can build one yourself with WordPress, an LMS plugin and a payment gateway. The first is faster to set up; the second gives full control but you maintain every part.
+
+Do Teachable and Thinkific work for Indian educators?They work, but both are priced in US dollars. Teachable lists Starter at $29 a month billed annually with a 7.5% transaction fee, and Thinkific lists Start at $82 a month billed annually, checked on 5 November 2026. Check UPI checkout and GST invoicing for your students before you choose.
+
+What payment gateway fee will I pay when selling courses?Razorpay's standard India pricing lists a 2% platform fee per successful domestic transaction and up to 3% on international cards, with 18% GST on Razorpay's fee and no setup fee, checked on 5 November 2026. Some course platforms include the gateway in their commission; check each page.
+
+Does AllCoaching give me my own app?Yes. Every AllCoaching plan includes your own Android app, published on your own Play Store account, and the iOS app is included on Pro monthly and every yearly plan. Every plan starts with a 7-day free trial, no card needed.
+
+
+
+
+
+
+## Sources
+
+
+- Razorpay, Pricing (India). razorpay.com/pricing, checked 5 November 2026.
+
+- Teachable, Pricing. teachable.com/pricing, checked 5 November 2026 (US dollars).
+
+- Thinkific, Pricing. thinkific.com/pricing, checked 5 November 2026 (US dollars).
+
+- Learnyst, Pricing. learnyst.com/pricing, checked 5 November 2026 (rupee prices from the plan comparison on the page).
+
+- Edmingle, India pricing. edmingle.com/in/pricing, checked 5 November 2026.
+
+- Exly, Pricing. exlyapp.com/pricing, checked 5 November 2026.
+
+- Classplus, pricing page. classplusapp.com/new-web, checked 5 November 2026.
+
+- Tutor LMS, Pricing. tutorlms.com/pricing, checked 5 November 2026 (US dollars).
+
+- TagMango, Pricing. tagmango.com/pricing, checked 5 November 2026.
+
+- Graphy, Pricing. graphy.com/pricing, checked 5 November 2026; the page showed different rupee figures in different places from our connection, so no rupee price is quoted.
+
+- Udemy, Instructor Revenue Share. support.udemy.com, attempted 5 November 2026 (returned an access check; content not retrieved, so no percentage is quoted).
+
+- AllCoaching, Pricing. allcoaching.in/pricing.
+
+
+
+
+
+
+
+Amit Ratan
+Founder & CEO, AllCoaching
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. AllCoaching is one of the platforms in this guide, so every competitor price links to its official page, checked 5 November 2026, figures we could not confirm are left out, and we say where a marketplace or another type fits better.
+
+---
+
+# LMS With Mobile App: What to Check Before You Pay (2026)
+
+**Source:** https://allcoaching.in/blog/lms-with-mobile-app  
+**Published:** 2026-11-05T09:00:00+05:30  
+**Updated:** 2026-11-05T09:00:00+05:30  
+**Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
+
+**Summary:** An LMS with a mobile app can mean a shared app, your own app or a mobile site. What each means for students, Play Store ownership and iOS, plus a 12-point checklist.
+
+Amit RatanUpdated 5 Nov 2026 · 20 min read
+
+
+On this page
+
+
+Start your online academy today. 7 days free.
+
+Start free trial
+
+
+An LMS with a mobile app can mean three different things: a shared app where your course sits inside the platform's own app, your own white-label app published under your name on Google Play and the App Store, or a mobile website that students open in a browser or add to their home screen as a PWA. They look similar in a sales pitch, but they differ on brand, on who owns the store listing and on what happens if you ever switch.
+
+Maybe you teach NEET biology to students in Patna and Ranchi, and every one of them studies on an Android phone. Or you run a spoken English batch and parents keep asking, "Is there an app?". So you start comparing LMS platforms, and every pricing page says "mobile app included". The real question is: whose app?
+
+This guide explains the three kinds of app, why the app matters for students in India, a comparison table, the 12 things to check before you pay, and 7 steps to choose an LMS and publish your app. If you have already decided you want an app in your own name, our guide to getting a white-label app for educators in India goes deeper on that one option.
+
+
+
+
+
+
+## Key takeaways
+
+
+- "Mobile app included" has three meanings: a shared platform app, your own white-label app, or a mobile website / PWA. Ask which one before you compare prices.
+
+- Android is where Indian students are: StatCounter puts Android at 94.84% of mobile web traffic in India for October 2026, and iOS at 5.1% (checked 5 Nov 2026).
+
+- The developer account decides ownership: an app published on your own Google Play Console and Apple account stays your listing if you change LMS; one on the vendor's account does not.
+
+- Payments inside an app follow store rules: Google Play's policy says apps accepting payment for digital content "must use Google Play's billing system" unless an exception applies, and Apple has a similar rule. Ask your LMS how it handles this.
+
+- New personal Play Console accounts must run a closed test with at least 12 testers for 14 days before going live, so plan your launch around it.
+
+- On AllCoaching, every plan includes your own white-label Android app, and your iOS app comes on Pro monthly and every yearly plan, published on your own Play Console and App Store accounts.
+
+- Plans start with a 7-day free trial, no card needed; monthly plans take 0% commission from ₹3,999 a month, yearly plans start at ₹6,999 a year with a fee per sale, prices + 18% GST.
+
+
+
+
+
+
+
+## What does "LMS with mobile app" actually mean?
+
+When an LMS says it comes with a mobile app, it means one of three things: a shared app owned by the platform that holds many educators' courses, a white-label app built for you and listed under your own name, or a mobile-friendly website, sometimes installable as a progressive web app (PWA). All three let a student learn on a phone. Only one puts your name on the Play Store.
+
+
+
+The three kinds side by side. The listing stays yours only when the app is on your own developer account.
+
+
+- Shared app: the student installs the platform's app, searches for you or uses a code, and finds your course next to other educators' courses. Your brand is a page inside someone else's app.
+
+- Your own white-label app: the platform builds an app with your name, icon and colours, and it is published as a separate app on Google Play and, on some plans, the App Store. The student installs "Your Academy".
+
+- Mobile website or PWA: the student opens your academy website in Chrome. A PWA can also be added to the home screen and behave more like an app, but there is no store listing to find.
+
+
+None of these is wrong, but the choice decides who students think they are learning from and how hard it is to move later, so make it first.
+
+
+
+
+
+
+## Why the app matters for an LMS in India
+
+In India the phone is the classroom: Android had 94.84% of mobile operating system share in India in October 2026 according to StatCounter, and iOS had 5.1%.1 StatCounter measures share of web traffic from mobile devices, not phones sold, but the direction is clear. If your students are on a phone, they are almost certainly on Android.
+
+
+- Android first. An own Android app matters more than iOS for most Indian academies.
+
+- Modest phones and patchy data. Many students in tier-2 and tier-3 towns use budget phones with little storage, on mobile data. Ask how video quality adjusts and how heavy the app is.
+
+- One tap back to class. An icon on the home screen and a notification before a live class bring students back more reliably than a link buried in a WhatsApp group.
+
+- iOS still matters for some batches, such as school students whose parents pay, professionals and metro students. Check which plan includes it.
+
+
+An app does not replace your website: students find you on Google and pay on a page, then come back every day in the app. Our guide to the best LMS for coaching institutes in India covers the rest of the platform comparison.
+
+
+
+
+
+
+## Kind 1: a shared app, with your course inside their app
+
+A shared app is one app, owned and published by the LMS company, that holds many educators' content; your students install the platform's app and find your course inside it. It is the simplest option for the platform to run, and Apple describes it as one acceptable model for template providers.
+
+
+"Another acceptable option for template providers is to create a single binary to host all client content in an aggregated or 'picker' model."
+
+Apple App Review Guidelines 4.2.6, checked 5 Nov 2026[4]
+
+
+
+Left: a shared app, illustrative mock-up. Right: Biology Lessons (Dr. Subhash Nair), an academy on AllCoaching, as students see it on a phone.
+
+
+
+### What a shared app means for you and your students
+
+
+- Download: students install the platform's app, not yours. On the Play Store it shows the platform's name and reviews.
+
+- Login: a platform account first, then your course by code or search.
+
+- Brand: your logo appears inside a page; the icon on the phone is the platform's. Other educators teaching your subject may sit one tap away.
+
+- Notifications: they arrive in the platform's name.
+
+- Switching later: your students' app belongs to the platform. If you leave, they need a new app and a new login.
+
+
+A shared app costs no store fees and suits a trial run of one course. For a long-term academy, remember that every install builds the platform's audience, not yours.
+
+
+
+
+
+
+## Kind 2: your own white-label app on Play Store and App Store
+
+A white-label app is a separate app built from the platform's technology but published under your academy's name, icon and colours, ideally on your own Google Play Console and Apple developer accounts. To a student it is simply "your app"; the platform underneath is not visible.
+
+What matters most is whose developer account publishes it, because the account holder is shown as the developer and controls the listing. Not every LMS publishes on your account. Learnyst's pricing page, for example, says: "Apps will be available in Google Play store & Apple App store under Learnyst's Developer Account" (learnyst.com/pricing, checked 5 Nov 2026). That is a legitimate model; it just means the listing is the vendor's.
+
+
+
+### What it takes to publish in your own name
+
+
+- A Google Play developer account: Google lists a US$25 registration fee, paid once (Play Console Help, checked 5 Nov 2026).
+
+- An Apple Developer Program membership for iOS: Apple lists the annual fee as 99 USD, in local currency where available (Apple Developer, checked 5 Nov 2026).
+
+- A closed test for new personal Play accounts: Google says personal accounts created after 13 November 2023 must run a closed test with at least 12 testers opted in for at least 14 days before applying for production access.3
+
+- Store review: Google and Apple review every app and update. No LMS can promise a date.
+
+
+When educators move to us from an agency-built app, our first question is which Play Console account it sits in; often they do not know. If you are weighing an agency build against a platform, our breakdown of white-label coaching app development cost in India lays out the year-one numbers.
+
+
+
+
+
+
+## Kind 3: a mobile website or PWA
+
+A mobile website is your academy opened in the phone's browser; a progressive web app (PWA) is a website built so it can also be installed on the home screen and work more like an app, without going through Google Play or the App Store. MDN, the web developer reference maintained by Mozilla, defines it this way:
+
+
+"A progressive web app (PWA) is an app that's built using web platform technologies, but that provides a user experience like that of a platform-specific app."
+
+MDN Web Docs, Progressive web apps, checked 5 Nov 2026[5]
+
+MDN adds that a PWA can be installed on the device and can operate while offline and in the background, but how much of that a given LMS actually builds in varies a lot.5 Ask to see it working on a real Android phone, not on a slide.
+
+
+
+
+#### Where it works well
+
+Nothing to install, no store fees, works on Android and iPhone, and your own domain is the address.
+
+
+
+#### Where it falls short
+
+No Play Store listing to search, many students never add it to the home screen, and notifications depend on the browser.
+
+
+Every academy needs a good mobile website anyway, because that is where students land from Google and YouTube and where they pay. Our guide to an LMS with a custom domain for coaching covers the website half.
+
+
+
+
+
+
+## Shared app vs own app vs PWA: comparison table
+
+A shared app is the quickest start but keeps the platform's name in front; your own app costs store fees but puts your name on the store and keeps the listing yours; a mobile website or PWA needs no store at all but is the easiest for students to forget.
+
+
+
+QuestionShared appYour own appMobile website / PWA
+
+What students downloadThe platform's appYour academy's appNothing, or a home-screen icon
+Name on Play StoreThe platformYou, on your own accountNo listing
+Student loginPlatform account, then your courseYour academy accountYour academy account
+Other educators visibleOftenNoNo
+Push notificationsIn the platform's nameIn your nameDepends on browser and platform
+Offline useDepends on the platformDepends on the platformPossible, often limited
+iOSUsually, in the platform's appCheck which planWorks in Safari
+Store fees for youNoneGoogle US$25 once, Apple US$99 a yearNone
+If you switch LMSStudents need a new appListing stays yours if on your accountPoint your domain to the new LMS
+
+A general comparison; each platform differs. Store fees from Google Play Console Help and Apple Developer, checked 5 Nov 2026.
+
+
+For an academy that plans to run for years, the strongest mix is your own app plus a mobile website on your own domain, sharing one student account.
+
+
+
+
+
+
+## 12 things to check in an LMS mobile app before you pay
+
+Before you pay for an LMS, ask it to answer these 12 questions about its mobile app in writing: listing ownership, iOS plan, video, tests, live classes, notifications, payments, updates, login, branding, exit and extra cost. The first and the eleventh decide who really owns the app.
+
+
+
+The 12 checks. The two in blue decide who owns the app.
+
+
+- Own Play Console listing. Is the app published on my Google Play developer account, with my academy as the developer name?
+
+- iOS, and on which plan. Is there an iOS app, on which plan, and on whose Apple account?
+
+- Video in the app. Do videos play smoothly on a budget phone on mobile data, and can students download lessons safely?
+
+- Tests in the app. Can students take timed tests with ranks and a full-screen lock in the app, not only on the website?
+
+- Live classes in the app. Can students join a live class from inside the course, or are they sent to another app with a link?
+
+- Push notifications. Can I send notifications, and do they arrive in my academy's name?
+
+- Payments in the app. How do students buy a course from inside the app, and how does the platform follow Google Play's and Apple's billing rules? (More below.)
+
+- App updates. Who ships updates when Android or store rules change, and is it included?
+
+- Same login as the website. Does a student who bought on the website see the same course in the app with one account?
+
+- Branding control. Can I change the app name, icon and colours myself, without raising a ticket?
+
+- If I leave. Who keeps the listing, the reviews and the installs, and how do I export my students and content?
+
+- Extra app cost. Is there a separate setup fee, yearly app fee or per-install charge on top of the plan and the store fees?
+
+
+
+
+### Payments in the app: what the store rules say
+
+Google Play requires apps that accept payment for digital content or features to use Google Play's billing system, unless one of its listed exceptions or programmes applies. Its Payments policy reads:
+
+
+"Play-distributed apps requiring or accepting payment for access to in-app features or services, including any app functionality, digital content or goods (collectively 'in-app purchases'), must use Google Play's billing system for those transactions unless Section 3, 8, or 9 applies."
+
+Google Play Console Help, Payments policy, checked 5 Nov 2026[2]
+
+The same page lists education among its examples of subscription services, and says developers in eligible countries or regions may offer an alternative billing system, or lead users outside the app, if they enrol in the applicable programme and accept its terms.2 Apple's guideline 3.1.1 says apps that sell access to features or premium content must use in-app purchase.4 The rules change and differ by country, so ask the LMS exactly how purchases work in its app on both stores.
+
+
+
+
+
+
+## Who owns the app and the Play Store listing if you leave?
+
+The owner of the developer account owns the listing: if your app is published on your own Google Play Console and Apple accounts, the listing, its reviews and its install history stay with you when you change LMS; if it is on the vendor's account, they stay with the vendor. This is the question to settle before you pay, not after.
+
+
+
+The developer line shows whose account published the app. Illustrative listings, not real apps.
+
+Moving an existing app from one developer account to another is possible on both stores, but the current account holder has to start the transfer. If a vendor will not, you may have to publish a fresh app in your own name and ask every student to install it again, losing the ratings you built. See switching coaching apps without losing students.
+
+
+Question educators ask
+
+
+
+### Is my content safe if the app is on the vendor's account?
+
+Your content and student data are a separate question from the app listing. Ask the LMS how you export students, courses and videos, and how long you have to do it after you stop. The listing question is only about the app on the store.
+
+
+
+
+
+
+
+## What students need from the app: login, video, tests, live and reminders
+
+Students judge an LMS app on five things: whether they can find and install it easily, log in once, watch lessons without buffering, take tests and join live classes from the same place, and get a reminder before class. If any one of these sends them back to WhatsApp, the app loses.
+
+
+
+One student's week in your app, from the store listing to the next class. Phone: Biology Lessons, an academy on AllCoaching.
+
+Test the app as a student before you sign: install it on the most basic Android phone in your house, switch to mobile data, play a lesson, start a test and join a live class. Ten minutes tells you more than any feature list.
+
+Then plan the installs, because a good app still sits unused if students never hear why it beats the group chat. Our guide on what to do when students won't download your coaching app covers the reasons and the fixes.
+
+
+
+
+
+
+## How the mobile app works on AllCoaching
+
+On AllCoaching, every plan includes your own white-label Android app, and your iOS app comes on Pro monthly and every yearly plan; the studio builds them from the brand you set in Own branding, and they are published on your own Google Play Console and App Store accounts, by you or by us with API access you grant. There is no shared app standing between you and your students, and no separate app project to buy.
+
+The app runs on the same academy as your website, so a student who buys on your site finds the course in the app with one account, with your test series (all-India rank and percentile, full-screen anti-cheat lock, random question order), live classes and notes. You change the name, icon or colours in the studio; the Google Play Console and App Store Connect plugins connect your developer accounts, and you pay the store fees directly to Google and Apple. Google and Apple review each app, so we never promise an approval date.
+
+
+
+Which plans include the Android and iOS app. Prices exclude 18% GST.
+
+Every plan starts with a 7-day free trial, no card needed. After that, monthly plans take 0% commission: Starter ₹3,999, Growth ₹5,999 or Pro ₹7,999 a month. Yearly plans cost ₹6,999, ₹12,999 or ₹24,999 a year with a 10%, 7.5% or 5% fee per sale. No plan has a sales limit or a setup fee, and prices exclude 18% GST. The path is the same as for the whole academy: sign up, choose a plan, upload your course, connect your domain and start selling. The pricing page lists every feature by plan.
+
+
+Build your own academy. Try it free for 7 days.
+
+Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
+
+Start free trialSee plans
+No card needed · Cancel anytime in the trial · Export your data any time
+
+
+
+
+
+
+## How to choose an LMS with a mobile app and publish it: 7 steps
+
+Decide which kind of app you need, shortlist LMS platforms with the 12 questions, check iOS and the full cost, create your own developer accounts, set your brand and build the app, run testing and submit for review, then launch it to your students. Most of the waiting is store testing and review, so start the accounts early.
+
+
+- Decide which kind of app you needChoose between a shared platform app, your own white-label app and a mobile website or PWA. For a long-term academy, aim for your own app plus a mobile website on your own domain.
+
+- Shortlist LMS platforms and ask the 12 questionsSend each shortlisted LMS the 12-point checklist and ask for written answers, especially on whose developer account the app is published and what happens if you leave.
+
+- Check iOS and the full costNote which plan includes iOS, any setup or yearly app fee, and the store fees: Google Play US$25 once and Apple US$99 a year. Compare the total for a full year.
+
+- Create your own developer accountsRegister a Google Play developer account and, if you need iOS, an Apple Developer Program membership, as an individual or as your organisation.
+
+- Set your brand and build the appStart the trial, add your academy name, logo, icon and colours, upload a first course, and let the platform build the app from that brand.
+
+- Run testing and submit for reviewIf your Play account is a new personal account, run a closed test with at least 12 testers for 14 days, then submit to Google and Apple and answer any review questions.
+
+- Launch to your studentsShare the store link in your WhatsApp groups, YouTube descriptions and website, and give students a reason to install: tests, live class reminders and notes in one place.
+
+
+If you have never built an app, the walk-through in how to make a coaching app without coding shows each screen in more detail.
+
+
+
+
+
+
+## Common mistakes when choosing an LMS with a mobile app
+
+The common mistakes are reading "app included" as "my own app", never asking about iOS, letting the listing sit in the vendor's account, ignoring store billing rules for paid courses, and launching an app with no reason for students to install it. Each takes one question to avoid.
+
+
+
+Five mistakes and their fixes.
+
+
+- "App included" means their app. Ask which of the three kinds it is.
+
+- Never asked about iOS. Check the plan and the Apple account before a parent asks.
+
+- Listing in the vendor's account. Publish on your own developer accounts from day one.
+
+- No plan for in-app payments. Read Google's and Apple's current rules and ask how the LMS follows them.
+
+- An app nobody installs. Give students a reason: tests with rank, live class reminders and every note in one place.
+
+
+An app will not fill a batch on its own. It keeps the students you already have close to your teaching, in your name.
+
+
+
+
+
+
+## Glossary
+
+
+White-label app
+An app built on a platform's technology but published with your academy's name, icon and colours, so students see your brand and not the platform's.
+Shared app
+A single app owned by an LMS company that holds many educators' courses. Students install the platform's app and find your course inside it.
+Play Console
+Google's tool for publishing and managing Android apps on Google Play. The account holder is shown as the developer and controls the listing.
+App Store Connect
+Apple's tool for submitting and managing iOS apps on the App Store, used with an Apple Developer Program membership.
+PWA
+A progressive web app: a website built with web technologies that can be installed on the home screen and behave more like an app, without a store listing.
+Push notification
+A message an app sends to the phone's notification area, such as a reminder that a live class starts in 15 minutes.
+APK and AAB
+Android app file formats. An APK is the file installed on a phone; an Android App Bundle (AAB) is the publishing format Google Play requires for new apps, from which it generates APKs for each device.
+Closed testing
+A Google Play test track where only invited testers can install an app. New personal developer accounts must run one with at least 12 testers for 14 days.
+App Store review
+The check Apple, and Google for Play, run on every new app and update before it is published, against their store guidelines.
+In-app purchase
+A payment made inside an app for digital content or features, which Google Play and the App Store require to go through their own billing systems unless an exception applies.
+
+
+
+
+
+
+## Frequently asked questions
+
+What is an LMS with a mobile app?It is a learning management system that lets students learn on a phone through an app. That app can be a shared app owned by the platform, your own white-label app published under your name, or a mobile website or PWA. Ask which one an LMS includes before you compare prices.
+
+Which is better, a shared app or my own app?A shared app is quicker to start and has no store fees, but students install the platform's app and see its name. Your own app puts your name and icon on the phone and, if it is published on your own developer account, the listing stays yours if you change LMS. For a long-term academy, your own app is usually the better choice.
+
+Is a PWA as good as a native app for an LMS?A PWA can be installed on the home screen and can work offline, but it has no Play Store listing, so students cannot find it in the store, and many never add it to the home screen. It works best alongside an app, as your mobile website.
+
+Do I need an iOS app for my coaching institute?Most Indian students use Android: StatCounter puts Android at 94.84% of mobile operating system share in India for October 2026. An iOS app matters more for batches with many iPhone users, such as school students whose parents pay, professionals and metro students.
+
+Who owns the app if I leave the LMS?Whoever owns the developer account owns the listing. If the app is published on your own Google Play Console and Apple accounts, the listing, reviews and installs stay with you. If it is on the vendor's account, they stay with the vendor, and you may need to publish a new app.
+
+Can students pay for courses inside an LMS app?It depends on the store rules. Google Play's Payments policy says apps accepting payment for digital content must use Google Play's billing system unless a listed exception or programme applies, and Apple's guideline 3.1.1 has a similar rule. Ask the LMS exactly how purchases work in its app on both stores.
+
+Why does Google ask for 12 testers before my app goes live?Google requires developers with personal Play Console accounts created after 13 November 2023 to run a closed test with at least 12 testers opted in for at least 14 days before they can apply for production access.
+
+Does AllCoaching include a mobile app on every plan?Yes. Every AllCoaching plan includes your own white-label Android app, and the iOS app comes on Pro monthly and every yearly plan. The apps are published on your own Google Play Console and App Store accounts, by you or by AllCoaching with API access.
+
+How much does an LMS with my own app cost on AllCoaching?Monthly plans take 0% commission: Starter ₹3,999, Growth ₹5,999 and Pro ₹7,999 a month. Yearly plans cost ₹6,999, ₹12,999 or ₹24,999 a year with a 10%, 7.5% or 5% fee per sale. Prices exclude 18% GST, and every plan starts with a 7-day free trial, no card needed. Store fees are paid to Google and Apple.
+
+
+
+
+
+
+## Sources
+
+
+- StatCounter Global Stats, "Mobile Operating System Market Share India" (October 2026). gs.statcounter.com, checked 5 November 2026.
+
+- Google, "Payments", Play Console Help (Google Play Payments policy). support.google.com, checked 5 November 2026.
+
+- Google, "App testing requirements for new personal developer accounts", Play Console Help. support.google.com, checked 5 November 2026.
+
+- Apple, "App Review Guidelines", guidelines 3.1.1 and 4.2.6. developer.apple.com, checked 5 November 2026.
+
+- MDN Web Docs, "Progressive web apps". developer.mozilla.org, checked 5 November 2026.
+
+
+
+
+
+
+
+Amit Ratan
+Founder & CEO, AllCoaching
+Amit builds AllCoaching, the academy platform Indian educators set up themselves: their own website on their own domain, their own app, and the tools to grow it. We build and publish educators' own Android and iOS apps from the AllCoaching studio, and the most common confusion we see is about which kind of app an LMS actually includes; every Google, Apple, StatCounter and competitor fact here links to its own page, checked 5 November 2026.
 
 ---
 
