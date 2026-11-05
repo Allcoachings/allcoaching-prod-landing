@@ -1,0 +1,295 @@
+{
+ "slug": "best-lms-for-private-tutors",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "Best LMS for Private Tutors in India (2026): What to Pick",
+ "description": "The best LMS for private tutors runs live classes, recordings, notes, tests and UPI fees under your own name. Needs list, honest cost maths and options compared.",
+ "og_description": "A guide for solo private tutors in India moving from WhatsApp, Drive, Zoom and UPI screenshots to one LMS: the nine things a tutor needs, what institute software sells that you do not, when an LMS is not worth it yet, illustrative cost maths, options by type and a one-week move.",
+ "keywords": [
+  "best lms for private tutors",
+  "lms for tutors",
+  "learning management system for tutors",
+  "lms for private tutors india",
+  "best lms for tutors",
+  "online tutoring platform for tutors",
+  "lms for home tutors"
+ ],
+ "h1": "Best LMS for Private Tutors in India: What You Need, What It Costs and When It Is Worth It",
+ "dek": "For the solo tutor teaching 5 to 60 students on WhatsApp, Drive and Zoom: the nine things an LMS must do, what to skip, honest cost maths, your options by type and a one-week plan to move.",
+ "category": "Academy building",
+ "date_published": "2026-11-05",
+ "date_modified": "2026-11-05",
+ "checked": "5 Nov 2026",
+ "cover_alt": "Best LMS for private tutors in India: AllCoaching studio on a laptop and phone running live classes, recordings, notes, tests and UPI fees",
+ "audience": "Independent private tutors in India teaching about 5 to 60 students, from Class 6 to 12 board tuition and JEE or NEET one-to-one to spoken English, music and coding for kids",
+ "author_note": "We set up academies for independent tutors every week, and most of them arrive from the same mix of WhatsApp, Drive, Zoom and UPI screenshots, so this guide is written from that move; competitor prices link to their own pages, checked 5 November 2026.",
+ "intro": [
+  "<strong>The best LMS for private tutors is one login that runs small-batch live classes, recordings, notes, tests and UPI fee collection under your own name, at a price that fits one person rather than an institute.</strong> If you teach fewer than about 10 one-to-one students and sell nothing recorded, you may not need one yet.",
+  "Maybe you teach Class 9 and 10 maths at home in the evenings, a few JEE students one-to-one on weekends, or spoken English to working adults on Zoom. Your notes live on WhatsApp, your recordings in Drive, your fees in UPI screenshots. It works, until a parent asks for last month's marks or a student in another city asks how to join.",
+  "This guide lists what a solo tutor actually needs from an LMS, what to skip, when it is worth paying for, the cost maths with illustrative numbers, the four kinds of option, and a one-week plan to move."
+ ],
+ "takeaways": [
+  "<strong>A tutor needs nine things:</strong> live classes for small batches, recordings, notes and PDFs, tests with results, UPI fee collection, something parents can see, your own brand and app, certificates and bulk import of existing students.",
+  "<strong>Skip institute features</strong> such as branches, staff payroll, transport and hostel modules; a solo tutor pays for them and never uses them.",
+  "<strong>Rule of thumb, not a statistic:</strong> under about 10 one-to-one students in one city, with nothing recorded to sell, a spreadsheet and WhatsApp are still enough.",
+  "<strong>Open links leak:</strong> Google says anyone with an \"Anyone with the link\" Drive link can open the file without signing in, and YouTube says unlisted videos can be shared by anyone with the link.",
+  "<strong>Children's data needs care:</strong> the DPDP Act, 2023 requires verifiable parental consent before processing the personal data of anyone under eighteen.",
+  "<strong>Cost maths on AllCoaching (illustrative, + 18% GST):</strong> a tutor starting out usually pays least on yearly Starter at ₹6,999 + 10% of sales; above about ₹4 lakh of yearly sales, monthly Starter at ₹3,999 with 0% commission usually leaves more.",
+  "<strong>Move in a week, one batch first:</strong> trial, brand, one course, fees, student import, one live class, then a switch date for parents."
+ ],
+ "sections": [
+  {
+   "id": "short-answer",
+   "toc": "The short answer",
+   "h2": "What is the best LMS for private tutors?",
+   "html": "<p><strong>The best LMS for a private tutor is one login that runs live classes for small batches, keeps recordings and notes in each course, grades tests, collects fees by UPI and opens access on payment, under your own name and app. It should not charge you for branches, staff payroll or hostels you do not have.</strong> For most solo tutors that means an own-academy LMS, started small.</p>\n      {{fig:tools-vs-one-login|Private tutor running tuition on WhatsApp, Google Drive, Zoom, UPI screenshots and an Excel sheet versus one LMS login for live classes, notes, tests and fees|Five apps on the left, one academy on the right. Logos belong to their owners; Drive, Zoom and UPI are shown by name only.}}\n      <p>Picture a Class 10 CBSE maths tutor with 25 students: PDFs on WhatsApp, recordings in a Drive folder, the same Zoom link every evening, fees by UPI checked against a notebook. Each tool is fine alone. Together they are five places to search.</p>\n      <p>An LMS puts that week in one place: a course per batch, with its classes, recordings, notes, tests and payments inside it.</p>"
+  },
+  {
+   "id": "who-for",
+   "toc": "Who this is for",
+   "h2": "Who this guide is for: the solo private tutor",
+   "html": "<p><strong>This guide is for an independent tutor who teaches roughly 5 to 60 students alone and wants to move from WhatsApp, Drive and Zoom to one LMS, to sell recorded courses, notes and tests alongside one-to-one or small-batch live classes and to reach students beyond their city.</strong></p>\n      <ul>\n        <li><strong>Home tuition, Class 6 to 12:</strong> CBSE, ICSE or a state board, usually maths, science or English, often with parents paying monthly.</li>\n        <li><strong>JEE or NEET one-to-one:</strong> fewer students, higher fees, heavy on tests and doubt sessions.</li>\n        <li><strong>Spoken English and interview practice:</strong> small live groups, speaking time, a certificate at the end.</li>\n        <li><strong>Music, art or coding for kids:</strong> weekly classes, practice videos, parents watching progress.</li>\n      </ul>\n      <p>If your main problem today is keeping track of who owes you money, start with our guide to the <a href=\"/blog/best-app-for-home-tutors-to-manage-students-and-fees\">best app for home tutors to manage students and fees</a>; this one is about the teaching platform. If you have not taught online yet, read <a href=\"/blog/how-to-become-an-online-tutor-in-india\">how to become an online tutor in India</a> first. And if you run a centre with staff and branches, the <a href=\"/blog/best-lms-for-coaching-institutes-india\">LMS guide for coaching institutes</a> fits you better.</p>"
+  },
+  {
+   "id": "needs",
+   "toc": "What a tutor needs",
+   "h2": "What a private tutor actually needs from an LMS",
+   "html": "<p><strong>A private tutor needs nine things from an LMS: live classes for small batches, recordings, notes and PDFs, tests with results, fee collection by UPI, something parents can see, your own brand and app, certificates for skill courses, and bulk import of the students you already have.</strong> Check these nine and ignore the rest of the feature list.</p>\n      {{fig:tutor-needs-checklist|LMS for tutors checklist: live classes, recordings, notes and PDFs, tests with results, UPI fee collection, parent visibility, own brand and app, certificates and bulk student import|The nine needs. Numbers 1 to 5 are daily work; 6 to 9 decide whether the platform grows with you.}}\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Need</th><th>Why a tutor needs it</th><th>What to check</th></tr></thead>\n          <tbody>\n            <tr><td>Live classes</td><td>Most private tuition is still live, 1:1 or 4 to 15 students</td><td>Zoom or YouTube Live inside the course, or a built-in room; who can join</td></tr>\n            <tr><td>Recordings</td><td>Absent students and revision before exams</td><td>Recording saved inside the course, not on your laptop</td></tr>\n            <tr><td>Notes and PDFs</td><td>Your notes are a product in themselves</td><td>Organised by chapter, visible only to enrolled students</td></tr>\n            <tr><td>Tests with results</td><td>Parents judge progress by marks</td><td>Auto-grading, negative marking, rank, topic-wise results</td></tr>\n            <tr><td>Fees by UPI</td><td>No more matching screenshots</td><td>Checkout with UPI and cards; access opens on payment; payouts to your bank</td></tr>\n            <tr><td>Parent visibility</td><td>The parent pays, the child studies</td><td>What a parent can see, and how you share it</td></tr>\n            <tr><td>Own brand and app</td><td>Students should remember your name</td><td>Your logo and domain; an Android app in your name</td></tr>\n            <tr><td>Certificates</td><td>Spoken English, music and coding students want proof</td><td>Auto-issued on completion, with a unique ID</td></tr>\n            <tr><td>Bulk import</td><td>You already have students</td><td>Upload from Excel or Google Sheet in one go</td></tr>\n          </tbody>\n          <caption>A checklist for a solo tutor, not a full LMS feature list.</caption>\n        </table>\n      </div>\n      <p>One thing worth knowing about free links: Google's Drive help says that with \"Anyone with the link\", anyone on the internet who has the link can open the file without signing in to a Google account.<sup><a href=\"#ref-2\">2</a></sup> That is fine for a free worksheet and a problem for notes that parents paid for.</p>"
+  },
+  {
+   "id": "institute-vs-tutor",
+   "toc": "Tutor vs institute LMS",
+   "h2": "What big-institute LMSs sell that a tutor does not need",
+   "html": "<p><strong>Institute software is built for many teachers, branches and staff, so much of its price pays for multi-branch reports, staff roles and payroll, transport and hostel modules, biometric attendance and admission desks; a solo tutor uses none of these.</strong> Paying for them does not make your classes better.</p>\n      <div class=\"v3-pair\">\n        <div class=\"yes\"><h4>Worth paying for as a tutor</h4><p>Courses with video, PDF and tests; live classes; UPI checkout that opens access; your own website and app; certificates; student import; a clear monthly or yearly price.</p></div>\n        <div class=\"no\"><h4>Usually not needed yet</h4><p>Multiple branches, ten staff roles, teacher salary modules, transport and hostel, front-desk admission CRM, timetable engines for 40 classrooms, a sales call before you can see the price.</p></div>\n      </div>\n      <p>Institute systems also assume an admin who configures everything. A tutor sets things up on a Sunday, so pick something you can set up yourself, without a developer.</p>\n      {{q:Do I need team seats as a solo tutor?|Not at the start. A second seat helps later, when a family member handles fees or an assistant uploads tests, so it is a nice extra rather than a reason to choose a platform.}}"
+  },
+  {
+   "id": "parents",
+   "toc": "Parent visibility",
+   "h2": "Can parents see their child's progress?",
+   "html": "<p><strong>Parents want three things: attendance, test marks and whether the fee is paid. Most LMSs give the student a login with their results, and many tutors simply share that login or send a short monthly summary; check exactly what a platform shows before you promise parents anything.</strong></p>\n      <p>For school-age students the parent is the buyer, so parent updates are part of the product. A simple routine works on any platform: one message after each test with the score and what to practise, and one monthly note on attendance.</p>\n      <p>There is also a legal reason to be careful with children's data. India's Digital Personal Data Protection Act, 2023 defines a child as anyone who has not completed eighteen years, and says that before processing a child's personal data the data fiduciary must obtain the verifiable consent of a parent or lawful guardian.<sup><a href=\"#ref-1\">1</a></sup> Its provisions are coming into force in phases, so check the current rules, but the habit is easy: collect students' details from parents, with their agreement, and keep them inside one system instead of scattered across phones.</p>\n      <div class=\"v3-quote\">\n        <p>\"A Data Fiduciary shall not undertake tracking or behavioural monitoring of children or targeted advertising directed at children.\"</p>\n        <cite>Digital Personal Data Protection Act, 2023, Section 9(3), as published by MeitY<sup><a href=\"#ref-1\">[1]</a></sup></cite>\n      </div>\n      <p>For marketing, the safe line is to advertise to parents, not to the children you teach.</p>"
+  },
+  {
+   "id": "worth-it",
+   "toc": "When it is not worth it",
+   "h2": "When an LMS is not worth it yet",
+   "html": "<p><strong>As a rule of thumb, not a statistic: if you teach fewer than about 10 students, all one-to-one, all in your city, and you have nothing recorded to sell, a spreadsheet and WhatsApp are still enough.</strong> An LMS starts paying for itself when you have batches, notes or tests you can sell more than once, or students outside your city.</p>\n      <p>The reasoning: with under ten one-to-one students you know every parent, fees are a handful of UPI payments and nothing you make is reused, so there is little admin for an LMS to save. Our home-tutor guide puts the point where a diary breaks at roughly 15 to 25 students; that is when chasing fees and resending notes starts eating teaching time.</p>\n      <p>The line moves earlier if any of these are true:</p>\n      <ul>\n        <li><strong>You want to sell something that is not your hour:</strong> a recorded chapter course, a notes pack, a test series for board exams or JEE.</li>\n        <li><strong>You teach students in other cities</strong> who find you online and pay before they meet you.</li>\n        <li><strong>Your notes or recordings are being forwarded</strong> to students who never paid.</li>\n        <li><strong>Parents keep asking for marks</strong> and you rebuild the same report by hand every month.</li>\n      </ul>\n      <p>If none apply, wait, and spend the month writing better notes.</p>"
+  },
+  {
+   "id": "cost",
+   "toc": "The cost maths",
+   "h2": "The honest cost maths: illustrative platform fee vs revenue",
+   "html": "<p><strong>On AllCoaching, a tutor just starting usually pays least on yearly Starter at ₹6,999 a year plus 10% of each sale; once sales through the academy pass about ₹4 lakh a year, monthly Starter at ₹3,999 a month with 0% commission usually leaves more. Prices exclude 18% GST.</strong> The table uses three illustrative tutors.</p>\n      {{fig:cost-maths|Illustrative LMS cost for private tutors: yearly Starter at ₹6,999 plus 10 percent versus monthly Starter at ₹3,999 a month with 0 percent commission at ₹1.2 lakh, ₹5 lakh and ₹12 lakh of yearly sales|Illustrative tutors, platform cost for a year before GST and payment-gateway charges.}}\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Illustrative tutor</th><th>Sales through the academy in a year</th><th>Starter yearly (₹6,999 + 10%)</th><th>Starter monthly (₹3,999 × 12, 0%)</th><th>Lower</th></tr></thead>\n          <tbody>\n            <tr><td>A: 6 students × ₹2,000 × 10 months</td><td>₹1,20,000</td><td>₹18,999 (15.8% of sales)</td><td>₹47,988 (40%)</td><td>Yearly Starter</td></tr>\n            <tr><td>B: 20 students × ₹2,500 × 10 months</td><td>₹5,00,000</td><td>₹56,999 (11.4%)</td><td>₹47,988 (9.6%)</td><td>Monthly Starter</td></tr>\n            <tr><td>C: 40 students × ₹3,000 × 10 months</td><td>₹12,00,000</td><td>₹1,26,999 (10.6%)</td><td>₹47,988 (4%)</td><td>Monthly Starter</td></tr>\n          </tbody>\n          <caption>Illustrative. Platform cost only, before 18% GST on the plan fee and payment-gateway charges on student payments. The fee per sale counts on payments made through your academy. Breakeven between the two Starter plans is about ₹4.1 lakh a year.</caption>\n        </table>\n      </div>\n      <p>Two notes make the table honest. First, at Tutor B's level the yearly Growth plan (₹12,999 + 7.5%) comes to ₹50,499 and yearly Pro (₹24,999 + 5%) to ₹49,999, both close to monthly Starter, so choose by what you need: storage, live-room hours, or an iOS app. Second, GST is added on top: ₹6,999 plus 18% GST is about ₹8,259.</p>\n      <p>Also price the time it replaces: three evenings a month of resending notes and matching payments, at your hourly rate. For a deeper look at fees on sales and add-ons across platforms, see <a href=\"/blog/affordable-lms-for-independent-educators\">what an LMS really costs an independent educator</a>; for setting your own fees, our <a href=\"/blog/how-to-price-online-courses-india\">online course pricing guide</a> has a calculator.</p>"
+  },
+  {
+   "id": "options",
+   "toc": "Options by type",
+   "h2": "Your options by type: from WhatsApp to your own academy",
+   "html": "<p><strong>A private tutor has four kinds of option: a spreadsheet with WhatsApp, a tutoring marketplace, a course tool with a shared app or a fee on each sale, and an own-academy LMS; they differ most in who owns the student relationship and whose name the student sees.</strong></p>\n      {{fig:options-by-type|Online tutoring platform options for tutors by type: spreadsheet and WhatsApp, tutoring marketplace, shared-app course tool and own-academy LMS compared on cost, student ownership, brand, recorded courses, tests and UPI fees|A summary by type, not a ranking. Individual platforms differ; check each one's own page.}}\n      <h3>1. Spreadsheet + WhatsApp + Drive + Zoom</h3>\n      <p><strong>Pros:</strong> little or no cost, everyone already uses it, nothing to learn. <strong>Cons:</strong> notes travel freely, fees are matched by hand, there is no test analysis, and nothing works when you are not there. Fine below the rule-of-thumb line above.</p>\n      <h3>2. Tutoring marketplaces</h3>\n      <p>Directories and apps where parents search for tutors and the platform sends enquiries. <strong>Pros:</strong> enquiries you would not get alone. <strong>Cons:</strong> the platform owns the listing, the reviews and often the relationship; many charge for leads, memberships or a share of fees. Read the tutor terms first.</p>\n      <h3>3. Course tools with a shared app or a fee per sale</h3>\n      <p>These let you sell courses and sessions with little upfront cost, in exchange for a fee on each sale; some put your course inside the platform's common app rather than one in your name. Two Indian examples publish their numbers. Exly lists its Starter plan with no annual upfront fee and 10% commission, Pro at ₹30,000 billed annually with 6%, and a mobile app add-on at ₹60,000 a year (<a href=\"https://exlyapp.com/pricing\" target=\"_blank\" rel=\"noopener nofollow\">exlyapp.com/pricing</a>, checked 5 Nov 2026). TagMango lists Basic with zero fixed fee, 10% commission and a 200-student limit, and Pro at ₹5,000 + GST a month with 5.5% commission (<a href=\"https://tagmango.com/pricing\" target=\"_blank\" rel=\"noopener nofollow\">tagmango.com/pricing</a>, checked 5 Nov 2026). <strong>Pros:</strong> quick to start. <strong>Cons:</strong> the fee grows with your sales, and an app or custom domain can be a paid add-on.</p>\n      <h3>4. An own-academy LMS</h3>\n      <p>Your own website on your own domain, your own app, and your courses, tests, live classes and payments inside it. <strong>Pros:</strong> students see your name, the student list is yours, paid content stays behind a login. <strong>Cons:</strong> a plan fee from the start, and you bring your own students; no platform does the marketing for you.</p>\n      <p>If you already run a batch on WhatsApp, our step-by-step guide to moving a <a href=\"/blog/whatsapp-group-to-online-academy\">WhatsApp group to an online academy</a> covers the student messages in detail.</p>"
+  },
+  {
+   "id": "allcoaching",
+   "toc": "AllCoaching for tutors",
+   "h2": "How AllCoaching fits a private tutor",
+   "html": "<p><strong>AllCoaching gives a private tutor their own academy: a website on your own domain and your own Android app on every plan, with courses that hold video, PDFs and tests, live classes and UPI checkout in one studio.</strong> It works like Shopify for coaching: sign up, choose a plan, upload your course, connect your domain and start selling.</p>\n      {{fig:academy-for-tutors|AllCoaching studio on a laptop and phone for private tutors: courses with video, PDF and tests, test series with all-India rank and percentile, live classes, certificates and bulk student import|AllCoaching Studio preview · sample data.}}\n      <p>For the tutor's nine needs: live classes run on YouTube Live or Zoom from inside the course, unlimited on every plan, plus built-in live classroom hours (20, 50 or 90 hours a month on monthly plans and 5, 10 or 15 on yearly plans). Test series have auto-grading, all-India rank and percentile, a full-screen anti-cheat lock and random question order. Certificates are branded, auto-issued and carry a unique ID. You can bulk-import your students from Excel or a Google Sheet. Students pay by UPI or card, with automatic Razorpay payouts to your bank. The iOS app comes on Pro monthly and every yearly plan. For parents, use the update routine above.</p>\n      <p>Pricing is published: a 7-day free trial with no card needed, then monthly plans at 0% commission (Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 a month) or yearly plans with a fee per sale (Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%), all + 18% GST. A tutor just starting usually fits yearly Starter; move to monthly when your sales pass about ₹4 lakh a year. More than 500 educators already sell on AllCoaching. The <a href=\"/pricing\">pricing page</a> lists every plan.</p>\n      {{cta}}"
+  },
+  {
+   "id": "move",
+   "toc": "Move in one week",
+   "h2": "How to move your tuition onto an LMS in one week: 7 steps",
+   "html": "<p><strong>Start a trial and set up your brand, upload one batch's notes, recordings and a test, set fees and payouts, import your students, run one live class from the course, then tell parents the switch date.</strong> Keep WhatsApp as an announcement channel; move the teaching.</p>\n      {{steps}}\n      {{fig:one-week-move|One-week plan to move private tuition onto an LMS: start the trial, add branding and a course, upload notes and a test, set fees, import students, run a live class and message parents|A week that fits around evening classes. Move one batch first, then the rest.}}\n      <p>Keep free material public and paid material behind the login. If you publish your own Android app on Google Play, Google charges a US$25 one-time registration fee for the developer account, and says personal developer accounts must complete specific app testing requirements before distributing apps on Google Play.<sup><a href=\"#ref-5\">5</a></sup></p>\n      <p>For live classes, do not plan a 90-minute batch on a free tier: Zoom's pricing page lists 40 minutes and 100 participants per meeting on the free Basic plan, with local recording only.<sup><a href=\"#ref-3\">3</a></sup> Our comparison of <a href=\"/blog/youtube-live-vs-zoom-for-teachers\">YouTube Live vs Zoom for teachers</a> covers which to use for which class, and the <a href=\"/blog/online-tuition-app-for-class-10-and-12-cbse-teachers\">online tuition app guide for Class 10 and 12 CBSE teachers</a> shows how to plan a board-exam year around it.</p>"
+  },
+  {
+   "id": "mistakes",
+   "toc": "Mistakes to avoid",
+   "h2": "Mistakes private tutors make when choosing an LMS",
+   "html": "<p><strong>The common mistakes are buying institute software, paying before you have enough students, keeping paid notes on open links, letting a marketplace own your students, and moving every batch overnight.</strong> Each has a simple fix.</p>\n      {{fig:mistakes|Mistakes private tutors make when choosing an LMS: buying institute software, paying too early, paid notes on open links, letting the platform own students, moving everyone overnight, and what to do instead|Five mistakes and their fixes.}}\n      <ul>\n        <li><strong>Buying for ten teachers when you are one.</strong> Pay for courses, tests, live and payments, not branches and payroll.</li>\n        <li><strong>Paying too early.</strong> Below about 10 one-to-one students with nothing to sell, wait. When you start, start on a small yearly plan.</li>\n        <li><strong>Paid notes on open links.</strong> YouTube says unlisted videos can be seen and shared by anyone with the link;<sup><a href=\"#ref-4\">4</a></sup> Drive links set to \"Anyone with the link\" behave the same way. Put paid content behind enrolment.</li>\n        <li><strong>Letting the platform own the relationship.</strong> If students only know you through someone else's app, its rules decide your business.</li>\n        <li><strong>Moving everyone at once.</strong> Move one batch, fix what breaks, then set one switch date for the rest.</li>\n      </ul>\n      <p>Move one batch well and keep teaching the way parents already trust; that is the hard part done.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to move your private tuition onto an LMS in one week",
+  "description": "Seven steps for a solo tutor to move from WhatsApp, Google Drive, Zoom and UPI screenshots to one LMS, one batch at a time.",
+  "total_time": "P7D",
+  "items": [
+   [
+    "Start a trial and name your academy",
+    "Sign up, choose your academy name and web address, and note what each plan includes before the trial ends."
+   ],
+   [
+    "Add your brand and first course",
+    "Upload your logo and colours, then create one course for one batch, for example Class 10 Maths 2026-27."
+   ],
+   [
+    "Upload notes, recordings and one test",
+    "Add chapter-wise PDFs, last month's recordings and one chapter test with marks, so the course is useful on day one."
+   ],
+   [
+    "Set fees and connect payouts",
+    "Set the monthly or course fee, connect your payout account, and make one small test payment yourself."
+   ],
+   [
+    "Import your students",
+    "Clean your student sheet (name, class, phone, parent contact) and bulk-import it from Excel or Google Sheet."
+   ],
+   [
+    "Run one live class from the course",
+    "Schedule the next class inside the course on Zoom, YouTube Live or a built-in room, and add the recording the same day."
+   ],
+   [
+    "Tell parents and set a switch date",
+    "Send one WhatsApp message with the academy link, how to log in and the date after which notes and links move there."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "What is the best LMS for private tutors in India?",
+   "For most private tutors, the best LMS is one that runs live classes, recordings, notes, tests and UPI fee collection in one login under your own name, without charging for institute features like branches and staff payroll. An own-academy LMS on a small yearly plan suits a tutor starting out; compare total cost at your real sales level."
+  ],
+  [
+   "Do private tutors really need an LMS?",
+   "Not always. As a rule of thumb, a tutor with fewer than about 10 one-to-one students in one city and nothing recorded to sell can manage with a spreadsheet and WhatsApp. An LMS becomes worth it when you have batches, notes or tests to sell more than once, or students in other cities."
+  ],
+  [
+   "How much does an LMS cost for a tutor?",
+   "It depends on the plan and your sales. On AllCoaching, yearly Starter is ₹6,999 a year plus 10% of each sale and monthly Starter is ₹3,999 a month with 0% commission, both plus 18% GST, after a 7-day free trial with no card needed. Below about ₹4 lakh of yearly sales the yearly plan usually costs less."
+  ],
+  [
+   "Can parents see their child's progress on an LMS?",
+   "Most LMSs show results to the student's login, and many tutors share that login with parents or send a monthly summary of attendance and test marks. Check what a platform shows parents before you promise it, and collect a child's details from the parent with their agreement."
+  ],
+  [
+   "Can I take live classes on an LMS?",
+   "Yes. Many LMSs connect to Zoom or YouTube Live, and some have a built-in live room. AllCoaching includes unlimited live classes on YouTube Live or Zoom on every plan, plus built-in live classroom hours by plan."
+  ],
+  [
+   "Can I collect tuition fees by UPI through an LMS?",
+   "Yes. An LMS with a payment gateway lets students or parents pay by UPI or card at checkout, and access opens after payment. On AllCoaching, payments go through Razorpay and payouts go to your bank automatically; gateway charges on student payments are separate."
+  ],
+  [
+   "How do I move my existing students onto an LMS?",
+   "Clean your student list in a sheet, bulk-import it, move one batch first, and send parents one message with the link, how to log in and a switch date. Keep WhatsApp for announcements while teaching moves into the course."
+  ],
+  [
+   "Should a tutor join a tutoring marketplace or build their own academy?",
+   "A marketplace can bring enquiries, but the platform usually owns the listing and the relationship and may charge for leads or a share of fees. Your own academy keeps your name and student list, but you bring the students. Many tutors use a marketplace for enquiries and their own academy for teaching."
+  ],
+  [
+   "Can I get my own app as a private tutor?",
+   "Yes. On AllCoaching every plan includes your own Android app, and the iOS app comes on Pro monthly and every yearly plan. Apps are published on your own developer accounts; Google Play charges a one-time US$25 registration fee."
+  ]
+ ],
+ "glossary": [
+  [
+   "lms",
+   "LMS (learning management system)",
+   "Software that holds your courses, classes, notes, tests and students in one place, with logins and access control."
+  ],
+  [
+   "own-academy",
+   "Own-academy LMS",
+   "An LMS that runs on your own website and app under your brand, so students see your name and the student list stays yours."
+  ],
+  [
+   "tutoring-marketplace",
+   "Tutoring marketplace",
+   "A platform where parents and students search for tutors; it usually controls the listing, reviews and first contact."
+  ],
+  [
+   "fee-per-sale",
+   "Fee per sale",
+   "A percentage the platform keeps from each payment made through your academy, on top of or instead of a fixed plan fee."
+  ],
+  [
+   "upi",
+   "UPI",
+   "Unified Payments Interface, India's real-time bank-to-bank payment system used through apps such as Google Pay, PhonePe and Paytm."
+  ],
+  [
+   "payment-gateway",
+   "Payment gateway",
+   "The service that processes online payments at checkout, such as Razorpay, and charges its own fee on each payment."
+  ],
+  [
+   "bulk-import",
+   "Bulk import",
+   "Adding many students at once by uploading a spreadsheet instead of typing each one."
+  ],
+  [
+   "test-series",
+   "Test series",
+   "A set of exam-pattern tests with automatic grading and results such as rank, percentile and topic-wise scores."
+  ],
+  [
+   "verifiable-consent",
+   "Verifiable parental consent",
+   "Consent from a parent or lawful guardian, obtained in a checkable way, which the DPDP Act, 2023 requires before processing a child's personal data."
+  ]
+ ],
+ "references": [
+  "Ministry of Electronics and Information Technology, \"The Digital Personal Data Protection Act, 2023\" (No. 22 of 2023), Sections 2(f) and 9. <a href=\"https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf\" target=\"_blank\" rel=\"noopener nofollow\">meity.gov.in</a>, checked 5 November 2026.",
+  "Google, \"Share and manage access to files and folders in Google Drive\", Google Drive Help. <a href=\"https://support.google.com/drive/answer/2494822?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked 5 November 2026.",
+  "Zoom, \"Plans &amp; Pricing\". <a href=\"https://zoom.us/pricing\" target=\"_blank\" rel=\"noopener nofollow\">zoom.us/pricing</a>, checked 5 November 2026.",
+  "YouTube, \"Change video privacy settings\", YouTube Help. <a href=\"https://support.google.com/youtube/answer/157177?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked 5 November 2026.",
+  "Google, \"Get started with Play Console\", Play Console Help. <a href=\"https://support.google.com/googleplay/android-developer/answer/6112435?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked 5 November 2026."
+ ],
+ "citations": [
+  "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf",
+  "https://support.google.com/drive/answer/2494822?hl=en",
+  "https://zoom.us/pricing",
+  "https://support.google.com/youtube/answer/157177?hl=en",
+  "https://support.google.com/googleplay/android-developer/answer/6112435?hl=en",
+  "https://exlyapp.com/pricing",
+  "https://tagmango.com/pricing"
+ ],
+ "about": [
+  {
+   "name": "Learning management system",
+   "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
+  },
+  {
+   "name": "Tutor",
+   "sameAs": "https://en.wikipedia.org/wiki/Tutor"
+  },
+  {
+   "name": "Online tutoring",
+   "sameAs": "https://en.wikipedia.org/wiki/Online_tutoring"
+  },
+  {
+   "name": "Unified Payments Interface",
+   "sameAs": "https://en.wikipedia.org/wiki/Unified_Payments_Interface"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "Digital Personal Data Protection Act, 2023",
+   "url": "https://www.meity.gov.in/"
+  },
+  {
+   "name": "Google Drive",
+   "url": "https://drive.google.com/"
+  },
+  {
+   "name": "Zoom",
+   "url": "https://zoom.us/"
+  },
+  {
+   "name": "Exly",
+   "url": "https://exlyapp.com/"
+  },
+  {
+   "name": "TagMango",
+   "url": "https://tagmango.com/"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/best-app-for-home-tutors-to-manage-students-and-fees",
+  "/blog/how-to-become-an-online-tutor-in-india",
+  "/blog/affordable-lms-for-independent-educators",
+  "/blog/whatsapp-group-to-online-academy"
+ ]
+}

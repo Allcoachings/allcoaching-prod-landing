@@ -2,6 +2,11 @@
 
 Newest first. A newer line always overrides an older one. Add a dated line whenever the owner confirms or changes something, then update `SKILL.md`, the matching reference file and `CLAUDE.md`.
 
+## 2026-11-05
+- **Blogs live:** `/blog/best-platform-to-sell-online-courses-in-india`, `/blog/lms-with-mobile-app`, `/blog/best-lms-for-private-tutors` (high-intent keywords from Google India autocomplete). Next: refresh `affordable-lms-for-independent-educators` for "lms software price in india" and `white-label-app-for-educators-india` for "white label lms"; owner to decide on a Hinglish "apna coaching app kaise banaye" post and a "Classplus DIY" angle.
+- **Competitor changes (checked 5 Nov 2026):** TagMango Ultimate now ₹35,000/mo (was ₹30,000); Learnyst Launcher plan no longer on its pricing page.
+- **Not claimed until confirmed:** parent portal/visibility; in-app purchases, offline downloads and push notifications in the educator's app.
+
 ## 2026-10-31 (handover — state at end of session)
 - **Blogs live:** roadmap #7 `/blog/how-to-write-a-course-description`, #8 `/blog/domain-name-for-coaching-institute`, #9 `/blog/coaching-institute-website-without-wordpress` (PR #48). Next on the roadmap: #10 white-label app, #11 institute name ideas, #14 30-day launch plan.
 - **Open owner questions on those posts:** can educators edit course-page title/description/price; which DNS records the studio asks for and is HTTPS automatic; which pages payment gateways ask for; OK to say "free sample lesson" instead of "demo lesson". Sales playbook also says "we help upload the first course in the trial" — confirm the team does this.

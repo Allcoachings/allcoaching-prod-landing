@@ -1,0 +1,306 @@
+{
+ "slug": "lms-with-mobile-app",
+ "dir": "blog",
+ "lang": "en-IN",
+ "title": "LMS With Mobile App: What to Check Before You Pay (2026)",
+ "description": "An LMS with a mobile app can mean a shared app, your own app or a mobile site. What each means for students, Play Store ownership and iOS, plus a 12-point checklist.",
+ "og_description": "Choosing an LMS with a mobile app in India: the three kinds of app (shared platform app, your own white-label app, mobile website or PWA), what each means for students, branding, Play Store listing ownership and switching later, a comparison table, a 12-point checklist and 7 steps to publish.",
+ "keywords": [
+  "lms with mobile app",
+  "lms with app",
+  "lms with android app india",
+  "learning management system with mobile app",
+  "lms app for coaching institute",
+  "lms with own branded app",
+  "best lms with mobile app",
+  "shared app vs white label app",
+  "pwa vs native app for lms",
+  "play console listing ownership"
+ ],
+ "h1": "LMS With Mobile App: Shared App, Your Own App or a Mobile Website?",
+ "dek": "Three very different things are sold as an LMS with a mobile app. Here is what each one means for your students, your brand, your Play Store listing and the day you switch, with a 12-point checklist to run before you pay.",
+ "category": "Brand & website",
+ "date_published": "2026-11-05",
+ "date_modified": "2026-11-05",
+ "checked": "5 Nov 2026",
+ "cover_alt": "LMS with mobile app compared: a shared platform app, your own white-label app with your icon, and a mobile website on a phone",
+ "audience": "Indian educators, tutors and coaching institute owners comparing LMS platforms and looking for one that includes a mobile app for students",
+ "author_note": "We build and publish educators' own Android and iOS apps from the AllCoaching studio, and the most common confusion we see is about which kind of app an LMS actually includes; every Google, Apple, StatCounter and competitor fact here links to its own page, checked 5 November 2026.",
+ "intro": [
+  "<strong>An LMS with a mobile app can mean three different things: a shared app where your course sits inside the platform's own app, your own white-label app published under your name on Google Play and the App Store, or a mobile website that students open in a browser or add to their home screen as a PWA.</strong> They look similar in a sales pitch, but they differ on brand, on who owns the store listing and on what happens if you ever switch.",
+  "Maybe you teach NEET biology to students in Patna and Ranchi, and every one of them studies on an Android phone. Or you run a spoken English batch and parents keep asking, \"Is there an app?\". So you start comparing LMS platforms, and every pricing page says \"mobile app included\". The real question is: whose app?",
+  "This guide explains the three kinds of app, why the app matters for students in India, a comparison table, the 12 things to check before you pay, and 7 steps to choose an LMS and publish your app. If you have already decided you want an app in your own name, our guide to <a href=\"/blog/white-label-app-for-educators-india\">getting a white-label app for educators in India</a> goes deeper on that one option."
+ ],
+ "takeaways": [
+  "<strong>\"Mobile app included\" has three meanings:</strong> a shared platform app, your own white-label app, or a mobile website / PWA. Ask which one before you compare prices.",
+  "<strong>Android is where Indian students are:</strong> StatCounter puts Android at 94.84% of mobile web traffic in India for October 2026, and iOS at 5.1% (checked 5 Nov 2026).",
+  "<strong>The developer account decides ownership:</strong> an app published on your own Google Play Console and Apple account stays your listing if you change LMS; one on the vendor's account does not.",
+  "<strong>Payments inside an app follow store rules:</strong> Google Play's policy says apps accepting payment for digital content \"must use Google Play's billing system\" unless an exception applies, and Apple has a similar rule. Ask your LMS how it handles this.",
+  "<strong>New personal Play Console accounts must run a closed test</strong> with at least 12 testers for 14 days before going live, so plan your launch around it.",
+  "<strong>On AllCoaching, every plan includes your own white-label Android app</strong>, and your iOS app comes on Pro monthly and every yearly plan, published on your own Play Console and App Store accounts.",
+  "<strong>Plans start with a 7-day free trial, no card needed;</strong> monthly plans take 0% commission from ₹3,999 a month, yearly plans start at ₹6,999 a year with a fee per sale, prices + 18% GST."
+ ],
+ "sections": [
+  {
+   "id": "three-kinds",
+   "h2": "What does \"LMS with mobile app\" actually mean?",
+   "toc": "Three kinds of app",
+   "html": "<p><strong>When an LMS says it comes with a mobile app, it means one of three things: a shared app owned by the platform that holds many educators' courses, a white-label app built for you and listed under your own name, or a mobile-friendly website, sometimes installable as a progressive web app (PWA).</strong> All three let a student learn on a phone. Only one puts your name on the Play Store.</p>\n      {{fig:three-kinds|Three kinds of LMS mobile app compared: a shared platform app, your own white-label app and a mobile website or PWA, on store name, installs, notifications, listing ownership and switching|The three kinds side by side. The listing stays yours only when the app is on your own developer account.}}\n      <ul>\n        <li><strong>Shared app:</strong> the student installs the platform's app, searches for you or uses a code, and finds your course next to other educators' courses. Your brand is a page inside someone else's app.</li>\n        <li><strong>Your own white-label app:</strong> the platform builds an app with your name, icon and colours, and it is published as a separate app on Google Play and, on some plans, the App Store. The student installs \"Your Academy\".</li>\n        <li><strong>Mobile website or PWA:</strong> the student opens your academy website in Chrome. A PWA can also be added to the home screen and behave more like an app, but there is no store listing to find.</li>\n      </ul>\n      <p>None of these is wrong, but the choice decides who students think they are learning from and how hard it is to move later, so make it first.</p>"
+  },
+  {
+   "id": "why-app",
+   "h2": "Why the app matters for an LMS in India",
+   "toc": "Why the app matters",
+   "html": "<p><strong>In India the phone is the classroom: Android had 94.84% of mobile operating system share in India in October 2026 according to StatCounter, and iOS had 5.1%.</strong><sup><a href=\"#ref-1\">1</a></sup> StatCounter measures share of web traffic from mobile devices, not phones sold, but the direction is clear. If your students are on a phone, they are almost certainly on Android.</p>\n      <ul>\n        <li><strong>Android first.</strong> An own Android app matters more than iOS for most Indian academies.</li>\n        <li><strong>Modest phones and patchy data.</strong> Many students in tier-2 and tier-3 towns use budget phones with little storage, on mobile data. Ask how video quality adjusts and how heavy the app is.</li>\n        <li><strong>One tap back to class.</strong> An icon on the home screen and a notification before a live class bring students back more reliably than a link buried in a WhatsApp group.</li>\n        <li><strong>iOS still matters for some batches,</strong> such as school students whose parents pay, professionals and metro students. Check which plan includes it.</li>\n      </ul>\n      <p>An app does not replace your website: students find you on Google and pay on a page, then come back every day in the app. Our guide to the <a href=\"/blog/best-lms-for-coaching-institutes-india\">best LMS for coaching institutes in India</a> covers the rest of the platform comparison.</p>"
+  },
+  {
+   "id": "shared-app",
+   "h2": "Kind 1: a shared app, with your course inside their app",
+   "toc": "Shared app",
+   "html": "<p><strong>A shared app is one app, owned and published by the LMS company, that holds many educators' content; your students install the platform's app and find your course inside it.</strong> It is the simplest option for the platform to run, and Apple describes it as one acceptable model for template providers.</p>\n      <div class=\"v3-quote\">\n        <p>\"Another acceptable option for template providers is to create a single binary to host all client content in an aggregated or 'picker' model.\"</p>\n        <cite>Apple App Review Guidelines 4.2.6, checked 5 Nov 2026<sup><a href=\"#ref-4\">[4]</a></sup></cite>\n      </div>\n      {{fig:shared-vs-own|Shared LMS app versus your own academy on a phone: the platform brand and other educators beside you in a shared app, and only your name in your own academy|Left: a shared app, illustrative mock-up. Right: Biology Lessons (Dr. Subhash Nair), an academy on AllCoaching, as students see it on a phone.}}\n      <h3>What a shared app means for you and your students</h3>\n      <ul>\n        <li><strong>Download:</strong> students install the platform's app, not yours. On the Play Store it shows the platform's name and reviews.</li>\n        <li><strong>Login:</strong> a platform account first, then your course by code or search.</li>\n        <li><strong>Brand:</strong> your logo appears inside a page; the icon on the phone is the platform's. Other educators teaching your subject may sit one tap away.</li>\n        <li><strong>Notifications:</strong> they arrive in the platform's name.</li>\n        <li><strong>Switching later:</strong> your students' app belongs to the platform. If you leave, they need a new app and a new login.</li>\n      </ul>\n      <p>A shared app costs no store fees and suits a trial run of one course. For a long-term academy, remember that every install builds the platform's audience, not yours.</p>"
+  },
+  {
+   "id": "own-app",
+   "h2": "Kind 2: your own white-label app on Play Store and App Store",
+   "toc": "Your own app",
+   "html": "<p><strong>A white-label app is a separate app built from the platform's technology but published under your academy's name, icon and colours, ideally on your own Google Play Console and Apple developer accounts.</strong> To a student it is simply \"your app\"; the platform underneath is not visible.</p>\n      <p>What matters most is whose developer account publishes it, because the account holder is shown as the developer and controls the listing. Not every LMS publishes on your account. Learnyst's pricing page, for example, says: \"Apps will be available in Google Play store &amp; Apple App store under Learnyst's Developer Account\" (<a href=\"https://www.learnyst.com/pricing\" target=\"_blank\" rel=\"noopener nofollow\">learnyst.com/pricing</a>, checked 5 Nov 2026). That is a legitimate model; it just means the listing is the vendor's.</p>\n      <h3>What it takes to publish in your own name</h3>\n      <ul>\n        <li><strong>A Google Play developer account:</strong> Google lists a US$25 registration fee, paid once (<a href=\"https://support.google.com/googleplay/android-developer/answer/6112435?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">Play Console Help</a>, checked 5 Nov 2026).</li>\n        <li><strong>An Apple Developer Program membership for iOS:</strong> Apple lists the annual fee as 99 USD, in local currency where available (<a href=\"https://developer.apple.com/support/enrollment/\" target=\"_blank\" rel=\"noopener nofollow\">Apple Developer</a>, checked 5 Nov 2026).</li>\n        <li><strong>A closed test for new personal Play accounts:</strong> Google says personal accounts created after 13 November 2023 must run a closed test with at least 12 testers opted in for at least 14 days before applying for production access.<sup><a href=\"#ref-3\">3</a></sup></li>\n        <li><strong>Store review:</strong> Google and Apple review every app and update. No LMS can promise a date.</li>\n      </ul>\n      <p>When educators move to us from an agency-built app, our first question is which Play Console account it sits in; often they do not know. If you are weighing an agency build against a platform, our breakdown of <a href=\"/blog/white-label-coaching-app-development-cost-india\">white-label coaching app development cost in India</a> lays out the year-one numbers.</p>"
+  },
+  {
+   "id": "pwa",
+   "h2": "Kind 3: a mobile website or PWA",
+   "toc": "Mobile website or PWA",
+   "html": "<p><strong>A mobile website is your academy opened in the phone's browser; a progressive web app (PWA) is a website built so it can also be installed on the home screen and work more like an app, without going through Google Play or the App Store.</strong> MDN, the web developer reference maintained by Mozilla, defines it this way:</p>\n      <div class=\"v3-quote\">\n        <p>\"A progressive web app (PWA) is an app that's built using web platform technologies, but that provides a user experience like that of a platform-specific app.\"</p>\n        <cite>MDN Web Docs, Progressive web apps, checked 5 Nov 2026<sup><a href=\"#ref-5\">[5]</a></sup></cite>\n      </div>\n      <p>MDN adds that a PWA can be installed on the device and can operate while offline and in the background, but how much of that a given LMS actually builds in varies a lot.<sup><a href=\"#ref-5\">5</a></sup> Ask to see it working on a real Android phone, not on a slide.</p>\n      <div class=\"v3-pair\">\n        <div class=\"yes\"><h4>Where it works well</h4><p>Nothing to install, no store fees, works on Android and iPhone, and your own domain is the address.</p></div>\n        <div class=\"no\"><h4>Where it falls short</h4><p>No Play Store listing to search, many students never add it to the home screen, and notifications depend on the browser.</p></div>\n      </div>\n      <p>Every academy needs a good mobile website anyway, because that is where students land from Google and YouTube and where they pay. Our guide to an <a href=\"/blog/lms-with-custom-domain-for-coaching-india\">LMS with a custom domain for coaching</a> covers the website half.</p>"
+  },
+  {
+   "id": "comparison",
+   "h2": "Shared app vs own app vs PWA: comparison table",
+   "toc": "Comparison table",
+   "html": "<p><strong>A shared app is the quickest start but keeps the platform's name in front; your own app costs store fees but puts your name on the store and keeps the listing yours; a mobile website or PWA needs no store at all but is the easiest for students to forget.</strong></p>\n      <div class=\"v3-table\">\n        <table>\n          <thead><tr><th>Question</th><th>Shared app</th><th>Your own app</th><th>Mobile website / PWA</th></tr></thead>\n          <tbody>\n            <tr><td>What students download</td><td>The platform's app</td><td>Your academy's app</td><td>Nothing, or a home-screen icon</td></tr>\n            <tr><td>Name on Play Store</td><td>The platform</td><td>You, on your own account</td><td>No listing</td></tr>\n            <tr><td>Student login</td><td>Platform account, then your course</td><td>Your academy account</td><td>Your academy account</td></tr>\n            <tr><td>Other educators visible</td><td>Often</td><td>No</td><td>No</td></tr>\n            <tr><td>Push notifications</td><td>In the platform's name</td><td>In your name</td><td>Depends on browser and platform</td></tr>\n            <tr><td>Offline use</td><td>Depends on the platform</td><td>Depends on the platform</td><td>Possible, often limited</td></tr>\n            <tr><td>iOS</td><td>Usually, in the platform's app</td><td>Check which plan</td><td>Works in Safari</td></tr>\n            <tr><td>Store fees for you</td><td>None</td><td>Google US$25 once, Apple US$99 a year</td><td>None</td></tr>\n            <tr><td>If you switch LMS</td><td>Students need a new app</td><td>Listing stays yours if on your account</td><td>Point your domain to the new LMS</td></tr>\n          </tbody>\n          <caption>A general comparison; each platform differs. Store fees from Google Play Console Help and Apple Developer, checked 5 Nov 2026.</caption>\n        </table>\n      </div>\n      <p>For an academy that plans to run for years, the strongest mix is your own app plus a mobile website on your own domain, sharing one student account.</p>"
+  },
+  {
+   "id": "checklist",
+   "h2": "12 things to check in an LMS mobile app before you pay",
+   "toc": "12-point checklist",
+   "html": "<p><strong>Before you pay for an LMS, ask it to answer these 12 questions about its mobile app in writing: listing ownership, iOS plan, video, tests, live classes, notifications, payments, updates, login, branding, exit and extra cost.</strong> The first and the eleventh decide who really owns the app.</p>\n      {{fig:checklist|LMS with mobile app checklist: own Play Console listing, iOS plan, video playback, tests, live classes, push notifications, payments, app updates, login, branding control, exit and extra cost|The 12 checks. The two in blue decide who owns the app.}}\n      <ol>\n        <li><strong>Own Play Console listing.</strong> Is the app published on my Google Play developer account, with my academy as the developer name?</li>\n        <li><strong>iOS, and on which plan.</strong> Is there an iOS app, on which plan, and on whose Apple account?</li>\n        <li><strong>Video in the app.</strong> Do videos play smoothly on a budget phone on mobile data, and can students download lessons safely?</li>\n        <li><strong>Tests in the app.</strong> Can students take timed tests with ranks and a full-screen lock in the app, not only on the website?</li>\n        <li><strong>Live classes in the app.</strong> Can students join a live class from inside the course, or are they sent to another app with a link?</li>\n        <li><strong>Push notifications.</strong> Can I send notifications, and do they arrive in my academy's name?</li>\n        <li><strong>Payments in the app.</strong> How do students buy a course from inside the app, and how does the platform follow Google Play's and Apple's billing rules? (More below.)</li>\n        <li><strong>App updates.</strong> Who ships updates when Android or store rules change, and is it included?</li>\n        <li><strong>Same login as the website.</strong> Does a student who bought on the website see the same course in the app with one account?</li>\n        <li><strong>Branding control.</strong> Can I change the app name, icon and colours myself, without raising a ticket?</li>\n        <li><strong>If I leave.</strong> Who keeps the listing, the reviews and the installs, and how do I export my students and content?</li>\n        <li><strong>Extra app cost.</strong> Is there a separate setup fee, yearly app fee or per-install charge on top of the plan and the store fees?</li>\n      </ol>\n      <h3>Payments in the app: what the store rules say</h3>\n      <p><strong>Google Play requires apps that accept payment for digital content or features to use Google Play's billing system, unless one of its listed exceptions or programmes applies.</strong> Its Payments policy reads:</p>\n      <div class=\"v3-quote\">\n        <p>\"Play-distributed apps requiring or accepting payment for access to in-app features or services, including any app functionality, digital content or goods (collectively 'in-app purchases'), must use Google Play's billing system for those transactions unless Section 3, 8, or 9 applies.\"</p>\n        <cite>Google Play Console Help, Payments policy, checked 5 Nov 2026<sup><a href=\"#ref-2\">[2]</a></sup></cite>\n      </div>\n      <p>The same page lists education among its examples of subscription services, and says developers in eligible countries or regions may offer an alternative billing system, or lead users outside the app, if they enrol in the applicable programme and accept its terms.<sup><a href=\"#ref-2\">2</a></sup> Apple's guideline 3.1.1 says apps that sell access to features or premium content must use in-app purchase.<sup><a href=\"#ref-4\">4</a></sup> The rules change and differ by country, so ask the LMS exactly how purchases work in its app on both stores.</p>"
+  },
+  {
+   "id": "ownership",
+   "h2": "Who owns the app and the Play Store listing if you leave?",
+   "toc": "If you leave the LMS",
+   "html": "<p><strong>The owner of the developer account owns the listing: if your app is published on your own Google Play Console and Apple accounts, the listing, its reviews and its install history stay with you when you change LMS; if it is on the vendor's account, they stay with the vendor.</strong> This is the question to settle before you pay, not after.</p>\n      {{fig:listing-ownership|Play Store listing ownership for an LMS mobile app: published on your own developer account versus the platform's account, and what happens to the listing, reviews and installs when you switch|The developer line shows whose account published the app. Illustrative listings, not real apps.}}\n      <p>Moving an existing app from one developer account to another is possible on both stores, but the current account holder has to start the transfer. If a vendor will not, you may have to publish a fresh app in your own name and ask every student to install it again, losing the ratings you built. See <a href=\"/blog/switch-coaching-apps-without-losing-students\">switching coaching apps without losing students</a>.</p>\n      {{q:Is my content safe if the app is on the vendor's account?|Your content and student data are a separate question from the app listing. Ask the LMS how you export students, courses and videos, and how long you have to do it after you stop. The listing question is only about the app on the store.}}"
+  },
+  {
+   "id": "student-experience",
+   "h2": "What students need from the app: login, video, tests, live and reminders",
+   "html": "<p><strong>Students judge an LMS app on five things: whether they can find and install it easily, log in once, watch lessons without buffering, take tests and join live classes from the same place, and get a reminder before class.</strong> If any one of these sends them back to WhatsApp, the app loses.</p>\n      {{fig:student-journey|Student journey in an LMS mobile app: find the academy on Play Store, install and log in, open the course, take the weekly test with rank and percentile, join the live class and get a reminder|One student's week in your app, from the store listing to the next class. Phone: Biology Lessons, an academy on AllCoaching.}}\n      <p>Test the app as a student before you sign: install it on the most basic Android phone in your house, switch to mobile data, play a lesson, start a test and join a live class. Ten minutes tells you more than any feature list.</p>\n      <p>Then plan the installs, because a good app still sits unused if students never hear why it beats the group chat. Our guide on <a href=\"/blog/students-wont-download-coaching-app-whatsapp\">what to do when students won't download your coaching app</a> covers the reasons and the fixes.</p>"
+  },
+  {
+   "id": "allcoaching",
+   "h2": "How the mobile app works on AllCoaching",
+   "toc": "The app on AllCoaching",
+   "html": "<p><strong>On AllCoaching, every plan includes your own white-label Android app, and your iOS app comes on Pro monthly and every yearly plan; the studio builds them from the brand you set in Own branding, and they are published on your own Google Play Console and App Store accounts, by you or by us with API access you grant.</strong> There is no shared app standing between you and your students, and no separate app project to buy.</p>\n      <p>The app runs on the same academy as your website, so a student who buys on your site finds the course in the app with one account, with your test series (all-India rank and percentile, full-screen anti-cheat lock, random question order), live classes and notes. You change the name, icon or colours in the studio; the Google Play Console and App Store Connect plugins connect your developer accounts, and you pay the store fees directly to Google and Apple. Google and Apple review each app, so we never promise an approval date.</p>\n      {{fig:ios-by-plan|LMS with Android and iOS app by AllCoaching plan: own Android app on every plan, own iOS app on Pro monthly and every yearly plan, with monthly and yearly prices excluding GST|Which plans include the Android and iOS app. Prices exclude 18% GST.}}\n      <p>Every plan starts with a 7-day free trial, no card needed. After that, monthly plans take <strong>0% commission</strong>: Starter ₹3,999, Growth ₹5,999 or Pro ₹7,999 a month. Yearly plans cost ₹6,999, ₹12,999 or ₹24,999 a year with a 10%, 7.5% or 5% fee per sale. No plan has a sales limit or a setup fee, and prices exclude 18% GST. The path is the same as for the whole academy: sign up, choose a plan, upload your course, connect your domain and start selling. The <a href=\"/pricing\">pricing page</a> lists every feature by plan.</p>\n      {{cta}}"
+  },
+  {
+   "id": "steps",
+   "h2": "How to choose an LMS with a mobile app and publish it: 7 steps",
+   "toc": "7 steps to publish",
+   "html": "<p><strong>Decide which kind of app you need, shortlist LMS platforms with the 12 questions, check iOS and the full cost, create your own developer accounts, set your brand and build the app, run testing and submit for review, then launch it to your students.</strong> Most of the waiting is store testing and review, so start the accounts early.</p>\n      {{steps}}\n      <p>If you have never built an app, the walk-through in <a href=\"/blog/how-to-make-coaching-app-without-coding\">how to make a coaching app without coding</a> shows each screen in more detail.</p>"
+  },
+  {
+   "id": "mistakes",
+   "h2": "Common mistakes when choosing an LMS with a mobile app",
+   "toc": "Mistakes to avoid",
+   "html": "<p><strong>The common mistakes are reading \"app included\" as \"my own app\", never asking about iOS, letting the listing sit in the vendor's account, ignoring store billing rules for paid courses, and launching an app with no reason for students to install it.</strong> Each takes one question to avoid.</p>\n      {{fig:mistakes|Common mistakes when choosing an LMS with a mobile app: app included means their app, never asked about iOS, listing in vendor account, no billing plan, app nobody installs, and what to do instead|Five mistakes and their fixes.}}\n      <ul>\n        <li><strong>\"App included\" means their app.</strong> Ask which of the three kinds it is.</li>\n        <li><strong>Never asked about iOS.</strong> Check the plan and the Apple account before a parent asks.</li>\n        <li><strong>Listing in the vendor's account.</strong> Publish on your own developer accounts from day one.</li>\n        <li><strong>No plan for in-app payments.</strong> Read Google's and Apple's current rules and ask how the LMS follows them.</li>\n        <li><strong>An app nobody installs.</strong> Give students a reason: tests with rank, live class reminders and every note in one place.</li>\n      </ul>\n      <p>An app will not fill a batch on its own. It keeps the students you already have close to your teaching, in your name.</p>"
+  }
+ ],
+ "steps": {
+  "name": "How to choose an LMS with a mobile app and publish your own app",
+  "description": "Seven steps to pick an LMS that includes a mobile app, check ownership and cost, and publish your academy's own app on Google Play and the App Store.",
+  "total_time": "P21D",
+  "items": [
+   [
+    "Decide which kind of app you need",
+    "Choose between a shared platform app, your own white-label app and a mobile website or PWA. For a long-term academy, aim for your own app plus a mobile website on your own domain."
+   ],
+   [
+    "Shortlist LMS platforms and ask the 12 questions",
+    "Send each shortlisted LMS the 12-point checklist and ask for written answers, especially on whose developer account the app is published and what happens if you leave."
+   ],
+   [
+    "Check iOS and the full cost",
+    "Note which plan includes iOS, any setup or yearly app fee, and the store fees: Google Play US$25 once and Apple US$99 a year. Compare the total for a full year."
+   ],
+   [
+    "Create your own developer accounts",
+    "Register a Google Play developer account and, if you need iOS, an Apple Developer Program membership, as an individual or as your organisation."
+   ],
+   [
+    "Set your brand and build the app",
+    "Start the trial, add your academy name, logo, icon and colours, upload a first course, and let the platform build the app from that brand."
+   ],
+   [
+    "Run testing and submit for review",
+    "If your Play account is a new personal account, run a closed test with at least 12 testers for 14 days, then submit to Google and Apple and answer any review questions."
+   ],
+   [
+    "Launch to your students",
+    "Share the store link in your WhatsApp groups, YouTube descriptions and website, and give students a reason to install: tests, live class reminders and notes in one place."
+   ]
+  ]
+ },
+ "faq": [
+  [
+   "What is an LMS with a mobile app?",
+   "It is a learning management system that lets students learn on a phone through an app. That app can be a shared app owned by the platform, your own white-label app published under your name, or a mobile website or PWA. Ask which one an LMS includes before you compare prices."
+  ],
+  [
+   "Which is better, a shared app or my own app?",
+   "A shared app is quicker to start and has no store fees, but students install the platform's app and see its name. Your own app puts your name and icon on the phone and, if it is published on your own developer account, the listing stays yours if you change LMS. For a long-term academy, your own app is usually the better choice."
+  ],
+  [
+   "Is a PWA as good as a native app for an LMS?",
+   "A PWA can be installed on the home screen and can work offline, but it has no Play Store listing, so students cannot find it in the store, and many never add it to the home screen. It works best alongside an app, as your mobile website."
+  ],
+  [
+   "Do I need an iOS app for my coaching institute?",
+   "Most Indian students use Android: StatCounter puts Android at 94.84% of mobile operating system share in India for October 2026. An iOS app matters more for batches with many iPhone users, such as school students whose parents pay, professionals and metro students."
+  ],
+  [
+   "Who owns the app if I leave the LMS?",
+   "Whoever owns the developer account owns the listing. If the app is published on your own Google Play Console and Apple accounts, the listing, reviews and installs stay with you. If it is on the vendor's account, they stay with the vendor, and you may need to publish a new app."
+  ],
+  [
+   "Can students pay for courses inside an LMS app?",
+   "It depends on the store rules. Google Play's Payments policy says apps accepting payment for digital content must use Google Play's billing system unless a listed exception or programme applies, and Apple's guideline 3.1.1 has a similar rule. Ask the LMS exactly how purchases work in its app on both stores."
+  ],
+  [
+   "Why does Google ask for 12 testers before my app goes live?",
+   "Google requires developers with personal Play Console accounts created after 13 November 2023 to run a closed test with at least 12 testers opted in for at least 14 days before they can apply for production access."
+  ],
+  [
+   "Does AllCoaching include a mobile app on every plan?",
+   "Yes. Every AllCoaching plan includes your own white-label Android app, and the iOS app comes on Pro monthly and every yearly plan. The apps are published on your own Google Play Console and App Store accounts, by you or by AllCoaching with API access."
+  ],
+  [
+   "How much does an LMS with my own app cost on AllCoaching?",
+   "Monthly plans take 0% commission: Starter ₹3,999, Growth ₹5,999 and Pro ₹7,999 a month. Yearly plans cost ₹6,999, ₹12,999 or ₹24,999 a year with a 10%, 7.5% or 5% fee per sale. Prices exclude 18% GST, and every plan starts with a 7-day free trial, no card needed. Store fees are paid to Google and Apple."
+  ]
+ ],
+ "glossary": [
+  [
+   "white-label",
+   "White-label app",
+   "An app built on a platform's technology but published with your academy's name, icon and colours, so students see your brand and not the platform's."
+  ],
+  [
+   "shared-app",
+   "Shared app",
+   "A single app owned by an LMS company that holds many educators' courses. Students install the platform's app and find your course inside it."
+  ],
+  [
+   "play-console",
+   "Play Console",
+   "Google's tool for publishing and managing Android apps on Google Play. The account holder is shown as the developer and controls the listing."
+  ],
+  [
+   "app-store-connect",
+   "App Store Connect",
+   "Apple's tool for submitting and managing iOS apps on the App Store, used with an Apple Developer Program membership."
+  ],
+  [
+   "pwa",
+   "PWA",
+   "A progressive web app: a website built with web technologies that can be installed on the home screen and behave more like an app, without a store listing."
+  ],
+  [
+   "push-notification",
+   "Push notification",
+   "A message an app sends to the phone's notification area, such as a reminder that a live class starts in 15 minutes."
+  ],
+  [
+   "apk-aab",
+   "APK and AAB",
+   "Android app file formats. An APK is the file installed on a phone; an Android App Bundle (AAB) is the publishing format Google Play requires for new apps, from which it generates APKs for each device."
+  ],
+  [
+   "closed-testing",
+   "Closed testing",
+   "A Google Play test track where only invited testers can install an app. New personal developer accounts must run one with at least 12 testers for 14 days."
+  ],
+  [
+   "app-review",
+   "App Store review",
+   "The check Apple, and Google for Play, run on every new app and update before it is published, against their store guidelines."
+  ],
+  [
+   "in-app-purchase",
+   "In-app purchase",
+   "A payment made inside an app for digital content or features, which Google Play and the App Store require to go through their own billing systems unless an exception applies."
+  ]
+ ],
+ "references": [
+  "StatCounter Global Stats, \"Mobile Operating System Market Share India\" (October 2026). <a href=\"https://gs.statcounter.com/os-market-share/mobile/india\" target=\"_blank\" rel=\"noopener nofollow\">gs.statcounter.com</a>, checked 5 November 2026.",
+  "Google, \"Payments\", Play Console Help (Google Play Payments policy). <a href=\"https://support.google.com/googleplay/android-developer/answer/9858738?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked 5 November 2026.",
+  "Google, \"App testing requirements for new personal developer accounts\", Play Console Help. <a href=\"https://support.google.com/googleplay/android-developer/answer/14151465?hl=en\" target=\"_blank\" rel=\"noopener nofollow\">support.google.com</a>, checked 5 November 2026.",
+  "Apple, \"App Review Guidelines\", guidelines 3.1.1 and 4.2.6. <a href=\"https://developer.apple.com/app-store/review/guidelines/\" target=\"_blank\" rel=\"noopener nofollow\">developer.apple.com</a>, checked 5 November 2026.",
+  "MDN Web Docs, \"Progressive web apps\". <a href=\"https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps\" target=\"_blank\" rel=\"noopener nofollow\">developer.mozilla.org</a>, checked 5 November 2026."
+ ],
+ "citations": [
+  "https://gs.statcounter.com/os-market-share/mobile/india",
+  "https://support.google.com/googleplay/android-developer/answer/9858738?hl=en",
+  "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+  "https://developer.apple.com/app-store/review/guidelines/",
+  "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+  "https://support.google.com/googleplay/android-developer/answer/6112435?hl=en",
+  "https://developer.apple.com/support/enrollment/",
+  "https://developer.android.com/guide/app-bundle",
+  "https://www.learnyst.com/pricing"
+ ],
+ "about": [
+  {
+   "name": "Learning management system",
+   "sameAs": "https://en.wikipedia.org/wiki/Learning_management_system"
+  },
+  {
+   "name": "Mobile app",
+   "sameAs": "https://en.wikipedia.org/wiki/Mobile_app"
+  },
+  {
+   "name": "Progressive web app",
+   "sameAs": "https://en.wikipedia.org/wiki/Progressive_web_app"
+  },
+  {
+   "name": "White-label product",
+   "sameAs": "https://en.wikipedia.org/wiki/White-label_product"
+  }
+ ],
+ "mentions": [
+  {
+   "name": "Google Play",
+   "url": "https://play.google.com/"
+  },
+  {
+   "name": "App Store",
+   "url": "https://www.apple.com/app-store/"
+  },
+  {
+   "name": "Android",
+   "url": "https://www.android.com/"
+  },
+  {
+   "name": "StatCounter",
+   "url": "https://gs.statcounter.com/"
+  },
+  {
+   "name": "AllCoaching",
+   "url": "https://allcoaching.in",
+   "type": "SoftwareApplication"
+  }
+ ],
+ "related": [
+  "/blog/white-label-app-for-educators-india",
+  "/blog/how-to-make-coaching-app-without-coding",
+  "/blog/white-label-coaching-app-development-cost-india",
+  "/blog/students-wont-download-coaching-app-whatsapp"
+ ]
+}
