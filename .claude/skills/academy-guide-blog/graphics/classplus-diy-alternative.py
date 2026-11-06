@@ -58,7 +58,7 @@ b += check_row(84, 784, 'Own app vs shared app: what to ask', 24)
 b += white_panel(930, 120, 600, 660, 32, big=True)
 b += name_tile(970, 160, 'Classplus DIY', 260, 60, 26)
 b += text(1250, 200, 'classplusapp.com/diy', 18, MUTED, 500, font=F_MONO)
-facts = [('Sign-up', '"Setup your website in', 'couple of clicks!"', INK),
+facts = [('Sign-up', '"Setup your website in', 'couple of clicks"', INK),
          ('Listed price', '₹29,999 for 1 year', '₹39,999 for 2 years', INK),
          ('Renewal', 'Same as purchase price', '', INK),
          ('Fee per sale · GST', 'Not stated', '', GREY)]
@@ -78,7 +78,7 @@ b = headline(60, 100, ['What Classplus DIY *is*'], 54)
 b += lines(62, 150, ['Where the DIY link leads, quoted from Classplus\'s pages, checked 6 Nov 2026'], 22)
 steps = [
     ('1', 'Classplus blog menu', ['"Create your own App"'], 'classplusapp.com/growth', 'link'),
-    ('2', 'The DIY page', ['"Setup your website in couple', 'of clicks!"  ·  "Login to Classplus"'], 'classplusapp.com/diy', 'globe'),
+    ('2', 'The DIY page', ['"Setup your website in couple', 'of clicks"  ·  "Login to Classplus"'], 'classplusapp.com/diy', 'globe'),
     ('3', 'Create-your-own-app page', ['"Get your own online coaching', 'app in under 60 seconds"'], 'classplusapp.com/create-your-own-app', 'phone'),
     ('4', 'The plan behind it', ['Android App · Website · Admin Portal', '₹29,999 for 1 year · ₹39,999 for 2 years'], 'classplusapp.com/new-web', 'layers'),
 ]
@@ -100,7 +100,7 @@ save('what-is-diy', svg(W, H, b, 'What Classplus DIY is: the Create your own App
 # 3. own app vs shared app --------------------------------------------------------
 W, H = 1220, 1040
 b = headline(60, 100, ['Three meanings of', '*"your own app"*'], 54)
-cols = [('Shared app', 'Your batch inside', "the platform's app", 'users', False),
+cols = [('Shared app,', "platform's name", 'Your batch inside their app', 'users', False),
         ('Branded app,', "platform's account", 'Your name, their listing', 'phone', False),
         ('Your own app,', 'your account', 'Your name, your listing', 'key', True)]
 rows = [('Name students see', ['Platform', 'You', 'You']),
@@ -137,7 +137,7 @@ facts = [
     ('Fee on each sale', 'Not stated', '0% monthly · 10 / 7.5 / 5% yearly'),
     ('GST', 'Not stated', '+ 18% GST'),
     ('Free trial', 'Not stated', '7 days, no card'),
-    ('Renewal', 'Same as purchase price', 'Monthly: stop any month'),
+    ('Renewal', 'Same as purchase price', 'Monthly autopay at plan price'),
     ('Cancel early', 'Not allowed; no refund', 'Monthly: stop any month'),
     ('iOS app', 'Not stated', 'Pro monthly, every yearly'),
     ('Developer account', 'Not stated', 'Your own Play / App Store'),

@@ -5,8 +5,8 @@ Canonical data file: `.claude/skills/academy-guide-blog/data/competitors.json`. 
 | Competitor | What they publish | Notes for framing |
 |---|---|---|
 | **Classplus** (classplusapp.com/new-web, checked 2026-10-17) | ₹29,999 for 1 year; ₹39,999 for 2 years | GST, sales fee, renewal, trial not stated — don't invent them |
-| **Learnyst** (learnyst.com/pricing) | (Launcher ₹10,000/yr + 10% no longer listed, checked 5 Nov 2026) · Professional ₹8,999/mo (₹8,099 billed annually) 0% · Premium ₹14,999/mo (₹13,499) 0% · Business ₹49,999/mo (₹44,999) 0% · Enterprise on request; "+taxes" | Branded Android from Premium; Android + iOS from Business |
-| **Edmingle** (edmingle.com/in/pricing) | Core ₹7,499/mo annual (₹8,999 monthly) · Prime ₹14,999 (₹17,999 monthly) · Power ₹29,999 (₹34,999 monthly) · Maxx on quote; 7-day trial; "+ Taxes"; sales fee not stated | Branded Android from Prime; iOS from Power |
+| **Learnyst** (learnyst.com/pricing) | (Launcher ₹10,000/yr + 10% no longer listed, checked 5 Nov 2026) · Professional ₹8,999/mo (₹8,099 billed annually) 0% · Premium ₹14,999/mo (₹13,499) 0% · Business ₹49,999/mo (₹44,999) 0% · Enterprise on request; "+taxes" | Branded Android from Premium; Android + iOS from Business — apps need an annual commitment and are published "under Learnyst's Developer Account" (checked 6 Nov 2026) |
+| **Edmingle** (edmingle.com/in/pricing) | Core ₹7,499/mo annual (₹8,999 monthly) · Prime ₹14,999 (₹17,999 monthly) · Power ₹29,999 (₹34,999 monthly) · Maxx on quote; 7-day trial; "+ Taxes"; sales fee not stated | Branded Android from Prime; iOS from Power — both "(A) Available on Annual Commitment" (checked 6 Nov 2026) |
 | **Graphy / Spayee** (graphy.com) | US page: Launch $49/mo, Rise $149, Scale $399, 0% transaction fee. INR prices **not verified** (conflicting figures) | Don't publish INR Graphy prices until re-checked from an Indian IP; `vs/graphy` notes the figures it uses |
 | **Teachmint** | No public prices | Leads with classroom devices |
 | **AppX** (appx.co.in) | No public price (book a demo); "Setup in under 48 hours", delivery "3–5 days" | |
