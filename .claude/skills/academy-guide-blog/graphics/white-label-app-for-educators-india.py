@@ -1,4 +1,4 @@
-"""Graphics for /blog/white-label-app-for-educators-india.
+"""Graphics for /blog/white-label-app-for-educators-india (refreshed 2026-11-06: white label LMS cover, LMS vs app vs custom, red flags).
 
 Run:  python .claude/skills/academy-guide-blog/graphics/white-label-app-for-educators-india.py
 Then: python .claude/skills/academy-guide-blog/scripts/export_graphics.py assets/blog/white-label-app-for-educators-india
@@ -40,11 +40,11 @@ def no(cx, cy):
 
 # 1. cover ------------------------------------------------------------------------
 b = lockup(72, 60, 1.0)
-b += headline(80, 300, ['A white-label app', 'for your academy,', '*in your name.*'], 70)
-b += lines(84, 520, ['What it means, what to check, how to get one.'], 28, MUTED)
-b += check_row(84, 604, 'Your name, icon and colours', 26)
-b += check_row(84, 664, 'Published under your own account', 26)
-b += check_row(84, 724, 'Built and updated from the studio', 26)
+b += headline(80, 290, ['White label LMS', 'and app, *in your', '*own name.*'], 70)
+b += lines(84, 512, ['What it means, what it must include, how to get one.'], 26, MUTED)
+b += check_row(84, 604, 'Your domain, name, icon and colours', 26)
+b += check_row(84, 664, 'App published under your own account', 26)
+b += check_row(84, 724, 'No platform branding to your students', 26)
 b += text(880, 158, 'Studio preview · sample data', 15, MUTED)
 b += laptop(880, 172, 600, SHOT)
 b += phone(1340, 430, 170, BIO)
@@ -54,32 +54,33 @@ b += app_icon(862, 712, 76, 'YA')
 b += text(958, 744, 'Your Academy', 28, INK, 800, font=F_HEAD, ls=-0.8)
 b += text(958, 778, 'Developer: Your Academy', 19, BLUE, 600)
 b += text(840, 840, 'Illustrative listing · phone: Biology Lessons, an academy on AllCoaching', 15, MUTED)
-save('cover', svg(1600, 900, b, 'White-label app for educators in India: your own branded app, published under your own developer account, built from the AllCoaching studio'))
+save('cover', svg(1600, 900, b, 'White label LMS and app for educators in India: your own academy website, domain and branded app, published under your own developer account, built from the AllCoaching studio'))
 
-# 2. three ways -------------------------------------------------------------------
-W, H = 1220, 980
-b = headline(60, 100, ['Three ways to get *an app*'], 54)
-b += lines(62, 150, ['What students see, and who stays in control'], 22)
-b += white_panel(60, 190, 1100, 700, 28)
-cols = [(510, 'Marketplace app', False), (760, 'White-label app', True), (1010, 'Agency-built app', False)]
-b += f'<rect x="640" y="206" width="240" height="668" rx="20" fill="{BLUE_TINT}"/>'
+# 2. white label LMS vs white label app vs custom build ---------------------------
+W, H = 1220, 1080
+b = headline(60, 100, ['LMS, app or *custom build?*'], 54)
+b += lines(62, 150, ['Three ways to put your academy in your own name'], 22)
+b += white_panel(60, 190, 1100, 800, 28)
+cols = [(530, 'White label LMS', True), (770, 'White label app', False), (1010, 'Custom build', False)]
+b += f'<rect x="412" y="206" width="236" height="768" rx="20" fill="{BLUE_TINT}"/>'
 for cx, t, hl in cols:
     b += text(cx, 262, t, 22, BLUE if hl else INK, 800, 'middle', F_HEAD, -0.5)
-rows = [('Your name and icon', ['No, the platform\'s', 'Yes', 'Yes']),
-        ('Developer account', ['The platform\'s', 'Yours, or ask', 'Yours, or ask']),
-        ('Change it yourself', ['No', 'Yes, from a panel', 'Through the agency']),
-        ('Updates and store rules', ['Platform', 'Platform', 'Paid agency work']),
-        ('Upfront build', ['None', 'None, a plan fee', 'A build project']),
-        ('Students on screen', ['Beside other educators', 'Only yours', 'Only yours'])]
+rows = [('Website on your domain', ['Included', 'Often separate', 'Built separately']),
+        ('Your own app', ['Included or by plan', 'Yes, the core', 'Yes, if you pay']),
+        ('Checkout and payments', ['Built in', 'Ask the vendor', 'Built and paid for']),
+        ('Video, tests, live', ['Built in', 'Ask the vendor', 'You specify it']),
+        ('Change it yourself', ['Yes, from a panel', 'Depends on vendor', 'Through a developer']),
+        ('Updates, store rules', ['The platform', 'The vendor', 'You pay for them']),
+        ('Upfront cost', ['A plan fee', 'Setup or plan fee', 'A build project'])]
 for i, (lab, vals) in enumerate(rows):
-    y = 300 + i * 96
+    y = 296 + i * 96
     b += f'<line x1="92" y1="{y}" x2="1128" y2="{y}" stroke="{LINE}" stroke-width="2"/>'
     b += text(96, y + 56, lab, 21, INK, 700, font=F_HEAD, ls=-0.3)
     for (cx, _, hl), v in zip(cols, vals):
         b += text(cx, y + 56, v, 19, BLUE if hl else MUTED, 700 if hl else 400, 'middle')
-b += text(60, H - 28, 'A qualitative guide. Check each vendor\'s own terms before you choose.', 16, MUTED)
+b += text(60, H - 28, 'A qualitative guide. Check each provider\'s own terms before you choose.', 16, MUTED)
 b += signature(W, H)
-save('three-ways', svg(W, H, b, 'White-label app vs marketplace app vs agency-built app for educators: name and icon, developer account, control, updates, upfront build and which students appear'))
+save('lms-vs-app-vs-custom', svg(W, H, b, 'White label LMS vs white label app vs custom build for educators in India: website on your domain, own app, checkout, video and tests, control, updates and upfront cost'))
 
 # 3. store listing: whose name is under the app ------------------------------------
 W, H = 1220, 900
@@ -203,14 +204,14 @@ b += text(60, H - 28, 'Sources: Play Console Help and Apple Developer, checked N
 b += signature(W, H)
 save('store-rules', svg(W, H, b, 'App store fees and rules for a white-label app: Google Play US$25 once, Apple Developer Program US$99 a year, closed test with 12 testers for 14 days for new personal Play accounts'))
 
-# 8. mistakes ---------------------------------------------------------------------
+# 8. red flags ---------------------------------------------------------------------
 W, H = 1220, 900
-b = headline(56, 110, ['White-label mistakes', 'that cost you.'], 52)
-for i, t in enumerate(["App on a vendor's account", 'No data export', 'iOS "coming soon"', 'Every change is a ticket', 'No plan for 12 testers']):
+b = headline(56, 110, ['Not really', 'white label.'], 52)
+for i, t in enumerate(['"Powered by" badge', 'One shared app', "Vendor's dev account", 'No data export', 'Checkout in their name']):
     b += tape(40 + (i % 2) * 22, 230 + i * 100, 510, t, -1.4 if i % 2 else 1.0, 28)
-b += hand(330, 790, ['Whose app', 'is this?'], 40, INK, -6) + arrow('M300 800 C 250 820, 210 800, 190 770', INK, 3)
+b += hand(330, 790, ['Whose academy', 'is this?'], 40, INK, -6) + arrow('M300 800 C 250 820, 210 800, 190 770', INK, 3)
 b += lockup(1180, 50, 0.62, True, 'end')
-b += headline(650, 230, ['Do this', '*instead.*'], 64)
-for i, t in enumerate(['Publish on your own account', 'Get data export in writing', 'Check iOS on your plan', 'Change it yourself, any day', 'Line up testers early']):
+b += headline(650, 230, ['Look for this', '*instead.*'], 64)
+for i, t in enumerate(['Only your brand, every page', 'Your own app and icon', 'Listed on your own account', 'Export students and content', 'Checkout on your own domain']):
     b += check_row(656, 400 + i * 74, t, 25)
-save('mistakes', svg(W, H, b, 'Common white-label app mistakes educators make and what to do instead', ('split', 600)))
+save('red-flags', svg(W, H, b, 'Red flags in a white label LMS or app: platform badge on student pages, one shared app, listing on the vendor developer account, no data export, checkout in the vendor name, and what to look for instead', ('split', 600)))

@@ -2,6 +2,11 @@
 
 Newest first. A newer line always overrides an older one. Add a dated line whenever the owner confirms or changes something, then update `SKILL.md`, the matching reference file and `CLAUDE.md`.
 
+## 2026-11-06
+- **Blogs:** new `/blog/classplus-diy-alternative`; refreshed `/blog/affordable-lms-for-independent-educators` (now targets "LMS software price in India") and `/blog/white-label-app-for-educators-india` (now also "white label LMS"). URLs kept.
+- **Competitor facts (checked 6 Nov 2026):** Edmingle and Learnyst branded apps need an annual commitment; Learnyst apps go out under Learnyst's developer account. Classplus DIY = self-serve sign-up at classplusapp.com/diy; Classplus pricing ₹29,999 / 1 yr, ₹39,999 / 2 yrs, renewal = purchase price, no refund on early stop (terms 11.1).
+- Still pending from the owner: Hinglish "apna coaching app kaise banaye" post (new posts are English only unless the owner says otherwise).
+
 ## 2026-11-05
 - **Blogs live:** `/blog/best-platform-to-sell-online-courses-in-india`, `/blog/lms-with-mobile-app`, `/blog/best-lms-for-private-tutors` (high-intent keywords from Google India autocomplete). Next: refresh `affordable-lms-for-independent-educators` for "lms software price in india" and `white-label-app-for-educators-india` for "white label lms"; owner to decide on a Hinglish "apna coaching app kaise banaye" post and a "Classplus DIY" angle.
 - **Competitor changes (checked 5 Nov 2026):** TagMango Ultimate now ₹35,000/mo (was ₹30,000); Learnyst Launcher plan no longer on its pricing page.
