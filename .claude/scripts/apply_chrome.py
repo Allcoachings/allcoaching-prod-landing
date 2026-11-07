@@ -59,12 +59,12 @@ FOOTER = '''<footer>
         </div>
       </div>
       <div class="foot-col"><h4>Product</h4><a href="/#features">Features</a><a href="/#students">Marketplace</a><a href="/#calc">Calculator</a><a href="/pricing">Pricing</a><a href="/vs/">Compare</a></div>
-      <div class="foot-col"><h4>Company</h4><a href="/manifesto">Manifesto</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div>
+      <div class="foot-col"><h4>Company</h4><a href="/manifesto">Manifesto</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refund-policy">Refund &amp; Cancellation</a><a href="/delivery-policy">Delivery Policy</a></div>
       <div class="foot-col"><h4>Educators</h4><a href="https://studio.allcoaching.in/">Login</a><a href="https://studio.allcoaching.in/">Join Now</a><a href="/faq">FAQ</a><a href="https://api.whatsapp.com/send/?phone=919889977262">WhatsApp</a></div>
       <div class="foot-col"><h4>Students</h4><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching">Android App</a><a href="/#students">Find Educators</a><a href="https://t.me/allcoaching">Telegram</a></div>
     </div>
     <div class="foot-bottom">
-      <div>&copy; <span id="yr">2026</span> AllCoaching &middot; Made in India</div>
+      <div>&copy; <span id="yr">2026</span> AllCoaching Technology &middot; Made in India</div>
       <div>The Operating System of Education &middot; One educator at a time.</div>
     </div>
   </div>
