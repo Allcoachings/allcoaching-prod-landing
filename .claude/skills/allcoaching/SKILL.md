@@ -51,6 +51,8 @@ This file is the always-load core. Detail lives in `references/` — open the on
 
 **Rules:** "0% commission / keep 100% / zero commission" = **monthly plans only** (yearly keeps 90 / 92.5 / 95%). Breakeven to quote (illustrative, before GST): **below about ₹4 lakh of yearly sales yearly Starter usually costs least; above that a monthly plan usually leaves more.** Monthly is sold on studio (autopay); the allcoaching.in landing checkout (`assets/checkout.js`) sells the three yearly plans. Full rules, cost tables, competitor framing: `references/02-pricing.md`.
 
+**Refunds (owner, 2026-11-07):** no refunds on paid plans, because every plan starts with a 7-day free trial; only duplicate or failed payments are refunded. Monthly: cancel any time; yearly: no refund for unused months. Pages `/refund-policy` and `/delivery-policy`. For payment gateways the line of business is **SaaS LMS provider** (purchase on studio.allcoaching.in). The registered (GST) address is the owner's home: show it only in the homepage footer.
+
 **If an educator stops:** academy goes offline at the end of the paid period → **30 days to export content and data (or come back)** → uploaded videos are deleted. Never say data stays forever.
 
 ## 3. Claims register — the fastest way to avoid errors

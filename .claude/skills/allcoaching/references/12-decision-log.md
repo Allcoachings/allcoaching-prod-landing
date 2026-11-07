@@ -2,6 +2,12 @@
 
 Newest first. A newer line always overrides an older one. Add a dated line whenever the owner confirms or changes something, then update `SKILL.md`, the matching reference file and `CLAUDE.md`.
 
+## 2026-11-07
+- **Payment gateway (Paytm PG) compliance:** line of business = SaaS LMS provider (educators pay AllCoaching Technology a monthly/yearly subscription; purchase happens on studio.allcoaching.in).
+- **Refunds:** none on paid plans, because every plan starts with a 7-day free trial (no card). Only duplicate or failed (debited, not activated) payments are refunded. Monthly: cancel any time, no further charge. Yearly: no refund for unused months. Student course refunds follow the educator's policy. Pages: `/refund-policy`, `/delivery-policy` (online access only, nothing shipped), linked in every footer.
+- **Footer:** "© 2026 AllCoaching Technology" on every page. Contact page shows Business = SaaS LMS provider and the Prayagraj operating office.
+- **Registered (GST) address:** it is the owner's home address. Show it in ONE place only: the homepage footer (owner, 2026-11-07). Never in other footers, schema, blogs, ads or anywhere else.
+
 ## 2026-11-06
 - **Blogs:** new `/blog/classplus-diy-alternative`; refreshed `/blog/affordable-lms-for-independent-educators` (now targets "LMS software price in India") and `/blog/white-label-app-for-educators-india` (now also "white label LMS"). URLs kept.
 - **Competitor facts (checked 6 Nov 2026):** Edmingle and Learnyst branded apps need an annual commitment; Learnyst apps go out under Learnyst's developer account. Classplus DIY = self-serve sign-up at classplusapp.com/diy; Classplus pricing ₹29,999 / 1 yr, ₹39,999 / 2 yrs, renewal = purchase price, no refund on early stop (terms 11.1).
