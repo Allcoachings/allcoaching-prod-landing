@@ -3,7 +3,7 @@
 Newest first. A newer line always overrides an older one. Add a dated line whenever the owner confirms or changes something, then update `SKILL.md`, the matching reference file and `CLAUDE.md`.
 
 ## 2026-11-07
-- **Payment gateway (Paytm PG) compliance:** line of business = SaaS LMS provider (educators pay AllCoaching Technology a monthly/yearly subscription; purchase happens on studio.allcoaching.in).
+- **Payment gateway (Paytm PG) compliance:** line of business = SaaS LMS platform + payment aggregation: (1) educators pay AllCoaching Technology a monthly/yearly subscription on studio.allcoaching.in; (2) student course payments are collected through our gateway and settled to the educator after the platform fee (0% monthly; 10/7.5/5% yearly). Authorised signatory name for KYC: Amit Kumar.
 - **Refunds:** none on paid plans, because every plan starts with a 7-day free trial (no card). Only duplicate or failed (debited, not activated) payments are refunded. Monthly: cancel any time, no further charge. Yearly: no refund for unused months. Student course refunds follow the educator's policy. Pages: `/refund-policy`, `/delivery-policy` (online access only, nothing shipped), linked in every footer.
 - **Footer:** "© 2026 AllCoaching Technology" on every page. Contact page shows Business = SaaS LMS provider and the Prayagraj operating office.
 - **Registered (GST) address:** it is the owner's home address. Show it in ONE place only: the homepage footer (owner, 2026-11-07). Never in other footers, schema, blogs, ads or anywhere else.
