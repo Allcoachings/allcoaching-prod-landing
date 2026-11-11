@@ -22,8 +22,9 @@ CHANGES = [
      'Is there a free UPI payment gateway in India? Not fully: most gateways charge 1.5–2% plus GST on each course sale, and all need KYC. What educators really pay in 2026.'),
     # 3,761 impr, 1.33%. "graphy pricing" 634 @4.2. Graphy's page changed (checked 11 Nov 2026), so the title carries the fee range, not plan prices.
     ('vs/graphy.html',
-     'Graphy Pricing 2026: Plans, 5–10% Per-Sale Fee, Real Cost',
-     'Graphy pricing in 2026: paid plans plus a 5% to 10% fee on every sale. What you pay in total at your sales level, next to AllCoaching at 0% commission from ₹3,999 a month.'),
+     # Owner confirmed from India on 11 Nov 2026: Launch ₹24,999, Grow ₹49,999, Rise ₹99,999 a year with 10 / 7.5 / 5% per sale.
+     'Graphy Pricing 2026: ₹24,999–₹99,999 a Year + 5–10% Fee',
+     'Graphy pricing in 2026: ₹24,999, ₹49,999 or ₹99,999 a year, plus a 10%, 7.5% or 5% fee on every sale. What you pay in total, next to AllCoaching at 0% from ₹3,999 a month.'),
     # 1,869 impr in 5 days, 0.05% CTR, pos 4.3. "classplus diy" 1,303 @3.6, "diy classplus" 202: mostly people looking for the DIY page or login.
     ('blog/classplus-diy-alternative.html',
      'Classplus DIY: Login Link, Price and What You Get (2026)',
