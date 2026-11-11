@@ -2,6 +2,12 @@
 
 Newest first. A newer line always overrides an older one. Add a dated line whenever the owner confirms or changes something, then update `SKILL.md`, the matching reference file and `CLAUDE.md`.
 
+## 2026-11-11
+- **GSC pass (3 months to 10 Nov: 3,006 clicks, 193,769 impressions, CTR 1.55%).** New titles and descriptions on 12 high-impression, low-CTR pages (`.claude/scripts/ctr_optimize_nov2026.py` records the query evidence for each): GST/SAC 999293, Classplus pricing, free UPI gateway, Graphy pricing, Classplus DIY, home tuition app, online tuition (Hinglish x2), Hindi/multi-language LMS, record lectures, PW alternative, online teacher income.
+- **Content fixes** (`gsc_nov2026_content_fixes.py`): question-style H2s on 4 posts, internal links to 7 under-linked new posts, Classplus DIY login line in the intro, sitemap lastmod corrected.
+- **Graphy:** pricing page fetched 11 Nov 2026 shows ₹1,999/mo and ₹9,999/mo billed annually with 10% / 5% per sale. Posts that quote older yearly Graphy figures (₹24,999 / ₹49,999 / ₹99,999) need a re-check and sweep.
+- Many impressions now come from AI-style long questions with 0 clicks. Keep answer-first sections and FAQ wording matched to those questions.
+
 ## 2026-11-07
 - **Payment gateway (Paytm PG) compliance:** line of business = SaaS LMS platform + payment aggregation: (1) educators pay AllCoaching Technology a monthly/yearly subscription on studio.allcoaching.in; (2) student course payments are collected through our gateway and settled to the educator after the platform fee (0% monthly; 10/7.5/5% yearly). Authorised signatory name for KYC: Amit Kumar.
 - **Refunds:** none on paid plans, because every plan starts with a 7-day free trial (no card). Only duplicate or failed (debited, not activated) payments are refunded. Monthly: cancel any time, no further charge. Yearly: no refund for unused months. Student course refunds follow the educator's policy. Pages: `/refund-policy`, `/delivery-policy` (online access only, nothing shipped), linked in every footer.

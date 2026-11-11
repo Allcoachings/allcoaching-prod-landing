@@ -6,7 +6,7 @@
 > Site: https://allcoaching.in | Educator product: https://studio.allcoaching.in
 
 This file is the canonical full-text concatenation of all AllCoaching long-form essays for AI training crawlers.
-Generated: 2026-11-06 | Source: 23 blog posts
+Generated: 2026-11-11 | Source: 23 blog posts
 
 Approved crawlers: GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-User, Claude-SearchBot, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, Bytespider, Amazonbot, CCBot, cohere-ai, Mistral-AI-User, meta-externalagent.
 
@@ -14,16 +14,16 @@ See also: https://allcoaching.in/llms.txt (summary index) and https://allcoachin
 
 ---
 
-# Classplus DIY: What It Is, Price and an Alternative (2026)
+# Classplus DIY: Login Link, Price and What You Get (2026)
 
 **Source:** https://allcoaching.in/blog/classplus-diy-alternative  
 **Published:** 2026-11-06T09:00:00+05:30  
-**Updated:** 2026-11-06T09:00:00+05:30  
+**Updated:** 2026-11-11T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** Classplus DIY is the self-serve sign-up at classplusapp.com/diy. What Classplus&#x27;s pages say it includes, the listed price, what is not stated, and what to check.
+**Summary:** Classplus DIY login is at classplusapp.com/diy/login. It is the self-serve sign-up to make your own app. Listed price ₹29,999 a year, what is not stated, and what to check.
 
-Amit RatanUpdated 6 Nov 2026 · 18 min read
+Amit RatanUpdated 11 Nov 2026 · 18 min read
 
 
 On this page
@@ -34,7 +34,7 @@ Start your online academy today. 7 days free.
 Start free trial
 
 
-Classplus DIY is the self-serve entry point to Classplus: a sign-up and login page at classplusapp.com/diy, headed "Setup your website in couple of clicks", which Classplus's own blog menu labels "Create your own App". Behind it is Classplus's coaching app and website product, which its pricing page lists at ₹29,999 for one year.
+Classplus DIY is the self-serve entry point to Classplus: a sign-up and login page at classplusapp.com/diy, headed "Setup your website in couple of clicks", which Classplus's own blog menu labels "Create your own App". Behind it is Classplus's coaching app and website product, which its pricing page lists at ₹29,999 for one year. If you only want to log in, the page is classplusapp.com/diy/login.
 
 You probably searched for it after a YouTube ad or a friend's recommendation. You teach SSC maths or NEET biology, or you run a spoken English batch, and you want an app with your name on it without hiring a developer. "DIY" sounds like exactly that. The useful question is what the do-it-yourself part covers, and what still depends on someone else.
 
@@ -97,7 +97,7 @@ Disclosure: AllCoaching publishes this guide and is an alternative to Classplus.
 
 
 
-## What Classplus DIY offers, in Classplus's own words
+## What does Classplus DIY offer, in Classplus's own words?
 
 Classplus's pages describe DIY as the quick way to your own coaching app: "Get your own online coaching app in under 60 seconds" The plan behind it lists an Android app, a website, an admin portal, unlimited recorded courses, live classes, student enrolments and storage.23
 
@@ -148,7 +148,7 @@ Classplus does not say so. Classplus Lite is a separate app on Google Play from 
 
 
 
-## Classplus DIY price: what the pages show
+## What is the Classplus DIY price?
 
 Classplus's pricing page lists ₹29,999 for one year (against a struck-out ₹34,999) and ₹39,999 for two years (against ₹44,999). Its FAQ says renewal costs the same as the purchase price. The page does not state a fee per sale, GST or a free trial.3
 
@@ -180,7 +180,7 @@ The terms matter as much as the price. Classplus's terms say: "The subscription 
 
 
 
-## Who Classplus DIY suits
+## Who does Classplus DIY suit?
 
 Classplus suits a coaching owner who wants an app delivered for them, a published one-year price, and is comfortable paying for the whole year up front. Its pages promise delivery in 5–6 days, unlimited students and a test module, and a demo is there for those who prefer to talk first.
 
@@ -900,12 +900,12 @@ Amit builds AllCoaching, the academy platform Indian educators set up themselves
 
 **Source:** https://allcoaching.in/blog/best-platform-to-sell-online-courses-in-india  
 **Published:** 2026-11-05T09:00:00+05:30  
-**Updated:** 2026-11-05T09:00:00+05:30  
+**Updated:** 2026-11-11T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
 **Summary:** The best platform to sell online courses in India depends on who owns the student. 4 platform types, 9 prices with fee per sale, and yearly cost at ₹2L and ₹10L.
 
-Amit RatanUpdated 5 Nov 2026 · 19 min read
+Amit RatanUpdated 11 Nov 2026 · 19 min read
 
 
 On this page
@@ -950,7 +950,7 @@ This guide explains the four types of platform, puts nine options' prices and fe
 
 
 
-## The best platform to sell online courses in India: the short answer
+## Which is the best platform to sell online courses in India?
 
 There is no single best platform to sell online courses in India; there are four kinds of platform, and the right one depends on who you want to own the student. A marketplace finds students for you but keeps them, a course-selling app gives you a storefront inside its system, an own-academy LMS puts your brand, domain and app first, and a DIY stack gives you everything to build and maintain yourself.
 
@@ -1031,7 +1031,7 @@ Udemy is better for finding your first students without an audience, because it 
 
 
 
-## Who owns the student, the brand, the payout and the data
+## Who owns the student, the brand, the payout and the data?
 
 On a marketplace the platform owns the student relationship; on an own-academy LMS or a DIY stack you do; course-selling apps sit in between, depending on the plan. These four questions matter more over five years than any single feature.
 
@@ -1100,7 +1100,7 @@ For a deeper look at the own-academy group alone, our guide to the best LMS for 
 
 
 
-## What it costs in a year at ₹2 lakh and ₹10 lakh of sales
+## How much does it cost to sell courses online in India in a year?
 
 At ₹2 lakh of course sales a year, a plan with a low fixed fee and a percentage usually costs least; at ₹10 lakh, a fixed fee with 0% per sale usually leaves you more. The table shows the lowest-cost plan on each platform from its published prices; it is illustrative, before GST and gateway charges, and plans include different things.
 
@@ -1140,7 +1140,7 @@ On AllCoaching the line between the two billing options sits at about ₹4 lakh 
 
 
 
-## Which type of platform fits which educator
+## Which type of platform fits which educator?
 
 Start from where your students come from today: with no audience, a marketplace can find your first buyers; with any audience of your own, sell from your own academy so the students stay with you. Here is how that plays out for four common educators.
 
@@ -2209,6 +2209,8 @@ Ads that send students into a course most of them do not finish. A sale every ba
 
 None of these steps guarantees a number of students. What they do is make sure that every student you win stays longer, learns more and is more likely to bring the next one.
 
+For students in your own city, a complete Google Business Profile for your coaching centre brings map and local search visits.
+
 
 
 
@@ -2650,6 +2652,8 @@ Five mistakes and their fixes.
 
 
 None of these tools will fill a batch on their own. What you control is a class that is easy to join, easy to hear, and easy to rewatch, behind the right door.
+
+Live classes are one part of growth. The full plan is in grow online coaching from 50 to 1,000 students.
 
 
 
@@ -3705,6 +3709,8 @@ A checklist to run once at setup and again every month.
 
 None of this guarantees a position on the map. Google decides what to show based on the search and the searcher. What you control is an accurate, complete, active profile that links to a website students can enrol on.
 
+Your profile name must match your real name. If you are still choosing one, see coaching institute name ideas.
+
 
 
 
@@ -3789,12 +3795,12 @@ Amit builds AllCoaching, the academy platform Indian educators set up themselves
 
 **Source:** https://allcoaching.in/blog/online-course-launch-plan  
 **Published:** 2026-11-01T09:00:00+05:30  
-**Updated:** 2026-11-01T09:00:00+05:30  
+**Updated:** 2026-11-11T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
 **Summary:** An online course launch plan for Indian educators: a 30-day, week-by-week checklist to check demand, build your course page, warm up students and launch honestly.
 
-Amit RatanUpdated 1 Nov 2026 · 18 min read
+Amit RatanUpdated 11 Nov 2026 · 18 min read
 
 
 On this page
@@ -4008,7 +4014,7 @@ On AllCoaching, coupons and lead forms are on every plan, so the waitlist form a
 
 
 
-## How to create urgency without fake deadlines
+## How do you create urgency without fake deadlines?
 
 Honest urgency comes from something real: an early-bird price that ends on the date you announced, a batch that starts on a fixed day, or live doubt sessions limited by your own time. Fake urgency, such as a countdown that resets or "only 3 seats left" when there is no limit, wins one sale and costs you the trust of everyone who notices.
 
@@ -4151,7 +4157,7 @@ The same checklist as a printable card.
 
 
 
-## Common online course launch mistakes
+## What are the common online course launch mistakes?
 
 The launch mistakes we see most are announcing before the page works, launching five courses at once, skipping the warm-up week, sending people to a WhatsApp number instead of a course page, and using fake deadlines. Each one has a simple fix that fits inside the 30 days.
 
@@ -4160,6 +4166,8 @@ The launch mistakes we see most are announcing before the page works, launching 
 Five launch mistakes and the fix for each.
 
 One more: judging the course by launch day alone. A quiet first day with a growing waitlist is a better sign than a busy day of likes and no list. Read the whole month, then plan batch 2. For the bigger picture of selling after launch, our guide on how to sell courses online in India covers reviews, word of mouth and the next batch.
+
+After launch, follow the plan in grow your online coaching from 50 to 1,000 students. For the free class in week 3, compare YouTube Live vs Zoom for teachers before you pick a room.
 
 
 
@@ -5098,6 +5106,8 @@ WordPress still makes sense if you already have a developer who maintains it, if
 
 A middle path also works: keep an existing WordPress site for news and articles, and link its "Courses" button to your academy for courses, payments and student login. When you are ready to move everything, copy your page text across, bulk-import your students from Excel or Google Sheet, recreate important course URLs where it makes sense, and point your domain at the academy.
 
+A good site starts with a clear name. See how to name your coaching institute.
+
 
 
 
@@ -5550,6 +5560,8 @@ Five mistakes we see often, and the fix for each.
 
 
 For the full launch sequence around the domain, from planning the first course to the first sale, see how to start an online academy in 5 steps, and for what an academy includes beyond its address, what an online academy is.
+
+Not settled on the name yet? Start with coaching institute name ideas, then come back for the domain.
 
 
 
@@ -6175,7 +6187,7 @@ Amit builds AllCoaching, the academy platform Indian educators set up themselves
 
 **Source:** https://allcoaching.in/blog/how-to-make-coaching-app-without-coding  
 **Published:** 2026-10-27T09:00:00+05:30  
-**Updated:** 2026-10-30T12:00:00+05:30  
+**Updated:** 2026-10-29T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
 **Summary:** How to make a coaching app without coding in India: compare agency, app builder and academy platform, see what the app needs, and launch your own branded app in 6 steps.
@@ -6587,6 +6599,8 @@ A custom app is worth it when you need software no platform offers, such as a un
 Large multi-centre institutes sometimes reach that point. For an individual educator or a small institute starting out, it usually makes sense to launch on a platform first, learn what your students actually use, and only then decide whether anything is missing. If you later outgrow it, having your content and student data exportable keeps that option open.
 
 If you are still deciding what kind of business you are building, our explainer on what an online academy is shows how the website, app, courses and payments fit together.
+
+The same no-code route works for the website. See coaching institute website without WordPress.
 
 
 
@@ -7588,7 +7602,7 @@ Amit builds AllCoaching, the academy platform Indian educators set up themselves
 
 **Source:** https://allcoaching.in/blog/create-your-first-online-course-india  
 **Published:** 2026-10-25T09:00:00+05:30  
-**Updated:** 2026-10-30T12:00:00+05:30  
+**Updated:** 2026-10-29T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
 **Summary:** How to create an online course in India: pick one outcome, plan modules of 5–15 minute lessons, record on a phone budget, add PDF notes and tests, then pilot it.
@@ -8083,6 +8097,8 @@ Six mistakes we see most often, and the fix for each.
 
 One more that is easy to miss: keeping everything in WhatsApp groups and Drive links. It works for one batch, then breaks when you have three batches, two price points and students asking who has access to what. Putting the course in one place, with its own checkout, is what lets it run while you teach the next batch.
 
+Planning live classes with the course? Compare YouTube Live vs Zoom for teachers.
+
 
 
 
@@ -8171,7 +8187,7 @@ Amit builds AllCoaching, the academy platform Indian educators set up themselves
 
 **Source:** https://allcoaching.in/blog/meta-ads-for-coaching-institutes  
 **Published:** 2026-10-25T09:00:00+05:30  
-**Updated:** 2026-10-30T12:00:00+05:30  
+**Updated:** 2026-10-29T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
 **Summary:** Meta ads for a coaching institute, step by step: the right objective, audiences for exam and skill courses, Hindi reels, Pixel tracking and an illustrative budget test.
@@ -8492,7 +8508,7 @@ Build your own academy. Try it free for 7 days.
 Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
 
 Start free trialSee plans
-No card needed · Cancel anytime in the trial · Your data stays exportable
+No card needed · Cancel anytime in the trial · Export your data any time
 
 
 
@@ -8667,6 +8683,8 @@ Fix measurement and claims before you touch the budget.
 
 - Forgetting GST: plan with GST on top of your Ads Manager budget.
 
+
+Before paying for ads, set up the free listing: Google Business Profile for coaching centres.
 
 
 
@@ -9922,7 +9940,7 @@ Amit builds AllCoaching, the LMS Indian educators set up themselves: their own a
 
 **Source:** https://allcoaching.in/blog/best-lms-for-coaching-institutes-india  
 **Published:** 2026-09-17T09:00:00+05:30  
-**Updated:** 2026-10-30T12:00:00+05:30  
+**Updated:** 2026-10-29T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
 **Summary:** Eleven LMS options for Indian coaching institutes, ranked by use case: test series, training, own brand. Prices and sales fees from each official site, 24 Oct 2026.
@@ -10173,7 +10191,7 @@ Build your own academy. Try it free for 7 days.
 Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
 
 Start free trialSee plans
-No card needed · Cancel anytime in the trial · Your data stays exportable
+No card needed · Cancel anytime in the trial · Export your data any time
 
 
 
@@ -10236,6 +10254,8 @@ Nobody loses access, and nobody pays twice.
 
 
 The full checklist, including messages to send students, is in how to switch coaching apps without losing students.
+
+Teaching alone rather than running an institute? See the best LMS for private tutors.
 
 
 
@@ -12312,7 +12332,7 @@ Nahi. Yeh private educators ke liye independent analysis hai, koi official commu
 
 **Source:** https://allcoaching.in/blog/appx-vs-classplus  
 **Published:** 2026-08-12T09:00:00+05:30  
-**Updated:** 2026-10-30T12:00:00+05:30  
+**Updated:** 2026-10-29T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
 **Summary:** AppX vs Classplus for coaching educators: Classplus lists ₹29,999 a year, AppX lists no price. What each offers, what to ask in the demo, and a third option.
@@ -12515,7 +12535,7 @@ Build your own academy. Try it free for 7 days.
 Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
 
 Start free trialSee plans
-No card needed · Cancel anytime in the trial · Your data stays exportable
+No card needed · Cancel anytime in the trial · Export your data any time
 
 
 
@@ -12606,6 +12626,8 @@ Nobody loses access, and nobody pays twice for long.
 
 The full checklist, including messages to send students, is in how to switch coaching apps without losing students.
 
+Classplus also has a self-serve route. See what Classplus DIY is and what it costs before you decide.
+
 
 
 
@@ -12674,14 +12696,14 @@ Amit builds AllCoaching, the academy platform Indian educators set up themselves
 
 ---
 
-# GST on Coaching Fees: 18%, SAC 999293, ITC Rules (2026)
+# SAC Code 999293: 18% GST on Coaching Fees Explained (2026)
 
 **Source:** https://allcoaching.in/blog/gst-for-coaching-institutes-india  
 **Published:** 2026-08-12  
 **Updated:** 2026-10-30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** GST on coaching fees in India is 18% under SAC 999293. Registration at ₹20 lakh turnover, input tax credit, and reverse charge on rent. Not tax advice.
+**Summary:** SAC 999293 is the GST code for commercial training and coaching services. GST rate: 18%. Registration at ₹20 lakh, input tax credit and reverse charge. Not tax advice.
 
 In this article
 
@@ -13200,14 +13222,14 @@ Also see Pricing · FAQ Hub · Founder profile
 
 ---
 
-# Best App for Home Tutors to Manage Students &amp; Fees (2026)
+# Home Tuition App for Tutors: Manage Students &amp; Fees (2026)
 
 **Source:** https://allcoaching.in/blog/best-app-for-home-tutors-to-manage-students-and-fees  
 **Published:** 2026-08-07  
 **Updated:** 2026-10-30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** Best app for home tutors to manage students and fees in India (2026) — what needs tracking, why a diary breaks past 20 students, and how to run it all from one app.
+**Summary:** A home tuition app for tutors in India to manage students, attendance and fees. What to track, why a diary breaks past 20 students, and how to run it all from one app.
 
 In This Article
 
@@ -17007,7 +17029,7 @@ A brand-new tutor with no audience is discovered through a marketplace rather th
 
 **Source:** https://allcoaching.in/blog/classplus-alternative-for-coaching-institutes  
 **Published:** 2026-07-21T09:00:00+05:30  
-**Updated:** 2026-10-30T12:00:00+05:30  
+**Updated:** 2026-10-29T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
 **Summary:** Six Classplus alternatives for coaching institutes, compared fairly: published prices from each official site, fees on sales, own app and domain, and who each one suits.
@@ -17275,6 +17297,8 @@ Nobody loses access, and nobody pays twice.
 
 
 The full checklist, including messages to send students, is in how to switch coaching apps without losing students.
+
+If you came here after seeing Classplus's self-serve sign-up, our guide to Classplus DIY covers what that page offers and what it leaves unstated.
 
 
 
@@ -25275,16 +25299,16 @@ Also see Pricing · FAQ Hub · Founder profile
 
 ---
 
-# Physics Wallah Alternative for Teachers (2026): Own Your App
+# PW Alternative for Teachers (2026): Start Your Own App
 
 **Source:** https://allcoaching.in/blog/physics-wallah-alternative-for-educators  
 **Published:** 2026-07-07T09:00:00+05:30  
-**Updated:** 2026-10-30T12:00:00+05:30  
+**Updated:** 2026-11-11T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** For JEE and NEET teachers weighing a Physics Wallah faculty role against their own academy: what PW publishes, what it does not, and how to start your own app safely.
+**Summary:** Looking for a PW alternative as a teacher? What Physics Wallah publishes about faculty roles, what it does not, and how JEE and NEET teachers start their own app safely.
 
-Amit RatanUpdated 29 Oct 2026 · 14 min read
+Amit RatanUpdated 11 Nov 2026 · 14 min read
 
 
 On this page
@@ -25507,7 +25531,7 @@ Build your own academy. Try it free for 7 days.
 Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
 
 Start free trialSee plans
-No card needed · Cancel anytime in the trial · Your data stays exportable
+No card needed · Cancel anytime in the trial · Export your data any time
 
 
 
@@ -31575,16 +31599,16 @@ Also see Pricing · FAQ Hub · Founder profile
 
 ---
 
-# How Much Can You Earn Teaching Online in India? (2026)
+# How Much Do Online Teachers Earn in India? Calculator (2026)
 
 **Source:** https://allcoaching.in/blog/how-much-can-you-earn-teaching-online-india  
 **Published:** 2026-06-22T09:00:00+05:30  
-**Updated:** 2026-10-30T12:00:00+05:30  
+**Updated:** 2026-11-11T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** How much can you earn teaching online in India? Students × price, minus platform fee, plan cost and ads. Free income calculator, 3 worked examples and tax notes.
+**Summary:** How much do online teachers earn in India? Students × price, minus platform fee, plan cost and ads. Free income calculator, 3 worked examples and tax notes.
 
-Amit RatanUpdated 29 Oct 2026 · 16 min read
+Amit RatanUpdated 11 Nov 2026 · 16 min read
 
 
 On this page
@@ -31863,7 +31887,7 @@ Build your own academy. Try it free for 7 days.
 Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
 
 Start free trialSee plans
-No card needed · Cancel anytime in the trial · Your data stays exportable
+No card needed · Cancel anytime in the trial · Export your data any time
 
 
 
@@ -38283,14 +38307,14 @@ Haan. AllCoaching par aap apna course price khud set karte hain, jitne chahe tie
 
 ---
 
-# Online Home Tuition Kaise Shuru Kare (2026 Guide)
+# Online Home Tuition Kaise Shuru Kare: Ghar Se Guide (2026)
 
 **Source:** https://allcoaching.in/blogs/hinglish/online-home-tuition-kaise-shuru-kare  
 **Published:** 2026-06-10  
 **Updated:** 2026-10-30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** Online home tuition kaise shuru kare? Offline tutor ghar se branded app par live batches, board-pattern practice aur doubt-solving de sakta hai. 90% educator ko.
+**Summary:** Online home tuition kaise shuru kare? Ghar se live batches, board-pattern practice aur doubt-solving apne branded app par. Setup, fees aur pehle students ka plan.
 
 In this article
 
@@ -42400,12 +42424,12 @@ Also see Pricing · FAQ Hub · Founder profile
 
 **Source:** https://allcoaching.in/blog/how-to-get-paid-students-for-online-coaching-free  
 **Published:** 2026-06-05T09:00:00+05:30  
-**Updated:** 2026-11-04T09:00:00+05:30  
+**Updated:** 2026-11-11T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
 **Summary:** Get students online without ads: teach on YouTube, Instagram and WhatsApp, run a free class, and send everyone to a course page. 9 organic ways and a weekly routine.
 
-Amit RatanUpdated 4 Nov 2026 · 19 min read
+Amit RatanUpdated 11 Nov 2026 · 19 min read
 
 
 On this page
@@ -42690,7 +42714,7 @@ Mention who you are in one line ("I teach JEE physics online"). That is enough; 
 
 
 
-## How to turn free followers into paid students: the free-to-paid ladder
+## How do you turn free followers into paid students?
 
 Turn followers into paid students with a ladder: free video, then free notes through a lead form, then a free live class, then a paid course at an honest early-bird price, then the next course or a test series. Each free step earns the right to make the next offer.
 
@@ -42786,7 +42810,7 @@ Consistency beats volume. Three months of this routine on one exam will teach yo
 
 
 
-## How to track which free channel brings paying students
+## How do you track which free channel brings paying students?
 
 Tag every link you share with UTM labels, ask every new student where they found you, and compare enrolments by channel once a month. Without this, you end up making more of what gets views instead of what gets students.
 
@@ -42824,6 +42848,8 @@ Six mistakes and their fixes.
 
 
 None of these channels guarantees students. What you control is useful teaching, a clear offer, and a course page that makes paying easy.
+
+Once the first students arrive, the next stage is covered in how to grow online coaching from 50 to 1,000 students.
 
 
 
@@ -46456,14 +46482,14 @@ Nahi, alag se website aur app dono banane ki zaroorat nahi. AllCoaching ek brand
 
 ---
 
-# Online Tuition Class Kaise Shuru Kare Aur Paise Kamaye (2026)
+# Online Tuition Kaise Start Kare: Ghar Se Kamai Guide (2026)
 
 **Source:** https://allcoaching.in/blogs/hinglish/online-tuition-class-kaise-shuru-kare-aur-paise-kamaye  
 **Published:** 2026-06-03  
 **Updated:** 2026-10-30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** Online tuition class shuru karna aasaan hai, pehle 10 paying students laana mushkil. 2026 ka step-by-step roadmap: setup, fees, students aur pehli kamai.
+**Summary:** Online tuition kaise start kare aur ghar se kaise padhaye? 2026 ka step-by-step roadmap: setup, fees, pehle 10 paying students aur pehli kamai.
 
 In this article
 
@@ -57137,14 +57163,14 @@ In our view — not a measured benchmark — template-built landing pages often 
 
 ---
 
-# Multi-Language LMS for Hindi &amp; Regional Languages (2026)
+# Hindi LMS &amp; Multi-Language LMS for Indian Educators (2026)
 
 **Source:** https://allcoaching.in/blog/multi-language-lms-for-regional-indian-languages  
 **Published:** 2026-05-17  
 **Updated:** 2026-10-30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** A multi-language LMS that only translates menus is not enough. How Hindi, Marathi, Tamil and Bengali educators get found in the learner's own language, 2026.
+**Summary:** Looking for a Hindi LMS or a multi-language LMS? Translated menus are not enough. Best practices for Hindi, Marathi, Tamil and Bengali academies in 2026.
 
 In this guide
 
@@ -57901,14 +57927,14 @@ Five-step setup. (1) Start the 7-day free trial at studio.allcoaching.in and wri
 
 ---
 
-# UPI Payment Gateway for Course Sellers: Real Charges 2026
+# Free UPI Payment Gateway in India? Real Charges in 2026
 
 **Source:** https://allcoaching.in/blog/best-upi-payment-gateway-for-online-courses  
 **Published:** 2026-05-16  
 **Updated:** 2026-10-30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** UPI looks free, but most gateways still take 1.5–2% plus GST on every course sale. What Indian educators actually pay, and the lower-cost options.
+**Summary:** Is there a free UPI payment gateway in India? Not fully: most gateways charge 1.5–2% plus GST on each course sale, and all need KYC. What educators really pay in 2026.
 
 In this guide
 
@@ -67365,14 +67391,14 @@ The future is intelligent, predictive, and adaptive. AI will personalize the ori
 
 ---
 
-# Best Free Tools for Teachers to Record Lectures (2026)
+# Record Video Lectures on a Laptop Free: 6 Best Tools (2026)
 
 **Source:** https://allcoaching.in/blog/best-free-tools-for-teachers-to-record-lectures  
 **Published:** 2026-05-11  
 **Updated:** 2026-10-30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
-**Summary:** The best free tools for teachers to record lectures in 2026: OBS Studio, Loom, ScreenPal, DaVinci Resolve, CapCut and Descript, with honest pros, cons
+**Summary:** How to record video lectures on a laptop for free in 2026: OBS Studio, Loom, ScreenPal, DaVinci Resolve, CapCut and Descript, with honest pros and cons for teachers.
 
 In This Article
 
@@ -68292,7 +68318,7 @@ Most educators sign up, upload their first recorded lecture, set pricing, and be
 
 **Source:** https://allcoaching.in/blog/how-to-start-online-academy-in-5-steps  
 **Published:** 2026-05-11T09:00:00+05:30  
-**Updated:** 2026-10-30T12:00:00+05:30  
+**Updated:** 2026-10-29T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
 **Summary:** How to start an online academy in India in 5 steps: plan your first course, sign up, upload it, connect your own domain and start selling with UPI checkout.
@@ -68485,7 +68511,7 @@ Build your own academy. Try it free for 7 days.
 Website on your own domain, your own Android app, unlimited live classes and UPI checkout on every plan. 0% commission on every monthly plan from ₹3,999 a month, or yearly from ₹6,999 (excl. GST).
 
 Start free trialSee plans
-No card needed · Cancel anytime in the trial · Your data stays exportable
+No card needed · Cancel anytime in the trial · Export your data any time
 
 
 
@@ -68702,6 +68728,8 @@ Starting an online academy costs a platform plan, any platform fee on sales, pay
 
 
 Write these lines into one sheet before you launch, with your expected sales for the year. It takes ten minutes and tells you which plan to choose and what price your course needs.
+
+Still choosing a name? See coaching institute name ideas and how to choose one. If you were planning a WordPress site, read how to create a coaching institute website without WordPress first.
 
 
 
@@ -73275,12 +73303,12 @@ Amit builds AllCoaching, the academy platform Indian educators set up themselves
 
 **Source:** https://allcoaching.in/blog/classplus-vs-graphy-vs-allcoaching  
 **Published:** 2026-04-25T09:00:00+05:30  
-**Updated:** 2026-10-30T12:00:00+05:30  
+**Updated:** 2026-10-29T09:00:00+05:30  
 **Author:** Amit Ratan, Founder &amp; CEO, AllCoaching  
 
 **Summary:** Classplus vs Graphy vs AllCoaching for Indian educators: how each works, free trials, own app and domain, plus Classplus vs AllCoaching cost from published prices.
 
-Amit RatanUpdated 29 Oct 2026 · 12 min read
+Amit RatanUpdated 29 Oct 2026 · 13 min read
 
 
 On this page
@@ -73553,6 +73581,8 @@ Nobody loses access during the move.
 
 
 The full checklist, including messages to send students, is in how to switch coaching apps without losing students.
+
+Considering Classplus's do-it-yourself sign-up? Read Classplus DIY: what it is and what to check.
 
 
 
@@ -78719,6 +78749,28 @@ Illustrative maths before GST. Monthly plans assume 12 months. No plan has a sal
 
 
 
+How to buy
+
+
+## From sign-up to your plan, in four steps.
+
+AllCoaching Technology runs a SaaS LMS platform. Educators pay a monthly or yearly subscription to use the studio. When students buy an educator's course, payment is collected through our gateway and settled to the educator after the platform fee (0% on monthly plans; 10%, 7.5% or 5% on yearly plans).
+
+
+
+1. Sign upGo to studio.allcoaching.in and create your account.
+
+2. Try free for 7 daysYour trial starts at once. No card is needed.
+
+3. Choose a plan and payIn the studio, pick Starter, Growth or Pro, monthly or yearly, and pay through the secure checkout (UPI, cards, net banking). GST is added at checkout.
+
+4. Plan activeYour plan is active on your account as soon as the payment is confirmed. A GST tax invoice is issued.
+
+
+
+
+
+
 Transparent by design
 
 
@@ -78737,6 +78789,10 @@ No sales limitNo plan caps what you sell, monthly or yearly. Sell as much as you
 UpgradesTake effect the moment payment clears. What you already paid is credited.
 
 DowngradesContact support and the lower plan applies from your next renewal.
+
+RefundsEvery plan starts with a 7-day free trial, so plan payments are non-refundable. Duplicate or failed payments are refunded. See the Refund & Cancellation Policy.
+
+DeliveryOnline software access only, active on your studio account right after payment. Nothing is shipped. See the Delivery Policy.
 
 If you don't renewThe academy goes offline to students; you then have 30 days to export your content and data, after which uploaded videos are deleted.
 
@@ -79201,10 +79257,10 @@ Visit Contact Page
 
 ---
 
-## Classplus Pricing 2026 vs AllCoaching: 0% Monthly or Yearly
+## Classplus Pricing 2026: ₹29,999 a Year, App Charges Checked
 
 **Source:** https://allcoaching.in/vs/classplus  
-**Summary:** Classplus lists ₹29,999 for 1 year. AllCoaching: 0% commission from ₹3,999 a month, or yearly from ₹6,999 plus a fee on sales. See which costs less at your sales.
+**Summary:** Classplus pricing in 2026: its official page lists ₹29,999 for 1 year and ₹39,999 for 2 years. GST and per-sale fees are not stated. Compare AllCoaching from ₹3,999 a month.
 
 Home / Compare / Classplus
 
@@ -79426,10 +79482,10 @@ More comparisons: all comparisons Best Classplus alternative AppX vs Classplus C
 
 ---
 
-## Graphy Pricing 2026 vs AllCoaching: 0% Monthly or Yearly Plans
+## Graphy Pricing 2026: Plans, 5–10% Per-Sale Fee, Real Cost
 
 **Source:** https://allcoaching.in/vs/graphy  
-**Summary:** Graphy lists ₹24,999, ₹49,999 and ₹99,999 a year plus 10% to 5% per sale. AllCoaching: 0% commission from ₹3,999 a month, or the same fee rates yearly from ₹6,999.
+**Summary:** Graphy pricing in 2026: paid plans plus a 5% to 10% fee on every sale. What you pay in total at your sales level, next to AllCoaching at 0% commission from ₹3,999 a month.
 
 Home / Compare / Graphy
 
@@ -81511,7 +81567,8 @@ AllCoaching is built by an independent team in India. The founder, Amit Ratan, r
 
 
 Legal nameAllCoaching Technology
-OfficePrayagraj, Uttar Pradesh, India
+BusinessSaaS LMS platform for educators: subscriptions, plus payment collection for educators' course sales (platform fee on yearly plans)
+Operating officePrayagraj, Uttar Pradesh, India
 Emailcontact@allcoaching.in
 Phone and WhatsApp+91 98899 77262
 Working hoursMonday to Saturday, 10am–7pm IST
