@@ -576,6 +576,31 @@ footer > .wrap{position:relative}
 @media (max-width:1100px){.sc-grid{grid-template-columns:1fr;max-width:640px;margin-left:auto;margin-right:auto}}
 @media (max-width:1020px){.pl-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:760px){
+  .sc-swipe{display:flex;align-items:center;justify-content:center;gap:8px;margin:22px 0 0;font-size:13px;font-weight:600;color:var(--ink-3);font-family:var(--mono);letter-spacing:.06em;text-transform:uppercase}
+  .sc-swipe svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2}
+  .sc-grid{display:flex;grid-template-columns:none;max-width:none;gap:12px;margin:14px -24px 0;padding:6px 24px 22px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 24px;-webkit-overflow-scrolling:touch;scrollbar-width:none;overscroll-behavior-x:contain}
+  .sc-grid::-webkit-scrollbar{display:none}
+  .sc-grid .sc{flex:0 0 84%;min-width:0;scroll-snap-align:start;padding:12px 12px 16px;border-radius:20px}
+  .sc-grid .sc:hover{transform:none}
+  .sc-grid .sc-vis{padding:0;aspect-ratio:100/80}
+  .sc-browser{position:absolute;left:0;top:0;width:78%;border-radius:10px}
+  .sc-bar{padding:6px 8px;gap:4px}.sc-bar i{width:6px;height:6px}
+  .sc-bar span{font-size:9.5px;padding:2px 7px;margin-left:4px;gap:4px}.sc-bar svg{width:9px;height:9px}
+  .sc-phone{width:36%;right:2%;bottom:0;padding:3.5px}
+  .sc-phone::after{inset:3.5px}
+  .sc-meta{gap:10px;margin-top:14px;flex-wrap:nowrap}
+  .sc-logo{width:42px;height:42px;border-radius:11px}
+  .sc-grid .sc-who{flex:1 1 0;min-width:0}
+  .sc-who b{font-size:17px}.sc-who small{font-size:12.5px;line-height:1.35}
+  .sc-grid .sc-meta{flex-wrap:wrap}
+  .sc-grid .sc-visit{width:100%;justify-content:center;margin-top:4px;padding:9px 12px;font-size:13.5px}
+  .sc-tags{margin-top:12px;gap:6px}.sc-tags li{font-size:11.5px;padding:5px 9px}
+  .sc-note{margin-top:6px;font-size:12px}
+}
+@media (max-width:380px){.sc-bar i{display:none}.sc-bar span{margin-left:0}}
+@media (max-width:640px){.sc-grid{margin-left:-16px;margin-right:-16px;padding-left:16px;padding-right:16px;scroll-padding:0 16px}}
+@media (min-width:761px){.sc-swipe{display:none}}
+@media (max-width:760px){
   .show,.why,.math{padding:72px 0}
   .sc{padding:14px 14px 18px}.sc-vis{padding:0 30px 26px 0}
   .sc-meta{flex-wrap:wrap}.sc-visit{margin-left:0}
@@ -711,6 +736,7 @@ footer > .wrap{position:relative}
       <h2 class="h2" style="margin-top:12px"><span class="lt">Real academies.</span> <span class="bd">Built by educators themselves.</span></h2>
       <p class="lede" style="margin-top:12px;max-width:660px">Exam educators and skill educators. Not mock-ups: each runs on the educator's own domain, with their own courses, tests and notes, and AllCoaching underneath. Open them and look around.</p>
     </div>
+    <p class="sc-swipe" aria-hidden="true">Swipe to see all 3 <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></p>
     <div class="sc-grid">
       <article class="sc reveal">
         <div class="sc-vis">
