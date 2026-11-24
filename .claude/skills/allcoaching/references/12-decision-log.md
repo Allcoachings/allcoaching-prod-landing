@@ -43,7 +43,7 @@ Newest first. A newer line always overrides an older one. Add a dated line whene
 - Owner asked for this master skill so every task (site, design, ads, social, scale) stays consistent. Uploaded to the owner's claude.ai account the same day (skill "allcoaching"); repo copy is the master, re-upload the zip after every change.
 
 ## 2026-10-29
-- **Studio pricing is FINAL** ("studio wala pricing final hai"): monthly 0% Starter ₹3,999 / Growth ₹5,999 / Pro ₹7,999; yearly Starter ₹6,999 + 10% / Growth ₹12,999 + 7.5% / Pro ₹24,999 + 5%; details per studio compare table; iOS on Pro monthly and every yearly plan; no sales limit. Pricing starts at ₹3,999.
+- **Studio pricing is FINAL** ("studio wala pricing final hai"): monthly 0% Starter ₹3,999 / Growth ₹5,999 / Pro ₹7,999; yearly Starter ₹6,999 + 10% / Growth ₹12,999 + 7.5% / Pro ₹24,999 + 5%; details per studio compare table; iOS on Growth and Pro, after the first month; no sales limit. Pricing starts at ₹3,999.
 - **Exit rule:** offline at end of paid period → 30 days to export or come back → uploaded videos deleted.
 - Studio-like **Monthly/Yearly toggle** on /pricing and homepage; positioning **full control**, never cheap.
 - Remove every old model and false promise site-wide (done: PRs #39–#43).
@@ -56,7 +56,7 @@ Three plans: Starter ₹6,999/yr + 10%, Growth ₹7,999/mo 0%, Pro ₹14,999/mo 
 - Monthly 0% plans introduced (with sales limits ₹50,000 / ₹1.5 lakh — later removed); Scale paused.
 - Monthly plans: no lock-in, stop any month.
 - Showcase approved: Biology Lessons, CHEMPSI, DigiteKM (no numbers, no quotes).
-- Apps published on the educator's own Play Console / App Store, by the educator or by AllCoaching with API access.
+- Apps published on the educator's own Play Console / App Store, always on the educator's own console.
 
 ## 2026-10-25
 Scale ₹99,999/yr at 0% (contact-us only) added; iOS limited to Pro (later superseded by the studio table). Scale now retired.
@@ -96,3 +96,10 @@ Public email becomes **contact@allcoaching.in** (old gmail must never reappear).
 
 ## Company facts (stable)
 Legal entity **AllCoaching Technology** (not "Pvt. Ltd."). Founded 2018, Prayagraj (keep year/city off marketing pages; legal/about/contact may show the registered location). Founder & CEO **Amit Ratan**. Phone/WhatsApp +91 98899 77262. Grievance officer: Amit Ratan (48 h acknowledgement).
+
+## 2026-11-24 — iOS, fee GST, settlement, storage, app publishing (owner)
+- iOS app: not on Starter (monthly or yearly); Growth and Pro, monthly or yearly, get it after the first month on the plan.
+- Platform fee (yearly 10% / 7.5% / 5%) is plus GST; monthly stays 0%.
+- Payment-gateway charges are separate; settlement follows Razorpay, usually T+2 days, instant settlement available (supersedes the 2026-10-17 'no payout-speed copy' rule for this exact wording).
+- Storage can be extended on any plan.
+- Apps are published only on the educator's own Play Console / App Store Connect; the 'we publish with API access' option is retired.

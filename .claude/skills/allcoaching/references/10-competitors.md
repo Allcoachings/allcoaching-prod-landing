@@ -25,7 +25,7 @@ Canonical data file: `.claude/skills/academy-guide-blog/data/competitors.json`. 
 ## Positioning against each type
 - **Agency-built / app-builder platforms (Classplus, AppX, Winuall):** you get an app, but not the controls; AllCoaching = set it up yourself, own domain + app, published prices, 7-day trial.
 - **Global course platforms (Kajabi, Teachable, Thinkific, Graphy):** priced in dollars, own app is extra; AllCoaching = India-first (UPI, GST invoice, Hinglish), own Android app on every plan.
-- **Indian LMS (Learnyst, Edmingle):** own app and 0% come on higher tiers (₹14,999–₹49,999/mo); AllCoaching = own Android app at 0% from ₹3,999/mo, iOS from ₹7,999/mo (Pro monthly) or any yearly plan.
+- **Indian LMS (Learnyst, Edmingle):** own app and 0% come on higher tiers (₹14,999–₹49,999/mo); AllCoaching = own Android app at 0% from ₹3,999/mo, iOS from ₹5,999/mo on Growth or Pro, after the first month (yearly Growth or Pro too; not Starter).
 - **Creator-commerce tools (Exly, TagMango, Skool):** good for selling sessions/communities; AllCoaching = a full academy (tests with rank, live classroom, courses, website, app).
 - **WordPress + plugins:** the complexity enemy — hosting, plugins, gateway, app, security all separate.
 - **Big EdTech marketplaces (Unacademy, PW, Udemy):** your brand disappears; AllCoaching = your name on everything, marketplace only as an extra.

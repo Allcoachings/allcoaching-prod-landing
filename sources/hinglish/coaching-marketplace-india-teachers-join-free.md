@@ -170,7 +170,7 @@ schema_extra:
       '@type': Country
       name: India
   featureList:
-  - Own website and Android app on every plan; iOS on Pro monthly and every yearly plan
+  - Own website and Android app on every plan; iOS on Growth and Pro, after the first month
   - Listing on the AllCoaching marketplace app
   - Unlimited live classes on YouTube Live or Zoom, plus built-in live classroom hours
   - UPI and card checkout with automatic payouts
@@ -217,7 +217,7 @@ faq:
 - q: AllCoaching par kitna revenue mera rehta hai?
   a: Monthly plans par 0% commission — har sale ka 100% aapka. Yearly plans par 10% (Starter), 7.5% (Growth) ya 5% (Pro) fee per sale. Payment-gateway charges alag hain, aur payouts automatic aapke bank me aate hain.
 - q: Kya mujhe apna app milega?
-  a: Haan. Har plan me apna Android app, aapke Google Play Console account par ($25 ek baar). iOS app Pro monthly aur har yearly plan par, aapke Apple Developer account par ($99 saal). Store review Google aur Apple karte hain.
+  a: Haan. Har plan me apna Android app, aapke Google Play Console account par ($25 ek baar). iOS app Growth aur Pro par, pehle mahine ke baad, aapke Apple Developer account par ($99 saal). Store review Google aur Apple karte hain.
 - q: Plan band karne par mere students aur data ka kya hoga?
   a: Plan chalte hue content aur data kabhi bhi export kar sakte ho. Plan band karne par academy paid period ke end me offline hoti hai, aur 30 din tak export kar sakte ho ya wapas aa sakte ho; uske baad uploaded videos delete hote hain. Monthly plans kabhi bhi band kar sakte ho.
 ---
@@ -241,7 +241,7 @@ faq:
 <!-- AUTO: grow-cta -->
 <aside class="grow-cta" aria-label="About AllCoaching">
 <p class="gc-label">Hum abhi kahan hain · 2026</p>
-<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Pro monthly ya kisi bhi yearly plan par) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
+<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Growth aur Pro par, pehle mahine ke baad) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
 <div class="gc-row">
 <a class="gc-btn" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">7 din free try karein</a>
 <span class="gc-note">Card nahi chahiye · Har monthly plan par 0% commission, ₹3,999 se · Yearly ₹6,999/saal se</span>
@@ -313,7 +313,7 @@ faq:
 <section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch5">
 <p class="kicker">Section 05 · The Other Side</p>
 <h2 class="h-chap font-display mt-3">Student ki taraf se —<br/><em>bahut saare apps.</em></h2>
-<p class="mt-7">Student ke phone me pehle se bahut saare apps hain. Har naye teacher ka alag app download karna unhe bhaari lagta hai. Isliye do cheezein madad karti hain: ek website jo bina download khul jaaye, aur ek shared marketplace app jaha woh alag-alag educators ko ek jagah dekh sakein. AllCoaching par aapki website, aapka Android app (iOS Pro monthly ya kisi bhi yearly plan par) aur marketplace listing — teeno milte hain.</p>
+<p class="mt-7">Student ke phone me pehle se bahut saare apps hain. Har naye teacher ka alag app download karna unhe bhaari lagta hai. Isliye do cheezein madad karti hain: ek website jo bina download khul jaaye, aur ek shared marketplace app jaha woh alag-alag educators ko ek jagah dekh sakein. AllCoaching par aapki website, aapka Android app (iOS Growth aur Pro par, pehle mahine ke baad) aur marketplace listing — teeno milte hain.</p>
 </section>
 <div class="orn">· · ·</div>
 
@@ -340,7 +340,7 @@ faq:
 <h2 class="h-chap font-display mt-3">AllCoaching —<br/><em>apni academy plus marketplace listing.</em></h2>
 <p class="mt-7">AllCoaching ek LMS hai jo aap khud banate ho, coaching ke liye Shopify jaisa: signup, plan chuniye, course upload kariye, domain connect kariye aur bechna shuru. Har plan me:</p>
 <ul>
-<li>Apni website (free .allcoaching.in address ya apna domain) aur apna Android app; iOS app Pro monthly aur har yearly plan par — aapke apne developer accounts par.</li>
+<li>Apni website (free .allcoaching.in address ya apna domain) aur apna Android app; iOS app Growth aur Pro par, pehle mahine ke baad — aapke apne developer accounts par.</li>
 <li>Courses, tests, PDF notes, YouTube Live ya Zoom par unlimited live classes, plus built-in live classroom ke monthly hours.</li>
 <li>UPI aur card checkout, automatic payouts, DRM aur watermarking.</li>
 <li>AllCoaching marketplace app par listing — ek extra channel, guarantee nahi.</li>
@@ -356,7 +356,7 @@ faq:
 <ul>
 <li><strong>7 din free trial</strong>, card nahi chahiye. Yeh free tier nahi hai.</li>
 <li><strong>Monthly plans:</strong> Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 mahina — 0% commission, har sale ka 100% aapka; kabhi bhi band kar sakte ho.</li>
-<li><strong>Yearly plans:</strong> Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5% fee per sale; har yearly plan me Android aur iOS app.</li>
+<li><strong>Yearly plans:</strong> Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5% fee per sale; har yearly plan me Android app, aur Growth aur Pro me iOS app bhi.</li>
 <li><strong>Alag kharche:</strong> 18% GST, payment-gateway charges, Google Play ($25 ek baar) aur Apple ($99 saal) developer accounts, aur apna domain chahiye to registrar ka kharcha.</li>
 </ul>
 <p>Rough guide (illustrative, GST se pehle): lagbhag ₹4 lakh saalana sales tak yearly Starter aksar kam padta hai; uske upar monthly plan zyada bachata hai. Plan band karne par academy paid period ke end me offline hoti hai, aur 30 din tak content aur data export kar sakte ho.</p>
@@ -526,7 +526,7 @@ Pricing dekhein
 
         <details>
           <summary>Kya mujhe apna app milega?</summary>
-          <p>Haan. Har plan me apna Android app, aapke Google Play Console account par ($25 ek baar). iOS app Pro monthly aur har yearly plan par, aapke Apple Developer account par ($99 saal). Store review Google aur Apple karte hain.</p>
+          <p>Haan. Har plan me apna Android app, aapke Google Play Console account par ($25 ek baar). iOS app Growth aur Pro par, pehle mahine ke baad, aapke Apple Developer account par ($99 saal). Store review Google aur Apple karte hain.</p>
         </details>
 
         <details>

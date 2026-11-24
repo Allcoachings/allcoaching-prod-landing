@@ -449,8 +449,8 @@
       '<div class="lx-kpis">' +
         '<div class="lx-kpi" id="q1"><div class="k">Sales</div><div class="v" id="v1">₹0</div><span class="d" id="d1">no sales yet</span></div>' +
         '<div class="lx-kpi" id="q2"><div class="k">Enrolments</div><div class="v" id="v2">0</div><span class="d" id="d2">—</span></div>' +
-        '<div class="lx-kpi acc" id="q3"><div class="k">You keep · ' + OFFER.keepTxt + '</div><div class="v" id="v3">₹0</div><span class="d">to your bank, T+3</span></div>' +
-        '<div class="lx-kpi" id="q4"><div class="k">Platform fee · ' + OFFER.feeTxt + '</div><div class="v" id="v4">₹0</div><span class="d">flat, per sale</span></div>' +
+        '<div class="lx-kpi acc" id="q3"><div class="k">You keep · ' + OFFER.keepTxt + '</div><div class="v" id="v3">₹0</div><span class="d">to your bank, usually T+2</span></div>' +
+        '<div class="lx-kpi" id="q4"><div class="k">Platform fee · ' + OFFER.feeTxt + '</div><div class="v" id="v4">₹0</div><span class="d">per sale, + GST</span></div>' +
       '</div>' +
       '<div class="lx-dg2"><div class="lx-card lx-chart"><div class="hd"><b>Sales</b><span>sharmaphysics.in</span></div>' +
         '<svg viewBox="0 0 400 180" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="lxGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C58B43" stop-opacity=".28"/><stop offset="1" stop-color="#C58B43" stop-opacity="0"/></linearGradient></defs>' +

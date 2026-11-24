@@ -51,9 +51,9 @@
   var CFG = window.AC_CHECKOUT || {};
   var Q = new URLSearchParams(location.search);
   var PLANS = {
-    starter: { key: 'starter', label: 'Starter', fee: 699900, keep: '90%', fee_pct: '10%', storage: '512 GB', video: '1080p', premium: false, meta: '512 GB · 1080p · own Android & iOS app' },
-    growth:  { key: 'growth',  label: 'Growth',  fee: 1299900, keep: '92.5%', fee_pct: '7.5%', storage: '1 TB', video: '1080p', premium: false, meta: '1 TB · 1080p · own Android & iOS app' },
-    pro:     { key: 'pro',     label: 'Pro',     fee: 2499900, keep: '95%', fee_pct: '5%', storage: '3 TB', video: '4K', premium: true, meta: '3 TB · 4K · Android & iOS app · premium theme' }
+    starter: { key: 'starter', label: 'Starter', fee: 699900, keep: '90%', fee_pct: '10%', storage: '512 GB', video: '1080p', premium: false, meta: '512 GB · 1080p · own Android app' },
+    growth:  { key: 'growth',  label: 'Growth',  fee: 1299900, keep: '92.5%', fee_pct: '7.5%', storage: '1 TB', video: '1080p', premium: false, meta: '1 TB · 1080p · own Android & iOS app (iOS after month 1)' },
+    pro:     { key: 'pro',     label: 'Pro',     fee: 2499900, keep: '95%', fee_pct: '5%', storage: '3 TB', video: '4K', premium: true, meta: '3 TB · 4K · Android & iOS app (iOS after month 1) · premium theme' }
   };
   // Studio pricing (owner, 2026-10-29). This sheet sells the three yearly plans the studio backend sells.
   // Monthly plans (Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 at 0% commission) are bought on studio by
@@ -398,7 +398,7 @@
   var INCLUDED = [
     ['play', 'Unlimited videos', 'Through YouTube, in your academy'],
     ['live', 'Unlimited live classes', 'YouTube Live, Zoom or built-in'],
-    ['phone', 'Android & iOS app', 'White-label, in your name'],
+    ['phone', 'Your own apps', 'Android on every plan, iOS on Growth and Pro'],
     ['globe', 'Your own domain', 'Website on yourname.in'],
     ['brush', 'Templates & themes', 'Free and customizable'],
     ['plug', 'Integrations', 'Zoom, Razorpay, YouTube'],
@@ -1237,7 +1237,7 @@
         var bits = [];
         if (p.storage_bytes) { P.storage = gb(p.storage_bytes); bits.push(P.storage); }
         if (p.video_max) { P.video = /4k/i.test(p.video_max) ? '4K' : p.video_max; bits.push(P.video); }
-        if (p.live_hours_month) bits.push(p.live_hours_month + ' live hours a month'); bits.push('Android & iOS app');
+        if (p.live_hours_month) bits.push(p.live_hours_month + ' live hours a month'); bits.push(p.key === 'starter' ? 'Android app' : 'Android & iOS app (iOS after month 1)');
         if (typeof p.premium_template === 'boolean') P.premium = p.premium_template;
         if (p.premium_template) bits.push('premium theme');
         if (bits.length) P.meta = bits.join(' · ');

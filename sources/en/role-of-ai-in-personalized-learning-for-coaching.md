@@ -73,7 +73,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: Web, Android, iOS
-  description: 'AllCoaching is a self-serve LMS where Indian educators build their own branded academy: website on their own domain, own Android app (iOS on Pro monthly and every yearly plan), courses, tests, notes, live classes, UPI checkout and a listing on the AllCoaching marketplace app. 7-day free trial, then monthly plans from ₹3,999 at 0% commission or yearly from ₹6,999 + 10% per sale (GST extra).'
+  description: 'AllCoaching is a self-serve LMS where Indian educators build their own branded academy: website on their own domain, own Android app (iOS on Growth and Pro, after the first month), courses, tests, notes, live classes, UPI checkout and a listing on the AllCoaching marketplace app. 7-day free trial, then monthly plans from ₹3,999 at 0% commission or yearly from ₹6,999 + 10% per sale (GST extra).'
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/role-of-ai-in-personalized-learning-for-coaching.webp
   offers:
@@ -162,7 +162,7 @@ schema_extra:
       '@type': Country
       name: India
   featureList:
-  - Own website and Android app on every plan; iOS on Pro monthly and every yearly plan
+  - Own website and Android app on every plan; iOS on Growth and Pro, after the first month
   - Courses, tests, PDF notes, DRM and watermarking
   - Unlimited live classes on YouTube Live or Zoom, plus built-in live classroom hours
   - 'Plugins: YouTube, Zoom, WhatsApp, Google Analytics, Meta Pixel, Tag Manager'
@@ -265,7 +265,7 @@ faq:
 <!-- AUTO: grow-cta -->
 <aside class="grow-cta" aria-label="About AllCoaching">
 <p class="gc-label">Where we are · 2026</p>
-<p><strong>AllCoaching is an LMS you build yourself</strong> — drag and drop your courses, tests, notes and live classes, then make it your brand with your own domain, logo and Android app (iOS app on Pro monthly and every yearly plan). 500+ educators across India already sell through it. Every plan starts with a 7-day free trial, and the price is on the page before you sign up.</p>
+<p><strong>AllCoaching is an LMS you build yourself</strong> — drag and drop your courses, tests, notes and live classes, then make it your brand with your own domain, logo and Android app (iOS app on Growth and Pro, after the first month). 500+ educators across India already sell through it. Every plan starts with a 7-day free trial, and the price is on the page before you sign up.</p>
 <div class="gc-row">
 <a class="gc-btn" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">Start your 7-day free trial</a>
 <span class="gc-note">No card needed · 0% commission on every monthly plan, from ₹3,999 · Yearly from ₹6,999</span>

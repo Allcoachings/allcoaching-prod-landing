@@ -7,7 +7,7 @@ What AllCoaching actually is, screen by screen. Use it for feature copy, product
 |---|---|---|---|
 | **Studio** | studio.allcoaching.in | Educator and their team | Where the academy is built and run. Separate codebase (React/Vite); developer **Sumit**. Login `studio.allcoaching.in/login`. |
 | **Academy website + student web app** | `<handle>.allcoaching.in` free, or the educator's own domain (e.g. biolessons.in, chempsi.com, digitekm.com); served by learn.allcoaching.in | Students | Branded with the educator's logo, colours, theme. Course pages, checkout, student login, video player, tests, live. |
-| **Educator's own apps** | Google Play / App Store under the educator's own developer account | Students | Own white-label Android app on every plan; iOS on Pro monthly and every yearly plan. |
+| **Educator's own apps** | Google Play / App Store under the educator's own developer account | Students | Own white-label Android app on every plan; iOS on Growth and Pro, after the first month. |
 | **AllCoaching marketplace app** | Android `org.student.allcoaching` · iOS id6758305866 · learn.allcoaching.in | Students discovering educators | Educators' courses are listed as an extra discovery channel. Never promise students or sales from it. |
 
 ## Studio map (live bundle, Oct 2026)
@@ -38,7 +38,7 @@ Design principle the owner asked for: simple and smooth, no skippable filler ste
 **Students** — unlimited students, student list/CRM, bulk import from Excel / Google Sheet, enrol links, notifications.
 **Payments** — UPI/card/netbanking via Razorpay; automatic payouts to the educator's bank (don't advertise payout speed); coupons; GST invoice for the plan fee. Gateway charges on student payments are separate.
 **Brand and website** — themes (premium themes free for the first 2 months; then per plan), drag-and-drop page builder (up to 100 pages), ready-made landing pages (6 / 12 / 16), blog (up to 300 posts), own domain (bought from any registrar, ~₹600–1,200/yr; connecting is free), lead forms.
-**Apps** — studio builds the educator's own branded Android app (and iOS per plan). Published on the educator's own Play Console / App Store account — by the educator, or by AllCoaching with API access. Google/Apple review it; never promise approval or timelines. New personal Play accounts must run a closed test (12 testers, 14 days) — a Google rule.
+**Apps** — studio builds the educator's own branded Android app (and iOS per plan). Published on the educator's own Play Console / App Store account — always on the educator's own console (no publishing for them with API access). Google/Apple review it; never promise approval or timelines. New personal Play accounts must run a closed test (12 testers, 14 days) — a Google rule.
 **Team** — seats 3 / 5 / 7 (owner + team), separate logins; institutes handle their own teacher pay (no auto-split claim).
 **Marketing tools** — own Meta Pixel and GTM per academy, SEO settings, AI/Google/Bing crawl controls, coupons, lead forms, WhatsApp plugin.
 **Protection** — DRM and watermarking are part of every plan. Don't name specific DRM standards or forensic watermarking.

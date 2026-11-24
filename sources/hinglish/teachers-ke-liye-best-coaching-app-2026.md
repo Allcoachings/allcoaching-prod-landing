@@ -325,7 +325,7 @@ faq:
 <li><strong></strong>Classplus aur Teachmint white-label apps hain. Classplus apne pricing page par ₹29,999 (1 saal) aur ₹39,999 (2 saal) dikhata hai, par GST, sales par fee aur renewal price nahi likhta; Teachmint price publish nahi karta (dono 24 Oct 2026 ko check). Yeh sab likhit me poochhiye.</li>
 <li><strong></strong>Graphy creator platform hai, un creators ke liye jinke paas pehle se audience hai. Uske rupee prices 24 Oct 2026 ko confirm nahi ho paaye, isliye India se graphy.com/pricing check kariye.</li>
 <li><strong>Unacademy Educator aur Big EdTech platforms 'partnership' kehkar absorption karte hain.</strong> Aapke students officially platform ke. Educator terms public page par nahi milte. Agar aap leave karein, students aam taur par platform ke saath rehte hain. Top celebrity educators ke liye reach justify, solo/small institute teachers ke liye structural risk.</li>
-<li><strong></strong>AllCoaching ek LMS hai jo aap khud banate ho: monthly plans ₹3,999, ₹5,999 ya ₹7,999 mahina par 0% commission (100% aapka), ya yearly Starter ₹6,999 + sales par 10%. Apna domain, apna Android app (iOS Pro monthly aur har yearly plan par), aur AllCoaching marketplace app par listing extra channel ki tarah. Aapke students aapke.</li>
+<li><strong></strong>AllCoaching ek LMS hai jo aap khud banate ho: monthly plans ₹3,999, ₹5,999 ya ₹7,999 mahina par 0% commission (100% aapka), ya yearly Starter ₹6,999 + sales par 10%. Apna domain, apna Android app (iOS Growth aur Pro par, pehle mahine ke baad), aur AllCoaching marketplace app par listing extra channel ki tarah. Aapke students aapke.</li>
 <li><strong>Architecture choice lambe samay ka faisla hai.</strong> App badalna lagta hai easy, lekin student base + content + brand + GST history sab platform me embedded hote hain. Pehle din se sahi architecture pe launch karna 3 saal baad ke regret se cheaper hai.</li>
 </ul>
 </div>
@@ -350,7 +350,7 @@ faq:
 <!-- AUTO: grow-cta -->
 <aside class="grow-cta" aria-label="About AllCoaching">
 <p class="gc-label">Hum abhi kahan hain · 2026</p>
-<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Pro monthly ya kisi bhi yearly plan par) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
+<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Growth aur Pro par, pehle mahine ke baad) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
 <div class="gc-row">
 <a class="gc-btn" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">7 din free try karein</a>
 <span class="gc-note">Card nahi chahiye · Har monthly plan par 0% commission, ₹3,999 se · Yearly ₹6,999/saal se</span>
@@ -461,7 +461,7 @@ faq:
 <p class="mt-7">AllCoaching ek self-serve LMS hai jisme educator apni branded academy khud banata hai, saath me AllCoaching marketplace app par listing bhi milti hai. Har educator ka apna branded studio hota hai (website aur app), aur courses AllCoaching marketplace app par bhi list ho sakte hain. Monthly plans (₹3,999, ₹5,999, ₹7,999) par 0% commission; yearly plans par 10%, 7.5% ya 5% fee per sale.</p>
 <p>Iss listicle ka transparent disclosure: AllCoaching iss blog ka publisher hai. Iss section me bias hone ka structural risk hai. Issi liye hum honest aur specific rakhenge — koi adjective marketing ("powerful", "amazing"), no claim without economic logic.</p>
 <p><strong></strong>Kya theek hai: sab kuch khud banate ho, bina sales call — apna domain, apna app, courses, tests, live classes aur UPI checkout. Marketplace listing ek extra discovery channel hai, students ki guarantee nahi. Hindi, English aur Hinglish me padhane ke liye ready. Educator-first ownership — aapke students aapke, data exportable, monthly plans par lock-in nahi.</p>
-<p><strong></strong>Kya limit hai (honest): students laana zyada tar aapka kaam rehta hai; marketplace listing sirf madad karti hai. Monthly Starter aur Growth par iOS app nahi hai (Pro monthly aur har yearly plan par hai). Uploaded video ki storage aur streaming plan ke hisaab se limited hai (YouTube video unlimited). Top celebrity educators ke liye Big EdTech jaisi reach AllCoaching nahi deta.</p>
+<p><strong></strong>Kya limit hai (honest): students laana zyada tar aapka kaam rehta hai; marketplace listing sirf madad karti hai. Starter par iOS app nahi hai (Growth aur Pro par pehle mahine ke baad hai). Uploaded video ki storage aur streaming plan ke hisaab se limited hai (YouTube video unlimited). Top celebrity educators ke liye Big EdTech jaisi reach AllCoaching nahi deta.</p>
 <p><strong></strong>Real ₹ economics (₹10L revenue teacher): AllCoaching Growth monthly pe Year-1 total lagbhag ₹72K hota hai — ₹5,999/mahina (₹71,988 saal ka) aur 0% commission, GST alag (illustrative). No setup fee, apna domain har plan me, aur marketplace listing plan me shamil. Educator ke paas plan fee ke baad lagbhag ₹9.3 lakh rehta hai (gateway charges alag). Yearly Starter par (₹6,999 + 10%) yahi lagbhag ₹8.9 lakh hota; lagbhag ₹4 lakh saalana sales ke upar monthly plan aksar zyada bachata hai.</p>
 <div class="gain-card">
 <p class="gc-l">AllCoaching · Why Structurally Different</p>
@@ -539,7 +539,7 @@ faq:
 <span>Nahi likha</span>
 <span>Branded apps; plan check karein</span>
 <span>Platform ka app</span>
-<span class="cmp-acc">Android har plan; iOS Pro monthly + har yearly</span>
+<span class="cmp-acc">Android har plan; iOS Growth aur Pro, pehle mahine ke baad</span>
 </div>
 <div class="cmp-r5">
 <span>Free trial</span>

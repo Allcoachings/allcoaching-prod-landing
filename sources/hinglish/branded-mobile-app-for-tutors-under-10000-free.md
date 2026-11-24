@@ -13,7 +13,7 @@ tags:
 - format-analysis
 translation_group: tg-branded-app-for-tutors-under-10000-free
 title: Branded Mobile App For Tutors Under ₹10,000 (2026 Guide)
-description: Branded mobile app for tutors under ₹10,000? Published prices, hidden costs to ask about, and AllCoaching yearly Starter at ₹6,999 with Android and iOS app.
+description: Branded mobile app for tutors under ₹10,000? Published prices, hidden costs to ask about, and AllCoaching yearly Starter at ₹6,999 with your own Android app.
 keywords:
 - branded mobile app for tutors under 10000
 - branded coaching app under 10000 rupees
@@ -33,13 +33,13 @@ cover_image_alt: Branded Mobile App For Tutors Under ₹10,000 (2026 Guide)
 published: '2026-05-22'
 modified: '2026-10-30'
 word_count: 2978
-epigraph: ₹10,000 ke under branded app dhundne wale tutor ko poore saal ka kharcha dekhna chahiye, sirf headline price nahi. AllCoaching ka yearly Starter ₹6,999 saal (GST alag) hai, sales par 10% fee ke saath, aur usme apna Android aur iOS app included hai. Sales badhe to monthly plan ₹3,999 mahina se 0% commission par hai.
+epigraph: ₹10,000 ke under branded app dhundne wale tutor ko poore saal ka kharcha dekhna chahiye, sirf headline price nahi. AllCoaching ka yearly Starter ₹6,999 saal (GST alag) hai, sales par 10% fee ke saath, aur usme apna Android app included hai (iOS app Growth aur Pro par, pehle mahine ke baad). Sales badhe to monthly plan ₹3,999 mahina se 0% commission par hai.
 epigraph_attribution: THE OPENING THESIS — A FOUNDER'S NOTE
 schema_extra:
 - '@context': https://schema.org
   '@type': HowTo
   name: How Indian tutors can get a branded mobile app under ₹10,000 a year (2026)
-  description: 'A 5-step check for Indian tutors comparing branded mobile app options: the full Year-1 cost, published prices, and when AllCoaching yearly Starter (₹6,999 a year + 10% per sale, Android and iOS app included) or a 0% commission monthly plan fits.'
+  description: 'A 5-step check for Indian tutors comparing branded mobile app options: the full Year-1 cost, published prices, and when AllCoaching yearly Starter (₹6,999 a year + 10% per sale + GST, Android app included) or a 0% commission monthly plan fits.'
   totalTime: PT45M
   image:
     '@type': ImageObject
@@ -66,7 +66,7 @@ schema_extra:
   - '@type': HowToStep
     position: 5
     name: Plan chuniye aur app publish kariye
-    text: Yearly Starter (₹6,999 + 10%, Android aur iOS app) ya monthly (₹3,999 se, 0% commission) chuniye. App aapke apne Google Play Console aur App Store account par publish hota hai; review Google aur Apple karte hain.
+    text: Yearly Starter (₹6,999 + 10% + GST, Android app) ya monthly (₹3,999 se, 0% commission) chuniye. App aapke apne Google Play Console aur App Store account par publish hota hai; review Google aur Apple karte hain.
   tool:
   - '@type': HowToTool
     name: Smartphone or laptop
@@ -80,7 +80,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: Web, Android, iOS
-  description: A self-serve LMS where Indian tutors build their own branded academy and app. Yearly Starter is ₹6,999 a year + 10% per sale with the own Android and iOS app; monthly plans start at ₹3,999 with 0% commission. Every plan starts with a 7-day free trial, no card needed. Includes courses, tests, live classes (unlimited on YouTube Live or Zoom), UPI and card checkout, DRM and watermarking, and a listing on the AllCoaching marketplace app.
+  description: A self-serve LMS where Indian tutors build their own branded academy and app. Yearly Starter is ₹6,999 a year + 10% per sale (plus GST) with the own Android app; monthly plans start at ₹3,999 with 0% commission. Every plan starts with a 7-day free trial, no card needed. Includes courses, tests, live classes (unlimited on YouTube Live or Zoom), UPI and card checkout, DRM and watermarking, and a listing on the AllCoaching marketplace app.
   url: https://studio.allcoaching.in/
   image: https://allcoaching.in/assets/blog/branded-mobile-app-for-tutors-under-10000-free/cover.webp
   offers:
@@ -169,7 +169,7 @@ schema_extra:
       '@type': Country
       name: India
   featureList:
-  - Own Android app on every plan; iOS app on Pro monthly and every yearly plan, on the educator's own developer accounts
+  - Own Android app on every plan; iOS app on Growth and Pro, after the first month, on the educator's own developer accounts
   - Free .allcoaching.in address and own domain on every plan
   - Unlimited live classes on YouTube Live or Zoom, plus built-in live classroom hours
   - Courses, tests and PDF notes with DRM and watermarking
@@ -210,7 +210,7 @@ schema_extra:
     item:
       '@type': Thing
       name: AllCoaching
-      description: Yearly Starter ₹6,999 a year + 10% per sale with own Android and iOS app; monthly plans from ₹3,999 with 0% commission; GST extra; 7-day free trial.
+      description: Yearly Starter ₹6,999 a year + 10% per sale (plus GST) with own Android app; monthly plans from ₹3,999 with 0% commission; GST extra; 7-day free trial.
 - '@context': https://schema.org
   '@type': DefinedTermSet
   '@id': https://allcoaching.in/blogs/hinglish/branded-mobile-app-for-tutors-under-10000-free#glossary
@@ -219,7 +219,7 @@ schema_extra:
   - '@type': DefinedTerm
     '@id': '#dfn-branded-mobile-app'
     name: Branded Mobile App (Tutor)
-    description: Android ya iOS app jis par tutor ka naam aur logo hota hai, kisi platform ki technology par bana. AllCoaching par Android app har plan me, iOS app Pro monthly aur har yearly plan me, educator ke apne developer account par.
+    description: Android ya iOS app jis par tutor ka naam aur logo hota hai, kisi platform ki technology par bana. AllCoaching par Android app har plan me, iOS app Growth aur Pro me, pehle mahine ke baad, educator ke apne developer account par.
   - '@type': DefinedTerm
     '@id': '#dfn-advertised-vs-real-cost'
     name: Headline Price vs Year-1 Real Cost
@@ -242,11 +242,11 @@ schema_extra:
     description: AllCoaching par plan chalte hue content aur data kabhi bhi export kar sakte ho. Plan band karne par academy paid period ke end me offline hoti hai, aur 30 din tak export ya wapas aane ka mauka hota hai; uske baad uploaded videos delete hote hain.
 faq:
 - q: Kya AllCoaching par sach me ₹10,000 se kam me branded mobile app milta hai?
-  a: Haan. AllCoaching ka yearly Starter ₹6,999/saal (GST alag) hai, aur usme apna Android aur iOS app included hai. Iske saath har sale par 10% fee lagti hai. App aapke apne Google Play Console ($25 ek baar) aur App Store ($99 saal) account par publish hota hai; store review Google aur Apple karte hain. Har plan 7 din ke free trial se shuru hota hai, card nahi chahiye.
+  a: Haan. AllCoaching ka yearly Starter ₹6,999/saal (GST alag) hai, aur usme apna Android app included hai (iOS app Growth aur Pro par, pehle mahine ke baad). Iske saath har sale par 10% fee lagti hai. App aapke apne Google Play Console ($25 ek baar) aur App Store ($99 saal) account par publish hota hai; store review Google aur Apple karte hain. Har plan 7 din ke free trial se shuru hota hai, card nahi chahiye.
 - q: ₹10,000 ke under branded app ka kya matlab hona chahiye?
   a: 'Saal ka fixed fee ₹10,000 se kam, aur uske upar ke kharche saaf likhe hon: sales par fee, GST, renewal price, store accounts aur domain. Signup se pehle har vendor se yeh lines likhit me maangiye aur same sales level par total jodiye.'
 - q: AllCoaching ke monthly aur yearly plans me kya farak hai?
-  a: Monthly plans (Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 mahina) par 0% commission hai — har sale ka 100% aapka; monthly par iOS app sirf Pro me hai. Yearly plans (Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%) ka fixed fee kam hai aur har yearly plan me Android aur iOS app hai. Lagbhag ₹4 lakh saalana sales tak yearly Starter aksar kam padta hai; uske upar monthly plan zyada bachata hai (illustrative, GST se pehle).
+  a: Monthly plans (Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 mahina) par 0% commission hai — har sale ka 100% aapka; iOS app Growth aur Pro me hai, pehle mahine ke baad (Starter me nahi). Yearly plans (Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%) ka fixed fee kam hai aur har yearly plan me Android app, aur Growth aur Pro me iOS app bhi hai. Lagbhag ₹4 lakh saalana sales tak yearly Starter aksar kam padta hai; uske upar monthly plan zyada bachata hai (illustrative, GST se pehle).
 - q: AllCoaching paisa kaise kamata hai? Hidden charges hain?
   a: 'Plan fee se, aur yearly plans par sales fee se. Setup fee nahi hai. Prices GST se pehle hain (18% GST alag), aur payment-gateway charges gateway ki rate par alag lagte hain. Illustrative: ₹10 lakh saalana sales par yearly Starter me ₹6,999 + ₹1,00,000 fee lagti hai, jabki Starter monthly ₹47,988 saal (0% commission) padta hai.'
 - q: Classplus ya Teachmint se AllCoaching kaise alag hai?
@@ -258,7 +258,7 @@ faq:
 - q: Custom domain ke bina shuru kar sakte hain?
   a: Haan. Har plan me free .allcoaching.in address milta hai. Apna domain (jaise yourbrand.in) registrar se lagbhag ₹600–1,200 saal me khareed kar kisi bhi plan me free me connect kar sakte ho.
 - q: Mera app Play Store par alag se list hota hai?
-  a: Haan. Aapka apna Android app aapke Google Play Console account par publish hota hai (aap khud publish karein ya AllCoaching API access ke saath kare), aur iOS app Pro monthly ya kisi bhi yearly plan par App Store par. Saath me aapke courses AllCoaching marketplace app par bhi list ho sakte hain.
+  a: Haan. Aapka apna Android app aapke Google Play Console account par publish hota hai, aur iOS app Growth aur Pro par, pehle mahine ke baad App Store par. Saath me aapke courses AllCoaching marketplace app par bhi list ho sakte hain.
 - q: Classplus ya Teachmint se migrate kaise karoon?
   a: Contract ke aakhri mahino me AllCoaching par trial shuru kariye, ek course upload kariye, aur naye admissions nayi academy par bhejiye. Current students ko batch end tak purane platform par rehne dijiye, records export kariye, aur purana plan renewal par khatam hone dijiye. Renewal ki notice date pehle se note kariye.
 ---
@@ -270,7 +270,7 @@ faq:
 <div class="hband" id="tldr">
 <p><strong>Key Takeaways</strong> — branded mobile app under ₹10,000 ka decision 6 facts me:</p>
 <ul>
-<li><strong>Fixed fee ₹10,000 se kam me branded app mil sakta hai.</strong> AllCoaching ka yearly Starter ₹6,999/saal (GST alag) hai, sales par 10% fee ke saath, aur usme apna Android aur iOS app included hai.</li>
+<li><strong>Fixed fee ₹10,000 se kam me branded app mil sakta hai.</strong> AllCoaching ka yearly Starter ₹6,999/saal (GST alag) hai, sales par 10% fee ke saath, aur usme apna Android app included hai (iOS app Growth aur Pro par, pehle mahine ke baad).</li>
 <li><strong>Headline price poora kharcha nahi batata.</strong> Sales par fee, GST, renewal price, Google Play ($25 ek baar) aur Apple ($99 saal) developer accounts, aur domain (lagbhag ₹600–1,200 saal) bhi jodiye.</li>
 <li><strong>Competitors ke published prices dekhiye.</strong> Classplus ₹29,999 (1 saal) aur ₹39,999 (2 saal) dikhata hai; GST, sales fee aur renewal page par nahi likhe. Teachmint price publish nahi karta (dono 24 Oct 2026 ko check).</li>
 <li><strong>Sales badhe to monthly plan dekhiye.</strong> Monthly plans ₹3,999, ₹5,999 aur ₹7,999 mahina par 0% commission hain; lagbhag ₹4 lakh saalana sales ke upar monthly plan aksar yearly Starter se zyada bachata hai (illustrative, GST se pehle).</li>
@@ -282,7 +282,7 @@ faq:
 <!-- AUTO: grow-cta -->
 <aside class="grow-cta" aria-label="About AllCoaching">
 <p class="gc-label">Hum abhi kahan hain · 2026</p>
-<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Pro monthly ya kisi bhi yearly plan par) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
+<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Growth aur Pro par, pehle mahine ke baad) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
 <div class="gc-row">
 <a class="gc-btn" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">7 din free try karein</a>
 <span class="gc-note">Card nahi chahiye · Har monthly plan par 0% commission, ₹3,999 se · Yearly ₹6,999/saal se</span>
@@ -357,7 +357,7 @@ faq:
 <div class="cmp-r4">
 <span>Apna app</span>
 <span>Android listed; iOS listed nahi</span>
-<span class="cmp-acc">Android har plan; iOS Pro monthly aur har yearly plan</span>
+<span class="cmp-acc">Android har plan; iOS Growth aur Pro, pehle mahine ke baad</span>
 <span>Nahi likha</span>
 </div>
 <div class="cmp-r4">
@@ -397,7 +397,7 @@ faq:
 <ul>
 <li><strong>Students ki guarantee nahi.</strong> Students laana aapka kaam rehta hai.</li>
 <li><strong>Uploaded video limited hai.</strong> Storage aur streaming plan ke hisaab se; bade plan me zyada (Pro yearly me 3 TB + 3 TB, 4K).</li>
-<li><strong>Monthly Starter aur Growth par iOS app nahi.</strong> Monthly par iOS sirf Pro (₹7,999) me hai; har yearly plan me iOS hai.</li>
+<li><strong>Starter par iOS app nahi.</strong> Starter me iOS app nahi hai; Growth aur Pro (monthly ya yearly) me pehle mahine ke baad milta hai.</li>
 <li><strong>Store review Google/Apple ka hai.</strong> Approval ya timeline ki guarantee koi platform nahi de sakta.</li>
 </ul>
 <div class="faq-box">
@@ -487,7 +487,7 @@ faq:
 <div class="verdict mt-16">
 <p class="v-l">Get Started</p>
 <p class="v-h">7 din free me apna branded studio banaiye — no credit card.</p>
-<p class="v-p">studio.allcoaching.in par signup kariye, apna logo aur colors set kariye, ek course upload kariye aur apne students ko dikhaiye. Trial ke baad plan chuniye: yearly Starter ₹6,999/saal + 10% (Android aur iOS app ke saath), ya monthly ₹3,999 se 0% commission.</p>
+<p class="v-p">studio.allcoaching.in par signup kariye, apna logo aur colors set kariye, ek course upload kariye aur apne students ko dikhaiye. Trial ke baad plan chuniye: yearly Starter ₹6,999/saal + 10% + GST (Android app ke saath), ya monthly ₹3,999 se 0% commission.</p>
 <div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
 <a class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline" href="https://studio.allcoaching.in/" onmouseout="this.style.transform='translateY(0)';" onmouseover="this.style.transform='translateY(-2px)';" rel="noopener" style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#8FA0FF 0%,#5B6CFF 35%,#2B44FF 70%,#2338E8 100%); color:#FFFFFF; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(20,30,110,.18),0 12px 28px -8px rgba(43,68,255,.55),0 24px 60px -16px rgba(43,68,255,.45); transition:transform .18s ease, box-shadow .18s ease;" target="_blank">
 <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -517,7 +517,7 @@ faq:
 <div class="def">
 <p class="def-l">Term</p>
 <h3><dfn id="dfn-branded-mobile-app">Branded Mobile App (Tutor)</dfn></h3>
-<p>Android ya iOS app jis par tutor ka naam aur logo hota hai, kisi platform ki technology par bana. AllCoaching par Android app har plan me, iOS app Pro monthly aur har yearly plan me, educator ke apne developer account par.</p>
+<p>Android ya iOS app jis par tutor ka naam aur logo hota hai, kisi platform ki technology par bana. AllCoaching par Android app har plan me, iOS app Growth aur Pro me, pehle mahine ke baad, educator ke apne developer account par.</p>
 </div>
 <div class="def">
 <p class="def-l">Term</p>
@@ -609,7 +609,7 @@ faq:
 
         <details>
           <summary>Kya AllCoaching par sach me ₹10,000 se kam me branded mobile app milta hai?</summary>
-          <p>Haan. AllCoaching ka yearly Starter ₹6,999/saal (GST alag) hai, aur usme apna Android aur iOS app included hai. Iske saath har sale par 10% fee lagti hai. App aapke apne Google Play Console ($25 ek baar) aur App Store ($99 saal) account par publish hota hai; store review Google aur Apple karte hain. Har plan 7 din ke free trial se shuru hota hai, card nahi chahiye.</p>
+          <p>Haan. AllCoaching ka yearly Starter ₹6,999/saal (GST alag) hai, aur usme apna Android app included hai (iOS app Growth aur Pro par, pehle mahine ke baad). Iske saath har sale par 10% fee lagti hai. App aapke apne Google Play Console ($25 ek baar) aur App Store ($99 saal) account par publish hota hai; store review Google aur Apple karte hain. Har plan 7 din ke free trial se shuru hota hai, card nahi chahiye.</p>
         </details>
 
         <details>
@@ -619,7 +619,7 @@ faq:
 
         <details>
           <summary>AllCoaching ke monthly aur yearly plans me kya farak hai?</summary>
-          <p>Monthly plans (Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 mahina) par 0% commission hai — har sale ka 100% aapka; monthly par iOS app sirf Pro me hai. Yearly plans (Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%) ka fixed fee kam hai aur har yearly plan me Android aur iOS app hai. Lagbhag ₹4 lakh saalana sales tak yearly Starter aksar kam padta hai; uske upar monthly plan zyada bachata hai (illustrative, GST se pehle).</p>
+          <p>Monthly plans (Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 mahina) par 0% commission hai — har sale ka 100% aapka; iOS app Growth aur Pro me hai, pehle mahine ke baad (Starter me nahi). Yearly plans (Starter ₹6,999 + 10%, Growth ₹12,999 + 7.5%, Pro ₹24,999 + 5%) ka fixed fee kam hai aur har yearly plan me Android app, aur Growth aur Pro me iOS app bhi hai. Lagbhag ₹4 lakh saalana sales tak yearly Starter aksar kam padta hai; uske upar monthly plan zyada bachata hai (illustrative, GST se pehle).</p>
         </details>
 
         <details>
@@ -649,7 +649,7 @@ faq:
 
         <details>
           <summary>Mera app Play Store par alag se list hota hai?</summary>
-          <p>Haan. Aapka apna Android app aapke Google Play Console account par publish hota hai (aap khud publish karein ya AllCoaching API access ke saath kare), aur iOS app Pro monthly ya kisi bhi yearly plan par App Store par. Saath me aapke courses AllCoaching marketplace app par bhi list ho sakte hain.</p>
+          <p>Haan. Aapka apna Android app aapke Google Play Console account par publish hota hai, aur iOS app Growth aur Pro par, pehle mahine ke baad App Store par. Saath me aapke courses AllCoaching marketplace app par bhi list ho sakte hain.</p>
         </details>
 
         <details>

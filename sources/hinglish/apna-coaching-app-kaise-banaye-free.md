@@ -267,7 +267,7 @@ faq:
 - q: Apne coaching app ke liye custom domain (jaise rakeshsir.in) kaise milega?
   a: Har plan par aapko free .allcoaching.in address milta hai — production-ready aur shareable. Apna domain (rakeshsir.in) aap kisi registrar se khareedte hain (lagbhag ₹600–1,200 saal) aur har plan me free me connect hota hai, SSL ke saath. Kuch educators pehle free address par launch karte hain aur baad me apna domain connect karte hain — custom domain tab zyada matter karta hai jab brand recall important ho jaata hai.
 - q: Kya AllCoaching ka coaching app Play Store aur App Store par list hota hai?
-  a: AllCoaching ki single Student App Play Store par live hai (org.student.allcoaching) — saare educators ke courses iss app ke andar accessible hain. Iske alawa har plan me aapka apna white-label Android app milta hai, jo aapke apne Google Play Console account par publish hota hai (iOS app monthly Pro aur har yearly plan par). Saath me aapka branded studio URL (web + mobile responsive) aur AllCoaching ke shared student app par aapka full storefront bhi list hota hai.
+  a: AllCoaching ki single Student App Play Store par live hai (org.student.allcoaching) — saare educators ke courses iss app ke andar accessible hain. Iske alawa har plan me aapka apna white-label Android app milta hai, jo aapke apne Google Play Console account par publish hota hai (iOS app Growth aur Pro par, pehle mahine ke baad). Saath me aapka branded studio URL (web + mobile responsive) aur AllCoaching ke shared student app par aapka full storefront bhi list hota hai.
 - q: Free coaching app par main apni branding (logo, colors, name) kar sakta hu?
   a: Haan — har plan par educator studio fully white-labeled hai. Aap apna logo upload kar sakte hain, brand colors set kar sakte hain, apna naam aur tagline rakh sakte hain. Student-facing experience me aapka brand prominent dikhta hai. Apna domain har plan me connect kar sakte hain.
 - q: Kya AllCoaching pe automatic payouts hote hain ya monthly?
@@ -312,7 +312,7 @@ faq:
 <!-- AUTO: grow-cta -->
 <aside class="grow-cta" aria-label="About AllCoaching">
 <p class="gc-label">Hum abhi kahan hain · 2026</p>
-<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Pro monthly ya kisi bhi yearly plan par) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
+<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Growth aur Pro par, pehle mahine ke baad) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
 <div class="gc-row">
 <a class="gc-btn" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">7 din free try karein</a>
 <span class="gc-note">Card nahi chahiye · Har monthly plan par 0% commission, ₹3,999 se · Yearly ₹6,999/saal se</span>
@@ -849,7 +849,7 @@ faq:
 </details>
 <details>
 <summary>Kya AllCoaching ka coaching app Play Store aur App Store par list hota hai?</summary>
-<p>AllCoaching ki single Student App Play Store par live hai (org.student.allcoaching) — saare educators ke courses iss app ke andar accessible hain. Iske alawa har plan me aapka apna white-label Android app milta hai, jo aapke apne Google Play Console account par publish hota hai (iOS app monthly Pro aur har yearly plan par). <strong>Saath me aapka branded studio URL (web + mobile responsive)</strong> aur AllCoaching ke shared student app par aapka full storefront bhi list hota hai.</p>
+<p>AllCoaching ki single Student App Play Store par live hai (org.student.allcoaching) — saare educators ke courses iss app ke andar accessible hain. Iske alawa har plan me aapka apna white-label Android app milta hai, jo aapke apne Google Play Console account par publish hota hai (iOS app Growth aur Pro par, pehle mahine ke baad). <strong>Saath me aapka branded studio URL (web + mobile responsive)</strong> aur AllCoaching ke shared student app par aapka full storefront bhi list hota hai.</p>
 </details>
 <details>
 <summary>Free coaching app par main apni branding (logo, colors, name) kar sakta hu?</summary>

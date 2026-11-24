@@ -188,7 +188,7 @@ schema_extra:
   - Unlimited live classes on YouTube Live or Zoom, plus built-in live classroom hours
   - Automatic payouts (100% on monthly plans, 90% on yearly Starter; gateway charges separate)
   - Listing on the AllCoaching marketplace app
-  - Own Android app on every plan; iOS on Pro monthly and every yearly plan
+  - Own Android app on every plan; iOS on Growth and Pro, after the first month
   provider:
     '@id': https://allcoaching.in/#organization
   audience:
@@ -274,7 +274,7 @@ faq:
 <!-- AUTO: grow-cta -->
 <aside class="grow-cta" aria-label="About AllCoaching">
 <p class="gc-label">Hum abhi kahan hain · 2026</p>
-<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Pro monthly ya kisi bhi yearly plan par) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
+<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Growth aur Pro par, pehle mahine ke baad) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
 <div class="gc-row">
 <a class="gc-btn" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">7 din free try karein</a>
 <span class="gc-note">Card nahi chahiye · Har monthly plan par 0% commission, ₹3,999 se · Yearly ₹6,999/saal se</span>
@@ -345,7 +345,7 @@ faq:
 <div class="cmp-r4"><span>Platform kharcha</span><span>₹0</span><span>₹0</span><span class="cmp-acc">7 din free trial, phir ₹6,999/saal + 10% ya ₹3,999/mahina (0%)</span></div>
 <div class="cmp-r4"><span>Payment aur access</span><span>Manual (UPI screenshot)</span><span>Manual</span><span class="cmp-acc">Automatic checkout aur access</span></div>
 <div class="cmp-r4"><span>Content protection</span><span>Links forward ho sakte hain</span><span>Files forward ho sakti hain</span><span class="cmp-acc">Login-based access, DRM aur watermark</span></div>
-<div class="cmp-r4"><span>Apna brand</span><span>Channel ka naam</span><span>Group ka naam</span><span class="cmp-acc">Apni website aur Android app (iOS Pro monthly ya yearly)</span></div>
+<div class="cmp-r4"><span>Apna brand</span><span>Channel ka naam</span><span>Group ka naam</span><span class="cmp-acc">Apni website aur Android app (iOS Growth aur Pro par)</span></div>
 <div class="cmp-r4"><span>Naye students</span><span>YouTube search aur recommendations</span><span>Aapke contacts</span><span class="cmp-acc">Aapke channels + marketplace listing (extra)</span></div>
 </div>
 </div>

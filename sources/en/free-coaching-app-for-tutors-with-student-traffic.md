@@ -173,7 +173,7 @@ schema_extra:
       name: India
   featureList:
   - 7-day free trial, no card needed
-  - Own website and Android app on every plan; iOS on Pro monthly and every yearly plan
+  - Own website and Android app on every plan; iOS on Growth and Pro, after the first month
   - Listing on the AllCoaching marketplace app
   - Unlimited live classes on YouTube Live or Zoom
   - UPI and card checkout with automatic payouts
@@ -229,7 +229,7 @@ faq:
 - q: How long until my first paid student?
   a: It depends on your niche and audience. Tutors who already have students or followers can sell soon after launch; without an audience it can take weeks or months.
 - q: Do I need my own app?
-  a: Not on day one; a website with UPI checkout is enough to start. Every AllCoaching plan includes your own Android app on your Google Play Console account, and the iOS app comes with Pro monthly or any yearly plan.
+  a: Not on day one; a website with UPI checkout is enough to start. Every AllCoaching plan includes your own Android app on your Google Play Console account, and the iOS app comes with Growth and Pro, after the first month.
 - q: What happens to my data if I stop?
   a: You can export your content and data any time while your plan runs. If you stop, the academy goes offline at the end of the paid period and you have 30 days to export or come back; after that, uploaded videos are deleted.
 - q: Which plan should a new tutor choose?
@@ -248,14 +248,14 @@ faq:
 <li><strong>Student traffic mostly comes from you:</strong> YouTube, Instagram, WhatsApp, Google search and your offline batch. No platform can guarantee students.</li>
 <li><strong>A marketplace listing is an extra door.</strong> Every AllCoaching plan includes a listing on the AllCoaching marketplace app, where students can search by subject, exam and language.</li>
 <li><strong>A specific niche</strong> (subject + exam + language) helps both search and marketplace discovery.</li>
-<li><strong>Your academy stays yours:</strong> own domain, own Android app (iOS on Pro monthly or any yearly plan), and student data you can export while your plan runs and for 30 days after you stop.</li>
+<li><strong>Your academy stays yours:</strong> own domain, own Android app (iOS on Growth and Pro, after the first month), and student data you can export while your plan runs and for 30 days after you stop.</li>
 </ul>
 </div>
 
 <!-- AUTO: grow-cta -->
 <aside class="grow-cta" aria-label="About AllCoaching">
 <p class="gc-label">Where we are · 2026</p>
-<p><strong>AllCoaching is an LMS you build yourself</strong> — drag and drop your courses, tests, notes and live classes, then make it your brand with your own domain, logo and Android app (iOS app on Pro monthly and every yearly plan). 500+ educators across India already sell through it. Every plan starts with a 7-day free trial, and the price is on the page before you sign up.</p>
+<p><strong>AllCoaching is an LMS you build yourself</strong> — drag and drop your courses, tests, notes and live classes, then make it your brand with your own domain, logo and Android app (iOS app on Growth and Pro, after the first month). 500+ educators across India already sell through it. Every plan starts with a 7-day free trial, and the price is on the page before you sign up.</p>
 <div class="gc-row">
 <a class="gc-btn" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">Start your 7-day free trial</a>
 <span class="gc-note">No card needed · 0% commission on every monthly plan, from ₹3,999 · Yearly from ₹6,999</span>
@@ -305,7 +305,7 @@ faq:
 <div class="cmp-h4"><span></span><span>Free tools</span><span>Free plan elsewhere</span><span style="color:#5B6CFF; font-weight:700;">★ AllCoaching</span></div>
 <div class="cmp-r4"><span>Cost</span><span>₹0</span><span>Check limits and fee per sale</span><span class="cmp-acc">7-day free trial, then ₹3,999/mo (0%) or ₹6,999/yr + 10%</span></div>
 <div class="cmp-r4"><span>Payments and access</span><span>Manual</span><span>Varies</span><span class="cmp-acc">Automatic checkout, access and payouts</span></div>
-<div class="cmp-r4"><span>Own brand</span><span>Channel or group name</span><span>Often the platform's</span><span class="cmp-acc">Own domain and Android app; iOS on Pro monthly or yearly</span></div>
+<div class="cmp-r4"><span>Own brand</span><span>Channel or group name</span><span>Often the platform's</span><span class="cmp-acc">Own domain and Android app; iOS on Growth and Pro</span></div>
 <div class="cmp-r4"><span>Where students come from</span><span>Your channels</span><span>Your channels</span><span class="cmp-acc">Your channels + marketplace listing</span></div>
 </div></div>
 <p class="mt-7">Some platforms advertise a free plan; read the limits and the fee taken on each sale before you build on it. AllCoaching has no free plan: the trial is for building and testing, and the plan starts after it.</p>
@@ -528,7 +528,7 @@ faq:
 
         <details>
           <summary>Do I need my own app?</summary>
-          <p>Not on day one; a website with UPI checkout is enough to start. Every AllCoaching plan includes your own Android app on your Google Play Console account, and the iOS app comes with Pro monthly or any yearly plan.</p>
+          <p>Not on day one; a website with UPI checkout is enough to start. Every AllCoaching plan includes your own Android app on your Google Play Console account, and the iOS app comes with Growth and Pro, after the first month.</p>
         </details>
 
         <details>

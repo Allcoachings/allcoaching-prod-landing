@@ -16,9 +16,9 @@
     { key: 'starter', label: 'Starter', price: '₹3,999', per: '/month + GST', keep: 100,
       pts: ['<span><b>0% commission</b> · keep 100% of every sale</span>', '512 GB video storage · 512 GB streaming a month', '20 hours a month of built-in live classroom', '3 team seats · any 6 landing pages · any 2 premium themes', 'Your own Android app'], yr: '₹6,999 a year + 10% per sale' },
     { key: 'growth', label: 'Growth', price: '₹5,999', per: '/month + GST', keep: 100,
-      pts: ['<span><b>0% commission</b> · keep 100% of every sale</span>', '1 TB video storage · 1 TB streaming a month', '50 hours a month of built-in live classroom', '5 team seats · any 12 landing pages · any 5 premium themes', 'Your own Android app'], yr: '₹12,999 a year + 7.5% per sale' },
+      pts: ['<span><b>0% commission</b> · keep 100% of every sale</span>', '1 TB video storage · 1 TB streaming a month', '50 hours a month of built-in live classroom', '5 team seats · any 12 landing pages · any 5 premium themes', 'Your own Android &amp; iOS app (iOS after month 1)'], yr: '₹12,999 a year + 7.5% per sale' },
     { key: 'pro', label: 'Pro', price: '₹7,999', per: '/month + GST', keep: 100,
-      pts: ['<span><b>0% commission</b> · keep 100% of every sale</span>', '2 TB video storage · 2 TB streaming a month · 4K', '90 hours a month of built-in live classroom', '7 team seats · all 16 landing pages · all premium themes', 'Your own Android &amp; iOS app'], yr: '₹24,999 a year + 5% per sale (3 TB, premium theme)' }
+      pts: ['<span><b>0% commission</b> · keep 100% of every sale</span>', '2 TB video storage · 2 TB streaming a month · 4K', '90 hours a month of built-in live classroom', '7 team seats · all 16 landing pages · all premium themes', 'Your own Android &amp; iOS app (iOS after month 1)'], yr: '₹24,999 a year + 5% per sale (3 TB, premium theme)' }
   ];
   // On every plan.
   var ALL = ['Unlimited YouTube video &amp; live classes on YouTube Live or Zoom', 'Own domain, Zoom, Razorpay, Pixel &amp; GTM', 'No setup fee · no sales limit'];
@@ -31,7 +31,7 @@
       '<div class="pp"><b>' + p.price + '</b><span>' + p.per + '</span></div>' +
       '<ul>' + pts.map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</ul>' +
       '<a class="btn' + (featured ? '' : ' ghost') + '" href="https://studio.allcoaching.in/" data-checkout data-plan="' + p.key + '_m" data-ev="ob_cta_click" data-where="plan-' + p.key + '-monthly">Start free with ' + p.label + '</a>' +
-      '<p class="yr" style="margin:10px 0 0;font-size:13px;line-height:1.5;text-align:center">Or pay yearly: <a href="https://studio.allcoaching.in/" data-checkout data-plan="' + p.key + '" data-ev="ob_cta_click" data-where="plan-' + p.key + '-yearly" style="color:inherit;text-decoration:underline">' + p.yr + '</a>, with your own Android &amp; iOS app</p></div>';
+      '<p class="yr" style="margin:10px 0 0;font-size:13px;line-height:1.5;text-align:center">Or pay yearly: <a href="https://studio.allcoaching.in/" data-checkout data-plan="' + p.key + '" data-ev="ob_cta_click" data-where="plan-' + p.key + '-yearly" style="color:inherit;text-decoration:underline">' + p.yr + '</a>, with your own Android app (iOS on Growth and Pro after month 1)</p></div>';
   }
   function render() {
     document.querySelectorAll('[data-from]').forEach(function (el) { el.textContent = '₹3,999'; });
