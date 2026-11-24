@@ -18,7 +18,7 @@ Two ways to pay, same three plans. 7-day free trial on every plan, **no card nee
 | Ready-made landing pages | any 6 | any 12 | all 16 |
 | Premium themes | any 2 | any 5 | all |
 | Own Android app | yes | yes | yes |
-| Own iOS app | no | **yes, after month 1** | **yes, after month 1** |
+| Own iOS app | no | **yes, after 30 days** | **yes, after 30 days** |
 
 ### Yearly — lower fixed fee, small fee per sale
 | | Starter | Growth (Most popular) | Pro (Best value · Recommended) |
@@ -32,7 +32,7 @@ Two ways to pay, same three plans. 7-day free trial on every plan, **no card nee
 | Ready-made landing pages | any 6 | any 12 | all 16 |
 | Premium themes | — | — | one included (₹10,000 value) |
 | Own Android app | yes | yes | yes |
-| Own iOS app | no | **yes, after month 1** | **yes, after month 1** |
+| Own iOS app | no | **yes, after 30 days** | **yes, after 30 days** |
 
 ### Every plan (both billings)
 Unlimited YouTube video (branded player) · unlimited live classes on YouTube Live or Zoom (built-in classroom hours above are separate) · unlimited courses, tests and students · watermarking, DRM and piracy protection · marketplace listing (extra channel, no ad spend) · free `.allcoaching.in` address · own domain · drag-and-drop page builder (up to 100 pages) · blog (up to 300 posts) · premium themes free for the first 2 months · plugins: YouTube, Zoom, WhatsApp, Google Analytics, Meta Pixel, Tag Manager, Play Console, App Store Connect · coupons and lead forms · automatic payouts to the educator's bank.
@@ -78,7 +78,7 @@ Plans differ in storage, live hours, seats and iOS, so recommend by **needs firs
 
 ## Competitor framing (pricing pages checked 2026-10-24 — re-check before reuse; cite source + date)
 - Own branded Android app at 0%: **Learnyst Premium ₹14,999/month**, **Edmingle Prime ₹17,999/month billed monthly** → AllCoaching **Starter monthly ₹3,999** (own Android app, 0%).
-- Own iOS app: **Learnyst Business ₹49,999/month**, **Edmingle Power ₹34,999/month billed monthly** → AllCoaching **Growth monthly ₹5,999** or Pro, iOS after the first month (yearly: Growth ₹12,999 or Pro).
+- Own iOS app: **Learnyst Business ₹49,999/month**, **Edmingle Power ₹34,999/month billed monthly** → AllCoaching **Growth monthly ₹5,999** or Pro, iOS after 30 days (yearly: Growth ₹12,999 or Pro).
 - Classplus: ₹29,999 for 1 year, ₹39,999 for 2 years (classplusapp.com/new-web, checked 2026-10-17; GST, sales fee, renewal, trial not stated).
 - Show the rival's transaction fee next to its fixed price; never round up; never say "cheapest". Full table: `10-competitors.md`.
 

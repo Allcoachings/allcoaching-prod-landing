@@ -33,7 +33,7 @@ Reference implementation (read it before writing a new post):
 - **Tagline in graphics and lockups:** "The academy platform for educators".
 - **The automated path (repeat it, in this order):** sign up → choose a plan → upload your course → connect your domain → start selling. Payments, student access, apps and hosting run on their own.
 - **Headline lines that are approved:** "Build your own LMS. In just a few clicks." · "One login. Your whole academy." · "Your knowledge deserves its own academy." · "Your domain. Your brand. Your students." · "Focus on teaching. We handle the tech." · "Your LMS shouldn't feel like a tech project."
-- **What the educator owns:** academy website on their own domain, their own white-label Android app (iOS on Growth and Pro, after the first month), their brand (logo, colours, theme), their student data (exportable).
+- **What the educator owns:** academy website on their own domain, their own white-label Android app (iOS on Growth and Pro, after 30 days), their brand (logo, colours, theme), their student data (exportable).
 - **What runs underneath:** courses (video, PDF, tests), unlimited live classes (YouTube Live, Zoom, built-in room), UPI/card checkout with automatic Razorpay payouts, Meta Pixel + Google Tag Manager, plugins.
 - **Marketplace = supporting discovery**, never the headline: "your courses can also be discovered on the AllCoaching app".
 - **The enemy is complexity, not competitors:** WordPress + 9 plugins, WhatsApp + Drive + Zoom + Excel, agency-built apps you cannot change. Show the stitched-together mess, then one login.

@@ -103,3 +103,6 @@ Legal entity **AllCoaching Technology** (not "Pvt. Ltd."). Founded 2018, Prayagr
 - Payment-gateway charges are separate; settlement follows Razorpay, usually T+2 days, instant settlement available (supersedes the 2026-10-17 'no payout-speed copy' rule for this exact wording).
 - Storage can be extended on any plan.
 - Apps are published only on the educator's own Play Console / App Store Connect; the 'we publish with API access' option is retired.
+
+### 2026-11-24 (later) — iOS wording: "after 30 days"
+Owner: the iOS app (Growth and Pro, monthly or yearly) is made available **after 30 days** on the plan. All surfaces now say "after 30 days" (Hinglish "30 din ke baad") instead of "after the first month". The educator provides their own Google Play Console and App Store Connect account. Studio plan picker also shows "DRM protected" and "Extendable storage" badges and "+ GST" next to every price.

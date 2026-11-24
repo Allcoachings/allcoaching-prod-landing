@@ -32,7 +32,7 @@ Used in ads, social, WhatsApp and `blogs/hinglish/`. Roman script, natural mix (
 |---|---|
 | Own domain | "Your own domain on every plan (connecting is free)" |
 | Own Android app | "Your own Android app on every plan, published on your own Play Store account" |
-| iOS app | "Own iOS app on Growth and Pro, after the first month" |
+| iOS app | "Own iOS app on Growth and Pro, after 30 days" |
 | Trial | "7-day free trial, no card needed to start" |
 | Commission | "0% commission on every monthly plan" / "keep 90–100% of every sale" |
 | No sales limit | "No sales limit on any plan" |

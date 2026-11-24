@@ -73,7 +73,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: ExamCoachingPlatform
   operatingSystem: Web, Android, iOS
-  description: 'AllCoaching is a self-serve LMS where Indian educators build their own branded academy: website on their own domain, own Android app (iOS on Growth and Pro, after the first month), courses, tests, notes, live classes, UPI checkout and a listing on the AllCoaching marketplace app. 7-day free trial, then monthly plans from ₹3,999 at 0% commission or yearly from ₹6,999 + 10% per sale (GST extra).'
+  description: 'AllCoaching is a self-serve LMS where Indian educators build their own branded academy: website on their own domain, own Android app (iOS on Growth and Pro, after 30 days), courses, tests, notes, live classes, UPI checkout and a listing on the AllCoaching marketplace app. 7-day free trial, then monthly plans from ₹3,999 at 0% commission or yearly from ₹6,999 + 10% per sale (GST extra).'
   url: https://studio.allcoaching.in/
   image: https://allcoaching.in/assets/blog/how-to-start-online-upsc-coaching-from-home/cover.webp
   offers:
@@ -162,7 +162,7 @@ schema_extra:
       '@type': Country
       name: India
   featureList:
-  - Own website and Android app on every plan; iOS on Growth and Pro, after the first month
+  - Own website and Android app on every plan; iOS on Growth and Pro, after 30 days
   - Courses, tests, PDF notes, DRM and watermarking
   - Unlimited live classes on YouTube Live or Zoom, plus built-in live classroom hours
   - 'Plugins: YouTube, Zoom, WhatsApp, Google Analytics, Meta Pixel, Tag Manager'
@@ -242,7 +242,7 @@ faq:
 <!-- AUTO: grow-cta -->
 <aside class="grow-cta" aria-label="About AllCoaching">
 <p class="gc-label">Hum abhi kahan hain · 2026</p>
-<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Growth aur Pro par, pehle mahine ke baad) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
+<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Growth aur Pro par, 30 din ke baad) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
 <div class="gc-row">
 <a class="gc-btn" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">7 din free try karein</a>
 <span class="gc-note">Card nahi chahiye · Har monthly plan par 0% commission, ₹3,999 se · Yearly ₹6,999/saal se</span>
@@ -277,7 +277,7 @@ faq:
 <section class="py-14 md:py-16 border-b border-[#E6E8F0]" id="ch4">
 <p class="kicker">Section 04</p>
 <h2 class="h-chap font-display mt-3">Tools jo har<br/><em>UPSC mentor ko chahiye.</em></h2>
-<ul class="mt-7"><li>PDF notes aur study material (DRM aur watermarking ke saath).</li><li>Mock tests aur sectional tests.</li><li>Live classes — YouTube Live ya Zoom par, ya built-in live classroom.</li><li>Answer-writing feedback ka ek tareeka (jaise copies upload karwa kar check karna).</li><li>UPI checkout aur paid access, taaki sirf paying aspirants content dekhein.</li><li>Apni website aur app, apne naam se.</li></ul><p>AllCoaching par courses, tests, notes, live classes, checkout, apni website aur Android app har plan me hain; iOS app Growth aur Pro me, pehle mahine ke baad.</p>
+<ul class="mt-7"><li>PDF notes aur study material (DRM aur watermarking ke saath).</li><li>Mock tests aur sectional tests.</li><li>Live classes — YouTube Live ya Zoom par, ya built-in live classroom.</li><li>Answer-writing feedback ka ek tareeka (jaise copies upload karwa kar check karna).</li><li>UPI checkout aur paid access, taaki sirf paying aspirants content dekhein.</li><li>Apni website aur app, apne naam se.</li></ul><p>AllCoaching par courses, tests, notes, live classes, checkout, apni website aur Android app har plan me hain; iOS app Growth aur Pro me, 30 din ke baad.</p>
 </section>
 <div class="orn">· · ·</div>
 

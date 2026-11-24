@@ -7,7 +7,7 @@ What AllCoaching actually is, screen by screen. Use it for feature copy, product
 |---|---|---|---|
 | **Studio** | studio.allcoaching.in | Educator and their team | Where the academy is built and run. Separate codebase (React/Vite); developer **Sumit**. Login `studio.allcoaching.in/login`. |
 | **Academy website + student web app** | `<handle>.allcoaching.in` free, or the educator's own domain (e.g. biolessons.in, chempsi.com, digitekm.com); served by learn.allcoaching.in | Students | Branded with the educator's logo, colours, theme. Course pages, checkout, student login, video player, tests, live. |
-| **Educator's own apps** | Google Play / App Store under the educator's own developer account | Students | Own white-label Android app on every plan; iOS on Growth and Pro, after the first month. |
+| **Educator's own apps** | Google Play / App Store under the educator's own developer account | Students | Own white-label Android app on every plan; iOS on Growth and Pro, after 30 days. |
 | **AllCoaching marketplace app** | Android `org.student.allcoaching` · iOS id6758305866 · learn.allcoaching.in | Students discovering educators | Educators' courses are listed as an extra discovery channel. Never promise students or sales from it. |
 
 ## Studio map (live bundle, Oct 2026)

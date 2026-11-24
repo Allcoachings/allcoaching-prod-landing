@@ -188,7 +188,7 @@ schema_extra:
   - Unlimited live classes on YouTube Live or Zoom, plus built-in live classroom hours
   - Automatic payouts (100% on monthly plans, 90% on yearly Starter; gateway charges separate)
   - Listing on the AllCoaching marketplace app
-  - Own Android app on every plan; iOS on Growth and Pro, after the first month
+  - Own Android app on every plan; iOS on Growth and Pro, after 30 days
   provider:
     '@id': https://allcoaching.in/#organization
   audience:
@@ -274,7 +274,7 @@ faq:
 <!-- AUTO: grow-cta -->
 <aside class="grow-cta" aria-label="About AllCoaching">
 <p class="gc-label">Hum abhi kahan hain · 2026</p>
-<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Growth aur Pro par, pehle mahine ke baad) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
+<p><strong>AllCoaching ek LMS hai jo aap khud banate hain</strong> — courses, tests, notes aur live classes drag-and-drop karein, phir apne domain, logo aur Android app (iOS app Growth aur Pro par, 30 din ke baad) ke saath ise apna brand banayein. India bhar me 500+ educators already isse courses bech rahe hain. Har plan 7 din ke free trial se shuru hota hai, aur price signup se pehle page par likha hai.</p>
 <div class="gc-row">
 <a class="gc-btn" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">7 din free try karein</a>
 <span class="gc-note">Card nahi chahiye · Har monthly plan par 0% commission, ₹3,999 se · Yearly ₹6,999/saal se</span>

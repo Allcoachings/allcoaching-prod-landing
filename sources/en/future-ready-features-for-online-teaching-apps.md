@@ -83,7 +83,7 @@ schema_extra:
   applicationCategory: BusinessApplication
   applicationSubCategory: EducatorMarketplace
   operatingSystem: Web, Android, iOS
-  description: 'AllCoaching is a self-serve LMS where Indian educators build their own branded academy: website on their own domain, own Android app (iOS on Growth and Pro, after the first month), courses, tests, notes, live classes, UPI checkout and a listing on the AllCoaching marketplace app. 7-day free trial, then monthly plans from ₹3,999 at 0% commission or yearly from ₹6,999 + 10% per sale (GST extra).'
+  description: 'AllCoaching is a self-serve LMS where Indian educators build their own branded academy: website on their own domain, own Android app (iOS on Growth and Pro, after 30 days), courses, tests, notes, live classes, UPI checkout and a listing on the AllCoaching marketplace app. 7-day free trial, then monthly plans from ₹3,999 at 0% commission or yearly from ₹6,999 + 10% per sale (GST extra).'
   url: https://studio.allcoaching.in/
   image: https://allcoaching-store.b-cdn.net/blog-images/future-ready-features-for-online-teaching-apps.webp
   offers:
@@ -172,7 +172,7 @@ schema_extra:
       '@type': Country
       name: India
   featureList:
-  - Own website and Android app on every plan; iOS on Growth and Pro, after the first month
+  - Own website and Android app on every plan; iOS on Growth and Pro, after 30 days
   - Courses, tests, PDF notes, DRM and watermarking
   - Unlimited live classes on YouTube Live or Zoom, plus built-in live classroom hours
   - 'Plugins: YouTube, Zoom, WhatsApp, Google Analytics, Meta Pixel, Tag Manager'
@@ -275,7 +275,7 @@ faq:
 - q: Which features matter most for Indian educators?
   a: Your own website and app, UPI checkout with automatic access, live classes, tests, content protection, Hindi or regional language support and data export are mature and matter most. AI drafting tools and predictive analytics are earlier and vary by vendor.
 - q: What does AllCoaching offer today?
-  a: Your own website and domain, your own Android app (iOS on Growth and Pro, after the first month), unlimited courses, tests and students, live classes on YouTube Live or Zoom plus a built-in live classroom with monthly hours, DRM and watermarking, plugins such as WhatsApp, Google Analytics, Meta Pixel and Tag Manager, UPI and card checkout with automatic payouts, and a listing on the AllCoaching marketplace app.
+  a: Your own website and domain, your own Android app (iOS on Growth and Pro, after 30 days), unlimited courses, tests and students, live classes on YouTube Live or Zoom plus a built-in live classroom with monthly hours, DRM and watermarking, plugins such as WhatsApp, Google Analytics, Meta Pixel and Tag Manager, UPI and card checkout with automatic payouts, and a listing on the AllCoaching marketplace app.
 - q: How much does AllCoaching cost?
   a: Every plan starts with a 7-day free trial, no card needed. Then monthly plans are ₹3,999, ₹5,999 or ₹7,999 at 0% commission, or yearly plans are ₹6,999 + 10%, ₹12,999 + 7.5% or ₹24,999 + 5% per sale. Prices exclude GST; there is no setup fee.
 - q: Does a marketplace listing guarantee students?
@@ -296,7 +296,7 @@ faq:
 <li><strong>Future-ready means ownership and fit:</strong> your own brand, domain, app and exportable data, on the phones your students use.</li>
 <li><strong>Twelve features are worth checking</strong> — from your own app and payments to AI tools and analytics — but they are not equally mature.</li>
 <li><strong>Ask every vendor to show, not tell:</strong> run one course, one live class and one payment in a trial before you decide.</li>
-<li><strong>AllCoaching today:</strong> own website and Android app on every plan (iOS on Growth and Pro, after the first month), courses, tests, live classes on YouTube Live or Zoom plus a built-in live classroom, DRM and watermarking, plugins such as WhatsApp, Google Analytics, Meta Pixel and Tag Manager, and a marketplace listing.</li>
+<li><strong>AllCoaching today:</strong> own website and Android app on every plan (iOS on Growth and Pro, after 30 days), courses, tests, live classes on YouTube Live or Zoom plus a built-in live classroom, DRM and watermarking, plugins such as WhatsApp, Google Analytics, Meta Pixel and Tag Manager, and a marketplace listing.</li>
 <li><strong>Pricing:</strong> 7-day free trial, then monthly from ₹3,999 at 0% commission or yearly from ₹6,999 + 10% per sale (GST extra).</li>
 <li><strong>Discovery helps but is not guaranteed</strong> — your own content and channels still bring most students.</li>
 </ul>
@@ -305,7 +305,7 @@ faq:
 <!-- AUTO: grow-cta -->
 <aside class="grow-cta" aria-label="About AllCoaching">
 <p class="gc-label">Where we are · 2026</p>
-<p><strong>AllCoaching is an LMS you build yourself</strong> — drag and drop your courses, tests, notes and live classes, then make it your brand with your own domain, logo and Android app (iOS app on Growth and Pro, after the first month). 500+ educators across India already sell through it. Every plan starts with a 7-day free trial, and the price is on the page before you sign up.</p>
+<p><strong>AllCoaching is an LMS you build yourself</strong> — drag and drop your courses, tests, notes and live classes, then make it your brand with your own domain, logo and Android app (iOS app on Growth and Pro, after 30 days). 500+ educators across India already sell through it. Every plan starts with a 7-day free trial, and the price is on the page before you sign up.</p>
 <div class="gc-row">
 <a class="gc-btn" href="https://studio.allcoaching.in/" target="_blank" rel="noopener">Start your 7-day free trial</a>
 <span class="gc-note">No card needed · 0% commission on every monthly plan, from ₹3,999 · Yearly from ₹6,999</span>
@@ -350,7 +350,7 @@ faq:
 <h2 class="h-chap font-display mt-3">What AllCoaching offers —<br/><em>today, stated plainly.</em></h2>
 <p class="mt-7">AllCoaching is an LMS you build yourself, like Shopify for coaching. On every plan:</p>
 <ul>
-<li>Website on your own domain (free .allcoaching.in address to start) and your own Android app; iOS app on Growth and Pro, after the first month — on your own Google Play and App Store accounts.</li>
+<li>Website on your own domain (free .allcoaching.in address to start) and your own Android app; iOS app on Growth and Pro, after 30 days — on your own Google Play and App Store accounts.</li>
 <li>Unlimited courses, tests and students; PDF notes; unlimited YouTube video in a branded player; uploaded video with plan storage and streaming (512 GB to 3 TB).</li>
 <li>Unlimited live classes on YouTube Live or Zoom, plus a built-in live classroom with monthly hours (20, 50 or 90 on monthly plans; 5, 10 or 15 on yearly).</li>
 <li>DRM and watermarking; coupons and lead forms; page builder and blog.</li>
@@ -575,7 +575,7 @@ faq:
 
         <details>
           <summary>What does AllCoaching offer today?</summary>
-          <p>Your own website and domain, your own Android app (iOS on Growth and Pro, after the first month), unlimited courses, tests and students, live classes on YouTube Live or Zoom plus a built-in live classroom with monthly hours, DRM and watermarking, plugins such as WhatsApp, Google Analytics, Meta Pixel and Tag Manager, UPI and card checkout with automatic payouts, and a listing on the AllCoaching marketplace app.</p>
+          <p>Your own website and domain, your own Android app (iOS on Growth and Pro, after 30 days), unlimited courses, tests and students, live classes on YouTube Live or Zoom plus a built-in live classroom with monthly hours, DRM and watermarking, plugins such as WhatsApp, Google Analytics, Meta Pixel and Tag Manager, UPI and card checkout with automatic payouts, and a listing on the AllCoaching marketplace app.</p>
         </details>
 
         <details>
