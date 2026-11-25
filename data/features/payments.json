@@ -1,0 +1,120 @@
+{
+ "slug": "payments",
+ "nav": "Checkout and payments",
+ "group": "sell",
+ "eps": [
+  "08"
+ ],
+ "title": "Online Course Payments by UPI and Card | AllCoaching",
+ "description": "Students pay by UPI or card on a Razorpay checkout and the course opens on its own. See the fee, GST, gateway charge and net to you on every order.",
+ "keywords": "accept payment for online course, razorpay for coaching, online course payment gateway india, upi payment for courses, razorpay payout for educators, course checkout",
+ "eyebrow": "Checkout and payments",
+ "h1": [
+  "Students pay by UPI or card,",
+  "the money reaches you."
+ ],
+ "lede": "Every course you sell gets a Razorpay checkout. Students pay by UPI, card, net banking or wallet, and course access opens on its own. In your studio, each order shows what the student paid, what came off and what is yours.",
+ "notes": [
+  "0% commission on monthly plans",
+  "Your own Razorpay or your bank account",
+  "Razorpay settlement, usually T+2 days"
+ ],
+ "card": "Razorpay checkout by UPI or card, automatic access, and a clear line for every rupee.",
+ "sections": [
+  {
+   "eyebrow": "Get paid",
+   "h2": [
+    "Two ways to get paid.",
+    "Set it up once."
+   ],
+   "body": "In Settings, Get paid shows two set-ups. Connect your own Razorpay and students pay straight into your Razorpay account, with no payout to wait for. No Razorpay of your own? Add your bank account: AllCoaching collects for you and sends each sale to your bank.",
+   "bullets": [
+    "Your own Razorpay: you approve the connection on Razorpay’s own page, and AllCoaching never sees your password",
+    "Until Razorpay has activated your account, AllCoaching collects and pays you out",
+    "Bank account: add the account number, IFSC and the name on the account",
+    "Razorpay checks the account with a ₹1 test deposit, then payouts start"
+   ],
+   "img": "/assets/x/f/payments-1.webp",
+   "alt": "Get paid screen in the AllCoaching studio with two set-ups: your own Razorpay, or a bank account where AllCoaching collects and pays out",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Every order",
+   "h2": [
+    "Click any order.",
+    "See where each rupee went."
+   ],
+   "body": "Transactions lists every order: the student, the course, how they paid and whether access was given. Open one and the full breakdown appears, from what the student paid down to Net to you, with a timeline, the payment ID and the invoice.",
+   "bullets": [
+    "Subtotal, platform fee, GST on the fee and the payment gateway charge, line by line",
+    "Course access is given to the student automatically after payment",
+    "A timeline from order placed to payment received, access given and payout status",
+    "Payment ID and invoice number on every order"
+   ],
+   "img": "/assets/x/f/payments-2.webp",
+   "alt": "Order detail in the studio: access granted for a demo course and the fee breakdown down to Net to you (demo order on a yearly plan with a 10% fee)",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Payouts",
+   "h2": [
+    "What is on the way,",
+    "and what has arrived."
+   ],
+   "body": "Payouts shows your balance and three steps: what students paid, what is on the way to your bank, and what has reached it. Payouts follow Razorpay settlement, usually T+2 days, and instant settlement is available. Withdraw your balance to your bank whenever you like.",
+   "bullets": [
+    "Where your money went: sales, fee, GST on the fee and gateway charge",
+    "A list of every payout sent to you",
+    "Tax details for your PAN and GSTIN",
+    "Daily, weekly or monthly statements in one PDF for your CA"
+   ],
+   "img": "/assets/x/f/payments-3.webp",
+   "alt": "Payouts screen with the balance, the three payout steps and a where-your-money-went breakdown (demo academy data)",
+   "phone": ""
+  }
+ ],
+ "steps": [
+  {
+   "t": "Open Get paid",
+   "d": "In Settings, choose Get paid and pick your own Razorpay or a bank account."
+  },
+  {
+   "t": "Connect or verify",
+   "d": "Approve the connection on Razorpay’s own page, or add your bank details and let Razorpay verify them with a ₹1 test deposit."
+  },
+  {
+   "t": "Students pay",
+   "d": "Students pay by UPI or card at checkout, and the course opens for them on its own."
+  },
+  {
+   "t": "Check every order",
+   "d": "Transactions shows each order with the platform fee, GST and Net to you."
+  },
+  {
+   "t": "Receive payouts",
+   "d": "Payouts follow Razorpay settlement, usually T+2 days, with instant settlement available."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I get paid for my online course?",
+   "a": "Students pay through Razorpay at your academy’s checkout. Connect your own Razorpay so payments go straight into your account, or add your bank account and AllCoaching collects for you and sends each sale to your bank."
+  },
+  {
+   "q": "How do I accept course payments with Razorpay?",
+   "a": "In Settings, open Get paid and press Connect Razorpay. You approve the connection on Razorpay’s own page, and AllCoaching never sees your password. No Razorpay account yet? Create one on razorpay.com, then come back and connect it."
+  },
+  {
+   "q": "When do payouts reach my bank?",
+   "a": "Payouts follow Razorpay settlement, usually T+2 days, and instant settlement is available."
+  },
+  {
+   "q": "How much does AllCoaching take from each sale?",
+   "a": "On monthly plans, 0% commission: the whole sale is yours. On yearly plans, a platform fee per sale of 10% (Starter), 7.5% (Growth) or 5% (Pro), plus GST on the fee. Payment gateway charges are separate, at Razorpay’s rate."
+  },
+  {
+   "q": "Do I need my own Razorpay account?",
+   "a": "No. Without one, add your bank account in Get paid. Razorpay checks the account with a ₹1 test deposit, and each sale is then sent to that account."
+  }
+ ]
+}

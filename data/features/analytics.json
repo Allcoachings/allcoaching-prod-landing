@@ -1,0 +1,120 @@
+{
+ "slug": "analytics",
+ "nav": "Analytics",
+ "group": "run",
+ "eps": [
+  "11"
+ ],
+ "title": "Course Sales Analytics and Transactions | AllCoaching",
+ "description": "Track course sales, earnings after fees and GST, enrolments, growth and learning in Analytics, and every order with its fee in Transactions.",
+ "keywords": "course sales analytics, track online course sales, online coaching reports, student analytics, course transactions, educator sales reports",
+ "eyebrow": "Analytics",
+ "h1": [
+  "Decide from the numbers,",
+  "not from guesses."
+ ],
+ "lede": "Analytics shows how much you earned, which course sells and whether students are really studying. Transactions holds the story of every single sale. Both live in your studio.",
+ "notes": [
+  "Earnings after refunds, fees and GST",
+  "Live view and 29 ready-made reports",
+  "Every order in Transactions"
+ ],
+ "card": "Sales, earnings, growth and learning in one view, with every order in Transactions.",
+ "sections": [
+  {
+   "eyebrow": "Money",
+   "h2": [
+    "What you sold,",
+    "and what reached you."
+   ],
+   "body": "Pick the last 30 days or any dates you like, compared with the period before. Money shows total sales over time and a breakdown that accounts for every rupee, from gross sales to your earnings after refunds, fees and GST. Below, sales by course and enrolments day by day.",
+   "bullets": [
+    "Total sales, sales today, students, enrolments, courses, live classes and your best-selling course",
+    "Gross sales and your earnings, side by side",
+    "Monthly sales statement, sales register and refunds, each exported to a spreadsheet",
+    "Every order, with its fee and GST, in Transactions"
+   ],
+   "img": "/assets/x/f/analytics-1.webp",
+   "alt": "Money section of Analytics with a sales chart, a sales breakdown, sales by course and enrolments over time (demo academy data)",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Growth and learning",
+   "h2": [
+    "Who buys,",
+    "and who keeps studying."
+   ],
+   "body": "Growth shows how many students bought, started and finished a course, and how many are new or returning. You also see students by course, where sales came from and which city they are in. Learning shows the most watched videos, the most attempted tests and which PDFs were opened.",
+   "bullets": [
+    "Conversion from enrolled to started to completed",
+    "New and returning students",
+    "Sales by traffic source and students by city",
+    "Most watched videos, test attempts and document reads"
+   ],
+   "img": "/assets/x/f/analytics-2.webp",
+   "alt": "Growth and Learning sections of Analytics: conversion, new vs returning students, traffic source, city, videos and tests (demo academy data)",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Live view and reports",
+   "h2": [
+    "Right now,",
+    "and in 29 reports."
+   ],
+   "body": "Live view shows today’s sales, today’s enrolments and, on a map of India, where your students are. It updates by itself every 30 seconds. Reports holds 29 ready-made reports across sales, tax, students and learning.",
+   "bullets": [
+    "Today’s sales and enrolments",
+    "A map of where your students are",
+    "What students are learning right now",
+    "29 reports, open whichever you need"
+   ],
+   "img": "/assets/x/f/analytics-3.webp",
+   "alt": "Live view in the studio with today’s numbers, what students are learning and a map of India showing student cities (demo academy data)",
+   "phone": ""
+  }
+ ],
+ "steps": [
+  {
+   "t": "Choose a period",
+   "d": "Open Analytics and pick the last 30 days or your own dates, with a comparison to the period before."
+  },
+  {
+   "t": "Read the money",
+   "d": "Check total sales, your earnings and sales by course."
+  },
+  {
+   "t": "Check growth and learning",
+   "d": "See who bought, started and finished, and which videos, tests and PDFs students use."
+  },
+  {
+   "t": "Open Live view or Reports",
+   "d": "Watch today’s activity, or open one of 29 ready-made reports."
+  },
+  {
+   "t": "Look up any order",
+   "d": "In Transactions, filter Paid, Pending, Failed or Refunded, search, open an order or export the list."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I track my course sales?",
+   "a": "Open Analytics in your studio. Pick a period and see total sales, your earnings after refunds, fees and GST, sales over time and enrolments, compared with the period before."
+  },
+  {
+   "q": "Which of my courses sells the most?",
+   "a": "Analytics shows your best-selling course at the top, and each course’s sales separately under Total sales by course."
+  },
+  {
+   "q": "How do I see every order?",
+   "a": "Transactions lists every order with the student, the course, how they paid and whether they got access. Click an order to see what the student paid, the platform fee, the GST on it and Net to you, and use Export to get the whole list in one file."
+  },
+  {
+   "q": "Can I see whether students are actually studying?",
+   "a": "Yes. Learning in Analytics shows the most watched videos, the most attempted tests and which documents were opened, and Growth shows how many students started and finished a course."
+  },
+  {
+   "q": "Are there reports for my accountant?",
+   "a": "Yes. Analytics has a monthly sales statement, a sales register and refunds, each exported to a spreadsheet, and Reports holds 29 ready-made reports."
+  }
+ ]
+}

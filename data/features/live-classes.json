@@ -1,0 +1,120 @@
+{
+ "slug": "live-classes",
+ "nav": "Live classes",
+ "group": "teach",
+ "eps": [
+  "06"
+ ],
+ "title": "Live Classes on YouTube, Zoom or Your Classroom | AllCoaching",
+ "description": "Teach live on YouTube Live, Zoom or the built-in AllCoaching classroom. Stream from a computer, phone or OBS, and choose who can watch.",
+ "keywords": "live class app for teachers, online live class platform, zoom live class, youtube live class, obs live class, live classes for coaching",
+ "eyebrow": "Live classes",
+ "h1": [
+  "Teach live,",
+  "wherever your class streams."
+ ],
+ "lede": "Start a class from the studio and choose where it streams: your YouTube channel, Zoom, or your own private AllCoaching classroom. Go live now or schedule it, and decide whether it is open to everyone or only one course.",
+ "notes": [
+  "YouTube Live, Zoom or the built-in classroom",
+  "Stream from a computer, phone or OBS",
+  "Open to everyone or only one course"
+ ],
+ "card": "Live classes on YouTube, Zoom or your own private classroom, from one screen.",
+ "sections": [
+  {
+   "eyebrow": "Where it streams",
+   "h2": [
+    "Three places to teach.",
+    "One studio screen."
+   ],
+   "body": "YouTube streams to your own channel with no viewer limit, and the replay stays on your channel. The AllCoaching classroom is private to your students and records the class on its own. Zoom gives a two-way class where students can speak and raise a hand.",
+   "bullets": [
+    "Unlimited live classes on YouTube Live or Zoom on every plan",
+    "Connect Zoom once in Integrations; each class gets its meeting made for you",
+    "AllCoaching classroom: private, recorded and saved with the class",
+    "Thumbnail made from your title, or upload your own"
+   ],
+   "img": "/assets/x/f/live-classes-1.webp",
+   "alt": "New live class screen with Zoom selected as a two-way class, the Connect Zoom prompt, and who can watch and recording options",
+   "phone": ""
+  },
+  {
+   "eyebrow": "How you stream",
+   "h2": [
+    "Your laptop, your phone,",
+    "or your studio setup."
+   ],
+   "body": "Into the AllCoaching classroom you can stream three ways: straight from this computer with camera and screen, from your phone by scanning a code, or from OBS or any encoder with a server address and stream key.",
+   "bullets": [
+    "This computer: camera and screen, straight from the browser",
+    "My phone: scan a code and stream from its camera",
+    "OBS or RTMP: server address and stream key for any encoder",
+    "Recorded automatically, nothing to upload after"
+   ],
+   "img": "/assets/x/f/live-classes-2.webp",
+   "alt": "How you'll stream options: this computer, my phone and OBS or RTMP, with the class open to one course",
+   "phone": ""
+  },
+  {
+   "eyebrow": "When and who",
+   "h2": [
+    "Go live now,",
+    "or schedule it ahead."
+   ],
+   "body": "Start now to go straight to the camera, or pick a date and time so students see the class listed and waiting. Open it to everyone, which suits filling a new batch, or only to the students of one course.",
+   "bullets": [
+    "Start now, or Later with a date and time",
+    "Everyone, or one course only",
+    "YouTube: connect your channel or paste a stream link from YouTube Studio",
+    "Set the class length before you go live"
+   ],
+   "img": "/assets/x/f/live-classes-3.webp",
+   "alt": "YouTube live class setup with the connect channel prompt, a live stream link field, class length and recording note",
+   "phone": ""
+  }
+ ],
+ "steps": [
+  {
+   "t": "Start a class",
+   "d": "Open Live and press Start a class, then add a title."
+  },
+  {
+   "t": "Pick where it streams",
+   "d": "Choose YouTube, the AllCoaching classroom or Zoom."
+  },
+  {
+   "t": "Pick how you stream",
+   "d": "For the classroom, use this computer, your phone or OBS."
+  },
+  {
+   "t": "Set when and who",
+   "d": "Start now or schedule it, and open it to everyone or one course."
+  },
+  {
+   "t": "Go live",
+   "d": "Press Create and go live, and the class begins."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I take live classes online?",
+   "a": "In Live, start a new class and pick where it streams: YouTube Live, Zoom, or the AllCoaching classroom. Then choose when it starts and who can watch."
+  },
+  {
+   "q": "Zoom or YouTube Live for teaching?",
+   "a": "Both work. YouTube suits large classes on your own channel with no viewer limit; Zoom suits two-way classes where students speak and raise a hand. Live classes on either are unlimited on every plan."
+  },
+  {
+   "q": "Can I stream from my phone, computer or OBS?",
+   "a": "Yes. Into the AllCoaching classroom you can stream from this computer, from your phone by scanning a code, or from OBS or any encoder with a server address and stream key."
+  },
+  {
+   "q": "Are my live classes recorded?",
+   "a": "Classes in the AllCoaching classroom are recorded and saved with the class on their own. YouTube classes keep their replay on your channel, and students can keep watching it in your academy."
+  },
+  {
+   "q": "How many hours does the built-in classroom include?",
+   "a": "On monthly plans the built-in classroom includes 20, 50 or 90 hours a month on Starter, Growth and Pro. On yearly plans it is 5, 10 or 15 hours a month. YouTube Live and Zoom classes are unlimited and separate from these hours."
+  }
+ ]
+}

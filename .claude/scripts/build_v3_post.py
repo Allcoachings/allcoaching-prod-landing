@@ -41,7 +41,7 @@ def e(t):
 def shell_parts():
     ref = open(REF, encoding='utf-8').read()
     gtm = re.search(r'  <!-- Google Tag Manager -->\n  <script>.*?</script>\n', ref, re.S).group(0)
-    header = ref[ref.index('<header class="v3-head">'):ref.index('</aside>', ref.index('<aside class="v3-promo"')) + len('</aside>')]
+    header = ref[ref.index('<!-- X HEADER' if '<!-- X HEADER' in ref else '<header class="v3-head">'):ref.index('</aside>', ref.index('<aside class="v3-promo"')) + len('</aside>')]
     foot = ref[ref.index('<!-- ================= FOOTER ================= -->'):ref.index('</body>')]
     band = ref[ref.index('<section class="v3-band"'):ref.index('</section>', ref.index('<section class="v3-band"')) + len('</section>')]
     return gtm, header, foot, band

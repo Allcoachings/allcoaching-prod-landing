@@ -1,0 +1,111 @@
+{
+ "slug": "team",
+ "nav": "Team",
+ "group": "run",
+ "eps": [
+  "15"
+ ],
+ "title": "Add Teachers and Staff with Roles | AllCoaching",
+ "description": "Give teachers and staff their own studio login with the right role. Editors build content, Analysts only view, and billing stays with you.",
+ "keywords": "add teacher in coaching app, multi teacher coaching platform, staff access roles, coaching team management, editor and viewer roles",
+ "eyebrow": "Team",
+ "h1": [
+  "Share the work,",
+  "keep the keys."
+ ],
+ "lede": "As your academy grows, bring your teachers and staff into the studio with their own logins. Each person gets a role: Editors create and edit content, Analysts only view, and plan, billing and payouts stay with you as the Owner.",
+ "notes": [
+  "Separate logins for teachers and staff",
+  "Owner, Editor and Analyst roles",
+  "Billing and payouts stay with the Owner"
+ ],
+ "card": "Separate logins for teachers and staff, with Owner, Editor and Analyst roles.",
+ "sections": [
+  {
+   "eyebrow": "Roles",
+   "h2": [
+    "Three roles.",
+    "Clear limits."
+   ],
+   "body": "The Owner, that is you, can do everything, and there is only one. An Editor can create and edit courses, videos, PDFs and tests, post in the community and see analytics. An Analyst can see analytics, sales and your content, and cannot change anything.",
+   "bullets": [
+    "Owner: plan, billing, payouts, and adding or removing people",
+    "Editor: courses, videos, PDFs, tests, community posts and analytics",
+    "Analyst: view analytics, sales and content only",
+    "The Team page shows how many of your plan's seats are in use"
+   ],
+   "img": "/assets/x/f/team-1.webp",
+   "alt": "What each role can do: Owner, Editor and Analyst cards with their permissions",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Add a person",
+   "h2": [
+    "A phone number",
+    "is all it takes."
+   ],
+   "body": "Press Add a person and answer two questions. Who is it: enter their phone number, and they sign in with that same number, with no link to click and no password. What can they do: Can create and edit for a teacher, Can only view for an accountant or partner.",
+   "bullets": [
+    "Add by phone number, or by email with a join link",
+    "Pick the role before you add them",
+    "Neither role can see billing or payouts, or add people",
+    "Only you can add people to the team"
+   ],
+   "img": "/assets/x/f/team-2.webp",
+   "alt": "Add a person dialog with a phone number and the Can only view Analyst role selected",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Change or remove",
+   "h2": [
+    "Access ends",
+    "the moment you say so."
+   ],
+   "body": "To change what someone can do, remove them and add them again with the other role. The moment you remove someone, their access to your studio ends.",
+   "bullets": [
+    "Remove ends studio access straight away",
+    "Add them again with a new role to change permissions",
+    "Your plan, billing and payouts never leave the Owner account"
+   ],
+   "img": "/assets/x/f/team-3.webp",
+   "alt": "Remove a team member confirmation saying they lose access to the studio straight away",
+   "phone": ""
+  }
+ ],
+ "steps": [
+  {
+   "t": "Open Team",
+   "d": "Go to Settings, then Team, to see everyone and their roles."
+  },
+  {
+   "t": "Add a person",
+   "d": "Enter their phone number, or an email to send a join link."
+  },
+  {
+   "t": "Pick a role",
+   "d": "Choose Can create and edit for a teacher, or Can only view for staff who need the numbers."
+  },
+  {
+   "t": "Change or remove",
+   "d": "Remove someone to end access, and add them again to give a new role."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I add a teacher to my coaching app?",
+   "a": "In Settings, then Team, press Add a person, enter their phone number and pick a role. They sign in with that number."
+  },
+  {
+   "q": "How do I give staff limited access?",
+   "a": "Give them the Analyst role; they can view analytics, sales and content but change nothing."
+  },
+  {
+   "q": "How do I keep billing private from my team?",
+   "a": "Billing, payouts and adding people stay with the Owner; Editors and Analysts cannot see them."
+  },
+  {
+   "q": "How do I change someone's role?",
+   "a": "Remove them, then add them again with the new role. Removing someone ends their studio access straight away."
+  }
+ ]
+}

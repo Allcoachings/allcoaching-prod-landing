@@ -1,0 +1,111 @@
+{
+ "slug": "community",
+ "nav": "Community",
+ "group": "teach",
+ "eps": [
+  "10"
+ ],
+ "title": "Community Posts, Polls and Quizzes for Students | AllCoaching",
+ "description": "Post updates, notes, shorts, polls and quizzes to your students' feed in your own app, and see who follows your academy.",
+ "keywords": "student community app, poll and quiz for students, coaching app community, engage students online, announcements in coaching app",
+ "eyebrow": "Community",
+ "h1": [
+  "Stay with your students",
+  "between classes."
+ ],
+ "lede": "Community is your app's own feed. Post an update, a page of notes, a short video, a poll, a quiz or a new lecture, and your students see it in your app. Choose who sees each post, and keep drafts for later.",
+ "notes": [
+  "Six post types, from text to quizzes",
+  "Notes watermarked with your handle",
+  "See who follows your academy"
+ ],
+ "card": "Updates, notes, shorts, polls and quizzes in your students' app feed.",
+ "sections": [
+  {
+   "eyebrow": "Post types",
+   "h2": [
+    "Six kinds of post.",
+    "One simple composer."
+   ],
+   "body": "Write a text update, such as tomorrow's revision time. Share an image or a page of notes, and your handle is watermarked on it on its own. Add a short vertical video of up to 60 seconds, or announce a new lecture so a preview card reaches your students' feed.",
+   "bullets": [
+    "Text: any update or class plan",
+    "Image or notes: JPG or PNG, watermarked with your handle",
+    "Short: a 9:16 clip up to 60 seconds, from your library or a new upload",
+    "New lecture: pick from your library and post a preview card"
+   ],
+   "img": "/assets/x/f/community-1.webp",
+   "alt": "Community composer with the Image or Notes post type, a text update and an image upload area",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Polls",
+   "h2": [
+    "Ask your class.",
+    "Let the votes decide."
+   ],
+   "body": "Ask a question straight to your students, such as which topic to revise first. They vote, and you know what the class needs before you plan the next session.",
+   "bullets": [
+    "Add as many options as you need",
+    "Choose who sees the post",
+    "Post now, or save it as a draft",
+    "Filter posts by Published, Scheduled, Drafts and Pinned, or by type"
+   ],
+   "img": "/assets/x/f/community-2.webp",
+   "alt": "Community poll asking students which topic to revise first, with two options",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Quizzes",
+   "h2": [
+    "One question a day.",
+    "The answer after the vote."
+   ],
+   "body": "Post a quick question with options and tick the correct answer. After students vote, they see the right answer and your explanation, which keeps practice going outside class.",
+   "bullets": [
+    "Mark the correct option with a tap",
+    "Add an explanation students see after voting",
+    "Followers list shows when each person joined, courses taken and amount spent"
+   ],
+   "img": "/assets/x/f/community-3.webp",
+   "alt": "Community quiz with a percentage question, the correct option ticked and a worked explanation",
+   "phone": ""
+  }
+ ],
+ "steps": [
+  {
+   "t": "Open Community",
+   "d": "Go to Community in the studio to see your posts and followers."
+  },
+  {
+   "t": "Pick a post type",
+   "d": "Choose text, image or notes, short, poll, quiz or new lecture."
+  },
+  {
+   "t": "Choose the audience",
+   "d": "Pick who should see the post."
+  },
+  {
+   "t": "Post or save",
+   "d": "Press Post to publish now, or Save draft for later."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I engage online students?",
+   "a": "Post text, notes, shorts, polls and quizzes in Community; students see them in your app feed."
+  },
+  {
+   "q": "How do I make polls and quizzes for students?",
+   "a": "Create a new post in Community and pick Poll or Quiz. For a quiz, tick the correct answer and add an explanation students see after voting."
+  },
+  {
+   "q": "How do I post announcements in my app?",
+   "a": "Post it in Community; it reaches the feed of all your followers."
+  },
+  {
+   "q": "Are my notes protected when I share them?",
+   "a": "Images and notes you post are watermarked with your handle on their own."
+  }
+ ]
+}

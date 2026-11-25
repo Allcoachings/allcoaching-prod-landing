@@ -1,0 +1,112 @@
+{
+  "slug": "free-content",
+  "nav": "Free content",
+  "group": "sell",
+  "eps": [
+    "07"
+  ],
+  "title": "Free Videos, Notes and Tests to Win Students | AllCoaching",
+  "description": "Share free videos, notes and sample tests that anyone can open on your website and app, and see how many students they reached and how many went on to buy.",
+  "keywords": "free content for coaching, how to get students for online coaching, free demo class, course free preview, free notes for students, student engagement",
+  "eyebrow": "Free content",
+  "h1": [
+    "Let students try first,",
+    "then trust you."
+  ],
+  "lede": "A free chapter, a few notes or a sample test lets students see how you teach before they pay. Put them in Free content and they show on your website and app marked Free, while the studio shows how many students they reached and how many went on to buy.",
+  "notes": [
+    "Free videos, documents and tests",
+    "Marked Free on your website and app",
+    "Went on to buy, counted for you"
+  ],
+  "card": "Free videos, notes and sample tests on your website and app, with who went on to buy.",
+  "sections": [
+    {
+      "eyebrow": "Free section",
+      "h2": [
+        "Know what free",
+        "brings back."
+      ],
+      "body": "Free content is everything anyone can open in your app and on your website without buying. At the top, the studio counts what is in your free section and, over the last 30 days, how many students it reached and how many went on to buy.",
+      "bullets": [
+        "Count of videos, documents and tests in the free section",
+        "Students reached in the last 30 days",
+        "Went on to buy, for the same students",
+        "Separate tabs for videos, documents and tests"
+      ],
+      "img": "/assets/x/f/free-content-1.webp",
+      "alt": "Free content in the studio with counts for videos, documents and tests, students reached and went on to buy",
+      "phone": ""
+    },
+    {
+      "eyebrow": "Add",
+      "h2": [
+        "Pick from your library.",
+        "No new uploads needed."
+      ],
+      "body": "Press Add and your library opens. Tick what you want to give away and add it, or upload something new straight from the same window.",
+      "bullets": [
+        "Free videos, such as a preview lesson",
+        "Free notes from your documents",
+        "Free sample tests",
+        "Upload new from the picker"
+      ],
+      "img": "/assets/x/f/free-content-2.webp",
+      "alt": "Pick free videos window listing videos from the library with checkboxes and an Upload new button",
+      "phone": ""
+    },
+    {
+      "eyebrow": "On your website",
+      "h2": [
+        "Marked Free,",
+        "open to anyone."
+      ],
+      "body": "Free content shows on your own academy website under free videos, test series and notes, each marked Free, and the same free content appears in your app. Any student can open it without buying.",
+      "bullets": [
+        "Free videos with a Free label",
+        "Free tests and notes marked Free",
+        "The same free content in your app",
+        "Tip: turn off Only for enrolled students to make a course module a free preview"
+      ],
+      "img": "/assets/x/f/free-content-3.webp",
+      "alt": "Demo Academy website showing a free preview video, free test series and free notes, each marked Free",
+      "phone": ""
+    }
+  ],
+  "steps": [
+    {
+      "t": "Open Free content",
+      "d": "In the studio, open Free content to see what is free and what it brought in."
+    },
+    {
+      "t": "Add from your library",
+      "d": "Press Add, tick the videos, documents or tests to make free, and add them."
+    },
+    {
+      "t": "Check your website",
+      "d": "Your free content appears on your academy website and app, marked Free."
+    },
+    {
+      "t": "Watch who buys",
+      "d": "Students reached and Went on to buy show what your free content leads to."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I get students for online coaching?",
+      "a": "Share free videos, notes and sample tests. Students get to know your teaching first, and Went on to buy shows how many of them later bought a course."
+    },
+    {
+      "q": "How do I offer a free demo class?",
+      "a": "Add a video, document or test to Free content. It shows on your website and app marked Free, and anyone can open it without buying."
+    },
+    {
+      "q": "How do I make a free course preview?",
+      "a": "Open the course’s Content tab and edit a module, then turn off Only for enrolled students. That module becomes a free preview anyone can open."
+    },
+    {
+      "q": "Where does free content show to students?",
+      "a": "On your academy website under free videos, test series and notes, each marked Free, and in your app."
+    }
+  ]
+}

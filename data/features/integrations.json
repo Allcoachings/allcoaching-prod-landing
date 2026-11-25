@@ -1,0 +1,116 @@
+{
+ "slug": "integrations",
+ "nav": "Integrations",
+ "group": "run",
+ "eps": [
+  "12"
+ ],
+ "title": "Connect YouTube, Zoom and Razorpay to Your Academy | AllCoaching",
+ "description": "Connect YouTube, Zoom, your own Razorpay, your domain, Google Tag Manager, Meta Pixel, Google Analytics and a WhatsApp chat button to your academy.",
+ "keywords": "connect youtube to course website, razorpay integration for courses, zoom integration for classes, whatsapp chat button for website, google tag manager, meta pixel for academy",
+ "eyebrow": "Integrations",
+ "h1": [
+  "The tools you already use,",
+  "connected to your academy."
+ ],
+ "lede": "Integrations brings your YouTube channel, Zoom, your own Razorpay, your domain and your marketing tags into one place in the studio. Each one connects in a few minutes, and you can disconnect it any time.",
+ "notes": [
+  "YouTube and Zoom for live classes",
+  "Your own Razorpay and domain",
+  "Tag Manager, Meta Pixel, GA4 and WhatsApp"
+ ],
+ "card": "Connect YouTube, Zoom, Razorpay, your domain, marketing tags and a WhatsApp button.",
+ "sections": [
+  {
+   "eyebrow": "Overview",
+   "h2": [
+    "Everything in one place,",
+    "by category."
+   ],
+   "body": "Integrations shows the tools you can connect and how many are already connected. Filter by Live classes and video, Payments, Website and domain, Your app, Marketing and analytics, or Student engagement. The ones already connected sit at the top.",
+   "bullets": [
+    "Razorpay: course money goes straight into your own Razorpay, and from there to your bank",
+    "Custom domain: put your academy on your own web address, like www.youracademy.com",
+    "Each tool shows its status, like Added or Setting up",
+    "Disconnect any tool when you like"
+   ],
+   "img": "/assets/x/f/integrations-1.webp",
+   "alt": "Integrations page in the studio with category tabs and connected tools: custom domain, Google Tag Manager and the WhatsApp chat button",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Live classes and video",
+   "h2": [
+    "Your YouTube channel,",
+    "inside your academy."
+   ],
+   "body": "Connect your YouTube channel and lessons upload to it as Unlisted. Live classes stream from your channel, and students watch them on your website and in your app. Zoom sits alongside, for live classes in your own Zoom account.",
+   "bullets": [
+    "Paste the Client ID and Client Secret from your own Google Cloud project, then allow your channel",
+    "When you add a video, pick My YouTube channel",
+    "In Live, choose YouTube for a new class and the stream is created on your channel",
+    "Lessons and classes play on your website and in your app"
+   ],
+   "img": "/assets/x/f/integrations-2.webp",
+   "alt": "YouTube integration set-up: Google keys and the four steps from connecting your channel to students watching in your academy",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Marketing and chat",
+   "h2": [
+    "Measure your ads,",
+    "let students message you."
+   ],
+   "body": "In Marketing and analytics, add Google Tag Manager, Meta Pixel and Google Analytics 4 for the full picture of your ads and visitors. In Student engagement, the WhatsApp chat button puts a button on every page of your website that opens a chat with your number.",
+   "bullets": [
+    "Google Tag Manager: one ID that loads Google Ads, GA4 and more",
+    "Meta Pixel for your Facebook and Instagram ads",
+    "Google Analytics 4 for your website’s visitors",
+    "WhatsApp: add your number with its country code, then turn the button on"
+   ],
+   "img": "/assets/x/f/integrations-3.webp",
+   "alt": "Marketing and analytics integrations (Google Tag Manager, Meta Pixel, Google Analytics 4) and the WhatsApp chat button",
+   "phone": ""
+  }
+ ],
+ "steps": [
+  {
+   "t": "Open Integrations",
+   "d": "In your studio, open Integrations to see every tool and how many are connected."
+  },
+  {
+   "t": "Pick a category",
+   "d": "Filter by live classes, payments, website, app, marketing or student engagement."
+  },
+  {
+   "t": "Connect a tool",
+   "d": "Open it and follow its set-up, like connecting your YouTube channel or Razorpay."
+  },
+  {
+   "t": "Check it is connected",
+   "d": "Connected tools move to the top, and you can disconnect any of them later."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I connect my YouTube channel?",
+   "a": "In Integrations, open YouTube, paste the Client ID and Client Secret from your own Google Cloud project, and allow your channel when Google asks. Lessons then upload to your channel as Unlisted."
+  },
+  {
+   "q": "How do I connect Razorpay?",
+   "a": "In Integrations, open Razorpay, press Connect Razorpay and approve AllCoaching on Razorpay’s page. Once Razorpay has activated your account, course payments go straight into your own Razorpay and settle to your bank."
+  },
+  {
+   "q": "How do I add a WhatsApp button to my website?",
+   "a": "In Integrations, open the WhatsApp chat button, add your number with its country code and turn the button on. It appears on every page of your website."
+  },
+  {
+   "q": "Can I use my own domain?",
+   "a": "Yes. In Integrations, Website and domain lets you put your academy on your own web address, like www.youracademy.com."
+  },
+  {
+   "q": "Which marketing tags can I add?",
+   "a": "Google Tag Manager, Meta Pixel and Google Analytics 4, all from Marketing and analytics in Integrations."
+  }
+ ]
+}

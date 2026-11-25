@@ -1,0 +1,116 @@
+{
+ "slug": "batches",
+ "nav": "Students and batches",
+ "group": "run",
+ "eps": [
+  "14"
+ ],
+ "title": "Students, Batches and Attendance for Coaching | AllCoaching",
+ "description": "Split a course's students into batches with their own timetable and attendance register. A batch belongs to one course; the enrolment stays safe.",
+ "keywords": "batch management for coaching, course vs batch, student attendance app, online attendance register, coaching timetable, morning and evening batch",
+ "eyebrow": "Students and batches",
+ "h1": [
+  "You sell the course.",
+  "You teach in batches."
+ ],
+ "lede": "A course is what you sell: videos, notes and tests. A batch is a group of that course's students who study together on one timetable, with attendance taken. Students buy the course, not the batch, and one course can run many batches.",
+ "notes": [
+  "One course, many batches",
+  "Only enrolled students can join a batch",
+  "Removing a student keeps their course enrolment"
+ ],
+ "card": "Morning, evening and weekend batches of one course, with timetable and attendance.",
+ "sections": [
+  {
+   "eyebrow": "Course and batch",
+   "h2": [
+    "Every batch belongs",
+    "to one course."
+   ],
+   "body": "When you create a batch, the Course field is what links it to a course, and only that course's students can be added to it. Once the batch is made, its course cannot be changed. One course can have many batches, such as Morning, Evening and Weekend.",
+   "bullets": [
+    "Name, course, first and last class, class days and time",
+    "Online, in a classroom, or both; teacher and seats",
+    "The timetable is made for you when you press Create batch",
+    "Add students lists only those enrolled in the course and not yet in the batch"
+   ],
+   "img": "/assets/x/f/batches-1.webp",
+   "alt": "Create a batch dialog with the batch name, the linked course, class dates, class days and start time",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Attendance",
+   "h2": [
+    "Take the register",
+    "in one click."
+   ],
+   "body": "On the day of the class, press Take attendance, mark everyone present in one click, change whoever was late or absent, and save the register. Attendance comes from the batch and progress comes from the course, and you see both side by side.",
+   "bullets": [
+    "Present, late or absent for each student",
+    "Download the register, and see the last ten classes at a glance",
+    "Students tab: attendance beside lessons finished and last active",
+    "Timetable: add a topic, cancel a class or add an extra class"
+   ],
+   "img": "/assets/x/f/batches-2.webp",
+   "alt": "Batch attendance register with present, late and absent for each student, and the last ten classes below",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Safe by design",
+   "h2": [
+    "Remove from a batch.",
+    "The course stays."
+   ],
+   "body": "Remove a student from a batch, or delete the whole batch, and the student is not removed from the course. Their course carries on exactly as before; only that batch's attendance stops counting. The order is always the same: a student takes the course first, then you place them in a batch.",
+   "bullets": [
+    "Removing a student keeps them enrolled in the course",
+    "Deleting a batch never touches course enrolments",
+    "Fixed batch dates in a course's Settings are only the course's own dates, not a batch",
+    "Timetable, students and attendance all live in Batches"
+   ],
+   "img": "/assets/x/f/batches-3.webp",
+   "alt": "Confirmation to remove a student from a batch, stating they stay enrolled in the course",
+   "phone": ""
+  }
+ ],
+ "steps": [
+  {
+   "t": "Create batch",
+   "d": "Open Batches, press Create batch, give it a name and pick its course."
+  },
+  {
+   "t": "Set the schedule",
+   "d": "Choose the first class, class days, time, length, mode and seats."
+  },
+  {
+   "t": "Add students",
+   "d": "Tick the course's enrolled students who should study in this batch."
+  },
+  {
+   "t": "Take attendance",
+   "d": "On class day, mark everyone present, change who was late or absent, and save the register."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between a course and a batch?",
+   "a": "A course is what you sell: videos, notes and tests. A batch is a group of that course's students who study together on a timetable, with attendance. Students buy the course, not the batch."
+  },
+  {
+   "q": "How do I create a batch for my coaching?",
+   "a": "In Batches, press Create batch and fill in the name, course, days, time and seats. The timetable is made for you."
+  },
+  {
+   "q": "How do I take student attendance online?",
+   "a": "Open the batch, press Take attendance, Mark all present, change who was late or absent, and Save register."
+  },
+  {
+   "q": "How do I run morning and evening batches of one course?",
+   "a": "Create two batches of the same course, like Morning and Evening, and add that course's students to each."
+  },
+  {
+   "q": "If I remove a student from a batch, do they lose the course?",
+   "a": "No. Removing a student from a batch, or deleting the batch, keeps their course enrolment. Only that batch's attendance stops counting."
+  }
+ ]
+}

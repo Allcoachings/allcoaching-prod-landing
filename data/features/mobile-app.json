@@ -1,0 +1,116 @@
+{
+  "slug": "mobile-app",
+  "nav": "Your own app",
+  "group": "build",
+  "eps": [
+    "13"
+  ],
+  "title": "Your Own Android and iOS Coaching App | AllCoaching",
+  "description": "Get your own branded Android app on every plan, and an iOS app on Growth and Pro after 30 days, published on your own Play Console and App Store Connect.",
+  "keywords": "own coaching app, white label coaching app, android app for coaching institute, ios app for educators, coaching app price, own app for online classes",
+  "eyebrow": "Your own app",
+  "h1": [
+    "Your students open",
+    "your app, not ours."
+  ],
+  "lede": "Every AllCoaching plan includes your own branded Android app, and Growth and Pro add an iOS app after 30 days on the plan. Both are published on your own Google Play Console and App Store Connect accounts, so the app carries your name.",
+  "notes": [
+    "Android app on every plan",
+    "iOS on Growth and Pro, after 30 days",
+    "Published on your own developer accounts"
+  ],
+  "card": "Your own Android app on every plan, and iOS on Growth and Pro after 30 days.",
+  "sections": [
+    {
+      "eyebrow": "Plans",
+      "h2": [
+        "Android on every plan.",
+        "iOS on Growth and Pro."
+      ],
+      "body": "Every plan is the full studio, including your own website and Android app. Growth and Pro add your own iOS app after 30 days on the plan, along with more storage and live-room hours.",
+      "bullets": [
+        "Monthly: Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 a month + GST, 0% commission",
+        "Yearly: ₹6,999, ₹12,999 or ₹24,999 a year + GST, with a 10%, 7.5% or 5% fee per sale + GST",
+        "iOS app on Growth and Pro, after 30 days on the plan",
+        "Storage can be extended on any plan"
+      ],
+      "img": "/assets/x/f/mobile-app-1.webp",
+      "alt": "Change your plan screen in the studio showing Starter, Growth and Pro monthly plans and what each includes",
+      "phone": ""
+    },
+    {
+      "eyebrow": "Publishing",
+      "h2": [
+        "Your app,",
+        "on your own console."
+      ],
+      "body": "Apps are published only on your own accounts: Google Play Console for Android and App Store Connect for iOS. Google and Apple review each app, and the listing sits under your name.",
+      "bullets": [
+        "Own Android app on Starter, Growth and Pro",
+        "Own iOS app on Growth and Pro, after 30 days",
+        "You give your Google Play Console and App Store Connect account",
+        "Free web address or your own domain alongside the app"
+      ],
+      "img": "/assets/x/f/mobile-app-2.webp",
+      "alt": "Compare plans table with rows for own website, own Android app, own iOS app and publishing on your own console",
+      "phone": ""
+    },
+    {
+      "eyebrow": "Students",
+      "h2": [
+        "Your academy,",
+        "in your students’ pocket."
+      ],
+      "body": "On a phone, students browse your courses, open a course page and enrol, and take your test series, all under your logo and name. Courses, tests, library and profile sit in one bar at the bottom.",
+      "bullets": [
+        "Courses with category filters",
+        "Course pages with price and Enroll now",
+        "Test series with free tests marked",
+        "Your logo and academy name at the top of every screen"
+      ],
+      "img": "/assets/x/f/mobile-app-3.webp",
+      "alt": "Three phone screens of Demo Academy: the courses list, a course page with Enroll now, and test series",
+      "phone": ""
+    }
+  ],
+  "steps": [
+    {
+      "t": "Start your free trial",
+      "d": "Every plan starts with a 7-day free trial, no card needed."
+    },
+    {
+      "t": "Pick monthly or yearly",
+      "d": "In Settings › Plan, press Change plan and compare Starter, Growth and Pro."
+    },
+    {
+      "t": "Give your developer accounts",
+      "d": "Your app is published on your own Google Play Console, and on App Store Connect for iOS."
+    },
+    {
+      "t": "Add iOS on Growth or Pro",
+      "d": "After 30 days on Growth or Pro, your iOS app joins your Android app."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I get my own Android app on every plan?",
+      "a": "Yes. Every plan, monthly or yearly, includes your own branded Android app, published on your own Google Play Console account."
+    },
+    {
+      "q": "Which plans include an iOS app?",
+      "a": "Growth and Pro, monthly or yearly, after 30 days on the plan. Starter does not include an iOS app."
+    },
+    {
+      "q": "Whose account is my app published on?",
+      "a": "Always your own: Google Play Console for Android and App Store Connect for iOS. Google and Apple review every app before it goes live."
+    },
+    {
+      "q": "How much does an online coaching platform with my own app cost?",
+      "a": "Monthly: Starter ₹3,999, Growth ₹5,999, Pro ₹7,999 a month + GST, 0% commission. Yearly: ₹6,999, ₹12,999, ₹24,999 a year + GST, with a 10%, 7.5% or 5% fee per sale + GST."
+    },
+    {
+      "q": "Monthly or yearly plan, which is better?",
+      "a": "If you sell a lot, monthly (0% commission) works out better; with fewer sales, yearly can cost less. Start with the 7-day free trial, no card needed."
+    }
+  ]
+}

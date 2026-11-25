@@ -27,13 +27,13 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="preload" as="image" href="/demo/assets/shots/studio-desktop.webp?v=b3" fetchpriority="high" />
 
 <style>
 :root{
-  --ui:'Inter Tight','Inter',-apple-system,system-ui,sans-serif;
-  --display:'Instrument Serif','Times New Roman',serif;
+  --ui:'Inter Tight','Inter',system-ui,sans-serif;
+  --display:'Inter Tight','Inter',system-ui,sans-serif;
   --mono:'JetBrains Mono',ui-monospace,monospace;
   --bg:#F5F0E8; --bg-2:#EEE7DA; --surface:#FFFFFF;
   --ink-1:#15110D; --ink-2:#4F4840; --ink-3:#8C8378; --ink-4:#B6AEA1;
@@ -54,9 +54,9 @@ a{color:inherit}
 .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-deep);display:inline-flex;align-items:center;gap:10px}
 .eyebrow::before{content:"";width:22px;height:1px;background:var(--accent)}
 h1,h2,h3{font-weight:400;letter-spacing:-.02em}
-.display{font-family:var(--display)}
+.display{font-family:'Inter Tight','Inter',system-ui,sans-serif}
 .display em{font-style:italic;color:var(--accent-deep)}
-.h2{font-family:var(--display);font-size:clamp(34px,4.6vw,54px);line-height:1.05;margin:14px 0 14px}
+.h2{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-size:clamp(34px,4.6vw,54px);line-height:1.05;margin:14px 0 14px}
 .h2 em{font-style:italic;color:var(--accent-deep)}
 .lede{color:var(--ink-2);font-size:clamp(16px,1.6vw,18px);max-width:640px}
 .center{text-align:center}.center .lede{margin:0 auto}
@@ -88,7 +88,7 @@ section{padding:96px 0}
 .hero{padding:64px 0 40px;position:relative;overflow:hidden}
 .hero::before{content:"";position:absolute;inset:-200px -100px auto auto;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle,rgba(224,169,92,.32),transparent 62%);filter:blur(30px);pointer-events:none}
 .hero-grid{display:grid;grid-template-columns:1.02fr 1fr;gap:56px;align-items:center;position:relative}
-.hero h1{font-family:var(--display);font-size:clamp(44px,6.4vw,78px);line-height:.98;margin:18px 0 20px}
+.hero h1{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-size:clamp(44px,6.4vw,78px);line-height:.98;margin:18px 0 20px}
 .hero h1 em{font-style:italic;color:var(--accent-deep)}
 .hero .lede{margin-bottom:24px}
 .ticks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;margin:0 0 30px}
@@ -99,7 +99,7 @@ section{padding:96px 0}
 .anchor{font-size:14px;color:var(--ink-3);margin-top:16px}
 .anchor b{color:var(--ink-1);font-weight:600}
 .stats{display:flex;gap:34px;margin-top:34px;padding-top:26px;border-top:1px solid var(--line-2);flex-wrap:wrap}
-.stat .n{font-family:var(--display);font-style:italic;font-size:36px;line-height:1;color:var(--accent-deep)}
+.stat .n{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-style:normal;font-size:36px;line-height:1;color:var(--accent-deep)}
 .stat .l{font-size:13px;color:var(--ink-3);margin-top:6px}
 
 .stage{position:relative;padding:10px 0 40px 0}
@@ -134,7 +134,7 @@ section{padding:96px 0}
 .tl-bar span{position:absolute;inset:0;width:40%;background:var(--accent-grad);animation:fill 3s ease-in-out infinite alternate}
 @keyframes fill{from{width:10%}to{width:100%}}
 .trial-chip{position:absolute;right:-2%;top:-30px;z-index:3;width:96px;height:96px;border-radius:50%;background:var(--accent-grad);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 18px 34px -14px rgba(156,106,46,.85);transform:rotate(8deg);animation:bob 6s ease-in-out infinite;animation-delay:-1.5s}
-.trial-chip b{font-family:var(--display);font-style:italic;font-weight:400;font-size:40px;line-height:.9}
+.trial-chip b{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-style:normal;font-weight:400;font-size:40px;line-height:.9}
 .trial-chip span{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;text-align:center;line-height:1.2}
 
 /* plans */
@@ -145,10 +145,10 @@ section{padding:96px 0}
 .plan{background:var(--surface);border-radius:var(--r);padding:30px 28px 28px;border:1px solid var(--line);box-shadow:var(--shadow-sm);display:flex;flex-direction:column;position:relative;transition:transform .25s ease,box-shadow .25s ease}
 .plan:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
 .plan .tag{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
-.plan h3{font-family:var(--display);font-size:40px;line-height:1;margin:8px 0 6px}
+.plan h3{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-size:40px;line-height:1;margin:8px 0 6px}
 .plan .for{font-size:14.5px;color:var(--ink-2);min-height:44px}
 .price{display:flex;align-items:baseline;gap:8px;margin:22px 0 4px}
-.price .amt{font-family:var(--display);font-size:56px;line-height:1;letter-spacing:-.02em}
+.price .amt{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-size:56px;line-height:1;letter-spacing:-.02em}
 .price .per{font-size:14px;color:var(--ink-3)}
 .gst{font-size:12.5px;color:var(--ink-3)}
 .keep{margin:18px 0 20px;background:var(--accent-soft);border-radius:14px;padding:13px 15px;font-size:14px;color:var(--ink-2)}
@@ -192,7 +192,7 @@ section{padding:96px 0}
 .show.rev{grid-template-columns:1.05fr 1fr}
 .show.rev .show-media{order:-1}
 .show + .show{margin-top:110px}
-.show h3{font-family:var(--display);font-size:clamp(32px,3.8vw,46px);line-height:1.05;margin:14px 0 14px}
+.show h3{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-size:clamp(32px,3.8vw,46px);line-height:1.05;margin:14px 0 14px}
 .show h3 em{font-style:italic;color:var(--accent-deep)}
 .show p{color:var(--ink-2);font-size:16.5px}
 .cards{display:grid;gap:12px;margin-top:26px}
@@ -224,7 +224,7 @@ table.cmp{width:100%;border-collapse:collapse;min-width:760px}
 .cmp th,.cmp td{padding:15px 20px;text-align:center;font-size:14.5px;border-bottom:1px solid var(--line)}
 .cmp th:first-child,.cmp td:first-child{text-align:left;color:var(--ink-2);width:36%}
 .cmp thead th{background:#FBF8F3;font-weight:600;font-size:15px;padding:20px}
-.cmp thead th small{display:block;font-family:var(--display);font-style:italic;font-weight:400;font-size:24px;color:var(--accent-deep);margin-top:2px}
+.cmp thead th small{display:block;font-family:'Inter Tight','Inter',system-ui,sans-serif;font-style:normal;font-weight:400;font-size:24px;color:var(--accent-deep);margin-top:2px}
 .cmp thead th.hl{background:var(--accent-soft)}
 .cmp td.hl{background:rgba(245,232,210,.4)}
 .cmp tr.grp td{background:var(--bg);font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-deep);text-align:left;padding:12px 20px}
@@ -236,10 +236,10 @@ table.cmp{width:100%;border-collapse:collapse;min-width:760px}
 .finder{display:grid;grid-template-columns:1fr 1.2fr;gap:44px;align-items:center;background:#15110D;color:var(--bg);border-radius:28px;padding:56px;position:relative;overflow:hidden}
 .finder::after{content:"";position:absolute;right:-120px;top:-160px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(224,169,92,.35),transparent 65%);pointer-events:none}
 .finder .eyebrow{color:#E0A95C}.finder .eyebrow::before{background:#E0A95C}
-.finder h2{font-family:var(--display);font-size:clamp(32px,4vw,48px);line-height:1.05;margin:14px 0}
+.finder h2{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-size:clamp(32px,4vw,48px);line-height:1.05;margin:14px 0}
 .finder h2 em{font-style:italic;color:#E0A95C}
 .finder p{color:rgba(245,240,232,.72)}
-.sales{font-family:var(--display);font-size:52px;line-height:1;margin:22px 0 10px;color:#fff}
+.sales{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-size:52px;line-height:1;margin:22px 0 10px;color:#fff}
 input[type=range]{width:100%;accent-color:#C58B43;height:28px}
 .ticks-row{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;color:rgba(245,240,232,.45)}
 .f-cards{display:grid;gap:12px;position:relative;z-index:1}
@@ -270,7 +270,7 @@ input[type=range]{width:100%;accent-color:#C58B43;height:28px}
 /* founder */
 .founder{display:flex;gap:30px;align-items:center;max-width:900px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:26px;padding:34px;box-shadow:var(--shadow-sm)}
 .founder img{width:132px;height:132px;border-radius:50%;flex:none;box-shadow:0 0 0 6px var(--accent-soft)}
-.founder p{font-family:var(--display);font-size:clamp(21px,2.4vw,27px);line-height:1.3;letter-spacing:-.01em}
+.founder p{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-size:clamp(21px,2.4vw,27px);line-height:1.3;letter-spacing:-.01em}
 .founder p em{font-style:italic;color:var(--accent-deep)}
 .founder .by{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin-top:12px}
 
@@ -286,7 +286,7 @@ input[type=range]{width:100%;accent-color:#C58B43;height:28px}
 
 /* final */
 .final{text-align:center;background:radial-gradient(ellipse at top,rgba(224,169,92,.28),transparent 60%),var(--bg-2);border-radius:32px;padding:74px 28px}
-.final h2{font-family:var(--display);font-size:clamp(38px,5.4vw,64px);line-height:1.02;margin:16px auto 16px;max-width:820px}
+.final h2{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-size:clamp(38px,5.4vw,64px);line-height:1.02;margin:16px auto 16px;max-width:820px}
 .final h2 em{font-style:italic;color:var(--accent-deep)}
 .final .hero-cta{justify-content:center;margin-top:28px}
 
@@ -380,7 +380,7 @@ footer{margin-top:96px}
   .launch-strip .arr{display:none}
   .phones .ph:nth-child(2){transform:translateY(-20px)}
   .mbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:70;background:rgba(245,240,232,.95);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-top:1px solid var(--line-2);padding:10px 16px calc(10px + env(safe-area-inset-bottom));gap:12px;align-items:center}
-  .mbar .p{font-family:var(--display);font-style:italic;font-size:22px;line-height:1}
+  .mbar .p{font-family:'Inter Tight','Inter',system-ui,sans-serif;font-style:normal;font-size:22px;line-height:1}
   .mbar .p small{display:block;font-family:var(--mono);font-style:normal;font-size:10px;letter-spacing:.1em;color:var(--ink-3);text-transform:uppercase;margin-top:3px}
   .mbar .btn{flex:1;padding:13px 16px}
 }
@@ -390,7 +390,7 @@ footer{margin-top:96px}
   --bg:#FFFFFF; --bg-2:#F6F8FC; --surface:#FFFFFF;
   --ink-1:#14161F; --ink-2:#4A5063; --ink-3:#7A8094; --ink-4:#A9AEBD;
   --line:#E6E8F0; --line-2:#D9DCE7;
-  --accent:#2B44FF; --accent-deep:#2B44FF; --accent-soft:#E8F0FF; --accent-line:#C9D1FF; --accent-light:#22C3F5;
+  --accent:#2B44FF; --accent-deep:#2B44FF; --accent-soft:#E8F0FF; --accent-line:#D5DBFF; --accent-light:#22C3F5;
   --accent-grad:linear-gradient(180deg,#3D55FF,#2B44FF);
   --blue:#2B44FF; --blue-d:#1A2FD9; --sky:#E8F0FF; --cyan:#22C3F5; --green:#16A34A;
   --shadow-sm:0 1px 2px rgba(20,22,31,.05),0 10px 30px -14px rgba(20,22,31,.18);
@@ -520,7 +520,7 @@ body{background:#fff;color:var(--ink-1)}
 .cmp tr.grp td{background:#F6F8FC;color:var(--blue)}
 
 /* finder */
-.finder{background:radial-gradient(120% 140% at 0% 0%,#1E2A8F 0%,#0F1660 45%,#0A0F3D 100%);border-radius:28px}
+.finder{background:radial-gradient(120% 140% at 0% 0%,#1E2A8F 0%,#0F1660 45%,#1b1b1b 100%);border-radius:28px}
 .finder::after{background:radial-gradient(circle,rgba(34,195,245,.35),transparent 65%)}
 .finder .eyebrow{color:#9EDCFF}.finder .eyebrow::before{background:#9EDCFF}
 .finder h2,.finder h2 em{color:#fff}
@@ -544,7 +544,7 @@ input[type=range]{accent-color:#22C3F5}
 .faq-list summary::after{color:var(--blue);font-family:var(--ui)}
 
 /* final (dark blue like homepage) */
-.px-final{position:relative;overflow:hidden;background:#0A0F3D;color:#fff;padding:110px 0 120px;text-align:center;margin-top:40px}
+.px-final{position:relative;overflow:hidden;background:#1b1b1b;color:#fff;padding:110px 0 120px;text-align:center;margin-top:40px}
 .px-final .rays2{position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 16px,rgba(255,255,255,.06) 16px 18px),radial-gradient(70% 90% at 50% 120%,#2B7BFF 0%,#2B44FF 35%,rgba(43,68,255,0) 70%);background-size:200% 100%,100% 100%;animation:shimmer 18s linear infinite}
 @keyframes shimmer{from{background-position:0 0,0 0}to{background-position:-400px 0,0 0}}
 .px-final .wrap{position:relative}
@@ -557,7 +557,7 @@ input[type=range]{accent-color:#22C3F5}
 .px-final .note{font-size:13px;color:rgba(255,255,255,.55);margin-top:18px}
 
 /* footer (homepage style) */
-footer{background:#070A26!important;color:rgba(255,255,255,.7);border-top:1px solid rgba(255,255,255,.08)!important;margin-top:0!important;position:relative;overflow:hidden}
+footer{background:#151515!important;color:rgba(255,255,255,.7);border-top:1px solid rgba(255,255,255,.08)!important;margin-top:0!important;position:relative;overflow:hidden}
 footer::before{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(255,255,255,0) 0 16px,rgba(91,108,255,.07) 16px 18px),radial-gradient(60% 50% at 50% 0%,rgba(43,68,255,.35),rgba(43,68,255,0) 70%)}
 footer > .wrap{position:relative}
 .foot-brand .lockup span,.foot-brand .word{font-family:var(--display)!important;font-style:italic!important;font-weight:400;letter-spacing:-.3px;font-size:30px;color:#fff}
@@ -598,7 +598,7 @@ footer > .wrap{position:relative}
 /* Scale plan (0% commission), added 2026-10-25, premium card */
 .plan-scale{margin-top:30px;position:relative;border-radius:30px;padding:1.5px;background:linear-gradient(135deg,#9EE6FF 0%,#2B44FF 30%,rgba(43,68,255,.25) 60%,#9EE6FF 100%);box-shadow:0 40px 80px -40px rgba(10,15,61,.85),0 0 0 1px rgba(43,68,255,.08)}
 .ps-in{position:relative;overflow:hidden;border-radius:28.5px;display:grid;grid-template-columns:.95fr 1.45fr;gap:44px;padding:46px 48px;color:#fff;
-  background:radial-gradient(70% 90% at 100% 0%,rgba(126,224,255,.22) 0%,rgba(126,224,255,0) 60%),radial-gradient(90% 120% at 0% 100%,rgba(43,68,255,.55) 0%,rgba(43,68,255,0) 60%),linear-gradient(160deg,#0B1240 0%,#070A26 100%)}
+  background:radial-gradient(70% 90% at 100% 0%,rgba(126,224,255,.22) 0%,rgba(126,224,255,0) 60%),radial-gradient(90% 120% at 0% 100%,rgba(43,68,255,.55) 0%,rgba(43,68,255,0) 60%),linear-gradient(160deg,#1f1f22 0%,#151515 100%)}
 .ps-in::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(105deg,rgba(255,255,255,0) 0 30px,rgba(255,255,255,.035) 30px 31px);pointer-events:none}
 .ps-in::after{content:"";position:absolute;width:520px;height:520px;right:-160px;top:-260px;border-radius:50%;background:radial-gradient(circle,rgba(126,224,255,.25),rgba(126,224,255,0) 65%);pointer-events:none}
 .ps-in > *{position:relative;z-index:1}
@@ -640,7 +640,7 @@ footer > .wrap{position:relative}
 .bill-tog{display:inline-flex;gap:4px;padding:5px;margin-top:26px;border-radius:999px;background:var(--surface);border:1px solid var(--line-2);box-shadow:0 1px 2px rgba(15,18,32,.04),0 10px 30px -18px rgba(20,30,120,.35)}
 .bill-tog button{display:inline-flex;align-items:center;gap:9px;height:46px;padding:0 22px;border:0;border-radius:999px;background:transparent;font:600 15px/1 var(--ui);color:var(--ink-2);cursor:pointer;transition:background .2s,color .2s,box-shadow .2s}
 .bill-tog button:hover{color:var(--ink-1)}
-.bill-tog button[aria-pressed="true"]{background:#0A0F3D;color:#fff;box-shadow:0 6px 16px -8px rgba(10,15,61,.6)}
+.bill-tog button[aria-pressed="true"]{background:#1b1b1b;color:#fff;box-shadow:0 6px 16px -8px rgba(10,15,61,.6)}
 .bill-tog em{font-style:normal;font-size:11.5px;font-weight:700;letter-spacing:.02em;padding:4px 9px;border-radius:999px;background:#E6EAFF;color:#2B44FF}
 .bill-tog button[aria-pressed="true"] em{background:#2B44FF;color:#fff}
 .bill-tog:focus-within{outline:none}
@@ -651,7 +651,7 @@ footer > .wrap{position:relative}
 .cmp-tog{display:flex;justify-content:center;margin:-8px 0 22px}
 @media (max-width:480px){.bill-tog button{padding:0 14px;font-size:14px;height:42px}.bill-tog em{display:none}}
 @media (prefers-reduced-motion:reduce){.bp-swap{animation:none}}
-.bill-chips i{font-style:normal;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#22C3F5;color:#0A0F3D;padding:2px 7px;border-radius:999px;margin-left:6px}
+.bill-chips i{font-style:normal;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#22C3F5;color:#1b1b1b;padding:2px 7px;border-radius:999px;margin-left:6px}
 .bp-head{margin:46px auto 0;max-width:760px;text-align:center;display:flex;flex-direction:column;gap:6px}
 .bp-head .bp-k{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#2B44FF}
 .bp-head b{font-size:clamp(22px,2.6vw,30px);letter-spacing:-.02em;color:var(--ink-1)}
@@ -680,8 +680,9 @@ footer > .wrap{position:relative}
 @media (max-width:640px){.big-acad{flex-direction:column;align-items:flex-start}}
 </style>
 <script src="/assets/attribution.js?v=1" defer></script>
+<link rel="stylesheet" href="/assets/x/x.css?v=24"/>
 </head>
-<body>
+<body class="xpage xin">
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -704,49 +705,173 @@ footer > .wrap{position:relative}
   <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M16.37 1.43c0 1.14-.42 2.2-1.12 2.98-.84.92-2.03 1.6-3.07 1.5-.13-1.1.42-2.27 1.1-2.99.77-.84 2.1-1.48 3.09-1.49zM20.5 17.1c-.55 1.27-.82 1.84-1.53 2.96-.99 1.57-2.39 3.52-4.12 3.54-1.54.01-1.93-1-4.02-.99-2.08.01-2.52 1.01-4.06 1-1.73-.02-3.05-1.78-4.04-3.35C-.04 15.92-.33 10.9 1.4 8.26c1.23-1.88 3.17-2.98 5-2.98 1.85 0 3.02 1.02 4.56 1.02 1.5 0 2.41-1.02 4.57-1.02 1.63 0 3.36.89 4.59 2.42-4.04 2.21-3.38 7.98.38 9.4z"/></symbol>
 </svg>
 
-<header class="nav">
-  <div class="wrap">
-    <a href="/" class="lockup"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="AllCoaching" width="512" height="512"/><span>AllCoaching</span></a>
-    <nav class="nav-links" aria-label="Main">
-      <a href="/#features">Features</a>
-      <a href="/#academies">Academies</a>
-      <a href="/pricing" aria-current="page">Pricing</a>
-      <a href="/blog/">Blog</a>
-      <a href="/faq">FAQ</a>
+<!-- X HEADER (source: assets/x/header.html) -->
+<header class="xh" id="xh">
+  <div class="xh-in">
+    <a href="/" class="xh-logo" aria-label="AllCoaching home"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="" width="64" height="64"/><span>AllCoaching</span></a>
+    <nav class="xh-nav" aria-label="Main">
+      <button type="button" class="xh-t" aria-expanded="false" aria-controls="xm-why">Why AllCoaching <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="m2.5 4.5 3.5 3.5 3.5-3.5"/></svg></button>
+      <button type="button" class="xh-t" aria-expanded="false" aria-controls="xm-product">Product <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="m2.5 4.5 3.5 3.5 3.5-3.5"/></svg></button>
+      <a href="/pricing">Pricing</a>
+      <button type="button" class="xh-t" aria-expanded="false" aria-controls="xm-res">Resources <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="m2.5 4.5 3.5 3.5 3.5-3.5"/></svg></button>
+      <a class="xh-pill" href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></i>Studio Tutorials 2027</a>
     </nav>
-    <div class="nav-cta">
-      <a href="https://studio.allcoaching.in/login" class="login">Log in</a>
-      <a href="https://studio.allcoaching.in/" class="btn btn-accent">Start free trial</a>
+    <div class="xh-r">
+      <a href="https://studio.allcoaching.in/login" class="xh-login">Log in</a>
+      <a href="https://studio.allcoaching.in/" class="xh-cta">Start free trial</a>
+      <button type="button" class="xh-burger" aria-label="Open menu" aria-expanded="false" aria-controls="xh-drawer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+
+  <div class="xh-panel" id="xm-why" hidden>
+    <div class="xh-pin xp-why">
+      <a class="xc" href="/start"><div class="xc-img"><img src="/assets/x/s-site-800.webp" alt="An academy website built on AllCoaching" loading="lazy" width="800" height="450"/></div><b>Get started fast</b><small>Sign up, upload your course and go live the same day.</small></a>
+      <a class="xc" href="/vs/"><div class="xc-img"><img src="/assets/x/s-course-800.webp" alt="Creating a new course in the AllCoaching studio" loading="lazy" width="800" height="450"/></div><b>Switch to AllCoaching</b><small>Bring your courses. Keep your students and your brand.</small></a>
+      <a class="xc" href="/about"><div class="xc-img"><img src="/assets/x/a-courses-800.webp" alt="Courses on an academy website built on AllCoaching" loading="lazy" width="800" height="450"/></div><b>Trusted by 500+ educators</b><small>Coaching owners, tutors and skill educators.</small></a>
+      <div class="xc-side">
+        <div class="xh-eye">Built into every academy</div>
+        <a class="xc xc-mini" href="/features/payments"><div class="xc-img"><img src="/assets/x/s-getpaid-800.webp" alt="Razorpay checkout set-up in the studio" loading="lazy" width="800" height="450"/></div><b>Your own checkout</b><small>UPI and cards, paid to your bank.</small></a>
+        <a class="xc xc-mini" href="/features/test-series"><div class="xc-img"><img src="/assets/x/s-tests-800.webp" alt="Test series results in the studio" loading="lazy" width="800" height="450"/></div><b>Test series</b><small>All-India rank and percentile.</small></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="xh-panel" id="xm-product" hidden>
+    <div class="xh-pin xp-prod">
+      <div>
+        <div class="xh-eye">Build your academy</div>
+        <ul class="xl">
+          <li><a href="/features/academy-website"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/></svg></span>Website builder</a></li>
+          <li><a href="/features/academy-website"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M4 5h7v7H4zM13 5h7v4h-7zM13 11h7v8h-7zM4 14h7v5H4z"/></svg></span>Themes</a></li>
+          <li><a href="/features/academy-website"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span>Your own domain</a></li>
+          <li><a href="/features/mobile-app"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg></span>Your Android app</a></li>
+          <li><a href="/features/mobile-app"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10 5.5h4"/></svg></span>Your iOS app <small>Growth and Pro</small></a></li>
+        </ul>
+        <div class="xh-eye">Run it</div>
+        <ul class="xl">
+          <li><a href="/features/batches"><span class="xi" style="--h:#0EA5E9"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/></svg></span>Students and batches</a></li>
+          <li><a href="/features/team"><span class="xi" style="--h:#7C3AED"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg></span>Team logins</a></li>
+          <li><a href="/features/analytics"><span class="xi" style="--h:#9333EA"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span>Analytics</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="xh-eye">Teach</div>
+        <ul class="xl">
+          <li><a href="/features/courses"><span class="xi" style="--h:#7C3AED"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m10 9 5 3-5 3z"/></svg></span>Courses and videos</a></li>
+          <li><a href="/features/live-classes"><span class="xi" style="--h:#DC2626"><svg viewBox="0 0 24 24"><path d="M15 10l5-3v10l-5-3"/><rect x="3" y="6" width="12" height="12" rx="2"/></svg></span>Live classes</a></li>
+          <li><a href="/features/test-series"><span class="xi" style="--h:#D97706"><svg viewBox="0 0 24 24"><path d="M9 4h6l1 2h3v14H5V6h3z"/><path d="m9 13 2 2 4-4"/></svg></span>Test series</a></li>
+          <li><a href="/features/notes-pdfs"><span class="xi" style="--h:#0891B2"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg></span>Notes and PDFs</a></li>
+          <li><a href="/features/free-content"><span class="xi" style="--h:#0D9488"><svg viewBox="0 0 24 24"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H7.5a2.5 2.5 0 1 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 1 0 0-5C13 2 12 7 12 7z"/></svg></span>Free content</a></li>
+          <li><a href="/features/courses"><span class="xi" style="--h:#7C3AED"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="m8.5 14.5-1.5 7 5-3 5 3-1.5-7"/></svg></span>Certificates</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="xh-eye">Sell and grow</div>
+        <ul class="xl">
+          <li><a href="/features/payments"><span class="xi" style="--h:#16A34A"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></svg></span>Checkout and payments</a></li>
+          <li><a href="/features/discount-codes"><span class="xi" style="--h:#EA580C"><svg viewBox="0 0 24 24"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></span>Discount codes</a></li>
+          <li><a href="/features/community"><span class="xi" style="--h:#2563EB"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>Community</a></li>
+          <li><a href="/features/integrations"><span class="xi" style="--h:#4F46E5"><svg viewBox="0 0 24 24"><path d="M9 2v6M15 2v6M6 8h12v4a6 6 0 0 1-12 0zM12 18v4"/></svg></span>Integrations</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="xh-eye">Plans</div>
+        <ul class="xl">
+          <li><a href="/pricing"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M6 4h12M6 9h12M14 4c3 0 3 10-3 10H6l8 6"/></svg></span>Monthly · 0% commission</a></li>
+          <li><a href="/pricing"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></span>Yearly plans</a></li>
+          <li><a href="/pricing#compare"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></span>Compare every plan</a></li>
+          <li><a href="/vs/"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M8 3 4 7l4 4M4 7h16M16 21l4-4-4-4M20 17H4"/></svg></span>AllCoaching vs others</a></li>
+        </ul>
+      </div>
+      <div class="xp-promo">
+        <div class="xh-eye">Studio tour</div>
+        <a class="xc" href="#" data-xvideo="https://allcoaching-store.b-cdn.net/blog-images/allcoaching-studio-tour-v4-1080p.mp4"><div class="xc-img"><img src="/assets/x/tour-poster.webp" alt="A tour of the AllCoaching studio" loading="lazy" width="960" height="540"/></div><b>Your whole academy, in one studio</b><small>Watch the tour</small></a>
+        <ul><li>iOS app on Growth and Pro, after 30 days</li><li>Monthly plans with 0% commission</li></ul>
+      </div>
+    </div>
+    <div class="xp-strip"><div class="xh-pin">
+      <div class="xh-eye" style="margin:0">Explore AllCoaching</div>
+      <a href="/features/">All features<small>Each with a studio tutorial</small></a>
+      <a href="/faq">Help and FAQ<small>Answers to common questions</small></a>
+      <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener">Talk to the team<small>WhatsApp, Hindi and English</small></a>
+    </div></div>
+  </div>
+
+  <div class="xh-panel" id="xm-res" hidden>
+    <div class="xh-pin xp-res">
+      <div><div class="xh-eye">Learn</div><ul class="xl">
+        <li><a href="/blog/"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M4 4h12l4 4v12H4z"/><path d="M8 10h8M8 14h8M8 18h5"/></svg></span>Blog</a></li>
+        <li><a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m10 9 5 3-5 3z"/></svg></span>Studio tutorials</a></li>
+        <li><a href="/faq"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5h.01"/></svg></span>Help and FAQ</a></li>
+      </ul></div>
+      <div><div class="xh-eye">Compare</div><ul class="xl">
+        <li><a href="/vs/"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M8 3 4 7l4 4M4 7h16M16 21l4-4-4-4M20 17H4"/></svg></span>All comparisons</a></li>
+        <li><a href="/vs/classplus"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M5 12h14"/></svg></span>vs Classplus</a></li>
+        <li><a href="/vs/graphy"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M5 12h14"/></svg></span>vs Graphy</a></li>
+      </ul></div>
+      <div><div class="xh-eye">Company</div><ul class="xl">
+        <li><a href="/about"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5h.01"/></svg></span>About</a></li>
+        <li><a href="/manifesto"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2zM8 7h8"/></svg></span>Manifesto</a></li>
+        <li><a href="/contact"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>Contact</a></li>
+      </ul></div>
+      <div class="xp-promo">
+        <div class="xh-eye">Talk to us</div>
+        <p style="font-size:15px;color:rgba(255,255,255,.72);line-height:1.55">Questions before you start? Message the team on WhatsApp, in Hindi or English.</p>
+        <a class="xh-cta" style="display:inline-block;margin-top:16px" href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener">WhatsApp us</a>
+      </div>
     </div>
   </div>
 </header>
+<div class="xh-scrim" id="xh-scrim"></div>
+<nav class="xh-drawer" id="xh-drawer" aria-label="Menu" hidden>
+  <details><summary>Why AllCoaching</summary><a href="/start">Get started fast</a><a href="/vs/">Switch to AllCoaching</a><a href="/about">Trusted by 500+ educators</a></details>
+  <details><summary>Product</summary>
+    <a href="/features/">All features</a>
+    <div class="xh-eye">Build</div><a href="/features/academy-website">Website builder and themes</a><a href="/features/academy-website">Your own domain</a><a href="/features/mobile-app">Your Android and iOS app</a>
+    <div class="xh-eye">Teach</div><a href="/features/courses">Courses, videos and PDFs</a><a href="/features/live-classes">Live classes</a><a href="/features/test-series">Test series</a><a href="/features/courses">Certificates</a>
+    <div class="xh-eye">Sell and run</div><a href="/features/payments">Checkout and payments</a><a href="/features/discount-codes">Discount codes</a><a href="/features/batches">Students, batches and team</a><a href="/features/integrations">Integrations</a>
+  </details>
+  <a href="/pricing">Pricing</a>
+  <details><summary>Resources</summary><a href="/blog/">Blog</a><a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener">Studio tutorials</a><a href="/faq">Help and FAQ</a><a href="/vs/">Compare</a><a href="/about">About</a><a href="/contact">Contact</a></details>
+  <div class="xh-dcta"><a class="a1" href="https://studio.allcoaching.in/login">Log in</a><a class="a2" href="https://studio.allcoaching.in/">Start free trial</a></div>
+</nav>
+<!-- /X HEADER -->
 
 <main>
 
 <!-- HERO -->
-<section class="px-hero" id="top">
-  <div class="blob b1" aria-hidden="true"></div><div class="blob b2" aria-hidden="true"></div>
-  <div class="wrap">
-    <span class="px-pill reveal"><i></i>New · 0% commission plans from ₹3,999/month</span>
-    <h1 class="reveal">Sign up. Upload.<br/><span class="bd">Start selling.</span></h1>
-    <p class="lede reveal">AllCoaching works the way Shopify works for an online store: sign up, choose a plan, upload your course, connect your domain and start selling. Unlimited YouTube video and live classes, your own white-label Android app, themes, plugins and marketing tools come with every plan; the iOS app comes with Growth and Pro, after 30 days. Pay monthly and keep 100% of every sale, or pay yearly with a small fee per sale. Try it all free for 7 days.</p>
-    <div class="px-cta reveal">
-      <a href="https://studio.allcoaching.in/" class="btn btn-accent">Start 7-day free trial <svg><use href="#i-arrow"/></svg></a>
-      <a href="#plans" class="btn btn-ghost">See the plans</a>
+<section class="xphero" id="top">
+  <div class="xw">
+    <div class="tx">
+      <div class="xh-eye">Pricing · 0% commission plans from ₹3,999/month</div>
+      <h1>Sign up. Upload.<br/><span class="bd">Start selling.</span></h1>
+      <p class="sub">AllCoaching works the way Shopify works for an online store: sign up, choose a plan, upload your course, connect your domain and start selling. Unlimited YouTube video and live classes, your own white-label Android app, themes, plugins and marketing tools come with every plan; the iOS app comes with Growth and Pro, after 30 days. Pay monthly and keep 100% of every sale, or pay yearly with a small fee per sale. Try it all free for 7 days.</p>
+      <div class="xcta">
+        <a href="https://studio.allcoaching.in/" class="xbtn xbtn-w">Start 7-day free trial</a>
+        <a href="#plans" class="xbtn xbtn-o">See the plans</a>
+      </div>
+      <div class="xnote"><span>No card needed</span><span>No setup fee</span><span>No sales call</span></div>
     </div>
-    <div class="px-micro reveal"><span><svg><use href="#i-check"/></svg>No card needed</span><span><svg><use href="#i-check"/></svg>No setup fee</span><span><svg><use href="#i-check"/></svg>No sales call</span></div>
-    <div class="px-path reveal" aria-label="How the free trial works">
-      <div class="now"><small>Today</small><b>Start free</b><span>Sign up with Google, no card</span></div>
+    <div class="vis">
+      <div class="xframe"><img src="/assets/x/a-course.webp" alt="A course page on an AllCoaching academy with its price, Enroll now button and what the course includes" width="1600" height="900" fetchpriority="high"/></div>
+      <div class="xphone"><i class="b l1"></i><i class="b l2"></i><i class="b l3"></i><i class="b r1"></i><div class="scr"><span class="isl" aria-hidden="true"></span><div class="sb" aria-hidden="true"><span class="t">9:41</span><span class="ind"><svg viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx=".7"/><rect x="5" y="5.5" width="3" height="6.5" rx=".7"/><rect x="10" y="3" width="3" height="9" rx=".7"/><rect x="15" y="0" width="3" height="12" rx=".7"/></svg><svg viewBox="0 0 16 12"><path d="M8 11.5 5.6 9a3.4 3.4 0 0 1 4.8 0zM3.4 6.8a6.5 6.5 0 0 1 9.2 0l-1.4 1.4a4.5 4.5 0 0 0-6.4 0zM1.2 4.6a9.6 9.6 0 0 1 13.6 0l-1.4 1.4a7.6 7.6 0 0 0-10.8 0z"/></svg><svg viewBox="0 0 26 12"><rect x=".5" y=".5" width="22" height="11" rx="3" fill="none" stroke="currentColor" opacity=".45"/><rect x="2" y="2" width="17" height="8" rx="1.8"/><rect x="23.6" y="4" width="1.6" height="4" rx=".8" opacity=".45"/></svg></span></div><img src="/assets/x/m-courses.webp" alt="Courses on an academy, on a phone" loading="lazy" width="780" height="1688"/><span class="hm" aria-hidden="true"></span></div><span class="gl" aria-hidden="true"></span></div>
+    </div>
+  </div>
+  <div class="xw" style="display:block">
+    <div class="xkpis" aria-label="How the free trial works">
+      <div><small>Today</small><b>Start free</b><span>Sign up with Google, no card</span></div>
       <div><small>Days 1–7</small><b>Build &amp; brand</b><span>Add courses, connect your domain</span></div>
       <div><small>Day 7</small><b>Pick a plan</b><span>₹3,999/month at 0%, or ₹6,999/year, + GST</span></div>
     </div>
-    <div class="px-stats reveal">
+    <div class="xkpis" style="margin-top:0">
       <div><b>500+</b><span>educators already selling</span></div>
       <div><b>0%</b><span>commission on monthly plans</span></div>
       <div><b>Unlimited</b><span>YouTube video &amp; live classes</span></div>
     </div>
   </div>
 </section>
+<div class="xlight">
+
 
 <!-- PAIN → SOLUTION -->
 <section class="ps" id="why">
@@ -1248,30 +1373,43 @@ footer > .wrap{position:relative}
 </section>
 
 <!-- FINAL -->
-<section class="px-final">
-  <div class="rays2" aria-hidden="true"></div>
-  <div class="wrap">
-    <h2 class="reveal">Build your LMS <span class="bd">tonight.</span></h2>
-    <p class="reveal">Drag and drop your academy, put your brand on it and start selling. Free for 7 days.</p>
-    <div class="px-cta reveal">
-      <a href="https://studio.allcoaching.in/" class="btn btn-white">Start 7-day free trial <svg><use href="#i-arrow"/></svg></a>
-    </div>
-    <p class="note reveal">7 days free, then 0% commission from ₹3,999 a month, or from ₹6,999 a year · Prices exclude GST</p>
+</div>
+<section class="xfinal plain">
+  <div class="xw">
+    <h2 class="xd" style="font-size:clamp(44px,6vw,96px);max-width:13ch">Build your LMS <b>tonight.</b></h2>
+    <p class="xlead">Drag and drop your academy, put your brand on it and start selling. Free for 7 days.</p>
+    <div class="xcta"><a href="https://studio.allcoaching.in/" class="xbtn xbtn-w">Start 7-day free trial</a><a class="xbtn xbtn-o" href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener">Ask on WhatsApp</a></div>
+    <p class="xlead" style="font-size:14px;color:rgba(255,255,255,.52)">7 days free, then 0% commission from ₹3,999 a month, or from ₹6,999 a year · Prices exclude GST</p>
   </div>
 </section>
 
+
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <a href="#top" class="lockup"><img src="assets/logo/allcoaching-logo.webp?v=20260707" alt="AllCoaching" width="512" height="512"/><span class="word">AllCoaching</span></a>
-        <p class="foot-desc">The LMS for educators. Build your own online academy in a few clicks, make it your brand and start selling.</p>
-        <a class="foot-ct" href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>+91 98899 77262 (WhatsApp)</a>
-        <a class="foot-ct" href="mailto:contact@allcoaching.in"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>contact@allcoaching.in</a>
-        <div class="foot-follow">Follow us</div>
-        <div class="foot-soc">
+<!-- X FOOTER (source: assets/x/footer.html) -->
+<footer class="xft">
+  <div class="xft-in">
+    <div class="xft-top">
+      <div class="xft-brand">
+        <a href="/" class="xft-logo" aria-label="AllCoaching home"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="" width="64" height="64" loading="lazy"/><span>AllCoaching</span></a>
+        <p>Build your own LMS in a few clicks: your website, your app, your courses and your payments, under your own brand.</p>
+        <a class="xft-cta" href="https://studio.allcoaching.in/">Start free trial</a>
+        <div class="xft-ct">
+          <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener">WhatsApp +91 98899 77262</a>
+          <a href="mailto:contact@allcoaching.in">contact@allcoaching.in</a>
+        </div>
+      </div>
+      <nav class="xft-cols" aria-label="Footer">
+        <div><h4>Product</h4><a href="/features/">All features</a><a href="/pricing">Pricing</a><a href="/start">Get started</a><a href="/vs/">Compare</a><a href="https://studio.allcoaching.in/login">Log in</a></div>
+        <div><h4>Features</h4><a href="/features/academy-website">Academy website</a><a href="/features/mobile-app">Your own app</a><a href="/features/courses">Courses</a><a href="/features/test-series">Test series</a><a href="/features/live-classes">Live classes</a><a href="/features/payments">Payments</a></div>
+        <div><h4>Resources</h4><a href="/blog/">Blog</a><a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener">Studio tutorials</a><a href="/faq">Help and FAQ</a><a href="/press">Press</a><a href="/brand">Brand</a></div>
+        <div><h4>Company</h4><a href="/about">About</a><a href="/manifesto">Manifesto</a><a href="/author/amit-ratan">Founder</a><a href="/contact">Contact</a></div>
+        <div><h4>Legal</h4><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refund-policy">Refund and cancellation</a><a href="/delivery-policy">Delivery policy</a><a href="/educator-agreement">Educator agreement</a></div>
+      </nav>
+    </div>
+    <div class="xft-mid">
+      <div class="xft-follow"><span>Follow AllCoaching</span>
+        <div class="xft-soc">
           <a class="wa" href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57a1.1 1.1 0 00-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4c-1.76 0-3.49-.47-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.38a9.86 9.86 0 01-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.83 9.83 0 019.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0012.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 005.69 1.45c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 00-3.48-8.41z"/></svg></a>
           <a class="yt" href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.6 3.6 12 3.6 12 3.6s-7.6 0-9.4.5A3 3 0 00.5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 002.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 002.1-2.1c.5-1.8.5-5.8.5-5.8s0-4-.5-5.8zM9.6 15.6V8.4l6.3 3.6z"/></svg></a>
           <a class="tg" href="https://t.me/allcoaching" target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.2-1.86 8.77c-.14.62-.51.77-1.03.48l-2.85-2.1-1.37 1.32c-.15.15-.28.28-.57.28l.2-2.9 5.27-4.77c.23-.2-.05-.32-.36-.12l-6.52 4.1-2.81-.88c-.61-.19-.62-.61.13-.9l10.99-4.24c.51-.19.96.12.78.96z"/></svg></a>
@@ -1282,17 +1420,16 @@ footer > .wrap{position:relative}
           <a class="as" href="https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866" target="_blank" rel="noopener" aria-label="iOS app on the App Store"><svg viewBox="0 0 24 24"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg></a>
         </div>
       </div>
-      <div class="foot-col"><h4>Product</h4><a href="/start">Start</a><a href="/#features">Features</a><a href="/#marketplace">Marketplace</a><a href="/pricing#finder">Calculator</a><a href="/pricing">Pricing</a><a href="/vs/">Compare</a></div>
-      <div class="foot-col"><h4>Company</h4><a href="https://allcoaching.in/manifesto">Manifesto</a><a href="https://allcoaching.in/blog/">Blog</a><a href="https://allcoaching.in/about">About</a><a href="https://allcoaching.in/contact">Contact</a><a href="https://allcoaching.in/privacy">Privacy</a><a href="https://allcoaching.in/terms">Terms</a><a href="/refund-policy">Refund &amp; Cancellation</a><a href="/delivery-policy">Delivery Policy</a></div>
-      <div class="foot-col"><h4>Educators</h4><a href="https://studio.allcoaching.in/login">Login</a><a href="https://studio.allcoaching.in/">Start free trial</a><a href="#faq">FAQ</a><a href="https://api.whatsapp.com/send/?phone=919889977262">WhatsApp</a></div>
-      <div class="foot-col"><h4>Students</h4><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching">Android App</a><a href="https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866">iOS App</a><a href="/#students">Find Educators</a><a href="https://t.me/allcoaching">Telegram</a></div>
+      <div class="xft-apps"><span>Student app</span><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching" target="_blank" rel="noopener">Android</a><a href="https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866" target="_blank" rel="noopener">iOS</a></div>
     </div>
-    <div class="foot-bottom">
-      <div>© <span id="yr">2026</span> AllCoaching Technology · Made in India 🇮🇳</div>
-      <div>The Operating System of Education · One educator at a time.</div>
+    <div class="xft-bot">
+      <div>© <span id="yr">2026</span> AllCoaching Technology · Made in India</div>
+      <div class="xft-tag">The Operating System of Education</div>
     </div>
+    
   </div>
 </footer>
+<!-- /X FOOTER -->
 
 <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="fab-wa" aria-label="Chat on WhatsApp">
   <svg viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57a1.1 1.1 0 00-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4c-1.76 0-3.49-.47-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.38a9.86 9.86 0 01-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.83 9.83 0 019.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0012.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 005.69 1.45c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 00-3.48-8.41z"/></svg>
@@ -1340,5 +1477,9 @@ var h=location.hash,b0=h==='#yearly'||h==='#bp-y'?'yearly':h==='#monthly'||h==='
 if(!b0){try{b0=sessionStorage.getItem('ac_bill')}catch(e){}}set(b0==='yearly'?'yearly':'monthly',false);
 if(h==='#yearly'||h==='#monthly'){var t=document.getElementById('plans');if(t)setTimeout(function(){t.scrollIntoView()},60)}})();
 </script>
+<div class="xmodal" id="xmodal" role="dialog" aria-modal="true" aria-label="AllCoaching studio tour" hidden>
+  <div class="box"><button type="button" class="close" aria-label="Close video">×</button><video controls playsinline preload="none" poster="/assets/x/tour-poster.webp"></video></div>
+</div>
+<script src="/assets/x/x.js?v=24" defer></script>
 </body>
 </html>

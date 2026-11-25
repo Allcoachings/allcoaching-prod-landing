@@ -1,0 +1,120 @@
+{
+ "slug": "discount-codes",
+ "nav": "Discount codes",
+ "group": "sell",
+ "eps": [
+  "09"
+ ],
+ "title": "Coupon Codes for Your Online Course | AllCoaching",
+ "description": "Create coupon codes for your courses: percent or flat off, who can use them, use limits, an end date, and discounts applied at checkout.",
+ "keywords": "coupon code for online course, course discount code, festival offer for students, launch offer coupon, discount code for coaching, auto apply discount checkout",
+ "eyebrow": "Discount codes",
+ "h1": [
+  "A good offer,",
+  "at the right time."
+ ],
+ "lede": "Run a festival sale or a launch offer for a new batch with a coupon code. Choose percent or flat off, decide who can use it and for how long, and see the new price before you create it.",
+ "notes": [
+  "Percent or flat ₹ off",
+  "Limits per code and per student",
+  "End date and automatic discount"
+ ],
+ "card": "Percent or flat coupon codes with use limits, end dates and automatic discounts.",
+ "sections": [
+  {
+   "eyebrow": "Create",
+   "h2": [
+    "Type a code,",
+    "see the new price."
+   ],
+   "body": "Press Create code and the form opens. Type the word a student enters at checkout, like DIWALI25, or press Generate for a random one. Pick Percent off or Flat ₹ off, and the preview shows what a course now costs and what the student saves.",
+   "bullets": [
+    "Letters and numbers, no spaces",
+    "Percent off or Flat ₹ off",
+    "Live price preview, for example ₹1,999 down to ₹1,499 (illustrative)",
+    "Students see shows the code the way your students will"
+   ],
+   "img": "/assets/x/f/discount-codes-1.webp",
+   "alt": "New discount code form with the code DIWALI25, 25 percent off and a live price preview",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Rules",
+   "h2": [
+    "Decide who can use it,",
+    "and until when."
+   ],
+   "body": "Choose what the code works on and how many times it can be used. In When, the code can start right away, and an end date stops it on its own. Turn on Apply automatically and students do not type a code at all: the discount comes off at checkout.",
+   "bullets": [
+    "Applies to all courses, first-time buyers only, all tests, all documents, or one course",
+    "Total uses and uses per student",
+    "Start right away, with an optional end date",
+    "Apply automatically at checkout"
+   ],
+   "img": "/assets/x/f/discount-codes-2.webp",
+   "alt": "Discount code form with ₹300 flat off, all courses, an end date and Apply automatically turned on",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Track",
+   "h2": [
+    "Every code,",
+    "in one place."
+   ],
+   "body": "The Discount page shows four numbers at the top: live codes, times used, revenue from codes and what students saved. Below, your codes are kept apart as Active, Scheduled and Expired, with a search.",
+   "bullets": [
+    "Live codes and times used",
+    "Revenue from codes and students saved",
+    "Active, Scheduled and Expired filters",
+    "Create a code now, or save it as a draft"
+   ],
+   "img": "/assets/x/f/discount-codes-3.webp",
+   "alt": "Discounts page in the studio with code stats and Active, Scheduled and Expired filters, before the first code",
+   "phone": ""
+  }
+ ],
+ "steps": [
+  {
+   "t": "Open Discount",
+   "d": "In your studio, open Discount and press Create code."
+  },
+  {
+   "t": "Name the code",
+   "d": "Type a code like DIWALI25, or press Generate for a random one."
+  },
+  {
+   "t": "Set the discount",
+   "d": "Choose percent or flat off and check the price preview."
+  },
+  {
+   "t": "Set who and when",
+   "d": "Pick what the code applies to, its use limits, an end date and whether it applies automatically."
+  },
+  {
+   "t": "Create or save",
+   "d": "Press Create code, or Save draft to finish it later."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I create a coupon code for my course?",
+   "a": "In Discount, press Create code. Type a code or press Generate, choose percent or flat off, pick what it applies to, add an end date if you want one, and press Create code."
+  },
+  {
+   "q": "How do I run a festival or launch sale?",
+   "a": "Create a code with an end date for the festival or launch and share it with your students. The code stops working on its own after the end date."
+  },
+  {
+   "q": "How do I apply a discount automatically?",
+   "a": "Turn on Apply automatically in the code form. The discount is then taken off at checkout, with no code to type."
+  },
+  {
+   "q": "Can I limit how many times a code is used?",
+   "a": "Yes. Set the total uses for the code and the uses per student. Leave total uses empty for no limit."
+  },
+  {
+   "q": "Can a code work on just one course?",
+   "a": "Yes. A code can apply to all courses, first-time buyers only, all tests, all documents, or one course."
+  }
+ ]
+}

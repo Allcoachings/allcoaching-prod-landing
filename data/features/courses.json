@@ -1,0 +1,121 @@
+{
+  "slug": "courses",
+  "nav": "Courses",
+  "group": "teach",
+  "eps": [
+    "02",
+    "03"
+  ],
+  "title": "Create and Sell Online Courses with Secure Video | AllCoaching",
+  "description": "Create a course with its price, modules and lessons, upload videos that play DRM-protected with a student-name watermark, and issue completion certificates.",
+  "keywords": "create online course, sell courses online india, online course platform india, course video protection, DRM video for courses, course certificate for students",
+  "eyebrow": "Courses",
+  "h1": [
+    "Build the course once,",
+    "sell it with confidence."
+  ],
+  "lede": "Write your course details, set your price and build it module by module with videos, PDFs, tests and live classes. Videos you upload play in a protected player with each student’s name as a watermark, and students who finish get a certificate.",
+  "notes": [
+    "Course page and checkout built for you",
+    "DRM and watermarking on every plan",
+    "Certificates on completion"
+  ],
+  "card": "Courses with modules, protected video and completion certificates, built in one studio.",
+  "sections": [
+    {
+      "eyebrow": "Build",
+      "h2": [
+        "Details, price,",
+        "and a page that builds itself."
+      ],
+      "body": "Start with a title students would search for, a one-line short description and a clear description of who the course is for. Set your price, and the course page, its web address and checkout are created for you.",
+      "bullets": [
+        "Paid or free, with an optional MRP shown struck through",
+        "Optional 18% GST added on top for the student",
+        "Banner image at 1280 × 720, or just pick a colour",
+        "Categories and suggested tags from your profile"
+      ],
+      "img": "/assets/x/f/courses-1.webp",
+      "alt": "New course form with title, short description, description, price, MRP, banner and category",
+      "phone": "/assets/x/m-course.webp"
+    },
+    {
+      "eyebrow": "Protect",
+      "h2": [
+        "Upload your videos.",
+        "Keep them yours."
+      ],
+      "body": "Upload a video to AllCoaching and it stays encrypted and watermarked, and plays on every device. You can also send videos to your own YouTube channel as unlisted, or add a link to one already there.",
+      "bullets": [
+        "DRM-protected player with automatic quality",
+        "Each student’s name as a watermark while they watch",
+        "Your logo watermark on every upload",
+        "Choose whether students can comment or download"
+      ],
+      "img": "/assets/x/f/courses-2.webp",
+      "alt": "Upload a video window with three options: AllCoaching, My YouTube and YouTube link",
+      "phone": ""
+    },
+    {
+      "eyebrow": "Finish",
+      "h2": [
+        "Module by module,",
+        "then a certificate."
+      ],
+      "body": "Students work through your course one module at a time, with videos, PDFs, tests and live classes inside. When they complete it, they get a certificate with your branding.",
+      "bullets": [
+        "Certificates issued automatically on completion",
+        "Your logo and the student’s name, with a unique certificate ID",
+        "Students can download and share it",
+        "Modules can open a set number of days after a student enrols"
+      ],
+      "img": "/assets/x/f/courses-3.webp",
+      "alt": "A course’s Content tab in the studio with two modules and video, test and document lessons",
+      "phone": ""
+    }
+  ],
+  "steps": [
+    {
+      "t": "Create the course",
+      "d": "In Courses, press New course and fill in the title, descriptions, price and banner."
+    },
+    {
+      "t": "Add modules",
+      "d": "In the Content tab, add modules for each chapter or week, with an opening day if you want one."
+    },
+    {
+      "t": "Add lessons",
+      "d": "Add videos, PDFs, tests or live classes to each module from your library, or upload new."
+    },
+    {
+      "t": "Upload videos securely",
+      "d": "Upload to AllCoaching for a protected, watermarked player, or use your own YouTube."
+    },
+    {
+      "t": "Schedule and publish",
+      "d": "Set release dates in the Schedule tab, then publish and share the course page."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I create an online course?",
+      "a": "In Courses, press New course, fill in the title, descriptions, price and banner, then Save draft or Create course. Then add modules and lessons in the course’s Content tab."
+    },
+    {
+      "q": "How do I set the course price and GST?",
+      "a": "Choose Paid or Free, enter your price and, if you like, an MRP that is shown struck through. A switch adds 18% GST on top for the student, and the form shows what the student pays and what you receive on each sale."
+    },
+    {
+      "q": "How do I protect my course videos?",
+      "a": "Videos uploaded to AllCoaching play in a DRM-protected player, with each student’s name as a watermark while they watch and your logo on the video. DRM and watermarking are part of every plan."
+    },
+    {
+      "q": "How do I add YouTube videos to my course?",
+      "a": "Connect My YouTube to upload straight to your channel as unlisted, or paste a YouTube link for a video already there. A YouTube video can also be opened outside your course, so for paid lessons an AllCoaching upload is the safer choice."
+    },
+    {
+      "q": "Do students get a certificate when they finish?",
+      "a": "Yes. Certificates carry your branding, are issued automatically when a student completes the course and each has a unique ID. Students can download and share them; a certificate is a proof of completion, not an accredited degree."
+    }
+  ]
+}

@@ -59,7 +59,7 @@
   <link rel="preconnect" href="https://allcoaching-store.b-cdn.net" crossorigin />
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="preload" as="image" href="../assets/amit-ratan-2026.webp" fetchpriority="high" />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../dist/tw.min.css?v=20260702" />
   <link rel="stylesheet" href="../styles.css?v=20260702" />
   <link rel="stylesheet" href="../brand.css?v=20261015" />
@@ -210,7 +210,7 @@
   </script>
 
   <style>
-    .kicker{ font-family:'Inter',sans-serif; font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:800; color:#2B44FF; }
+    .kicker{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:800; color:#2B44FF; }
     .h-mast{ font-size: clamp(2.4rem, 5.8vw, 4.6rem); line-height:1.02; font-weight:900; letter-spacing:-.035em; }
     .h-chap{ font-size: clamp(1.6rem, 3vw, 2.3rem); line-height:1.15; font-weight:800; letter-spacing:-.022em; }
 
@@ -219,7 +219,7 @@
     .story p + p{ margin-top:1.25rem; }
     .story strong{ color:#14161F; font-weight:700; }
     .story em{ font-style: italic; color: #14161F; }
-    .story .drop-cap::first-letter{ font-family:'Instrument Serif',serif; font-style:italic; font-size:4.2em; line-height:.85; float:left; margin:.05em .12em 0 -.04em; color:#1A2FD9; font-weight:400; }
+    .story .drop-cap::first-letter{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-size:4.2em; line-height:.85; float:left; margin:.05em .12em 0 -.04em; color:#1A2FD9; font-weight:400; }
 
     /* ─── Hero photo ring ─── */
     .photo-ring{ box-shadow:0 0 0 4px #F7F8FC,0 0 0 7px #5B6CFF,0 0 0 8px rgba(43,68,255,.35),0 0 0 14px rgba(91,108,255,.16),0 22px 50px -10px rgba(43,68,255,.45); }
@@ -228,7 +228,7 @@
     .stat-strip{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:0; margin-top:2.5rem; border-top:1px solid rgba(20,22,31,.08); border-bottom:1px solid rgba(20,22,31,.08); padding:1.25rem 0; }
     .stat-cell{ text-align:center; padding:0 .75rem; position:relative; }
     .stat-cell + .stat-cell::before{ content:''; position:absolute; left:0; top:20%; bottom:20%; width:1px; background:rgba(20,22,31,.08); }
-    .stat-num{ font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:clamp(1.7rem, 3.2vw, 2.4rem); line-height:1; background:linear-gradient(135deg,#14161F 0%,#0F1A6B 50%,#1A2FD9 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent; letter-spacing:-.025em; }
+    .stat-num{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size:clamp(1.7rem, 3.2vw, 2.4rem); line-height:1; background:linear-gradient(135deg,#14161F 0%,#0F1A6B 50%,#1A2FD9 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent; letter-spacing:-.025em; }
     .stat-lab{ font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:.16em; font-weight:700; color:#7A8094; text-transform:uppercase; margin-top:6px; }
 
     /* ─── Verified profile pills ─── */
@@ -244,13 +244,13 @@
 
     /* ─── Chapter mark (story sections) ─── */
     .chap-mark{ display:flex; align-items:baseline; gap:.85rem; margin:3rem 0 1rem; }
-    .chap-num{ font-family:'Instrument Serif',serif; font-style:italic; font-size:clamp(2rem, 3.5vw, 2.8rem); line-height:1; background:linear-gradient(135deg,#5B6CFF,#2B44FF,#1A2FD9); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent; letter-spacing:-.04em; }
+    .chap-num{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-size:clamp(2rem, 3.5vw, 2.8rem); line-height:1; background:linear-gradient(135deg,#5B6CFF,#2B44FF,#1A2FD9); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent; letter-spacing:-.04em; }
     .chap-h{ font-family:'Inter Tight',sans-serif; font-size:clamp(1.3rem, 2.2vw, 1.65rem); font-weight:800; color:#14161F; line-height:1.25; letter-spacing:-.015em; }
 
     /* ─── Premium pull quotes ─── */
     .pull-quote{ position:relative; margin:3rem -1.5rem; padding:2rem 2rem 2rem 3.5rem; background:linear-gradient(180deg,#F8FAFD 0%,#F8FAFD 100%); border-left:5px solid #2B44FF; border-radius:0 14px 14px 0; box-shadow:0 6px 18px -10px rgba(43,68,255,.3); }
-    .pull-quote::before{ content:'"'; position:absolute; top:-.4rem; left:1.1rem; font-family:'Instrument Serif',serif; font-style:italic; font-size:5.5rem; line-height:1; color:rgba(43,68,255,.35); font-weight:400; }
-    .pull-quote p{ font-family:'Instrument Serif',serif; font-style:italic; font-size:clamp(1.15rem, 2vw, 1.4rem) !important; line-height:1.5 !important; color:#14161F !important; font-weight:400; margin:0 !important; }
+    .pull-quote::before{ content:'"'; position:absolute; top:-.4rem; left:1.1rem; font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-size:5.5rem; line-height:1; color:rgba(43,68,255,.35); font-weight:400; }
+    .pull-quote p{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-size:clamp(1.15rem, 2vw, 1.4rem) !important; line-height:1.5 !important; color:#14161F !important; font-weight:400; margin:0 !important; }
     .pull-quote cite{ display:block; margin-top:1rem; font-family:'JetBrains Mono',monospace; font-style:normal; font-size:10.5px; letter-spacing:.22em; font-weight:800; color:#1A2FD9; text-transform:uppercase; }
 
     /* ─── Expertise grid ─── */
@@ -342,8 +342,8 @@
 .ar-flow span{font-size:14px;font-weight:600;color:#14161F;background:#fff;border:1px solid #E6E8F0;border-radius:999px;padding:9px 14px}
 .ar-flow span.on{background:#2B44FF;color:#fff;border-color:#2B44FF}
 .ar-flow i{font-style:normal;color:#2B44FF;font-weight:700}
-.ar-close{margin:44px 0 0;text-align:center;font-family:'Instrument Serif',serif;font-style:italic;font-size:1.55rem !important;line-height:1.4 !important;color:#14161F !important}
-.ar-lessons{padding:88px 0;background:radial-gradient(70% 90% at 100% 0%,rgba(126,224,255,.2),transparent 60%),linear-gradient(160deg,#0B1240,#070A26);color:#fff}
+.ar-close{margin:44px 0 0;text-align:center;font-family:'Inter Tight','Inter',system-ui,sans-serif;font-style:normal;font-size:1.55rem !important;line-height:1.4 !important;color:#14161F !important}
+.ar-lessons{padding:88px 0;background:radial-gradient(70% 90% at 100% 0%,rgba(126,224,255,.2),transparent 60%),linear-gradient(160deg,#1f1f22,#151515);color:#fff}
 .ar-center{text-align:center}
 .ar-lessons .ar-kicker{color:#7FE0FF}
 .ar-lessons .ar-h2{color:#fff}
@@ -371,11 +371,49 @@
 @media (max-width:860px){#hero.ar-hero{padding:120px 0 40px}#story.ar-story,#lessons.ar-lessons{padding:64px 0}}
 #main-content > section#hero.ar-hero{padding-top:150px !important}
 @media (max-width:860px){#main-content > section#hero.ar-hero{padding-top:120px !important}}
+/* ===== X restyle (page-only, prefix arx-) ===== */
+#main-content > section.xphero{padding-top:88px !important}
+.arx-hero .xw{grid-template-columns:1.25fr .75fr}
+.arx-hero h1{color:#fff}
+.arx-hero h1 .arx-tag{display:block;margin-top:14px;font-size:.6em;line-height:1.1;letter-spacing:-.03em;color:#A9B6FF}
+.arx-hero .sub strong{color:#fff;font-weight:600}
+.arx-hero .ar-pills{margin-top:30px}
+.arx-hero .verified-pill{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.22);color:#fff}
+.arx-hero .verified-pill:hover{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.5);color:#fff;box-shadow:none}
+.arx-hero .vis{display:flex;justify-content:center}
+.arx-hero .ar-ring{width:340px;height:340px;max-width:100%;box-shadow:0 60px 120px -40px rgba(43,68,255,.75)}
+.arx-hero .ar-ring img{border-color:#151515;background:#151515}
+.arx-hero .ar-badge{background:#fff;color:#151515}
+.arx-hero .ar-badge i{background:#2B44FF;box-shadow:0 0 10px rgba(43,68,255,.8)}
+.arx-stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:72px;border-top:1px solid rgba(255,255,255,.1)}
+.arx-stats>div{padding:26px 24px 8px 0}
+.arx-stats>div+div{padding-left:24px;border-left:1px solid rgba(255,255,255,.1)}
+.arx-stats b{display:block;font-size:clamp(30px,3.2vw,48px);font-weight:300;letter-spacing:-.03em;color:#fff;line-height:1.05}
+.arx-stats span{display:block;margin-top:8px;font-size:15px;color:rgba(255,255,255,.52);line-height:1.45}
+.arx-nav{margin-top:36px;display:flex;flex-wrap:wrap;gap:8px}
+.arx-nav a{font-size:14px;font-weight:600;color:rgba(255,255,255,.86);text-decoration:none;padding:9px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.03)}
+.arx-nav a:hover{border-color:#A9B6FF;color:#fff}
+.arx-final h2{color:#fff}
+.arx-final .xlead{margin-bottom:0;max-width:60ch}
+.arx-meta{margin:30px 0 0;display:flex;flex-wrap:wrap;gap:8px 22px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;font-weight:700;color:rgba(255,255,255,.62);text-transform:uppercase}
+.arx-meta.dim{margin-top:14px;color:rgba(255,255,255,.4)}
+@media (max-width:980px){
+  #main-content > section.xphero{padding-top:56px !important}
+  .arx-hero .xw{grid-template-columns:1fr}
+  .arx-hero .vis{order:-1;justify-content:flex-start}
+  .arx-hero .ar-ring{width:200px;height:200px}
+  .arx-stats{grid-template-columns:1fr 1fr;margin-top:48px}
+  .arx-stats>div{padding:20px 16px 20px 0}
+  .arx-stats>div+div{padding-left:16px}
+  .arx-stats>div:nth-child(3){padding-left:0;border-left:0}
+  .arx-stats>div:nth-child(n+3){border-top:1px solid rgba(255,255,255,.1)}
+}
 </style>
 <script src="/assets/attribution.js?v=1" defer></script>
+<link rel="stylesheet" href="/assets/x/x.css?v=24"/>
 </head>
 
-<body class="bg-mesh text-[#14161F] antialiased">
+<body class="bg-mesh text-[#14161F] antialiased xpage xin">
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -392,47 +430,174 @@
 </svg>
 
 <!-- ================= NAV ================= -->
-<header class="topbar simple" id="topbar">
-  <a href="/" class="lockup"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="AllCoaching" width="512" height="512"/><span class="word">AllCoaching</span></a>
-  <div class="actions">
-    <a href="https://studio.allcoaching.in/login" class="login">Log in</a>
-    <a href="https://studio.allcoaching.in/" class="btn btn-accent">Start free trial</a>
+<!-- X HEADER (source: assets/x/header.html) -->
+<header class="xh" id="topbar">
+  <div class="xh-in">
+    <a href="/" class="xh-logo" aria-label="AllCoaching home"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="" width="64" height="64"/><span>AllCoaching</span></a>
+    <nav class="xh-nav" aria-label="Main">
+      <button type="button" class="xh-t" aria-expanded="false" aria-controls="xm-why">Why AllCoaching <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="m2.5 4.5 3.5 3.5 3.5-3.5"/></svg></button>
+      <button type="button" class="xh-t" aria-expanded="false" aria-controls="xm-product">Product <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="m2.5 4.5 3.5 3.5 3.5-3.5"/></svg></button>
+      <a href="/pricing">Pricing</a>
+      <button type="button" class="xh-t" aria-expanded="false" aria-controls="xm-res">Resources <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="m2.5 4.5 3.5 3.5 3.5-3.5"/></svg></button>
+      <a class="xh-pill" href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></i>Studio Tutorials 2027</a>
+    </nav>
+    <div class="xh-r">
+      <a href="https://studio.allcoaching.in/login" class="xh-login">Log in</a>
+      <a href="https://studio.allcoaching.in/" class="xh-cta">Start free trial</a>
+      <button type="button" class="xh-burger" aria-label="Open menu" aria-expanded="false" aria-controls="xh-drawer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+
+  <div class="xh-panel" id="xm-why" hidden>
+    <div class="xh-pin xp-why">
+      <a class="xc" href="/start"><div class="xc-img"><img src="/assets/x/s-site-800.webp" alt="An academy website built on AllCoaching" loading="lazy" width="800" height="450"/></div><b>Get started fast</b><small>Sign up, upload your course and go live the same day.</small></a>
+      <a class="xc" href="/vs/"><div class="xc-img"><img src="/assets/x/s-course-800.webp" alt="Creating a new course in the AllCoaching studio" loading="lazy" width="800" height="450"/></div><b>Switch to AllCoaching</b><small>Bring your courses. Keep your students and your brand.</small></a>
+      <a class="xc" href="/about"><div class="xc-img"><img src="/assets/x/a-courses-800.webp" alt="Courses on an academy website built on AllCoaching" loading="lazy" width="800" height="450"/></div><b>Trusted by 500+ educators</b><small>Coaching owners, tutors and skill educators.</small></a>
+      <div class="xc-side">
+        <div class="xh-eye">Built into every academy</div>
+        <a class="xc xc-mini" href="/features/payments"><div class="xc-img"><img src="/assets/x/s-getpaid-800.webp" alt="Razorpay checkout set-up in the studio" loading="lazy" width="800" height="450"/></div><b>Your own checkout</b><small>UPI and cards, paid to your bank.</small></a>
+        <a class="xc xc-mini" href="/features/test-series"><div class="xc-img"><img src="/assets/x/s-tests-800.webp" alt="Test series results in the studio" loading="lazy" width="800" height="450"/></div><b>Test series</b><small>All-India rank and percentile.</small></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="xh-panel" id="xm-product" hidden>
+    <div class="xh-pin xp-prod">
+      <div>
+        <div class="xh-eye">Build your academy</div>
+        <ul class="xl">
+          <li><a href="/features/academy-website"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/></svg></span>Website builder</a></li>
+          <li><a href="/features/academy-website"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M4 5h7v7H4zM13 5h7v4h-7zM13 11h7v8h-7zM4 14h7v5H4z"/></svg></span>Themes</a></li>
+          <li><a href="/features/academy-website"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span>Your own domain</a></li>
+          <li><a href="/features/mobile-app"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg></span>Your Android app</a></li>
+          <li><a href="/features/mobile-app"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10 5.5h4"/></svg></span>Your iOS app <small>Growth and Pro</small></a></li>
+        </ul>
+        <div class="xh-eye">Run it</div>
+        <ul class="xl">
+          <li><a href="/features/batches"><span class="xi" style="--h:#0EA5E9"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/></svg></span>Students and batches</a></li>
+          <li><a href="/features/team"><span class="xi" style="--h:#7C3AED"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg></span>Team logins</a></li>
+          <li><a href="/features/analytics"><span class="xi" style="--h:#9333EA"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span>Analytics</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="xh-eye">Teach</div>
+        <ul class="xl">
+          <li><a href="/features/courses"><span class="xi" style="--h:#7C3AED"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m10 9 5 3-5 3z"/></svg></span>Courses and videos</a></li>
+          <li><a href="/features/live-classes"><span class="xi" style="--h:#DC2626"><svg viewBox="0 0 24 24"><path d="M15 10l5-3v10l-5-3"/><rect x="3" y="6" width="12" height="12" rx="2"/></svg></span>Live classes</a></li>
+          <li><a href="/features/test-series"><span class="xi" style="--h:#D97706"><svg viewBox="0 0 24 24"><path d="M9 4h6l1 2h3v14H5V6h3z"/><path d="m9 13 2 2 4-4"/></svg></span>Test series</a></li>
+          <li><a href="/features/notes-pdfs"><span class="xi" style="--h:#0891B2"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg></span>Notes and PDFs</a></li>
+          <li><a href="/features/free-content"><span class="xi" style="--h:#0D9488"><svg viewBox="0 0 24 24"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H7.5a2.5 2.5 0 1 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 1 0 0-5C13 2 12 7 12 7z"/></svg></span>Free content</a></li>
+          <li><a href="/features/courses"><span class="xi" style="--h:#7C3AED"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="m8.5 14.5-1.5 7 5-3 5 3-1.5-7"/></svg></span>Certificates</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="xh-eye">Sell and grow</div>
+        <ul class="xl">
+          <li><a href="/features/payments"><span class="xi" style="--h:#16A34A"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></svg></span>Checkout and payments</a></li>
+          <li><a href="/features/discount-codes"><span class="xi" style="--h:#EA580C"><svg viewBox="0 0 24 24"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></span>Discount codes</a></li>
+          <li><a href="/features/community"><span class="xi" style="--h:#2563EB"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>Community</a></li>
+          <li><a href="/features/integrations"><span class="xi" style="--h:#4F46E5"><svg viewBox="0 0 24 24"><path d="M9 2v6M15 2v6M6 8h12v4a6 6 0 0 1-12 0zM12 18v4"/></svg></span>Integrations</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="xh-eye">Plans</div>
+        <ul class="xl">
+          <li><a href="/pricing"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M6 4h12M6 9h12M14 4c3 0 3 10-3 10H6l8 6"/></svg></span>Monthly · 0% commission</a></li>
+          <li><a href="/pricing"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></span>Yearly plans</a></li>
+          <li><a href="/pricing#compare"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></span>Compare every plan</a></li>
+          <li><a href="/vs/"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M8 3 4 7l4 4M4 7h16M16 21l4-4-4-4M20 17H4"/></svg></span>AllCoaching vs others</a></li>
+        </ul>
+      </div>
+      <div class="xp-promo">
+        <div class="xh-eye">Studio tour</div>
+        <a class="xc" href="#" data-xvideo="https://allcoaching-store.b-cdn.net/blog-images/allcoaching-studio-tour-v4-1080p.mp4"><div class="xc-img"><img src="/assets/x/tour-poster.webp" alt="A tour of the AllCoaching studio" loading="lazy" width="960" height="540"/></div><b>Your whole academy, in one studio</b><small>Watch the tour</small></a>
+        <ul><li>iOS app on Growth and Pro, after 30 days</li><li>Monthly plans with 0% commission</li></ul>
+      </div>
+    </div>
+    <div class="xp-strip"><div class="xh-pin">
+      <div class="xh-eye" style="margin:0">Explore AllCoaching</div>
+      <a href="/features/">All features<small>Each with a studio tutorial</small></a>
+      <a href="/faq">Help and FAQ<small>Answers to common questions</small></a>
+      <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener">Talk to the team<small>WhatsApp, Hindi and English</small></a>
+    </div></div>
+  </div>
+
+  <div class="xh-panel" id="xm-res" hidden>
+    <div class="xh-pin xp-res">
+      <div><div class="xh-eye">Learn</div><ul class="xl">
+        <li><a href="/blog/"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M4 4h12l4 4v12H4z"/><path d="M8 10h8M8 14h8M8 18h5"/></svg></span>Blog</a></li>
+        <li><a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m10 9 5 3-5 3z"/></svg></span>Studio tutorials</a></li>
+        <li><a href="/faq"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5h.01"/></svg></span>Help and FAQ</a></li>
+      </ul></div>
+      <div><div class="xh-eye">Compare</div><ul class="xl">
+        <li><a href="/vs/"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M8 3 4 7l4 4M4 7h16M16 21l4-4-4-4M20 17H4"/></svg></span>All comparisons</a></li>
+        <li><a href="/vs/classplus"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M5 12h14"/></svg></span>vs Classplus</a></li>
+        <li><a href="/vs/graphy"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M5 12h14"/></svg></span>vs Graphy</a></li>
+      </ul></div>
+      <div><div class="xh-eye">Company</div><ul class="xl">
+        <li><a href="/about"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5h.01"/></svg></span>About</a></li>
+        <li><a href="/manifesto"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2zM8 7h8"/></svg></span>Manifesto</a></li>
+        <li><a href="/contact"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>Contact</a></li>
+      </ul></div>
+      <div class="xp-promo">
+        <div class="xh-eye">Talk to us</div>
+        <p style="font-size:15px;color:rgba(255,255,255,.72);line-height:1.55">Questions before you start? Message the team on WhatsApp, in Hindi or English.</p>
+        <a class="xh-cta" style="display:inline-block;margin-top:16px" href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener">WhatsApp us</a>
+      </div>
+    </div>
   </div>
 </header>
+<div class="xh-scrim" id="xh-scrim"></div>
+<nav class="xh-drawer" id="xh-drawer" aria-label="Menu" hidden>
+  <details><summary>Why AllCoaching</summary><a href="/start">Get started fast</a><a href="/vs/">Switch to AllCoaching</a><a href="/about">Trusted by 500+ educators</a></details>
+  <details><summary>Product</summary>
+    <a href="/features/">All features</a>
+    <div class="xh-eye">Build</div><a href="/features/academy-website">Website builder and themes</a><a href="/features/academy-website">Your own domain</a><a href="/features/mobile-app">Your Android and iOS app</a>
+    <div class="xh-eye">Teach</div><a href="/features/courses">Courses, videos and PDFs</a><a href="/features/live-classes">Live classes</a><a href="/features/test-series">Test series</a><a href="/features/courses">Certificates</a>
+    <div class="xh-eye">Sell and run</div><a href="/features/payments">Checkout and payments</a><a href="/features/discount-codes">Discount codes</a><a href="/features/batches">Students, batches and team</a><a href="/features/integrations">Integrations</a>
+  </details>
+  <a href="/pricing">Pricing</a>
+  <details><summary>Resources</summary><a href="/blog/">Blog</a><a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener">Studio tutorials</a><a href="/faq">Help and FAQ</a><a href="/vs/">Compare</a><a href="/about">About</a><a href="/contact">Contact</a></details>
+  <div class="xh-dcta"><a class="a1" href="https://studio.allcoaching.in/login">Log in</a><a class="a2" href="https://studio.allcoaching.in/">Start free trial</a></div>
+</nav>
+<!-- /X HEADER -->
 
 <main id="main-content">
 
 <!-- ================= HERO ================= -->
-<section id="hero" class="ar-hero">
-  <div class="ar-wrap">
-    <div class="ar-hero-grid reveal">
+<section id="hero" class="xphero arx-hero">
+  <div class="xw">
+    <div class="tx">
+      <div class="xh-eye">The founder's story</div>
+      <h1><span class="bd">Amit Ratan.</span> <span class="arx-tag">Ten years building for India's teachers.</span></h1>
+      <p class="sub role">I watched a brilliant teacher go unheard because he had no way to reach students. Ten years, one collapsed website and five years of rebuilding later, AllCoaching lets every educator run their own academy, <strong>without a developer and without asking anyone's permission.</strong></p>
+      <div class="ar-pills">
+        <a href="https://www.linkedin.com/in/allamitk/" target="_blank" rel="noopener me" class="verified-pill" aria-label="LinkedIn profile of Amit Ratan"><svg><use href="#i-linkedin"/></svg> LinkedIn</a>
+        <a href="https://x.com/allamitk" target="_blank" rel="noopener me" class="verified-pill" aria-label="X profile of Amit Ratan"><svg><use href="#i-x"/></svg> @allamitk</a>
+        <a href="https://www.instagram.com/allamitk/" target="_blank" rel="noopener me" class="verified-pill" aria-label="Instagram profile of Amit Ratan"><svg><use href="#i-instagram"/></svg> Instagram</a>
+        <a href="mailto:amitpc95@gmail.com" class="verified-pill" aria-label="Email Amit Ratan directly"><svg><use href="#i-mail"/></svg> amitpc95@gmail.com</a>
+      </div>
+    </div>
+    <div class="vis">
       <div class="ar-hero-photo">
         <div class="ar-ring"><img src="../assets/amit-ratan-2026.webp" alt="Amit Ratan, Founder and CEO of AllCoaching" width="800" height="800" decoding="async" loading="eager" fetchpriority="high" /></div>
         <span class="ar-badge"><i></i>Founder · AllCoaching</span>
       </div>
-      <div class="ar-hero-copy">
-        <p class="ar-kicker">The founder's story</p>
-        <h1 class="ar-h1">Amit Ratan. <span>Ten years building for India's teachers.</span></h1>
-        <p class="role ar-lede">I watched a brilliant teacher go unheard because he had no way to reach students. Ten years, one collapsed website and five years of rebuilding later, AllCoaching lets every educator run their own academy, <strong>without a developer and without asking anyone's permission.</strong></p>
-        <div class="ar-pills">
-          <a href="https://www.linkedin.com/in/allamitk/" target="_blank" rel="noopener me" class="verified-pill" aria-label="LinkedIn profile of Amit Ratan"><svg><use href="#i-linkedin"/></svg> LinkedIn</a>
-          <a href="https://x.com/allamitk" target="_blank" rel="noopener me" class="verified-pill" aria-label="X profile of Amit Ratan"><svg><use href="#i-x"/></svg> @allamitk</a>
-          <a href="https://www.instagram.com/allamitk/" target="_blank" rel="noopener me" class="verified-pill" aria-label="Instagram profile of Amit Ratan"><svg><use href="#i-instagram"/></svg> Instagram</a>
-          <a href="mailto:amitpc95@gmail.com" class="verified-pill" aria-label="Email Amit Ratan directly"><svg><use href="#i-mail"/></svg> amitpc95@gmail.com</a>
-        </div>
-      </div>
     </div>
-    <div class="ar-stats reveal" aria-label="Career highlights">
+  </div>
+  <div class="xw" style="display:block">
+    <div class="arx-stats" aria-label="Career highlights">
       <div><b>2016</b><span>First saw the problem, in Prayagraj</span></div>
       <div><b>2018</b><span>First AllCoaching, built with a friend</span></div>
       <div><b>5 years</b><span>Rebuilding it, 2021 to 2026</span></div>
       <div><b>25</b><span>Guides written for educators</span></div>
     </div>
-    <nav class="ar-nav reveal" aria-label="Page sections">
+    <nav class="arx-nav" aria-label="Page sections">
       <a href="#story">The story</a><a href="#lessons">What it taught me</a><a href="#timeline">Timeline</a><a href="#guides">Guides</a><a href="#connect">Connect</a>
     </nav>
   </div>
 </section>
+<div class="xlight">
 
 <!-- ================= STORY ================= -->
 <section id="story" class="ar-story">
@@ -646,56 +811,49 @@
 </section>
 
 <!-- ================= CONNECT / CTA ================= -->
-<section id="connect" class="py-16 md:py-24 relative overflow-hidden">
-  <div aria-hidden="true" class="absolute inset-0 -z-0 pointer-events-none">
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-30" style="background:radial-gradient(circle, rgba(43,68,255,.25), transparent 60%); filter:blur(60px);"></div>
-  </div>
-  <div class="max-w-3xl mx-auto px-5 text-center relative reveal">
-    <p class="kicker">Connect directly</p>
-    <h2 class="h-chap font-display mt-4 mb-5">Reach out <span class="grad-text">directly.</span></h2>
-    <p class="text-[#4A5063] mb-10 max-w-xl mx-auto" style="font-size:16.5px; line-height:1.7;">If you are an educator considering AllCoaching, a journalist writing on Indian EdTech, a partner exploring collaboration, or simply curious about the marketplace thesis — I am reachable directly. No gatekeepers, no forms.</p>
-
-    <div class="flex flex-wrap justify-center gap-3 mb-10">
-      <a href="https://studio.allcoaching.in/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
-        Start your 7-day free trial
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="margin-left:.45rem;"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-      </a>
-      <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
-        <svg class="w-5 h-5" style="color:#2F8F4E;"><use href="#i-whatsapp"/></svg>
-        WhatsApp AllCoaching
-      </a>
-      <a href="mailto:amitpc95@gmail.com" class="btn btn-secondary btn-lg">
-        <svg class="w-5 h-5" style="color:#1A2FD9;"><use href="#i-mail"/></svg>
-        Email Amit directly
-      </a>
+</div>
+<section id="connect" class="xfinal plain arx-final">
+  <div class="xw">
+    <div class="xh-eye">Connect directly</div>
+    <h2 class="xd" style="font-size:clamp(44px,6vw,96px);max-width:13ch">Reach out <b>directly.</b></h2>
+    <p class="xlead">If you are an educator considering AllCoaching, a journalist writing on Indian EdTech, a partner exploring collaboration, or simply curious about the marketplace thesis — I am reachable directly. No gatekeepers, no forms.</p>
+    <div class="xcta">
+      <a href="https://studio.allcoaching.in/" target="_blank" rel="noopener" class="xbtn xbtn-w">Start your 7-day free trial</a>
+      <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="xbtn xbtn-o"><svg><use href="#i-whatsapp"/></svg>WhatsApp AllCoaching</a>
+      <a href="mailto:amitpc95@gmail.com" class="xbtn xbtn-o"><svg><use href="#i-mail"/></svg>Email Amit directly</a>
     </div>
-
-    <!-- Trust strip -->
-    <div class="inline-flex flex-wrap items-center justify-center gap-x-5 gap-y-2" style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.2em; color:#7A8094; font-weight:700; text-transform:uppercase;">
-      <span>Reply within 48 hours</span>
-      <span style="opacity:.4;">·</span>
-      <span>Hindi · English</span>
-      <span style="opacity:.4;">·</span>
-      <span>Prayagraj, India</span>
-    </div>
-
-    <p class="mt-10 text-[#A9AEBD]" style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; font-weight:700;">Profile last updated · 16 May 2026</p>
+    <p class="arx-meta"><span>Reply within 48 hours</span><span>Hindi · English</span><span>Prayagraj, India</span></p>
+    <p class="arx-meta dim">Profile last updated · 16 May 2026</p>
   </div>
 </section>
 
 </main>
 
 <!-- Footer -->
-<footer>
-  <div class="foot-wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <a href="/" class="lockup"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="AllCoaching" width="512" height="512"/><span class="word">AllCoaching</span></a>
-        <p class="foot-desc">The LMS for educators. Build your own online academy in a few clicks, make it your brand and start selling.</p>
-        <a class="foot-ct" href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>+91 98899 77262 (WhatsApp)</a>
-        <a class="foot-ct" href="mailto:contact@allcoaching.in"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>contact@allcoaching.in</a>
-        <div class="foot-follow">Follow us</div>
-        <div class="foot-soc">
+<!-- X FOOTER (source: assets/x/footer.html) -->
+<footer class="xft">
+  <div class="xft-in">
+    <div class="xft-top">
+      <div class="xft-brand">
+        <a href="/" class="xft-logo" aria-label="AllCoaching home"><img src="/assets/logo/allcoaching-logo.webp?v=20260707" alt="" width="64" height="64" loading="lazy"/><span>AllCoaching</span></a>
+        <p>Build your own LMS in a few clicks: your website, your app, your courses and your payments, under your own brand.</p>
+        <a class="xft-cta" href="https://studio.allcoaching.in/">Start free trial</a>
+        <div class="xft-ct">
+          <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener">WhatsApp +91 98899 77262</a>
+          <a href="mailto:contact@allcoaching.in">contact@allcoaching.in</a>
+        </div>
+      </div>
+      <nav class="xft-cols" aria-label="Footer">
+        <div><h4>Product</h4><a href="/features/">All features</a><a href="/pricing">Pricing</a><a href="/start">Get started</a><a href="/vs/">Compare</a><a href="https://studio.allcoaching.in/login">Log in</a></div>
+        <div><h4>Features</h4><a href="/features/academy-website">Academy website</a><a href="/features/mobile-app">Your own app</a><a href="/features/courses">Courses</a><a href="/features/test-series">Test series</a><a href="/features/live-classes">Live classes</a><a href="/features/payments">Payments</a></div>
+        <div><h4>Resources</h4><a href="/blog/">Blog</a><a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener">Studio tutorials</a><a href="/faq">Help and FAQ</a><a href="/press">Press</a><a href="/brand">Brand</a></div>
+        <div><h4>Company</h4><a href="/about">About</a><a href="/manifesto">Manifesto</a><a href="/author/amit-ratan">Founder</a><a href="/contact">Contact</a></div>
+        <div><h4>Legal</h4><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refund-policy">Refund and cancellation</a><a href="/delivery-policy">Delivery policy</a><a href="/educator-agreement">Educator agreement</a></div>
+      </nav>
+    </div>
+    <div class="xft-mid">
+      <div class="xft-follow"><span>Follow AllCoaching</span>
+        <div class="xft-soc">
           <a class="wa" href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57a1.1 1.1 0 00-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4c-1.76 0-3.49-.47-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.38a9.86 9.86 0 01-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.83 9.83 0 019.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0012.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 005.69 1.45c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 00-3.48-8.41z"/></svg></a>
           <a class="yt" href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.6 3.6 12 3.6 12 3.6s-7.6 0-9.4.5A3 3 0 00.5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 002.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 002.1-2.1c.5-1.8.5-5.8.5-5.8s0-4-.5-5.8zM9.6 15.6V8.4l6.3 3.6z"/></svg></a>
           <a class="tg" href="https://t.me/allcoaching" target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.2-1.86 8.77c-.14.62-.51.77-1.03.48l-2.85-2.1-1.37 1.32c-.15.15-.28.28-.57.28l.2-2.9 5.27-4.77c.23-.2-.05-.32-.36-.12l-6.52 4.1-2.81-.88c-.61-.19-.62-.61.13-.9l10.99-4.24c.51-.19.96.12.78.96z"/></svg></a>
@@ -706,17 +864,16 @@
           <a class="as" href="https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866" target="_blank" rel="noopener" aria-label="iOS app on the App Store"><svg viewBox="0 0 24 24"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg></a>
         </div>
       </div>
-      <div class="foot-col"><h4>Product</h4><a href="/start">Start</a><a href="/#features">Features</a><a href="/#marketplace">Marketplace</a><a href="/pricing#finder">Calculator</a><a href="/pricing">Pricing</a><a href="/vs/">Compare</a></div>
-      <div class="foot-col"><h4>Company</h4><a href="/manifesto">Manifesto</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refund-policy">Refund &amp; Cancellation</a><a href="/delivery-policy">Delivery Policy</a></div>
-      <div class="foot-col"><h4>Educators</h4><a href="https://studio.allcoaching.in/login">Login</a><a href="https://studio.allcoaching.in/">Start free trial</a><a href="/faq">FAQ</a><a href="https://api.whatsapp.com/send/?phone=919889977262">WhatsApp</a></div>
-      <div class="foot-col"><h4>Students</h4><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching">Android App</a><a href="https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866">iOS App</a><a href="/#students">Find Educators</a><a href="https://t.me/allcoaching">Telegram</a></div>
+      <div class="xft-apps"><span>Student app</span><a href="https://play.google.com/store/apps/details?id=org.student.allcoaching" target="_blank" rel="noopener">Android</a><a href="https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866" target="_blank" rel="noopener">iOS</a></div>
     </div>
-    <div class="foot-bottom">
-      <div>&copy; <span id="yr">2026</span> AllCoaching Technology &middot; Made in India</div>
-      <div>The Operating System of Education &middot; One educator at a time.</div>
+    <div class="xft-bot">
+      <div>© <span id="yr">2026</span> AllCoaching Technology · Made in India</div>
+      <div class="xft-tag">The Operating System of Education</div>
     </div>
+    
   </div>
 </footer>
+<!-- /X FOOTER -->
 
 <a href="https://api.whatsapp.com/send/?phone=919889977262" target="_blank" rel="noopener" class="fab-wa" aria-label="Chat on WhatsApp">
   <svg viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57a1.1 1.1 0 00-.8.37c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4c-1.76 0-3.49-.47-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.38a9.86 9.86 0 01-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.83 9.83 0 019.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.82 11.82 0 0012.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 005.69 1.45c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 00-3.48-8.41z"/></svg>
@@ -766,5 +923,9 @@
   document.addEventListener('scroll', onScroll, {passive:true}); onScroll();
 })();
 </script>
+<div class="xmodal" id="xmodal" role="dialog" aria-modal="true" aria-label="AllCoaching studio tour" hidden>
+  <div class="box"><button type="button" class="close" aria-label="Close video">×</button><video controls playsinline preload="none" poster="/assets/x/tour-poster.webp"></video></div>
+</div>
+<script src="/assets/x/x.js?v=24" defer></script>
 </body>
 </html>

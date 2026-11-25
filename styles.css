@@ -14,18 +14,18 @@
 }
 *{ -webkit-tap-highlight-color:transparent; }
 html,body{ font-family:'Inter Tight','Inter',system-ui,sans-serif; color:var(--ink); background:var(--bg); overflow-x:clip; }
-.font-display{ font-family:'Instrument Serif','Times New Roman',serif; font-style:italic; font-weight:400; letter-spacing:-0.018em; }
+.font-display{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400; letter-spacing:-0.018em; }
 
 /* Typography */
-.h-display { font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size: clamp(2.8rem, 7vw, 5.2rem); line-height:1; letter-spacing:-0.024em; }
-.h1        { font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size: clamp(2.2rem, 4.5vw, 3.4rem); line-height:1.04; letter-spacing:-0.02em; }
-.h2        { font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size: clamp(1.6rem, 2.4vw, 2rem); line-height:1.15; letter-spacing:-0.014em; }
+.h-display { font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size: clamp(2.8rem, 7vw, 5.2rem); line-height:1; letter-spacing:-0.024em; }
+.h1        { font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size: clamp(2.2rem, 4.5vw, 3.4rem); line-height:1.04; letter-spacing:-0.02em; }
+.h2        { font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size: clamp(1.6rem, 2.4vw, 2rem); line-height:1.15; letter-spacing:-0.014em; }
 .eyebrow   { font-family:'JetBrains Mono',ui-monospace,monospace; font-size:.66rem; letter-spacing:.22em; text-transform:uppercase; font-weight:700; color:var(--accent-deep); }
 .lede      { font-size: clamp(1rem, 1.2vw, 1.125rem); line-height:1.65; color:var(--muted); }
 
 .prose p{ color:#4A5063; font-size:16px; line-height:1.75; font-family:'Inter Tight',sans-serif; }
-.prose h2{ font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:1.7rem; color:#14161F; margin-top:2rem; margin-bottom:.75rem; letter-spacing:-.012em; }
-.prose h3{ font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:1.3rem; color:#14161F; margin-top:1.5rem; margin-bottom:.5rem; letter-spacing:-.012em; }
+.prose h2{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size:1.7rem; color:#14161F; margin-top:2rem; margin-bottom:.75rem; letter-spacing:-.012em; }
+.prose h3{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size:1.3rem; color:#14161F; margin-top:1.5rem; margin-bottom:.5rem; letter-spacing:-.012em; }
 .prose ul{ list-style:disc; padding-left:1.25rem; color:#4A5063; }
 .prose ul li{ margin:.35rem 0; }
 .prose a{ color:var(--accent-deep); text-decoration:underline; text-decoration-color:var(--accent-line); text-underline-offset:3px; }
@@ -260,7 +260,7 @@ input[type="range"].slider::-webkit-slider-thumb{ -webkit-appearance:none; appea
 input[type="range"].slider::-webkit-slider-thumb:hover{ transform:scale(1.12); }
 input[type="range"].slider::-moz-range-thumb{ width:24px; height:24px; border-radius:999px; background:#FFF; border:3px solid var(--accent); box-shadow:0 4px 10px rgba(43,68,255,.35); cursor:pointer; }
 .slider-fill{ background:linear-gradient(90deg, #5B6CFF, #1A2FD9); }
-.earn-num { font-variant-numeric: tabular-nums; transition: color .2s ease; font-family:'Instrument Serif',serif; font-style:italic; }
+.earn-num { font-variant-numeric: tabular-nums; transition: color .2s ease; font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; }
 .earn-pop { animation: popNum .35s var(--ease); }
 @keyframes popNum { 0%{transform:scale(1)} 50%{transform:scale(1.06)} 100%{transform:scale(1)} }
 
@@ -329,7 +329,7 @@ input[type="range"].slider::-moz-range-thumb{ width:24px; height:24px; border-ra
   background:var(--accent-soft); border:1px solid var(--accent-line);
 }
 .blog-card h3{
-  font-family:'Instrument Serif',serif; font-style:italic; font-weight:400;
+  font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400;
   font-size:1.35rem; line-height:1.2;
   letter-spacing:-.014em; color:#14161F;
   margin-top: .9rem;

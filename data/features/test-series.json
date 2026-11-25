@@ -1,0 +1,120 @@
+{
+ "slug": "test-series",
+ "nav": "Test series",
+ "group": "teach",
+ "eps": [
+  "05"
+ ],
+ "title": "Online Test Series with Rank and Percentile | AllCoaching",
+ "description": "Build exam-pattern tests from a Word or CSV paper, set timer and negative marking, and rank every student with score, accuracy and percentile.",
+ "keywords": "online test series platform, mock test app for coaching, create online test series, negative marking test, rank and percentile, test series for educators",
+ "eyebrow": "Test series",
+ "h1": [
+  "Your question paper,",
+  "ranked like the real exam."
+ ],
+ "lede": "Upload your question paper as a Word or CSV file, set the timer, marks and negative marking, and publish it inside your courses. Every attempt is scored for you, and your students see their rank and percentile on the leaderboard.",
+ "notes": [
+  "Word or CSV question paper import",
+  "Negative marking, timer and attempts",
+  "Rank, accuracy and percentile for every student"
+ ],
+ "card": "Exam-pattern tests from your Word or CSV paper, with rank and percentile.",
+ "sections": [
+  {
+   "eyebrow": "Build",
+   "h2": [
+    "Start from the paper",
+    "you already have."
+   ],
+   "body": "Press Build test, give it a title, and drop in your question paper. A Word or CSV file written like the sample brings in the questions, options, answers and explanations on its own. You can also add questions one by one.",
+   "bullets": [
+    "Word (.docx) or CSV import, with a sample file to copy the format",
+    "Add or edit any question by hand",
+    "Type: full-length mock, chapter test, sprint or olympiad",
+    "Level, language and tags for each test"
+   ],
+   "img": "/assets/x/f/test-series-1.webp",
+   "alt": "The New test screen in the AllCoaching studio with title, a question paper drop zone, status, organisation and rules",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Rules",
+   "h2": [
+    "Set the exam pattern.",
+    "Marks, minus marks, time."
+   ],
+   "body": "Choose the time limit, marks for each question and what a wrong answer costs, such as the minus one used in JEE Main and NEET. Decide how many times a student can attempt it, whether explanations show after the test, and whether the leaderboard is public.",
+   "bullets": [
+    "Timer, marks each and negative marking per test",
+    "Set how many attempts, or unlimited for practice",
+    "Explanations shown after the test, on or off",
+    "Correct answer visible for each question, and the order easy to change"
+   ],
+   "img": "/assets/x/f/test-series-2.webp",
+   "alt": "An edited test showing its question list with the correct answer for each question, beside the organisation and rules panels",
+   "phone": ""
+  },
+  {
+   "eyebrow": "Results",
+   "h2": [
+    "Every attempt scored.",
+    "Every student ranked."
+   ],
+   "body": "Results show attempts, the average score and the top score, with a graph of the last 14 days. Below, the leaderboard lists the top three and then every student with rank, score, accuracy, time and percentile, so a mock feels like the real exam.",
+   "bullets": [
+    "All-India rank and percentile on the leaderboard",
+    "Filter by 24 hours, 7 days or all time, and export ranks",
+    "Full-screen anti-cheat lock while the test is running",
+    "Questions in random order for each student"
+   ],
+   "img": "/assets/x/f/test-series-3.webp",
+   "alt": "Test leaderboard with the top three students and a ranked table of score, accuracy, time and percentile",
+   "phone": ""
+  }
+ ],
+ "steps": [
+  {
+   "t": "Build test",
+   "d": "Open Content, then Test series, and press Build test."
+  },
+  {
+   "t": "Add questions",
+   "d": "Upload your Word or CSV question paper, or add questions one at a time."
+  },
+  {
+   "t": "Set the rules",
+   "d": "Choose the time, marks each, negative marking and number of attempts."
+  },
+  {
+   "t": "Preview and publish",
+   "d": "See the test as a student would, with the timer and answers, then publish it in a course."
+  },
+  {
+   "t": "Read the leaderboard",
+   "d": "Open Results to see attempts, scores and each student's rank and percentile."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I create an online test series?",
+   "a": "Create a test in Content, then Test series, add your questions, set the marks, negative marking and timer, then publish it in a course."
+  },
+  {
+   "q": "How do I add negative marking?",
+   "a": "In the test's Rules, set what a wrong answer costs, for example minus one as in JEE Main and NEET. It applies to every question in that test."
+  },
+  {
+   "q": "Can I upload questions from a Word file?",
+   "a": "Yes. Upload your question paper as a Word (.docx) or CSV file written like the sample file; the questions, options, answers and explanations come in on their own."
+  },
+  {
+   "q": "Do students see their rank and percentile?",
+   "a": "Yes. The leaderboard shows each student's rank, score, accuracy, time and percentile, and you can make it public or keep it private."
+  },
+  {
+   "q": "Can students cheat during a test?",
+   "a": "Tests run with a full-screen anti-cheat lock and can show questions in random order, which makes copying much harder."
+  }
+ ]
+}

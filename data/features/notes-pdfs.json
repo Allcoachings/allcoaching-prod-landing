@@ -1,0 +1,116 @@
+{
+  "slug": "notes-pdfs",
+  "nav": "Notes and PDFs",
+  "group": "teach",
+  "eps": [
+    "04"
+  ],
+  "title": "Sell PDF Notes Online with Logo and Watermark | AllCoaching",
+  "description": "Upload PDF notes, formula sheets and PYQs with your logo on every page and each student’s name as a watermark, block copy and print, and track downloads.",
+  "keywords": "sell pdf notes online, pdf notes for students, pdf watermark, protect pdf notes, study material online, sell notes online india",
+  "eyebrow": "Notes and PDFs",
+  "h1": [
+    "Your notes,",
+    "stamped with your name."
+  ],
+  "lede": "Upload notes, formula sheets and previous-year papers as PDFs, and your logo goes on every page before upload. Each student sees their own name as a watermark, so a copy passed on still carries the name of the student it came from.",
+  "notes": [
+    "PDFs up to 100 MB",
+    "Logo and student-name watermark on every page",
+    "Block copy and print in the app"
+  ],
+  "card": "PDF notes with your logo and each student’s name on every page, plus download tracking.",
+  "sections": [
+    {
+      "eyebrow": "Library",
+      "h2": [
+        "Every document,",
+        "in one place."
+      ],
+      "body": "Documents shows how many you have, downloads in the last 30 days and average pages. Filter by status, category or file type, and see each document as a card or in a list.",
+      "bullets": [
+        "Published, Draft and Hidden filters",
+        "Categories such as notes, formula sheet, PYQ, cheat sheet and workbook",
+        "Pages, downloads and file size on every card",
+        "Edit, copy link or delete from the card menu"
+      ],
+      "img": "/assets/x/f/notes-pdfs-1.webp",
+      "alt": "Documents library in the studio with six PDF cards, status and file-type filters and download stats",
+      "phone": ""
+    },
+    {
+      "eyebrow": "Protect",
+      "h2": [
+        "What you preview",
+        "is what the student sees."
+      ],
+      "body": "Pick a file and the form opens with a live preview. Your logo is on every page and the student’s name runs across it as a watermark, so if a PDF travels, that student’s name goes with it.",
+      "bullets": [
+        "Logo on every page, added before upload",
+        "Name watermark with the student’s name on every page",
+        "Block copy and print stops copying text and printing in the app",
+        "Let students download again or get a copy by email"
+      ],
+      "img": "/assets/x/f/notes-pdfs-2.webp",
+      "alt": "Add document form with a watermarked PDF preview and Protection switches for logo, name watermark and copy and print",
+      "phone": ""
+    },
+    {
+      "eyebrow": "Manage",
+      "h2": [
+        "Edit any time.",
+        "Add it to any course."
+      ],
+      "body": "Press Edit on any card to change the same settings, with pages, size and downloads at the top. Add the document to any module from a course’s Content tab, and see downloads over the last 14 days in a graph.",
+      "bullets": [
+        "Status: Published, Draft or Hidden",
+        "In courses shows where the document is used",
+        "Category, language and tags for organising",
+        "Downloads graph for the last 14 days"
+      ],
+      "img": "/assets/x/f/notes-pdfs-3.webp",
+      "alt": "Edit drawer for Maths Formula Sheet showing pages, size, downloads, status, courses and organisation",
+      "phone": ""
+    }
+  ],
+  "steps": [
+    {
+      "t": "Upload a document",
+      "d": "In Content › Documents, press Upload document and choose a PDF up to 100 MB."
+    },
+    {
+      "t": "Fill in the details",
+      "d": "Add a title and description, then set status, category, language and tags."
+    },
+    {
+      "t": "Set protection",
+      "d": "Turn on logo on every page, name watermark and, if you want, block copy and print."
+    },
+    {
+      "t": "Upload and publish",
+      "d": "Choose what students can do, then press Upload and publish."
+    },
+    {
+      "t": "Add it to a course",
+      "d": "From a course’s Content tab, add the document to any module."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I sell PDF notes online?",
+      "a": "Upload the PDF in Content › Documents, set its protection and publish it. Then add it to a module from any course’s Content tab, so students who buy the course can open it."
+    },
+    {
+      "q": "How do I watermark my PDFs?",
+      "a": "Your academy logo is added to every page before upload, and the name watermark shows each student’s name on every page. If a PDF is passed on, it still carries that student’s name."
+    },
+    {
+      "q": "How do I stop copying and printing of notes?",
+      "a": "Turn on Block copy and print in the document’s Protection settings. It stops copying text and printing in the app."
+    },
+    {
+      "q": "Can students download the notes again?",
+      "a": "Yes, if you allow it. Under Students can, let students download again from their library and receive a copy by email when they get access."
+    }
+  ]
+}

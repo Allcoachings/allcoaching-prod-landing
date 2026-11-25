@@ -1,0 +1,120 @@
+{
+  "slug": "academy-website",
+  "nav": "Academy website",
+  "group": "build",
+  "eps": [
+    "01"
+  ],
+  "title": "Academy Website Builder with Your Own Domain | AllCoaching",
+  "description": "Build your academy website with your logo, cover and handle, a free .allcoaching.in address or your own domain, and your logo watermarked on your videos.",
+  "keywords": "academy website builder, coaching website builder, online coaching website, own domain for coaching institute, educator profile, video watermark for teachers",
+  "eyebrow": "Academy website",
+  "h1": [
+    "Your academy online,",
+    "under your own name."
+  ],
+  "lede": "Set your logo, cover, name and handle once in the studio, and your academy website carries them everywhere. Students browse your courses, tests and notes on a site that looks like yours, on a free .allcoaching.in address or your own domain.",
+  "notes": [
+    "Free .allcoaching.in address",
+    "Connect your own domain on every plan",
+    "Your logo on every video you upload"
+  ],
+  "card": "Your brand, your website and your own domain, set up from one profile in the studio.",
+  "sections": [
+    {
+      "eyebrow": "Brand",
+      "h2": [
+        "One profile.",
+        "Your whole identity."
+      ],
+      "body": "Educator Profile is where your academy’s identity is set. Your cover, logo and display name show to students on your academy page and across AllCoaching, and your handle becomes your public page address.",
+      "bullets": [
+        "Change cover and upload a new logo in a click",
+        "Display name shown everywhere students see you",
+        "Handle checked for availability as you type",
+        "A few lines about what you teach, and for whom"
+      ],
+      "img": "/assets/x/f/academy-website-1.webp",
+      "alt": "Educator Profile in the studio with the Demo Academy cover, logo, display name and handle",
+      "phone": ""
+    },
+    {
+      "eyebrow": "Website",
+      "h2": [
+        "A website students",
+        "can browse and buy from."
+      ],
+      "body": "Your academy website lists your courses, batches, test series and notes under your name and logo. Every academy gets a free .allcoaching.in address, and you can connect your own domain on every plan.",
+      "bullets": [
+        "Free .allcoaching.in web address",
+        "Connect a domain you buy from any registrar; connecting is free",
+        "Drag-and-drop page builder for your own pages",
+        "Courses filtered by the categories you teach"
+      ],
+      "img": "/assets/x/f/academy-website-2.webp",
+      "alt": "The Demo Academy website showing its courses page with category filters and two course cards",
+      "phone": "/assets/x/m-home.webp"
+    },
+    {
+      "eyebrow": "Watermark",
+      "h2": [
+        "Your logo,",
+        "on every video."
+      ],
+      "body": "Turn on the video watermark and your logo is added to every video you upload from then on. Drag it to the spot you want in the frame and pick small, medium or large.",
+      "bullets": [
+        "Drag the logo to place it in the frame",
+        "Small, medium or large",
+        "Added to new uploads automatically",
+        "It becomes part of the video and can’t be removed later"
+      ],
+      "img": "/assets/x/f/academy-website-3.webp",
+      "alt": "Video watermark settings with the switch on, a logo placed in the video frame and size options",
+      "phone": ""
+    }
+  ],
+  "steps": [
+    {
+      "t": "Open Educator Profile",
+      "d": "In the studio, go to Settings and open Educator Profile."
+    },
+    {
+      "t": "Add your cover and logo",
+      "d": "Upload a cover and logo, then set your display name and handle."
+    },
+    {
+      "t": "Choose your category",
+      "d": "Write a few lines about your academy and pick the kind of coaching you do."
+    },
+    {
+      "t": "Set links and watermark",
+      "d": "Add your website, YouTube, Instagram and X, and turn on the video watermark."
+    },
+    {
+      "t": "Save changes",
+      "d": "Save, and the changes show on your public page straight away."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I start my own online coaching academy?",
+      "a": "Sign up on AllCoaching, choose a plan, set up your brand in Settings › Educator Profile, then upload a course and start selling. Every plan starts with a 7-day free trial, no card needed."
+    },
+    {
+      "q": "How do I add my logo and profile?",
+      "a": "In Settings › Educator Profile, upload your logo and cover, fill in your display name, handle, about and category, and save. Changes show on your public page as soon as you save."
+    },
+    {
+      "q": "Can I use my own domain?",
+      "a": "Yes. Every academy gets a free .allcoaching.in address, and you can connect your own domain on every plan. You buy the domain from any registrar, and connecting it is free."
+    },
+    {
+      "q": "How do I put my watermark on my videos?",
+      "a": "Turn on Video watermark in your Educator Profile, drag your logo to where you want it and pick small, medium or large. It is added to videos you upload from then on and can’t be removed from a video later."
+    },
+    {
+      "q": "What does the category in my profile change?",
+      "a": "It sets the course categories and suggested tags you see when you add courses, videos and PDFs, and the filters on your Courses list."
+    }
+  ]
+}

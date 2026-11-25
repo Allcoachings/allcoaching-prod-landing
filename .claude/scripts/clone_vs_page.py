@@ -13,6 +13,15 @@ Replaces:
 - Wikipedia anchor URL per competitor
 
 Preserves all structure, schemas, design, math, FAQ — only swaps competitor identity.
+
+WARNING (2026-11-25): the live vs/graphy.html, vs/teachmint.html and vs/appx.html have since
+been rewritten by hand with each competitor's own sourced prices, check dates and FAQ, and all
+vs/ pages now use the X design (dark .xphero hero, .xlight sheet, .xfinal final). Cloning
+classplus.html over them would replace that sourced content with Classplus's figures under
+another name. The script therefore refuses to overwrite an existing page unless --force is
+passed. Use it only to scaffold a NEW competitor page, then rewrite every price, source and date.
+The clone carries the X hero and final across unchanged (they contain no markup this script
+depends on); the older .vs-tag / footer-link swaps below no longer match anything and are no-ops.
 """
 import sys, re, os
 
@@ -67,6 +76,11 @@ def clone_for(competitor_key):
     comp = COMPETITORS[competitor_key]
     source_path = os.path.join(ROOT, 'vs', 'classplus.html')
     target_path = os.path.join(ROOT, 'vs', f'{competitor_key}.html')
+
+    if os.path.exists(target_path) and '--force' not in sys.argv:
+        print(f"Refusing to overwrite {target_path}: it holds hand-written, sourced content. "
+              f"Pass --force only if you really mean to replace it.")
+        return
 
     with open(source_path, 'r', encoding='utf-8') as fp:
         text = fp.read()
@@ -125,8 +139,9 @@ def clone_for(competitor_key):
     print(f"Wrote {target_path} ({len(text)} chars)")
 
 if __name__ == '__main__':
-    if len(sys.argv) > 1:
-        clone_for(sys.argv[1])
+    keys = [a for a in sys.argv[1:] if not a.startswith('--')]
+    if keys:
+        clone_for(keys[0])
     else:
         for key in COMPETITORS:
             clone_for(key)
