@@ -146,9 +146,9 @@ When in doubt about a component, an SEO field, a JSON-LD schema, or a specific p
 
 ## Brand system — load brand.css
 
-Every blog file references `../brand.css` which provides all design tokens, fonts (Instrument Serif italic + Inter Tight + JetBrains Mono), and component classes (.kicker, .h-mast, .h-chap, .article-body, .pull, .pull-red, .epi, .def, .scale-box, .hband, .verdict, .gain-card, .cost-card, .step-card, .myth-card, .stat-row, .cmp, .layer-card, .founder, .author-strip, .toc, .faq, .blog-card, etc.). **Never inline a `<style>` block in a blog file** — extend brand.css instead.
+Every blog file references `../brand.css` which provides all design tokens, fonts (Instrument Serif italic + Inter + JetBrains Mono), and component classes (.kicker, .h-mast, .h-chap, .article-body, .pull, .pull-red, .epi, .def, .scale-box, .hband, .verdict, .gain-card, .cost-card, .step-card, .myth-card, .stat-row, .cmp, .layer-card, .founder, .author-strip, .toc, .faq, .blog-card, etc.). **Never inline a `<style>` block in a blog file** — extend brand.css instead.
 
-Headlines render in Inter Tight bold (brand.css v2) — when emphasizing a phrase, use `<em>` inside the h-mast/h-chap (this colours the word electric blue via brand.css). Do NOT use `<span class="grad-text">` anymore — just use `<em>`.
+Headlines render in Inter bold (brand.css v2) — when emphasizing a phrase, use `<em>` inside the h-mast/h-chap (this colours the word electric blue via brand.css). Do NOT use `<span class="grad-text">` anymore — just use `<em>`.
 
 ## House voice — non-negotiable
 
@@ -156,7 +156,7 @@ Every post sounds like the founder, Amit Ratan, writing a strategic essay — no
 
 - **Diagnostic, not promotional.** Open by reframing the reader's question into a more honest one. Refuse the surface framing the reader walked in with.
 - **Own-your-academy thesis (current, per the `allcoaching` master skill).** AllCoaching is the educator's own LMS / academy with full control (brand, domain, own app, students, data); the enemy is complexity (WordPress + plugins, WhatsApp + Drive + Zoom + Excel, agency apps you can't change). Marketplace discovery is a supporting extra. (The old "ecosystem, never an LMS" thesis is retired.)
-- **Editorial, not corporate.** Light white canvas, Inter Tight headlines, electric blue as the only spotlight (see /brand). Match the brand guidelines feel — restrained, considered, hand-built.
+- **Editorial, not corporate.** Light white canvas, Inter headlines, electric blue as the only spotlight (see /brand). Match the brand guidelines feel — restrained, considered, hand-built.
 - **Long, dense paragraphs.** 4–7 sentences each, 17px body, line-height ~1.85. No fluff sentences. Every paragraph advances the argument.
 - **Em-dashes liberally** — for asides, contrasts, and shifts mid-sentence. This is the single most recognizable rhythmic tic of the house style.
 - **Bold key phrases** inside paragraphs (`<strong>`) — usually the load-bearing claim of the paragraph. Aim for 1–2 bolded fragments per paragraph max.
@@ -182,7 +182,7 @@ Every post must have, in order:
    - Open Graph + Twitter cards (image at `https://allcoaching-store.b-cdn.net/blog-images/<slug>.webp`, 1600×900)
    - Author: Amit Ratan, Founder & CEO, AllCoaching
    - GTM script: `GTM-T3KFKD3G`
-   - Fonts: `Instrument Serif` (ital@0;1), `Inter Tight` (400–700), `JetBrains Mono` (400/500/700)
+   - Fonts: `Instrument Serif` (ital@0;1), `Inter` (400–700), `JetBrains Mono` (400/500/700)
    - Stylesheets: `../dist/tw.min.css`, `../styles.css`, `../brand.css` (all three; the inline `<style>` block is NO LONGER used — every visual component is defined in `brand.css`)
    - **JSON-LD scripts (mandatory minimum SIX)** — see the "AI-Agent & Generative Search Optimization" section below for the full schema requirements:
      1. `Article` (with extended fields: `speakable`, `mentions[]`, `about[]` with Wikipedia `sameAs`, `author.sameAs`, `wordCount`, `inLanguage:"en-IN"`, `audience`, `isPartOf`)
@@ -676,7 +676,7 @@ These constants are sacred across every post and every retrofit. Never alter the
 
 - **Domain**: `allcoaching.in`
 - **Primary color** / accent: `#2B44FF` (electric blue), hover `#1A2FD9`, tint `#E8F0FF`, navy `#0A0F3D` for CTA bands/footer. Ochre is retired (2026-10-12).
-- **Fonts**: Instrument Serif (display + italic), Inter Tight (UI), JetBrains Mono (mono)
+- **Fonts**: Instrument Serif (display + italic), Inter (UI), JetBrains Mono (mono)
 - **CDN base for images**: `https://allcoaching-store.b-cdn.net/blog-images/<slug>.webp`
 - **GTM ID**: `GTM-T3KFKD3G`
 - **Author**: Amit Ratan, Founder & CEO, AllCoaching

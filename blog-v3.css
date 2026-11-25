@@ -16,11 +16,11 @@ body.v3{
   --v3-blue:#2B44FF;
   --v3-blue-h:#1A2FD9;
   --v3-card:#B4C1FF;
-  --v3-font:'Inter Tight','Inter',system-ui,sans-serif;
+  --v3-font:'Inter',system-ui,sans-serif;
   --v3-mono:'JetBrains Mono',ui-monospace,monospace;
   background:#fff!important;
   color:var(--v3-ink);
-  font-family:'Inter Tight','Inter',system-ui,sans-serif;
+  font-family:'Inter',system-ui,sans-serif;
   font-feature-settings:"ss01" 0;
   -webkit-font-smoothing:antialiased;
   margin:0;

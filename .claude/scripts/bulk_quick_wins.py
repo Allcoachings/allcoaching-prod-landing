@@ -16,8 +16,8 @@ HEADING_RE = re.compile(r'(<h[123][^>]*>)(.*?)(</h[123]>)', re.DOTALL)
 SPAN_RE = re.compile(r'<span class="grad-text">([^<]+)</span>')
 
 # Pattern B: Newsreader preload
-OLD_FONT = 'family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono'
-NEW_FONT = 'family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=JetBrains+Mono'
+OLD_FONT = 'family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono'
+NEW_FONT = 'family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=JetBrains+Mono'
 
 def fix_heading_grad(content):
     """Replace grad-text spans inside h1/h2/h3 only."""

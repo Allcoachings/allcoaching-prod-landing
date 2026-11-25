@@ -3,7 +3,7 @@ Migrate static pages (index, manifesto, about, contact, privacy, terms, 404)
 to the new brand system.
 
 Per file:
-1. Swap Google Fonts URL from Inter+Plus Jakarta to Instrument Serif+Inter Tight+JetBrains Mono
+1. Swap Google Fonts URL from Inter+Plus Jakarta to Instrument Serif+Inter+JetBrains Mono
 2. Add <link rel="stylesheet" href="./brand.css" /> after the styles.css link
 
 Idempotent — running twice is safe. Does NOT strip inline <style> blocks
@@ -19,7 +19,7 @@ STATIC_FILES = ["index.html", "manifesto.html", "about.html", "contact.html",
                 "privacy.html", "terms.html", "404.html"]
 
 FONT_OLD = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap"
-FONT_NEW = "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+FONT_NEW = "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:wght@400;500;700&display=swap"
 
 STYLES_LINK = '<link rel="stylesheet" href="./styles.css" />'
 BRAND_LINK_INSERT = '<link rel="stylesheet" href="./styles.css" />\n  <link rel="stylesheet" href="./brand.css" />'

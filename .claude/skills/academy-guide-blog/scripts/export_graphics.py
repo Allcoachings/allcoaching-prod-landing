@@ -9,7 +9,7 @@ Needs Node + Playwright (pre-installed here) and Pillow.
 import os, subprocess, sys, tempfile, json
 from PIL import Image
 
-FONTS = ('https://fonts.googleapis.com/css2?family=Inter:wght@300..800&family=Inter+Tight:wght@400..900'
+FONTS = ('https://fonts.googleapis.com/css2?family=Inter:wght@300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900'
          '&family=Caveat:wght@500..700&family=Instrument+Serif:ital@1&family=IBM+Plex+Mono:wght@500;600&display=swap')
 
 JS = r"""

@@ -1,6 +1,6 @@
 /* /landing v2 — ultra clean ad pages (jee-neet, skills, wordpress). Same look as the ad creatives.
-   White, one electric blue, Inter Tight 200/700. Bump ?v= on the <link> after editing. */
-:root{--ui:'Inter Tight',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;--dp:'Instrument Serif',Georgia,serif;
+   White, one electric blue, Inter 200/700. Bump ?v= on the <link> after editing. */
+:root{--ui:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;--dp:'Instrument Serif',Georgia,serif;
   --blue:#2B44FF;--blue-d:#1A2FD9;--sky:#EEF2FF;--ink:#0F1220;--ink2:#4A5063;--ink3:#8A90A2;--line:#ECEEF4;--green:#16A34A;--navy:#0A0F3D}
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}

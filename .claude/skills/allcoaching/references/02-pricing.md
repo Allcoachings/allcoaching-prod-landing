@@ -14,9 +14,9 @@ Two ways to pay, same three plans. 7-day free trial on every plan, **no card nee
 | Video storage / streaming a month | 512 GB / 512 GB | 1 TB / 1 TB | 2 TB / 2 TB |
 | Video quality | 1080p | 1080p | 4K |
 | Built-in live classroom | 20 h/month | 50 h/month | 90 h/month |
-| Team seats | 3 (you + 2) | 5 (you + 4) | 7 (you + 6) |
+| Team seats | 5 | 10 | 20 |
 | Ready-made landing pages | any 6 | any 12 | all 16 |
-| Premium themes | any 2 | any 5 | all |
+| Premium themes | none included (Classic free; premium ₹10,000 each, one-time) | same | same |
 | Own Android app | yes | yes | yes |
 | Own iOS app | no | **yes, after 30 days** | **yes, after 30 days** |
 
@@ -28,14 +28,14 @@ Two ways to pay, same three plans. 7-day free trial on every plan, **no card nee
 | Video storage / streaming a month | 512 GB / 512 GB | 1 TB / 1 TB | 3 TB / 3 TB |
 | Video quality | 1080p | 1080p | 4K |
 | Built-in live classroom | 5 h/month | 10 h/month | 15 h/month |
-| Team seats | 3 | 5 | 7 |
+| Team seats | 1 | 3 | 5 |
 | Ready-made landing pages | any 6 | any 12 | all 16 |
-| Premium themes | — | — | one included (₹10,000 value) |
+| Premium themes | none included (Classic free; premium ₹10,000 each, one-time) | same | same |
 | Own Android app | yes | yes | yes |
 | Own iOS app | no | **yes, after 30 days** | **yes, after 30 days** |
 
 ### Every plan (both billings)
-Unlimited YouTube video (branded player) · unlimited live classes on YouTube Live or Zoom (built-in classroom hours above are separate) · unlimited courses, tests and students · watermarking, DRM and piracy protection · marketplace listing (extra channel, no ad spend) · free `.allcoaching.in` address · own domain · drag-and-drop page builder (up to 100 pages) · blog (up to 300 posts) · premium themes free for the first 2 months · plugins: YouTube, Zoom, WhatsApp, Google Analytics, Meta Pixel, Tag Manager, Play Console, App Store Connect · coupons and lead forms · automatic payouts to the educator's bank.
+Unlimited YouTube video (branded player) · unlimited live classes on YouTube Live or Zoom (built-in classroom hours above are separate) · unlimited courses, tests and students · watermarking, DRM and piracy protection · marketplace listing (extra channel, no ad spend) · free `.allcoaching.in` address · own domain · drag-and-drop page builder (up to 100 pages) · blog (up to 300 posts) · Classic theme free (premium themes ₹10,000 each, one-time) · plugins: YouTube, Zoom, WhatsApp, Google Analytics, Meta Pixel, Tag Manager, Play Console, App Store Connect · coupons and lead forms · automatic payouts to the educator's bank.
 
 ## Copy rules
 - "0% commission", "keep 100%", "zero commission" = **monthly only**. Say "0% commission on every monthly plan" or "keep 90–100% of every sale".

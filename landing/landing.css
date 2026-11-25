@@ -1,7 +1,7 @@
-/* /landing/* — minimal, self-serve ad pages. Brand v2: white + one electric blue, Inter Tight 200/700,
+/* /landing/* — minimal, self-serve ad pages. Brand v2: white + one electric blue, Inter 200/700,
    Instrument Serif italic wordmark only. Change ?v= on the <link> after any edit (1-year CSS cache). */
 :root{
-  --ui:'Inter Tight',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;--dp:'Instrument Serif',Georgia,serif;
+  --ui:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;--dp:'Instrument Serif',Georgia,serif;
   --blue:#2B44FF;--blue-d:#1A2FD9;--sky:#E8F0FF;--cyan:#22C3F5;--navy:#0A0F3D;--navy2:#070A26;
   --ink:#14161F;--ink2:#4A5063;--ink3:#7A8094;--line:#E6E8F0;--soft:#F6F8FC;--green:#16A34A;--red:#D64545;
 }

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""One font everywhere (owner, 2026-11-25): Inter Tight for headings and text, JetBrains Mono for mono,
+"""One font everywhere (owner, 2026-11-25): Inter for headings and text, JetBrains Mono for mono,
 Instrument Serif italic ONLY for the AllCoaching wordmark. Devanagari fonts are kept for Hindi glyphs.
 
 Rewrites CSS rule by rule in the shared CSS files and in every page's <style> blocks and inline styles:
 - serif / display / reading families (Instrument Serif, Fraunces, Newsreader, var(--display), var(--reading), var(--dp))
-  -> Inter Tight, and font-style:italic in the same rule -> normal (unless the selector is a wordmark)
-- Inter, IBM Plex Mono, var(--v3-font) -> Inter Tight / JetBrains Mono
+  -> Inter, and font-style:italic in the same rule -> normal (unless the selector is a wordmark)
+- Inter, IBM Plex Mono, var(--v3-font) -> Inter / JetBrains Mono
 - Google Fonts links -> one canonical link
 Idempotent. Skips landing/ (ad pages), demo/, dist/ except tw.min.css, and brand.html (the brand guide documents fonts)."""
 import glob, os, re, time
@@ -21,7 +21,7 @@ def write(f, n):
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.chdir(ROOT)
 
-UI = "'Inter Tight','Inter',system-ui,sans-serif"
+UI = "'Inter',system-ui,sans-serif"
 MONO = "'JetBrains Mono',ui-monospace,monospace"
 WORDMARK = re.compile(r'word|lockup|logo|wordmark|brand-name|xft-tag|signature', re.I)
 SERIF = re.compile(r"font-family\s*:\s*(?:[^;}\"]*(?:Instrument Serif|Fraunces|Newsreader|Times New Roman|Georgia)[^;}\"]*|var\(--(?:display|reading|dp|serif)\)[^;}\"]*)", re.I)
@@ -49,7 +49,7 @@ def fix_css(css):
     css = re.sub(r"(--(?:mono|v3-mono)\s*:\s*)[^;}]+", lambda m: m.group(1) + MONO, css)
     return re.sub(r'([^{}]*)\{([^{}]*)\}', lambda m: m.group(1) + '{' + fix_block(m.group(1), m.group(2)) + '}', css)
 
-FONT_LINK = ('<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:ital,wght@0,100..900;1,100..900'
+FONT_LINK = ('<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900'
              '&family=JetBrains+Mono:wght@400;500;700{extra}&display=swap" rel="stylesheet" />')
 
 def fix_font_link(html):

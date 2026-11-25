@@ -8,7 +8,7 @@ os.chdir(ROOT)
 KIT = r'''
 /* ---------- inner pages: dark page hero + light content sheet + dark final ---------- */
 body.xin{background:var(--x-bg)}
-.xphero{position:relative;overflow:hidden;background:var(--x-bg);color:#fff;font-family:var(--ui,'Inter Tight','Inter',system-ui,sans-serif);padding:88px 0 150px;line-height:1.5}
+.xphero{position:relative;overflow:hidden;background:var(--x-bg);color:#fff;font-family:var(--ui,'Inter',system-ui,sans-serif);padding:88px 0 150px;line-height:1.5}
 .xphero:before{content:"";position:absolute;inset:0;background:radial-gradient(52% 70% at 82% 30%,rgba(43,68,255,.42),transparent 70%),radial-gradient(40% 55% at 6% 100%,rgba(43,68,255,.2),transparent 70%);pointer-events:none}
 .xphero:after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:88px 88px;-webkit-mask-image:linear-gradient(180deg,#000,transparent 85%);mask-image:linear-gradient(180deg,#000,transparent 85%);pointer-events:none}
 .xphero .xw{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}

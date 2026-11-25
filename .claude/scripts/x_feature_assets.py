@@ -48,7 +48,7 @@ CSS = r'''
 .xf-crumb{font-family:var(--mono,'JetBrains Mono',monospace);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--x-dim);margin-bottom:20px}
 .xf-crumb a{color:var(--x-dim);text-decoration:none}.xf-crumb a:hover{color:#fff}
 .xf-crumb span{margin:0 8px;opacity:.5}
-.xf{font-family:var(--ui,'Inter Tight','Inter',system-ui,sans-serif);color:#14161F}
+.xf{font-family:var(--ui,'Inter',system-ui,sans-serif);color:#14161F}
 .xf .xw{max-width:1280px}
 .xf-sec{padding:104px 0;border-top:1px solid #EEF0F5}
 .xf-sec:first-child{border-top:0}

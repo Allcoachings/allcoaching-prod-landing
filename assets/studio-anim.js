@@ -26,7 +26,7 @@
   var DUR = 3600;
 
   var CSS = [
-    '.sa{position:relative;width:100%;max-width:580px;background:#fff;border:1px solid #E3E7F0;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(15,18,32,.05),0 50px 90px -46px rgba(15,25,120,.5);font-family:"Inter Tight",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#14161F;user-select:none}',
+    '.sa{position:relative;width:100%;max-width:580px;background:#fff;border:1px solid #E3E7F0;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(15,18,32,.05),0 50px 90px -46px rgba(15,25,120,.5);font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#14161F;user-select:none}',
     '.sa *{box-sizing:border-box}',
     '.sa-top{display:flex;align-items:center;gap:6px;padding:9px 12px;border-bottom:1px solid #EEF0F6;background:#FBFCFE}',
     '.sa-top i{width:9px;height:9px;border-radius:50%;background:#E3E6EE}',

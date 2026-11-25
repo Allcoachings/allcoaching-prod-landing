@@ -139,3 +139,22 @@
     if (foot && 'IntersectionObserver' in window) new IntersectionObserver(function (es) { pill.style.opacity = es[0].isIntersecting ? '0' : ''; pill.style.pointerEvents = es[0].isIntersecting ? 'none' : ''; }).observe(foot);
   }
 })();
+
+/* studio-style plans: Yearly / Monthly switch (2026-11-25) */
+(function () {
+  var all = document.querySelectorAll('[data-sp]');
+  if (!all.length) return;
+  function set(b) {
+    [].forEach.call(all, function (sp) {
+      sp.setAttribute('data-bill', b);
+      [].forEach.call(sp.querySelectorAll('.sp-switch button'), function (x) { x.setAttribute('aria-pressed', x.getAttribute('data-b') === b ? 'true' : 'false'); });
+    });
+    try { sessionStorage.setItem('ac_bill', b); } catch (e) {}
+  }
+  [].forEach.call(all, function (sp) {
+    [].forEach.call(sp.querySelectorAll('.sp-switch button'), function (x) { x.addEventListener('click', function () { set(x.getAttribute('data-b')); }); });
+  });
+  var h = location.hash, b0 = h === '#monthly' ? 'monthly' : h === '#yearly' ? 'yearly' : null;
+  if (!b0) { try { b0 = sessionStorage.getItem('ac_bill'); } catch (e) {} }
+  set(b0 === 'monthly' ? 'monthly' : 'yearly');
+})();

@@ -31,7 +31,7 @@ Gradients: accent `linear-gradient(135deg,#5B6CFF 0%,#2B44FF 55%,#1A2FD9 100%)` 
 ## Type
 | Family | Job | Rules |
 |---|---|---|
-| **Inter Tight** | UI and headlines | Headlines mix weight **200 (setup) + 700 (payoff)**, tracking −0.03em. Body 400, 15–18px, line-height 1.55–1.6. Buttons 500–600. |
+| **Inter** | UI and headlines | Headlines mix weight **200 (setup) + 700 (payoff)**, tracking −0.03em. Body 400, 15–18px, line-height 1.55–1.6. Buttons 500–600. |
 | **Instrument Serif italic 400** | Wordmark "AllCoaching", pull quotes, manifesto lines | Never buttons or body. Emphasis by colour, never bold. |
 | **JetBrains Mono** | Eyebrows, numbers, IDs | 12px, caps, 0.14em tracking. |
 Scale: display 38–72px · heading 28–48px · card title 17–20px/700 · body 15–18px · eyebrow 12px mono. Hero h1 payoff may use an ink→blue gradient. **Fraunces is not a brand font.** Blog v3 posts use Inter (headlines weight 330) + IBM Plex Mono — see `academy-guide-blog`.
@@ -59,7 +59,7 @@ Round gradient mark (`assets/logo/allcoaching-logo.webp`) + "AllCoaching" in Ins
 - Third-party logos (Google, YouTube, Instagram, WhatsApp, Razorpay, Zoom) are fine as real marks with "Logos belong to their owners" where needed.
 
 ## Ads / social creative style (from the owner's creatives)
-Lavender canvas (`#FBFBFE → #F3F4FC → #E8EBFF`), heavy Inter Tight headline with **one electric-blue phrase**, white pill cards, real studio screenshot in a device frame, round logo + "AllCoaching / The academy platform for educators" lockup, one CTA ("Start free trial" / "Apni academy banaiye"), badge pills ("0% commission · on monthly plans", "7 din free · card nahi chahiye"). Problem/solution split: grey problem half (`#F2F2F4 → #E6E6EA`, optional Caveat handwriting) vs lavender solution half. Sizes: 1080×1080 (feed), 1080×1350 (4:5 feed), 1080×1920 (stories/reels, keep 250px safe zones top/bottom), 1200×628 (link/Google), 1600×900 (blog cover). Existing set: `assets/ads/2026-10/` (`ad-apna-lms`, `ad-ek-login`, SVG source + PNG).
+Lavender canvas (`#FBFBFE → #F3F4FC → #E8EBFF`), heavy Inter headline with **one electric-blue phrase**, white pill cards, real studio screenshot in a device frame, round logo + "AllCoaching / The academy platform for educators" lockup, one CTA ("Start free trial" / "Apni academy banaiye"), badge pills ("0% commission · on monthly plans", "7 din free · card nahi chahiye"). Problem/solution split: grey problem half (`#F2F2F4 → #E6E6EA`, optional Caveat handwriting) vs lavender solution half. Sizes: 1080×1080 (feed), 1080×1350 (4:5 feed), 1080×1920 (stories/reels, keep 250px safe zones top/bottom), 1200×628 (link/Google), 1600×900 (blog cover). Existing set: `assets/ads/2026-10/` (`ad-apna-lms`, `ad-ek-login`, SVG source + PNG).
 
 ## Motion
 Drifting blobs 18 s, floating cards ±8px over 7 s, ray shimmer 14 s, fade-up on scroll. Always honour `prefers-reduced-motion` (no animation). Never animate prices or legal text.

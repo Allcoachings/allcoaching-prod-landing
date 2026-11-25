@@ -56,7 +56,7 @@
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="preload" as="image" href="./assets/logo/allcoaching-logo.webp?v=20260707" fetchpriority="high" />
   <link rel="preload" as="style" href="./brand.css?v=20261027" />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./dist/tw.min.css?v=20260702" />
   <link rel="stylesheet" href="./styles.css?v=20260702" />
   <link rel="stylesheet" href="./brand.css?v=20261027" />
@@ -159,8 +159,8 @@
 
   <style>
     .kicker{ font-family:'JetBrains Mono',monospace; font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:700; color:#2B44FF; }
-    .h-mast{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size: clamp(2.4rem, 5.6vw, 4.4rem); line-height:1.02; letter-spacing:-.02em; }
-    .h-chap{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size: clamp(1.5rem, 2.8vw, 2.1rem); line-height:1.15; letter-spacing:-.02em; }
+    .h-mast{ font-family:'Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size: clamp(2.4rem, 5.6vw, 4.4rem); line-height:1.02; letter-spacing:-.02em; }
+    .h-chap{ font-family:'Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size: clamp(1.5rem, 2.8vw, 2.1rem); line-height:1.15; letter-spacing:-.02em; }
 
     /* Category nav (pill grid) */
     .cat-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:.65rem; margin-top:2rem; }
@@ -173,13 +173,13 @@
 
     /* Category headers */
     .cat-h{ display:flex; align-items:baseline; gap:.85rem; margin:3.5rem 0 1.25rem; padding-bottom:.85rem; border-bottom:2px solid rgba(43,68,255,.2); }
-    .cat-num{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size:clamp(1.6rem, 2.8vw, 2.2rem); line-height:1; background:linear-gradient(135deg,#5B6CFF,#2B44FF,#1A2FD9); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.02em; }
+    .cat-num{ font-family:'Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size:clamp(1.6rem, 2.8vw, 2.2rem); line-height:1; background:linear-gradient(135deg,#5B6CFF,#2B44FF,#1A2FD9); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.02em; }
 
     /* FAQ items */
     .faq-item{ background:#FFFFFF; border:1px solid rgba(20,22,31,.08); border-radius:12px; margin-bottom:.65rem; overflow:hidden; transition:border-color .2s cubic-bezier(.22,.85,.25,1); }
     .faq-item:hover{ border-color:rgba(43,68,255,.25); }
     .faq-item[open]{ border-color:#2B44FF; box-shadow:0 6px 18px -10px rgba(43,68,255,.25); }
-    .faq-item summary{ padding:1.1rem 1.4rem; cursor:pointer; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:15px; color:#14161F; display:flex; justify-content:space-between; align-items:center; gap:1rem; list-style:none; line-height:1.4; }
+    .faq-item summary{ padding:1.1rem 1.4rem; cursor:pointer; font-family:'Inter',sans-serif; font-weight:700; font-size:15px; color:#14161F; display:flex; justify-content:space-between; align-items:center; gap:1rem; list-style:none; line-height:1.4; }
     .faq-item summary::-webkit-details-marker{ display:none; }
     .faq-item summary::after{ content:'+'; font-size:1.6rem; color:#2B44FF; line-height:.8; flex-shrink:0; transition:transform .25s cubic-bezier(.22,.85,.25,1); font-family:'JetBrains Mono',monospace; }
     .faq-item[open] summary::after{ transform:rotate(45deg); }
@@ -191,14 +191,14 @@
 
     /* Filter / search box */
     .filter-shell{ position:sticky; top:90px; z-index:30; background:rgba(248,250,253,.92); backdrop-filter:saturate(180%) blur(12px); -webkit-backdrop-filter:saturate(180%) blur(12px); border:1px solid rgba(20,22,31,.08); border-radius:14px; padding:.75rem; margin:1.5rem 0 2rem; box-shadow:0 6px 18px -12px rgba(20,22,31,.18); }
-    .filter-shell input{ width:100%; border:none; outline:none; background:transparent; padding:.75rem 1rem; font-family:'Inter Tight',sans-serif; font-size:15.5px; color:#14161F; }
+    .filter-shell input{ width:100%; border:none; outline:none; background:transparent; padding:.75rem 1rem; font-family:'Inter',sans-serif; font-size:15.5px; color:#14161F; }
     .filter-shell input::placeholder{ color:#7A8094; }
 
     /* Stat strip */
     .stat-strip{ display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:0; margin-top:2.5rem; border-top:1px solid rgba(20,22,31,.08); border-bottom:1px solid rgba(20,22,31,.08); padding:1.25rem 0; }
     .stat-cell{ text-align:center; padding:0 .85rem; position:relative; }
     .stat-cell + .stat-cell::before{ content:''; position:absolute; left:0; top:20%; bottom:20%; width:1px; background:rgba(20,22,31,.08); }
-    .stat-num{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size:clamp(1.6rem, 3vw, 2.3rem); line-height:1; background:linear-gradient(135deg,#14161F 0%,#0F1A6B 50%,#1A2FD9 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.02em; }
+    .stat-num{ font-family:'Inter',system-ui,sans-serif; font-style:normal; font-weight:400; font-size:clamp(1.6rem, 3vw, 2.3rem); line-height:1; background:linear-gradient(135deg,#14161F 0%,#0F1A6B 50%,#1A2FD9 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.02em; }
     .stat-lab{ font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:.16em; font-weight:700; color:#7A8094; text-transform:uppercase; margin-top:6px; }
 
     /* Scroll-reveal */
@@ -214,7 +214,7 @@
     .hidden-item{ display:none !important; }
     .bg-tint{ background:#F6F8FC; }
     a:focus-visible, button:focus-visible{ outline:2px solid #2B44FF; outline-offset:3px; border-radius:6px; }
-    .h-mast,.h-chap,.h-display,.h-sec,.font-display,.grad-text{font-family:'Inter Tight','Inter',system-ui,sans-serif!important;font-style:normal;font-weight:400;}
+    .h-mast,.h-chap,.h-display,.h-sec,.font-display,.grad-text{font-family:'Inter',system-ui,sans-serif!important;font-style:normal;font-weight:400;}
   </style>
 <script src="/assets/attribution.js?v=1" defer></script>
 <style>
@@ -224,7 +224,7 @@
 body.xin .xlight{overflow:clip}  /* keeps the sticky filter bar working inside the sheet */
 @media (max-width:980px){.xphero .fq-kpis{grid-template-columns:1fr 1fr}.xphero .fq-kpis>div,.xphero .fq-kpis>div+div{padding:18px 0}.xphero .fq-kpis>div:nth-child(even){padding-left:20px;border-left:1px solid var(--x-line)}}
 </style>
-<link rel="stylesheet" href="/assets/x/x.css?v=36"/>
+<link rel="stylesheet" href="/assets/x/x.css?v=39"/>
 </head>
 
 <body class="uni bg-mesh text-[#14161F] antialiased xpage xin">
@@ -798,6 +798,6 @@ body.xin .xlight{overflow:clip}  /* keeps the sticky filter bar working inside t
 <div class="xmodal" id="xmodal" role="dialog" aria-modal="true" aria-label="AllCoaching studio tour" hidden>
   <div class="box"><button type="button" class="close" aria-label="Close video">×</button><video controls playsinline preload="none" poster="/assets/x/tour-poster.webp"></video></div>
 </div>
-<script src="/assets/x/x.js?v=36" defer></script>
+<script src="/assets/x/x.js?v=39" defer></script>
 </body>
 </html>

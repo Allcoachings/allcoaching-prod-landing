@@ -12,7 +12,7 @@
 
 ## Design (page, poster, ad, graphic)
 - [ ] White/mist canvas, `#2B44FF` the only accent, navy only for final band/footer.
-- [ ] Inter Tight 200 + 700 headline; Instrument Serif italic only for wordmark/quotes; JetBrains Mono eyebrows.
+- [ ] Inter 200 + 700 headline; Instrument Serif italic only for wordmark/quotes; JetBrains Mono eyebrows.
 - [ ] One solid blue button per section.
 - [ ] Real studio screenshot / product moment; "Studio preview · sample data" where needed.
 - [ ] Logo: round mark + italic wordmark, clear space, right version for the background.

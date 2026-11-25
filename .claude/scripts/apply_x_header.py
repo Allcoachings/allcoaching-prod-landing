@@ -7,7 +7,7 @@ Usage: python .claude/scripts/apply_x_header.py [--check]
 import re, glob, os, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.chdir(ROOT)
-VER = '36'
+VER = '39'
 HDR = open('assets/x/header.html', encoding='utf-8').read().strip()
 FTR = open('assets/x/footer.html', encoding='utf-8').read().strip()
 REG = open('assets/x/footer-reg.html', encoding='utf-8').read().strip()
@@ -48,8 +48,8 @@ def process(path, check=False):
     elif FOLD.search(s):
         s = FOLD.sub(lambda m: ftr, s, 1)
     s = re.sub(r'<link rel="stylesheet" href="/assets/x/x\.css\?v=\d+"/>', CSS, s)
-    # the X design uses Inter Tight 200/300 headlines: make sure those weights load
-    s = re.sub(r'(family=Inter\+Tight:wght@)([0-9;]+)', lambda m: m.group(1) + ';'.join(sorted(set(m.group(2).split(';')) | {'200', '300'}, key=int)), s)
+    # owner 2026-11-25: Inter (Shopify's font); any leftover Inter Tight link becomes the Inter variable font
+    s = re.sub(r'family=Inter\+Tight:(?:ital,)?wght@[0-9.,;]+', 'family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900', s)
     if '/assets/x/x.css' not in s:
         s = s.replace('</head>', CSS + '\n</head>', 1)
     s = re.sub(r'<script src="/assets/x/x\.js\?v=\d+" defer></script>', JS, s)

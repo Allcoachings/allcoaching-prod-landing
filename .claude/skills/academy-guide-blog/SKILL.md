@@ -108,7 +108,7 @@ Every post ships a cover + 6–12 in-article graphics. They are generated, never
 
 **Style rules (from the owner's approved creatives):**
 - Lavender-white canvas; a grey left half only for "before / problem" comparisons.
-- Heavy Inter Tight headline, tight tracking, near-black with ONE phrase in electric blue `#2B44FF`.
+- Heavy Inter headline, tight tracking, near-black with ONE phrase in electric blue `#2B44FF`.
 - White pill cards with soft shadow + dark navy icon tile and white line icon; light-lavender tiles with blue icons for feature rows.
 - Real product: AllCoaching Studio screenshots inside MacBook + iPhone frames (`laptop()`, `phone()`).
 - Real brand marks for the tools being discussed: `logo_google`, `logo_youtube`, `logo_instagram`, `logo_whatsapp` inside white app-icon tiles (`logo_tile`). Add "Logos belong to their owners" in the caption line when used.

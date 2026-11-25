@@ -17,7 +17,7 @@ Static marketing site + blog for **AllCoaching** (AllCoaching Technology), found
 - **Showcase:** Biology Lessons (Dr. Subhash Nair), CHEMPSI (Anupam Kumar), DigiteKM — names, logos, site screenshots only; no numbers, no quotes.
 - **Competitors:** cite source + check date, show their fee next to their price, never round up (`references/10-competitors.md`).
 - **Voice:** educator (not creator/user), studio (not dashboard); no exclamation marks; illustrative numbers marked.
-- **Look:** white/mist, electric blue `#2B44FF` only accent, navy `#0A0F3D` footer, Inter Tight 200 + 700 headlines, Instrument Serif italic wordmark, JetBrains Mono eyebrows; full guide at /brand.
+- **Look:** studio charcoal (`#151515`) site with white and studio-grey (`#F6F6F7`) content sections, electric blue `#2B44FF` only accent, **Inter** (Shopify's font, owner 2026-11-25) 300 + 700 headlines, Instrument Serif italic wordmark only, JetBrains Mono eyebrows. Plan cards and compare tables come from `.claude/scripts/x_plans.py`, copied from the studio's plan picker (studio = source of truth).
 - **Contact:** contact@allcoaching.in · WhatsApp +91 98899 77262.
 
 ## Workflow rules

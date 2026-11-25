@@ -7,9 +7,9 @@ p = os.path.join(ROOT, 'press.html')
 c = open(p, encoding='utf-8').read()
 
 REPL = [
-    # 1. mono uppercase running sentence -> Inter Tight caption
+    # 1. mono uppercase running sentence -> Inter caption
     ("font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.14em; font-weight:700; color:#8C8378; text-transform:uppercase; margin-top:1.1rem;\">Wordmark set",
-     "font-family:'Inter Tight',sans-serif; font-size:13px; font-weight:400; color:#8C8378; margin-top:1.1rem; line-height:1.6;\">Wordmark set"),
+     "font-family:'Inter',sans-serif; font-size:13px; font-weight:400; color:#8C8378; margin-top:1.1rem; line-height:1.6;\">Wordmark set"),
     # 2. semantic green used decoratively on WhatsApp icon -> inherit button colour
     ('<svg class="w-5 h-5" style="color:#2F8F4E;"><use href="#i-whatsapp"/></svg>',
      '<svg class="w-5 h-5"><use href="#i-whatsapp"/></svg>'),

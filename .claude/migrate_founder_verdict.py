@@ -82,7 +82,7 @@ def make_buttons(primary_href: str, primary_label: str,
     return f'''<div class="mt-7 flex flex-col sm:flex-row gap-4 justify-center items-center">
       <a href="{primary_href}" target="_blank" rel="noopener"
          class="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden no-underline"
-         style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;"
+         style="height:54px; padding:0 28px; border-radius:14px; background:linear-gradient(180deg,#F5C887 0%,#E0A95C 35%,#C58B43 70%,#B07A36 100%); color:#1A100A; font-family:'Inter',sans-serif; font-weight:700; font-size:14.5px; letter-spacing:.01em; text-decoration:none; box-shadow:0 1px 0 rgba(255,255,255,.55) inset,0 -1px 0 rgba(0,0,0,.10) inset,0 0 0 1px rgba(95,55,15,.18),0 12px 28px -8px rgba(197,139,67,.55),0 24px 60px -16px rgba(197,139,67,.45); transition:transform .18s ease, box-shadow .18s ease;"
          onmouseover="this.style.transform='translateY(-2px)';"
          onmouseout="this.style.transform='translateY(0)';">
         <span aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,0));pointer-events:none;border-radius:14px 14px 0 0;"></span>
@@ -91,7 +91,7 @@ def make_buttons(primary_href: str, primary_label: str,
       </a>
       <a href="{secondary_href}" target="_blank" rel="noopener"
          class="group relative inline-flex items-center justify-center gap-2 no-underline"
-         style="height:54px; padding:0 24px; border-radius:14px; color:#F5D8AE; font-family:'Inter Tight',sans-serif; font-weight:600; font-size:14.5px; letter-spacing:.005em; text-decoration:none; background:rgba(245,216,174,.04); border:1px solid rgba(245,216,174,.22); box-shadow:0 1px 0 rgba(255,255,255,.05) inset; transition:all .18s ease;"
+         style="height:54px; padding:0 24px; border-radius:14px; color:#F5D8AE; font-family:'Inter',sans-serif; font-weight:600; font-size:14.5px; letter-spacing:.005em; text-decoration:none; background:rgba(245,216,174,.04); border:1px solid rgba(245,216,174,.22); box-shadow:0 1px 0 rgba(255,255,255,.05) inset; transition:all .18s ease;"
          onmouseover="this.style.background='rgba(245,216,174,.10)';this.style.borderColor='rgba(224,169,92,.65)';this.style.color='#FBE2B8';this.style.transform='translateY(-2px)';"
          onmouseout="this.style.background='rgba(245,216,174,.04)';this.style.borderColor='rgba(245,216,174,.22)';this.style.color='#F5D8AE';this.style.transform='translateY(0)';">
         {secondary_label}

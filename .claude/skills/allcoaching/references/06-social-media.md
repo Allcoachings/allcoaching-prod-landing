@@ -25,7 +25,7 @@ Indian educators: coaching owners, exam tutors (NEET, JEE, UPSC, SSC, banking, C
 
 ## Formats and rules
 - **Reels/Shorts (9:16, 20–45 s):** hook in 1–2 s (pain line or product moment), on-screen captions in Hinglish, real UI, end card "7 din free · allcoaching.in". Trending audio OK, no misleading text.
-- **Carousels (1080×1350, 6–10 slides):** slide 1 hook headline (Inter Tight 200 + 700, one blue phrase), steps, last slide CTA + price line. Brand style per `03-brand-and-design.md`.
+- **Carousels (1080×1350, 6–10 slides):** slide 1 hook headline (Inter 200 + 700, one blue phrase), steps, last slide CTA + price line. Brand style per `03-brand-and-design.md`.
 - **YouTube long-form (8–20 min):** tutorial format; chapters; link the matching blog post and `/start`; pin a comment with the trial link.
 - **LinkedIn:** founder text posts (story → lesson → product in one line), carousels as PDF.
 - **Captions:** first line = the hook; then 2–4 short lines; CTA; 3–6 relevant hashtags (#onlineteaching #coachingapp #NEETteacher #educatorsofindia #onlinecourse). No exclamation marks, same claims rules as everywhere.

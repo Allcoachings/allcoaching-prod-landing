@@ -53,7 +53,7 @@ open('assets/x/footer.html', 'w', encoding='utf-8').write(FOOTER)
 
 CSS = r'''
 /* ---------- shared footer ---------- */
-.xft{background:#111;color:rgba(242,242,242,.78);font-family:'Inter Tight','Inter',system-ui,sans-serif;font-size:15px;line-height:1.5;border-top:1px solid rgba(255,255,255,.07);position:relative;z-index:3}
+.xft{background:#111;color:rgba(242,242,242,.78);font-family:'Inter',system-ui,sans-serif;font-size:15px;line-height:1.5;border-top:1px solid rgba(255,255,255,.07);position:relative;z-index:3}
 .xft *{box-sizing:border-box}
 .xft a{color:inherit;text-decoration:none}
 .xft-in{max-width:1440px;margin:0 auto;padding:80px 90px 40px}

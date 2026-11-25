@@ -54,7 +54,7 @@
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="preload" as="image" href="../assets/logo/allcoaching-logo.webp?v=20260707" fetchpriority="high" />
   <link rel="preload" as="style" href="../brand.css?v=20261027" />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../dist/tw.min.css?v=20260702" />
   <link rel="stylesheet" href="../styles.css?v=20260702" />
   <link rel="stylesheet" href="../brand.css?v=20261027" />
@@ -66,7 +66,7 @@
   <!-- Schema 5/6: ItemList (comparison aspects) -->
   <!-- Schema 6/6: Organization (canonical) -->
   <style>
-    .kicker{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:800; color:#2B44FF; }
+    .kicker{ font-family:'Inter',system-ui,sans-serif; font-size:.7rem; letter-spacing:.28em; text-transform:uppercase; font-weight:800; color:#2B44FF; }
     .h-mast{ font-size: clamp(2.4rem, 5.6vw, 4.2rem); line-height:1.02; font-weight:900; letter-spacing:-.035em; }
     .h-chap{ font-size: clamp(1.5rem, 2.8vw, 2.1rem); line-height:1.15; font-weight:800; letter-spacing:-.022em; }
 
@@ -76,10 +76,10 @@
     .vs-card{ background:#FFFFFF; border:1px solid rgba(20,22,31,.08); border-radius:18px; padding:1.5rem 1.25rem; text-align:center; }
     .vs-card-them{ background:linear-gradient(180deg,#EEF1F8 0%,#EEF1F8 100%); }
     .vs-card-us{ background:linear-gradient(180deg,#FFFFFF 0%,#F8FAFD 100%); border-color:#5B6CFF; box-shadow:0 12px 32px -12px rgba(43,68,255,.35); }
-    .vs-name{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-size:clamp(1.5rem, 3vw, 2rem); line-height:1; color:#14161F; }
+    .vs-name{ font-family:'Inter',system-ui,sans-serif; font-style:normal; font-size:clamp(1.5rem, 3vw, 2rem); line-height:1; color:#14161F; }
     .vs-name-us{ background:linear-gradient(135deg,#14161F 0%,#0F1A6B 50%,#1A2FD9 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
     .vs-tag{ font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.18em; font-weight:700; color:#7A8094; text-transform:uppercase; margin-top:8px; }
-    .vs-divider{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-size:1.6rem; color:#2B44FF; }
+    .vs-divider{ font-family:'Inter',system-ui,sans-serif; font-style:normal; font-size:1.6rem; color:#2B44FF; }
 
     /* TL;DR */
     .tldr-strip{ background:linear-gradient(180deg,#F8FAFD,#FFFFFF); border-left:4px solid #2B44FF; border-radius:0 14px 14px 0; padding:1.5rem 1.75rem; box-shadow:0 6px 18px -10px rgba(43,68,255,.3); }
@@ -90,7 +90,7 @@
     /* Comparison table */
     .cmp-wrap{ overflow-x:auto; border:1px solid rgba(20,22,31,.08); border-radius:14px; background:#FFFFFF; box-shadow:0 6px 18px -10px rgba(20,22,31,.08); }
     .cmp-table{ width:100%; border-collapse:collapse; min-width:720px; font-size:14px; }
-    .cmp-table th{ background:#14161F; color:#C9D4FF; padding:14px 16px; text-align:left; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:13px; letter-spacing:.04em; }
+    .cmp-table th{ background:#14161F; color:#C9D4FF; padding:14px 16px; text-align:left; font-family:'Inter',sans-serif; font-weight:700; font-size:13px; letter-spacing:.04em; }
     .cmp-table th.them{ background:#4A5063; }
     .cmp-table th.us{ background:linear-gradient(180deg,#1A2FD9,#2B44FF); color:#FFFFFF; }
     .cmp-table td{ padding:14px 16px; border-top:1px solid rgba(20,22,31,.06); color:#14161F; line-height:1.5; }
@@ -106,13 +106,13 @@
     .math-box::before{ content:''; position:absolute; inset:0; background-image:radial-gradient(rgba(201,212,255,.04) 1px,transparent 1px); background-size:24px 24px; pointer-events:none; }
     .math-row{ display:flex; justify-content:space-between; align-items:baseline; padding:.75rem 0; border-bottom:1px solid rgba(201,212,255,.1); position:relative; gap:1rem; }
     .math-row:last-child{ border-bottom:none; }
-    .math-row .lbl{ font-family:'Inter Tight',sans-serif; font-size:14px; color:rgba(201,212,255,.78); font-weight:500; flex:1; }
+    .math-row .lbl{ font-family:'Inter',sans-serif; font-size:14px; color:rgba(201,212,255,.78); font-weight:500; flex:1; }
     .math-row .val{ font-family:'JetBrains Mono',monospace; font-size:15px; font-weight:700; color:#C9D4FF; flex-shrink:0; }
     .math-row .val-bad{ color:#F49797; }
     .math-row .val-good{ color:#7BD89E; }
     .math-total{ margin-top:1rem; padding-top:1rem; border-top:2px solid rgba(201,212,255,.25); display:flex; justify-content:space-between; align-items:baseline; }
-    .math-total .lbl{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-size:1.2rem; color:#DCE4FF; }
-    .math-total .val{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-size:1.9rem; line-height:1; letter-spacing:-.025em; }
+    .math-total .lbl{ font-family:'Inter',system-ui,sans-serif; font-style:normal; font-size:1.2rem; color:#DCE4FF; }
+    .math-total .val{ font-family:'Inter',system-ui,sans-serif; font-style:normal; font-size:1.9rem; line-height:1; letter-spacing:-.025em; }
     .math-total .val-bad{ color:#F49797; background:none; -webkit-text-fill-color:#F49797; }
     .math-total .val-good{ background:linear-gradient(135deg,#DCE4FF,#5B6CFF); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
     .math-pair{ display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
@@ -121,7 +121,7 @@
 
     /* Verdict box */
     .verdict-box{ background:linear-gradient(180deg,#F8FAFD,#FFFFFF); border:1px solid rgba(43,68,255,.25); border-radius:18px; padding:2rem; text-align:center; }
-    .verdict-num{ font-family:'Inter Tight','Inter',system-ui,sans-serif; font-style:normal; font-size:clamp(3rem, 7vw, 5rem); line-height:1; background:linear-gradient(135deg,#14161F 0%,#0F1A6B 50%,#1A2FD9 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.03em; }
+    .verdict-num{ font-family:'Inter',system-ui,sans-serif; font-style:normal; font-size:clamp(3rem, 7vw, 5rem); line-height:1; background:linear-gradient(135deg,#14161F 0%,#0F1A6B 50%,#1A2FD9 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:-.03em; }
 
     /* Migration steps */
     .steps-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; margin-top:1.5rem; }
@@ -132,7 +132,7 @@
 
     /* FAQ */
     .faq-item{ background:#FFFFFF; border:1px solid rgba(20,22,31,.08); border-radius:12px; margin-bottom:.65rem; overflow:hidden; }
-    .faq-item summary{ padding:1.1rem 1.4rem; cursor:pointer; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:15px; color:#14161F; display:flex; justify-content:space-between; align-items:center; gap:1rem; list-style:none; line-height:1.4; }
+    .faq-item summary{ padding:1.1rem 1.4rem; cursor:pointer; font-family:'Inter',sans-serif; font-weight:700; font-size:15px; color:#14161F; display:flex; justify-content:space-between; align-items:center; gap:1rem; list-style:none; line-height:1.4; }
     .faq-item summary::-webkit-details-marker{ display:none; }
     .faq-item summary::after{ content:'+'; font-size:1.6rem; color:#2B44FF; line-height:.8; flex-shrink:0; transition:transform .25s ease; font-family:'JetBrains Mono',monospace; }
     .faq-item[open] summary::after{ transform:rotate(45deg); }
@@ -207,7 +207,7 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "@id": "https://allcoaching.in/vs/appx#aspects", "name": "AppX vs AllCoaching — 8 things to compare", "numberOfItems": 8, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Published price"}, {"@type": "ListItem", "position": 2, "name": "How you start"}, {"@type": "ListItem", "position": 3, "name": "Fee on your sales"}, {"@type": "ListItem", "position": 4, "name": "Free trial"}, {"@type": "ListItem", "position": 5, "name": "Setup"}, {"@type": "ListItem", "position": 6, "name": "Website and app"}, {"@type": "ListItem", "position": 7, "name": "Maintenance"}, {"@type": "ListItem", "position": 8, "name": "Finding students"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://allcoaching.in/#organization", "name": "AllCoaching", "url": "https://allcoaching.in", "logo": {"@type": "ImageObject", "url": "https://allcoaching.in/assets/logo/allcoaching-logo.webp?v=20260707", "width": 512, "height": 512, "copyrightNotice": "© 2026 AllCoaching", "license": "https://allcoaching.in/terms", "creditText": "AllCoaching", "acquireLicensePage": "https://allcoaching.in/contact"}, "founder": {"@id": "https://allcoaching.in/author/amit-ratan#person"}, "foundingDate": "2018", "sameAs": ["https://www.youtube.com/@Allcoaching", "https://www.instagram.com/allcoachings/", "https://x.com/allcoachings", "https://t.me/allcoaching", "https://www.facebook.com/allcoaching.in", "https://play.google.com/store/apps/details?id=org.student.allcoaching", "https://apps.apple.com/in/app/allcoaching-exam-prep-app/id6758305866"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"Build Your Own LMS in a Few Clicks | Website & App | AllCoaching Demo 2026","description":"Build your own LMS and online coaching academy in a few clicks. In this 4-minute demo, see how educators in India launch their own website, student app, courses, test series, PDF notes and live classes with AllCoaching, with no coding and no developer.","thumbnailUrl":["https://i.ytimg.com/vi/Q1OI9SstFkg/maxresdefault.jpg"],"uploadDate":"2026-10-14T02:58:07-07:00","duration":"PT4M36S","contentUrl":"https://www.youtube.com/watch?v=Q1OI9SstFkg","embedUrl":"https://www.youtube-nocookie.com/embed/Q1OI9SstFkg","inLanguage":"en-IN","creator":{"@type":"Organization","name":"AllCoaching","url":"https://www.youtube.com/@Allcoaching"},"publisher":{"@id":"https://allcoaching.in/#organization"},"isPartOf":{"@type":"WebPage","@id":"https://allcoaching.in/vs/appx"}}</script>
-<link rel="stylesheet" href="/assets/x/x.css?v=36"/>
+<link rel="stylesheet" href="/assets/x/x.css?v=39"/>
 </head>
 
 <body class="uni bg-mesh text-[#14161F] antialiased xpage xin">
@@ -719,6 +719,6 @@ AppX: <a href="https://appx.co.in/" target="_blank" rel="noopener nofollow">appx
 <div class="xmodal" id="xmodal" role="dialog" aria-modal="true" aria-label="AllCoaching studio tour" hidden>
   <div class="box"><button type="button" class="close" aria-label="Close video">×</button><video controls playsinline preload="none" poster="/assets/x/tour-poster.webp"></video></div>
 </div>
-<script src="/assets/x/x.js?v=36" defer></script>
+<script src="/assets/x/x.js?v=39" defer></script>
 </body>
 </html>

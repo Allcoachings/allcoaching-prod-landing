@@ -3,7 +3,7 @@ Bulk migration: rebrand 13 blog files to the new AllCoaching brand system.
 
 For each blog file:
 1. Strip the entire inline <style>...</style> block (now lives in brand.css)
-2. Swap the Google Fonts URL from Inter+Plus Jakarta to Instrument Serif+Inter Tight+JetBrains Mono
+2. Swap the Google Fonts URL from Inter+Plus Jakarta to Instrument Serif+Inter+JetBrains Mono
 3. Add <link rel="stylesheet" href="../brand.css" /> after the styles.css link
 4. Remove inline style="color:#2563EB" overrides on .kicker (now brand-driven)
 5. Replace hard-coded primary-blue/green hex in inline style attributes with brand tokens
@@ -19,7 +19,7 @@ REPO = Path(__file__).resolve().parents[1]
 BLOG_DIR = REPO / "blog"
 
 FONT_OLD = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap"
-FONT_NEW = "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+FONT_NEW = "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:wght@400;500;700&display=swap"
 
 STYLES_LINK = '<link rel="stylesheet" href="../styles.css" />'
 BRAND_LINK_INSERT = '<link rel="stylesheet" href="../styles.css" />\n  <link rel="stylesheet" href="../brand.css" />'

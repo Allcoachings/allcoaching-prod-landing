@@ -2,7 +2,7 @@
 
 Visual language (owner-approved creatives, 2026-10-24):
   - lavender-white canvas (#F7F8FD -> #ECEFFF), or a grey "before" half (#EEEEF0)
-  - heavy, tightly tracked Inter Tight headline in near-black, one phrase in electric blue #2B44FF
+  - heavy, tightly tracked Inter headline in near-black, one phrase in electric blue #2B44FF
   - white pill cards with soft shadow and a dark navy icon tile (#1B1E2E) with a white line icon
   - light-lavender icon tiles with blue line icons for feature rows
   - handwritten notes (Caveat) and hand-drawn blue arrows only on the "problem" side
@@ -10,7 +10,7 @@ Visual language (owner-approved creatives, 2026-10-24):
   - AllCoaching lockup: pin logo + Instrument Serif italic wordmark + "The academy platform for educators"
 
 Every function returns an SVG fragment string. `svg()` wraps fragments into a document.
-Export to WebP with export_graphics.js (fonts: Inter Tight, Inter, Caveat, Instrument Serif).
+Export to WebP with export_graphics.js (fonts: Inter, Inter, Caveat, Instrument Serif).
 """
 import base64, html, os
 
@@ -27,8 +27,8 @@ TAPE = '#EFE6D2'
 RED = '#E5484D'
 GREEN = '#1F9D55'
 
-F_HEAD = "'Inter Tight', Inter, Arial, sans-serif"
-F_BODY = "Inter, 'Inter Tight', Arial, sans-serif"
+F_HEAD = "'Inter', Inter, Arial, sans-serif"
+F_BODY = "Inter, 'Inter', Arial, sans-serif"
 F_HAND = "Caveat, 'Segoe Print', cursive"
 F_WORD = "'Instrument Serif', Georgia, serif"
 F_MONO = "'IBM Plex Mono', ui-monospace, monospace"

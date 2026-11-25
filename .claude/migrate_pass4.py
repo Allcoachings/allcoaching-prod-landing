@@ -9,9 +9,9 @@ After passes 1-3 the only residuals are:
 - #DCE5F4 (info-soft) in brand.css — light blue token that's no longer used
 
 Strategy:
-- Swap ALL Plus Jakarta Sans -> Inter Tight (the brand UI font).
+- Swap ALL Plus Jakarta Sans -> Inter (the brand UI font).
   Display contexts inside SVG don't render Instrument Serif italic
-  well at small sizes — Inter Tight Bold reads cleanly as a label.
+  well at small sizes — Inter Bold reads cleanly as a label.
 - Replace #2BA6E0 -> #8E5F22 (deep ochre) and #0EA5E9 -> #92400E
   (warm brown) to preserve illustration variety while removing blue.
 - Replace brand.css info-soft -> warm soft tone.
@@ -34,19 +34,19 @@ REPLACEMENTS = [
     # info-soft in brand.css
     ("#DCE5F4", "#F4EAD0"),
     # Any leftover plus jakarta
-    ("'Plus Jakarta Sans', Inter, sans-serif", "'Inter Tight', sans-serif"),
-    ("'Plus Jakarta Sans', sans-serif", "'Inter Tight', sans-serif"),
-    ("'Plus Jakarta Sans',Inter,sans-serif", "'Inter Tight',sans-serif"),
-    ("'Plus Jakarta Sans',sans-serif", "'Inter Tight',sans-serif"),
-    ('"Plus Jakarta Sans, sans-serif"', '"Inter Tight, sans-serif"'),
-    ('"Plus Jakarta Sans,sans-serif"', '"Inter Tight,sans-serif"'),
-    ('font-family="Plus Jakarta Sans, sans-serif"', 'font-family="Inter Tight, sans-serif"'),
-    ('font-family="Plus Jakarta Sans,sans-serif"', 'font-family="Inter Tight,sans-serif"'),
-    ('font-family="Plus Jakarta Sans"', 'font-family="Inter Tight, sans-serif"'),
-    ("font-family:'Plus Jakarta Sans';", "font-family:'Inter Tight',sans-serif;"),
-    ("font-family:'Plus Jakarta Sans'", "font-family:'Inter Tight',sans-serif"),
+    ("'Plus Jakarta Sans', Inter, sans-serif", "'Inter', sans-serif"),
+    ("'Plus Jakarta Sans', sans-serif", "'Inter', sans-serif"),
+    ("'Plus Jakarta Sans',Inter,sans-serif", "'Inter',sans-serif"),
+    ("'Plus Jakarta Sans',sans-serif", "'Inter',sans-serif"),
+    ('"Plus Jakarta Sans, sans-serif"', '"Inter, sans-serif"'),
+    ('"Plus Jakarta Sans,sans-serif"', '"Inter,sans-serif"'),
+    ('font-family="Plus Jakarta Sans, sans-serif"', 'font-family="Inter, sans-serif"'),
+    ('font-family="Plus Jakarta Sans,sans-serif"', 'font-family="Inter,sans-serif"'),
+    ('font-family="Plus Jakarta Sans"', 'font-family="Inter, sans-serif"'),
+    ("font-family:'Plus Jakarta Sans';", "font-family:'Inter',sans-serif;"),
+    ("font-family:'Plus Jakarta Sans'", "font-family:'Inter',sans-serif"),
     ("Plus+Jakarta+Sans", "Inter+Tight"),  # in any URL leftovers
-    ("'Plus Jakarta Sans'", "'Inter Tight'"),  # final catch-all
+    ("'Plus Jakarta Sans'", "'Inter'"),  # final catch-all
 ]
 
 
