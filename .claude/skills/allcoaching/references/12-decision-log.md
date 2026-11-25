@@ -2,6 +2,11 @@
 
 Newest first. A newer line always overrides an older one. Add a dated line whenever the owner confirms or changes something, then update `SKILL.md`, the matching reference file and `CLAUDE.md`.
 
+## 2026-11-25
+- **Yearly-first marketing (owner):** lead with yearly plans everywhere on the site (Starter ₹6,999 / Growth ₹12,999 / Pro ₹24,999 a year, fee 10 / 7.5 / 5% + GST per sale). Pricing toggles on the homepage and /pricing open on Yearly; Monthly (0% commission) stays as the second option, reachable at /pricing#monthly. Prices and plan facts are unchanged.
+- **Registered address:** removed from the homepage footer; not shown anywhere on the site.
+- **Homepage rebuilt concept-first:** hero "Your own online academy. Built by you." with the website + app + courses + UPI = your academy strip, then real-screen "This is your academy", 3 steps, what you can do, who it is for, before vs after.
+
 ## 2026-11-11
 - **GSC pass (3 months to 10 Nov: 3,006 clicks, 193,769 impressions, CTR 1.55%).** New titles and descriptions on 12 high-impression, low-CTR pages (`.claude/scripts/ctr_optimize_nov2026.py` records the query evidence for each): GST/SAC 999293, Classplus pricing, free UPI gateway, Graphy pricing, Classplus DIY, home tuition app, online tuition (Hinglish x2), Hindi/multi-language LMS, record lectures, PW alternative, online teacher income.
 - **Content fixes** (`gsc_nov2026_content_fixes.py`): question-style H2s on 4 posts, internal links to 7 under-linked new posts, Classplus DIY login line in the intro, sitemap lastmod corrected.

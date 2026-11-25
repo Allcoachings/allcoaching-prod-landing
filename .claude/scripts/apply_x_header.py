@@ -7,7 +7,7 @@ Usage: python .claude/scripts/apply_x_header.py [--check]
 import re, glob, os, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.chdir(ROOT)
-VER = '24'
+VER = '36'
 HDR = open('assets/x/header.html', encoding='utf-8').read().strip()
 FTR = open('assets/x/footer.html', encoding='utf-8').read().strip()
 REG = open('assets/x/footer-reg.html', encoding='utf-8').read().strip()
