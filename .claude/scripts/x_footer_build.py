@@ -29,7 +29,7 @@ FOOTER = '''<!-- X FOOTER (source: assets/x/footer.html) -->
       <nav class="xft-cols" aria-label="Footer">
         <div><h4>Product</h4><a href="/features/">All features</a><a href="/pricing">Pricing</a><a href="/start">Get started</a><a href="/vs/">Compare</a><a href="https://studio.allcoaching.in/login">Log in</a></div>
         <div><h4>Features</h4><a href="/features/academy-website">Academy website</a><a href="/features/mobile-app">Your own app</a><a href="/features/courses">Courses</a><a href="/features/test-series">Test series</a><a href="/features/live-classes">Live classes</a><a href="/features/payments">Payments</a></div>
-        <div><h4>Resources</h4><a href="/blog/">Blog</a><a href="https://www.youtube.com/@Allcoaching" target="_blank" rel="noopener">Studio tutorials</a><a href="/faq">Help and FAQ</a><a href="/press">Press</a><a href="/brand">Brand</a></div>
+        <div><h4>Resources</h4><a href="/blog/">Blog</a><a href="/tutorials">Studio tutorials</a><a href="/faq">Help and FAQ</a><a href="/press">Press</a><a href="/brand">Brand</a></div>
         <div><h4>Company</h4><a href="/about">About</a><a href="/manifesto">Manifesto</a><a href="/author/amit-ratan">Founder</a><a href="/contact">Contact</a></div>
         <div><h4>Legal</h4><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refund-policy">Refund and cancellation</a><a href="/delivery-policy">Delivery policy</a><a href="/educator-agreement">Educator agreement</a></div>
       </nav>
