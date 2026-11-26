@@ -624,3 +624,8 @@ footer.xft,.xft{background:#111!important;background-image:none!important;margin
 .st-help-row b{display:block;font-size:15.5px;font-weight:600}
 .st-help-row span{display:block;margin-top:3px;font-size:13.5px;color:#6B7080}
 @media (max-width:900px){.st-ready,.st-help,.st-help-row{grid-template-columns:1fr}}
+.xh-ed i{background:linear-gradient(135deg,#8B5CF6,#2B44FF)}
+.xh-ed i svg{width:12px;height:12px}
+.xh-ed em{font-style:normal;margin-left:2px;padding:2px 7px;border-radius:999px;background:#fff;color:#151515;font-size:11px;font-weight:700;letter-spacing:.02em}
+.xh-ded{display:flex!important;align-items:center;gap:10px}
+.xh-ded em{font-style:normal;padding:2px 8px;border-radius:999px;background:#2B44FF;color:#fff;font-size:12px;font-weight:700}

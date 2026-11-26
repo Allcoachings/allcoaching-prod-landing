@@ -204,7 +204,7 @@
   {"@context": "https://schema.org", "@type": "DefinedTermSet", "name": "Generative AI Quiz Creation Glossary", "description": "Key terms an Indian coaching institute owner, independent teacher, or exam-prep faculty needs to understand when evaluating generative AI for automated quiz creation in 2026.", "hasDefinedTerm": [{"@type": "DefinedTerm", "@id": "https://allcoaching.in/blogs/en/using-generative-ai-for-automated-quiz-creation#dfn-genai-quiz", "name": "Generative AI Quiz Creation", "description": "The workflow in which a large language model drafts multiple-choice questions, distractors, and explanations from a source under educator-defined exam pattern, Bloom-level, and difficulty constraints — typically followed by a faculty review gate before publish. Distinct from AI question suggestion, which is a chat-window productivity hack with no structured pipeline.", "termCode": "GENAI-QUIZ"}, {"@type": "DefinedTerm", "@id": "https://allcoaching.in/blogs/en/using-generative-ai-for-automated-quiz-creation#dfn-llm", "name": "Large Language Model (LLM)", "description": "A neural-network model trained on broad text corpora that generates fluent natural language and structured output. In Indian coaching workflows in 2026, the production-grade options are Claude 4.x, GPT-5/GPT-4.x family, Gemini 2.x, and selected open-weights models. Each has different strengths across reasoning, numerical, multimodal, and Indian-language output.", "termCode": "LLM"}, {"@type": "DefinedTerm", "@id": "https://allcoaching.in/blogs/en/using-generative-ai-for-automated-quiz-creation#dfn-bloom", "name": "Bloom's Taxonomy", "description": "A six-level hierarchy of cognitive learning objectives — Remember, Understand, Apply, Analyze, Evaluate, Create — used to calibrate question difficulty and pedagogical purpose. AI quiz generation prompts encode Bloom-level distribution to ensure the bank balances recall, application, and analytical items appropriately for the exam.", "termCode": "BLOOM"}, {"@type": "DefinedTerm", "@id": "https://allcoaching.in/blogs/en/using-generative-ai-for-automated-quiz-creation#dfn-irt", "name": "Item Response Theory (IRT)", "description": "A psychometric framework that models the probability of a student answering an item correctly as a function of student ability and item difficulty/discrimination. AI-generated banks are targeted to specified IRT difficulty bands (P-value 0.3–0.5 for high-stakes selection, 0.5–0.7 for diagnostic), then recalibrated using real attempt data once items publish.", "termCode": "IRT"}, {"@type": "DefinedTerm", "@id": "https://allcoaching.in/blogs/en/using-generative-ai-for-automated-quiz-creation#dfn-rag", "name": "Retrieval-Augmented Generation (RAG)", "description": "An AI architecture pattern that grounds an LLM's output in retrieved source content (NCERT chapters, lecture notes, verified question banks) rather than relying purely on the model's parametric memory. The single most important hallucination safeguard in production-grade AI quiz generation — cuts hallucination more than any other single intervention.", "termCode": "RAG"}, {"@type": "DefinedTerm", "@id": "https://allcoaching.in/blogs/en/using-generative-ai-for-automated-quiz-creation#dfn-hallucination", "name": "Hallucination", "description": "An LLM output that is fluent and plausible but factually incorrect — wrong constants, misattributed laws, invented citations, fabricated current-affairs events. The leading failure mode of naive AI quiz generation. Reduced sharply by stacking RAG, structured per-item source citation, and a faculty review gate.", "termCode": "HALLUCINATION"}, {"@type": "DefinedTerm", "@id": "https://allcoaching.in/blogs/en/using-generative-ai-for-automated-quiz-creation#dfn-distractor", "name": "Distractor", "description": "The incorrect answer choices in a multiple-choice item. Distractor quality determines the discriminating power of the question; a strong distractor is plausibly true if the student misapplied a specific concept. AI distractor generation requires explicit calibration rules — without them the model defaults to absurdly-wrong options that students eliminate without thinking.", "termCode": "DISTRACTOR"}, {"@type": "DefinedTerm", "@id": "https://allcoaching.in/blogs/en/using-generative-ai-for-automated-quiz-creation#dfn-prompt-stack", "name": "Prompt Stack", "description": "The reusable, layered prompt template that encodes role, exam pattern, source grounding, Bloom distribution, distractor rules, output format, and self-check for a specific authoring task. Stable prompt stacks are the primary engineering artefact of production AI quiz workflows — institutes that maintain them author at AI velocity; institutes that re-prompt every session do not.", "termCode": "PROMPT-STACK"}, {"@type": "DefinedTerm", "@id": "https://allcoaching.in/blogs/en/using-generative-ai-for-automated-quiz-creation#dfn-review-gate", "name": "Faculty Review Gate", "description": "The mandatory human-approval step between AI generation and student publish. The reviewer scans every generated item against its source citation, edits or rejects as needed, and approves the final bank. Some dedicated AI quiz tools build the review gate in; when you draft in a general AI assistant such as ChatGPT, Gemini or Claude, it is your own discipline — no item is uploaded to your test series until you have approved it.", "termCode": "REVIEW-GATE"}, {"@type": "DefinedTerm", "@id": "https://allcoaching.in/blogs/en/using-generative-ai-for-automated-quiz-creation#dfn-marketplace-ai-quiz", "name": "Marketplace-Integrated AI Quiz", "description": "A workflow where questions are drafted and reviewed with AI tools and then published as tests inside the educator's own academy, next to courses, payments and student records. Contrasts with standalone AI quiz tools that handle authoring and leave hosting, payments and students elsewhere.", "termCode": "MARKETPLACE-AI-QUIZ"}]}
   </script>
 <script src="/assets/attribution.js?v=1" defer></script>
-<link rel="stylesheet" href="/assets/x/x.css?v=40"/>
+<link rel="stylesheet" href="/assets/x/x.css?v=41"/>
 </head>
 
 <body class="bg-mesh text-[#14161F] antialiased">
@@ -231,7 +231,7 @@
       <button type="button" class="xh-t" aria-expanded="false" aria-controls="xm-product">Product <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="m2.5 4.5 3.5 3.5 3.5-3.5"/></svg></button>
       <a href="/pricing">Pricing</a>
       <button type="button" class="xh-t" aria-expanded="false" aria-controls="xm-res">Resources <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="m2.5 4.5 3.5 3.5 3.5-3.5"/></svg></button>
-      <a class="xh-pill" href="/tutorials"><i><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></i>Studio Tutorials 2027</a>
+      <a class="xh-pill xh-ed" href="/journey"><i><svg viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg></i>Edition 2026<em>New</em></a>
     </nav>
     <div class="xh-r">
       <a href="https://studio.allcoaching.in/login" class="xh-login">Log in</a>
@@ -324,7 +324,7 @@
     <div class="xh-pin xp-res">
       <div><div class="xh-eye">Learn</div><ul class="xl">
         <li><a href="/blog/"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><path d="M4 4h12l4 4v12H4z"/><path d="M8 10h8M8 14h8M8 18h5"/></svg></span>Blog</a></li>
-        <li><a href="/tutorials"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m10 9 5 3-5 3z"/></svg></span>Studio tutorials</a></li>
+        <li><a href="/tutorials"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m10 9 5 3-5 3z"/></svg></span>Studio Tutorials 2027<small>15 short videos</small></a></li>
         <li><a href="/faq"><span class="xi" style="--h:#2B44FF"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5h.01"/></svg></span>Help and FAQ</a></li>
       </ul></div>
       <div><div class="xh-eye">Compare</div><ul class="xl">
@@ -347,6 +347,7 @@
 </header>
 <div class="xh-scrim" id="xh-scrim"></div>
 <nav class="xh-drawer" id="xh-drawer" aria-label="Menu" hidden>
+  <a class="xh-ded" href="/journey">Edition 2026 <em>New</em></a>
   <details><summary>Why AllCoaching</summary><a href="/start">Get started fast</a><a href="/vs/">Switch to AllCoaching</a><a href="/about">Trusted by 500+ educators</a></details>
   <details><summary>Product</summary>
     <a href="/features/">All features</a>
@@ -355,7 +356,7 @@
     <div class="xh-eye">Sell and run</div><a href="/features/payments">Checkout and payments</a><a href="/features/discount-codes">Discount codes</a><a href="/features/batches">Students, batches and team</a><a href="/features/integrations">Integrations</a>
   </details>
   <a href="/pricing">Pricing</a>
-  <details><summary>Resources</summary><a href="/blog/">Blog</a><a href="/tutorials">Studio tutorials</a><a href="/faq">Help and FAQ</a><a href="/vs/">Compare</a><a href="/about">About</a><a href="/contact">Contact</a></details>
+  <details><summary>Resources</summary><a href="/blog/">Blog</a><a href="/tutorials">Studio Tutorials 2027</a><a href="/faq">Help and FAQ</a><a href="/vs/">Compare</a><a href="/about">About</a><a href="/contact">Contact</a></details>
   <div class="xh-dcta"><a class="a1" href="https://studio.allcoaching.in/login">Log in</a><a class="a2" href="https://studio.allcoaching.in/">Start free trial</a></div>
 </nav>
 <!-- /X HEADER -->
@@ -1160,6 +1161,6 @@
 <div class="xmodal" id="xmodal" role="dialog" aria-modal="true" aria-label="AllCoaching studio tour" hidden>
   <div class="box"><button type="button" class="close" aria-label="Close video">×</button><video controls playsinline preload="none" poster="/assets/x/tour-poster.webp"></video></div>
 </div>
-<script src="/assets/x/x.js?v=40" defer></script>
+<script src="/assets/x/x.js?v=41" defer></script>
 </body>
 </html>

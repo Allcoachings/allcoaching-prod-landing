@@ -23,7 +23,7 @@ URL = SITE + '/journey'
 TITLE = 'Educator Journey 2027: Your Own Website and App | AllCoaching'
 DESC = ('See how an educator builds their own website and app in 2027: name your academy, connect your domain, '
         'add a course and sell. Then all 14 steps, with real studio screens.')
-VER = '22'
+VER = '26'
 
 CHAPTERS = [
     ('setup', 'Set up', 'Your name, your website and your own app.', '#1B2FE0', ['academy-website', 'mobile-app']),
@@ -74,31 +74,56 @@ def feature(p, n, pages):
 
 
 def constellation(pages):
+    """Live map, rendered once here and animated by journey.js: every node is a <g data-id> placed with
+    transform, every line names its two ends (data-a, data-b), so the script can drift the nodes, push them
+    away from the cursor, light up a hovered cluster and send pulses along the lines."""
+    import random
+    rnd = random.Random(7)
     cx, cy = 505, 360
-    out = []
-    names = []
+    edges, nodes, stages = [], [], []
+    step_no = {s: i + 1 for i, s in enumerate(s for c in CHAPTERS for s in c[4])}
+
+    def node(nid, x, y, cls, inner, extra=''):
+        nodes.append(f'<g class="{cls}" data-id="{nid}" data-x="{x:.0f}" data-y="{y:.0f}" transform="translate({x:.0f} {y:.0f})"{extra}>{inner}</g>')
+
     for ci, (cid, name, _sub, col, slugs) in enumerate(CHAPTERS):
         a = -math.pi / 2 + ci * 2 * math.pi / len(CHAPTERS) + 0.35
         r = 230 if ci % 2 == 0 else 260
         x, y = cx + r * math.cos(a) * 1.22, cy + r * math.sin(a)
-        out.append(f'<line class="l1" x1="{cx}" y1="{cy}" x2="{x:.0f}" y2="{y:.0f}"/>')
+        c = col if cid != 'run' else '#8A93B8'
+        edges.append(f'<line class="l1" data-a="h" data-b="c{ci}" data-c="{ci}"/>')
+        # the steps of this stage: small squares with labels and a real studio thumbnail for the hover card
         for k, slug in enumerate(slugs):
             b = a + (k - (len(slugs) - 1) / 2) * 0.95
             rr = 118 + 22 * (k % 2)
             fx, fy = x + rr * math.cos(b) * 1.15, y + rr * math.sin(b)
             left = fx < x
-            out.append(f'<line class="l2" x1="{x:.0f}" y1="{y:.0f}" x2="{fx:.0f}" y2="{fy:.0f}"/>')
-            out.append(f'<a href="#f-{slug}" class="jr-sat"><title>{e(pages[slug]["nav"])}</title><rect x="{fx - 7:.0f}" y="{fy - 7:.0f}" width="14" height="14" rx="3"/>'
-                       f'<text x="{fx - 14 if left else fx + 14:.0f}" y="{fy + 4:.0f}" text-anchor="{"end" if left else "start"}">{e(pages[slug]["nav"])}</text></a>')
-        for k in range(5):  # quiet background dots
-            b = a + 1.1 + k * 0.9
-            dx, dy = x + (70 + 37 * k) * math.cos(b) * 1.4, y + (70 + 37 * k) * math.sin(b)
-            out.append(f'<circle class="dot" cx="{dx:.0f}" cy="{dy:.0f}" r="1.6"/>')
-        names.append(f'<a href="#{cid}" class="jr-node" style="--c:{col if cid != "run" else "#8A93B8"}"><circle cx="{x:.0f}" cy="{y:.0f}" r="26" class="halo"/><circle cx="{x:.0f}" cy="{y:.0f}" r="7"/>'
-                     f'<text x="{x + 16:.0f}" y="{y - 14:.0f}">{e(name)}<tspan dx="5" dy="-6">{len(slugs):02d}</tspan></text></a>')
-    hub = f'<g class="jr-hub"><circle cx="{cx}" cy="{cy}" r="46" class="halo"/><circle cx="{cx}" cy="{cy}" r="10"/><text x="{cx}" y="{cy + 34}" text-anchor="middle">Your academy</text></g>'
+            p = pages[slug]
+            sid = f's{ci}{k}'
+            edges.append(f'<line class="l2" data-a="c{ci}" data-b="{sid}" data-c="{ci}"/>')
+            node(sid, fx, fy, 'jr-sat',
+                 f'<a href="#f-{slug}" aria-label="Step {step_no[slug]:02d}: {e(p["nav"])}"><rect class="hit" x="-16" y="-16" width="32" height="32" rx="8"/><rect x="-7" y="-7" width="14" height="14" rx="3"/>'
+                 f'<text x="{-14 if left else 14}" y="4" text-anchor="{"end" if left else "start"}">{e(p["nav"])}</text></a>',
+                 f' data-c="{ci}" data-tip-img="{e(p["sections"][0]["img"])}" data-tip-title="{e(p["nav"])}" data-tip-sub="Step {step_no[slug]:02d} · {e(name)}"')
+        # a starburst of quiet spokes and dots around each stage, like a living network
+        for k in range(9):
+            b = a + rnd.uniform(-1.6, 1.6)
+            rr = rnd.uniform(60, 175)
+            dx, dy = x + rr * math.cos(b) * 1.25, y + rr * math.sin(b)
+            did = f'd{ci}{k}'
+            edges.append(f'<line class="l3" data-a="c{ci}" data-b="{did}" data-c="{ci}"/>')
+            node(did, dx, dy, 'jr-dot', f'<circle r="{rnd.choice([1.4, 1.8, 2.2])}"/>', f' data-c="{ci}"')
+        stages.append((ci, cid, name, c, x, y, len(slugs)))
+
+    for ci, cid, name, c, x, y, n in stages:
+        node(f'c{ci}', x, y, 'jr-node',
+             f'<a href="#{cid}" aria-label="Stage {ci + 1}: {e(name)}"><circle r="26" class="halo"/><circle r="7" class="core"/>'
+             f'<text x="16" y="-14">{e(name)}<tspan dx="5" dy="-6">{n:02d}</tspan></text></a>',
+             f' data-c="{ci}" style="--c:{c}" data-tip-title="{e(name)}" data-tip-sub="Stage {ci + 1:02d} · {n} steps"')
+    node('h', cx, cy, 'jr-hub', '<circle r="46" class="halo"/><circle r="10" class="core"/><text y="34" text-anchor="middle">Your academy</text>')
     return ('<svg class="jr-svg" viewBox="0 0 1120 720" role="img" aria-label="A map of the educator journey: five stages around your academy, with every step linked">'
-            + ''.join(out) + ''.join(names) + hub + '</svg>')
+            '<g class="jr-edges">' + ''.join(edges) + '</g><g class="jr-nodes">' + ''.join(nodes) + '</g><g class="jr-pulses"></g></svg>'
+            '<div class="jr-tip" aria-hidden="true"><img alt="" width="1600" height="900"/><b></b><small></small></div>')
 
 
 BRAND_TABS = [

@@ -115,3 +115,123 @@
   });
   render(); go(1);
 })();
+
+/* /journey hero map: a living network. Nodes drift, lean away from the cursor, light up their cluster on hover,
+   pulses run along the lines, and hovering a step shows its real studio screen. Pauses off screen. */
+(function () {
+  var svg = document.querySelector('.jr-svg'); if (!svg) return;
+  var map = svg.parentNode, tip = map.querySelector('.jr-tip');
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var nodes = {}, list = [];
+  [].forEach.call(svg.querySelectorAll('[data-id]'), function (g, i) {
+    var n = {el: g, id: g.getAttribute('data-id'), x0: +g.getAttribute('data-x'), y0: +g.getAttribute('data-y'), x: 0, y: 0, vx: 0, vy: 0,
+      ph: i * 1.7, sp: .35 + (i % 7) * .06, amp: g.classList.contains('jr-dot') ? 7 : g.classList.contains('jr-hub') ? 3 : 5,
+      c: g.getAttribute('data-c')};
+    n.x = n.x0; n.y = n.y0; nodes[n.id] = n; list.push(n);
+  });
+  var lines = [].map.call(svg.querySelectorAll('.jr-edges line'), function (l) { return {el: l, a: nodes[l.getAttribute('data-a')], b: nodes[l.getAttribute('data-b')], c: l.getAttribute('data-c')}; });
+  var pulsesG = svg.querySelector('.jr-pulses'), pulses = [];
+  var NS = 'http://www.w3.org/2000/svg';
+  var mouse = null, hot = null, running = false, t0 = performance.now();
+
+  function toSvg(ev) {
+    var pt = svg.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
+    var m = svg.getScreenCTM(); return m ? pt.matrixTransform(m.inverse()) : null;
+  }
+  function place() {
+    list.forEach(function (n) { n.el.setAttribute('transform', 'translate(' + n.x.toFixed(1) + ' ' + n.y.toFixed(1) + ')'); });
+    lines.forEach(function (l) {
+      if (!l.a || !l.b) return;
+      l.el.setAttribute('x1', l.a.x.toFixed(1)); l.el.setAttribute('y1', l.a.y.toFixed(1));
+      l.el.setAttribute('x2', l.b.x.toFixed(1)); l.el.setAttribute('y2', l.b.y.toFixed(1));
+    });
+  }
+  function spawnPulse() {
+    var pool = hot != null ? lines.filter(function (l) { return l.c === hot; }) : lines.filter(function (l) { return !l.el.classList.contains('l3') || Math.random() < .25; });
+    var l = pool[Math.floor(Math.random() * pool.length)]; if (!l) return;
+    var c = document.createElementNS(NS, 'circle'); c.setAttribute('r', l.el.classList.contains('l1') ? 3.2 : 2.4); c.setAttribute('class', 'jr-pulse');
+    pulsesG.appendChild(c);
+    var out = Math.random() < .5;
+    pulses.push({el: c, l: l, t: 0, dur: 900 + Math.random() * 900, out: out});
+  }
+  var lastPulse = 0;
+  function frame(now) {
+    if (!running) return;
+    var t = (now - t0) / 1000, dt = Math.min(48, now - (frame.prev || now)); frame.prev = now;
+    list.forEach(function (n) {
+      var tx = n.x0 + Math.sin(t * n.sp + n.ph) * n.amp, ty = n.y0 + Math.cos(t * n.sp * .8 + n.ph) * n.amp;
+      if (mouse && n.id !== 'h') {
+        var dx = n.x - mouse.x, dy = n.y - mouse.y, d = Math.sqrt(dx * dx + dy * dy) || 1, R = 150;
+        if (n.el.classList.contains('jr-dot')) { if (d < R) { var f = (1 - d / R) * 46; tx += dx / d * f; ty += dy / d * f; } }
+        else if (d < 70) { var m = (1 - d / 70) * .35; tx -= dx * m; ty -= dy * m; }
+      }
+      n.vx = (n.vx + (tx - n.x) * .08) * .78; n.vy = (n.vy + (ty - n.y) * .08) * .78;
+      n.x += n.vx; n.y += n.vy;
+    });
+    place();
+    if (lastXY && (frame.n = (frame.n || 0) + 1) % 6 === 0) hitTest();
+    if (now - lastPulse > (hot != null ? 160 : 420)) { spawnPulse(); lastPulse = now; }
+    pulses = pulses.filter(function (p) {
+      p.t += dt; var k = p.t / p.dur; if (k >= 1) { p.el.remove(); return false; }
+      var a = p.out ? p.l.a : p.l.b, b = p.out ? p.l.b : p.l.a;
+      p.el.setAttribute('cx', (a.x + (b.x - a.x) * k).toFixed(1)); p.el.setAttribute('cy', (a.y + (b.y - a.y) * k).toFixed(1));
+      p.el.setAttribute('opacity', (Math.sin(k * Math.PI)).toFixed(2));
+      return true;
+    });
+    requestAnimationFrame(frame);
+  }
+  function start() { if (running || reduce) return; running = true; frame.prev = null; requestAnimationFrame(frame); }
+  function stop() { running = false; }
+
+  function setHot(c, g) {
+    hot = c;
+    map.classList.toggle('jr-hot', c != null);
+    [].forEach.call(svg.querySelectorAll('[data-c]'), function (el) { el.classList.toggle('lit', c != null && el.getAttribute('data-c') === c); });
+    [].forEach.call(document.querySelectorAll('.jr-index a'), function (a, i) { a.classList.toggle('lit', c != null && String(i - 2) === c); });
+    if (!tip) return;
+    if (g && g.getAttribute('data-tip-title')) {
+      var img = g.getAttribute('data-tip-img');
+      tip.classList.toggle('noimg', !img);
+      if (img) tip.querySelector('img').setAttribute('src', img);
+      tip.querySelector('b').textContent = g.getAttribute('data-tip-title');
+      tip.querySelector('small').textContent = g.getAttribute('data-tip-sub') || '';
+      var r = g.getBoundingClientRect(), mr = map.getBoundingClientRect();
+      var x = r.left + r.width / 2 - mr.left, y = r.top - mr.top;
+      var w = 230, left = Math.min(Math.max(12, x - w / 2), mr.width - w - 12);
+      tip.style.left = left + 'px'; tip.style.top = Math.max(12, y - (img ? 172 : 70)) + 'px';
+      tip.classList.add('on');
+    } else tip.classList.remove('on');
+  }
+  var lastXY = null, hovered = null;
+  function hitTest() {
+    if (!lastXY) return;
+    var el = document.elementFromPoint(lastXY[0], lastXY[1]);
+    var g = el && el.closest && el.closest('.jr-node,.jr-sat');
+    if (g === hovered) return;
+    hovered = g;
+    setHot(g ? g.getAttribute('data-c') : null, g);
+  }
+  svg.addEventListener('pointermove', function (ev) {
+    if (ev.pointerType === 'touch') return;
+    mouse = toSvg(ev); lastXY = [ev.clientX, ev.clientY]; hitTest();
+  });
+  svg.addEventListener('pointerleave', function () { mouse = null; lastXY = null; hovered = null; setHot(null); });
+  // the index list on the left lights up its stage on the map
+  [].forEach.call(document.querySelectorAll('.jr-index a'), function (a, i) {
+    if (i < 2) return;
+    a.addEventListener('mouseenter', function () { var g = svg.querySelector('.jr-node[data-c="' + (i - 2) + '"]'); setHot(String(i - 2), g); });
+    a.addEventListener('mouseleave', function () { setHot(null); });
+  });
+  // keep the cluster lit for a moment when a touch user taps a stage, before the page scrolls there
+  svg.addEventListener('click', function (ev) {
+    var a = ev.target.closest && ev.target.closest('a'); if (!a) return;
+    var href = a.getAttribute('href'); if (!href || href[0] !== '#') return;
+    var target = document.querySelector(href); if (!target) return;
+    ev.preventDefault();
+    var g = a.closest('[data-c]'); if (g) setHot(g.getAttribute('data-c'), null);
+    setTimeout(function () { target.scrollIntoView({behavior: 'smooth', block: 'start'}); setHot(null); }, 260);
+  });
+  place();
+  if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { es[0].isIntersecting ? start() : stop(); }).observe(svg);
+  else start();
+})();

@@ -23,9 +23,6 @@
 .jr-side .xnote span:before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:#22C55E;margin-right:8px;transform:translateY(-2px)}
 .jr-map{position:relative;display:flex;align-items:center;justify-content:center;background:radial-gradient(70% 70% at 50% 50%,#101653 0%,#060824 70%)}
 .jr-svg{width:100%;height:100%;max-height:calc(100svh - 72px)}
-.jr-svg .l1{stroke:rgba(169,182,255,.5);stroke-width:1}
-.jr-svg .l2{stroke:rgba(169,182,255,.24);stroke-width:1}
-.jr-svg .dot{fill:rgba(169,182,255,.45)}
 .jr-svg text{fill:#fff;font-size:13px;letter-spacing:.03em}
 .jr-node{cursor:pointer}
 .jr-node circle{fill:var(--c);stroke:#fff;stroke-width:1.5;transition:r .25s}
@@ -363,3 +360,47 @@
 .ab-hero img,.ab-ahero img{mix-blend-mode:normal;-webkit-mask-image:radial-gradient(ellipse 70% 72% at 50% 50%,#000 55%,transparent 100%);mask-image:radial-gradient(ellipse 70% 72% at 50% 50%,#000 55%,transparent 100%)}
 .ab-tag.a{top:auto;bottom:-12px;right:5%}
 @media (max-width:700px){.ab-course .cv{height:auto;min-height:46px}.ab-course.real .cv b{font-size:10px}.ab-course.real .cv small{display:none}}
+
+/* hero map: living network (journey.js drives it) */
+.jr-map{position:relative}
+.jr-svg .l1{stroke:rgba(169,182,255,.45);stroke-width:1;transition:stroke .3s,stroke-width .3s}
+.jr-svg .l2{stroke:rgba(169,182,255,.26);stroke-width:1;transition:stroke .3s}
+.jr-svg .l3{stroke:rgba(169,182,255,.12);stroke-width:.8;transition:stroke .3s}
+.jr-dot circle{fill:rgba(169,182,255,.55);transition:fill .3s}
+.jr-pulse{fill:#fff;filter:drop-shadow(0 0 4px #7F9BFF)}
+.jr-node a,.jr-sat a{cursor:pointer}
+.jr-node .core{fill:var(--c);stroke:#fff;stroke-width:1.5;transition:transform .3s cubic-bezier(.3,1.5,.5,1)}
+.jr-node .halo{fill:var(--c);opacity:.22;transform-box:fill-box;transform-origin:center;animation:jrp 3.6s ease-in-out infinite}
+.jr-node text{fill:#fff;font-size:16px;font-weight:500;letter-spacing:.03em}
+.jr-node tspan{font-size:10px;fill:#A9B6FF}
+.jr-sat rect{fill:#fff;opacity:.8;transform-box:fill-box;transform-origin:center;transition:opacity .2s,transform .3s cubic-bezier(.3,1.5,.5,1)}
+.jr-sat text{font-size:11px;fill:rgba(255,255,255,.6);transition:fill .2s}
+.jr-hub .core{fill:#fff}.jr-hub .halo{fill:#2B44FF;opacity:.35;transform-box:fill-box;transform-origin:center;animation:jrp 3.6s ease-in-out infinite}
+.jr-hub text{font-size:12px;fill:#A9B6FF;letter-spacing:.14em;text-transform:uppercase}
+/* a hovered cluster lights up, the rest steps back */
+.jr-hot .jr-edges line{stroke:rgba(169,182,255,.07)}
+.jr-hot .jr-dot circle{fill:rgba(169,182,255,.2)}
+.jr-hot .jr-sat:not(.lit) text{fill:rgba(255,255,255,.25)}
+.jr-hot .jr-sat:not(.lit) rect{opacity:.3}
+.jr-hot .jr-node:not(.lit){opacity:.45}
+.jr-svg .l1.lit{stroke:#fff;stroke-width:1.6}
+.jr-svg .l2.lit{stroke:rgba(255,255,255,.85)}
+.jr-svg .l3.lit{stroke:rgba(169,182,255,.55)}
+.jr-dot.lit circle{fill:#fff}
+.jr-sat.lit text{fill:#fff}
+.jr-sat.lit rect{opacity:1}
+.jr-node.lit .core{transform:scale(1.5);transform-box:fill-box;transform-origin:center}
+.jr-node.lit .halo{opacity:.5}
+.jr-sat:hover rect{transform:scale(1.7)}
+.jr-node,.jr-sat,.jr-dot{transition:opacity .3s}
+.jr-index a.lit{padding-left:10px;background:rgba(255,255,255,.08)}
+/* hover card with the real studio screen */
+.jr-tip{position:absolute;z-index:4;width:230px;padding:8px 8px 10px;border-radius:12px;background:#fff;color:#14161F;box-shadow:0 24px 50px -16px rgba(0,0,0,.8);pointer-events:none;opacity:0;transform:translateY(6px) scale(.97);transition:opacity .2s,transform .25s cubic-bezier(.22,.85,.25,1)}
+.jr-tip.on{opacity:1;transform:none}
+.jr-tip img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:left top;border-radius:7px;background:#F1F2F5}
+.jr-tip.noimg img{display:none}
+.jr-tip b{display:block;margin:8px 4px 0;font:600 14px/1.25 'Inter',sans-serif}
+.jr-tip small{display:block;margin:3px 4px 0;font:500 11px/1.2 'JetBrains Mono',monospace;color:#6B7080}
+@media (hover:none){.jr-tip{display:none}}
+@media (prefers-reduced-motion:reduce){.jr-node .halo,.jr-hub .halo{animation:none}}
+.jr-sat rect.hit{fill:transparent;opacity:1;transform:none!important}
