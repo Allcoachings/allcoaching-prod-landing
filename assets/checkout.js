@@ -201,6 +201,12 @@
     if (!out.landing_page) out.landing_page = location.pathname;
     return out;
   }
+  // Razorpay order amounts include 18% GST. Ad platforms get the ex-GST value plus a separate tax.
+  function exGst(paise) {
+    var gross = (paise || 0) / 100;
+    var net = Math.round(gross / 1.18 * 100) / 100;
+    return { value: net, tax: Math.round((gross - net) * 100) / 100 };
+  }
   function push(ev, params) {
     var o = { event: ev };
     for (var k in params) if (params[k] !== undefined) o[k] = params[k];
@@ -1051,8 +1057,9 @@
     return preloadRzp().then(function (ok) {
       if (!ok || !window.Razorpay) throw new Error('Couldn’t load the payment window. Check your connection and try again.');
       var value = (order.amount || fallbackPaise || 0) / 100;
+      var net = exGst(order.amount || fallbackPaise);
       push('add_payment_info', {
-        event_id: 'api_' + order.order_id, value: value, currency: 'INR',
+        event_id: 'api_' + order.order_id, value: net.value, tax: net.tax, currency: 'INR',
         content_ids: [tier], content_name: PLANS[tier].label + ' plan', content_type: 'product', num_items: 1,
         page: PAGE, vertical: VERTICAL || undefined
       });
@@ -1121,7 +1128,8 @@
           last = ['purchase_complete', {
             transaction_id: txn,
             event_id: txn,
-            value: (paid.amountPaise || 0) / 100,
+            value: exGst(paid.amountPaise).value,
+            tax: exGst(paid.amountPaise).tax,
             currency: 'INR',
             content_category: paid.category || 'Studio activation',
             content_name: PLANS[paid.tier] ? PLANS[paid.tier].label + ' plan' : 'Studio plan',

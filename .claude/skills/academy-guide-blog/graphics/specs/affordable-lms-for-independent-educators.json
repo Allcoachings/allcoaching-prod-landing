@@ -1,6 +1,6 @@
 {
  "slug": "affordable-lms-for-independent-educators",
- "checked": "6 Nov 2026",
+ "checked": "6 Nov 2026; Learnyst 27 Nov 2026",
  "cover": {
   "eyebrow": "Pricing guide · India 2026",
   "lines": [
@@ -83,6 +83,13 @@
     "published": true
    },
    {
+    "name": "Learnyst",
+    "price": 27000,
+    "label": "₹27,000/yr",
+    "fee": "+10% of sales (Launcher), taxes extra",
+    "published": true
+   },
+   {
     "name": "Classplus",
     "price": 29999,
     "label": "₹29,999/yr",
@@ -94,13 +101,6 @@
     "price": 89988,
     "label": "₹89,988/yr",
     "fee": "Core, 12 × ₹7,499 billed annually; fee not stated",
-    "published": true
-   },
-   {
-    "name": "Learnyst",
-    "price": 97188,
-    "label": "₹97,188/yr",
-    "fee": "Professional, 12 × ₹8,099 billed annually; 0%",
     "published": true
    }
   ]
@@ -160,11 +160,15 @@
     "name": "Learnyst",
     "plans": [
      [
+      27000,
+      0.1
+     ],
+     [
       97188,
       0
      ]
     ],
-    "note": "Learnyst: Professional billed annually, 0% transaction fee, taxes extra"
+    "note": "Learnyst: Launcher or Professional (billed annually), taxes extra"
    }
   ]
  },

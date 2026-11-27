@@ -29,6 +29,11 @@
     "sources": [
       {
         "url": "https://classplusapp.com/new-web",
+        "checked": "2026-11-27",
+        "what_it_supports": "Re-read from India: both plan prices unchanged"
+      },
+      {
+        "url": "https://classplusapp.com/new-web",
         "checked": "2026-10-24",
         "what_it_supports": "Both plan prices, struck-through prices, plan feature list, FAQ titles"
       }
@@ -49,31 +54,43 @@
       "plans": [
         {
           "name": "Launch",
-          "price": 49,
-          "period": "month (monthly billing; annual toggle says 'Save 25%')",
-          "currency": "USD",
-          "fee_on_sales": "0% transaction fee (US page)"
+          "price": 24999,
+          "period": "year (shown ₹1,999/mo billed annually)",
+          "currency": "INR",
+          "fee_on_sales": "10% or ₹10, whichever is higher"
+        },
+        {
+          "name": "Grow",
+          "price": 49999,
+          "period": "year",
+          "currency": "INR",
+          "fee_on_sales": "7.5% or ₹10, whichever is higher"
         },
         {
           "name": "Rise",
-          "price": 149,
-          "period": "month",
-          "currency": "USD",
-          "fee_on_sales": "0% transaction fee (US page)"
+          "price": 99999,
+          "period": "year (shown ₹9,999/mo billed annually)",
+          "currency": "INR",
+          "fee_on_sales": "5% or ₹10, whichever is higher"
         },
         {
-          "name": "Scale",
-          "price": 399,
-          "period": "month",
-          "currency": "USD",
-          "fee_on_sales": "0% transaction fee (US page)"
+          "name": "Unlimited",
+          "price": "custom",
+          "period": "n/a",
+          "currency": "INR",
+          "fee_on_sales": "not stated"
         }
       ],
-      "free_trial": "14 days (US page: 'Start Your 7-day Free Trial Today'); an embedded block in the same page data says 'No credit card required'",
+      "free_trial": "14 days",
       "gst_or_tax_note": "not stated",
-      "notes": "INDIA PRICES NOT VERIFIED TODAY: graphy.com/pricing geo-redirects our (non-Indian) connection to graphy.com/us/pricing/, and graphy.com/in/pricing/ redirects too. The same page's server-rendered data contains conflicting INR figures: (a) a hidden India block 'Launch ₹1,999 per month *billed annually, 10% per sale or ₹10 whichever is higher' and 'Rise ₹9,999 per month *billed annually, 5% per sale or ₹10 whichever is higher', '*iOS app is available as a paid add-on'; (b) SEO meta description 'Launch plan ₹1,999 per month, growth plan ₹4,200 per month and rise plan ₹8,400 per month'; (c) hero 'oldPrice' 'Rs. 24999'. vs/graphy.html (17 Oct 2026) recorded Launch ₹24,999/yr 10%, Grow ₹49,999/yr 7.5%, Rise ₹99,999/yr 5% (or ₹10 if higher) — none of (a)-(c) matches that three-plan set. Do not publish INR Graphy plan prices until re-checked from an Indian IP."
+      "notes": "Same INR figures from inside and outside India on 27 Nov 2026. Android on every paid plan; iOS on Rise but a footnote calls iOS a paid add-on. spayee.com redirects here."
     },
     "sources": [
+      {
+        "url": "https://graphy.com/pricing",
+        "checked": "2026-11-27",
+        "what_it_supports": "All four plans, fees, 14-day trial, app notes"
+      },
       {
         "url": "https://graphy.com/us/pricing/",
         "checked": "2026-10-24",
@@ -105,6 +122,11 @@
     },
     "sources": [
       {
+        "url": "https://www.teachmint.com",
+        "checked": "2026-11-27",
+        "what_it_supports": "No public price; demo only"
+      },
+      {
         "url": "https://www.teachmint.com/en-us",
         "checked": "2026-10-24",
         "what_it_supports": "Product focus (Teachmint X device), no published prices, demo-led sales"
@@ -117,7 +139,8 @@
     ],
     "educator_model": "n/a (software/hardware vendor)",
     "caveats": [
-      "Site geo-redirects to en-us; the India (en-in) pages could not be loaded, so an India-only price list cannot be ruled out."
+      "Site geo-redirects to en-us; the India (en-in) pages could not be loaded, so an India-only price list cannot be ruled out.",
+      "27 Nov 2026: homepage and all Google ads sell classroom hardware (smart boards), not a course platform."
     ]
   },
   {
@@ -133,6 +156,11 @@
       "notes": "No prices on the site. FAQ: 'It takes 3-5 days to deliver your finished application and website'; hero: 'Setup in under 48 hours'. Matches vs/appx.html (17 Oct 2026)."
     },
     "sources": [
+      {
+        "url": "https://appx.co.in",
+        "checked": "2026-11-27",
+        "what_it_supports": "No public price; demo only"
+      },
       {
         "url": "https://appx.co.in/",
         "checked": "2026-10-24",
@@ -155,31 +183,31 @@
       "plans": [
         {
           "name": "Launcher",
-          "price": 10000,
-          "period": "year",
+          "price": 27000,
+          "period": "year (Black Friday ₹10,000 till 29 Nov 2026)",
           "currency": "INR",
-          "fee_on_sales": "10% of sales"
+          "fee_on_sales": "10% revenue share"
         },
         {
           "name": "Professional",
           "price": 8999,
-          "period": "month (billed monthly); ₹8,099/month when billed annually",
+          "period": "month (₹8,099/month billed annually)",
           "currency": "INR",
-          "fee_on_sales": "0% transaction fees"
+          "fee_on_sales": "0%"
         },
         {
           "name": "Premium",
           "price": 14999,
-          "period": "month (billed monthly); ₹13,499/month when billed annually",
+          "period": "month (₹13,499/month billed annually)",
           "currency": "INR",
-          "fee_on_sales": "0% (page lists 0% under Professional; Premium is 'Everything in Professional, plus')"
+          "fee_on_sales": "0%"
         },
         {
           "name": "Business",
           "price": 49999,
-          "period": "month (billed monthly); ₹44,999/month when billed annually",
+          "period": "month (₹44,999/month billed annually)",
           "currency": "INR",
-          "fee_on_sales": "0% (as above)"
+          "fee_on_sales": "0%"
         },
         {
           "name": "Enterprise",
@@ -190,10 +218,15 @@
         }
       ],
       "free_trial": "not stated as a trial; buttons say 'Get started for free'",
-      "gst_or_tax_note": "'+taxes' / '+Taxes' on every plan",
-      "notes": "Launcher shows a struck-through ₹26,997 and 'No monthly fee'. Professional includes a 'Common Android & iOS App'; branded Android app from Premium, branded Android & iOS from Business; '** Annual Pricing plan commitment. Apps will be available in Google Play store & Apple App store under Learnyst's Developer Account'. '* Additional Charges Applicable' footnote."
+      "gst_or_tax_note": "+ GST",
+      "notes": "Geo-priced: USD (149/249/799) outside India; INR read from India. Free trial, no card, length not stated. Branded Android from Premium, iOS from Business."
     },
     "sources": [
+      {
+        "url": "https://learnyst.com/pricing",
+        "checked": "2026-11-27",
+        "what_it_supports": "INR plans read from India incl. new Launcher"
+      },
       {
         "url": "https://www.learnyst.com/pricing",
         "checked": "2026-10-24",
@@ -241,21 +274,21 @@
         {
           "name": "Core",
           "price": 7499,
-          "period": "month, billed annually (₹8,999/month billed monthly)",
+          "period": "month, billed annually (₹8,999 monthly)",
           "currency": "INR",
           "fee_on_sales": "not stated"
         },
         {
           "name": "Prime",
           "price": 14999,
-          "period": "month, billed annually (₹17,999/month billed monthly)",
+          "period": "month, billed annually (₹17,999 monthly)",
           "currency": "INR",
           "fee_on_sales": "not stated"
         },
         {
-          "name": "Power (Most Popular)",
+          "name": "Power",
           "price": 29999,
-          "period": "month, billed annually (₹34,999/month billed monthly)",
+          "period": "month, billed annually (₹34,999 monthly)",
           "currency": "INR",
           "fee_on_sales": "not stated"
         },
@@ -269,9 +302,14 @@
       ],
       "free_trial": "7 days ('Start for Free ₹0 FOR 07 Days')",
       "gst_or_tax_note": "'+ Taxes' on every plan",
-      "notes": "Core includes custom domain and a common Android/iOS app; branded Android app from Prime, branded iOS app from Power ('(A) Available on Annual Commitment'). FAQ: 'Some advanced options, integrations, or higher usage tiers may be priced separately'."
+      "notes": "7-day trial; + Taxes. Core = common app; branded Android from Prime, iOS from Power, annual only. Google ads (27 Nov) say \"Start at ₹6,250/mo\" and \"No Revenue Sharing\" — ad text, not on the pricing page. URL needs trailing slash."
     },
     "sources": [
+      {
+        "url": "https://edmingle.com/in/pricing/",
+        "checked": "2026-11-27",
+        "what_it_supports": "Monthly and annual billing prices, app tiers, trial"
+      },
       {
         "url": "https://www.edmingle.com/in/pricing/",
         "checked": "2026-10-24",
@@ -310,7 +348,8 @@
     ],
     "educator_model": "n/a (software vendor)",
     "caveats": [
-      "Not listed on https://testpress.tech/pricing/ (checked 2026-10-24)."
+      "Not listed on https://testpress.tech/pricing/ (checked 2026-10-24).",
+      "27 Nov 2026: moved to testpress.tech; /pricing returns 404; demo only."
     ]
   },
   {
@@ -339,7 +378,8 @@
     ],
     "educator_model": "n/a",
     "caveats": [
-      "Product status unknown; do not describe Winuall's current features or pricing (including 'monthly' or 'yearly subscription') without a new official source."
+      "Product status unknown; do not describe Winuall's current features or pricing (including 'monthly' or 'yearly subscription') without a new official source.",
+      "27 Nov 2026: winuall.com 301-redirects to an unrelated laptop shop. Treat as defunct."
     ]
   },
   {
@@ -353,21 +393,21 @@
         {
           "name": "Starter",
           "price": 0,
-          "period": "year (annual upfront fee 'FREE')",
+          "period": "year",
           "currency": "INR",
           "fee_on_sales": "10% commission"
         },
         {
           "name": "Pro",
           "price": 30000,
-          "period": "year (shown as ₹2,500/month billed annually)",
+          "period": "year (or ₹2,500/mo)",
           "currency": "INR",
           "fee_on_sales": "6% commission"
         },
         {
           "name": "Premium",
           "price": 108000,
-          "period": "year (shown as ₹9,000/month billed annually)",
+          "period": "year (or ₹9,000/mo)",
           "currency": "INR",
           "fee_on_sales": "3% commission"
         }
@@ -377,6 +417,11 @@
       "notes": "A quarterly billing option exists (yearly saves 15%); quarterly prices were not recorded. Add-ons: Mobile App (iOS and Android) from ₹60,000/year, Omni-channel from ₹48,000/year (₹60,000 shown on Starter/Pro cards), Zoom from ₹18,000/year, white-labelled branding from ₹20,000/year, custom website from ₹60,000/year, org members ₹1,000/user/year. WhatsApp marketing 'pay per use'."
     },
     "sources": [
+      {
+        "url": "https://exlyapp.com/pricing",
+        "checked": "2026-11-27",
+        "what_it_supports": "Plans incl. monthly figures; app add-on ₹60,000/yr"
+      },
       {
         "url": "https://exlyapp.com/pricing",
         "checked": "2026-10-24",
@@ -410,7 +455,8 @@
     ],
     "educator_model": "n/a",
     "caveats": [
-      "Posts describing Rigi as a current creator-monetisation tool are out of date; whether the creator product still exists elsewhere is unverified."
+      "Posts describing Rigi as a current creator-monetisation tool are out of date; whether the creator product still exists elsewhere is unverified.",
+      "27 Nov 2026: rigi.club is a viewer app (Rigi TV); no creator pricing."
     ]
   },
   {
@@ -462,6 +508,11 @@
       "notes": "Basic capped at 200 students. Add-ons: AI-Verse Stack ₹49,999 + GST/year; Branded Apps Stack ₹74,999 + GST one-time setup (own Play Store and iOS apps). International payment gateway charge 5%, exclusive."
     },
     "sources": [
+      {
+        "url": "https://tagmango.com/pricing",
+        "checked": "2026-11-27",
+        "what_it_supports": "Unchanged; Ultimate ₹35,000/mo + 0%"
+      },
       {
         "url": "https://tagmango.com/pricing",
         "checked": "2026-10-24",
@@ -1088,5 +1139,47 @@
     ],
     "educator_model": "n/a (software vendor)",
     "caveats": []
+  },
+  {
+    "name": "Vacademy",
+    "website": "https://vacademy.io",
+    "category": "coaching app builder",
+    "good_at": "not reviewed yet",
+    "pricing": {
+      "published": false,
+      "plans": []
+    },
+    "sources": [
+      {
+        "url": "https://vacademy.io",
+        "checked": "2026-11-27",
+        "what_it_supports": "Seen in Google results for classplus alternative"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "Bids on \"classplus alternative\" on Google (27 Nov 2026): \"Best Classplus Alternative – No Hidden Charges\"; page /compare/vs-classplus. Price not checked."
+    ]
+  },
+  {
+    "name": "Igniter",
+    "website": "https://www.igniterapp.com",
+    "category": "coaching app builder",
+    "good_at": "not reviewed yet",
+    "pricing": {
+      "published": false,
+      "plans": []
+    },
+    "sources": [
+      {
+        "url": "https://www.igniterapp.com",
+        "checked": "2026-11-27",
+        "what_it_supports": "Seen in Google results for classplus alternative"
+      }
+    ],
+    "educator_model": "n/a (software vendor)",
+    "caveats": [
+      "Organic page \"Classplus alternative – 70% cheaper\" (27 Nov 2026). Price not checked."
+    ]
   }
 ]
