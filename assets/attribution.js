@@ -39,6 +39,17 @@
     store.last = now;
     try { writeCookie('ac_attr', JSON.stringify(store)); } catch (e) {}
     if (now.fbclid && !readCookie('_fbc')) writeCookie('_fbc', 'fb.1.' + now.ts + '.' + now.fbclid);
+  } else if (!store.first && document.referrer) {
+    // No tags, but an outside site sent them (Google search, an Instagram
+    // bio, YouTube…): keep that as the first touch, so a sign-up shows
+    // Organic / Instagram / YouTube instead of Direct (owner, 28-Nov-26).
+    try {
+      var host = new URL(document.referrer).hostname;
+      if (!/(^|\.)allcoaching\.in$/.test(host)) {
+        store.first = { ts: Date.now(), lp: location.pathname, ref: document.referrer.slice(0, 200) };
+        writeCookie('ac_attr', JSON.stringify(store));
+      }
+    } catch (e) {}
   }
 
   var last = store.last || {};
