@@ -4,7 +4,7 @@
 | Channel | Handle / URL | Role |
 |---|---|---|
 | Instagram | instagram.com/allcoachings | Reels, carousels for educators; main organic channel |
-| YouTube | youtube.com/@Allcoaching | Studio walkthroughs, how-to guides, founder explainers, Shorts |
+| YouTube | youtube.com/@Allcoaching | Studio walkthroughs, how-to guides, founder explainers, Shorts. **English-first channel** (owner 2026-11-27): English banner, About and titles; Hinglish keyword titles as the "Hindi (Latin)" translation; voice Hindi with an English audio track |
 | Facebook | facebook.com/allcoaching.in | Mirrors Instagram; educator groups |
 | X | x.com/allcoachings | Founder-style short takes, product updates |
 | LinkedIn | linkedin.com/company/allcoaching · founder linkedin.com/in/allamitk | Founder voice, institute owners, partnerships |

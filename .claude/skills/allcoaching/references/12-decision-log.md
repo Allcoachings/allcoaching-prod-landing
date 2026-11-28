@@ -114,3 +114,23 @@ Legal entity **AllCoaching Technology** (not "Pvt. Ltd."). Founded 2018, Prayagr
 
 ### 2026-11-24 (later) — iOS wording: "after 30 days"
 Owner: the iOS app (Growth and Pro, monthly or yearly) is made available **after 30 days** on the plan. All surfaces now say "after 30 days" (Hinglish "30 din ke baad") instead of "after the first month". The educator provides their own Google Play Console and App Store Connect account. Studio plan picker also shows "DRM protected" and "Extendable storage" badges and "+ GST" next to every price.
+
+## 2026-11-27 — YouTube channel: premium, English-first, independent brand (owner)
+- The channel is presented as a premium edtech brand in English, positioned with the existing lockup and headline: "The academy platform for educators" · "Build your own LMS. In just a few clicks." (no new positioning line was invented).
+- Banner: product-led, no founder photo ("independent brand"). Navy/electric-blue, the headline, allcoaching.in and "7-day free trial · no card needed". Source: video-studio `src/tour/ChannelBannerPremium.tsx`.
+- About text, link titles and the 2027 tutorial playlist are in English. YouTube caps link titles at 30 characters.
+- All 16 tutorial videos are English-first: English is the main title and description; the Hinglish keyword title and description are kept as the "Hindi (Latin)" translation, so they stay searchable. Plain "Hindi" can't be used because it is the audio language. The audio stays Hindi with an English audio track.
+- Tutorial thumbnails may still use the founder's photo (his own ask for EP16). The banner and channel-level surfaces do not.
+
+## 2026-11-27 · Competitor re-check + Google Ads setup
+- Competitor prices re-read from India (vendor pages) and written to `10-competitors.md` + `competitors.json`: Learnyst Launcher back at ₹27,000/yr + 10% (₹10,000 Black Friday till 29 Nov; page geo-priced), Graphy adds Unlimited + "or ₹10" minimum fee, Edmingle/Exly monthly figures, Teachmint now sells classroom hardware, Winuall's domain is dead, Rigi is a viewer app, Testpress moved to testpress.tech. New rivals seen on "classplus alternative": Vacademy, Igniter.
+- Market picture (Google Transparency Center, live SERPs, Meta Ad Library, Keyword Planner): `templates/lp/COMPETITOR-ANALYSIS-2026-11-27.md`. Google campaign plan: `templates/lp/GOOGLE-ADS-COMPETITOR-PLAN.md`.
+- Google Ads (AW-11343265505): Purchase is the only Primary; Lead + Learning-App purchase Secondary; Studio created + Start trial added; enhanced conversions via GTM v49; old campaigns all Removed; shared negative lists + account-level sitelinks/callouts/snippet in place.
+- Open: blogs that state Learnyst Launcher "₹10,000 a year" or say Launcher is "no longer listed" need the 27 Nov figure (₹27,000/yr list price) after 29 Nov.
+
+## 2026-11-27 — Positioning: ownership vs agency dependency (owner)
+Owner: the "WhatsApp + Drive + Zoom" juggling problem is outdated. The live problem is agencies and developers: commission, hidden charges, developer cost, and the builder keeping rights (domain, Play account, app). New lead story: build it yourself and keep brand, domain, own-Play-Console Android app, students and data in your name. Wording guard: no "100% ownership" of the platform/code; "keep 100%" only with monthly 0% commission. SKILL.md positioning line updated.
+
+- **2026-11-28 · Showcase + educator brochure.** Owner asked for the educator details PDF with screenshots of app.nextgeniasdelhi.com, chempsi.com and biolessons.in, so **NextGen IAS Delhi** joins the showcase (names, logos, site screenshots only; no numbers, no quotes). Brochure source: `video-studio/brochure/allcoaching-educator-brochure.html` (11 A4 pages, ~2 MB, no blurred shadows or masks so it opens fast on phones).
+
+- **2026-11-28 · Registered address on /contact.** Owner asked to show the registered (GST) address in the contact section: F1/F-814, Sangam Vihar Colony, Haveliya, Jhusi, Prayagraj, Uttar Pradesh 211019. Shown on `/contact` (Company details + LocalBusiness schema) only; still not in the homepage footer. Supersedes the 2026-11-25 "not shown anywhere" rule. GSTIN `09DKHPK9303Q1ZF` (owner confirmed the full 15 characters) shown in the same block and as `taxID` in the schema.
