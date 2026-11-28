@@ -49,19 +49,28 @@
   var dl = window.dataLayer = window.dataLayer || [];
   if (q) dl.push({ event: 'ac_attribution', ac_first: store.first || null, ac_last: last });
 
+  function tagOne(a) {
+    if (!q || !a || a.getAttribute('data-attr') === '1') return;
+    try {
+      var u = new URL(a.href);
+      qs.forEach(function (v, k) { if (!u.searchParams.has(k)) u.searchParams.set(k, v); });
+      a.href = u.toString();
+      a.setAttribute('data-attr', '1');
+    } catch (e) {}
+  }
   function tag() {
     if (!q) return;
     var links = document.querySelectorAll('a[href*="studio.allcoaching.in"]');
-    for (var i = 0; i < links.length; i++) {
-      var a = links[i];
-      if (a.getAttribute('data-attr') === '1') continue;
-      try {
-        var u = new URL(a.href);
-        qs.forEach(function (v, k) { if (!u.searchParams.has(k)) u.searchParams.set(k, v); });
-        a.href = u.toString();
-        a.setAttribute('data-attr', '1');
-      } catch (e) {}
-    }
+    for (var i = 0; i < links.length; i++) tagOne(links[i]);
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', tag); else tag();
+  // Links added after load (plan cards, the monthly/yearly toggle) are tagged at the moment they are clicked.
+  function onPress(e) {
+    var a = e.target && e.target.closest && e.target.closest('a[href*="studio.allcoaching.in"]');
+    if (a) tagOne(a);
+  }
+  document.addEventListener('mousedown', onPress, true);
+  document.addEventListener('touchstart', onPress, { capture: true, passive: true });
+  document.addEventListener('click', onPress, true);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Enter') onPress(e); }, true);
 })();
