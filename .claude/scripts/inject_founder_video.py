@@ -66,10 +66,9 @@ LMS_DEMO_PAGES = [
     'blog/graphy-alternative-for-course-creators-india.html',
     'blog/personal-coaching-app-alternative.html',
     'blogs/hinglish/teachmint-vs-classplus-konsa-best-hai.html',
-    'vs/classplus.html',
     'vs/graphy.html',
-    'vs/teachmint.html',
-    'vs/appx.html',
+    # vs/classplus, vs/teachmint, vs/appx removed 2026-11-28 (owner): these ad landing
+    # pages carry the 2027 demo Short (ERlOeDEZMwA) in their own #demo section instead.
 ]
 
 # per-page overrides: {'blog/foo.html': {...}}
@@ -90,7 +89,6 @@ TARGETS = [
     'blogs/en/graphy-alternative-with-organic-marketplace-traffic.html',
     'blogs/hinglish/classplus-ka-best-alternative-kaunsa-hai.html',
     'blogs/hinglish/teachmint-vs-classplus-konsa-best-hai.html',
-    'vs/classplus.html',
     'vs/graphy.html',
 ] + [p for p in LMS_DEMO_PAGES if p not in (
     'blogs/hinglish/apna-coaching-app-kaise-banaye-free.html',
