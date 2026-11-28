@@ -25,6 +25,10 @@ ErrorDocument 500 /404.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # Private repo files (skills, scripts, tracking and ads notes): never served
+  RewriteRule ^(?:\.claude|templates/lp)(?:/|$) - [R=404,L]
+  RewriteRule ^(?:CLAUDE|AGENTS)\.md$ - [R=404,L]
+
   # HTTPS + canonical host (non-www → bare allcoaching.in)
   RewriteCond %{HTTPS} off [OR]
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
