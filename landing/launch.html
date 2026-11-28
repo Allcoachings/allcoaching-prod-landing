@@ -24,6 +24,33 @@
 <script src="/assets/checkout.js?v=17" defer></script>
 <script src="/landing/plans.js?v=5" defer></script>
 <script src="/assets/studio-anim.js?v=1" defer></script>
+<style id="demo-css">
+.vsh-demo{padding:8px 0 80px}
+.vsh-demo-in{display:grid;grid-template-columns:1fr 300px;gap:64px;align-items:center;max-width:920px;margin:0 auto}
+.vsh-demo-eye{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#2B44FF;margin-bottom:14px}
+.vsh-demo-hd .h2{text-align:left;margin:0 0 14px}
+.vsh-demo-hd p{font-size:16.5px;line-height:1.6;color:#5B6070;margin:0 0 18px}
+.vsh-demo-pts{list-style:none;padding:0;margin:0 0 26px;display:grid;gap:10px}
+.vsh-demo-pts li{position:relative;padding-left:28px;font-size:15.5px;color:#14161F}
+.vsh-demo-pts li:before{content:"";position:absolute;left:0;top:3px;width:18px;height:18px;border-radius:50%;background:#2B44FF url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 12 4 4 8-8'/%3E%3C/svg%3E") center/12px no-repeat}
+.vsh-demo-cta{display:inline-flex;align-items:center;background:#2B44FF;color:#fff;border-radius:12px;padding:13px 20px;font-weight:600;font-size:15px;text-decoration:none}
+.vsh-demo-cta:hover{background:#1A2FD9}
+.vsh-demo-note{display:inline-block;margin-left:14px;font-size:13.5px;color:#5B6070}
+.vsh-reel-wrap{position:relative;justify-self:center;width:300px}
+.vsh-reel-wrap:before{content:"";position:absolute;inset:8% -18%;background:radial-gradient(closest-side,rgba(43,68,255,.22),transparent);filter:blur(10px);z-index:0}
+.vsh-reel{position:relative;z-index:1;aspect-ratio:9/16;border-radius:38px;padding:9px;background:linear-gradient(145deg,#4A4E59 0%,#1B1D23 22%,#0B0C10 55%,#22252C 85%,#4A4E59 100%);box-shadow:inset 0 0 0 1px rgba(255,255,255,.22),0 40px 80px -30px rgba(20,22,31,.55),0 14px 32px -14px rgba(20,22,31,.4)}
+.vsh-reel-btn,.vsh-reel iframe{display:block;width:100%;height:100%;border:0;border-radius:30px;overflow:hidden;background:#0B0C10}
+.vsh-reel-btn{position:relative;padding:0;cursor:pointer}
+.vsh-reel-btn img{display:block;width:100%;height:100%;object-fit:cover}
+.vsh-reel-btn .i{position:absolute;left:50%;top:50%;width:68px;height:68px;margin:-34px 0 0 -34px;border-radius:50%;background:#2B44FF;display:grid;place-items:center;box-shadow:0 12px 30px -8px rgba(43,68,255,.65),0 0 0 9px rgba(255,255,255,.18);transition:transform .2s}
+.vsh-reel-btn .i svg{width:28px;height:28px;fill:#fff;margin-left:4px}
+.vsh-reel-btn .t{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);background:rgba(11,12,16,.72);color:#fff;font-size:12.5px;font-weight:600;border-radius:99px;padding:6px 12px;white-space:nowrap;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.vsh-reel-btn:hover .i{transform:scale(1.07)}
+.vsh-reel-btn:focus-visible{outline:3px solid #2B44FF;outline-offset:3px}
+@media (max-width:820px){.vsh-demo-in{grid-template-columns:1fr;gap:36px}.vsh-reel-wrap{width:min(270px,76vw);order:-1}.vsh-demo-hd{text-align:left}.vsh-demo{padding-bottom:48px}}
+@media (prefers-reduced-motion:reduce){.vsh-reel-btn .i{transition:none}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"Build your own coaching app and website | AllCoaching demo","description":"A short AllCoaching demo in Hindi: build your own academy yourself, with your website on your own domain and your own Android app on your own Play Console, instead of an agency, a developer or a white-label app company.","thumbnailUrl":"https://allcoaching.in/assets/x/demo-reel-poster.webp","uploadDate":"2026-11-28","duration":"PT1M19S","embedUrl":"https://www.youtube.com/embed/ERlOeDEZMwA","url":"https://www.youtube.com/shorts/ERlOeDEZMwA","inLanguage":"hi","publisher":{"@type":"Organization","name":"AllCoaching","url":"https://allcoaching.in/"}}</script>
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3KFKD3G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -94,6 +121,29 @@
   </div>
 </section>
 
+<section class="vsh-demo" id="demo">
+  <div class="w">
+    <div class="vsh-demo-in rv">
+      <div class="vsh-demo-hd">
+        <div class="vsh-demo-eye">Product demo · 1:19 · in Hindi</div>
+        <h2 class="h2"><span class="lt">No demo call needed.</span><br/><span class="bd">Watch it here.</span></h2>
+        <p>An agency, a developer or a white-label app company keeps the charges, the commission and often the ownership. On AllCoaching you build it yourself: your brand, your domain and your Android app on your own Play Console.</p>
+        <ul class="vsh-demo-pts"><li>Your website on your own domain</li><li>Your own Android app, on your Play Console</li><li>Brand, students and data, all in your name</li></ul>
+        <a class="btn" href="https://studio.allcoaching.in/" data-checkout data-ev="ob_cta_click" data-where="demo">Start my academy <svg><use href="#ar"/></svg></a>
+      </div>
+      <div class="vsh-reel-wrap">
+<div class="vsh-reel" id="demo-player">
+<button type="button" class="vsh-reel-btn" data-yt="ERlOeDEZMwA" aria-label="Play the AllCoaching demo video (1 minute 19 seconds, Hindi)">
+<img src="/assets/x/demo-reel-poster.webp" alt="AllCoaching demo video: would you get your academy's app and website built by someone else?" width="540" height="960" loading="lazy" decoding="async"/>
+<span class="i" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+<span class="t" aria-hidden="true">Watch · 1:19</span>
+</button>
+</div>
+</div>
+    </div>
+  </div>
+</section>
+
 <section class="orb-sec alt">
   <div class="w vis2">
     <div class="rv">
@@ -160,6 +210,21 @@
     document.querySelectorAll('[data-checkout]').forEach(function(a){a.setAttribute('data-vertical',v)});
     (window.dataLayer=window.dataLayer||[]).push({event:'ob_teach',page:'lp_launch_v2',page_variant:'v2',vertical:v});
   })});
+})();
+</script>
+<script>
+(function(){
+  /* YouTube loads only on tap: no YouTube scripts or iframe on page load. */
+  var b=document.querySelector('.vsh-reel-btn'); if(!b) return;
+  b.addEventListener('click',function(){
+    var id=b.getAttribute('data-yt'), f=document.createElement('iframe');
+    f.src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0&playsinline=1&modestbranding=1';
+    f.title='AllCoaching demo video';
+    f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.allowFullscreen=true;
+    b.parentNode.replaceChild(f,b);
+    try{(window.dataLayer=window.dataLayer||[]).push({event:'demo_video_play',page_variant:'lp_launch'});}catch(e){}
+  });
 })();
 </script>
 </body>
